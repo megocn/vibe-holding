@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "graphql",
+    "postgres"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "REST 客户端需 GraphQL 层；复杂 business logic 应放 action/handler 避免 SQL 泄露。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://hasura.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "hasura",
+  "name": "Hasura",
+  "category": "baas-platform",
+  "subcategory": "graphql",
+  "oneLiner": "Postgres schema→GraphQL 自动 · 权限/订阅 · 可自托管或 Cloud",
+  "officialUrl": "https://hasura.io",
+  "descriptionMd": "Hasura 自动从 Postgres schema 生成 GraphQL API，支持权限、订阅与 remote schema，可自托管或 Cloud，常与 Nhost 组合。\n\n已有 Postgres、希望快速暴露 type-safe API 给前端时选用；event trigger 可连 webhook/Lambda。\n\nREST 客户端需 GraphQL 层；复杂 business logic 应放 action/handler 避免 SQL 泄露。\n"
+}

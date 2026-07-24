@@ -1,0 +1,46 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "cn"
+    ]
+  },
+  "tags": [
+    "deploy",
+    "serverless",
+    "domestic"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "厂商锁定",
+    "控制台复杂度高"
+  ],
+  "updates": [],
+  "sources": [
+    "https://www.aliyun.com/product/fc"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "aliyun-fc",
+  "name": "阿里云函数计算",
+  "category": "cloud-paas",
+  "vendorId": "alibaba-cloud",
+  "oneLiner": "阿里云事件 FaaS · 按调用计费 · OSS/网关/消息深联动",
+  "descriptionMd": "阿里云函数计算是国内主流的**事件驱动 Serverless**：按调用计费，适合国内合规、低延迟、与阿里云生态（OSS、API 网关、消息）联动的后端。\n\n对标国外的 Vercel/Cloudflare Workers 时，优势在国内网络与备案友好；DX 与边缘生态相对分散。注意冷启动、并发配额与厂商锁定。\n\n事件源绑定（OSS/定时/HTTP）是核心用法；冷启动敏感路径考虑预留实例。\n",
+  "officialUrl": "https://www.aliyun.com/product/fc",
+  "rankings": [
+    {
+      "systemId": "gartner-mq-cloud",
+      "tier": "CN serverless",
+      "period": "2025–2026",
+      "note": "国内函数计算；对照阿里云在战略云象限位置",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

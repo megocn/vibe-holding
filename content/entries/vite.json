@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "bundler",
+    "frontend"
+  ],
+  "maturity": "mature",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://vite.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "vite",
+  "name": "Vite",
+  "category": "oss-toolchain",
+  "subcategory": "bundler",
+  "oneLiner": "原生 ESM 极速 HMR · 滚动打包 · Vue/React 默认 DX",
+  "descriptionMd": "Vite 基于原生 ESM 提供极速开发服务器与滚动打包，是 Vue/React 等前端的默认开发体验之一。\n\n库模式、SSR 与 Monorepo 都有成熟实践；与框架内置打包（如 Next）分工：应用框架可能封装 Vite 或自有管道。\n\n库模式与应用模式配置不同；Monorepo 下注意预构建与工作区依赖解析。\n",
+  "officialUrl": "https://vite.dev"
+}

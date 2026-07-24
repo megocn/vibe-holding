@@ -1,0 +1,73 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "react",
+    "fullstack",
+    "ssr",
+    "vibe-friendly"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "App Router 心智成本高",
+    "非 Vercel 部署需额外配置",
+    "async params 等破坏性变更需 codemod"
+  ],
+  "currentVersion": "16",
+  "updates": [
+    {
+      "date": "2025-10-21",
+      "type": "release",
+      "version": "16",
+      "summary": "Turbopack 默认打包器；Cache Components / React 19.2；新项目默认心智，自定义 webpack 需显式 opt-out",
+      "source": "https://nextjs.org/blog/next-16"
+    },
+    {
+      "date": "2024-10-21",
+      "type": "release",
+      "version": "15",
+      "summary": "App Router 为主线；Turbopack 可用但未默认；维护线仍活跃（15.5 LTS）",
+      "source": "https://nextjs.org/blog"
+    }
+  ],
+  "sources": [
+    "https://nextjs.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "nextjs",
+  "name": "Next.js",
+  "category": "fw-fullstack",
+  "subcategory": "fullstack",
+  "vendorId": "vercel-inc",
+  "oneLiner": "React 元框架 · SSR/SSG/RSC · Vercel 一等 · Active LTS 16.x",
+  "descriptionMd": "Next.js 是基于 React 的全栈元框架，支持 SSR/SSG/RSC 等模式，与 Vercel 一等集成。当前 Active LTS 为 16.x 线。\n\n多数 Vibe/Indie Web 默认起点；也可适配自托管或其他平台。注意跨大版本（App Router/Turbopack）带来的教程过时问题。\n",
+  "officialUrl": "https://nextjs.org",
+  "docsUrl": "https://nextjs.org/docs",
+  "rankings": [
+    {
+      "systemId": "state-of-js",
+      "share": 59,
+      "period": "2025 Survey",
+      "note": "元框架使用率高；正负情绪接近（+21% / −17%）",
+      "sourceUrl": "https://stateofjs.com/",
+      "asOf": "2026-07-20"
+    },
+    {
+      "systemId": "so-survey-language",
+      "tier": "Top meta-FW",
+      "period": "2025 Survey",
+      "note": "State of React 2025：React 开发者中约 80% 使用",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

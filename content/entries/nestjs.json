@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "冷启动与简单 CRUD 偏重；小项目 Express/Hono 更轻。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://nestjs.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "nestjs",
+  "name": "NestJS",
+  "category": "fw-fullstack",
+  "subcategory": "node-backend",
+  "oneLiner": "TS Angular 式 DI/模块 · 大型 Node API · GraphQL/微服务",
+  "officialUrl": "https://nestjs.com",
+  "descriptionMd": "NestJS 用 TypeScript 提供 Angular 式模块/DI/装饰器，适合大型 Node API、GraphQL 与 microservices。\n\nTS 全栈团队需要可扩展后端架构、与 TypeORM/Prisma 等企业栈集成时。\n\n冷启动与简单 CRUD 偏重；小项目 Express/Hono 更轻。\n",
+  "vendorId": "nestjs-inc"
+}

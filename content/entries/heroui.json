@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "组件数量少于 MUI；复杂 enterprise 数据组件需组合第三方。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.heroui.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "heroui",
+  "name": "HeroUI",
+  "category": "ui-kits",
+  "subcategory": "react-modern",
+  "oneLiner": "原 NextUI · Tailwind+React Aria · modern 精美 · Next 文档多",
+  "officialUrl": "https://www.heroui.com",
+  "descriptionMd": "HeroUI（原 NextUI）基于 Tailwind+React Aria，提供精美 modern 组件，与 Next.js 集成文档丰富。\n\nNext.js marketing 与 SaaS 需要现成美观 UI、又不想从零写 Tailwind 时。\n\n组件数量少于 MUI；复杂 enterprise 数据组件需组合第三方。\n",
+  "vendorId": "heroui-inc"
+}

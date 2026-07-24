@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cdn",
+    "edge",
+    "domestic"
+  ],
+  "maturity": "stable",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://edgeone.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "edgeone",
+  "name": "EdgeOne",
+  "category": "net-cdn-dns",
+  "subcategory": "cdn",
+  "vendorId": "tencent",
+  "oneLiner": "腾讯边缘安全加速 · CDN+防护 · 对标 CF 国内场景",
+  "descriptionMd": "腾讯 EdgeOne 是国内边缘安全加速产品，覆盖 CDN、防护与边缘能力，对标 Cloudflare 的部分场景。\n\n面向中国大陆用户的站点/API，常作为海外 CDN 的国内镜像层。选型看节点覆盖、套餐与和控制台复杂度，并与备案域名绑定。\n\n国内合规站点的边缘层常见选择；与源站回源协议和证书配置一起验收。\n",
+  "officialUrl": "https://edgeone.ai"
+}

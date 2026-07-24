@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "kanban",
+    "simple"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "规模化后缺乏 sprint/report；Power-Up 过多会碎片化。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://trello.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "trello",
+  "name": "Trello",
+  "category": "collab-pm",
+  "subcategory": "kanban",
+  "oneLiner": "Board/list/card 极简 · 上手快 · 轻量跟踪、规模化缺 sprint 报表",
+  "officialUrl": "https://trello.com",
+  "descriptionMd": "Trello 以 board/list/card 组织任务，上手极快，适合小团队与个人项目轻量 tracking。\n\n非软件团队或早期 startup 需要零培训 kanban 时选用 Trello。\n\n规模化后缺乏 sprint/report；Power-Up 过多会碎片化。\n",
+  "vendorId": "atlassian"
+}

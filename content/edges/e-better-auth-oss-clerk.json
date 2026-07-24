@@ -1,0 +1,10 @@
+{
+  "id": "e-better-auth-oss-clerk",
+  "from": "better-auth",
+  "to": "clerk",
+  "type": "open_source_alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

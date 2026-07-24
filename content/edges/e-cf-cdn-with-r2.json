@@ -1,0 +1,10 @@
+{
+  "id": "e-cf-cdn-with-r2",
+  "from": "cloudflare-cdn",
+  "to": "cloudflare-r2",
+  "type": "commonly_used_with",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

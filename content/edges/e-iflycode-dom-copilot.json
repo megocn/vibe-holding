@@ -1,0 +1,10 @@
+{
+  "id": "e-iflycode-dom-copilot",
+  "from": "iflycode",
+  "to": "github-copilot",
+  "type": "domestic_equivalent_of",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "e-claude-alt-gemini",
+  "from": "claude-opus",
+  "to": "gemini-pro",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

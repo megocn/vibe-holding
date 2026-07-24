@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "family"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "复杂 Agent 与长上下文任务仍应使用 frontier LLM；小模型幻觉率需评测。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://azure.microsoft.com/products/phi"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "phi",
+  "name": "Phi",
+  "category": "llm-family",
+  "subcategory": "family",
+  "oneLiner": "微软小模型 · 现至 Phi-4 · 端侧/低成本多模态推理",
+  "officialUrl": "https://azure.microsoft.com/products/phi",
+  "descriptionMd": "Phi 是 Microsoft 小型高效模型系列，当前主力为 Phi-4 系（含 reasoning / vision 变体）。\n\n边缘设备、手机端 AI、或需要极低延迟/成本的分类与提取任务；与 Azure AI 集成顺滑。\n\n复杂 Agent 与长上下文任务仍应使用 frontier LLM。\n",
+  "vendorId": "microsoft"
+}

@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "htap",
+    "analytics"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "授权与成本高于开源 PG；团队需评估 vendor lock-in 与 SQL 方言差异。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.singlestore.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "singlestore",
+  "name": "SingleStore",
+  "category": "db-relational",
+  "subcategory": "htap",
+  "oneLiner": "HTAP 行存+列存 · MySQL 协议 · 实时 analytics 一体",
+  "officialUrl": "https://www.singlestore.com",
+  "descriptionMd": "SingleStore（原 MemSQL）统一事务与分析 workload，内存行存 + 列存，兼容 MySQL 协议，面向实时 analytics。\n\n需要毫秒级 analytics 同时保留 OLTP、且数据量在 TB 级时评估；替代 ClickHouse+MySQL 双栈。\n\n授权与成本高于开源 PG；团队需评估 vendor lock-in 与 SQL 方言差异。\n"
+}

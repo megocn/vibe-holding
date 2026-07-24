@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "pm",
+    "simple"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "不适合复杂 agile metrics；与 GitHub 深度集成有限。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://basecamp.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "basecamp",
+  "name": "Basecamp",
+  "category": "collab-pm",
+  "subcategory": "work-management",
+  "oneLiner": "少即是多 · 留言板/待办/日程一体 · 固定 flat fee；拒功能膨胀",
+  "officialUrl": "https://basecamp.com",
+  "descriptionMd": "Basecamp 主张 less is more：message board、to-dos、schedule 一体，拒绝 feature bloat，固定价 flat fee。\n\n远程小团队（<50）希望减少 PM 工具复杂度、重 async 沟通时适合 Basecamp。\n\n不适合复杂 agile metrics；与 GitHub 深度集成有限。\n",
+  "vendorId": "basecamp-inc"
+}

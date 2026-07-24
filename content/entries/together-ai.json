@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "热门模型高峰 latency 波动；关键 SLA 需 reserved capacity 洽谈。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.together.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "together-ai",
+  "name": "Together AI",
+  "category": "gateway-router",
+  "subcategory": "inference-api",
+  "oneLiner": "数百开源托管 · Inference+微调+GPU 集群 · Llama/Qwen",
+  "officialUrl": "https://www.together.ai",
+  "descriptionMd": "Together AI 托管数百开源模型（Llama、Qwen 等）的高性能 inference API，并提供 fine-tuning 与 GPU 集群。\n\n不想自运维 GPU、但需开源模型 API 与微调管道的 AI 初创公司。\n\n热门模型高峰 latency 波动；关键 SLA 需 reserved capacity 洽谈。\n",
+  "vendorId": "together-ai-inc"
+}

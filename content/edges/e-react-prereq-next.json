@@ -1,0 +1,11 @@
+{
+  "id": "e-react-prereq-next",
+  "from": "react",
+  "to": "nextjs",
+  "type": "prerequisite_of",
+  "weight": 0.9,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-07-01",
+  "lastReviewed": "2026-07-20"
+}

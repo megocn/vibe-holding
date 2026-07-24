@@ -1,0 +1,10 @@
+{
+  "id": "fusionauth-auth0",
+  "from": "fusionauth",
+  "to": "auth0",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

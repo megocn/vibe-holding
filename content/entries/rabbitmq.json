@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "queue",
+    "amqp"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "高吞吐持久化不如 Kafka；集群镜像与 quorum queue 配置不当会丢消息或性能下降。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.rabbitmq.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "rabbitmq",
+  "name": "RabbitMQ",
+  "category": "db-nosql",
+  "subcategory": "queue",
+  "oneLiner": "AMQP 多 exchange 路由 · 延迟队列/federation · 传统企业消息",
+  "officialUrl": "https://www.rabbitmq.com",
+  "descriptionMd": "RabbitMQ 实现 AMQP 协议，支持多种 exchange 路由、延迟队列与 federation，是传统企业消息中间件事实标准之一。\n\n需要复杂路由、任务队列或 .NET/Java 存量集成时继续沿用；比 Kafka 更适合 request/reply 模式。\n\n高吞吐持久化不如 Kafka；集群镜像与 quorum queue 配置不当会丢消息或性能下降。\n"
+}

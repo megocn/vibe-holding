@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "suite",
+    "docs"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "Standalone 体验仍不如 Notion；guest 与 licensing 复杂。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.microsoft.com/microsoft-loop"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "microsoft-loop",
+  "name": "Microsoft Loop",
+  "category": "collab-suite",
+  "subcategory": "suite",
+  "oneLiner": "Portable 组件嵌 Teams/Outlook/Word · 实时共编 · M365 扩展",
+  "officialUrl": "https://www.microsoft.com/microsoft-loop",
+  "descriptionMd": "Loop 提供 portable component 嵌入 Teams/Outlook/Word，实时 co-edit 与 task 跟踪，M365 生态扩展。\n\n公司已 M365、希望在 Teams 内嵌 living doc component 而非另开 Notion 时启用 Loop。\n\nStandalone 体验仍不如 Notion；guest 与 licensing 复杂。\n",
+  "vendorId": "microsoft"
+}

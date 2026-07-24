@@ -1,0 +1,34 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "redis",
+    "serverless"
+  ],
+  "maturity": "stable",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://upstash.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "upstash",
+  "name": "Upstash",
+  "category": "db-cache",
+  "subcategory": "serverless-data",
+  "oneLiner": "按请求 Serverless Redis+QStash 等 · 边缘/函数友好产品族",
+  "descriptionMd": "Upstash 提供按请求计费的 Serverless Redis、QStash 等，边缘与 Serverless 函数友好。\n\n适合不宜常驻 Redis 实例的架构；延迟与定价模型需按热点键实测。与自建 Redis 对照运维成本。\n\n按请求计费匹配突发流量；热 key 与大 value 仍可能把账单打满，需监控。\n",
+  "officialUrl": "https://upstash.com"
+}

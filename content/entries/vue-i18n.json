@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "i18n",
+    "vue"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "大型 monorepo 多 package 共享 key 需 discipline；SSR locale 检测与 SEO hreflang 要额外配置。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://vue-i18n.intlify.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "vue-i18n",
+  "name": "Vue I18n",
+  "category": "global-i18n",
+  "subcategory": "library",
+  "oneLiner": "Vue 生态标准 · composition API · 日期数字格式化/懒加载",
+  "officialUrl": "https://vue-i18n.intlify.dev",
+  "descriptionMd": "Vue I18n 是 Vue 生态标准 i18n，支持 composition API、datetime/number 格式化与 lazy loading locale。\n\nNuxt/Vue 项目需要官方维护、文档中文友好的 i18n 时默认选择；与 @nuxtjs/i18n 模块集成。\n\n大型 monorepo 多 package 共享 key 需 discipline；SSR locale 检测与 SEO hreflang 要额外配置。\n"
+}

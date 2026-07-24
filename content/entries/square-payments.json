@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "payments",
+    "pos"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "开发者 API 与 subscription 不如 Stripe 灵活；国际化限于部分英语市场。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://squareup.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "square-payments",
+  "name": "Square",
+  "category": "pay-processor",
+  "subcategory": "pos",
+  "oneLiner": "SMB POS+线上一体 · checkout/invoice/Banking · 零售餐饮向",
+  "officialUrl": "https://squareup.com",
+  "descriptionMd": "Square 提供 POS、在线 checkout、invoice 与 Square Banking，适合 SMB retail 与 F&B 一体化收款。\n\n线下门店 + 简单 online store 需要同一 vendor 时选用；美国 SMB 普及率高。\n\n开发者 API 与 subscription 不如 Stripe 灵活；国际化限于部分英语市场。\n"
+}

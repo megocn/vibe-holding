@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "与 LangChain 生态节点不互通；国内社区资源相对少。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://haystack.deepset.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "haystack",
+  "name": "Haystack",
+  "category": "ai-rag",
+  "subcategory": "nlp-pipeline",
+  "oneLiner": "modular retriever+reader 管线 · 多 vector DB+eval · enterprise 可选",
+  "officialUrl": "https://haystack.deepset.ai",
+  "descriptionMd": "Haystack 提供 modular pipeline（retriever+reader+generator），支持多种 vector DB 与 eval，enterprise 版可选。\n\n需要清晰 pipeline 抽象、on-prem RAG、或欧洲数据合规的 NLP 项目。\n\n与 LangChain 生态节点不互通；国内社区资源相对少。\n",
+  "vendorId": "deepset"
+}

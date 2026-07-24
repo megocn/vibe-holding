@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "payments",
+    "gateway"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "亚太本地 PM 覆盖需对照清单；文档与 sandbox 体验因团队而异。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.checkout.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "checkout-com",
+  "name": "Checkout.com",
+  "category": "pay-processor",
+  "subcategory": "gateway",
+  "oneLiner": "中东/欧洲强 · 现代 API+fraud · marketplace payout",
+  "officialUrl": "https://www.checkout.com",
+  "descriptionMd": "Checkout.com 提供卡支付、APM 与 fraud 工具，API 现代，在中东与欧洲 strong，支持 marketplace payout。\n\n需要 alternative to Stripe 于特定 region、或 high volume 卡处理议价时评估。\n\n亚太本地 PM 覆盖需对照清单；文档与 sandbox 体验因团队而异。\n",
+  "vendorId": "checkout-com-inc"
+}

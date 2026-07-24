@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "wiki",
+    "docs"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "搜索与 editor 体验弱于 Notion；macro 页面维护成本高。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.atlassian.com/software/confluence"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "confluence",
+  "name": "Confluence",
+  "category": "collab-docs",
+  "subcategory": "wiki",
+  "oneLiner": "Jira 同源 · 空间/模板/权限 · 企业 wiki/PRD/runbook 标准仓",
+  "officialUrl": "https://www.atlassian.com/software/confluence",
+  "descriptionMd": "Confluence 与 Jira 同源，提供空间、模板与权限，存 PRD/runbook/会议纪要。\n\n已买 Atlassian 套件、工程文档要与 Jira issue 互链时默认 wiki。\n\n搜索与 editor 体验弱于 Notion；macro 页面维护成本高。\n",
+  "vendorId": "atlassian"
+}

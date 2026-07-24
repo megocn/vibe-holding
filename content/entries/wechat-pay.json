@@ -1,0 +1,45 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "cn"
+    ]
+  },
+  "tags": [
+    "payment",
+    "domestic"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "需商户号与资质",
+    "对接文档分散"
+  ],
+  "updates": [],
+  "sources": [
+    "https://pay.weixin.qq.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "wechat-pay",
+  "name": "微信支付",
+  "category": "pay-processor",
+  "vendorId": "tencent",
+  "oneLiner": "国内微信生态主支付 · 公众号/小程序/APP · 商户号资质关键",
+  "descriptionMd": "微信支付覆盖公众号、小程序、APP 等国内主支付场景，用户覆盖广。\n\n国内 C 端变现几乎必评；商户号、类目与结算周期是商务关键。出海收款不靠微信支付替代 Stripe/MoR。\n\n小程序内支付体验最佳；H5/APP 场景注意授权域名与开放标签限制。\n",
+  "officialUrl": "https://pay.weixin.qq.com",
+  "rankings": [
+    {
+      "systemId": "builtwith-payments",
+      "tier": "CN duopoly",
+      "period": "2026",
+      "note": "国内移动支付双寡头之一",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

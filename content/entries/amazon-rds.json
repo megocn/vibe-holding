@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "aws",
+    "managed"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "Serverless v2 伸缩有冷启动；跨 region 读副本延迟与 failover RTO 要演练，成本随实例规格线性上升。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://aws.amazon.com/rds"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "amazon-rds",
+  "name": "Amazon RDS",
+  "category": "db-relational",
+  "subcategory": "managed",
+  "oneLiner": "AWS 托管多引擎 · Multi-AZ/读副本/自动备份 · 传统 SQL 主力",
+  "officialUrl": "https://aws.amazon.com/rds",
+  "descriptionMd": "RDS 托管 MySQL、PostgreSQL、MariaDB、SQL Server 等，自动备份、Multi-AZ 与读副本，是 AWS 上传统 SQL 主力。\n\n已在 AWS、需要合规备份与 VPC 内数据库且不想自管补丁时默认选择；与 Lambda/ECS 经典组合。\n\nServerless v2 伸缩有冷启动；跨 region 读副本延迟与 failover RTO 要演练，成本随实例规格线性上升。\n",
+  "vendorId": "amazon-web-services"
+}

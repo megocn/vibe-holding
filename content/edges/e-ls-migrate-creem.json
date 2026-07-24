@@ -1,0 +1,10 @@
+{
+  "id": "e-ls-migrate-creem",
+  "from": "lemonsqueezy",
+  "to": "creem",
+  "type": "migration_path_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

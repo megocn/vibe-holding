@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "生态较新；复杂 graph workflow 需与 LangGraph 等组合。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://ai.pydantic.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "pydantic-ai",
+  "name": "Pydantic AI",
+  "category": "ai-agent-fw",
+  "subcategory": "typed-agent",
+  "oneLiner": "typed agent · structured output · DI · Pydantic 团队出品",
+  "officialUrl": "https://ai.pydantic.dev",
+  "descriptionMd": "Pydantic AI 由 Pydantic 团队出品，提供 typed agent、structured output 与 dependency injection，DX 现代。\n\nPython 后端已全面采用 Pydantic v2、需要可靠 structured LLM output 的 Agent 服务。\n\n生态较新；复杂 graph workflow 需与 LangGraph 等组合。\n",
+  "vendorId": "pydantic"
+}

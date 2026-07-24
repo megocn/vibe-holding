@@ -1,0 +1,10 @@
+{
+  "id": "edge-tencent-sms-twilio-domestic-equivalent-of",
+  "from": "tencent-sms",
+  "to": "twilio",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

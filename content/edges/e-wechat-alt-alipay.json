@@ -1,0 +1,10 @@
+{
+  "id": "e-wechat-alt-alipay",
+  "from": "wechat-pay",
+  "to": "alipay",
+  "type": "alternative_to",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

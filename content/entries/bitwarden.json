@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "passwords"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "自托管需维护；紧急 access 与 offboarding 流程要制度化。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://bitwarden.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "bitwarden",
+  "name": "Bitwarden",
+  "category": "sec-secrets",
+  "subcategory": "password-manager",
+  "oneLiner": "个人/团队 vault · secrets+SSO · 可自托管 · 价低于 1Password",
+  "officialUrl": "https://bitwarden.com",
+  "descriptionMd": "Bitwarden 提供个人/团队密码 vault、secrets manager 与 SSO，可自托管，价格低于 1Password。\n\n团队共享 infra/login 凭证、或开发者需要安全密码库时采用；可替代 spreadsheet 存密。\n\n自托管需维护；紧急 access 与 offboarding 流程要制度化。\n",
+  "vendorId": "bitwarden-inc"
+}

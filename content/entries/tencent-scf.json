@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "serverless",
+    "tencent"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "冷启动与并发配额需申请；调试体验不如 Vercel，跨境访问与备案要求要前置评估。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://cloud.tencent.com/product/scf"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "tencent-scf",
+  "name": "腾讯云 SCF",
+  "category": "cloud-paas",
+  "subcategory": "serverless",
+  "oneLiner": "事件/HTTP 触发 · COS/网关/TDSQL 联动 · 国内合规 FaaS",
+  "officialUrl": "https://cloud.tencent.com/product/scf",
+  "descriptionMd": "腾讯云 Serverless Cloud Function 支持事件驱动与 HTTP 触发，与 COS、API 网关、TDSQL 集成，是国内合规 Serverless 主力之一。\n\n业务必须部署在境内、需与微信生态/腾讯云其他产品联动时选用；轻量 API 与定时任务成本可控。\n\n冷启动与并发配额需申请；调试体验不如 Vercel，跨境访问与备案要求要前置评估。\n",
+  "vendorId": "tencent-cloud"
+}

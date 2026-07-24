@@ -1,0 +1,10 @@
+{
+  "id": "edge-jest-testing-library-commonly-used-with",
+  "from": "jest",
+  "to": "testing-library",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

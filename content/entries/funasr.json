@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "asr",
+    "stt",
+    "open-source",
+    "self-hosted"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "需自备 GPU/运维；实时全双工对话体验仍可能不如云端 S2S。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/modelscope/FunASR"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "domestic",
+  "id": "funasr",
+  "name": "FunASR",
+  "category": "ai-speech",
+  "subcategory": "asr",
+  "oneLiner": "开源工业 ASR · 达摩院 · 可自托管",
+  "officialUrl": "https://github.com/modelscope/FunASR",
+  "descriptionMd": "FunASR 是面向生产的开源语音识别工具包（ModelScope/达摩院生态），支持标点、时间戳、说话人等，适合私有化转写与中文场景自托管。\n\n数据不能出域、或要自建中文 ASR 服务时优先评估；可与开源 TTS 组成私有管线。\n\n需自备 GPU/运维；实时全双工对话体验仍可能不如云端 S2S。\n",
+  "vendorId": "alibaba-cloud",
+  "githubUrl": "https://github.com/modelscope/FunASR"
+}

@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "family"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "消费级 chat 体验不如 ChatGPT；定价面向企业，个人开发者成本偏高。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://cohere.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "cohere",
+  "name": "Command",
+  "category": "llm-family",
+  "subcategory": "family",
+  "oneLiner": "企业 RAG/检索+embedding 一体 · 现至 Command A+ · 隐私/私有云",
+  "officialUrl": "https://cohere.com",
+  "descriptionMd": "Cohere 提供 Command 系列模型，当前旗舰为 Command A+，专注企业 RAG、检索增强与多语言 embedding。\n\n企业搜索、知识库问答、需要成熟 embed + rerank + generate 全栈的 B2B 场景。\n\n消费级 chat 体验可能不如 ChatGPT；定价面向企业。\n",
+  "vendorId": "cohere-inc"
+}

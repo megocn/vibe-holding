@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "默认 theme 需定制避免「Prime 脸」；bundle 较大需按需 import。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://primevue.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "primevue",
+  "name": "PrimeVue",
+  "category": "ui-kits",
+  "subcategory": "vue-rich",
+  "oneLiner": "90+ 含高级表格/图 · PrimeTek 跨 React/Angular · 组件面宽",
+  "officialUrl": "https://primevue.org",
+  "descriptionMd": "PrimeVue 提供 90+ 组件含 advanced datatable、chart、galleria，PrimeTek 同时维护 React/Angular 版。\n\nVue enterprise 需要复杂 datatable/tree/chart 一体、愿付费 Prime 支持时。\n\n默认 theme 需定制避免「Prime 脸」；bundle 较大需按需 import。\n",
+  "vendorId": "primefaces"
+}

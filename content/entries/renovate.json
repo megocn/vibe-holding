@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "dependencies",
+    "security"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "自动 major 升级可能破坏构建；需配合 CI 与 auto-merge 策略谨慎开启。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://docs.renovatebot.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "renovate",
+  "name": "Renovate",
+  "category": "oss-toolchain",
+  "subcategory": "deps",
+  "oneLiner": "依赖升级开 PR · grouping/schedule · 可配置强于 Dependabot",
+  "officialUrl": "https://docs.renovatebot.com",
+  "descriptionMd": "Renovate 扫描依赖并开 PR 升级，支持 grouping、schedule 与 Monorepo 范围，比 Dependabot 可配置性更强。\n\n依赖面大的 SaaS/开源项目希望持续安全补丁、又控制 PR 噪音时启用（可限定 major 手动）。\n\n自动 major 升级可能破坏构建；需配合 CI 与 auto-merge 策略谨慎开启。\n"
+}

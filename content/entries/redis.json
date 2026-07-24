@@ -1,0 +1,54 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cache",
+    "kv",
+    "oss"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "内存成本",
+    "持久化策略需设计"
+  ],
+  "updates": [],
+  "sources": [
+    "https://redis.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "redis",
+  "name": "Redis",
+  "category": "db-cache",
+  "vendorId": "redis-ltd",
+  "oneLiner": "丰富数据结构 · 缓存/会话/队列/限流/排行榜底座 · 事实标准",
+  "descriptionMd": "Redis 是内存数据结构存储，常作缓存、会话、队列、限流与实时排行榜底座。\n\n几乎每条高并发链路的标配；托管可选 Upstash（Serverless）或云厂商。注意持久化策略与热 key。\n\n先明确是缓存还是主存：持久化与淘汰策略决定能否当队列/会话源。\n",
+  "officialUrl": "https://redis.io",
+  "rankings": [
+    {
+      "systemId": "db-engines",
+      "rank": 8,
+      "score": 153.81,
+      "scoreLabel": "153.81 pts",
+      "period": "2026-07",
+      "sourceUrl": "https://db-engines.com/en/ranking",
+      "asOf": "2026-07-20"
+    },
+    {
+      "systemId": "so-survey-language",
+      "share": 28,
+      "period": "2025 Survey",
+      "note": "缓存/KV 品类默认选择",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

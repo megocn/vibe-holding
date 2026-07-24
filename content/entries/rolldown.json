@@ -1,0 +1,34 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "bundler"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "API 与插件生态仍在建设；生产默认仍应使用成熟 Rollup/esbuild 路径。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://rolldown.rs"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "rolldown",
+  "name": "Rolldown",
+  "category": "oss-toolchain",
+  "subcategory": "bundler",
+  "oneLiner": "Vite 系 Rust 重写 · 统一 dev/prod 管道 · 生态建设中",
+  "officialUrl": "https://rolldown.rs",
+  "descriptionMd": "Rolldown 是 Vite 团队用 Rust 重写的 bundler，目标统一 dev/prod 管道并进一步提速 Vite 生态。\n\n跟踪 Vite 6+ 实验特性、或评估下一代 toolchain 时可关注；尚处快速迭代期。\n\nAPI 与插件生态仍在建设；生产默认仍应使用成熟 Rollup/esbuild 路径。\n"
+}

@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "mobile",
+    "subscriptions"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "抽成之外再加 RevenueCat 费用；Web billing 需另接 Stripe，复杂 custom offer 有限制。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.revenuecat.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "revenuecat",
+  "name": "RevenueCat",
+  "category": "pay-processor",
+  "subcategory": "mobile-sub",
+  "oneLiner": "移动订阅统一层 · Apple/Google/Stripe entitlements · 非收银台",
+  "officialUrl": "https://www.revenuecat.com",
+  "descriptionMd": "RevenueCat 统一 Apple/Google/Stripe 订阅状态，提供 SDK、analytics 与 webhook，简化 in-app purchase 与 cross-platform entitlements。\n\n移动 App 做订阅、需要跨商店 receipt 校验与 cohort 分析时几乎标配；与 App Store Connect 配合。\n\n抽成之外再加 RevenueCat 费用；Web billing 需另接 Stripe，复杂 custom offer 有限制。\n",
+  "vendorId": "revenuecat-inc"
+}

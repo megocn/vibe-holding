@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "项目较新，稳定性与扩展兼容需持续跟踪；企业 SLA 支持有限。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://voideditor.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "void-editor",
+  "name": "Void",
+  "category": "coding-ide-agent",
+  "subcategory": "native-ide",
+  "oneLiner": "开源 VS Code 分支 AI IDE · 本地模型/隐私优先 · Cursor 交互近似",
+  "officialUrl": "https://voideditor.com",
+  "descriptionMd": "Void 是基于 VS Code 开源分支的 AI 原生 IDE，强调隐私、本地模型支持与 Cursor 类似的 Agent 交互体验。\n\n关注数据主权、希望本地 Ollama/LM Studio 驱动编码 Agent 的个人开发者可试用。\n\n项目较新，稳定性与扩展兼容需持续跟踪；企业 SLA 支持有限。\n",
+  "vendorId": "void-editor-inc"
+}

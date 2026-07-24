@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "errors",
+    "self-hosted"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "功能与性能不及官方 Sentry；部分 SDK 特性可能不兼容。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://glitchtip.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "glitchtip",
+  "name": "Glitchtip",
+  "category": "obs-errors",
+  "subcategory": "error-tracking",
+  "oneLiner": "Sentry 协议子集 · 可自托管 · 降官方账单的轻量替代",
+  "officialUrl": "https://glitchtip.com",
+  "descriptionMd": "Glitchtip 实现 Sentry 协议子集，可自托管错误监控，适合希望降低 Sentry 账单的场景。\n\n已有 Sentry SDK 集成、但希望私有化部署或轻量替代时可迁移评估。\n\n功能与性能不及官方 Sentry；部分 SDK 特性可能不兼容。\n"
+}

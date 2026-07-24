@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cms",
+    "headless"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "Realtime 与 auth 插件不如 Supabase 一体；大文件与 workflow 需额外集成。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://directus.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "directus",
+  "name": "Directus",
+  "category": "baas-platform",
+  "subcategory": "headless-cms",
+  "oneLiner": "现有 SQL→Headless CMS · REST/GraphQL · Admin 可配包装层",
+  "officialUrl": "https://directus.io",
+  "descriptionMd": "Directus 将现有 SQL 数据库包装为 Headless CMS 与 REST/GraphQL API，Admin App 可配置，适合内容与业务数据混合。\n\n已有数据库 schema、需要运营后台且不想迁移到 Strapi 时选用；self-host 友好。\n\nRealtime 与 auth 插件不如 Supabase 一体；大文件与 workflow 需额外集成。\n"
+}

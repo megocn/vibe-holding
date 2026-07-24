@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "纯 API 调用场景用 Together 更简单；平台复杂度适合 MLOps 成熟团队。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.anyscale.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "anyscale",
+  "name": "Anyscale",
+  "category": "gateway-router",
+  "subcategory": "ray-platform",
+  "oneLiner": "Ray 分布式 · Fine-tune/批推理编排 · MLOps 平台非纯 API",
+  "officialUrl": "https://www.anyscale.com",
+  "descriptionMd": "Anyscale 基于 Ray 提供分布式 training/inference 平台，适合 LLM fine-tune 与大规模 batch 推理编排。\n\n已有 Ray 投资、需要弹性 GPU 集群跑 training 或 offline inference pipeline。\n\n纯 API 调用场景用 Together 更简单；平台复杂度适合 MLOps 成熟团队。\n",
+  "vendorId": "anyscale-inc"
+}

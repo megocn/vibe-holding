@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "又一层网络 hop；敏感 payload 需确认 retention 与加密策略。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.helicone.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "helicone",
+  "name": "Helicone",
+  "category": "ai-llm-obs",
+  "subcategory": "llm-proxy-obs",
+  "oneLiner": "请求代理中间层 · latency/cost/token+cache · SDK 接入简单",
+  "officialUrl": "https://www.helicone.ai",
+  "descriptionMd": "Helicone 作为 LLM 请求代理，记录 latency/cost/token、提供 cache 与 prompt 管理，SDK 集成简单。\n\n需要比自建日志更完整的 LLM ops dashboard、又不想换 gateway vendor 时加一层 proxy。\n\n又一层网络 hop；敏感 payload 需确认 retention 与加密策略。\n",
+  "vendorId": "helicone-ai"
+}

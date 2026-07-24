@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "mobile",
+    "ci"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "纯 Web 项目不划算；构建分钟数随 team 增长，高级 signing 在 enterprise plan。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://codemagic.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "codemagic",
+  "name": "Codemagic",
+  "category": "dist-ios",
+  "subcategory": "ci",
+  "oneLiner": "macOS 云构建 · Flutter/iOS 签名+商店发布 · YAML 简洁",
+  "officialUrl": "https://codemagic.io",
+  "descriptionMd": "Codemagic 为 Flutter、iOS、Android 提供 macOS 构建器、代码签名与 TestFlight/Play 发布，配置 YAML 简洁。\n\nFlutter 或多 mobile 仓库需要可靠 macOS CI 而不想自管 Mac mini 时选用；比通用 GA 省心。\n\n纯 Web 项目不划算；构建分钟数随 team 增长，高级 signing 在 enterprise plan。\n"
+}

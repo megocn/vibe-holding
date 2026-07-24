@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "不适合大规模并发 serving；生产集群更常用 vLLM/TGI。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/ggerganov/llama.cpp"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "llama-cpp",
+  "name": "llama.cpp",
+  "category": "gateway-local",
+  "subcategory": "local-runtime",
+  "oneLiner": "C++ 量化推理 · CPU/GPU/Apple Silicon · 本地/边缘事实标准",
+  "officialUrl": "https://github.com/ggerganov/llama.cpp",
+  "descriptionMd": "llama.cpp 是轻量级 C/C++ LLM 推理项目，支持 CPU/GPU 量化与 Apple Silicon，是本地与边缘部署的事实标准之一。\n\n个人开发者 Mac/PC 本地跑模型、或嵌入式/无 GPU 服务器需要 GGUF 量化推理时。\n\n不适合大规模并发 serving；生产集群更常用 vLLM/TGI。\n",
+  "vendorId": "ggml-org"
+}

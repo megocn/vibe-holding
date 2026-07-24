@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "生态 middleware 数量仍少于 Express；团队习惯 Express API 需适应。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://fastify.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "fastify",
+  "name": "Fastify",
+  "category": "fw-fullstack",
+  "subcategory": "node-backend",
+  "oneLiner": "Schema 校验 · 低开销 JSON · plugin 清晰 · 快于 Express",
+  "officialUrl": "https://fastify.dev",
+  "descriptionMd": "Fastify 强调 schema-based validation 与低开销 JSON 序列化，plugin 架构清晰，benchmark 优于 Express。\n\n高 QPS Node API、需要 JSON schema 文档与 hooks 体系的 microservice。\n\n生态 middleware 数量仍少于 Express；团队习惯 Express API 需适应。\n",
+  "vendorId": "fastify-team"
+}

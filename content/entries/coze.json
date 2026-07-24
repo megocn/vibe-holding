@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "深度 custom code 与复杂 RAG pipeline 受限；enterprise 数据合规需选国内版。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.coze.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "both",
+  "id": "coze",
+  "name": "Coze",
+  "category": "ai-agent-fw",
+  "subcategory": "bot-platform",
+  "oneLiner": "零代码 Bot · 插件市场 · 多渠道发布 · 国内外版运营向",
+  "officialUrl": "https://www.coze.com",
+  "descriptionMd": "Coze（扣子）提供零代码 Bot 构建、插件市场与多渠道发布，支持国内外版本，适合运营向 chatbot。\n\n国内 ToC Bot、企微/飞书接入、或产品/运营主导的快速 bot 迭代。\n\n深度 custom code 与复杂 RAG pipeline 受限；enterprise 数据合规需选国内版。\n",
+  "vendorId": "coze-inc"
+}

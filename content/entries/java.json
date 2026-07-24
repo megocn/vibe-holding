@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "启动与内存占用高于 Go/Rust；新项目若追求极致云原生轻量需评估 Quarkus 等。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.oracle.com/java"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "java",
+  "name": "Java",
+  "category": "lang-language",
+  "subcategory": "general-purpose",
+  "oneLiner": "JVM 底座 · Spring 企业栈 · 人才库与长期稳定",
+  "officialUrl": "https://www.oracle.com/java",
+  "descriptionMd": "Java 是 JVM 生态核心语言，以稳定性、成熟框架（Spring）与庞大人才库著称，长期主导银行、电商与企业后端。\n\n大型企业后端、Android 历史项目、需要强类型与成熟监控体系时仍是稳妥选择。\n\n启动与内存占用高于 Go/Rust；新项目若追求极致云原生轻量需评估 Quarkus 等。\n",
+  "vendorId": "oracle-java"
+}

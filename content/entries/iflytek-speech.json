@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "tts",
+    "asr",
+    "domestic"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "海外语种与出海产品体验需另测；API 与套餐体系偏国内云风格，与国际语音栈接口不完全同构。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.xfyun.cn"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "domestic",
+  "id": "iflytek-speech",
+  "name": "讯飞开放平台语音",
+  "category": "ai-speech",
+  "subcategory": "speech-suite",
+  "oneLiner": "国内语音老牌 · ASR/TTS · 方言与教育场景",
+  "officialUrl": "https://www.xfyun.cn",
+  "descriptionMd": "科大讯飞开放平台提供语音听写、合成、评测与方言能力，长期服务国内教育、客服与车载等语音场景。\n\n产品面向中国大陆用户、需要中文/方言识别或国内备案合规语音能力时评估。\n\n海外语种与出海产品体验需另测；API 与套餐体系偏国内云风格，与国际语音栈接口不完全同构。\n",
+  "vendorId": "iflytek"
+}

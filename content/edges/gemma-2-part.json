@@ -1,0 +1,10 @@
+{
+  "id": "gemma-2-part",
+  "from": "gemma-2",
+  "to": "gemma",
+  "type": "part_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

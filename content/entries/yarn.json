@@ -1,0 +1,34 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "package-manager"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "Berry 与部分工具链兼容需插件；新人学习成本高于 pnpm/npm classic。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://yarnpkg.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "yarn",
+  "name": "Yarn",
+  "category": "oss-toolchain",
+  "subcategory": "package-manager",
+  "oneLiner": "PnP/Berry/workspaces · 企业与开源存量常见",
+  "officialUrl": "https://yarnpkg.com",
+  "descriptionMd": "Yarn 提供 Plug'n'Play、workspaces 与 Berry 现代特性，部分企业仓库与开源项目仍深度使用。\n\n团队历史选型为 Yarn 3+、或需要 PnP 零 node_modules 部署模式时可继续。\n\nBerry 与部分工具链兼容需插件；新人学习成本高于 pnpm/npm classic。\n"
+}

@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "绑定 Vercel 生态；自托管或非 Vercel 栈收益有限。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://vercel.com/docs/ai-gateway"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "vercel-ai-gateway",
+  "name": "Vercel AI Gateway",
+  "category": "gateway-router",
+  "subcategory": "edge-gateway",
+  "oneLiner": "Next/Vercel 统一 endpoint · Key/usage 追踪 · 绑生态",
+  "officialUrl": "https://vercel.com/docs/ai-gateway",
+  "descriptionMd": "Vercel AI Gateway 为 Next.js/Vercel 应用提供统一模型 endpoint，简化多供应商 key 管理与 usage 追踪。\n\nVercel 部署的 AI SaaS、已用 vercel-ai-sdk 且希望账单集中时自然启用。\n\n绑定 Vercel 生态；自托管或非 Vercel 栈收益有限。\n",
+  "vendorId": "vercel-inc"
+}

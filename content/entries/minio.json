@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "storage",
+    "s3-compatible"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "自建 HA 与升级需运维；极端规模仍不如 hyperscaler 托管 S3 省心。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://min.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "minio",
+  "name": "MinIO",
+  "category": "db-object",
+  "subcategory": "object",
+  "oneLiner": "自托管 S3 API · K8s/私有云 · erasure coding+复制",
+  "officialUrl": "https://min.io",
+  "descriptionMd": "MinIO 提供高性能 S3 API 兼容对象存储，可 on-prem 或 K8s 部署，支持 erasure coding 与 replication，是私有云存储首选。\n\n需要 S3 API 但数据不能上公有云、或本地 dev 与生产一致时选用；AI 数据集本地缓存常见。\n\n自建 HA 与升级需运维；极端规模仍不如 hyperscaler 托管 S3 省心。\n",
+  "vendorId": "minio-inc"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "capacitor-e0",
+  "from": "capacitor",
+  "to": "react-native",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

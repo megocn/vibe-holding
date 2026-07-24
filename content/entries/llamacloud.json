@@ -1,0 +1,32 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "vendor 绑定 LlamaIndex；简单 RAG pgvector+LC 可能足够。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.llamaindex.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "llamacloud",
+  "name": "LlamaCloud",
+  "category": "ai-rag",
+  "subcategory": "managed-rag",
+  "oneLiner": "托管 parse/index/retrieve · LlamaIndex 商业层 · 省 enterprise RAG 运维",
+  "officialUrl": "https://www.llamaindex.ai",
+  "descriptionMd": "LlamaCloud 提供 managed parsing、index 与 retrieval API，是 LlamaIndex 商业托管层，简化 enterprise RAG 运维。\n\n已用 LlamaIndex 本地 POC 成功、需要 SLA 与 scalable ingest pipeline 时升级。\n\nvendor 绑定 LlamaIndex；简单 RAG pgvector+LC 可能足够。\n"
+}

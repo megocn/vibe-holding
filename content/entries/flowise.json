@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "复杂逻辑 version control 困难；生产应导出为 code 或限制在 POC。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://flowiseai.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "flowise",
+  "name": "Flowise",
+  "category": "ai-rag",
+  "subcategory": "visual-llm",
+  "oneLiner": "拖拽构建 LangChain 流 · self-host · 快速 POC",
+  "officialUrl": "https://flowiseai.com",
+  "descriptionMd": "Flowise 提供 drag-drop UI 构建 LLM chain/agent flow，底层 LangChain，可 self-host，适合 rapid POC。\n\n非工程同事参与设计 chatbot flow、或需要可视化调试 prompt chain 时。\n\n复杂逻辑 version control 困难；生产应导出为 code 或限制在 POC。\n",
+  "vendorId": "flowise-ai"
+}

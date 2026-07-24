@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "vector",
+    "search"
+  ],
+  "maturity": "stable",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [
+    {
+      "systemId": "db-engines-vector",
+      "tier": "Popular",
+      "period": "2026",
+      "asOf": "2026-07-23"
+    }
+  ],
+  "sources": [
+    "https://qdrant.tech"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "qdrant",
+  "name": "Qdrant",
+  "category": "ai-vector",
+  "subcategory": "vector",
+  "oneLiner": "开源高性能过滤检索 · 云或自托管 · 向量库主力之一",
+  "descriptionMd": "Qdrant 是高性能开源向量数据库，过滤与检索能力强，可云可自托管。\n\n当 pgvector 不够（规模、过滤、独立扩缩）时上专用向量库。注意与嵌入模型维度、距离度量一致。\n\n过滤条件 + 向量混合检索是强项；云托管适合少运维，自托管适合数据驻留。\n",
+  "officialUrl": "https://qdrant.tech"
+}

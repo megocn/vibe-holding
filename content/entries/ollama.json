@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "local",
+    "privacy"
+  ],
+  "maturity": "stable",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://ollama.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "ollama",
+  "name": "Ollama",
+  "category": "gateway-local",
+  "subcategory": "local",
+  "oneLiner": "一键拉取/本地服务 · OpenAI 兼容 API · 隐私离线试验",
+  "descriptionMd": "Ollama 让本机一键拉取并服务开源模型，适合隐私、离线与本地 Agent 试验。\n\n开发机常用；生产推理需另看 GPU 与编排。与 LM Studio（GUI）互补，与云端 API 网关是不同部署模型。\n\n本地 OpenAI 兼容接口方便接 Agent；模型更新与显存规划是日常成本。\n",
+  "officialUrl": "https://ollama.com"
+}

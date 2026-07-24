@@ -1,0 +1,34 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "python",
+    "agent",
+    "workflow"
+  ],
+  "maturity": "stable",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.langchain.com/langgraph"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "langgraph",
+  "name": "LangGraph",
+  "category": "ai-agent-fw",
+  "subcategory": "agent-framework",
+  "oneLiner": "有状态 Agent 图 · 分支/循环/人机回路 · LangChain 生态持久化",
+  "descriptionMd": "LangGraph 是 LangChain 生态的有状态 Agent **图编排**（Python 强）：分支、循环、人机回路与持久化是长项。\n\n适合复杂工作流与生产态 Agent；TS 团队可评估 Mastra。学习曲线与抽象层是主要成本，简单 RAG 不必上图。\n\n状态持久化让长任务可恢复；图太复杂时可读性下降，需文档化节点契约。\n",
+  "officialUrl": "https://www.langchain.com/langgraph"
+}

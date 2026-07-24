@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "storage",
+    "backup"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "全球延迟与 SLA 不如 S3/GCS；高频小文件 API 调用成本要建模。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.backblaze.com/b2/cloud-storage.html"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "backblaze-b2",
+  "name": "Backblaze B2",
+  "category": "db-object",
+  "subcategory": "object",
+  "oneLiner": "低价存储 · S3 兼容 · Cloudflare 联盟免 egress",
+  "officialUrl": "https://www.backblaze.com/b2/cloud-storage.html",
+  "descriptionMd": "B2 提供 S3 兼容 API 与极低存储单价，Cloudflare 联盟免 egress 到 CF，适合备份与媒体归档。\n\n预算敏感的大量冷数据、或通过 Cloudflare 分发静态资源时选用；替代 AWS Glacier 的简单方案。\n\n全球延迟与 SLA 不如 S3/GCS；高频小文件 API 调用成本要建模。\n"
+}

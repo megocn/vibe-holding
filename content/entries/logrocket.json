@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "session-replay",
+    "product"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "隐私合规（GDPR/录音遮罩）配置必须严谨；大流量账单显著。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://logrocket.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "logrocket",
+  "name": "LogRocket",
+  "category": "obs-product",
+  "subcategory": "session-replay",
+  "oneLiner": "会话录制+控制台/网络 · 定位 UX/转化异常 · 产品工程共用；隐私配置严",
+  "officialUrl": "https://logrocket.com",
+  "descriptionMd": "LogRocket 录制用户会话、控制台与网络请求，帮助产品/工程定位 UX 问题与转化漏斗异常。\n\nSaaS 产品需要 qualitative 数据补 quantitative analytics 时采用；与 GA4 互补。\n\n隐私合规（GDPR/录音遮罩）配置必须严谨；大流量账单显著。\n",
+  "vendorId": "logrocket-inc"
+}

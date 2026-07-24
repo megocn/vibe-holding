@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "streaming",
+    "events"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "运维复杂，分区与 consumer group 调优需经验；小流量用 SQS/PubSub 更简单经济。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://kafka.apache.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "kafka",
+  "name": "Apache Kafka",
+  "category": "db-nosql",
+  "subcategory": "streaming",
+  "oneLiner": "高吞吐 commit log · 事件流/CDC 解耦 · 连接器生态广",
+  "officialUrl": "https://kafka.apache.org",
+  "descriptionMd": "Kafka 是高吞吐分布式 commit log，用于事件流、CDC 与微服务解耦，Confluent/MSK 等提供托管版，生态连接器丰富。\n\n需要持久化事件流、exactly-once 语义或多消费者 replay 时选用；替代 RabbitMQ 于大数据量场景。\n\n运维复杂，分区与 consumer group 调优需经验；小流量用 SQS/PubSub 更简单经济。\n",
+  "vendorId": "confluent"
+}

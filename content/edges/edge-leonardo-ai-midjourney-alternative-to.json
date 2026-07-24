@@ -1,0 +1,10 @@
+{
+  "id": "edge-leonardo-ai-midjourney-alternative-to",
+  "from": "leonardo-ai",
+  "to": "midjourney",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

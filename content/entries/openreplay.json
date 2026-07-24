@@ -1,0 +1,34 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "session-replay"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "部署与存储成本不低；移动端支持仍在完善。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://openreplay.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "openreplay",
+  "name": "OpenReplay",
+  "category": "obs-product",
+  "subcategory": "session-replay",
+  "oneLiner": "开源 session replay · co-browsing/devtools 调试 · 可完全私有部署",
+  "officialUrl": "https://openreplay.com",
+  "descriptionMd": "OpenReplay 提供开源 session replay、co-browsing 与 devtools 式调试，可完全私有部署。\n\n对数据驻留有要求、又需要 LogRocket 类能力时首选自托管路径。\n\n部署与存储成本不低；移动端支持仍在完善。\n"
+}

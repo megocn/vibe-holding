@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "analytics",
+    "privacy"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "无深度 product analytics；复杂 funnel 请用 Mixpanel。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://usefathom.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "fathom",
+  "name": "Fathom Analytics",
+  "category": "growth-web",
+  "subcategory": "web-analytics",
+  "oneLiner": "无 Cookie 墙 · 极简 PV/来源 · 隐私友好非深度产品分析",
+  "officialUrl": "https://usefathom.com",
+  "descriptionMd": "Fathom 提供简单、无 cookie banner 需求的 analytics（视 jurisdiction），页面级 PV 与 referrers，极简 UI。\n\n个人站/小型 SaaS 需要比 Plausible 更极简、重视隐私营销叙事时可选。\n\n无深度 product analytics；复杂 funnel 请用 Mixpanel。\n",
+  "vendorId": "fathom-inc"
+}

@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "mysql",
+    "serverless"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "现已调整产品策略需关注；外键与某些 MySQL 特性受限，Postgres 团队应选 Neon。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://planetscale.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "planetscale-serverless",
+  "name": "PlanetScale",
+  "category": "db-relational",
+  "subcategory": "serverless",
+  "oneLiner": "Vitess MySQL · branching+Deploy Request · schema 变更工作流",
+  "officialUrl": "https://planetscale.com",
+  "descriptionMd": "PlanetScale 基于 Vitess 提供 MySQL 兼容、database branching 与 deploy request，适合 schema 变更 workflow 与 serverless 连接。\n\n需要 MySQL 协议 + branch 预览 schema、或 huge scale sharding 前中期时选用；与 Prisma/Drizzle 搭配。\n\n现已调整产品策略需关注；外键与某些 MySQL 特性受限，Postgres 团队应选 Neon。\n"
+}

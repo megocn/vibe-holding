@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "EUR"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "mistral",
+    "vibe",
+    "cli-agent",
+    "eu",
+    "agent"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "品牌从 Le Chat 迁到 Vibe，文档与安装入口可能仍有旧链",
+    "相对 Claude Code / Codex，中文社区资料与插件生态更薄"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://mistral.ai/products/vibe/code/"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "mistral-vibe",
+  "name": "Mistral Vibe",
+  "category": "coding-cli-agent",
+  "subcategory": "cli-agent",
+  "vendorId": "mistral-inc",
+  "oneLiner": "Mistral 编码 Agent · CLI / IDE / Web 一体",
+  "descriptionMd": "**Mistral Vibe**（含 Vibe Code；原 Le Chat 编码能力并入）提供终端 CLI、VS Code/JetBrains 扩展与 Web Code Mode：读仓、改文件、跑命令并开 PR，与 Claude Code / Codex 同层。\n\n适合已在欧洲/ Mistral 生态、或需要 EU 数据驻留叙事的团队；本地 CLI（如 `mistral-vibe` / 官方安装脚本）适合终端优先工作流。\n\n模型与套餐（Free/Pro/Team）决定长任务额度；企业可自托管，但运维与模型更新节奏要单独评估。\n",
+  "officialUrl": "https://mistral.ai/products/vibe/code/",
+  "docsUrl": "https://docs.mistral.ai/vibe/code/overview"
+}

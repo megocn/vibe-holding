@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "notes": "开发者账号约 $99/年；分成 15%/30%",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ios",
+    "macos",
+    "store"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "审核周期与拒审理由多变",
+    "国内主体上架另有资质要求"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://developer.apple.com/app-store/"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "apple-app-store",
+  "name": "Apple App Store",
+  "category": "dist-ios",
+  "subcategory": "ios",
+  "oneLiner": "iOS/macOS 主分发 · 审核/隐私清单/抽成规则",
+  "descriptionMd": "Apple App Store 是 iOS/macOS 应用的主分发渠道，伴随开发者账号、审核、隐私清单与抽成规则。\n\nIndie 上架前应用 TestFlight 做灰度；国内用户可达性好，但收款与税务需按主体规划。桌面端若走直接分发，可并列评估 GitHub Releases + 公证。\n\n审核拒绝常见于权限说明与元数据；隐私营养标签与账号删除入口是近年高频项。\n",
+  "officialUrl": "https://developer.apple.com/app-store/"
+}

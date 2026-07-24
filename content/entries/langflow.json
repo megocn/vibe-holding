@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "复杂 production workflow 仍建议 code-first；版本升级可能 break 旧 flow JSON。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.langflow.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "langflow",
+  "name": "Langflow",
+  "category": "ai-rag",
+  "subcategory": "visual-llm",
+  "oneLiner": "拖拽+可导出 Python · LangChain 组件 · 比 Flowise 更偏开发者",
+  "officialUrl": "https://www.langflow.org",
+  "descriptionMd": "Langflow 提供 drag-drop UI 构建 LLM flow，兼容 LangChain 组件，可导出 Python 代码并 self-host，比 Flowise 更偏开发者。\n\n需要可视化 prototyping 但最终要 export code 的 AI 工程师；与 LangChain 生态并用。\n\n复杂 production workflow 仍建议 code-first；版本升级可能 break 旧 flow JSON。\n",
+  "vendorId": "langchain-inc"
+}

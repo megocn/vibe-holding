@@ -1,0 +1,44 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "ide",
+    "agent"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "生态仍在快速变化"
+  ],
+  "updates": [],
+  "sources": [
+    "https://codeium.com/windsurf"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "windsurf",
+  "name": "Windsurf",
+  "category": "coding-ide-agent",
+  "subcategory": "ide-agent",
+  "vendorId": "codeium",
+  "oneLiner": "Codeium 系 Agent IDE · 级联编辑/上下文流 · Flavor A",
+  "descriptionMd": "Windsurf（Codeium）是面向 Agent 工作流的 IDE，强调级联编辑与上下文感知，属 Flavor A。\n\n与 Cursor/Copilot 同层比 Agent 完成度、定价与隐私模式。国内网络与账号策略需实测。\n\n级联编辑适合大范围重构预览；仍需人工审查与测试兜底，勿盲信一键应用。\n",
+  "officialUrl": "https://codeium.com/windsurf",
+  "rankings": [
+    {
+      "systemId": "jetbrains-ai-tools",
+      "tier": "Challenger IDE",
+      "period": "2025 Survey",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "模型清单与定价常更新；复杂 Agent 仍可能需要 frontier closed API fallback。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://fireworks.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "fireworks",
+  "name": "Fireworks AI",
+  "category": "gateway-router",
+  "subcategory": "inference-api",
+  "oneLiner": "速度优化 serving · Fast inference+微调 · Llama/Mixtral",
+  "officialUrl": "https://fireworks.ai",
+  "descriptionMd": "Fireworks AI 专注 fast inference API 与 fine-tuning，支持 Llama、Mixtral 等，强调 speed-optimized serving。\n\n需要比自托管更快上线、且 workload 以开源模型为主的 inference 场景。\n\n模型清单与定价常更新；复杂 Agent 仍可能需要 frontier closed API fallback。\n",
+  "vendorId": "fireworks-ai"
+}

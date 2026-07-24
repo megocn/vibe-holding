@@ -1,0 +1,10 @@
+{
+  "id": "react-native-e0",
+  "from": "react-native",
+  "to": "expo",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

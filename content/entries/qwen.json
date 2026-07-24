@@ -1,0 +1,47 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "family",
+    "domestic",
+    "aliyun"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "产品线名称多易混淆——先选档位再看版本"
+  ],
+  "updates": [],
+  "sources": [
+    "https://tongyi.aliyun.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "qwen",
+  "name": "通义千问",
+  "category": "llm-family",
+  "vendorId": "alibaba-cloud",
+  "oneLiner": "阿里通义族 · 现至 Qwen3.7-Max · Plus/Turbo+开源线",
+  "descriptionMd": "通义千问是阿里大模型产品族，生产旗舰以 Qwen3.7-Max 为代表，并提供 Plus/Turbo 与开源线。\n\n国内云生态广；Preview 型号（如 3.8-Max）勿当默认生产。\n\n控制台锁定版本号。\n",
+  "officialUrl": "https://tongyi.aliyun.com",
+  "rankings": [
+    {
+      "systemId": "llm-family-landscape",
+      "tier": "CN frontier",
+      "period": "2026-07",
+      "note": "族级定位；能力对比请打开下属选型档位",
+      "asOf": "2026-07-23"
+    }
+  ],
+  "subcategory": "family"
+}

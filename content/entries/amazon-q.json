@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "非 AWS 技术栈收益有限；企业合规需确认数据是否用于模型训练及区域可用性。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://aws.amazon.com/q/developer"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "amazon-q",
+  "name": "Amazon Q Developer",
+  "category": "coding-ide-agent",
+  "subcategory": "cloud-copilot",
+  "oneLiner": "AWS 控制台/IDE 深集成 · IaC 与云 API 上下文 · 安全扫描同框",
+  "officialUrl": "https://aws.amazon.com/q/developer",
+  "descriptionMd": "Amazon Q Developer 集成于 JetBrains/VS Code 与 AWS 控制台，提供代码补全、安全扫描与基础设施代码建议，深度理解 AWS API。\n\n重度 AWS 用户、需要在 IaC 与应用代码间获得上下文感知建议的云端团队优先考虑。\n\n非 AWS 技术栈收益有限；企业合规需确认数据是否用于模型训练及区域可用性。\n",
+  "vendorId": "amazon"
+}

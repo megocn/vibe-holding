@@ -1,0 +1,10 @@
+{
+  "id": "edge-imagen-mj-alt",
+  "from": "google-imagen",
+  "to": "midjourney",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

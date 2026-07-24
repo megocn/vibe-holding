@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "b2b",
+    "sso"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "仅 B2B 场景；C 端社交登录不是强项，按连接数与企业功能计费。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://workos.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "workos",
+  "name": "WorkOS",
+  "category": "baas-auth-only",
+  "subcategory": "b2b",
+  "oneLiner": "企业 SSO/Directory Sync · Admin Portal/Audit · B2B 卖进企业专精",
+  "officialUrl": "https://workos.com",
+  "descriptionMd": "WorkOS 提供 Enterprise SSO（SAML/OIDC）、Directory Sync、Admin Portal 与 Audit Logs，专为 B2B SaaS 卖进企业设计。\n\nSaaS 需要对接客户 Okta/Azure AD、或卖 Fortune500 合规 checklist 时几乎必选；与 Auth.js/Clerk 可并存。\n\n仅 B2B 场景；C 端社交登录不是强项，按连接数与企业功能计费。\n",
+  "vendorId": "workos-inc"
+}

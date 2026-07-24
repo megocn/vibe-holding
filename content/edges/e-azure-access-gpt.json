@@ -1,0 +1,10 @@
+{
+  "id": "e-azure-access-gpt",
+  "from": "azure-openai",
+  "to": "gpt-4o",
+  "type": "provides_access_to",
+  "weight": 0.9,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

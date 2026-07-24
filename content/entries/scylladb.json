@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "nosql",
+    "cassandra-compatible"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "运维仍需 distributed systems 经验；小数据量不如 Postgres 经济.simple 查询过度。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.scylladb.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "scylladb",
+  "name": "ScyllaDB",
+  "category": "db-nosql",
+  "subcategory": "wide-column",
+  "oneLiner": "Cassandra CQL 兼容 · 单节点高吞吐 · IoT/feed/宽表",
+  "officialUrl": "https://www.scylladb.com",
+  "descriptionMd": "ScyllaDB 兼容 Cassandra CQL，单节点吞吐高于 JVM Cassandra，适合 IoT、feed 与时序 wide-column 负载。\n\nCassandra 存量遇性能瓶颈、希望降 latency 且不改 CQL 时迁移 Scylla；K8s Operator 成熟。\n\n运维仍需 distributed systems 经验；小数据量不如 Postgres 经济.simple 查询过度。\n"
+}

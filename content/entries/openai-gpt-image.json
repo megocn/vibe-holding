@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "image",
+    "openai"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "艺术风格上限常低于 Midjourney；国内直连受限；内容策略与拒图规则需适配产品 UX。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://platform.openai.com/docs/guides/images"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "openai-gpt-image",
+  "name": "GPT Image / DALL·E",
+  "category": "design-ai-image",
+  "subcategory": "image-gen",
+  "oneLiner": "OpenAI 文生图 · ChatGPT/API · 生态一体",
+  "officialUrl": "https://platform.openai.com/docs/guides/images",
+  "descriptionMd": "OpenAI 图像生成线（历史上 DALL·E，现多以 GPT Image / Images API 形态演进）与 ChatGPT、API 深度集成，适合产品内嵌出图与助手配图。\n\n已用 OpenAI 栈、需要对话式改图或简单营销图时的默认选项；与 Midjourney 比更偏 API/产品集成。\n\n艺术风格上限常低于 Midjourney；国内直连受限；内容策略与拒图规则需适配产品 UX。\n",
+  "vendorId": "openai",
+  "docsUrl": "https://platform.openai.com/docs/guides/images"
+}

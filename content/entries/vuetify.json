@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "Material 视觉固定；与 Tailwind utility-first  workflow 冲突。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://vuetifyjs.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "vuetify",
+  "name": "Vuetify",
+  "category": "ui-kits",
+  "subcategory": "vue-material",
+  "oneLiner": "Vue Material 最成熟 · Vuetify 3 完整 enterprise 组件",
+  "officialUrl": "https://vuetifyjs.com",
+  "descriptionMd": "Vuetify 是 Vue 生态最成熟的 Material Design 组件库，提供 Vuetify 3 + Vue 3 完整 enterprise 组件。\n\nVue 企业 admin、需要 datatable/dialog 等开箱即用 Material 组件时。\n\nMaterial 视觉固定；与 Tailwind utility-first  workflow 冲突。\n",
+  "vendorId": "vuetify-team"
+}

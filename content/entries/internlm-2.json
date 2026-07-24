@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "企业 SLA 与商业 API 需通过合作方；国际英文 benchmark 需对照评测。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://internlm.intern-ai.org.cn"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "internlm-2",
+  "name": "InternLM3",
+  "category": "llm-line",
+  "subcategory": "line",
+  "oneLiner": "书生开源主力 · InternLM3 · 推理/代码工具链",
+  "officialUrl": "https://internlm.intern-ai.org.cn",
+  "descriptionMd": "InternLM（书生）开源主力 line。当前版本为 InternLM3（如 InternLM3-8B-Instruct）；InternLM2 为上一代。\n\n科研、国产化算力环境、或需要可复现论文基座的国内团队。\n\n企业 SLA 与商业 API 需通过合作方；国际英文 benchmark 需对照评测。\n",
+  "vendorId": "shanghai-ai-lab",
+  "currentVersion": "3"
+}

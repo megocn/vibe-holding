@@ -1,0 +1,10 @@
+{
+  "id": "edge-stable-diffusion-midjourney-open-source-alternative-to",
+  "from": "stable-diffusion",
+  "to": "midjourney",
+  "type": "open_source_alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

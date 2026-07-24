@@ -1,0 +1,45 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "oss",
+    "extension",
+    "bring-your-model"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "体验依赖所选模型质量"
+  ],
+  "updates": [],
+  "sources": [
+    "https://continue.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "continue",
+  "name": "Continue",
+  "category": "coding-ide-agent",
+  "subcategory": "extension",
+  "vendorId": "continue-dev",
+  "oneLiner": "开源可组装 · 任意模型后端 · 非订阅锁仓工具箱",
+  "descriptionMd": "Continue 是开源 IDE 扩展（VS Code / JetBrains），可接任意模型与自定义 Agent，强调可自托管、可组装。\n\n适合已有模型渠道、希望避开单一 AI IDE 订阅的团队。体验取决于你接的模型与规则质量；相对 Cursor 等「产品完整度」更偏工具箱。\n\n可接本地 Ollama 做隐私优先；规则与上下文质量决定体验上限。\n",
+  "officialUrl": "https://continue.dev",
+  "rankings": [
+    {
+      "systemId": "jetbrains-ai-tools",
+      "tier": "Open scaffold",
+      "period": "2025 Survey",
+      "note": "开源续写/Agent 插件，可自选模型",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

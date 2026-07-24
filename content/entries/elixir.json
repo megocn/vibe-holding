@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "人才池小于 Java/Go；纯 CRUD 业务 ROI 可能不如 Rails。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://elixir-lang.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "elixir",
+  "name": "Elixir",
+  "category": "lang-language",
+  "subcategory": "beam-concurrent",
+  "oneLiner": "BEAM/OTP 容错 · Phoenix 实时 · 高并发消息向",
+  "officialUrl": "https://elixir-lang.org",
+  "descriptionMd": "Elixir 构建在 Erlang VM 上，提供 fault-tolerant 并发与 Phoenix 框架，适合 real-time 与高可用系统。\n\n聊天、实时协作、IoT  hub、需要百万连接 soft real-time 的后端。\n\n人才池小于 Java/Go；纯 CRUD 业务 ROI 可能不如 Rails。\n",
+  "vendorId": "elixir-lang"
+}

@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ci",
+    "sdk"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "相对新、生态小；团队需接受 SDK 范式 shift。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://dagger.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "dagger",
+  "name": "Dagger",
+  "category": "cicd-pipeline",
+  "subcategory": "build",
+  "oneLiner": "SDK 写 pipeline · 本地与 CI 同代码 · 告别难测 YAML",
+  "officialUrl": "https://dagger.io",
+  "descriptionMd": "Dagger 用 Python/Go/TS 编写 pipeline，在本地容器与 CI 中同一套代码运行，解决 shell YAML 难测试问题。\n\n希望 pipeline 可单元测试、跨 GitHub/GitLab CI 复用时评估 Dagger。\n\n相对新、生态小；团队需接受 SDK 范式 shift。\n"
+}

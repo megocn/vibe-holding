@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ui",
+    "react",
+    "cloud-builder"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "偏单次 UI 生成，不是完整工程 Agent"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://v0.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "v0",
+  "name": "v0",
+  "category": "coding-cloud-builder",
+  "subcategory": "cloud-builder",
+  "vendorId": "vercel-inc",
+  "oneLiner": "Vercel UI 原语 · 描述→React+Tailwind 组件 · 非完整工程 Agent",
+  "descriptionMd": "v0 是 Vercel 的 UI 生成原语：从描述/设计生成 React+Tailwind 组件，常嵌入其他 vibe 工作流。\n\n偏「界面层加速」，不是完整全栈 Builder；产出需纳入设计系统治理。与 Lovable/Bolt 的锁仓面不同。\n\n生成结果当草稿，合入前过设计规范与可访问性检查；不要直接当设计系统源。\n",
+  "officialUrl": "https://v0.dev"
+}

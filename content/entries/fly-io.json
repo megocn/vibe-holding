@@ -1,0 +1,44 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "deploy",
+    "containers",
+    "edge"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "运维心智高于纯 Serverless"
+  ],
+  "updates": [],
+  "sources": [
+    "https://fly.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "fly-io",
+  "name": "Fly.io",
+  "category": "cloud-paas",
+  "vendorId": "fly-io-inc",
+  "oneLiner": "容器跑近用户区域 · 低延迟后端 · 免自建 K8s",
+  "descriptionMd": "Fly.io 把容器跑在靠近用户的区域，适合需要低延迟后端、又不想自建 K8s 的团队。\n\n相对 Railway/Vercel：更「你带 Dockerfile」。注意区域选择、卷存储与定价模型；中国大陆访问与备案仍需另案。\n\n按区域放置服务贴近用户；持久卷与数据库选址要和延迟目标一致。\n",
+  "officialUrl": "https://fly.io",
+  "rankings": [
+    {
+      "systemId": "cncf-survey",
+      "tier": "Edge containers",
+      "period": "2025 Survey",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

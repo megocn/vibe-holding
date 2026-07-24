@@ -1,0 +1,10 @@
+{
+  "id": "e-cuw-nuxt-cloudflare-pages",
+  "from": "nuxt",
+  "to": "cloudflare-pages",
+  "type": "commonly_used_with",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

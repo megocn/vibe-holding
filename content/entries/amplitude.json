@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "analytics",
+    "experiments"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "国内直连与数据合规需确认；小项目可能 overkill。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://amplitude.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "amplitude",
+  "name": "Amplitude",
+  "category": "growth-web",
+  "subcategory": "product-analytics",
+  "oneLiner": "行为分析+实验+CDP · Growth/产品一体 · Journey 深",
+  "officialUrl": "https://amplitude.com",
+  "descriptionMd": "Amplitude 提供行为分析、experiment 与 CDP 能力，面向 growth 与 product 一体化数据平台。\n\n需要 experimentation + analytics 同一 vendor、或复杂 user journey 分析时评估 Amplitude。\n\n国内直连与数据合规需确认；小项目可能 overkill。\n",
+  "vendorId": "amplitude-inc"
+}

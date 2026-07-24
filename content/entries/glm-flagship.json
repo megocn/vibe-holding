@@ -1,0 +1,56 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line",
+    "domestic",
+    "code",
+    "flagship"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "需实名认证"
+  ],
+  "updates": [],
+  "rankings": [
+    {
+      "systemId": "lmarena-text",
+      "tier": "CN frontier",
+      "period": "2026-07",
+      "note": "国产闭源旗舰之一；Arena 中文场景表现强",
+      "asOf": "2026-07-20"
+    },
+    {
+      "systemId": "artificial-analysis-index",
+      "tier": "Competitive",
+      "period": "2026-07",
+      "asOf": "2026-07-20"
+    }
+  ],
+  "sources": [
+    "https://open.bigmodel.cn",
+    "https://zhipuai.cn"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "glm-flagship",
+  "name": "GLM 旗舰",
+  "category": "llm-line",
+  "subcategory": "line",
+  "vendorId": "zhipu-ai",
+  "oneLiner": "智谱旗舰 · 现为 GLM-5.2 · 国内代码/对话",
+  "descriptionMd": "智谱 GLM 产品族的**旗舰选型档**。当前版本标签为 GLM-5.2（具体 API 名以开放平台控制台为准）。\n\n国内代码/对话与 Agent 场景的高能力档；注意开源权重线与官方 API 的差异。\n\n控制台版本与计费项变化快，POC 后锁定版本号。\n",
+  "officialUrl": "https://open.bigmodel.cn",
+  "currentVersion": "GLM-5.2"
+}

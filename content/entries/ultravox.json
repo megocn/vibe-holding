@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "realtime",
+    "s2s",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "电话与合规能力需自建；生态与文档体量小于超大规模云厂商。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/fix-of-Thought/ultravox"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "ultravox",
+  "name": "Ultravox",
+  "category": "ai-realtime",
+  "subcategory": "speech-to-speech",
+  "oneLiner": "开源友好 S2S · 语音 Agent 模型层",
+  "officialUrl": "https://github.com/fix-of-Thought/ultravox",
+  "descriptionMd": "Ultravox 提供面向实时语音 Agent 的 speech-to-speech 模型与托管选项，定位模型层能力，常与自建电话/WebRTC 栈组合，而非一站式呼叫中心 SaaS。\n\n语音 AI 创业或需要可控 S2S 模型、可对照 OpenAI Realtime 做成本/延迟基准时评估。\n\n电话与合规能力需自建；生态与文档体量小于超大规模云厂商。\n",
+  "vendorId": "fix-of-thought",
+  "githubUrl": "https://github.com/fix-of-Thought/ultravox"
+}

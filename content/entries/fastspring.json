@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "mor",
+    "tax"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "抽成高于纯 gateway；custom checkout UX 受限，physical goods 不支持。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://fastspring.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "fastspring",
+  "name": "FastSpring",
+  "category": "pay-mor",
+  "subcategory": "mor",
+  "oneLiner": "软件/数字商品 MoR · VAT/invoice/payout · Checkout UX 受限",
+  "officialUrl": "https://fastspring.com",
+  "descriptionMd": "FastSpring 作为 Merchant of Record 处理全球 VAT/GST、invoice 与 payout，软件与数字商品卖家无需自建各地税务实体。\n\n数字产品跨境卖全球、不想处理各国 sales tax 时选用 MoR；与 Paddle 同类。\n\n抽成高于纯 gateway；custom checkout UX 受限，physical goods 不支持。\n",
+  "vendorId": "fastspring-inc"
+}

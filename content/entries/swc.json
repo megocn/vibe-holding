@@ -1,0 +1,34 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "compiler"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "Babel 宏与部分实验语法插件可能不支持；迁移需跑完整测试矩阵。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://swc.rs"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "swc",
+  "name": "SWC",
+  "category": "oss-toolchain",
+  "subcategory": "compiler",
+  "oneLiner": "Rust 极速转译/压缩 · Next/Rspack 常用 Babel 替代",
+  "officialUrl": "https://swc.rs",
+  "descriptionMd": "SWC 用 Rust 提供极快的 TS/JS 转译与压缩，被 Next.js、Rspack 等用作 Babel 替代以缩短构建时间。\n\n需要 drop Babel 瓶颈、或框架已内置 SWC 时自然采用；也可独立做库打包。\n\nBabel 宏与部分实验语法插件可能不支持；迁移需跑完整测试矩阵。\n"
+}

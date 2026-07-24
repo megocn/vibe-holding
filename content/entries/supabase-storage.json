@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "baas",
+    "storage"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "大流量 egress 与 transform 费用随量增长；跨 region 性能取决于 Supabase 项目区域。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://supabase.com/storage"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "supabase-storage",
+  "name": "Supabase Storage",
+  "category": "db-object",
+  "subcategory": "baas-storage",
+  "oneLiner": "BaaS 一体 · RLS+图片变换 · Auth/DB 同项目",
+  "officialUrl": "https://supabase.com/storage",
+  "descriptionMd": "Supabase Storage 基于 S3 提供 bucket、RLS 策略与图片 transformation，与 Supabase Auth/DB 同项目，适合全栈 BaaS 文件场景。\n\n已选 Supabase 做 Auth+Postgres、需要用户头像/附件且要用 RLS 控权限时自然使用；比单独 S3 配置简单。\n\n大流量 egress 与 transform 费用随量增长；跨 region 性能取决于 Supabase 项目区域。\n"
+}

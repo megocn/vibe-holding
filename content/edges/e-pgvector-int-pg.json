@@ -1,0 +1,10 @@
+{
+  "id": "e-pgvector-int-pg",
+  "from": "pgvector",
+  "to": "postgresql",
+  "type": "integrates_with",
+  "weight": 0.95,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

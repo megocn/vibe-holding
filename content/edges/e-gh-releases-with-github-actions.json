@@ -1,0 +1,10 @@
+{
+  "id": "e-gh-releases-with-github-actions",
+  "from": "github-releases",
+  "to": "github-actions",
+  "type": "commonly_used_with",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

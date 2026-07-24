@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "品牌识别度不如 Lucide 在 shadcn 生态；animated icon 需自行实现。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://tabler.io/icons"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "tabler-icons",
+  "name": "Tabler Icons",
+  "category": "ui-icons",
+  "subcategory": "svg-icons",
+  "oneLiner": "5000+ 统一 stroke · MIT · dashboard/B2B 向",
+  "officialUrl": "https://tabler.io/icons",
+  "descriptionMd": "Tabler Icons 提供 5000+ 一致 stroke 风格 MIT 图标，适合 dashboard 与 B2B UI。\n\nadmin/SaaS 需要大量一致线性 icon、且不想付费 Font Awesome Pro 时。\n\n品牌识别度不如 Lucide 在 shadcn 生态；animated icon 需自行实现。\n",
+  "vendorId": "tabler"
+}

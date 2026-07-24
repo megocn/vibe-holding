@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "family"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "许可证对超大规模商用有限制；安全对齐不如闭源 frontier，需额外 guardrails。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://llama.meta.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "llama",
+  "name": "Llama",
+  "category": "llm-family",
+  "subcategory": "family",
+  "oneLiner": "Meta 开源 · 现至 Llama 4（Maverick/Scout）· 微调/本地生态广",
+  "officialUrl": "https://llama.meta.com",
+  "descriptionMd": "Llama 是 Meta 开源模型家族。当前开源版本为 Llama 4（Maverick 旗舰 MoE、Scout 高效档），原生多模态。\n\n微调、本地部署与托管生态仍最繁荣；商用许可需读 Llama 4 条款。\n\nMeta 闭源线与开源 Llama 勿混用为同一能力承诺。\n",
+  "vendorId": "meta-llama"
+}

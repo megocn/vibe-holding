@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "buildpack",
+    "docker"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "定制性不如手写 Dockerfile； exotic 依赖可能检测失败。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://nixpacks.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "nixpacks",
+  "name": "Nixpacks",
+  "category": "cicd-pipeline",
+  "subcategory": "buildpack",
+  "oneLiner": "自动检语言出镜像 · Buildpack 简化 · PaaS 式构建",
+  "officialUrl": "https://nixpacks.com",
+  "descriptionMd": "Nixpacks 由 Railway 维护，自动检测语言并生成 OCI 镜像，类似 Cloud Native Buildpacks 但更简单。\n\nRailway/Fly 等 PaaS 用户希望免 Dockerfile 部署常见栈时默认路径。\n\n定制性不如手写 Dockerfile； exotic 依赖可能检测失败。\n",
+  "vendorId": "railway-app"
+}

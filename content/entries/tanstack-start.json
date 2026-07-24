@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "react",
+    "fullstack"
+  ],
+  "maturity": "beta",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://tanstack.com/start"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "tanstack-start",
+  "name": "TanStack Start",
+  "category": "fw-fullstack",
+  "subcategory": "fullstack",
+  "oneLiner": "Router/Query 整合全栈 · 可部署 Cloudflare 等 · 起步新",
+  "descriptionMd": "TanStack Start 整合 Router/Query 等，提供全栈起步，并可部署到 Cloudflare 等目标。\n\n适合想要 TanStack 一体心智、又要出海边缘部署的团队；相对 Next 生态更年轻，评估社区与示例成熟度。\n\n与 Cloudflare 等目标组合时，先跑通适配器与环境变量注入再铺业务。\n",
+  "officialUrl": "https://tanstack.com/start"
+}

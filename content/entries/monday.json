@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "pm",
+    "ops"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "软件开发 traceability 与 git 集成弱于 Jira/Linear；按 seat 计费。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://monday.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "monday",
+  "name": "monday.com",
+  "category": "collab-pm",
+  "subcategory": "work-management",
+  "oneLiner": "彩色看板+自动化 · 跨部门 ops/营销可视化 · 工程 git 追溯弱",
+  "officialUrl": "https://monday.com",
+  "descriptionMd": "monday.com 以 colorful board 与 automation 连接跨部门流程，偏 ops/marketing 可视化项目管理。\n\n非纯工程团队需要 CRM-like project 视图与 no-code automation 时常见。\n\n软件开发 traceability 与 git 集成弱于 Jira/Linear；按 seat 计费。\n",
+  "vendorId": "monday-inc"
+}

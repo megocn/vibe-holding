@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "android",
+    "samsung"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "部分市场仍依赖 GMS；审核与本地化要求各国不同。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://seller.samsungapps.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "samsung-galaxy-store",
+  "name": "Samsung Galaxy Store",
+  "category": "dist-android",
+  "subcategory": "store",
+  "oneLiner": "三星/Galaxy 预装店 · 全球部分市场 · APK 与主题分发",
+  "officialUrl": "https://seller.samsungapps.com",
+  "descriptionMd": "Galaxy Store 预装三星手机与 Galaxy 设备，覆盖全球部分 android 市场，支持 APK 与主题分发。\n\n用户画像含大量三星设备、或韩国/海外 samsung 渠道重要时上架；与 Google Play 并行。\n\n部分市场仍依赖 GMS；审核与本地化要求各国不同。\n"
+}

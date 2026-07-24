@@ -1,0 +1,46 @@
+name: 缺陷报告
+description: 应用、校验或文档相关的 bug
+title: '[bug] '
+labels: [bug]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: 影响范围
+      options:
+        - 桌面端 UI
+        - 内容校验 / schema
+        - 图谱 / 选型
+        - 凭据保险库
+        - CLI
+        - 文档
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. …
+        2. …
+        3. 看到错误…
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 期望行为
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 实际行为
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: 环境
+      placeholder: macOS / 浏览器预览 · 或 Tauri · Node 版本等

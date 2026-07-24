@@ -1,0 +1,34 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "paas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "规模与 SLA 不如大厂云；生产关键业务应评估备份、监控与供应商持续性，避免单点依赖。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://zeabur.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "both",
+  "id": "zeabur",
+  "name": "Zeabur",
+  "category": "cloud-paas",
+  "subcategory": "paas",
+  "oneLiner": "一键多语言部署 · 模板市场+托管库 · 华人社区 · UI 简洁",
+  "officialUrl": "https://zeabur.com",
+  "descriptionMd": "Zeabur 提供一键部署 Node/Go/Rust 等应用，支持模板市场与托管数据库，UI 简洁，在华人开发者社区增长迅速。\n\n独立开发者希望比 Vercel 更灵活地跑长连接服务或数据库同区部署时可考虑；支持国内支付方式。\n\n规模与 SLA 不如大厂云；生产关键业务应评估备份、监控与供应商持续性，避免单点依赖。\n"
+}

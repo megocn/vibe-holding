@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "沙箱逃逸与误操作风险需运维关注；生产自动 merge 必须禁用或严格门禁。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.all-hands.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "openhands",
+  "name": "OpenHands",
+  "category": "coding-cli-agent",
+  "subcategory": "open-agent",
+  "oneLiner": "开源软件工程师 Agent · Docker 沙箱 · 测+提 PR",
+  "officialUrl": "https://www.all-hands.dev",
+  "descriptionMd": "OpenHands 是开源 AI 软件工程师 Agent，可自主浏览代码、运行测试并提交 PR，支持 Docker 沙箱隔离。\n\n研究型团队或希望自托管 Devin 类 Agent、完全掌控模型与环境的组织适合部署试验。\n\n沙箱逃逸与误操作风险需运维关注；生产自动 merge 必须禁用或严格门禁。\n",
+  "vendorId": "openhands-ai"
+}

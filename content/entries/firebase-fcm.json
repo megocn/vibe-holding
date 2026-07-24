@@ -1,0 +1,34 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "push",
+    "mobile"
+  ],
+  "maturity": "mature",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://firebase.google.com/products/cloud-messaging"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "firebase-fcm",
+  "name": "Firebase Cloud Messaging",
+  "category": "msg-push",
+  "subcategory": "push",
+  "vendorId": "firebase-inc",
+  "oneLiner": "Android/iOS/Web 跨端推送 · 海外默认底座 · Google 栈一体",
+  "descriptionMd": "Firebase Cloud Messaging 提供 Android/iOS/Web 推送，是跨平台推送的常见默认选项。\n\n推送链路依赖 Google 服务；国内安卓通道往往还需厂商推送或友盟等方案并行。与短信/邮件组成完整触达矩阵。\n\n与 APNs/厂商通道的配置是隐藏工作量；失败重试与失效 token 清理别忘。\n",
+  "officialUrl": "https://firebase.google.com/products/cloud-messaging"
+}

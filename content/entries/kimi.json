@@ -1,0 +1,44 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "family",
+    "domestic",
+    "moonshot"
+  ],
+  "maturity": "stable",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [
+    {
+      "systemId": "llm-family-landscape",
+      "tier": "CN frontier",
+      "period": "2026-07",
+      "note": "族级定位；能力对比请打开下属选型档位",
+      "asOf": "2026-07-23"
+    }
+  ],
+  "sources": [
+    "https://www.kimi.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "kimi",
+  "name": "Kimi",
+  "category": "llm-family",
+  "vendorId": "moonshot-inc",
+  "oneLiner": "月之暗面 C 端/API 族 · 旗舰档见 K3 · 长文对话叙事",
+  "descriptionMd": "Kimi 是月之暗面面向 C 端与 API 的大模型**产品族**。旗舰档当前版本为 K3，见「Kimi 旗舰」条目。\n\n长上下文与国内可访问是常见叙事；对比请用旗舰档对齐 Claude Opus / Qwen-Max，勿把「K3」当成与产品族同级的品牌。\n\n长上下文产品叙事强；API 与 C 端产品能力可能不同步，以控制台为准。\n",
+  "officialUrl": "https://www.kimi.com",
+  "docsUrl": "https://platform.kimi.com"
+}

@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "payments",
+    "enterprise"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "接入周期长、门槛高；中小 indie 更常用 Stripe，Adyen 最小 volume 与合规要求严格。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.adyen.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "adyen",
+  "name": "Adyen",
+  "category": "pay-processor",
+  "subcategory": "enterprise",
+  "oneLiner": "全球本地 PM+POS 一体 · unified commerce · 大厂门槛高",
+  "officialUrl": "https://www.adyen.com",
+  "descriptionMd": "Adyen 单一平台覆盖全球本地支付方式、3DS、risk 与 unified commerce（线上+POS），Spotify/Uber 等大厂采用。\n\nEnterprise 需要全球 local PM、统一 reconciliation 与 PCI 责任共担时选用；替代多网关拼接。\n\n接入周期长、门槛高；中小 indie 更常用 Stripe，Adyen 最小 volume 与合规要求严格。\n",
+  "vendorId": "adyen-inc"
+}

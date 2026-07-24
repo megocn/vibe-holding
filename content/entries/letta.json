@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "生产 ready 程度需评估；与 Mem0 功能重叠需架构选型。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.letta.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "letta",
+  "name": "Letta",
+  "category": "ai-agent-fw",
+  "subcategory": "stateful-agent",
+  "oneLiner": "长期 memory 管理 · self-editing memory · MemGPT 系 research agent",
+  "officialUrl": "https://www.letta.com",
+  "descriptionMd": "Letta（MemGPT）提供长期 memory 管理的 Agent 框架，支持 self-editing memory 与 tool use，适合 research agent。\n\n需要 Agent 自主管理 memory 层级、长运行 research assistant 实验时。\n\n生产 ready 程度需评估；与 Mem0 功能重叠需架构选型。\n",
+  "vendorId": "letta-ai"
+}

@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "family"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "海外访问受限；API 定价随上下文长度陡增，需成本模型测算。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.moonshot.cn"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "moonshot",
+  "name": "Moonshot",
+  "category": "llm-family",
+  "subcategory": "family",
+  "oneLiner": "长上下文旗舰 API · 现与 Kimi K3 对齐 · 中文长文突出",
+  "officialUrl": "https://www.moonshot.cn",
+  "descriptionMd": "Moonshot（月之暗面）提供长上下文旗舰模型系列；当前能力叙事与 C 端 Kimi 旗舰（K3）对齐，v1 为上一代平台线。\n\n超长文档分析、论文/合同阅读、国内 ToC 产品需要超长上下文时优先考虑。\n\n海外访问受限；API 定价随上下文长度陡增，需成本模型测算。\n",
+  "vendorId": "moonshot-ai"
+}

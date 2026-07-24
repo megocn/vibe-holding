@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "学习曲线陡、bundle 偏大；marketing 轻页不如 Astro/Next。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://angular.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "angular",
+  "name": "Angular",
+  "category": "fw-fullstack",
+  "subcategory": "spa-framework",
+  "oneLiner": "Opinionated 全家桶 · routing/forms/RxJS · 大型 enterprise SPA",
+  "officialUrl": "https://angular.dev",
+  "descriptionMd": "Angular 是完整 opinionated 前端框架，内置 routing/forms/HTTP/RxJS，TypeScript-first，适合大型 enterprise SPA。\n\n大型企业前端、需要强规范与长期 LTS 支持、团队规模大的项目。\n\n学习曲线陡、bundle 偏大；marketing 轻页不如 Astro/Next。\n",
+  "vendorId": "angular-team"
+}

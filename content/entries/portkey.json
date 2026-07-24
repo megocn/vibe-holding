@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "又一层 vendor 依赖；简单项目 OpenRouter/LiteLLM 可能足够。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://portkey.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "portkey",
+  "name": "Portkey",
+  "category": "gateway-router",
+  "subcategory": "llm-gateway",
+  "oneLiner": "企业 LLM 网关 · Fallback/缓存/Guardrails · 成本追踪",
+  "officialUrl": "https://portkey.ai",
+  "descriptionMd": "Portkey 提供 LLM 网关，统一路由多供应商 API、缓存、fallback、成本追踪与 guardrails，面向 enterprise AI 应用。\n\n生产环境同时用 OpenAI/Anthropic/开源托管、需要统一 observability 与 SLA 路由时。\n\n又一层 vendor 依赖；简单项目 OpenRouter/LiteLLM 可能足够。\n",
+  "vendorId": "portkey-ai"
+}

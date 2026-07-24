@@ -1,0 +1,10 @@
+{
+  "id": "azure-functions-fallback",
+  "from": "azure-functions",
+  "to": "vercel",
+  "type": "commonly_used_with",
+  "weight": 0.3,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

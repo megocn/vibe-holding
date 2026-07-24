@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "android",
+    "store"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "测试机型碎片化；64 位与 targetSdk 要求随政策更新，需关注开发者公告。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://dev.vivo.com.cn"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "vivo-store",
+  "name": "vivo 应用商店",
+  "category": "dist-android",
+  "subcategory": "store",
+  "oneLiner": "vivo/iQOO 设备覆盖 · 标准 APK+游戏推广 · 国内份额显著",
+  "officialUrl": "https://dev.vivo.com.cn",
+  "descriptionMd": "vivo 应用商店覆盖 vivo/iQOO 设备用户，提供标准 APK 分发与游戏推广资源，国内市场份额 significant。\n\n与 OPPO、小米并列的必发渠道；region 限定国内 android 用户触达。\n\n测试机型碎片化；64 位与 targetSdk 要求随政策更新，需关注开发者公告。\n",
+  "vendorId": "vivo"
+}

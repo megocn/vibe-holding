@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "email"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "与 SendGrid 功能重叠；国内送达率非优势。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.mailgun.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "mailgun",
+  "name": "Mailgun",
+  "category": "msg-email",
+  "subcategory": "transactional",
+  "oneLiner": "REST 收发/路由/验证 · 欧区数据中心 · 开发者文档清晰",
+  "officialUrl": "https://www.mailgun.com",
+  "descriptionMd": "Mailgun 提供 REST API 发送/接收邮件、路由与验证，在欧洲有数据中心，开发者文档清晰。\n\n欧洲数据驻留、或需要 inbound parse webhooks 处理回复邮件时评估 Mailgun。\n\n与 SendGrid 功能重叠；国内送达率非优势。\n",
+  "vendorId": "sinch"
+}

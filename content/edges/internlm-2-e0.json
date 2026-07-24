@@ -1,0 +1,10 @@
+{
+  "id": "internlm-2-e0",
+  "from": "internlm-2",
+  "to": "qwen",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

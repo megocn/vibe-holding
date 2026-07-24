@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "browser",
+    "extension"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "用户量仍小于 Chrome Web Store；某些 Chrome API 在 Edge 实现差异需测试。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://microsoftedge.microsoft.com/addons"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "edge-addons",
+  "name": "Microsoft Edge Add-ons",
+  "category": "dist-extension",
+  "subcategory": "store",
+  "oneLiner": "Edge 用户与企业托管浏览器 · manifest 大体兼容 Chrome",
+  "officialUrl": "https://microsoftedge.microsoft.com/addons",
+  "descriptionMd": "Edge Add-ons 分发 Chromium 扩展给 Edge 用户，manifest  largely 兼容 Chrome，是企业 managed browser 常见来源。\n\n已做 Chrome 扩展、希望零改动覆盖 Edge 与企业 IT 部署时同步提交；Microsoft 365 用户基数大。\n\n用户量仍小于 Chrome Web Store；某些 Chrome API 在 Edge 实现差异需测试。\n",
+  "vendorId": "microsoft"
+}

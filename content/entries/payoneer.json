@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "fx",
+    "payout"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "FX 与提现费用需 spreadsheet 建模；部分国家开户受限，与 Wise 对比费率因 corridor 而异。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.payoneer.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "payoneer",
+  "name": "Payoneer",
+  "category": "global-fx",
+  "subcategory": "payout",
+  "oneLiner": "平台回款（Amazon/Upwork）· 供应商付款 · 全球收款账户",
+  "officialUrl": "https://www.payoneer.com",
+  "descriptionMd": "Payoneer 提供全球收款账户、平台回款（Amazon/Upwork）与向供应商付款，支持多种货币与合规 KYC。\n\nfreelancer 与跨境 SME 收平台美元、或需批量向海外供应商 payout 时常用；国内有持牌合作主体。\n\nFX 与提现费用需 spreadsheet 建模；部分国家开户受限，与 Wise 对比费率因 corridor 而异。\n",
+  "vendorId": "payoneer-inc"
+}

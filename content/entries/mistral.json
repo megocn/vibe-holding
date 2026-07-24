@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "family"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "旗舰与开源型号能力差距大；选型需对照 context length 与 function calling 支持矩阵。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://mistral.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "mistral",
+  "name": "Mistral",
+  "category": "llm-family",
+  "subcategory": "family",
+  "oneLiner": "欧洲 MoE · 现至 Large 3 / Small 4 · 开源+商用双轨",
+  "officialUrl": "https://mistral.ai",
+  "descriptionMd": "Mistral 提供开源与商用双轨模型，当前商用旗舰为 Large 3，轻量档为 Small 4。\n\n欧洲数据合规定位、GDPR 友好供应商评估时常用。\n\n中文与部分垂直能力需实测。\n",
+  "vendorId": "mistral-ai"
+}

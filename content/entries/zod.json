@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "schema",
+    "typescript"
+  ],
+  "maturity": "mature",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://zod.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "zod",
+  "name": "Zod",
+  "category": "oss-toolchain",
+  "subcategory": "validation",
+  "oneLiner": "运行时校验+TS 推导一体 · API/表单/配置事实标准",
+  "descriptionMd": "Zod 把运行时校验与 TypeScript 类型推导合一体，是 API、表单与配置校验的事实标准之一。\n\n与 OpenAPI/JSON Schema 互通方案多；在 tRPC、Server Actions、环境变量解析里几乎随处可见。\n\n错误信息面向用户时要映射文案；与 OpenAPI 同步时选好单一事实来源。\n",
+  "officialUrl": "https://zod.dev"
+}

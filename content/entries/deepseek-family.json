@@ -1,0 +1,43 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "family",
+    "domestic",
+    "value"
+  ],
+  "maturity": "stable",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [
+    {
+      "systemId": "llm-family-landscape",
+      "tier": "CN value",
+      "period": "2026-07",
+      "note": "族级定位；能力对比请打开下属选型档位",
+      "asOf": "2026-07-23"
+    }
+  ],
+  "sources": [
+    "https://www.deepseek.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "deepseek-family",
+  "name": "DeepSeek",
+  "category": "llm-family",
+  "vendorId": "deepseek",
+  "oneLiner": "高性价比推理/代码 · 现至 V4-Pro · 国产旗舰+开源",
+  "descriptionMd": "DeepSeek 提供高性价比推理/代码模型，含官方 API 与开源权重。当前旗舰版本为 DeepSeek-V4（Pro/Flash）。\n\n成本敏感的高质量对话与 Agent 编码场景优先评估。\n\n高峰期可能排队；合规行业核对数据路径与开源许可。\n",
+  "officialUrl": "https://www.deepseek.com"
+}

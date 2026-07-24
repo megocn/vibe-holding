@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "android",
+    "store"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "审核规则与素材要求各商店不同；海外小米设备可能预装 Play Store，需 analytics 看真实占比。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://dev.mi.com/distribute"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "xiaomi-getapps",
+  "name": "小米 GetApps",
+  "category": "dist-android",
+  "subcategory": "store",
+  "oneLiner": "MIUI/HyperOS 预装店 · 大量国内用户 · 分发/更新与开发者控制台",
+  "officialUrl": "https://dev.mi.com/distribute",
+  "descriptionMd": "GetApps 是 MIUI/HyperOS 预装应用商店，覆盖大量国内安卓用户，提供应用分发、更新与开发者控制台。\n\n安卓 App 需要覆盖小米系手机用户、或国内多渠道 APK 分发时必上架；与华为/OPPO/vivo 并行。\n\n审核规则与素材要求各商店不同；海外小米设备可能预装 Play Store，需 analytics 看真实占比。\n",
+  "vendorId": "xiaomi"
+}

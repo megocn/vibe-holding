@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "payments",
+    "china"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "跨境收款非主业；费率与结算周期依渠道而异，PCI 与敏感数据仍需自建合规。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.pingxx.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "pingpp",
+  "name": "Ping++",
+  "category": "pay-processor",
+  "subcategory": "aggregator",
+  "oneLiner": "国内渠道聚合统一 API · 微信/支付宝/银联 · 对账一体",
+  "officialUrl": "https://www.pingxx.com",
+  "descriptionMd": "Ping++ 聚合微信、支付宝、银联等渠道，提供统一 API 与对账，帮助商户快速接入多种国内支付方式。\n\n国内 SaaS/电商需同时接微信与支付宝、又不想分别对接各家 SDK 时选用；合规资质可代办咨询。\n\n跨境收款非主业；费率与结算周期依渠道而异，PCI 与敏感数据仍需自建合规。\n",
+  "vendorId": "pingpp-inc"
+}

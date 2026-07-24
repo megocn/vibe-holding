@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "metrics",
+    "kubernetes"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "长期存储与高基数 cardinality 需 Thanos/VictoriaMetrics；运维复杂度高于 SaaS。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://prometheus.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "prometheus",
+  "name": "Prometheus",
+  "category": "obs-platform",
+  "subcategory": "metrics",
+  "oneLiner": "拉取式 metrics · PromQL · K8s 自建指标标准",
+  "officialUrl": "https://prometheus.io",
+  "descriptionMd": "Prometheus 拉取式 metrics 存储与 PromQL 查询是 CNCF 标准，常与 Grafana 搭配做自建可观测。\n\nKubernetes 自建监控、或需要完全掌控 metrics 管道与告警规则时采用；适合 SRE 团队。\n\n长期存储与高基数 cardinality 需 Thanos/VictoriaMetrics；运维复杂度高于 SaaS。\n"
+}

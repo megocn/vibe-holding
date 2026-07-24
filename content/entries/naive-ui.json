@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "国际化社区小于 Vuetify；design 偏默认需 theme 定制。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.naiveui.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "naive-ui",
+  "name": "Naive UI",
+  "category": "ui-kits",
+  "subcategory": "vue-typescript",
+  "oneLiner": "Vue3 全 TS · 主题可调 · 中文友好 · dashboard 组件齐",
+  "officialUrl": "https://www.naiveui.com",
+  "descriptionMd": "Naive UI 是 Vue 3 全 TS 组件库，主题可调、文档中文友好，dashboard 组件齐全。\n\nVue 3 + TS 国内团队构建 admin、需要中文文档与完整 form/table 组件时。\n\n国际化社区小于 Vuetify；design 偏默认需 theme 定制。\n",
+  "vendorId": "naive-ui-inc"
+}

@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "voice-agent",
+    "telephony",
+    "outbound"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "中文与国内线路弱；深度定制媒体层仍可能下沉 Pipecat/LiveKit。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.bland.ai"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "bland-ai",
+  "name": "Bland AI",
+  "category": "ai-realtime",
+  "subcategory": "voice-agent-platform",
+  "oneLiner": "电话语音 Agent · 外呼/转入 · 打包计费",
+  "officialUrl": "https://www.bland.ai",
+  "descriptionMd": "Bland AI 是偏电话场景的语音 Agent 平台，强调快速上线入站/出站通话，常以打包分钟费率包含模型与线路，适合销售外呼与高并发电话自动化。\n\n北美英语电话外呼、需要少集成尽快跑通时评估；与 Vapi/Retell/Synthflow 同层。\n\n中文与国内线路弱；深度定制媒体层仍可能下沉 Pipecat/LiveKit。\n",
+  "vendorId": "bland-inc"
+}

@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "非 Windows 服务器生态小于 Linux/Go；Unity 运行时与引擎版本绑定需注意。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://dotnet.microsoft.com/languages/csharp"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "csharp",
+  "name": "C#",
+  "category": "lang-language",
+  "subcategory": "dotnet",
+  "oneLiner": ".NET 核心语言 · ASP.NET/Unity/企业 · 跨平台强类型",
+  "officialUrl": "https://dotnet.microsoft.com/languages/csharp",
+  "descriptionMd": "C# 是 Microsoft .NET 生态核心语言，跨平台、强类型，适用于 Web（ASP.NET）、游戏（Unity）与企业应用。\n\nWindows/Azure 企业栈、Unity 游戏开发、或需要 C# 与 F# 共存的 .NET 8+ 项目。\n\n非 Windows 服务器生态小于 Linux/Go；Unity 运行时与引擎版本绑定需注意。\n",
+  "vendorId": "dotnet-foundation"
+}

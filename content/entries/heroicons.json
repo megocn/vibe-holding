@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "数量远少于 Iconify；特殊行业 icon 可能缺失。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://heroicons.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "heroicons",
+  "name": "Heroicons",
+  "category": "ui-icons",
+  "subcategory": "svg-icons",
+  "oneLiner": "Tailwind Labs · outline/solid · 与 Tailwind 视觉一致",
+  "officialUrl": "https://heroicons.com",
+  "descriptionMd": "Heroicons 是 Tailwind Labs 设计的 MIT SVG 图标集，outline/solid 双风格，与 Tailwind 视觉一致。\n\nTailwind/shadcn 栈 marketing 与 admin 需要少量高质量 icon 时默认选择。\n\n数量远少于 Iconify；特殊行业 icon 可能缺失。\n",
+  "vendorId": "steve-donovan"
+}

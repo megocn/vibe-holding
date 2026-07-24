@@ -1,0 +1,10 @@
+{
+  "id": "novita-ai-e0",
+  "from": "novita-ai",
+  "to": "siliconflow",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

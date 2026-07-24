@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "超高并发需 Octane/Horizon 调优；与 Node/Go 比 CPU 密集任务弱。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://laravel.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "laravel",
+  "name": "Laravel",
+  "category": "fw-fullstack",
+  "subcategory": "php-fullstack",
+  "oneLiner": "现代 PHP 旗舰 · Eloquent/queue/auth · Livewire/Inertia",
+  "officialUrl": "https://laravel.com",
+  "descriptionMd": "Laravel 提供 elegant ORM（Eloquent）、queue、auth 与 Livewire/Inertia 前端集成，是 modern PHP 旗舰框架。\n\nPHP 团队构建 SaaS、需要快速迭代与丰富 package 生态时。\n\n超高并发需 Octane/Horizon 调优；与 Node/Go 比 CPU 密集任务弱。\n",
+  "vendorId": "laravel-inc"
+}

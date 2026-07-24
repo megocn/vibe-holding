@@ -1,0 +1,10 @@
+{
+  "id": "gemma-2-e0",
+  "from": "gemma-2",
+  "to": "gemma-4",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

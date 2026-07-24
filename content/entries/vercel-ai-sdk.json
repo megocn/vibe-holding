@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "typescript",
+    "streaming",
+    "vibe-friendly"
+  ],
+  "maturity": "stable",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://sdk.vercel.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "vercel-ai-sdk",
+  "name": "Vercel AI SDK",
+  "category": "ai-agent-fw",
+  "subcategory": "sdk",
+  "vendorId": "vercel-inc",
+  "oneLiner": "TS 流式输出原语 · 工具调用 · UI 钩子 · 应用层地基库",
+  "descriptionMd": "Vercel AI SDK 提供 TS 流式模型输出、工具调用与 UI 钩子等原语，是 TS AI 应用的地基库之一。\n\nMastra 等框架常建其上；只做简单聊天 UI 时可直接用 SDK。与 Python 生态框架不对等替换，按语言栈选。\n\nUI 流式原语省事；多 Agent 与持久记忆上升到框架层（如 Mastra）再组装。\n",
+  "officialUrl": "https://sdk.vercel.ai",
+  "docsUrl": "https://sdk.vercel.ai/docs"
+}

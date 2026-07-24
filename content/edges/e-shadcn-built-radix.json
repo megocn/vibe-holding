@@ -1,0 +1,10 @@
+{
+  "id": "e-shadcn-built-radix",
+  "from": "shadcn-ui",
+  "to": "radix-ui",
+  "type": "built_on",
+  "weight": 0.85,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "edge-esbuild-vite-built-on",
+  "from": "esbuild",
+  "to": "vite",
+  "type": "built_on",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23",
+  "note": "Vite 生产构建使用 Rollup，dev 用 esbuild"
+}

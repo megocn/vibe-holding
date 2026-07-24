@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line",
+    "flagship"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "务必在控制台锁定 model endpoint 版本；beta 能力可能随时变更。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.volcengine.com/product/doubao"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "doubao-flagship",
+  "name": "豆包 Seed 2.1 Pro",
+  "category": "llm-line",
+  "subcategory": "line",
+  "oneLiner": "火山豆包顶档 · Seed-2.1-Pro · 中文+代码；辅 Turbo",
+  "officialUrl": "https://www.volcengine.com/product/doubao",
+  "descriptionMd": "豆包家族旗舰 line。当前版本以 Doubao-Seed-2.1-Pro 为代表（约 2026-06），辅 Turbo 等成本档。\n\n国内生产级 chat/agent 已选火山引擎、需要家族内最强能力时作为 default model。\n\n务必在控制台锁定 model endpoint 版本；beta 能力可能随时变更。\n",
+  "vendorId": "volcengine",
+  "currentVersion": "Seed-2.1-Pro"
+}

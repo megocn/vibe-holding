@@ -1,0 +1,34 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "illustration"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "风格辨识度单一、易显「模板站」感；规模化品牌需定制插画体系或混合 paid stock。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://undraw.co"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "undraw",
+  "name": "unDraw",
+  "category": "design-tools",
+  "subcategory": "illustration",
+  "oneLiner": "可换色一致插画 · SVG 开源 · empty state/onboarding",
+  "officialUrl": "https://undraw.co",
+  "descriptionMd": "unDraw 提供可换主色的一致风格 open-source 插画，SVG 可内联或下载，适合 SaaS landing、empty state 与 onboarding 场景。\n\n早期产品需要统一插画风格又不想雇插画师时快速填充 UI；与 Tailwind 色板配合换色方便。\n\n风格辨识度单一、易显「模板站」感；规模化品牌需定制插画体系或混合 paid stock。\n"
+}

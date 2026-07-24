@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "kubernetes",
+    "ci"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "YAML 冗长；本地调试体验不如 Docker-based CI。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://tekton.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "tekton",
+  "name": "Tekton",
+  "category": "cicd-pipeline",
+  "subcategory": "ci",
+  "oneLiner": "K8s CRD Pipeline · 随集群伸缩 · 云原生 CI 积木",
+  "officialUrl": "https://tekton.dev",
+  "descriptionMd": "Tekton 在 K8s 上以 CRD 定义 Task/Pipeline，cloud-native CI 可随集群伸缩，与 Argo 互补。\n\nCI 工作负载希望与 K8s 调度统一、或构建本身需要大量弹性算力时采用。\n\nYAML 冗长；本地调试体验不如 Docker-based CI。\n"
+}

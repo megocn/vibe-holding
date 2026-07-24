@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "反爬与 rate limit 可能导致失败；合规抓取需遵守 robots 与版权。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.firecrawl.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "firecrawl",
+  "name": "Firecrawl",
+  "category": "ai-rag",
+  "subcategory": "web-scrape-llm",
+  "oneLiner": "URL→markdown/结构化 · 处理 JS 渲染站 · RAG ingest 专用",
+  "officialUrl": "https://www.firecrawl.dev",
+  "descriptionMd": "Firecrawl 将 URL 转为 markdown/structured data，专为 RAG  ingest 设计，处理 JS 渲染站点。\n\n需要定期抓取文档站/竞品页入 knowledge base、或 agent 浏览网页工具 backend 时。\n\n反爬与 rate limit 可能导致失败；合规抓取需遵守 robots 与版权。\n",
+  "vendorId": "firecrawl-dev"
+}

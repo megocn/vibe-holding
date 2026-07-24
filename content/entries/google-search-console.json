@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "seo"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "仅覆盖 Google；Bing/百度需另配工具。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://search.google.com/search-console"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "google-search-console",
+  "name": "Google Search Console",
+  "category": "growth-web",
+  "subcategory": "seo",
+  "oneLiner": "Google 搜索权威数据 · 索引/CWV/点击 · 免费仅覆盖谷歌",
+  "officialUrl": "https://search.google.com/search-console",
+  "descriptionMd": "Search Console 展示站点在 Google 搜索的展示、点击、索引覆盖与 Core Web Vitals，免费且权威。\n\n任何依赖 Google 自然流量的站点都应配置并监控 GSC；与 GA4 关联。\n\n仅覆盖 Google；Bing/百度需另配工具。\n",
+  "vendorId": "google"
+}

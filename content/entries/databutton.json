@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "subscription"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "厂商锁定与导出路径需提前验证；生产 SLA 依赖平台可用性。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://databutton.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "databutton",
+  "name": "Databutton",
+  "category": "coding-cloud-builder",
+  "subcategory": "python-app-builder",
+  "oneLiner": "浏览器 Python 数据应用/API · 内置托管+secrets · 数据科学向",
+  "officialUrl": "https://databutton.com",
+  "descriptionMd": "Databutton 让用户用 AI 在浏览器中构建 Python 数据应用与 API，内置托管与 secrets 管理，面向数据科学家。\n\n快速搭建内部数据分析 dashboard 或 ML demo、团队 Python 技能强但前端弱时适用。\n\n厂商锁定与导出路径需提前验证；生产 SLA 依赖平台可用性。\n",
+  "vendorId": "databutton-inc"
+}

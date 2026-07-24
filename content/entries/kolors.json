@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "ai",
+    "image",
+    "domestic",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "产品入口与品牌叙事可能随可灵平台整合变化；商用与开源许可分开核对。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/Kwai-Kolors/Kolors"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "domestic",
+  "id": "kolors",
+  "name": "可图 Kolors",
+  "category": "design-ai-image",
+  "subcategory": "image-gen",
+  "oneLiner": "快手可图 · 开源权重 · 国内文生图",
+  "officialUrl": "https://github.com/Kwai-Kolors/Kolors",
+  "descriptionMd": "可图（Kolors）是快手系文生图模型，提供开源权重与平台侧生成体验，常与可灵视频同生态出现在国内创意生产链路。\n\n国内需要文生图且可能与可灵视频串联、或希望自托管开源权重时评估。\n\n产品入口与品牌叙事可能随可灵平台整合变化；商用与开源许可分开核对。\n",
+  "vendorId": "kuaishou",
+  "githubUrl": "https://github.com/Kwai-Kolors/Kolors"
+}

@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "family"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "版本命名较多；部署前确认 license 与参数规模是否匹配硬件。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.lingyiwanwu.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "both",
+  "id": "yi",
+  "name": "Yi",
+  "category": "llm-family",
+  "subcategory": "family",
+  "oneLiner": "零一万物 · 现至 Yi-Lightning · 长上下文开源+旗舰 API",
+  "officialUrl": "https://www.lingyiwanwu.com",
+  "descriptionMd": "Yi 系列由零一万物发布，公开旗舰里程碑为 Yi-Lightning，另有长上下文开源权重。\n\n国内团队希望开源可自托管、同时有商业 API 兜底的双轨策略时可选用。\n\n版本命名较多；部署前确认 license 与参数规模是否匹配硬件。\n",
+  "vendorId": "01-ai"
+}

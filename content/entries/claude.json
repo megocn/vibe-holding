@@ -1,0 +1,46 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "us",
+      "eu"
+    ]
+  },
+  "tags": [
+    "llm",
+    "family",
+    "anthropic"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "中国大陆不可直接访问 API"
+  ],
+  "updates": [],
+  "rankings": [
+    {
+      "systemId": "llm-family-landscape",
+      "tier": "Frontier closed",
+      "period": "2026-07",
+      "note": "族级定位；能力对比请打开下属选型档位",
+      "asOf": "2026-07-23"
+    }
+  ],
+  "sources": [
+    "https://www.anthropic.com/claude"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "claude",
+  "name": "Claude",
+  "category": "llm-family",
+  "vendorId": "anthropic",
+  "oneLiner": "Anthropic 族 · Opus/Sonnet/Haiku 分档 · 长推理与对齐叙事强",
+  "descriptionMd": "Claude 是 Anthropic 的大模型**产品族**。族下再分 Opus / Sonnet / Haiku 等**选型档位**；具体版本（如 Opus 4.8）写在对应档位条目上。\n\n选型时先定「用哪家」再定「哪一档」；不要把产品族与其他家的旗舰档、或某次版本发布名直接同列对比。\n\nAnthropic 系工具链（含 Claude Code）协同好；采购与区域可用性是落地前提。\n",
+  "officialUrl": "https://www.anthropic.com/claude",
+  "docsUrl": "https://docs.anthropic.com"
+}

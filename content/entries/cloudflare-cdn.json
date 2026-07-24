@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cdn",
+    "dns",
+    "edge"
+  ],
+  "maturity": "mature",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.cloudflare.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "cloudflare-cdn",
+  "name": "Cloudflare",
+  "category": "net-cdn-dns",
+  "subcategory": "cdn-dns",
+  "vendorId": "cloudflare",
+  "oneLiner": "DNS+CDN+WAF+Workers · 零成本出海底座 · 一体边缘网络",
+  "descriptionMd": "Cloudflare 把 DNS、CDN、WAF 与 Workers 边缘计算收成一体网络，是 Indie「零成本出海」高频底座。\n\n适合全球静态/边缘加速与基础安全；国内访问与备案场景需另备国内 CDN/域名策略。与 Pages/R2/Workers 组合可搭轻量全栈，注意厂商能力边界与企业套餐差异。\n\nDNS 切过去前先降低 TTL；WAF 规则误杀要用日志放行，别一上线就全拦截。\n",
+  "officialUrl": "https://www.cloudflare.com"
+}

@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "dns"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "UI 与生态不如 Cloudflare 一体化；仅 DNS 无 CDN 需另配。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://cloud.google.com/dns"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "google-cloud-dns",
+  "name": "Google Cloud DNS",
+  "category": "net-cdn-dns",
+  "subcategory": "dns",
+  "oneLiner": "Anycast+DNSSEC · GCP/hybrid DNS · 仅 DNS 无 CDN",
+  "officialUrl": "https://cloud.google.com/dns",
+  "descriptionMd": "Cloud DNS 提供低延迟 anycast DNS 与 DNSSEC，适合 GCP 工作负载与 hybrid DNS 策略。\n\n基础设施在 GCP、或需要 programmatic DNS 与 Terraform 管理记录时选用。\n\nUI 与生态不如 Cloudflare 一体化；仅 DNS 无 CDN 需另配。\n",
+  "vendorId": "google"
+}

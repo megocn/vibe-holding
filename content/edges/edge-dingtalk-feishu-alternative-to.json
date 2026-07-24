@@ -1,0 +1,10 @@
+{
+  "id": "edge-dingtalk-feishu-alternative-to",
+  "from": "dingtalk",
+  "to": "feishu",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

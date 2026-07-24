@@ -1,0 +1,10 @@
+{
+  "id": "step-2-part",
+  "from": "step-2",
+  "to": "step",
+  "type": "part_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

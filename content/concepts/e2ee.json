@@ -1,0 +1,9 @@
+{
+  "id": "e2ee",
+  "name": "End-to-End Encryption",
+  "summaryMd": "端到端加密：服务端仅存密文，无法解密用户数据。",
+  "aliases": [
+    "E2EE",
+    "零知识"
+  ]
+}

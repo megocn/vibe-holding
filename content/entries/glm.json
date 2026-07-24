@@ -1,0 +1,55 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "family",
+    "domestic",
+    "code"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "部分能力与国外旗舰仍有差距",
+    "需实名认证"
+  ],
+  "updates": [
+    {
+      "date": "2026-06-01",
+      "type": "feature",
+      "summary": "Coding 场景模型能力升级",
+      "source": "https://bigmodel.cn"
+    }
+  ],
+  "sources": [
+    "https://bigmodel.cn"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "glm",
+  "name": "智谱 GLM",
+  "category": "llm-family",
+  "vendorId": "zhipu-ai",
+  "oneLiner": "智谱国产族 · 现至 GLM-5.2 · 代码能力叙事突出",
+  "descriptionMd": "智谱 GLM 是国产大模型族，当前旗舰版本为 GLM-5.2。\n\n国内代码/对话与 Agent 场景常用；开源权重与 API 能力有差异。\n\n控制台版本变化快，POC 后锁定版本。\n",
+  "officialUrl": "https://bigmodel.cn",
+  "rankings": [
+    {
+      "systemId": "llm-family-landscape",
+      "tier": "CN frontier",
+      "period": "2026-07",
+      "note": "族级定位；能力对比请打开下属选型档位",
+      "asOf": "2026-07-23"
+    }
+  ],
+  "subcategory": "family"
+}

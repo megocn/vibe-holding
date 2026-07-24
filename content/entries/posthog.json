@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "analytics",
+    "self-host",
+    "flags"
+  ],
+  "maturity": "stable",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://posthog.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "posthog",
+  "name": "PostHog",
+  "category": "obs-product",
+  "subcategory": "product-analytics",
+  "oneLiner": "产品分析+Session+Flags · 云或自托管 · 可观测与增长横跨",
+  "descriptionMd": "PostHog 开源提供产品分析、Session、Feature flags 等，可云可自托管，横跨可观测与增长。\n\n适合要快速验证功能开关与漏斗的产品团队；事件量上涨后关注成本。与「纯错误监控」Sentry、「纯网页统计」Plausible 分工不同。\n\n功能旗标 + 分析同库便于闭环；自托管要评估事件量与磁盘。\n",
+  "officialUrl": "https://posthog.com"
+}

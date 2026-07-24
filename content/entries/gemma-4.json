@@ -1,0 +1,49 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line",
+    "flagship",
+    "open-source",
+    "multimodal"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "31B / 26B MoE 仍需较强 GPU；生产闭源能力请用 Gemini API，勿把 Gemma 4 等同于 Gemini 3。"
+  ],
+  "updates": [],
+  "rankings": [
+    {
+      "systemId": "lmarena-text",
+      "tier": "Open-weight frontier",
+      "period": "2026-07",
+      "note": "31B 发布时开源 Arena 前列；具体名次随榜单波动",
+      "asOf": "2026-07-20"
+    }
+  ],
+  "sources": [
+    "https://ai.google.dev/gemma/docs/core/model_card_4",
+    "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "gemma-4",
+  "name": "Gemma 4",
+  "category": "llm-line",
+  "subcategory": "line",
+  "oneLiner": "Google 开源旗舰 · E2B–31B / Apache 2.0 · 多模态与端侧可跑",
+  "officialUrl": "https://ai.google.dev/gemma/docs/core/model_card_4",
+  "descriptionMd": "Gemma 4 是 Gemma 家族当前开源旗舰 line（2026-04 发布），基于 Gemini 3 研究，首次以 Apache 2.0 授权。规格含 E2B / E4B（端侧）、12B Unified、26B A4B MoE 与 31B Dense，支持文本/图像（部分含音频），上下文最高 256K。\n\n自托管、端侧 Agent、研究微调，或需要明确商业友好开源许可的 Google 技术栈时优先选用。\n\n31B / 26B MoE 仍需较强 GPU；生产闭源能力请用 Gemini API，勿把 Gemma 4 等同于 Gemini 3。\n",
+  "vendorId": "google-gemma",
+  "currentVersion": "4"
+}

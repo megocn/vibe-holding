@@ -1,0 +1,10 @@
+{
+  "id": "e-claude-code-powered-claude",
+  "from": "claude-code",
+  "to": "claude-opus",
+  "type": "powered_by",
+  "weight": 0.95,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

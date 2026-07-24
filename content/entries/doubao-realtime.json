@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "realtime",
+    "s2s",
+    "domestic",
+    "doubao",
+    "volcengine"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "模型版本号与音色 speaker 需按文档锁定；出海与英文场景需另测，勿默认等同海外 Realtime API。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.volcengine.com/docs/6561/1594360"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "domestic",
+  "id": "doubao-realtime",
+  "name": "豆包端到端实时语音",
+  "category": "ai-realtime",
+  "subcategory": "speech-to-speech",
+  "oneLiner": "字节豆包 S2S · Omni/强人格 · 火山",
+  "officialUrl": "https://www.volcengine.com/docs/6561/1594360",
+  "descriptionMd": "豆包端到端实时语音大模型在火山引擎上提供 Speech-to-Speech 能力，含偏助手的 Omni 线与偏角色扮演的 Strong Character 线，强调超拟人表达与低时延，替代传统 ASR→LLM→TTS 级联。\n\n国内 ToB 语音助手、车载、客服或角色陪伴，且已用火山/豆包生态时优先 POC。\n\n模型版本号与音色 speaker 需按文档锁定；出海与英文场景需另测，勿默认等同海外 Realtime API。\n",
+  "vendorId": "bytedance",
+  "docsUrl": "https://www.volcengine.com/docs/6561/1594360"
+}

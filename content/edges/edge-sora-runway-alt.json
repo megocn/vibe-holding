@@ -1,0 +1,10 @@
+{
+  "id": "edge-sora-runway-alt",
+  "from": "openai-sora",
+  "to": "runway",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

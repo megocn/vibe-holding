@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "waf",
+    "cdn"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "高级 bot management 需 Enterprise；规则误杀要监控 false positive。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.cloudflare.com/application-services/products/waf/"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "cloudflare-waf",
+  "name": "Cloudflare WAF",
+  "category": "sec-secrets",
+  "subcategory": "waf",
+  "oneLiner": "CDN 边缘拦 OWASP/bot · custom rules · 与 DDoS 一体",
+  "officialUrl": "https://www.cloudflare.com/application-services/products/waf/",
+  "descriptionMd": "Cloudflare WAF 在 CDN 边缘拦截 OWASP Top 10、bot 与 custom rules，与 DDoS 防护一体。\n\n站点已走 Cloudflare CDN、需要基础 WAF 与 rate limit 而不另购硬件时启用规则集。\n\n高级 bot management 需 Enterprise；规则误杀要监控 false positive。\n",
+  "vendorId": "cloudflare-inc"
+}

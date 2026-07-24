@@ -1,0 +1,10 @@
+{
+  "id": "e-tanstack-start-depends-react",
+  "from": "tanstack-start",
+  "to": "react",
+  "type": "depends_on",
+  "weight": 0.95,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

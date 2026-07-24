@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "runtime",
+    "javascript",
+    "dx"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "部分 Node 原生模块兼容仍有缺口"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://bun.sh"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "bun",
+  "name": "Bun",
+  "category": "lang-runtime",
+  "subcategory": "runtime",
+  "oneLiner": "高速 all-in-one · 打包/测试/包管理内置 · 启动与 DX 优先",
+  "descriptionMd": "Bun 是高速 all-in-one JS 运行时：兼容 Node API，并内置打包、测试与包管理，强调 DX 与启动速度。\n\n适合新服务、脚本与工具链实验；生产关键路径需确认兼容性与运维成熟度。与 Node/Deno 并列评估，而不是「再学一门语言」。\n\n测试与打包内置省工具链；生产关键服务上线前用真实流量打兼容性。\n",
+  "officialUrl": "https://bun.sh",
+  "docsUrl": "https://bun.sh/docs"
+}

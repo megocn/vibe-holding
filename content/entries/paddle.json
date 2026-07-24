@@ -1,0 +1,46 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "payment",
+    "saas",
+    "mor"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "费率高于 Stripe",
+    "审核周期"
+  ],
+  "updates": [],
+  "sources": [
+    "https://www.paddle.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "paddle",
+  "name": "Paddle",
+  "category": "pay-mor",
+  "vendorId": "paddle-inc",
+  "oneLiner": "SaaS/软件 MoR · 代税全球结账合规 · 费率高于 Stripe",
+  "descriptionMd": "Paddle 是面向 SaaS/软件的 Merchant of Record：代收税、全球结账与合规，适合独立开发者卖软件与订阅。\n\n大陆主体低月销验证时的主流 MoR 选项之一；对比 Polar/Creem 的费率、品类政策与开发者体验。要 Stripe Checkout 体验则需另规划主体。\n\n买家体验与税务合规是 MoR 价值；订阅升级/降级与退款政策写入产品FAQ。\n",
+  "officialUrl": "https://www.paddle.com",
+  "rankings": [
+    {
+      "systemId": "forrester-wave-payments",
+      "tier": "MoR Leader niche",
+      "period": "2024–2025",
+      "note": "Merchant of Record 模式；独立开发者友好",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

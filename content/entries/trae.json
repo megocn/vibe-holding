@@ -1,0 +1,45 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "ide",
+    "domestic"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "海外生态对接仍弱"
+  ],
+  "updates": [],
+  "sources": [
+    "https://www.trae.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "trae",
+  "name": "Trae",
+  "category": "coding-ide-agent",
+  "subcategory": "ide-agent",
+  "vendorId": "bytedance",
+  "oneLiner": "字节系 AI IDE · 国内可达对标 Cursor · Flavor A 本机",
+  "descriptionMd": "Trae 是字节跳动推出的 AI IDE，面向中文开发者，强调国内可访问与协作体验，常作 Cursor 的国内对标。\n\n属 Flavor A；能力与模型策略随版本变化，需按实际工作流评测。企业数据策略与隐私模式同样关键。\n\n中文场景与国内网络是主要动机；安全策略（代码上传范围）按公司规范配置。\n",
+  "officialUrl": "https://www.trae.ai",
+  "rankings": [
+    {
+      "systemId": "jetbrains-ai-tools",
+      "tier": "CN IDE",
+      "period": "2025–2026",
+      "note": "国内可及 AI IDE；对照 Cursor 心智份额",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

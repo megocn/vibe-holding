@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "video",
+    "avatar",
+    "dubbing"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "形象授权与 deepfake 合规严格；创意镜头控制弱于生成式视频模型。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.heygen.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "heygen",
+  "name": "HeyGen",
+  "category": "design-ai-video",
+  "subcategory": "avatar-video",
+  "oneLiner": "数字人视频 · 多语口型 · 营销向",
+  "officialUrl": "https://www.heygen.com",
+  "descriptionMd": "HeyGen 专注数字人/口播视频：上传形象或模板，生成多语口型同步讲解，营销、培训与产品介绍高频使用，与文生镜头类工具分工不同。\n\n需要「真人出镜感」讲解视频、多语本地化口播时优先；不要与 Runway/Veo 的文生场景片混比。\n\n形象授权与 deepfake 合规严格；创意镜头控制弱于生成式视频模型。\n",
+  "vendorId": "heygen-inc"
+}

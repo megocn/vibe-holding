@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "design",
+    "ui"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "插件与生态远小于 Figma；大型 design system 迁移成本高。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://penpot.app"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "penpot",
+  "name": "Penpot",
+  "category": "design-tools",
+  "subcategory": "ui-design",
+  "oneLiner": "开源可自托管 · SVG/CSS 导出 · 设计文件主权",
+  "officialUrl": "https://penpot.app",
+  "descriptionMd": "Penpot 是开源 design/collab 工具，支持 SVG/CSS 导出，可自托管，适合对设计文件主权有要求的团队。\n\n不能采购 Figma、或需 EU 开源设计栈时评估 Penpot；与 dev handoff 通过 open format。\n\n插件与生态远小于 Figma；大型 design system 迁移成本高。\n"
+}

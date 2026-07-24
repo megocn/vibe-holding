@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "ai",
+    "video",
+    "domestic",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "产品入口与开源仓库版本迭代快；商用条款与云 API 分开确认。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://hunyuan.tencent.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "domestic",
+  "id": "hunyuan-video",
+  "name": "混元生视频",
+  "category": "design-ai-video",
+  "subcategory": "video-gen",
+  "oneLiner": "腾讯混元视频 · 开源/API · 国内",
+  "officialUrl": "https://hunyuan.tencent.com",
+  "descriptionMd": "混元生视频是腾讯混元多模态能力的一部分，提供文/图生视频与开源权重叙事，适合国内团队在腾讯云/混元生态内做视频生成与自托管试验。\n\n需要国内可达、或开源自托管视频模型时纳入短名单；与可灵/海螺/Vidu 对照。\n\n产品入口与开源仓库版本迭代快；商用条款与云 API 分开确认。\n",
+  "vendorId": "tencent-hunyuan"
+}

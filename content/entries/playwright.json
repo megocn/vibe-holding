@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "e2e",
+    "test"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "测试数据与外部依赖需隔离；flaky 用例往往来自时序与网络，应善用 trace 而非盲目加 sleep。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://playwright.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "playwright",
+  "name": "Playwright",
+  "category": "oss-toolchain",
+  "subcategory": "test",
+  "oneLiner": "三引擎并行 · auto-wait/trace/codegen · E2E+API 一体",
+  "officialUrl": "https://playwright.dev",
+  "descriptionMd": "Playwright 由 Microsoft 维护，支持 Chromium/Firefox/WebKit 并行、自动等待、trace 与 codegen，E2E 与 API 测试一体化。\n\n需要稳定跨浏览器回归、CI 录屏排障或覆盖登录/支付等关键路径时采用；比 Cypress 更偏多浏览器与并行。\n\n测试数据与外部依赖需隔离；flaky 用例往往来自时序与网络，应善用 trace 而非盲目加 sleep。\n"
+}

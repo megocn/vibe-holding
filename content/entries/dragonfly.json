@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cache",
+    "redis-compatible"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "集群模式与某些 Redis 模块不完全支持；托管选项少于 ElastiCache。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.dragonflydb.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "dragonfly",
+  "name": "Dragonfly",
+  "category": "db-cache",
+  "subcategory": "redis-compatible",
+  "oneLiner": "多线程 Redis 协议 · 单机吞吐高于 Redis · 大内存缓存层",
+  "officialUrl": "https://www.dragonflydb.io",
+  "descriptionMd": "Dragonfly 用多线程架构实现 Redis/Memcached 协议，单机吞吐显著高于 Redis，兼容多数命令，适合大内存缓存层。\n\nRedis 成为瓶颈、希望垂直扩展缓存且少改客户端时试点 Dragonfly；K8s 部署常见。\n\n集群模式与某些 Redis 模块不完全支持；托管选项少于 ElastiCache。\n"
+}

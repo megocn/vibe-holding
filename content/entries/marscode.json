@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "海外访问与模型政策需确认；企业版功能与数据驻留条款要法务审核。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.marscode.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "marscode",
+  "name": "MarsCode",
+  "category": "coding-ide-agent",
+  "subcategory": "ide-extension",
+  "oneLiner": "字节系 · 插件+云端开发环境 · 中文语境补全",
+  "officialUrl": "https://www.marscode.com",
+  "descriptionMd": "MarsCode 由字节跳动推出，提供 IDE 插件与云端 AI 开发环境，支持代码补全、解释与云端项目托管。\n\n国内字节系技术栈团队、需要中文语境友好补全与在线 IDE 时使用；与豆包模型协同。\n\n海外访问与模型政策需确认；企业版功能与数据驻留条款要法务审核。\n",
+  "vendorId": "bytedance-marscode"
+}

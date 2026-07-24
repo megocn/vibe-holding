@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "ai",
+    "video",
+    "domestic",
+    "jimeng-platform"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "与「即梦 · 图像」是同一平台的不同模态入口，勿当成两家竞品；水印与商用授权随套餐变。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://jimeng.jianying.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "domestic",
+  "id": "dreamina",
+  "name": "即梦 · 视频",
+  "category": "design-ai-video",
+  "subcategory": "video-gen",
+  "oneLiner": "即梦平台文/图生视频 · Seedance · 国内",
+  "officialUrl": "https://jimeng.jianying.com",
+  "descriptionMd": "即梦（海外品牌名 Dreamina）同一平台上的**视频生成**能力（如 Seedance 线），文/图生视频，面向国内创作者与剪映二次剪辑链路；id 仍为 `dreamina` 仅为历史兼容。\n\n已在即梦做图、需要同账号延伸到短视频/动态素材时选用；与可灵、海螺、Vidu 同叶对比。图像能力见「即梦 · 图像」。\n\n商用与平台水印策略随套餐变；出海发行与海外 Dreamina 站点政策可能不同，需分开核对。\n",
+  "vendorId": "bytedance"
+}

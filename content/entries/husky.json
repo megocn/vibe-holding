@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "git",
+    "dx"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "钩子过慢会伤害提交体验；应只跑增量 staged 文件，重型 E2E 留给 CI。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://typicode.github.io/husky/"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "husky",
+  "name": "Husky",
+  "category": "oss-toolchain",
+  "subcategory": "git-hooks",
+  "oneLiner": "Git 钩子安装简化 · 常配 lint-staged 做提交门禁",
+  "officialUrl": "https://typicode.github.io/husky/",
+  "descriptionMd": "Husky 简化 pre-commit/pre-push 等 Git 钩子安装，常与 lint-staged 配合在提交前跑 format/lint/test。\n\n团队希望把格式与基础检查前移到本地、减少 CI 失败反馈循环时标配。\n\n钩子过慢会伤害提交体验；应只跑增量 staged 文件，重型 E2E 留给 CI。\n"
+}

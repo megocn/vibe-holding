@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "enterprise",
+    "chat"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "与飞书/企微并存时易造成工具分裂；开放平台 rate limit 需规划。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.dingtalk.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "dingtalk",
+  "name": "钉钉",
+  "category": "msg-im",
+  "subcategory": "enterprise",
+  "oneLiner": "国内企业 IM · 审批/考勤/文档一体 · 开放 API 通知",
+  "officialUrl": "https://www.dingtalk.com",
+  "descriptionMd": "钉钉提供 IM、审批、考勤、文档与开放 API，是国内企业数字化与机器人通知的主流平台之一。\n\n国内团队内部协作、OA 审批与阿里云/DevOps 机器人告警时默认选项。\n\n与飞书/企微并存时易造成工具分裂；开放平台 rate limit 需规划。\n",
+  "vendorId": "alibaba"
+}

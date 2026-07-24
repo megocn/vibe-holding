@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line",
+    "flagship"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "与 Small 价差大；简单任务应路由到轻量档控成本。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://mistral.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "mistral-large",
+  "name": "Mistral Large 3",
+  "category": "llm-line",
+  "subcategory": "line",
+  "oneLiner": "Mistral 商用旗舰 · Large 3 · 长上下文/工具调用企业 API",
+  "officialUrl": "https://mistral.ai",
+  "descriptionMd": "Mistral 商用旗舰 line。当前版本为 Mistral Large 3，支持长上下文、function calling 与多语言企业集成。\n\n欧洲企业替代 GPT/Claude 类 API、或需要 GDPR 友好供应商时的主力模型。\n\n与 Small 价差大；简单任务应路由到 Small 4 等轻量档控成本。\n",
+  "vendorId": "mistral-ai",
+  "currentVersion": "Large 3"
+}

@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "storage"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "跨境访问慢；权限策略与 bucket public 误配曾导致数据泄露，需最小权限与审计。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.aliyun.com/product/oss"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "aliyun-oss",
+  "name": "阿里云 OSS",
+  "category": "db-object",
+  "subcategory": "object",
+  "oneLiner": "阿里云生态 · 国内合规/备案 · CDN 联动+图片处理",
+  "officialUrl": "https://www.aliyun.com/product/oss",
+  "descriptionMd": "OSS 提供海量对象存储、CDN 联动、图片处理与跨区域复制，国内合规与备案生态完整，小程序与 Web 静态资源常用。\n\n业务数据必须留在境内、或与阿里云 FC/CDN 深度集成时选用；双 eleven 级别活动验证过规模。\n\n跨境访问慢；权限策略与 bucket public 误配曾导致数据泄露，需最小权限与审计。\n",
+  "vendorId": "alibaba-cloud"
+}

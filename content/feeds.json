@@ -1,0 +1,22 @@
+[
+  {
+    "entryId": "vercel",
+    "url": "https://vercel.com/atom",
+    "label": "Vercel Changelog"
+  },
+  {
+    "entryId": "supabase",
+    "url": "https://supabase.com/feed.xml",
+    "label": "Supabase Blog"
+  },
+  {
+    "entryId": "nextjs",
+    "url": "https://nextjs.org/feed.xml",
+    "label": "Next.js Blog"
+  },
+  {
+    "entryId": "cloudflare-pages",
+    "url": "https://blog.cloudflare.com/rss/",
+    "label": "Cloudflare Blog"
+  }
+]

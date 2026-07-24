@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "模型上线速度与 region 可用性滞后；非 AWS 栈跨云调用不经济。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://aws.amazon.com/bedrock"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "aws-bedrock",
+  "name": "Amazon Bedrock",
+  "category": "gateway-router",
+  "subcategory": "cloud-llm",
+  "oneLiner": "AWS 内多模型统一 API · IAM/VPC/合规 · Claude+Llama+Titan",
+  "officialUrl": "https://aws.amazon.com/bedrock",
+  "descriptionMd": "Amazon Bedrock 在 AWS 内提供 Claude、Llama、Titan 等多模型统一 API，集成 IAM、VPC 与企业合规能力。\n\n已 all-in AWS、需要单一云账单与私有网络内调用 frontier/开源模型的企业。\n\n模型上线速度与 region 可用性滞后；非 AWS 栈跨云调用不经济。\n",
+  "vendorId": "amazon"
+}

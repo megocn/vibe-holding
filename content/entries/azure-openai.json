@@ -1,0 +1,45 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "gateway",
+    "enterprise",
+    "openai"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "开通与配额流程长",
+    "需企业主体"
+  ],
+  "updates": [],
+  "sources": [
+    "https://azure.microsoft.com/products/ai-services/openai-service"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "azure-openai",
+  "name": "Azure OpenAI",
+  "category": "gateway-router",
+  "oneLiner": "Azure 托管 OpenAI · 企业合同/区域/私网 · 配额治理非 C 端",
+  "descriptionMd": "在 Azure 上托管 OpenAI 模型，强调企业合同、区域合规、私网与配额治理，而不是 C 端 ChatGPT 体验。\n\n国内直连常不可用或需企业通道；选型动机多为合规与采购，而非纯价格。应用侧仍建议经网关（OpenRouter/自建）抽象模型供应商。\n\n区域配额与内容过滤策略按订阅配置；应用层仍做重试与模型降级。\n",
+  "officialUrl": "https://azure.microsoft.com/products/ai-services/openai-service",
+  "rankings": [
+    {
+      "systemId": "artificial-analysis-index",
+      "tier": "Enterprise channel",
+      "period": "2026-07",
+      "note": "企业合规接入 OpenAI 模型的主流云通道",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

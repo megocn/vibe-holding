@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "缺少 batteries-included ORM；复杂业务层需自行架构。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://gin-gonic.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "gin",
+  "name": "Gin",
+  "category": "fw-fullstack",
+  "subcategory": "go-backend",
+  "oneLiner": "Go 流行 Web · 路由快/中间件简 · 高 QPS 微服务 API",
+  "officialUrl": "https://gin-gonic.com",
+  "descriptionMd": "Gin 是 Go 最流行的 Web 框架之一，路由快、中间件简洁，适合 microservices 与高 QPS API。\n\nGo 微服务、云原生 sidecar API、或需要小内存 footprint 的 backend。\n\n缺少 batteries-included ORM；复杂业务层需自行架构。\n",
+  "vendorId": "gin-gonic"
+}

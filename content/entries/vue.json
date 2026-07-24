@@ -1,0 +1,43 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "frontend",
+    "progressive"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "大型企业生态相对 React 偏少"
+  ],
+  "updates": [],
+  "sources": [
+    "https://vuejs.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "vue",
+  "name": "Vue",
+  "category": "fw-ui-lib",
+  "oneLiner": "渐进式框架 · 上手曲线平 · 中文文档与生态友好",
+  "descriptionMd": "Vue 是渐进式前端框架，易上手，中文生态与文档友好。\n\n与 React 按团队选择；全栈用 Nuxt。渐进式意味着可以从小组件用到完整 SPA，不必一次性上全家桶。\n\n国内文档与社区活跃，教学成本低；若团队已是 React，不必为了「新潮」强行切换。\n",
+  "officialUrl": "https://vuejs.org",
+  "rankings": [
+    {
+      "systemId": "state-of-js",
+      "tier": "Stable #2",
+      "period": "2025 Survey",
+      "note": "留存与满意度长期稳健",
+      "sourceUrl": "https://stateofjs.com/",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

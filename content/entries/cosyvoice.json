@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "tts",
+    "voice-clone",
+    "domestic",
+    "cosyvoice"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "部分版本仅特定地域/仅支持复刻音色；生产前确认 voice id 与模型名匹配。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://help.aliyun.com/zh/model-studio/realtime-tts-user-guide"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "domestic",
+  "id": "cosyvoice",
+  "name": "CosyVoice",
+  "category": "ai-speech",
+  "subcategory": "tts",
+  "oneLiner": "阿里 CosyVoice · 复刻/声音设计 · 百炼",
+  "officialUrl": "https://help.aliyun.com/zh/model-studio/realtime-tts-user-guide",
+  "descriptionMd": "CosyVoice 是阿里通义实验室语音合成模型族（经百炼提供 v3/v3.5 等），擅长声音复刻与声音设计，适合自定义音色的助手、有声与客服场景；新项目文档建议优先于旧 Sambert。\n\n需要克隆品牌音色或「文本描述出声」设计、国内合规落地时评估；与 Qwen-Audio-TTS 可同平台对照。\n\n部分版本仅特定地域/仅支持复刻音色；生产前确认 voice id 与模型名匹配。\n",
+  "vendorId": "alibaba-cloud",
+  "currentVersion": "v3.5 (Plus/Flash)"
+}

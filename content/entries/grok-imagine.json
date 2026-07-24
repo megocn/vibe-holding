@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "image",
+    "xai"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "区域与 API 成熟度变化快；企业合规与商用条款需核对。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://x.ai"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "grok-imagine",
+  "name": "Grok Imagine",
+  "category": "design-ai-image",
+  "subcategory": "image-gen",
+  "oneLiner": "xAI 文生图/短视频 · Grok 生态",
+  "officialUrl": "https://x.ai",
+  "descriptionMd": "Grok Imagine 是 xAI 在 Grok 产品中的图像（及短视频向）生成能力，强调创意与表达，与 Grok 对话生态绑定。\n\n已在 xAI/Grok 生态、需要快速出图或趣味视觉时试用；严肃品牌管线仍对照 Midjourney/Flux。\n\n区域与 API 成熟度变化快；企业合规与商用条款需核对。\n",
+  "vendorId": "xai"
+}

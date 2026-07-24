@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cms",
+    "headless"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "高并发 read 需加 CDN/cache；复杂 relational modeling 不如 direct DB + PostgREST。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://strapi.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "strapi",
+  "name": "Strapi",
+  "category": "baas-platform",
+  "subcategory": "headless-cms",
+  "oneLiner": "Node Headless CMS · 可定制 content types · Cloud/自托管可选",
+  "officialUrl": "https://strapi.io",
+  "descriptionMd": "Strapi 提供可定制 content types、REST/GraphQL API、roles 与 media library，Node.js 编写，Cloud 与 self-host 可选。\n\n营销站与 App 共享 structured content、需要 non-dev 编辑后台时常用；plugin 生态大。\n\n高并发 read 需加 CDN/cache；复杂 relational modeling 不如 direct DB + PostgREST。\n"
+}

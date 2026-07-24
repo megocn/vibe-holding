@@ -1,0 +1,34 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "bundler"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "插件 100% 兼容不保证；边缘 loader 行为需回归测试。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.rspack.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "both",
+  "id": "rspack",
+  "name": "Rspack",
+  "category": "oss-toolchain",
+  "subcategory": "bundler",
+  "oneLiner": "Webpack 配置兼容 · Rust 加速 · 字节系大型仓降本",
+  "officialUrl": "https://www.rspack.dev",
+  "descriptionMd": "Rspack 由 ByteDance 团队开发，追求 Webpack 配置兼容与 Rust 性能，适合大型前端仓库降本提速。\n\nWebpack 迁移成本高但 dev/build 太慢时评估 Rspack；与 Module Federation 场景在演进。\n\n插件 100% 兼容不保证；边缘 loader 行为需回归测试。\n"
+}

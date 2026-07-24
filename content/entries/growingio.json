@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "analytics"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "复杂漏斗与精细 event schema 仍可能需要代码埋点；被收购后产品路线图与定价需持续关注。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.growingio.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "growingio",
+  "name": "GrowingIO",
+  "category": "growth-web",
+  "subcategory": "product-analytics",
+  "oneLiner": "无埋点圈选 · 热图/留存中文文档 · 国内增长团队向",
+  "officialUrl": "https://www.growingio.com",
+  "descriptionMd": "GrowingIO 强调无埋点采集与可视化圈选，适合快速上线行为分析、热图与留存报表，国内增长团队中文文档完善。\n\n希望减少手动埋点成本、主要用户在国内且需中文支持与本地实施伙伴时选用 GrowingIO。\n\n复杂漏斗与精细 event schema 仍可能需要代码埋点；被收购后产品路线图与定价需持续关注。\n",
+  "vendorId": "growingio-inc"
+}

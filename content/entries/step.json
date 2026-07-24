@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "family"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "生态仍在扩张；与成熟云厂商比企业支持体系较新。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.stepfun.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "step",
+  "name": "Step",
+  "category": "llm-family",
+  "subcategory": "family",
+  "oneLiner": "阶跃星辰 · 现至 Step 3.7 · 多模态+Agent · 国内开放平台 API",
+  "officialUrl": "https://www.stepfun.com",
+  "descriptionMd": "Step 是阶跃星辰模型系列，当前主推 Step 3.7 Flash 等 3.x 线；Step 2 已淘汰。\n\n国内创新型 AI 应用、需要多模态+工具调用一体 API 的初创团队可 POC。\n\n生态仍在扩张；与成熟云厂商比企业支持体系较新。\n",
+  "vendorId": "stepfun"
+}

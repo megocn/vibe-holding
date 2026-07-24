@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "realtime",
+    "voice-agent",
+    "openai",
+    "webrtc"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "按音频 token 计费；国内直连受限；若只要模块化 ASR/TTS 可控性，模块管线可能更透明。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://platform.openai.com/docs/guides/realtime"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "openai-realtime",
+  "name": "OpenAI Realtime API",
+  "category": "ai-realtime",
+  "subcategory": "speech-to-speech",
+  "oneLiner": "原生语音到语音 · 打断/工具调用 · 低延迟会话",
+  "officialUrl": "https://platform.openai.com/docs/guides/realtime",
+  "descriptionMd": "OpenAI Realtime API 以原生 speech-to-speech 会话为核心，支持打断、工具调用与 WebSocket/WebRTC，避免自拼 STT→LLM→TTS 的状态撕裂。\n\n语音即界面、需要自然轮次与工具编排、且团队已在 OpenAI 生态时优先；电话/客服 Agent 常见底座。\n\n按音频 token 计费；国内直连受限；若只要模块化 ASR/TTS 可控性，模块管线可能更透明。\n",
+  "vendorId": "openai",
+  "docsUrl": "https://platform.openai.com/docs/guides/realtime"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "gin-e0",
+  "from": "gin",
+  "to": "go",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

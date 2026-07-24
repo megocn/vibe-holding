@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "push"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "文档与控制台偏国内语境；国际化产品需评估海外节点、隐私政策与用户同意流程是否满足当地法规。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.getui.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "getui",
+  "name": "个推",
+  "category": "msg-push",
+  "subcategory": "mobile-push",
+  "oneLiner": "国内厂商通道聚合 · 画像/增长工具 · 分群与 A/B 控制台",
+  "officialUrl": "https://www.getui.com",
+  "descriptionMd": "个推提供 push、用户画像与增长工具，在国内 Android 厂商通道聚合与到达率方面有长期积累，控制台支持分群与 A/B。\n\n需要 push 之外轻量用户运营、或已与个推 SDK 历史集成时继续；适合国内 Android 占比高的 App。\n\n文档与控制台偏国内语境；国际化产品需评估海外节点、隐私政策与用户同意流程是否满足当地法规。\n",
+  "vendorId": "getui-inc"
+}

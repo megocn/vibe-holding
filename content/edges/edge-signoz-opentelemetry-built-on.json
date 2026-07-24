@@ -1,0 +1,10 @@
+{
+  "id": "edge-signoz-opentelemetry-built-on",
+  "from": "signoz",
+  "to": "opentelemetry",
+  "type": "built_on",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

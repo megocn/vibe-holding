@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "auth",
+    "passwordless"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "B2B SAML 与企业 directory 不如 WorkOS 专精；定价随 MAU 与 SMS 成本上升。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://stytch.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "stytch",
+  "name": "Stytch",
+  "category": "baas-auth-only",
+  "subcategory": "api",
+  "oneLiner": "无密码主路径 · magic link/OTP/WebAuthn · fraud 信号；PLG 快登",
+  "officialUrl": "https://stytch.com",
+  "descriptionMd": "Stytch 提供 magic link、OTP、WebAuthn 与 fraud 信号，API 设计现代，适合 product-led growth 应用的快速登录。\n\n希望优先 passwordless、减少密码泄露风险且不想自建 crypto 时选用；B2C mobile 常见。\n\nB2B SAML 与企业 directory 不如 WorkOS 专精；定价随 MAU 与 SMS 成本上升。\n"
+}

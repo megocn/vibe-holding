@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "kafka",
+    "managed"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "成本高于 self-host on EC2；跨 region mirroring 需 MSK Replicator 额外费用。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://aws.amazon.com/msk"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "aws-msk",
+  "name": "Amazon MSK",
+  "category": "db-nosql",
+  "subcategory": "managed",
+  "oneLiner": "托管开源 Kafka · VPC/IAM/Glue · AWS 栈补丁与扩缩",
+  "officialUrl": "https://aws.amazon.com/msk",
+  "descriptionMd": "Amazon MSK 运行开源 Apache Kafka，AWS 负责 broker 补丁与 scaling，与 VPC、IAM、Glue Schema Registry 集成。\n\n已在 AWS、需要 Kafka 兼容且不想自管 ZooKeeper/KRaft 运维时选用 MSK Serverless 或 provisioned。\n\n成本高于 self-host on EC2；跨 region mirroring 需 MSK Replicator 额外费用。\n",
+  "vendorId": "amazon-web-services"
+}

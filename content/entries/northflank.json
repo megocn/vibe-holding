@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "kubernetes",
+    "paas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "学习曲线仍高于 Render；自定义网络与 GPU 支持需看套餐。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://northflank.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "northflank",
+  "name": "Northflank",
+  "category": "cloud-paas",
+  "subcategory": "paas",
+  "oneLiner": "托管 K8s 上 Heroku 式 Git 部署 · Preview/Cron/附加库",
+  "officialUrl": "https://northflank.com",
+  "descriptionMd": "Northflank 在托管 K8s 上提供类似 Heroku 的 Git 部署体验，支持 Preview 环境、Cron 与附加数据库，偏开发者平台。\n\n团队需要 K8s 能力但不想自建控制平面、或要多服务 compose 时评估；比裸 GKE 上手快。\n\n学习曲线仍高于 Render；自定义网络与 GPU 支持需看套餐。\n"
+}

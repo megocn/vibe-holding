@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "ai",
+    "video",
+    "domestic"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "海外发行与长视频稳定性需自测；积分消耗与并发限制影响批量生产。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://hailuoai.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "domestic",
+  "id": "hailuo",
+  "name": "海螺视频",
+  "category": "design-ai-video",
+  "subcategory": "video-gen",
+  "oneLiner": "MiniMax 海螺 · 国内视频生成",
+  "officialUrl": "https://hailuoai.com",
+  "descriptionMd": "海螺视频是 MiniMax 旗下 AI 视频生成产品，面向国内用户提供文/图生视频，常与 MiniMax 模型与语音能力形成内容生产闭环。\n\n国内团队需要中文 prompt 友好、与 MiniMax 同账号生态的视频生成时评估。\n\n海外发行与长视频稳定性需自测；积分消耗与并发限制影响批量生产。\n",
+  "vendorId": "minimax-inc"
+}

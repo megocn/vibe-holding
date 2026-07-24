@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "distributed",
+    "postgres-compatible"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "运维与调优学习曲线陡；小流量场景不如 Neon/Supabase 经济。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.yugabyte.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "yugabytedb",
+  "name": "YugabyteDB",
+  "category": "db-relational",
+  "subcategory": "distributed",
+  "oneLiner": "PG 兼容层+geo · Cassandra 式存储扩展 · 开源与托管并存",
+  "officialUrl": "https://www.yugabyte.com",
+  "descriptionMd": "YugabyteDB 以 Postgres 兼容层 + Cassandra 式存储引擎实现水平扩展与 geo-distribution，开源与托管并存。\n\n需要 Postgres SQL 语义又要 multi-region 写扩展时评估；替代 Cockroach 的开源选项。\n\n运维与调优学习曲线陡；小流量场景不如 Neon/Supabase 经济。\n"
+}

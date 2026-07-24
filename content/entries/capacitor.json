@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "性能与 UX 不如 RN/Flutter；重度 native 功能依赖 plugin 质量。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://capacitorjs.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "capacitor",
+  "name": "Capacitor",
+  "category": "fw-fullstack",
+  "subcategory": "mobile-hybrid",
+  "oneLiner": "Web App 包 iOS/Android · Ionic 维护 · hybrid plugin API",
+  "officialUrl": "https://capacitorjs.com",
+  "descriptionMd": "Capacitor 是 Ionic 团队维护的 hybrid 运行时，将 Web App 包装为 iOS/Android 并暴露 native plugin API。\n\n已有 PWA/Next 营销站、需低成本上架 App Store 且交互不太复杂时。\n\n性能与 UX 不如 RN/Flutter；重度 native 功能依赖 plugin 质量。\n",
+  "vendorId": "ionic-team"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "edge-flux-cd-kubernetes-depends-on",
+  "from": "flux-cd",
+  "to": "kubernetes",
+  "type": "depends_on",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

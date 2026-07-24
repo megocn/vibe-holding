@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "kafka",
+    "managed"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "定价比 MSK/self-host 高；vendor 绑定 Flink/ksql 组件。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.confluent.io/confluent-cloud"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "confluent-cloud",
+  "name": "Confluent Cloud",
+  "category": "db-nosql",
+  "subcategory": "managed",
+  "oneLiner": "Kafka+ksql+Flink 托管 · Schema/Connector 生态 · Confluent SLA",
+  "officialUrl": "https://www.confluent.io/confluent-cloud",
+  "descriptionMd": "Confluent Cloud 提供 Kafka、ksqlDB、Schema Registry 与 Flink 托管，SLA 与 connector 生态由 Confluent 维护。\n\n需要 enterprise Kafka SLA、connector marketplace 且预算允许时用 Confluent Cloud；跨云也可。\n\n定价比 MSK/self-host 高；vendor 绑定 Flink/ksql 组件。\n",
+  "vendorId": "confluent"
+}

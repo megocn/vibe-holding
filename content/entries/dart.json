@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "脱离 Flutter 生态独立使用场景少；纯后端不如 Go/TS 流行。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://dart.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "dart",
+  "name": "Dart",
+  "category": "lang-language",
+  "subcategory": "flutter-lang",
+  "oneLiner": "Flutter 一等公民 · AOT/JIT · 语法近 Java/TS",
+  "officialUrl": "https://dart.dev",
+  "descriptionMd": "Dart 是 Google 为 Flutter 优化的语言，支持 AOT/JIT，也可用于 small server 与 CLI，语法类似 Java/TS。\n\n已选 Flutter 做跨平台 UI 时自然采用；单代码库移动+Web 场景。\n\n脱离 Flutter 生态独立使用场景少；纯后端不如 Go/TS 流行。\n",
+  "vendorId": "google-dart"
+}

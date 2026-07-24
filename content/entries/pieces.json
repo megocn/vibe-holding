@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "额外客户端增加维护成本；敏感代码片段本地加密策略需团队规范。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://pieces.app"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "pieces",
+  "name": "Pieces",
+  "category": "coding-ide-agent",
+  "subcategory": "dev-productivity",
+  "oneLiner": "片段/截图可检索记忆 · 跨设备上下文层 · Copilot 增强而非替代",
+  "officialUrl": "https://pieces.app",
+  "descriptionMd": "Pieces 跨 IDE 保存代码片段、截图与链接，并用本地/云端 AI 建立可搜索的开发者记忆库，增强 Copilot 上下文。\n\n工程师频繁复用 boilerplate、需要在多设备间同步「可检索记忆」时作为 Copilot 增强层。\n\n额外客户端增加维护成本；敏感代码片段本地加密策略需团队规范。\n",
+  "vendorId": "pieces-app"
+}

@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "azure",
+    "serverless"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "消费计划冷启动与 VNet 集成配置复杂；跨 region 灾备需额外设计。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://azure.microsoft.com/products/functions"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "azure-functions",
+  "name": "Azure Functions",
+  "category": "cloud-paas",
+  "subcategory": "serverless",
+  "oneLiner": "多触发器 · Durable 编排 · Event Grid/Cosmos/Entra 企业栈",
+  "officialUrl": "https://azure.microsoft.com/products/functions",
+  "descriptionMd": "Azure Functions 支持多种触发器与 Durable Functions 编排，与 Event Grid、Cosmos DB、Entra ID 集成，适合 Azure 企业栈。\n\n微软/Azure 合同客户做事件驱动集成、或 Logic Apps 不够灵活时采用；.NET 栈体验最佳。\n\n消费计划冷启动与 VNet 集成配置复杂；跨 region 灾备需额外设计。\n",
+  "vendorId": "microsoft-azure"
+}

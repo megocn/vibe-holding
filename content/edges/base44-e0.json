@@ -1,0 +1,10 @@
+{
+  "id": "base44-e0",
+  "from": "base44",
+  "to": "lovable",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

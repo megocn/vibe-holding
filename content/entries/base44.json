@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "subscription"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "生成代码质量与可维护性参差；上线前必须安全审计、替换硬编码密钥并接入正规 CI。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://base44.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "base44",
+  "name": "Base44",
+  "category": "coding-cloud-builder",
+  "subcategory": "ai-app-builder",
+  "oneLiner": "NL→前后端代码+部署 · 非工程师/快原型 · 全应用生成向",
+  "officialUrl": "https://base44.com",
+  "descriptionMd": "Base44 是 AI 驱动的应用构建平台，用户用自然语言描述需求即可生成前后端代码与部署，面向非工程师与快速原型场景。\n\n产品经理或创始人需要在数小时内验证 SaaS 想法、且可接受后续手工 refine 代码时使用。\n\n生成代码质量与可维护性参差；上线前必须安全审计、替换硬编码密钥并接入正规 CI。\n",
+  "vendorId": "base44-inc"
+}

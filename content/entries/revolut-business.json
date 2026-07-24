@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "banking",
+    "europe"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "美国本土 banking 能力有限；高 risk 行业开户可能被拒，deposit 保护因 region 而异。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.revolut.com/business"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "revolut-business",
+  "name": "Revolut Business",
+  "category": "global-fx",
+  "subcategory": "banking",
+  "oneLiner": "EU/UK SME 多币种账户 · FX+card+API · 费率相对透明",
+  "officialUrl": "https://www.revolut.com/business",
+  "descriptionMd": "Revolut Business 提供多币种账户、FX、card 与 API，服务 EU/UK SME 跨境收付，费率透明。\n\n欧洲 startup 需要 EUR/GBP 多币种与 cheap FX 时常用；与 Wise Business 对比 corridor。\n\n美国本土 banking 能力有限；高 risk 行业开户可能被拒，deposit 保护因 region 而异。\n"
+}

@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "高 QPS 成本迅速上升；生产 scale 应迁移 dedicated/vLLM。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://replicate.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "replicate",
+  "name": "Replicate",
+  "category": "gateway-router",
+  "subcategory": "inference-api",
+  "oneLiner": "开源模型封装 HTTP · 按秒计费 · 原型快接非高 QPS",
+  "officialUrl": "https://replicate.com",
+  "descriptionMd": "Replicate 将开源模型（含 LLM、图像、音频）封装为 HTTP API，按秒计费，适合快速集成与原型验证。\n\nIndie hacker 需要调用 Stable Diffusion/Llama 等而不想运维 GPU 时。\n\n高 QPS 成本迅速上升；生产 scale 应迁移 dedicated/vLLM。\n",
+  "vendorId": "replicate-inc"
+}

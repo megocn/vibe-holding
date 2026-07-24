@@ -1,0 +1,52 @@
+{
+  "id": "phosphor-icons",
+  "name": "Phosphor Icons",
+  "category": "ui-icons",
+  "subcategory": "icons",
+  "vendorId": "phosphor",
+  "region": "both",
+  "oneLiner": "多字重一致 SVG/React/RN · VH 规范硬性图标系统",
+  "descriptionMd": "Phosphor Icons 提供多种字重的 SVG/React/RN 图标，灵活且一致。VibeHolding 设计规范将其作为硬性图标系统。\n\n属 UI 图标叶类，不应与 Ant Design 等完整组件库、或 Lottie 动效同榜对比。\n\nRegular/Bold/Duotone 按交互态切换，避免同一界面混用无关字重。\n",
+  "officialUrl": "https://phosphoricons.com",
+  "docsUrl": "https://github.com/phosphor-icons/react",
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "icons",
+    "svg",
+    "react",
+    "design-system"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "与完整 UI 套件不是同一选型问题"
+  ],
+  "updates": [],
+  "rankings": [
+    {
+      "systemId": "iconify-popularity",
+      "tier": "Widely adopted",
+      "period": "2026",
+      "asOf": "2026-07-23"
+    },
+    {
+      "systemId": "github-icon-stars",
+      "tier": "Popular",
+      "period": "2026",
+      "asOf": "2026-07-23"
+    }
+  ],
+  "sources": [
+    "https://phosphoricons.com"
+  ],
+  "lastReviewed": "2026-07-23"
+}

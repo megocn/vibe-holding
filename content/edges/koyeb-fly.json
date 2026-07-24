@@ -1,0 +1,10 @@
+{
+  "id": "koyeb-fly",
+  "from": "koyeb",
+  "to": "fly-io",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "ai",
+    "image",
+    "domestic",
+    "community"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "偏创作社区而非稳定企业 API SLA；商用与模型授权需逐案确认。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.liblib.art"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "domestic",
+  "id": "liblib",
+  "name": "LiblibAI",
+  "category": "design-ai-image",
+  "subcategory": "image-gen",
+  "oneLiner": "国内 AI 创作社区 · 模型/工作流",
+  "officialUrl": "https://www.liblib.art",
+  "descriptionMd": "LiblibAI 是国内活跃的 AI 图像创作与模型分享社区/平台，提供在线生成与大量自定义模型，适合设计师试验风格与工作流。\n\n需要中文社区模型、LoRA/工作流试验、国内可达创作平台时评估。\n\n偏创作社区而非稳定企业 API SLA；商用与模型授权需逐案确认。\n",
+  "vendorId": "liblib-inc"
+}

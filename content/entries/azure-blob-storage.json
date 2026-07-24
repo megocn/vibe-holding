@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "storage",
+    "azure"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "权限模型（RBAC+SAS）复杂；跨 cloud 工具 S3 兼容网关非原生。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://azure.microsoft.com/products/storage/blobs"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "azure-blob-storage",
+  "name": "Azure Blob Storage",
+  "category": "db-object",
+  "subcategory": "object",
+  "oneLiner": "Azure 数据平面 · hot/cool/archive · ADLS Gen2",
+  "officialUrl": "https://azure.microsoft.com/products/storage/blobs",
+  "descriptionMd": "Azure Blob 提供 hot/cool/archive 层、ADLS Gen2 与静态网站，与 Azure Functions、CDN 集成，是企业 Azure 数据平面基础。\n\n微软栈存放日志、backup、data lake 或 static website 时默认；Synapse 分析直接读 Blob。\n\n权限模型（RBAC+SAS）复杂；跨 cloud 工具 S3 兼容网关非原生。\n",
+  "vendorId": "microsoft-azure"
+}

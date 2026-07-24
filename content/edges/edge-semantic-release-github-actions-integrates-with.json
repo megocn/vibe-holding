@@ -1,0 +1,10 @@
+{
+  "id": "edge-semantic-release-github-actions-integrates-with",
+  "from": "semantic-release",
+  "to": "github-actions",
+  "type": "integrates_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

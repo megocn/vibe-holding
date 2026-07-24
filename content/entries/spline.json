@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "3d",
+    "web"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "复杂游戏级 3D 仍要专业 DCC；runtime 性能 mobile 需测试。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://spline.design"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "spline",
+  "name": "Spline",
+  "category": "design-tools",
+  "subcategory": "3d",
+  "oneLiner": "Web 内建 3D · embed React/Framer · 产品 hero 降本",
+  "officialUrl": "https://spline.design",
+  "descriptionMd": "Spline 让设计师在 web 中创建 3D 场景并 embed 到 React/Framer，降低 product 3D hero 成本。\n\nmarketing 需要 interactive 3D 而非静态图、且无专职 Three.js 工程师时选用 Spline。\n\n复杂游戏级 3D 仍要专业 DCC；runtime 性能 mobile 需测试。\n",
+  "vendorId": "spline-inc"
+}

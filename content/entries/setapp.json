@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "macos",
+    "subscription"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "收入分成与 exclusivity 条款需读清；不适合 freemium 巨大用户量只靠少数付费转化。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://setapp.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "setapp",
+  "name": "Setapp",
+  "category": "dist-desktop",
+  "subcategory": "subscription",
+  "oneLiner": "Mac 订阅精品库 · curated · indie revenue share",
+  "officialUrl": "https://setapp.com",
+  "descriptionMd": "Setapp 是 MacPaw 的应用订阅商店，用户月费访问 curated 应用库， indie 开发者可获得 revenue share。\n\nMac 生产力工具寻求订阅分发、触达愿意付月费的用户群时申请加入；marketing 由平台部分承担。\n\n收入分成与 exclusivity 条款需读清；不适合 freemium 巨大用户量只靠少数付费转化。\n"
+}

@@ -1,0 +1,46 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "与 Opus 相比复杂开放式推理仍可能弱；敏感数据需确认 Anthropic 企业数据条款。",
+    "Sonnet 5 tokenizer 可能导致同等文本 token 更多，应用任务总成本评估而非只看单价。"
+  ],
+  "updates": [
+    {
+      "date": "2026-06-30",
+      "type": "release",
+      "version": "Sonnet 5",
+      "summary": "更强 agentic 编码；API `claude-sonnet-5`；导价后恢复标准价",
+      "source": "https://www.anthropic.com/claude/sonnet"
+    }
+  ],
+  "rankings": [],
+  "sources": [
+    "https://www.anthropic.com/claude/sonnet"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "claude-sonnet",
+  "name": "Claude Sonnet",
+  "category": "llm-line",
+  "subcategory": "line",
+  "oneLiner": "Anthropic 平衡主力 · 现为 Sonnet 5 · 编码/Agent 性价比默认档",
+  "officialUrl": "https://www.anthropic.com/claude/sonnet",
+  "descriptionMd": "Claude Sonnet 是 Anthropic Claude 家族的高性能平衡 line。当前版本为 Sonnet 5（2026-06-30），在编码、工具调用与日常工作上逼近更贵档位。\n\n日常编码 Agent、企业知识库与批量文档处理的默认选择；极难长链路任务再升 Opus 4.8。\n\n与 Opus 相比复杂开放式推理仍可能弱；敏感数据需确认 Anthropic 企业数据条款；注意 tokenizer/篇幅对账单的影响。\n",
+  "vendorId": "anthropic",
+  "currentVersion": "Sonnet 5"
+}

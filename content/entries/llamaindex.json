@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "rag",
+    "documents"
+  ],
+  "maturity": "stable",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.llamaindex.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "llamaindex",
+  "name": "LlamaIndex",
+  "category": "ai-rag",
+  "subcategory": "rag",
+  "oneLiner": "文档索引/检索专精 · RAG/数据代理 · Python/TS 双端",
+  "descriptionMd": "LlamaIndex 专注文档索引、检索与 RAG/数据代理，Python/TS 均有，适合「把私有知识接进模型」。\n\n简单 RAG 也可 pgvector + 自研；复杂解析与检索流水线时框架价值更高。与 Agent 编排框架分工：它偏数据面。\n\n解析质量决定 RAG 上限；先把文档清洗与切片策略做对，再调检索参数。\n",
+  "officialUrl": "https://www.llamaindex.ai"
+}

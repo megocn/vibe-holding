@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "android",
+    "store"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "审核周期与版本回滚策略因渠道而异；隐私合规检测趋严，SDK 清单要完整。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://open.oppomobile.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "oppo-store",
+  "name": "OPPO 软件商店",
+  "category": "dist-android",
+  "subcategory": "store",
+  "oneLiner": "ColorOS 用户入口 · 上架/游戏联运/push · 国内 TOP 渠道之一",
+  "officialUrl": "https://open.oppomobile.com",
+  "descriptionMd": "OPPO 软件商店服务 ColorOS 用户，提供应用上架、游戏联运与 push 能力，是国内安卓 TOP 渠道之一。\n\n国内 Android 分发矩阵必备渠道；与 vivo 共用部分联运体系需分别提交。\n\n审核周期与版本回滚策略因渠道而异；隐私合规检测趋严，SDK 清单要完整。\n",
+  "vendorId": "oppo"
+}

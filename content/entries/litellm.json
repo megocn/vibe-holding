@@ -1,0 +1,50 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "gateway",
+    "oss",
+    "proxy"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "自托管需运维",
+    "配置项多"
+  ],
+  "updates": [],
+  "sources": [
+    "https://www.litellm.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "litellm",
+  "name": "LiteLLM",
+  "category": "gateway-router",
+  "oneLiner": "OpenAI 兼容统一口 · 自托管网关/路由/落库 · 上百模型",
+  "descriptionMd": "LiteLLM 用统一的 OpenAI 兼容接口代理上百种模型，可自托管，适合网关、路由与落库。\n\n常与 OpenRouter（托管聚合）对照：要自控与内网选 LiteLLM，要免运维选托管。注意各上游限速、账单与失败重试策略。\n\n可做落库与预算路由；上游故障时的 fallback 链比「接更多模型」更重要。\n",
+  "officialUrl": "https://www.litellm.ai",
+  "rankings": [
+    {
+      "systemId": "openrouter-popularity",
+      "tier": "Self-host proxy",
+      "period": "2026-07",
+      "note": "自建统一接口；与 OpenRouter 互补",
+      "asOf": "2026-07-20"
+    },
+    {
+      "systemId": "artificial-analysis-index",
+      "tier": "Router",
+      "period": "2026-07",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

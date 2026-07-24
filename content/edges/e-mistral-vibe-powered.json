@@ -1,0 +1,11 @@
+{
+  "id": "e-mistral-vibe-powered",
+  "from": "mistral-vibe",
+  "to": "mistral-large",
+  "type": "powered_by",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24",
+  "note": "旗舰档随产品迭代，以控制台为准"
+}

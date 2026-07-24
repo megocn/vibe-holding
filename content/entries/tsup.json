@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "bundler",
+    "typescript"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "复杂多入口或自定义插件场景可能需回退 Rollup；类型声明偶需 tsconfig 微调。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://tsup.egoist.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "tsup",
+  "name": "tsup",
+  "category": "oss-toolchain",
+  "subcategory": "bundler",
+  "oneLiner": "esbuild 封装 · 库 ESM/CJS/d.ts 零配置",
+  "officialUrl": "https://tsup.egoist.dev",
+  "descriptionMd": "tsup 基于 esbuild，为 npm 库提供零配置 ESM/CJS/d.ts 打包，适合工具包与 CLI 快速发布。\n\n维护小型 TS 开源库、不想手写 Rollup 配置时首选；与 changesets 发布流程契合。\n\n复杂多入口或自定义插件场景可能需回退 Rollup；类型声明偶需 tsconfig 微调。\n"
+}

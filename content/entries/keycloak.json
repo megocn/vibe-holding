@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "auth",
+    "iam"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "运维与升级复杂；主题与 UX 现代化需额外前端，Cloud 托管非官方。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.keycloak.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "keycloak",
+  "name": "Keycloak",
+  "category": "baas-auth-only",
+  "subcategory": "idp",
+  "oneLiner": "成熟开源 IdP · SAML/OIDC/RBAC/federation · 企业 on-prem 标配；运维重",
+  "officialUrl": "https://www.keycloak.org",
+  "descriptionMd": "Keycloak 是成熟开源 IdP，支持 SAML/OIDC、细粒度 RBAC、用户 federation 与 admin console，企业 on-prem 部署广泛。\n\n金融/政府/on-prem 必须开源 IAM、或已有 Red Hat 合同时默认选择；高度可扩展 SPI。\n\n运维与升级复杂；主题与 UX 现代化需额外前端，Cloud 托管非官方。\n"
+}

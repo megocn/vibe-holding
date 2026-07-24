@@ -1,0 +1,55 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line",
+    "domestic",
+    "aliyun",
+    "flagship"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "务必锁定正式版 model id；3.8-Max Preview 勿当生产默认。"
+  ],
+  "updates": [],
+  "rankings": [
+    {
+      "systemId": "lmarena-text",
+      "tier": "CN flagship",
+      "period": "2026-07",
+      "note": "通义旗舰档；开源线另见 Qwen 开源权重",
+      "asOf": "2026-07-23"
+    },
+    {
+      "systemId": "artificial-analysis-index",
+      "tier": "Competitive",
+      "period": "2026-07",
+      "asOf": "2026-07-23"
+    }
+  ],
+  "sources": [
+    "https://www.aliyun.com/product/bailian"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "qwen-max",
+  "name": "Qwen-Max",
+  "category": "llm-line",
+  "subcategory": "line",
+  "vendorId": "alibaba-cloud",
+  "oneLiner": "通义旗舰 Max · 现为 Qwen3.7-Max · 百炼生产向（3.8 仍 Preview）",
+  "descriptionMd": "通义千问产品族的**旗舰 Max 选型档**。生产可用旗舰以 Qwen3.7-Max 为代表；Qwen3.8-Max 截至 2026-07 仍多为 Preview，选型需锁控制台正式版。\n\n阿里云百炼 / 通义 API 的高能力默认档；成本敏感路由到 Plus/Turbo 或开源线。\n\n务必在控制台锁定 model 版本；Preview 能力与配额可能随时变更。\n",
+  "officialUrl": "https://www.aliyun.com/product/bailian",
+  "currentVersion": "3.7-Max"
+}

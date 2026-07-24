@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "design",
+    "templates"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "精细 design system 与 dev handoff 不如 Figma；API 自动化有限。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.canva.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "canva",
+  "name": "Canva",
+  "category": "design-tools",
+  "subcategory": "template",
+  "oneLiner": "拖拽模板 · 品牌 kit 协作 · 非设计师出稿",
+  "officialUrl": "https://www.canva.com",
+  "descriptionMd": "Canva 提供 drag-drop 设计、品牌 kit 与团队协作，非设计师也能产出 social/deck 素材。\n\n市场/运营团队自助产出素材、减少找设计师排期时启用 Canva Business。\n\n精细 design system 与 dev handoff 不如 Figma；API 自动化有限。\n",
+  "vendorId": "canva-inc"
+}

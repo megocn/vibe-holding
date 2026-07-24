@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "auth",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "Managed 版与 enterprise SSO 仍在演进；social login provider 配置量大于 Clerk。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://supertokens.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "supertokens",
+  "name": "SuperTokens",
+  "category": "baas-auth-only",
+  "subcategory": "oss-auth",
+  "oneLiner": "开源核心 auth · session/密码/无密码 · 可自托管；安全默认",
+  "officialUrl": "https://supertokens.com",
+  "descriptionMd": "SuperTokens 开源核心 auth（session、email/password、passwordless），可自托管，React/Node SDK 完整，强调安全默认。\n\n需要嵌入自有后端、避免 SaaS auth 锁定且团队能运维 Redis/Postgres 时选用。\n\nManaged 版与 enterprise SSO 仍在演进；social login provider 配置量大于 Clerk。\n",
+  "vendorId": "supertokens-inc"
+}

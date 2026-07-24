@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "realtime",
+    "expressive",
+    "tts",
+    "evi"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "企业电话与合规场景未必是强项；成本与延迟需按会话压测。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.hume.ai"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "hume-ai",
+  "name": "Hume AI",
+  "category": "ai-realtime",
+  "subcategory": "speech-to-speech",
+  "oneLiner": "表情语音 · EVI/Octave · 情感可控",
+  "officialUrl": "https://www.hume.ai",
+  "descriptionMd": "Hume AI 以情感智能与表达力语音著称，提供 EVI（Empathic Voice Interface）与 Octave TTS 等能力，强调语气、情绪与副语言，可接入 Pipecat 等编排框架。\n\n需要高表现力陪伴/角色对话、或研究情感计算的语音产品时评估；与 ElevenLabs/Cartesia 在「听感」维度对照。\n\n企业电话与合规场景未必是强项；成本与延迟需按会话压测。\n",
+  "vendorId": "hume-inc"
+}

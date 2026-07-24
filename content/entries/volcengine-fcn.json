@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "serverless",
+    "volcengine"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "文档与社区小于阿里云/腾讯云；跨云迁移需抽象触发器与 IAM，监控告警要自建对接。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.volcengine.com/product/faas"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "volcengine-fcn",
+  "name": "火山引擎函数服务",
+  "category": "cloud-paas",
+  "subcategory": "serverless",
+  "oneLiner": "字节云事件 FaaS · 对象存储/消息/方舟大模型联动 · 国内低延迟",
+  "officialUrl": "https://www.volcengine.com/product/faas",
+  "descriptionMd": "火山引擎函数计算提供事件驱动 FaaS，与对象存储、消息队列、方舟大模型等字节云产品集成，适合国内低延迟 Serverless 场景。\n\n团队已用火山引擎做 CDN/存储、或需要境内合规与字节生态联动时评估；AI 推理与批处理 Job 可同栈。\n\n文档与社区小于阿里云/腾讯云；跨云迁移需抽象触发器与 IAM，监控告警要自建对接。\n",
+  "vendorId": "volcengine"
+}

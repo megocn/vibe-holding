@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "mor",
+    "payment"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "相对 Stripe/Paddle 生态更年轻"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.creem.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "creem",
+  "name": "Creem",
+  "category": "pay-mor",
+  "subcategory": "mor",
+  "oneLiner": "Indie MoR · 代税全球结账 · LS/Paddle 备选较新",
+  "descriptionMd": "Creem 是面向独立开发者的 Merchant of Record（MoR），代收税与全球结账，常作 Lemon Squeezy / Paddle 的备选。\n\n大陆主体低月销验证产品时，MoR 通常优于直接冲 Stripe。选型时对比费率、覆盖国家、退款与政策稳定性，并预留迁移路径。\n\n当备选 MoR 时先跑一遍沙盒订阅/退款；政策变化快，保持可迁移的客户与商品模型。\n",
+  "officialUrl": "https://www.creem.io"
+}

@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "notes": "一次性注册费；分成政策以官方为准",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "android",
+    "store"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "中国大陆用户需国内安卓市场并行",
+    "收款常绑万里汇/Airwallex 等"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://play.google.com/console"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "google-play",
+  "name": "Google Play",
+  "category": "dist-android",
+  "subcategory": "android",
+  "oneLiner": "全球 Android 主商店 · 开发者账号/审核/账单一体 · 大陆常需并行国内市场",
+  "descriptionMd": "Google Play 是全球 Android 主应用商店，伴随开发者账号、审核、账单与政策约束。\n\n国内用户常无法直达，需华为应用市场等国内渠道并行。收款与税务按主体规划；与 App Store 一样，抽成与合规是产品成本的一部分。\n\n账单与政策地区差异大；国内包体常需单独渠道包与隐私合规文案。\n",
+  "officialUrl": "https://play.google.com/console"
+}

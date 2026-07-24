@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "video",
+    "social"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "影视级控制力弱于专业管线；版权与人物相似性合规要审核。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://pika.art"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "pika",
+  "name": "Pika",
+  "category": "design-ai-video",
+  "subcategory": "video-gen",
+  "oneLiner": "Pika 文/图生视频 · 社交短视频向",
+  "officialUrl": "https://pika.art",
+  "descriptionMd": "Pika 面向创作者的 AI 视频工具，支持文生/图生与多种特效修改，偏社交短视频、梗图动态化与轻量营销素材场景。\n\n营销/社媒需要快速把静态创意做成短视频、且接受订阅积分制时试用；与 Runway/Luma 可同层对比。\n\n影视级控制力弱于专业管线；版权与人物相似性合规要审核。\n",
+  "vendorId": "pika-labs"
+}

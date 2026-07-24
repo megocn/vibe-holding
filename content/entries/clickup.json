@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "pm",
+    "docs"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "功能过载导致性能与 focus 问题；dev workflow 不如专用 issue tracker。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://clickup.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "clickup",
+  "name": "ClickUp",
+  "category": "collab-pm",
+  "subcategory": "work-management",
+  "oneLiner": "Tasks+Docs+白板+工时堆叠 · 一站式全能 · 易功能过载",
+  "officialUrl": "https://clickup.com",
+  "descriptionMd": "ClickUp 合并 tasks、docs、whiteboard 与 time tracking，功能堆叠极多，适合希望一个 app 管全部的小中型团队。\n\n团队想减少 Notion+Jira+Trello 工具碎片且可接受学习曲线时试用 ClickUp。\n\n功能过载导致性能与 focus 问题；dev workflow 不如专用 issue tracker。\n",
+  "vendorId": "clickup-inc"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "e-openrouter-access-claude",
+  "from": "openrouter",
+  "to": "claude-opus",
+  "type": "provides_access_to",
+  "weight": 0.7,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

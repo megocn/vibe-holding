@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "community",
+    "chat"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "不适合严肃企业内部合规 IM；消息留存与审计能力弱。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://discord.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "discord",
+  "name": "Discord",
+  "category": "msg-im",
+  "subcategory": "community",
+  "oneLiner": "Server/频道/Voice · 社区/游戏/Web3 hub · Bot API",
+  "officialUrl": "https://discord.com",
+  "descriptionMd": "Discord 提供 server/channel、voice 与 bot API，开源社区、游戏与 Web3 项目常用作用户社区 hub。\n\n需要运营公开社区、voice activity 或 bot 机器人生态时选用 Discord 而非 Slack。\n\n不适合严肃企业内部合规 IM；消息留存与审计能力弱。\n",
+  "vendorId": "discord-inc"
+}

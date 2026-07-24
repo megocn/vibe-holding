@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "ai",
+    "video",
+    "domestic"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "生态与插件仍在扩张；商用条款与 API 成熟度需对照官网最新说明。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.vidu.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "domestic",
+  "id": "vidu",
+  "name": "Vidu",
+  "category": "design-ai-video",
+  "subcategory": "video-gen",
+  "oneLiner": "生数 Vidu · 国内文生视频",
+  "officialUrl": "https://www.vidu.com",
+  "descriptionMd": "Vidu 由生数科技推出，提供 AI 视频生成能力，面向国内创作者与企业营销素材场景，强调中文语境与本地化体验。\n\n需要国内可达的竞品对比（相对可灵/海螺）或特定风格样本时纳入选型短名单。\n\n生态与插件仍在扩张；商用条款与 API 成熟度需对照官网最新说明。\n",
+  "vendorId": "shengshu"
+}

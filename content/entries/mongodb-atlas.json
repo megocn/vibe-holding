@@ -1,0 +1,55 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "database",
+    "document",
+    "cloud"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "复杂事务不如关系库",
+    "成本需监控"
+  ],
+  "updates": [],
+  "sources": [
+    "https://www.mongodb.com/atlas"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "mongodb-atlas",
+  "name": "MongoDB Atlas",
+  "category": "db-nosql",
+  "vendorId": "mongodb",
+  "oneLiner": "托管文档库 · 灵活 schema · Node 生态契合",
+  "descriptionMd": "MongoDB Atlas 是托管文档数据库，灵活 schema，与 Node 生态契合。\n\n适合文档型、快速迭代的数据模型；强事务与复杂关系场景更常选 Postgres。注意索引设计与成本随存储/IO 增长。\n\n灵活文档模型利于早期迭代；报表与多文档事务复杂时评估是否迁关系库。\n",
+  "officialUrl": "https://www.mongodb.com/atlas",
+  "rankings": [
+    {
+      "systemId": "db-engines",
+      "rank": 5,
+      "score": 386.62,
+      "scoreLabel": "386.62 pts",
+      "period": "2026-07",
+      "note": "MongoDB 总体人气；Atlas 为托管形态",
+      "sourceUrl": "https://db-engines.com/en/ranking",
+      "asOf": "2026-07-20"
+    },
+    {
+      "systemId": "so-survey-language",
+      "share": 24,
+      "period": "2025 Survey",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

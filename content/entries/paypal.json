@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "payments",
+    "wallet"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "争议处理偏买家；部分国家提现与汇率费用高，大陆商户接入门槛与合规需单独评估。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.paypal.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "paypal",
+  "name": "PayPal",
+  "category": "pay-processor",
+  "subcategory": "wallet",
+  "oneLiner": "消费者钱包+跨境收单 · 200+ 市场 · 争议处理偏买家",
+  "officialUrl": "https://www.paypal.com",
+  "descriptionMd": "PayPal 提供消费者钱包、商户收单、订阅与 Braintree 卡支付，覆盖 200+ 市场，是跨境 indie 收款常见入口。\n\n面向海外 C 端、买家习惯 PayPal 或需要快速跨境收款无公司复杂流程时启用；与 Stripe 并存提高转化。\n\n争议处理偏买家；部分国家提现与汇率费用高，大陆商户接入门槛与合规需单独评估。\n",
+  "vendorId": "paypal-inc"
+}

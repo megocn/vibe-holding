@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "graphql",
+    "baas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "REST 生态需经 GraphQL 转换；冷启动与 region 选择影响 latency，定价随 DB 存储增长。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://nhost.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "nhost",
+  "name": "Nhost",
+  "category": "baas-platform",
+  "subcategory": "graphql",
+  "oneLiner": "托管 Postgres+Hasura · GraphQL-first · Firebase 替代叙事",
+  "officialUrl": "https://nhost.io",
+  "descriptionMd": "Nhost 提供托管 Postgres、Hasura GraphQL、Auth 与 Storage，与 React/Next 模板一体，是 GraphQL-first 的 Firebase 替代。\n\n团队偏好 GraphQL 订阅、或已有 Hasura schema 希望托管运维时选用；与 Vercel 前端组合常见。\n\nREST 生态需经 GraphQL 转换；冷启动与 region 选择影响 latency，定价随 DB 存储增长。\n",
+  "vendorId": "nhost-inc"
+}

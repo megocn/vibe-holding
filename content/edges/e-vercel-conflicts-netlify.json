@@ -1,0 +1,11 @@
+{
+  "id": "e-vercel-conflicts-netlify",
+  "from": "vercel",
+  "to": "netlify",
+  "type": "conflicts_with",
+  "weight": 0.4,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23",
+  "note": "同栈通常二选一"
+}

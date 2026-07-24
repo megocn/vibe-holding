@@ -1,0 +1,11 @@
+{
+  "id": "e-ls-migrate-paddle",
+  "from": "lemonsqueezy",
+  "to": "paddle",
+  "type": "migration_path_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23",
+  "note": "MoR 迁移候选"
+}

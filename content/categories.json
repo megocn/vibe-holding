@@ -1,0 +1,569 @@
+[
+  {
+    "id": "coding-agent",
+    "code": "A",
+    "name": "编码代理与 IDE",
+    "kind": "section",
+    "order": 1
+  },
+  {
+    "id": "llm",
+    "code": "B",
+    "name": "大语言模型与多模态",
+    "kind": "section",
+    "order": 2
+  },
+  {
+    "id": "model-gateway",
+    "code": "C",
+    "name": "模型接入层",
+    "kind": "section",
+    "order": 3
+  },
+  {
+    "id": "language-runtime",
+    "code": "D",
+    "name": "编程语言与运行时",
+    "kind": "section",
+    "order": 4
+  },
+  {
+    "id": "framework",
+    "code": "E",
+    "name": "应用框架",
+    "kind": "section",
+    "order": 5
+  },
+  {
+    "id": "ui-library",
+    "code": "F",
+    "name": "UI / 组件库 / 设计系统",
+    "kind": "section",
+    "order": 6
+  },
+  {
+    "id": "cloud-deploy",
+    "code": "G",
+    "name": "云与部署平台",
+    "kind": "section",
+    "order": 7
+  },
+  {
+    "id": "database-storage",
+    "code": "H",
+    "name": "数据库与数据存储",
+    "kind": "section",
+    "order": 8
+  },
+  {
+    "id": "baas-auth",
+    "code": "I",
+    "name": "后端即服务与鉴权",
+    "kind": "section",
+    "order": 9
+  },
+  {
+    "id": "ai-infra",
+    "code": "J",
+    "name": "AI 应用基础设施",
+    "kind": "section",
+    "order": 10
+  },
+  {
+    "id": "payment",
+    "code": "K",
+    "name": "支付与计费",
+    "kind": "section",
+    "order": 11
+  },
+  {
+    "id": "app-distribution",
+    "code": "L",
+    "name": "应用分发与应用商店",
+    "kind": "section",
+    "order": 12
+  },
+  {
+    "id": "oss-ecosystem",
+    "code": "M",
+    "name": "开源组件与生态",
+    "kind": "section",
+    "order": 13
+  },
+  {
+    "id": "observability",
+    "code": "N",
+    "name": "可观测性",
+    "kind": "section",
+    "order": 14
+  },
+  {
+    "id": "cicd-devops",
+    "code": "O",
+    "name": "CI/CD 与 DevOps",
+    "kind": "section",
+    "order": 15
+  },
+  {
+    "id": "messaging",
+    "code": "P",
+    "name": "通知与消息",
+    "kind": "section",
+    "order": 16
+  },
+  {
+    "id": "analytics-growth",
+    "code": "Q",
+    "name": "增长与分析",
+    "kind": "section",
+    "order": 17
+  },
+  {
+    "id": "domain-dns-cdn",
+    "code": "R",
+    "name": "域名 / DNS / CDN / 网络",
+    "kind": "section",
+    "order": 18
+  },
+  {
+    "id": "security-compliance",
+    "code": "S",
+    "name": "安全与合规",
+    "kind": "section",
+    "order": 19
+  },
+  {
+    "id": "design-assets",
+    "code": "T",
+    "name": "设计与素材",
+    "kind": "section",
+    "order": 20
+  },
+  {
+    "id": "collaboration",
+    "code": "U",
+    "name": "协作与项目管理",
+    "kind": "section",
+    "order": 21
+  },
+  {
+    "id": "globalization",
+    "code": "V",
+    "name": "出海与本地化",
+    "kind": "section",
+    "order": 22
+  },
+  {
+    "id": "coding-ide-agent",
+    "name": "IDE / 本机 Agent",
+    "kind": "leaf",
+    "parent": "coding-agent",
+    "order": 1
+  },
+  {
+    "id": "coding-cloud-builder",
+    "name": "云端 App Builder",
+    "kind": "leaf",
+    "parent": "coding-agent",
+    "order": 2
+  },
+  {
+    "id": "coding-cli-agent",
+    "name": "终端 Agent",
+    "kind": "leaf",
+    "parent": "coding-agent",
+    "order": 3
+  },
+  {
+    "id": "gateway-router",
+    "name": "云端网关 / 路由",
+    "kind": "leaf",
+    "parent": "model-gateway",
+    "order": 1
+  },
+  {
+    "id": "gateway-local",
+    "name": "本地推理",
+    "kind": "leaf",
+    "parent": "model-gateway",
+    "order": 2
+  },
+  {
+    "id": "lang-language",
+    "name": "编程语言",
+    "kind": "leaf",
+    "parent": "language-runtime",
+    "order": 1
+  },
+  {
+    "id": "lang-runtime",
+    "name": "运行时",
+    "kind": "leaf",
+    "parent": "language-runtime",
+    "order": 2
+  },
+  {
+    "id": "fw-fullstack",
+    "name": "全栈 / 元框架",
+    "kind": "leaf",
+    "parent": "framework",
+    "order": 1
+  },
+  {
+    "id": "fw-ui-lib",
+    "name": "UI 框架核心",
+    "kind": "leaf",
+    "parent": "framework",
+    "order": 2
+  },
+  {
+    "id": "ui-kits",
+    "name": "完整组件库",
+    "kind": "leaf",
+    "parent": "ui-library",
+    "order": 1
+  },
+  {
+    "id": "ui-composable",
+    "name": "可组合 / 拷贝式",
+    "kind": "leaf",
+    "parent": "ui-library",
+    "order": 2
+  },
+  {
+    "id": "ui-primitives",
+    "name": "无样式原语",
+    "kind": "leaf",
+    "parent": "ui-library",
+    "order": 3
+  },
+  {
+    "id": "ui-icons",
+    "name": "图标库",
+    "kind": "leaf",
+    "parent": "ui-library",
+    "order": 4
+  },
+  {
+    "id": "cloud-paas",
+    "name": "PaaS / 边缘托管",
+    "kind": "leaf",
+    "parent": "cloud-deploy",
+    "order": 1
+  },
+  {
+    "id": "db-relational",
+    "name": "关系型 / Serverless SQL",
+    "kind": "leaf",
+    "parent": "database-storage",
+    "order": 1
+  },
+  {
+    "id": "db-nosql",
+    "name": "文档 / NoSQL",
+    "kind": "leaf",
+    "parent": "database-storage",
+    "order": 2
+  },
+  {
+    "id": "db-cache",
+    "name": "缓存 / KV",
+    "kind": "leaf",
+    "parent": "database-storage",
+    "order": 3
+  },
+  {
+    "id": "db-object",
+    "name": "对象存储",
+    "kind": "leaf",
+    "parent": "database-storage",
+    "order": 4
+  },
+  {
+    "id": "db-sqlite-edge",
+    "name": "边缘 SQLite",
+    "kind": "leaf",
+    "parent": "database-storage",
+    "order": 5
+  },
+  {
+    "id": "baas-platform",
+    "name": "BaaS 平台",
+    "kind": "leaf",
+    "parent": "baas-auth",
+    "order": 1
+  },
+  {
+    "id": "baas-auth-only",
+    "name": "纯鉴权",
+    "kind": "leaf",
+    "parent": "baas-auth",
+    "order": 2
+  },
+  {
+    "id": "ai-agent-fw",
+    "name": "Agent 编排框架",
+    "kind": "leaf",
+    "parent": "ai-infra",
+    "order": 1
+  },
+  {
+    "id": "ai-rag",
+    "name": "RAG / 文档索引",
+    "kind": "leaf",
+    "parent": "ai-infra",
+    "order": 2
+  },
+  {
+    "id": "ai-vector",
+    "name": "向量库",
+    "kind": "leaf",
+    "parent": "ai-infra",
+    "order": 3
+  },
+  {
+    "id": "ai-llm-obs",
+    "name": "LLM 可观测",
+    "kind": "leaf",
+    "parent": "ai-infra",
+    "order": 4
+  },
+  {
+    "id": "ai-speech",
+    "name": "语音合成 / 识别",
+    "kind": "leaf",
+    "parent": "ai-infra",
+    "order": 5
+  },
+  {
+    "id": "ai-realtime",
+    "name": "实时语音对话",
+    "kind": "leaf",
+    "parent": "ai-infra",
+    "order": 6
+  },
+  {
+    "id": "pay-processor",
+    "name": "支付处理商",
+    "kind": "leaf",
+    "parent": "payment",
+    "order": 1
+  },
+  {
+    "id": "pay-mor",
+    "name": "Merchant of Record",
+    "kind": "leaf",
+    "parent": "payment",
+    "order": 2
+  },
+  {
+    "id": "dist-ios",
+    "name": "Apple 生态",
+    "kind": "leaf",
+    "parent": "app-distribution",
+    "order": 1
+  },
+  {
+    "id": "dist-android",
+    "name": "Android 商店",
+    "kind": "leaf",
+    "parent": "app-distribution",
+    "order": 2
+  },
+  {
+    "id": "dist-extension",
+    "name": "浏览器扩展",
+    "kind": "leaf",
+    "parent": "app-distribution",
+    "order": 3
+  },
+  {
+    "id": "dist-desktop",
+    "name": "桌面 / 直接分发",
+    "kind": "leaf",
+    "parent": "app-distribution",
+    "order": 4
+  },
+  {
+    "id": "oss-toolchain",
+    "name": "构建与工具链",
+    "kind": "leaf",
+    "parent": "oss-ecosystem",
+    "order": 1
+  },
+  {
+    "id": "obs-errors",
+    "name": "错误与 APM",
+    "kind": "leaf",
+    "parent": "observability",
+    "order": 1
+  },
+  {
+    "id": "obs-product",
+    "name": "产品分析（观测向）",
+    "kind": "leaf",
+    "parent": "observability",
+    "order": 2
+  },
+  {
+    "id": "obs-platform",
+    "name": "可观测平台 / 标准",
+    "kind": "leaf",
+    "parent": "observability",
+    "order": 3
+  },
+  {
+    "id": "cicd-pipeline",
+    "name": "CI/CD 与容器",
+    "kind": "leaf",
+    "parent": "cicd-devops",
+    "order": 1
+  },
+  {
+    "id": "msg-email",
+    "name": "邮件",
+    "kind": "leaf",
+    "parent": "messaging",
+    "order": 1
+  },
+  {
+    "id": "msg-sms",
+    "name": "短信 / 语音",
+    "kind": "leaf",
+    "parent": "messaging",
+    "order": 2
+  },
+  {
+    "id": "msg-push",
+    "name": "推送",
+    "kind": "leaf",
+    "parent": "messaging",
+    "order": 3
+  },
+  {
+    "id": "msg-im",
+    "name": "IM / 机器人",
+    "kind": "leaf",
+    "parent": "messaging",
+    "order": 4
+  },
+  {
+    "id": "growth-web",
+    "name": "网站分析",
+    "kind": "leaf",
+    "parent": "analytics-growth",
+    "order": 1
+  },
+  {
+    "id": "net-cdn-dns",
+    "name": "CDN / DNS / 边缘",
+    "kind": "leaf",
+    "parent": "domain-dns-cdn",
+    "order": 1
+  },
+  {
+    "id": "net-domain",
+    "name": "域名注册",
+    "kind": "leaf",
+    "parent": "domain-dns-cdn",
+    "order": 2
+  },
+  {
+    "id": "sec-secrets",
+    "name": "Secrets / 密钥管理",
+    "kind": "leaf",
+    "parent": "security-compliance",
+    "order": 1
+  },
+  {
+    "id": "design-tools",
+    "name": "设计工具",
+    "kind": "leaf",
+    "parent": "design-assets",
+    "order": 1
+  },
+  {
+    "id": "design-ai-image",
+    "name": "AI 图像生成",
+    "kind": "leaf",
+    "parent": "design-assets",
+    "order": 2
+  },
+  {
+    "id": "design-ai-video",
+    "name": "AI 视频生成",
+    "kind": "leaf",
+    "parent": "design-assets",
+    "order": 3
+  },
+  {
+    "id": "design-ai-music",
+    "name": "AI 音乐生成",
+    "kind": "leaf",
+    "parent": "design-assets",
+    "order": 4
+  },
+  {
+    "id": "design-motion",
+    "name": "动效素材",
+    "kind": "leaf",
+    "parent": "design-assets",
+    "order": 5
+  },
+  {
+    "id": "collab-pm",
+    "name": "项目管理",
+    "kind": "leaf",
+    "parent": "collaboration",
+    "order": 1
+  },
+  {
+    "id": "collab-docs",
+    "name": "文档 / Wiki",
+    "kind": "leaf",
+    "parent": "collaboration",
+    "order": 2
+  },
+  {
+    "id": "collab-suite",
+    "name": "协作套件",
+    "kind": "leaf",
+    "parent": "collaboration",
+    "order": 3
+  },
+  {
+    "id": "global-fx",
+    "name": "跨境收款 / 换汇",
+    "kind": "leaf",
+    "parent": "globalization",
+    "order": 1
+  },
+  {
+    "id": "global-entity",
+    "name": "主体 / 公司路径",
+    "kind": "leaf",
+    "parent": "globalization",
+    "order": 2
+  },
+  {
+    "id": "global-i18n",
+    "name": "国际化库",
+    "kind": "leaf",
+    "parent": "globalization",
+    "order": 3
+  },
+  {
+    "id": "llm-family",
+    "name": "产品族 / 品牌",
+    "kind": "leaf",
+    "parent": "llm",
+    "order": 1
+  },
+  {
+    "id": "llm-line",
+    "name": "选型档位",
+    "kind": "leaf",
+    "parent": "llm",
+    "order": 2
+  }
+]

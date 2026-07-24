@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "asr",
+    "stt",
+    "enterprise"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "纯中文性价比需与国内云/FunASR 对照；不是语音 Agent 全家桶。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.speechmatics.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "speechmatics",
+  "name": "Speechmatics",
+  "category": "ai-speech",
+  "subcategory": "asr",
+  "oneLiner": "高精度多语 ASR · 企业转写",
+  "officialUrl": "https://www.speechmatics.com",
+  "descriptionMd": "Speechmatics 以高精度多语语音识别著称，提供实时与批处理 API，面向媒体、会议与受监管行业转写。\n\n多语媒体转写、字幕或企业合规 ASR 短名单中常见。\n\n纯中文性价比需与国内云/FunASR 对照；不是语音 Agent 全家桶。\n",
+  "vendorId": "speechmatics-inc"
+}

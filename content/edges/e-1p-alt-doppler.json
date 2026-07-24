@@ -1,0 +1,10 @@
+{
+  "id": "e-1p-alt-doppler",
+  "from": "onepassword",
+  "to": "doppler",
+  "type": "alternative_to",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

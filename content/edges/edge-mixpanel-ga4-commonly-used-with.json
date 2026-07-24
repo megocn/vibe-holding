@@ -1,0 +1,10 @@
+{
+  "id": "edge-mixpanel-ga4-commonly-used-with",
+  "from": "mixpanel",
+  "to": "ga4",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

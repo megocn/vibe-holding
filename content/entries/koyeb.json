@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "paas",
+    "edge"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "生态与文档小于 Railway/Render；国内访问延迟需实测，企业合规认证面对照需求清单。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.koyeb.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "koyeb",
+  "name": "Koyeb",
+  "category": "cloud-paas",
+  "subcategory": "paas",
+  "oneLiner": "全球边缘部署 · Git 驱动 · Docker+函数 · 冷启动面向现代 Web",
+  "officialUrl": "https://www.koyeb.com",
+  "descriptionMd": "Koyeb 提供全球边缘部署、自动伸缩与 Git 驱动发布，支持 Docker 与 Serverless 函数，冷启动优化面向现代 Web 应用。\n\n需要欧盟数据 residency 或多区域边缘、又不想自管 K8s 的 indie/SaaS 团队可评估；与 Neon/PostgreSQL 搭配多。\n\n生态与文档小于 Railway/Render；国内访问延迟需实测，企业合规认证面对照需求清单。\n"
+}

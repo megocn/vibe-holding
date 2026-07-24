@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "模型与支持面窄、价格高；一般团队优先 Groq/Together。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://cerebras.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "cerebras",
+  "name": "Cerebras Inference",
+  "category": "gateway-router",
+  "subcategory": "inference-api",
+  "oneLiner": "WSE 极速 token · 模型面窄价高 · 吞吐优先于广度",
+  "officialUrl": "https://cerebras.ai",
+  "descriptionMd": "Cerebras 提供基于 WSE 的超大规模模型 inference API，强调极快 token 生成速度。\n\n对 latency 极度敏感且模型在支持列表内的 experimental 产品。\n\n模型与支持面窄、价格高；一般团队优先 Groq/Together。\n",
+  "vendorId": "cerebras-inc"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "edge-jpush-firebase-fcm-domestic-equivalent-of",
+  "from": "jpush",
+  "to": "firebase-fcm",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

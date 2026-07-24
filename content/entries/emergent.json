@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "subscription"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "底层抽象黑盒；规模增长后调试与性能优化困难，需计划迁移到 Next.js 等正规栈。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://emergent.sh"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "emergent",
+  "name": "Emergent",
+  "category": "coding-cloud-builder",
+  "subcategory": "agent-builder",
+  "oneLiner": "对话建前后端+Agent 逻辑 · 自动 DB/部署 · vibe 全应用",
+  "officialUrl": "https://emergent.sh",
+  "descriptionMd": "Emergent 让用户通过对话构建含前后端与 Agent 逻辑的 Web 应用，自动处理部署与数据库，面向 vibe coding 场景。\n\n创业者希望「一句话出产品」并快速拿到可分享 URL 做用户访谈时使用。\n\n底层抽象黑盒；规模增长后调试与性能优化困难，需计划迁移到 Next.js 等正规栈。\n",
+  "vendorId": "emergent-labs"
+}

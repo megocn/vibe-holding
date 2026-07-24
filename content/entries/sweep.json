@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "复杂架构变更容易失败；Issue 描述必须足够精确并附带测试期望。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://sweep.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "sweep",
+  "name": "Sweep",
+  "category": "coding-ide-agent",
+  "subcategory": "github-bot",
+  "oneLiner": "Issue→PR 自治 junior · 范围受限 bugfix/小 feature · GitHub 原生",
+  "officialUrl": "https://sweep.dev",
+  "descriptionMd": "Sweep 监听 GitHub Issue 与评论，自主生成代码变更并开 PR，适合处理明确、范围受限的 bugfix 与小 feature。\n\n开源项目或中小团队希望 offload 简单 maintenance task、维护者时间有限时使用。\n\n复杂架构变更容易失败；Issue 描述必须足够精确并附带测试期望。\n",
+  "vendorId": "sweep-ai"
+}

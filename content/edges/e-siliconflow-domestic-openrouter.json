@@ -1,0 +1,10 @@
+{
+  "id": "e-siliconflow-domestic-openrouter",
+  "from": "siliconflow",
+  "to": "openrouter",
+  "type": "domestic_equivalent_of",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

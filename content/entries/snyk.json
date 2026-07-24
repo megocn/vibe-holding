@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "security",
+    "dependencies"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "误报与 noise 需 tuning；高级 license 扫描另付费。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://snyk.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "snyk",
+  "name": "Snyk",
+  "category": "sec-secrets",
+  "subcategory": "scanning",
+  "oneLiner": "依赖/镜像/IaC 漏洞扫描 · GitHub/GitLab PR checks · DevSecOps",
+  "officialUrl": "https://snyk.io",
+  "descriptionMd": "Snyk 扫描开源依赖、容器镜像与 IaC 漏洞，集成 GitHub/GitLab PR checks，DevSecOps 常见。\n\n需要在 CI 阻断 critical CVE、或持续监控 npm/Docker 供应链时启用 Snyk。\n\n误报与 noise 需 tuning；高级 license 扫描另付费。\n",
+  "vendorId": "snyk-inc"
+}

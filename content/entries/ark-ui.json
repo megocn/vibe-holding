@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "样式层完全自备；文档与社区小于 Radix。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://ark-ui.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "ark-ui",
+  "name": "Ark UI",
+  "category": "ui-primitives",
+  "subcategory": "headless-primitives",
+  "oneLiner": "Chakra 团队 headless · React/Vue/Solid 同行为 · a11y 一致、样式自备",
+  "officialUrl": "https://ark-ui.com",
+  "descriptionMd": "Ark UI 是 Chakra 团队出品的 framework-agnostic headless 组件，支持 React/Vue/Solid，行为与 a11y 一致。\n\n多框架 design system、或需要 headless 又想要 Chakra 团队质量的原语时。\n\n样式层完全自备；文档与社区小于 Radix。\n",
+  "vendorId": "chakra-ark"
+}

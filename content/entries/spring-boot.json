@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "启动慢、内存高；serverless 形态需 GraalVM native 等额外工作。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://spring.io/projects/spring-boot"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "spring-boot",
+  "name": "Spring Boot",
+  "category": "fw-fullstack",
+  "subcategory": "java-backend",
+  "oneLiner": "Java 企业后端标配 · auto-config/actuator · 生态庞大",
+  "officialUrl": "https://spring.io/projects/spring-boot",
+  "descriptionMd": "Spring Boot 简化 Spring 配置，提供 auto-configuration、actuator 与庞大生态，是企业 Java 后端事实标准。\n\n银行/政企 Java 栈、需要成熟 security/transaction/messaging 集成的后端。\n\n启动慢、内存高；serverless 形态需 GraalVM native 等额外工作。\n",
+  "vendorId": "vmware-spring"
+}

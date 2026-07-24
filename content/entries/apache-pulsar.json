@@ -1,0 +1,34 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "streaming"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "运维组件多于 Kafka；国内托管选项少于 MSK/Confluent，团队 learning curve 高。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://pulsar.apache.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "apache-pulsar",
+  "name": "Apache Pulsar",
+  "category": "db-nosql",
+  "subcategory": "streaming",
+  "oneLiner": "多租户/跨区复制 · Messaging+Streaming · BookKeeper 存算分离",
+  "officialUrl": "https://pulsar.apache.org",
+  "descriptionMd": "Pulsar 多租户、geo-replication 与分层存储统一 messaging 与 streaming，比 Kafka 更易跨 region 复制，BookKeeper 存储分离。\n\n需要 geo-replication、tenant 隔离或 queue+stream 统一模型时评估 Pulsar；Yahoo/StreamNative 生态。\n\n运维组件多于 Kafka；国内托管选项少于 MSK/Confluent，团队 learning curve 高。\n"
+}

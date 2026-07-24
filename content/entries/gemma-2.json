@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "已非家族主力；新项目优先 Gemma 4。27B 仍需较强 GPU；生产 API 更常用 Gemini。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://ai.google.dev/gemma/docs/core/model_card_2"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "gemma-2",
+  "name": "Gemma 2",
+  "category": "llm-line",
+  "subcategory": "line",
+  "oneLiner": "上一代开源 line · 9B/27B · 存量部署仍常见",
+  "officialUrl": "https://ai.google.dev/gemma/docs/core/model_card_2",
+  "descriptionMd": "Gemma 2 是 Gemma 家族上一代开源 line（9B/27B），曾在 HF 热度与自托管场景中广泛使用；当前家族旗舰已切换至 Gemma 4。\n\n维护存量微调/部署、或对照历史 benchmark 时仍可参考。\n\n已非家族主力；新项目优先 Gemma 4。27B 仍需较强 GPU；生产 API 更常用 Gemini。\n",
+  "vendorId": "google-gemma",
+  "currentVersion": "2"
+}

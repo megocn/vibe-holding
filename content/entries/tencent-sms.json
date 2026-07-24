@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "sms"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "国际短信路由与到达率因国家而异；需监控失败码、频率限制与签名合规，避免批量发送被封。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://cloud.tencent.com/product/sms"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "tencent-sms",
+  "name": "腾讯云短信",
+  "category": "msg-sms",
+  "subcategory": "transactional",
+  "oneLiner": "国内+国际短信 · 模板/回调/配额告警 · 微信生态企业常配",
+  "officialUrl": "https://cloud.tencent.com/product/sms",
+  "descriptionMd": "腾讯云 SMS 支持国内国际短信、模板管理与发送统计，控制台可配置回调与配额告警，与微信生态企业常见组合。\n\n业务已在腾讯云、或需与小程序/企微同一账号体系时选用；跨境业务可评估国际短信路由。\n\n国际短信路由与到达率因国家而异；需监控失败码、频率限制与签名合规，避免批量发送被封。\n",
+  "vendorId": "tencent-cloud"
+}

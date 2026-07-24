@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "family"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "政策与内容审核标准随地区变化；国内直连与合规需自行评估，生产环境注意 hallucination。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://x.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "grok",
+  "name": "Grok",
+  "category": "llm-family",
+  "subcategory": "family",
+  "oneLiner": "xAI · 现至 Grok 4.5 · 实时信息+X 生态",
+  "officialUrl": "https://x.ai",
+  "descriptionMd": "Grok 是 xAI 模型族，当前旗舰为 Grok 4.5，强调编码与 Agent，并衔接 X 实时信息。\n\n海外消费向与工程向 API；注意平台绑定与配额。\n\n中国大陆访问与合规需单独评估。\n",
+  "vendorId": "xai"
+}

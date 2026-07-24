@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "编译时间长；ORM 与 DX 不如 TS/Python 成熟。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/tokio-rs/axum"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "axum",
+  "name": "Axum",
+  "category": "fw-fullstack",
+  "subcategory": "rust-backend",
+  "oneLiner": "Rust Tokio/Hyper · 类型安全 extractor · Tower 中间件一体",
+  "officialUrl": "https://github.com/tokio-rs/axum",
+  "descriptionMd": "Axum 是基于 Tokio/Hyper 的 Rust async Web 框架，类型安全 extractor，与 Tower middleware 深度集成。\n\nRust 后端 microservice、需要 memory safety 与极致性能的 API 层。\n\n编译时间长；ORM 与 DX 不如 TS/Python 成熟。\n",
+  "vendorId": "tokio-axum"
+}

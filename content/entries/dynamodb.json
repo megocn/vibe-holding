@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "nosql",
+    "aws"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "复杂查询与 join 不如 SQL；扫描成本高，GSI 设计错误会导致 hot partition 与账单爆炸。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://aws.amazon.com/dynamodb"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "dynamodb",
+  "name": "Amazon DynamoDB",
+  "category": "db-nosql",
+  "subcategory": "key-value",
+  "oneLiner": "AWS 全托管 NoSQL · 分区键扩展 · Serverless/TTL/Streams",
+  "officialUrl": "https://aws.amazon.com/dynamodb",
+  "descriptionMd": "DynamoDB 是 AWS 全托管 NoSQL，按分区键扩展，支持 TTL、Streams 与 DAX 缓存，Serverless 计费模式适合 unpredictable 流量。\n\n已在 AWS、需要毫秒级 KV 访问或事件驱动架构（Streams→Lambda）时默认选择；单表设计模式需团队学习。\n\n复杂查询与 join 不如 SQL；扫描成本高，GSI 设计错误会导致 hot partition 与账单爆炸。\n",
+  "vendorId": "amazon-web-services"
+}

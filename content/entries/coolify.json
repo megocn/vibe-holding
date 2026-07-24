@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "self-hosted",
+    "docker"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "高可用与备份需自行运维；单点 VPS 故障影响全站，生产应配监控、异地备份与升级策略。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://coolify.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "coolify",
+  "name": "Coolify",
+  "category": "cloud-paas",
+  "subcategory": "self-hosted",
+  "oneLiner": "开源自建 Heroku · Git→Docker/DB/SSL · UI 友好",
+  "officialUrl": "https://coolify.io",
+  "descriptionMd": "Coolify 是开源 self-hosted PaaS，可在 VPS 上通过 Git 部署 Docker 应用、数据库与 SSL，界面友好，被称「开源自建 Heroku」。\n\n希望数据主权、控制成本且有一台 VPS 的小团队或 indie hacker 常用；替代 CapRover/Dokku 的现代化 UI 方案。\n\n高可用与备份需自行运维；单点 VPS 故障影响全站，生产应配监控、异地备份与升级策略。\n"
+}

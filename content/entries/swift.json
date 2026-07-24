@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "仅限 Apple 平台；跨平台方案需 Flutter/RN 或 CMP 另选。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://swift.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "swift",
+  "name": "Swift",
+  "category": "lang-language",
+  "subcategory": "apple-platform",
+  "oneLiner": "Apple 平台一等 · SwiftUI 声明式 · iOS/macOS 原生",
+  "officialUrl": "https://swift.org",
+  "descriptionMd": "Swift 是 Apple 开源的系统级语言，用于 iOS/macOS/watchOS 开发，强调安全、性能与 SwiftUI 声明式 UI。\n\n原生 Apple 生态 App、需要最佳系统 API 访问与 App Store 分发时必选。\n\n仅限 Apple 平台；跨平台方案需 Flutter/RN 或 CMP 另选。\n",
+  "vendorId": "apple-swift"
+}

@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "realtime",
+    "multimodal",
+    "gemini"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "国内访问 Google API 需网络与合规方案；复杂工具编排与电话栈成熟度需对照 OpenAI Realtime / LiveKit。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/live"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "gemini-live",
+  "name": "Gemini Live",
+  "category": "ai-realtime",
+  "subcategory": "speech-to-speech",
+  "oneLiner": "Gemini 实时多模态 · 语音+视觉 · 多语",
+  "officialUrl": "https://ai.google.dev/gemini-api/docs/live",
+  "descriptionMd": "Gemini Live（Flash Live 等）提供实时多模态会话，覆盖语音与视觉输入，强调低延迟与广泛语种，适合 Google 生态内的语音助手。\n\n需要「边看边说」多模态、或语种覆盖面优先、且已用 Gemini/GCP 时评估。\n\n国内访问 Google API 需网络与合规方案；复杂工具编排与电话栈成熟度需对照 OpenAI Realtime / LiveKit。\n",
+  "vendorId": "google",
+  "docsUrl": "https://ai.google.dev/gemini-api/docs/live"
+}

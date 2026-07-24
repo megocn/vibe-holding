@@ -1,0 +1,11 @@
+{
+  "id": "edge-deepgram-cartesia-with",
+  "from": "deepgram",
+  "to": "cartesia",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24",
+  "note": "STT+低延迟 TTS 管线"
+}

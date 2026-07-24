@@ -1,0 +1,32 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["/content/entries/*.json"],
+      "url": "./content/schema/entry.schema.json"
+    },
+    {
+      "fileMatch": ["/content/edges/*.json"],
+      "url": "./content/schema/edge.schema.json"
+    },
+    {
+      "fileMatch": ["/content/vendors/*.json"],
+      "url": "./content/schema/vendor.schema.json"
+    },
+    {
+      "fileMatch": ["/content/concepts/*.json"],
+      "url": "./content/schema/concept.schema.json"
+    },
+    {
+      "fileMatch": ["/content/recipes/*.json"],
+      "url": "./content/schema/recipe.schema.json"
+    },
+    {
+      "fileMatch": ["/content/categories.json"],
+      "url": "./content/schema/categories.schema.json"
+    },
+    {
+      "fileMatch": ["/content/ranking-systems.json"],
+      "url": "./content/schema/ranking-systems.schema.json"
+    }
+  ]
+}

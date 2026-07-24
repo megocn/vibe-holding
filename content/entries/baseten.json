@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "学习曲线高于纯 serverless API；小团队简单调用可能 overkill。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.baseten.co"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "baseten",
+  "name": "Baseten",
+  "category": "gateway-router",
+  "subcategory": "model-serving",
+  "oneLiner": "自定义/开源模型上线 · Truss 打包 · Autoscaling 生产 API",
+  "officialUrl": "https://www.baseten.co",
+  "descriptionMd": "Baseten 帮助团队将自定义或开源模型部署为 production API，提供 autoscaling、监控与 Truss 打包格式。\n\n有自训练模型或 fine-tune 权重、需要比 Replicate 更 enterprise 的 serving 平台时。\n\n学习曲线高于纯 serverless API；小团队简单调用可能 overkill。\n",
+  "vendorId": "baseten-inc"
+}

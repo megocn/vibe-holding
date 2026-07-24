@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "language",
+    "systems"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "学习曲线陡，Vibe 生成后仍需人工审内存/生命周期"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.rust-lang.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "both",
+  "id": "rust",
+  "name": "Rust",
+  "category": "lang-language",
+  "subcategory": "language",
+  "oneLiner": "无 GC 内存安全 · 系统/工具链 · 性能敏感底层",
+  "descriptionMd": "Rust 提供内存安全与高性能，无 GC，适合系统、工具链与性能敏感组件（如 Tauri 底层、部分运行时）。\n\n学习曲线陡；全栈业务逻辑更常 TS/Go。在「性能/安全边界」上引入，而不是默认业务语言。\n\nCLI/扩展/性能热点是合理切口；业务 CRUD 用 Rust 往往得不偿失。\n",
+  "officialUrl": "https://www.rust-lang.org"
+}

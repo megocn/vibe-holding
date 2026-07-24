@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "extension",
+    "browser"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "权限与隐私政策审核严格"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://chrome.google.com/webstore"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "chrome-web-store",
+  "name": "Chrome Web Store",
+  "category": "dist-extension",
+  "subcategory": "extension",
+  "oneLiner": "Chromium 扩展主渠道 · MV3/权限最小化 · 审核硬约束",
+  "descriptionMd": "Chrome Web Store 是 Chromium 扩展的主分发渠道；Manifest V3、权限最小化与审核策略是硬约束。\n\n扩展产品常与官网/桌面端并列分发。国内访问与企业策略可能影响安装转化；若只服务自家站点，也可评估不经过商店的加载方式（受限）。\n\n权限申请文案影响通过率；MV3 service worker 生命周期要按扩展模式重写假设。\n",
+  "officialUrl": "https://chrome.google.com/webstore"
+}

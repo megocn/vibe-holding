@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "docs",
+    "wiki"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "database/views 能力弱于 Notion；国内访问需评估。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://slite.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "slite",
+  "name": "Slite",
+  "category": "collab-docs",
+  "subcategory": "wiki",
+  "oneLiner": "clean docs · AI ask · channel 组织 · handbook/onboarding 向",
+  "officialUrl": "https://slite.com",
+  "descriptionMd": "Slite 专注 clean docs、AI ask 与 channel 组织，比 Notion 更强调 team handbook 与 onboarding doc。\n\n远程团队需要 maintainable handbook、减少 Notion 杂乱 workspace 时试用 Slite。\n\ndatabase/views 能力弱于 Notion；国内访问需评估。\n",
+  "vendorId": "slite-inc"
+}

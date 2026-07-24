@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "需要自行维护模型与工具连接；开箱体验不如商业 Cursor。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://block.github.io/goose"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "goose",
+  "name": "Goose",
+  "category": "coding-cli-agent",
+  "subcategory": "local-agent",
+  "oneLiner": "Block 开源本地 Agent · MCP 可扩展 · 开发者可控",
+  "officialUrl": "https://block.github.io/goose",
+  "descriptionMd": "Goose 是 Block 开源的本地 AI Agent，可扩展 MCP 工具，在终端自主完成开发任务，强调开发者可控与可扩展。\n\n希望自研 Agent 工具链、基于 MCP 组装内部开发自动化的平台团队可 fork 定制。\n\n需要自行维护模型与工具连接；开箱体验不如商业 Cursor。\n",
+  "vendorId": "goose-ai"
+}

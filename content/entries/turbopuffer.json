@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "新兴 vendor；极端低 latency 场景需 benchmark 对比 Pinecone。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://turbopuffer.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "turbopuffer",
+  "name": "Turbopuffer",
+  "category": "ai-vector",
+  "subcategory": "serverless-vector",
+  "oneLiner": "向量索引存 S3 · 按查询付费 · spiky/多租户友好",
+  "officialUrl": "https://turbopuffer.com",
+  "descriptionMd": "Turbopuffer 将 vector index 存 S3，冷启动快、按查询付费，适合 spiky workload 与 multi-tenant SaaS。\n\nServerless RAG、tenant 量大但单 tenant QPS 低、希望 vector 成本随用量近线性时。\n\n新兴 vendor；极端低 latency 场景需 benchmark 对比 Pinecone。\n",
+  "vendorId": "turbopuffer-inc"
+}

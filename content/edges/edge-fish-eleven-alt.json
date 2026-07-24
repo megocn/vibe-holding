@@ -1,0 +1,10 @@
+{
+  "id": "edge-fish-eleven-alt",
+  "from": "fish-audio",
+  "to": "elevenlabs",
+  "type": "alternative_to",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

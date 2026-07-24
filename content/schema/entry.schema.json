@@ -1,0 +1,362 @@
+{
+  "$ref": "#/definitions/Entry",
+  "definitions": {
+    "Entry": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]*$"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "category": {
+          "$ref": "#/definitions/Entry/properties/id"
+        },
+        "subcategory": {
+          "type": "string"
+        },
+        "vendorId": {
+          "$ref": "#/definitions/Entry/properties/id"
+        },
+        "region": {
+          "type": "string",
+          "enum": [
+            "overseas",
+            "domestic",
+            "both"
+          ]
+        },
+        "oneLiner": {
+          "type": "string",
+          "maxLength": 80
+        },
+        "descriptionMd": {
+          "type": "string"
+        },
+        "officialUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "docsUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "githubUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "pricingUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "statusUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "consoleUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "playgroundUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "changelogUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "loginUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "currentVersion": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 40
+        },
+        "pricing": {
+          "type": "object",
+          "properties": {
+            "model": {
+              "type": "string",
+              "enum": [
+                "free",
+                "freemium",
+                "subscription",
+                "usage",
+                "open-source"
+              ]
+            },
+            "notes": {
+              "type": "string"
+            },
+            "currency": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "model"
+          ],
+          "additionalProperties": false
+        },
+        "availability": {
+          "type": "object",
+          "properties": {
+            "chinaAccessible": {
+              "type": "boolean"
+            },
+            "needsCompany": {
+              "type": "boolean",
+              "default": false
+            },
+            "needsIcp": {
+              "type": "boolean",
+              "default": false
+            },
+            "regions": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "default": []
+            }
+          },
+          "required": [
+            "chinaAccessible"
+          ],
+          "additionalProperties": false
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "maturity": {
+          "type": "string",
+          "enum": [
+            "experimental",
+            "beta",
+            "stable",
+            "mature"
+          ]
+        },
+        "usageGuideMd": {
+          "type": "string"
+        },
+        "tutorialLinks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "platform": {
+                "type": "string",
+                "enum": [
+                  "bilibili",
+                  "youtube",
+                  "geekbang",
+                  "imooc",
+                  "coursera"
+                ]
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "query": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 80
+              },
+              "note": {
+                "type": "string",
+                "maxLength": 40
+              }
+            },
+            "required": [
+              "platform"
+            ],
+            "additionalProperties": false
+          },
+          "default": []
+        },
+        "externalLinks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "kind": {
+                "type": "string",
+                "enum": [
+                  "what_is",
+                  "wiki",
+                  "github",
+                  "pricing",
+                  "status",
+                  "console",
+                  "playground",
+                  "changelog",
+                  "login",
+                  "starter",
+                  "community",
+                  "spec"
+                ]
+              },
+              "url": {
+                "type": "string",
+                "format": "uri"
+              },
+              "query": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 80
+              },
+              "note": {
+                "type": "string",
+                "maxLength": 40
+              }
+            },
+            "required": [
+              "kind"
+            ],
+            "additionalProperties": false
+          },
+          "default": []
+        },
+        "pitfalls": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        },
+        "updates": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "date": {
+                "type": "string",
+                "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+              },
+              "type": {
+                "type": "string",
+                "enum": [
+                  "release",
+                  "feature",
+                  "pricing",
+                  "policy",
+                  "deprecation",
+                  "other"
+                ]
+              },
+              "summary": {
+                "type": "string"
+              },
+              "version": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 40
+              },
+              "source": {
+                "type": "string",
+                "format": "uri"
+              }
+            },
+            "required": [
+              "date",
+              "type",
+              "summary"
+            ],
+            "additionalProperties": false
+          },
+          "default": []
+        },
+        "rankings": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "systemId": {
+                "$ref": "#/definitions/Entry/properties/id"
+              },
+              "rank": {
+                "type": "integer",
+                "exclusiveMinimum": 0
+              },
+              "score": {
+                "type": "number"
+              },
+              "scoreLabel": {
+                "type": "string",
+                "maxLength": 48
+              },
+              "tier": {
+                "type": "string",
+                "maxLength": 40
+              },
+              "share": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 100
+              },
+              "period": {
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 40
+              },
+              "sourceUrl": {
+                "type": "string",
+                "format": "uri"
+              },
+              "note": {
+                "type": "string",
+                "maxLength": 200
+              },
+              "asOf": {
+                "$ref": "#/definitions/Entry/properties/updates/items/properties/date"
+              }
+            },
+            "required": [
+              "systemId",
+              "period",
+              "asOf"
+            ],
+            "additionalProperties": false
+          },
+          "default": []
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          },
+          "default": []
+        },
+        "lastReviewed": {
+          "$ref": "#/definitions/Entry/properties/updates/items/properties/date"
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "category",
+        "region",
+        "oneLiner",
+        "descriptionMd",
+        "officialUrl",
+        "pricing",
+        "availability",
+        "maturity",
+        "lastReviewed"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

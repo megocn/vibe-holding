@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "tts",
+    "asr",
+    "domestic"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "新一代表达力与实时 S2S 叙事弱于通义 Audio / 豆包端到端，新项目建议对照百炼与火山。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://cloud.baidu.com/product/speech"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "domestic",
+  "id": "baidu-speech",
+  "name": "百度智能云语音",
+  "category": "ai-speech",
+  "subcategory": "speech-suite",
+  "oneLiner": "百度 ASR/TTS · 国内老牌语音",
+  "officialUrl": "https://cloud.baidu.com/product/speech",
+  "descriptionMd": "百度智能云语音技术提供听写、合成与语音唤醒等能力，长期服务国内车载、物联网与 ToB 语音场景。\n\n存量百度云客户或车载/IoT 中文语音需求时评估。\n\n新一代表达力与实时 S2S 叙事弱于通义 Audio / 豆包端到端，新项目建议对照百炼与火山。\n",
+  "vendorId": "baidu"
+}

@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "paas",
+    "hosting"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "免费层冷启动与休眠策略需关注；生产数据库备份与区域选择要提前规划，避免与 Vercel 边缘函数混用时出现跨区延迟。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://render.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "render",
+  "name": "Render",
+  "category": "cloud-paas",
+  "subcategory": "paas",
+  "oneLiner": "Web/Cron/PG/Redis/静态 · Git 自动部署 · 定价透明易上手",
+  "officialUrl": "https://render.com",
+  "descriptionMd": "Render 是面向开发者的托管 PaaS，支持 Web 服务、Cron、PostgreSQL、Redis 与静态站点，以 Git 连接自动部署，定价透明且比 Heroku 更易上手。\n\n需要快速上线全栈或静态站点、又不想维护 Kubernetes 的独立开发者与小团队优先考虑；与 Next.js、Docker 镜像部署均兼容。\n\n免费层冷启动与休眠策略需关注；生产数据库备份与区域选择要提前规划，避免与 Vercel 边缘函数混用时出现跨区延迟。\n",
+  "vendorId": "render-inc"
+}

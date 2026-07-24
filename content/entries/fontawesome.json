@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "webfont 性能不如 SVG 按需加载；免费集同质化严重。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://fontawesome.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "fontawesome",
+  "name": "Font Awesome",
+  "category": "ui-icons",
+  "subcategory": "icon-font",
+  "oneLiner": "老牌 webfont/SVG · Pro 扩量 · 生态与认知最广",
+  "officialUrl": "https://fontawesome.com",
+  "descriptionMd": "Font Awesome 是最老牌 icon 套件之一，提供 webfont 与 SVG React/Vue 组件，Pro 含更多 icon。\n\nlegacy 项目、设计师熟悉 FA 命名、或需要特定品牌 icon 的存量维护。\n\nwebfont 性能不如 SVG 按需加载；免费集同质化严重。\n",
+  "vendorId": "fontawesome-inc"
+}

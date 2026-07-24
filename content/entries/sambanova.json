@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "开发者 self-serve 体验弱；初创团队不适合首选。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://sambanova.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "sambanova",
+  "name": "SambaNova",
+  "category": "gateway-router",
+  "subcategory": "inference-api",
+  "oneLiner": "RDU 企业 AI 平台 · Fortune 500 私有化/托管 · 非 self-serve",
+  "officialUrl": "https://sambanova.ai",
+  "descriptionMd": "SambaNova 提供 RDU 加速的企业 AI 平台与 hosted LLM API，面向 Fortune 500 私有化与云托管。\n\n大型企业采购国产/非 NVIDIA 算力路线、或需要 vendor 全程 support 的 POC。\n\n开发者 self-serve 体验弱；初创团队不适合首选。\n",
+  "vendorId": "sambanova-inc"
+}

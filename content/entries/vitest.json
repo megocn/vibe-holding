@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "test",
+    "vite"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "Jest 专属 mock/快照边缘行为偶有差异；Monorepo 跨包测试需配置 workspace 别名。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://vitest.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "vitest",
+  "name": "Vitest",
+  "category": "oss-toolchain",
+  "subcategory": "test",
+  "oneLiner": "与 Vite 同配置管道 · Jest API+ESM · watch 快",
+  "officialUrl": "https://vitest.dev",
+  "descriptionMd": "Vitest 与 Vite 共享配置与转换管道，提供 Jest 兼容 API、ESM 优先与极快 watch 模式，是 Vite 栈默认测试选择。\n\nVite + Vue/React 新项目做单元/组件测试时首选；与 Testing Library 组合覆盖 UI 逻辑。\n\nJest 专属 mock/快照边缘行为偶有差异；Monorepo 跨包测试需配置 workspace 别名。\n"
+}

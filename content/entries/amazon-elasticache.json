@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cache",
+    "aws"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "Serverless 缓存较新；跨 AZ 流量与节点规格选型影响成本，集群模式 shard 迁移需维护窗口。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://aws.amazon.com/elasticache"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "amazon-elasticache",
+  "name": "Amazon ElastiCache",
+  "category": "db-cache",
+  "subcategory": "managed",
+  "oneLiner": "AWS 托管 Redis/Valkey/Memcached · failover/备份 · VPC 低延迟",
+  "officialUrl": "https://aws.amazon.com/elasticache",
+  "descriptionMd": "ElastiCache 托管 Redis、Valkey 与 Memcached 集群，自动 failover 与备份，与 VPC 内 ECS/Lambda 低延迟访问。\n\nAWS 栈需要 session 缓存、rate limit 或 pub/sub 且不想自管 Redis 时选用。\n\nServerless 缓存较新；跨 AZ 流量与节点规格选型影响成本，集群模式 shard 迁移需维护窗口。\n",
+  "vendorId": "amazon-web-services"
+}

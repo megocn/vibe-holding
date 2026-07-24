@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "document",
+    "nosql"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "运维与 sizing 复杂；开发者体验不如 MongoDB Atlas 普及，国内社区较小。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.couchbase.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "couchbase",
+  "name": "Couchbase",
+  "category": "db-nosql",
+  "subcategory": "document",
+  "oneLiner": "JSON+N1QL · 内存优先 · Mobile Sync/Capella",
+  "officialUrl": "https://www.couchbase.com",
+  "descriptionMd": "Couchbase 结合 JSON 文档、N1QL SQL++ 查询与内存优先架构，支持 mobile sync（Capella），适合会话与配置存储。\n\n移动离线同步、或需要 sub-millisecond KV 加 SQL 查询的 enterprise 场景评估；gaming 行业常见。\n\n运维与 sizing 复杂；开发者体验不如 MongoDB Atlas 普及，国内社区较小。\n"
+}

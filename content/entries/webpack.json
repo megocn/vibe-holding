@@ -1,0 +1,34 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "bundler"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "配置复杂、冷启动慢；新项目更常选 Vite/Rspack，除非被历史包袱绑定。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://webpack.js.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "webpack",
+  "name": "Webpack",
+  "category": "oss-toolchain",
+  "subcategory": "bundler",
+  "oneLiner": "loader/plugin 最全 · 存量复杂流水线事实标准",
+  "officialUrl": "https://webpack.js.org",
+  "descriptionMd": "Webpack 通过 loader/plugin 体系支持几乎任意资源类型与复杂构建流水线，是大型存量项目的打包事实标准之一。\n\n需要精细控制分包、Legacy 浏览器兼容、或已有大量 Webpack 插件投资时继续沿用；微前端与 Module Federation 场景常见。\n\n配置复杂、冷启动慢；新项目更常选 Vite/Rspack，除非被历史包袱绑定。\n"
+}

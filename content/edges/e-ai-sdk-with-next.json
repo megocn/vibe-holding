@@ -1,0 +1,10 @@
+{
+  "id": "e-ai-sdk-with-next",
+  "from": "vercel-ai-sdk",
+  "to": "nextjs",
+  "type": "integrates_with",
+  "weight": 0.85,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

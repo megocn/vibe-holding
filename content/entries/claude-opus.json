@@ -1,0 +1,80 @@
+{
+  "pricing": {
+    "model": "usage",
+    "notes": "约 $5/M input · $25/M output（与 Opus 4.7 同价）；Fast mode 另计",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "us",
+      "eu"
+    ]
+  },
+  "tags": [
+    "llm",
+    "reasoning",
+    "code",
+    "agentic"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "中国大陆不可直接访问",
+    "输出 token 价格较高",
+    "默认 high effort，长任务 token 消耗需留意"
+  ],
+  "currentVersion": "Opus 4.8",
+  "updates": [
+    {
+      "date": "2026-05-28",
+      "type": "release",
+      "version": "Opus 4.8",
+      "summary": "复杂 agentic 编码与协作判断提升；API `claude-opus-4-8`；默认 1M 上下文",
+      "source": "https://www.anthropic.com/news/claude-opus-4-8"
+    },
+    {
+      "date": "2026-04-16",
+      "type": "release",
+      "version": "Opus 4.7",
+      "summary": "编码/视觉与多步任务增强；后续由 4.8 接档同价升级",
+      "source": "https://www.anthropic.com/claude/opus"
+    }
+  ],
+  "sources": [
+    "https://www.anthropic.com/claude"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "claude-opus",
+  "name": "Claude Opus",
+  "category": "llm-line",
+  "vendorId": "anthropic",
+  "oneLiner": "Anthropic 顶档 · 复杂推理/长链路 Agent · 高质量编码；价高",
+  "descriptionMd": "Anthropic Claude 产品族中的**旗舰选型档**。当前版本以 Opus 4.8 为代表，偏复杂推理、长链路 Agent 与高质量编码协作。\n\n应与其他族的旗舰档（如 Kimi 旗舰、Qwen-Max、GPT 旗舰）对比，而不是与「通义千问产品族」等上层节点同列。定价按量，适合高价值任务而非全文检索式滥调用。\n\n贵但稳的复杂任务档；批量便宜活应降级到同族中低档，避免旗舰打杂。\n",
+  "officialUrl": "https://www.anthropic.com/claude",
+  "docsUrl": "https://docs.anthropic.com",
+  "rankings": [
+    {
+      "systemId": "lmarena-text",
+      "rank": 1,
+      "score": 1512,
+      "scoreLabel": "1512 Elo",
+      "period": "2026-07",
+      "note": "Text Arena 旗舰档（Opus 4.8 Thinking）",
+      "sourceUrl": "https://arena.ai/leaderboard",
+      "asOf": "2026-07-20"
+    },
+    {
+      "systemId": "artificial-analysis-index",
+      "score": 61.4,
+      "scoreLabel": "AAII 61.4",
+      "period": "2026-07",
+      "note": "Intelligence Index 前列；SWE-bench Pro ~69%",
+      "sourceUrl": "https://artificialanalysis.ai/",
+      "asOf": "2026-07-20"
+    }
+  ],
+  "subcategory": "line"
+}

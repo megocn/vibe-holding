@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "voice-agent",
+    "telephony",
+    "low-code"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "复杂多模型编排与自托管能力有限；单价随分钟与增值路由上升。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://synthflow.ai"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "synthflow",
+  "name": "Synthflow",
+  "category": "ai-realtime",
+  "subcategory": "voice-agent-platform",
+  "oneLiner": "低代码语音 Agent · 电话工作流",
+  "officialUrl": "https://synthflow.ai",
+  "descriptionMd": "Synthflow 提供偏可视化/低代码的语音 Agent 构建与电话工作流，面向业务团队快速配置来电接待与外呼剧本，开发者可再接自定义工具。\n\n非工程主导、要尽快配置电话脚本与转接逻辑时评估；与 Vapi 的开发者中心取向对照。\n\n复杂多模型编排与自托管能力有限；单价随分钟与增值路由上升。\n",
+  "vendorId": "synthflow-inc"
+}

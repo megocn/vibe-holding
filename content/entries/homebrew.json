@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "macos",
+    "package-manager"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "不签名托管；cask 更新需跟进 upstream version，CI bump 可用 brew bump。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://brew.sh"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "homebrew",
+  "name": "Homebrew",
+  "category": "dist-desktop",
+  "subcategory": "package-manager",
+  "oneLiner": "macOS 装机标配 · formula/cask 发 CLI 与 GUI · 开发者渠道",
+  "officialUrl": "https://brew.sh",
+  "descriptionMd": "Homebrew 是 macOS（及 Linuxbrew）事实标准包管理，formula/cask 分发 CLI 与 GUI 应用，开发者装机必备。\n\nMac 开发者工具需要 `brew install` 体验时维护 formula；cask 适合桌面 App 分发。\n\n不签名托管；cask 更新需跟进 upstream version，CI bump 可用 brew bump。\n"
+}

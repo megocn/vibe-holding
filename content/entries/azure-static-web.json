@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "azure",
+    "static"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "高级路由与 SSR 能力不如 Vercel/Netlify 完整；非 Azure 生态团队接入 Entra 成本较高。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://azure.microsoft.com/products/app-service/static"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "azure-static-web",
+  "name": "Azure Static Web Apps",
+  "category": "cloud-paas",
+  "subcategory": "static",
+  "oneLiner": "JAMstack+托管 Functions · Auth/PR 预览 · GitHub Actions 深绑",
+  "officialUrl": "https://azure.microsoft.com/products/app-service/static",
+  "descriptionMd": "Azure Static Web Apps 为 JAMstack 提供全球 CDN、托管 API（Azure Functions）、Auth 与 PR 预览环境，与 GitHub Actions 深度集成。\n\n微软/Azure 企业客户做营销站、文档站或轻量 SPA 且需 Entra ID 登录时自然选型；Blazor WASM 场景也常见。\n\n高级路由与 SSR 能力不如 Vercel/Netlify 完整；非 Azure 生态团队接入 Entra 成本较高。\n",
+  "vendorId": "microsoft-azure"
+}

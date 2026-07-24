@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "sqlite",
+    "wasm"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "非生产持久化；大数据集内存受限，与 OPFS 持久化需额外 glue。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://sql.js.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "sql-js",
+  "name": "sql.js",
+  "category": "db-sqlite-edge",
+  "subcategory": "wasm",
+  "oneLiner": "WASM 浏览器内存 SQL · local-first demo · 非生产持久化",
+  "officialUrl": "https://sql.js.org",
+  "descriptionMd": "sql.js 将 SQLite 编译为 WebAssembly，在浏览器内存跑 SQL，适合 demo、local-first prototype 与离线 education 工具。\n\n需要在浏览器内跑 ad-hoc SQL、或 prototype local-first 而不发 backend 时实验性使用。\n\n非生产持久化；大数据集内存受限，与 OPFS 持久化需额外 glue。\n"
+}

@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "mobile",
+    "ci"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "Ruby 依赖与 match 证书管理学习曲线；Apple API 变更需跟进 plugin 更新。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://fastlane.tools"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "fastlane",
+  "name": "Fastlane",
+  "category": "dist-ios",
+  "subcategory": "tooling",
+  "oneLiner": "Ruby DSL · 截图/签名/TestFlight/Play 自动化事实工具",
+  "officialUrl": "https://fastlane.tools",
+  "descriptionMd": "Fastlane 用 Ruby DSL 自动化截图、签名、TestFlight 与 Play Store 上传，是 iOS/Android 发布流水线事实工具。\n\n任何需要频繁发版、多商店同步上传的团队应集成 fastlane 到 GitHub Actions；减少手工操作失误。\n\nRuby 依赖与 match 证书管理学习曲线；Apple API 变更需跟进 plugin 更新。\n"
+}

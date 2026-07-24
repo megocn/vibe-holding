@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "分布式 enterprise feature 仍在演进；超大规模需评估 cloud 版。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://lancedb.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "lancedb",
+  "name": "LanceDB",
+  "category": "ai-vector",
+  "subcategory": "embedded-vector",
+  "oneLiner": "Apache Lance 列式 · edge/Python 数据栈 · serverless-friendly",
+  "officialUrl": "https://lancedb.com",
+  "descriptionMd": "LanceDB 基于 Apache Lance 列式格式，embeddable、serverless-friendly，适合 edge 与 Python data 栈 RAG。\n\n数据 science 团队在 notebook/local 跑 RAG、或需要与 pandas 生态紧密结合时。\n\n分布式 enterprise feature 仍在演进；超大规模需评估 cloud 版。\n",
+  "vendorId": "lancedb-inc"
+}

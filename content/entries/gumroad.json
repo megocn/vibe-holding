@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "mor",
+    "creator"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "抽成高于 Stripe 直连；custom SaaS billing 与 API 集成弱于 Paddle。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://gumroad.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "gumroad",
+  "name": "Gumroad",
+  "category": "pay-mor",
+  "subcategory": "mor",
+  "oneLiner": "Creator 数字品/会员 · 上手极快 · SaaS billing API 弱",
+  "officialUrl": "https://gumroad.com",
+  "descriptionMd": "Gumroad 让 creator 售卖数字产品、membership 与 physical 周边，平台作为 MoR 处理 VAT 与 payout，上手极快。\n\nindie creator 卖 ebook/模板、不想注册公司接 Stripe 时用 Gumroad 落地页；social commerce 友好。\n\n抽成高于 Stripe 直连；custom SaaS billing 与 API 集成弱于 Paddle。\n"
+}

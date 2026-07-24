@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "fx",
+    "banking"
+  ],
+  "maturity": "mature",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://wise.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "wise",
+  "name": "Wise",
+  "category": "global-fx",
+  "subcategory": "fx",
+  "oneLiner": "多币种账户 · 换汇透明 · Indie 跨境收付中转层",
+  "descriptionMd": "Wise 提供多币种账户与相对透明的换汇，Indie 常用作跨境收付款中转。\n\n不是应用内支付收银台；与 Stripe/MoR、万里汇等按「账户层 vs 收款层」分工。开户与限额看主体与国家。\n\n个人与公司账户能力不同；大额结汇与证明材料要求随地区变化。\n",
+  "officialUrl": "https://wise.com"
+}

@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "language",
+    "ai",
+    "scripting"
+  ],
+  "maturity": "mature",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [
+    {
+      "systemId": "tiobe-index",
+      "rank": 1,
+      "period": "2026",
+      "asOf": "2026-07-23"
+    }
+  ],
+  "sources": [
+    "https://www.python.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "both",
+  "id": "python",
+  "name": "Python",
+  "category": "lang-language",
+  "subcategory": "language",
+  "oneLiner": "AI/数据/脚本通用 · 后端与自动化 · 生态面最宽",
+  "descriptionMd": "Python 是 AI Agent、数据与脚本的通用语言，后端与自动化也很常见。\n\n做 AI 基础设施（LangGraph/LlamaIndex）时几乎默认；Web 全栈 TS 团队可把 Python 限在模型/数据面。包装与部署（venv/uv/容器）需约定。\n\nAI 样例代码大多是 Python；与 Node 服务并存时用清晰的 API 边界，避免双栈逻辑漂移。\n",
+  "officialUrl": "https://www.python.org"
+}

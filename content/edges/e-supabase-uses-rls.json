@@ -1,0 +1,10 @@
+{
+  "id": "e-supabase-uses-rls",
+  "from": "supabase",
+  "to": "rls",
+  "type": "uses_concept",
+  "weight": 0.8,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

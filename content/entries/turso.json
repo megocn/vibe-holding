@@ -1,0 +1,34 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "sqlite",
+    "edge"
+  ],
+  "maturity": "stable",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://turso.tech"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "turso",
+  "name": "Turso",
+  "category": "db-sqlite-edge",
+  "subcategory": "sqlite",
+  "oneLiner": "libSQL 托管 · 分布式/边缘 SQLite · 搭配 Cloudflare 等边缘",
+  "descriptionMd": "Turso 基于 libSQL 提供分布式/边缘 SQLite，与 Cloudflare 等边缘部署搭配自然。\n\n适合读多写少、要边缘低延迟的数据；复杂事务与分析型负载仍看 Postgres。注意复制与一致性模型。\n\n边缘副本降低读延迟；写入路由与冲突策略要在架构图里写清楚。\n",
+  "officialUrl": "https://turso.tech"
+}

@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "waf",
+    "aws"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "规则成本按 capacity unit 计；与 Cloudflare 比配置分散在 AWS 控制台。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://aws.amazon.com/waf/"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "aws-waf",
+  "name": "AWS WAF",
+  "category": "sec-secrets",
+  "subcategory": "waf",
+  "oneLiner": "挂 ALB/CloudFront/API GW · 托管 rule group · 可配 Shield",
+  "officialUrl": "https://aws.amazon.com/waf/",
+  "descriptionMd": "AWS WAF 附加 ALB/CloudFront/API Gateway，托管 rule group 与 custom rules，与 AWS Shield 配合。\n\n基础设施在 AWS 且需在 L7 做 geo block、rate limit 时不另引 Cloudflare 时可选用。\n\n规则成本按 capacity unit 计；与 Cloudflare 比配置分散在 AWS 控制台。\n",
+  "vendorId": "amazon"
+}

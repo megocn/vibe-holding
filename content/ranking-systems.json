@@ -1,0 +1,709 @@
+[
+  {
+    "id": "swe-bench-verified",
+    "name": "SWE-bench Verified",
+    "shortName": "SWE-bench",
+    "categories": [
+      "coding-ide-agent",
+      "coding-cli-agent"
+    ],
+    "metric": "score",
+    "metricUnit": "%",
+    "url": "https://www.swebench.com/",
+    "description": "软件工程 Agent 解决真实 GitHub issue 的 % Resolved 基准；Verified 子集经人工筛选，是编码代理能力的业界参照。",
+    "authority": "Princeton NLP / SWE-bench",
+    "updateCadence": "ad-hoc",
+    "order": 1
+  },
+  {
+    "id": "jetbrains-ai-tools",
+    "name": "JetBrains State of Developer Ecosystem · AI Tools",
+    "shortName": "JetBrains AI",
+    "categories": [
+      "coding-ide-agent",
+      "coding-cli-agent"
+    ],
+    "metric": "share",
+    "metricUnit": "%",
+    "url": "https://www.jetbrains.com/lp/devecosystem/",
+    "description": "年度开发者生态调查中 AI 编码助手 / IDE 采用率与满意度，反映真实工作流渗透度。",
+    "authority": "JetBrains",
+    "updateCadence": "annual",
+    "order": 2
+  },
+  {
+    "id": "lmarena-text",
+    "name": "Arena AI Text Leaderboard（原 LMSYS Chatbot Arena）",
+    "shortName": "LMArena",
+    "categories": [
+      "llm-line"
+    ],
+    "metric": "mixed",
+    "metricUnit": "Elo",
+    "url": "https://arena.ai/leaderboard",
+    "description": "众包盲测两两偏好投票的 Elo 排行；文本 Arena 是通用对话/推理能力的事实标准。",
+    "authority": "Arena AI（原 LMSYS）",
+    "updateCadence": "weekly",
+    "order": 1
+  },
+  {
+    "id": "artificial-analysis-index",
+    "name": "Artificial Analysis Intelligence Index",
+    "shortName": "AA Index",
+    "categories": [
+      "llm-line",
+      "gateway-router",
+      "gateway-local"
+    ],
+    "metric": "score",
+    "url": "https://artificialanalysis.ai/",
+    "description": "独立第三方对质量、速度、价格的综合指数；常与 Arena 交叉验证，避免单一偏好偏见。",
+    "authority": "Artificial Analysis",
+    "updateCadence": "weekly",
+    "order": 2
+  },
+  {
+    "id": "openrouter-popularity",
+    "name": "OpenRouter Model Popularity",
+    "shortName": "OpenRouter",
+    "categories": [
+      "gateway-router",
+      "gateway-local"
+    ],
+    "metric": "share",
+    "metricUnit": "%",
+    "url": "https://openrouter.ai/rankings",
+    "description": "统一网关上的真实请求份额与热度，反映接入层路由与模型选用偏好。",
+    "authority": "OpenRouter",
+    "updateCadence": "weekly",
+    "order": 1
+  },
+  {
+    "id": "tiobe-index",
+    "name": "TIOBE Programming Community Index",
+    "shortName": "TIOBE",
+    "categories": [
+      "lang-language",
+      "lang-runtime"
+    ],
+    "metric": "mixed",
+    "metricUnit": "%",
+    "url": "https://www.tiobe.com/tiobe-index/",
+    "description": "基于搜索引擎提及的编程语言人气月榜，历史最长的语言排行之一。",
+    "authority": "TIOBE Software",
+    "updateCadence": "monthly",
+    "order": 1
+  },
+  {
+    "id": "so-survey-language",
+    "name": "Stack Overflow Developer Survey · Languages",
+    "shortName": "SO Survey",
+    "categories": [
+      "lang-language",
+      "lang-runtime",
+      "fw-fullstack",
+      "fw-ui-lib",
+      "db-relational",
+      "db-nosql",
+      "db-cache",
+      "db-object",
+      "db-sqlite-edge",
+      "cicd-pipeline",
+      "obs-errors",
+      "obs-product",
+      "obs-platform"
+    ],
+    "metric": "share",
+    "metricUnit": "%",
+    "url": "https://survey.stackoverflow.co/",
+    "description": "全球开发者年度调查的「使用中 / 钦佩 / 想学」比例，覆盖语言、框架、数据库与工具链。",
+    "authority": "Stack Overflow",
+    "updateCadence": "annual",
+    "order": 2
+  },
+  {
+    "id": "state-of-js",
+    "name": "State of JS",
+    "shortName": "State of JS",
+    "categories": [
+      "fw-fullstack",
+      "fw-ui-lib",
+      "ui-kits",
+      "ui-composable",
+      "ui-primitives",
+      "oss-toolchain"
+    ],
+    "metric": "mixed",
+    "metricUnit": "%",
+    "url": "https://stateofjs.com/",
+    "description": "Devographics 年度 JS 生态调查：使用率、留存与兴趣，前端/元框架/组件库的公认风向标。",
+    "authority": "Devographics",
+    "updateCadence": "annual",
+    "order": 1
+  },
+  {
+    "id": "npm-downloads",
+    "name": "npm Weekly Downloads",
+    "shortName": "npm",
+    "categories": [
+      "ui-kits",
+      "ui-composable",
+      "ui-primitives",
+      "oss-toolchain"
+    ],
+    "metric": "score",
+    "url": "https://www.npmjs.com/",
+    "description": "包管理器周下载量，衡量前端组件与工具链的实际安装热度（需结合「被依赖」解读）。",
+    "authority": "npm, Inc.",
+    "updateCadence": "weekly",
+    "order": 2
+  },
+  {
+    "id": "gartner-mq-cloud",
+    "name": "Gartner Magic Quadrant · Strategic Cloud Platform Services",
+    "shortName": "Gartner Cloud",
+    "categories": [
+      "cloud-paas"
+    ],
+    "metric": "tier",
+    "url": "https://www.gartner.com/reviews/market/strategic-cloud-platform-services",
+    "description": "战略云平台服务魔力象限（Leaders / Challengers / Visionaries / Niche），企业选型权威参照。",
+    "authority": "Gartner",
+    "updateCadence": "annual",
+    "order": 1
+  },
+  {
+    "id": "cncf-survey",
+    "name": "CNCF Annual Cloud Native Survey",
+    "shortName": "CNCF Survey",
+    "categories": [
+      "cloud-paas",
+      "cicd-pipeline",
+      "obs-errors",
+      "obs-product",
+      "obs-platform"
+    ],
+    "metric": "share",
+    "metricUnit": "%",
+    "url": "https://www.cncf.io/",
+    "description": "云原生基金会年度调查：Kubernetes、CI/CD、可观测等生产采用率，开源基础设施事实标准。",
+    "authority": "CNCF",
+    "updateCadence": "annual",
+    "order": 2
+  },
+  {
+    "id": "db-engines",
+    "name": "DB-Engines Ranking",
+    "shortName": "DB-Engines",
+    "categories": [
+      "db-relational",
+      "db-nosql",
+      "db-cache",
+      "db-object",
+      "db-sqlite-edge"
+    ],
+    "metric": "mixed",
+    "url": "https://db-engines.com/en/ranking",
+    "description": "solidIT 按搜索、职位、社交等综合人气分的数据库月榜，业界默认 DBMS 排行。",
+    "authority": "solidIT / DB-Engines",
+    "updateCadence": "monthly",
+    "order": 1
+  },
+  {
+    "id": "gartner-mq-access-mgmt",
+    "name": "Gartner Magic Quadrant · Access Management",
+    "shortName": "Gartner AM",
+    "categories": [
+      "baas-platform",
+      "baas-auth-only"
+    ],
+    "metric": "tier",
+    "url": "https://www.gartner.com/en/documents",
+    "description": "访问管理魔力象限，评估企业级身份与鉴权平台的执行力与愿景。",
+    "authority": "Gartner",
+    "updateCadence": "annual",
+    "order": 1
+  },
+  {
+    "id": "so-survey-auth",
+    "name": "Stack Overflow Developer Survey · Auth / Backend",
+    "shortName": "SO Auth",
+    "categories": [
+      "baas-platform",
+      "baas-auth-only"
+    ],
+    "metric": "share",
+    "metricUnit": "%",
+    "url": "https://survey.stackoverflow.co/2025/technology/",
+    "description": "开发者调查中的鉴权/BaaS 相关采用（如 Supabase、Firebase 等），反映独立开发者心智份额。",
+    "authority": "Stack Overflow",
+    "updateCadence": "annual",
+    "order": 2
+  },
+  {
+    "id": "mteb-leaderboard",
+    "name": "MTEB Leaderboard（Hugging Face）",
+    "shortName": "MTEB",
+    "categories": [
+      "ai-agent-fw",
+      "ai-rag",
+      "ai-vector",
+      "ai-llm-obs"
+    ],
+    "metric": "mixed",
+    "url": "https://huggingface.co/spaces/mteb/leaderboard",
+    "description": "多任务文本嵌入基准总榜，向量模型与检索质量的公认参照。",
+    "authority": "Hugging Face / MTEB",
+    "updateCadence": "ad-hoc",
+    "order": 1
+  },
+  {
+    "id": "db-engines-vector",
+    "name": "DB-Engines · Vector DBMS",
+    "shortName": "DB-Engines Vec",
+    "categories": [
+      "ai-agent-fw",
+      "ai-rag",
+      "ai-vector",
+      "ai-llm-obs"
+    ],
+    "metric": "mixed",
+    "url": "https://db-engines.com/en/ranking/vector+dbms",
+    "description": "向量数据库专项人气榜（Pinecone / Milvus / Qdrant 等）。",
+    "authority": "solidIT / DB-Engines",
+    "updateCadence": "monthly",
+    "order": 2
+  },
+  {
+    "id": "aa-speech-arena",
+    "name": "Artificial Analysis · Speech Arena (TTS)",
+    "shortName": "AA Speech",
+    "categories": [
+      "ai-speech"
+    ],
+    "metric": "score",
+    "url": "https://artificialanalysis.ai/text-to-speech/leaderboard",
+    "description": "TTS 盲听 Elo 排行（Speech Arena），表达力选型常用参照；不覆盖延迟与 STT。",
+    "authority": "Artificial Analysis",
+    "updateCadence": "ad-hoc",
+    "order": 1
+  },
+  {
+    "id": "product-hunt-voice-ai",
+    "name": "Product Hunt · Voice AI",
+    "shortName": "Product Hunt Voice",
+    "categories": [
+      "ai-speech",
+      "ai-realtime"
+    ],
+    "metric": "rank",
+    "url": "https://www.producthunt.com/topics/artificial-intelligence",
+    "description": "语音/实时对话相关 AI 产品社区热度，偏新品发现；正式选型需另对照延迟与合规基准。",
+    "authority": "Product Hunt",
+    "updateCadence": "daily",
+    "order": 2
+  },
+  {
+    "id": "g2-conversational-ai",
+    "name": "G2 · Conversational AI",
+    "shortName": "G2 Conv AI",
+    "categories": [
+      "ai-realtime"
+    ],
+    "metric": "score",
+    "url": "https://www.g2.com/categories/conversational-ai",
+    "description": "会话式 AI / 语音 Agent 平台用户评分，电话与编排类产品常用市场参照。",
+    "authority": "G2",
+    "updateCadence": "quarterly",
+    "order": 1
+  },
+  {
+    "id": "forrester-wave-payments",
+    "name": "Forrester Wave · Merchant Payment Providers",
+    "shortName": "Forrester Pay",
+    "categories": [
+      "pay-processor",
+      "pay-mor"
+    ],
+    "metric": "tier",
+    "url": "https://www.forrester.com/",
+    "description": "商户支付提供商 Forrester Wave，策略与产品双维度评分，海外支付选型权威。",
+    "authority": "Forrester",
+    "updateCadence": "annual",
+    "order": 1
+  },
+  {
+    "id": "builtwith-payments",
+    "name": "BuiltWith Payment Technology Share",
+    "shortName": "BuiltWith Pay",
+    "categories": [
+      "pay-processor",
+      "pay-mor"
+    ],
+    "metric": "share",
+    "metricUnit": "%",
+    "url": "https://trends.builtwith.com/payment",
+    "description": "站点技术栈探测的支付组件安装份额，衡量真实站点数渗透。",
+    "authority": "BuiltWith",
+    "updateCadence": "monthly",
+    "order": 2
+  },
+  {
+    "id": "data-ai-store",
+    "name": "data.ai / App Store Intelligence",
+    "shortName": "data.ai",
+    "categories": [
+      "dist-ios",
+      "dist-android",
+      "dist-extension",
+      "dist-desktop"
+    ],
+    "metric": "rank",
+    "url": "https://www.data.ai/",
+    "description": "应用商店下载与收入情报榜，衡量分发渠道与品类热度（按商店/地区切片）。",
+    "authority": "data.ai",
+    "updateCadence": "daily",
+    "order": 1
+  },
+  {
+    "id": "statcounter-platform",
+    "name": "StatCounter Platform / OS Share",
+    "shortName": "StatCounter",
+    "categories": [
+      "dist-ios",
+      "dist-android",
+      "dist-extension",
+      "dist-desktop"
+    ],
+    "metric": "share",
+    "metricUnit": "%",
+    "url": "https://gs.statcounter.com/",
+    "description": "全球 OS / 浏览器份额，评估分发目标平台的覆盖优先级。",
+    "authority": "StatCounter",
+    "updateCadence": "monthly",
+    "order": 2
+  },
+  {
+    "id": "github-octoverse",
+    "name": "GitHub Octoverse / Stars",
+    "shortName": "Octoverse",
+    "categories": [
+      "oss-toolchain"
+    ],
+    "metric": "mixed",
+    "url": "https://github.blog/octoverse/",
+    "description": "GitHub 年度 Octoverse 与星标/贡献趋势，开源组件活跃度参照。",
+    "authority": "GitHub",
+    "updateCadence": "annual",
+    "order": 1
+  },
+  {
+    "id": "gartner-mq-observability",
+    "name": "Gartner Magic Quadrant · Observability Platforms",
+    "shortName": "Gartner Obs",
+    "categories": [
+      "obs-errors",
+      "obs-product",
+      "obs-platform"
+    ],
+    "metric": "tier",
+    "url": "https://www.gartner.com/en/documents/8114397",
+    "description": "可观测平台魔力象限（2026 Leaders 含 Datadog、Dynatrace、Grafana Labs、New Relic 等）。",
+    "authority": "Gartner",
+    "updateCadence": "annual",
+    "order": 1
+  },
+  {
+    "id": "gartner-mq-devops",
+    "name": "Gartner Magic Quadrant · DevOps Platforms",
+    "shortName": "Gartner DevOps",
+    "categories": [
+      "cicd-pipeline"
+    ],
+    "metric": "tier",
+    "url": "https://www.gartner.com/",
+    "description": "DevOps 平台魔力象限，覆盖 CI/CD 与端到端交付工具链厂商定位。",
+    "authority": "Gartner",
+    "updateCadence": "annual",
+    "order": 1
+  },
+  {
+    "id": "builtwith-email",
+    "name": "BuiltWith Email / Messaging Tech",
+    "shortName": "BuiltWith Msg",
+    "categories": [
+      "msg-email",
+      "msg-sms",
+      "msg-push",
+      "msg-im"
+    ],
+    "metric": "share",
+    "metricUnit": "%",
+    "url": "https://trends.builtwith.com/esp",
+    "description": "邮件服务与消息组件的站点安装份额。",
+    "authority": "BuiltWith",
+    "updateCadence": "monthly",
+    "order": 1
+  },
+  {
+    "id": "gartner-mq-cpaas",
+    "name": "Gartner Magic Quadrant · CPaaS",
+    "shortName": "Gartner CPaaS",
+    "categories": [
+      "msg-email",
+      "msg-sms",
+      "msg-push",
+      "msg-im"
+    ],
+    "metric": "tier",
+    "url": "https://www.gartner.com/",
+    "description": "通信平台即服务（短信/语音/推送）魔力象限。",
+    "authority": "Gartner",
+    "updateCadence": "annual",
+    "order": 2
+  },
+  {
+    "id": "gartner-mq-product-analytics",
+    "name": "Gartner Magic Quadrant · Product Analytics",
+    "shortName": "Gartner Analytics",
+    "categories": [
+      "growth-web"
+    ],
+    "metric": "tier",
+    "url": "https://www.gartner.com/",
+    "description": "产品分析魔力象限，评估埋点/漏斗/实验类平台。",
+    "authority": "Gartner",
+    "updateCadence": "annual",
+    "order": 1
+  },
+  {
+    "id": "builtwith-analytics",
+    "name": "BuiltWith Analytics Share",
+    "shortName": "BuiltWith Analytics",
+    "categories": [
+      "growth-web"
+    ],
+    "metric": "share",
+    "metricUnit": "%",
+    "url": "https://trends.builtwith.com/analytics",
+    "description": "站点分析脚本安装份额（GA、Plausible、PostHog 等）。",
+    "authority": "BuiltWith",
+    "updateCadence": "monthly",
+    "order": 2
+  },
+  {
+    "id": "w3techs-cdn",
+    "name": "W3Techs CDN / DNS Usage",
+    "shortName": "W3Techs",
+    "categories": [
+      "net-cdn-dns",
+      "net-domain"
+    ],
+    "metric": "share",
+    "metricUnit": "%",
+    "url": "https://w3techs.com/technologies/overview/cdn",
+    "description": "全网站点 CDN / DNS / SSL 技术采用率统计。",
+    "authority": "W3Techs",
+    "updateCadence": "daily",
+    "order": 1
+  },
+  {
+    "id": "cloudflare-radar",
+    "name": "Cloudflare Radar",
+    "shortName": "CF Radar",
+    "categories": [
+      "net-cdn-dns",
+      "net-domain"
+    ],
+    "metric": "mixed",
+    "url": "https://radar.cloudflare.com/",
+    "description": "全球流量与 DNS/HTTP 趋势观测，用于对照网络基础设施影响力。",
+    "authority": "Cloudflare",
+    "updateCadence": "daily",
+    "order": 2
+  },
+  {
+    "id": "gartner-mq-waf",
+    "name": "Gartner Magic Quadrant · Cloud WAF / App Protection",
+    "shortName": "Gartner WAF",
+    "categories": [
+      "sec-secrets"
+    ],
+    "metric": "tier",
+    "url": "https://www.gartner.com/",
+    "description": "云 WAF / 应用保护魔力象限，安全边缘与合规相关厂商定位。",
+    "authority": "Gartner",
+    "updateCadence": "annual",
+    "order": 1
+  },
+  {
+    "id": "owasp-asvs",
+    "name": "OWASP ASVS / Top 10",
+    "shortName": "OWASP",
+    "categories": [
+      "sec-secrets"
+    ],
+    "metric": "tier",
+    "url": "https://owasp.org/www-project-application-security-verification-standard/",
+    "description": "应用安全验证标准与 Top 10：非厂商排行，而是选型时对齐的权威合规基准。",
+    "authority": "OWASP",
+    "updateCadence": "ad-hoc",
+    "order": 2
+  },
+  {
+    "id": "javascript-rising-stars",
+    "name": "JavaScript Rising Stars",
+    "shortName": "Rising Stars",
+    "categories": [
+      "design-tools",
+      "design-ai-image",
+      "design-ai-video",
+      "design-ai-music",
+      "design-motion"
+    ],
+    "metric": "rank",
+    "url": "https://risingstars.js.org/",
+    "description": "按年度新增 GitHub stars 的前端生态榜，图标/组件/设计相关库常用参照。",
+    "authority": "BestofJS",
+    "updateCadence": "annual",
+    "order": 1
+  },
+  {
+    "id": "product-hunt-design",
+    "name": "Product Hunt · Design Tools",
+    "shortName": "Product Hunt",
+    "categories": [
+      "design-tools",
+      "design-ai-image",
+      "design-ai-video",
+      "design-ai-music",
+      "design-motion"
+    ],
+    "metric": "rank",
+    "url": "https://www.producthunt.com/topics/design-tools",
+    "description": "设计工具与素材类产品社区热度榜，偏新品发现。",
+    "authority": "Product Hunt",
+    "updateCadence": "daily",
+    "order": 2
+  },
+  {
+    "id": "gartner-mq-cwm",
+    "name": "Gartner Magic Quadrant · Collaborative Work Management",
+    "shortName": "Gartner CWM",
+    "categories": [
+      "collab-pm",
+      "collab-docs",
+      "collab-suite"
+    ],
+    "metric": "tier",
+    "url": "https://www.gartner.com/",
+    "description": "协作与项目管理魔力象限（Asana / Monday / Jira 等定位）。",
+    "authority": "Gartner",
+    "updateCadence": "annual",
+    "order": 1
+  },
+  {
+    "id": "g2-grid-pm",
+    "name": "G2 Grid · Project Management",
+    "shortName": "G2 PM",
+    "categories": [
+      "collab-pm",
+      "collab-docs",
+      "collab-suite"
+    ],
+    "metric": "tier",
+    "url": "https://www.g2.com/categories/project-management",
+    "description": "基于用户评价的项目管理软件象限，补充分析师视角。",
+    "authority": "G2",
+    "updateCadence": "quarterly",
+    "order": 2
+  },
+  {
+    "id": "csa-research-i18n",
+    "name": "CSA Research · Language Services",
+    "shortName": "CSA Research",
+    "categories": [
+      "global-fx",
+      "global-entity",
+      "global-i18n"
+    ],
+    "metric": "tier",
+    "url": "https://csa-research.com/",
+    "description": "本地化与语言服务行业研究，出海翻译/TMS 选型参照。",
+    "authority": "CSA Research",
+    "updateCadence": "annual",
+    "order": 1
+  },
+  {
+    "id": "gartner-mq-mts",
+    "name": "Gartner Magic Quadrant · Multilingual TMS",
+    "shortName": "Gartner TMS",
+    "categories": [
+      "global-fx",
+      "global-entity",
+      "global-i18n"
+    ],
+    "metric": "tier",
+    "url": "https://www.gartner.com/",
+    "description": "多语言翻译管理系统魔力象限（若当期发布），企业出海内容管线权威。",
+    "authority": "Gartner",
+    "updateCadence": "annual",
+    "order": 2
+  },
+  {
+    "id": "iconify-popularity",
+    "name": "Iconify / 开源图标生态采用",
+    "shortName": "Iconify",
+    "categories": [
+      "ui-icons"
+    ],
+    "metric": "tier",
+    "url": "https://iconify.design/",
+    "description": "图标集在 Iconify 与前端生态中的采用广度；图标库不应与 Ant Design 等同榜。",
+    "authority": "Iconify / community",
+    "updateCadence": "ad-hoc",
+    "order": 1
+  },
+  {
+    "id": "github-icon-stars",
+    "name": "GitHub Stars · Icon Sets",
+    "shortName": "GH Icons",
+    "categories": [
+      "ui-icons"
+    ],
+    "metric": "score",
+    "url": "https://github.com/",
+    "description": "主流开源图标集仓库星标，衡量开发者心智份额（非组件库可比）。",
+    "authority": "GitHub",
+    "updateCadence": "ad-hoc",
+    "order": 2
+  },
+  {
+    "id": "cloud-builder-mindshare",
+    "name": "Cloud App Builder Mindshare",
+    "shortName": "Builder buzz",
+    "categories": [
+      "coding-cloud-builder"
+    ],
+    "metric": "tier",
+    "url": "https://roadmap.sh/vibe-coding/best-tools",
+    "description": "云端 prompt→部署类 Builder 的社区心智份额（与 IDE Agent 不可同榜）。",
+    "authority": "Community / roadmap.sh vibe tools",
+    "updateCadence": "ad-hoc",
+    "order": 1
+  },
+  {
+    "id": "llm-family-landscape",
+    "name": "LLM Product Family Landscape",
+    "shortName": "Family map",
+    "categories": [
+      "llm-family"
+    ],
+    "metric": "tier",
+    "url": "https://arena.ai/leaderboard",
+    "description": "产品族心智地图（非 Arena 模型榜）。族级条目不与选型档位/版本同榜；细排名看下属 llm-line。",
+    "authority": "VibeHolding editorial",
+    "updateCadence": "ad-hoc",
+    "order": 1
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "subscription"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "自动 PR 质量参差；需严格 CI、测试覆盖与人审才能 merge 到 main。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://factory.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "factory",
+  "name": "Factory",
+  "category": "coding-cloud-builder",
+  "subcategory": "ai-dev-platform",
+  "oneLiner": "Droids 自主 Agent · ticket/修 bug/PR · 企业 SDLC 集成",
+  "officialUrl": "https://factory.ai",
+  "descriptionMd": "Factory 提供「Droids」自主 Agent 完成 ticket、修 bug 与 feature 开发，面向企业 SDLC 集成与 GitHub/GitLab 工作流。\n\n工程经理希望 AI 直接消费 Linear/Jira ticket 并开 PR 的自动化实验阶段可试点。\n\n自动 PR 质量参差；需严格 CI、测试覆盖与人审才能 merge 到 main。\n",
+  "vendorId": "factory-ai"
+}

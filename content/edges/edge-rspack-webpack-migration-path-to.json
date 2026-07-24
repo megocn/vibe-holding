@@ -1,0 +1,10 @@
+{
+  "id": "edge-rspack-webpack-migration-path-to",
+  "from": "rspack",
+  "to": "webpack",
+  "type": "migration_path_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

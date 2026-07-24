@@ -1,0 +1,10 @@
+{
+  "id": "phi-e0",
+  "from": "phi",
+  "to": "gemma",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

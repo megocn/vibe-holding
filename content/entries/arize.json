@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "实施与定价面向 enterprise；初创可用 lighter 工具如 Langfuse。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://arize.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "arize",
+  "name": "Arize AI",
+  "category": "ai-llm-obs",
+  "subcategory": "ml-observability",
+  "oneLiner": "模型监控+embedding drift · LLM trace · 企业 MLOps 向",
+  "officialUrl": "https://arize.com",
+  "descriptionMd": "Arize 提供 model monitoring、embedding drift 检测与 LLM trace 分析，面向 enterprise MLOps。\n\n已有传统 ML monitoring、扩展到 LLM/RAG production 监控的企业数据团队。\n\n实施与定价面向 enterprise；初创可用 lighter 工具如 Langfuse。\n",
+  "vendorId": "arize-ai"
+}

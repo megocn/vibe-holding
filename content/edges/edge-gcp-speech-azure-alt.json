@@ -1,0 +1,10 @@
+{
+  "id": "edge-gcp-speech-azure-alt",
+  "from": "google-cloud-speech",
+  "to": "azure-speech",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

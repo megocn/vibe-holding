@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "analytics",
+    "privacy"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "自托管运维与升级成本；插件生态小于 GA4。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://matomo.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "matomo",
+  "name": "Matomo",
+  "category": "growth-web",
+  "subcategory": "web-analytics",
+  "oneLiner": "GDPR 友好可自托管 · 数据主权替 GA · 插件生态偏小",
+  "officialUrl": "https://matomo.org",
+  "descriptionMd": "Matomo（原 Piwik）提供 GDPR 友好、可自托管的 web analytics，替代 GA 以保留数据主权。\n\n欧盟或隐私敏感场景不愿将数据给 Google、又需要 classic analytics 报告时采用。\n\n自托管运维与升级成本；插件生态小于 GA4。\n"
+}

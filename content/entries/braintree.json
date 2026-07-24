@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "payments"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "新功能 velocity 不如 Stripe；部分地区 PM 与 payout 延迟要查表。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.braintreepayments.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "braintree",
+  "name": "Braintree",
+  "category": "pay-processor",
+  "subcategory": "gateway",
+  "oneLiner": "PayPal 系 · 卡+Venmo+recurring · SDK 成熟与企业账户一体",
+  "officialUrl": "https://www.braintreepayments.com",
+  "descriptionMd": "Braintree 提供卡、PayPal、Venmo 与 recurring billing，SDK 成熟，被 PayPal 收购后与企业 PayPal 账户一体。\n\n已用 PayPal 生态、需要 drop-in UI 与 vault 卡 token 时选用；Marketplace split 场景历史久。\n\n新功能 velocity 不如 Stripe；部分地区 PM 与 payout 延迟要查表。\n",
+  "vendorId": "braintree-inc"
+}

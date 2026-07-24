@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "sast",
+    "quality"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "自托管资源消耗大；规则 tuning 不当会拖慢 PR。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.sonarsource.com/products/sonarqube/"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "sonarqube",
+  "name": "SonarQube",
+  "category": "sec-secrets",
+  "subcategory": "scanning",
+  "oneLiner": "SAST · smell/bug/安全 hotspot · quality gate 可阻断 merge",
+  "officialUrl": "https://www.sonarsource.com/products/sonarqube/",
+  "descriptionMd": "SonarQube 静态分析 code smell、bug 与安全 hotspot，企业版支持 quality gate 阻断 merge。\n\n受监管行业需要 central code quality dashboard 与 long-term trend 时部署 SonarQube。\n\n自托管资源消耗大；规则 tuning 不当会拖慢 PR。\n",
+  "vendorId": "sonarsource"
+}

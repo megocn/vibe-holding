@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "ai",
+    "image",
+    "domestic"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "艺术风格社区口碑因场景而异；API 字段与计费以阿里云文档为准，注意内容安全审核。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://tongyi.aliyun.com/wanxiang/"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "domestic",
+  "id": "tongyi-wanxiang",
+  "name": "通义万相",
+  "category": "design-ai-image",
+  "subcategory": "image-gen",
+  "oneLiner": "阿里通义文生图 · 国内云 · 电商素材",
+  "officialUrl": "https://tongyi.aliyun.com/wanxiang/",
+  "descriptionMd": "通义万相是阿里云通义系文生图产品，面向国内开发者与电商/营销素材场景，可与阿里云账号与备案业务同区落地。\n\n国内电商主图、活动视觉、且已用阿里云时优先；与即梦等形成国内可选池。\n\n艺术风格社区口碑因场景而异；API 字段与计费以阿里云文档为准，注意内容安全审核。\n",
+  "vendorId": "alibaba-cloud"
+}

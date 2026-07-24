@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "auth",
+    "cloud-native"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "无 hosted UI 成品；前端 session 与 email delivery 需集成，学习曲线高于 Clerk。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.ory.sh/kratos"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "ory-kratos",
+  "name": "Ory Kratos",
+  "category": "baas-auth-only",
+  "subcategory": "oss-idp",
+  "oneLiner": "API-first 身份 · 与 Hydra/Oathkeeper 组零信任栈 · 无成品 hosted UI",
+  "officialUrl": "https://www.ory.sh/kratos",
+  "descriptionMd": "Ory Kratos 提供 API-first 注册登录、recovery、verification 与 identity schema，与 Ory Hydra/Oathkeeper 组成零信任栈。\n\n需要 composable auth 组件、Go/cloud native 团队自建 IdP 时选用 Kratos + Hydra。\n\n无 hosted UI 成品；前端 session 与 email delivery 需集成，学习曲线高于 Clerk。\n"
+}

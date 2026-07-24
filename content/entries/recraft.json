@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "vector"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "照片级 realism 非强项；商业 license 条款需读清。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.recraft.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "recraft",
+  "name": "Recraft",
+  "category": "design-ai-image",
+  "subcategory": "image-gen",
+  "oneLiner": "品牌一致矢量/icon · style reference · UI 资产批量",
+  "officialUrl": "https://www.recraft.ai",
+  "descriptionMd": "Recraft 专注 brand-consistent 矢量插画与 icon 生成，支持 style reference，适合 UI 资产批量产出。\n\n设计系统需要统一插画风格、导出 SVG 用于 web/app 时评估 Recraft。\n\n照片级 realism 非强项；商业 license 条款需读清。\n",
+  "vendorId": "recraft-inc"
+}

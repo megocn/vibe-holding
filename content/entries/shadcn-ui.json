@@ -1,0 +1,59 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ui",
+    "react",
+    "tailwind",
+    "vibe-friendly"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "升级需手动同步"
+  ],
+  "updates": [
+    {
+      "date": "2026-05-30",
+      "type": "feature",
+      "summary": "新增表单与图表组件块",
+      "source": "https://ui.shadcn.com"
+    }
+  ],
+  "sources": [
+    "https://ui.shadcn.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "shadcn-ui",
+  "name": "shadcn/ui",
+  "category": "ui-composable",
+  "oneLiner": "复制进仓可改源 · Radix+Tailwind · 非 npm 黑盒包",
+  "descriptionMd": "shadcn/ui 不是传统 npm 组件包，而是把 Radix + Tailwind 的高质量组件**复制进仓库**，可改源码。\n\n适合要定制设计系统又想起点高的 TS/React 项目；升级靠再同步而非锁版本库。与 Ant Design「安装即用」路线不同。\n\n组件源码在仓内，设计变更可直接改；团队需约定「哪些可改、如何回同步」。\n",
+  "officialUrl": "https://ui.shadcn.com",
+  "rankings": [
+    {
+      "systemId": "state-of-js",
+      "tier": "Rising UI kit",
+      "period": "2025 Survey",
+      "note": "AI 编码默认栈常配；State of React 人气前列",
+      "asOf": "2026-07-20"
+    },
+    {
+      "systemId": "npm-downloads",
+      "tier": "High growth",
+      "period": "2026-H1",
+      "note": "Rising Stars 2025 前列（年度星标增长）",
+      "sourceUrl": "https://risingstars.js.org/",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

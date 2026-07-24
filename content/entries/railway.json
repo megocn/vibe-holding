@@ -1,0 +1,44 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "deploy",
+    "paas",
+    "database"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "成本随用量上升快"
+  ],
+  "updates": [],
+  "sources": [
+    "https://railway.app"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "railway",
+  "name": "Railway",
+  "category": "cloud-paas",
+  "vendorId": "railway-inc",
+  "oneLiner": "仓库到托管 DB 一站式 · 全栈部署 DX 强 · 成本随用量爬升",
+  "descriptionMd": "Railway 主打从仓库到数据库的一站式 PaaS，部署全栈与托管 DB 的 DX 友好。\n\n适合快速上线与预览环境；成本随常驻服务上涨时对照 Serverless/边缘。中国大陆访问与合规需另案。\n\n数据库与服务同平台省心；生产要关注单区域故障与备份策略。\n",
+  "officialUrl": "https://railway.app",
+  "rankings": [
+    {
+      "systemId": "cncf-survey",
+      "tier": "Indie PaaS",
+      "period": "2025 Survey",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "monorepo"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "缓存键与 env 变量配置不当会导致假绿构建；首次接入需梳理 package 依赖拓扑。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://turbo.build"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "turbo",
+  "name": "Turborepo",
+  "category": "oss-toolchain",
+  "subcategory": "monorepo",
+  "oneLiner": "本地/远程缓存 · 任务管道 · workspace build/test 加速",
+  "officialUrl": "https://turbo.build",
+  "descriptionMd": "Turborepo 提供远程/本地缓存、任务管道与依赖图感知，让 pnpm/yarn workspace 的 build/test/lint 在 CI 中显著加速。\n\n多包前端/全栈 Monorepo 希望统一脚本与缓存时选用；与 Vercel 集成顺滑。\n\n缓存键与 env 变量配置不当会导致假绿构建；首次接入需梳理 package 依赖拓扑。\n",
+  "vendorId": "vercel-inc"
+}

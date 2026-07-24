@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "iac",
+    "security"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "仅静态规则；runtime 攻击面需另层 WAF/runtime security。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.checkov.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "checkov",
+  "name": "Checkov",
+  "category": "sec-secrets",
+  "subcategory": "scanning",
+  "oneLiner": "扫描 TF/CFN/K8s misconfig · CI 友好 · Bridgecrew/Prisma 生态",
+  "officialUrl": "https://www.checkov.io",
+  "descriptionMd": "Checkov 扫描 Terraform/CloudFormation/K8s manifest 的 misconfiguration，Bridgecrew/Prisma 生态，CI 友好。\n\nTerraform pipeline 需要在 plan 阶段 catch 公开 S3 等错误配置时加入 Checkov。\n\n仅静态规则；runtime 攻击面需另层 WAF/runtime security。\n"
+}

@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "社区小于 Nest；edge/serverless 部署非强项。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://adonisjs.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "adonisjs",
+  "name": "AdonisJS",
+  "category": "fw-fullstack",
+  "subcategory": "node-fullstack",
+  "oneLiner": "Node Laravel 式 · Lucid ORM/auth · TS-first 结构化全栈",
+  "officialUrl": "https://adonisjs.com",
+  "descriptionMd": "AdonisJS 提供类似 Laravel 的 MVC、Lucid ORM 与 auth，TypeScript-first，适合结构化 Node 全栈。\n\n喜欢 Laravel DX 但想用 Node/TS 全栈的 team；需要内置 ORM 与 CLI。\n\n社区小于 Nest；edge/serverless 部署非强项。\n",
+  "vendorId": "adonisjs-inc"
+}

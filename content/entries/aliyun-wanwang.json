@@ -1,0 +1,34 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "domain",
+    "domestic"
+  ],
+  "maturity": "mature",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://wanwang.aliyun.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "aliyun-wanwang",
+  "name": "阿里云万网",
+  "category": "net-domain",
+  "subcategory": "domain",
+  "vendorId": "alibaba-cloud",
+  "oneLiner": "国内注册入口 · 备案/解析/证书绑定 · 大陆站域名主路径",
+  "descriptionMd": "万网（阿里云域名）是国内域名注册与续费的常见入口，并与**备案、解析、证书**流程深度绑定。\n\n若站点面向中国大陆用户且需要 ICP 备案，域名常落在阿里云/腾讯云等国内注册商。出海纯 Cloudflare 栈可不必强绑万网，但双市场产品往往仍要备国内域名链路。\n\n域名过户与备案主体一致最省事；出海品牌域名也可分开注册商管理。\n",
+  "officialUrl": "https://wanwang.aliyun.com"
+}

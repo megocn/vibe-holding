@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "sqlite",
+    "edge"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "生态仍围绕 Turso 为主；复杂 PG 特性不支持，迁移到 Postgres 需计划。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/tursodatabase/libsql"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "libsql",
+  "name": "libSQL",
+  "category": "db-sqlite-edge",
+  "subcategory": "sqlite-fork",
+  "oneLiner": "SQLite fork · 异步复制/embedded replica/HTTP · Turso 底座",
+  "officialUrl": "https://github.com/tursodatabase/libsql",
+  "descriptionMd": "libSQL 是 SQLite 的开源 fork，增加异步 replication、embedded replicas 与 HTTP API，为 edge 与 embedded 场景优化。\n\n需要 SQLite 语义又要 edge 复制、或使用 Turso 托管时底层技术；IoT 与 local-first 应用评估。\n\n生态仍围绕 Turso 为主；复杂 PG 特性不支持，迁移到 Postgres 需计划。\n"
+}

@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "tts",
+    "aws"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "创意克隆与极致延迟通常弱于 Cartesia/ElevenLabs；实时 Agent 常再外接专用模型。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://aws.amazon.com/polly/"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "amazon-polly",
+  "name": "Amazon Polly",
+  "category": "ai-speech",
+  "subcategory": "tts",
+  "oneLiner": "AWS 神经 TTS · 与 Transcribe 同栈",
+  "officialUrl": "https://aws.amazon.com/polly/",
+  "descriptionMd": "Amazon Polly 提供神经与生成式音色的文本转语音，常与 Amazon Transcribe 组成 AWS 语音管线，适合已深度绑定 AWS 的播报、无障碍与联络中心场景。\n\n基础设施在 AWS、需要 IAM/区域合规一体的 TTS 时默认选项之一。\n\n创意克隆与极致延迟通常弱于 Cartesia/ElevenLabs；实时 Agent 常再外接专用模型。\n",
+  "vendorId": "amazon"
+}

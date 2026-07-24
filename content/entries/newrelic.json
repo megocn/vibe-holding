@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "apm",
+    "rum"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "定价按 ingest 计费易超预期；国内网络访问可能不稳定。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://newrelic.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "newrelic",
+  "name": "New Relic",
+  "category": "obs-platform",
+  "subcategory": "apm",
+  "oneLiner": "APM+infra+浏览器/移动 RUM · 一体看板 · 慢查询/错误定位",
+  "officialUrl": "https://newrelic.com",
+  "descriptionMd": "New Relic 提供应用性能、基础设施、浏览器与 mobile RUM，一体化 dashboard 适合快速定位慢查询与错误。\n\n需要开箱即用 APM、又不想自建 Prometheus 栈的 SaaS 团队；Node/Java 支持成熟。\n\n定价按 ingest 计费易超预期；国内网络访问可能不稳定。\n",
+  "vendorId": "newrelic-inc"
+}

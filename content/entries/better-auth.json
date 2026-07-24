@@ -1,0 +1,34 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "auth",
+    "typescript",
+    "self-host"
+  ],
+  "maturity": "stable",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.better-auth.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "better-auth",
+  "name": "Better Auth",
+  "category": "baas-auth-only",
+  "subcategory": "auth",
+  "oneLiner": "TS 优先开源鉴权 · Email/OAuth/组织/2FA · 框架无关可自托管",
+  "descriptionMd": "Better Auth 是 TypeScript 优先的开源鉴权框架：Email/OAuth/组织/2FA 等能力齐全，框架无关、可自托管。\n\nIndie starter 高频选项：相对 Clerk 少锁仓、相对手写 NextAuth 更完整。代价是自己运维会话存储与安全基线；适合已有 Postgres/自建后端的团队。\n\n插件式扩展账号能力；会话存储与 CSRF/cookie 设置按部署域名仔细核对。\n",
+  "officialUrl": "https://www.better-auth.com"
+}

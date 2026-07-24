@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "pm"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "engineering 深度集成不如 Jira/Linear；价格随 seats 上升。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://asana.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "asana",
+  "name": "Asana",
+  "category": "collab-pm",
+  "subcategory": "work-management",
+  "oneLiner": "Goals/项目/时间线一体 · 营销+产品+运营混合协作 · 非纯工程 issue",
+  "officialUrl": "https://asana.com",
+  "descriptionMd": "Asana 连接 goals、projects、timeline 与 automation，适合 marketing+product+ops 混合协作。\n\n多部门共享 roadmap、需要 timeline/Gantt 视图而非纯 dev issue 时评估 Asana。\n\nengineering 深度集成不如 Jira/Linear；价格随 seats 上升。\n",
+  "vendorId": "asana-inc"
+}

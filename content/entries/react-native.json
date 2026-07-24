@@ -1,0 +1,32 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "性能与平台一致性不如 Flutter 纯自绘；复杂动画需 native 模块。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://reactnative.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "react-native",
+  "name": "React Native",
+  "category": "fw-fullstack",
+  "subcategory": "mobile-cross",
+  "oneLiner": "React 写原生 UI · Meta 维护 · 生态大 · OTA/原生桥",
+  "officialUrl": "https://reactnative.dev",
+  "descriptionMd": "React Native 用 React 开发 iOS/Android 原生 UI，Facebook 维护，生态庞大，支持 OTA 与原生模块桥接。\n\n团队已有 React 技能、需要双端 App 且希望共享业务逻辑时主流选择。\n\n性能与平台一致性不如 Flutter 纯自绘；复杂动画需 native 模块。\n"
+}

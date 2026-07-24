@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "voice-agent",
+    "telephony",
+    "orchestration"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "平台抽成与供应商锁定需算清；极端延迟与合规场景可能要下沉到 LiveKit + 自管模型。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://vapi.ai"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "vapi",
+  "name": "Vapi",
+  "category": "ai-realtime",
+  "subcategory": "voice-agent-platform",
+  "oneLiner": "语音 Agent 编排平台 · 可插拔模型 · 电话",
+  "officialUrl": "https://vapi.ai",
+  "descriptionMd": "Vapi 是面向开发者的语音 Agent 平台，支持自选 STT/LLM/TTS、电话接入与工作流编排，强调快速上线可通话的助手。\n\n要尽快上线来电/外呼 Agent、又不想自建 WebRTC 与电话栈时评估；组件可替换适合迭代。\n\n平台抽成与供应商锁定需算清；极端延迟与合规场景可能要下沉到 LiveKit + 自管模型。\n",
+  "vendorId": "vapi-inc"
+}

@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "模式过多可能增加认知负担；复杂任务仍需人工拆分验收标准。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://roocode.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "roo-code",
+  "name": "Roo Code",
+  "category": "coding-ide-agent",
+  "subcategory": "ide-extension",
+  "oneLiner": "VS Code 多角色 Agent（Architect/Code/Debug）· MCP · 多 LLM",
+  "officialUrl": "https://roocode.com",
+  "descriptionMd": "Roo Code 是 VS Code 扩展，提供 Architect/Code/Debug 等多角色 Agent 模式，支持 MCP 与多种 LLM 后端。\n\n已在 VS Code 工作且希望比 Cline 更结构化角色分工的开发者；适合实验 MCP 工具链集成。\n\n模式过多可能增加认知负担；复杂任务仍需人工拆分验收标准。\n",
+  "vendorId": "roo-code-inc"
+}

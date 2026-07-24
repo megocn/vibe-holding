@@ -1,0 +1,10 @@
+{
+  "id": "edge-agora-livekit-alt",
+  "from": "agora-conversational-ai",
+  "to": "livekit",
+  "type": "alternative_to",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

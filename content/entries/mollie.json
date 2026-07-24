@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "payments",
+    "europe"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "北美与亚太 PM 弱；订阅与 marketplace 能力对照 Stripe Connect 验证需求。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.mollie.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "mollie",
+  "name": "Mollie",
+  "category": "pay-processor",
+  "subcategory": "gateway",
+  "oneLiner": "欧洲本地 PM（iDEAL/Bancontact/SEPA）· EU indie/SaaS 常见",
+  "officialUrl": "https://www.mollie.com",
+  "descriptionMd": "Mollie 支持 iDEAL、Bancontact、SEPA 等欧洲本地 PM 与卡支付，API 简洁，是 EU indie 与 SaaS 常见选择。\n\n主要客户在欧洲、需要 local PM 而不想接 Adyen  enterprise 流程时选用。\n\n北美与亚太 PM 弱；订阅与 marketplace 能力对照 Stripe Connect 验证需求。\n",
+  "vendorId": "mollie-inc"
+}

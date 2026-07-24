@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "i18n",
+    "intl"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "API 较底层；extract CLI 与 translator workflow 需自建或配 Crowdin。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://formatjs.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "formatjs",
+  "name": "FormatJS",
+  "category": "global-i18n",
+  "subcategory": "library",
+  "oneLiner": "ICU MessageFormat · 对齐浏览器 Intl · react-intl 底层",
+  "officialUrl": "https://formatjs.io",
+  "descriptionMd": "FormatJS 实现 ICU MessageFormat  polyfill 与 react-intl，与浏览器 Intl API 对齐，Facebook 生态广泛使用。\n\n需要 standards-based i18n、或 polyfill 老浏览器 Intl 时采用；react-intl 是 React 官方推荐路径之一。\n\nAPI 较底层；extract CLI 与 translator workflow 需自建或配 Crowdin。\n"
+}

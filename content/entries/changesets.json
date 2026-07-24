@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "release",
+    "monorepo"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "首次配置 release workflow 需与 npm token/GitHub Actions 权限对齐；ignore 列表要维护。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/changesets/changesets"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "changesets",
+  "name": "Changesets",
+  "category": "oss-toolchain",
+  "subcategory": "release",
+  "oneLiner": "变更说明文件驱动 · CI 聚合版本/CHANGELOG · pnpm/Turbo 常见",
+  "officialUrl": "https://github.com/changesets/changesets",
+  "descriptionMd": "Changesets 让贡献者提交变更说明文件，CI 聚合生成版本号与 CHANGELOG，是 pnpm/Turborepo 生态常见发布方案。\n\n开源或多包 npm 库需要规范 semver 与自动生成 changelog 时采用；比 manual bump 更可审计。\n\n首次配置 release workflow 需与 npm token/GitHub Actions 权限对齐；ignore 列表要维护。\n"
+}

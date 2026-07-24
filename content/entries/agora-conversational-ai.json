@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "realtime",
+    "webrtc",
+    "rtc"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "模型层仍常外接 LLM/TTS；纯「只要模型 API」不必为此引入 RTC 账单。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.agora.io/en/products/conversational-ai/"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "both",
+  "id": "agora-conversational-ai",
+  "name": "Agora Conversational AI",
+  "category": "ai-realtime",
+  "subcategory": "realtime-infra",
+  "oneLiner": "声网实时音视频 · 对话式 AI 扩展",
+  "officialUrl": "https://www.agora.io/en/products/conversational-ai/",
+  "descriptionMd": "Agora（声网）在实时音视频网络之上提供 Conversational AI 相关能力，适合已有 Agora RTC 的 App 叠加语音助手，而不是从零自建 WebRTC。\n\n直播/教育/社交 App 已用 Agora，需要低延迟语音对话附加层时评估。\n\n模型层仍常外接 LLM/TTS；纯「只要模型 API」不必为此引入 RTC 账单。\n",
+  "vendorId": "agora-inc"
+}

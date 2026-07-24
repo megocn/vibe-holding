@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "payments",
+    "api"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "纯 online SaaS 全球订阅不如 Stripe；API rate 与 marketplace 能力有限。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://developer.squareup.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "square-connect",
+  "name": "Square API",
+  "category": "pay-processor",
+  "subcategory": "api",
+  "oneLiner": "开发者 API · payments/catalog/inventory · 商户 OAuth 接入",
+  "officialUrl": "https://developer.squareup.com",
+  "descriptionMd": "Square API 提供 payments、catalog、inventory 与 OAuth merchant 接入，适合 in-person + online unified 商户。\n\n零售 SMB 已有 Square POS、需要同一 backend 管理线上线下 inventory 时用 API 扩展。\n\n纯 online SaaS 全球订阅不如 Stripe；API rate 与 marketplace 能力有限。\n"
+}

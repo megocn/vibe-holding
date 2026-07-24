@@ -1,0 +1,43 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "baas",
+    "oss",
+    "self-host"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "自托管运维成本"
+  ],
+  "updates": [],
+  "sources": [
+    "https://appwrite.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "appwrite",
+  "name": "Appwrite",
+  "category": "baas-platform",
+  "vendorId": "appwrite-inc",
+  "oneLiner": "开源可自托管 BaaS · Auth/DB/存储/函数一体 · 云或私有部署",
+  "descriptionMd": "Appwrite 是可自托管的开源 BaaS：Auth、数据库、存储与函数一体，云托管与私有部署可选。\n\n适合希望「Firebase 式能力」但不想完全锁云厂商、或有数据驻留要求的团队。相对 Supabase（Postgres 叙事），Appwrite 更偏自研文档库与全套 API；选型时看团队是否吃开源运维成本。\n\n自托管要规划备份与升级窗口；功能面广，按模块启用避免一次铺太开。\n",
+  "officialUrl": "https://appwrite.io",
+  "rankings": [
+    {
+      "systemId": "so-survey-auth",
+      "tier": "OSS BaaS",
+      "period": "2025 Survey",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

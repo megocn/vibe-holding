@@ -1,0 +1,8 @@
+{
+  "id": "rag",
+  "name": "RAG",
+  "summaryMd": "检索增强生成：用外部知识库提升回答准确性。",
+  "aliases": [
+    "Retrieval-Augmented Generation"
+  ]
+}

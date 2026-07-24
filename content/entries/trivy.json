@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "scanning",
+    "containers"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "结果聚合与 policy-as-code 需搭配 OPA/DefectDojo；非 SaaS dashboard。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://trivy.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "trivy",
+  "name": "Trivy",
+  "category": "sec-secrets",
+  "subcategory": "scanning",
+  "oneLiner": "扫镜像/文件系统/IaC/SBOM · CI 集成简单 · Aqua 维护开源",
+  "officialUrl": "https://trivy.dev",
+  "descriptionMd": "Trivy 扫描容器镜像、filesystem、IaC 与 SBOM，CI 集成简单，Aqua 维护。\n\nGitHub Actions 中免费替代部分 Snyk 能力、或 air-gapped 环境需离线扫描时使用。\n\n结果聚合与 policy-as-code 需搭配 OPA/DefectDojo；非 SaaS dashboard。\n"
+}

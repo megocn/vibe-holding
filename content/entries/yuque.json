@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "docs"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "国际化与开放 API 生态弱于 Notion；大规模导出 migration 需提前规划 Markdown/附件迁移脚本。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.yuque.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "yuque",
+  "name": "语雀",
+  "category": "collab-docs",
+  "subcategory": "wiki",
+  "oneLiner": "结构化文档/表格/画板 · 中文 UX 强 · 阿里系与国内团队常用",
+  "officialUrl": "https://www.yuque.com",
+  "descriptionMd": "语雀提供结构化文档、表格、画板与团队空间，中文 UX 与移动端阅读体验好，阿里系与大量国内互联网团队常用。\n\n国内团队知识沉淀、需要中文协作、权限分级与移动端阅读时首选之一；可与钉钉集成。\n\n国际化与开放 API 生态弱于 Notion；大规模导出 migration 需提前规划 Markdown/附件迁移脚本。\n",
+  "vendorId": "alibaba"
+}

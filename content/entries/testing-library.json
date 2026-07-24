@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "test",
+    "ui"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "过度 mock 子组件会失去集成价值；异步 UI 需正确使用 waitFor/findBy。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://testing-library.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "testing-library",
+  "name": "Testing Library",
+  "category": "oss-toolchain",
+  "subcategory": "test",
+  "oneLiner": "按角色/文本查 DOM · 避测实现细节 · 多框架绑定",
+  "officialUrl": "https://testing-library.com",
+  "descriptionMd": "Testing Library 鼓励按角色/文本查询 DOM，避免测试实现细节，覆盖 React/Vue/Svelte 等框架绑定。\n\n任何需要可维护 UI 单元测试的栈都应采用其查询哲学；与 Jest/Vitest/Playwright 均可配合。\n\n过度 mock 子组件会失去集成价值；异步 UI 需正确使用 waitFor/findBy。\n"
+}

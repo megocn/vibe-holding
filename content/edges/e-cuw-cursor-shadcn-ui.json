@@ -1,0 +1,10 @@
+{
+  "id": "e-cuw-cursor-shadcn-ui",
+  "from": "cursor",
+  "to": "shadcn-ui",
+  "type": "commonly_used_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

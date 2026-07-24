@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "self-host",
+    "analytics"
+  ],
+  "maturity": "stable",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://umami.is"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "umami",
+  "name": "Umami",
+  "category": "growth-web",
+  "subcategory": "web-analytics",
+  "oneLiner": "开源自托管轻量统计 · GA 简单替代 · 无重度产品分析",
+  "descriptionMd": "Umami 是开源、自托管优先的轻量网站统计，常作 GA 的简单替代。\n\n适合要数据自控的营销站；功能深度不如 GA/PostHog。与 Plausible 同层，按 UI 与托管偏好选。\n\n默认指标足够看趋势；要漏斗/会话回放需另选 PostHog 一类产品分析。\n",
+  "officialUrl": "https://umami.is"
+}

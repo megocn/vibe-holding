@@ -1,0 +1,10 @@
+{
+  "id": "e-ds-part-deepseek",
+  "from": "deepseek-v3",
+  "to": "deepseek-family",
+  "type": "part_of",
+  "weight": 1,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

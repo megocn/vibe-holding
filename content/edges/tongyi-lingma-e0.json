@@ -1,0 +1,10 @@
+{
+  "id": "tongyi-lingma-e0",
+  "from": "tongyi-lingma",
+  "to": "github-copilot",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

@@ -1,0 +1,51 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "deploy",
+    "cdn",
+    "workers"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "部分 Node API 兼容需适配"
+  ],
+  "updates": [],
+  "sources": [
+    "https://pages.cloudflare.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "cloudflare-pages",
+  "name": "Cloudflare Pages",
+  "category": "cloud-paas",
+  "vendorId": "cloudflare",
+  "oneLiner": "全球 CDN 托管静态/SSR · Workers/R2 紧耦合 · 性价比高",
+  "descriptionMd": "Cloudflare Pages 在全球 CDN 上托管静态与 SSR/适配器应用，与 Workers、R2 集成紧密，性价比高。\n\n常与 Next/SvelteKit/TanStack Start 等适配器搭配；相对 Vercel，偏「边缘+成本」叙事。构建限额、运行时差异与调试体验是选型时的主要权衡。\n\n与 Workers 绑定做全栈时注意绑定名与环境差异；构建缓存可显著加速。\n",
+  "officialUrl": "https://pages.cloudflare.com",
+  "rankings": [
+    {
+      "systemId": "cncf-survey",
+      "tier": "Edge platform",
+      "period": "2025 Survey",
+      "note": "Workers/Pages 边缘部署采用持续上升",
+      "asOf": "2026-07-20"
+    },
+    {
+      "systemId": "gartner-mq-cloud",
+      "tier": "Edge / CDN hybrid",
+      "period": "2025–2026",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

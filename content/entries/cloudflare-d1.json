@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "sqlite",
+    "edge"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "写吞吐与数据库大小有限；复杂事务与 PG 特性不支持，不适合核心 OLTP。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://developers.cloudflare.com/d1"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "cloudflare-d1",
+  "name": "Cloudflare D1",
+  "category": "db-sqlite-edge",
+  "subcategory": "edge-sql",
+  "oneLiner": "Workers 内 SQLite · 边缘只读副本 · 轻量边缘关系数据",
+  "officialUrl": "https://developers.cloudflare.com/d1",
+  "descriptionMd": "D1 是 Cloudflare 托管的 SQLite，可在 Workers 内用 SQL 查询，只读副本分布边缘，适合边缘轻量关系数据。\n\nWorkers 全栈需要关系查询但数据量小、读多写少时选用；与 Drizzle ORM 集成示例多。\n\n写吞吐与数据库大小有限；复杂事务与 PG 特性不支持，不适合核心 OLTP。\n",
+  "vendorId": "cloudflare-inc"
+}

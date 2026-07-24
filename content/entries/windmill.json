@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "workflow",
+    "automation"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "复杂 ML pipeline 不如专用平台；权限与审计要按企业要求配置。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.windmill.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "windmill",
+  "name": "Windmill",
+  "category": "cloud-paas",
+  "subcategory": "workflow",
+  "oneLiner": "Python/TS/SQL→可调度 workflow · 内部工具 · 可自托管替轻量 Airflow",
+  "officialUrl": "https://www.windmill.dev",
+  "descriptionMd": "Windmill 将 Python/TS/SQL 脚本转为可调度 workflow 与内部工具，支持自托管与 Cloud，替代 Airflow 的轻量场景。\n\n团队需要内部 admin 工具、ETL 或 cron 编排且希望低代码与代码并存时采用；开源可 air-gap 部署。\n\n复杂 ML pipeline 不如专用平台；权限与审计要按企业要求配置。\n"
+}

@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "opentelemetry",
+    "apm"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "功能深度与集成数量仍在追赶商业产品；升级与备份需自行运维。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://signoz.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "signoz",
+  "name": "SigNoz",
+  "category": "obs-platform",
+  "subcategory": "apm",
+  "oneLiner": "OTel 开源 APM · traces/metrics/logs 统一 UI · 自托管对标 Datadog",
+  "officialUrl": "https://signoz.io",
+  "descriptionMd": "SigNoz 是基于 OTel 的开源 APM，提供 traces/metrics/logs 统一 UI，可自托管替代 Datadog 部分场景。\n\n希望 OTel 原生、数据自主可控且预算有限的中型团队可评估 SigNoz Cloud 或自托管。\n\n功能深度与集成数量仍在追赶商业产品；升级与备份需自行运维。\n"
+}

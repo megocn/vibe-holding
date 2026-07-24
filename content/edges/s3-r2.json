@@ -1,0 +1,10 @@
+{
+  "id": "s3-r2",
+  "from": "aws-s3",
+  "to": "cloudflare-r2",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

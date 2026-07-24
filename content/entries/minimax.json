@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "family"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "海外节点与文档相对少；企业采购需确认 SLA 与数据不出境条款。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.minimaxi.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "minimax",
+  "name": "MiniMax",
+  "category": "llm-family",
+  "subcategory": "family",
+  "oneLiner": "MiniMax · 现至 M3 · 多模态/长上下文 · 国内 ToB 与消费向",
+  "officialUrl": "https://www.minimaxi.com",
+  "descriptionMd": "MiniMax 提供 M 系列（当前 M3）与语音等能力，强调长上下文与角色/cowork 场景。\n\n国内 AI 应用后端常用；注意系列从 abab 更名为 M 系后的 endpoint 迁移。\n\n国际语言与代码能力需自测。\n",
+  "vendorId": "minimax-inc"
+}

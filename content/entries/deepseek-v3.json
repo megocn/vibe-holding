@@ -1,0 +1,67 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line",
+    "domestic",
+    "code",
+    "value",
+    "flagship"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "高峰期偶发排队",
+    "文档英文较少"
+  ],
+  "updates": [
+    {
+      "date": "2026-04-24",
+      "type": "release",
+      "version": "V4-Pro",
+      "summary": "DeepSeek-V4-Pro / V4-Flash 发布；API model 名 deepseek-v4-pro / deepseek-v4-flash",
+      "source": "https://api-docs.deepseek.com/news/news260424"
+    }
+  ],
+  "sources": [
+    "https://api-docs.deepseek.com/news/news260424",
+    "https://www.deepseek.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "deepseek-v3",
+  "name": "DeepSeek 旗舰",
+  "category": "llm-line",
+  "vendorId": "deepseek",
+  "oneLiner": "国产性价比旗舰 · 现为 V4-Pro · 百万上下文 / Agent 向",
+  "descriptionMd": "DeepSeek 产品族的**旗舰对话/代码选型档**。当前版本为 DeepSeek-V4-Pro（辅 V4-Flash；约 2026-04 开源预览），主打百万级上下文效率与 Agent/编码。\n\n与 Claude Opus、Qwen-Max、GPT 旗舰等同属档位粒度。注意开源权重与官方 API 的能力/许可差异；旧 `deepseek-chat`/`reasoner` 别名有下线窗口。\n\n旗舰对话/代码档，适合成本敏感的高质量任务；关键合规行业核对数据路径。\n",
+  "officialUrl": "https://api-docs.deepseek.com/news/news260424",
+  "rankings": [
+    {
+      "systemId": "lmarena-text",
+      "tier": "Open-weight frontier",
+      "period": "2026-07",
+      "note": "V4-Pro 开源权重阵营前列",
+      "asOf": "2026-07-23"
+    },
+    {
+      "systemId": "artificial-analysis-index",
+      "tier": "High value",
+      "period": "2026-07",
+      "note": "性价比与长上下文效率突出",
+      "asOf": "2026-07-23"
+    }
+  ],
+  "subcategory": "line",
+  "currentVersion": "V4"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "edge-cosyvoice-eleven-dom",
+  "from": "cosyvoice",
+  "to": "elevenlabs",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24",
+  "note": "复刻/设计向"
+}

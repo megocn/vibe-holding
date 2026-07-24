@@ -1,0 +1,58 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "google",
+    "multimodal"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "国内访问 Google API 需网络与合规方案；3.5 Pro 未 GA 前勿写成已公开发布。"
+  ],
+  "updates": [],
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/models",
+    "https://blog.google/"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "gemini-pro",
+  "name": "Gemini Pro",
+  "category": "llm-line",
+  "vendorId": "google",
+  "oneLiner": "Gemini 主力/旗舰档 · 现为 3.1 Pro · 多模态；3.5 Pro 仍 partner 测试",
+  "descriptionMd": "Gemini 产品族的**主力/旗舰选型档**。公开可用旗舰以 Gemini 3.1 Pro 为代表；3.5 Pro 截至 2026-07 仍在 partner 测试，未广发。\n\n多模态、长上下文与 Google 生态集成场景的默认高能力档；高 QPS/成本敏感任务用 Flash 档。\n\n国内访问 Google API 需网络与合规方案；模型 id 以 AI Studio / Vertex 控制台为准。\n",
+  "officialUrl": "https://ai.google.dev/gemini-api/docs/models",
+  "rankings": [
+    {
+      "systemId": "lmarena-text",
+      "rank": 4,
+      "score": 1500,
+      "scoreLabel": "≈1500 Elo",
+      "period": "2026-07",
+      "note": "对标 Gemini 3.1 Pro；科学/长上下文领先",
+      "sourceUrl": "https://arena.ai/leaderboard",
+      "asOf": "2026-07-20"
+    },
+    {
+      "systemId": "artificial-analysis-index",
+      "tier": "Top tier",
+      "period": "2026-07",
+      "note": "与 Opus / GPT 旗舰同档交叉验证",
+      "asOf": "2026-07-20"
+    }
+  ],
+  "subcategory": "line",
+  "currentVersion": "3.1 Pro"
+}

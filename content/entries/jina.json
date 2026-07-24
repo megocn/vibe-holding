@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "全栈 framework 认知度小于 LangChain；需组合而非替代 orchestration 层。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://jina.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "jina",
+  "name": "Jina AI",
+  "category": "ai-rag",
+  "subcategory": "embedding-search",
+  "oneLiner": "Embedding/Reranker API · DocArray 等组件 · 检索基建而非编排",
+  "officialUrl": "https://jina.ai",
+  "descriptionMd": "Jina AI 提供 embedding API、reranker 与 Jina Embeddings 模型，以及 DocArray 等搜索基础设施组件。\n\n需要多语言 embedding/rerank API、或构建 neural search pipeline 的 AI 应用。\n\n全栈 framework 认知度小于 LangChain；需组合而非替代 orchestration 层。\n",
+  "vendorId": "jina-ai"
+}

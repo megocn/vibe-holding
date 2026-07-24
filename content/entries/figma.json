@@ -1,0 +1,34 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "design",
+    "ui"
+  ],
+  "maturity": "mature",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.figma.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "figma",
+  "name": "Figma",
+  "category": "design-tools",
+  "subcategory": "design",
+  "oneLiner": "协作 UI/原型事实标准 · Dev Mode/变量 · 设计系统交接",
+  "descriptionMd": "Figma 是协作式界面设计与原型的事实标准，Dev Mode、变量与组件库支撑设计到工程的交接。\n\nAI/工程工作流里常作为设计源；与代码生成工具（v0 等）可衔接，但设计系统治理仍靠人工约定。注意席位费用与文件权限。\n\n组件命名与 token 约定越早统一，工程落地越少返工；评审用评论而非截图群传。\n",
+  "officialUrl": "https://www.figma.com"
+}

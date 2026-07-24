@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "family",
+    "google"
+  ],
+  "maturity": "stable",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [
+    {
+      "systemId": "llm-family-landscape",
+      "tier": "Frontier closed",
+      "period": "2026-07",
+      "note": "族级定位；能力对比请打开下属选型档位",
+      "asOf": "2026-07-23"
+    }
+  ],
+  "sources": [
+    "https://deepmind.google/technologies/gemini/"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "gemini",
+  "name": "Gemini",
+  "category": "llm-family",
+  "vendorId": "google",
+  "oneLiner": "Google 族 · Pro/Flash 分档 · 现见 3.1 Pro / 3.6 Flash",
+  "descriptionMd": "Gemini 是 Google 大模型产品族，按 Pro（质量）与 Flash（速度/成本）分档。公开旗舰多见 3.1 Pro；Flash 当前为 3.6 Flash（2026-07）。\n\n长上下文、多模态与 Google Cloud / AI Studio 生态集成时优先。\n\n国内访问需网络与合规；3.5 Pro 未广发前勿写成已公开发布。\n",
+  "officialUrl": "https://deepmind.google/technologies/gemini/"
+}

@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "auth",
+    "sso"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "海外 IdP 与 UX 不如 Clerk/WorkOS 国际化；定价按 MAU 阶梯，功能模块需逐项开通。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://authing.cn"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "authing",
+  "name": "Authing",
+  "category": "baas-auth-only",
+  "subcategory": "idp",
+  "oneLiner": "国内合规身份云 · 微信/钉钉/飞书 · SSO/MFA/权限一体",
+  "officialUrl": "https://authing.cn",
+  "descriptionMd": "Authing 提供统一身份认证、社会化登录、企业 SSO、MFA 与权限管理，符合国内合规，支持与微信/钉钉/飞书集成。\n\n面向国内 ToB SaaS、需要 ICP 友好 IdP 与本地化支持时选用；替代 Okta/Auth0 的国内方案。\n\n海外 IdP 与 UX 不如 Clerk/WorkOS 国际化；定价按 MAU 阶梯，功能模块需逐项开通。\n",
+  "vendorId": "authing-cn"
+}

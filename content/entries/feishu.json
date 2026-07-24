@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "suite",
+    "domestic"
+  ],
+  "maturity": "mature",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.feishu.cn"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "feishu",
+  "name": "飞书",
+  "category": "collab-suite",
+  "subcategory": "suite",
+  "oneLiner": "国内一站式套件 · 文档/IM/审批/多维表 · 默认协作面",
+  "descriptionMd": "飞书是国内一站式协作套件（文档、日历、IM、审批、多维表），许多团队的默认协作面。\n\n做内部工具与审批流时，开放平台与机器人是关键集成点。出海团队可能并行 Slack/Linear；纯国内团队飞书往往是「系统中枢」。\n\n多维表 + 审批可撑不少内部运营；对外产品协作用户若在海外需并行其他工具。\n",
+  "officialUrl": "https://www.feishu.cn"
+}

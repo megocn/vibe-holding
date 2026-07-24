@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "push",
+    "mobile"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "海外 push 能力有限；隐私合规与用户同意弹窗必须到位。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.jiguang.cn/push"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "jpush",
+  "name": "极光推送",
+  "category": "msg-push",
+  "subcategory": "mobile-push",
+  "oneLiner": "国内移动 push SDK · 多厂商通道 · 偏 Android 到达率",
+  "officialUrl": "https://www.jiguang.cn/push",
+  "descriptionMd": "极光推送 JPush 是国内常用的移动 push SDK，支持多厂商通道聚合，提升 Android 到达率。\n\n面向国内用户的移动 App 需要稳定 push 且需适配各厂商通道时首选国内方案。\n\n海外 push 能力有限；隐私合规与用户同意弹窗必须到位。\n",
+  "vendorId": "jiguang"
+}

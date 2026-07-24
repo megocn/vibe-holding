@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cdn",
+    "aws"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "定价维度多（请求/流量/功能）；非 AWS 栈配置 cross-cloud 较麻烦。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://aws.amazon.com/cloudfront/"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "aws-cloudfront",
+  "name": "Amazon CloudFront",
+  "category": "net-cdn-dns",
+  "subcategory": "cdn",
+  "oneLiner": "AWS 深度集成 · S3/Lambda@Edge · 动静态加速",
+  "officialUrl": "https://aws.amazon.com/cloudfront/",
+  "descriptionMd": "CloudFront 与 AWS 生态深度集成，支持 S3/Lambda@Edge，适合已在 AWS 上的静态与动态加速。\n\n静态资源在 S3、API 在 AWS 且需全球低延迟分发时默认 CDN 选择。\n\n定价维度多（请求/流量/功能）；非 AWS 栈配置 cross-cloud 较麻烦。\n",
+  "vendorId": "amazon"
+}

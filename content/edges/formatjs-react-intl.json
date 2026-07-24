@@ -1,0 +1,10 @@
+{
+  "id": "formatjs-react-intl",
+  "from": "formatjs",
+  "to": "react-intl",
+  "type": "part_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

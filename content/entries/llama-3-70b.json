@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line",
+    "open-source",
+    "multimodal"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "条目 id 为历史遗留；选型以 Llama 4 Scout 为准。许可需读 Llama 4 条款。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://ai.meta.com/blog/Llama-4-multimodal-intelligence/"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "llama-3-70b",
+  "name": "Llama 4 Scout",
+  "category": "llm-line",
+  "subcategory": "line",
+  "oneLiner": "Meta 开源均衡档 · Llama 4 Scout · 单卡友好 / 超长上下文",
+  "officialUrl": "https://ai.meta.com/blog/Llama-4-multimodal-intelligence/",
+  "descriptionMd": "Llama 家族的**高效开源选型档**。当前版本为 Llama 4 Scout（约 109B 总参 / 17B 激活，MoE），面向单卡部署与超长上下文检索。\n\n自托管主流、云 API 托管、RAG/代码库长上下文场景；更高质量需求升 Maverick。\n\n条目 id 仍为历史 `llama-3-70b`，展示名已切换至 Scout；勿再按 Llama 3.1 70B 选型。\n",
+  "vendorId": "meta-llama",
+  "currentVersion": "4"
+}

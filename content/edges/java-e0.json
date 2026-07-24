@@ -1,0 +1,10 @@
+{
+  "id": "java-e0",
+  "from": "java",
+  "to": "spring-boot",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

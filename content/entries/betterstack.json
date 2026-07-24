@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "logging",
+    "uptime"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "高级 APM 与自定义 metric 能力弱于 Datadog；大规模日志 retention 成本需预算。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://betterstack.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "betterstack",
+  "name": "Better Stack",
+  "category": "obs-errors",
+  "subcategory": "uptime",
+  "oneLiner": "日志+异常告警+On-call · 公开状态页 · 界面现代上手快",
+  "officialUrl": "https://betterstack.com",
+  "descriptionMd": "Better Stack（原 Logtail）提供日志采集、异常告警、On-call 与公开状态页，界面现代、上手快。\n\n中小团队希望替代 Datadog 部分能力、快速搭 status page 与日志检索时可选。\n\n高级 APM 与自定义 metric 能力弱于 Datadog；大规模日志 retention 成本需预算。\n",
+  "vendorId": "betterstack-inc"
+}

@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "family"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "国际化与开源权重有限；API 配额与计费模式随活动变化需财务对齐。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://cloud.baidu.com/product/wenxinworkshop"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "wenxin",
+  "name": "文心",
+  "category": "llm-family",
+  "subcategory": "family",
+  "oneLiner": "百度 ERNIE · 现至 5.x · 千帆企业工具链 · 搜索增强一体",
+  "officialUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+  "descriptionMd": "文心是百度 ERNIE 大模型品牌，当前旗舰版本为 ERNIE 5.0/5.1，集成千帆平台与企业工具链。\n\n百度云存量客户、需要国内合规大模型与搜索增强一体方案时选用。\n\n国际化与开源权重有限；API 配额与计费模式需财务对齐。\n",
+  "vendorId": "baidu"
+}

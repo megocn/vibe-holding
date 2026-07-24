@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "local",
+    "desktop"
+  ],
+  "maturity": "stable",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://lmstudio.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "lm-studio",
+  "name": "LM Studio",
+  "category": "gateway-local",
+  "subcategory": "local",
+  "oneLiner": "图形化本机模型管理 · 对话 GUI · 降 CLI 门槛",
+  "descriptionMd": "LM Studio 提供图形化本机模型管理与对话，降低非 CLI 用户跑本地模型的门槛。\n\n适合试用、演示与隐私敏感草稿；生产服务更常见 Ollama/自建推理。模型许可与硬件门槛需自查。\n\n下载的权重许可可能与「可商用 API」不同；对外服务勿默认本地试用条款。\n",
+  "officialUrl": "https://lmstudio.ai"
+}

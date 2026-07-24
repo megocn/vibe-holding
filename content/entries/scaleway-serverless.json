@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "serverless",
+    "eu"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "全球边缘与生态小于 AWS/GCP；国内访问延迟高，不适合面向中国 C 端低延迟 API。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.scaleway.com/en/serverless-functions/"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "scaleway-serverless",
+  "name": "Scaleway Serverless",
+  "category": "cloud-paas",
+  "subcategory": "serverless",
+  "oneLiner": "欧洲云按量 Functions/Containers · 同生态对象存储/Kapsule",
+  "officialUrl": "https://www.scaleway.com/en/serverless-functions/",
+  "descriptionMd": "Scaleway Serverless Functions/Containers 在欧洲云提供按量计费运行时，与 Object Storage、K8s Kapsule 同生态，价格有竞争力。\n\n需要欧盟数据驻留、预算敏感且工作负载在欧洲用户为主时评估；GDPR 场景常见。\n\n全球边缘与生态小于 AWS/GCP；国内访问延迟高，不适合面向中国 C 端低延迟 API。\n"
+}

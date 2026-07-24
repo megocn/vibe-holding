@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "vector",
+    "postgres",
+    "rag"
+  ],
+  "maturity": "stable",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [
+    {
+      "systemId": "db-engines-vector",
+      "tier": "Extension",
+      "period": "2026",
+      "asOf": "2026-07-23"
+    }
+  ],
+  "sources": [
+    "https://github.com/pgvector/pgvector"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "pgvector",
+  "name": "pgvector",
+  "category": "ai-vector",
+  "subcategory": "vector",
+  "oneLiner": "Postgres 向量扩展 · 不加新库 · Indie RAG 默认先手",
+  "descriptionMd": "pgvector 是 Postgres 向量扩展，可在 Supabase/Neon/自建 PG 上做向量检索，Indie RAG 的首选「先不加新数据库」。\n\n适合中小规模嵌入检索；超大规模或复杂过滤可评估 Qdrant 等专用库。注意索引类型、维度与维护 vacuum。\n\n先验证召回再上重排；嵌入模型一换，旧向量通常要全量重算。\n",
+  "officialUrl": "https://github.com/pgvector/pgvector"
+}

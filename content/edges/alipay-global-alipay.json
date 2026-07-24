@@ -1,0 +1,10 @@
+{
+  "id": "alipay-global-alipay",
+  "from": "alipay-global",
+  "to": "alipay",
+  "type": "part_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

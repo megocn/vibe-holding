@@ -1,0 +1,10 @@
+{
+  "id": "edge-loki-grafana-commonly-used-with",
+  "from": "loki",
+  "to": "grafana",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

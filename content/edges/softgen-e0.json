@@ -1,0 +1,10 @@
+{
+  "id": "softgen-e0",
+  "from": "softgen",
+  "to": "firebase",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

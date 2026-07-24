@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "video"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "按 credit 计费昂贵；生成视频版权与 deepfake 合规要严格。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://runwayml.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "runway",
+  "name": "Runway",
+  "category": "design-ai-video",
+  "subcategory": "video-gen",
+  "oneLiner": "Gen 视频/inpainting · motion brush · previs 与短视频",
+  "officialUrl": "https://runwayml.com",
+  "descriptionMd": "Runway 提供 Gen-3 等视频生成、inpainting 与 motion brush，影视级 previs 与 social video 常用。\n\n短视频营销、product demo 需要 AI video 而非静态 banner 时评估 Runway。\n\n按 credit 计费昂贵；生成视频版权与 deepfake 合规要严格。\n",
+  "vendorId": "runway-inc"
+}

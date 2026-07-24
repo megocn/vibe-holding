@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "e2e",
+    "test"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "多浏览器并行与移动端覆盖不如 Playwright 完整；CI 并行需 Cypress Cloud 或自建编排。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.cypress.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "cypress",
+  "name": "Cypress",
+  "category": "oss-toolchain",
+  "subcategory": "test",
+  "oneLiner": "真实浏览器 · 时间旅行调试/截图 · 组件测试 DX 强",
+  "officialUrl": "https://www.cypress.io",
+  "descriptionMd": "Cypress 在真实浏览器中运行 E2E，提供时间旅行调试、截图与 component testing，DX 对前端团队友好。\n\n单应用 Web 产品、团队以 Chrome 为主做 E2E 且重视调试体验时常见；组件测试可补单元测试盲区。\n\n多浏览器并行与移动端覆盖不如 Playwright 完整；CI 并行需 Cypress Cloud 或自建编排。\n"
+}

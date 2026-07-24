@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ui",
+    "react",
+    "hooks"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "定制深度不如自研设计系统"
+  ],
+  "updates": [],
+  "sources": [
+    "https://mantine.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "mantine",
+  "name": "Mantine",
+  "category": "ui-kits",
+  "oneLiner": "100+ 组件+hooks · form/通知/暗色一体 · DX 口碑好",
+  "descriptionMd": "Mantine 提供功能丰富的 React 组件、hooks 与主题体系，适合快速搭后台与 SaaS。\n\n相对 Ant Design 更「现代 hooks」；相对 shadcn 更「库式依赖」。选型看是否接受组件库视觉与包体。\n\n表单与日期等复杂控件省时间；深度定制主题前先确认设计是否接受其默认。\n",
+  "officialUrl": "https://mantine.dev",
+  "rankings": [
+    {
+      "systemId": "state-of-js",
+      "tier": "Full kit",
+      "period": "2025 Survey",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

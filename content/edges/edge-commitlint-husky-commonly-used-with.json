@@ -1,0 +1,10 @@
+{
+  "id": "edge-commitlint-husky-commonly-used-with",
+  "from": "commitlint",
+  "to": "husky",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

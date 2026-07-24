@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "aws",
+    "serverless"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "冷启动、15 分钟超时与包大小限制需架构规避；VPC 内访问 RDS 要配 ENI 并关注延迟。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://aws.amazon.com/lambda"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "aws-lambda",
+  "name": "AWS Lambda",
+  "category": "cloud-paas",
+  "subcategory": "serverless",
+  "oneLiner": "按调用计费 · API GW/S3/Dynamo/SQS 深集成 · Serverless 事实标准",
+  "officialUrl": "https://aws.amazon.com/lambda",
+  "descriptionMd": "AWS Lambda 按调用计费运行代码，与 API Gateway、S3、DynamoDB、SQS 等深度集成，是 Serverless 事实标准之一。\n\n已在 AWS 生态、需要精细 IAM 与海量触发器集成时默认选择；SST/Serverless 框架目标运行时。\n\n冷启动、15 分钟超时与包大小限制需架构规避；VPC 内访问 RDS 要配 ENI 并关注延迟。\n",
+  "vendorId": "amazon-web-services"
+}

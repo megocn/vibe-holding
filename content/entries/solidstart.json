@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "生态与招聘远小于 React；UI 库选择面窄。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://start.solidjs.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "solidstart",
+  "name": "SolidStart",
+  "category": "fw-fullstack",
+  "subcategory": "meta-framework",
+  "oneLiner": "Solid 细粒度响应式 · SSR/server functions · 近 vanilla 性能",
+  "officialUrl": "https://start.solidjs.com",
+  "descriptionMd": "SolidStart 基于 SolidJS 细粒度响应式，提供 SSR、路由与 server functions，性能接近 vanilla JS。\n\n追求极致运行时性能、团队熟悉 Solid 响应式模型的小型全栈 App。\n\n生态与招聘远小于 React；UI 库选择面窄。\n",
+  "vendorId": "solidjs"
+}

@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "答案可能过时或幻觉；关键决策仍需查阅官方文档与源码。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://phind.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "phind",
+  "name": "Phind",
+  "category": "coding-cli-agent",
+  "subcategory": "search-agent",
+  "oneLiner": "搜索+LLM 带引用 · 开发者问答向 · 非仓库结对主力",
+  "officialUrl": "https://phind.com",
+  "descriptionMd": "Phind 结合搜索与 LLM，为编程问题提供带引用来源的答案，支持追问与代码片段生成，定位开发者专属 Perplexity。\n\n调试陌生 API、快速理解报错栈或调研技术选型时作为 Google/StackOverflow 补充。\n\n答案可能过时或幻觉；关键决策仍需查阅官方文档与源码。\n",
+  "vendorId": "phind-inc"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "e-creem-uses-mor",
+  "from": "creem",
+  "to": "mor",
+  "type": "uses_concept",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

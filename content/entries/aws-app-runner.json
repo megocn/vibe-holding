@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "aws",
+    "paas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "VPC connector 与 custom domain 有局限；cold start 与 pricing 随 vCPU/memory 线性。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://aws.amazon.com/apprunner"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "aws-app-runner",
+  "name": "AWS App Runner",
+  "category": "cloud-paas",
+  "subcategory": "paas",
+  "oneLiner": "镜像或源码一键上线 · 自动伸缩+TLS · 比 ECS 简、比 Lambda 宜长连接",
+  "officialUrl": "https://aws.amazon.com/apprunner",
+  "descriptionMd": "App Runner 从容器镜像或源码自动部署 Web 应用，自动伸缩与 TLS，比 ECS 简单，比 Lambda 更适合长连接 HTTP。\n\nAWS 用户需要 Heroku 式体验而不想配 ALB+ECS 时选用；与 ECR 源码构建集成。\n\nVPC connector 与 custom domain 有局限；cold start 与 pricing 随 vCPU/memory 线性。\n",
+  "vendorId": "amazon-web-services"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "e-kimi-k3-alt-glm",
+  "from": "kimi-k3",
+  "to": "glm-flagship",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

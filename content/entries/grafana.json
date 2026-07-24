@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "dashboards",
+    "self-host"
+  ],
+  "maturity": "mature",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://grafana.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "grafana",
+  "name": "Grafana",
+  "category": "obs-platform",
+  "subcategory": "dashboards",
+  "oneLiner": "开源可视化/告警中枢 · Prom/Loki/Tempo 组合 · 自建可观测门面",
+  "descriptionMd": "Grafana 是开源可观测可视化与告警中枢，常与 Prometheus、Loki、Tempo 等组合。\n\n适合已有指标/日志管道、需要统一仪表盘的团队；纯 SaaS 错误监控可先 Sentry。运维与数据源配置是主要成本。\n\n先统一标签规范再画仪表盘；告警路由到飞书/Slack 比堆图表更值钱。\n",
+  "officialUrl": "https://grafana.com"
+}

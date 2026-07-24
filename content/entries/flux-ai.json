@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "image"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "pro 模型 licensing 与 NSFW 政策需遵守；算力成本随分辨率上升。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://blackforestlabs.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "flux-ai",
+  "name": "Flux",
+  "category": "design-ai-image",
+  "subcategory": "image-gen",
+  "oneLiner": "BFL pro/dev/schnell · 质量速度分档 · API/ComfyUI 增长快",
+  "officialUrl": "https://blackforestlabs.ai",
+  "descriptionMd": "Flux 由 Black Forest Labs 发布，提供 pro/dev/schnell 档位，质量与速度平衡好，API 与 ComfyUI 生态增长快。\n\n需要 Midjourney 级质量又希望 API 集成到产品 pipeline 时评估 Flux API/自托管 dev 权重。\n\npro 模型 licensing 与 NSFW 政策需遵守；算力成本随分辨率上升。\n",
+  "vendorId": "black-forest-labs"
+}

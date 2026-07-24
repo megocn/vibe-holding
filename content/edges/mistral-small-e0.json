@@ -1,0 +1,10 @@
+{
+  "id": "mistral-small-e0",
+  "from": "mistral-small",
+  "to": "gpt-mini",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

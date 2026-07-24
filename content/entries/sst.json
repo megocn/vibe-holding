@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "iac",
+    "aws"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "绑定 AWS 云厂商；多云或简单静态站可能过度。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://sst.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "sst",
+  "name": "SST",
+  "category": "cloud-paas",
+  "subcategory": "iac",
+  "oneLiner": "TS 描述 Lambda/API/Dynamo · Live Lambda Dev · AWS 现代全栈 IaC",
+  "officialUrl": "https://sst.dev",
+  "descriptionMd": "SST 让开发者用 TypeScript 描述 Lambda、API Gateway、DynamoDB 等资源，提供 Live Lambda Dev 与 Console，是 AWS 上的现代全栈框架。\n\n全栈 TS 团队希望 IaC 与业务代码同仓、并部署到 AWS Lambda/Next.js OpenNext 时首选 SST Ion；替代 Serverless Framework 体验更现代。\n\n绑定 AWS 云厂商；多云或简单静态站可能过度。Ion 大版本迁移需跟进文档，本地 dev 资源消耗高于纯 Vercel。\n",
+  "vendorId": "sst-dev"
+}

@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "apm",
+    "metrics"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "按 host/container 计费易膨胀；国内访问与数据合规需评估 region 与代理。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.datadoghq.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "datadog",
+  "name": "Datadog",
+  "category": "obs-platform",
+  "subcategory": "apm",
+  "oneLiner": "metrics+logs+traces+RUM 一体 · SaaS 免运维 · 集成最全",
+  "officialUrl": "https://www.datadoghq.com",
+  "descriptionMd": "Datadog 整合 metrics、logs、traces、RUM 与安全信号，提供统一可观测平台与丰富集成，SaaS 交付免运维。\n\n多服务微架构、需要 correlate 指标/日志/链路并做 SLO 告警时首选；与 Kubernetes/Docker 集成成熟。\n\n按 host/container 计费易膨胀；国内访问与数据合规需评估 region 与代理。\n",
+  "vendorId": "datadog-inc"
+}

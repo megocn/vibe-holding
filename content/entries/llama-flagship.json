@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line",
+    "flagship",
+    "open-source",
+    "multimodal"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "许可需读 Llama 4 Community License；推理成本仍高，多数产品可先评 Scout。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://ai.meta.com/blog/Llama-4-multimodal-intelligence/",
+    "https://www.llama.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "llama-flagship",
+  "name": "Llama 4 Maverick",
+  "category": "llm-line",
+  "subcategory": "line",
+  "oneLiner": "Meta 开源旗舰 MoE · Llama 4 Maverick · 原生多模态",
+  "officialUrl": "https://ai.meta.com/blog/Llama-4-multimodal-intelligence/",
+  "descriptionMd": "Llama 家族当前开源旗舰档为 **Llama 4 Maverick**（约 400B 总参 / 17B 激活，MoE，原生多模态）。Llama 3.1 405B 已非最新版本。\n\n自托管或通过云托管调用、需要可下载权重与多模态开源基座时选用；单机友好档见同族 Scout。\n\n许可为 Llama 4 Community License，商用前读条款；Meta 闭源线（如 Muse）与开源 Llama 4 能力勿混为一谈。\n",
+  "vendorId": "meta-llama",
+  "currentVersion": "4"
+}

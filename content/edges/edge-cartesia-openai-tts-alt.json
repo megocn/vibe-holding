@@ -1,0 +1,11 @@
+{
+  "id": "edge-cartesia-openai-tts-alt",
+  "from": "cartesia",
+  "to": "openai-tts",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24",
+  "note": "低延迟流式 vs 简单旁白"
+}

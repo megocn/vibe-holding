@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "analytics"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "实施与 license 成本高；跨境产品需单独评估海外采集节点与 GDPR/PIPL 双合规策略。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.sensorsdata.cn"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "sensorsdata",
+  "name": "神策数据",
+  "category": "growth-web",
+  "subcategory": "product-analytics",
+  "oneLiner": "私有化/画像/漏斗 · 金融零售头部案例 · 实施 license 重",
+  "officialUrl": "https://www.sensorsdata.cn",
+  "descriptionMd": "神策数据提供 SDK 采集、用户画像、漏斗与个性化推荐，支持私有化部署与混合云，金融与零售头部客户案例多。\n\n国内企业对数据不出域有强合规、需要专业实施与本地化支持的产品分析时首选国内方案。\n\n实施与 license 成本高；跨境产品需单独评估海外采集节点与 GDPR/PIPL 双合规策略。\n",
+  "vendorId": "sensorsdata-inc"
+}

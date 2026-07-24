@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "payments",
+    "india"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "仅印度为主；跨境收 USD 需 Razorpay Global 产品线单独评估。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://razorpay.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "razorpay",
+  "name": "Razorpay",
+  "category": "pay-processor",
+  "subcategory": "regional",
+  "oneLiner": "印度 UPI 事实标准 · 卡/wallet+RazorpayX 银行 API",
+  "officialUrl": "https://razorpay.com",
+  "descriptionMd": "Razorpay 覆盖印度 UPI、卡、wallet 与 RazorpayX 银行 API，是印度 SaaS 与电商支付事实标准之一。\n\n产品主攻印度市场、需要 local PM 与 RBI 合规时必选；subscription 与 route split 支持。\n\n仅印度为主；跨境收 USD 需 Razorpay Global 产品线单独评估。\n"
+}

@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "orm",
+    "sql"
+  ],
+  "maturity": "stable",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://orm.drizzle.team"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "drizzle",
+  "name": "Drizzle ORM",
+  "category": "oss-toolchain",
+  "subcategory": "orm",
+  "oneLiner": "贴近 SQL · 轻量类型安全 · Neon/Turso/PG 搭配多",
+  "descriptionMd": "Drizzle 是贴近 SQL 的 TypeScript ORM：类型安全、轻量，与 Neon/Turso/Postgres 搭配极多。\n\n适合希望「看见 SQL」又要类型推导的团队；相对 Prisma 更少魔法、迁移与关系表达风格不同。与 Zod 常一起出现在现代 TS 后端。\n\n迁移与 SQL 可见性好；复杂查询可退回原生 SQL 而不失去类型边界。\n",
+  "officialUrl": "https://orm.drizzle.team"
+}

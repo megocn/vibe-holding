@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "企业版与公有云 API 配额需提前规划；复杂跨仓库重构能力仍弱于 Cursor Agent 模式。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://tongyi.aliyun.com/lingma"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "tongyi-lingma",
+  "name": "通义灵码",
+  "category": "coding-ide-agent",
+  "subcategory": "ide-extension",
+  "oneLiner": "阿里云/通义绑定 · 国产合规 · 中文代码与仓级问答",
+  "officialUrl": "https://tongyi.aliyun.com/lingma",
+  "descriptionMd": "通义灵码是阿里云推出的 AI 编程助手，支持 VS Code/JetBrains 插件，提供代码补全、单元测试生成与仓库级问答，模型基于通义系列。\n\n国内团队使用阿里云生态、需要合规本地化模型与中文代码理解时首选；与 Java/前端混合栈兼容良好。\n\n企业版与公有云 API 配额需提前规划；复杂跨仓库重构能力仍弱于 Cursor Agent 模式。\n",
+  "vendorId": "tongyi"
+}

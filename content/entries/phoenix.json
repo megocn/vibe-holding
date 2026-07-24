@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "Elixir 人才少；纯 REST CRUD 不如 Rails 快捷。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.phoenixframework.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "phoenix",
+  "name": "Phoenix",
+  "category": "fw-fullstack",
+  "subcategory": "elixir-web",
+  "oneLiner": "Elixir/OTP · Channels 实时 · LiveView 服务端交互",
+  "officialUrl": "https://www.phoenixframework.org",
+  "descriptionMd": "Phoenix 提供 Channels 实时通信、LiveView 服务端渲染交互与 Ecto ORM，构建在 Elixir/OTP 之上。\n\n实时聊天、协作编辑、需要 WebSocket 大规模连接的后端。\n\nElixir 人才少；纯 REST CRUD 不如 Rails 快捷。\n",
+  "vendorId": "phoenix-framework"
+}

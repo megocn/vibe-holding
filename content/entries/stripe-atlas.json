@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "notes": "一次性费用+年审量级见官方",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "entity",
+    "stripe"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "大陆开发者仍须海外主体",
+    "银行开户与 EIN 周期拉长"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://stripe.com/atlas"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "stripe-atlas",
+  "name": "Stripe Atlas",
+  "category": "global-entity",
+  "subcategory": "entity",
+  "vendorId": "stripe-inc",
+  "oneLiner": "注册美企+开 Stripe · 一站式路径 · 主体与收款绑定",
+  "descriptionMd": "Stripe Atlas 帮创业者注册美国公司并开通 Stripe，是「要美主体 + Stripe」的一站式路径。\n\n成本高，且银行侧（如 Mercury）、EIN 等近年变难；能用港/新主体或 MoR 时不必默认 Atlas。\n\n适合明确要美股银行与 Stripe 的路径；只是想收款，优先算 MoR/港新主体总成本。\n",
+  "officialUrl": "https://stripe.com/atlas"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-ollama-alt-openrouter",
+  "from": "ollama",
+  "to": "openrouter",
+  "type": "alternative_to",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23",
+  "note": "本地 vs 云路由"
+}

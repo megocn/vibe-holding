@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "windows",
+    "desktop"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "审核与 MSIX 转换有学习成本；side-load 与 winget 并行策略更常见开发者选择。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://apps.microsoft.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "microsoft-store",
+  "name": "Microsoft Store",
+  "category": "dist-desktop",
+  "subcategory": "store",
+  "oneLiner": "Win32/UWP/PWA · MSIX 打包自动更新 · Win11 深度集成",
+  "officialUrl": "https://apps.microsoft.com",
+  "descriptionMd": "Microsoft Store 分发 Win32、UWP 与 PWA 应用，Windows 11 深度集成，支持 MSIX 打包与自动更新。\n\n桌面工具希望触达 Windows 企业用户、或通过 Store 分发 PWA/Electron 包装应用时上架。\n\n审核与 MSIX 转换有学习成本；side-load 与 winget 并行策略更常见开发者选择。\n",
+  "vendorId": "microsoft"
+}

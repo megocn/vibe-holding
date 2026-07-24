@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "pm",
+    "agile"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "配置过重、非工程同事抵触；小团队 Linear 更轻。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.atlassian.com/software/jira"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "jira",
+  "name": "Jira",
+  "category": "collab-pm",
+  "subcategory": "issue-tracker",
+  "oneLiner": "Scrum/看板+工作流定制 · Confluence 联动 · 企业研发管理标配；配置重",
+  "officialUrl": "https://www.atlassian.com/software/jira",
+  "descriptionMd": "Jira Software 提供 scrum/kanban board、workflow 定制与 Confluence 集成，enterprise 研发管理标配。\n\n中大型工程团队需要复杂 workflow、与 Bitbucket/GitHub 联动 traceability 时采用 Jira。\n\n配置过重、非工程同事抵触；小团队 Linear 更轻。\n",
+  "vendorId": "atlassian"
+}

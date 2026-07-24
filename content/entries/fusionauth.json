@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "auth",
+    "self-hosted"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "UI 定制与 DX 不如 Clerk modern；多租户 org 模型需自行建模或购 enterprise 模块。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://fusionauth.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "fusionauth",
+  "name": "FusionAuth",
+  "category": "baas-auth-only",
+  "subcategory": "idp",
+  "oneLiner": "完整 IdP · MFA/OIDC+theming · Cloud 或 self-host；数据驻留友好",
+  "officialUrl": "https://fusionauth.io",
+  "descriptionMd": "FusionAuth 提供完整 IdP、注册登录、MFA、OAuth2/OIDC 与 theming，可 self-host 或 Cloud，适合合规与数据驻留要求。\n\n需要 Auth0 功能但希望 on-prem 或避免 per-MAU 暴涨时选用；游戏与 gov 场景常见。\n\nUI 定制与 DX 不如 Clerk modern；多租户 org 模型需自行建模或购 enterprise 模块。\n",
+  "vendorId": "fusionauth-inc"
+}

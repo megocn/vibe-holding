@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "GraphQL 复杂度与 cache 策略需团队经验；非 GraphQL 栈迁移成本高。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://redwoodjs.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "redwoodjs",
+  "name": "RedwoodJS",
+  "category": "fw-fullstack",
+  "subcategory": "jamstack-fullstack",
+  "oneLiner": "React+Prisma+GraphQL 打包 · opinionated · startup SaaS",
+  "officialUrl": "https://redwoodjs.com",
+  "descriptionMd": "RedwoodJS 将 React UI、Prisma DB 与 GraphQL API 打包为 opinionated 全栈，适合 startup SaaS。\n\n全栈 TS 团队想快速 scaffold admin+API+web 且接受 GraphQL 时。\n\nGraphQL 复杂度与 cache 策略需团队经验；非 GraphQL 栈迁移成本高。\n",
+  "vendorId": "redwoodjs-inc"
+}

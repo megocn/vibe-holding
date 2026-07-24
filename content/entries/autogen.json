@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "API 变动较快；生产 hardening 需自行封装 state 与 security sandbox。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://microsoft.github.io/autogen"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "autogen",
+  "name": "AutoGen",
+  "category": "ai-agent-fw",
+  "subcategory": "multi-agent-ms",
+  "oneLiner": "多 Agent 对话协作 · code execution · human-in-the-loop",
+  "officialUrl": "https://microsoft.github.io/autogen",
+  "descriptionMd": "AutoGen 让多个 Agent 通过 conversation 协作完成任务，支持 code execution 与 human-in-the-loop，研究社区活跃。\n\n研究 multi-agent、code interpreter 场景、或 Azure OpenAI 企业栈实验 Agent 编排。\n\nAPI 变动较快；生产 hardening 需自行封装 state 与 security sandbox。\n",
+  "vendorId": "autogen-ms"
+}

@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "music",
+    "audio",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "人声歌曲完整度通常弱于 Suno；商用与训练数据许可需法务过目。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://stability.ai/stable-audio"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "stable-audio",
+  "name": "Stable Audio",
+  "category": "design-ai-music",
+  "subcategory": "music-gen",
+  "oneLiner": "Stability 音频生成 · 开源/API",
+  "officialUrl": "https://stability.ai/stable-audio",
+  "descriptionMd": "Stable Audio 是 Stability AI 的音频/音乐生成线，提供 API 与开源相关权重叙事，适合音效、BGM 草稿与可自托管试验。\n\n需要开源/API 音频生成、或与 Stable Diffusion 同厂商管线时评估；完整「带唱歌曲」对照 Suno/Udio。\n\n人声歌曲完整度通常弱于 Suno；商用与训练数据许可需法务过目。\n",
+  "vendorId": "stability-ai"
+}

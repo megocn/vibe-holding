@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "编译慢、语法复杂；简单 Web API 更常用 Kotlin/Java。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.scala-lang.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "scala",
+  "name": "Scala",
+  "category": "lang-language",
+  "subcategory": "jvm-functional",
+  "oneLiner": "FP+OO 合一 · Spark/Kafka 深度 · 大数据分布式向",
+  "officialUrl": "https://www.scala-lang.org",
+  "descriptionMd": "Scala 结合 FP 与 OO，Apache Spark/Kafka 生态深度使用，适合大数据与分布式系统。\n\nSpark 数据处理、Akka/Pekko actor 系统、或 JVM 上需要 FP 表达力的团队。\n\n编译慢、语法复杂；简单 Web API 更常用 Kotlin/Java。\n",
+  "vendorId": "scala-lang"
+}

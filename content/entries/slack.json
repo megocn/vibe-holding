@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "chat",
+    "integrations"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "免费版消息历史有限；国内访问不稳定需考虑飞书/企微替代。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://slack.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "slack",
+  "name": "Slack",
+  "category": "msg-im",
+  "subcategory": "team-chat",
+  "oneLiner": "海外工程默认 · Workflow+海量集成 · 频道/thread",
+  "officialUrl": "https://slack.com",
+  "descriptionMd": "Slack 提供频道、thread、workflow 与海量第三方集成，是海外工程/产品团队默认协作 IM。\n\n远程团队日常沟通、CI 通知与 bot 集成（Sentry/Linear）时核心工具。\n\n免费版消息历史有限；国内访问不稳定需考虑飞书/企微替代。\n",
+  "vendorId": "salesforce"
+}

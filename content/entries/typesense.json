@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "search"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "超大规模 sharding 不如 ES；高可用需多节点配置，中文搜索质量依赖分词配置。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://typesense.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "typesense",
+  "name": "Typesense",
+  "category": "db-nosql",
+  "subcategory": "search",
+  "oneLiner": "应用内搜索极简 API · Typo+geo 默认 · Cloud 可托管",
+  "officialUrl": "https://typesense.org",
+  "descriptionMd": "Typesense 专注应用内搜索，API 简洁、默认 typo tolerance 与 geo 搜索，单节点亦快，托管 Typesense Cloud 可用。\n\n需要 Algolia 式体验但希望自托管或固定成本时选用；文档站与 SaaS 目录搜索常见。\n\n超大规模 sharding 不如 ES；高可用需多节点配置，中文搜索质量依赖分词配置。\n",
+  "vendorId": "typesense-inc"
+}

@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "storage",
+    "s3-compatible"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "与 AWS 生态集成深度不如 S3；极端 API 兼容性边缘 case 需测试，fair use 滥用可能被限。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://wasabi.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "wasabi",
+  "name": "Wasabi",
+  "category": "db-object",
+  "subcategory": "object",
+  "oneLiner": "flat-rate 存储 · 名义无 egress（公平使用）· 备份归档向",
+  "officialUrl": "https://wasabi.com",
+  "descriptionMd": "Wasabi 提供 S3 兼容 API 与 flat-rate 存储定价，无 egress 费（公平使用政策），适合备份与媒体库长期存放。\n\n大量冷/温数据、预算敏感且 egress 可预测时选用；与 Cloudflare 组合分发静态资源。\n\n与 AWS 生态集成深度不如 S3；极端 API 兼容性边缘 case 需测试，fair use 滥用可能被限。\n"
+}

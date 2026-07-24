@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "ai",
+    "image",
+    "domestic",
+    "jimeng-platform"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "与「即梦 · 视频」是同一平台的不同模态入口，勿当成两家竞品；商用与内容审核条款需核对。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://jimeng.jianying.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "domestic",
+  "id": "jimeng",
+  "name": "即梦 · 图像",
+  "category": "design-ai-image",
+  "subcategory": "ai-image",
+  "vendorId": "bytedance",
+  "oneLiner": "即梦平台文生图 · Seedream · 国内剪映生态",
+  "descriptionMd": "即梦（海外品牌名 Dreamina）是字节剪映团队的一站式 AIGC 平台；本条只收其**图像生成**能力（如 Seedream 线），用于与 Midjourney、通义万相等同叶对比。\n\n国内营销图、电商主图、创意草稿且要剪映/抖音工作流时选用；视频能力见同平台条目「即梦 · 视频」。\n\n活动视觉需过品牌与广告法审核；积分与会员跨图/视频共用时注意配额。\n",
+  "officialUrl": "https://jimeng.jianying.com"
+}

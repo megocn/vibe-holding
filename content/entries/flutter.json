@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "包体积较大；与原生混合栈团队需评估 Platform Channel 成本。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://flutter.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "flutter",
+  "name": "Flutter",
+  "category": "fw-fullstack",
+  "subcategory": "mobile-cross",
+  "oneLiner": "Dart 自绘引擎 · 一码 iOS/Android/Web/Desktop · UI 一致性强",
+  "officialUrl": "https://flutter.dev",
+  "descriptionMd": "Flutter 用 Dart 自绘 UI 引擎，一套代码跑 iOS/Android/Web/Desktop，Google 维护，UI 一致性强。\n\n需要精美自定义 UI、多平台（含 desktop）一致体验的新 App 项目。\n\n包体积较大；与原生混合栈团队需评估 Platform Channel 成本。\n",
+  "vendorId": "flutter-dev"
+}

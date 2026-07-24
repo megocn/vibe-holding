@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "asr",
+    "stt",
+    "diarization"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "定价按小时；极致低延迟语音对话更常看 Deepgram / 原生 Realtime API。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.assemblyai.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "assemblyai",
+  "name": "AssemblyAI",
+  "category": "ai-speech",
+  "subcategory": "asr",
+  "oneLiner": "结构化 STT · 说话人分离 · 实时转写",
+  "officialUrl": "https://www.assemblyai.com",
+  "descriptionMd": "AssemblyAI 提供批处理与实时转写，强调说话人分离、关键术语提示与摘要等结构化能力，面向产品内嵌音视频理解。\n\n需要会议纪要、播客索引或带 diarization 的音视频流水线时评估；API 偏开发者友好。\n\n定价按小时；极致低延迟语音对话更常看 Deepgram / 原生 Realtime API。\n",
+  "vendorId": "assemblyai-inc"
+}

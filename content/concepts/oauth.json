@@ -1,0 +1,8 @@
+{
+  "id": "oauth",
+  "name": "OAuth",
+  "summaryMd": "委托授权协议，第三方登录与 API 授权的基础。",
+  "aliases": [
+    "OAuth 2.0"
+  ]
+}

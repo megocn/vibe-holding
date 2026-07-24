@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cdn",
+    "edge"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "价格比 Bunny/Cloudflare 高；配置复杂度高于「开箱 CDN」。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.fastly.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "fastly",
+  "name": "Fastly",
+  "category": "net-cdn-dns",
+  "subcategory": "cdn",
+  "oneLiner": "Instant purge · VCL/Compute@Edge · 媒体/API 细粒度",
+  "officialUrl": "https://www.fastly.com",
+  "descriptionMd": "Fastly 以 instant purge、Compute@Edge 与细粒度 VCL 控制著称，媒体与 API 加速场景多。\n\n需要秒级 cache purge、或 edge 逻辑（auth/geo）时评估 Fastly。\n\n价格比 Bunny/Cloudflare 高；配置复杂度高于「开箱 CDN」。\n",
+  "vendorId": "fastly-inc"
+}

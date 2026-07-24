@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "企业 compliance 与 uptime SLA 需自行验证；关键业务备 fallback。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://novita.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "both",
+  "id": "novita-ai",
+  "name": "Novita AI",
+  "category": "gateway-router",
+  "subcategory": "inference-api",
+  "oneLiner": "亚太 indie 友好 · SD+LLM API/GPU 租 · 灵活定价",
+  "officialUrl": "https://novita.ai",
+  "descriptionMd": "Novita AI 提供 SD、LLM 等模型的 API 与 GPU 租赁，定价灵活，在亚太 indie 开发者中较流行。\n\nAIGC 应用、需要 SD+LLM 组合 API 且预算有限的亚太团队。\n\n企业 compliance 与 uptime SLA 需自行验证；关键业务备 fallback。\n",
+  "vendorId": "novita-ai-inc"
+}

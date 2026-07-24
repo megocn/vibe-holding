@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "game-art"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "免费额度有限；生成内容 license 用于 commercial 需确认 plan。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://leonardo.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "leonardo-ai",
+  "name": "Leonardo.Ai",
+  "category": "design-ai-image",
+  "subcategory": "image-gen",
+  "oneLiner": "fine-tune/sprite · 游戏资产管线 · 创意 asset 批量",
+  "officialUrl": "https://leonardo.ai",
+  "descriptionMd": "Leonardo 提供 fine-tuned models、sprite sheet 与 asset pipeline，游戏与 NFT 时代起家，现扩 general creative。\n\n需要 consistent character、game asset 或 controlnet 工作流时试用 Leonardo。\n\n免费额度有限；生成内容 license 用于 commercial 需确认 plan。\n",
+  "vendorId": "leonardo-inc"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "e-cuw-alipay-aliyun-fc",
+  "from": "alipay",
+  "to": "aliyun-fc",
+  "type": "commonly_used_with",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

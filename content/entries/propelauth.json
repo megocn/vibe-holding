@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "auth",
+    "b2b"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "Enterprise SAML 深度不如 WorkOS；mobile SDK 与 social login 对照需求清单。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.propelauth.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "propelauth",
+  "name": "PropelAuth",
+  "category": "baas-auth-only",
+  "subcategory": "b2b",
+  "oneLiner": "B2B 多租户专精 · hosted login+org/roles · Slack 式 invite",
+  "officialUrl": "https://www.propelauth.com",
+  "descriptionMd": "PropelAuth 提供 hosted login、org 管理、roles 与 Slack 式 invite flow，专为 B2B multi-tenant SaaS 设计。\n\n早期 B2B 需要 org 切换、RBAC 与 audit 而不想自建 UI 时选 PropelAuth；比 WorkOS 更偏 end-user auth。\n\nEnterprise SAML 深度不如 WorkOS；mobile SDK 与 social login 对照需求清单。\n"
+}

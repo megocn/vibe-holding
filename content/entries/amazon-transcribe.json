@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "asr",
+    "stt",
+    "aws"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "中文与小语种效果需自测；极致低延迟语音对话更常看 Deepgram 或原生 Realtime。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://aws.amazon.com/transcribe/"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "amazon-transcribe",
+  "name": "Amazon Transcribe",
+  "category": "ai-speech",
+  "subcategory": "asr",
+  "oneLiner": "AWS 托管转写 · 通话分析 · 流式",
+  "officialUrl": "https://aws.amazon.com/transcribe/",
+  "descriptionMd": "Amazon Transcribe 提供批处理与流式语音识别，以及通话分析等联络中心能力，与 Polly/Connect 等同生态。\n\nAWS 上的会议转写、客服质检或合规存档场景常用。\n\n中文与小语种效果需自测；极致低延迟语音对话更常看 Deepgram 或原生 Realtime。\n",
+  "vendorId": "amazon"
+}

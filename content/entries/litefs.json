@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "sqlite",
+    "replication"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "写仍单点；failover 与 consul 依赖增加复杂度，不适合 heavy write OLTP。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://fly.io/docs/litefs/"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "litefs",
+  "name": "LiteFS",
+  "category": "db-sqlite-edge",
+  "subcategory": "replication",
+  "oneLiner": "FUSE 层 SQLite 复制 · primary 写/replica 读 · Fly.io 边缘部署",
+  "officialUrl": "https://fly.io/docs/litefs/",
+  "descriptionMd": "LiteFS 为 SQLite 提供 FUSE 层复制，将写集中在 primary、读扩散到 replica，适合 Fly.io 边缘 SQLite 部署。\n\nFly.io 上跑 SQLite 且需要多读扩展时配合使用；比手动 litestream 更集成。\n\n写仍单点；failover 与 consul 依赖增加复杂度，不适合 heavy write OLTP。\n"
+}

@@ -1,0 +1,45 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ui",
+    "react",
+    "enterprise",
+    "domestic-friendly"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "默认风格偏后台",
+    "包体积偏大"
+  ],
+  "updates": [],
+  "sources": [
+    "https://ant.design"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "antd",
+  "name": "Ant Design",
+  "category": "ui-kits",
+  "oneLiner": "国内中后台事实标配 · 中文文档/蚂蚁设计语言 · React enterprise",
+  "descriptionMd": "Ant Design 是蚂蚁开源的企业级 React 组件库，中文文档、设计语言与国内中后台生态极为成熟。\n\n适合管理后台、B 端表单与「开箱即用」的视觉一致性；相对 Radix/shadcn 路线，定制成本与包体叙事不同。不要与图标集或无样式原语同榜硬比。\n\n中后台表单/表格效率高；营销落地页或高度品牌化产品可能觉得「太后台」。\n",
+  "officialUrl": "https://ant.design",
+  "rankings": [
+    {
+      "systemId": "npm-downloads",
+      "tier": "Enterprise CN",
+      "period": "2026-H1",
+      "note": "国内中后台默认组件库之一",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

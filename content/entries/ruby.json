@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "CPU 性能与并发不如 Go/Java；超大流量需 horizontal scale 与 caching 策略。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.ruby-lang.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "ruby",
+  "name": "Ruby",
+  "category": "lang-language",
+  "subcategory": "dynamic-web",
+  "oneLiner": "语法优雅 · Rails CRUD 快产 · 初创 Web 生产力",
+  "officialUrl": "https://www.ruby-lang.org",
+  "descriptionMd": "Ruby 以优雅语法与 Rails 框架闻名，适合初创公司快速构建 CRUD Web 应用与 internal tool。\n\nRails 全栈 MVP、脚本自动化与 devops 胶水代码；日本市场仍大量采用。\n\nCPU 性能与并发不如 Go/Java；超大流量需 horizontal scale 与 caching 策略。\n",
+  "vendorId": "ruby-central"
+}

@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "baas",
+    "wechat"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "复杂 SQL 与跨云迁移成本高；HTTP API 调试与本地联调体验需适应微信开发者工具链路。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://cloud.tencent.com/product/tcb"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "tencent-cloudbase",
+  "name": "腾讯云 CloudBase",
+  "category": "cloud-paas",
+  "subcategory": "baas",
+  "oneLiner": "云函数/库/存储/静态 · 微信小程序深集成 · 国内 BaaS 一站式",
+  "officialUrl": "https://cloud.tencent.com/product/tcb",
+  "descriptionMd": "CloudBase 提供云函数、云数据库、存储与静态托管，与微信/小程序深度集成，是国内小程序后端常用一站式平台。\n\n微信小程序、QQ 生态或腾讯云全家桶客户需要快速后端时首选；内置 CI 与预览环境。\n\n复杂 SQL 与跨云迁移成本高；HTTP API 调试与本地联调体验需适应微信开发者工具链路。\n",
+  "vendorId": "tencent-cloud"
+}

@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "ai",
+    "image",
+    "domestic"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "艺术社区热度因场景而异；内容安全审核策略需适配产品。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://hunyuan.tencent.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "domestic",
+  "id": "hunyuan-image",
+  "name": "混元生图",
+  "category": "design-ai-image",
+  "subcategory": "image-gen",
+  "oneLiner": "腾讯混元文生图 · 国内云",
+  "officialUrl": "https://hunyuan.tencent.com",
+  "descriptionMd": "混元生图是腾讯混元多模态中的文生图能力，面向国内开发者与营销/电商素材，可与混元视频及腾讯云业务同生态落地。\n\n腾讯云/微信生态应用需要国内文生图时评估；与即梦、通义万相、可图对照选型。\n\n艺术社区热度因场景而异；内容安全审核策略需适配产品。\n",
+  "vendorId": "tencent-hunyuan"
+}

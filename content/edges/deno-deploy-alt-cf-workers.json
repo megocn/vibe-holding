@@ -1,0 +1,10 @@
+{
+  "id": "deno-deploy-alt-cf-workers",
+  "from": "deno-deploy",
+  "to": "cloudflare-workers",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "e-supabase-alt-firebase",
+  "from": "supabase",
+  "to": "firebase",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

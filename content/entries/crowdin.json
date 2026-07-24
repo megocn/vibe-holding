@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "localization",
+    "tms"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "按字符串与 seat 计费；小项目可能用 Tolgee 或 spreadsheet 过渡，MT 质量需 human review。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://crowdin.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "crowdin",
+  "name": "Crowdin",
+  "category": "global-i18n",
+  "subcategory": "tms",
+  "oneLiner": "Git/译员/MT 一体 TMS · context 截图+QA · SaaS 本地化主流",
+  "officialUrl": "https://crowdin.com",
+  "descriptionMd": "Crowdin 连接 Git/i18n 文件与译员、MT 引擎，提供 context screenshot、QA 与 workflow，是 SaaS 本地化 TMS 主流。\n\n多语言产品需要持续 sync JSON/PO、与社区/外包译员协作时选用；GitHub Action 集成成熟。\n\n按字符串与 seat 计费；小项目可能用 Tolgee 或 spreadsheet 过渡，MT 质量需 human review。\n",
+  "vendorId": "crowdin-inc"
+}

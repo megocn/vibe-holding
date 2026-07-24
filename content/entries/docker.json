@@ -1,0 +1,48 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "containers"
+  ],
+  "maturity": "mature",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.docker.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "docker",
+  "name": "Docker",
+  "category": "cicd-pipeline",
+  "subcategory": "containers",
+  "oneLiner": "镜像事实标准 · 环境可复现 · CI/云原生底座",
+  "descriptionMd": "Docker 是容器镜像构建与运行的事实标准，把「本地可跑」变成「环境可复现」，是 CI 与云原生部署的底座。\n\n几乎所有 PaaS/K8s 路径都会碰到镜像；注意多架构构建、镜像体积与密钥勿打进镜像。桌面 Docker 与 CI 远程 Builder 的资源成本需单独规划。\n\n本地与 CI 用同一 Dockerfile 可减少「在我机器能跑」；注意构建缓存与密钥挂载。\n",
+  "officialUrl": "https://www.docker.com",
+  "tutorialLinks": [
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/@docker",
+      "note": "官方频道"
+    },
+    {
+      "platform": "bilibili",
+      "query": "Docker 入门",
+      "note": "中文入门"
+    },
+    {
+      "platform": "coursera",
+      "query": "Docker"
+    }
+  ]
+}

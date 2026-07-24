@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "tracing",
+    "debug"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "学习曲线与数据建模要求高；国内直连与账单需提前验证。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.honeycomb.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "honeycomb",
+  "name": "Honeycomb",
+  "category": "obs-platform",
+  "subcategory": "tracing",
+  "oneLiner": "高 cardinality 调试 · BubbleUp · 边缘 case 深挖",
+  "officialUrl": "https://www.honeycomb.io",
+  "descriptionMd": "Honeycomb 面向高 cardinality 事件数据，帮助调试分布式系统中「难以聚合」的边缘 case，BubbleUp 异常检测有特色。\n\n微服务体量大、传统 metrics 难以回答 ad-hoc 问题时采用；SRE 深度调试场景。\n\n学习曲线与数据建模要求高；国内直连与账单需提前验证。\n",
+  "vendorId": "honeycomb-io"
+}

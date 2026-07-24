@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "tts",
+    "open-source",
+    "chinese"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "商用授权、稳定性与长文本一致性需逐案核对；生产 SLA 不如云 API。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/2noise/ChatTTS"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "both",
+  "id": "chattts",
+  "name": "ChatTTS",
+  "category": "ai-speech",
+  "subcategory": "tts",
+  "oneLiner": "开源对话向 TTS · 中文社区常用",
+  "officialUrl": "https://github.com/2noise/ChatTTS",
+  "descriptionMd": "ChatTTS 是面向对话场景的开源 TTS 模型，中文社区采用多，适合本地试验自然口语合成与研究原型。\n\n需要本地/开源中文 TTS 原型、或对照云厂商听感时试用。\n\n商用授权、稳定性与长文本一致性需逐案核对；生产 SLA 不如云 API。\n",
+  "githubUrl": "https://github.com/2noise/ChatTTS"
+}

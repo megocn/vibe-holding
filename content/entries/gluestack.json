@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "版本迭代快；复杂 web-only 组件仍不如 shadcn 丰富。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://gluestack.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "gluestack",
+  "name": "gluestack UI",
+  "category": "ui-kits",
+  "subcategory": "react-native-web",
+  "oneLiner": "RN + Next 共享组件 · styled/unstyled 层 · Tailwind token",
+  "officialUrl": "https://gluestack.io",
+  "descriptionMd": "gluestack UI 提供 styled 与 unstyled 层，支持 React Native 与 Next.js 共享组件，Tailwind 风格 token。\n\nRN+Next monorepo 需要 design token 统一与 copy-paste 组件 workflow。\n\n版本迭代快；复杂 web-only 组件仍不如 shadcn 丰富。\n",
+  "vendorId": "gluestack-inc"
+}

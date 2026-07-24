@@ -1,0 +1,10 @@
+{
+  "id": "cohere-command-r-part",
+  "from": "cohere-command-r",
+  "to": "cohere",
+  "type": "part_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

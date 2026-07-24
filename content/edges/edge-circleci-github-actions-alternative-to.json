@@ -1,0 +1,10 @@
+{
+  "id": "edge-circleci-github-actions-alternative-to",
+  "from": "circleci",
+  "to": "github-actions",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

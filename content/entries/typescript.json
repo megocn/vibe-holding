@@ -1,0 +1,59 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "language",
+    "web",
+    "vibe-friendly"
+  ],
+  "maturity": "mature",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [
+    {
+      "systemId": "tiobe-index",
+      "tier": "Top tier",
+      "period": "2026",
+      "asOf": "2026-07-23",
+      "note": "长期高人气"
+    }
+  ],
+  "sources": [
+    "https://www.typescriptlang.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "both",
+  "id": "typescript",
+  "name": "TypeScript",
+  "category": "lang-language",
+  "subcategory": "language",
+  "oneLiner": "JS 静态类型层 · 全栈 Web 事实标准 · Vibe Coding 友好",
+  "descriptionMd": "TypeScript 为 JavaScript 加上静态类型，是 Vibe Coding 与全栈 Web 的事实标准语言层。\n\n几乎所有现代前端/Node 工具链默认假设 TS；配置严格度（strict）与生成类型策略影响长期可维护性。\n\n把 `strict` 打开的成本在前期，收益在重构期；生成类型与手写类型边界要清晰。\n",
+  "officialUrl": "https://www.typescriptlang.org",
+  "docsUrl": "https://www.typescriptlang.org/docs/",
+  "tutorialLinks": [
+    {
+      "platform": "youtube",
+      "query": "TypeScript official tutorial",
+      "note": "英文入门"
+    },
+    {
+      "platform": "imooc",
+      "query": "TypeScript",
+      "note": "慕课检索"
+    },
+    {
+      "platform": "bilibili",
+      "query": "TypeScript 入门"
+    }
+  ]
+}

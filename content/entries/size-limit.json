@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "performance",
+    "ci"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "仅 gzip 指标可能掩盖 parse 成本；需与 Lighthouse/real user metrics 结合。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/andresz1/size-limit"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "size-limit",
+  "name": "Size Limit",
+  "category": "oss-toolchain",
+  "subcategory": "analysis",
+  "oneLiner": "CI 测 bundle 体积变化 · 超预算失败防回退",
+  "officialUrl": "https://github.com/andresz1/size-limit",
+  "descriptionMd": "Size Limit 在 CI 中测量 bundle 体积变化，超出预算则失败，防止前端性能回退。\n\n组件库、营销站或任何关注 FCP 的项目在 PR 阶段 enforce 体积上限。\n\n仅 gzip 指标可能掩盖 parse 成本；需与 Lighthouse/real user metrics 结合。\n"
+}

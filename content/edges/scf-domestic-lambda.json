@@ -1,0 +1,10 @@
+{
+  "id": "scf-domestic-lambda",
+  "from": "tencent-scf",
+  "to": "aws-lambda",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

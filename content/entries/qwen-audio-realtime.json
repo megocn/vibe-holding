@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "realtime",
+    "s2s",
+    "domestic",
+    "qwen",
+    "dashscope"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "版本与地域 endpoint 需锁定；勿把版本名拆成独立条目——档位写在 currentVersion。海外节点与计费以控制台为准。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://help.aliyun.com/zh/model-studio/qwen-audio-realtime-user-guides"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "domestic",
+  "id": "qwen-audio-realtime",
+  "name": "Qwen-Audio Realtime",
+  "category": "ai-realtime",
+  "subcategory": "speech-to-speech",
+  "oneLiner": "通义端到端实时语音 · 3.0 Plus/Flash · 百炼",
+  "officialUrl": "https://help.aliyun.com/zh/model-studio/qwen-audio-realtime-user-guides",
+  "descriptionMd": "Qwen-Audio Realtime（当前主推 **Qwen-Audio-3.0-Realtime** Plus/Flash）是阿里通义端到端实时语音交互模型，经百炼 WebSocket 双工协议提供语音进/语音出，支持 server_vad、smart_turn 与 push-to-talk，并可 Function Calling / MCP。\n\n国内智能客服、语音助手、情感陪伴需要低延迟全双工、且已用阿里云/百炼时优先；与 OpenAI Realtime / 豆包 S2S 同层对比。\n\n版本与地域 endpoint 需锁定；勿把版本名拆成独立条目——档位写在 currentVersion。海外节点与计费以控制台为准。\n",
+  "vendorId": "alibaba-cloud",
+  "currentVersion": "3.0 Realtime (Plus/Flash)",
+  "docsUrl": "https://help.aliyun.com/zh/model-studio/qwen-audio-realtime-user-guides"
+}

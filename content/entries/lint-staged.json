@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "git",
+    "lint"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "配置 glob 遗漏会导致部分文件绕过检查；与 Monorepo 路径别名要对齐。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/lint-staged/lint-staged"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "lint-staged",
+  "name": "lint-staged",
+  "category": "oss-toolchain",
+  "subcategory": "git-hooks",
+  "oneLiner": "仅跑 staged 文件 · 提交前增量 lint/format",
+  "officialUrl": "https://github.com/lint-staged/lint-staged",
+  "descriptionMd": "lint-staged 在 pre-commit 时只对 git staged 文件执行 ESLint/Prettier 等，避免全仓扫描拖慢提交。\n\nHusky + lint-staged 是前端团队标配组合；大仓库本地体验提升明显。\n\n配置 glob 遗漏会导致部分文件绕过检查；与 Monorepo 路径别名要对齐。\n"
+}

@@ -1,0 +1,34 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "sql"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "与 MySQL 8 新特性存在差异；Galera 集群配置需专门 DBA 经验。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://mariadb.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "mariadb",
+  "name": "MariaDB",
+  "category": "db-relational",
+  "subcategory": "sql",
+  "oneLiner": "MySQL 原作者分支 · 协议兼容+引擎扩展 · 发行版常见默认",
+  "officialUrl": "https://mariadb.org",
+  "descriptionMd": "MariaDB 由 MySQL 原作者维护的分支，保持协议兼容并增加存储引擎与优化，被多家 Linux 发行版作为默认 MySQL 替代。\n\n希望开源协议更友好、或从 MySQL 平滑迁移且不需 Oracle 商业支持时选用；托管版广泛。\n\n与 MySQL 8 新特性存在差异；Galera 集群配置需专门 DBA 经验。\n"
+}

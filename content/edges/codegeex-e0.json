@@ -1,0 +1,10 @@
+{
+  "id": "codegeex-e0",
+  "from": "codegeex",
+  "to": "github-copilot",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

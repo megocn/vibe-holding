@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "notes": "个人/团队价显著高于主流 CLI Agent",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "devin",
+    "cognition",
+    "async",
+    "agent"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "单价高，不适合作为 Indie 默认日常结对工具",
+    "自主代理权限面大，生产密钥与合规要单独治理"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://devin.ai/"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "cognition-devin",
+  "name": "Devin",
+  "category": "coding-ide-agent",
+  "subcategory": "async-cloud-agent",
+  "vendorId": "cognition-inc",
+  "oneLiner": "Cognition 自主软件工程 Agent",
+  "descriptionMd": "**Devin**（Cognition）是早期出圈的自主软件工程 Agent：云端环境里规划、编码、调试并交付，面向「把任务交给 Agent 工程师」而非补全插件。\n\n适合预算充足、愿意接受云端代理工作区与较高单价、要跑多步工程任务的团队；Indie 日常结对通常仍优先 Cursor / Claude Code / Codex CLI。\n\n价格与准入门槛高于大众 CLI；效果随任务清晰度与仓库质量波动大，务必人工审 PR 与权限边界。\n",
+  "officialUrl": "https://devin.ai/"
+}

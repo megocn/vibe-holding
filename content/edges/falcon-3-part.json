@@ -1,0 +1,10 @@
+{
+  "id": "falcon-3-part",
+  "from": "falcon-3",
+  "to": "falcon",
+  "type": "part_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

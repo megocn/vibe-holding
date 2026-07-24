@@ -1,0 +1,10 @@
+{
+  "id": "e-deno-alt-node",
+  "from": "deno",
+  "to": "nodejs",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

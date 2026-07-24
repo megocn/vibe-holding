@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "i18n",
+    "react"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "Extract 工作流需 CLI；App Router RSC 与 client 边界要规划 provider 位置。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://formatjs.io/docs/react-intl"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "react-intl",
+  "name": "React Intl",
+  "category": "global-i18n",
+  "subcategory": "library",
+  "oneLiner": "FormatJS 官方 React · FormattedMessage/hooks · ICU 组件",
+  "officialUrl": "https://formatjs.io/docs/react-intl",
+  "descriptionMd": "React Intl 提供 FormattedMessage、hooks 与 ICU 格式化组件，是 FormatJS 官方 React 集成，Intl 标准对齐。\n\nReact 项目已选 FormatJS 栈、需要成熟 plural/datetime 组件时使用；与 react-i18next 选型二选一。\n\nExtract 工作流需 CLI；App Router RSC 与 client 边界要规划 provider 位置。\n"
+}

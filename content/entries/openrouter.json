@@ -1,0 +1,59 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "gateway",
+    "routing"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "部分模型有区域限制",
+    "需预充值"
+  ],
+  "updates": [
+    {
+      "date": "2026-07-08",
+      "type": "pricing",
+      "summary": "多模型路由费率表更新",
+      "source": "https://openrouter.ai/docs"
+    }
+  ],
+  "sources": [
+    "https://openrouter.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "openrouter",
+  "name": "OpenRouter",
+  "category": "gateway-router",
+  "oneLiner": "一 Key 路由多家 · 比价/切换/兜底 · 原型多模型策略",
+  "descriptionMd": "OpenRouter 用一个 API Key 路由多家模型，便于比价、切换与兜底，适合原型与多模型策略。\n\n托管聚合，免自建网关；生产需评估可用性、数据路径与限速。与 LiteLLM（自建）按运维能力选择。\n\n同一提示在多模型间 A/B 很方便；生产要设超时、降级与成本告警。\n",
+  "officialUrl": "https://openrouter.ai",
+  "rankings": [
+    {
+      "systemId": "openrouter-popularity",
+      "tier": "Gateway #1 mindshare",
+      "period": "2026-07",
+      "note": "统一 API 网关请求热度标杆；自带模型热度榜",
+      "sourceUrl": "https://openrouter.ai/rankings",
+      "asOf": "2026-07-20"
+    },
+    {
+      "systemId": "artificial-analysis-index",
+      "tier": "Routing layer",
+      "period": "2026-07",
+      "note": "按 AA 指数做故障转移与成本路由时的常用入口",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

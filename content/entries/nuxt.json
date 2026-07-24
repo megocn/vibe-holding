@@ -1,0 +1,43 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "vue",
+    "fullstack",
+    "ssr"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "部分模块版本兼容需留意"
+  ],
+  "updates": [],
+  "sources": [
+    "https://nuxt.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "nuxt",
+  "name": "Nuxt",
+  "category": "fw-fullstack",
+  "subcategory": "fullstack",
+  "oneLiner": "Vue 元框架 · 文件路由/SSR 成熟 · 中文社区友好",
+  "descriptionMd": "Nuxt 是基于 Vue 的全栈元框架，文件路由与 SSR 体验成熟，中文社区友好。\n\nVue 技术栈的默认全栈选择；与 Next（React）按团队前端栈二选一。部署可多平台，不绑单一云。\n\nNitro 服务端与模块生态是加分项；迁移自纯 Vue SPA 时注意渲染模式选择。\n",
+  "officialUrl": "https://nuxt.com",
+  "rankings": [
+    {
+      "systemId": "state-of-js",
+      "tier": "Vue meta-FW",
+      "period": "2025 Survey",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

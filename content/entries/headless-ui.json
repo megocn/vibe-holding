@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "不含任何默认美观样式；设计工作量高于 shadcn/HeroUI。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://headlessui.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "headless-ui",
+  "name": "Headless UI",
+  "category": "ui-primitives",
+  "subcategory": "unstyled-primitives",
+  "oneLiner": "Tailwind Labs 无样式 · Dialog/Menu 等 · a11y+样式全自定",
+  "officialUrl": "https://headlessui.com",
+  "descriptionMd": "Headless UI 由 Tailwind Labs 提供完全无样式的 accessible 组件（Dialog、Menu 等），样式完全自定义。\n\n已用 Tailwind、需要 a11y 行为正确又不想引入重型 UI 库时。\n\n不含任何默认美观样式；设计工作量高于 shadcn/HeroUI。\n",
+  "vendorId": "tailwind-labs"
+}

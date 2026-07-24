@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "大型 monolith 生态插件少于 Nest；ORM 集成需自行组装。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://hono.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "hono",
+  "name": "Hono",
+  "category": "fw-fullstack",
+  "subcategory": "edge-backend",
+  "oneLiner": "超轻多 runtime · Workers/Deno/Node · Express 味 API",
+  "officialUrl": "https://hono.dev",
+  "descriptionMd": "Hono 是 ultrafast 小体积 Web 框架，运行在 Cloudflare Workers、Deno、Node 等多 runtime，API 类似 Express。\n\nEdge/serverless API、需要跨 runtime 复用同一 handler 代码的 TS 项目。\n\n大型 monolith 生态插件少于 Nest；ORM 集成需自行组装。\n",
+  "vendorId": "hono-dev"
+}

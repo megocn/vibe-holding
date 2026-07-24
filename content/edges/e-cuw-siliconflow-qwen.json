@@ -1,0 +1,10 @@
+{
+  "id": "e-cuw-siliconflow-qwen",
+  "from": "siliconflow",
+  "to": "qwen-max",
+  "type": "commonly_used_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

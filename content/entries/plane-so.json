@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "pm",
+    "self-hosted"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "Enterprise SSO/audit 仍在完善；自行运维 Postgres/S3。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://plane.so"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "plane-so",
+  "name": "Plane",
+  "category": "collab-pm",
+  "subcategory": "issue-tracker",
+  "oneLiner": "开源可自托管 · issues/cycles/modules/pages · PM 自主可控",
+  "officialUrl": "https://plane.so",
+  "descriptionMd": "Plane 提供 issues、cycles、modules 与 pages，开源可自托管，适合希望 PM 工具自主可控的团队。\n\n不想为 Linear 付 SaaS、又需要 modern UX 的可自托管 PM 时部署 Plane。\n\nEnterprise SSO/audit 仍在完善；自行运维 Postgres/S3。\n"
+}

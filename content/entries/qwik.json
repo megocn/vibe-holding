@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "生态较新；复杂 dashboard 案例少于 Next/React。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://qwik.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "qwik",
+  "name": "Qwik",
+  "category": "fw-fullstack",
+  "subcategory": "resumable-ssr",
+  "oneLiner": "Resumability 延迟加载 · near-zero JS 首屏 · 极快 TTI",
+  "officialUrl": "https://qwik.dev",
+  "descriptionMd": "Qwik 通过 resumability 延迟加载 JS，实现 near-zero JS 首屏与极快 TTI，Builder.io 团队维护。\n\n营销页与 content 站追求 Core Web Vitals 满分、或从 heavy SPA 减负时。\n\n生态较新；复杂 dashboard 案例少于 Next/React。\n",
+  "vendorId": "qwik-dev"
+}

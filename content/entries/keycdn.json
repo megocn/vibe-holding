@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cdn"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "功能面小于 Cloudflare；国内加速非强项。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.keycdn.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "keycdn",
+  "name": "KeyCDN",
+  "category": "net-cdn-dns",
+  "subcategory": "cdn",
+  "oneLiner": "PAYG 简单 CDN · 图处理 · 中小流量降本",
+  "officialUrl": "https://www.keycdn.com",
+  "descriptionMd": "KeyCDN 提供简单 pay-as-you-go CDN 与 image processing，适合中小流量站点降本。\n\n流量中等、希望比 CloudFront 简单计费且不需 WAF 时可选 KeyCDN。\n\n功能面小于 Cloudflare；国内加速非强项。\n",
+  "vendorId": "keycdn-inc"
+}

@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "aws",
+    "mysql"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "仅运行于 AWS；I/O 费用模型需监控，迁移到其他云需逻辑导出。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://aws.amazon.com/rds/aurora"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "aurora-mysql",
+  "name": "Amazon Aurora MySQL",
+  "category": "db-relational",
+  "subcategory": "managed",
+  "oneLiner": "存储计算分离 · MySQL 兼容高 QPS · 快切换/读扩展·仅 AWS",
+  "officialUrl": "https://aws.amazon.com/rds/aurora",
+  "descriptionMd": "Aurora 为 AWS 设计的存储计算分离架构，MySQL/PostgreSQL 兼容，读扩展与故障切换快，是 AWS 高 QPS SQL 常见选择。\n\nAWS 上 MySQL workload 需更高可用与读扩展、且预算允许时选 Aurora 而非普通 RDS。\n\n仅运行于 AWS；I/O 费用模型需监控，迁移到其他云需逻辑导出。\n",
+  "vendorId": "amazon-web-services"
+}

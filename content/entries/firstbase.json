@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "incorporation",
+    "us"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "年费与 agent 费用持续；税务与 substance 要求勿误解为「空壳即可」，需 CPA 规划。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.firstbase.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "firstbase",
+  "name": "Firstbase",
+  "category": "global-entity",
+  "subcategory": "incorporation",
+  "oneLiner": "非美创始人 DE/WY 注册 · EIN/agent · 银行开户指引",
+  "officialUrl": "https://www.firstbase.io",
+  "descriptionMd": "Firstbase 协助非美国创始人注册 Delaware/Wyoming 公司、EIN、registered agent 与 Mercury/Stripe 开户指引。\n\n海外 founder 需要美国实体接 Stripe、投资或 AWS credits 时与 Stripe Atlas 对比选型。\n\n年费与 agent 费用持续；税务与 substance 要求勿误解为「空壳即可」，需 CPA 规划。\n"
+}

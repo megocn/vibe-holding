@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "AI 功能需联网账户；团队脚本 secret 可能误入 prompt，需教育红线条款。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.warp.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "warp",
+  "name": "Warp",
+  "category": "coding-cli-agent",
+  "subcategory": "terminal-ide",
+  "oneLiner": "Rust 现代终端 · AI 命令/工作流块 · Shell 产品化",
+  "officialUrl": "https://www.warp.dev",
+  "descriptionMd": "Warp 是用 Rust 重写的现代终端，内置 AI 命令搜索、工作流块与协作功能，将 shell 体验产品化。\n\nCLI 重度用户希望减少记忆命令、用自然语言生成 pipeline 时可日常替换 iTerm/Windows Terminal。\n\nAI 功能需联网账户；团队脚本 secret 可能误入 prompt，需教育红线条款。\n",
+  "vendorId": "warp-dev"
+}

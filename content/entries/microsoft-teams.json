@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "enterprise",
+    "chat"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "Guest 体验与 channel 管理复杂；非 Microsoft 栈团队集成成本高。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.microsoft.com/microsoft-teams"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "microsoft-teams",
+  "name": "Microsoft Teams",
+  "category": "msg-im",
+  "subcategory": "enterprise",
+  "oneLiner": "Office/Azure AD 深度集成 · chat+会议+App tab",
+  "officialUrl": "https://www.microsoft.com/microsoft-teams",
+  "descriptionMd": "Teams 与 Office/Azure AD 深度集成，提供 chat、meetings 与 app tab，是企业 Microsoft 栈协作中心。\n\n公司已标准化 M365/Azure AD、或政企采购 Microsoft 协议时默认 IM。\n\nGuest 体验与 channel 管理复杂；非 Microsoft 栈团队集成成本高。\n",
+  "vendorId": "microsoft"
+}

@@ -1,0 +1,45 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cli",
+    "git",
+    "oss"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "需自备模型 API Key"
+  ],
+  "updates": [],
+  "sources": [
+    "https://aider.chat"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "aider",
+  "name": "Aider",
+  "category": "coding-cli-agent",
+  "subcategory": "cli",
+  "oneLiner": "终端结对 · Git diff/提交一体 · 改动可审计",
+  "descriptionMd": "基于 Git 工作区的**终端结对编程**工具：把 diff、提交与对话绑在一起，适合习惯 CLI、希望改动可审计的开发者。\n\n相对 IDE Agent，Aider 更「仓库感知、提交驱动」——适合在已有仓库上做可控增量，而不是从零搭原型。可接多家模型；本地/远程仓库权限与密钥暴露面需自行约束。\n\n适合「小步提交」纪律好的仓库；大爆炸式重构仍建议拆任务并人工审 diff。\n",
+  "officialUrl": "https://aider.chat",
+  "rankings": [
+    {
+      "systemId": "swe-bench-verified",
+      "tier": "OSS agent",
+      "period": "2025–2026",
+      "note": "开源 CLI agent；常出现在 SWE-bench 开源脚手架对比",
+      "sourceUrl": "https://www.swebench.com/",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

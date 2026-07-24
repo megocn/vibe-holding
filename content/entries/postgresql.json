@@ -1,0 +1,55 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "database",
+    "sql",
+    "oss"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "自托管运维门槛"
+  ],
+  "updates": [],
+  "sources": [
+    "https://www.postgresql.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "postgresql",
+  "name": "PostgreSQL",
+  "category": "db-relational",
+  "oneLiner": "扩展丰富（含向量）· BaaS/云库常见底座 · 功能最全开源关系库",
+  "descriptionMd": "PostgreSQL 是功能强大的开源关系库，扩展丰富（含向量等），是多数 BaaS 与云库的底座。\n\n默认优先于「先上 NoSQL」；文档库/缓存再用 Mongo/Redis。托管选型（Neon/Supabase/RDS）决定运维体验。\n\n先用好索引与EXPLAIN；扩展（向量、全文）按需加，避免一上来过度设计。\n",
+  "officialUrl": "https://www.postgresql.org",
+  "rankings": [
+    {
+      "systemId": "db-engines",
+      "rank": 4,
+      "score": 687.8,
+      "scoreLabel": "687.80 pts",
+      "period": "2026-07",
+      "note": "Top4 中唯一同比正增长；含向量等多模型",
+      "sourceUrl": "https://db-engines.com/en/ranking",
+      "asOf": "2026-07-20"
+    },
+    {
+      "systemId": "so-survey-language",
+      "share": 55.6,
+      "rank": 1,
+      "period": "2025 Survey",
+      "note": "开发者使用率第一；最受钦佩库之一",
+      "sourceUrl": "https://survey.stackoverflow.co/2025/technology/",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

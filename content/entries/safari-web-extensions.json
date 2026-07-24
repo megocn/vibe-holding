@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "safari",
+    "extension"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "需 Apple Developer 会员与 native wrapper；iOS/iPadOS 权限比 desktop Safari 更严。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://developer.apple.com/documentation/safariextensions"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "safari-web-extensions",
+  "name": "Safari Web Extensions",
+  "category": "dist-extension",
+  "subcategory": "store",
+  "oneLiner": "WebExtensions + Xcode 包装 · Mac/iOS App Store · Apple 生态",
+  "officialUrl": "https://developer.apple.com/documentation/safariextensions",
+  "descriptionMd": "Safari Web Extensions 复用 WebExtensions API，经 Xcode 包装为 Mac/iOS App Store 扩展，触达 Apple 生态用户。\n\n已有 Chrome 扩展、希望覆盖 Safari/macOS/iOS 且可接受 App Store 审核流程时移植。\n\n需 Apple Developer 会员与 native wrapper；iOS/iPadOS 权限比 desktop Safari 更严。\n"
+}

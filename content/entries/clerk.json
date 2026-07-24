@@ -1,0 +1,45 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "auth",
+    "saas",
+    "nextjs"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "免费额度后涨价明显"
+  ],
+  "updates": [],
+  "sources": [
+    "https://clerk.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "clerk",
+  "name": "Clerk",
+  "category": "baas-auth-only",
+  "vendorId": "clerk-inc",
+  "oneLiner": "开箱登录 UI · 用户/组织多租户 · Next 等前端栈 DX 强",
+  "descriptionMd": "Clerk 提供开箱即用的登录 UI、用户与组织/多租户能力，对 Next.js 等前端栈非常友好。\n\n适合要快速上线 Auth 的 SaaS；代价是厂商锁定与按 MAU 计费。数据驻留、中国区可用性与退出成本应在早期评估；开源替代常见 Better Auth / Supabase Auth。\n\n组织/成员邀请流程省心；中国区延迟与合规若敏感，预留 Better Auth 退出方案。\n",
+  "officialUrl": "https://clerk.com",
+  "rankings": [
+    {
+      "systemId": "so-survey-auth",
+      "tier": "Indie Auth",
+      "period": "2025 Survey",
+      "note": "面向 Next/React 的开发者鉴权",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "e-glm-domestic-claude",
+  "from": "glm-flagship",
+  "to": "claude-opus",
+  "type": "domestic_equivalent_of",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

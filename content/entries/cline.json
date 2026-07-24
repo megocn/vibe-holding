@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "自主模式可能误改多文件；务必启用 Git 快照并限制 shell 权限，生产仓库建议人工 review 每一批 diff。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://cline.bot"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "cline",
+  "name": "Cline",
+  "category": "coding-ide-agent",
+  "subcategory": "ide-extension",
+  "oneLiner": "VS Code 开源自主 Agent · 读写文件+跑终端 · 自带模型钥匙",
+  "officialUrl": "https://cline.bot",
+  "descriptionMd": "Cline 是 VS Code 上的开源 AI 编码助手，可在编辑器内自主读写文件、运行终端并规划多步任务，支持接入 Claude/GPT 等模型 API。\n\n希望在 VS Code 内获得接近 Cursor 的 Agent 体验、又需完全掌控模型与数据流向的团队，适合作为 Cursor 的开源替代试点。\n\n自主模式可能误改多文件；务必启用 Git 快照并限制 shell 权限，生产仓库建议人工 review 每一批 diff。\n",
+  "vendorId": "cline-inc"
+}

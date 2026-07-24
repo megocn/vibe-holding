@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "webrtc",
+    "realtime",
+    "agents",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "自托管需运维 SFU 与带宽；纯「一键电话 Agent」比 Vapi/Retell 更偏基础设施。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://livekit.io"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "livekit",
+  "name": "LiveKit",
+  "category": "ai-realtime",
+  "subcategory": "realtime-infra",
+  "oneLiner": "开源实时音视频 · Agents 框架 · WebRTC",
+  "officialUrl": "https://livekit.io",
+  "descriptionMd": "LiveKit 提供开源 WebRTC 实时音视频基础设施与 Agents 框架，可编排 STT/LLM/TTS 或对接原生 Realtime 模型，自托管与云服务并存。\n\n需要可控媒体层、多参与者房间、或把多家语音模型拼成生产 Agent 时优先；与 Cartesia/Deepgram 常见搭配。\n\n自托管需运维 SFU 与带宽；纯「一键电话 Agent」比 Vapi/Retell 更偏基础设施。\n",
+  "vendorId": "livekit-inc",
+  "githubUrl": "https://github.com/livekit/livekit"
+}

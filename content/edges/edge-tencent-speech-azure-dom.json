@@ -1,0 +1,10 @@
+{
+  "id": "edge-tencent-speech-azure-dom",
+  "from": "tencent-speech",
+  "to": "azure-speech",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

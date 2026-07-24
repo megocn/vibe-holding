@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "redis",
+    "serverless"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "大型 value 与高频 pipeline 成本需建模；持久化 tier 与 eviction 策略要选对 plan。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://upstash.com/redis"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "upstash-redis",
+  "name": "Upstash Redis",
+  "category": "db-cache",
+  "subcategory": "serverless",
+  "oneLiner": "REST+Redis 协议 · 全球复制 · per-request 计价 · Serverless/edge",
+  "officialUrl": "https://upstash.com/redis",
+  "descriptionMd": "Upstash Redis 提供 REST 与 Redis 协议、全球复制与 per-request 定价，适合 Serverless 与 edge 无需常驻连接。\n\nVercel/Cloudflare 函数需要 rate limit/cache 但 TCP Redis 连接池困难时首选 Upstash。\n\n大型 value 与高频 pipeline 成本需建模；持久化 tier 与 eviction 策略要选对 plan。\n",
+  "vendorId": "upstash-inc-v"
+}

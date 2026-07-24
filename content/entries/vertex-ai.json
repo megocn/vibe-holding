@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "国内直连 GCP 受限；多云策略需抽象层如 LiteLLM。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://cloud.google.com/vertex-ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "vertex-ai",
+  "name": "Vertex AI",
+  "category": "gateway-router",
+  "subcategory": "cloud-llm",
+  "oneLiner": "GCP Gemini/开源托管 · MLOps+BigQuery grounding · 数据栈一体",
+  "officialUrl": "https://cloud.google.com/vertex-ai",
+  "descriptionMd": "Vertex AI 提供 Gemini、PaLM 及开源模型托管、MLOps pipeline 与 grounding，深度集成 GCP 数据与 BigQuery。\n\nGCP 存量客户、需要 Gemini enterprise 与私有数据 grounding 的一体方案。\n\n国内直连 GCP 受限；多云策略需抽象层如 LiteLLM。\n",
+  "vendorId": "google-vertex"
+}

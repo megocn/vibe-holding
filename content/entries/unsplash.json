@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "stock",
+    "photos"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "热门图过度使用显「模板感」；商业项目仍建议自有摄影或 paid stock。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://unsplash.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "unsplash",
+  "name": "Unsplash",
+  "category": "design-tools",
+  "subcategory": "stock",
+  "oneLiner": "高分免费照片 · API 丰富 · marketing/mockup 常用",
+  "officialUrl": "https://unsplash.com",
+  "descriptionMd": "Unsplash 提供免费高分辨率照片与 API，广泛用于 marketing 与 mockup，license 相对宽松（仍须遵守 terms）。\n\n需要快速找 hero 图、或产品内 placeholder 图库集成时使用 Unsplash API。\n\n热门图过度使用显「模板感」；商业项目仍建议自有摄影或 paid stock。\n",
+  "vendorId": "unsplash-inc"
+}

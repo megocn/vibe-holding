@@ -1,0 +1,46 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "database",
+    "mysql",
+    "serverless"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "免费档变更过",
+    "部分 SQL 限制"
+  ],
+  "updates": [],
+  "sources": [
+    "https://planetscale.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "planetscale",
+  "name": "PlanetScale",
+  "category": "db-relational",
+  "vendorId": "planetscale-inc",
+  "oneLiner": "Serverless MySQL · 分支工作流与扩缩 · Vitess 底座",
+  "descriptionMd": "PlanetScale 基于 Vitess 提供 Serverless MySQL 体验，分支工作流与扩缩是卖点。\n\n适合熟悉 MySQL、需要水平扩展叙事的团队；Postgres 生态（Neon 等）是常见对照。注意免费档与限制变更历史。\n\n分支工作流对 schema 变更友好；SQL 兼容性以 Vitess 限制为准，勿假设完整 MySQL。\n",
+  "officialUrl": "https://planetscale.com",
+  "rankings": [
+    {
+      "systemId": "db-engines",
+      "tier": "Managed MySQL/Vitess",
+      "period": "2026-07",
+      "note": "对照 MySQL #2 人气；面向分支工作流",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

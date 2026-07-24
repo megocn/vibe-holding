@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "sql",
+    "database"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "复杂 JSON/analytics 不如 PostgreSQL；8.0 认证插件变更曾导致兼容问题，升级需测驱动。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.mysql.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "mysql",
+  "name": "MySQL",
+  "category": "db-relational",
+  "subcategory": "sql",
+  "oneLiner": "开源关系库事实标准 · InnoDB ACID/复制 · ORM/托管最广",
+  "officialUrl": "https://www.mysql.com",
+  "descriptionMd": "MySQL 是开源关系型数据库事实标准，InnoDB 引擎支持 ACID、复制与分区，云厂商均提供托管版，生态工具与 ORM 支持最广。\n\n传统 Web 应用、WordPress、或团队熟悉 SQL 且需要成熟主从复制时默认选择；与 PlanetScale/RDS 托管搭配多。\n\n复杂 JSON/analytics 不如 PostgreSQL；8.0 认证插件变更曾导致兼容问题，升级需测驱动。\n",
+  "vendorId": "oracle"
+}

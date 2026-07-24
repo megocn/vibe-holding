@@ -1,0 +1,10 @@
+{
+  "id": "e-compat-clerk-nextjs",
+  "from": "clerk",
+  "to": "nextjs",
+  "type": "compatible_with",
+  "weight": 0.9,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "pm"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "生态与集成少于 Jira/Linear；团队规模超大时待验证。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://height.app"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "height",
+  "name": "Height",
+  "category": "collab-pm",
+  "subcategory": "issue-tracker",
+  "oneLiner": "速度/键盘优先 · AI 摘要 · Linear 竞品、视图灵活",
+  "officialUrl": "https://height.app",
+  "descriptionMd": "Height 强调 speed、keyboard-first 与 AI 摘要，定位 Linear 竞争者，视图灵活。\n\n想要 Linear 类体验、又需要更强 spreadsheet 视图时评估 Height。\n\n生态与集成少于 Jira/Linear；团队规模超大时待验证。\n",
+  "vendorId": "height-inc"
+}

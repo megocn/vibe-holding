@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "edge",
+    "serverless"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "生态小于 Node/Vercel；npm 兼容层与部分 Node 原生模块可能受限，复杂后端仍建议配独立数据库服务。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://deno.com/deploy"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "deno-deploy",
+  "name": "Deno Deploy",
+  "category": "cloud-paas",
+  "subcategory": "edge",
+  "oneLiner": "Deno/TS 边缘运行 · Web 标准 API · 极速冷启动+原生 KV",
+  "officialUrl": "https://deno.com/deploy",
+  "descriptionMd": "Deno Deploy 在全球边缘运行 Deno/TypeScript 函数与静态资源，冷启动极快，原生支持 Web 标准 API 与 KV，适合轻量 API 与 SSR 边缘渲染。\n\n全栈 TS 团队已选 Deno 运行时、或需要低延迟边缘函数替代 Cloudflare Workers 时可评估；与 Fresh 框架深度集成。\n\n生态小于 Node/Vercel；npm 兼容层与部分 Node 原生模块可能受限，复杂后端仍建议配独立数据库服务。\n",
+  "vendorId": "deno-land"
+}

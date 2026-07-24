@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "subscription"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "Agent 与多文件编辑能力弱于 Cursor/Cline；更多定位补全而非自主编程。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.tabnine.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "tabnine",
+  "name": "Tabnine",
+  "category": "coding-ide-agent",
+  "subcategory": "ide-extension",
+  "oneLiner": "隐私优先补全 · on-prem/VPC · 零数据留存选项",
+  "officialUrl": "https://www.tabnine.com",
+  "descriptionMd": "Tabnine 提供 IDE 内 AI 补全，强调企业私有化与零数据留存选项，支持多种本地与云端模型后端。\n\n金融/医疗等对代码外泄敏感、需要 on-prem 或 VPC 部署 Copilot 能力的组织适合评估。\n\nAgent 与多文件编辑能力弱于 Cursor/Cline；更多定位补全而非自主编程。\n",
+  "vendorId": "tabnine-inc"
+}

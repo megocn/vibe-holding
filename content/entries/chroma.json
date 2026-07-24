@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "分布式与 enterprise SLA 弱于 Milvus；生产大规模需评估 hosted 版或迁移。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.trychroma.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "chroma",
+  "name": "Chroma",
+  "category": "ai-vector",
+  "subcategory": "embedded-vector",
+  "oneLiner": "Embeddable 极简 API · LC/LI 集成顺 · prototype/小 RAG",
+  "officialUrl": "https://www.trychroma.com",
+  "descriptionMd": "Chroma 是 embeddable vector store，API 极简，与 LangChain/LlamaIndex 集成顺滑，适合 prototype 与 small RAG。\n\n本地 RAG demo、side project、或 Python notebook 快速试验 retrieval 时。\n\n分布式与 enterprise SLA 弱于 Milvus；生产大规模需评估 hosted 版或迁移。\n",
+  "vendorId": "chroma-inc"
+}

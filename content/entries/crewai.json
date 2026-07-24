@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "生产 observability 与 error recovery 需自行补强；复杂 state machine 不如 LangGraph 灵活。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.crewai.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "crewai",
+  "name": "CrewAI",
+  "category": "ai-agent-fw",
+  "subcategory": "multi-agent",
+  "oneLiner": "role/goal/tool 定义 · crew 声明式协作 · 比图编排更 declarative",
+  "officialUrl": "https://www.crewai.com",
+  "descriptionMd": "CrewAI 让开发者定义 Agent role/goal/tool，以 crew 协作完成复杂任务，API 比 LangGraph 更 declarative。\n\n需要快速搭建 multi-agent demo、research crew 或 marketing content pipeline 时。\n\n生产 observability 与 error recovery 需自行补强；复杂 state machine 不如 LangGraph 灵活。\n",
+  "vendorId": "crewai-inc"
+}

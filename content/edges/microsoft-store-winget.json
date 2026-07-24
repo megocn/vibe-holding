@@ -1,0 +1,10 @@
+{
+  "id": "microsoft-store-winget",
+  "from": "microsoft-store",
+  "to": "winget",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

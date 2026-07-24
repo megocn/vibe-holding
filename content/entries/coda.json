@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "docs",
+    "automation"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "大规模 wiki 性能与 permission 模型复杂；dev 仍可能另开 Linear。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://coda.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "coda",
+  "name": "Coda",
+  "category": "collab-docs",
+  "subcategory": "docs",
+  "oneLiner": "docs+表格+button/automation · 轻量 app 化 · ops playbook",
+  "officialUrl": "https://coda.io",
+  "descriptionMd": "Coda 把 docs、tables 与 button/automation 合成 lightweight app，适合 ops playbook 与 living spec。\n\nPRD/Runbook 需要结构化 table+ narrative 一体、又要轻 automation 时 Coda 介于 Notion/Airtable。\n\n大规模 wiki 性能与 permission 模型复杂；dev 仍可能另开 Linear。\n",
+  "vendorId": "coda-inc"
+}

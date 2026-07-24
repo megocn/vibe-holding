@@ -1,0 +1,32 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "数量与社区小于 Lucide；长期维护依赖设计团队更新。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.untitledui.com/free-icons"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "untitled-ui-icons",
+  "name": "Untitled UI Icons",
+  "category": "ui-icons",
+  "subcategory": "figma-icons",
+  "oneLiner": "Untitled UI Figma 配套 · modern minimal 免费 SVG",
+  "officialUrl": "https://www.untitledui.com/free-icons",
+  "descriptionMd": "Untitled UI Icons 是与 Untitled UI Figma kit 配套的 free SVG icon，风格 modern minimal。\n\n使用 Untitled UI Figma 设计系统、需要设计与 dev icon 一致时。\n\n数量与社区小于 Lucide；长期维护依赖设计团队更新。\n"
+}

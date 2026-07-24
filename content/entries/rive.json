@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "animation",
+    "interactive"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "设计师学习曲线；旧项目大量 Lottie 迁移需成本。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://rive.app"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "rive",
+  "name": "Rive",
+  "category": "design-motion",
+  "subcategory": "animation",
+  "oneLiner": "交互 state machine · 编辑器+轻量 runtime · 文件常小于 Lottie",
+  "officialUrl": "https://rive.app",
+  "descriptionMd": "Rive 提供编辑器与轻量 runtime，在 app/web 中播放交互 animation，文件小于 Lottie 某些场景。\n\n需要复杂 state machine 动画、游戏化 UI 或 character rig 时评估 Rive vs Lottie。\n\n设计师学习曲线；旧项目大量 Lottie 迁移需成本。\n",
+  "vendorId": "rive-inc"
+}

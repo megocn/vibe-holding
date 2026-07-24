@@ -1,0 +1,48 @@
+{
+  "$ref": "#/definitions/StackRecipe",
+  "definitions": {
+    "StackRecipe": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]*$"
+        },
+        "name": {
+          "type": "string"
+        },
+        "target": {
+          "type": "string"
+        },
+        "layers": {
+          "type": "object",
+          "additionalProperties": {
+            "$ref": "#/definitions/StackRecipe/properties/id"
+          }
+        },
+        "rationaleMd": {
+          "type": "string"
+        },
+        "estimatedCost": {
+          "type": "string"
+        },
+        "caveats": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": []
+        }
+      },
+      "required": [
+        "id",
+        "name",
+        "target",
+        "layers",
+        "rationaleMd"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

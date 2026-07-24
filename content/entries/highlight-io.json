@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "session-replay",
+    "errors"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "自托管资源消耗大；与后端 trace 关联需额外集成 OpenTelemetry。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.highlight.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "highlight-io",
+  "name": "Highlight.io",
+  "category": "obs-errors",
+  "subcategory": "session-replay",
+  "oneLiner": "session replay+错误+logs · 开源可自托管 · 前端复现友好",
+  "officialUrl": "https://www.highlight.io",
+  "descriptionMd": "Highlight.io 结合 session replay、错误追踪与 logs，开源可自托管，对前端 bug 复现友好。\n\n前端团队需要「看见用户如何触发错误」、预算有限不想 FullStory 时评估。\n\n自托管资源消耗大；与后端 trace 关联需额外集成 OpenTelemetry。\n"
+}

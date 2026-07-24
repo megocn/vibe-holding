@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "i18n",
+    "typescript"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "生态较新；译员 workflow 需配 inlang Fink 或 export JSON，迁移存量 i18next 有成本。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://inlang.com/m/gerre34r/library-inlang-paraglideJs"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "paraglide",
+  "name": "Paraglide",
+  "category": "global-i18n",
+  "subcategory": "library",
+  "oneLiner": "生成类型安全 message 函数 · tree-shake 未用翻译 · 现代栈",
+  "officialUrl": "https://inlang.com/m/gerre34r/library-inlang-paraglideJs",
+  "descriptionMd": "Paragide（inlang）生成类型安全 message 函数，tree-shake 未用翻译，与 TanStack Start/SvelteKit 现代栈契合。\n\n greenfield 项目重视 TS 类型与 bundle size、愿意 adopt inlang 工具链时选 Paraglide 而非 i18next。\n\n生态较新；译员 workflow 需配 inlang Fink 或 export JSON，迁移存量 i18next 有成本。\n"
+}

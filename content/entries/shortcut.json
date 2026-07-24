@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "pm",
+    "agile"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "Atlassian 生态集成弱；超大型 program 管理可能不足。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://shortcut.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "shortcut",
+  "name": "Shortcut",
+  "category": "collab-pm",
+  "subcategory": "issue-tracker",
+  "oneLiner": "Roadmap/iteration/story · UI 轻于 Jira · Startup 工程口碑",
+  "officialUrl": "https://shortcut.com",
+  "descriptionMd": "Shortcut 连接 roadmap、iteration 与 story，UI 比 Jira 轻，startup 工程团队口碑好。\n\n需要 Jira 能力 subset、重视 speed 与 roadmap 一屏展示时选用 Shortcut。\n\nAtlassian 生态集成弱；超大型 program 管理可能不足。\n",
+  "vendorId": "shortcut-inc"
+}

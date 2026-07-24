@@ -1,0 +1,11 @@
+#!/bin/sh
+# Strip Cursor attribution trailers from commit messages.
+msg_file="$1"
+[ -f "$msg_file" ] || exit 0
+# macOS sed
+sed -i '' \
+  -e '/^Co-authored-by: Cursor <cursoragent@cursor.com>$/d' \
+  -e '/^Co-authored-by: Cursor </d' \
+  -e '/^Made-with: Cursor$/d' \
+  -e '/^Made with Cursor$/d' \
+  "$msg_file"

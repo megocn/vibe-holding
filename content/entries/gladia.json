@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "asr",
+    "stt",
+    "media"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "实时语音对话 Agent 不是主战场；延迟敏感场景对照 Deepgram。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.gladia.io"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "gladia",
+  "name": "Gladia",
+  "category": "ai-speech",
+  "subcategory": "asr",
+  "oneLiner": "音视频转写 API · 说话人/翻译",
+  "officialUrl": "https://www.gladia.io",
+  "descriptionMd": "Gladia 提供面向开发者的音视频转写 API，强调说话人分离、翻译与媒体工作流集成，适合播客/会议产品内嵌。\n\n需要快速给媒体产品加转写层、并要 diarization/翻译时评估。\n\n实时语音对话 Agent 不是主战场；延迟敏感场景对照 Deepgram。\n",
+  "vendorId": "gladia-inc"
+}

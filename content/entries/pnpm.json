@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "monorepo",
+    "dx"
+  ],
+  "maturity": "mature",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://pnpm.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "pnpm",
+  "name": "pnpm",
+  "category": "oss-toolchain",
+  "subcategory": "package-manager",
+  "oneLiner": "内容寻址+严格依赖 · 磁盘省 · 现代 Monorepo 默认",
+  "descriptionMd": "pnpm 用内容寻址存储与严格依赖提升磁盘效率，Monorepo 友好，是现代 JS 仓常见默认包管理器。\n\n与 npm/yarn 互操作需约定 lockfile；CI 缓存策略要按 pnpm store 配置。与 workspace 协议搭配效果最佳。\n\nshamefully-hoist 等兼容开关能救老项目，但新仓尽量保持严格依赖。\n",
+  "officialUrl": "https://pnpm.io"
+}

@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "bundler",
+    "nextjs"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "生态与 Webpack 插件不完全兼容；非 Next 项目支持有限，生产构建策略需对照官方文档。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://turbo.build/pack"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "turbopack",
+  "name": "Turbopack",
+  "category": "oss-toolchain",
+  "subcategory": "bundler",
+  "oneLiner": "Rust 增量 bundler · Next.js dev 深度集成",
+  "officialUrl": "https://turbo.build/pack",
+  "descriptionMd": "Turbopack 是 Vercel 用 Rust 开发的增量 bundler，定位为 Webpack 继任者，深度集成 Next.js dev 体验。\n\nNext.js 15+ 项目追求更快 HMR 与 dev 启动时可启用；与 App Router 同栈选型自然。\n\n生态与 Webpack 插件不完全兼容；非 Next 项目支持有限，生产构建策略需对照官方文档。\n",
+  "vendorId": "vercel-inc"
+}

@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+
+# Builds
+dist/
+.turbo/
+*.tsbuildinfo
+coverage/
+
+# Rust / Tauri
+apps/desktop/src-tauri/target/
+**/Cargo.lock.bak
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+vh-vault-backup*.json
+
+# Cloudflare / Wrangler local
+.wrangler/
+.dev.vars
+
+# Turbo local logs
+**/.turbo/
+
+# 对内设计文档（PRD / SPEC / UI / 模块详设 / 调研）——仅本地保留
+docs-internal/**
+!docs-internal/README.md
+
+# 本地变更流水（不公开）
+log.md
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
+
+# Logs & temp
+*.log
+tmp/
+.cache/

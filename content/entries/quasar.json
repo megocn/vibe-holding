@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "抽象层厚；只用 web 时不如 Nuxt+独立 UI 库灵活。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://quasar.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "quasar",
+  "name": "Quasar",
+  "category": "ui-kits",
+  "subcategory": "vue-fullstack",
+  "oneLiner": "一套 Vue 组件 → SPA/SSR/Mobile/Electron · 跨端一体",
+  "officialUrl": "https://quasar.dev",
+  "descriptionMd": "Quasar 一套 Vue 组件同时构建 SPA、SSR、Mobile（Cordova/Capacitor）与 Electron desktop。\n\nVue 团队希望单 UI 库覆盖 web+mobile+desktop 的多平台 internal tool。\n\n抽象层厚；只用 web 时不如 Nuxt+独立 UI 库灵活。\n",
+  "vendorId": "quasar-team"
+}

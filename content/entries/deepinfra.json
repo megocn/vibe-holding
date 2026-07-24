@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "企业 support 与 compliance 文档弱于 Bedrock；关键业务需 SLA 评估。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://deepinfra.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "deepinfra",
+  "name": "DeepInfra",
+  "category": "gateway-router",
+  "subcategory": "inference-api",
+  "oneLiner": "低价开源推理 · REST 简单透明价 · Llama/SD 等",
+  "officialUrl": "https://deepinfra.com",
+  "descriptionMd": "DeepInfra 提供 Llama、SD 等模型的低价 inference API，强调简单 REST 接口与透明定价。\n\n成本敏感、需要开源 LLM API 且 QPS 中等的 side project 或 internal tool。\n\n企业 support 与 compliance 文档弱于 Bedrock；关键业务需 SLA 评估。\n",
+  "vendorId": "deepinfra-inc"
+}

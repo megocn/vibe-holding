@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cdn",
+    "edge",
+    "security"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "配置项多，误配缓存规则易导致脏数据；海外节点能力需对照具体套餐，与 Cloudflare 全球边缘体验不同。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.aliyun.com/product/esa"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "aliyun-esa",
+  "name": "阿里云 ESA",
+  "category": "cloud-paas",
+  "subcategory": "edge",
+  "oneLiner": "CDN+WAF/DDoS+边缘一体 · 国内加速合规 · 部分替代 DCDN",
+  "officialUrl": "https://www.aliyun.com/product/esa",
+  "descriptionMd": "ESA（Edge Security Acceleration）整合 CDN、DDoS 防护、WAF 与边缘计算，替代部分 DCDN 场景，为国内站点提供加速与安全一体化。\n\n站点主要面向国内用户、需备案合规且希望一站式 CDN+安全时选用；可与函数计算、OSS 源站组合。\n\n配置项多，误配缓存规则易导致脏数据；海外节点能力需对照具体套餐，与 Cloudflare 全球边缘体验不同。\n",
+  "vendorId": "alibaba-cloud"
+}

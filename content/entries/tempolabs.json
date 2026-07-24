@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "复杂状态管理与路由仍需手写；不适合作为整应用架构工具。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://tempolabs.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "tempolabs",
+  "name": "Tempo",
+  "category": "coding-cloud-builder",
+  "subcategory": "react-builder",
+  "oneLiner": "React 可视化+AI · 输出可并入库的 TSX · 非整应用架构",
+  "officialUrl": "https://tempolabs.ai",
+  "descriptionMd": "Tempo 提供面向 React 的可视化编辑器，结合 AI 生成与拖拽微调组件，输出可直接并入代码库的 TSX。\n\n设计工程师与前端协作、需在 Figma 与代码间快速迭代 marketing 组件时使用。\n\n复杂状态管理与路由仍需手写；不适合作为整应用架构工具。\n",
+  "vendorId": "tempolabs-inc"
+}

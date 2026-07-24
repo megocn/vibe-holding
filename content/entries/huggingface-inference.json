@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "生产 SLA 与 cold start 需选 dedicated；免费 tier 限流严格。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://huggingface.co/inference-api"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "huggingface-inference",
+  "name": "Hugging Face Inference",
+  "category": "gateway-router",
+  "subcategory": "inference-api",
+  "oneLiner": "HF Hub 一键部署 · Serverless/Dedicated · 万模 DevEx",
+  "officialUrl": "https://huggingface.co/inference-api",
+  "descriptionMd": "Hugging Face Inference 提供 Serverless 与 Dedicated endpoint，一键部署 HF Hub 上数万模型，DevEx 极佳。\n\n快速试验 HF 上新模型、或 pipeline 已深度绑定 transformers 生态的团队。\n\n生产 SLA 与 cold start 需选 dedicated；免费 tier 限流严格。\n",
+  "vendorId": "huggingface"
+}

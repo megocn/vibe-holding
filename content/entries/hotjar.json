@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "heatmap",
+    "ux"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "免费层 session 有限；与 Clarity 功能重叠可二选一。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.hotjar.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "hotjar",
+  "name": "Hotjar",
+  "category": "growth-web",
+  "subcategory": "behavior-analytics",
+  "oneLiner": "Heatmap+录屏+问卷 · Landing/onboarding UX · 定性反馈",
+  "officialUrl": "https://www.hotjar.com",
+  "descriptionMd": "Hotjar 整合 heatmaps、recordings、surveys 与 feedback，帮助优化 landing 与 onboarding UX。\n\n营销/产品需要快速看懂页面互动、收集 on-site 反馈时选用。\n\n免费层 session 有限；与 Clarity 功能重叠可二选一。\n",
+  "vendorId": "hotjar-inc"
+}

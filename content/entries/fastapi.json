@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "CPU-bound 任务需 Celery 等 offload；WSGI 遗留 middleware 兼容需注意。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://fastapi.tiangolo.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "fastapi",
+  "name": "FastAPI",
+  "category": "fw-fullstack",
+  "subcategory": "python-api",
+  "oneLiner": "Python async · Pydantic/OpenAPI 自动 · ML 服务与 REST",
+  "officialUrl": "https://fastapi.tiangolo.com",
+  "descriptionMd": "FastAPI 基于 Starlette/Pydantic，自动生成 OpenAPI，原生 async，是 Python ML 服务与 REST API 首选。\n\nAI/数据团队暴露 model inference API、或需要类型安全 Python 后端时。\n\nCPU-bound 任务需 Celery 等 offload；WSGI 遗留 middleware 兼容需注意。\n",
+  "vendorId": "fastapi-tiangolo"
+}

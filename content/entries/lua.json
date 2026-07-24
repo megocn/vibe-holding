@@ -1,0 +1,32 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "大型应用全栈开发不适用；工程化工具链弱于 Python/TS。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.lua.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "lua",
+  "name": "Lua",
+  "category": "lang-language",
+  "subcategory": "embedded-script",
+  "oneLiner": "极简嵌入脚本 · 游戏/OpenResty/Redis · 宿主扩展语言",
+  "officialUrl": "https://www.lua.org",
+  "descriptionMd": "Lua 是极简嵌入式脚本语言，广泛用于游戏（Roblox/WoW）、Nginx OpenResty 与 Redis 脚本。\n\n游戏 mod、网关逻辑脚本、或需要在 C/C++ 宿主内嵌入配置化逻辑。\n\n大型应用全栈开发不适用；工程化工具链弱于 Python/TS。\n"
+}

@@ -1,0 +1,46 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "复杂前沿推理应对照 Pro 档；国内访问 Google API 需网络与合规方案。"
+  ],
+  "updates": [
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "version": "3.6 Flash",
+      "summary": "相对 3.5 Flash 更强编码与更低 token 成本；API `gemini-3.6-flash`",
+      "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
+    }
+  ],
+  "rankings": [],
+  "sources": [
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+    "https://ai.google.dev/gemini-api/docs/models/gemini-3.6-flash"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "gemini-flash",
+  "name": "Gemini Flash",
+  "category": "llm-line",
+  "subcategory": "line",
+  "oneLiner": "Gemini 速度档 · 现为 3.6 Flash · 高 QPS/Agent 成本效率",
+  "officialUrl": "https://ai.google.dev/gemini-api/docs/models/gemini-3.6-flash",
+  "descriptionMd": "Gemini 家族的速度/成本优化 line。当前版本为 Gemini 3.6 Flash（2026-07-21），相对 3.5 Flash 提升编码与 token 效率；另有 3.5 Flash-Lite 吞吐档。\n\n聊天默认模型、Agent 循环、分类/提取 pipeline、与 Google Cloud 生态集成的 SaaS。\n\n复杂前沿推理仍应对照 Pro 档；国内访问需网络与合规方案。\n",
+  "vendorId": "google-deepmind",
+  "currentVersion": "3.6 Flash"
+}

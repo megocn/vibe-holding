@@ -1,0 +1,44 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "cn"
+    ]
+  },
+  "tags": [
+    "payment",
+    "domestic"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "企业资质要求高"
+  ],
+  "updates": [],
+  "sources": [
+    "https://open.alipay.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "alipay",
+  "name": "支付宝",
+  "category": "pay-processor",
+  "vendorId": "ant-group",
+  "oneLiner": "国内综合支付主渠道 · 网页/APP/小程序/当面付全覆盖",
+  "descriptionMd": "支付宝是国内综合支付与商家服务的主渠道之一，覆盖网页、APP、小程序与当面付等场景。\n\n做国内 C 端变现时，通常与微信支付并列接入；企业主体、签约产品与分账能力决定复杂度。纯出海收款一般不会以支付宝为主路径。\n\n签约产品（电脑网站/手机网站/小程序）决定接入形态；分账与会员需额外能力。\n",
+  "officialUrl": "https://open.alipay.com",
+  "rankings": [
+    {
+      "systemId": "builtwith-payments",
+      "tier": "CN duopoly",
+      "period": "2026",
+      "note": "国内移动支付双寡头之一",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

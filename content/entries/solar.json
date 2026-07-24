@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "family"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "中文能力需实测；国内访问延迟与合规需网络评估。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://upstage.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "solar",
+  "name": "Solar",
+  "category": "llm-family",
+  "subcategory": "family",
+  "oneLiner": "韩国 Upstage · 现至 Solar Pro 3 · 同规模效率/韩英表现",
+  "officialUrl": "https://upstage.ai",
+  "descriptionMd": "Solar 是韩国 Upstage 发布的 LLM 系列，当前旗舰为 Solar Pro 3。\n\n亚太 SaaS 需要高性价比 API、或评估非中美系模型供应商时考虑。\n\n中文能力需实测；国内访问延迟与合规需网络评估。\n",
+  "vendorId": "upstage"
+}

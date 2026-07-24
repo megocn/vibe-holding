@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "aws",
+    "fullstack"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "Gen1/Gen2 迁移路径与文档并存易混淆；复杂定制仍要回落 CloudFormation，成本监控需配 AWS Budgets。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://aws.amazon.com/amplify"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "aws-amplify",
+  "name": "AWS Amplify",
+  "category": "cloud-paas",
+  "subcategory": "fullstack",
+  "oneLiner": "Hosting/Auth/API/Storage 一体 · Gen2 用 TS 定义后端",
+  "officialUrl": "https://aws.amazon.com/amplify",
+  "descriptionMd": "AWS Amplify 提供 Hosting、Auth、GraphQL/API、Storage 与 CI/CD 一体化，Gen2 以 TypeScript 定义后端资源，适合 AWS 生态内的全栈应用。\n\n已深度使用 AWS、需要 Cognito/S3/AppSync 组合或移动端同步时选用；React/Next 团队希望 IaC 与托管流水线一体时常见。\n\nGen1/Gen2 迁移路径与文档并存易混淆；复杂定制仍要回落 CloudFormation，成本监控需配 AWS Budgets。\n",
+  "vendorId": "amazon-web-services"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-kimiline-part-kimi",
+  "from": "kimi-k3",
+  "to": "kimi",
+  "type": "part_of",
+  "weight": 1,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-07-23",
+  "note": "Kimi 旗舰档；版本 K3"
+}

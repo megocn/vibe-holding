@@ -1,0 +1,10 @@
+{
+  "id": "edge-mubert-suno-alt",
+  "from": "mubert",
+  "to": "suno",
+  "type": "alternative_to",
+  "weight": 0.45,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

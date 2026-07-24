@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "bot",
+    "api"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "国内访问不稳定；不适合作为主事务通知唯一通道。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://core.telegram.org/bots/api"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "telegram-bot",
+  "name": "Telegram Bot API",
+  "category": "msg-im",
+  "subcategory": "bot",
+  "oneLiner": "Bot 通知/客服/mini-app · 全球可达 · 测试门槛低",
+  "officialUrl": "https://core.telegram.org/bots/api",
+  "descriptionMd": "Telegram Bot API 让开发者构建 bot 做通知、客服与 mini-app，全球可达、无需手机验证即可测试。\n\n面向国际用户的 alert bot、crypto/工具类产品通知通道时常见；与 serverless 易集成。\n\n国内访问不稳定；不适合作为主事务通知唯一通道。\n"
+}

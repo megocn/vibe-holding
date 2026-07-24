@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "android",
+    "amazon"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "非 Google 服务设备需适配；市场份额小于 Play，维护成本需 weighed。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://developer.amazon.com/apps-and-games"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "amazon-appstore",
+  "name": "Amazon Appstore",
+  "category": "dist-android",
+  "subcategory": "store",
+  "oneLiner": "Fire 平板/TV 与部分 Android · 接 AWS/Prime 生态 · 非 GMS 需适配",
+  "officialUrl": "https://developer.amazon.com/apps-and-games",
+  "descriptionMd": "Amazon Appstore 服务 Fire tablet/TV 与部分 android 设备，与 AWS 账户一体，可触达 Prime 生态用户。\n\n需要 Fire OS 或 Amazon 渠道用户时上架；Android APK 常可复用 Google Play 构建。\n\n非 Google 服务设备需适配；市场份额小于 Play，维护成本需 weighed。\n",
+  "vendorId": "amazon-web-services"
+}

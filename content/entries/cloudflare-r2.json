@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "storage",
+    "s3"
+  ],
+  "maturity": "stable",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.cloudflare.com/developer-platform/r2/"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "cloudflare-r2",
+  "name": "Cloudflare R2",
+  "category": "db-object",
+  "subcategory": "object-storage",
+  "vendorId": "cloudflare",
+  "oneLiner": "S3 兼容 · 无出口流量费 · Workers/Pages 同生态",
+  "descriptionMd": "R2 是 Cloudflare 的 S3 兼容对象存储，主打**无出口流量费**，与 Workers/Pages 同生态。\n\n适合存用户上传、静态资源与备份；需要强一致性事务或复杂查询时仍应回关系库。国内上传/下载延迟与合规要求需实测。\n\n公共桶与签名 URL 策略要分清；需要图片变换时另接专用服务。\n",
+  "officialUrl": "https://www.cloudflare.com/developer-platform/r2/"
+}

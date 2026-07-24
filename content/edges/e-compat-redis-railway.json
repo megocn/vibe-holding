@@ -1,0 +1,10 @@
+{
+  "id": "e-compat-redis-railway",
+  "from": "redis",
+  "to": "railway",
+  "type": "compatible_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "edge-segment-ga4-provides-access-to",
+  "from": "segment",
+  "to": "ga4",
+  "type": "provides_access_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

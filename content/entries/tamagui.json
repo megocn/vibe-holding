@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "学习曲线与配置复杂；生态小于纯 Web UI 库。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://tamagui.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "tamagui",
+  "name": "Tamagui",
+  "category": "ui-kits",
+  "subcategory": "cross-platform-ui",
+  "oneLiner": "编译优化统一 RN/Web 样式 · universal app · 跨端一套",
+  "officialUrl": "https://tamagui.dev",
+  "descriptionMd": "Tamagui 用 optimizing compiler 统一 RN 与 Web 样式，一套组件跨 mobile/web，适合 universal app。\n\nExpo+Web 同构、希望共享 UI 层减少 duplicate 的 cross-platform 团队。\n\n学习曲线与配置复杂；生态小于纯 Web UI 库。\n",
+  "vendorId": "tamagui-inc"
+}

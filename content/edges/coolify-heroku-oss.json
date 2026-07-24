@@ -1,0 +1,10 @@
+{
+  "id": "coolify-heroku-oss",
+  "from": "coolify",
+  "to": "heroku",
+  "type": "open_source_alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

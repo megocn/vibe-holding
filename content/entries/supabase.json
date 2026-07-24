@@ -1,0 +1,62 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "baas",
+    "postgres",
+    "auth",
+    "vibe-friendly"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "闲置项目可能暂停",
+    "RLS 上手有门槛"
+  ],
+  "updates": [
+    {
+      "date": "2026-06-28",
+      "type": "feature",
+      "summary": "向量检索与 Auth Hook 增强",
+      "source": "https://supabase.com/changelog"
+    }
+  ],
+  "sources": [
+    "https://supabase.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "supabase",
+  "name": "Supabase",
+  "category": "baas-platform",
+  "vendorId": "supabase-inc",
+  "oneLiner": "Postgres 核心 · Auth/Storage/Realtime · 开源 Firebase 替代叙事",
+  "descriptionMd": "Supabase 以 Postgres 为核心，提供 Auth、Storage、Realtime 等，常被称作开源 Firebase 替代。\n\nIndie 全栈高频 BaaS；要纯数据库也可只用其 PG 或改 Neon。注意 RLS 设计与供应商锁定面。\n\nRLS 是安全默认；关掉 RLS 图省事等于把数据敞口，上线前必审策略。\n",
+  "officialUrl": "https://supabase.com",
+  "rankings": [
+    {
+      "systemId": "so-survey-auth",
+      "share": 6,
+      "period": "2025 Survey",
+      "note": "数据库品类调查中约 6%（BaaS 心智强）",
+      "sourceUrl": "https://survey.stackoverflow.co/2025/technology/",
+      "asOf": "2026-07-20"
+    },
+    {
+      "systemId": "gartner-mq-access-mgmt",
+      "tier": "BaaS+Auth",
+      "period": "2025–2026",
+      "note": "偏开发者 BaaS；企业 AM 象限以 Auth0/Okta 等为主",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "video",
+    "audio-native"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "区域与配额政策变化快；国内直连受限；成本按秒/积分高。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://deepmind.google/models/veo/"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "google-veo",
+  "name": "Google Veo",
+  "category": "design-ai-video",
+  "subcategory": "video-gen",
+  "oneLiner": "DeepMind 视频旗舰 · 原生音频 · Flow",
+  "officialUrl": "https://deepmind.google/models/veo/",
+  "descriptionMd": "Veo（当前叙事以 Veo 3.1 等为代表）是 Google DeepMind 视频生成旗舰，强调物理真实感、prompt 遵循与**原生音画同生**，经 Gemini API / Flow 等入口提供。\n\n需要高保真营销/叙事短片、且音效对白希望同模型生成时评估；与 Runway/Sora/Kling 同层。\n\n区域与配额政策变化快；国内直连受限；成本按秒/积分高。\n",
+  "vendorId": "google",
+  "currentVersion": "Veo 3.1"
+}

@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "storage"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "与 AWS S3 API 有差异，跨云工具需适配；外网下行流量费用要配 CDN 缓存策略。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://cloud.tencent.com/product/cos"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "tencent-cos",
+  "name": "腾讯云 COS",
+  "category": "db-object",
+  "subcategory": "object",
+  "oneLiner": "腾讯云生态 · CI 处理+CDN · 国内 Web/App 静态常见",
+  "officialUrl": "https://cloud.tencent.com/product/cos",
+  "descriptionMd": "COS 提供标准/低频/归档存储、CI 图片处理与 CDN 加速，与 SCF、CloudBase 集成，是国内 Web/App 静态与媒体资源常见选择。\n\n腾讯云栈、微信小程序后端或需要国内低延迟对象访问时选用；与 CI 媒体处理流水线配合。\n\n与 AWS S3 API 有差异，跨云工具需适配；外网下行流量费用要配 CDN 缓存策略。\n",
+  "vendorId": "tencent-cloud"
+}

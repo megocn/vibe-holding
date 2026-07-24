@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "image"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "模型版权与生成内容合规需法务评估；硬件 GPU 成本不低。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://stability.ai/stable-diffusion"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "stable-diffusion",
+  "name": "Stable Diffusion",
+  "category": "design-ai-image",
+  "subcategory": "image-gen",
+  "oneLiner": "开源可本地 · LoRA/DreamBooth · 自托管可控",
+  "officialUrl": "https://stability.ai/stable-diffusion",
+  "descriptionMd": "Stable Diffusion 开源文生图/图生图模型，可本地或云端运行，LoRA/DreamBooth 生态丰富。\n\n需要可控成本的批量素材、或私有化生成不宜上传商业机密 prompt 时自托管 SD。\n\n模型版权与生成内容合规需法务评估；硬件 GPU 成本不低。\n",
+  "vendorId": "stability-ai"
+}

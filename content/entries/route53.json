@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "dns"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "按 query 计费；非 AWS 用户仅为 DNS 用 Cloudflare 更常见。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://aws.amazon.com/route53/"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "route53",
+  "name": "Amazon Route 53",
+  "category": "net-cdn-dns",
+  "subcategory": "dns",
+  "oneLiner": "DNS+流量路由/健康检查 · AWS 集成紧 · 按 query 计费",
+  "officialUrl": "https://aws.amazon.com/route53/",
+  "descriptionMd": "Route 53 提供 DNS hosting、traffic routing 与 health check，与 AWS 其他服务集成紧密。\n\n域名 DNS 托管在 AWS、或需要 weighted/failover routing 时采用。\n\n按 query 计费；非 AWS 用户仅为 DNS 用 Cloudflare 更常见。\n",
+  "vendorId": "amazon"
+}

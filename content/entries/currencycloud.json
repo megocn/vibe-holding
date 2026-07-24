@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "fx",
+    "api"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "合规与 onboarding 重；indie 直接开户难，通常需 partner bank program。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.currencycloud.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "currencycloud",
+  "name": "Currencycloud",
+  "category": "global-fx",
+  "subcategory": "api",
+  "oneLiner": "Visa 系 FX REST API · 多币种 wallet+local payment · 嵌 fintech",
+  "officialUrl": "https://www.currencycloud.com",
+  "descriptionMd": "Currencycloud（Visa 旗下）提供 REST API 做 FX、多币种 wallet 与 local payment，嵌入 fintech 与 marketplace。\n\n平台型 SaaS 需要代客户收多币种并 swap 时集成；比 Wise API 更偏 B2B embedded finance。\n\n合规与 onboarding 重；indie 直接开户难，通常需 partner bank program。\n"
+}

@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "bundler",
+    "build"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "高级 code-splitting、插件生态不如 Rollup/Webpack 完整；复杂 legacy 项目迁移需验证 loader 覆盖。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://esbuild.github.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "esbuild",
+  "name": "esbuild",
+  "category": "oss-toolchain",
+  "subcategory": "bundler",
+  "oneLiner": "Go 极速打包压缩 · Vite 底层依赖 · 插件/拆分弱于 Rollup",
+  "officialUrl": "https://esbuild.github.io",
+  "descriptionMd": "esbuild 用 Go 编写，提供极快的 TS/JS 打包、压缩与 minify，被 Vite 等工具作为底层依赖广泛采用。\n\n需要快速 dev/build 反馈、或作为更大工具链的 bundler 内核时优先考虑；适合库打包与简单应用。\n\n高级 code-splitting、插件生态不如 Rollup/Webpack 完整；复杂 legacy 项目迁移需验证 loader 覆盖。\n"
+}

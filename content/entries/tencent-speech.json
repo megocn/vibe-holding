@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "tts",
+    "asr",
+    "domestic"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "海外语种与文档生态弱于国际语音厂商；接口风格偏国内云。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://cloud.tencent.com/product/tts"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "domestic",
+  "id": "tencent-speech",
+  "name": "腾讯云语音",
+  "category": "ai-speech",
+  "subcategory": "speech-suite",
+  "oneLiner": "腾讯云 ASR/TTS · 微信生态邻近",
+  "officialUrl": "https://cloud.tencent.com/product/tts",
+  "descriptionMd": "腾讯云语音提供语音识别、合成与相关 AI 语音能力，面向国内 App 与政企客户，并常与微信/企微等腾讯生态场景邻近落地。\n\n产品已在腾讯云、需要国内语音能力或与微信场景打通时评估；可与讯飞/火山/百炼同层对照。\n\n海外语种与文档生态弱于国际语音厂商；接口风格偏国内云。\n",
+  "vendorId": "tencent-cloud"
+}

@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cross-border",
+    "fx"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "开户与 KYC 严格；部分行业禁入，到账时间与 FX Spread 要合同确认。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://global.lianlianpay.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "lianlianpay",
+  "name": "连连支付",
+  "category": "pay-processor",
+  "subcategory": "cross-border",
+  "oneLiner": "跨境 B2B/B2C 收结汇 · 多币种账户 · 出口电商/SaaS 回国",
+  "officialUrl": "https://global.lianlianpay.com",
+  "descriptionMd": "连连支付提供跨境 B2B/B2C 收结汇、多币种账户与合规申报，服务出口电商与 SaaS 收款回国。\n\n中国主体需要合法收汇、对接 Amazon/Shopify 等平台回款时评估；替代 Payoneer 的国内持牌选项之一。\n\n开户与 KYC 严格；部分行业禁入，到账时间与 FX Spread 要合同确认。\n",
+  "vendorId": "lianlianpay-inc"
+}

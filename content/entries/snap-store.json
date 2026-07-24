@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "linux",
+    "package"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "启动慢与体积大被社区诟病；与 flatpak/flathub 并行维护增加成本。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://snapcraft.io/store"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "snap-store",
+  "name": "Snap Store",
+  "category": "dist-desktop",
+  "subcategory": "store",
+  "oneLiner": "Canonical 跨 distro · channel 自动更新 · 桌面+server",
+  "officialUrl": "https://snapcraft.io/store",
+  "descriptionMd": "Snap 是 Canonical 的跨 distro 打包格式，Snap Store 分发桌面与 server 应用，自动更新 channel 支持。\n\nLinux 桌面应用希望一次打包多发行版时发布 snap；IoT 设备亦用 snap 模型。\n\n启动慢与体积大被社区诟病；与 flatpak/flathub 并行维护增加成本。\n"
+}

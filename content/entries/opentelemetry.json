@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "otel",
+    "standards"
+  ],
+  "maturity": "mature",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://opentelemetry.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "opentelemetry",
+  "name": "OpenTelemetry",
+  "category": "obs-platform",
+  "subcategory": "standards",
+  "oneLiner": "Traces/Metrics/Logs 开放标准 · 解耦 APM 厂商 · 采集层中立",
+  "descriptionMd": "OpenTelemetry 是 Traces/Metrics/Logs 的开放采集标准，避免应用绑死单一 APM 厂商。\n\n适合要长期可观测架构的团队；落地成本在埋点与后端选型（Grafana、云 APM 等）。小项目可先 Sentry 再逐步引入。\n\n先打通一条关键路径的 trace，再铺全量；半吊子埋点比没有更误导。\n",
+  "officialUrl": "https://opentelemetry.io"
+}

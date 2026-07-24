@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "subscription"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "部署与索引成本高；小团队可能用 Cursor + 良好文档即可覆盖需求。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://sourcegraph.com/amp"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "sourcegraph-amp",
+  "name": "Sourcegraph Amp",
+  "category": "coding-ide-agent",
+  "subcategory": "agent-platform",
+  "oneLiner": "跨仓搜索引擎驱动 · 巨型 monorepo Agent · Cody 脉络",
+  "officialUrl": "https://sourcegraph.com/amp",
+  "descriptionMd": "Sourcegraph Amp 基于 Sourcegraph 代码搜索与上下文引擎，提供跨仓库 AI Agent，擅长理解巨型 monorepo 与生成精准变更。\n\n拥有超大规模代码库、需要跨服务理解业务逻辑的企业工程团队；与 Cody 历史能力一脉相承。\n\n部署与索引成本高；小团队可能用 Cursor + 良好文档即可覆盖需求。\n",
+  "vendorId": "sourcegraph"
+}

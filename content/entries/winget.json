@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "windows",
+    "cli"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "Manifest 审核 PR 可能排队；silent install 参数需在 manifest 准确声明，否则企业脚本失败。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://learn.microsoft.com/windows/package-manager"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "winget",
+  "name": "WinGet",
+  "category": "dist-desktop",
+  "subcategory": "package-manager",
+  "oneLiner": "Win 内置包管理 · manifest PR 上架 · 类 Homebrew 体验",
+  "officialUrl": "https://learn.microsoft.com/windows/package-manager",
+  "descriptionMd": "WinGet 是 Windows 10/11 内置包管理器，通过 manifest PR 分发 CLI 与桌面应用，类似 Homebrew 体验。\n\n开发者工具/CLI 需要 Windows 用户一行安装时提交 community manifest；与 Microsoft Store 互补。\n\nManifest 审核 PR 可能排队；silent install 参数需在 manifest 准确声明，否则企业脚本失败。\n",
+  "vendorId": "microsoft"
+}

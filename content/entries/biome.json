@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "lint",
+    "format"
+  ],
+  "maturity": "stable",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://biomejs.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "biome",
+  "name": "Biome",
+  "category": "oss-toolchain",
+  "subcategory": "lint-format",
+  "oneLiner": "Rust · lint+format 一体 · 替代 ESLint+Prettier 组合",
+  "descriptionMd": "Biome 用 Rust 实现统一的 lint + format，目标是替代「ESLint + Prettier」组合，换更快反馈与更简单配置。\n\n适合新项目或愿意收敛工具链的 TS/JS 仓；存量超大 ESLint 规则集迁移需评估。与 pnpm/Vite 等同属现代前端工具链常见拼图。\n\n规则集相对 ESLint 插件世界更收敛；迁入时先在 CI 开 warn 再变 error。\n",
+  "officialUrl": "https://biomejs.dev"
+}

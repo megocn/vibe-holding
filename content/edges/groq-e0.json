@@ -1,0 +1,10 @@
+{
+  "id": "groq-e0",
+  "from": "groq",
+  "to": "together-ai",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

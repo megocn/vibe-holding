@@ -1,0 +1,10 @@
+{
+  "id": "edge-cloudflare-waf-cloudflare-cdn-part-of",
+  "from": "cloudflare-waf",
+  "to": "cloudflare-cdn",
+  "type": "part_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

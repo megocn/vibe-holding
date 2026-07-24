@@ -1,0 +1,10 @@
+{
+  "id": "e-sentry-with-next",
+  "from": "sentry",
+  "to": "nextjs",
+  "type": "integrates_with",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

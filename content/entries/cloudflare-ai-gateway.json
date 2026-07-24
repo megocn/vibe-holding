@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "本身不提供模型；上游 key 管理与数据合规仍需自行负责。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://developers.cloudflare.com/ai-gateway"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "cloudflare-ai-gateway",
+  "name": "Cloudflare AI Gateway",
+  "category": "gateway-router",
+  "subcategory": "edge-gateway",
+  "oneLiner": "边缘代理 LLM 调用 · 缓存/限流/成本分析 · 不产模型只管流量",
+  "officialUrl": "https://developers.cloudflare.com/ai-gateway",
+  "descriptionMd": "Cloudflare AI Gateway 在边缘代理 LLM API 调用，提供缓存、rate limit、日志与成本分析，兼容多家上游。\n\n已用 Cloudflare CDN/WAF、希望在全球边缘统一治理 AI API 出站流量的团队。\n\n本身不提供模型；上游 key 管理与数据合规仍需自行负责。\n",
+  "vendorId": "cloudflare-inc"
+}

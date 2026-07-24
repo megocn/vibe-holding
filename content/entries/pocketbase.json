@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "baas",
+    "sqlite"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "SQLite 写扩展有限；复杂 SQL 与 multi-region 不如 Postgres BaaS，生产 HA 需自行备份与复制。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://pocketbase.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "pocketbase",
+  "name": "PocketBase",
+  "category": "baas-platform",
+  "subcategory": "self-hosted",
+  "oneLiner": "Go 单二进制 · SQLite+Auth+Realtime · 部署极简 side project",
+  "officialUrl": "https://pocketbase.io",
+  "descriptionMd": "PocketBase 以 Go 单二进制提供 SQLite 数据库、Auth、Realtime、Admin UI 与 REST API，部署极简，适合 side project 与内部工具。\n\n需要快速 MVP、数据量中小且希望完全自托管时首选；比 Supabase 更轻、比 Firebase 更可控。\n\nSQLite 写扩展有限；复杂 SQL 与 multi-region 不如 Postgres BaaS，生产 HA 需自行备份与复制。\n",
+  "vendorId": "pocketbase-inc"
+}

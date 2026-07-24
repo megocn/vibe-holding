@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "distributed",
+    "postgres-compatible"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "延迟高于单机 Postgres；小项目成本高，SQL 兼容非 100%，高级 PG 扩展不支持。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.cockroachlabs.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "cockroachdb",
+  "name": "CockroachDB",
+  "category": "db-relational",
+  "subcategory": "distributed",
+  "oneLiner": "全球分布式 SQL · 强一致跨 region · PG wire 多活",
+  "officialUrl": "https://www.cockroachlabs.com",
+  "descriptionMd": "CockroachDB 提供全球分布式 SQL、强一致与 survive region 故障能力，兼容 PostgreSQL  wire 协议，适合多活全球化 SaaS。\n\n需要跨 region 多活、零 downtime 迁移且团队熟悉 Postgres 语义时选用；替代 Spanner 的开源方案之一。\n\n延迟高于单机 Postgres；小项目成本高，SQL 兼容非 100%，高级 PG 扩展不支持。\n"
+}

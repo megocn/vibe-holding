@@ -1,0 +1,43 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "deploy",
+    "jamstack"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "与 Vercel 功能高度重叠"
+  ],
+  "updates": [],
+  "sources": [
+    "https://www.netlify.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "netlify",
+  "name": "Netlify",
+  "category": "cloud-paas",
+  "vendorId": "netlify-inc",
+  "oneLiner": "Jamstack 部署 · 表单/身份插件丰富 · 边缘函数 · DX 友好",
+  "descriptionMd": "Netlify 是 Jamstack 部署与边缘函数平台，静态站、表单与身份插件丰富，DX 友好。\n\n适合营销站与中等前端应用；重后端或强边缘可用 Cloudflare/Fly 对照。注意构建时长与函数限额。\n\n分支预览对营销协作友好；大型 SSR/高流量时核算函数与带宽。\n",
+  "officialUrl": "https://www.netlify.com",
+  "rankings": [
+    {
+      "systemId": "cncf-survey",
+      "tier": "JAMstack PaaS",
+      "period": "2025 Survey",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "agc-domestic-firebase",
+  "from": "huawei-agc",
+  "to": "firebase",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

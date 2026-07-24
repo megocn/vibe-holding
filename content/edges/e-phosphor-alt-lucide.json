@@ -1,0 +1,10 @@
+{
+  "id": "e-phosphor-alt-lucide",
+  "from": "phosphor-icons",
+  "to": "lucide",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

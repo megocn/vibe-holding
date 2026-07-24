@@ -1,0 +1,10 @@
+{
+  "id": "edge-wanxiang-jimeng-alt",
+  "from": "tongyi-wanxiang",
+  "to": "jimeng",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "sms",
+    "voice"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "国内短信常另选阿里云/腾讯云"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.twilio.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "twilio",
+  "name": "Twilio",
+  "category": "msg-sms",
+  "subcategory": "sms",
+  "oneLiner": "全球 SMS/语音/Verify API · 出海通知与二次验证主力",
+  "descriptionMd": "Twilio 提供全球短信、语音与 Verify 等 API，出海通知与二次验证常用。\n\n按量计费；国内短信到达通常还需国内服务商。注意合规（退订、发送者身份）与成本控制。\n\nVerify 产品可降低自建验证码成本；价格按国家/通道差异大，上线前用目标市场测算。\n",
+  "officialUrl": "https://www.twilio.com"
+}

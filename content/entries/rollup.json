@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "bundler",
+    "library"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "应用级 HMR 不如 Vite 开箱；code-splitting 场景通常交给 Vite/Webpack。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://rollupjs.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "rollup",
+  "name": "Rollup",
+  "category": "oss-toolchain",
+  "subcategory": "bundler",
+  "oneLiner": "ESM tree-shake · 库打包干净 · Vite 生产底层",
+  "officialUrl": "https://rollupjs.org",
+  "descriptionMd": "Rollup 专注 ES 模块 tree-shaking 与库打包，输出干净 bundle，是 Vite 生产构建与众多 npm 库的底层选择。\n\n发布 npm 组件库/工具库、需要多格式输出时首选；插件生态成熟。\n\n应用级 HMR 不如 Vite 开箱；code-splitting 场景通常交给 Vite/Webpack。\n"
+}

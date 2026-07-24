@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "GPU 驱动与 CUDA 版本敏感；多租户隔离与 autoscaling 需自行编排 K8s。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://vllm.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "vllm",
+  "name": "vLLM",
+  "category": "gateway-local",
+  "subcategory": "inference-server",
+  "oneLiner": "PagedAttention 高吞吐 · OpenAI 兼容 serving · 生产 GPU 推理",
+  "officialUrl": "https://vllm.ai",
+  "descriptionMd": "vLLM 是开源 LLM 推理引擎，采用 PagedAttention 实现高吞吐低延迟 serving，支持 OpenAI 兼容 API 与多种模型架构。\n\n自托管 Llama/Qwen 等权重、需要 GPU 集群上 production-grade serving 的 MLOps 团队首选。\n\nGPU 驱动与 CUDA 版本敏感；多租户隔离与 autoscaling 需自行编排 K8s。\n",
+  "vendorId": "vllm-inc"
+}

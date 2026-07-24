@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "image",
+    "community"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "企业级 API/合规不如云厂商；版权与成人内容策略需关注。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.seaart.ai"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "seaart",
+  "name": "SeaArt",
+  "category": "design-ai-image",
+  "subcategory": "image-gen",
+  "oneLiner": "AI 艺术社区 · 多模型 · 创作者向",
+  "officialUrl": "https://www.seaart.ai",
+  "descriptionMd": "SeaArt 提供多模型 AI 图像生成与创作者社区，聚合多种风格、模型和工具，面向艺术创作与社交创意图场景。\n\n需要多模型切换试风格、社区模板丰富、快速出图时试用；可与 Midjourney/Liblib 对照。\n\n企业级 API/合规不如云厂商；版权与成人内容策略需关注。\n",
+  "vendorId": "seaart-inc"
+}

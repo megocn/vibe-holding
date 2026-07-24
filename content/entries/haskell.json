@@ -1,0 +1,32 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "招聘困难、runtime 行为对新手不直观；一般 Web SaaS 不推荐首选。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.haskell.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "haskell",
+  "name": "Haskell",
+  "category": "lang-language",
+  "subcategory": "pure-fp",
+  "oneLiner": "惰性纯函数 · GHC 强类型 · 编译器/金融/形式验证向",
+  "officialUrl": "https://www.haskell.org",
+  "descriptionMd": "Haskell 是 lazy 纯函数式语言，强类型系统与 GHC 生态在编译器、金融建模与形式验证领域有深度应用。\n\n需要高可靠抽象、DSL 编译器或团队 FP 背景深厚时；Cardano 等区块链生态组件。\n\n招聘困难、runtime 行为对新手不直观；一般 Web SaaS 不推荐首选。\n"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "domestic-miniapp-fast",
+  "name": "国内小程序极速版",
+  "target": "个人/小团队快速上线国内可支付的 Web/小程序后端",
+  "layers": {
+    "coding-agent": "trae",
+    "llm": "deepseek-v3",
+    "framework": "nextjs",
+    "ui": "antd",
+    "baas": "supabase",
+    "deploy": "aliyun-fc",
+    "payment": "wechat-pay"
+  },
+  "rationaleMd": "优先国内可访问模型与支付；部署用阿里云函数计算，收款用微信支付。",
+  "estimatedCost": "月成本约 ¥50–200（视调用量）",
+  "caveats": ["微信支付需商户资质", "Supabase 国内延迟需评估，可换自建 Postgres"]
+}

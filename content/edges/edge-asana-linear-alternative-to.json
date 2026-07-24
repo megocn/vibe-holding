@@ -1,0 +1,10 @@
+{
+  "id": "edge-asana-linear-alternative-to",
+  "from": "asana",
+  "to": "linear",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

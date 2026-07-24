@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "条目 id 为历史遗留；选型以 Phi-4 系为准。不宜单独承担复杂 multi-agent 编排。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.microsoft.com/en-us/research/blog/phi-4-reasoning-vision-and-the-lessons-of-training-a-multimodal-reasoning-model/",
+    "https://huggingface.co/microsoft/Phi-4-reasoning-vision-15B"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "phi-3",
+  "name": "Phi-4",
+  "category": "llm-line",
+  "subcategory": "line",
+  "oneLiner": "微软 SLM 主力 · Phi-4 系 · 端侧/多模态推理",
+  "officialUrl": "https://www.microsoft.com/en-us/research/blog/phi-4-reasoning-vision-and-the-lessons-of-training-a-multimodal-reasoning-model/",
+  "descriptionMd": "Phi 家族主力 line 已进入 **Phi-4** 版本（含 Phi-4-reasoning、Phi-4-reasoning-vision-15B 等）。Phi-3 为上一代。\n\n移动端助手、本地部署、Azure AI 托管，或需要紧凑多模态/推理 SLM 的场景。\n\n条目 id 仍为历史 `phi-3`；不应单独承担复杂 multi-agent 编排，需与 frontier 模型组合。\n",
+  "vendorId": "microsoft",
+  "currentVersion": "4"
+}

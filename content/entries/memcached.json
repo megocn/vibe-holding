@@ -1,0 +1,34 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cache"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "无持久化与高可用内置；大数据结构或 pub/sub 应选 Redis/Valkey。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://memcached.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "memcached",
+  "name": "Memcached",
+  "category": "db-cache",
+  "subcategory": "cache",
+  "oneLiner": "简单高性能内存 KV · 一致性哈希 · 无持久化 · session/片段",
+  "officialUrl": "https://memcached.org",
+  "descriptionMd": "Memcached 是简单高性能内存 KV 缓存，多节点一致性哈希，无持久化，常用于 session 与页面片段缓存。\n\n只需纯缓存、不需要 Redis 数据结构复杂度时选用；LAMP 栈历史存量多。\n\n无持久化与高可用内置；大数据结构或 pub/sub 应选 Redis/Valkey。\n"
+}

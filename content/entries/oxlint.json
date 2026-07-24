@@ -1,0 +1,34 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "lint"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "插件生态仍不如 ESLint 完整；自定义规则与 TypeScript 类型感知 lint 能力在演进中。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://oxc.rs/docs/guide/usage/linter.html"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "oxlint",
+  "name": "Oxlint",
+  "category": "oss-toolchain",
+  "subcategory": "lint",
+  "oneLiner": "Oxc/Rust 超快 · ESLint 核心规则子集 · CI 第一道门",
+  "officialUrl": "https://oxc.rs/docs/guide/usage/linter.html",
+  "descriptionMd": "Oxlint 来自 Oxc 项目，以 Rust 实现超快 lint，覆盖大量 ESLint 核心规则，适合作为 CI 第一道门禁。\n\n超大仓库 lint 成为 CI 瓶颈、或想与 Biome 类似收敛工具链时可试点；常与 ESLint 并存过渡。\n\n插件生态仍不如 ESLint 完整；自定义规则与 TypeScript 类型感知 lint 能力在演进中。\n"
+}

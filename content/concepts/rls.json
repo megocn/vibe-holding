@@ -1,0 +1,8 @@
+{
+  "id": "rls",
+  "name": "Row Level Security",
+  "summaryMd": "数据库行级安全策略，常见于 Postgres/Supabase。",
+  "aliases": [
+    "RLS"
+  ]
+}

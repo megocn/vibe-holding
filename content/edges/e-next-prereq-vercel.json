@@ -1,0 +1,11 @@
+{
+  "id": "e-next-prereq-vercel",
+  "from": "nextjs",
+  "to": "vercel",
+  "type": "prerequisite_of",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-01",
+  "lastReviewed": "2026-07-20"
+}

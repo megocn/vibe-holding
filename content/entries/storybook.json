@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "components",
+    "docs"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "版本与 Vite/Webpack 构建器需对齐；stories 过多会拖慢 CI 除非按需构建。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://storybook.js.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "storybook",
+  "name": "Storybook",
+  "category": "oss-toolchain",
+  "subcategory": "component-dev",
+  "oneLiner": "独立 stories · 交互/视觉回归插件 · 设计系统文档标配",
+  "officialUrl": "https://storybook.js.org",
+  "descriptionMd": "Storybook 在独立环境中渲染 UI 组件 stories，支持交互测试、视觉回归插件与设计系统文档，是组件库标配。\n\n维护 shadcn/Radix 封装层、设计系统或多主题组件时需要可视化验收与 Chromatic 等视觉 CI。\n\n版本与 Vite/Webpack 构建器需对齐；stories 过多会拖慢 CI 除非按需构建。\n"
+}

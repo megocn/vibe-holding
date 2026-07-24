@@ -1,0 +1,10 @@
+{
+  "id": "i18next-next-intl",
+  "from": "i18next",
+  "to": "next-intl",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

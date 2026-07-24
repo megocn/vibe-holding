@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "apm",
+    "elasticsearch"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "资源占用高于轻量 OTel backend；license 变更需关注。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.elastic.co/observability/application-performance-monitoring"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "elastic-apm",
+  "name": "Elastic APM",
+  "category": "obs-platform",
+  "subcategory": "apm",
+  "oneLiner": "ES/Kibana 同源 · APM+日志+SIEM · Elastic 栈一体检索",
+  "officialUrl": "https://www.elastic.co/observability/application-performance-monitoring",
+  "descriptionMd": "Elastic APM 与 Elasticsearch/Kibana 集成，提供应用性能、日志与 SIEM 统一检索，适合已投资 Elastic 的团队。\n\n企业已部署 ELK/Elastic Cloud、希望 APM 与日志同集群检索时自然扩展。\n\n资源占用高于轻量 OTel backend；license 变更需关注。\n",
+  "vendorId": "elastic-inc"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "function-calling",
+  "name": "Function / Tool Calling",
+  "summaryMd": "模型按 schema 调用外部工具/函数的能力。",
+  "aliases": [
+    "Tool Calling",
+    "Tools"
+  ]
+}

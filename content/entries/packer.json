@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "images",
+    "iac"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "镜像 pipeline 维护成本；云厂商原生 image builder 可能更简单。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.packer.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "packer",
+  "name": "Packer",
+  "category": "cicd-pipeline",
+  "subcategory": "iac",
+  "oneLiner": "多格式 golden image · AMI/OCI/Docker · 镜像流水线",
+  "officialUrl": "https://www.packer.io",
+  "descriptionMd": "Packer 从单一配置构建 AMI/OCI/Docker 等镜像，适合 golden image 流水线与混合云。\n\n仍需 VM 而非容器、或需要标准化 OS 镜像供 Terraform 消费时采用。\n\n镜像 pipeline 维护成本；云厂商原生 image builder 可能更简单。\n",
+  "vendorId": "hashicorp"
+}

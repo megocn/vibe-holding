@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "subscription"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "Firebase 迁移成本高；安全规则与支付 webhook 必须人工审查。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://softgen.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "softgen",
+  "name": "Softgen",
+  "category": "coding-cloud-builder",
+  "subcategory": "fullstack-builder",
+  "oneLiner": "NL→Firebase/Stripe 全栈 · 可视化编辑 · 一键部署",
+  "officialUrl": "https://softgen.ai",
+  "descriptionMd": "Softgen 从自然语言生成含 Firebase/Stripe 集成的全栈 Web 应用，强调可视化编辑与一键部署。\n\n非技术创始人构建 SaaS MVP、可接受 Firebase 后端锁定换取速度时使用。\n\nFirebase 迁移成本高；安全规则与支付 webhook 必须人工审查。\n",
+  "vendorId": "softgen-ai"
+}

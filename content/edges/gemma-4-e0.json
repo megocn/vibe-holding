@@ -1,0 +1,10 @@
+{
+  "id": "gemma-4-e0",
+  "from": "gemma-4",
+  "to": "llama",
+  "type": "compatible_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

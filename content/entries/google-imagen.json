@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "image",
+    "gcp"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "国内访问受限；消费级审美社区热度通常低于 Midjourney/Flux。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://deepmind.google/technologies/imagen/"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "google-imagen",
+  "name": "Imagen",
+  "category": "design-ai-image",
+  "subcategory": "image-gen",
+  "oneLiner": "Google 文生图 · Vertex/Gemini · 企业向",
+  "officialUrl": "https://deepmind.google/technologies/imagen/",
+  "descriptionMd": "Imagen 是 Google 的文生图模型族，经 Vertex AI / Gemini 生态提供，强调与 Google Cloud 企业合同、安全过滤与多模态管线集成。\n\n已在 GCP、需要企业级图像生成与统一计费时评估；可与 Gemini 多模态应用同栈。\n\n国内访问受限；消费级审美社区热度通常低于 Midjourney/Flux。\n",
+  "vendorId": "google"
+}

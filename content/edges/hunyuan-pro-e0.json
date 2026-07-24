@@ -1,0 +1,10 @@
+{
+  "id": "hunyuan-pro-e0",
+  "from": "hunyuan-pro",
+  "to": "qwen-max",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

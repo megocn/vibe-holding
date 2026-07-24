@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "i18n",
+    "javascript"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "运行时加载 locale 要配 bundler 策略；类型安全不如 paraglide 新一代方案。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.i18next.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "i18next",
+  "name": "i18next",
+  "category": "global-i18n",
+  "subcategory": "library",
+  "oneLiner": "namespaces/plural/插件 · React/Vue/Node 绑定 · 前端最普及",
+  "officialUrl": "https://www.i18next.com",
+  "descriptionMd": "i18next 提供 namespaces、plural、interpolation 与插件生态，React/Vue/Node 均有绑定，是前端 i18n 最普及库之一。\n\nReact/Next 存量项目需要成熟 i18n、社区资源与 LLM 翻译工具链兼容时默认 i18next；与 next-intl 可对比选型。\n\n运行时加载 locale 要配 bundler 策略；类型安全不如 paraglide 新一代方案。\n"
+}

@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "库与招聘以 C# 为主；UI 生态弱，前端通常另选 TS。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://fsharp.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "fsharp",
+  "name": "F#",
+  "category": "lang-language",
+  "subcategory": "dotnet-fp",
+  "oneLiner": ".NET 函数式优先 · 与 C# 无缝互操作 · 数据/量化脚本",
+  "officialUrl": "https://fsharp.org",
+  "descriptionMd": "F# 是 .NET 上的函数式优先语言，适合数据脚本、量化与 ASP.NET Core 后端，与 C# 互操作无缝。\n\n.NET 团队希望 FP 风格处理数据 pipeline、或 Azure 生态内的 concise 后端。\n\n库与招聘以 C# 为主；UI 生态弱，前端通常另选 TS。\n",
+  "vendorId": "dotnet-foundation"
+}

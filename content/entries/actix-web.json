@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "与 Axum 社区分裂；async API 风格需团队统一选型。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://actix.rs"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "actix-web",
+  "name": "Actix Web",
+  "category": "fw-fullstack",
+  "subcategory": "rust-backend",
+  "oneLiner": "Rust HTTP · actor 模型 · benchmark 领先 · 极致吞吐/低延迟",
+  "officialUrl": "https://actix.rs",
+  "descriptionMd": "Actix Web 是高性能 Rust HTTP 框架，基于 actor 模型，benchmark 领先，适合 latency 敏感服务。\n\nRust 微服务需要极致吞吐、或团队已有 Actix 投资时。\n\n与 Axum 社区分裂；async API 风格需团队统一选型。\n",
+  "vendorId": "actix-team"
+}

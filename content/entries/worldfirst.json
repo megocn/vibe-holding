@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "collection",
+    "domestic",
+    "store"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "费率与活动常变，以后台为准"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.worldfirst.com.cn"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "worldfirst",
+  "name": "万里汇 WorldFirst",
+  "category": "global-fx",
+  "subcategory": "collection",
+  "oneLiner": "蚂蚁国际 · 应用商店/广告结汇 · 个人开发者叙事友好",
+  "descriptionMd": "万里汇（WorldFirst，蚂蚁国际）支持应用商店、广告等场景的跨境收款与结汇，个人开发者叙事友好。\n\n大陆主体出海收款决策树中，常与 Airwallex 并列于「商店/广告变现」分支；低月销软件订阅则优先看 MoR。\n\n店铺/广告场景材料相对清晰；软件订阅类收款未必是其最佳路径，先看类目。\n",
+  "officialUrl": "https://www.worldfirst.com.cn"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "oversea-saas-fast",
+  "name": "出海 SaaS 极速版",
+  "target": "个人开发者快速上线可收费的 Web SaaS",
+  "layers": {
+    "coding-agent": "cursor",
+    "llm": "claude-opus",
+    "framework": "nextjs",
+    "ui": "shadcn-ui",
+    "baas": "supabase",
+    "deploy": "vercel",
+    "payment": "stripe"
+  },
+  "rationaleMd": "全链路选择部署与生态最顺滑、Vibe Coding 友好的组合；收款用 Stripe 面向全球。",
+  "estimatedCost": "月成本约 $45 起（含 Vercel Pro + Supabase Pro）",
+  "caveats": ["Stripe 需海外公司主体", "Vercel/Supabase 免费额度有限，增长后成本上升"]
+}

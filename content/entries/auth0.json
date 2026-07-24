@@ -1,0 +1,45 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "auth",
+    "enterprise"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "定价高",
+    "配置复杂"
+  ],
+  "updates": [],
+  "sources": [
+    "https://auth0.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "auth0",
+  "name": "Auth0",
+  "category": "baas-auth-only",
+  "vendorId": "auth0-inc",
+  "oneLiner": "Okta 系企业 IDaaS · 协议/合规叙事全 · B2B 复杂组织与审计；价高",
+  "descriptionMd": "Auth0（Okta）是成熟的企业级 IDaaS：协议覆盖广、合规叙事强，适合 B2B、复杂组织与审计要求高的场景。\n\n相对 Clerk/Better Auth，价格与配置复杂度通常更高；Indie 早期往往过重。若已有 Okta 企业合同或强合规需求，Auth0 仍是稳妥选项。\n\n企业 SSO/SAML 是强项；Indie 早期用它容易为用不到的能力付费。\n",
+  "officialUrl": "https://auth0.com",
+  "rankings": [
+    {
+      "systemId": "gartner-mq-access-mgmt",
+      "tier": "Leader",
+      "period": "2025–2026",
+      "note": "企业访问管理长期 Leaders 档（Okta 系）",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

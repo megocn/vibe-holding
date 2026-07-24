@@ -1,0 +1,11 @@
+{
+  "id": "edge-livekit-vapi-alt",
+  "from": "livekit",
+  "to": "vapi",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24",
+  "note": "自建媒体层 vs 托管编排"
+}

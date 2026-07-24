@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "tts",
+    "voice-clone",
+    "asr"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "按字符/分钟计费上升快；克隆与商用授权、deepfake 合规需法务过目；国内直连与支付可能受限。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://elevenlabs.io"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "elevenlabs",
+  "name": "ElevenLabs",
+  "category": "ai-speech",
+  "subcategory": "tts",
+  "oneLiner": "表达力 TTS · 克隆/配音 · Conversational AI",
+  "officialUrl": "https://elevenlabs.io",
+  "descriptionMd": "ElevenLabs 以高表达力 TTS、声音克隆与配音闻名，并扩展 Scribe STT、Conversational AI 与音乐能力，是内容与语音产品常用的声音层。\n\n需要品牌旁白、多语言配音、或角色一致的语音克隆时优先评估；Flash/Turbo 档适合低延迟对话，v3 档偏媒体质量。\n\n按字符/分钟计费上升快；克隆与商用授权、deepfake 合规需法务过目；国内直连与支付可能受限。\n",
+  "vendorId": "elevenlabs-inc"
+}

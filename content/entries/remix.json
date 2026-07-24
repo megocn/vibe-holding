@@ -1,0 +1,44 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "react",
+    "fullstack",
+    "web-standards"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "与 Next 生态心智不同"
+  ],
+  "updates": [],
+  "sources": [
+    "https://remix.run"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "remix",
+  "name": "Remix",
+  "category": "fw-fullstack",
+  "subcategory": "fullstack",
+  "oneLiner": "Web 标准回归 · 嵌套路由/表单 · 渐进增强 · 多端部署",
+  "descriptionMd": "Remix 强调 Web 标准、嵌套路由、表单与渐进增强，可部署多端，偏「回归平台能力」。\n\n适合重视可访问性与渐进增强的应用；与 Next 同属 React 全栈，生态体量不同。选型看团队是否认同其数据加载模型。\n\n表单与 progressive enhancement 心智清晰；习惯 RSC/Next 数据模型的团队需适应。\n",
+  "officialUrl": "https://remix.run",
+  "rankings": [
+    {
+      "systemId": "state-of-js",
+      "tier": "Niche meta-FW",
+      "period": "2025 Survey",
+      "note": "并入 React Router 生态后定位变化中",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

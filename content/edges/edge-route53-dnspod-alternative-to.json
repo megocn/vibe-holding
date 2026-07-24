@@ -1,0 +1,10 @@
+{
+  "id": "edge-route53-dnspod-alternative-to",
+  "from": "route53",
+  "to": "dnspod",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

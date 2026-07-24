@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "image"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "商用授权与账号区域政策需核对"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.midjourney.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "midjourney",
+  "name": "Midjourney",
+  "category": "design-ai-image",
+  "subcategory": "ai-image",
+  "oneLiner": "文生图审美标杆 · 品牌/营销视觉 · Discord/Web 交互",
+  "descriptionMd": "Midjourney 以高质量文生图著称，品牌与营销视觉常用；交互经 Discord/Web。\n\n订阅制；商用与品牌安全条款需核对。国内可用性与支付方式可能影响采用；可与即梦等国内工具并行。\n\n提示词与风格一致性靠工作流沉淀；品牌项目建议固定种子与审核环节。\n",
+  "officialUrl": "https://www.midjourney.com"
+}

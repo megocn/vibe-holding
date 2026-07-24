@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "仅行为无视觉；需自行设计 CSS 或与 React Spectrum 配合。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://react-spectrum.adobe.com/react-aria"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "react-aria",
+  "name": "React Aria",
+  "category": "ui-primitives",
+  "subcategory": "adobe-a11y",
+  "oneLiner": "Adobe hooks 级行为原语 · 强 a11y · HeroUI 等底层；无视觉",
+  "officialUrl": "https://react-spectrum.adobe.com/react-aria",
+  "descriptionMd": "React Aria 提供 hooks 级 a11y 行为原语，Adobe 维护，被 HeroUI 等库底层采用。\n\n自建 design system 需要顶级 keyboard/screen reader 行为而不想从头实现 a11y。\n\n仅行为无视觉；需自行设计 CSS 或与 React Spectrum 配合。\n",
+  "vendorId": "adobe-react-aria"
+}

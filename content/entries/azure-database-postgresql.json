@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "azure",
+    "postgres"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "扩展插件列表受限；跨 subscription 网络与防火墙规则易踩坑。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://azure.microsoft.com/products/postgresql"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "azure-database-postgresql",
+  "name": "Azure Database for PostgreSQL",
+  "category": "db-relational",
+  "subcategory": "managed",
+  "oneLiner": "Azure Flexible Server · Entra/Functions 集成 · Azure 栈 PG",
+  "officialUrl": "https://azure.microsoft.com/products/postgresql",
+  "descriptionMd": "Azure Database for PostgreSQL 提供 Flexible Server 与 HA、备份，与 Entra ID、Azure Functions 集成，是企业 Azure 栈 PG 首选。\n\n微软/Azure 合同内跑 Postgres、需私有链路访问 App Service 时选用；Cosmos 不够关系型时回落 PG。\n\n扩展插件列表受限；跨 subscription 网络与防火墙规则易踩坑。\n",
+  "vendorId": "microsoft-azure"
+}

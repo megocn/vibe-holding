@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "typescript",
+    "api"
+  ],
+  "maturity": "stable",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://trpc.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "trpc",
+  "name": "tRPC",
+  "category": "oss-toolchain",
+  "subcategory": "api",
+  "oneLiner": "端到端 TS 类型共享 · 少写 schema 重复 · Next/Monorepo 常配",
+  "descriptionMd": "tRPC 让客户端与服务端共享 TypeScript 类型，少写 schema 重复，常与 Next/Monorepo 同用。\n\n适合全 TS 仓；对外公共 API 或多语言客户端时 REST/GraphQL 可能更合适。与 Zod 校验搭配常见。\n\n端到端类型爽，但对外 API 版本化弱；公开集成面预留 REST/OpenAPI。\n",
+  "officialUrl": "https://trpc.io"
+}

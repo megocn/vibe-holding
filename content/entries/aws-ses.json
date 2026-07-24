@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "email",
+    "aws"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "初始 sandbox 限制严；送达率需自行 warm-up 与监控 reputation。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://aws.amazon.com/ses/"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "aws-ses",
+  "name": "Amazon SES",
+  "category": "msg-email",
+  "subcategory": "transactional",
+  "oneLiner": "AWS 按量发送 · 生态深度集成 · 自行 warm-up/信誉监控",
+  "officialUrl": "https://aws.amazon.com/ses/",
+  "descriptionMd": "Amazon Simple Email Service 按量计费发送邮件，与 AWS 生态集成，适合已在 AWS 上的团队。\n\n基础设施在 AWS、邮件量中大且希望成本可控时首选；可用 Lambda 触发。\n\n初始 sandbox 限制严；送达率需自行 warm-up 与监控 reputation。\n",
+  "vendorId": "amazon"
+}

@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "git",
+    "conventions"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "规则过严会阻碍小步提交；可允许 merge/revert 等例外类型。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://commitlint.js.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "commitlint",
+  "name": "commitlint",
+  "category": "oss-toolchain",
+  "subcategory": "git-hooks",
+  "oneLiner": "Conventional Commits 门禁 · 服务 changelog 与 semver",
+  "officialUrl": "https://commitlint.js.org",
+  "descriptionMd": "commitlint 检查 commit message 是否符合 Conventional Commits，便于自动生成 changelog 与语义化版本。\n\nMonorepo 使用 Changesets/semantic-release、或需要 Jira 关联 ID 时配合 Husky 使用。\n\n规则过严会阻碍小步提交；可允许 merge/revert 等例外类型。\n"
+}

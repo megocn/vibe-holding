@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "browser",
+    "extension"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "审核可能比 Chrome 慢；推荐算法弱，需自有 marketing 驱动安装。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://addons.mozilla.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "firefox-addons",
+  "name": "Firefox Add-ons",
+  "category": "dist-extension",
+  "subcategory": "store",
+  "oneLiner": "AMO 官方渠道 · 隐私/数据披露审查严 · 支持 MV3",
+  "officialUrl": "https://addons.mozilla.org",
+  "descriptionMd": "AMO 是 Firefox 浏览器扩展与主题官方分发渠道，支持 Manifest V3，审查注重隐私与用户数据披露。\n\n发布 Firefox 扩展必须上架 AMO（或 self-distribute 签名）；跨浏览器需与 Chrome 商店分别打包。\n\n审核可能比 Chrome 慢；推荐算法弱，需自有 marketing 驱动安装。\n"
+}

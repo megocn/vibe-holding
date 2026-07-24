@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "duplicate-prefer-mantine"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "与 shadcn copy-paste 哲学不同；全量依赖包体积需 tree-shake。",
+    "与 mantine 条目同产品线，选型请以 mantine 为主"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://mantine.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "mantine-ui",
+  "name": "Mantine",
+  "category": "ui-kits",
+  "subcategory": "react-hooks-rich",
+  "oneLiner": "同 mantine 产品线 · 以 mantine 条目为准选型",
+  "officialUrl": "https://mantine.dev",
+  "descriptionMd": "Mantine 提供 100+ React 组件与 hooks，内置 dark mode、form 管理与 notifications，DX 口碑好。\n\nReact admin 需要 hooks API、form 与 dates 组件一体且 MIT 协议时。\n\n与 shadcn copy-paste 哲学不同；全量依赖包体积需 tree-shake。\n"
+}

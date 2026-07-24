@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "image"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "闭源生态锁定；独立 API 能力与 SD/Flux 比需 benchmark。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.adobe.com/products/firefly.html"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "adobe-firefly",
+  "name": "Adobe Firefly",
+  "category": "design-ai-image",
+  "subcategory": "image-gen",
+  "oneLiner": "Creative Cloud 内嵌 · Content Credentials · 商用训练数据合规",
+  "officialUrl": "https://www.adobe.com/products/firefly.html",
+  "descriptionMd": "Firefly 集成 Creative Cloud，强调 Content Credentials 与 commercial safe training data，企业合规友好。\n\n设计团队已 Adobe CC、需要 AI 生成与 Photoshop 无缝往返时启用 Firefly。\n\n闭源生态锁定；独立 API 能力与 SD/Flux 比需 benchmark。\n",
+  "vendorId": "adobe"
+}

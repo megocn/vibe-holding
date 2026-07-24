@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "typescript",
+    "agent",
+    "rag"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "生态相对 LangChain 年轻，集成面在快速变化"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://mastra.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "mastra",
+  "name": "Mastra",
+  "category": "ai-agent-fw",
+  "subcategory": "agent-framework",
+  "oneLiner": "TS 全栈 Agent · agents/工作流/memory/RAG/evals 一体偏生产",
+  "descriptionMd": "Mastra 是 TypeScript 全栈 Agent 框架：agents、工作流、memory、RAG、evals 一体，面向生产。\n\n常建在 Vercel AI SDK 原语之上；适合 TS 团队不想拼装一堆库。Python 复杂图编排可对照 LangGraph。\n\nTypeScript 类型贯穿工具与工作流；观测（evals）建议从第一天就接上。\n",
+  "officialUrl": "https://mastra.ai",
+  "docsUrl": "https://mastra.ai/docs"
+}

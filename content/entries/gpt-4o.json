@@ -1,0 +1,65 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line",
+    "multimodal",
+    "openai",
+    "flagship"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "国内访问受限",
+    "政策与额度变化频繁"
+  ],
+  "updates": [
+    {
+      "date": "2026-07-09",
+      "type": "release",
+      "version": "GPT-5.6 Sol",
+      "summary": "GPT-5.6 家族 GA：Sol 旗舰 / Terra 均衡 / Luna 成本档",
+      "source": "https://openai.com/index/gpt-5-6/"
+    }
+  ],
+  "sources": [
+    "https://openai.com/index/gpt-5-6/"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "gpt-4o",
+  "name": "GPT 旗舰",
+  "category": "llm-line",
+  "vendorId": "openai",
+  "oneLiner": "OpenAI 旗舰档 · 现为 GPT-5.6 Sol · 多模态/Agent 通用底座",
+  "descriptionMd": "OpenAI GPT 产品族的**旗舰选型档**。当前版本为 GPT-5.6 Sol（2026-07-09 GA；同代还有 Terra 均衡档与 Luna 成本档）。\n\n与 Claude Opus、Gemini Pro 同层比能力、价与工具调用；「4o」等历史名是旧版本标签，不要当成与「GPT 产品族」同级的节点。\n\n旗舰档用于难任务；日常辅助用同族 Terra/Luna，建立「路由策略」比死磕一档重要。\n",
+  "officialUrl": "https://openai.com/index/gpt-5-6/",
+  "rankings": [
+    {
+      "systemId": "lmarena-text",
+      "tier": "Frontier",
+      "period": "2026-07",
+      "note": "GPT-5.6 Sol 为当前 OpenAI 旗舰；Arena 名次随榜单波动",
+      "asOf": "2026-07-23"
+    },
+    {
+      "systemId": "artificial-analysis-index",
+      "tier": "Frontier",
+      "period": "2026-07",
+      "note": "Sol 为 GPT-5.6 顶档；Terra/Luna 分档控成本",
+      "asOf": "2026-07-23"
+    }
+  ],
+  "subcategory": "line",
+  "currentVersion": "GPT-5.6 Sol"
+}

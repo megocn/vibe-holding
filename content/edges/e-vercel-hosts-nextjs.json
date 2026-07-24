@@ -1,0 +1,10 @@
+{
+  "id": "e-vercel-hosts-nextjs",
+  "from": "vercel",
+  "to": "nextjs",
+  "type": "hosts",
+  "weight": 0.95,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

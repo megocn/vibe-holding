@@ -1,0 +1,63 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "payment",
+    "creator",
+    "mor",
+    "legacy-caution",
+    "not-for-greenfield"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "已被 Stripe 收购；产品路线可能并入 Stripe 生态",
+    "2026 起对新大陆独立开发者申请收紧，新项目慎选",
+    "品类限制仍在；费率相对自建 Stripe 偏高",
+    "新绿场项目勿默认选 LS；优先 Paddle / Polar / Creem"
+  ],
+  "updates": [
+    {
+      "date": "2024-07-01",
+      "type": "policy",
+      "summary": "Stripe 宣布收购 Lemon Squeezy",
+      "source": "https://stripe.com/blog"
+    },
+    {
+      "date": "2026-01-01",
+      "type": "policy",
+      "summary": "大陆新独立开发者开通难度上升（社区观测）；优先考虑其他 MoR",
+      "source": "https://chdh.me/reports/stripe-china-guide-2026/"
+    }
+  ],
+  "sources": [
+    "https://www.lemonsqueezy.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "lemonsqueezy",
+  "name": "Lemon Squeezy",
+  "category": "pay-mor",
+  "vendorId": "lemon-squeezy",
+  "oneLiner": "存量可续 · Stripe 收购后绿场慎选 · 新申请收紧",
+  "descriptionMd": "Lemon Squeezy 曾是创作者友好的 MoR（税务托管、数字商品与订阅）。被 Stripe 收购后，**存量**账户多可继续，但**新大陆独立开发者**申请收紧。\n\n新项目更建议优先评估 Paddle / Polar / Creem，并把迁移路径写进商务预案。\n\n存量可续用；新商户把迁移演练（商品/订阅/Webhook）写进 checklist。\n",
+  "officialUrl": "https://www.lemonsqueezy.com",
+  "rankings": [
+    {
+      "systemId": "builtwith-payments",
+      "tier": "Indie MoR",
+      "period": "2026",
+      "note": "已被 Stripe 收购；历史独立开发者 MoR",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

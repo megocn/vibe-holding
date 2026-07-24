@@ -1,0 +1,10 @@
+{
+  "id": "edge-yuque-notion-domestic-equivalent-of",
+  "from": "yuque",
+  "to": "notion",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

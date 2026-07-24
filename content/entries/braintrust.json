@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "与 LangSmith 功能重叠需选型；小项目 spreadsheet eval 可能够用。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.braintrust.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "braintrust",
+  "name": "Braintrust",
+  "category": "ai-llm-obs",
+  "subcategory": "eval-platform",
+  "oneLiner": "Dataset/在离线 eval · playground+CI · product-grade LLM QA",
+  "officialUrl": "https://www.braintrust.dev",
+  "descriptionMd": "Braintrust 提供 dataset、online/offline eval、prompt playground 与 CI 集成，强调 product-grade LLM QA。\n\nAI feature 需要 systematic eval、A/B prompt 与 regression gate 的 product 团队。\n\n与 LangSmith 功能重叠需选型；小项目 spreadsheet eval 可能够用。\n",
+  "vendorId": "braintrust-data"
+}

@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "family"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "国际知名度与生态小于 Qwen/Llama；版本更新需跟踪 API changelog。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.baichuan-ai.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "baichuan",
+  "name": "Baichuan",
+  "category": "llm-family",
+  "subcategory": "family",
+  "oneLiner": "中文垂类深 · 开源+API 双轨 · 医疗/legal 有案例",
+  "officialUrl": "https://www.baichuan-ai.com",
+  "descriptionMd": "Baichuan 系列专注中文大模型，提供开源与 API 双轨，在长上下文与医疗/legal 等垂直场景有案例。\n\n国内垂直行业应用、需要中文优先且可私有化权重的团队。\n\n国际知名度与生态小于 Qwen/Llama；版本更新需跟踪 API changelog。\n",
+  "vendorId": "baichuan-inc"
+}

@@ -1,0 +1,34 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "tracing"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "独立使用价值有限；需配合 OTel collector 与 Grafana。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://grafana.com/oss/tempo/"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "tempo",
+  "name": "Grafana Tempo",
+  "category": "obs-platform",
+  "subcategory": "tracing",
+  "oneLiner": "Grafana 系 trace 存储 · 与 Loki/Mimir 同理念 · OTel 长期留存",
+  "officialUrl": "https://grafana.com/oss/tempo/",
+  "descriptionMd": "Grafana Tempo 与 Loki/Mimir 同理念，专注 trace 存储与 Grafana 关联，适合 OTel trace 长期留存。\n\nGrafana 全家桶用户希望 traces 与 logs/metrics 一键跳转关联时接入 Tempo。\n\n独立使用价值有限；需配合 OTel collector 与 Grafana。\n"
+}

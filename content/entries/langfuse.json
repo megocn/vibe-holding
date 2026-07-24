@@ -1,0 +1,34 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "observability",
+    "evals",
+    "self-host"
+  ],
+  "maturity": "stable",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://langfuse.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "langfuse",
+  "name": "Langfuse",
+  "category": "ai-llm-obs",
+  "subcategory": "observability",
+  "oneLiner": "开源 LLM 追踪/评分/数据集/Prompt · 可自托管 · AI 可观测常见选",
+  "descriptionMd": "Langfuse 开源提供 LLM 追踪、评分、数据集与 Prompt 管理，可自托管，是 AI 应用可观测的常见选择。\n\n适合把线上质量做成可迭代闭环；与应用框架（Mastra/LangGraph）互补。注意采集隐私与自托管成本。\n\n把线上失败样本沉淀成数据集，评测才闭环；注意提示词版本与发布对齐。\n",
+  "officialUrl": "https://langfuse.com"
+}

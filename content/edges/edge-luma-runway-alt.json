@@ -1,0 +1,10 @@
+{
+  "id": "edge-luma-runway-alt",
+  "from": "luma-ai",
+  "to": "runway",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

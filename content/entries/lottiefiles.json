@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "motion",
+    "lottie"
+  ],
+  "maturity": "stable",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://lottiefiles.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "lottiefiles",
+  "name": "LottieFiles",
+  "category": "design-motion",
+  "subcategory": "motion",
+  "oneLiner": "Lottie 矢量动效生态 · 资源/工具/协作 · Web/移动端常用",
+  "descriptionMd": "Lottie 是轻量矢量动效格式生态；LottieFiles 提供资源、工具与协作，Web/移动端常用。\n\n适合营销与微交互；注意运行时体积与复杂动画性能。与「图标集」不同层，不要和图标库同榜对比。\n\n设计交付用 JSON；工程侧控制播放次数与降级静态图，避免首屏卡顿。\n",
+  "officialUrl": "https://lottiefiles.com"
+}

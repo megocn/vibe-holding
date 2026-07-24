@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "mor",
+    "opensource",
+    "payment"
+  ],
+  "maturity": "stable",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://polar.sh"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "polar",
+  "name": "Polar",
+  "category": "pay-mor",
+  "subcategory": "mor",
+  "oneLiner": "开源项目/数字品变现 · MoR 税务托管叙事 · LS/Paddle 备选",
+  "descriptionMd": "Polar 强调开源项目与数字产品变现，带 MoR/税务托管叙事，常作 LS/Paddle 备选。\n\n适合开源+付费、赞助与商品化并行的作者。对比竞品时看品类支持、开发者 API 与政策稳定性。\n\n开源赞助与商业化同仓是特色；品类与地区覆盖以官方政策为准并定期复核。\n",
+  "officialUrl": "https://polar.sh"
+}

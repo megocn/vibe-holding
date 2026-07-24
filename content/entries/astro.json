@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "强交互 SPA 场景不如 Next.js；动态 API 需配 server adapter 或外置 backend。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://astro.build"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "astro",
+  "name": "Astro",
+  "category": "fw-fullstack",
+  "subcategory": "content-site",
+  "oneLiner": "内容站默认零 JS · 岛式挂 React/Vue · 博客/文档/营销页",
+  "officialUrl": "https://astro.build",
+  "descriptionMd": "Astro 是内容驱动 Web 框架，默认零 JS  shipped，可岛式集成 React/Vue/Svelte，适合博客、文档与营销站。\n\nSEO 敏感的内容站、文档站、或希望从 WordPress 迁移到 modern stack 时首选。\n\n强交互 SPA 场景不如 Next.js；动态 API 需配 server adapter 或外置 backend。\n",
+  "vendorId": "astro-inc"
+}

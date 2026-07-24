@@ -1,0 +1,10 @@
+{
+  "id": "tabnine-e0",
+  "from": "tabnine",
+  "to": "github-copilot",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

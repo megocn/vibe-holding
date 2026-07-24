@@ -1,0 +1,22 @@
+{
+  "id": "ai-rag-app",
+  "name": "AI RAG 应用版",
+  "target": "快速上线可检索私有知识的 AI Web 应用",
+  "layers": {
+    "coding-agent": "cursor",
+    "llm": "claude-opus",
+    "framework": "nextjs",
+    "ui": "shadcn-ui",
+    "ai-sdk": "vercel-ai-sdk",
+    "vector": "pgvector",
+    "baas": "supabase",
+    "deploy": "vercel",
+    "observability": "langfuse"
+  },
+  "rationaleMd": "TS 全链路：Cursor + Claude 写代码，AI SDK 流式，pgvector 顺 Postgres/Supabase，Langfuse 看链路。",
+  "estimatedCost": "月成本约 $20–60 起（视模型用量）",
+  "caveats": [
+    "向量与 chunk 策略决定效果",
+    "生产需配额与密钥轮换"
+  ]
+}

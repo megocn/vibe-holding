@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "默认 Material 视觉同质化；重度定制需投入 theme override。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://mui.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "mui",
+  "name": "MUI",
+  "category": "ui-kits",
+  "subcategory": "react-material",
+  "oneLiner": "Material 最流行实现 · 主题系统 · Data Grid 等 Pro 模块",
+  "officialUrl": "https://mui.com",
+  "descriptionMd": "MUI（Material UI）是 React 最流行的 Material Design 实现，提供完整组件、主题系统与 Data Grid 等 Pro 模块。\n\n企业 admin dashboard、B2B SaaS 需要成熟表格/表单/主题且团队熟悉 Material 时。\n\n默认 Material 视觉同质化；重度定制需投入 theme override。\n",
+  "vendorId": "mui-inc"
+}

@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "edge",
+    "kv"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "写入传播有延迟；.list 操作昂贵，大 value 应放 R2 仅 KV 存指针。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://developers.cloudflare.com/kv"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "cloudflare-kv",
+  "name": "Cloudflare KV",
+  "category": "db-cache",
+  "subcategory": "edge-kv",
+  "oneLiner": "边缘 eventually consistent KV · Workers 绑定 · 读多写少极低延迟",
+  "officialUrl": "https://developers.cloudflare.com/kv",
+  "descriptionMd": "KV 在全球边缘提供 eventually consistent 键值读，与 Workers 绑定，适合配置、A/B 标志与读多写少缓存，延迟极低。\n\nWorkers/Pages 边缘应用需要低延迟全球读配置时选用；不适合强一致计数器。\n\n写入传播有延迟；.list 操作昂贵，大 value 应放 R2 仅 KV 存指针。\n",
+  "vendorId": "cloudflare-inc"
+}

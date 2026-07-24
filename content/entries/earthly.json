@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "build",
+    "reproducible"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "额外抽象层增加学习成本；生态小于原生 Docker BuildKit。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://earthly.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "earthly",
+  "name": "Earthly",
+  "category": "cicd-pipeline",
+  "subcategory": "build",
+  "oneLiner": "Earthfile 封装 · 本地=CI 同命令 · 可复现 build/test",
+  "officialUrl": "https://earthly.dev",
+  "descriptionMd": "Earthly 用 Earthfile 封装 build/test，本地与 CI 同一命令可复现，减少「CI 才失败」问题。\n\nMonorepo 构建脚本分散在 Makefile/CI YAML 中难以维护时统一为 Earthfile。\n\n额外抽象层增加学习成本；生态小于原生 Docker BuildKit。\n"
+}

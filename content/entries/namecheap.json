@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "domain"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "高级 DNS 功能不如 Cloudflare；转移锁与 auto-renew 要确认。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.namecheap.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "namecheap",
+  "name": "Namecheap",
+  "category": "net-domain",
+  "subcategory": "registrar",
+  "oneLiner": "价透明 · WhoisGuard · indie 常用注册商",
+  "officialUrl": "https://www.namecheap.com",
+  "descriptionMd": "Namecheap 提供域名注册、WhoisGuard 与基础 DNS，价格透明，个人与 indie hacker 常用。\n\n注册 .com/.dev 等新项目域名、需要便宜 SSL 与 DNS 托管时首选之一。\n\n高级 DNS 功能不如 Cloudflare；转移锁与 auto-renew 要确认。\n",
+  "vendorId": "namecheap-inc"
+}

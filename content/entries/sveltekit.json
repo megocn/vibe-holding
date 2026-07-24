@@ -1,0 +1,43 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "svelte",
+    "fullstack"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "招聘与组件生态小于 React"
+  ],
+  "updates": [],
+  "sources": [
+    "https://kit.svelte.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "sveltekit",
+  "name": "SvelteKit",
+  "category": "fw-fullstack",
+  "subcategory": "fullstack",
+  "oneLiner": "Svelte 全栈 · 编译期优化 · 包体更小 · 心智简洁",
+  "descriptionMd": "SvelteKit 是 Svelte 的全栈框架，编译期优化带来更小包体与简洁心智，性能口碑好。\n\n生态体量小于 React/Next；适合认可 Svelte 模型的团队。部署适配多平台。\n\n适配器决定部署目标（Node/CF/Vercel 等）；选型时先定托管再定适配器。\n",
+  "officialUrl": "https://kit.svelte.dev",
+  "rankings": [
+    {
+      "systemId": "state-of-js",
+      "tier": "High retention",
+      "period": "2025 Survey",
+      "note": "兴趣/留存常年靠前，用量低于 React/Vue",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

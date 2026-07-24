@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "视觉偏传统 enterprise；高度定制 marketing 页不如 Tailwind 自由。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://element-plus.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "both",
+  "id": "element-plus",
+  "name": "Element Plus",
+  "category": "ui-kits",
+  "subcategory": "vue-enterprise",
+  "oneLiner": "Vue3 国内 admin 主导 · Element 继任 · enterprise 组件全",
+  "officialUrl": "https://element-plus.org",
+  "descriptionMd": "Element Plus 是 Element UI 的 Vue 3 继任，提供完整 enterprise 组件，在国内 Vue admin 生态占主导。\n\n国内 Vue 后台、Element 存量升级 Vue 3、或需要成熟 table/form 中文文档时。\n\n视觉偏传统 enterprise；高度定制 marketing 页不如 Tailwind 自由。\n",
+  "vendorId": "element-plus-inc"
+}

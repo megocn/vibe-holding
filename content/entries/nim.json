@@ -1,0 +1,32 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "社区与包生态小；生产 Web 后端案例有限。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://nim-lang.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "nim",
+  "name": "Nim",
+  "category": "lang-language",
+  "subcategory": "systems-script",
+  "oneLiner": "Python 味语法 · 编译到 C/JS · 高性能 CLI/系统工具",
+  "officialUrl": "https://nim-lang.org",
+  "descriptionMd": "Nim 编译为 C/C++/JS，语法类似 Python，适合编写高性能 CLI、游戏脚本与系统工具。建议结合团队现有栈、合规要求与成本模型做小规模 POC 后再定稿。\n\n需要单文件二进制分发、或从 Python 迁移追求性能的工具项目。\n\n社区与包生态小；生产 Web 后端案例有限。\n"
+}

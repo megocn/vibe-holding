@@ -1,0 +1,5 @@
+# Cloudflare Pages — 墨台（VibeHolding）Web 静态壳
+# 部署：pnpm build:web && pnpm deploy:pages
+name = "vibeholding"
+compatibility_date = "2026-07-24"
+pages_build_output_dir = "apps/desktop/dist"

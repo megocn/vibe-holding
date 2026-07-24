@@ -1,0 +1,36 @@
+{
+  "id": "gsap",
+  "name": "GSAP",
+  "category": "design-motion",
+  "subcategory": "code-motion",
+  "region": "overseas",
+  "oneLiner": "Web 动画时间轴/scroll · 跨浏览器稳健 · 营销页与复杂交互",
+  "descriptionMd": "GSAP（GreenSock）是 Web 动画事实标准级 JS 库，时间轴、scroll 触发与跨浏览器稳健性长期领先，适合营销页与复杂交互动效。\n\n当 Lottie/Rive 偏设计师交付、而工程需要代码精确控制序列动画时选 GSAP；与 React/Vue 均可集成。\n\n部分插件授权需按官网当前政策核对；与 CSS 动画相比包体与学习曲线更高，简单 hover 不必上。\n",
+  "officialUrl": "https://gsap.com",
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "motion",
+    "javascript"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "商用授权条款需按官网当前政策核对",
+    "滥用易导致主线程卡顿，需性能剖析"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://gsap.com"
+  ],
+  "lastReviewed": "2026-07-23"
+}

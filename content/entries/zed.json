@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "插件生态仍小于 VS Code；团队若深度依赖特定 JetBrains 插件需评估迁移成本。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://zed.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "zed",
+  "name": "Zed",
+  "category": "coding-ide-agent",
+  "subcategory": "native-ide",
+  "oneLiner": "Rust 原生高性能 · 实时协作 · 轻量非 VS Code 生态",
+  "officialUrl": "https://zed.dev",
+  "descriptionMd": "Zed 是用 Rust 编写的原生 IDE，内置多人协作、低延迟编辑与 AI 补全，强调极致性能与现代 UX，支持 LSP 与远程开发。\n\n追求编辑器响应速度与轻量体验、且愿意尝试非 VS Code 生态的开发者；与 Rust/TS 项目搭配体验突出。\n\n插件生态仍小于 VS Code；团队若深度依赖特定 JetBrains 插件需评估迁移成本。\n",
+  "vendorId": "zed-industries"
+}

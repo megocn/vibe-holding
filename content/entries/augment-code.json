@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "subscription"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "索引构建耗时；权限模型配置不当可能泄露敏感模块。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.augmentcode.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "augment-code",
+  "name": "Augment Code",
+  "category": "coding-ide-agent",
+  "subcategory": "ide-extension",
+  "oneLiner": "企业私有仓索引 · 大 monorepo 上下文 · 合规叙事强",
+  "officialUrl": "https://www.augmentcode.com",
+  "descriptionMd": "Augment Code 面向企业工程团队，索引私有代码库并提供高上下文补全与 Agent，强调安全合规与大型 monorepo 理解。\n\n数百人工程组织需要比通用 Copilot 更懂内部框架与 API 的助手时可 POC。\n\n索引构建耗时；权限模型配置不当可能泄露敏感模块。\n",
+  "vendorId": "augment-code-inc"
+}

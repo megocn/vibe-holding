@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "domestic",
+    "ide-agent",
+    "iflytek"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "生态与英文开源栈资料少于国际 Agent",
+    "企业版能力与个人版差异大，需按采购包确认"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://iflycode.xfyun.cn/"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "domestic",
+  "id": "iflycode",
+  "name": "iFlyCode",
+  "category": "coding-ide-agent",
+  "subcategory": "ide-agent",
+  "oneLiner": "科大讯飞国内 IDE 编码助手",
+  "descriptionMd": "**iFlyCode** 是科大讯飞面向国内开发者的 AI 编码助手，提供补全、对话改码与 IDE 集成，强调国内可访问与政企场景。\n\n已在讯飞/国内合规采购路径上的团队可评估；与通义灵码、CodeGeeX、Trae 同属国内 IDE Agent 对比池。\n\n模型能力与生态插件相对 Cursor/Claude Code 国际线有差距；选型看网络可达、数据驻留与招标名单，而非只看演示。\n",
+  "officialUrl": "https://iflycode.xfyun.cn/"
+}

@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "seo"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "价格偏高；仅适合 SEO 是核心渠道的团队。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://ahrefs.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "ahrefs",
+  "name": "Ahrefs",
+  "category": "growth-web",
+  "subcategory": "seo",
+  "oneLiner": "外链/关键词/站点审计 · Rank tracking 深 · SEO premium",
+  "officialUrl": "https://ahrefs.com",
+  "descriptionMd": "Ahrefs 提供关键词研究、站点审计、外链监控与 rank tracking，是 SEO 从业者常用 premium 工具。\n\n内容营销与 SEO 驱动增长、需要 competitive backlink 情报时投资 Ahrefs。\n\n价格偏高；仅适合 SEO 是核心渠道的团队。\n",
+  "vendorId": "ahrefs-inc"
+}

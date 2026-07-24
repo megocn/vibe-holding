@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "subscription"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "公开信息较少、采购周期长；中小团队不适合作为首选 Copilot。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://poolside.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "poolside",
+  "name": "poolside",
+  "category": "coding-ide-agent",
+  "subcategory": "enterprise-copilot",
+  "oneLiner": "企业自托管代码基座 · 内网隔离微调 · 重安全预算档",
+  "officialUrl": "https://poolside.ai",
+  "descriptionMd": "poolside 训练面向软件的专用基础模型并交付企业私有化 Copilot，强调安全隔离与大型代码语料微调。\n\n超大型金融机构或国防相关项目需要完全内网代码 AI 且预算充足时可接触销售评估。\n\n公开信息较少、采购周期长；中小团队不适合作为首选 Copilot。\n",
+  "vendorId": "poolside-ai"
+}

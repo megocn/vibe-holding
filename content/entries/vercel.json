@@ -1,0 +1,60 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "deploy",
+    "serverless",
+    "vibe-friendly"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "超额计费需关注",
+    "国内访问不稳定"
+  ],
+  "updates": [
+    {
+      "date": "2026-07-01",
+      "type": "pricing",
+      "summary": "Hobby 额度调整",
+      "source": "https://vercel.com/pricing"
+    }
+  ],
+  "sources": [
+    "https://vercel.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "vercel",
+  "name": "Vercel",
+  "category": "cloud-paas",
+  "vendorId": "vercel-inc",
+  "oneLiner": "Next.js 一等集成 · 预览部署成熟 · 边缘网络强 · 国内访问需评估",
+  "descriptionMd": "Vercel 是前端与 Serverless 部署平台，与 Next.js 一等集成，预览部署与边缘网络成熟。\n\nIndie Web 默认托管之一；成本随团队与超出发火流量上涨时对照 Cloudflare/自建。中国大陆访问需另备策略。\n\n预览 URL 利于评审；团队席位与商业功能是成本拐点，提前算清楚。\n",
+  "officialUrl": "https://vercel.com",
+  "rankings": [
+    {
+      "systemId": "gartner-mq-cloud",
+      "tier": "PaaS / Front-end cloud",
+      "period": "2025–2026",
+      "note": "偏前端/边缘 PaaS；完整 IaaS 象限以 AWS/Azure/GCP 为主",
+      "asOf": "2026-07-20"
+    },
+    {
+      "systemId": "cncf-survey",
+      "tier": "App platform",
+      "period": "2025 Survey",
+      "note": "独立开发者部署心智份额高",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

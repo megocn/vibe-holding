@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "video",
+    "social"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "影视级长镜头与商用授权需核对；质量随版本波动。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://pixverse.ai"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "pixverse",
+  "name": "PixVerse",
+  "category": "design-ai-video",
+  "subcategory": "video-gen",
+  "oneLiner": "多镜视频 · 转场/参考 · 社交向",
+  "officialUrl": "https://pixverse.ai",
+  "descriptionMd": "PixVerse 面向创作者的 AI 视频平台，强调多镜生成、转场、参考图与音频相关控制，适合短视频与社交素材快速迭代。\n\n需要短多镜、社交节奏、快速试风格时评估；与 Pika/Luma 对照。\n\n影视级长镜头与商用授权需核对；质量随版本波动。\n",
+  "vendorId": "pixverse-inc"
+}

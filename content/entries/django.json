@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "async 支持与前端分离不如 FastAPI 现代；API-only 微服务可能过重。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.djangoproject.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "django",
+  "name": "Django",
+  "category": "fw-fullstack",
+  "subcategory": "python-fullstack",
+  "oneLiner": "Python batteries · ORM/admin/auth · CMS/内部后台快",
+  "officialUrl": "https://www.djangoproject.com",
+  "descriptionMd": "Django 是 batteries-included Python 框架，内置 ORM、admin、auth，适合 CMS、internal admin 与 rapid backend。\n\n需要自带 admin 面板、内容管理与成熟 auth 的中大型 Python Web 项目。\n\nasync 支持与前端分离不如 FastAPI 现代；API-only 微服务可能过重。\n",
+  "vendorId": "django-software"
+}

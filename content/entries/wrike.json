@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "pm",
+    "enterprise"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "engineering 一线开发者体验不如 Linear；实施周期可能较长。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.wrike.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "wrike",
+  "name": "Wrike",
+  "category": "collab-pm",
+  "subcategory": "work-management",
+  "oneLiner": "跨职能 Gantt/审校/资源 · 营销+PMO 向 · 一线开发体验弱于 Linear",
+  "officialUrl": "https://www.wrike.com",
+  "descriptionMd": "Wrike 提供 cross-functional Gantt、proofing 与 resource management，marketing+PMO 场景多。\n\nEnterprise 需要 portfolio 管理与复杂 approval workflow 时评估 Wrike。\n\nengineering 一线开发者体验不如 Linear；实施周期可能较长。\n",
+  "vendorId": "wrike-inc"
+}

@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "运维与 JVM 调优门槛高；小 RAG 项目 overkill。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://vespa.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "vespa",
+  "name": "Vespa",
+  "category": "ai-vector",
+  "subcategory": "search-engine",
+  "oneLiner": "keyword+vector+ranking 一体 · billion-doc · JVM 重型检索",
+  "officialUrl": "https://vespa.ai",
+  "descriptionMd": "Vespa 是 JVM 搜索平台，统一 keyword、vector 与 ranking，适合 billion-document 级 retrieval。\n\n大型电商/媒体搜索、需要 custom ranking 与 vector hybrid 的自托管团队。\n\n运维与 JVM 调优门槛高；小 RAG 项目 overkill。\n",
+  "vendorId": "vespa-ai"
+}

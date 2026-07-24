@@ -1,0 +1,34 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "im",
+    "domestic"
+  ],
+  "maturity": "mature",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://work.weixin.qq.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "wecom",
+  "name": "企业微信",
+  "category": "msg-im",
+  "subcategory": "im",
+  "vendorId": "tencent",
+  "oneLiner": "企微 · 微信生态打通 · B2B 客户触达+内部通知",
+  "descriptionMd": "企业微信承担国内 B2B 触达、客户联系与内部通知，并与微信生态打通。\n\nToB 产品常需对接；与飞书按公司协作套件二选一或并行。开放能力与权限包较细，集成成本高于「只发群机器人」。\n\n客户联系与活码适合私域；内部机器人通知则更轻，按场景选开放能力包。\n",
+  "officialUrl": "https://work.weixin.qq.com"
+}

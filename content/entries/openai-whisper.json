@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "asr",
+    "stt",
+    "whisper",
+    "openai"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "流式电话级延迟与端点检测不如专用 STT；国内直连受限，常经 Azure 或中转。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://platform.openai.com/docs/guides/speech-to-text"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "openai-whisper",
+  "name": "OpenAI Whisper / Transcribe",
+  "category": "ai-speech",
+  "subcategory": "asr",
+  "oneLiner": "Whisper 生态 · gpt-4o-transcribe · 多语转写",
+  "officialUrl": "https://platform.openai.com/docs/guides/speech-to-text",
+  "descriptionMd": "OpenAI 语音转写线从开源 Whisper 演进到托管 Transcription API（含 gpt-4o-transcribe 等），覆盖批处理与近实时多语识别。\n\n需要快速接入转写、与 GPT 同账号结算、或本地可跑开源 Whisper 权重做私有化时选用。\n\n流式电话级延迟与端点检测不如专用 STT；国内直连受限，常经 Azure 或中转。\n",
+  "vendorId": "openai",
+  "docsUrl": "https://platform.openai.com/docs/guides/speech-to-text"
+}

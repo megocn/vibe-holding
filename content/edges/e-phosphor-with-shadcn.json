@@ -1,0 +1,11 @@
+{
+  "id": "e-phosphor-with-shadcn",
+  "from": "phosphor-icons",
+  "to": "shadcn-ui",
+  "type": "commonly_used_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23",
+  "note": "可替换 Lucide；本仓库设计规范采用 Phosphor"
+}

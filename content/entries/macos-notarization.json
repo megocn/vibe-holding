@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "free",
+    "notes": "随 Apple Developer 账号包含公证流程"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "macos",
+    "signing"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "Hardened Runtime 与 entitlements 配置错误会导致公证失败；CI 需 Apple ID app-specific password 或 API key。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://developer.apple.com/documentation/security/notarizing_macos_software_before_distribution"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "macos-notarization",
+  "name": "macOS Notarization",
+  "category": "dist-desktop",
+  "subcategory": "signing",
+  "oneLiner": "Gatekeeper 硬门槛 · Apple 扫描+ticket stapling · 非 App Store 必做",
+  "officialUrl": "https://developer.apple.com/documentation/security/notarizing_macos_software_before_distribution",
+  "descriptionMd": "Notarization 是 Apple 对 macOS 分发软件的安全扫描与 ticket  stapling，Gatekeeper 要求 downloaded  app 必须 notarized（除 App Store）。\n\nMac 桌面 App 在 Store 外分发（DMG/ZIP）前必须完成 notarization；Electron/Tauri 打包流水线要集成。\n\nHardened Runtime 与 entitlements 配置错误会导致公证失败；CI 需 Apple ID app-specific password 或 API key。\n"
+}

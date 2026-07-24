@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "最新模型能力与 GPT-5.6 / Claude Opus 等 frontier 仍有差距；复杂架构设计任务需人工校验输出。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://codegeex.cn"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "codegeex",
+  "name": "CodeGeeX",
+  "category": "coding-ide-agent",
+  "subcategory": "ide-extension",
+  "oneLiner": "智谱系 · 多语言补全 · 可私有化部署",
+  "officialUrl": "https://codegeex.cn",
+  "descriptionMd": "CodeGeeX 由智谱 AI 维护，提供 IDE 插件与 API，覆盖 100+ 语言代码补全、解释与生成，支持私有化部署选项。\n\n需要中文友好、可本地或私有化部署的 Copilot 替代方案时考虑；教育科研场景使用广泛。\n\n最新模型能力与 GPT-5.6 / Claude Opus 等 frontier 仍有差距；复杂架构设计任务需人工校验输出。\n",
+  "vendorId": "zhipu-codegeex"
+}

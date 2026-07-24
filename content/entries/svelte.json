@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "就业市场小于 React；复杂 enterprise 组件库选择少。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://svelte.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "svelte",
+  "name": "Svelte",
+  "category": "fw-fullstack",
+  "subcategory": "ui-compiler",
+  "oneLiner": "编译无 VDOM · DX 简洁 · SvelteKit 补全栈",
+  "officialUrl": "https://svelte.dev",
+  "descriptionMd": "Svelte 将响应式编译为 vanilla JS，无 virtual DOM runtime，DX 简洁，SvelteKit 提供全栈能力。\n\n追求小 bundle、喜欢模板语法、或从 Vue 迁移的中小型项目。\n\n就业市场小于 React；复杂 enterprise 组件库选择少。\n",
+  "vendorId": "svelte-team"
+}

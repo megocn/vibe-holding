@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "auth",
+    "billing"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "生态与 SDK 小于 Clerk；复杂 custom JWT claims 与 enterprise SAML 需验证 tier。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://kinde.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "kinde",
+  "name": "Kinde",
+  "category": "baas-auth-only",
+  "subcategory": "saas",
+  "oneLiner": "认证+组织+flags+订阅 billing 一体 · Startup 友好价 · 可替 Clerk+Stripe 部分",
+  "officialUrl": "https://kinde.com",
+  "descriptionMd": "Kinde 提供认证、组织、角色、feature flags 与订阅 billing 一体化，Startup 友好定价，替代 Clerk+Stripe 部分组合。\n\n早期 B2B/B2C SaaS 希望一个 vendor 覆盖 auth 与 plan gating 时评估；澳洲团队 GDPR 意识强。\n\n生态与 SDK 小于 Clerk；复杂 custom JWT claims 与 enterprise SAML 需验证 tier。\n",
+  "vendorId": "kinde-inc"
+}

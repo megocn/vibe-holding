@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "realtime",
+    "multimodal",
+    "omni",
+    "domestic",
+    "qwen"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "模态越多成本与延迟越高；与 Gemini Live 对标时注意区域可达与工具调用成熟度。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://help.aliyun.com/zh/model-studio/s2s-model"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "domestic",
+  "id": "qwen-omni-realtime",
+  "name": "Qwen-Omni Realtime",
+  "category": "ai-realtime",
+  "subcategory": "speech-to-speech",
+  "oneLiner": "通义 Omni 实时 · 音视频多模态 · 百炼",
+  "officialUrl": "https://help.aliyun.com/zh/model-studio/s2s-model",
+  "descriptionMd": "Qwen-Omni Realtime（如 qwen3.5-omni-flash-realtime）在实时会话中同时处理文本/音频/图像等输入，面向「边看边说」的多模态助手，与纯语音的 Qwen-Audio Realtime 分工不同。\n\n需要摄像头/屏幕画面 + 语音同会话、国内合规落地时评估；纯电话/耳机语音可优先 Audio Realtime 以降本。\n\n模态越多成本与延迟越高；与 Gemini Live 对标时注意区域可达与工具调用成熟度。\n",
+  "vendorId": "alibaba-cloud",
+  "currentVersion": "3.5 Omni Flash Realtime"
+}

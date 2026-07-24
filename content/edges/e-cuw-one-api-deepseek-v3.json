@@ -1,0 +1,10 @@
+{
+  "id": "e-cuw-one-api-deepseek-v3",
+  "from": "one-api",
+  "to": "deepseek-v3",
+  "type": "commonly_used_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "cline-e0",
+  "from": "cline",
+  "to": "cursor",
+  "type": "open_source_alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

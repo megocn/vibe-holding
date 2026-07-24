@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line",
+    "flagship"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "通用 chat 创造力可能不如 GPT/Claude；定价含检索组件需看清账单。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://cohere.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "cohere-command-r",
+  "name": "Command A+",
+  "category": "llm-line",
+  "subcategory": "line",
+  "oneLiner": "Cohere RAG/tool 旗舰 · 现为 Command A+ · 企业检索 grounding",
+  "officialUrl": "https://cohere.com",
+  "descriptionMd": "Cohere 面向 RAG 与 tool use 的旗舰 line。当前版本为 Command A+（约 2026-05）；Command R+ 仍可能在售但是上一代旗舰命名。\n\n企业知识库 Bot、需要 cite 来源的客服与 internal search 场景。\n\n通用 chat 创造力可能不如 GPT/Claude；定价按 token+检索组件计费需看清账单。\n",
+  "vendorId": "cohere-inc",
+  "currentVersion": "A+"
+}

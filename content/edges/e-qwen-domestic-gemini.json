@@ -1,0 +1,10 @@
+{
+  "id": "e-qwen-domestic-gemini",
+  "from": "qwen-max",
+  "to": "gemini-pro",
+  "type": "domestic_equivalent_of",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

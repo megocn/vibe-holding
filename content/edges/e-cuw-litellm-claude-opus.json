@@ -1,0 +1,10 @@
+{
+  "id": "e-cuw-litellm-claude-opus",
+  "from": "litellm",
+  "to": "claude-opus",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

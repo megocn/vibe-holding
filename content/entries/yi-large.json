@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line",
+    "flagship"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "与 Qwen-Max 等竞品需横向 benchmark；注意 API 域名国内访问稳定性。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.lingyiwanwu.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "both",
+  "id": "yi-large",
+  "name": "Yi-Lightning",
+  "category": "llm-line",
+  "subcategory": "line",
+  "oneLiner": "零一旗舰 · Yi-Lightning · 长上下文双语/高吞吐",
+  "officialUrl": "https://www.lingyiwanwu.com",
+  "descriptionMd": "Yi 家族旗舰 API line。公开主推里程碑为 **Yi-Lightning**（Yi-Large 为更早旗舰命名）。\n\n国内出海双语文本、长上下文与高性价比 API；与 Qwen-Max 等需横向 benchmark。\n\n注意 API 域名国内访问稳定性与 license。\n",
+  "vendorId": "01-ai",
+  "currentVersion": "Lightning"
+}

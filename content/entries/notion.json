@@ -1,0 +1,34 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "docs",
+    "wiki"
+  ],
+  "maturity": "mature",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.notion.so"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "notion",
+  "name": "Notion",
+  "category": "collab-docs",
+  "subcategory": "docs",
+  "oneLiner": "文档+数据库+Wiki 一体 · 知识沉淀与轻量业务表",
+  "descriptionMd": "Notion 把文档、数据库与 Wiki 合在一起，适合团队知识沉淀与轻量业务表。\n\n工程交付追踪更常 Linear/GitHub；Notion 偏「写清楚与对齐」。API 可做轻集成，但不要当高并发业务库。\n\n轻量 CMS/发布日历可行；高并发内容库或权限复杂场景易撞墙。\n",
+  "officialUrl": "https://www.notion.so"
+}

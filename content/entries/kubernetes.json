@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "containers",
+    "orchestration"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "学习曲线陡峭；小项目直接 PaaS（Railway/Fly）可能更省运维。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://kubernetes.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "kubernetes",
+  "name": "Kubernetes",
+  "category": "cicd-pipeline",
+  "subcategory": "orchestration",
+  "oneLiner": "容器编排核心 · 声明式伸缩/滚动 · 云原生工作负载",
+  "officialUrl": "https://kubernetes.io",
+  "descriptionMd": "Kubernetes 编排容器化工作负载，提供声明式部署、服务发现、自动伸缩与 rolling update，云原生基础设施核心。\n\n微服务上云、需要 portable 编排且团队有 SRE 能力时采用；与 Helm/Argo 生态丰富。\n\n学习曲线陡峭；小项目直接 PaaS（Railway/Fly）可能更省运维。\n"
+}

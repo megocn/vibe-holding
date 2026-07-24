@@ -1,0 +1,10 @@
+{
+  "id": "edge-grok-imagine-mj-alt",
+  "from": "grok-imagine",
+  "to": "midjourney",
+  "type": "alternative_to",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

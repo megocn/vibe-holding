@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "mock",
+    "test"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "handlers 与真实 API 漂移会产生假绿；应定期与 OpenAPI 同步或 contract test。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://mswjs.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "msw",
+  "name": "MSW",
+  "category": "oss-toolchain",
+  "subcategory": "test",
+  "oneLiner": "Service Worker 拦截 · 浏览器/Node 同 handlers · Storybook 友好",
+  "officialUrl": "https://mswjs.io",
+  "descriptionMd": "MSW 在浏览器/Node 拦截网络请求，提供真实 fetch 路径的 mock，适合组件测试与 Storybook。\n\n前后端并行开发、或 E2E 需稳定 fixture 而不想维护独立 mock server 时使用。\n\nhandlers 与真实 API 漂移会产生假绿；应定期与 OpenAPI 同步或 contract test。\n"
+}

@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "stock"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "与 Unsplash 内容重叠多；注意 model release 与 attribution 要求变化。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.pexels.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "pexels",
+  "name": "Pexels",
+  "category": "design-tools",
+  "subcategory": "stock",
+  "oneLiner": "免费图/视频 stock · 宽松商用向 · indie 配图",
+  "officialUrl": "https://www.pexels.com",
+  "descriptionMd": "Pexels 提供免费 stock photos/videos，与 Canva 等同生态，适合 indie 内容与博客配图。\n\n视频 b-roll 与静态图都要免费源时 Pexels 一站式；API 集成简单。\n\n与 Unsplash 内容重叠多；注意 model release 与 attribution 要求变化。\n",
+  "vendorId": "canva-inc"
+}

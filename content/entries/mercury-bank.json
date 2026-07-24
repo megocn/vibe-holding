@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "us"
+    ]
+  },
+  "tags": [
+    "banking",
+    "startup"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "仅服务美国注册实体；非美国 founder 需配合 Stripe Atlas/Firstbase 等实体，FDIC 通过 partner bank。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://mercury.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "mercury-bank",
+  "name": "Mercury",
+  "category": "global-entity",
+  "subcategory": "banking",
+  "oneLiner": "美企 startup 银行 · Wire/虚拟卡/API · 需美国实体",
+  "officialUrl": "https://mercury.com",
+  "descriptionMd": "Mercury 为美国注册的 tech startup 提供 checking、savings、wire 与 virtual card，API 与 UX 面向 remote-first 公司。\n\nDelaware C-Corp 需要美国银行账户收 Stripe/investor 汇款、且不想跑 physical branch 时常见首选。\n\n仅服务美国注册实体；非美国 founder 需配合 Stripe Atlas/Firstbase 等实体，FDIC 通过 partner bank。\n",
+  "vendorId": "mercury"
+}

@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "family"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "Gemma 4 起为 Apache 2.0，更早版本仍为 Gemma Terms；不等于 Gemini API 能力，勿直接替代付费 API。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://ai.google.dev/gemma"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "gemma",
+  "name": "Gemma",
+  "category": "llm-family",
+  "subcategory": "family",
+  "oneLiner": "Google DeepMind 开源族 · 现至 Gemma 4 · 端侧到 31B",
+  "officialUrl": "https://ai.google.dev/gemma",
+  "descriptionMd": "Gemma 是 Google DeepMind 基于 Gemini 技术路线的开源模型系列。当前主力为 Gemma 4（E2B–31B，含 MoE），覆盖端侧到工作站；更早还有 Gemma 2/3 等版本。\n\n需要 Google 技术背书的开源权重、端侧/本地部署、研究微调或 Apache 2.0 友好许可时优先考虑。\n\nGemma 4 起为 Apache 2.0，更早版本仍为 Gemma Terms；不等于 Gemini API 能力，勿直接替代付费 API。\n",
+  "vendorId": "google-gemma"
+}

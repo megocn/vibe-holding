@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "edge",
+    "serverless"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "CPU 时间有限制；长时间计算或大型 Node 依赖不适合，状态管理要配 D1/KV/DO。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://workers.cloudflare.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "cloudflare-workers",
+  "name": "Cloudflare Workers",
+  "category": "cloud-paas",
+  "subcategory": "edge",
+  "oneLiner": "V8 边缘隔离 · 毫秒冷启动 · KV/D1/R2 拼边缘全栈",
+  "officialUrl": "https://workers.cloudflare.com",
+  "descriptionMd": "Workers 在全球边缘运行 V8 隔离的 JavaScript/WebAssembly，毫秒级冷启动，配 KV/D1/R2 构成边缘全栈，适合低延迟 API 与 SSR。\n\n需要全球边缘、与 Cloudflare Pages/CDN 同栈或要拦截/transform 请求时首选；OpenNext 可部署 Next.js。\n\nCPU 时间有限制；长时间计算或大型 Node 依赖不适合，状态管理要配 D1/KV/DO。\n",
+  "vendorId": "cloudflare-inc"
+}

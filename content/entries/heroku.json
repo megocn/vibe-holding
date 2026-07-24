@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "paas"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "2022 年后免费层取消，成本高于 Railway/Render；dyno 休眠与 Eco 计划限制需对照 SLA，大规模应用可能迁移至 AWS/GCP。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://heroku.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "heroku",
+  "name": "Heroku",
+  "category": "cloud-paas",
+  "subcategory": "paas",
+  "oneLiner": "buildpack+add-on 生态 · 多运行时一键部署 · PaaS 品类先驱",
+  "officialUrl": "https://heroku.com",
+  "descriptionMd": "Heroku 是 PaaS 品类先驱，以 buildpack 与 add-on 生态著称，支持 Ruby/Node/Python 等运行时一键部署，适合原型到中小规模生产。\n\n团队已有 Heroku 投资、或需要成熟 add-on 市场（Postgres、Redis、监控）时继续沿用；Salesforce 企业客户集成场景仍常见。\n\n2022 年后免费层取消，成本高于 Railway/Render；dyno 休眠与 Eco 计划限制需对照 SLA，大规模应用可能迁移至 AWS/GCP。\n",
+  "vendorId": "salesforce-heroku"
+}

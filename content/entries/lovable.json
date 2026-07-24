@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "vibe-friendly",
+    "cloud-builder",
+    "runtime:vendor-cloud"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "厂商 runtime 锁仓，毕业到自有栈成本高",
+    "不适合持有真实生产凭据的长期项目"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://lovable.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "lovable",
+  "name": "Lovable",
+  "category": "coding-cloud-builder",
+  "subcategory": "cloud-builder",
+  "oneLiner": "提示即全栈 · React/Supabase 意见栈 · Flavor B 云 runtime 锁",
+  "descriptionMd": "Lovable 是「提示即全栈应用」的云端 Builder（Flavor B）：浏览器内从描述到部署，默认意见栈（如 React/Supabase）。\n\n出活极快，但 auth/DB/deploy 锁仓风险高。有真实用户与收入前，应规划导出到可移植仓库与自有云。\n\n适合验证交互与信息架构；数据库规则与密钥一旦进生产，迁移成本陡增。\n",
+  "officialUrl": "https://lovable.dev"
+}

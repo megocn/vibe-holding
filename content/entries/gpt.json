@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "family",
+    "openai"
+  ],
+  "maturity": "mature",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [
+    {
+      "systemId": "llm-family-landscape",
+      "tier": "Frontier closed",
+      "period": "2026-07",
+      "note": "族级定位；能力对比请打开下属选型档位",
+      "asOf": "2026-07-23"
+    }
+  ],
+  "sources": [
+    "https://openai.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "gpt",
+  "name": "GPT",
+  "category": "llm-family",
+  "vendorId": "openai",
+  "oneLiner": "OpenAI 族 · 现至 GPT-5.6（Sol/Terra/Luna）· 工具调用与生态最广",
+  "descriptionMd": "GPT 是 OpenAI 大模型产品族。当前版本为 GPT-5.6：Sol 旗舰、Terra 均衡、Luna 成本档（2026-07 GA）。\n\n需要最广工具生态、多模态与企业集成时的默认海外选型族。\n\n国内访问受限；政策与额度变化频繁，生产需锁模型版本与区域。\n",
+  "officialUrl": "https://openai.com"
+}

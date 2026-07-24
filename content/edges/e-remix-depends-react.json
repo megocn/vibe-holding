@@ -1,0 +1,10 @@
+{
+  "id": "e-remix-depends-react",
+  "from": "remix",
+  "to": "react",
+  "type": "depends_on",
+  "weight": 1,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

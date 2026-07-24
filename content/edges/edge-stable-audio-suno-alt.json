@@ -1,0 +1,10 @@
+{
+  "id": "edge-stable-audio-suno-alt",
+  "from": "stable-audio",
+  "to": "suno",
+  "type": "alternative_to",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

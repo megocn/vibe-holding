@@ -1,0 +1,66 @@
+{
+  "id": "kimi-k3",
+  "name": "Kimi 旗舰",
+  "category": "llm-line",
+  "subcategory": "line",
+  "vendorId": "moonshot-inc",
+  "region": "domestic",
+  "oneLiner": "月之暗面旗舰 · MoE/百万级上下文叙事 · 原生多模态；自托管门槛高",
+  "descriptionMd": "月之暗面 Kimi 产品族的**旗舰选型档**。当前版本为 K3（约 2.8T MoE、百万级上下文、原生多模态等能力叙事，以官方为准）。\n\n与 Claude Opus、Qwen-Max、DeepSeek 旗舰同属档位粒度，可对齐 Arena/定价；不要与「通义千问产品族」等上层节点直接同列。\n\n旗舰档对齐海外旗舰做评测；上下文很长也不要无脑塞整仓，仍要检索与摘要。\n",
+  "officialUrl": "https://www.kimi.com",
+  "docsUrl": "https://platform.kimi.com/docs/guide/kimi-k3-quickstart",
+  "currentVersion": "K3",
+  "pricing": {
+    "model": "usage",
+    "notes": "API：缓存命中输入约 $0.30/MTok，未命中约 $3/MTok，输出约 $15/MTok（以官方为准）",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN",
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line",
+    "domestic",
+    "open-weights",
+    "moe",
+    "long-context",
+    "flagship"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "旗舰调用需充值解锁；新用户代金券不可用于 K3",
+    "自托管需大规模加速器集群，非消费级硬件可跑满血",
+    "C 端高峰可能限流"
+  ],
+  "updates": [
+    {
+      "date": "2026-07-16",
+      "type": "release",
+      "version": "K3",
+      "summary": "发布 Kimi K3：2.8T MoE、1M 上下文、原生视觉；API 上线",
+      "source": "https://www.kimi.com/zh-cn/blog/kimi-k3"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "lmarena-text",
+      "tier": "Open frontier",
+      "period": "2026-07",
+      "note": "开源/开权重量级旗舰；闭源顶尖仍可能领先",
+      "sourceUrl": "https://www.kimi.com/zh-cn/blog/kimi-k3",
+      "asOf": "2026-07-23"
+    }
+  ],
+  "sources": [
+    "https://www.kimi.com/zh-cn/blog/kimi-k3",
+    "https://platform.kimi.com/docs/guide/kimi-k3-quickstart"
+  ],
+  "lastReviewed": "2026-07-23"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "edge-size-limit-vite-commonly-used-with",
+  "from": "size-limit",
+  "to": "vite",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

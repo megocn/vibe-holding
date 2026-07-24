@@ -1,0 +1,10 @@
+{
+  "id": "e-openrouter-access-kimi",
+  "from": "openrouter",
+  "to": "kimi-k3",
+  "type": "provides_access_to",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

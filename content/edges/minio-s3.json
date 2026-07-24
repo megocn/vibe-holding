@@ -1,0 +1,10 @@
+{
+  "id": "minio-s3",
+  "from": "minio",
+  "to": "aws-s3",
+  "type": "compatible_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

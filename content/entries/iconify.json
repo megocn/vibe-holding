@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "离线/air-gapped 需自托管 icon JSON；设计系统统一性需约束可用 icon set。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://iconify.design"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "iconify",
+  "name": "Iconify",
+  "category": "ui-icons",
+  "subcategory": "unified-icons",
+  "oneLiner": "聚合多套 IconifyJSON · 按需加载 Lucide/Material 等",
+  "officialUrl": "https://iconify.design",
+  "descriptionMd": "Iconify 聚合 IconifyJSON 格式图标集，可按需加载 Lucide/Material 等，支持 SVG/React/Vue 组件。\n\n需要混用多套图标风格、或 icon 按需 tree-shake 减 bundle 的项目。\n\n离线/air-gapped 需自托管 icon JSON；设计系统统一性需约束可用 icon set。\n",
+  "vendorId": "iconify-inc"
+}

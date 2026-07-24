@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "auth",
+    "self-hosted"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "Enterprise support 靠 vendor；超大规模 user federation 需 scale testing。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://goauthentik.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "authentik",
+  "name": "authentik",
+  "category": "baas-auth-only",
+  "subcategory": "idp",
+  "oneLiner": "现代开源 IdP · OIDC/SAML/LDAP · flows 可视化+outpost；self-host",
+  "officialUrl": "https://goauthentik.io",
+  "descriptionMd": "authentik 是 modern 开源 IdP，支持 OIDC/SAML/LDAP、flows 可视化配置与 outpost 反向代理，self-host 体验友好。\n\nHomelab/中小企业要 Keycloak 替代且 UI 更现代时选用；与 Traefik/Caddy 集成 common。\n\nEnterprise support 靠 vendor；超大规模 user federation 需 scale testing。\n"
+}

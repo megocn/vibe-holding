@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "auth",
+    "nextjs"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "UI 与 org/B2B 功能需自建；session 存储与 edge runtime 兼容要按 adapter 仔细配置。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://authjs.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "authjs",
+  "name": "Auth.js",
+  "category": "baas-auth-only",
+  "subcategory": "library",
+  "oneLiner": "开源 provider 抽象 · Next/SvelteKit 适配 · 自托管 session；UI/B2B 自建",
+  "officialUrl": "https://authjs.dev",
+  "descriptionMd": "Auth.js（原 NextAuth.js）提供 OAuth、Credentials、Email 等 provider 抽象，支持 Next.js、SvelteKit 等适配器，开源可自托管 session。\n\n需要掌控 auth 代码、多 provider 登录且不想付 Clerk 订阅时首选；与 Next.js App Router 集成文档全。\n\nUI 与 org/B2B 功能需自建；session 存储与 edge runtime 兼容要按 adapter 仔细配置。\n"
+}

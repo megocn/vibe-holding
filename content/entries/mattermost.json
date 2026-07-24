@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "chat",
+    "self-hosted"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "插件与 UX 不如 Slack  polished；运维 HA 与升级需专职。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://mattermost.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "mattermost",
+  "name": "Mattermost",
+  "category": "msg-im",
+  "subcategory": "self-hosted",
+  "oneLiner": "可自托管 · compliance/plugin · 数据驻留可控",
+  "officialUrl": "https://mattermost.com",
+  "descriptionMd": "Mattermost 可自托管 team chat，支持 compliance 与 plugin，适合对数据驻留有要求的组织。\n\n金融/政府等不能直接 SaaS IM、又想要 Slack 体验时自托管 Mattermost。\n\n插件与 UX 不如 Slack  polished；运维 HA 与升级需专职。\n",
+  "vendorId": "mattermost-inc"
+}

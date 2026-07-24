@@ -1,0 +1,11 @@
+{
+  "id": "edge-hailuo-minimax-owned",
+  "from": "hailuo",
+  "to": "minimax-inc",
+  "type": "owned_by",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24",
+  "note": "海螺属 MiniMax 产品线"
+}

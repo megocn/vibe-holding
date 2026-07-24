@@ -1,0 +1,46 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "baas",
+    "google",
+    "mobile"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "国内不可用",
+    "厂商锁定深"
+  ],
+  "updates": [],
+  "sources": [
+    "https://firebase.google.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "firebase",
+  "name": "Firebase",
+  "category": "baas-platform",
+  "vendorId": "firebase-inc",
+  "oneLiner": "Google 移动/Web 套件 · Auth/Firestore/Hosting · 移动生态强锁深",
+  "descriptionMd": "Firebase 是 Google 的移动/Web 后端套件：Auth、Firestore、Hosting 等一体化，移动端生态强。\n\n适合快速做 App 后端；数据模型与查询范式偏 Firebase 风格，迁出成本需提前想。国内直连与合规常成问题，双市场产品慎作唯一后端。\n\n移动端 SDK 成熟；Firestore 数据模型后期难迁，早期就要有边界。\n",
+  "officialUrl": "https://firebase.google.com",
+  "rankings": [
+    {
+      "systemId": "so-survey-auth",
+      "share": 5.7,
+      "period": "2025 Survey",
+      "note": "Cloud Firestore 采用口径",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

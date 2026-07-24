@@ -1,0 +1,77 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "notes": "Pro $20/月起",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "ide",
+    "mcp",
+    "vibe-friendly"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "额度用尽后变慢",
+    "注意 Privacy Mode"
+  ],
+  "currentVersion": "3.11",
+  "updates": [
+    {
+      "date": "2026-07-10",
+      "type": "release",
+      "version": "3.11",
+      "summary": "Side Chats 并行会话 + Agent 对话检索；长链路改仓时可旁路探索而不打断主线程",
+      "source": "https://cursor.com/changelog"
+    }
+  ],
+  "sources": [
+    "https://cursor.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "cursor",
+  "name": "Cursor",
+  "category": "coding-ide-agent",
+  "subcategory": "ide-agent",
+  "vendorId": "anysphere",
+  "oneLiner": "VS Code 系 · Agent/多文件/Rules·MCP；本机 IDE 主力",
+  "descriptionMd": "Cursor 是基于 VS Code 的 AI 原生编辑器：Agent、多文件编辑、规则与 MCP 是核心卖点，属于 Vibe Coding Flavor A（本机 IDE）。\n\n适合日常写码与中等规模重构；注意订阅额度、Privacy Mode 与「本机难过夜并行」的天花板。与 Claude Code / Copilot / Windsurf 等同层对比工作流，而非与 Lovable 等云端 Builder 混比。\n\nRules/MCP 是杠杆；把仓库约定写进规则，比每次口头提醒 Agent 更有效。\n",
+  "officialUrl": "https://cursor.com",
+  "docsUrl": "https://docs.cursor.com",
+  "pricingUrl": "https://cursor.com/pricing",
+  "changelogUrl": "https://cursor.com/changelog",
+  "externalLinks": [
+    {
+      "kind": "wiki",
+      "query": "Cursor (code editor)"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "jetbrains-ai-tools",
+      "tier": "Category leader",
+      "share": 28,
+      "period": "2025 Survey",
+      "note": "AI IDE 心智份额领先档（调查口径因届而异）",
+      "sourceUrl": "https://www.jetbrains.com/lp/devecosystem/",
+      "asOf": "2026-07-20"
+    },
+    {
+      "systemId": "swe-bench-verified",
+      "tier": "Agent scaffold",
+      "period": "2025–2026",
+      "note": "产品侧 Agent 能力随底层模型+脚手架变化；对照 SWE-bench 模型榜",
+      "sourceUrl": "https://www.swebench.com/",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

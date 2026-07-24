@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "gpu",
+    "python",
+    "serverless"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "绑定 Python 为主；长时间常驻服务不如传统 PaaS，成本随 GPU 型号波动大。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://modal.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "modal",
+  "name": "Modal",
+  "category": "cloud-paas",
+  "subcategory": "gpu",
+  "oneLiner": "Python 按需 GPU/CPU · 秒级伸缩 · ML 推理/批处理代码即基建",
+  "officialUrl": "https://modal.com",
+  "descriptionMd": "Modal 让 Python 函数在云端按需获得 GPU/CPU，秒级伸缩，适合 ML 推理、批处理与科学计算，代码即基础设施。\n\nAI 应用需弹性 GPU、不想管 K8s 或 EC2 的 Python 团队优先考虑；与 Hugging Face 模型加载配合多。\n\n绑定 Python 为主；长时间常驻服务不如传统 PaaS，成本随 GPU 型号波动大。\n"
+}

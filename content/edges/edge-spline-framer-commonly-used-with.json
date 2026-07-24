@@ -1,0 +1,10 @@
+{
+  "id": "edge-spline-framer-commonly-used-with",
+  "from": "spline",
+  "to": "framer",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

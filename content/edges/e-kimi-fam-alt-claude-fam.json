@@ -1,0 +1,11 @@
+{
+  "id": "e-kimi-fam-alt-claude-fam",
+  "from": "kimi",
+  "to": "claude",
+  "type": "alternative_to",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23",
+  "note": "产品族级对照，细选看旗舰档"
+}

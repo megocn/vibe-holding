@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "localization",
+    "enterprise"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "价格高、setup 重；小团队 overkill，集成 Git 需 dedicated admin。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://phrase.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "phrase",
+  "name": "Phrase",
+  "category": "global-i18n",
+  "subcategory": "tms",
+  "oneLiner": "原 Memsource · enterprise 多产品线治理 · TMS+MT+analytics",
+  "officialUrl": "https://phrase.com",
+  "descriptionMd": "Phrase（原 Memsource）提供 TMS、strings、MT 与 analytics，服务 enterprise 多 product 线本地化治理。\n\nEnterprise 多 team、需要 SLA 与复杂 workflow approval 时选用；与 Lokalise/Crowdin 竞品对比。\n\n价格高、setup 重；小团队 overkill，集成 Git 需 dedicated admin。\n"
+}

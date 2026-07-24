@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "secrets",
+    "enterprise"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "学习与运维成本显著高于 Doppler/Infisical"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.vaultproject.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "hashicorp-vault",
+  "name": "HashiCorp Vault",
+  "category": "sec-secrets",
+  "subcategory": "secrets",
+  "oneLiner": "动态密钥 · 加密即服务 · 精细策略 · 企业级重型方案",
+  "descriptionMd": "Vault 提供动态密钥、加密即服务与精细策略，是企业级 secrets 的重型方案。\n\n运维与学习曲线明显高于 Doppler/Infisical；适合中大型团队与强合规。Indie 早期通常过重，除非已有平台组承接。\n\n动态数据库凭证是经典价值；小团队可先托管 Secrets 再视合规升级。\n",
+  "officialUrl": "https://www.vaultproject.io"
+}

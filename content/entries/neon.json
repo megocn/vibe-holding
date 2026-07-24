@@ -1,0 +1,53 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "database",
+    "postgres",
+    "serverless"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "冷启动延迟",
+    "厂商锁定"
+  ],
+  "updates": [],
+  "sources": [
+    "https://neon.tech"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "neon",
+  "name": "Neon",
+  "category": "db-relational",
+  "vendorId": "neon-inc",
+  "oneLiner": "Serverless Postgres · 分支库/自动休眠 · 预览环境按量",
+  "descriptionMd": "Neon 提供 Serverless Postgres：分支数据库、自动休眠，契合按量与预览环境。\n\nIndie/SaaS 高频选项；与 Supabase（BaaS 一体）分工：Neon 更「纯数据库」。冷启动与连接池策略需按运行时配置。\n\n预览分支让每个 PR 有独立库；注意连接数与 Serverless driver 的搭配。\n",
+  "officialUrl": "https://neon.tech",
+  "rankings": [
+    {
+      "systemId": "db-engines",
+      "tier": "Managed Postgres",
+      "period": "2026-07",
+      "note": "继承 PostgreSQL 生态位；Serverless PG 赛道",
+      "asOf": "2026-07-20"
+    },
+    {
+      "systemId": "so-survey-language",
+      "tier": "PG cloud",
+      "period": "2025 Survey",
+      "note": "SO 调查中 Supabase/Neon 等云 PG 分列展示",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

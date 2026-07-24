@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "aws",
+    "paas"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "抽象层低于 App Runner/ECS；平台更新慢，新项目更常选 App Runner 或 Copilot。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://aws.amazon.com/elasticbeanstalk"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "aws-elastic-beanstalk",
+  "name": "AWS Elastic Beanstalk",
+  "category": "cloud-paas",
+  "subcategory": "paas",
+  "oneLiner": "上传代码即 provision EC2/LB · AWS 上 Heroku 式经典层",
+  "officialUrl": "https://aws.amazon.com/elasticbeanstalk",
+  "descriptionMd": "Elastic Beanstalk 上传代码或 Docker 即自动 provision EC2、负载均衡与伸缩，是 AWS 上接近 Heroku 的 PaaS 层。\n\n企业 AWS 账号内需快速托管传统 Web 应用、且团队熟悉 EC2 后台时选用；比裸 EC2 省运维。\n\n抽象层低于 App Runner/ECS；平台更新慢，新项目更常选 App Runner 或 Copilot。\n",
+  "vendorId": "amazon-web-services"
+}

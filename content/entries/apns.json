@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "push",
+    "ios"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "证书管理易出错导致全量 push 失败；Development/Production 环境勿混用。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://developer.apple.com/documentation/usernotifications"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "apns",
+  "name": "Apple Push Notification",
+  "category": "msg-push",
+  "subcategory": "mobile-push",
+  "oneLiner": "Apple 官方 iOS 必经通道 · 证书/沙盒易踩坑 · 聚合 SDK 亦经此",
+  "officialUrl": "https://developer.apple.com/documentation/usernotifications",
+  "descriptionMd": "APNs 是 Apple 官方 push 服务，任何 iOS App 后台通知必须经 APNs 或聚合 SDK 间接接入。\n\n自研 iOS push 或选择 OneSignal 等时需理解 APNs 证书/key 轮换与 topic 配置。\n\n证书管理易出错导致全量 push 失败；Development/Production 环境勿混用。\n",
+  "vendorId": "apple"
+}

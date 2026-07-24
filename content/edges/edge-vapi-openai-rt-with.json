@@ -1,0 +1,10 @@
+{
+  "id": "edge-vapi-openai-rt-with",
+  "from": "vapi",
+  "to": "openai-realtime",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

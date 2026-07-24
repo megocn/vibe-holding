@@ -1,0 +1,59 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "payment",
+    "subscription"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "需海外主体",
+    "风控严格"
+  ],
+  "updates": [
+    {
+      "date": "2026-07-05",
+      "type": "policy",
+      "summary": "部分地区 KYC 更新",
+      "source": "https://stripe.com/docs"
+    }
+  ],
+  "sources": [
+    "https://stripe.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "stripe",
+  "name": "Stripe",
+  "category": "pay-processor",
+  "vendorId": "stripe-inc",
+  "oneLiner": "全球在线支付/订阅基建 · Billing/Connect 生态 · 需海外主体",
+  "descriptionMd": "Stripe 是全球在线支付与订阅基础设施，开发者体验与生态（Billing、Connect 等）领先。\n\n大陆主体**不能直接**当默认方案：通常需港/新/美等主体，或先走 MoR。产品技术选型可按 Stripe 设计，商务主体另案。\n\nWebhook 与幂等是接入关键；商务主体未就绪时，工程可先沙盒，收款走 MoR。\n",
+  "officialUrl": "https://stripe.com",
+  "rankings": [
+    {
+      "systemId": "forrester-wave-payments",
+      "tier": "Leader",
+      "period": "2024–2025",
+      "note": "Merchant Payment / Billing 多次 Leader",
+      "asOf": "2026-07-20"
+    },
+    {
+      "systemId": "builtwith-payments",
+      "share": 22.3,
+      "period": "2026",
+      "note": "支付处理软件份额约 22%（口径因研究而异）",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

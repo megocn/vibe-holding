@@ -1,0 +1,10 @@
+{
+  "id": "e-kimi-k3-alt-claude",
+  "from": "kimi-k3",
+  "to": "claude-opus",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

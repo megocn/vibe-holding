@@ -1,0 +1,10 @@
+{
+  "id": "edge-monday-asana-alternative-to",
+  "from": "monday",
+  "to": "asana",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

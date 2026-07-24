@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "domain"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "企业级 support 与 bulk 工具不如 GoDaddy；国内支付手段有限。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://porkbun.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "porkbun",
+  "name": "Porkbun",
+  "category": "net-domain",
+  "subcategory": "registrar",
+  "oneLiner": "续费低 · 免费 WHOIS privacy · 开发者向 UI",
+  "officialUrl": "https://porkbun.com",
+  "descriptionMd": "Porkbun 以低 renewal 价格与免费 WHOIS privacy 著称，UI 现代，受开发者社区喜爱。\n\n希望降低域名长期持有成本、注册 odd TLD 时可选 Porkbun。\n\n企业级 support 与 bulk 工具不如 GoDaddy；国内支付手段有限。\n",
+  "vendorId": "porkbun-inc"
+}

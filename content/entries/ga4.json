@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "analytics",
+    "google"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "国内访问与合规成本",
+    "Cookie/同意管理负担"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://analytics.google.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "ga4",
+  "name": "Google Analytics 4",
+  "category": "growth-web",
+  "subcategory": "web-analytics",
+  "vendorId": "google",
+  "oneLiner": "事件模型主流站/App 分析 · 广告生态绑定深 · 免费合规成本高",
+  "descriptionMd": "Google Analytics 4 是事件模型的主流网站/应用分析，报表与广告生态绑定深。\n\n隐私合规（Cookie/同意）、国内可用性与数据驻留是主要顾虑；Indie 常并行或改用 Plausible/Umami/PostHog。埋点设计比工具本身更影响价值。\n\n事件命名规范比报表模板更重要；国内流量采集完整性要单独验收。\n",
+  "officialUrl": "https://analytics.google.com"
+}

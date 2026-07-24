@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cdn"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "Enterprise 功能与支持不如 Akamai/Cloudflare；国内节点覆盖需查最新 map。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://bunny.net"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "bunny-cdn",
+  "name": "Bunny CDN",
+  "category": "net-cdn-dns",
+  "subcategory": "cdn",
+  "oneLiner": "低价 CDN+Optimizer · Edge storage · Indie 性价比",
+  "officialUrl": "https://bunny.net",
+  "descriptionMd": "Bunny.net 提供低价 CDN、optimizer 与 edge storage，Perf 与价格比传统 CDN 对 indie 友好。\n\n预算敏感但需要多 PoP 加速、或替代 CloudFront 降本时评估 Bunny。\n\nEnterprise 功能与支持不如 Akamai/Cloudflare；国内节点覆盖需查最新 map。\n",
+  "vendorId": "bunny-net"
+}

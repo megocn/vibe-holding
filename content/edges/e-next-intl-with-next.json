@@ -1,0 +1,10 @@
+{
+  "id": "e-next-intl-with-next",
+  "from": "next-intl",
+  "to": "nextjs",
+  "type": "integrates_with",
+  "weight": 0.9,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

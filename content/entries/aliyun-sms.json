@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "sms"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "模板审核周期长；营销短信通道与事务通道费率不同，勿混用以免触发运营商拦截。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.aliyun.com/product/sms"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "aliyun-sms",
+  "name": "阿里云短信",
+  "category": "msg-sms",
+  "subcategory": "transactional",
+  "oneLiner": "国内模板/验证码/营销 · 工信部签名审核 · 阿里云统计与重试",
+  "officialUrl": "https://www.aliyun.com/product/sms",
+  "descriptionMd": "阿里云短信服务提供模板短信、验证码与营销短信，签名与模板需工信部备案审核，控制台支持发送统计与失败重试。\n\n国内 App/网站 OTP、物流通知与运营短信标配；与阿里云 ECS/OSS 等同账号账单统一，便于财务对账。\n\n模板审核周期长；营销短信通道与事务通道费率不同，勿混用以免触发运营商拦截。\n",
+  "vendorId": "aliyun"
+}

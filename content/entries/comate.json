@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "插件仅支持主流 IDE；Agent 多文件编排能力仍在快速迭代，生产环境需 code review。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://comate.baidu.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "comate",
+  "name": "Comate",
+  "category": "coding-ide-agent",
+  "subcategory": "ide-extension",
+  "oneLiner": "文心驱动 · 百度开发者生态 · 补全/单测/调试一体",
+  "officialUrl": "https://comate.baidu.com",
+  "descriptionMd": "Comate 是百度基于文心大模型推出的 IDE 插件，支持代码补全、注释生成、单测与智能调试，深度集成百度开发者生态。\n\n国内 Java/前端团队、已采购百度云或偏好国产模型合规路线时可评估；对个人开发者有免费额度。\n\n插件仅支持主流 IDE；Agent 多文件编排能力仍在快速迭代，生产环境需 code review。\n",
+  "vendorId": "baidu-comate"
+}

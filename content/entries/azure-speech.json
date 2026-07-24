@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "tts",
+    "asr",
+    "enterprise"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "配置面宽、学习成本高于单一 TTS API；创意旁白音色库不如消费级品牌产品丰富。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://azure.microsoft.com/products/ai-services/ai-speech"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "azure-speech",
+  "name": "Azure Speech",
+  "category": "ai-speech",
+  "subcategory": "speech-suite",
+  "oneLiner": "微软语音套件 · TTS/STT/翻译 · 企业合规",
+  "officialUrl": "https://azure.microsoft.com/products/ai-services/ai-speech",
+  "descriptionMd": "Azure AI Speech 覆盖语音识别、神经 TTS、翻译与说话人识别，深度嵌入 Azure 身份、区域与合规体系。\n\n已在 Azure/微软生态、需要企业合同、数据驻留或与 Azure OpenAI 同区部署时优先。\n\n配置面宽、学习成本高于单一 TTS API；创意旁白音色库不如消费级品牌产品丰富。\n",
+  "vendorId": "microsoft"
+}

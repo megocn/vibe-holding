@@ -1,0 +1,43 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "notes": "随 ChatGPT 套餐；企业另议",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "codex",
+    "codex-web",
+    "async",
+    "openai",
+    "agent"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "依赖云端沙箱与账号区域，国内可达性不稳定",
+    "交互不如本地 CLI 即时；复杂调试仍要拉回本机"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://chatgpt.com/codex"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "codex-web",
+  "name": "Codex Web",
+  "category": "coding-ide-agent",
+  "subcategory": "async-cloud-agent",
+  "vendorId": "openai",
+  "oneLiner": "ChatGPT 侧 Codex 云端异步编码 Agent",
+  "descriptionMd": "**Codex Web**（chatgpt.com/codex）是 OpenAI Codex 产品线的云端异步面：任务在云端沙箱跑，适合过夜并行、跨设备查看进度；与本机 **Codex CLI** 互补而非互替。\n\n当你需要「丢任务后离开本机」、或要在浏览器里管多路 Agent 时选 Web；日常结对改仓仍以 Codex CLI / Cursor 更顺手。\n\n云端仓库权限与密钥注入策略要按最小权限；与 Jules/Devin 同属异步 PR 叙事，对比时看 GitHub 集成深度与账号生态。\n",
+  "officialUrl": "https://chatgpt.com/codex",
+  "docsUrl": "https://developers.openai.com/codex/"
+}

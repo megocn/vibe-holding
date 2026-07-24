@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ci",
+    "legacy"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "UI 老旧、插件安全与升级痛苦；新项目优先 GitHub Actions/GitLab CI。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.jenkins.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "jenkins",
+  "name": "Jenkins",
+  "category": "cicd-pipeline",
+  "subcategory": "ci",
+  "oneLiner": "插件海量 · self-hosted 存量基盘 · 任意工具链粘合",
+  "officialUrl": "https://www.jenkins.io",
+  "descriptionMd": "Jenkins 通过海量插件集成几乎任何工具链，支持 self-hosted pipeline，存量企业安装基盘大。\n\n遗留 pipeline 已深度绑定 Jenkins、或必须完全内网 CI 时可继续维护。\n\nUI 老旧、插件安全与升级痛苦；新项目优先 GitHub Actions/GitLab CI。\n"
+}

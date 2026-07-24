@@ -1,0 +1,93 @@
+{
+  "$ref": "#/definitions/Edge",
+  "definitions": {
+    "Edge": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9-]*$"
+        },
+        "from": {
+          "$ref": "#/definitions/Edge/properties/id"
+        },
+        "to": {
+          "$ref": "#/definitions/Edge/properties/id"
+        },
+        "type": {
+          "type": "string",
+          "enum": [
+            "alternative_to",
+            "open_source_alternative_to",
+            "domestic_equivalent_of",
+            "overseas_equivalent_of",
+            "succeeds",
+            "deprecated_by",
+            "conflicts_with",
+            "integrates_with",
+            "compatible_with",
+            "commonly_used_with",
+            "depends_on",
+            "powered_by",
+            "built_on",
+            "hosts",
+            "provides_access_to",
+            "wraps",
+            "part_of",
+            "owned_by",
+            "belongs_to_category",
+            "bundled_in",
+            "implements",
+            "supports",
+            "uses_concept",
+            "related_concept",
+            "prerequisite_of",
+            "migration_path_to"
+          ]
+        },
+        "weight": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "default": 0.5
+        },
+        "note": {
+          "type": "string"
+        },
+        "confidence": {
+          "type": "string",
+          "enum": [
+            "verified",
+            "community",
+            "inferred"
+          ],
+          "default": "verified"
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          },
+          "default": []
+        },
+        "createdAt": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "lastReviewed": {
+          "$ref": "#/definitions/Edge/properties/createdAt"
+        }
+      },
+      "required": [
+        "id",
+        "from",
+        "to",
+        "type",
+        "createdAt"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}

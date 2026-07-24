@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "支持模型列表有限；长上下文与超大模型不如 GPU cloud 灵活。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://groq.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "groq",
+  "name": "Groq",
+  "category": "gateway-router",
+  "subcategory": "inference-api",
+  "oneLiner": "自研 LPU 超低延迟 · 实时交互向 · 模型清单有限",
+  "officialUrl": "https://groq.com",
+  "descriptionMd": "Groq 提供基于自研 LPU 的 ultra-low latency inference API，适合 Llama/Mixtral 等模型的实时交互场景。\n\n语音对话、游戏 NPC、需要 <100ms token 延迟的实时 AI 功能。\n\n支持模型列表有限；长上下文与超大模型不如 GPU cloud 灵活。\n",
+  "vendorId": "groq-inc"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "edge-vitest-playwright-commonly-used-with",
+  "from": "vitest",
+  "to": "playwright",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23",
+  "note": "单元+E2E 分层"
+}

@@ -1,0 +1,34 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "compiler"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "构建速度逊于 SWC/esbuild；新项目若无兼容包袱应优先现代 toolchain。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://babeljs.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "babel",
+  "name": "Babel",
+  "category": "oss-toolchain",
+  "subcategory": "compiler",
+  "oneLiner": "preset/plugin 生态最全 · 兼容包袱转译主力 · 速度逊于 SWC/esbuild",
+  "officialUrl": "https://babeljs.io",
+  "descriptionMd": "Babel 通过 preset/plugin 将现代 JS/TS/React 语法转译为目标环境可运行代码，插件生态历史最完整。\n\n需支持极旧浏览器、或依赖 Babel 宏/特殊插件的 legacy 项目仍离不开；Jest 默认管道也常见。\n\n构建速度逊于 SWC/esbuild；新项目若无兼容包袱应优先现代 toolchain。\n"
+}

@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "lint",
+    "javascript"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "规则过多会拖慢 CI；迁移到 Biome/Oxlint 前需盘点自定义插件与 overrides。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://eslint.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "eslint",
+  "name": "ESLint",
+  "category": "oss-toolchain",
+  "subcategory": "lint",
+  "oneLiner": "可插拔规则事实标准 · 自定义与共享配置最广",
+  "officialUrl": "https://eslint.org",
+  "descriptionMd": "ESLint 是 JavaScript/TypeScript 生态最通用的静态分析引擎，通过可插拔规则与共享配置覆盖代码风格、最佳实践与团队规范。\n\n存量 React/Vue/Node 项目几乎默认启用；与 Prettier 分工（lint 管逻辑，format 管排版）仍是主流组合。\n\n规则过多会拖慢 CI；迁移到 Biome/Oxlint 前需盘点自定义插件与 overrides。\n"
+}

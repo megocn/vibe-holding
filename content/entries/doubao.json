@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "family"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "国际场景与英文长文能力需 benchmark；模型版本迭代快，API 字段需锁定版本号。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.volcengine.com/product/doubao"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "doubao",
+  "name": "豆包",
+  "category": "llm-family",
+  "subcategory": "family",
+  "oneLiner": "字节火山系 · 现至 Seed 2.1 · 对话/代码/多模态",
+  "officialUrl": "https://www.volcengine.com/product/doubao",
+  "descriptionMd": "豆包是字节火山引擎大模型品牌，当前旗舰多见 Doubao-Seed-2.1-Pro。\n\n国内云与企业应用集成深；生产务必锁定 endpoint 版本。\n\nbeta 能力可能随时变更。\n",
+  "vendorId": "volcengine"
+}

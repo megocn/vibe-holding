@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "errors",
+    "mobile"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "session replay 与 infra 监控非强项；与 Sentry 功能重叠需对比定价。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.bugsnag.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "bugsnag",
+  "name": "Bugsnag",
+  "category": "obs-errors",
+  "subcategory": "error-tracking",
+  "oneLiner": "crash/error 聚合 · release 健康度 · 移动端 SDK 成熟",
+  "officialUrl": "https://www.bugsnag.com",
+  "descriptionMd": "Bugsnag 专注 crash/error 聚合、release 健康度与 breadcrumbs，移动端 SDK 成熟。\n\nReact Native/移动 App 需要稳定 crash 报告与 release 对比时常见选型。\n\nsession replay 与 infra 监控非强项；与 Sentry 功能重叠需对比定价。\n",
+  "vendorId": "bugsnag-inc"
+}

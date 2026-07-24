@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "vendor lock-in 与按量账单需监控；超大规模成本可能高于自托管。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.pinecone.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "pinecone",
+  "name": "Pinecone",
+  "category": "ai-vector",
+  "subcategory": "managed-vector",
+  "oneLiner": "Serverless 向量 SaaS · namespace/hybrid · 托管省运维",
+  "officialUrl": "https://www.pinecone.io",
+  "descriptionMd": "Pinecone 是 serverless 向量数据库，提供 metadata filtering、namespace 与 hybrid search，RAG SaaS 常用。\n\n不想运维 Milvus/Weaviate 集群、需要快速上线 RAG 且 QPS 中等的 AI 产品。\n\nvendor lock-in 与按量账单需监控；超大规模成本可能高于自托管。\n",
+  "vendorId": "pinecone-io"
+}

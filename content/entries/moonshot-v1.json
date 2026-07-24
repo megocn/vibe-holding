@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "已非家族主力；新项目优先 Kimi 旗舰（K3）。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://platform.moonshot.cn"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "moonshot-v1",
+  "name": "Moonshot v1",
+  "category": "llm-line",
+  "subcategory": "line",
+  "oneLiner": "上一代开放平台线 · Moonshot v1 · 存量；新项目优先 Kimi 旗舰",
+  "officialUrl": "https://platform.moonshot.cn",
+  "descriptionMd": "月之暗面开放平台的上一代主力线（Moonshot v1 / 128K 级叙事）。当前 C 端/API 旗舰能力以 **Kimi K3** 档为准。\n\n维护存量集成、或对照历史 endpoint 时仍可参考。\n\n新项目优先 Kimi 旗舰档；勿再把 v1 写成家族最强。\n",
+  "vendorId": "moonshot-ai",
+  "currentVersion": "v1"
+}

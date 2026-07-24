@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "i18n",
+    "nextjs"
+  ],
+  "maturity": "stable",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://next-intl.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "next-intl",
+  "name": "next-intl",
+  "category": "global-i18n",
+  "subcategory": "i18n",
+  "oneLiner": "Next App Router 专用 · 类型友好消息 · 路由/locale 辅助",
+  "descriptionMd": "next-intl 为 Next.js（尤其 App Router）提供类型友好的国际化消息与路由辅助。\n\n出海产品的常见 i18n 选择；与 CMS/文案流程如何协作比库本身更关键。不要忘记日期/货币/时区等格式化。\n\n路由国际化与文案拆分要尽早约定；避免业务字符串散落组件各处。\n",
+  "officialUrl": "https://next-intl.dev"
+}

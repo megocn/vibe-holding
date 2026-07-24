@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "subscription"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "已被 Cursor 部分吸收，独立产品路线图需关注；Agent 能力非其核心。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://supermaven.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "supermaven",
+  "name": "Supermaven",
+  "category": "coding-ide-agent",
+  "subcategory": "ide-extension",
+  "oneLiner": "超长上下文 inline 补全 · 低延迟样板码 · 偏补全非完整 Agent",
+  "officialUrl": "https://supermaven.com",
+  "descriptionMd": "Supermaven 以超大上下文补全著称，在 VS Code/JetBrains 中提供低延迟 inline 建议，后被 Cursor 团队技术关注。\n\n需要极长文件内连贯补全、写作大量样板代码的开发者；适合与更强 Agent 工具并用。\n\n已被 Cursor 部分吸收，独立产品路线图需关注；Agent 能力非其核心。\n",
+  "vendorId": "supermaven-inc"
+}

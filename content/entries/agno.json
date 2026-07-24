@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "生态与 integration 少于 LangChain；复杂 graph 需自建。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.agno.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "agno",
+  "name": "Agno",
+  "category": "ai-agent-fw",
+  "subcategory": "lightweight-agent",
+  "oneLiner": "轻量 Python Agent · 内置 memory/knowledge/tool · 可读代码快上手",
+  "officialUrl": "https://www.agno.com",
+  "descriptionMd": "Agno（原 Phidata）提供轻量 Python Agent abstractions，内置 memory/knowledge/tool，强调 readable code 与 fast setup。\n\nPython 开发者想要比 LangChain 更薄的一层 Agent 框架快速 ship internal copilot。\n\n生态与 integration 少于 LangChain；复杂 graph 需自建。\n",
+  "vendorId": "agno-ai"
+}

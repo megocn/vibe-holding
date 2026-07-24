@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "subscription"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "按 IDE 席位计费成本需测算；与 Cursor 等跨编辑器 Agent 相比多文件任务编排能力有限。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.jetbrains.com/ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "jetbrains-ai",
+  "name": "JetBrains AI Assistant",
+  "category": "coding-ide-agent",
+  "subcategory": "native-ide",
+  "oneLiner": "IntelliJ 族原生 · 聊天/补全/重构同壳 · 免另装 VS Code",
+  "officialUrl": "https://www.jetbrains.com/ai",
+  "descriptionMd": "JetBrains AI Assistant 深度集成 IntelliJ/PyCharm/WebStorm 等 IDE，提供聊天、补全、提交信息生成与上下文感知重构建议。\n\n已全面使用 JetBrains 系 IDE 的 Java/Kotlin/Python 团队，希望避免额外安装 VS Code 插件时自然选用。\n\n按 IDE 席位计费成本需测算；与 Cursor 等跨编辑器 Agent 相比多文件任务编排能力有限。\n",
+  "vendorId": "jetbrains"
+}

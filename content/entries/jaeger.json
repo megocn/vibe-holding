@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "tracing",
+    "opentelemetry"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "生产级存储需 Elasticsearch/Cassandra 等；UI 功能不如商业 APM 丰富。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.jaegertracing.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "jaeger",
+  "name": "Jaeger",
+  "category": "obs-platform",
+  "subcategory": "tracing",
+  "oneLiner": "CNCF tracing · OTel 兼容 · 跨服务调用链可视化",
+  "officialUrl": "https://www.jaegertracing.io",
+  "descriptionMd": "Jaeger 是 CNCF 分布式 tracing 项目，支持 OpenTelemetry，适合可视化跨服务调用链与延迟瓶颈。\n\n自建 K8s 可观测、或已标准化 OpenTelemetry 导出时需要 trace backend。\n\n生产级存储需 Elasticsearch/Cassandra 等；UI 功能不如商业 APM 丰富。\n"
+}

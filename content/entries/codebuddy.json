@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "国际化项目英文代码表现需实测；复杂 Agent 任务建议搭配 Cursor 人工复核。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://copilot.tencent.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "codebuddy",
+  "name": "CodeBuddy",
+  "category": "coding-ide-agent",
+  "subcategory": "ide-extension",
+  "oneLiner": "腾讯云/混元绑定 · 国产化合规补全 · IDE 插件形态",
+  "officialUrl": "https://copilot.tencent.com",
+  "descriptionMd": "CodeBuddy 是腾讯云推出的 AI 编码助手，支持 VS Code/JetBrains，提供补全、评审与技术问答，集成腾讯混元等模型。\n\n已使用腾讯云、需要国产化合规 Copilot 的国内团队可评估；对个人开发者免费开放基础能力。\n\n国际化项目英文代码表现需实测；复杂 Agent 任务建议搭配 Cursor 人工复核。\n",
+  "vendorId": "tencent-codebuddy"
+}

@@ -1,0 +1,50 @@
+name: 内容贡献
+description: 新增或更新知识库条目、边、Recipe、feeds 等
+title: '[content] '
+labels: [content]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请先阅读 [CONTRIBUTING.md](../../CONTRIBUTING.md) 与 [content/README.md](../../content/README.md)。
+        提交前本地运行 `pnpm validate`（及必要时 `pnpm gen:content`）。
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 变更类型
+      multiple: true
+      options:
+        - 新条目（Entry）
+        - 更新条目
+        - 新边 / 改边（Edge）
+        - 厂商 / 概念
+        - Recipe / feeds
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: 变更摘要
+      description: 一句话说明改了什么、为什么
+      placeholder: 例如：补充 Neon 与 Vercel 的 commonly_used_with，并附官方文档来源
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 来源
+      description: 官方文档、changelog 或实测链接（每行一条）
+      placeholder: https://…
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 自检
+      options:
+        - label: id 为小写 kebab-case 且全局唯一
+          required: true
+        - label: 本地 `pnpm validate` 已通过
+          required: true
+        - label: 边有合理 confidence / sources（inferred 已说明依据）
+          required: false

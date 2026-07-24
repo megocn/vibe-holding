@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "仅解决 apply 环节；规划与生成仍需主 LLM，整体架构复杂度上升。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://morphllm.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "morph",
+  "name": "Morph",
+  "category": "coding-ide-agent",
+  "subcategory": "apply-model",
+  "oneLiner": "专用 diff apply 模型 API · 给 Agent 稳合补丁 · 非完整 IDE",
+  "officialUrl": "https://morphllm.com",
+  "descriptionMd": "Morph 提供针对 unified diff apply 优化的模型 API，供 Agent 工具快速可靠地将补丁合并到源文件，减少 merge 失败。\n\n自研编码 Agent 或 IDE 插件、受困于 GPT apply 不稳定时作为专用后端接入。\n\n仅解决 apply 环节；规划与生成仍需主 LLM，整体架构复杂度上升。\n",
+  "vendorId": "morph-llm"
+}

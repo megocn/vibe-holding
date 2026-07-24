@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "video"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "按积分/订阅计费；长镜头一致性与商用授权需逐案确认。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://lumalabs.ai/dream-machine"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "luma-ai",
+  "name": "Luma Dream Machine",
+  "category": "design-ai-video",
+  "subcategory": "video-gen",
+  "oneLiner": "Luma 视频生成 · 速度快 · 3D/创意向",
+  "officialUrl": "https://lumalabs.ai/dream-machine",
+  "descriptionMd": "Luma Dream Machine 提供文/图生视频，强调生成速度与创意控制，并与 Luma 的 3D/NeRF 能力叙事相邻，适合概念片与产品预演。\n\n需要较快出片、创意 previs 或与 3D 工作流衔接时评估；海外 indie 常用。\n\n按积分/订阅计费；长镜头一致性与商用授权需逐案确认。\n",
+  "vendorId": "luma-labs"
+}

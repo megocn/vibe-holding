@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line",
+    "flagship"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "国际业务英文表现需验证；模型迭代期 API 兼容性留意 deprecation 公告。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.baichuan-ai.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "baichuan-4",
+  "name": "Baichuan 4",
+  "category": "llm-line",
+  "subcategory": "line",
+  "oneLiner": "百川旗舰基座 · Baichuan 4 · 中文/行业；医疗另有 M4",
+  "officialUrl": "https://www.baichuan-ai.com",
+  "descriptionMd": "Baichuan 通用旗舰基座仍以 **Baichuan 4** 为代表；2026 另有医疗专用 Baichuan-M4，勿与通用旗舰混用。\n\n国内垂直行业应用、需要中文优先且可私有化权重的团队。\n\n国际知名度与生态小于 Qwen/Llama；版本更新需跟踪 API changelog。\n",
+  "vendorId": "baichuan-inc"
+}

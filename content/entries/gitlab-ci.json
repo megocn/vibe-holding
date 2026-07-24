@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ci",
+    "git"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "Runner 维护与 artifact 存储成本需规划；复杂 pipeline  YAML 可读性挑战大。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://docs.gitlab.com/ee/ci/"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "gitlab-ci",
+  "name": "GitLab CI/CD",
+  "category": "cicd-pipeline",
+  "subcategory": "ci",
+  "oneLiner": "仓+MR+CI+Registry 一体 · 减工具碎片 · 企业 DevOps 平台",
+  "officialUrl": "https://docs.gitlab.com/ee/ci/",
+  "descriptionMd": "GitLab CI 在单一平台提供 repo、MR、CI pipeline、容器 registry 与 deploy，适合希望减少工具碎片的企业。\n\n已用 GitLab 托管代码、或需要 self-hosted 一体化 DevOps 平台时默认启用 CI。\n\nRunner 维护与 artifact 存储成本需规划；复杂 pipeline  YAML 可读性挑战大。\n",
+  "vendorId": "gitlab-inc"
+}

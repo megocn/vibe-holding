@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "tts",
+    "asr",
+    "domestic",
+    "volcengine"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "海外节点与文档相对少；企业采购需确认数据出境与模型版本锁定。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.volcengine.com/product/voice-tech"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "domestic",
+  "id": "volcengine-speech",
+  "name": "火山引擎语音",
+  "category": "ai-speech",
+  "subcategory": "speech-suite",
+  "oneLiner": "字节系语音 · TTS/ASR · 豆包/抖音生态",
+  "officialUrl": "https://www.volcengine.com/product/voice-tech",
+  "descriptionMd": "火山引擎语音技术提供合成、识别与音视频理解能力，常与豆包大模型、抖音/剪映系内容工具同生态落地。\n\n国内 App 需要中文 TTS/ASR、且已用火山或字节云时优先 POC；适合内容与互动场景。\n\n海外节点与文档相对少；企业采购需确认数据出境与模型版本锁定。\n",
+  "vendorId": "bytedance"
+}

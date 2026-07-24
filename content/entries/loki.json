@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "logging",
+    "grafana"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "全文检索能力弱于 ELK；label 设计不当会导致查询困难或 hot shard。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://grafana.com/oss/loki/"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "loki",
+  "name": "Grafana Loki",
+  "category": "obs-platform",
+  "subcategory": "logging",
+  "oneLiner": "只索引 label · 低成本集中日志 · Grafana 同栈",
+  "officialUrl": "https://grafana.com/oss/loki/",
+  "descriptionMd": "Grafana Loki 只索引 labels 不索引全文，低成本集中 logs，与 Grafana/Prometheus 同栈自然。\n\n已用 Grafana 栈、希望 logs 与 metrics 同 UI 且控制存储成本时选用。\n\n全文检索能力弱于 ELK；label 设计不当会导致查询困难或 hot shard。\n"
+}

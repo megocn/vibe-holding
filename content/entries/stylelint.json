@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "lint",
+    "css"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "与 Prettier 规则冲突需单独配置；Tailwind 类名顺序插件会增加 CI 时间。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://stylelint.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "stylelint",
+  "name": "Stylelint",
+  "category": "oss-toolchain",
+  "subcategory": "lint",
+  "oneLiner": "CSS/SCSS/CSS-in-JS 规则检查 · 与 Prettier 分工",
+  "officialUrl": "https://stylelint.io",
+  "descriptionMd": "Stylelint 对 CSS、SCSS、CSS-in-JS 等做规则检查，可与 Prettier 分工，保障设计 token 与命名一致。\n\nTailwind/SCSS 大型项目需要禁止 magic number、统一 BEM 或 enforce 设计规范时启用。\n\n与 Prettier 规则冲突需单独配置；Tailwind 类名顺序插件会增加 CI 时间。\n"
+}

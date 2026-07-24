@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "仅解决 output parsing；Agent 编排需另选 LangGraph/Pydantic AI。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://python.useinstructor.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "instructor",
+  "name": "Instructor",
+  "category": "ai-rag",
+  "subcategory": "structured-output",
+  "oneLiner": "Pydantic 强制结构化输出 · 减 JSON parse 失败 · 非 Agent 编排层",
+  "officialUrl": "https://python.useinstructor.com",
+  "descriptionMd": "Instructor 扩展 OpenAI/Anthropic 等 client，强制 LLM 输出符合 Pydantic model，减少 JSON parse 失败。\n\nPython 服务需要从 LLM 稳定抽取结构化数据（表单、entity、classification）时。\n\n仅解决 output parsing；Agent 编排需另选 LangGraph/Pydantic AI。\n",
+  "vendorId": "instructor-ai"
+}

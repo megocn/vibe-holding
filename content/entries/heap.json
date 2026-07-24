@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "analytics",
+    "autocapture"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "自动采集噪声大；PII 过滤与 GDPR 配置必须严格。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.heap.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "heap",
+  "name": "Heap",
+  "category": "growth-web",
+  "subcategory": "product-analytics",
+  "oneLiner": "前端事件自动 capture · 事后定义 funnel · 少 upfront 埋点",
+  "officialUrl": "https://www.heap.io",
+  "descriptionMd": "Heap 自动 capture 前端事件，支持 retroactive 定义 funnel，减少 upfront 埋点规划。\n\n产品迭代快、来不及设计 event taxonomy 又需要分析历史行为时评估 Heap。\n\n自动采集噪声大；PII 过滤与 GDPR 配置必须严格。\n",
+  "vendorId": "heap-inc"
+}

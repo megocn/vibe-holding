@@ -1,0 +1,10 @@
+{
+  "id": "edge-slack-sentry-integrates-with",
+  "from": "slack",
+  "to": "sentry",
+  "type": "integrates_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

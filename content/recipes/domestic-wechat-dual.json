@@ -1,0 +1,24 @@
+{
+  "id": "domestic-wechat-dual",
+  "name": "国内双端+微信生态版",
+  "target": "面向国内用户、接入微信登录与支付的应用",
+  "layers": {
+    "coding-agent": "trae",
+    "llm": "qwen-max",
+    "framework": "nextjs",
+    "ui": "antd",
+    "baas": "supabase",
+    "deploy": "aliyun-fc",
+    "payment": "wechat-pay",
+    "alt-pay": "alipay",
+    "messaging": "wecom",
+    "domain": "aliyun-wanwang"
+  },
+  "rationaleMd": "国内 Agent/模型 + 阿里云函数 + 微信/支付宝收款；域名走万网便于备案叙事。",
+  "estimatedCost": "视云与支付费率；需主体与资质",
+  "caveats": [
+    "微信支付/登录需企业主体与认证",
+    "小程序另需独立分发路径",
+    "ICP 备案（概念 icp）"
+  ]
+}

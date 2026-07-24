@@ -1,0 +1,23 @@
+{
+  "name": "@vh/cli",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "description": "VibeHolding CLI (vh) — 知识库查询与 stack 校验",
+  "bin": {
+    "vh": "./bin/vh.mjs"
+  },
+  "scripts": {
+    "vh": "tsx src/index.ts",
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@vh/core": "workspace:*",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  }
+}

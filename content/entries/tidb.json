@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "distributed",
+    "mysql-compatible"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "运维复杂度高于 RDS；小体量场景过度，TiKV 组件资源占用需容量规划。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://pingcap.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "both",
+  "id": "tidb",
+  "name": "TiDB",
+  "category": "db-relational",
+  "subcategory": "distributed",
+  "oneLiner": "MySQL 协议分布式 · 水平扩展/HTAP · PingCAP 云原生",
+  "officialUrl": "https://pingcap.com",
+  "descriptionMd": "TiDB 是 PingCAP 开源的 MySQL 协议分布式数据库，水平扩展、HTAP 与云原生部署，适合海量数据仍要 SQL 语义的场景。\n\n数据量超单机 MySQL 上限、需要在线扩容且希望尽量不改应用 SQL 时评估 TiDB；国内金融与互联网常见。\n\n运维复杂度高于 RDS；小体量场景过度，TiKV 组件资源占用需容量规划。\n"
+}

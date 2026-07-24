@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "版权与商标风险需法务把关；生成代码未必生产可用。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://same.new"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "same-new",
+  "name": "Same.new",
+  "category": "coding-cloud-builder",
+  "subcategory": "clone-builder",
+  "oneLiner": "参考 URL/描述 mimic 竞品 · 交互 A/B 原型 · 非生产工程",
+  "officialUrl": "https://same.new",
+  "descriptionMd": "Same.new 允许用户输入参考 URL 或描述，AI 生成相似功能的新应用，适合快速 mimic 竞品交互做 A/B 原型。\n\n产品团队需要「像 X 但改 Y」的 demo 给 stakeholder 评审，时间窗口极短时使用。\n\n版权与商标风险需法务把关；生成代码未必生产可用。\n",
+  "vendorId": "same-new-inc"
+}

@@ -1,0 +1,34 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "localization"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "Enterprise SSO 与 workflow 不如 Crowdin 深；极大型 locale 数量要测性能。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://tolgee.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "tolgee",
+  "name": "Tolgee",
+  "category": "global-i18n",
+  "subcategory": "tms",
+  "oneLiner": "页面内点选翻译 · screenshot context · 可 self-host",
+  "officialUrl": "https://tolgee.io",
+  "descriptionMd": "Tolgee 提供 in-context 点击翻译、screenshot context 与 self-host，降低开发者与译员来回传文件成本。\n\n小团队希望 Crowdin 功能但预算有限、或需 EU self-host 时评估 Tolgee；Chrome 插件 in-context 体验好。\n\nEnterprise SSO 与 workflow 不如 Crowdin 深；极大型 locale 数量要测性能。\n"
+}

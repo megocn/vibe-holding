@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "asr",
+    "stt",
+    "tts",
+    "streaming"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "中文与小语种效果需自测；纯「最美旁白」场景表达力可能不如 ElevenLabs。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://deepgram.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "deepgram",
+  "name": "Deepgram",
+  "category": "ai-speech",
+  "subcategory": "asr",
+  "oneLiner": "生产级流式 STT · Nova · Aura TTS 一体",
+  "officialUrl": "https://deepgram.com",
+  "descriptionMd": "Deepgram 以高精度流式语音识别（Nova 系）立足，并提供 Aura TTS 与 Voice Agent API，适合企业级转写与可编排语音管线。\n\n客服质检、会议转写、电话 Agent 需要低延迟 STT 与结构化结果时常用；HIPAA 等合规场景亦多见。\n\n中文与小语种效果需自测；纯「最美旁白」场景表达力可能不如 ElevenLabs。\n",
+  "vendorId": "deepgram-inc"
+}

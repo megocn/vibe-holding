@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "payments",
+    "alipay"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "欧美卡支付非核心；SDK 与结算币种有限，需与 Ant 国际商务团队对接费率。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://global.alipay.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "both",
+  "id": "alipay-global",
+  "name": "支付宝国际",
+  "category": "pay-processor",
+  "subcategory": "wallet",
+  "oneLiner": "Alipay+ 亚洲钱包网络 · 海外收中国游客支付 · 非欧美卡核心",
+  "officialUrl": "https://global.alipay.com",
+  "descriptionMd": "支付宝国际为海外商户提供 Alipay+ 钱包收单与中国游客熟悉支付方式，覆盖亚洲多个电子钱包网络。\n\n面向中国游客/侨民市场、或亚洲 retail 需要接 Alipay+ 网络时启用；与国内支付宝体系联动。\n\n欧美卡支付非核心；SDK 与结算币种有限，需与 Ant 国际商务团队对接费率。\n",
+  "vendorId": "alipay-global-inc"
+}

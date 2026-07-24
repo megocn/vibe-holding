@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line",
+    "flagship"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "国际语言与代码 benchmark 需自测；注意 token 计费与上下文分段策略。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.minimaxi.com",
+    "https://github.com/MiniMax-AI/MiniMax-M3"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "minimax-flagship",
+  "name": "MiniMax M3",
+  "category": "llm-line",
+  "subcategory": "line",
+  "oneLiner": "MiniMax 旗舰 · M3 · 原生多模态 / 百万上下文",
+  "officialUrl": "https://www.minimaxi.com",
+  "descriptionMd": "MiniMax 旗舰 line 已从 abab 系列切换到 **M3**（原生多模态、约百万上下文叙事）。abab 6.5 为上一代命名。\n\n国内角色扮演、长文本、编码/cowork 类应用后端需要家族最强表现时使用。\n\n国际语言与代码 benchmark 需自测；注意 token 计费与上下文分段策略。\n",
+  "vendorId": "minimax-inc",
+  "currentVersion": "M3"
+}

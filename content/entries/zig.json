@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "生态远小于 Rust；Web 后端与 AI 应用极少采用。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://ziglang.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "zig",
+  "name": "Zig",
+  "category": "lang-language",
+  "subcategory": "systems",
+  "oneLiner": "C 替代向 · comptime/无隐藏控制流 · 底层库与嵌入式",
+  "officialUrl": "https://ziglang.org",
+  "descriptionMd": "Zig 是面向 C 替代的系统语言，强调简单、无 hidden control flow 与 comptime，适合底层库与嵌入式。\n\n需要 C 级性能但拒绝 C++ 复杂度的新系统库、或与 C 互操作的 tooling。\n\n生态远小于 Rust；Web 后端与 AI 应用极少采用。\n",
+  "vendorId": "zig-lang"
+}

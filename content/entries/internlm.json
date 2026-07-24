@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "family"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "企业 SLA 与商业 API 需通过合作方；国际英文 benchmark 需对照评测。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://internlm.intern-ai.org.cn"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "internlm",
+  "name": "InternLM",
+  "category": "llm-family",
+  "subcategory": "family",
+  "oneLiner": "书生开源 · 现至 InternLM3 · 学术机构出品 · 推理/代码工具链",
+  "officialUrl": "https://internlm.intern-ai.org.cn",
+  "descriptionMd": "InternLM（书生）是国内顶尖学术机构发布的大模型系列，当前开源主力为 InternLM3。\n\n科研、国产化算力环境、或需要可复现论文基座的国内团队。\n\n企业 SLA 与商业 API 需通过合作方。\n",
+  "vendorId": "shanghai-ai-lab"
+}

@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "push",
+    "web"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "高级 segmentation 与 Journeys 需付费；国内 Android 厂商通道需额外配置。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://onesignal.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "onesignal",
+  "name": "OneSignal",
+  "category": "msg-push",
+  "subcategory": "mobile-push",
+  "oneLiner": "mobile/web/in-app/email 统一编排 · 免费层慷慨 · 海外向",
+  "officialUrl": "https://onesignal.com",
+  "descriptionMd": "OneSignal 支持 mobile/web push、in-app messaging 与 email 统一编排，免费层慷慨。\n\n全球化 App 需要 web+mobile push、或希望免自建 FCM/APNs 封装时选用。\n\n高级 segmentation 与 Journeys 需付费；国内 Android 厂商通道需额外配置。\n",
+  "vendorId": "onesignal-inc"
+}

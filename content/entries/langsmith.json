@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "绑定 LangChain 生态；非 LC 项目用 Langfuse/Helicone 更中立。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.langchain.com/langsmith"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "langsmith",
+  "name": "LangSmith",
+  "category": "ai-llm-obs",
+  "subcategory": "llm-dev-platform",
+  "oneLiner": "Trace/dataset eval/prompt hub · LangChain/LangGraph 深集成",
+  "officialUrl": "https://www.langchain.com/langsmith",
+  "descriptionMd": "LangSmith 提供 trace、dataset eval、prompt hub 与 online monitoring，与 LangChain/LangGraph 深度集成。\n\n已选 LangChain 栈、需要 production trace 与 regression eval 闭环的 AI 团队。\n\n绑定 LangChain 生态；非 LC 项目用 Langfuse/Helicone 更中立。\n",
+  "vendorId": "langchain-inc"
+}

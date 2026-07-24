@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "timeseries",
+    "postgres"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "非时序 OLTP 仍可用 PG 但优势不明显；Cloud 版与自托管功能差异需对照。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.timescale.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "timescaledb",
+  "name": "TimescaleDB",
+  "category": "db-relational",
+  "subcategory": "timeseries",
+  "oneLiner": "PG 时序扩展 · hypertable/压缩/连续聚合 · IoT/监控 SQL 生态",
+  "officialUrl": "https://www.timescale.com",
+  "descriptionMd": "TimescaleDB 作为 Postgres 扩展提供 hypertable、压缩与连续聚合，适合 IoT、监控与金融时序数据，仍可用 SQL 生态。\n\n已有 PostgreSQL 栈且时序查询为主、希望统一数据库技术栈时选用；与 Grafana 集成多。\n\n非时序 OLTP 仍可用 PG 但优势不明显；Cloud 版与自托管功能差异需对照。\n"
+}

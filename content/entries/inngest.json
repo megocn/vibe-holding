@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "workflow",
+    "serverless"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "供应商锁定与定价随事件量增长；极复杂 DAG 可能不如 Temporal 灵活。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.inngest.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "inngest",
+  "name": "Inngest",
+  "category": "cloud-paas",
+  "subcategory": "workflow",
+  "oneLiner": "事件+step durable 任务 · 代码内加函数 · 免自管队列 Worker",
+  "officialUrl": "https://www.inngest.com",
+  "descriptionMd": "Inngest 以事件和 step function 方式编排 durable 后台任务，开发者在现有代码中加函数即可，无需自管队列 Worker。\n\nNext.js/Vercel 项目需要可靠 cron、重试 workflow、或替代自建 Bull/SQS 时采用；本地 dev server 体验好。\n\n供应商锁定与定价随事件量增长；极复杂 DAG 可能不如 Temporal 灵活。\n"
+}

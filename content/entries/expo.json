@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "重度 native 定制需 dev client/eject；Expo 版本与 RN 版本需对齐。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://expo.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "expo",
+  "name": "Expo",
+  "category": "fw-fullstack",
+  "subcategory": "mobile-toolchain",
+  "oneLiner": "RN 托管工具链 · EAS Build/OTA · 上架与更新大幅简化",
+  "officialUrl": "https://expo.dev",
+  "descriptionMd": "Expo 封装 RN 工具链，提供 EAS Build、OTA 更新与托管 workflow，大幅简化 App 上架流程。\n\n独立开发者或小团队快速发 iOS/Android、接受 managed workflow 限制时。\n\n重度 native 定制需 dev client/eject；Expo 版本与 RN 版本需对齐。\n",
+  "vendorId": "expo-dev"
+}

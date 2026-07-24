@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "config",
+    "automation"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "大规模动态 inventory 性能不如 Chef/Puppet 历史方案；idempotency 测试需 discipline。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.ansible.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "ansible",
+  "name": "Ansible",
+  "category": "cicd-pipeline",
+  "subcategory": "config",
+  "oneLiner": "SSH 推送 playbook · 无 agent 配置 · VM/混合环境编排",
+  "officialUrl": "https://www.ansible.com",
+  "descriptionMd": "Ansible 通过 SSH 推送 playbook 配置服务器、安装软件与编排滚动发布，适合传统 VM 与混合环境。\n\n仍有大量 bare-metal/VM 运维、或 K8s 之外需要配置管理时采用。\n\n大规模动态 inventory 性能不如 Chef/Puppet 历史方案；idempotency 测试需 discipline。\n",
+  "vendorId": "red-hat"
+}

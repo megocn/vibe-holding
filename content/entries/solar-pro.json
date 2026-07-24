@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line",
+    "flagship"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "中文能力需实测；国内访问延迟与合规需网络评估。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://upstage.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "solar-pro",
+  "name": "Solar Pro 3",
+  "category": "llm-line",
+  "subcategory": "line",
+  "oneLiner": "Upstage 旗舰 · Solar Pro 3 · 韩英优化高效 LLM",
+  "officialUrl": "https://upstage.ai",
+  "descriptionMd": "Upstage Solar 旗舰 line。当前版本为 Solar Pro 3；旧称 Solar Pro 为上一代。\n\n亚太 SaaS 需要高性价比 API、或评估非中美系模型供应商时考虑。\n\n中文能力需实测；国内访问延迟与合规需网络评估。\n",
+  "vendorId": "upstage",
+  "currentVersion": "Pro 3"
+}

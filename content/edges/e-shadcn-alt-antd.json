@@ -1,0 +1,10 @@
+{
+  "id": "e-shadcn-alt-antd",
+  "from": "shadcn-ui",
+  "to": "antd",
+  "type": "alternative_to",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

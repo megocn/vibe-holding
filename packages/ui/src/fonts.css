@@ -1,0 +1,36 @@
+/*
+ * 字体 @font-face（霞鹜文楷 / 霞鹜臻楷 / Maple Mono）。
+ * 桌面端资源：apps/desktop/public/fonts（见该目录 README；可用 scripts/fetch-fonts.sh 再生）。
+ * Web 端 MUST 再做子集化（cn-font-split / unicode-range）；当前为开发/桌面全量 woff2。
+ * Bold 槽位映射 Lite Medium（上游无独立 Bold）。
+ */
+@font-face {
+  font-family: 'LXGW WenKai';
+  src: url('/fonts/LXGWWenKai-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'LXGW WenKai';
+  src: url('/fonts/LXGWWenKai-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'LXGW ZhenKai';
+  src: url('/fonts/LXGWZhenKai-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Maple Mono';
+  src: url('/fonts/MapleMono-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* 行距 / 字距令牌由 tokens.css 统一提供 */

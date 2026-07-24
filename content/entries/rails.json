@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "超大 monolith 性能需拆分；JavaScript 前端现代栈需配合 Hotwire/Stimulus。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://rubyonrails.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "rails",
+  "name": "Ruby on Rails",
+  "category": "fw-fullstack",
+  "subcategory": "ruby-fullstack",
+  "oneLiner": "Convention 优先 · scaffold 极快 · ActiveRecord 一体 MVP",
+  "officialUrl": "https://rubyonrails.org",
+  "descriptionMd": "Rails 以 convention over configuration 著称， scaffold 极快，ActiveRecord/ActionCable 一体，初创 MVP 经典选择。\n\n2–10 人团队快速构建 SaaS MVP、internal tool 或 content+commerce 站点。\n\n超大 monolith 性能需拆分；JavaScript 前端现代栈需配合 Hotwire/Stimulus。\n",
+  "vendorId": "rails-core"
+}

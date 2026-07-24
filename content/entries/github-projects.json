@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "pm",
+    "github"
+  ],
+  "maturity": "stable",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://docs.github.com/en/issues/planning-and-tracking-with-projects"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "github-projects",
+  "name": "GitHub Projects",
+  "category": "collab-pm",
+  "subcategory": "pm",
+  "oneLiner": "仓内看板/表格 · Issues/PR/Actions 同仓 · 少工具跳转",
+  "descriptionMd": "GitHub Projects 把看板/表格嵌在仓库上下文，与 Issues、PR、Actions 同仓，减少工具跳转。\n\n适合小团队与开源协作；复杂产品管理可能仍转向 Linear 等。与「文档型 Wiki」不同，偏工程交付追踪。\n\n自动化可把 PR/Issue 状态推进看板；复杂路线图仍可能外挂专用 PM 工具。\n",
+  "officialUrl": "https://docs.github.com/en/issues/planning-and-tracking-with-projects"
+}

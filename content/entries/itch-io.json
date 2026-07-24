@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "games",
+    "indie"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "非 mainstream 消费者渠道；enterprise 软件不适合，支付与 tax 能力有限。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://itch.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "itch-io",
+  "name": "itch.io",
+  "category": "dist-desktop",
+  "subcategory": "store",
+  "oneLiner": "indie 游戏/工具 · PWYW · HTML5+桌面下载 · community 强",
+  "officialUrl": "https://itch.io",
+  "descriptionMd": "itch.io 面向 indie game 与 digital 工具，支持 pay-what-you-want、HTML5 与 desktop 下载，community 强。\n\n独立游戏/prototype 需要友好 discoverability 与 flexible pricing 时发布；jam 活动多。\n\n非 mainstream 消费者渠道；enterprise 软件不适合，支付与 tax 能力有限。\n"
+}

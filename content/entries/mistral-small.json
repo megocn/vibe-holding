@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "复杂代码生成与 multi-step Agent 应路由到 Large 或 frontier。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://mistral.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "mistral-small",
+  "name": "Mistral Small 4",
+  "category": "llm-line",
+  "subcategory": "line",
+  "oneLiner": "Mistral 轻量档 · Small 4 · 高并发分类/提取/简单 chat",
+  "officialUrl": "https://mistral.ai",
+  "descriptionMd": "Mistral 家族轻量成本档。当前版本为 Mistral Small 4，适合高并发分类、提取与简单对话。\n\n路由层默认小模型、批量预处理；复杂推理升 Large 3。\n\n能力上限明显低于旗舰，关键路径需保留升级策略。\n",
+  "vendorId": "mistral-ai",
+  "currentVersion": "Small 4"
+}

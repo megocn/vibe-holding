@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "seo",
+    "marketing"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "与 Ahrefs 功能重叠；订阅档位多需选对 plan。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.semrush.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "semrush",
+  "name": "Semrush",
+  "category": "growth-web",
+  "subcategory": "seo",
+  "oneLiner": "关键词+广告+内容工具 · Marketing ops 全栈 · 非纯外链",
+  "officialUrl": "https://www.semrush.com",
+  "descriptionMd": "Semrush 覆盖关键词、广告研究、内容工具与 site audit，偏 marketing ops 全栈而非纯 backlink。\n\n需要 SEO+PPC+内容一体化 toolkit、与 agency 协作时常见。\n\n与 Ahrefs 功能重叠；订阅档位多需选对 plan。\n",
+  "vendorId": "semrush-inc"
+}

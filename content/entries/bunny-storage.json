@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "storage",
+    "cdn"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "全球 presence 小于 AWS；enterprise compliance 认证需核实。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://bunny.net/storage"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "bunny-storage",
+  "name": "Bunny Storage",
+  "category": "db-object",
+  "subcategory": "object",
+  "oneLiner": "与 Bunny CDN 同台 · S3 兼容 · 低价 egress 到自家 CDN",
+  "officialUrl": "https://bunny.net/storage",
+  "descriptionMd": "Bunny Storage 与 Bunny CDN 同平台，S3 兼容 API、低价 egress 到自家 CDN，适合全球 static 与 video origin。\n\n已用 Bunny CDN 或需要 cheap bandwidth 分发大文件时选用；video streaming 场景常见。\n\n全球 presence 小于 AWS；enterprise compliance 认证需核实。\n"
+}

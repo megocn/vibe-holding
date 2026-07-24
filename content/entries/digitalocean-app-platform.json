@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "paas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "高级网络与全球边缘不如 Cloudflare；大流量成本需与 AWS/GCP 对比，自定义构建阶段有限。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.digitalocean.com/products/app-platform"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "digitalocean-app-platform",
+  "name": "DigitalOcean App Platform",
+  "category": "cloud-paas",
+  "subcategory": "paas",
+  "oneLiner": "Git/容器部署 · 内置托管库+SSL · 定价简单偏中小团队",
+  "officialUrl": "https://www.digitalocean.com/products/app-platform",
+  "descriptionMd": "DigitalOcean App Platform 从 Git 或容器部署 Web 应用，内置托管数据库与自动 SSL，定价简单，适合中小团队快速上线。\n\n已用 DO Droplet/Spaces、希望少运维又不要 K8s 时选用；与 Managed PostgreSQL 同栈部署常见。\n\n高级网络与全球边缘不如 Cloudflare；大流量成本需与 AWS/GCP 对比，自定义构建阶段有限。\n",
+  "vendorId": "digitalocean"
+}

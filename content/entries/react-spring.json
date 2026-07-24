@@ -1,0 +1,32 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "API 学习曲线高于 Framer Motion；简单 opacity 用 CSS 即可。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.react-spring.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "react-spring",
+  "name": "React Spring",
+  "category": "ui-composable",
+  "subcategory": "animation",
+  "oneLiner": "spring 物理 hook · gesture/layout 更自然 · API 陡于 Motion",
+  "officialUrl": "https://www.react-spring.dev",
+  "descriptionMd": "React Spring 提供基于 spring physics 的 hook 动画，适合 gesture 与 layout transition，比 CSS 更自然。\n\n数据可视化 transition、拖拽排序动画、需要 physics-based motion 的 React UI。\n\nAPI 学习曲线高于 Framer Motion；简单 opacity 用 CSS 即可。\n"
+}

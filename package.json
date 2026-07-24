@@ -1,0 +1,43 @@
+{
+  "name": "vibeholding",
+  "version": "0.0.0",
+  "private": true,
+  "description": "面向 Vibe Coding 开发者的全链路基建选型知识库 + 凭据管理工具",
+  "license": "Apache-2.0",
+  "packageManager": "pnpm@10.24.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "type": "module",
+  "scripts": {
+    "build": "turbo run build",
+    "test": "turbo run test",
+    "typecheck": "turbo run typecheck",
+    "lint": "biome check .",
+    "lint:fix": "biome check --write .",
+    "validate": "tsx scripts/validate-content.ts",
+    "gen:content": "tsx scripts/build-content.ts",
+    "gen:schema": "tsx scripts/gen-schema.ts",
+    "gen:icons": "node scripts/gen-icons.mjs",
+    "gen:fonts": "bash scripts/fetch-fonts.sh",
+    "build:web": "pnpm --filter @vh/desktop build",
+    "deploy:pages": "pnpm build:web && wrangler pages deploy --project-name=vibeholding --branch=main",
+    "vh": "tsx apps/cli/src/index.ts"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/node": "^22.10.2",
+    "@vh/core": "workspace:*",
+    "tsx": "^4.19.2",
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.2",
+    "wrangler": "^4.113.0",
+    "zod-to-json-schema": "^3.25.2"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "@biomejs/biome"
+    ]
+  }
+}

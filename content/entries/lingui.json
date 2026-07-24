@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "i18n",
+    "react"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "生态与 CMS 集成小于 i18next；非 React 绑定较弱。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://lingui.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "lingui",
+  "name": "Lingui",
+  "category": "global-i18n",
+  "subcategory": "library",
+  "oneLiner": "构建期 macro 提取 · bundle 小 · TS 友好 · 偏 React",
+  "officialUrl": "https://lingui.dev",
+  "descriptionMd": "Lingui 用 macro 在构建期提取消息，bundle 体积小，TypeScript 友好，适合 performance-sensitive React 应用。\n\n关注 bundle size、需要 ICU MessageFormat 与 PO 文件工作流时选 Lingui 而非 i18next runtime。\n\n生态与 CMS 集成小于 i18next；非 React 绑定较弱。\n"
+}

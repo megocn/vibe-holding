@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "email",
+    "marketing"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "事务送达专注度不如 Postmark；模板编辑器学习曲线存在。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.brevo.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "brevo",
+  "name": "Brevo",
+  "category": "msg-email",
+  "subcategory": "marketing",
+  "oneLiner": "事务+营销 automation+SMS · 欧洲 GDPR 友好 · 定价透明",
+  "officialUrl": "https://www.brevo.com",
+  "descriptionMd": "Brevo（原 Sendinblue）合并事务邮件、营销 automation 与 SMS，欧洲 GDPR 友好，定价透明。\n\n欧盟用户为主、需要邮件+SMS 一体营销且预算中等时可选。\n\n事务送达专注度不如 Postmark；模板编辑器学习曲线存在。\n",
+  "vendorId": "brevo-inc"
+}

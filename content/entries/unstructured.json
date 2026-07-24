@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "复杂版式 OCR 质量依赖上游；高 QPS batch 需配 queue 与 horizontal workers。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://unstructured.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "unstructured",
+  "name": "Unstructured",
+  "category": "ai-rag",
+  "subcategory": "document-etl",
+  "oneLiner": "PDF/HTML/DOCX→clean chunk · embedding 管线前置 · RAG 预处理",
+  "officialUrl": "https://unstructured.io",
+  "descriptionMd": "Unstructured 解析 PDF/HTML/DOCX 等为 clean chunk，供 embedding pipeline 使用，是 RAG 数据预处理常用工具。\n\n企业 knowledge base 来源复杂（扫描件、slides）、需要 robust parsing 再入 vector DB 时。\n\n复杂版式 OCR 质量依赖上游；高 QPS batch 需配 queue 与 horizontal workers。\n",
+  "vendorId": "unstructured-io"
+}

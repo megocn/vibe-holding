@@ -1,0 +1,49 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ui",
+    "a11y",
+    "primitives"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "需自行补齐样式体系"
+  ],
+  "updates": [],
+  "sources": [
+    "https://www.radix-ui.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "radix-ui",
+  "name": "Radix UI",
+  "category": "ui-primitives",
+  "oneLiner": "React 无样式原语 · a11y 优先 · shadcn/设计系统常见底座",
+  "descriptionMd": "Radix 提供无样式、可访问性优先的组件原语，是现代设计系统与 shadcn 一类方案的底座。\n\n适合要完全掌控视觉的团队；不直接给「漂亮默认 UI」。与完整组件库（Ant/Mantine）是不同抽象层。\n\n无障碍行为正确是核心价值；样式完全交给你，需自备设计 token。\n",
+  "officialUrl": "https://www.radix-ui.com",
+  "rankings": [
+    {
+      "systemId": "npm-downloads",
+      "tier": "Headless base",
+      "period": "2026-H1",
+      "note": "shadcn 等上层的无障碍 primitives",
+      "asOf": "2026-07-20"
+    },
+    {
+      "systemId": "state-of-js",
+      "tier": "Headless",
+      "period": "2025 Survey",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

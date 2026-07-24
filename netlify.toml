@@ -1,0 +1,16 @@
+# 墨台 Web 只读壳 — Netlify
+# https://docs.netlify.com/configure-builds/file-based-configuration/
+
+[build]
+  command = "corepack enable && pnpm install --frozen-lockfile && pnpm build:web"
+  publish = "apps/desktop/dist"
+
+[build.environment]
+  NODE_VERSION = "22"
+  # 与根 package.json packageManager 对齐
+  PNPM_FLAGS = "--frozen-lockfile"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

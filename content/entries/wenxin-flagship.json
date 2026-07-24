@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line",
+    "flagship"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "API 与控制台概念较多；新团队建议从官方 SDK quickstart 减少踩坑。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://cloud.baidu.com/product/wenxinworkshop"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "wenxin-flagship",
+  "name": "ERNIE 5.1",
+  "category": "llm-line",
+  "subcategory": "line",
+  "oneLiner": "文心旗舰 · 现为 ERNIE 5.1 · 千帆搜索增强/工具调用",
+  "officialUrl": "https://cloud.baidu.com/product/wenxinworkshop",
+  "descriptionMd": "文心家族旗舰 line。当前版本以 ERNIE 5.0/5.1 为代表（5.0 约 2026-01 正式；5.1 为后续优化旗舰）；ERNIE 4.0 已非最新。\n\n百度云一体化、需要文心最强能力与国内合规审计的企业应用。\n\nAPI 与控制台概念较多；新团队建议从官方 SDK quickstart 减少踩坑。\n",
+  "vendorId": "baidu",
+  "currentVersion": "5.1"
+}

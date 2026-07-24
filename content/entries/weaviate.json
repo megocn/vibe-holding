@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "运维复杂度高于 Pinecone；module 配置错误会导致 embedding 维度 mismatch。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://weaviate.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "weaviate",
+  "name": "Weaviate",
+  "category": "ai-vector",
+  "subcategory": "vector-db",
+  "oneLiner": "GraphQL · 内置 vectorizer · BM25+vector hybrid",
+  "officialUrl": "https://weaviate.io",
+  "descriptionMd": "Weaviate 提供 GraphQL API、内置 vectorizer 模块与 hybrid BM25+vector 搜索，可云托管或自部署。\n\n需要 hybrid search、multi-tenant RAG、或希望开源可自托管的 vector DB 时。\n\n运维复杂度高于 Pinecone；module 配置错误会导致 embedding 维度 mismatch。\n",
+  "vendorId": "weaviate-io"
+}

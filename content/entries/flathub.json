@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "linux",
+    "flatpak"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "首次提交 review 可能久；runtime 体积与 portal 权限需 manifest 声明清楚。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://flathub.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "flathub",
+  "name": "Flathub",
+  "category": "dist-desktop",
+  "subcategory": "store",
+  "oneLiner": "Flatpak 主力仓 · Linux 沙箱分发 · Fedora 等默认推荐",
+  "officialUrl": "https://flathub.org",
+  "descriptionMd": "Flathub 是 Flatpak 主力应用仓库，沙箱分发 Linux 桌面应用，被 Fedora 等发行版默认推荐。\n\n开源 GUI 应用触达 Linux 桌面用户的首选发布渠道；sandbox 提升安全叙事。\n\n首次提交 review 可能久；runtime 体积与 portal 权限需 manifest 声明清楚。\n"
+}

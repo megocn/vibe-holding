@@ -1,0 +1,129 @@
+/*
+ * VibeHolding 设计令牌（墨图 Ink Atlas）。
+ * 见 docs-internal/UI设计规范.md。OKLCH 色彩，暖纸/暖墨中性 + 矿物颜料语义色。
+ */
+:root,
+[data-theme='light'] {
+  /*
+   * 浅色「宣纸」偏中性暖：降彩度、少黄偏，减轻久视疲劳；
+   * 仍保留可感知的纸感，避免纯冷灰。
+   */
+  --paper-0: oklch(0.988 0.003 95);
+  --paper-1: oklch(0.972 0.004 92);
+  --paper-2: oklch(0.948 0.005 90);
+  --ink-1: oklch(0.28 0.012 55);
+  --ink-2: oklch(0.45 0.01 58);
+  --ink-3: oklch(0.58 0.008 62);
+  --line: oklch(0.9 0.005 90);
+
+  --pigment-primary: oklch(0.52 0.09 232);
+  --pigment-info: oklch(0.56 0.08 230);
+  --pigment-success: oklch(0.58 0.09 155);
+  --pigment-warning: oklch(0.7 0.1 75);
+  --pigment-danger: oklch(0.55 0.14 27);
+  /* 朱砂印色：品牌印章 / 国内点睛（克制使用） */
+  --pigment-seal: oklch(0.5 0.14 28);
+
+  --region-domestic: oklch(0.55 0.14 27);
+  --region-overseas: oklch(0.55 0.08 215);
+
+  /* 墨晕更淡，避免大面积暖色块抢视线 */
+  --wash-warm: oklch(0.94 0.012 85 / 0.28);
+  --wash-cool: oklch(0.95 0.012 230 / 0.16);
+  --wash-ink: oklch(0.5 0.01 60 / 0.03);
+  --paper-grain-opacity: 0.16;
+}
+
+[data-theme='dark'] {
+  --paper-0: oklch(0.19 0.014 60);
+  --paper-1: oklch(0.23 0.014 60);
+  --paper-2: oklch(0.27 0.014 60);
+  --ink-1: oklch(0.93 0.01 88);
+  --ink-2: oklch(0.78 0.012 85);
+  --ink-3: oklch(0.62 0.012 80);
+  --line: oklch(0.33 0.014 60);
+
+  --pigment-primary: oklch(0.68 0.1 232);
+  --pigment-info: oklch(0.7 0.09 230);
+  --pigment-success: oklch(0.72 0.1 155);
+  --pigment-warning: oklch(0.8 0.11 75);
+  --pigment-danger: oklch(0.68 0.15 27);
+  --pigment-seal: oklch(0.66 0.15 28);
+
+  --region-domestic: oklch(0.68 0.15 27);
+  --region-overseas: oklch(0.68 0.09 215);
+
+  --wash-warm: oklch(0.28 0.03 70 / 0.45);
+  --wash-cool: oklch(0.28 0.03 230 / 0.22);
+  --wash-ink: oklch(0.1 0.02 60 / 0.35);
+  --paper-grain-opacity: 0.22;
+}
+
+:root {
+  /* 间距 */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* 圆角 */
+  --radius-sm: 6px;
+  --radius: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-full: 9999px;
+
+  /* 阴影（暖调低阴影） */
+  --shadow-sm: 0 1px 2px oklch(0.3 0.02 60 / 0.06);
+  --shadow-md: 0 4px 12px oklch(0.3 0.02 60 / 0.08);
+  --shadow-pop: 0 8px 28px oklch(0.3 0.02 60 / 0.12);
+
+  /* 动效 */
+  --dur-fast: 120ms;
+  --dur: 180ms;
+  --dur-slow: 240ms;
+  --ease-standard: cubic-bezier(0.2, 0, 0, 1);
+  --ease-emphasized: cubic-bezier(0.3, 0, 0, 1);
+
+  /* 字族 */
+  --font-display: 'LXGW ZhenKai', 'LXGW WenKai', system-ui, 'PingFang SC', sans-serif;
+  --font-body: 'LXGW WenKai', system-ui, 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  --font-mono: 'Maple Mono', 'JetBrains Mono', ui-monospace, monospace;
+
+  /* 字阶（模数 ≈ 1.2，楷体正文行高 1.75） */
+  --text-display: 32px;
+  --text-display-lh: 1.35;
+  --text-h1: 24px;
+  --text-h1-lh: 1.4;
+  --text-h2: 20px;
+  --text-h2-lh: 1.45;
+  --text-h3: 18px;
+  --text-h3-lh: 1.5;
+  --text-body: 16px;
+  --text-body-lh: 1.75;
+  --text-sm: 14px;
+  --text-sm-lh: 1.65;
+  --text-caption: 13px;
+  --text-caption-lh: 1.5;
+  --text-mono-size: 0.925em;
+  --leading-body: 1.75;
+  --tracking-cjk: 0.01em;
+}
+
+[data-density='compact'] {
+  --space-3: 9px;
+  --space-4: 12px;
+  --space-6: 18px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --dur-fast: 0ms;
+    --dur: 0ms;
+    --dur-slow: 0ms;
+  }
+}

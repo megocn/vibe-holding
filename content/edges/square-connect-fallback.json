@@ -1,0 +1,10 @@
+{
+  "id": "square-connect-fallback",
+  "from": "square-connect",
+  "to": "vercel",
+  "type": "commonly_used_with",
+  "weight": 0.3,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

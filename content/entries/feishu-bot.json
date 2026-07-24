@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "im",
+    "domestic"
+  ],
+  "maturity": "mature",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://open.feishu.cn"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "feishu-bot",
+  "name": "飞书机器人",
+  "category": "msg-im",
+  "subcategory": "im",
+  "oneLiner": "飞书群机器人 · 通知/审批回调 · 简易互动入口",
+  "descriptionMd": "飞书群机器人与开放平台是国内团队**通知、审批回调、简易互动**的常用入口。\n\n适合把 CI 失败、值班告警、表单审批推到群里；复杂交互需走开放平台权限与事件订阅。与企业微信机器人场景类似，选型看公司已用哪套 IM。\n\n签名校验与频率限制别省；把告警分级，避免群消息噪声导致忽略。\n",
+  "officialUrl": "https://open.feishu.cn"
+}

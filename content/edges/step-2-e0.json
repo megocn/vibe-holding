@@ -1,0 +1,10 @@
+{
+  "id": "step-2-e0",
+  "from": "step-2",
+  "to": "glm-flagship",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

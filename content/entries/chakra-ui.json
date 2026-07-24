@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "Chakra v3 迁移变动大；大数据表格需另配 TanStack Table。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://chakra-ui.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "chakra-ui",
+  "name": "Chakra UI",
+  "category": "ui-kits",
+  "subcategory": "react-accessible",
+  "oneLiner": "Composable + style props · WAI-ARIA · dark mode 开箱",
+  "officialUrl": "https://chakra-ui.com",
+  "descriptionMd": "Chakra UI 提供 composable、WAI-ARIA 友好的 React 组件，style props API 简洁，dark mode 开箱即用。\n\n需要快速搭建 accessible marketing/admin、且偏好 CSS-in-JS style props 的团队。\n\nChakra v3 迁移变动大；大数据表格需另配 TanStack Table。\n",
+  "vendorId": "chakra-ui-inc"
+}

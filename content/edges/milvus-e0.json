@@ -1,0 +1,10 @@
+{
+  "id": "milvus-e0",
+  "from": "milvus",
+  "to": "pgvector",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

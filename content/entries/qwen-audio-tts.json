@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "tts",
+    "domestic",
+    "qwen",
+    "dashscope"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "地域与 WebSocket endpoint 需按文档配置；版本名写入 currentVersion，勿拆条。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://help.aliyun.com/zh/model-studio/realtime-tts-user-guide"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "domestic",
+  "id": "qwen-audio-tts",
+  "name": "Qwen-Audio TTS",
+  "category": "ai-speech",
+  "subcategory": "tts",
+  "oneLiner": "通义 Audio TTS · 3.0 Plus/Flash · AA 榜强",
+  "officialUrl": "https://help.aliyun.com/zh/model-studio/realtime-tts-user-guide",
+  "descriptionMd": "Qwen-Audio TTS（当前 **Qwen-Audio-3.0-TTS** Plus/Flash）是阿里百炼实时语音合成线，强调自然度、指令控制与多语覆盖，在 Artificial Analysis Speech Arena 等第三方对比中表现突出。\n\n国内产品需要高质量中文/多语旁白或流式 TTS、且与通义同账号时优先；与 CosyVoice 按克隆/系统音色场景分流。\n\n地域与 WebSocket endpoint 需按文档配置；版本名写入 currentVersion，勿拆条。\n",
+  "vendorId": "alibaba-cloud",
+  "currentVersion": "3.0 TTS (Plus/Flash)",
+  "docsUrl": "https://help.aliyun.com/zh/model-studio/realtime-tts-user-guide"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "e-cuw-aider-gpt-4o",
+  "from": "aider",
+  "to": "gpt-4o",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

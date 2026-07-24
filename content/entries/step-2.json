@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "Step 2 已淘汰；新项目用 3.x。生态仍在扩张，企业支持体系较新。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.stepfun.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "step-2",
+  "name": "Step 3.7 Flash",
+  "category": "llm-line",
+  "subcategory": "line",
+  "oneLiner": "阶跃主力 API · Step 3.7 Flash · Agent/多模态；Step 2 已淘汰",
+  "officialUrl": "https://www.stepfun.com",
+  "descriptionMd": "阶跃星辰主力 API line。当前主推 **Step 3.7 Flash**（Step 3 系仍活跃）；**Step 2 已淘汰**，勿再作为新项目默认。\n\n国内 multimodal + Agent 工具调用一体 API 的 POC 与生产接入。\n\n生态仍在扩张；与成熟云厂商比企业支持体系较新。\n",
+  "vendorId": "stepfun",
+  "currentVersion": "3.7 Flash"
+}

@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "apm",
+    "enterprise"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "价格与实施成本高；中小团队通常 overkill。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.dynatrace.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "dynatrace",
+  "name": "Dynatrace",
+  "category": "obs-platform",
+  "subcategory": "apm",
+  "oneLiner": "自动拓扑发现 · AI 根因分析 · 大型企业全栈 APM",
+  "officialUrl": "https://www.dynatrace.com",
+  "descriptionMd": "Dynatrace 提供自动拓扑发现、AI 根因分析与 infra 监控，面向大型企业全栈可观测。\n\n金融/电信等大型企业需要 auto-discovery 与合规审计级 APM 时评估。\n\n价格与实施成本高；中小团队通常 overkill。\n",
+  "vendorId": "dynatrace-inc"
+}

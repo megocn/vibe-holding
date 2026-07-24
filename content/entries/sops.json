@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "secrets",
+    "gitops"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "密钥管理与 rotation 流程需自建；误 commit plaintext 仍可能发生。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/getsops/sops"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "sops",
+  "name": "Mozilla SOPS",
+  "category": "sec-secrets",
+  "subcategory": "secrets",
+  "oneLiner": "加密 YAML/JSON/env 字段 · Git 存密文 · GitOps 仓库友好",
+  "officialUrl": "https://github.com/getsops/sops",
+  "descriptionMd": "SOPS 对 YAML/JSON/env 文件中的值加密，可 git 存储密文 secrets，适合 GitOps 仓库。\n\n希望 secrets 与 infra code 同 repo 但 ciphertext 可 PR review 时采用 SOPS+age/KMS。\n\n密钥管理与 rotation 流程需自建；误 commit plaintext 仍可能发生。\n"
+}

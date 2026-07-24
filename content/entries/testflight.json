@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ios",
+    "beta"
+  ],
+  "maturity": "mature",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://developer.apple.com/testflight/"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "testflight",
+  "name": "TestFlight",
+  "category": "dist-ios",
+  "subcategory": "ios",
+  "oneLiner": "Apple 官方 Beta · 上架前验证与小范围灰度",
+  "descriptionMd": "TestFlight 是 Apple 官方 Beta 通道，用于上架前验证与小范围灰度。\n\niOS 发布流水线的标准一环；与正式 App Store 审核仍是两回事。席位与构建有效期有限制。\n\n外测需注意构建过期与名额；反馈收集建议绑 Issue/表格，避免只靠邮件。\n",
+  "officialUrl": "https://developer.apple.com/testflight/"
+}

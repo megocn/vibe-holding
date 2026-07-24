@@ -1,0 +1,11 @@
+{
+  "id": "edge-iflytek-azure-dom",
+  "from": "iflytek-speech",
+  "to": "azure-speech",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24",
+  "note": "国内语音套件 vs 微软企业语音"
+}

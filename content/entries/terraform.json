@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "iac",
+    "cloud"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "state 文件管理与 drift 检测需规范；Terraform Cloud 与 OpenTofu 分叉需关注许可证。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.terraform.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "terraform",
+  "name": "Terraform",
+  "category": "cicd-pipeline",
+  "subcategory": "iac",
+  "oneLiner": "HCL plan/apply · 多云模块复用 · IaC 最普及",
+  "officialUrl": "https://www.terraform.io",
+  "descriptionMd": "Terraform 用 HCL 描述云资源，plan/apply 工作流支持多云与模块复用，是 IaC 领域最普及的选择之一。\n\n需要版本化基础设施、多环境（dev/staging/prod）一致性与 PR review infra 变更时采用。\n\nstate 文件管理与 drift 检测需规范；Terraform Cloud 与 OpenTofu 分叉需关注许可证。\n",
+  "vendorId": "hashicorp"
+}

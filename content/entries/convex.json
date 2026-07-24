@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "realtime",
+    "baas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "供应商锁定较强；复杂 SQL 报表需导出 warehouse，自托管不可行。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://convex.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "convex",
+  "name": "Convex",
+  "category": "baas-platform",
+  "subcategory": "reactive",
+  "oneLiner": "TS schema+query/mutation · 自动 reactive · React 全栈 DX",
+  "officialUrl": "https://convex.dev",
+  "descriptionMd": "Convex 提供 TypeScript 定义 schema 与 query/mutation，自动 reactive 订阅与调度，内置 auth 与文件存储，DX 面向 React 全栈。\n\n需要实时协作 UI、希望省略 REST/GraphQL 层且全栈 TS 时评估；替代 Firebase Realtime 的现代方案。\n\n供应商锁定较强；复杂 SQL 报表需导出 warehouse，自托管不可行。\n",
+  "vendorId": "convex-dev"
+}

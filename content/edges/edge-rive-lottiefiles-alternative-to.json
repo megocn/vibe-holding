@@ -1,0 +1,10 @@
+{
+  "id": "edge-rive-lottiefiles-alternative-to",
+  "from": "rive",
+  "to": "lottiefiles",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

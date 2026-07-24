@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "voice-agent",
+    "telephony"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "中文与国内线路支持有限；深度定制媒体层仍可能回到 LiveKit/自建。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.retellai.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "retell-ai",
+  "name": "Retell AI",
+  "category": "ai-realtime",
+  "subcategory": "voice-agent-platform",
+  "oneLiner": "电话语音 Agent · 低延迟 · 业务编排",
+  "officialUrl": "https://www.retellai.com",
+  "descriptionMd": "Retell AI 专注电话场景的语音 Agent，提供低延迟会话、业务工作流与监控，面向销售/客服自动化来电与外呼。\n\n北美/英语电话 Agent、需要开箱电话能力与仪表盘时常见选项；与 Vapi 同类可比。\n\n中文与国内线路支持有限；深度定制媒体层仍可能回到 LiveKit/自建。\n",
+  "vendorId": "retell-inc"
+}

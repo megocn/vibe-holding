@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line",
+    "flagship"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "实时数据依赖 X 平台；API rate limit 与 region 限制需提前申请配额。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://x.ai/news/grok-4-5",
+    "https://docs.x.ai/developers/grok-4-5"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "grok-flagship",
+  "name": "Grok 4.5",
+  "category": "llm-line",
+  "subcategory": "line",
+  "oneLiner": "xAI 旗舰 · Grok 4.5 · 编码/Agent；接 X 实时语境",
+  "officialUrl": "https://x.ai/news/grok-4-5",
+  "descriptionMd": "Grok 产品族旗舰 line。当前版本为 Grok 4.5（约 2026-07），强调编码、Agent 与知识工作；API id 多为 `grok-4.5`。\n\n需要 xAI 生态内最强能力、或已在 Cursor/Grok Build 默认栈中的海外产品。\n\n实时数据依赖 X 平台；API region/rate limit 需提前确认配额。\n",
+  "vendorId": "xai",
+  "currentVersion": "4.5"
+}

@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "缺乏内置结构，大项目需自律分层或迁移 Nest；callback 风格需 promisify。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://expressjs.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "express",
+  "name": "Express",
+  "category": "fw-fullstack",
+  "subcategory": "node-backend",
+  "oneLiner": "Node 最普及最小 HTTP · 中间件无限 · API/SSR 胶水层",
+  "officialUrl": "https://expressjs.com",
+  "descriptionMd": "Express 是 Node 最普及的 minimalist HTTP 框架，中间件生态无限，适合 API 与 SSR 胶水层。\n\nNode 存量项目、快速 REST prototype、或需要最大 middleware 选择面时。\n\n缺乏内置结构，大项目需自律分层或迁移 Nest；callback 风格需 promisify。\n",
+  "vendorId": "expressjs"
+}

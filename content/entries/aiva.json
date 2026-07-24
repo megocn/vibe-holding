@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "music",
+    "soundtrack"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "流行人声歌曲非强项；授权套餐决定商用范围。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.aiva.ai"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "aiva",
+  "name": "AIVA",
+  "category": "design-ai-music",
+  "subcategory": "music-gen",
+  "oneLiner": "AI 作曲 · 配乐/情绪向",
+  "officialUrl": "https://www.aiva.ai",
+  "descriptionMd": "AIVA 偏重作曲与配乐生成，面向游戏、影像与广告的情绪化乐器编曲，与「带歌词流行歌」生成器（Suno/Udio）定位不同。\n\n需要器乐 BGM、片头片尾或游戏配乐草稿、且要可商用授权套餐时评估。\n\n流行人声歌曲非强项；授权套餐决定商用范围。\n",
+  "vendorId": "aiva-inc"
+}

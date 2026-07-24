@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ci"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "免费额度有限；复杂 workflow 调试不如本地 act 方便。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://circleci.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "circleci",
+  "name": "CircleCI",
+  "category": "cicd-pipeline",
+  "subcategory": "ci",
+  "oneLiner": "Docker/VM executor · orbs 复用 · 并行测试成熟",
+  "officialUrl": "https://circleci.com",
+  "descriptionMd": "CircleCI 提供可扩展 Docker/VM executor、orbs 复用与并行测试，与 GitHub/GitLab 集成成熟。\n\n需要比 GitHub Actions 更强并行与缓存、或混合 cloud/self-hosted runner 时选用。\n\n免费额度有限；复杂 workflow 调试不如本地 act 方便。\n",
+  "vendorId": "circleci-inc"
+}

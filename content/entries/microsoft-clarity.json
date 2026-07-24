@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "heatmap"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "数据保留与 GDPR 需配置 masking；高流量站点可能有采样。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://clarity.microsoft.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "microsoft-clarity",
+  "name": "Microsoft Clarity",
+  "category": "growth-web",
+  "subcategory": "behavior-analytics",
+  "oneLiner": "免费 heatmap/录屏 · 轻量 UX 定性 · 微软出品",
+  "officialUrl": "https://clarity.microsoft.com",
+  "descriptionMd": "Clarity 提供 heatmap、session recording 与 insight，完全免费，适合轻量 UX 定性分析。\n\n预算有限但需要 Hotjar 类热图、且主要流量在桌面/移动 web 时启用。\n\n数据保留与 GDPR 需配置 masking；高流量站点可能有采样。\n",
+  "vendorId": "microsoft"
+}

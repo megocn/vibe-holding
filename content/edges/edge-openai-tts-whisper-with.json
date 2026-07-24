@@ -1,0 +1,11 @@
+{
+  "id": "edge-openai-tts-whisper-with",
+  "from": "openai-tts",
+  "to": "openai-whisper",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24",
+  "note": "同属 OpenAI Audio"
+}

@@ -1,0 +1,44 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "gateway",
+    "oss",
+    "self-host",
+    "domestic"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "需自行维护渠道稳定性"
+  ],
+  "updates": [],
+  "sources": [
+    "https://github.com/QuantumNous/new-api"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "one-api",
+  "name": "New API / One API",
+  "category": "gateway-router",
+  "oneLiner": "国内渠道聚合 · 令牌分发可私部 · 统一管多家上游",
+  "descriptionMd": "New API / One API 是国内社区常用的**渠道聚合与令牌分发**系统，可私有部署，统一管理多家模型上游。\n\n适合团队内部分发额度、对账与切换渠道；安全上必须管好管理端与令牌泄露面。与 OpenRouter（托管）对照运维成本。\n\n令牌分发适合团队共享渠道；管理端必须二次验证，泄露等于公开钱包。\n",
+  "officialUrl": "https://github.com/QuantumNous/new-api",
+  "rankings": [
+    {
+      "systemId": "openrouter-popularity",
+      "tier": "CN self-host",
+      "period": "2026-07",
+      "note": "国内社区主流中转面板之一",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

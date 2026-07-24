@@ -1,0 +1,67 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "frontend",
+    "ui",
+    "library"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "自身不含路由/数据方案，需自行组合"
+  ],
+  "updates": [],
+  "sources": [
+    "https://react.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "react",
+  "name": "React",
+  "category": "fw-ui-lib",
+  "vendorId": "meta",
+  "oneLiner": "声明式组件 · 生态最大 · Next/Remix 等元框架地基",
+  "descriptionMd": "React 是声明式组件 UI 库，生态庞大，是多数全栈元框架（Next/Remix 等）的基础。\n\n本身不含路由/数据方案，需自行组合或采用框架。与 Vue 按团队栈选择；「只要 UI 库」与「要全栈框架」是不同选型问题。\n\n生态选择多也意味着决策成本高；小项目可用框架约定（Next）减少拼装。\n",
+  "officialUrl": "https://react.dev",
+  "tutorialLinks": [
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/@reactjs",
+      "note": "官方频道"
+    },
+    {
+      "platform": "bilibili",
+      "query": "React 官方教程",
+      "note": "中文检索"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "state-of-js",
+      "share": 83.6,
+      "rank": 1,
+      "period": "2025 Survey",
+      "note": "使用率第一；满意度有分歧",
+      "sourceUrl": "https://stateofjs.com/",
+      "asOf": "2026-07-20"
+    },
+    {
+      "systemId": "so-survey-language",
+      "share": 40,
+      "tier": "Most used web FW",
+      "period": "2025 Survey",
+      "note": "SO 调查前端框架持续领先档（口径为库/框架合并）",
+      "sourceUrl": "https://survey.stackoverflow.co/2025/technology/",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

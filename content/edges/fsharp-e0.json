@@ -1,0 +1,10 @@
+{
+  "id": "fsharp-e0",
+  "from": "fsharp",
+  "to": "csharp",
+  "type": "compatible_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

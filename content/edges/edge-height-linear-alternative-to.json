@@ -1,0 +1,10 @@
+{
+  "id": "edge-height-linear-alternative-to",
+  "from": "height",
+  "to": "linear",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

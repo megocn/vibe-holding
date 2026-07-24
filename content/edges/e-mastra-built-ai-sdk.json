@@ -1,0 +1,10 @@
+{
+  "id": "e-mastra-built-ai-sdk",
+  "from": "mastra",
+  "to": "vercel-ai-sdk",
+  "type": "built_on",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

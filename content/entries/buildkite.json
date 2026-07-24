@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ci",
+    "self-hosted"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "需自行维护 agent 池；pipeline 语法与 GitHub Actions 不同需迁移成本。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://buildkite.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "buildkite",
+  "name": "Buildkite",
+  "category": "cicd-pipeline",
+  "subcategory": "ci",
+  "oneLiner": "控制面云端 · runner 自建隔离 · 合规构建池",
+  "officialUrl": "https://buildkite.com",
+  "descriptionMd": "Buildkite 控制面在云端、runner 自建，适合需要隔离构建环境与安全合规的企业。\n\n构建需访问内网资源、或希望 CI 算力完全自控时优于纯 SaaS runner。\n\n需自行维护 agent 池；pipeline 语法与 GitHub Actions 不同需迁移成本。\n",
+  "vendorId": "buildkite-inc"
+}

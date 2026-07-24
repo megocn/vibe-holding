@@ -1,0 +1,45 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "gateway",
+    "domestic",
+    "inference"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "模型清单变化快"
+  ],
+  "updates": [],
+  "sources": [
+    "https://siliconflow.cn"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "siliconflow",
+  "name": "SiliconFlow",
+  "category": "gateway-router",
+  "vendorId": "siliconflow-inc",
+  "oneLiner": "国内低延迟推理 · 开源/国产聚合 · 性价比调用",
+  "descriptionMd": "SiliconFlow（硅基流动）聚合开源/国产模型推理，强调国内低延迟与性价比调用。\n\n适合国内访问友好的模型网关/推理层；与 OpenRouter 按地区与模型目录对照。注意账单、限速与模型版本。\n\n适合国内调用开源权重的「推理层」；模型目录与限速以控制台为准。\n",
+  "officialUrl": "https://siliconflow.cn",
+  "rankings": [
+    {
+      "systemId": "openrouter-popularity",
+      "tier": "CN inference",
+      "period": "2026-07",
+      "note": "国内 GPU 云推理聚合",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "edge-deepgram-assemblyai-alt",
+  "from": "deepgram",
+  "to": "assemblyai",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24",
+  "note": "流式生产 STT 对照"
+}

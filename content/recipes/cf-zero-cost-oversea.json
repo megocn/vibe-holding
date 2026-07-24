@@ -1,0 +1,23 @@
+{
+  "id": "cf-zero-cost-oversea",
+  "name": "Cloudflare 零成本出海版",
+  "target": "尽量压低固定成本的出海 Web MVP",
+  "layers": {
+    "coding-agent": "cursor",
+    "framework": "tanstack-start",
+    "ui": "shadcn-ui",
+    "auth": "better-auth",
+    "db": "turso",
+    "storage": "cloudflare-r2",
+    "deploy": "cloudflare-pages",
+    "network": "cloudflare-cdn",
+    "email": "resend",
+    "payment": "polar"
+  },
+  "rationaleMd": "Workers/Pages + R2 + Turso 压低固定成本；Better Auth 自托管鉴权；Polar 作 MoR 收款。",
+  "estimatedCost": "固定成本可接近 $0，邮件与 MoR 按量",
+  "caveats": [
+    "边缘运行时限制需提前验证",
+    "复杂后台或许可仍可能要另外部署"
+  ]
+}

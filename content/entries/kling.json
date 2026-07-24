@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "ai",
+    "video",
+    "domestic"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "商用授权与水印策略随套餐变化；出海品牌需核对素材合规与平台条款。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://klingai.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "domestic",
+  "id": "kling",
+  "name": "可灵 Kling",
+  "category": "design-ai-video",
+  "subcategory": "video-gen",
+  "oneLiner": "快手可灵 · 文/图生视频 · 国内高频",
+  "officialUrl": "https://klingai.com",
+  "descriptionMd": "可灵（Kling）是快手系 AI 视频生成产品，支持文生视频与图生视频，国内创作者与营销团队使用频率高，质量与时长持续迭代。\n\n面向中国大陆用户的短视频/广告素材、或需要国内可达的 AI video 时优先 POC。\n\n商用授权与水印策略随套餐变化；出海品牌需核对素材合规与平台条款。\n",
+  "vendorId": "kuaishou"
+}

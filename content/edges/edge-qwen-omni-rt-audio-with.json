@@ -1,0 +1,11 @@
+{
+  "id": "edge-qwen-omni-rt-audio-with",
+  "from": "qwen-omni-realtime",
+  "to": "qwen-audio-realtime",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24",
+  "note": "同属通义实时；按是否需要视觉分流"
+}

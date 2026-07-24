@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "auth",
+    "oidc"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "Enterprise SAML 与 SCIM 需对照版本；与存量 user migration 要规划 password hash 策略。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://logto.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "both",
+  "id": "logto",
+  "name": "Logto",
+  "category": "baas-auth-only",
+  "subcategory": "oss-idp",
+  "oneLiner": "开源 IdP · 社交登录/M2M/RBAC · Cloud 与 self-host 并存、UI 现代",
+  "officialUrl": "https://logto.io",
+  "descriptionMd": "Logto 提供开源 IdP、社交登录、M2M 与 RBAC，Cloud 与 self-host 并存，UI 现代，支持 OIDC/OAuth2 标准协议。\n\n需要自托管 Auth0 替代、或 B2B SaaS 要 organizations 与 audit log 时评估；国内团队维护活跃。\n\nEnterprise SAML 与 SCIM 需对照版本；与存量 user migration 要规划 password hash 策略。\n",
+  "vendorId": "logto-inc"
+}

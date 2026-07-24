@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "errors"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "RUM 与性能监控能力有限；国内访问速度一般。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://rollbar.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "rollbar",
+  "name": "Rollbar",
+  "category": "obs-errors",
+  "subcategory": "error-tracking",
+  "oneLiner": "前后端异常分组 · Slack/PagerDuty 联动 · 快速接入监控",
+  "officialUrl": "https://rollbar.com",
+  "descriptionMd": "Rollbar 收集前后端异常、分组 dedupe 并联动 Slack/PagerDuty，适合快速接入的错误监控。\n\n已有应用需轻量 error tracking、重视告警路由与 deploy tracking 时可选。\n\nRUM 与性能监控能力有限；国内访问速度一般。\n",
+  "vendorId": "rollbar-inc"
+}

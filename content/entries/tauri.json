@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "WebView 行为因 OS 而异；复杂 native API 需写 Rust plugin。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://tauri.app"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "tauri",
+  "name": "Tauri",
+  "category": "fw-fullstack",
+  "subcategory": "desktop",
+  "oneLiner": "Rust shell + WebView · 二进制远小于 Electron · 安全/省资源",
+  "officialUrl": "https://tauri.app",
+  "descriptionMd": "Tauri 用 Rust 做 desktop shell，WebView 渲染前端，二进制远小于 Electron，强调安全与资源占用低。\n\n需要 desktop 工具、内部客户端，且团队可接受 Rust 侧维护时替代 Electron。\n\nWebView 行为因 OS 而异；复杂 native API 需写 Rust plugin。\n",
+  "vendorId": "tauri-apps"
+}

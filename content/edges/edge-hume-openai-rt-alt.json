@@ -1,0 +1,10 @@
+{
+  "id": "edge-hume-openai-rt-alt",
+  "from": "hume-ai",
+  "to": "openai-realtime",
+  "type": "alternative_to",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

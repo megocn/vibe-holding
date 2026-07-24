@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "family"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "开源权重有限；跨云迁移需重新评估 API 兼容层。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://cloud.tencent.com/product/hunyuan"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "hunyuan",
+  "name": "混元",
+  "category": "llm-family",
+  "subcategory": "family",
+  "oneLiner": "腾讯云系 · 现至 Hy3 · 文/图/代码 · 企微与腾讯栈绑定深",
+  "officialUrl": "https://cloud.tencent.com/product/hunyuan",
+  "descriptionMd": "混元是腾讯云大模型系列，当前旗舰版本为 Hy3，覆盖文本、图像与代码，集成企微与腾讯应用生态。\n\n腾讯云客户、需要与微信/企微联动或国内合规大模型的一站式方案。\n\n开源权重有限；跨云迁移需重新评估 API 兼容层。\n",
+  "vendorId": "tencent-hunyuan"
+}

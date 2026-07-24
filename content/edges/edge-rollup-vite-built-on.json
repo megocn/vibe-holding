@@ -1,0 +1,10 @@
+{
+  "id": "edge-rollup-vite-built-on",
+  "from": "rollup",
+  "to": "vite",
+  "type": "built_on",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

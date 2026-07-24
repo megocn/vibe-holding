@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "music"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "商用授权与唱片工业版权争议需法务关注；风格同质化后品牌项目应定制。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://suno.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "suno",
+  "name": "Suno",
+  "category": "design-ai-music",
+  "subcategory": "music-gen",
+  "oneLiner": "文生歌曲 · 人声+伴奏 · 创作者向",
+  "officialUrl": "https://suno.com",
+  "descriptionMd": "Suno 以文本生成完整歌曲（人声与伴奏）著称，创作者与营销快速出 demo 曲、BGM 草稿时使用广泛。\n\n需要带歌词的完整曲目草稿、播客/短视频临时配乐时评估；订阅制常见。\n\n商用授权与唱片工业版权争议需法务关注；风格同质化后品牌项目应定制。\n",
+  "vendorId": "suno-inc"
+}

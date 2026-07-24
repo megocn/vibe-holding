@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "music",
+    "bgm",
+    "api"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "完整流行歌曲与人声不是主场景；授权按计划区分。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://mubert.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "mubert",
+  "name": "Mubert",
+  "category": "design-ai-music",
+  "subcategory": "music-gen",
+  "oneLiner": "生成式流媒体 BGM · API",
+  "officialUrl": "https://mubert.com",
+  "descriptionMd": "Mubert 提供生成式背景音乐与开发者 API，强调按情绪/场景流式出乐，适合 App 内动态 BGM 与内容平台配乐层。\n\n产品需要可编程、可流式的背景乐，而不是一次性出完整流行歌时评估。\n\n完整流行歌曲与人声不是主场景；授权按计划区分。\n",
+  "vendorId": "mubert-inc"
+}

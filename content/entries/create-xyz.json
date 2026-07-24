@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "subscription"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "生成代码定制深度有限；规模扩大后通常需重写为正规 Next.js/Expo 工程。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.create.xyz"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "create-xyz",
+  "name": "Create",
+  "category": "coding-cloud-builder",
+  "subcategory": "mobile-web-builder",
+  "oneLiner": "prompt→移动+Web 原型 · 模板后端/UI · indie 快搭",
+  "officialUrl": "https://www.create.xyz",
+  "descriptionMd": "Create 允许用户用 prompt 生成可运行的移动端与 Web 应用原型，集成常见后端与 UI 模板，面向 indie hacker。\n\n独立开发者快速验证 App 想法、需要可分享 demo 时在几小时内出 MVP。\n\n生成代码定制深度有限；规模扩大后通常需重写为正规 Next.js/Expo 工程。\n",
+  "vendorId": "create-xyz-inc"
+}

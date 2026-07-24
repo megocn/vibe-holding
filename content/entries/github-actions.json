@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ci",
+    "cd"
+  ],
+  "maturity": "mature",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/features/actions"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "github-actions",
+  "name": "GitHub Actions",
+  "category": "cicd-pipeline",
+  "subcategory": "ci",
+  "oneLiner": "GitHub 原生 CI · PR/Release 深集成 · Indie/开源默认",
+  "descriptionMd": "GitHub Actions 是 GitHub 原生 CI/CD：YAML 工作流与 PR/Release 深度集成，Indie 与开源默认选择。\n\n适合构建、测试、发布与简单部署；复杂多云编排可再引入专用平台。注意分钟数配额、自托管 Runner 与 secrets 管理。\n\n复用 composite action 减少复制粘贴；密钥最小权限，避免把云钥写进日志。\n",
+  "officialUrl": "https://github.com/features/actions"
+}

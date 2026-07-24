@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "image"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "风格控制与 consistency 不如 Midjourney 艺术向；API 与 batch 能力查最新。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://ideogram.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "ideogram",
+  "name": "Ideogram",
+  "category": "design-ai-image",
+  "subcategory": "image-gen",
+  "oneLiner": "图内可读文字强 · logo/海报向 · 社交创意文案落地",
+  "officialUrl": "https://ideogram.ai",
+  "descriptionMd": "Ideogram 在 AI 生成图中渲染可读文字与 logo 表现突出，适合 poster 与 social creative。\n\n需要营销图内嵌 slogan/标题且少后期 PS 文字时试用 Ideogram。\n\n风格控制与 consistency 不如 Midjourney 艺术向；API 与 batch 能力查最新。\n",
+  "vendorId": "ideogram-inc"
+}

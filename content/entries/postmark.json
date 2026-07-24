@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "email",
+    "transactional"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "不支持营销活动；价格随量上升需对比 AWS SES。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://postmarkapp.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "postmark",
+  "name": "Postmark",
+  "category": "msg-email",
+  "subcategory": "transactional",
+  "oneLiner": "纯事务邮件 · 极速送达与 bounce 清晰 · 刻意弱化营销保信誉",
+  "officialUrl": "https://postmarkapp.com",
+  "descriptionMd": "Postmark 只做事务邮件，强调极速送达与清晰 bounce 处理，营销邮件功能刻意弱化以保证信誉。\n\nSaaS 事务邮件量大、对 inbox 率敏感且不需要营销 blast 时优于 SendGrid。\n\n不支持营销活动；价格随量上升需对比 AWS SES。\n",
+  "vendorId": "activecampaign"
+}

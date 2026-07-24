@@ -1,0 +1,22 @@
+墨台（VibeHolding）
+Copyright 2026 墨台 contributors
+
+This product includes software and knowledge content developed by
+墨台 contributors, licensed under the Apache License, Version 2.0.
+See the LICENSE file for the full license text.
+
+---------------------------------------------------------------------------
+Third-party notices (bundled assets / runtime dependencies)
+
+Fonts
+- LXGW WenKai / LXGW ZhenKai — SIL Open Font License 1.1
+  See apps/desktop/public/fonts/LXGW-OFL.txt
+- Maple Mono — under its project license
+  See apps/desktop/public/fonts/MapleMono-LICENSE.txt
+
+Icons
+- Phosphor Icons — MIT License (https://phosphoricons.com)
+
+Other npm / Cargo dependencies retain their respective licenses;
+see each package’s LICENSE file in node_modules / Cargo registry.
+---------------------------------------------------------------------------

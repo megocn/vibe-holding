@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "collection",
+    "multi-currency"
+  ],
+  "maturity": "stable",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.airwallex.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "both",
+  "id": "airwallex",
+  "name": "Airwallex 空中云汇",
+  "category": "global-fx",
+  "subcategory": "collection",
+  "oneLiner": "多币种全球账户+虚拟卡 · 多平台结汇 · 多主体资金归集",
+  "descriptionMd": "空中云汇提供多币种全球账户、收款与虚拟卡，适合需要**多平台结汇、多主体资金归集**的团队（应用商店、广告、跨境电商等）。\n\n大陆主体出海时，常与万里汇并列评估：比 MoR（Paddle/Polar）更偏「账户层」能力。注意各场景开户材料、费率与风控策略差异，大额/新行业审核可能较严。\n\n虚拟卡与多币种账户能简化广告/云账单；开户与年费按主体地区核算。\n",
+  "officialUrl": "https://www.airwallex.com"
+}

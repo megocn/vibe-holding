@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "email",
+    "transactional"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "共享 IP 信誉影响送达；高量需 dedicated IP 与域名认证（SPF/DKIM/DMARC）。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://sendgrid.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "sendgrid",
+  "name": "SendGrid",
+  "category": "msg-email",
+  "subcategory": "transactional",
+  "oneLiner": "事务+营销一体 · 模板/统计成熟 · 高量需独立 IP 与域名认证",
+  "officialUrl": "https://sendgrid.com",
+  "descriptionMd": "SendGrid 提供 SMTP/API 发送事务与营销邮件，模板、统计与送达率工具成熟，开发者接入广。\n\n产品需要 signup/reset password 等事务邮件且希望快速 API 集成时常见；与 Twilio 生态统一。\n\n共享 IP 信誉影响送达；高量需 dedicated IP 与域名认证（SPF/DKIM/DMARC）。\n",
+  "vendorId": "twilio-inc"
+}

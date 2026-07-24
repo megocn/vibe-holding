@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "asr",
+    "stt",
+    "tts",
+    "gcp"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "国内直连受限；表现力旁白常不如 ElevenLabs，需按场景分拆选型。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://cloud.google.com/speech-to-text"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "google-cloud-speech",
+  "name": "Google Cloud Speech",
+  "category": "ai-speech",
+  "subcategory": "speech-suite",
+  "oneLiner": "GCP Speech-to-Text · Chirp · 企业套件",
+  "officialUrl": "https://cloud.google.com/speech-to-text",
+  "descriptionMd": "Google Cloud Speech-to-Text（含 Chirp 等模型）与配套 TTS 构成 GCP 语音套件，强调多语、企业合同与 Vertex 同区部署，适合已在 Google Cloud 的转写与语音管线。\n\n需要批量/流式转写、多语支持、与 GCP 账单一体时选用；创意旁白可另配 Chirp/云 TTS 或第三方。\n\n国内直连受限；表现力旁白常不如 ElevenLabs，需按场景分拆选型。\n",
+  "vendorId": "google"
+}

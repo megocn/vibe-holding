@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "domain"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "价格不一定最低；高级 DNS/CDN 仍需 Cloudflare。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.gandi.net"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "gandi",
+  "name": "Gandi.net",
+  "category": "net-domain",
+  "subcategory": "registrar",
+  "oneLiner": "privacy/透明定价 · 域名+邮箱基础 · 欧式 no-bullshit",
+  "officialUrl": "https://www.gandi.net",
+  "descriptionMd": "Gandi 强调 privacy、透明 pricing 与「no bullshit」品牌，提供域名、邮箱与 hosting 基础服务。\n\n欧洲项目重视 registrar ethics、或需要 .fr 等本地 TLD 时可考虑 Gandi。\n\n价格不一定最低；高级 DNS/CDN 仍需 Cloudflare。\n",
+  "vendorId": "gandi-inc"
+}

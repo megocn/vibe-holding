@@ -1,0 +1,10 @@
+{
+  "id": "e-testflight-part-apple",
+  "from": "testflight",
+  "to": "apple-app-store",
+  "type": "part_of",
+  "weight": 0.9,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

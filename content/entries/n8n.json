@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "复杂 Agent reasoning 非其强项；应用层逻辑应用专用 Agent 框架。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://n8n.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "n8n",
+  "name": "n8n",
+  "category": "ai-rag",
+  "subcategory": "workflow-automation",
+  "oneLiner": "fair-code 节点工作流 · API/DB/LLM 串联 · AI+ops 混合自动化",
+  "officialUrl": "https://n8n.io",
+  "descriptionMd": "n8n 是 fair-code workflow 工具，节点连接 API/DB/LLM，可 self-host，适合 AI+ops 混合 automation。\n\n需要连接 Slack/GitHub/Postgres 与 OpenAI 做 internal automation、且重视 data residency 时。\n\n复杂 Agent reasoning 非其强项；应用层逻辑应用专用 Agent 框架。\n",
+  "vendorId": "n8n-io"
+}

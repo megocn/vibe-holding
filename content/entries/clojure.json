@@ -1,0 +1,32 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "语法括号劝退；与 Spring 主流 Java 栈协作需桥接层。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://clojure.org"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "clojure",
+  "name": "Clojure",
+  "category": "lang-language",
+  "subcategory": "lisp-jvm",
+  "oneLiner": "Lisp/JVM · immutable + REPL 驱动 · Datomic 同源数据栈",
+  "officialUrl": "https://clojure.org",
+  "descriptionMd": "Clojure 是 Lisp 家族 JVM 语言，强调 immutable 数据与 REPL 驱动开发，Datomic 等数据系统同源。\n\n数据密集型后端、REPL 友好工具链、或 JVM 上需要 Lisp 表达力的团队。\n\n语法括号劝退；与 Spring 主流 Java 栈协作需桥接层。\n"
+}

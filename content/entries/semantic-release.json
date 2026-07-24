@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "release",
+    "ci"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "配置错误可能意外 major 升级；私有包/registry 凭证管理要严格。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://semantic-release.gitbook.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "semantic-release",
+  "name": "semantic-release",
+  "category": "oss-toolchain",
+  "subcategory": "release",
+  "oneLiner": "Conventional Commits 全自动发版 · 少人工版本 PR",
+  "officialUrl": "https://semantic-release.gitbook.io",
+  "descriptionMd": "semantic-release 根据 Conventional Commits 自动算版本、生成 notes 并发布 npm/GitHub Release，适合高度自动化流水线。\n\n开源库维护者希望零手动发版、且 CI 权限可控时采用；与 GitHub Actions 集成成熟。\n\n配置错误可能意外 major 升级；私有包/registry 凭证管理要严格。\n"
+}

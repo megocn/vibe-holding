@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "search"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "超大规模日志/analytics 不如 ES；中文分词需配置或插件，分布式 HA 方案需 Cloud/企业版。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.meilisearch.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "meilisearch",
+  "name": "Meilisearch",
+  "category": "db-nosql",
+  "subcategory": "search",
+  "oneLiner": "Typo-tolerant 即时搜 · 应用开发者 DX · 非日志分析向",
+  "officialUrl": "https://www.meilisearch.com",
+  "descriptionMd": "Meilisearch 提供 typo-tolerant 全文搜索、faceting 与 instant 搜索 API，部署简单，DX 面向应用开发者而非 ES 运维。\n\n产品内搜索框、电商 SKU 检索等中等规模场景首选；比 Elasticsearch 轻量得多。\n\n超大规模日志/analytics 不如 ES；中文分词需配置或插件，分布式 HA 方案需 Cloud/企业版。\n",
+  "vendorId": "meilisearch-inc"
+}

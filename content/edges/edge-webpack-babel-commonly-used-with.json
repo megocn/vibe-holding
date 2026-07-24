@@ -1,0 +1,10 @@
+{
+  "id": "edge-webpack-babel-commonly-used-with",
+  "from": "webpack",
+  "to": "babel",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

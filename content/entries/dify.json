@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "low-code",
+    "rag",
+    "self-host"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "重度定制时仍可能要跳出可视化层写代码"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://dify.ai"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "both",
+  "id": "dify",
+  "name": "Dify",
+  "category": "ai-rag",
+  "subcategory": "low-code",
+  "oneLiner": "可视化工作流/RAG/Agent · 可自托管 · 国内团队采用多",
+  "descriptionMd": "Dify 是开源的 LLM 应用可视化平台：工作流、RAG、Agent 可编排，国内团队采用多，可自托管。\n\n适合产品/运营共建 AI 功能、或快速验证流程；复杂工程化 Agent 仍可能落到 Mastra/LangGraph 代码栈。注意版本升级与插件生态锁仓。\n\n可视化利于跨职能协作；版本与环境（开发/生产）要隔离，避免编排误发。\n",
+  "officialUrl": "https://dify.ai"
+}

@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cdp",
+    "analytics"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "Twilio 收购后定价变化需关注；简单站点直接 GA4 即可。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://segment.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "segment",
+  "name": "Segment",
+  "category": "growth-web",
+  "subcategory": "cdp",
+  "oneLiner": "一次采集多下游路由 · CDP 减重复埋点 · 接 Mixpanel/GA/BQ",
+  "officialUrl": "https://segment.com",
+  "descriptionMd": "Segment 统一采集 SDK 并将 events 路由到 Mixpanel/GA/BigQuery 等，减少多处埋点重复。\n\n多下游 analytics/marketing 工具、需要 one SDK many destinations 时采用 Segment。\n\nTwilio 收购后定价变化需关注；简单站点直接 GA4 即可。\n",
+  "vendorId": "twilio-inc"
+}

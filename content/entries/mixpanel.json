@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "analytics",
+    "product"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "implementation 需 disciplined event schema；MTU 计费易膨胀。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://mixpanel.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "mixpanel",
+  "name": "Mixpanel",
+  "category": "growth-web",
+  "subcategory": "product-analytics",
+  "oneLiner": "Event 漏斗/留存/cohort · 「用户做了什么」 · 产品分析向",
+  "officialUrl": "https://mixpanel.com",
+  "descriptionMd": "Mixpanel 以 event-based 分析漏斗、留存与 cohort，适合产品团队回答「用户做了什么」而非仅页面浏览。\n\nSaaS 需要细粒度行为分析、A/B 与 feature adoption 跟踪时常用；与 GA4 互补。\n\nimplementation 需 disciplined event schema；MTU 计费易膨胀。\n",
+  "vendorId": "mixpanel-inc"
+}

@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "android",
+    "domestic",
+    "store"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "多市场重复打包与审核成本高"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://developer.huawei.com/consumer/cn/appgallery/"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "huawei-appgallery",
+  "name": "华为应用市场",
+  "category": "dist-android",
+  "subcategory": "android",
+  "oneLiner": "国内安卓重要渠道 · 常需软著/资质与适配 · 华为设备主力入口",
+  "descriptionMd": "华为应用市场是国内安卓重要分发渠道之一，常需软著、资质与适配要求。\n\n做国内安卓覆盖时，往往与多家应用商店并行上架。与 Google Play 用户群不重叠，不能互相替代。\n\n上架材料、隐私合规与机型适配成本常被低估；国内安卓覆盖是「多市场作战」，不是单点发布。\n",
+  "officialUrl": "https://developer.huawei.com/consumer/cn/appgallery/"
+}

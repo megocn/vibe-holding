@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "vibe-friendly",
+    "cloud-builder",
+    "prototype"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "超出原型阶段需迁移到可移植仓库"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://bolt.new"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "bolt-new",
+  "name": "Bolt.new",
+  "category": "coding-cloud-builder",
+  "subcategory": "cloud-builder",
+  "oneLiner": "WebContainers 浏览器全栈 · StackBlitz 系 · 营销页/快演示",
+  "descriptionMd": "Bolt.new（StackBlitz）是浏览器内的**全栈原型**工具：WebContainers 带来接近本机的 Node 体验，偏营销页与快速演示。\n\n属 Vibe Coding 的 Flavor B（云端 Builder）：出活快，但部署与运行时仍偏平台。触及真实用户/支付/生产凭据前，应规划「毕业」到可移植仓库。\n\n演示与获客页很快；数据库与鉴权一旦绑死平台，毕业要排期，不要拖到有收入。\n",
+  "officialUrl": "https://bolt.new"
+}

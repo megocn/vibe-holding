@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "组件多（etcd/pulsar 等），小团队运维重；低 QPS 用 pgvector 更简单。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://milvus.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "both",
+  "id": "milvus",
+  "name": "Milvus",
+  "category": "ai-vector",
+  "subcategory": "vector-db",
+  "oneLiner": "Billion-scale 开源 · Zilliz 云/企业支持 · 组件多运维重",
+  "officialUrl": "https://milvus.io",
+  "descriptionMd": "Milvus 是 LF AI 基金会项目，支持 billion-scale 向量检索，Zilliz 提供云服务与 enterprise support。\n\n超大规模 embedding 检索、已有 K8s 运维能力、或国内 Zilliz Cloud 合规需求。\n\n组件多（etcd/pulsar 等），小团队运维重；低 QPS 用 pgvector 更简单。\n",
+  "vendorId": "zilliz"
+}

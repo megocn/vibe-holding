@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cache",
+    "redis-compatible"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "新特性节奏与 Redis 官方分叉；托管服务支持仍在普及中，需确认驱动与模块兼容。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://valkey.io"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "valkey",
+  "name": "Valkey",
+  "category": "db-cache",
+  "subcategory": "redis-fork",
+  "oneLiner": "Linux 基金会 · Redis 7.2 兼容分叉 · 社区治理 · 云厂商采纳中",
+  "officialUrl": "https://valkey.io",
+  "descriptionMd": "Valkey 是 Linux 基金会下 Redis 7.2 分支，保持协议兼容并社区治理，被 AWS ElastiCache 等采纳为开源后端。\n\n希望 Redis 协议但避免 Redis Ltd 许可证变更、或云厂商默认提供 Valkey 时选用；与 Redis 客户端兼容。\n\n新特性节奏与 Redis 官方分叉；托管服务支持仍在普及中，需确认驱动与模块兼容。\n"
+}

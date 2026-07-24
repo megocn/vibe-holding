@@ -1,0 +1,10 @@
+{
+  "id": "e-cuw-one-api-qwen",
+  "from": "one-api",
+  "to": "qwen-max",
+  "type": "commonly_used_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

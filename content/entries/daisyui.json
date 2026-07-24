@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ui",
+    "tailwind"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "复杂交互仍需手写"
+  ],
+  "updates": [],
+  "sources": [
+    "https://daisyui.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "daisyui",
+  "name": "DaisyUI",
+  "category": "ui-kits",
+  "oneLiner": "Tailwind 语义组件类 · 少写自定义 CSS · 快速拼界面",
+  "descriptionMd": "DaisyUI 在 Tailwind 之上提供语义化组件类，用类名拼出按钮、卡片等，适合快速出界面、少写自定义 CSS。\n\n相对完整设计系统（Ant/Mantine）更轻；相对 shadcn（复制源码）更「类名驱动」。主题与可访问性深度不如原语级方案，适合营销页与中小后台。\n\n类名语义化上手快；深度品牌定制时可能感到主题变量不够细。\n",
+  "officialUrl": "https://daisyui.com",
+  "rankings": [
+    {
+      "systemId": "npm-downloads",
+      "tier": "Tailwind plugin",
+      "period": "2026-H1",
+      "asOf": "2026-07-20"
+    }
+  ]
+}

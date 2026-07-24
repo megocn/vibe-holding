@@ -1,0 +1,34 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "email",
+    "transactional"
+  ],
+  "maturity": "stable",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://resend.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "resend",
+  "name": "Resend",
+  "category": "msg-email",
+  "subcategory": "email",
+  "oneLiner": "现代 DX 事务 API · React Email 配套 · 产品通知/魔术链接",
+  "descriptionMd": "Resend 提供现代 DX 的事务邮件 API，常与 React Email 模板配套，适合产品通知与魔术链接。\n\n出海 Indie 高频；国内到达率与备案域名策略需实测。与短信/IM 推送组成触达组合。\n\n域名 SPF/DKIM/DMARC 配齐前别指望到达率；模板变更走代码评审更稳。\n",
+  "officialUrl": "https://resend.com"
+}

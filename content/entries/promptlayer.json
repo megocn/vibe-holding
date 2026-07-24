@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "Agent 复杂 trace 不如 LangSmith；仅适合 prompt-centric 应用。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://promptlayer.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "promptlayer",
+  "name": "PromptLayer",
+  "category": "ai-llm-obs",
+  "subcategory": "prompt-cms",
+  "oneLiner": "Prompt 版本/CMS 式编辑 · latency/cost · A/B；偏 prompt 中心",
+  "officialUrl": "https://promptlayer.com",
+  "descriptionMd": "PromptLayer 作为 LLM 调用中间层，记录 prompt 版本、latency 与 cost，支持 A/B 与 CMS 式 prompt 编辑。\n\n产品/非工程同事需要改 prompt 而不 redeploy 代码的协作 workflow。\n\nAgent 复杂 trace 不如 LangSmith；仅适合 prompt-centric 应用。\n",
+  "vendorId": "promptlayer-inc"
+}

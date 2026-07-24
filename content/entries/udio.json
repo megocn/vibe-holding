@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "music"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "授权条款与平台政策变动快；勿将生成曲直接当无风险商用发行。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.udio.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "udio",
+  "name": "Udio",
+  "category": "design-ai-music",
+  "subcategory": "music-gen",
+  "oneLiner": "AI 音乐生成 · 人声表现力 · Suno 对标",
+  "officialUrl": "https://www.udio.com",
+  "descriptionMd": "Udio 提供 AI 音乐与歌声生成，强调音色表现与风格控制，常与 Suno 并列为文生歌曲选型对照。\n\n需要对比不同 AI 音乐厂商的人声/编曲风格、或特定曲风样本时纳入短名单。\n\n授权条款与平台政策变动快；勿将生成曲直接当无风险商用发行。\n",
+  "vendorId": "udio-inc"
+}

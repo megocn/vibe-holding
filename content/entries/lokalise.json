@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "localization",
+    "tms"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "价格高于 Crowdin 入门档；复杂 plural/gender 仍需规范 key 设计。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://lokalise.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "lokalise",
+  "name": "Lokalise",
+  "category": "global-i18n",
+  "subcategory": "tms",
+  "oneLiner": "key-based TMS · Figma/OTA 字符串 · product+mobile 并行",
+  "officialUrl": "https://lokalise.com",
+  "descriptionMd": "Lokalise 提供 key-based TMS、Figma/GA 集成、OTA 字符串更新与 branching，偏 product team 与 mobile/web 并行。\n\n需要 OTA 热更新文案、或设计-开发-翻译同一平台协作时评估；API 与 webhooks 丰富。\n\n价格高于 Crowdin 入门档；复杂 plural/gender 仍需规范 key 设计。\n",
+  "vendorId": "lokalise-inc"
+}

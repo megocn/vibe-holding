@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "定制化与 SEO/无障碍几乎需重做；勿直接承载付费核心业务。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://blink.new"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "blink-new",
+  "name": "Blink.new",
+  "category": "coding-cloud-builder",
+  "subcategory": "instant-deploy",
+  "oneLiner": "prompt→在线 URL 极速路径 · 自动 UI/简单后端托管 · 偏演示",
+  "officialUrl": "https://blink.new",
+  "descriptionMd": "Blink.new 强调从自然语言 prompt 到在线 URL 的极速路径，自动生成 UI 与简单后端并托管。\n\n黑客松、营销落地页或 internal tool 需要在分钟级验证想法时试用。\n\n定制化与 SEO/无障碍几乎需重做；勿直接承载付费核心业务。\n",
+  "vendorId": "blink-new-inc"
+}

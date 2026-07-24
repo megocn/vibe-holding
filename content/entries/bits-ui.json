@@ -1,0 +1,32 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "仅 Svelte 生态；React 团队应选 Radix/Ark。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://bits-ui.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "bits-ui",
+  "name": "Bits UI",
+  "category": "ui-primitives",
+  "subcategory": "svelte-headless",
+  "oneLiner": "Svelte headless · API 近 Radix · shadcn-svelte 底层",
+  "officialUrl": "https://bits-ui.com",
+  "descriptionMd": "Bits UI 为 Svelte 提供 headless accessible 组件，API 类似 Radix，是 shadcn-svelte 底层。\n\nSvelteKit 项目构建 design system、需要 a11y 原语而非全家桶 UI 时。\n\n仅 Svelte 生态；React 团队应选 Radix/Ark。\n"
+}

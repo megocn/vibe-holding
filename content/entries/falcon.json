@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "family"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "社区热度已被 Llama/Qwen 超越；新 project 需确认最新版本维护状态。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://falconllm.tii.ae"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "falcon",
+  "name": "Falcon",
+  "category": "llm-family",
+  "subcategory": "family",
+  "oneLiner": "TII 开源 · 现至 Falcon H1 · 多规模 base/instruct",
+  "officialUrl": "https://falconllm.tii.ae",
+  "descriptionMd": "Falcon 由阿联酋 TII 发布，当前主力为 Falcon-H1 / H1R 系列。\n\n研究复现、中东/欧洲数据合规偏好、或需要非 Meta/Google 系开源基座时试用。\n\n社区热度已被 Llama/Qwen 超越；新项目需确认最新版本维护状态。\n",
+  "vendorId": "tii-falcon"
+}

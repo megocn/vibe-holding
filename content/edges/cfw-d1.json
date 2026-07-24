@@ -1,0 +1,10 @@
+{
+  "id": "cfw-d1",
+  "from": "cloudflare-workers",
+  "to": "cloudflare-d1",
+  "type": "integrates_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

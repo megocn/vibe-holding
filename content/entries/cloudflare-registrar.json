@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "domain"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "可注册 TLD 列表小于 Namecheap；需先用 Cloudflare DNS 才能转 registrar。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.cloudflare.com/products/registrar/"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "cloudflare-registrar",
+  "name": "Cloudflare Registrar",
+  "category": "net-domain",
+  "subcategory": "registrar",
+  "oneLiner": "成本价域名 · 与 DNS/CDN 同账号 · DNSSEC 顺滑",
+  "officialUrl": "https://www.cloudflare.com/products/registrar/",
+  "descriptionMd": "Cloudflare Registrar 按成本价卖域名，与 Cloudflare DNS/CDN 同一账号，转移与 DNSSEC 流程顺滑。\n\n已全站 Cloudflare、希望域名与 CDN/WAF 统一账单与管理时注册于此。\n\n可注册 TLD 列表小于 Namecheap；需先用 Cloudflare DNS 才能转 registrar。\n",
+  "vendorId": "cloudflare-inc"
+}

@@ -1,0 +1,35 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "analysis",
+    "monorepo"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "动态 import 与框架魔法路由可能误报；首次运行需人工确认再删。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://knip.dev"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "knip",
+  "name": "Knip",
+  "category": "oss-toolchain",
+  "subcategory": "analysis",
+  "oneLiner": "dead file/未用依赖/export 扫描 · Monorepo 瘦身",
+  "officialUrl": "https://knip.dev",
+  "descriptionMd": "Knip 扫描 JS/TS Monorepo 中 dead files、未使用依赖与 exports，帮助瘦身 package 与加速 CI。\n\n仓库膨胀、依赖莫名增多或发布前做 bundle 卫生检查时运行；与 TS project references 配合佳。\n\n动态 import 与框架魔法路由可能误报；首次运行需人工确认再删。\n"
+}

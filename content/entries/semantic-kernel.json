@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [],
+  "maturity": "stable",
+  "pitfalls": [
+    "Python/TS 社区活跃度低于 LangChain；跨云 portable 性需验证。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://learn.microsoft.com/semantic-kernel"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "semantic-kernel",
+  "name": "Semantic Kernel",
+  "category": "ai-agent-fw",
+  "subcategory": "dotnet-agent",
+  "oneLiner": "微软跨语言编排 · planner/plugins · Azure OpenAI 深集成",
+  "officialUrl": "https://learn.microsoft.com/semantic-kernel",
+  "descriptionMd": "Semantic Kernel 是 Microsoft 跨语言 AI orchestration SDK，支持 planner、plugins 与 Azure OpenAI 深度集成。\n\n.NET/Azure 企业栈构建 copilot、需要 C# 一等公民 AI SDK 时。\n\nPython/TS 社区活跃度低于 LangChain；跨云 portable 性需验证。\n",
+  "vendorId": "microsoft"
+}

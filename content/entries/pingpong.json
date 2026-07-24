@@ -1,0 +1,33 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "collection",
+    "domestic"
+  ],
+  "maturity": "stable",
+  "pitfalls": [],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.pingpongx.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "domestic",
+  "id": "pingpong",
+  "name": "PingPong",
+  "category": "global-fx",
+  "subcategory": "collection",
+  "oneLiner": "跨境电商收款回国 · 国内团队熟悉 · 资金服务向",
+  "descriptionMd": "PingPong 面向跨境电商与部分开发者场景的收款与资金服务，国内团队较熟悉。\n\n大额与新行业风控需注意；与万里汇/Airwallex 按场景（店铺、广告、应用商店）对比开户与结汇体验。\n\n店铺收款与开发者软件订阅不是同一审核口径；按真实业务类目准备材料。\n",
+  "officialUrl": "https://www.pingpongx.com"
+}

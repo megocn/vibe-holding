@@ -1,0 +1,10 @@
+{
+  "id": "internlm-2-part",
+  "from": "internlm-2",
+  "to": "internlm",
+  "type": "part_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

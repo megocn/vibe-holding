@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cloud-builder",
+    "runtime:vendor-cloud"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "迁移出 Replit 成本高"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://replit.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "replit-agent",
+  "name": "Replit Agent",
+  "category": "coding-cloud-builder",
+  "subcategory": "cloud-builder",
+  "oneLiner": "Replit IDE/运行时内写完即部署 · 「接着写完」强 · Flavor B",
+  "descriptionMd": "Replit Agent 在 Replit IDE/运行时内完成编写与部署，「接着写完」体验强，属 Flavor B。\n\n锁 Replit runtime 与托管模型；毕业到独立仓库/云的成本要提前评估。适合学习与原型，谨慎直接承接生产凭据。\n\n教学与黑客马拉松很合适；客户数据与支付密钥不要长期放在共享 runtime。\n",
+  "officialUrl": "https://replit.com"
+}

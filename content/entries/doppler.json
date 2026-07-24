@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "secrets",
+    "cli"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "云端托管，无自托管选项"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.doppler.com"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "doppler",
+  "name": "Doppler",
+  "category": "sec-secrets",
+  "subcategory": "secrets",
+  "oneLiner": "按项目/环境同步密钥 · doppler run 注入进程 · 纯托管无自建",
+  "descriptionMd": "Doppler 是托管型开发者 Secrets：按项目/环境同步密钥，常用 `doppler run` 注入子进程，减少「.env 满天飞」。\n\n适合小团队快速治理环境变量；相对 Infisical/Vault，偏 SaaS 便捷。关键生产仍建议配合权限审计与轮换策略。\n\n按环境同步减少「错环境密钥」；本地与 CI 用同一项目结构命名。\n",
+  "officialUrl": "https://www.doppler.com"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "edge-kubernetes-docker-depends-on",
+  "from": "kubernetes",
+  "to": "docker",
+  "type": "depends_on",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-23"
+}

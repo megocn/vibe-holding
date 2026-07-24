@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "realtime",
+    "tts",
+    "game",
+    "npc"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "级联架构延迟通常高于原生 S2S；游戏外企业客服需另看电话与合规。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://inworld.ai"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "inworld-realtime",
+  "name": "Inworld Realtime",
+  "category": "ai-realtime",
+  "subcategory": "speech-to-speech",
+  "oneLiner": "Inworld 实时管线 · TTS/STT/路由 · 游戏角色向",
+  "officialUrl": "https://inworld.ai",
+  "descriptionMd": "Inworld 提供 Realtime TTS/STT 与 LLM Router，以及可在单 WebSocket 上跑级联 STT→LLM→TTS 的 Realtime API，游戏 NPC 与消费级互动角色场景常见；与 Pipecat 有原生集成。\n\n需要角色一致性、可换底层 LLM、又要语音管线开箱时评估；对照原生 S2S（OpenAI/Gemini/Qwen-Audio）。\n\n级联架构延迟通常高于原生 S2S；游戏外企业客服需另看电话与合规。\n",
+  "vendorId": "inworld-inc"
+}

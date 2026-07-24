@@ -1,0 +1,11 @@
+{
+  "id": "e-pg-prereq-supabase",
+  "from": "postgresql",
+  "to": "supabase",
+  "type": "prerequisite_of",
+  "weight": 0.7,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-07-01",
+  "lastReviewed": "2026-07-20"
+}

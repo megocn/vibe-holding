@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "search",
+    "analytics"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "集群运维与 JVM 调优成本高；小项目用 Meilisearch/Typesense 更省资源，许可证变更需关注。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.elastic.co/elasticsearch"
+  ],
+  "lastReviewed": "2026-07-23",
+  "region": "overseas",
+  "id": "elasticsearch",
+  "name": "Elasticsearch",
+  "category": "db-nosql",
+  "subcategory": "search",
+  "oneLiner": "Lucene 全文+聚合 · ELK/可观测主力 · 集群运维重",
+  "officialUrl": "https://www.elastic.co/elasticsearch",
+  "descriptionMd": "Elasticsearch 基于 Lucene，提供全文搜索、聚合与日志分析（ELK），水平扩展成熟，是 observability 与 enterprise 搜索主力。\n\n日志/指标平台、复杂 facet 搜索或已有 Kibana 投资时继续选用；向量搜索需 ES 8+ dense_vector。\n\n集群运维与 JVM 调优成本高；小项目用 Meilisearch/Typesense 更省资源，许可证变更需关注。\n",
+  "vendorId": "elastic"
+}
