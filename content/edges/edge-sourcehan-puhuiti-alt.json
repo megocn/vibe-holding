@@ -1,0 +1,10 @@
+{
+  "id": "edge-sourcehan-puhuiti-alt",
+  "from": "source-han-sans",
+  "to": "alibaba-puhuiti",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

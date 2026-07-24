@@ -1,0 +1,10 @@
+{
+  "id": "edge-tencent-ocr-azure-dom",
+  "from": "tencent-ocr",
+  "to": "azure-document-intelligence",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

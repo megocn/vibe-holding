@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ocr",
+    "doc-parse",
+    "open-source",
+    "rag"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "企业预置发票/证件模型不如 Azure/AWS；极端扫描件需另配 OCR 引擎。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/docling-project/docling"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "docling",
+  "name": "Docling",
+  "category": "ai-ocr",
+  "subcategory": "doc-parse",
+  "oneLiner": "IBM 开源文档解析 · PDF→结构化",
+  "officialUrl": "https://github.com/docling-project/docling",
+  "descriptionMd": "Docling 是面向开发者的开源文档转换/理解工具，把 PDF 等转为结构化表示，便于 LLM 与 RAG 消费，社区增长快。\n\n需要本地可控的文档解析、与 Python AI 栈集成时评估；可与云 Document AI 做成本对照。\n\n企业预置发票/证件模型不如 Azure/AWS；极端扫描件需另配 OCR 引擎。\n",
+  "vendorId": "ibm",
+  "githubUrl": "https://github.com/docling-project/docling"
+}

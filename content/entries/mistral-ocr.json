@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ocr",
+    "api",
+    "mistral"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "企业预置发票工作流与区域合规成熟度对照 Azure/AWS；价格与限速以控制台为准。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://mistral.ai/news/mistral-ocr"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "mistral-ocr",
+  "name": "Mistral OCR",
+  "category": "ai-ocr",
+  "subcategory": "ocr-api",
+  "oneLiner": "Mistral 文档 OCR API · 版面理解",
+  "officialUrl": "https://mistral.ai/news/mistral-ocr",
+  "descriptionMd": "Mistral OCR 以 API 形式提供文档/图像文字与结构理解，面向开发者把扫描件与 PDF 送入 LLM 工作流前的识别层，强调易用与质量。\n\n已用 Mistral 栈、需要云端文档 OCR 且不愿上三大云 Document AI 时评估。\n\n企业预置发票工作流与区域合规成熟度对照 Azure/AWS；价格与限速以控制台为准。\n",
+  "vendorId": "mistral-ai"
+}

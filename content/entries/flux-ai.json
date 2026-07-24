@@ -16,21 +16,54 @@
   ],
   "maturity": "stable",
   "pitfalls": [
-    "pro 模型 licensing 与 NSFW 政策需遵守；算力成本随分辨率上升。"
+    "pro/max licensing 与 NSFW 政策需遵守；算力成本随分辨率上升。"
   ],
-  "updates": [],
-  "rankings": [],
+  "updates": [
+    {
+      "date": "2025-11-01",
+      "type": "release",
+      "version": "FLUX.2",
+      "summary": "max/pro/flex/dev 等分档接档 FLUX.1；写实与光学细节增强",
+      "source": "https://bfl.ai/models/flux-2"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "lmarena-image",
+      "rank": 20,
+      "score": 1162,
+      "scoreLabel": "1162 Elo",
+      "period": "2026-07",
+      "note": "flux-2-max",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    },
+    {
+      "systemId": "aa-image-arena",
+      "rank": 17,
+      "score": 1192,
+      "scoreLabel": "1192 Elo",
+      "period": "2026-07",
+      "note": "FLUX.2 [max]",
+      "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    }
+  ],
   "sources": [
-    "https://blackforestlabs.ai"
+    "https://blackforestlabs.ai",
+    "https://bfl.ai/models/flux-2",
+    "https://arena.ai/leaderboard/text-to-image",
+    "https://artificialanalysis.ai/image/leaderboard/text-to-image"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-24",
   "region": "overseas",
   "id": "flux-ai",
   "name": "Flux",
   "category": "design-ai-image",
   "subcategory": "image-gen",
-  "oneLiner": "BFL pro/dev/schnell · 质量速度分档 · API/ComfyUI 增长快",
+  "oneLiner": "BFL FLUX.2 · API/开源分档 · 自托管首选",
   "officialUrl": "https://blackforestlabs.ai",
-  "descriptionMd": "Flux 由 Black Forest Labs 发布，提供 pro/dev/schnell 档位，质量与速度平衡好，API 与 ComfyUI 生态增长快。\n\n需要 Midjourney 级质量又希望 API 集成到产品 pipeline 时评估 Flux API/自托管 dev 权重。\n\npro 模型 licensing 与 NSFW 政策需遵守；算力成本随分辨率上升。\n",
-  "vendorId": "black-forest-labs"
+  "descriptionMd": "Flux（Black Forest Labs）现以 FLUX.2 族（max/pro/flex/dev/klein）为主力，质量与速度分档清晰，API 与 ComfyUI/开源权重生态成熟，是自托管与开放管线的默认海外选项。\n\n需要 Midjourney 级可控美学之外的 API/自托管、或开源权重进产品 pipeline 时评估 FLUX.2。\n\npro/max licensing 与 NSFW 政策需遵守；算力成本随分辨率上升。\n",
+  "vendorId": "black-forest-labs",
+  "currentVersion": "FLUX.2"
 }

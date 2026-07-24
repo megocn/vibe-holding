@@ -1,0 +1,10 @@
+{
+  "id": "edge-baotu-freepik-dom",
+  "from": "bao-tu-wang",
+  "to": "freepik",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

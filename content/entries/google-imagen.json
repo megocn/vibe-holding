@@ -18,12 +18,43 @@
   ],
   "maturity": "stable",
   "pitfalls": [
-    "国内访问受限；消费级审美社区热度通常低于 Midjourney/Flux。"
+    "国内访问受限；与 Gemini Nano Banana 产品线勿混淆。"
   ],
-  "updates": [],
-  "rankings": [],
+  "updates": [
+    {
+      "date": "2025-06-01",
+      "type": "release",
+      "version": "Imagen 4",
+      "summary": "Ultra/Standard/Fast 分档；Vertex 企业文生图主力",
+      "source": "https://deepmind.google/technologies/imagen/"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "lmarena-image",
+      "rank": 27,
+      "score": 1148,
+      "scoreLabel": "1148 Elo",
+      "period": "2026-07",
+      "note": "imagen-ultra-4.0",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    },
+    {
+      "systemId": "aa-image-arena",
+      "rank": 28,
+      "score": 1169,
+      "scoreLabel": "1169 Elo",
+      "period": "2026-07",
+      "note": "Imagen 4 Ultra",
+      "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    }
+  ],
   "sources": [
-    "https://deepmind.google/technologies/imagen/"
+    "https://deepmind.google/technologies/imagen/",
+    "https://arena.ai/leaderboard/text-to-image",
+    "https://artificialanalysis.ai/image/leaderboard/text-to-image"
   ],
   "lastReviewed": "2026-07-24",
   "region": "overseas",
@@ -31,8 +62,9 @@
   "name": "Imagen",
   "category": "design-ai-image",
   "subcategory": "image-gen",
-  "oneLiner": "Google 文生图 · Vertex/Gemini · 企业向",
+  "oneLiner": "Google Imagen 4 · Vertex 企业文生图",
   "officialUrl": "https://deepmind.google/technologies/imagen/",
-  "descriptionMd": "Imagen 是 Google 的文生图模型族，经 Vertex AI / Gemini 生态提供，强调与 Google Cloud 企业合同、安全过滤与多模态管线集成。\n\n已在 GCP、需要企业级图像生成与统一计费时评估；可与 Gemini 多模态应用同栈。\n\n国内访问受限；消费级审美社区热度通常低于 Midjourney/Flux。\n",
-  "vendorId": "google"
+  "descriptionMd": "Imagen 是 Google Cloud / Vertex 侧的企业文生图族（现 Imagen 4 Ultra/Standard/Fast），强调合同、安全过滤与 GCP 计费集成；Arena 上 Ultra 约第 27，AA 约第 28。消费级热度见同厂 Nano Banana。\n\n已在 GCP、需要企业级图像生成与统一计费时评估；创意消费入口优先 Nano Banana。\n\n国内访问受限；与 Gemini Nano Banana 产品线勿混淆。\n",
+  "vendorId": "google",
+  "currentVersion": "Imagen 4 Ultra"
 }

@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "illustration",
+    "svg",
+    "onboarding"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "风格辨识度高，多用易显模板站；商用与署名看套餐。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://storyset.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "storyset",
+  "name": "Storyset",
+  "category": "design-stock",
+  "subcategory": "illustration",
+  "oneLiner": "可定制 SVG 插画 · 动画可选",
+  "officialUrl": "https://storyset.com",
+  "descriptionMd": "Storyset（Freepik 生态）提供可改色、可加简单动画的情境插画，适合 onboarding、空状态与功能说明页。\n\n需要比 unDraw 更强定制/动效、又要快速出插画时评估。\n\n风格辨识度高，多用易显模板站；商用与署名看套餐。\n",
+  "vendorId": "freepik-inc"
+}

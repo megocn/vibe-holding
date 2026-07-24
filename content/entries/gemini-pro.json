@@ -23,9 +23,12 @@
   "updates": [],
   "sources": [
     "https://ai.google.dev/gemini-api/docs/models",
-    "https://blog.google/"
+    "https://arena.ai/leaderboard/text",
+    "https://arena.ai/leaderboard/vision",
+    "https://arena.ai/leaderboard/search",
+    "https://artificialanalysis.ai/leaderboards/models"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-24",
   "region": "overseas",
   "id": "gemini-pro",
   "name": "Gemini Pro",
@@ -37,20 +40,43 @@
   "rankings": [
     {
       "systemId": "lmarena-text",
-      "rank": 4,
-      "score": 1500,
-      "scoreLabel": "≈1500 Elo",
       "period": "2026-07",
-      "note": "对标 Gemini 3.1 Pro；科学/长上下文领先",
-      "sourceUrl": "https://arena.ai/leaderboard",
-      "asOf": "2026-07-20"
+      "note": "gemini-3.1-pro-preview",
+      "sourceUrl": "https://arena.ai/leaderboard/text",
+      "asOf": "2026-07-24",
+      "rank": 8,
+      "score": 1486,
+      "scoreLabel": "1486 Elo"
+    },
+    {
+      "systemId": "lmarena-vision",
+      "period": "2026-07",
+      "note": "gemini-3-pro",
+      "sourceUrl": "https://arena.ai/leaderboard/vision",
+      "asOf": "2026-07-24",
+      "rank": 7,
+      "score": 1289,
+      "scoreLabel": "1289 Elo"
+    },
+    {
+      "systemId": "lmarena-search",
+      "period": "2026-07",
+      "note": "gemini-3.1-pro-grounding",
+      "sourceUrl": "https://arena.ai/leaderboard/search",
+      "asOf": "2026-07-24",
+      "rank": 7,
+      "score": 1212,
+      "scoreLabel": "1212 Elo"
     },
     {
       "systemId": "artificial-analysis-index",
-      "tier": "Top tier",
       "period": "2026-07",
-      "note": "与 Opus / GPT 旗舰同档交叉验证",
-      "asOf": "2026-07-20"
+      "note": "Gemini 3.1 Pro Preview",
+      "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
+      "asOf": "2026-07-24",
+      "rank": 20,
+      "score": 46,
+      "scoreLabel": "AAII 46"
     }
   ],
   "subcategory": "line",

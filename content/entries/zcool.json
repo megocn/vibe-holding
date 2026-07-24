@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "inspiration",
+    "portfolio",
+    "domestic"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "作品版权与商用需直接联系作者；平台内容质量参差。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.zcool.com.cn"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "domestic",
+  "id": "zcool",
+  "name": "站酷",
+  "category": "design-inspiration",
+  "subcategory": "portfolio",
+  "oneLiner": "国内设计师社区 · 作品/招聘/学习",
+  "officialUrl": "https://www.zcool.com.cn",
+  "descriptionMd": "站酷是国内设计作品与交流社区，覆盖平面、UI、三维等，设计师求职与品牌方找灵感/外包常见入口。\n\n国内团队需要中文作品集生态、或对接国内设计师时优先；国际向可并行 Dribbble/Behance。\n\n作品版权与商用需直接联系作者；平台内容质量参差。\n",
+  "vendorId": "zcool-inc"
+}

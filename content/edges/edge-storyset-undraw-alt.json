@@ -1,0 +1,10 @@
+{
+  "id": "edge-storyset-undraw-alt",
+  "from": "storyset",
+  "to": "undraw",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "hidream",
+  "name": "HiDream",
+  "category": "design-ai-image",
+  "subcategory": "image-gen",
+  "oneLiner": "HiDream-O1 · 开源统一生成 · AA 前列",
+  "officialUrl": "https://hidream.ai/",
+  "githubUrl": "https://github.com/HiDream-ai/HiDream-O1-Image",
+  "vendorId": "hidream-ai",
+  "region": "overseas",
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD",
+    "notes": "开源权重 MIT；托管 API 另计"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "image",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "currentVersion": "HiDream-O1-Image 1.5",
+  "updates": [
+    {
+      "date": "2026-05-08",
+      "type": "release",
+      "version": "HiDream-O1-Image",
+      "summary": "像素级统一 Transformer；文生图/编辑/个性化；开源权重",
+      "source": "https://github.com/HiDream-ai/HiDream-O1-Image"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "lmarena-image",
+      "rank": 37,
+      "score": 1118,
+      "scoreLabel": "1118 Elo",
+      "period": "2026-07",
+      "note": "hidream-o1-image",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    },
+    {
+      "systemId": "aa-image-arena",
+      "rank": 4,
+      "score": 1262,
+      "scoreLabel": "1262 Elo",
+      "period": "2026-07",
+      "note": "HiDream-O1-Image-1.5",
+      "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    }
+  ],
+  "sources": [
+    "https://hidream.ai/",
+    "https://github.com/HiDream-ai/HiDream-O1-Image",
+    "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "https://arena.ai/leaderboard/text-to-image"
+  ],
+  "pitfalls": [
+    "自托管显存与工程成本不低；商业托管价与开源许可分开核对"
+  ],
+  "descriptionMd": "HiDream-O1-Image 是 HiDream.ai 的统一图像生成基础模型（开源），像素级 Unified Transformer，覆盖文生图、指令编辑与主体个性化；AA 文生图榜上闭源/开源变体均处前列。\n\n需要开源可控、ComfyUI/自托管或与闭源旗舰对照的研究/产品管线时评估。\n\n自托管显存与工程成本不低；商业托管价与开源许可分开核对。\n",
+  "lastReviewed": "2026-07-24"
+}

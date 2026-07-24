@@ -1,0 +1,11 @@
+{
+  "id": "edge-flaticon-lucide-related",
+  "from": "flaticon",
+  "to": "lucide",
+  "type": "alternative_to",
+  "weight": 0.35,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24",
+  "note": "素材站图标包 vs 工程图标库，弱替代"
+}

@@ -27,12 +27,24 @@
       "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
     }
   ],
-  "rankings": [],
+  "rankings": [
+    {
+      "systemId": "artificial-analysis-index",
+      "period": "2026-07",
+      "note": "Gemini 3.6 Flash",
+      "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
+      "asOf": "2026-07-24",
+      "rank": 15,
+      "score": 50,
+      "scoreLabel": "AAII 50"
+    }
+  ],
   "sources": [
     "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
-    "https://ai.google.dev/gemini-api/docs/models/gemini-3.6-flash"
+    "https://ai.google.dev/gemini-api/docs/models/gemini-3.6-flash",
+    "https://artificialanalysis.ai/leaderboards/models"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-24",
   "region": "overseas",
   "id": "gemini-flash",
   "name": "Gemini Flash",

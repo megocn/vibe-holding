@@ -1,0 +1,82 @@
+{
+  "id": "google-nano-banana",
+  "name": "Nano Banana",
+  "category": "design-ai-image",
+  "subcategory": "image-gen",
+  "oneLiner": "Gemini 文生图/改图 · Nano Banana 2 · 消费级热",
+  "officialUrl": "https://gemini.google/overview/image-generation/",
+  "vendorId": "google",
+  "region": "overseas",
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD",
+    "notes": "Gemini 订阅档；API 按量"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "image",
+    "gemini"
+  ],
+  "maturity": "stable",
+  "currentVersion": "Nano Banana 2",
+  "updates": [
+    {
+      "date": "2026-02-01",
+      "type": "release",
+      "version": "Nano Banana 2",
+      "summary": "Gemini 3.1 Flash Image 线；消费级出图/改图主力，Arena 前列",
+      "source": "https://gemini.google/overview/image-generation/"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "lmarena-image",
+      "rank": 5,
+      "score": 1261,
+      "scoreLabel": "1261 Elo",
+      "period": "2026-07",
+      "note": "gemini-3.1-flash-image · nano-banana-2",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    },
+    {
+      "systemId": "lmarena-image-edit",
+      "period": "2026-07",
+      "note": "nano-banana-pro 2k",
+      "sourceUrl": "https://arena.ai/leaderboard/image-edit",
+      "asOf": "2026-07-24",
+      "rank": 7,
+      "score": 1388,
+      "scoreLabel": "1388 Elo"
+    },
+    {
+      "systemId": "aa-image-arena",
+      "rank": 7,
+      "score": 1253,
+      "scoreLabel": "1253 Elo",
+      "period": "2026-07",
+      "note": "Nano Banana 2 (Gemini 3.1 Flash Image)",
+      "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    }
+  ],
+  "sources": [
+    "https://gemini.google/overview/image-generation/",
+    "https://arena.ai/leaderboard/text-to-image",
+    "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "https://arena.ai/leaderboard/image-edit"
+  ],
+  "pitfalls": [
+    "与 Vertex Imagen 企业线不同入口；国内不可用；Pro/Lite 档位与拒图策略需对照文档"
+  ],
+  "descriptionMd": "Nano Banana 是 Google Gemini 侧的文生图/改图产品线（现 Nano Banana 2 / Pro / Lite），强调世界知识、推理式改图与消费级速度，与 ChatGPT 出图并列最热入口之一。\n\n已在 Gemini App/AI Studio 做创意出图、快速改图或品牌试稿时默认评估；企业合同与合规出图另看 Imagen（Vertex）。\n\n与 Imagen 企业线不同入口；国内不可用；档位与拒图策略需对照文档。\n",
+  "lastReviewed": "2026-07-24"
+}

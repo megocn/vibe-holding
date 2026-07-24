@@ -16,21 +16,53 @@
   ],
   "maturity": "stable",
   "pitfalls": [
-    "照片级 realism 非强项；商业 license 条款需读清。"
+    "照片级 realism 非最强项；商业 license 条款需读清。"
   ],
-  "updates": [],
-  "rankings": [],
+  "updates": [
+    {
+      "date": "2026-05-01",
+      "type": "release",
+      "version": "Recraft V4.1",
+      "summary": "Utility Pro 等档；设计向盲测偏好上升",
+      "source": "https://www.recraft.ai/blog/recraft-v4-1-more-beautiful-by-nature"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "lmarena-image",
+      "rank": 19,
+      "score": 1169,
+      "scoreLabel": "1169 Elo",
+      "period": "2026-07",
+      "note": "recraft-v4.1-utility-pro",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    },
+    {
+      "systemId": "aa-image-arena",
+      "rank": 11,
+      "score": 1207,
+      "scoreLabel": "1207 Elo",
+      "period": "2026-07",
+      "note": "Recraft V4.1 Utility Pro",
+      "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    }
+  ],
   "sources": [
-    "https://www.recraft.ai"
+    "https://www.recraft.ai",
+    "https://arena.ai/leaderboard/text-to-image",
+    "https://artificialanalysis.ai/image/leaderboard/text-to-image"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-24",
   "region": "overseas",
   "id": "recraft",
   "name": "Recraft",
   "category": "design-ai-image",
   "subcategory": "image-gen",
-  "oneLiner": "品牌一致矢量/icon · style reference · UI 资产批量",
+  "oneLiner": "Recraft V4.1 · 品牌矢量/设计语言 · Utility Pro",
   "officialUrl": "https://www.recraft.ai",
-  "descriptionMd": "Recraft 专注 brand-consistent 矢量插画与 icon 生成，支持 style reference，适合 UI 资产批量产出。\n\n设计系统需要统一插画风格、导出 SVG 用于 web/app 时评估 Recraft。\n\n照片级 realism 非强项；商业 license 条款需读清。\n",
-  "vendorId": "recraft-inc"
+  "descriptionMd": "Recraft 专注品牌一致的矢量插画、icon 与设计语言生成；现 V4.1（含 Utility Pro）在 Arena/AA 文生图榜进入前二十，适合 UI 资产与品牌视觉批量。\n\n设计系统需要统一插画风格、导出 SVG 或品牌资产时评估；与 Ideogram、GPT Image 对照。\n\n照片级 realism 非最强项；商业 license 条款需读清。\n",
+  "vendorId": "recraft-inc",
+  "currentVersion": "Recraft V4.1"
 }

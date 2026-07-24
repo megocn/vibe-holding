@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "fonts",
+    "adobe",
+    "subscription"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "无 CC 则成本高；Web 项目要确认套餐的 pageview 限制。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://fonts.adobe.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "adobe-fonts",
+  "name": "Adobe Fonts",
+  "category": "design-fonts",
+  "subcategory": "subscription-fonts",
+  "oneLiner": "CC 订阅字体库 · 桌面+Web",
+  "officialUrl": "https://fonts.adobe.com",
+  "descriptionMd": "Adobe Fonts（原 Typekit）随 Creative Cloud 提供海量授权字体，设计工具内一键激活，适合已购 CC 的团队。\n\n团队已有 Adobe 订阅、需要正版西文/部分 CJK 字体工作流时优先。\n\n无 CC 则成本高；Web 项目要确认套餐的 pageview 限制。\n",
+  "vendorId": "adobe"
+}

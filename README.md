@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="apps/desktop/public/brand/logo-256.png" width="96" height="96" alt="墨台印章" />
+  <img src="apps/desktop/public/brand/logo-256.png" width="96" height="96" alt="墨台" />
 </p>
 
 <h1 align="center">墨台 · VibeHolding</h1>
@@ -26,9 +26,9 @@
 
 <p align="center">
   <img alt="license" src="https://img.shields.io/badge/License-Apache%202.0-blue?style=flat-square" />
-  <img alt="entries" src="https://img.shields.io/badge/条目-687-8B1A1A?style=flat-square" />
-  <img alt="edges" src="https://img.shields.io/badge/关系边-843-2F5D62?style=flat-square" />
-  <img alt="vendors" src="https://img.shields.io/badge/厂商-355-5C4033?style=flat-square" />
+  <img alt="entries" src="https://img.shields.io/badge/条目-735-8B1A1A?style=flat-square" />
+  <img alt="edges" src="https://img.shields.io/badge/关系边-897-2F5D62?style=flat-square" />
+  <img alt="vendors" src="https://img.shields.io/badge/厂商-378-5C4033?style=flat-square" />
   <img alt="recipes" src="https://img.shields.io/badge/方案模板-5-6B4F3A?style=flat-square" />
   <img alt="stack" src="https://img.shields.io/badge/TypeScript-Tauri·React·Expo-111?style=flat-square" />
 </p>

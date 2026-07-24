@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "fonts",
+    "chinese",
+    "open-source",
+    "cjk"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "完整字库体积大，Web 必须子集化/按需加载，否则首屏很重。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/adobe-fonts/source-han-sans"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "both",
+  "id": "source-han-sans",
+  "name": "思源黑体",
+  "category": "design-fonts",
+  "subcategory": "cjk-fonts",
+  "oneLiner": "Adobe+Google 开源 CJK · Noto Sans CJK",
+  "officialUrl": "https://github.com/adobe-fonts/source-han-sans",
+  "descriptionMd": "思源黑体（Source Han Sans / Noto Sans CJK）是覆盖中日韩的开源字体家族，桌面与 Web 自托管常见，许可友好。\n\n需要开源中文字体、多语言 CJK 产品或与 Noto 西文统一时优先。\n\n完整字库体积大，Web 必须子集化/按需加载，否则首屏很重。\n",
+  "vendorId": "adobe",
+  "githubUrl": "https://github.com/adobe-fonts/source-han-sans"
+}

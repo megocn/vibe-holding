@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "stock",
+    "photos",
+    "video",
+    "free"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "热门图同质化明显；商用前仍须读清 Pixabay License 与人物/商标限制。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://pixabay.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "pixabay",
+  "name": "Pixabay",
+  "category": "design-stock",
+  "subcategory": "stock",
+  "oneLiner": "免费图/视频/插画/音乐 · 一站式",
+  "officialUrl": "https://pixabay.com",
+  "descriptionMd": "Pixabay 提供免费照片、插画、矢量、视频与音乐等多媒体素材，许可相对宽松，适合 indie 与内容站快速配图配乐。\n\n需要「不只照片」的一站式免费素材、或与 Unsplash/Pexels 做备份源时选用。\n\n热门图同质化明显；商用前仍须读清 Pixabay License 与人物/商标限制。\n",
+  "vendorId": "canva-inc"
+}

@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "inspiration",
+    "web",
+    "awards"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "获奖站常偏实验向，直接照搬易损害性能与可达性；灵感要克制落地并做预算评估。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.awwwards.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "awwwards",
+  "name": "Awwwards",
+  "category": "design-inspiration",
+  "subcategory": "web-awards",
+  "oneLiner": "网页设计奖项与画廊 · 前沿美学",
+  "officialUrl": "https://www.awwwards.com",
+  "descriptionMd": "Awwwards 评选并展示前沿网页设计与动效作品，适合寻找实验性交互、创意叙事与品牌站灵感。\n\n品牌站、活动站需要冲击力视觉与交互参考时浏览；也可作年度设计趋势观察入口。\n\n获奖站常偏实验向，直接照搬易损害性能与可达性；灵感要克制落地并做预算评估。\n",
+  "vendorId": "awwwards-inc"
+}

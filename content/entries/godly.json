@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "inspiration",
+    "landing",
+    "web"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "非素材下载站；案例可能过时，需核对是否仍上线。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://godly.website"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "godly",
+  "name": "Godly",
+  "category": "design-inspiration",
+  "subcategory": "landing",
+  "oneLiner": "精选落地页画廊 · Web 美学",
+  "officialUrl": "https://godly.website",
+  "descriptionMd": "Godly 精选高质量营销落地页案例，强调当代 Web 视觉、排版与动效，适合找 landing / 品牌站灵感。\n\n做官网/活动页需要高水平视觉参考时浏览；落地实现时注意性能预算与无障碍，勿盲目堆动效。\n\n非素材下载站；案例可能过时，需核对是否仍上线。\n"
+}

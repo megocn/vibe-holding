@@ -1,0 +1,141 @@
+{
+  "id": "claude-fable",
+  "name": "Claude Fable",
+  "category": "llm-line",
+  "subcategory": "line",
+  "vendorId": "anthropic",
+  "region": "overseas",
+  "oneLiner": "Anthropic 顶档 · Fable 5 · Arena 多榜 #1",
+  "officialUrl": "https://www.anthropic.com/claude/fable",
+  "docsUrl": "https://platform.claude.com/docs/en/about-claude/models/overview",
+  "currentVersion": "Fable 5",
+  "pricing": {
+    "model": "usage",
+    "currency": "USD",
+    "notes": "约 $10/M input · $50/M output；API `claude-fable-5`"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "us",
+      "eu",
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "reasoning",
+    "code",
+    "agentic",
+    "flagship"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "价高于 Opus；部分安全敏感域会降级到 Opus；国内不可直连",
+    "曾因出口管制短暂下架，供应与政策风险需纳入采购"
+  ],
+  "updates": [
+    {
+      "date": "2026-06-09",
+      "type": "release",
+      "version": "Fable 5",
+      "summary": "Anthropic 公开可用最强档；长链路 Agent/编码；API `claude-fable-5`",
+      "source": "https://www.anthropic.com/news/claude-fable-5-mythos-5"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "lmarena-text",
+      "period": "2026-07",
+      "note": "claude-fable-5 · Text Overall",
+      "sourceUrl": "https://arena.ai/leaderboard/text",
+      "asOf": "2026-07-24",
+      "rank": 1,
+      "score": 1507,
+      "scoreLabel": "1507 Elo"
+    },
+    {
+      "systemId": "lmarena-agent",
+      "period": "2026-07",
+      "note": "Claude Fable 5 (High)",
+      "sourceUrl": "https://arena.ai/leaderboard/agent",
+      "asOf": "2026-07-24",
+      "rank": 1,
+      "share": 12.72,
+      "scoreLabel": "12.72% win"
+    },
+    {
+      "systemId": "lmarena-webdev",
+      "period": "2026-07",
+      "note": "claude-fable-5",
+      "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+      "asOf": "2026-07-24",
+      "rank": 2,
+      "score": 1634,
+      "scoreLabel": "1634 Elo"
+    },
+    {
+      "systemId": "lmarena-vision",
+      "period": "2026-07",
+      "note": "claude-fable-5",
+      "sourceUrl": "https://arena.ai/leaderboard/vision",
+      "asOf": "2026-07-24",
+      "rank": 1,
+      "score": 1318,
+      "scoreLabel": "1318 Elo"
+    },
+    {
+      "systemId": "lmarena-document",
+      "period": "2026-07",
+      "note": "claude-fable-5",
+      "sourceUrl": "https://arena.ai/leaderboard/document",
+      "asOf": "2026-07-24",
+      "rank": 3,
+      "score": 1505,
+      "scoreLabel": "1505 Elo"
+    },
+    {
+      "systemId": "lmarena-search",
+      "period": "2026-07",
+      "note": "claude-fable-5",
+      "sourceUrl": "https://arena.ai/leaderboard/search",
+      "asOf": "2026-07-24",
+      "rank": 3,
+      "score": 1237,
+      "scoreLabel": "1237 Elo"
+    },
+    {
+      "systemId": "artificial-analysis-index",
+      "period": "2026-07",
+      "note": "Claude Fable 5 (with fallback)",
+      "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
+      "asOf": "2026-07-24",
+      "rank": 1,
+      "score": 60,
+      "scoreLabel": "AAII 60"
+    },
+    {
+      "systemId": "swe-bench-pro",
+      "period": "2026-07",
+      "note": "SWE-bench Pro 公开报道前列",
+      "sourceUrl": "https://www.swebench.com/",
+      "asOf": "2026-07-24",
+      "rank": 1,
+      "score": 80.3,
+      "scoreLabel": "80.3%"
+    }
+  ],
+  "sources": [
+    "https://www.anthropic.com/claude/fable",
+    "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+    "https://arena.ai/leaderboard/text",
+    "https://arena.ai/leaderboard/agent",
+    "https://arena.ai/leaderboard/vision",
+    "https://artificialanalysis.ai/leaderboards/models",
+    "https://www.swebench.com/"
+  ],
+  "descriptionMd": "Claude Fable 是 Anthropic 公开可用的**最高能力选型档**（现 Fable 5），面向最长链路 Agent、复杂编码与知识工作；价位高于 Opus。Arena Text/Agent/Vision 等多榜居首。\n\n极难长任务、研究级 Agent 或需当前 Anthropic 最强公开模型时选用；常规企业编码默认仍可 Sonnet/Opus。\n\n价高；部分安全敏感域会路由到 Opus；国内不可直连；供应/政策波动需纳入采购。\n",
+  "lastReviewed": "2026-07-24"
+}

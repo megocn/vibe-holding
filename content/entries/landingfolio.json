@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "inspiration",
+    "landing",
+    "sections"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "部分资源收费；注意版权与代码授权。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.landingfolio.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "landingfolio",
+  "name": "Landingfolio",
+  "category": "design-inspiration",
+  "subcategory": "landing",
+  "oneLiner": "落地页分区组件灵感 · 可筛选",
+  "officialUrl": "https://www.landingfolio.com",
+  "descriptionMd": "Landingfolio 按落地页区块（Hero、定价、FAQ 等）整理灵感与部分组件资源，方便对照信息结构而非整页抄袭。\n\n搭建营销页信息架构、需要分区级参考或组件灵感时评估；付费资源注意代码与设计授权边界。\n\n部分资源收费；注意版权与代码授权。\n",
+  "vendorId": "landingfolio-inc"
+}

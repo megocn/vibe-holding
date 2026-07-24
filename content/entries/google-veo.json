@@ -21,9 +21,43 @@
     "区域与配额政策变化快；国内直连受限；成本按秒/积分高。"
   ],
   "updates": [],
-  "rankings": [],
+  "rankings": [
+    {
+      "systemId": "lmarena-t2v",
+      "period": "2026-07",
+      "note": "veo-3.1-audio-1080p",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
+      "asOf": "2026-07-24",
+      "rank": 6,
+      "score": 1364,
+      "scoreLabel": "1364 Elo"
+    },
+    {
+      "systemId": "lmarena-i2v",
+      "period": "2026-07",
+      "note": "veo-3.1-audio",
+      "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
+      "asOf": "2026-07-24",
+      "rank": 7,
+      "score": 1398,
+      "scoreLabel": "1398 Elo"
+    },
+    {
+      "systemId": "aa-video-arena",
+      "period": "2026-07",
+      "note": "Veo 3.1 · with audio",
+      "sourceUrl": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+      "asOf": "2026-07-24",
+      "rank": 11,
+      "score": 1095,
+      "scoreLabel": "1095 Elo"
+    }
+  ],
   "sources": [
-    "https://deepmind.google/models/veo/"
+    "https://deepmind.google/models/veo/",
+    "https://arena.ai/leaderboard/text-to-video",
+    "https://arena.ai/leaderboard/image-to-video",
+    "https://artificialanalysis.ai/video/leaderboard/text-to-video"
   ],
   "lastReviewed": "2026-07-24",
   "region": "overseas",
@@ -31,7 +65,7 @@
   "name": "Google Veo",
   "category": "design-ai-video",
   "subcategory": "video-gen",
-  "oneLiner": "DeepMind 视频旗舰 · 原生音频 · Flow",
+  "oneLiner": "DeepMind Veo 3.1 · 原生音频 · Arena T2V 前十",
   "officialUrl": "https://deepmind.google/models/veo/",
   "descriptionMd": "Veo（当前叙事以 Veo 3.1 等为代表）是 Google DeepMind 视频生成旗舰，强调物理真实感、prompt 遵循与**原生音画同生**，经 Gemini API / Flow 等入口提供。\n\n需要高保真营销/叙事短片、且音效对白希望同模型生成时评估；与 Runway/Sora/Kling 同层。\n\n区域与配额政策变化快；国内直连受限；成本按秒/积分高。\n",
   "vendorId": "google",

@@ -4,6 +4,7 @@ import type { z } from 'zod';
 import { Edge } from './schema/edge.ts';
 import { Entry } from './schema/entry.ts';
 import { Category, Concept, Vendor } from './schema/meta.ts';
+import { PopularitySnapshot } from './schema/popularity.ts';
 import { RankingSystem } from './schema/ranking.ts';
 import { StackRecipe } from './schema/recipe.ts';
 import type { ContentBundle } from './types.ts';
@@ -56,6 +57,14 @@ export async function loadContent(dir: string): Promise<ContentBundle> {
     rankingSystems = [];
   }
 
+  let popularity: Record<string, PopularitySnapshot['entries'][string]> = {};
+  try {
+    const raw = await readFile(join(dir, 'signals', 'popularity.json'), 'utf8');
+    popularity = PopularitySnapshot.parse(JSON.parse(raw)).entries;
+  } catch {
+    popularity = {};
+  }
+
   return {
     entries: new Map(entries.map((e) => [e.id, e])),
     edges,
@@ -64,5 +73,6 @@ export async function loadContent(dir: string): Promise<ContentBundle> {
     concepts: new Map(concepts.map((c) => [c.id, c])),
     recipes: new Map(recipes.map((r) => [r.id, r])),
     rankingSystems: new Map(rankingSystems.map((r) => [r.id, r])),
+    popularity: new Map(Object.entries(popularity)),
   };
 }

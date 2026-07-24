@@ -1,0 +1,71 @@
+{
+  "id": "wan-video",
+  "name": "通义万相 · 视频",
+  "category": "design-ai-video",
+  "subcategory": "video-gen",
+  "vendorId": "alibaba-cloud",
+  "region": "domestic",
+  "oneLiner": "阿里 Wan 2.7 · 文/图生视频 · AA Video 前三",
+  "officialUrl": "https://tongyi.aliyun.com/",
+  "currentVersion": "Wan 2.7",
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN",
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "video",
+    "domestic",
+    "wan"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "与通义万相静帧/图像线分列选型；模型 id 与计费以百炼文档为准"
+  ],
+  "updates": [
+    {
+      "date": "2026-06-01",
+      "type": "release",
+      "version": "Wan 2.7",
+      "summary": "文生视频旗舰档；AA Text-to-Video（含音）进入全球前三",
+      "source": "https://artificialanalysis.ai/video/leaderboard/text-to-video"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "aa-video-arena",
+      "period": "2026-07",
+      "note": "Wan2.7-260612 · with audio",
+      "sourceUrl": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+      "asOf": "2026-07-24",
+      "rank": 3,
+      "score": 1164,
+      "scoreLabel": "1164 Elo"
+    },
+    {
+      "systemId": "lmarena-i2v",
+      "period": "2026-07",
+      "note": "wan2.7-i2v（Arena I2V）",
+      "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
+      "asOf": "2026-07-24",
+      "rank": 5,
+      "score": 1434,
+      "scoreLabel": "1434 Elo"
+    }
+  ],
+  "sources": [
+    "https://tongyi.aliyun.com/",
+    "https://artificialanalysis.ai/video/leaderboard/text-to-video"
+  ],
+  "descriptionMd": "通义 Wan 是阿里云/通义系视频生成线（现 Wan 2.7），支持文生/图生视频；AA Text-to-Video（含音）约第 3，Arena Image-to-Video 亦处前列，是国内云栈高频选项。\n\n已用阿里云百炼、需要国内合规视频生成时评估；与即梦 Seedance、可灵、HappyHorse 对照。\n\n与万相静帧分列；模型 id 与计费以百炼为准；内容安全审核需适配。\n",
+  "lastReviewed": "2026-07-24"
+}

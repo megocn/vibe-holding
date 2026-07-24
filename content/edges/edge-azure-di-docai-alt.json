@@ -1,0 +1,10 @@
+{
+  "id": "edge-azure-di-docai-alt",
+  "from": "azure-document-intelligence",
+  "to": "google-document-ai",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

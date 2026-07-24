@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "icons",
+    "illustration",
+    "stock"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "免费限制多；产品内嵌图标仍建议工程图标库以便 tree-shake 与主题化。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://icons8.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "icons8",
+  "name": "Icons8",
+  "category": "design-stock",
+  "subcategory": "icons-pack",
+  "oneLiner": "图标+插画+照片 · 风格统一商店",
+  "officialUrl": "https://icons8.com",
+  "descriptionMd": "Icons8 提供风格较统一的图标、插画、照片与音乐等，强调成套视觉一致性，适合快速拼出统一风格的营销页与演示。\n\n需要「一套风格走天下」的图标+插画组合、可付费去署名时评估。\n\n免费限制多；产品内嵌图标仍建议工程图标库以便 tree-shake 与主题化。\n",
+  "vendorId": "icons8-inc"
+}

@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ocr",
+    "document-ai",
+    "enterprise",
+    "idp"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "许可与实施成本高；与现代 API-first 文档 AI 的 DX 不同。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.abbyy.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "abbyy",
+  "name": "ABBYY",
+  "category": "ai-ocr",
+  "subcategory": "document-ai",
+  "oneLiner": "企业 IDP · FineReader/Vantage · 合规向",
+  "officialUrl": "https://www.abbyy.com",
+  "descriptionMd": "ABBYY 是传统企业文档智能（IDP）厂商，FineReader/Vantage 等产品覆盖高精 OCR、分类与人工审核工作流，受监管行业常见。\n\n银行/保险/大型共享服务中心需要审核台与合规交付时评估；创业团队通常先开源或三大云。\n\n许可与实施成本高；与现代 API-first 文档 AI 的 DX 不同。\n",
+  "vendorId": "abbyy-inc"
+}

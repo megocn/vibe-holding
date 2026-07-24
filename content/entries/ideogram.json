@@ -16,21 +16,54 @@
   ],
   "maturity": "stable",
   "pitfalls": [
-    "风格控制与 consistency 不如 Midjourney 艺术向；API 与 batch 能力查最新。"
+    "艺术风格上限因场景而异；API batch 与开源许可查最新。"
   ],
-  "updates": [],
-  "rankings": [],
+  "updates": [
+    {
+      "date": "2026-06-01",
+      "type": "release",
+      "version": "Ideogram 4.0",
+      "summary": "文字/布局增强；Quality 档进入 Arena 前列，部分开源权重",
+      "source": "https://ideogram.ai/blog/4.0/"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "lmarena-image",
+      "rank": 13,
+      "score": 1207,
+      "scoreLabel": "1207 Elo",
+      "period": "2026-07",
+      "note": "ideogram-4.0-quality",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    },
+    {
+      "systemId": "aa-image-arena",
+      "rank": 29,
+      "score": 1169,
+      "scoreLabel": "1169 Elo",
+      "period": "2026-07",
+      "note": "Ideogram 4.0 Quality",
+      "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    }
+  ],
   "sources": [
-    "https://ideogram.ai"
+    "https://ideogram.ai",
+    "https://ideogram.ai/blog/4.0/",
+    "https://arena.ai/leaderboard/text-to-image",
+    "https://artificialanalysis.ai/image/leaderboard/text-to-image"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-24",
   "region": "overseas",
   "id": "ideogram",
   "name": "Ideogram",
   "category": "design-ai-image",
   "subcategory": "image-gen",
-  "oneLiner": "图内可读文字强 · logo/海报向 · 社交创意文案落地",
+  "oneLiner": "Ideogram 4 · 图内文字强 · 开源权重可选",
   "officialUrl": "https://ideogram.ai",
-  "descriptionMd": "Ideogram 在 AI 生成图中渲染可读文字与 logo 表现突出，适合 poster 与 social creative。\n\n需要营销图内嵌 slogan/标题且少后期 PS 文字时试用 Ideogram。\n\n风格控制与 consistency 不如 Midjourney 艺术向；API 与 batch 能力查最新。\n",
-  "vendorId": "ideogram-inc"
+  "descriptionMd": "Ideogram 以图内可读文字与排版见长；现旗舰 Ideogram 4.0（Quality 等档，部分开源权重）在 Arena/AA 文生图榜进入前十五至三十档，适合海报、logo 与社交文案落地。\n\n营销图需内嵌 slogan/标题且少后期 PS 文字时优先试用；与 GPT Image、Reve 对照文字渲染。\n\n艺术风格上限因场景而异；API batch 与开源许可查最新。\n",
+  "vendorId": "ideogram-inc",
+  "currentVersion": "Ideogram 4.0"
 }

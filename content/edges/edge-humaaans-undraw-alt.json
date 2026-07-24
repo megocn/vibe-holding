@@ -1,0 +1,10 @@
+{
+  "id": "edge-humaaans-undraw-alt",
+  "from": "humaaans",
+  "to": "undraw",
+  "type": "alternative_to",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

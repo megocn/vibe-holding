@@ -18,12 +18,43 @@
   ],
   "maturity": "stable",
   "pitfalls": [
-    "艺术风格社区口碑因场景而异；API 字段与计费以阿里云文档为准，注意内容安全审核。"
+    "API 字段与计费以阿里云文档为准；注意内容安全审核。"
   ],
-  "updates": [],
-  "rankings": [],
+  "updates": [
+    {
+      "date": "2026-04-22",
+      "type": "release",
+      "version": "Qwen-Image 2.0 Pro",
+      "summary": "通义/Qwen 图像旗舰档；Arena 进入全球前十五",
+      "source": "https://bailian.console.alibabacloud.com/"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "lmarena-image",
+      "rank": 14,
+      "score": 1193,
+      "scoreLabel": "1193 Elo",
+      "period": "2026-07",
+      "note": "qwen-image-2.0-pro",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    },
+    {
+      "systemId": "aa-image-arena",
+      "rank": 26,
+      "score": 1171,
+      "scoreLabel": "1171 Elo",
+      "period": "2026-07",
+      "note": "Qwen Image 2.0 Pro",
+      "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    }
+  ],
   "sources": [
-    "https://tongyi.aliyun.com/wanxiang/"
+    "https://tongyi.aliyun.com/wanxiang/",
+    "https://arena.ai/leaderboard/text-to-image",
+    "https://artificialanalysis.ai/image/leaderboard/text-to-image"
   ],
   "lastReviewed": "2026-07-24",
   "region": "domestic",
@@ -31,8 +62,9 @@
   "name": "通义万相",
   "category": "design-ai-image",
   "subcategory": "image-gen",
-  "oneLiner": "阿里通义文生图 · 国内云 · 电商素材",
+  "oneLiner": "通义万相 / Qwen-Image · 国内云文生图",
   "officialUrl": "https://tongyi.aliyun.com/wanxiang/",
-  "descriptionMd": "通义万相是阿里云通义系文生图产品，面向国内开发者与电商/营销素材场景，可与阿里云账号与备案业务同区落地。\n\n国内电商主图、活动视觉、且已用阿里云时优先；与即梦等形成国内可选池。\n\n艺术风格社区口碑因场景而异；API 字段与计费以阿里云文档为准，注意内容安全审核。\n",
-  "vendorId": "alibaba-cloud"
+  "descriptionMd": "通义万相是阿里云通义系文生图产品；模型侧现与 Qwen-Image 2.0 Pro 等档对齐，Arena 约第 14、AA 约第 26，面向国内开发者与电商/营销素材。\n\n国内电商主图、活动视觉且已用阿里云时优先；与即梦、混元对照。\n\nAPI 字段与计费以阿里云文档为准；注意内容安全审核。\n",
+  "vendorId": "alibaba-cloud",
+  "currentVersion": "Qwen-Image 2.0 Pro"
 }

@@ -17,20 +17,33 @@
   ],
   "maturity": "stable",
   "pitfalls": [
-    "商用授权与账号区域政策需核对"
+    "商用授权与账号区域政策需核对；无官方开放 API。"
   ],
   "updates": [],
-  "rankings": [],
-  "sources": [
-    "https://www.midjourney.com"
+  "rankings": [
+    {
+      "systemId": "aa-image-arena",
+      "rank": 90,
+      "score": 1064,
+      "scoreLabel": "1064 Elo",
+      "period": "2026-07",
+      "note": "Midjourney v7 Alpha（AA 快照；非 Arena 顶流）",
+      "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    }
   ],
-  "lastReviewed": "2026-07-23",
+  "sources": [
+    "https://www.midjourney.com",
+    "https://artificialanalysis.ai/image/leaderboard/text-to-image"
+  ],
+  "lastReviewed": "2026-07-24",
   "region": "overseas",
   "id": "midjourney",
   "name": "Midjourney",
   "category": "design-ai-image",
   "subcategory": "ai-image",
-  "oneLiner": "文生图审美标杆 · 品牌/营销视觉 · Discord/Web 交互",
-  "descriptionMd": "Midjourney 以高质量文生图著称，品牌与营销视觉常用；交互经 Discord/Web。\n\n订阅制；商用与品牌安全条款需核对。国内可用性与支付方式可能影响采用；可与即梦等国内工具并行。\n\n提示词与风格一致性靠工作流沉淀；品牌项目建议固定种子与审核环节。\n",
-  "officialUrl": "https://www.midjourney.com"
+  "oneLiner": "审美/艺术向标杆 · 订阅制 · 盲测非 Arena 顶流",
+  "descriptionMd": "Midjourney 仍以审美与艺术方向著称，品牌/营销视觉与社群工作流成熟（Discord/Web 订阅制）。在 Arena/AA 盲测总榜上已非头部（AA 可见 v7 Alpha 约第 90），选型应区分「好看」与「盲测偏好/文字渲染」。\n\n需要强风格艺术向、品牌视觉探索时仍常用；写实/文字/API 管线优先对照 GPT Image、Flux、Reve。\n\n商用授权与账号区域政策需核对；无官方开放 API。\n",
+  "officialUrl": "https://www.midjourney.com",
+  "currentVersion": "Midjourney V7+"
 }

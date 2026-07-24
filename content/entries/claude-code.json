@@ -24,19 +24,30 @@
   ],
   "updates": [],
   "sources": [
-    "https://docs.anthropic.com/en/docs/claude-code"
+    "https://docs.anthropic.com/en/docs/claude-code",
+    "https://artificialanalysis.ai/"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-24",
   "region": "overseas",
   "id": "claude-code",
   "name": "Claude Code",
   "category": "coding-cli-agent",
   "subcategory": "cli",
   "vendorId": "anthropic",
-  "oneLiner": "Anthropic 官方终端 Agent · 多文件改动/跑命令 · 仓库上下文",
+  "oneLiner": "Anthropic 终端 Agent · AA Coding 前列 · 仓库编排",
   "descriptionMd": "Claude Code 是 Anthropic 官方的**终端编程 Agent**：在仓库上下文中多文件改动、跑命令、理解项目结构。\n\n属 Flavor A（本机/终端）：可控、贴近真实 Git 工作流，但受本机额度、网络与并行能力限制。国内直连常不稳定，需企业通道或兼容网关。\n\n仓库级任务强；与 IDE 内联编辑可组合，按「终端编排 + 编辑器微调」分工。\n",
   "officialUrl": "https://docs.anthropic.com/en/docs/claude-code",
   "rankings": [
+    {
+      "systemId": "aa-coding-agent",
+      "period": "2026-07",
+      "note": "Claude Fable 5 × Claude Code",
+      "sourceUrl": "https://artificialanalysis.ai/",
+      "asOf": "2026-07-24",
+      "rank": 3,
+      "score": 77,
+      "scoreLabel": "AA Coding 77"
+    },
     {
       "systemId": "swe-bench-verified",
       "tier": "Top agentic",
@@ -51,5 +62,6 @@
       "period": "2025 Survey",
       "asOf": "2026-07-20"
     }
-  ]
+  ],
+  "currentVersion": "Claude Code"
 }

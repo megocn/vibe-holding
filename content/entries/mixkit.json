@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "video",
+    "music",
+    "stock",
+    "free"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "高端定制与稀缺镜头仍不足；音乐与画面授权条目要分别阅读，避免混用过期许可。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://mixkit.co"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "mixkit",
+  "name": "Mixkit",
+  "category": "design-stock",
+  "subcategory": "video-stock",
+  "oneLiner": "免费视频/音乐素材 · Envato 旗下",
+  "officialUrl": "https://mixkit.co",
+  "descriptionMd": "Mixkit（Envato）提供免费视频片段与音乐等，许可相对清晰，适合内容创作、教程与社媒短视频快速配素材。\n\n需要免费可商用视频/音乐、与 Envato 生态邻近时评估。\n\n高端定制与稀缺镜头仍不足；音乐与画面授权条目要分别阅读，避免混用过期许可。\n",
+  "vendorId": "envato"
+}

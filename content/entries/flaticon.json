@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "icons",
+    "stock",
+    "download"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "免费常需署名；与 UI 叶 `ui-icons` 条目勿混比——一个是素材站，一个是工程依赖。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.flaticon.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "flaticon",
+  "name": "Flaticon",
+  "category": "design-stock",
+  "subcategory": "icons-pack",
+  "oneLiner": "海量图标包下载 · Freepik 生态",
+  "officialUrl": "https://www.flaticon.com",
+  "descriptionMd": "Flaticon 提供海量可下载图标与贴纸（SVG/PNG 等），偏设计师打包下载与演示配图，与开发者图标库（Lucide/Iconify）定位不同。\n\n演示稿、落地页、运营物料需要成套图标风格时评估；产品 UI 组件库仍优先 Lucide/Phosphor 等代码图标。\n\n免费常需署名；与 UI 叶 `ui-icons` 条目勿混比——一个是素材站，一个是工程依赖。\n",
+  "vendorId": "freepik-inc"
+}

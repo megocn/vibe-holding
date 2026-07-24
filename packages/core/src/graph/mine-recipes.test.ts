@@ -99,6 +99,7 @@ function makeBundle(): ContentBundle {
       [r2.id, r2],
     ]),
     rankingSystems: new Map(),
+    popularity: new Map(),
   };
 }
 

@@ -2,6 +2,7 @@ export * from './schema/index.ts';
 export * from './graph/index.ts';
 export * from './types.ts';
 export * from './bundle.ts';
+export * from './popularity.ts';
 export * from './search.ts';
 export * from './crypto/index.ts';
 export * from './personal.ts';

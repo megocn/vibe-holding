@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "stock",
+    "enterprise",
+    "photos"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "成本高于免费图库；「网红图」过度使用会显模板感。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.shutterstock.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "shutterstock",
+  "name": "Shutterstock",
+  "category": "design-stock",
+  "subcategory": "stock-market",
+  "oneLiner": "老牌商用图库 · 企业授权清晰",
+  "officialUrl": "https://www.shutterstock.com",
+  "descriptionMd": "Shutterstock 是全球大型商用图库，覆盖照片、矢量、视频与音乐，企业采购与清晰授权路径成熟。\n\n品牌/广告需要可审计商用授权、法务友好条款时评估；与 Getty/Adobe Stock 同层。\n\n成本高于免费图库；「网红图」过度使用会显模板感。\n",
+  "vendorId": "shutterstock-inc"
+}

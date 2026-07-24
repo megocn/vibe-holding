@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "stock",
+    "templates",
+    "subscription",
+    "audio"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "单次用量低时不如按需图库划算；授权条款（席位、最终产品）必须读清。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://elements.envato.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "envato-elements",
+  "name": "Envato Elements",
+  "category": "design-stock",
+  "subcategory": "stock-market",
+  "oneLiner": "订阅制全能素材 · 模板/主题/音视频",
+  "officialUrl": "https://elements.envato.com",
+  "descriptionMd": "Envato Elements 以月费解锁海量模板、主题、照片、图形、音效与视频素材，Web/演示/营销团队「一订阅多用」场景常见。\n\n同时需要 WordPress/演示模板、UI kit 与音视频素材、希望统一授权账单时优先。\n\n单次用量低时不如按需图库划算；授权条款（席位、最终产品）必须读清。\n",
+  "vendorId": "envato"
+}

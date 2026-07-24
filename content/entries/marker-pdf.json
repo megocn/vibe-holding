@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ocr",
+    "doc-parse",
+    "markdown",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "表格/公式边界案例需抽检；许可证与商用条款以仓库为准。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/datalab-to/marker"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "marker-pdf",
+  "name": "Marker",
+  "category": "ai-ocr",
+  "subcategory": "doc-parse",
+  "oneLiner": "PDF→Markdown/JSON · 高速转换",
+  "officialUrl": "https://github.com/datalab-to/marker",
+  "descriptionMd": "Marker 把 PDF 快速转为 Markdown/JSON 等，强调速度与结构保留，适合批量文献与知识库预处理。\n\n大批量 PDF 要进 Markdown 语料、自托管优先时评估；与 MinerU/Docling 同层试样张。\n\n表格/公式边界案例需抽检；许可证与商用条款以仓库为准。\n",
+  "vendorId": "datalab-to",
+  "githubUrl": "https://github.com/datalab-to/marker"
+}

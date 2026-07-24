@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "illustration",
+    "characters",
+    "free"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "风格单一；复杂场景仍需定制插画或 AI 生成。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.humaaans.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "humaaans",
+  "name": "Humaaans",
+  "category": "design-stock",
+  "subcategory": "illustration",
+  "oneLiner": "可拼装人物插画 · Mix & Match",
+  "officialUrl": "https://www.humaaans.com",
+  "descriptionMd": "Humaaans 提供可自由组合的扁平人物插画部件，适合产品说明、多样角色展示与多样性表达，社区衍生资源多。\n\n需要多样人物姿态、快速拼角色插画时选用；与 Open Peeps/unDraw 对照。\n\n风格单一；复杂场景仍需定制插画或 AI 生成。\n"
+}

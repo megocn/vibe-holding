@@ -95,7 +95,7 @@ export function DashboardView({
             animate={{ opacity: 1, y: 0 }}
             transition={{ ...tSlow, delay: reduced ? 0 : 0.08 }}
           >
-            <BrandSeal size={28} />
+            <BrandSeal size={32} />
             <span className="vh-home-brand-name">墨台</span>
           </motion.div>
           <motion.h1

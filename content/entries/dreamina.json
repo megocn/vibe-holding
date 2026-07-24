@@ -21,10 +21,63 @@
   "pitfalls": [
     "与「即梦 · 图像」是同一平台的不同模态入口，勿当成两家竞品；水印与商用授权随套餐变。"
   ],
-  "updates": [],
-  "rankings": [],
+  "updates": [
+    {
+      "date": "2026-01-01",
+      "type": "release",
+      "version": "Seedance 2.0",
+      "summary": "即梦/Dreamina 视频旗舰；Arena I2V 与 Video Edit 居首",
+      "source": "https://arena.ai/leaderboard/image-to-video"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "lmarena-t2v",
+      "period": "2026-07",
+      "note": "dreamina-seedance-2.0-720p",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
+      "asOf": "2026-07-24",
+      "rank": 2,
+      "score": 1482,
+      "scoreLabel": "1482 Elo"
+    },
+    {
+      "systemId": "lmarena-i2v",
+      "period": "2026-07",
+      "note": "dreamina-seedance-2.0-720p",
+      "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
+      "asOf": "2026-07-24",
+      "rank": 1,
+      "score": 1474,
+      "scoreLabel": "1474 Elo"
+    },
+    {
+      "systemId": "lmarena-video-edit",
+      "period": "2026-07",
+      "note": "dreamina-seedance-2.0-720p",
+      "sourceUrl": "https://arena.ai/leaderboard/video-edit",
+      "asOf": "2026-07-24",
+      "rank": 1,
+      "score": 1377,
+      "scoreLabel": "1377 Elo"
+    },
+    {
+      "systemId": "aa-video-arena",
+      "period": "2026-07",
+      "note": "Seedance 2.0 720p · with audio",
+      "sourceUrl": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+      "asOf": "2026-07-24",
+      "rank": 2,
+      "score": 1227,
+      "scoreLabel": "1227 Elo"
+    }
+  ],
   "sources": [
-    "https://jimeng.jianying.com"
+    "https://jimeng.jianying.com",
+    "https://arena.ai/leaderboard/text-to-video",
+    "https://arena.ai/leaderboard/image-to-video",
+    "https://arena.ai/leaderboard/video-edit",
+    "https://artificialanalysis.ai/video/leaderboard/text-to-video"
   ],
   "lastReviewed": "2026-07-24",
   "region": "domestic",
@@ -32,8 +85,9 @@
   "name": "即梦 · 视频",
   "category": "design-ai-video",
   "subcategory": "video-gen",
-  "oneLiner": "即梦平台文/图生视频 · Seedance · 国内",
+  "oneLiner": "即梦视频 · Seedance 2.0 · Arena I2V/Edit #1",
   "officialUrl": "https://jimeng.jianying.com",
-  "descriptionMd": "即梦（海外品牌名 Dreamina）同一平台上的**视频生成**能力（如 Seedance 线），文/图生视频，面向国内创作者与剪映二次剪辑链路；id 仍为 `dreamina` 仅为历史兼容。\n\n已在即梦做图、需要同账号延伸到短视频/动态素材时选用；与可灵、海螺、Vidu 同叶对比。图像能力见「即梦 · 图像」。\n\n商用与平台水印策略随套餐变；出海发行与海外 Dreamina 站点政策可能不同，需分开核对。\n",
-  "vendorId": "bytedance"
+  "descriptionMd": "即梦（海外 Dreamina）平台的**视频生成**能力，现以 Seedance 2.0 为代表。Arena Image-to-Video 与 Video Edit 居首，Text-to-Video 约第 2，是当前全球最热国内可达视频生成之一。\n\n已在即梦做图、需要同账号延伸到短视频/动态素材时优先；与 Omni Flash、Veo、Kling、Sora 同叶对比。\n\n商用与水印随套餐变；出海与海外 Dreamina 站点政策可能不同。\n",
+  "vendorId": "bytedance",
+  "currentVersion": "Seedance 2.0"
 }

@@ -1,0 +1,10 @@
+{
+  "id": "edge-envato-freepik-alt",
+  "from": "envato-elements",
+  "to": "freepik",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

@@ -1,0 +1,69 @@
+{
+  "id": "krea",
+  "name": "Krea",
+  "category": "design-ai-image",
+  "subcategory": "image-gen",
+  "oneLiner": "Krea 2 · 实时创意图 · AA/Arena 中上",
+  "officialUrl": "https://www.krea.ai/",
+  "vendorId": "krea-ai",
+  "region": "overseas",
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "image"
+  ],
+  "maturity": "stable",
+  "currentVersion": "Krea 2",
+  "updates": [
+    {
+      "date": "2026-05-01",
+      "type": "release",
+      "version": "Krea 2",
+      "summary": "Medium/Large/Turbo 分档；独立实验室模型，AA 文生图榜中上",
+      "source": "https://www.krea.ai/"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "lmarena-image",
+      "rank": 36,
+      "score": 1120,
+      "scoreLabel": "1120 Elo",
+      "period": "2026-07",
+      "note": "krea-2-medium",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    },
+    {
+      "systemId": "aa-image-arena",
+      "rank": 15,
+      "score": 1197,
+      "scoreLabel": "1197 Elo",
+      "period": "2026-07",
+      "note": "Krea 2 Medium",
+      "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    }
+  ],
+  "sources": [
+    "https://www.krea.ai/",
+    "https://arena.ai/leaderboard/text-to-image",
+    "https://artificialanalysis.ai/image/leaderboard/text-to-image"
+  ],
+  "pitfalls": [
+    "实时画布体验与纯 API 管线能力不同；商用许可与开源档分开核对"
+  ],
+  "descriptionMd": "Krea 以实时创意图画布与自研 Krea 2 模型族（Medium/Large/Turbo）著称，在 AA 与 Arena 文生图榜处于中上，适合设计师边画边出图。\n\n需要交互式探索、风格实验或独立于大厂闭源栈的创意图时试用。\n\n画布体验与纯 API 管线能力不同；商用许可与开源档分开核对。\n",
+  "lastReviewed": "2026-07-24"
+}

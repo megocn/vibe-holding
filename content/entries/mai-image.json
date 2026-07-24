@@ -1,0 +1,81 @@
+{
+  "id": "mai-image",
+  "name": "MAI Image",
+  "category": "design-ai-image",
+  "subcategory": "image-gen",
+  "oneLiner": "Microsoft AI 文生图 · 2.5 旗舰 · 品牌设计向",
+  "officialUrl": "https://microsoft.ai/models/mai-image-2-5/",
+  "vendorId": "microsoft-ai",
+  "region": "overseas",
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "image",
+    "microsoft"
+  ],
+  "maturity": "stable",
+  "currentVersion": "MAI-Image-2.5",
+  "updates": [
+    {
+      "date": "2026-06-01",
+      "type": "release",
+      "version": "MAI-Image-2.5",
+      "summary": "设计感知/商业视觉向旗舰；AA 文生图榜前列，Arena 同步进入头部",
+      "source": "https://microsoft.ai/models/mai-image-2-5/"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "lmarena-image",
+      "rank": 6,
+      "score": 1257,
+      "scoreLabel": "1257 Elo",
+      "period": "2026-07",
+      "note": "mai-image-2.5",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    },
+    {
+      "systemId": "lmarena-image-edit",
+      "period": "2026-07",
+      "note": "mai-image-2.5",
+      "sourceUrl": "https://arena.ai/leaderboard/image-edit",
+      "asOf": "2026-07-24",
+      "rank": 3,
+      "score": 1401,
+      "scoreLabel": "1401 Elo"
+    },
+    {
+      "systemId": "aa-image-arena",
+      "rank": 3,
+      "score": 1265,
+      "scoreLabel": "1265 Elo",
+      "period": "2026-07",
+      "note": "MAI-Image-2.5",
+      "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    }
+  ],
+  "sources": [
+    "https://microsoft.ai/models/mai-image-2-5/",
+    "https://arena.ai/leaderboard/text-to-image",
+    "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "https://arena.ai/leaderboard/image-edit"
+  ],
+  "pitfalls": [
+    "国内直连与 Azure 区域可用性需核对；品牌安全与内容策略随 Microsoft AI 政策变化"
+  ],
+  "descriptionMd": "MAI Image 是 Microsoft AI 的文生图族（现旗舰 MAI-Image-2.5，另有 Flash/Efficient 档），面向写实与品牌/商业设计可控编辑，在 AA 与 Arena 文生图榜均处头部。\n\n已在 Microsoft/Azure 生态、需要商业视觉与精确改图时评估；可与 GPT Image、Nano Banana 对照。\n\n国内直连与区域可用性需核对；品牌安全与内容策略随政策变化。\n",
+  "lastReviewed": "2026-07-24"
+}

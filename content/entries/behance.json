@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "inspiration",
+    "portfolio",
+    "adobe"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "信息密度高、检索偏作品集而非可下载素材；商用素材请走 Adobe Stock。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.behance.net"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "behance",
+  "name": "Behance",
+  "category": "design-inspiration",
+  "subcategory": "portfolio",
+  "oneLiner": "Adobe 作品集 · 长案例叙事",
+  "officialUrl": "https://www.behance.net",
+  "descriptionMd": "Behance（Adobe）适合展示完整设计案例与项目叙事，品牌、影视与综合设计作品集常见，与 Dribbble 的短 shot 互补。\n\n需要看完整案例流程、品牌视觉体系或招聘综合设计师时评估。\n\n信息密度高、检索偏作品集而非可下载素材；商用素材请走 Adobe Stock。\n",
+  "vendorId": "adobe"
+}

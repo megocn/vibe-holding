@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ocr",
+    "doc-parse",
+    "rag",
+    "llamaindex"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "绑定 LlamaCloud 账单与配额；纯自托管需求应看开源解析器。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://docs.cloud.llamaindex.ai/llamacloud/guides/parse"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "llamaparse",
+  "name": "LlamaParse",
+  "category": "ai-ocr",
+  "subcategory": "doc-parse",
+  "oneLiner": "LlamaIndex 文档解析 · RAG 友好",
+  "officialUrl": "https://docs.cloud.llamaindex.ai/llamacloud/guides/parse",
+  "descriptionMd": "LlamaParse 是 LlamaCloud/LlamaIndex 生态的文档解析服务，把复杂 PDF 转为 LLM 友好结构，常与 LlamaIndex 索引管线一体使用。\n\n已用 LlamaIndex 做 RAG、PDF 版面复杂需要托管解析时评估；可与 Unstructured/MinerU 对照。\n\n绑定 LlamaCloud 账单与配额；纯自托管需求应看开源解析器。\n",
+  "vendorId": "llamaindex-inc"
+}

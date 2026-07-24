@@ -343,6 +343,13 @@
     "order": 6
   },
   {
+    "id": "ai-ocr",
+    "name": "OCR / 文档智能",
+    "kind": "leaf",
+    "parent": "ai-infra",
+    "order": 7
+  },
+  {
     "id": "pay-processor",
     "name": "支付处理商",
     "kind": "leaf",
@@ -509,6 +516,27 @@
     "kind": "leaf",
     "parent": "design-assets",
     "order": 5
+  },
+  {
+    "id": "design-stock",
+    "name": "图库 / 素材市场",
+    "kind": "leaf",
+    "parent": "design-assets",
+    "order": 6
+  },
+  {
+    "id": "design-inspiration",
+    "name": "灵感板 / 作品集",
+    "kind": "leaf",
+    "parent": "design-assets",
+    "order": 7
+  },
+  {
+    "id": "design-fonts",
+    "name": "字体",
+    "kind": "leaf",
+    "parent": "design-assets",
+    "order": 8
   },
   {
     "id": "collab-pm",

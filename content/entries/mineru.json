@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ocr",
+    "doc-parse",
+    "markdown",
+    "open-source",
+    "rag"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "资源占用与模型版本需锁定；扫描件质量差时仍依赖上游 OCR 能力。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/opendatalab/MinerU"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "both",
+  "id": "mineru",
+  "name": "MinerU",
+  "category": "ai-ocr",
+  "subcategory": "doc-parse",
+  "oneLiner": "文档→Markdown · 高保真解析 · 开源",
+  "officialUrl": "https://github.com/opendatalab/MinerU",
+  "descriptionMd": "MinerU 专注把 PDF/文档转为结构清晰的 Markdown/内容块，强调版面与阅读顺序保真，常作 RAG/知识库入库前的文档智能层。\n\n论文、报告、复杂 PDF 需要「可读 Markdown」而非纯字符框时优先；可与向量库/Unstructured 管线衔接。\n\n资源占用与模型版本需锁定；扫描件质量差时仍依赖上游 OCR 能力。\n",
+  "vendorId": "opendatalab",
+  "githubUrl": "https://github.com/opendatalab/MinerU"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "edge-pinterest-huaban-dom",
+  "from": "huaban",
+  "to": "pinterest",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

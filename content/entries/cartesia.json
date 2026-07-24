@@ -21,9 +21,21 @@
     "生态与音色库仍在扩张；表达力与克隆深度通常不如 ElevenLabs 旗舰档，需按场景盲听对比。"
   ],
   "updates": [],
-  "rankings": [],
+  "rankings": [
+    {
+      "systemId": "aa-speech-arena",
+      "period": "2026-07",
+      "note": "Sonic 3.5",
+      "sourceUrl": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
+      "asOf": "2026-07-24",
+      "rank": 4,
+      "score": 1208,
+      "scoreLabel": "1208 Elo"
+    }
+  ],
   "sources": [
-    "https://cartesia.ai"
+    "https://cartesia.ai",
+    "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice"
   ],
   "lastReviewed": "2026-07-24",
   "region": "overseas",
@@ -31,8 +43,9 @@
   "name": "Cartesia",
   "category": "ai-speech",
   "subcategory": "tts",
-  "oneLiner": "超低延迟流式 TTS · Sonic · 语音 Agent 常用",
+  "oneLiner": "Cartesia Sonic 3.5 · 低延迟 TTS · AA Speech 前五",
   "officialUrl": "https://cartesia.ai",
   "descriptionMd": "Cartesia 以 Sonic 系列流式 TTS 著称，强调极低 time-to-first-audio，面向实时语音 Agent 与互动应用的最后一公里合成。\n\n自建 STT→LLM→TTS 管线、且瓶颈在 TTS 首包延迟时，常与 Deepgram/LiveKit 搭配选型。\n\n生态与音色库仍在扩张；表达力与克隆深度通常不如 ElevenLabs 旗舰档，需按场景盲听对比。\n",
-  "vendorId": "cartesia-inc"
+  "vendorId": "cartesia-inc",
+  "currentVersion": "Sonic 3.5"
 }

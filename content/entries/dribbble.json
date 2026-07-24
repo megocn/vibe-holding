@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "inspiration",
+    "ui",
+    "portfolio"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "Shot 多为概念稿，直接落地成本高；国内访问与招聘转化因团队而异。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://dribbble.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "dribbble",
+  "name": "Dribbble",
+  "category": "design-inspiration",
+  "subcategory": "portfolio",
+  "oneLiner": "UI/视觉作品集社区 · 趋势灵感",
+  "officialUrl": "https://dribbble.com",
+  "descriptionMd": "Dribbble 是设计师展示 UI、品牌与动效作品的社区，产品与设计团队常用作视觉趋势与招聘作品集入口。\n\n需要 UI/视觉灵感、找设计师作品集或追踪风格趋势时优先；落地实现仍要回到设计系统约束。\n\nShot 多为概念稿，直接落地成本高；国内访问与招聘转化因团队而异。\n",
+  "vendorId": "dribbble-inc"
+}

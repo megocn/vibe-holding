@@ -1,0 +1,81 @@
+{
+  "id": "reve",
+  "name": "Reve",
+  "category": "design-ai-image",
+  "subcategory": "image-gen",
+  "oneLiner": "Layout-first 4K 文生图 · Arena #2 · 构图可编",
+  "officialUrl": "https://www.reve.com/",
+  "docsUrl": "https://www.reve.com/",
+  "vendorId": "reve-inc",
+  "region": "overseas",
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "image"
+  ],
+  "maturity": "stable",
+  "currentVersion": "Reve 2.1",
+  "updates": [
+    {
+      "date": "2026-07-09",
+      "type": "release",
+      "version": "Reve 2.1",
+      "summary": "原生 4K、layout-first 规划层；Arena/AA 文生图榜紧随 GPT Image 2",
+      "source": "https://www.reve.com/"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "lmarena-image",
+      "rank": 2,
+      "score": 1302,
+      "scoreLabel": "1302 Elo",
+      "period": "2026-07",
+      "note": "Text-to-Image · reve-2.1",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    },
+    {
+      "systemId": "lmarena-image-edit",
+      "period": "2026-07",
+      "note": "reve-2.1",
+      "sourceUrl": "https://arena.ai/leaderboard/image-edit",
+      "asOf": "2026-07-24",
+      "rank": 10,
+      "score": 1383,
+      "scoreLabel": "1383 Elo"
+    },
+    {
+      "systemId": "aa-image-arena",
+      "rank": 2,
+      "score": 1306,
+      "scoreLabel": "1306 Elo",
+      "period": "2026-07",
+      "note": "Reve 2.1",
+      "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    }
+  ],
+  "sources": [
+    "https://arena.ai/leaderboard/text-to-image",
+    "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "https://www.reve.com/",
+    "https://arena.ai/leaderboard/image-edit"
+  ],
+  "pitfalls": [
+    "新旗舰投票样本仍在积累（Arena Preliminary）；国内直连与企业采购路径需核对"
+  ],
+  "descriptionMd": "Reve（现旗舰 Reve 2.1）以 layout-first 规划层再渲染，强调原生 4K、构图可控与文字/细节一致性，是 2026 中 Arena 与 AA 文生图榜上仅次于 GPT Image 2 的闭源选手。\n\n需要 4K 营销静帧、精确排版构图或可编辑中间表示时评估；与 GPT Image 2、Ideogram 4 对照。\n\n新旗舰投票样本仍在积累；国内直连与企业采购路径需核对。\n",
+  "lastReviewed": "2026-07-24"
+}

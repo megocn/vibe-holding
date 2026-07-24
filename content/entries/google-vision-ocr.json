@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ocr",
+    "vision",
+    "gcp"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "复杂多栏业务 PDF 更宜 Document AI/Textract；国内可达性受限。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://cloud.google.com/vision/docs/ocr"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "google-vision-ocr",
+  "name": "Google Cloud Vision OCR",
+  "category": "ai-ocr",
+  "subcategory": "ocr-api",
+  "oneLiner": "GCP Vision 文字检测 · 图内 OCR",
+  "officialUrl": "https://cloud.google.com/vision/docs/ocr",
+  "descriptionMd": "Google Cloud Vision 的 TEXT_DETECTION / DOCUMENT_TEXT_DETECTION 提供图内与密文 OCR，适合照片、截图与多语文字定位，常与 Document AI 分工（图 vs 业务文档）。\n\n移动端拍照识字、UI 截图抽取、多语自然场景文字时评估。\n\n复杂多栏业务 PDF 更宜 Document AI/Textract；国内可达性受限。\n",
+  "vendorId": "google"
+}

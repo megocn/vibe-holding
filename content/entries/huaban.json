@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "inspiration",
+    "moodboard",
+    "domestic"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "采集图版权不清，不能当商用下载源；画质与源站稳定性因内容而异。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://huaban.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "domestic",
+  "id": "huaban",
+  "name": "花瓣",
+  "category": "design-inspiration",
+  "subcategory": "moodboard",
+  "oneLiner": "国内灵感采集 · 类似 Pinterest",
+  "officialUrl": "https://huaban.com",
+  "descriptionMd": "花瓣网提供图片采集与画板组织，国内设计与运营常用作中文语境下的视觉灵感与素材线索收集。\n\n需要国内可访问的 moodboard、中文标签检索时评估；可与 Pinterest 对照。\n\n采集图版权不清，不能当商用下载源；画质与源站稳定性因内容而异。\n",
+  "vendorId": "huaban-inc"
+}

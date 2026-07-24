@@ -21,10 +21,52 @@
   "pitfalls": [
     "与「即梦 · 视频」是同一平台的不同模态入口，勿当成两家竞品；商用与内容审核条款需核对。"
   ],
-  "updates": [],
-  "rankings": [],
+  "updates": [
+    {
+      "date": "2026-02-01",
+      "type": "release",
+      "version": "Seedream 5.0 Pro",
+      "summary": "即梦/Seed 图像旗舰档；Arena/AA 进入全球前十五",
+      "source": "https://seed.bytedance.com/en/seedream5_0_pro"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "lmarena-image",
+      "rank": 11,
+      "score": 1231,
+      "scoreLabel": "1231 Elo",
+      "period": "2026-07",
+      "note": "seedream-5.0-pro",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    },
+    {
+      "systemId": "lmarena-image-edit",
+      "period": "2026-07",
+      "note": "seedream-5.0-pro",
+      "sourceUrl": "https://arena.ai/leaderboard/image-edit",
+      "asOf": "2026-07-24",
+      "rank": 4,
+      "score": 1393,
+      "scoreLabel": "1393 Elo"
+    },
+    {
+      "systemId": "aa-image-arena",
+      "rank": 8,
+      "score": 1229,
+      "scoreLabel": "1229 Elo",
+      "period": "2026-07",
+      "note": "Seedream 5.0 Pro",
+      "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    }
+  ],
   "sources": [
-    "https://jimeng.jianying.com"
+    "https://jimeng.jianying.com",
+    "https://arena.ai/leaderboard/text-to-image",
+    "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "https://arena.ai/leaderboard/image-edit"
   ],
   "lastReviewed": "2026-07-24",
   "region": "domestic",
@@ -33,7 +75,8 @@
   "category": "design-ai-image",
   "subcategory": "ai-image",
   "vendorId": "bytedance",
-  "oneLiner": "即梦平台文生图 · Seedream · 国内剪映生态",
-  "descriptionMd": "即梦（海外品牌名 Dreamina）是字节剪映团队的一站式 AIGC 平台；本条只收其**图像生成**能力（如 Seedream 线），用于与 Midjourney、通义万相等同叶对比。\n\n国内营销图、电商主图、创意草稿且要剪映/抖音工作流时选用；视频能力见同平台条目「即梦 · 视频」。\n\n活动视觉需过品牌与广告法审核；积分与会员跨图/视频共用时注意配额。\n",
-  "officialUrl": "https://jimeng.jianying.com"
+  "oneLiner": "即梦图像 · Seedream 5.0 Pro · 国内榜前列",
+  "descriptionMd": "即梦（海外 Dreamina）是字节剪映团队的一站式 AIGC 平台；图像侧现以 Seedream 5.0 Pro 等档为代表，在 Arena/AA 文生图榜进入前十五，是国内可达的高热度选项。\n\n国内营销图、电商主图、创意草稿且要剪映/抖音工作流时优先；视频能力见「即梦 · 视频」。\n\n活动视觉需过品牌与广告法审核；积分与会员跨图/视频共用时注意配额。\n",
+  "officialUrl": "https://jimeng.jianying.com",
+  "currentVersion": "Seedream 5.0 Pro"
 }

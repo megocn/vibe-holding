@@ -19,9 +19,21 @@
     "按 credit 计费昂贵；生成视频版权与 deepfake 合规要严格。"
   ],
   "updates": [],
-  "rankings": [],
+  "rankings": [
+    {
+      "systemId": "lmarena-video-edit",
+      "period": "2026-07",
+      "note": "runway-gen4-aleph",
+      "sourceUrl": "https://arena.ai/leaderboard/video-edit",
+      "asOf": "2026-07-24",
+      "rank": 7,
+      "score": 1194,
+      "scoreLabel": "1194 Elo"
+    }
+  ],
   "sources": [
-    "https://runwayml.com"
+    "https://runwayml.com",
+    "https://arena.ai/leaderboard/video-edit"
   ],
   "lastReviewed": "2026-07-24",
   "region": "overseas",
@@ -29,8 +41,9 @@
   "name": "Runway",
   "category": "design-ai-video",
   "subcategory": "video-gen",
-  "oneLiner": "Gen 视频/inpainting · motion brush · previs 与短视频",
+  "oneLiner": "Runway Gen-4 · 影视 previs · Arena 视频编辑前列",
   "officialUrl": "https://runwayml.com",
   "descriptionMd": "Runway 提供 Gen-3 等视频生成、inpainting 与 motion brush，影视级 previs 与 social video 常用。\n\n短视频营销、product demo 需要 AI video 而非静态 banner 时评估 Runway。\n\n按 credit 计费昂贵；生成视频版权与 deepfake 合规要严格。\n",
-  "vendorId": "runway-inc"
+  "vendorId": "runway-inc",
+  "currentVersion": "Gen-4 Aleph"
 }

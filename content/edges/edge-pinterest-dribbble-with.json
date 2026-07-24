@@ -1,0 +1,11 @@
+{
+  "id": "edge-pinterest-dribbble-with",
+  "from": "pinterest",
+  "to": "dribbble",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24",
+  "note": "mood + UI 灵感"
+}

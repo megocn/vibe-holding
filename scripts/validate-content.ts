@@ -11,6 +11,7 @@ import {
   Concept,
   Edge,
   Entry,
+  PopularitySnapshot,
   RankingSystem,
   StackRecipe,
   Vendor,
@@ -290,6 +291,36 @@ for (const { file, value } of entries) {
       file,
       msg: `lastReviewed 已超 ${STALE_DAYS} 天（${Math.round(days)} 天），建议复核`,
     });
+}
+
+// signals/popularity.json：结构校验 + entryId 引用存在（外部抓取产物，非人工编辑）
+try {
+  const popRaw = JSON.parse(
+    readFileSync(join(CONTENT_DIR, 'signals', 'popularity.json'), 'utf8'),
+  ) as unknown;
+  const parsed = PopularitySnapshot.safeParse(popRaw);
+  if (!parsed.success) {
+    for (const issue of parsed.error.issues)
+      errors.push({
+        code: 'E_SCHEMA',
+        file: 'signals/popularity.json',
+        msg: `${issue.path.join('.') || '(root)'}: ${issue.message}`,
+      });
+  } else {
+    for (const id of Object.keys(parsed.data.entries)) {
+      if (!nodeIds.has(id))
+        warnings.push({
+          code: 'W_POP_ORPHAN',
+          file: 'signals/popularity.json',
+          msg: `流行度条目 "${id}" 已无对应 entry（重跑 pnpm gen:popularity 可清理）`,
+        });
+    }
+  }
+} catch (e) {
+  // 可选文件：不存在则跳过
+  if ((e as NodeJS.ErrnoException).code !== 'ENOENT') {
+    errors.push({ code: 'E_JSON', file: 'signals/popularity.json', msg: String(e) });
+  }
 }
 
 // recipe.layers 引用存在

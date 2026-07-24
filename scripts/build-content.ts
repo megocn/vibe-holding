@@ -35,6 +35,14 @@ function readRootJson(name: string): unknown[] {
   }
 }
 
+function readJsonObject(relPath: string): unknown {
+  try {
+    return JSON.parse(readFileSync(join(CONTENT_DIR, relPath), 'utf8'));
+  } catch {
+    return undefined;
+  }
+}
+
 const bundle = {
   entries: readDir('entries'),
   edges: readDir('edges'),
@@ -43,6 +51,7 @@ const bundle = {
   recipes: readDir('recipes'),
   categories: readRootJson('categories.json'),
   rankingSystems: readRootJson('ranking-systems.json'),
+  popularity: readJsonObject('signals/popularity.json'),
 };
 
 // 预计算检索文档：运行时可直接装配索引，免去每次启动重建 haystack。

@@ -1,0 +1,11 @@
+{
+  "id": "edge-vision-ocr-docai-with",
+  "from": "google-vision-ocr",
+  "to": "google-document-ai",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24",
+  "note": "图内 OCR vs 业务文档处理器"
+}

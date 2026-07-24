@@ -101,6 +101,7 @@ function makeBundle(): ContentBundle {
     concepts: new Map(),
     recipes,
     rankingSystems: new Map(),
+    popularity: new Map(),
   };
 }
 

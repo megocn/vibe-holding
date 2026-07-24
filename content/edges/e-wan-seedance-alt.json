@@ -1,0 +1,10 @@
+{
+  "id": "e-wan-seedance-alt",
+  "from": "wan-video",
+  "to": "dreamina",
+  "type": "alternative_to",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

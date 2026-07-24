@@ -122,25 +122,18 @@ span.vh-mono,
   font-variant-numeric: tabular-nums;
 }
 
-/* —— 朱文方印（品牌母题） —— */
+/* —— 品牌标记：墨点落砚（非印章） —— */
 .vh-seal {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  width: 30px;
-  height: 30px;
-  border: 1.5px solid var(--pigment-seal);
-  border-radius: 3px;
-  color: var(--pigment-seal);
-  background: color-mix(in oklch, var(--pigment-seal) 8%, transparent);
-  box-shadow: inset 0 0 0 1px color-mix(in oklch, var(--pigment-seal) 35%, transparent);
+  color: var(--ink-1);
+  background: transparent;
+  border-radius: 0;
 }
 .vh-seal svg {
   display: block;
-}
-.vh-seal text {
-  dominant-baseline: alphabetic;
 }
 
 /* —— 壳层表面 —— */
@@ -278,36 +271,42 @@ span.vh-mono,
   background: var(--pigment-seal);
 }
 
-/* 分面 Chip：纸墨选中态（忌实心主色块） */
+/* 分面 Chip：纸笺点选（忌胶囊描边 + 实心主色块） */
 .vh-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
   font-size: var(--text-caption);
   line-height: 1.4;
-  padding: 3px 10px;
-  border-radius: var(--radius-full);
-  border: 1px solid var(--line);
-  background: color-mix(in oklch, var(--paper-1) 85%, transparent);
+  padding: 4px 10px;
+  border-radius: var(--radius-sm);
+  border: 1px solid transparent;
+  background: transparent;
   color: var(--ink-2);
   cursor: pointer;
   font-family: var(--font-body);
   transition:
     background var(--dur) var(--ease-standard),
     border-color var(--dur) var(--ease-standard),
-    color var(--dur) var(--ease-standard);
+    color var(--dur) var(--ease-standard),
+    box-shadow var(--dur) var(--ease-standard);
 }
 .vh-chip:hover {
-  border-color: color-mix(in oklch, var(--ink-2) 40%, var(--line));
+  background: var(--wash-ink);
   color: var(--ink-1);
 }
 .vh-chip[data-on='true'] {
-  border-color: color-mix(in oklch, var(--pigment-primary) 55%, var(--line));
-  background: color-mix(in oklch, var(--pigment-primary) 12%, var(--paper-1));
+  border-color: color-mix(in oklch, var(--pigment-primary) 28%, var(--line));
+  background: color-mix(in oklch, var(--pigment-primary) 10%, var(--paper-1));
   color: var(--pigment-primary);
+  box-shadow: inset 0 -1.5px 0 color-mix(in oklch, var(--pigment-primary) 70%, transparent);
 }
 
 .vh-chip-seal[data-on='true'] {
-  border-color: color-mix(in oklch, var(--pigment-seal) 55%, var(--line));
-  background: color-mix(in oklch, var(--pigment-seal) 10%, var(--paper-1));
+  border-color: color-mix(in oklch, var(--pigment-seal) 30%, var(--line));
+  background: color-mix(in oklch, var(--pigment-seal) 9%, var(--paper-1));
   color: var(--pigment-seal);
+  box-shadow: inset 0 -1.5px 0 color-mix(in oklch, var(--pigment-seal) 65%, transparent);
 }
 
 /* 语义 Tag（定价等，§6.3） */
@@ -625,7 +624,7 @@ span.vh-mono,
   font-size: 20px;
   line-height: 1.3;
   letter-spacing: 0.18em;
-  color: var(--pigment-seal);
+  color: var(--ink-1);
 }
 .vh-home-title {
   font-family: var(--font-display);
@@ -1946,27 +1945,178 @@ span.vh-mono,
   display: flex;
   flex-direction: column;
   gap: 6px;
-  padding: 8px 14px 10px;
+  padding: 6px 14px 8px;
   border-bottom: 1px solid var(--line);
   background: color-mix(in oklch, var(--paper-1) 35%, transparent);
   flex-shrink: 0;
 }
-.vh-kb-facet {
+.vh-kb-filters-bar {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 8px;
+  min-width: 0;
+}
+.vh-kb-filters-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  flex-shrink: 0;
+  margin: 0;
+  padding: 4px 8px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper-2);
+  color: var(--ink-2);
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+  transition:
+    border-color var(--dur) var(--ease-standard),
+    color var(--dur) var(--ease-standard),
+    background var(--dur) var(--ease-standard);
+}
+.vh-kb-filters-toggle:hover {
+  color: var(--ink-1);
+  border-color: color-mix(in oklch, var(--ink-2) 28%, var(--line));
+}
+.vh-kb-filters[data-expanded='true'] .vh-kb-filters-toggle {
+  color: var(--ink-1);
+  border-color: color-mix(in oklch, var(--ink-2) 28%, var(--line));
+  background: color-mix(in oklch, var(--paper-2) 70%, var(--paper-1));
+}
+.vh-kb-filters-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 16px;
+  height: 16px;
+  padding: 0 4px;
+  border-radius: var(--radius-full);
+  background: color-mix(in oklch, var(--pigment-primary) 18%, var(--paper-1));
+  color: var(--pigment-primary);
+  font-size: 10px;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.vh-kb-filters-summary {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 4px;
+  min-width: 0;
+  flex: 1;
+  overflow: hidden;
+}
+.vh-kb-filters-summary-chip {
+  flex-shrink: 1;
+  min-width: 0;
+  max-width: 7em;
+  padding: 2px 8px;
+  border-radius: var(--radius-sm);
+  border: 1px solid color-mix(in oklch, var(--pigment-primary) 28%, var(--line));
+  background: color-mix(in oklch, var(--pigment-primary) 8%, var(--paper-1));
+  color: var(--pigment-primary);
+  font-size: 11px;
+  line-height: 1.45;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  box-shadow: inset 0 -1.5px 0 color-mix(in oklch, var(--pigment-primary) 55%, transparent);
+}
+.vh-kb-filters-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding-top: 4px;
+}
+.vh-kb-facet {
+  display: grid;
+  grid-template-columns: 2.75em minmax(0, 1fr);
+  column-gap: 10px;
+  align-items: start;
+  padding: 7px 0;
+}
+.vh-kb-facet + .vh-kb-facet {
+  border-top: 1px dashed color-mix(in oklch, var(--ink-3) 22%, var(--line));
 }
 .vh-kb-facet-label {
   flex-shrink: 0;
-  width: 3em;
-  padding-top: 4px;
+  padding-top: 5px;
+  font-family: var(--font-display);
   font-size: 11px;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.14em;
   color: var(--ink-3);
+  line-height: 1.3;
 }
 .vh-kb-facet-chips {
   flex: 1;
   min-width: 0;
+  gap: 4px;
+}
+/* 筛选笺片：默认无描边，选中墨晕 + 底印 */
+.vh-kb-facet-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin: 0;
+  padding: 4px 9px;
+  border: 1px solid transparent;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--ink-2);
+  cursor: pointer;
+  font-family: var(--font-body);
+  font-size: 12px;
+  line-height: 1.35;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+  transition:
+    background var(--dur-fast) var(--ease-standard),
+    border-color var(--dur-fast) var(--ease-standard),
+    color var(--dur-fast) var(--ease-standard),
+    box-shadow var(--dur-fast) var(--ease-standard);
+}
+.vh-kb-facet-chip:hover {
+  background: var(--wash-ink);
+  color: var(--ink-1);
+}
+.vh-kb-facet-chip:focus-visible {
+  outline: 2px solid var(--pigment-primary);
+  outline-offset: 2px;
+}
+.vh-kb-facet-chip[data-on='true'] {
+  border-color: color-mix(in oklch, var(--pigment-primary) 28%, var(--line));
+  background: color-mix(in oklch, var(--pigment-primary) 10%, var(--paper-1));
+  color: var(--pigment-primary);
+  box-shadow: inset 0 -1.5px 0 color-mix(in oklch, var(--pigment-primary) 70%, transparent);
+}
+.vh-kb-facet-chip-seal[data-on='true'] {
+  border-color: color-mix(in oklch, var(--pigment-seal) 30%, var(--line));
+  background: color-mix(in oklch, var(--pigment-seal) 9%, var(--paper-1));
+  color: var(--pigment-seal);
+  box-shadow: inset 0 -1.5px 0 color-mix(in oklch, var(--pigment-seal) 65%, transparent);
+}
+/* 成熟度：阶梯分段，一眼可读为递进量表 */
+.vh-kb-facet-segment {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2px;
+  padding: 2px;
+  max-width: 100%;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: color-mix(in oklch, var(--paper-2) 55%, transparent);
+}
+.vh-kb-facet-segment .vh-kb-facet-chip {
+  padding: 3px 10px;
+}
+.vh-kb-facet-segment .vh-kb-facet-chip[data-on='true'] {
+  background: color-mix(in oklch, var(--ink-1) 88%, var(--pigment-primary));
+  border-color: transparent;
+  color: var(--paper-0);
+  box-shadow: none;
 }
 .vh-kb-filter-clear {
   border: none;
@@ -1976,6 +2126,7 @@ span.vh-mono,
   font-family: var(--font-body);
   font-size: var(--text-caption);
   margin-left: auto;
+  flex-shrink: 0;
   padding: 2px 4px;
 }
 .vh-kb-filter-clear:hover {
@@ -2573,11 +2724,26 @@ span.vh-mono,
   /* 透出栏级宣纸底，避免再盖一层纯色 */
   background: transparent;
 }
-/* 正文阅读区：楷体宜大字宽行距，限宽 72ch 以保阅读舒适（见 UI 规范 §8）；
-   宽屏下在正文列内居中，留白均分两侧，读作页边距而非空档 */
+/* 正文阅读区：保留行长上限，但宽屏递进放宽，避免详情栏两侧留白显得局促；
+   按「详情栏」实际宽度（kbdetail）递进，而非视口 */
 .vh-kb-primary-inner {
-  max-width: 72ch;
+  max-width: min(96ch, 100%);
+  width: 100%;
   margin-inline: auto;
+}
+.vh-kb-primary-inner .vh-prose {
+  /* 外层已限宽，避免 prose 再套 72ch 双重收窄 */
+  max-width: none;
+}
+@container kbdetail (min-width: 1100px) {
+  .vh-kb-primary-inner {
+    max-width: min(112ch, 100%);
+  }
+}
+@container kbdetail (min-width: 1400px) {
+  .vh-kb-primary-inner {
+    max-width: min(128ch, 100%);
+  }
 }
 .vh-kb-detail-aside {
   padding: 16px 20px 36px;

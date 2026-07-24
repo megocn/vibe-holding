@@ -19,17 +19,29 @@
     "复杂 Agent / 前沿推理弱于 Sol；关键路径应保留升级路由。"
   ],
   "updates": [],
-  "rankings": [],
-  "sources": [
-    "https://openai.com/index/gpt-5-6/"
+  "rankings": [
+    {
+      "systemId": "artificial-analysis-index",
+      "period": "2026-07",
+      "note": "GPT-5.6 Luna (max)",
+      "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
+      "asOf": "2026-07-24",
+      "rank": 12,
+      "score": 51,
+      "scoreLabel": "AAII 51"
+    }
   ],
-  "lastReviewed": "2026-07-23",
+  "sources": [
+    "https://openai.com/index/gpt-5-6/",
+    "https://artificialanalysis.ai/leaderboards/models"
+  ],
+  "lastReviewed": "2026-07-24",
   "region": "overseas",
   "id": "gpt-mini",
   "name": "GPT Luna",
   "category": "llm-line",
   "subcategory": "line",
-  "oneLiner": "OpenAI 成本档 · GPT-5.6 Luna · 高流量边缘/路由 fallback",
+  "oneLiner": "OpenAI 成本档 · Luna · AA Index 51 前沿边缘",
   "officialUrl": "https://openai.com/index/gpt-5-6/",
   "descriptionMd": "OpenAI GPT 产品族的**成本优化选型档**。当前版本为 GPT-5.6 Luna（同代 Terra 为均衡档，Sol 为旗舰）。\n\n海量用户产品的默认 chat、路由层 fallback、或高并发边缘任务；复杂推理与长链路 Agent 应升级 Sol/Terra。\n\n勿再默认写 GPT-4o mini：那是上一代成本档命名。\n",
   "vendorId": "openai",

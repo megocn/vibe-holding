@@ -1,0 +1,11 @@
+{
+  "id": "edge-reve-ideogram-alt",
+  "from": "reve",
+  "to": "ideogram",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24",
+  "note": "文字/排版向对照"
+}

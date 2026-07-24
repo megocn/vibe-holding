@@ -1,0 +1,10 @@
+{
+  "id": "e-happyhorse-seedance-alt",
+  "from": "happyhorse",
+  "to": "dreamina",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

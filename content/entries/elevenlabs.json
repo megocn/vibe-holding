@@ -21,9 +21,21 @@
     "按字符/分钟计费上升快；克隆与商用授权、deepfake 合规需法务过目；国内直连与支付可能受限。"
   ],
   "updates": [],
-  "rankings": [],
+  "rankings": [
+    {
+      "systemId": "aa-speech-arena",
+      "period": "2026-07",
+      "note": "Eleven v3",
+      "sourceUrl": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
+      "asOf": "2026-07-24",
+      "rank": 11,
+      "score": 1175,
+      "scoreLabel": "1175 Elo"
+    }
+  ],
   "sources": [
-    "https://elevenlabs.io"
+    "https://elevenlabs.io",
+    "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice"
   ],
   "lastReviewed": "2026-07-24",
   "region": "overseas",
@@ -31,8 +43,9 @@
   "name": "ElevenLabs",
   "category": "ai-speech",
   "subcategory": "tts",
-  "oneLiner": "表达力 TTS · 克隆/配音 · Conversational AI",
+  "oneLiner": "ElevenLabs v3 · 表达力 TTS · AA Speech 前十二",
   "officialUrl": "https://elevenlabs.io",
   "descriptionMd": "ElevenLabs 以高表达力 TTS、声音克隆与配音闻名，并扩展 Scribe STT、Conversational AI 与音乐能力，是内容与语音产品常用的声音层。\n\n需要品牌旁白、多语言配音、或角色一致的语音克隆时优先评估；Flash/Turbo 档适合低延迟对话，v3 档偏媒体质量。\n\n按字符/分钟计费上升快；克隆与商用授权、deepfake 合规需法务过目；国内直连与支付可能受限。\n",
-  "vendorId": "elevenlabs-inc"
+  "vendorId": "elevenlabs-inc",
+  "currentVersion": "Eleven v3"
 }

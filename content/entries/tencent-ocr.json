@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "ocr",
+    "domestic"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "接口与套餐偏国内云风格；出海多语场景需另测国际引擎。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://cloud.tencent.com/product/ocr"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "domestic",
+  "id": "tencent-ocr",
+  "name": "腾讯云 OCR",
+  "category": "ai-ocr",
+  "subcategory": "ocr-api",
+  "oneLiner": "腾讯云文字识别 · 卡证/票据 · 国内",
+  "officialUrl": "https://cloud.tencent.com/product/ocr",
+  "descriptionMd": "腾讯云 OCR 提供通用与卡证、票据、车牌等场景识别，适合微信/腾讯云生态内的影像与证照采集。\n\n已在腾讯云或微信小程序需要识字/证照时评估；与阿里云 OCR、百度 OCR 同层比价比效果。\n\n接口与套餐偏国内云风格；出海多语场景需另测国际引擎。\n",
+  "vendorId": "tencent-cloud"
+}

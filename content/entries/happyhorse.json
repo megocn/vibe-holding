@@ -1,0 +1,94 @@
+{
+  "id": "happyhorse",
+  "name": "HappyHorse",
+  "category": "design-ai-video",
+  "subcategory": "video-gen",
+  "vendorId": "alibaba-cloud",
+  "region": "domestic",
+  "oneLiner": "阿里 HappyHorse · 原生音画 · Arena 视频前列",
+  "officialUrl": "https://www.aliyun.com/",
+  "currentVersion": "HappyHorse 1.1",
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY",
+    "notes": "公开 API/渠道仍在滚动开放"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN",
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "video",
+    "domestic",
+    "audio-native"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "公开 API/正式产品化进度需以阿里云公告为准；勿把榜单名次当成已可大规模采购"
+  ],
+  "updates": [
+    {
+      "date": "2026-04-10",
+      "type": "release",
+      "version": "HappyHorse 1.0",
+      "summary": "原生音画视频；Arena T2V/I2V/Video Edit 前列",
+      "source": "https://arena.ai/leaderboard/text-to-video"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "lmarena-t2v",
+      "period": "2026-07",
+      "note": "happyhorse-1.0",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
+      "asOf": "2026-07-24",
+      "rank": 4,
+      "score": 1430,
+      "scoreLabel": "1430 Elo"
+    },
+    {
+      "systemId": "lmarena-i2v",
+      "period": "2026-07",
+      "note": "happyhorse-1.0",
+      "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
+      "asOf": "2026-07-24",
+      "rank": 4,
+      "score": 1444,
+      "scoreLabel": "1444 Elo"
+    },
+    {
+      "systemId": "lmarena-video-edit",
+      "period": "2026-07",
+      "note": "happyhorse-1.0",
+      "sourceUrl": "https://arena.ai/leaderboard/video-edit",
+      "asOf": "2026-07-24",
+      "rank": 3,
+      "score": 1308,
+      "scoreLabel": "1308 Elo"
+    },
+    {
+      "systemId": "aa-video-arena",
+      "period": "2026-07",
+      "note": "HappyHorse-1.1 · with audio",
+      "sourceUrl": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+      "asOf": "2026-07-24",
+      "rank": 4,
+      "score": 1149,
+      "scoreLabel": "1149 Elo"
+    }
+  ],
+  "sources": [
+    "https://arena.ai/leaderboard/text-to-video",
+    "https://arena.ai/leaderboard/image-to-video",
+    "https://arena.ai/leaderboard/video-edit",
+    "https://artificialanalysis.ai/video/leaderboard/text-to-video"
+  ],
+  "descriptionMd": "HappyHorse 1.0 是阿里系（淘天未来生活实验室等叙事）原生音画视频模型，Arena Text-to-Video / Image-to-Video / Video Edit 均进入前列，强调音画同生与口型。\n\n关注国内/阿里云视频生成下一代能力、或做榜单对标 POC 时纳入；生产落地需等正式 API/套餐。\n\n公开渠道与企业采购进度变化快；勿仅凭榜单名次下单。\n",
+  "lastReviewed": "2026-07-24"
+}

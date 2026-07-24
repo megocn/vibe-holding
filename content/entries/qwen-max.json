@@ -33,15 +33,20 @@
     },
     {
       "systemId": "artificial-analysis-index",
-      "tier": "Competitive",
       "period": "2026-07",
-      "asOf": "2026-07-23"
+      "note": "Qwen3.7 Max",
+      "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
+      "asOf": "2026-07-24",
+      "rank": 22,
+      "score": 46,
+      "scoreLabel": "AAII 46"
     }
   ],
   "sources": [
-    "https://www.aliyun.com/product/bailian"
+    "https://www.aliyun.com/product/bailian",
+    "https://artificialanalysis.ai/leaderboards/models"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-24",
   "region": "domestic",
   "id": "qwen-max",
   "name": "Qwen-Max",

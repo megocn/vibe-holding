@@ -21,9 +21,21 @@
     "生态与插件仍在扩张；商用条款与 API 成熟度需对照官网最新说明。"
   ],
   "updates": [],
-  "rankings": [],
+  "rankings": [
+    {
+      "systemId": "aa-video-arena",
+      "period": "2026-07",
+      "note": "Vidu Q3 Pro · with audio",
+      "sourceUrl": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+      "asOf": "2026-07-24",
+      "rank": 15,
+      "score": 1083,
+      "scoreLabel": "1083 Elo"
+    }
+  ],
   "sources": [
-    "https://www.vidu.com"
+    "https://www.vidu.com",
+    "https://artificialanalysis.ai/video/leaderboard/text-to-video"
   ],
   "lastReviewed": "2026-07-24",
   "region": "domestic",
@@ -34,5 +46,6 @@
   "oneLiner": "生数 Vidu · 国内文生视频",
   "officialUrl": "https://www.vidu.com",
   "descriptionMd": "Vidu 由生数科技推出，提供 AI 视频生成能力，面向国内创作者与企业营销素材场景，强调中文语境与本地化体验。\n\n需要国内可达的竞品对比（相对可灵/海螺）或特定风格样本时纳入选型短名单。\n\n生态与插件仍在扩张；商用条款与 API 成熟度需对照官网最新说明。\n",
-  "vendorId": "shengshu"
+  "vendorId": "shengshu",
+  "currentVersion": "Vidu Q3 Pro"
 }

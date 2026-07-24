@@ -1,0 +1,70 @@
+{
+  "id": "meta-muse-spark",
+  "name": "Muse Spark",
+  "category": "llm-line",
+  "subcategory": "line",
+  "vendorId": "meta",
+  "region": "overseas",
+  "oneLiner": "Meta 旗舰 LLM · Spark 1.1 · AA Index 前列",
+  "officialUrl": "https://ai.meta.com/",
+  "currentVersion": "Muse Spark 1.1",
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line",
+    "meta",
+    "flagship"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "国内不可用；产品入口与 API 渠道仍在滚动；与 Muse Image/Video 同厂不同模态"
+  ],
+  "updates": [
+    {
+      "date": "2026-07-10",
+      "type": "release",
+      "version": "Muse Spark 1.1",
+      "summary": "Meta 旗舰文本模型；AA Intelligence Index 进入 50+ 前沿档",
+      "source": "https://artificialanalysis.ai/leaderboards/models"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "artificial-analysis-index",
+      "period": "2026-07",
+      "note": "Muse Spark 1.1 (xhigh)",
+      "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
+      "asOf": "2026-07-24",
+      "rank": 14,
+      "score": 51,
+      "scoreLabel": "AAII 51"
+    },
+    {
+      "systemId": "lmarena-text",
+      "period": "2026-07",
+      "note": "muse-spark-1.1（Arena Text 快照）",
+      "sourceUrl": "https://arena.ai/leaderboard/text",
+      "asOf": "2026-07-24",
+      "rank": 5,
+      "score": 1495,
+      "scoreLabel": "1495 Elo"
+    }
+  ],
+  "sources": [
+    "https://ai.meta.com/",
+    "https://artificialanalysis.ai/leaderboards/models"
+  ],
+  "descriptionMd": "Muse Spark 是 Meta 的旗舰文本大模型线（现 1.1），2026-07 进入 Artificial Analysis Intelligence Index 50+ 前沿档，Arena Text 亦处前列；与 Muse Image/Video 同属 Meta AI 叙事。\n\n已在 Meta/Llama 生态需要闭源旗舰对话能力、或做六强前沿实验室对标时评估。\n\n国内不可用；API/产品入口变化快；勿与开源 Llama 线混为一谈。\n",
+  "lastReviewed": "2026-07-24"
+}

@@ -8,7 +8,9 @@
     "chinaAccessible": true,
     "needsCompany": false,
     "needsIcp": false,
-    "regions": ["global"]
+    "regions": [
+      "global"
+    ]
   },
   "tags": [
     "codex",
@@ -33,11 +35,32 @@
       "source": "https://github.com/openai/codex"
     }
   ],
-  "rankings": [],
+  "rankings": [
+    {
+      "systemId": "aa-coding-agent",
+      "period": "2026-07",
+      "note": "GPT-5.6 Sol (max) × Codex",
+      "sourceUrl": "https://artificialanalysis.ai/",
+      "asOf": "2026-07-24",
+      "rank": 1,
+      "score": 80,
+      "scoreLabel": "AA Coding 80"
+    },
+    {
+      "systemId": "swe-bench-verified",
+      "period": "2026-07",
+      "note": "与 Sol 旗舰组合在 AA Coding Agent Index 居首",
+      "sourceUrl": "https://www.swebench.com/",
+      "asOf": "2026-07-24",
+      "tier": "Top scaffold"
+    }
+  ],
   "sources": [
     "https://openai.com/codex/",
     "https://github.com/openai/codex",
-    "https://developers.openai.com/codex/"
+    "https://developers.openai.com/codex/",
+    "https://artificialanalysis.ai/",
+    "https://www.swebench.com/"
   ],
   "lastReviewed": "2026-07-24",
   "region": "overseas",
@@ -46,7 +69,7 @@
   "category": "coding-cli-agent",
   "subcategory": "cli-agent",
   "vendorId": "openai",
-  "oneLiner": "OpenAI 终端编码 Agent（Codex CLI）· 可接 IDE/云端",
+  "oneLiner": "OpenAI Codex · AA Coding Agent #1 · CLI/IDE",
   "descriptionMd": "**Codex**（常被写作 CodeX）是 OpenAI 2025 起主推的编码 Agent 产品线；日常最火的是本机 **Codex CLI**：在终端读仓库、改多文件、跑命令与测试，开源（Apache-2.0），与 Claude Code / Gemini CLI 同层对比。\n\n适合已在 ChatGPT/OpenAI 生态、希望「终端编排 + 沙箱审批」的 Vibe 工作流；同一产品线还有 IDE 扩展与 Codex Web/App 云端异步面，选型时先定 CLI 本地交互还是云端过夜任务。\n\n注意账号区域与账单（Plus/Pro vs API Key）；全自动模式勿对生产密钥目录放开写权限。\n",
   "officialUrl": "https://openai.com/codex/",
   "docsUrl": "https://developers.openai.com/codex/"

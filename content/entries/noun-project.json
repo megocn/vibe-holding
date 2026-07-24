@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "icons",
+    "symbols"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "免费需署名；风格混杂，成套一致性不如单一 icon set。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://thenounproject.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "noun-project",
+  "name": "The Noun Project",
+  "category": "design-stock",
+  "subcategory": "icons-pack",
+  "oneLiner": "极简图标集市 · 语义化符号",
+  "officialUrl": "https://thenounproject.com",
+  "descriptionMd": "The Noun Project 聚合大量极简、语义清晰的图标，设计师按概念检索符号，适合信息图与中性 UI 隐喻。\n\n需要概念符号（而非产品 icon set）、信息图配图时评估。\n\n免费需署名；风格混杂，成套一致性不如单一 icon set。\n",
+  "vendorId": "noun-project-inc"
+}

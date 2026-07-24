@@ -1,0 +1,11 @@
+{
+  "id": "edge-hidream-flux-os",
+  "from": "hidream",
+  "to": "flux-ai",
+  "type": "open_source_alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24",
+  "note": "开源统一生成 vs BFL 开源/API 分档"
+}

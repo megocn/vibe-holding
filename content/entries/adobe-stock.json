@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "stock",
+    "adobe",
+    "enterprise"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "单价/积分偏高；独立开发者常更看 Unsplash + Freepik 组合。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://stock.adobe.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "adobe-stock",
+  "name": "Adobe Stock",
+  "category": "design-stock",
+  "subcategory": "stock-market",
+  "oneLiner": "Adobe 生态图库 · CC 内嵌检索",
+  "officialUrl": "https://stock.adobe.com",
+  "descriptionMd": "Adobe Stock 与 Creative Cloud 深度集成，在 Ps/Ai/Xd 内直接检索授权素材，企业与设计团队统一采购常见。\n\n团队已买 Adobe CC、需要工作流内嵌搜图与合规授权时优先。\n\n单价/积分偏高；独立开发者常更看 Unsplash + Freepik 组合。\n",
+  "vendorId": "adobe"
+}

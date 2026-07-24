@@ -1,0 +1,11 @@
+{
+  "id": "e-muse-spark-part-meta",
+  "from": "meta-muse-spark",
+  "to": "meta-muse-image",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24",
+  "note": "同厂文本 vs 图像"
+}

@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ocr",
+    "document-ai",
+    "aws",
+    "forms"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "按页/功能计费；非 AWS 栈迁移成本高；中文复杂版面需实测。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://aws.amazon.com/textract/"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "aws-textract",
+  "name": "Amazon Textract",
+  "category": "ai-ocr",
+  "subcategory": "document-ai",
+  "oneLiner": "AWS 表单/表格抽取 · 费用/证件 API",
+  "officialUrl": "https://aws.amazon.com/textract/",
+  "descriptionMd": "Amazon Textract 在 OCR 之上提供表格、键值对、查询与费用/证件等专用分析，深度绑定 S3/Lambda/Step Functions，适合 AWS 原生文档流水线。\n\n单据、合同、发票已在 AWS，需要结构化字段而非纯文本时优先。\n\n按页/功能计费；非 AWS 栈迁移成本高；中文复杂版面需实测。\n",
+  "vendorId": "amazon"
+}

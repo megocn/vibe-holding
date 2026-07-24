@@ -1,7 +1,8 @@
 {
   "pricing": {
     "model": "usage",
-    "currency": "USD"
+    "currency": "USD",
+    "notes": "按 token 计费；quality low/medium/high；Batch API 约半价"
   },
   "availability": {
     "chinaAccessible": false,
@@ -18,22 +19,67 @@
   ],
   "maturity": "stable",
   "pitfalls": [
-    "艺术风格上限常低于 Midjourney；国内直连受限；内容策略与拒图规则需适配产品 UX。"
+    "国内直连受限；API 组织验证与内容策略/拒图需适配产品 UX",
+    "按 token 计费，高 quality / 大分辨率单位成本显著"
   ],
-  "updates": [],
-  "rankings": [],
+  "currentVersion": "GPT Image 2",
+  "updates": [
+    {
+      "date": "2026-04-21",
+      "type": "release",
+      "version": "GPT Image 2",
+      "summary": "旗舰文生图/改图；API `gpt-image-2`；写实、文字渲染与指令遵循大幅提升，接档 1.5",
+      "source": "https://developers.openai.com/api/docs/models/gpt-image-2"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "lmarena-image",
+      "rank": 1,
+      "score": 1385,
+      "scoreLabel": "1385 Elo",
+      "period": "2026-07",
+      "note": "gpt-image-2 (medium)",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    },
+    {
+      "systemId": "lmarena-image-edit",
+      "period": "2026-07",
+      "note": "gpt-image-2 (medium) · Single-Image Edit",
+      "sourceUrl": "https://arena.ai/leaderboard/image-edit",
+      "asOf": "2026-07-24",
+      "rank": 1,
+      "score": 1465,
+      "scoreLabel": "1465 Elo"
+    },
+    {
+      "systemId": "aa-image-arena",
+      "rank": 1,
+      "score": 1337,
+      "scoreLabel": "1337 Elo",
+      "period": "2026-07",
+      "note": "GPT Image 2 (high)",
+      "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    }
+  ],
   "sources": [
-    "https://platform.openai.com/docs/guides/images"
+    "https://platform.openai.com/docs/guides/images",
+    "https://developers.openai.com/api/docs/models/gpt-image-2",
+    "https://arena.ai/leaderboard/text-to-image",
+    "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "https://arena.ai/leaderboard/image-edit"
   ],
   "lastReviewed": "2026-07-24",
   "region": "overseas",
   "id": "openai-gpt-image",
-  "name": "GPT Image / DALL·E",
+  "name": "GPT Image 2",
   "category": "design-ai-image",
   "subcategory": "image-gen",
-  "oneLiner": "OpenAI 文生图 · ChatGPT/API · 生态一体",
+  "oneLiner": "OpenAI 旗舰文生图 · Arena #1 · ChatGPT/API",
   "officialUrl": "https://platform.openai.com/docs/guides/images",
-  "descriptionMd": "OpenAI 图像生成线（历史上 DALL·E，现多以 GPT Image / Images API 形态演进）与 ChatGPT、API 深度集成，适合产品内嵌出图与助手配图。\n\n已用 OpenAI 栈、需要对话式改图或简单营销图时的默认选项；与 Midjourney 比更偏 API/产品集成。\n\n艺术风格上限常低于 Midjourney；国内直连受限；内容策略与拒图规则需适配产品 UX。\n",
+  "descriptionMd": "OpenAI 当前旗舰图像模型（API `gpt-image-2`，ChatGPT 侧亦称 Images 2.0），2026-04 接档 GPT Image 1.5 / 历史 DALL·E 线。强调写实、文字渲染与指令遵循，经 Images API / Responses API 与 ChatGPT 深度集成。\n\n产品内嵌出图、对话式改图、营销与品牌视觉的默认海外选型；Arena 文生图榜长期居首，是目前最热的文生图模型之一。\n\n国内直连受限；API 可能需组织验证；按 token 计费，高保真输出成本与拒图策略需纳入产品 UX。\n",
   "vendorId": "openai",
   "docsUrl": "https://platform.openai.com/docs/guides/images"
 }

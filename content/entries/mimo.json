@@ -1,0 +1,71 @@
+{
+  "id": "mimo",
+  "name": "MiMo",
+  "category": "llm-line",
+  "subcategory": "line",
+  "vendorId": "xiaomi",
+  "region": "domestic",
+  "oneLiner": "小米 MiMo · V2.5 · OpenRouter 用量顶尖",
+  "officialUrl": "https://github.com/XiaomiMiMo",
+  "currentVersion": "MiMo-V2.5",
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY",
+    "notes": "开源权重 + 托管 API 渠道"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN",
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line",
+    "domestic",
+    "open-weights"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "官方企业 SLA 与文档成熟度仍在扩张；生产需锁定权重/托管商版本"
+  ],
+  "updates": [
+    {
+      "date": "2026-06-01",
+      "type": "release",
+      "version": "MiMo-V2.5",
+      "summary": "开源/托管高用量线；OpenRouter 周用量常居前列",
+      "source": "https://openrouter.ai/rankings"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "openrouter-popularity",
+      "period": "2026-07",
+      "note": "MiMo-V2.5 · OpenRouter 周用量常居前列（快照波动）",
+      "sourceUrl": "https://openrouter.ai/rankings",
+      "asOf": "2026-07-24",
+      "rank": 1,
+      "tier": "Top usage"
+    },
+    {
+      "systemId": "artificial-analysis-index",
+      "period": "2026-07",
+      "note": "MiMo-V2.5；用量热度远高于智力指数位次",
+      "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
+      "asOf": "2026-07-24",
+      "score": 37,
+      "scoreLabel": "AAII 37"
+    }
+  ],
+  "sources": [
+    "https://github.com/XiaomiMiMo",
+    "https://openrouter.ai/rankings",
+    "https://artificialanalysis.ai/leaderboards/models"
+  ],
+  "descriptionMd": "MiMo 是小米开源/托管大模型线（现 V2.5 / Pro），在 OpenRouter 等统一网关上以极高 token 用量著称，偏高性价比路由与 Agent 兜底。\n\n成本敏感、需要开源权重或网关热门国产线时评估；智力上限对照 Kimi/DeepSeek/Qwen 旗舰。\n\n企业 SLA 与文档仍在扩张；生产锁定版本；勿把用量榜当成能力榜。\n",
+  "lastReviewed": "2026-07-24"
+}

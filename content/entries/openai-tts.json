@@ -20,9 +20,21 @@
     "音色与克隆能力有限；真正实时对话应看 Realtime API，而非把标准 TTS 硬拼成 Agent。"
   ],
   "updates": [],
-  "rankings": [],
+  "rankings": [
+    {
+      "systemId": "aa-speech-arena",
+      "period": "2026-07",
+      "note": "TTS-1 HD",
+      "sourceUrl": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
+      "asOf": "2026-07-24",
+      "rank": 27,
+      "score": 1103,
+      "scoreLabel": "1103 Elo"
+    }
+  ],
   "sources": [
-    "https://platform.openai.com/docs/guides/text-to-speech"
+    "https://platform.openai.com/docs/guides/text-to-speech",
+    "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice"
   ],
   "lastReviewed": "2026-07-24",
   "region": "overseas",

@@ -20,9 +20,21 @@
     "企业 SLA、合规与商用授权成熟度需逐案核对；勿默认等同于 ElevenLabs 级生产保障。"
   ],
   "updates": [],
-  "rankings": [],
+  "rankings": [
+    {
+      "systemId": "aa-speech-arena",
+      "period": "2026-07",
+      "note": "Fish Audio S2.1 Pro",
+      "sourceUrl": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
+      "asOf": "2026-07-24",
+      "rank": 17,
+      "score": 1138,
+      "scoreLabel": "1138 Elo"
+    }
+  ],
   "sources": [
-    "https://fish.audio"
+    "https://fish.audio",
+    "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice"
   ],
   "lastReviewed": "2026-07-24",
   "region": "overseas",
@@ -33,5 +45,6 @@
   "oneLiner": "开源友好 TTS · 克隆 · 社区常用",
   "officialUrl": "https://fish.audio",
   "descriptionMd": "Fish Audio 提供语音合成与克隆相关能力，在开源/社区与中文开发者中常见，适合快速试验角色音色与本地化旁白。\n\n需要低成本试用克隆音色、或社区模型与 API 结合的原型阶段可评估。\n\n企业 SLA、合规与商用授权成熟度需逐案核对；勿默认等同于 ElevenLabs 级生产保障。\n",
-  "vendorId": "fish-audio-inc"
+  "vendorId": "fish-audio-inc",
+  "currentVersion": "S2.1 Pro"
 }

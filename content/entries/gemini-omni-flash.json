@@ -1,0 +1,94 @@
+{
+  "id": "gemini-omni-flash",
+  "name": "Gemini Omni Flash",
+  "category": "design-ai-video",
+  "subcategory": "video-gen",
+  "vendorId": "google",
+  "region": "overseas",
+  "oneLiner": "Google 视频 · Omni Flash · Arena T2V #1",
+  "officialUrl": "https://gemini.google/",
+  "currentVersion": "Omni Flash",
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD",
+    "notes": "Gemini/Flow/API 配额"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "video",
+    "gemini",
+    "audio-native"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "与 Veo 企业线不同入口；国内不可用；配额与订阅档变化快"
+  ],
+  "updates": [
+    {
+      "date": "2026-05-19",
+      "type": "release",
+      "version": "Omni Flash",
+      "summary": "Gemini 原生音画视频；Arena Text-to-Video 居首",
+      "source": "https://gemini.google/"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "lmarena-t2v",
+      "period": "2026-07",
+      "note": "gemini-omni-flash",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
+      "asOf": "2026-07-24",
+      "rank": 1,
+      "score": 1527,
+      "scoreLabel": "1527 Elo"
+    },
+    {
+      "systemId": "lmarena-i2v",
+      "period": "2026-07",
+      "note": "gemini-omni-flash",
+      "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
+      "asOf": "2026-07-24",
+      "rank": 2,
+      "score": 1469,
+      "scoreLabel": "1469 Elo"
+    },
+    {
+      "systemId": "lmarena-video-edit",
+      "period": "2026-07",
+      "note": "gemini-omni-flash",
+      "sourceUrl": "https://arena.ai/leaderboard/video-edit",
+      "asOf": "2026-07-24",
+      "rank": 2,
+      "score": 1347,
+      "scoreLabel": "1347 Elo"
+    },
+    {
+      "systemId": "aa-video-arena",
+      "period": "2026-07",
+      "note": "with audio",
+      "sourceUrl": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+      "asOf": "2026-07-24",
+      "rank": 1,
+      "score": 1245,
+      "scoreLabel": "1245 Elo"
+    }
+  ],
+  "sources": [
+    "https://gemini.google/",
+    "https://arena.ai/leaderboard/text-to-video",
+    "https://arena.ai/leaderboard/image-to-video",
+    "https://arena.ai/leaderboard/video-edit",
+    "https://artificialanalysis.ai/video/leaderboard/text-to-video"
+  ],
+  "descriptionMd": "Gemini Omni Flash 是 Google 在 Gemini/Flow 侧的原生音画视频生成模型，Arena Text-to-Video 榜居首，图生视频与视频编辑亦处前列；与 Vertex Veo 企业线并行。\n\n消费级/创作者快速出片、或已在 Gemini 生态做 Nano Banana 静帧后延伸到视频时评估。\n\n与 Veo 不同入口；国内不可用；配额与订阅档变化快。\n",
+  "lastReviewed": "2026-07-24"
+}

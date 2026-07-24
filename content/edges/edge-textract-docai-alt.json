@@ -1,0 +1,10 @@
+{
+  "id": "edge-textract-docai-alt",
+  "from": "aws-textract",
+  "to": "google-document-ai",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "fonts",
+    "free",
+    "display"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "中文覆盖几乎无；家族数量少于 Google Fonts。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.fontshare.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "fontshare",
+  "name": "Fontshare",
+  "category": "design-fonts",
+  "subcategory": "web-fonts",
+  "oneLiner": "高质量免费字体 · Indian Type Foundry",
+  "officialUrl": "https://www.fontshare.com",
+  "descriptionMd": "Fontshare 由 Indian Type Foundry 提供一批设计感强的免费可商用字体，常作风格化品牌站的 Google Fonts 补充。\n\n需要比默认无衬线更有性格、又要免费商用的拉丁字体时评估。\n\n中文覆盖几乎无；家族数量少于 Google Fonts。\n",
+  "vendorId": "itf"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "meta-muse-video",
+  "name": "Muse Video",
+  "category": "design-ai-video",
+  "subcategory": "video-gen",
+  "vendorId": "meta",
+  "region": "overseas",
+  "oneLiner": "Meta AI 视频 · Muse Video · Arena T2V 前三",
+  "officialUrl": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
+  "currentVersion": "Muse Video",
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "video",
+    "meta"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "企业 API/商用条款与 Meta 消费入口变化快；国内不可用"
+  ],
+  "updates": [
+    {
+      "date": "2026-07-07",
+      "type": "release",
+      "version": "Muse Video",
+      "summary": "与 Muse Image 同批；Arena Text-to-Video 进入前三",
+      "source": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "lmarena-t2v",
+      "period": "2026-07",
+      "note": "muse-video",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
+      "asOf": "2026-07-24",
+      "rank": 3,
+      "score": 1459,
+      "scoreLabel": "1459 Elo"
+    }
+  ],
+  "sources": [
+    "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
+    "https://arena.ai/leaderboard/text-to-video"
+  ],
+  "descriptionMd": "Muse Video 是 Meta 2026-07 推出的 agentic 视频生成能力，经 Meta AI 等消费入口提供，与 Muse Image 同族；Arena Text-to-Video 约第 3。\n\n已在 Meta 生态做社交/创作者视频，或观察 agentic 视频工作流时纳入短名单。\n\n企业 API 与商用条款、产品入口变化快；国内不可用。\n",
+  "lastReviewed": "2026-07-24"
+}

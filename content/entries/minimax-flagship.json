@@ -20,12 +20,34 @@
     "国际语言与代码 benchmark 需自测；注意 token 计费与上下文分段策略。"
   ],
   "updates": [],
-  "rankings": [],
+  "rankings": [
+    {
+      "systemId": "artificial-analysis-index",
+      "period": "2026-07",
+      "note": "MiniMax-M3",
+      "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
+      "asOf": "2026-07-24",
+      "rank": 25,
+      "score": 44,
+      "scoreLabel": "AAII 44"
+    },
+    {
+      "systemId": "openrouter-popularity",
+      "period": "2026-07",
+      "note": "MiniMax M3 · OpenRouter 高用量",
+      "sourceUrl": "https://openrouter.ai/rankings",
+      "asOf": "2026-07-24",
+      "rank": 7,
+      "tier": "High usage"
+    }
+  ],
   "sources": [
     "https://www.minimaxi.com",
-    "https://github.com/MiniMax-AI/MiniMax-M3"
+    "https://github.com/MiniMax-AI/MiniMax-M3",
+    "https://artificialanalysis.ai/leaderboards/models",
+    "https://openrouter.ai/rankings"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-24",
   "region": "domestic",
   "id": "minimax-flagship",
   "name": "MiniMax M3",

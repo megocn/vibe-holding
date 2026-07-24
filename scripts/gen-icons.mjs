@@ -1,6 +1,6 @@
 /**
  * 生成 Tauri 占位应用图标（纯色品牌方块）。
- * 正式图标已用「墨台」朱文方印（apps/desktop/public/brand/logo-master.png）；
+ * 正式图标已用「墨台」墨点落砚标记（apps/desktop/public/brand/logo-master.png）；
  * 可用 `pnpm --filter @vh/desktop tauri icon <logo.png>` 覆盖生成全套。
  * 用法：node scripts/gen-icons.mjs
  */

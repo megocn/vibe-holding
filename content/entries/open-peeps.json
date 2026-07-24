@@ -1,0 +1,36 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "illustration",
+    "characters",
+    "cc0"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "风格固定；与企业严谨视觉可能不搭。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.openpeeps.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "open-peeps",
+  "name": "Open Peeps",
+  "category": "design-stock",
+  "subcategory": "illustration",
+  "oneLiner": "手绘风人物组件 · CC0",
+  "officialUrl": "https://www.openpeeps.com",
+  "descriptionMd": "Open Peeps 是手绘风、可组合的人物插画库，许可宽松（CC0 叙事），适合友好、轻松语气的产品与社区插画。\n\n品牌语气偏亲切、需要可商用人物插画组件且想免署名纠纷时评估；可与 Humaaans 对照风格。\n\n风格固定；与企业严谨视觉可能不搭。\n"
+}

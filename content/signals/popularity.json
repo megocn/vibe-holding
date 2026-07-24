@@ -1,0 +1,3436 @@
+{
+  "meta": {
+    "generatedAt": "2026-07-24",
+    "note": "外部客观流行度快照，由 scripts/fetch-popularity.ts 生成；请勿手工编辑。"
+  },
+  "entries": {
+    "abbyy": {
+      "domain": {
+        "domain": "abbyy.com",
+        "trancoRank": 30013,
+        "asOf": "2026-07-24"
+      }
+    },
+    "actix-web": {
+      "domain": {
+        "domain": "actix.rs",
+        "trancoRank": 727238,
+        "asOf": "2026-07-24"
+      }
+    },
+    "adonisjs": {
+      "domain": {
+        "domain": "adonisjs.com",
+        "trancoRank": 857060,
+        "asOf": "2026-07-24"
+      }
+    },
+    "adyen": {
+      "domain": {
+        "domain": "adyen.com",
+        "trancoRank": 4074,
+        "asOf": "2026-07-24"
+      }
+    },
+    "agno": {
+      "domain": {
+        "domain": "agno.com",
+        "trancoRank": 366917,
+        "asOf": "2026-07-24"
+      }
+    },
+    "agora-conversational-ai": {
+      "domain": {
+        "domain": "agora.io",
+        "trancoRank": 943,
+        "asOf": "2026-07-24"
+      }
+    },
+    "ahrefs": {
+      "domain": {
+        "domain": "ahrefs.com",
+        "trancoRank": 2068,
+        "asOf": "2026-07-24"
+      }
+    },
+    "aider": {
+      "domain": {
+        "domain": "aider.chat",
+        "trancoRank": 119926,
+        "asOf": "2026-07-24"
+      }
+    },
+    "airwallex": {
+      "domain": {
+        "domain": "airwallex.com",
+        "trancoRank": 10835,
+        "asOf": "2026-07-24"
+      }
+    },
+    "aiva": {
+      "domain": {
+        "domain": "aiva.ai",
+        "trancoRank": 86961,
+        "asOf": "2026-07-24"
+      }
+    },
+    "amplitude": {
+      "domain": {
+        "domain": "amplitude.com",
+        "trancoRank": 402,
+        "asOf": "2026-07-24"
+      }
+    },
+    "angular": {
+      "domain": {
+        "domain": "angular.dev",
+        "trancoRank": 45288,
+        "asOf": "2026-07-24"
+      }
+    },
+    "ansible": {
+      "github": {
+        "repo": "ansible/ansible",
+        "stars": 69671,
+        "asOf": "2026-07-24"
+      },
+      "domain": {
+        "domain": "ansible.com",
+        "trancoRank": 13233,
+        "asOf": "2026-07-24"
+      }
+    },
+    "antd": {
+      "github": {
+        "repo": "ant-design/ant-design",
+        "stars": 98806,
+        "asOf": "2026-07-24"
+      },
+      "npm": {
+        "pkg": "antd",
+        "downloads": 15120408,
+        "asOf": "2026-07-24"
+      },
+      "domain": {
+        "domain": "ant.design",
+        "trancoRank": 64624,
+        "asOf": "2026-07-24"
+      }
+    },
+    "anyscale": {
+      "domain": {
+        "domain": "anyscale.com",
+        "trancoRank": 185898,
+        "asOf": "2026-07-24"
+      }
+    },
+    "appwrite": {
+      "domain": {
+        "domain": "appwrite.io",
+        "trancoRank": 67719,
+        "asOf": "2026-07-24"
+      }
+    },
+    "arize": {
+      "domain": {
+        "domain": "arize.com",
+        "trancoRank": 147752,
+        "asOf": "2026-07-24"
+      }
+    },
+    "asana": {
+      "domain": {
+        "domain": "asana.com",
+        "trancoRank": 2190,
+        "asOf": "2026-07-24"
+      }
+    },
+    "assemblyai": {
+      "domain": {
+        "domain": "assemblyai.com",
+        "trancoRank": 37902,
+        "asOf": "2026-07-24"
+      }
+    },
+    "astro": {
+      "github": {
+        "repo": "withastro/astro",
+        "stars": 61269,
+        "asOf": "2026-07-24"
+      },
+      "npm": {
+        "pkg": "astro",
+        "downloads": 16438492,
+        "asOf": "2026-07-24"
+      },
+      "domain": {
+        "domain": "astro.build",
+        "trancoRank": 20645,
+        "asOf": "2026-07-24"
+      }
+    },
+    "augment-code": {
+      "domain": {
+        "domain": "augmentcode.com",
+        "trancoRank": 36391,
+        "asOf": "2026-07-24"
+      }
+    },
+    "auth0": {
+      "domain": {
+        "domain": "auth0.com",
+        "trancoRank": 1351,
+        "asOf": "2026-07-24"
+      }
+    },
+    "authentik": {
+      "domain": {
+        "domain": "goauthentik.io",
+        "trancoRank": 44808,
+        "asOf": "2026-07-24"
+      }
+    },
+    "authjs": {
+      "domain": {
+        "domain": "authjs.dev",
+        "trancoRank": 268160,
+        "asOf": "2026-07-24"
+      }
+    },
+    "awwwards": {
+      "domain": {
+        "domain": "awwwards.com",
+        "trancoRank": 11301,
+        "asOf": "2026-07-24"
+      }
+    },
+    "axiom": {
+      "domain": {
+        "domain": "axiom.co",
+        "trancoRank": 11719,
+        "asOf": "2026-07-24"
+      }
+    },
+    "axum": {
+      "github": {
+        "repo": "tokio-rs/axum",
+        "stars": 26615,
+        "asOf": "2026-07-24"
+      }
+    },
+    "babel": {
+      "domain": {
+        "domain": "babeljs.io",
+        "trancoRank": 43805,
+        "asOf": "2026-07-24"
+      }
+    },
+    "backblaze-b2": {
+      "domain": {
+        "domain": "backblaze.com",
+        "trancoRank": 4083,
+        "asOf": "2026-07-24"
+      }
+    },
+    "bao-tu-wang": {
+      "domain": {
+        "domain": "ibaotu.com",
+        "trancoRank": 79951,
+        "asOf": "2026-07-24"
+      }
+    },
+    "base44": {
+      "domain": {
+        "domain": "base44.com",
+        "trancoRank": 25069,
+        "asOf": "2026-07-24"
+      }
+    },
+    "basecamp": {
+      "domain": {
+        "domain": "basecamp.com",
+        "trancoRank": 5456,
+        "asOf": "2026-07-24"
+      }
+    },
+    "baseten": {
+      "domain": {
+        "domain": "baseten.co",
+        "trancoRank": 22295,
+        "asOf": "2026-07-24"
+      }
+    },
+    "behance": {
+      "domain": {
+        "domain": "behance.net",
+        "trancoRank": 500,
+        "asOf": "2026-07-24"
+      }
+    },
+    "better-auth": {
+      "domain": {
+        "domain": "better-auth.com",
+        "trancoRank": 191468,
+        "asOf": "2026-07-24"
+      }
+    },
+    "betterstack": {
+      "domain": {
+        "domain": "betterstack.com",
+        "trancoRank": 16572,
+        "asOf": "2026-07-24"
+      }
+    },
+    "biome": {
+      "domain": {
+        "domain": "biomejs.dev",
+        "trancoRank": 358311,
+        "asOf": "2026-07-24"
+      }
+    },
+    "bitwarden": {
+      "domain": {
+        "domain": "bitwarden.com",
+        "trancoRank": 3786,
+        "asOf": "2026-07-24"
+      }
+    },
+    "blackbox": {
+      "domain": {
+        "domain": "blackbox.ai",
+        "trancoRank": 24626,
+        "asOf": "2026-07-24"
+      }
+    },
+    "bland-ai": {
+      "domain": {
+        "domain": "bland.ai",
+        "trancoRank": 233327,
+        "asOf": "2026-07-24"
+      }
+    },
+    "blink-new": {
+      "domain": {
+        "domain": "blink.new",
+        "trancoRank": 158066,
+        "asOf": "2026-07-24"
+      }
+    },
+    "bolt-new": {
+      "domain": {
+        "domain": "bolt.new",
+        "trancoRank": 30608,
+        "asOf": "2026-07-24"
+      }
+    },
+    "braintree": {
+      "domain": {
+        "domain": "braintreepayments.com",
+        "trancoRank": 31772,
+        "asOf": "2026-07-24"
+      }
+    },
+    "braintrust": {
+      "domain": {
+        "domain": "braintrust.dev",
+        "trancoRank": 151312,
+        "asOf": "2026-07-24"
+      }
+    },
+    "brevo": {
+      "domain": {
+        "domain": "brevo.com",
+        "trancoRank": 2650,
+        "asOf": "2026-07-24"
+      }
+    },
+    "bugsnag": {
+      "domain": {
+        "domain": "bugsnag.com",
+        "trancoRank": 758,
+        "asOf": "2026-07-24"
+      }
+    },
+    "buildkite": {
+      "domain": {
+        "domain": "buildkite.com",
+        "trancoRank": 10355,
+        "asOf": "2026-07-24"
+      }
+    },
+    "bun": {
+      "domain": {
+        "domain": "bun.sh",
+        "trancoRank": 75343,
+        "asOf": "2026-07-24"
+      }
+    },
+    "canva": {
+      "domain": {
+        "domain": "canva.com",
+        "trancoRank": 234,
+        "asOf": "2026-07-24"
+      }
+    },
+    "capacitor": {
+      "domain": {
+        "domain": "capacitorjs.com",
+        "trancoRank": 252254,
+        "asOf": "2026-07-24"
+      }
+    },
+    "caprover": {
+      "domain": {
+        "domain": "caprover.com",
+        "trancoRank": 36178,
+        "asOf": "2026-07-24"
+      }
+    },
+    "cartesia": {
+      "domain": {
+        "domain": "cartesia.ai",
+        "trancoRank": 83313,
+        "asOf": "2026-07-24"
+      }
+    },
+    "cerebras": {
+      "domain": {
+        "domain": "cerebras.ai",
+        "trancoRank": 50702,
+        "asOf": "2026-07-24"
+      }
+    },
+    "chakra-ui": {
+      "github": {
+        "repo": "chakra-ui/chakra-ui",
+        "stars": 40524,
+        "asOf": "2026-07-24"
+      },
+      "npm": {
+        "pkg": "@chakra-ui/react",
+        "downloads": 7362006,
+        "asOf": "2026-07-24"
+      },
+      "domain": {
+        "domain": "chakra-ui.com",
+        "trancoRank": 323339,
+        "asOf": "2026-07-24"
+      }
+    },
+    "changesets": {
+      "github": {
+        "repo": "changesets/changesets",
+        "stars": 12172,
+        "asOf": "2026-07-24"
+      }
+    },
+    "chattts": {
+      "github": {
+        "repo": "2noise/ChatTTS",
+        "stars": 39667,
+        "asOf": "2026-07-24"
+      }
+    },
+    "checkout-com": {
+      "domain": {
+        "domain": "checkout.com",
+        "trancoRank": 11507,
+        "asOf": "2026-07-24"
+      }
+    },
+    "chroma": {
+      "domain": {
+        "domain": "trychroma.com",
+        "trancoRank": 145898,
+        "asOf": "2026-07-24"
+      }
+    },
+    "circleci": {
+      "domain": {
+        "domain": "circleci.com",
+        "trancoRank": 10654,
+        "asOf": "2026-07-24"
+      }
+    },
+    "clerk": {
+      "domain": {
+        "domain": "clerk.com",
+        "trancoRank": 20251,
+        "asOf": "2026-07-24"
+      }
+    },
+    "clickup": {
+      "domain": {
+        "domain": "clickup.com",
+        "trancoRank": 2392,
+        "asOf": "2026-07-24"
+      }
+    },
+    "cline": {
+      "domain": {
+        "domain": "cline.bot",
+        "trancoRank": 12007,
+        "asOf": "2026-07-24"
+      }
+    },
+    "clojure": {
+      "domain": {
+        "domain": "clojure.org",
+        "trancoRank": 82217,
+        "asOf": "2026-07-24"
+      }
+    },
+    "cockroachdb": {
+      "domain": {
+        "domain": "cockroachlabs.com",
+        "trancoRank": 103866,
+        "asOf": "2026-07-24"
+      }
+    },
+    "coda": {
+      "domain": {
+        "domain": "coda.io",
+        "trancoRank": 13086,
+        "asOf": "2026-07-24"
+      }
+    },
+    "codegeex": {
+      "domain": {
+        "domain": "codegeex.cn",
+        "trancoRank": 229346,
+        "asOf": "2026-07-24"
+      }
+    },
+    "codemagic": {
+      "domain": {
+        "domain": "codemagic.io",
+        "trancoRank": 113870,
+        "asOf": "2026-07-24"
+      }
+    },
+    "codex-web": {
+      "domain": {
+        "domain": "chatgpt.com",
+        "trancoRank": 67,
+        "asOf": "2026-07-24"
+      }
+    },
+    "cognition-devin": {
+      "domain": {
+        "domain": "devin.ai",
+        "trancoRank": 17369,
+        "asOf": "2026-07-24"
+      }
+    },
+    "confluent-cloud": {
+      "domain": {
+        "domain": "confluent.io",
+        "trancoRank": 18073,
+        "asOf": "2026-07-24"
+      }
+    },
+    "continue": {
+      "domain": {
+        "domain": "continue.dev",
+        "trancoRank": 112279,
+        "asOf": "2026-07-24"
+      }
+    },
+    "convex": {
+      "domain": {
+        "domain": "convex.dev",
+        "trancoRank": 74318,
+        "asOf": "2026-07-24"
+      }
+    },
+    "coolify": {
+      "domain": {
+        "domain": "coolify.io",
+        "trancoRank": 85021,
+        "asOf": "2026-07-24"
+      }
+    },
+    "couchbase": {
+      "domain": {
+        "domain": "couchbase.com",
+        "trancoRank": 29760,
+        "asOf": "2026-07-24"
+      }
+    },
+    "coverr": {
+      "domain": {
+        "domain": "coverr.co",
+        "trancoRank": 90863,
+        "asOf": "2026-07-24"
+      }
+    },
+    "coze": {
+      "domain": {
+        "domain": "coze.com",
+        "trancoRank": 117403,
+        "asOf": "2026-07-24"
+      }
+    },
+    "creem": {
+      "domain": {
+        "domain": "creem.io",
+        "trancoRank": 374503,
+        "asOf": "2026-07-24"
+      }
+    },
+    "crewai": {
+      "domain": {
+        "domain": "crewai.com",
+        "trancoRank": 95809,
+        "asOf": "2026-07-24"
+      }
+    },
+    "crowdin": {
+      "domain": {
+        "domain": "crowdin.com",
+        "trancoRank": 12125,
+        "asOf": "2026-07-24"
+      }
+    },
+    "currencycloud": {
+      "domain": {
+        "domain": "currencycloud.com",
+        "trancoRank": 65274,
+        "asOf": "2026-07-24"
+      }
+    },
+    "cursor": {
+      "domain": {
+        "domain": "cursor.com",
+        "trancoRank": 4080,
+        "asOf": "2026-07-24"
+      }
+    },
+    "cypress": {
+      "domain": {
+        "domain": "cypress.io",
+        "trancoRank": 42438,
+        "asOf": "2026-07-24"
+      }
+    },
+    "dagger": {
+      "domain": {
+        "domain": "dagger.io",
+        "trancoRank": 243161,
+        "asOf": "2026-07-24"
+      }
+    },
+    "daisyui": {
+      "domain": {
+        "domain": "daisyui.com",
+        "trancoRank": 196068,
+        "asOf": "2026-07-24"
+      }
+    },
+    "dart": {
+      "domain": {
+        "domain": "dart.dev",
+        "trancoRank": 39309,
+        "asOf": "2026-07-24"
+      }
+    },
+    "databutton": {
+      "domain": {
+        "domain": "databutton.com",
+        "trancoRank": 914773,
+        "asOf": "2026-07-24"
+      }
+    },
+    "datadog": {
+      "domain": {
+        "domain": "datadoghq.com",
+        "trancoRank": 323,
+        "asOf": "2026-07-24"
+      }
+    },
+    "deepgram": {
+      "domain": {
+        "domain": "deepgram.com",
+        "trancoRank": 29344,
+        "asOf": "2026-07-24"
+      }
+    },
+    "deepinfra": {
+      "domain": {
+        "domain": "deepinfra.com",
+        "trancoRank": 81196,
+        "asOf": "2026-07-24"
+      }
+    },
+    "dify": {
+      "domain": {
+        "domain": "dify.ai",
+        "trancoRank": 49213,
+        "asOf": "2026-07-24"
+      }
+    },
+    "dingtalk": {
+      "domain": {
+        "domain": "dingtalk.com",
+        "trancoRank": 3524,
+        "asOf": "2026-07-24"
+      }
+    },
+    "directus": {
+      "domain": {
+        "domain": "directus.io",
+        "trancoRank": 234957,
+        "asOf": "2026-07-24"
+      }
+    },
+    "discord": {
+      "domain": {
+        "domain": "discord.com",
+        "trancoRank": 156,
+        "asOf": "2026-07-24"
+      }
+    },
+    "django": {
+      "domain": {
+        "domain": "djangoproject.com",
+        "trancoRank": 7240,
+        "asOf": "2026-07-24"
+      }
+    },
+    "dnspod": {
+      "domain": {
+        "domain": "dnspod.cn",
+        "trancoRank": 5059,
+        "asOf": "2026-07-24"
+      }
+    },
+    "docker": {
+      "domain": {
+        "domain": "docker.com",
+        "trancoRank": 490,
+        "asOf": "2026-07-24"
+      }
+    },
+    "docling": {
+      "github": {
+        "repo": "docling-project/docling",
+        "stars": 63714,
+        "asOf": "2026-07-24"
+      }
+    },
+    "doppler": {
+      "domain": {
+        "domain": "doppler.com",
+        "trancoRank": 26829,
+        "asOf": "2026-07-24"
+      }
+    },
+    "dragonfly": {
+      "domain": {
+        "domain": "dragonflydb.io",
+        "trancoRank": 431752,
+        "asOf": "2026-07-24"
+      }
+    },
+    "dribbble": {
+      "domain": {
+        "domain": "dribbble.com",
+        "trancoRank": 1112,
+        "asOf": "2026-07-24"
+      }
+    },
+    "drizzle": {
+      "github": {
+        "repo": "drizzle-team/drizzle-orm",
+        "stars": 35237,
+        "asOf": "2026-07-24"
+      },
+      "npm": {
+        "pkg": "drizzle-orm",
+        "downloads": 55764406,
+        "asOf": "2026-07-24"
+      },
+      "domain": {
+        "domain": "drizzle.team",
+        "trancoRank": 370286,
+        "asOf": "2026-07-24"
+      }
+    },
+    "dynatrace": {
+      "domain": {
+        "domain": "dynatrace.com",
+        "trancoRank": 525,
+        "asOf": "2026-07-24"
+      }
+    },
+    "earthly": {
+      "domain": {
+        "domain": "earthly.dev",
+        "trancoRank": 499673,
+        "asOf": "2026-07-24"
+      }
+    },
+    "easyocr": {
+      "github": {
+        "repo": "JaidedAI/EasyOCR",
+        "stars": 29816,
+        "asOf": "2026-07-24"
+      }
+    },
+    "edgeone": {
+      "domain": {
+        "domain": "edgeone.ai",
+        "trancoRank": 275234,
+        "asOf": "2026-07-24"
+      }
+    },
+    "electron": {
+      "domain": {
+        "domain": "electronjs.org",
+        "trancoRank": 20996,
+        "asOf": "2026-07-24"
+      }
+    },
+    "element-plus": {
+      "domain": {
+        "domain": "element-plus.org",
+        "trancoRank": 311728,
+        "asOf": "2026-07-24"
+      }
+    },
+    "elevenlabs": {
+      "domain": {
+        "domain": "elevenlabs.io",
+        "trancoRank": 4007,
+        "asOf": "2026-07-24"
+      }
+    },
+    "elixir": {
+      "domain": {
+        "domain": "elixir-lang.org",
+        "trancoRank": 85804,
+        "asOf": "2026-07-24"
+      }
+    },
+    "emergent": {
+      "domain": {
+        "domain": "emergent.sh",
+        "trancoRank": 21850,
+        "asOf": "2026-07-24"
+      }
+    },
+    "envato-elements": {
+      "domain": {
+        "domain": "envato.com",
+        "trancoRank": 2765,
+        "asOf": "2026-07-24"
+      }
+    },
+    "esbuild": {
+      "github": {
+        "repo": "evanw/esbuild",
+        "stars": 39993,
+        "asOf": "2026-07-24"
+      },
+      "npm": {
+        "pkg": "esbuild",
+        "downloads": 1057191721,
+        "asOf": "2026-07-24"
+      }
+    },
+    "eslint": {
+      "domain": {
+        "domain": "eslint.org",
+        "trancoRank": 40623,
+        "asOf": "2026-07-24"
+      }
+    },
+    "expo": {
+      "domain": {
+        "domain": "expo.dev",
+        "trancoRank": 6849,
+        "asOf": "2026-07-24"
+      }
+    },
+    "express": {
+      "domain": {
+        "domain": "expressjs.com",
+        "trancoRank": 25607,
+        "asOf": "2026-07-24"
+      }
+    },
+    "factory": {
+      "domain": {
+        "domain": "factory.ai",
+        "trancoRank": 46553,
+        "asOf": "2026-07-24"
+      }
+    },
+    "fastapi": {
+      "domain": {
+        "domain": "tiangolo.com",
+        "trancoRank": 38380,
+        "asOf": "2026-07-24"
+      }
+    },
+    "fastify": {
+      "domain": {
+        "domain": "fastify.dev",
+        "trancoRank": 360484,
+        "asOf": "2026-07-24"
+      }
+    },
+    "fastlane": {
+      "domain": {
+        "domain": "fastlane.tools",
+        "trancoRank": 250267,
+        "asOf": "2026-07-24"
+      }
+    },
+    "fastly": {
+      "domain": {
+        "domain": "fastly.com",
+        "trancoRank": 6806,
+        "asOf": "2026-07-24"
+      }
+    },
+    "fastspring": {
+      "domain": {
+        "domain": "fastspring.com",
+        "trancoRank": 41528,
+        "asOf": "2026-07-24"
+      }
+    },
+    "fathom": {
+      "domain": {
+        "domain": "usefathom.com",
+        "trancoRank": 18624,
+        "asOf": "2026-07-24"
+      }
+    },
+    "figma": {
+      "domain": {
+        "domain": "figma.com",
+        "trancoRank": 867,
+        "asOf": "2026-07-24"
+      }
+    },
+    "firecrawl": {
+      "domain": {
+        "domain": "firecrawl.dev",
+        "trancoRank": 63100,
+        "asOf": "2026-07-24"
+      }
+    },
+    "firefox-addons": {
+      "domain": {
+        "domain": "mozilla.org",
+        "trancoRank": 92,
+        "asOf": "2026-07-24"
+      }
+    },
+    "fireworks": {
+      "domain": {
+        "domain": "fireworks.ai",
+        "trancoRank": 40488,
+        "asOf": "2026-07-24"
+      }
+    },
+    "firstbase": {
+      "domain": {
+        "domain": "firstbase.io",
+        "trancoRank": 406706,
+        "asOf": "2026-07-24"
+      }
+    },
+    "fish-audio": {
+      "domain": {
+        "domain": "fish.audio",
+        "trancoRank": 13014,
+        "asOf": "2026-07-24"
+      }
+    },
+    "flathub": {
+      "domain": {
+        "domain": "flathub.org",
+        "trancoRank": 11171,
+        "asOf": "2026-07-24"
+      }
+    },
+    "flaticon": {
+      "domain": {
+        "domain": "flaticon.com",
+        "trancoRank": 2627,
+        "asOf": "2026-07-24"
+      }
+    },
+    "flowise": {
+      "domain": {
+        "domain": "flowiseai.com",
+        "trancoRank": 271783,
+        "asOf": "2026-07-24"
+      }
+    },
+    "flutter": {
+      "domain": {
+        "domain": "flutter.dev",
+        "trancoRank": 16931,
+        "asOf": "2026-07-24"
+      }
+    },
+    "flux-ai": {
+      "domain": {
+        "domain": "blackforestlabs.ai",
+        "trancoRank": 259639,
+        "asOf": "2026-07-24"
+      }
+    },
+    "flux-cd": {
+      "domain": {
+        "domain": "fluxcd.io",
+        "trancoRank": 223663,
+        "asOf": "2026-07-24"
+      }
+    },
+    "fontawesome": {
+      "domain": {
+        "domain": "fontawesome.com",
+        "trancoRank": 620,
+        "asOf": "2026-07-24"
+      }
+    },
+    "fontshare": {
+      "domain": {
+        "domain": "fontshare.com",
+        "trancoRank": 29321,
+        "asOf": "2026-07-24"
+      }
+    },
+    "freepik": {
+      "domain": {
+        "domain": "freepik.com",
+        "trancoRank": 947,
+        "asOf": "2026-07-24"
+      }
+    },
+    "fsharp": {
+      "domain": {
+        "domain": "fsharp.org",
+        "trancoRank": 959750,
+        "asOf": "2026-07-24"
+      }
+    },
+    "funasr": {
+      "github": {
+        "repo": "modelscope/FunASR",
+        "stars": 19457,
+        "asOf": "2026-07-24"
+      }
+    },
+    "fusionauth": {
+      "domain": {
+        "domain": "fusionauth.io",
+        "trancoRank": 26259,
+        "asOf": "2026-07-24"
+      }
+    },
+    "gandi": {
+      "domain": {
+        "domain": "gandi.net",
+        "trancoRank": 49,
+        "asOf": "2026-07-24"
+      }
+    },
+    "gemini-cli": {
+      "github": {
+        "repo": "google-gemini/gemini-cli",
+        "stars": 106148,
+        "asOf": "2026-07-24"
+      }
+    },
+    "getui": {
+      "domain": {
+        "domain": "getui.com",
+        "trancoRank": 4937,
+        "asOf": "2026-07-24"
+      }
+    },
+    "gin": {
+      "domain": {
+        "domain": "gin-gonic.com",
+        "trancoRank": 386127,
+        "asOf": "2026-07-24"
+      }
+    },
+    "gladia": {
+      "domain": {
+        "domain": "gladia.io",
+        "trancoRank": 228188,
+        "asOf": "2026-07-24"
+      }
+    },
+    "glitchtip": {
+      "domain": {
+        "domain": "glitchtip.com",
+        "trancoRank": 176310,
+        "asOf": "2026-07-24"
+      }
+    },
+    "go": {
+      "domain": {
+        "domain": "go.dev",
+        "trancoRank": 3507,
+        "asOf": "2026-07-24"
+      }
+    },
+    "godly": {
+      "domain": {
+        "domain": "godly.website",
+        "trancoRank": 724313,
+        "asOf": "2026-07-24"
+      }
+    },
+    "google-jules": {
+      "domain": {
+        "domain": "jules.google",
+        "trancoRank": 259904,
+        "asOf": "2026-07-24"
+      }
+    },
+    "groq": {
+      "domain": {
+        "domain": "groq.com",
+        "trancoRank": 16575,
+        "asOf": "2026-07-24"
+      }
+    },
+    "growingio": {
+      "domain": {
+        "domain": "growingio.com",
+        "trancoRank": 41413,
+        "asOf": "2026-07-24"
+      }
+    },
+    "gsap": {
+      "domain": {
+        "domain": "gsap.com",
+        "trancoRank": 69752,
+        "asOf": "2026-07-24"
+      }
+    },
+    "gumroad": {
+      "domain": {
+        "domain": "gumroad.com",
+        "trancoRank": 2852,
+        "asOf": "2026-07-24"
+      }
+    },
+    "hailuo": {
+      "domain": {
+        "domain": "hailuoai.com",
+        "trancoRank": 118683,
+        "asOf": "2026-07-24"
+      }
+    },
+    "hashicorp-vault": {
+      "domain": {
+        "domain": "vaultproject.io",
+        "trancoRank": 115596,
+        "asOf": "2026-07-24"
+      }
+    },
+    "haskell": {
+      "domain": {
+        "domain": "haskell.org",
+        "trancoRank": 11767,
+        "asOf": "2026-07-24"
+      }
+    },
+    "hasura": {
+      "domain": {
+        "domain": "hasura.io",
+        "trancoRank": 116540,
+        "asOf": "2026-07-24"
+      }
+    },
+    "haystack": {
+      "domain": {
+        "domain": "deepset.ai",
+        "trancoRank": 200224,
+        "asOf": "2026-07-24"
+      }
+    },
+    "headless-ui": {
+      "domain": {
+        "domain": "headlessui.com",
+        "trancoRank": 717704,
+        "asOf": "2026-07-24"
+      }
+    },
+    "heap": {
+      "domain": {
+        "domain": "heap.io",
+        "trancoRank": 100026,
+        "asOf": "2026-07-24"
+      }
+    },
+    "helicone": {
+      "domain": {
+        "domain": "helicone.ai",
+        "trancoRank": 339481,
+        "asOf": "2026-07-24"
+      }
+    },
+    "helm": {
+      "domain": {
+        "domain": "helm.sh",
+        "trancoRank": 30938,
+        "asOf": "2026-07-24"
+      }
+    },
+    "heroicons": {
+      "domain": {
+        "domain": "heroicons.com",
+        "trancoRank": 234207,
+        "asOf": "2026-07-24"
+      }
+    },
+    "heroku": {
+      "domain": {
+        "domain": "heroku.com",
+        "trancoRank": 5810,
+        "asOf": "2026-07-24"
+      }
+    },
+    "heroui": {
+      "domain": {
+        "domain": "heroui.com",
+        "trancoRank": 371056,
+        "asOf": "2026-07-24"
+      }
+    },
+    "heygen": {
+      "domain": {
+        "domain": "heygen.com",
+        "trancoRank": 15093,
+        "asOf": "2026-07-24"
+      }
+    },
+    "highlight-io": {
+      "domain": {
+        "domain": "highlight.io",
+        "trancoRank": 204675,
+        "asOf": "2026-07-24"
+      }
+    },
+    "homebrew": {
+      "github": {
+        "repo": "Homebrew/brew",
+        "stars": 48934,
+        "asOf": "2026-07-24"
+      },
+      "domain": {
+        "domain": "brew.sh",
+        "trancoRank": 6826,
+        "asOf": "2026-07-24"
+      }
+    },
+    "honeycomb": {
+      "domain": {
+        "domain": "honeycomb.io",
+        "trancoRank": 14755,
+        "asOf": "2026-07-24"
+      }
+    },
+    "hono": {
+      "domain": {
+        "domain": "hono.dev",
+        "trancoRank": 518772,
+        "asOf": "2026-07-24"
+      }
+    },
+    "hotjar": {
+      "domain": {
+        "domain": "hotjar.com",
+        "trancoRank": 571,
+        "asOf": "2026-07-24"
+      }
+    },
+    "huaban": {
+      "domain": {
+        "domain": "huaban.com",
+        "trancoRank": 16372,
+        "asOf": "2026-07-24"
+      }
+    },
+    "huawei-ocr": {
+      "domain": {
+        "domain": "huaweicloud.com",
+        "trancoRank": 6273,
+        "asOf": "2026-07-24"
+      }
+    },
+    "humaaans": {
+      "domain": {
+        "domain": "humaaans.com",
+        "trancoRank": 433602,
+        "asOf": "2026-07-24"
+      }
+    },
+    "hume-ai": {
+      "domain": {
+        "domain": "hume.ai",
+        "trancoRank": 208280,
+        "asOf": "2026-07-24"
+      }
+    },
+    "i18next": {
+      "domain": {
+        "domain": "i18next.com",
+        "trancoRank": 434234,
+        "asOf": "2026-07-24"
+      }
+    },
+    "iconify": {
+      "domain": {
+        "domain": "iconify.design",
+        "trancoRank": 10391,
+        "asOf": "2026-07-24"
+      }
+    },
+    "icons8": {
+      "domain": {
+        "domain": "icons8.com",
+        "trancoRank": 5222,
+        "asOf": "2026-07-24"
+      }
+    },
+    "ideogram": {
+      "domain": {
+        "domain": "ideogram.ai",
+        "trancoRank": 30003,
+        "asOf": "2026-07-24"
+      }
+    },
+    "infisical": {
+      "domain": {
+        "domain": "infisical.com",
+        "trancoRank": 104363,
+        "asOf": "2026-07-24"
+      }
+    },
+    "inngest": {
+      "domain": {
+        "domain": "inngest.com",
+        "trancoRank": 85376,
+        "asOf": "2026-07-24"
+      }
+    },
+    "inworld-realtime": {
+      "domain": {
+        "domain": "inworld.ai",
+        "trancoRank": 121702,
+        "asOf": "2026-07-24"
+      }
+    },
+    "itch-io": {
+      "domain": {
+        "domain": "itch.io",
+        "trancoRank": 722,
+        "asOf": "2026-07-24"
+      }
+    },
+    "jaeger": {
+      "domain": {
+        "domain": "jaegertracing.io",
+        "trancoRank": 182793,
+        "asOf": "2026-07-24"
+      }
+    },
+    "java": {
+      "domain": {
+        "domain": "oracle.com",
+        "trancoRank": 196,
+        "asOf": "2026-07-24"
+      }
+    },
+    "jenkins": {
+      "domain": {
+        "domain": "jenkins.io",
+        "trancoRank": 9391,
+        "asOf": "2026-07-24"
+      }
+    },
+    "jest": {
+      "domain": {
+        "domain": "jestjs.io",
+        "trancoRank": 64174,
+        "asOf": "2026-07-24"
+      }
+    },
+    "jetbrains-ai": {
+      "domain": {
+        "domain": "jetbrains.com",
+        "trancoRank": 906,
+        "asOf": "2026-07-24"
+      }
+    },
+    "jina": {
+      "domain": {
+        "domain": "jina.ai",
+        "trancoRank": 37439,
+        "asOf": "2026-07-24"
+      }
+    },
+    "jpush": {
+      "domain": {
+        "domain": "jiguang.cn",
+        "trancoRank": 22739,
+        "asOf": "2026-07-24"
+      }
+    },
+    "keycdn": {
+      "domain": {
+        "domain": "keycdn.com",
+        "trancoRank": 35405,
+        "asOf": "2026-07-24"
+      }
+    },
+    "keycloak": {
+      "domain": {
+        "domain": "keycloak.org",
+        "trancoRank": 48820,
+        "asOf": "2026-07-24"
+      }
+    },
+    "kinde": {
+      "domain": {
+        "domain": "kinde.com",
+        "trancoRank": 74348,
+        "asOf": "2026-07-24"
+      }
+    },
+    "kling": {
+      "domain": {
+        "domain": "klingai.com",
+        "trancoRank": 10461,
+        "asOf": "2026-07-24"
+      }
+    },
+    "kolors": {
+      "github": {
+        "repo": "Kwai-Kolors/Kolors",
+        "stars": 4611,
+        "asOf": "2026-07-24"
+      }
+    },
+    "kotlin": {
+      "domain": {
+        "domain": "kotlinlang.org",
+        "trancoRank": 26720,
+        "asOf": "2026-07-24"
+      }
+    },
+    "koyeb": {
+      "domain": {
+        "domain": "koyeb.com",
+        "trancoRank": 201737,
+        "asOf": "2026-07-24"
+      }
+    },
+    "kubernetes": {
+      "domain": {
+        "domain": "kubernetes.io",
+        "trancoRank": 5513,
+        "asOf": "2026-07-24"
+      }
+    },
+    "lancedb": {
+      "domain": {
+        "domain": "lancedb.com",
+        "trancoRank": 868227,
+        "asOf": "2026-07-24"
+      }
+    },
+    "landingfolio": {
+      "domain": {
+        "domain": "landingfolio.com",
+        "trancoRank": 884076,
+        "asOf": "2026-07-24"
+      }
+    },
+    "langchain": {
+      "github": {
+        "repo": "langchain-ai/langchain",
+        "stars": 142498,
+        "asOf": "2026-07-24"
+      }
+    },
+    "langflow": {
+      "domain": {
+        "domain": "langflow.org",
+        "trancoRank": 399229,
+        "asOf": "2026-07-24"
+      }
+    },
+    "langfuse": {
+      "domain": {
+        "domain": "langfuse.com",
+        "trancoRank": 54415,
+        "asOf": "2026-07-24"
+      }
+    },
+    "laravel": {
+      "domain": {
+        "domain": "laravel.com",
+        "trancoRank": 2221,
+        "asOf": "2026-07-24"
+      }
+    },
+    "lemonsqueezy": {
+      "domain": {
+        "domain": "lemonsqueezy.com",
+        "trancoRank": 24164,
+        "asOf": "2026-07-24"
+      }
+    },
+    "leonardo-ai": {
+      "domain": {
+        "domain": "leonardo.ai",
+        "trancoRank": 14403,
+        "asOf": "2026-07-24"
+      }
+    },
+    "letta": {
+      "domain": {
+        "domain": "letta.com",
+        "trancoRank": 226993,
+        "asOf": "2026-07-24"
+      }
+    },
+    "lianlianpay": {
+      "domain": {
+        "domain": "lianlianpay.com",
+        "trancoRank": 127688,
+        "asOf": "2026-07-24"
+      }
+    },
+    "liblib": {
+      "domain": {
+        "domain": "liblib.art",
+        "trancoRank": 54196,
+        "asOf": "2026-07-24"
+      }
+    },
+    "libsql": {
+      "github": {
+        "repo": "tursodatabase/libsql",
+        "stars": 16985,
+        "asOf": "2026-07-24"
+      }
+    },
+    "linear": {
+      "domain": {
+        "domain": "linear.app",
+        "trancoRank": 10639,
+        "asOf": "2026-07-24"
+      }
+    },
+    "lint-staged": {
+      "github": {
+        "repo": "lint-staged/lint-staged",
+        "stars": 14690,
+        "asOf": "2026-07-24"
+      }
+    },
+    "litellm": {
+      "domain": {
+        "domain": "litellm.ai",
+        "trancoRank": 116031,
+        "asOf": "2026-07-24"
+      }
+    },
+    "livekit": {
+      "github": {
+        "repo": "livekit/livekit",
+        "stars": 19936,
+        "asOf": "2026-07-24"
+      },
+      "domain": {
+        "domain": "livekit.io",
+        "trancoRank": 129845,
+        "asOf": "2026-07-24"
+      }
+    },
+    "llama-cpp": {
+      "github": {
+        "repo": "ggerganov/llama.cpp",
+        "stars": 121459,
+        "asOf": "2026-07-24"
+      }
+    },
+    "llamaindex": {
+      "github": {
+        "repo": "run-llama/llama_index",
+        "stars": 51064,
+        "asOf": "2026-07-24"
+      }
+    },
+    "lm-studio": {
+      "domain": {
+        "domain": "lmstudio.ai",
+        "trancoRank": 16506,
+        "asOf": "2026-07-24"
+      }
+    },
+    "logrocket": {
+      "domain": {
+        "domain": "logrocket.com",
+        "trancoRank": 34052,
+        "asOf": "2026-07-24"
+      }
+    },
+    "logto": {
+      "domain": {
+        "domain": "logto.io",
+        "trancoRank": 434951,
+        "asOf": "2026-07-24"
+      }
+    },
+    "lokalise": {
+      "domain": {
+        "domain": "lokalise.com",
+        "trancoRank": 4405,
+        "asOf": "2026-07-24"
+      }
+    },
+    "lottiefiles": {
+      "domain": {
+        "domain": "lottiefiles.com",
+        "trancoRank": 25057,
+        "asOf": "2026-07-24"
+      }
+    },
+    "lovable": {
+      "domain": {
+        "domain": "lovable.dev",
+        "trancoRank": 4557,
+        "asOf": "2026-07-24"
+      }
+    },
+    "ltx-video": {
+      "github": {
+        "repo": "Lightricks/LTX-Video",
+        "stars": 10739,
+        "asOf": "2026-07-24"
+      },
+      "domain": {
+        "domain": "lightricks.com",
+        "trancoRank": 34795,
+        "asOf": "2026-07-24"
+      }
+    },
+    "lua": {
+      "domain": {
+        "domain": "lua.org",
+        "trancoRank": 3679,
+        "asOf": "2026-07-24"
+      }
+    },
+    "lucide": {
+      "github": {
+        "repo": "lucide-icons/lucide",
+        "stars": 23600,
+        "asOf": "2026-07-24"
+      },
+      "npm": {
+        "pkg": "lucide-react",
+        "downloads": 360801852,
+        "asOf": "2026-07-24"
+      },
+      "domain": {
+        "domain": "lucide.dev",
+        "trancoRank": 111310,
+        "asOf": "2026-07-24"
+      }
+    },
+    "luma-ai": {
+      "domain": {
+        "domain": "lumalabs.ai",
+        "trancoRank": 22489,
+        "asOf": "2026-07-24"
+      }
+    },
+    "mailgun": {
+      "domain": {
+        "domain": "mailgun.com",
+        "trancoRank": 22743,
+        "asOf": "2026-07-24"
+      }
+    },
+    "mantine": {
+      "github": {
+        "repo": "mantinedev/mantine",
+        "stars": 31476,
+        "asOf": "2026-07-24"
+      },
+      "npm": {
+        "pkg": "@mantine/core",
+        "downloads": 8352172,
+        "asOf": "2026-07-24"
+      }
+    },
+    "mariadb": {
+      "domain": {
+        "domain": "mariadb.org",
+        "trancoRank": 3621,
+        "asOf": "2026-07-24"
+      }
+    },
+    "marker-pdf": {
+      "github": {
+        "repo": "datalab-to/marker",
+        "stars": 37810,
+        "asOf": "2026-07-24"
+      }
+    },
+    "marscode": {
+      "domain": {
+        "domain": "marscode.com",
+        "trancoRank": 122382,
+        "asOf": "2026-07-24"
+      }
+    },
+    "mastra": {
+      "domain": {
+        "domain": "mastra.ai",
+        "trancoRank": 342768,
+        "asOf": "2026-07-24"
+      }
+    },
+    "matomo": {
+      "domain": {
+        "domain": "matomo.org",
+        "trancoRank": 2682,
+        "asOf": "2026-07-24"
+      }
+    },
+    "mattermost": {
+      "domain": {
+        "domain": "mattermost.com",
+        "trancoRank": 10743,
+        "asOf": "2026-07-24"
+      }
+    },
+    "meilisearch": {
+      "domain": {
+        "domain": "meilisearch.com",
+        "trancoRank": 116864,
+        "asOf": "2026-07-24"
+      }
+    },
+    "mem0": {
+      "domain": {
+        "domain": "mem0.ai",
+        "trancoRank": 238190,
+        "asOf": "2026-07-24"
+      }
+    },
+    "memcached": {
+      "domain": {
+        "domain": "memcached.org",
+        "trancoRank": 4728,
+        "asOf": "2026-07-24"
+      }
+    },
+    "mercury-bank": {
+      "domain": {
+        "domain": "mercury.com",
+        "trancoRank": 35817,
+        "asOf": "2026-07-24"
+      }
+    },
+    "midjourney": {
+      "domain": {
+        "domain": "midjourney.com",
+        "trancoRank": 5027,
+        "asOf": "2026-07-24"
+      }
+    },
+    "milvus": {
+      "domain": {
+        "domain": "milvus.io",
+        "trancoRank": 117778,
+        "asOf": "2026-07-24"
+      }
+    },
+    "mineru": {
+      "github": {
+        "repo": "opendatalab/MinerU",
+        "stars": 75617,
+        "asOf": "2026-07-24"
+      }
+    },
+    "minio": {
+      "domain": {
+        "domain": "min.io",
+        "trancoRank": 31843,
+        "asOf": "2026-07-24"
+      }
+    },
+    "mixkit": {
+      "domain": {
+        "domain": "mixkit.co",
+        "trancoRank": 30421,
+        "asOf": "2026-07-24"
+      }
+    },
+    "mixpanel": {
+      "domain": {
+        "domain": "mixpanel.com",
+        "trancoRank": 803,
+        "asOf": "2026-07-24"
+      }
+    },
+    "mobbin": {
+      "domain": {
+        "domain": "mobbin.com",
+        "trancoRank": 98421,
+        "asOf": "2026-07-24"
+      }
+    },
+    "modal": {
+      "domain": {
+        "domain": "modal.com",
+        "trancoRank": 47044,
+        "asOf": "2026-07-24"
+      }
+    },
+    "mollie": {
+      "domain": {
+        "domain": "mollie.com",
+        "trancoRank": 11319,
+        "asOf": "2026-07-24"
+      }
+    },
+    "monday": {
+      "domain": {
+        "domain": "monday.com",
+        "trancoRank": 3305,
+        "asOf": "2026-07-24"
+      }
+    },
+    "mongodb-atlas": {
+      "domain": {
+        "domain": "mongodb.com",
+        "trancoRank": 1885,
+        "asOf": "2026-07-24"
+      }
+    },
+    "morph": {
+      "domain": {
+        "domain": "morphllm.com",
+        "trancoRank": 337786,
+        "asOf": "2026-07-24"
+      }
+    },
+    "msw": {
+      "domain": {
+        "domain": "mswjs.io",
+        "trancoRank": 732561,
+        "asOf": "2026-07-24"
+      }
+    },
+    "mubert": {
+      "domain": {
+        "domain": "mubert.com",
+        "trancoRank": 96761,
+        "asOf": "2026-07-24"
+      }
+    },
+    "mui": {
+      "github": {
+        "repo": "mui/material-ui",
+        "stars": 98629,
+        "asOf": "2026-07-24"
+      },
+      "npm": {
+        "pkg": "@mui/material",
+        "downloads": 38268786,
+        "asOf": "2026-07-24"
+      },
+      "domain": {
+        "domain": "mui.com",
+        "trancoRank": 56634,
+        "asOf": "2026-07-24"
+      }
+    },
+    "mysql": {
+      "domain": {
+        "domain": "mysql.com",
+        "trancoRank": 479,
+        "asOf": "2026-07-24"
+      }
+    },
+    "n8n": {
+      "domain": {
+        "domain": "n8n.io",
+        "trancoRank": 4703,
+        "asOf": "2026-07-24"
+      }
+    },
+    "namecheap": {
+      "domain": {
+        "domain": "namecheap.com",
+        "trancoRank": 1909,
+        "asOf": "2026-07-24"
+      }
+    },
+    "nanonets": {
+      "domain": {
+        "domain": "nanonets.com",
+        "trancoRank": 146203,
+        "asOf": "2026-07-24"
+      }
+    },
+    "neon": {
+      "domain": {
+        "domain": "neon.tech",
+        "trancoRank": 4857,
+        "asOf": "2026-07-24"
+      }
+    },
+    "nestjs": {
+      "domain": {
+        "domain": "nestjs.com",
+        "trancoRank": 97184,
+        "asOf": "2026-07-24"
+      }
+    },
+    "netlify": {
+      "domain": {
+        "domain": "netlify.com",
+        "trancoRank": 4563,
+        "asOf": "2026-07-24"
+      }
+    },
+    "newrelic": {
+      "domain": {
+        "domain": "newrelic.com",
+        "trancoRank": 690,
+        "asOf": "2026-07-24"
+      }
+    },
+    "nextjs": {
+      "github": {
+        "repo": "vercel/next.js",
+        "stars": 141097,
+        "asOf": "2026-07-24"
+      },
+      "npm": {
+        "pkg": "next",
+        "downloads": 187068777,
+        "asOf": "2026-07-24"
+      },
+      "domain": {
+        "domain": "nextjs.org",
+        "trancoRank": 11122,
+        "asOf": "2026-07-24"
+      }
+    },
+    "nim": {
+      "domain": {
+        "domain": "nim-lang.org",
+        "trancoRank": 202535,
+        "asOf": "2026-07-24"
+      }
+    },
+    "nodejs": {
+      "domain": {
+        "domain": "nodejs.org",
+        "trancoRank": 2209,
+        "asOf": "2026-07-24"
+      }
+    },
+    "northflank": {
+      "domain": {
+        "domain": "northflank.com",
+        "trancoRank": 63387,
+        "asOf": "2026-07-24"
+      }
+    },
+    "notion": {
+      "domain": {
+        "domain": "notion.so",
+        "trancoRank": 1840,
+        "asOf": "2026-07-24"
+      }
+    },
+    "noun-project": {
+      "domain": {
+        "domain": "thenounproject.com",
+        "trancoRank": 6785,
+        "asOf": "2026-07-24"
+      }
+    },
+    "novita-ai": {
+      "domain": {
+        "domain": "novita.ai",
+        "trancoRank": 171291,
+        "asOf": "2026-07-24"
+      }
+    },
+    "nuxt": {
+      "github": {
+        "repo": "nuxt/nuxt",
+        "stars": 60675,
+        "asOf": "2026-07-24"
+      },
+      "npm": {
+        "pkg": "nuxt",
+        "downloads": 6864301,
+        "asOf": "2026-07-24"
+      },
+      "domain": {
+        "domain": "nuxt.com",
+        "trancoRank": 36983,
+        "asOf": "2026-07-24"
+      }
+    },
+    "nx": {
+      "domain": {
+        "domain": "nx.dev",
+        "trancoRank": 220314,
+        "asOf": "2026-07-24"
+      }
+    },
+    "ollama": {
+      "domain": {
+        "domain": "ollama.com",
+        "trancoRank": 4587,
+        "asOf": "2026-07-24"
+      }
+    },
+    "one-api": {
+      "github": {
+        "repo": "QuantumNous/new-api",
+        "stars": 43302,
+        "asOf": "2026-07-24"
+      }
+    },
+    "onepassword": {
+      "domain": {
+        "domain": "1password.com",
+        "trancoRank": 2713,
+        "asOf": "2026-07-24"
+      }
+    },
+    "onesignal": {
+      "domain": {
+        "domain": "onesignal.com",
+        "trancoRank": 990,
+        "asOf": "2026-07-24"
+      }
+    },
+    "open-peeps": {
+      "domain": {
+        "domain": "openpeeps.com",
+        "trancoRank": 613541,
+        "asOf": "2026-07-24"
+      }
+    },
+    "openhands": {
+      "domain": {
+        "domain": "all-hands.dev",
+        "trancoRank": 680030,
+        "asOf": "2026-07-24"
+      }
+    },
+    "openreplay": {
+      "domain": {
+        "domain": "openreplay.com",
+        "trancoRank": 48326,
+        "asOf": "2026-07-24"
+      }
+    },
+    "openrouter": {
+      "domain": {
+        "domain": "openrouter.ai",
+        "trancoRank": 7808,
+        "asOf": "2026-07-24"
+      }
+    },
+    "opentelemetry": {
+      "domain": {
+        "domain": "opentelemetry.io",
+        "trancoRank": 47491,
+        "asOf": "2026-07-24"
+      }
+    },
+    "oppo-store": {
+      "domain": {
+        "domain": "oppomobile.com",
+        "trancoRank": 3586,
+        "asOf": "2026-07-24"
+      }
+    },
+    "ory-kratos": {
+      "domain": {
+        "domain": "ory.sh",
+        "trancoRank": 163440,
+        "asOf": "2026-07-24"
+      }
+    },
+    "outline": {
+      "domain": {
+        "domain": "getoutline.com",
+        "trancoRank": 135833,
+        "asOf": "2026-07-24"
+      }
+    },
+    "oxlint": {
+      "domain": {
+        "domain": "oxc.rs",
+        "trancoRank": 685576,
+        "asOf": "2026-07-24"
+      }
+    },
+    "packer": {
+      "domain": {
+        "domain": "packer.io",
+        "trancoRank": 193837,
+        "asOf": "2026-07-24"
+      }
+    },
+    "paddle": {
+      "domain": {
+        "domain": "paddle.com",
+        "trancoRank": 12310,
+        "asOf": "2026-07-24"
+      }
+    },
+    "paddleocr": {
+      "github": {
+        "repo": "PaddlePaddle/PaddleOCR",
+        "stars": 86175,
+        "asOf": "2026-07-24"
+      }
+    },
+    "parcel": {
+      "domain": {
+        "domain": "parceljs.org",
+        "trancoRank": 201272,
+        "asOf": "2026-07-24"
+      }
+    },
+    "payoneer": {
+      "domain": {
+        "domain": "payoneer.com",
+        "trancoRank": 14196,
+        "asOf": "2026-07-24"
+      }
+    },
+    "paypal": {
+      "domain": {
+        "domain": "paypal.com",
+        "trancoRank": 160,
+        "asOf": "2026-07-24"
+      }
+    },
+    "penpot": {
+      "domain": {
+        "domain": "penpot.app",
+        "trancoRank": 122468,
+        "asOf": "2026-07-24"
+      }
+    },
+    "pexels": {
+      "domain": {
+        "domain": "pexels.com",
+        "trancoRank": 827,
+        "asOf": "2026-07-24"
+      }
+    },
+    "pgvector": {
+      "github": {
+        "repo": "pgvector/pgvector",
+        "stars": 22338,
+        "asOf": "2026-07-24"
+      }
+    },
+    "phind": {
+      "domain": {
+        "domain": "phind.com",
+        "trancoRank": 109977,
+        "asOf": "2026-07-24"
+      }
+    },
+    "phoenix": {
+      "domain": {
+        "domain": "phoenixframework.org",
+        "trancoRank": 200088,
+        "asOf": "2026-07-24"
+      }
+    },
+    "phosphor-icons": {
+      "github": {
+        "repo": "phosphor-icons/react",
+        "stars": 1696,
+        "asOf": "2026-07-24"
+      },
+      "domain": {
+        "domain": "phosphoricons.com",
+        "trancoRank": 234814,
+        "asOf": "2026-07-24"
+      }
+    },
+    "php": {
+      "domain": {
+        "domain": "php.net",
+        "trancoRank": 312,
+        "asOf": "2026-07-24"
+      }
+    },
+    "phrase": {
+      "domain": {
+        "domain": "phrase.com",
+        "trancoRank": 29381,
+        "asOf": "2026-07-24"
+      }
+    },
+    "pieces": {
+      "domain": {
+        "domain": "pieces.app",
+        "trancoRank": 480999,
+        "asOf": "2026-07-24"
+      }
+    },
+    "pika": {
+      "domain": {
+        "domain": "pika.art",
+        "trancoRank": 30034,
+        "asOf": "2026-07-24"
+      }
+    },
+    "pinecone": {
+      "domain": {
+        "domain": "pinecone.io",
+        "trancoRank": 46542,
+        "asOf": "2026-07-24"
+      }
+    },
+    "pingpong": {
+      "domain": {
+        "domain": "pingpongx.com",
+        "trancoRank": 118135,
+        "asOf": "2026-07-24"
+      }
+    },
+    "pinterest": {
+      "domain": {
+        "domain": "pinterest.com",
+        "trancoRank": 52,
+        "asOf": "2026-07-24"
+      }
+    },
+    "pipecat": {
+      "github": {
+        "repo": "pipecat-ai/pipecat",
+        "stars": 13685,
+        "asOf": "2026-07-24"
+      }
+    },
+    "pixabay": {
+      "domain": {
+        "domain": "pixabay.com",
+        "trancoRank": 432,
+        "asOf": "2026-07-24"
+      }
+    },
+    "pixverse": {
+      "domain": {
+        "domain": "pixverse.ai",
+        "trancoRank": 19595,
+        "asOf": "2026-07-24"
+      }
+    },
+    "plane-so": {
+      "domain": {
+        "domain": "plane.so",
+        "trancoRank": 92214,
+        "asOf": "2026-07-24"
+      }
+    },
+    "plausible": {
+      "domain": {
+        "domain": "plausible.io",
+        "trancoRank": 3885,
+        "asOf": "2026-07-24"
+      }
+    },
+    "playht": {
+      "domain": {
+        "domain": "play.ht",
+        "trancoRank": 66104,
+        "asOf": "2026-07-24"
+      }
+    },
+    "playwright": {
+      "domain": {
+        "domain": "playwright.dev",
+        "trancoRank": 29110,
+        "asOf": "2026-07-24"
+      }
+    },
+    "pnpm": {
+      "domain": {
+        "domain": "pnpm.io",
+        "trancoRank": 77461,
+        "asOf": "2026-07-24"
+      }
+    },
+    "pocketbase": {
+      "domain": {
+        "domain": "pocketbase.io",
+        "trancoRank": 505110,
+        "asOf": "2026-07-24"
+      }
+    },
+    "polar": {
+      "domain": {
+        "domain": "polar.sh",
+        "trancoRank": 142455,
+        "asOf": "2026-07-24"
+      }
+    },
+    "poolside": {
+      "domain": {
+        "domain": "poolside.ai",
+        "trancoRank": 500448,
+        "asOf": "2026-07-24"
+      }
+    },
+    "porkbun": {
+      "domain": {
+        "domain": "porkbun.com",
+        "trancoRank": 1226,
+        "asOf": "2026-07-24"
+      }
+    },
+    "portkey": {
+      "domain": {
+        "domain": "portkey.ai",
+        "trancoRank": 223690,
+        "asOf": "2026-07-24"
+      }
+    },
+    "postgresql": {
+      "domain": {
+        "domain": "postgresql.org",
+        "trancoRank": 1241,
+        "asOf": "2026-07-24"
+      }
+    },
+    "posthog": {
+      "domain": {
+        "domain": "posthog.com",
+        "trancoRank": 2287,
+        "asOf": "2026-07-24"
+      }
+    },
+    "postmark": {
+      "domain": {
+        "domain": "postmarkapp.com",
+        "trancoRank": 24232,
+        "asOf": "2026-07-24"
+      }
+    },
+    "prettier": {
+      "domain": {
+        "domain": "prettier.io",
+        "trancoRank": 74948,
+        "asOf": "2026-07-24"
+      }
+    },
+    "primevue": {
+      "domain": {
+        "domain": "primevue.org",
+        "trancoRank": 474197,
+        "asOf": "2026-07-24"
+      }
+    },
+    "prisma": {
+      "github": {
+        "repo": "prisma/prisma",
+        "stars": 47379,
+        "asOf": "2026-07-24"
+      },
+      "npm": {
+        "pkg": "prisma",
+        "downloads": 59372666,
+        "asOf": "2026-07-24"
+      },
+      "domain": {
+        "domain": "prisma.io",
+        "trancoRank": 30452,
+        "asOf": "2026-07-24"
+      }
+    },
+    "prometheus": {
+      "domain": {
+        "domain": "prometheus.io",
+        "trancoRank": 16865,
+        "asOf": "2026-07-24"
+      }
+    },
+    "promptlayer": {
+      "domain": {
+        "domain": "promptlayer.com",
+        "trancoRank": 407455,
+        "asOf": "2026-07-24"
+      }
+    },
+    "propelauth": {
+      "domain": {
+        "domain": "propelauth.com",
+        "trancoRank": 227288,
+        "asOf": "2026-07-24"
+      }
+    },
+    "pulumi": {
+      "domain": {
+        "domain": "pulumi.com",
+        "trancoRank": 62807,
+        "asOf": "2026-07-24"
+      }
+    },
+    "pydantic-ai": {
+      "domain": {
+        "domain": "pydantic.dev",
+        "trancoRank": 55012,
+        "asOf": "2026-07-24"
+      }
+    },
+    "python": {
+      "domain": {
+        "domain": "python.org",
+        "trancoRank": 738,
+        "asOf": "2026-07-24"
+      }
+    },
+    "qdrant": {
+      "domain": {
+        "domain": "qdrant.tech",
+        "trancoRank": 103855,
+        "asOf": "2026-07-24"
+      }
+    },
+    "quasar": {
+      "domain": {
+        "domain": "quasar.dev",
+        "trancoRank": 310065,
+        "asOf": "2026-07-24"
+      }
+    },
+    "qwik": {
+      "domain": {
+        "domain": "qwik.dev",
+        "trancoRank": 585355,
+        "asOf": "2026-07-24"
+      }
+    },
+    "rabbitmq": {
+      "domain": {
+        "domain": "rabbitmq.com",
+        "trancoRank": 29261,
+        "asOf": "2026-07-24"
+      }
+    },
+    "radix-ui": {
+      "github": {
+        "repo": "radix-ui/primitives",
+        "stars": 19091,
+        "asOf": "2026-07-24"
+      },
+      "npm": {
+        "pkg": "@radix-ui/react-dropdown-menu",
+        "downloads": 228471936,
+        "asOf": "2026-07-24"
+      },
+      "domain": {
+        "domain": "radix-ui.com",
+        "trancoRank": 222848,
+        "asOf": "2026-07-24"
+      }
+    },
+    "rails": {
+      "domain": {
+        "domain": "rubyonrails.org",
+        "trancoRank": 15130,
+        "asOf": "2026-07-24"
+      }
+    },
+    "railway": {
+      "domain": {
+        "domain": "railway.app",
+        "trancoRank": 3531,
+        "asOf": "2026-07-24"
+      }
+    },
+    "razorpay": {
+      "domain": {
+        "domain": "razorpay.com",
+        "trancoRank": 3648,
+        "asOf": "2026-07-24"
+      }
+    },
+    "react": {
+      "domain": {
+        "domain": "react.dev",
+        "trancoRank": 8895,
+        "asOf": "2026-07-24"
+      }
+    },
+    "react-native": {
+      "domain": {
+        "domain": "reactnative.dev",
+        "trancoRank": 35347,
+        "asOf": "2026-07-24"
+      }
+    },
+    "recraft": {
+      "domain": {
+        "domain": "recraft.ai",
+        "trancoRank": 38594,
+        "asOf": "2026-07-24"
+      }
+    },
+    "redis": {
+      "domain": {
+        "domain": "redis.io",
+        "trancoRank": 2838,
+        "asOf": "2026-07-24"
+      }
+    },
+    "release-please": {
+      "github": {
+        "repo": "googleapis/release-please",
+        "stars": 7241,
+        "asOf": "2026-07-24"
+      }
+    },
+    "remix": {
+      "github": {
+        "repo": "remix-run/remix",
+        "stars": 33234,
+        "asOf": "2026-07-24"
+      },
+      "npm": {
+        "pkg": "@remix-run/react",
+        "downloads": 4222658,
+        "asOf": "2026-07-24"
+      },
+      "domain": {
+        "domain": "remix.run",
+        "trancoRank": 206051,
+        "asOf": "2026-07-24"
+      }
+    },
+    "render": {
+      "domain": {
+        "domain": "render.com",
+        "trancoRank": 18510,
+        "asOf": "2026-07-24"
+      }
+    },
+    "renovate": {
+      "domain": {
+        "domain": "renovatebot.com",
+        "trancoRank": 222370,
+        "asOf": "2026-07-24"
+      }
+    },
+    "replicate": {
+      "domain": {
+        "domain": "replicate.com",
+        "trancoRank": 29848,
+        "asOf": "2026-07-24"
+      }
+    },
+    "replit-agent": {
+      "domain": {
+        "domain": "replit.com",
+        "trancoRank": 4075,
+        "asOf": "2026-07-24"
+      }
+    },
+    "resend": {
+      "domain": {
+        "domain": "resend.com",
+        "trancoRank": 20002,
+        "asOf": "2026-07-24"
+      }
+    },
+    "retell-ai": {
+      "domain": {
+        "domain": "retellai.com",
+        "trancoRank": 120634,
+        "asOf": "2026-07-24"
+      }
+    },
+    "revenuecat": {
+      "domain": {
+        "domain": "revenuecat.com",
+        "trancoRank": 2106,
+        "asOf": "2026-07-24"
+      }
+    },
+    "revolut-business": {
+      "domain": {
+        "domain": "revolut.com",
+        "trancoRank": 5473,
+        "asOf": "2026-07-24"
+      }
+    },
+    "rive": {
+      "domain": {
+        "domain": "rive.app",
+        "trancoRank": 54471,
+        "asOf": "2026-07-24"
+      }
+    },
+    "rollbar": {
+      "domain": {
+        "domain": "rollbar.com",
+        "trancoRank": 17249,
+        "asOf": "2026-07-24"
+      }
+    },
+    "rolldown": {
+      "domain": {
+        "domain": "rolldown.rs",
+        "trancoRank": 168134,
+        "asOf": "2026-07-24"
+      }
+    },
+    "rollup": {
+      "domain": {
+        "domain": "rollupjs.org",
+        "trancoRank": 147158,
+        "asOf": "2026-07-24"
+      }
+    },
+    "roo-code": {
+      "domain": {
+        "domain": "roocode.com",
+        "trancoRank": 258182,
+        "asOf": "2026-07-24"
+      }
+    },
+    "ruby": {
+      "domain": {
+        "domain": "ruby-lang.org",
+        "trancoRank": 12484,
+        "asOf": "2026-07-24"
+      }
+    },
+    "runway": {
+      "domain": {
+        "domain": "runwayml.com",
+        "trancoRank": 8646,
+        "asOf": "2026-07-24"
+      }
+    },
+    "rust": {
+      "domain": {
+        "domain": "rust-lang.org",
+        "trancoRank": 6969,
+        "asOf": "2026-07-24"
+      }
+    },
+    "sambanova": {
+      "domain": {
+        "domain": "sambanova.ai",
+        "trancoRank": 179752,
+        "asOf": "2026-07-24"
+      }
+    },
+    "samsung-galaxy-store": {
+      "domain": {
+        "domain": "samsungapps.com",
+        "trancoRank": 587,
+        "asOf": "2026-07-24"
+      }
+    },
+    "scala": {
+      "domain": {
+        "domain": "scala-lang.org",
+        "trancoRank": 30089,
+        "asOf": "2026-07-24"
+      }
+    },
+    "scaleway-serverless": {
+      "domain": {
+        "domain": "scaleway.com",
+        "trancoRank": 17428,
+        "asOf": "2026-07-24"
+      }
+    },
+    "scylladb": {
+      "domain": {
+        "domain": "scylladb.com",
+        "trancoRank": 176742,
+        "asOf": "2026-07-24"
+      }
+    },
+    "seaart": {
+      "domain": {
+        "domain": "seaart.ai",
+        "trancoRank": 5204,
+        "asOf": "2026-07-24"
+      }
+    },
+    "segment": {
+      "domain": {
+        "domain": "segment.com",
+        "trancoRank": 2015,
+        "asOf": "2026-07-24"
+      }
+    },
+    "semrush": {
+      "domain": {
+        "domain": "semrush.com",
+        "trancoRank": 2172,
+        "asOf": "2026-07-24"
+      }
+    },
+    "sendgrid": {
+      "domain": {
+        "domain": "sendgrid.com",
+        "trancoRank": 4962,
+        "asOf": "2026-07-24"
+      }
+    },
+    "sensorsdata": {
+      "domain": {
+        "domain": "sensorsdata.cn",
+        "trancoRank": 30162,
+        "asOf": "2026-07-24"
+      }
+    },
+    "sentry": {
+      "domain": {
+        "domain": "sentry.io",
+        "trancoRank": 100,
+        "asOf": "2026-07-24"
+      }
+    },
+    "setapp": {
+      "domain": {
+        "domain": "setapp.com",
+        "trancoRank": 14684,
+        "asOf": "2026-07-24"
+      }
+    },
+    "shadcn-ui": {
+      "github": {
+        "repo": "shadcn-ui/ui",
+        "stars": 119703,
+        "asOf": "2026-07-24"
+      },
+      "domain": {
+        "domain": "shadcn.com",
+        "trancoRank": 92049,
+        "asOf": "2026-07-24"
+      }
+    },
+    "shortcut": {
+      "domain": {
+        "domain": "shortcut.com",
+        "trancoRank": 81971,
+        "asOf": "2026-07-24"
+      }
+    },
+    "shutterstock": {
+      "domain": {
+        "domain": "shutterstock.com",
+        "trancoRank": 1686,
+        "asOf": "2026-07-24"
+      }
+    },
+    "signoz": {
+      "domain": {
+        "domain": "signoz.io",
+        "trancoRank": 251860,
+        "asOf": "2026-07-24"
+      }
+    },
+    "siliconflow": {
+      "domain": {
+        "domain": "siliconflow.cn",
+        "trancoRank": 68328,
+        "asOf": "2026-07-24"
+      }
+    },
+    "singlestore": {
+      "domain": {
+        "domain": "singlestore.com",
+        "trancoRank": 71268,
+        "asOf": "2026-07-24"
+      }
+    },
+    "size-limit": {
+      "github": {
+        "repo": "andresz1/size-limit",
+        "stars": 0,
+        "asOf": "2026-07-24"
+      }
+    },
+    "slack": {
+      "domain": {
+        "domain": "slack.com",
+        "trancoRank": 346,
+        "asOf": "2026-07-24"
+      }
+    },
+    "slite": {
+      "domain": {
+        "domain": "slite.com",
+        "trancoRank": 59292,
+        "asOf": "2026-07-24"
+      }
+    },
+    "snap-store": {
+      "domain": {
+        "domain": "snapcraft.io",
+        "trancoRank": 2867,
+        "asOf": "2026-07-24"
+      }
+    },
+    "snyk": {
+      "domain": {
+        "domain": "snyk.io",
+        "trancoRank": 13472,
+        "asOf": "2026-07-24"
+      }
+    },
+    "solidstart": {
+      "github": {
+        "repo": "solidjs/solid-start",
+        "stars": 5889,
+        "asOf": "2026-07-24"
+      },
+      "domain": {
+        "domain": "solidjs.com",
+        "trancoRank": 272518,
+        "asOf": "2026-07-24"
+      }
+    },
+    "sonarqube": {
+      "domain": {
+        "domain": "sonarsource.com",
+        "trancoRank": 15816,
+        "asOf": "2026-07-24"
+      }
+    },
+    "sops": {
+      "github": {
+        "repo": "getsops/sops",
+        "stars": 22579,
+        "asOf": "2026-07-24"
+      }
+    },
+    "source-han-sans": {
+      "github": {
+        "repo": "adobe-fonts/source-han-sans",
+        "stars": 16965,
+        "asOf": "2026-07-24"
+      }
+    },
+    "sourcegraph-amp": {
+      "domain": {
+        "domain": "sourcegraph.com",
+        "trancoRank": 36147,
+        "asOf": "2026-07-24"
+      }
+    },
+    "speechmatics": {
+      "domain": {
+        "domain": "speechmatics.com",
+        "trancoRank": 129160,
+        "asOf": "2026-07-24"
+      }
+    },
+    "spline": {
+      "domain": {
+        "domain": "spline.design",
+        "trancoRank": 37969,
+        "asOf": "2026-07-24"
+      }
+    },
+    "spring-boot": {
+      "domain": {
+        "domain": "spring.io",
+        "trancoRank": 8611,
+        "asOf": "2026-07-24"
+      }
+    },
+    "sst": {
+      "domain": {
+        "domain": "sst.dev",
+        "trancoRank": 344068,
+        "asOf": "2026-07-24"
+      }
+    },
+    "storyset": {
+      "domain": {
+        "domain": "storyset.com",
+        "trancoRank": 70898,
+        "asOf": "2026-07-24"
+      }
+    },
+    "strapi": {
+      "domain": {
+        "domain": "strapi.io",
+        "trancoRank": 29578,
+        "asOf": "2026-07-24"
+      }
+    },
+    "stylelint": {
+      "domain": {
+        "domain": "stylelint.io",
+        "trancoRank": 257390,
+        "asOf": "2026-07-24"
+      }
+    },
+    "stytch": {
+      "domain": {
+        "domain": "stytch.com",
+        "trancoRank": 16975,
+        "asOf": "2026-07-24"
+      }
+    },
+    "suno": {
+      "domain": {
+        "domain": "suno.com",
+        "trancoRank": 2771,
+        "asOf": "2026-07-24"
+      }
+    },
+    "supabase": {
+      "github": {
+        "repo": "supabase/supabase",
+        "stars": 106889,
+        "asOf": "2026-07-24"
+      }
+    },
+    "supermaven": {
+      "domain": {
+        "domain": "supermaven.com",
+        "trancoRank": 319925,
+        "asOf": "2026-07-24"
+      }
+    },
+    "supertokens": {
+      "domain": {
+        "domain": "supertokens.com",
+        "trancoRank": 552927,
+        "asOf": "2026-07-24"
+      }
+    },
+    "sveltekit": {
+      "github": {
+        "repo": "sveltejs/kit",
+        "stars": 20681,
+        "asOf": "2026-07-24"
+      },
+      "npm": {
+        "pkg": "@sveltejs/kit",
+        "downloads": 9209680,
+        "asOf": "2026-07-24"
+      }
+    },
+    "swc": {
+      "domain": {
+        "domain": "swc.rs",
+        "trancoRank": 625283,
+        "asOf": "2026-07-24"
+      }
+    },
+    "sweep": {
+      "domain": {
+        "domain": "sweep.dev",
+        "trancoRank": 491603,
+        "asOf": "2026-07-24"
+      }
+    },
+    "swift": {
+      "domain": {
+        "domain": "swift.org",
+        "trancoRank": 31990,
+        "asOf": "2026-07-24"
+      }
+    },
+    "synthesia": {
+      "domain": {
+        "domain": "synthesia.io",
+        "trancoRank": 11254,
+        "asOf": "2026-07-24"
+      }
+    },
+    "synthflow": {
+      "domain": {
+        "domain": "synthflow.ai",
+        "trancoRank": 283094,
+        "asOf": "2026-07-24"
+      }
+    },
+    "tabler-icons": {
+      "domain": {
+        "domain": "tabler.io",
+        "trancoRank": 167397,
+        "asOf": "2026-07-24"
+      }
+    },
+    "tabnine": {
+      "domain": {
+        "domain": "tabnine.com",
+        "trancoRank": 21283,
+        "asOf": "2026-07-24"
+      }
+    },
+    "tauri": {
+      "domain": {
+        "domain": "tauri.app",
+        "trancoRank": 133844,
+        "asOf": "2026-07-24"
+      }
+    },
+    "tekton": {
+      "domain": {
+        "domain": "tekton.dev",
+        "trancoRank": 680081,
+        "asOf": "2026-07-24"
+      }
+    },
+    "telegram-bot": {
+      "domain": {
+        "domain": "telegram.org",
+        "trancoRank": 243,
+        "asOf": "2026-07-24"
+      }
+    },
+    "terraform": {
+      "domain": {
+        "domain": "terraform.io",
+        "trancoRank": 13007,
+        "asOf": "2026-07-24"
+      }
+    },
+    "tesseract": {
+      "github": {
+        "repo": "tesseract-ocr/tesseract",
+        "stars": 75531,
+        "asOf": "2026-07-24"
+      }
+    },
+    "testing-library": {
+      "domain": {
+        "domain": "testing-library.com",
+        "trancoRank": 232348,
+        "asOf": "2026-07-24"
+      }
+    },
+    "tidb": {
+      "domain": {
+        "domain": "pingcap.com",
+        "trancoRank": 143061,
+        "asOf": "2026-07-24"
+      }
+    },
+    "timescaledb": {
+      "domain": {
+        "domain": "timescale.com",
+        "trancoRank": 51680,
+        "asOf": "2026-07-24"
+      }
+    },
+    "together-ai": {
+      "domain": {
+        "domain": "together.ai",
+        "trancoRank": 48782,
+        "asOf": "2026-07-24"
+      }
+    },
+    "tolgee": {
+      "domain": {
+        "domain": "tolgee.io",
+        "trancoRank": 456213,
+        "asOf": "2026-07-24"
+      }
+    },
+    "trae": {
+      "domain": {
+        "domain": "trae.ai",
+        "trancoRank": 12680,
+        "asOf": "2026-07-24"
+      }
+    },
+    "trello": {
+      "domain": {
+        "domain": "trello.com",
+        "trancoRank": 1339,
+        "asOf": "2026-07-24"
+      }
+    },
+    "trigger-dev": {
+      "domain": {
+        "domain": "trigger.dev",
+        "trancoRank": 122475,
+        "asOf": "2026-07-24"
+      }
+    },
+    "trivy": {
+      "domain": {
+        "domain": "trivy.dev",
+        "trancoRank": 63555,
+        "asOf": "2026-07-24"
+      }
+    },
+    "trpc": {
+      "domain": {
+        "domain": "trpc.io",
+        "trancoRank": 637834,
+        "asOf": "2026-07-24"
+      }
+    },
+    "turbopuffer": {
+      "domain": {
+        "domain": "turbopuffer.com",
+        "trancoRank": 641726,
+        "asOf": "2026-07-24"
+      }
+    },
+    "turso": {
+      "domain": {
+        "domain": "turso.tech",
+        "trancoRank": 227177,
+        "asOf": "2026-07-24"
+      }
+    },
+    "twilio": {
+      "domain": {
+        "domain": "twilio.com",
+        "trancoRank": 1795,
+        "asOf": "2026-07-24"
+      }
+    },
+    "typescript": {
+      "domain": {
+        "domain": "typescriptlang.org",
+        "trancoRank": 13663,
+        "asOf": "2026-07-24"
+      }
+    },
+    "typesense": {
+      "domain": {
+        "domain": "typesense.org",
+        "trancoRank": 261649,
+        "asOf": "2026-07-24"
+      }
+    },
+    "udio": {
+      "domain": {
+        "domain": "udio.com",
+        "trancoRank": 34117,
+        "asOf": "2026-07-24"
+      }
+    },
+    "umami": {
+      "domain": {
+        "domain": "umami.is",
+        "trancoRank": 18033,
+        "asOf": "2026-07-24"
+      }
+    },
+    "undraw": {
+      "domain": {
+        "domain": "undraw.co",
+        "trancoRank": 60906,
+        "asOf": "2026-07-24"
+      }
+    },
+    "unsplash": {
+      "domain": {
+        "domain": "unsplash.com",
+        "trancoRank": 396,
+        "asOf": "2026-07-24"
+      }
+    },
+    "unstructured": {
+      "domain": {
+        "domain": "unstructured.io",
+        "trancoRank": 361285,
+        "asOf": "2026-07-24"
+      }
+    },
+    "untitled-ui-icons": {
+      "domain": {
+        "domain": "untitledui.com",
+        "trancoRank": 412152,
+        "asOf": "2026-07-24"
+      }
+    },
+    "v0": {
+      "domain": {
+        "domain": "v0.dev",
+        "trancoRank": 65908,
+        "asOf": "2026-07-24"
+      }
+    },
+    "valkey": {
+      "domain": {
+        "domain": "valkey.io",
+        "trancoRank": 319573,
+        "asOf": "2026-07-24"
+      }
+    },
+    "vapi": {
+      "domain": {
+        "domain": "vapi.ai",
+        "trancoRank": 63354,
+        "asOf": "2026-07-24"
+      }
+    },
+    "vecteezy": {
+      "domain": {
+        "domain": "vecteezy.com",
+        "trancoRank": 3990,
+        "asOf": "2026-07-24"
+      }
+    },
+    "vercel-ai-sdk": {
+      "github": {
+        "repo": "vercel/ai",
+        "stars": 25757,
+        "asOf": "2026-07-24"
+      },
+      "npm": {
+        "pkg": "ai",
+        "downloads": 71559443,
+        "asOf": "2026-07-24"
+      },
+      "domain": {
+        "domain": "vercel.ai",
+        "trancoRank": 172225,
+        "asOf": "2026-07-24"
+      }
+    },
+    "vespa": {
+      "domain": {
+        "domain": "vespa.ai",
+        "trancoRank": 243984,
+        "asOf": "2026-07-24"
+      }
+    },
+    "vidu": {
+      "domain": {
+        "domain": "vidu.com",
+        "trancoRank": 43276,
+        "asOf": "2026-07-24"
+      }
+    },
+    "vite": {
+      "github": {
+        "repo": "vitejs/vite",
+        "stars": 82055,
+        "asOf": "2026-07-24"
+      },
+      "npm": {
+        "pkg": "vite",
+        "downloads": 620144972,
+        "asOf": "2026-07-24"
+      },
+      "domain": {
+        "domain": "vite.dev",
+        "trancoRank": 27503,
+        "asOf": "2026-07-24"
+      }
+    },
+    "vitest": {
+      "domain": {
+        "domain": "vitest.dev",
+        "trancoRank": 105052,
+        "asOf": "2026-07-24"
+      }
+    },
+    "vivo-store": {
+      "domain": {
+        "domain": "vivo.com.cn",
+        "trancoRank": 842,
+        "asOf": "2026-07-24"
+      }
+    },
+    "vllm": {
+      "domain": {
+        "domain": "vllm.ai",
+        "trancoRank": 20276,
+        "asOf": "2026-07-24"
+      }
+    },
+    "vue": {
+      "domain": {
+        "domain": "vuejs.org",
+        "trancoRank": 5770,
+        "asOf": "2026-07-24"
+      }
+    },
+    "vuetify": {
+      "domain": {
+        "domain": "vuetifyjs.com",
+        "trancoRank": 82744,
+        "asOf": "2026-07-24"
+      }
+    },
+    "warp": {
+      "domain": {
+        "domain": "warp.dev",
+        "trancoRank": 18524,
+        "asOf": "2026-07-24"
+      }
+    },
+    "wasabi": {
+      "domain": {
+        "domain": "wasabi.com",
+        "trancoRank": 64238,
+        "asOf": "2026-07-24"
+      }
+    },
+    "weaviate": {
+      "domain": {
+        "domain": "weaviate.io",
+        "trancoRank": 119333,
+        "asOf": "2026-07-24"
+      }
+    },
+    "windmill": {
+      "domain": {
+        "domain": "windmill.dev",
+        "trancoRank": 412065,
+        "asOf": "2026-07-24"
+      }
+    },
+    "windsurf": {
+      "domain": {
+        "domain": "codeium.com",
+        "trancoRank": 9146,
+        "asOf": "2026-07-24"
+      }
+    },
+    "wise": {
+      "domain": {
+        "domain": "wise.com",
+        "trancoRank": 1098,
+        "asOf": "2026-07-24"
+      }
+    },
+    "workos": {
+      "domain": {
+        "domain": "workos.com",
+        "trancoRank": 25267,
+        "asOf": "2026-07-24"
+      }
+    },
+    "worldfirst": {
+      "domain": {
+        "domain": "worldfirst.com.cn",
+        "trancoRank": 254275,
+        "asOf": "2026-07-24"
+      }
+    },
+    "wrike": {
+      "domain": {
+        "domain": "wrike.com",
+        "trancoRank": 14134,
+        "asOf": "2026-07-24"
+      }
+    },
+    "xiaomi-getapps": {
+      "domain": {
+        "domain": "mi.com",
+        "trancoRank": 380,
+        "asOf": "2026-07-24"
+      }
+    },
+    "yarn": {
+      "domain": {
+        "domain": "yarnpkg.com",
+        "trancoRank": 12199,
+        "asOf": "2026-07-24"
+      }
+    },
+    "yugabytedb": {
+      "domain": {
+        "domain": "yugabyte.com",
+        "trancoRank": 104469,
+        "asOf": "2026-07-24"
+      }
+    },
+    "yuque": {
+      "domain": {
+        "domain": "yuque.com",
+        "trancoRank": 16664,
+        "asOf": "2026-07-24"
+      }
+    },
+    "zcool": {
+      "domain": {
+        "domain": "zcool.com.cn",
+        "trancoRank": 18394,
+        "asOf": "2026-07-24"
+      }
+    },
+    "zcool-assets": {
+      "domain": {
+        "domain": "hellorf.com",
+        "trancoRank": 246066,
+        "asOf": "2026-07-24"
+      }
+    },
+    "zeabur": {
+      "domain": {
+        "domain": "zeabur.com",
+        "trancoRank": 129483,
+        "asOf": "2026-07-24"
+      }
+    },
+    "zed": {
+      "domain": {
+        "domain": "zed.dev",
+        "trancoRank": 19343,
+        "asOf": "2026-07-24"
+      }
+    },
+    "zig": {
+      "domain": {
+        "domain": "ziglang.org",
+        "trancoRank": 96016,
+        "asOf": "2026-07-24"
+      }
+    },
+    "zod": {
+      "domain": {
+        "domain": "zod.dev",
+        "trancoRank": 206380,
+        "asOf": "2026-07-24"
+      }
+    },
+    "zulip": {
+      "domain": {
+        "domain": "zulip.com",
+        "trancoRank": 59507,
+        "asOf": "2026-07-24"
+      }
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "video",
+    "stock",
+    "free",
+    "landing"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "片库规模相对有限；商用条款与内嵌音乐轨授权要分开确认，必要时换无声轨。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://coverr.co"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "coverr",
+  "name": "Coverr",
+  "category": "design-stock",
+  "subcategory": "video-stock",
+  "oneLiner": "免费网站英雄视频 · 竖横屏",
+  "officialUrl": "https://coverr.co",
+  "descriptionMd": "Coverr 提供面向网站英雄区与背景的免费库存视频，强调可商用短镜头与多比例，适合落地页氛围视频。\n\n营销页需要轻量 b-roll/背景视频、预算为零时选用；长片与电影级素材看付费库。\n\n片库规模相对有限；商用条款与内嵌音乐轨授权要分开确认，必要时换无声轨。\n",
+  "vendorId": "coverr-inc"
+}

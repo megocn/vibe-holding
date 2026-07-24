@@ -17,6 +17,7 @@
     "lint:fix": "biome check --write .",
     "validate": "tsx scripts/validate-content.ts",
     "gen:content": "tsx scripts/build-content.ts",
+    "gen:popularity": "tsx scripts/fetch-popularity.ts",
     "gen:schema": "tsx scripts/gen-schema.ts",
     "gen:icons": "node scripts/gen-icons.mjs",
     "gen:fonts": "bash scripts/fetch-fonts.sh",

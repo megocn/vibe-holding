@@ -13,7 +13,7 @@
     "description": "软件工程 Agent 解决真实 GitHub issue 的 % Resolved 基准；Verified 子集经人工筛选，是编码代理能力的业界参照。",
     "authority": "Princeton NLP / SWE-bench",
     "updateCadence": "ad-hoc",
-    "order": 1
+    "order": 2
   },
   {
     "id": "jetbrains-ai-tools",
@@ -40,8 +40,8 @@
     ],
     "metric": "mixed",
     "metricUnit": "Elo",
-    "url": "https://arena.ai/leaderboard",
-    "description": "众包盲测两两偏好投票的 Elo 排行；文本 Arena 是通用对话/推理能力的事实标准。",
+    "url": "https://arena.ai/leaderboard/text",
+    "description": "众包盲测两两偏好 Elo；Text Arena Overall 是通用对话/推理的事实标准。",
     "authority": "Arena AI（原 LMSYS）",
     "updateCadence": "weekly",
     "order": 1
@@ -68,15 +68,16 @@
     "shortName": "OpenRouter",
     "categories": [
       "gateway-router",
-      "gateway-local"
+      "gateway-local",
+      "llm-line"
     ],
     "metric": "share",
     "metricUnit": "%",
     "url": "https://openrouter.ai/rankings",
-    "description": "统一网关上的真实请求份额与热度，反映接入层路由与模型选用偏好。",
+    "description": "统一网关上的真实请求份额与热度；反映路由层选用偏好，不等于能力上限。",
     "authority": "OpenRouter",
     "updateCadence": "weekly",
-    "order": 1
+    "order": 8
   },
   {
     "id": "tiobe-index",
@@ -318,6 +319,34 @@
     "order": 1
   },
   {
+    "id": "g2-ocr",
+    "name": "G2 · Optical Character Recognition (OCR)",
+    "shortName": "G2 OCR",
+    "categories": [
+      "ai-ocr"
+    ],
+    "metric": "score",
+    "url": "https://www.g2.com/categories/optical-character-recognition-ocr",
+    "description": "OCR / 文档识别类产品用户评分，企业 IDP 与云 OCR 选型市场参照。",
+    "authority": "G2",
+    "updateCadence": "quarterly",
+    "order": 1
+  },
+  {
+    "id": "product-hunt-doc-ai",
+    "name": "Product Hunt · Document AI",
+    "shortName": "Product Hunt DocAI",
+    "categories": [
+      "ai-ocr"
+    ],
+    "metric": "rank",
+    "url": "https://www.producthunt.com/topics/artificial-intelligence",
+    "description": "文档解析 / OCR 相关新品社区热度，偏开源工具与 API 发现；正式选型需样张评测。",
+    "authority": "Product Hunt",
+    "updateCadence": "daily",
+    "order": 2
+  },
+  {
     "id": "forrester-wave-payments",
     "name": "Forrester Wave · Merchant Payment Providers",
     "shortName": "Forrester Pay",
@@ -551,15 +580,46 @@
     "order": 2
   },
   {
+    "id": "lmarena-image",
+    "name": "Arena AI Text-to-Image Leaderboard",
+    "shortName": "Arena Image",
+    "categories": [
+      "design-ai-image"
+    ],
+    "metric": "mixed",
+    "metricUnit": "Elo",
+    "url": "https://arena.ai/leaderboard/text-to-image",
+    "description": "众包盲测文生图偏好 Elo；当前文生图能力与热度的事实标准，选型时优先于社区新品榜。",
+    "authority": "Arena AI（原 LMSYS）",
+    "updateCadence": "weekly",
+    "order": 1
+  },
+  {
+    "id": "aa-image-arena",
+    "name": "Artificial Analysis · Text-to-Image Arena",
+    "shortName": "AA Image",
+    "categories": [
+      "design-ai-image"
+    ],
+    "metric": "mixed",
+    "metricUnit": "Elo",
+    "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "description": "独立第三方文生图盲测 Elo，常与 Arena 交叉验证；含开源权重与 API 价参考。",
+    "authority": "Artificial Analysis",
+    "updateCadence": "weekly",
+    "order": 2
+  },
+  {
     "id": "javascript-rising-stars",
     "name": "JavaScript Rising Stars",
     "shortName": "Rising Stars",
     "categories": [
       "design-tools",
-      "design-ai-image",
-      "design-ai-video",
       "design-ai-music",
-      "design-motion"
+      "design-motion",
+      "design-stock",
+      "design-inspiration",
+      "design-fonts"
     ],
     "metric": "rank",
     "url": "https://risingstars.js.org/",
@@ -574,17 +634,18 @@
     "shortName": "Product Hunt",
     "categories": [
       "design-tools",
-      "design-ai-image",
-      "design-ai-video",
       "design-ai-music",
-      "design-motion"
+      "design-motion",
+      "design-stock",
+      "design-inspiration",
+      "design-fonts"
     ],
     "metric": "rank",
     "url": "https://www.producthunt.com/topics/design-tools",
     "description": "设计工具与素材类产品社区热度榜，偏新品发现。",
     "authority": "Product Hunt",
     "updateCadence": "daily",
-    "order": 2
+    "order": 3
   },
   {
     "id": "gartner-mq-cwm",
@@ -705,5 +766,185 @@
     "authority": "VibeHolding editorial",
     "updateCadence": "ad-hoc",
     "order": 1
+  },
+  {
+    "id": "lmarena-agent",
+    "name": "Arena AI Agent Leaderboard",
+    "shortName": "Arena Agent",
+    "categories": [
+      "llm-line"
+    ],
+    "metric": "mixed",
+    "metricUnit": "%",
+    "url": "https://arena.ai/leaderboard/agent",
+    "description": "Agent 任务众包偏好胜率；长链路工具调用与异步任务选型参照。",
+    "authority": "Arena AI（原 LMSYS）",
+    "updateCadence": "weekly",
+    "order": 3
+  },
+  {
+    "id": "lmarena-webdev",
+    "name": "Arena AI WebDev Leaderboard",
+    "shortName": "Arena WebDev",
+    "categories": [
+      "llm-line"
+    ],
+    "metric": "mixed",
+    "metricUnit": "Elo",
+    "url": "https://arena.ai/leaderboard/code/webdev",
+    "description": "Web 开发任务盲测 Elo；前端/全栈落地能力常用参照。",
+    "authority": "Arena AI（原 LMSYS）",
+    "updateCadence": "weekly",
+    "order": 4
+  },
+  {
+    "id": "lmarena-vision",
+    "name": "Arena AI Vision Leaderboard",
+    "shortName": "Arena Vision",
+    "categories": [
+      "llm-line"
+    ],
+    "metric": "mixed",
+    "metricUnit": "Elo",
+    "url": "https://arena.ai/leaderboard/vision",
+    "description": "多模态视觉理解盲测 Elo；读图/图表/OCR 向选型参照。",
+    "authority": "Arena AI（原 LMSYS）",
+    "updateCadence": "weekly",
+    "order": 5
+  },
+  {
+    "id": "lmarena-document",
+    "name": "Arena AI Document Leaderboard",
+    "shortName": "Arena Doc",
+    "categories": [
+      "llm-line"
+    ],
+    "metric": "mixed",
+    "metricUnit": "Elo",
+    "url": "https://arena.ai/leaderboard/document",
+    "description": "长文档理解与问答盲测 Elo。",
+    "authority": "Arena AI（原 LMSYS）",
+    "updateCadence": "weekly",
+    "order": 6
+  },
+  {
+    "id": "lmarena-search",
+    "name": "Arena AI Search Leaderboard",
+    "shortName": "Arena Search",
+    "categories": [
+      "llm-line"
+    ],
+    "metric": "mixed",
+    "metricUnit": "Elo",
+    "url": "https://arena.ai/leaderboard/search",
+    "description": "带检索/联网的问答盲测 Elo；Search/Grounding 产品选型参照。",
+    "authority": "Arena AI（原 LMSYS）",
+    "updateCadence": "weekly",
+    "order": 7
+  },
+  {
+    "id": "lmarena-image-edit",
+    "name": "Arena AI Image Edit Leaderboard",
+    "shortName": "Arena ImgEdit",
+    "categories": [
+      "design-ai-image"
+    ],
+    "metric": "mixed",
+    "metricUnit": "Elo",
+    "url": "https://arena.ai/leaderboard/image-edit",
+    "description": "单图编辑盲测 Elo；改图/局部编辑选型参照。",
+    "authority": "Arena AI（原 LMSYS）",
+    "updateCadence": "weekly",
+    "order": 3
+  },
+  {
+    "id": "lmarena-t2v",
+    "name": "Arena AI Text-to-Video Leaderboard",
+    "shortName": "Arena T2V",
+    "categories": [
+      "design-ai-video"
+    ],
+    "metric": "mixed",
+    "metricUnit": "Elo",
+    "url": "https://arena.ai/leaderboard/text-to-video",
+    "description": "文生视频盲测 Elo；视频生成能力事实标准之一。",
+    "authority": "Arena AI（原 LMSYS）",
+    "updateCadence": "weekly",
+    "order": 1
+  },
+  {
+    "id": "lmarena-i2v",
+    "name": "Arena AI Image-to-Video Leaderboard",
+    "shortName": "Arena I2V",
+    "categories": [
+      "design-ai-video"
+    ],
+    "metric": "mixed",
+    "metricUnit": "Elo",
+    "url": "https://arena.ai/leaderboard/image-to-video",
+    "description": "图生视频盲测 Elo。",
+    "authority": "Arena AI（原 LMSYS）",
+    "updateCadence": "weekly",
+    "order": 2
+  },
+  {
+    "id": "lmarena-video-edit",
+    "name": "Arena AI Video Edit Leaderboard",
+    "shortName": "Arena VidEdit",
+    "categories": [
+      "design-ai-video"
+    ],
+    "metric": "mixed",
+    "metricUnit": "Elo",
+    "url": "https://arena.ai/leaderboard/video-edit",
+    "description": "视频编辑盲测 Elo。",
+    "authority": "Arena AI（原 LMSYS）",
+    "updateCadence": "weekly",
+    "order": 3
+  },
+  {
+    "id": "aa-coding-agent",
+    "name": "Artificial Analysis · Coding Agent Index",
+    "shortName": "AA Coding",
+    "categories": [
+      "coding-cli-agent",
+      "coding-ide-agent"
+    ],
+    "metric": "score",
+    "url": "https://artificialanalysis.ai/",
+    "description": "编码 Agent 脚手架×模型组合的综合指数；对照 Codex / Claude Code 等真实工作流。",
+    "authority": "Artificial Analysis",
+    "updateCadence": "weekly",
+    "order": 1
+  },
+  {
+    "id": "aa-video-arena",
+    "name": "Artificial Analysis · Text-to-Video Arena",
+    "shortName": "AA Video",
+    "categories": [
+      "design-ai-video"
+    ],
+    "metric": "mixed",
+    "metricUnit": "Elo",
+    "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+    "description": "文生视频盲测 Elo（含音画）；与 Arena T2V 交叉验证。",
+    "authority": "Artificial Analysis",
+    "updateCadence": "weekly",
+    "order": 4
+  },
+  {
+    "id": "swe-bench-pro",
+    "name": "SWE-bench Pro",
+    "shortName": "SWE-bench Pro",
+    "categories": [
+      "llm-line"
+    ],
+    "metric": "score",
+    "metricUnit": "%",
+    "url": "https://www.swebench.com/",
+    "description": "更难的软件工程 Agent 基准 % Resolved；模型档位编码能力交叉验证（非产品脚手架榜）。",
+    "authority": "SWE-bench / community",
+    "updateCadence": "ad-hoc",
+    "order": 9
   }
 ]

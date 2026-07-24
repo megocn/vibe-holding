@@ -5,8 +5,8 @@
   "subcategory": "line",
   "vendorId": "moonshot-inc",
   "region": "domestic",
-  "oneLiner": "月之暗面旗舰 · MoE/百万级上下文叙事 · 原生多模态；自托管门槛高",
-  "descriptionMd": "月之暗面 Kimi 产品族的**旗舰选型档**。当前版本为 K3（约 2.8T MoE、百万级上下文、原生多模态等能力叙事，以官方为准）。\n\n与 Claude Opus、Qwen-Max、DeepSeek 旗舰同属档位粒度，可对齐 Arena/定价；不要与「通义千问产品族」等上层节点直接同列。\n\n旗舰档对齐海外旗舰做评测；上下文很长也不要无脑塞整仓，仍要检索与摘要。\n",
+  "oneLiner": "月之暗面旗舰 · K3 · Arena WebDev #1",
+  "descriptionMd": "月之暗面 Kimi 产品族的**旗舰选型档**。当前版本为 K3（约 2.8T MoE、百万级上下文、原生多模态等能力叙事，以官方为准）。Arena WebDev 居首，Agent/Text 亦处前列。\n\n与 Claude Fable/Opus、GPT Sol、Gemini Pro 同层对标；国内可达的开权重量级旗舰。\n\n旗舰调用需充值解锁；自托管门槛高；C 端高峰可能限流。\n",
   "officialUrl": "https://www.kimi.com",
   "docsUrl": "https://platform.kimi.com/docs/guide/kimi-k3-quickstart",
   "currentVersion": "K3",
@@ -51,16 +51,62 @@
   "rankings": [
     {
       "systemId": "lmarena-text",
-      "tier": "Open frontier",
       "period": "2026-07",
-      "note": "开源/开权重量级旗舰；闭源顶尖仍可能领先",
-      "sourceUrl": "https://www.kimi.com/zh-cn/blog/kimi-k3",
-      "asOf": "2026-07-23"
+      "note": "kimi-k3",
+      "sourceUrl": "https://arena.ai/leaderboard/text",
+      "asOf": "2026-07-24",
+      "rank": 10,
+      "score": 1486,
+      "scoreLabel": "1486 Elo"
+    },
+    {
+      "systemId": "lmarena-agent",
+      "period": "2026-07",
+      "note": "Kimi K3",
+      "sourceUrl": "https://arena.ai/leaderboard/agent",
+      "asOf": "2026-07-24",
+      "rank": 4,
+      "share": 9.71,
+      "scoreLabel": "9.71% win"
+    },
+    {
+      "systemId": "lmarena-webdev",
+      "period": "2026-07",
+      "note": "kimi-k3",
+      "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+      "asOf": "2026-07-24",
+      "rank": 1,
+      "score": 1678,
+      "scoreLabel": "1678 Elo"
+    },
+    {
+      "systemId": "artificial-analysis-index",
+      "period": "2026-07",
+      "note": "Kimi K3",
+      "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
+      "asOf": "2026-07-24",
+      "rank": 3,
+      "score": 57,
+      "scoreLabel": "AAII 57"
+    },
+    {
+      "systemId": "openrouter-popularity",
+      "period": "2026-07",
+      "note": "K3 上线后 OpenRouter 用量快速爬升",
+      "sourceUrl": "https://openrouter.ai/rankings",
+      "asOf": "2026-07-24",
+      "rank": 11,
+      "tier": "Rising usage"
     }
   ],
   "sources": [
     "https://www.kimi.com/zh-cn/blog/kimi-k3",
-    "https://platform.kimi.com/docs/guide/kimi-k3-quickstart"
+    "https://platform.kimi.com/docs/guide/kimi-k3-quickstart",
+    "https://arena.ai/leaderboard/code/webdev",
+    "https://arena.ai/leaderboard/agent",
+    "https://arena.ai/leaderboard/text",
+    "https://artificialanalysis.ai/leaderboards/models",
+    "https://openrouter.ai/rankings"
   ],
-  "lastReviewed": "2026-07-23"
+  "lastReviewed": "2026-07-24"
 }

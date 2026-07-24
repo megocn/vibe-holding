@@ -21,9 +21,21 @@
     "国际语种与文档生态弱于 ElevenLabs；生产前需锁定音色与 endpoint 版本。"
   ],
   "updates": [],
-  "rankings": [],
+  "rankings": [
+    {
+      "systemId": "aa-speech-arena",
+      "period": "2026-07",
+      "note": "Speech 2.8 HD",
+      "sourceUrl": "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice",
+      "asOf": "2026-07-24",
+      "rank": 10,
+      "score": 1178,
+      "scoreLabel": "1178 Elo"
+    }
+  ],
   "sources": [
-    "https://www.minimaxi.com"
+    "https://www.minimaxi.com",
+    "https://artificialanalysis.ai/text-to-speech/leaderboard/provider-voice"
   ],
   "lastReviewed": "2026-07-24",
   "region": "domestic",
@@ -31,8 +43,9 @@
   "name": "MiniMax 语音",
   "category": "ai-speech",
   "subcategory": "tts",
-  "oneLiner": "MiniMax Speech · 中文角色音色 · 国内 API",
+  "oneLiner": "MiniMax Speech 2.8 · 中文音色 · AA Speech 前十",
   "officialUrl": "https://www.minimaxi.com",
   "descriptionMd": "MiniMax 在文本大模型之外提供语音合成与音色能力，强调中文表现力与角色一致性，面向国内 ToB 与互动娱乐。\n\n国内需要高质量中文旁白/角色语音、并可能同栈使用 MiniMax 文本或视频能力时评估。\n\n国际语种与文档生态弱于 ElevenLabs；生产前需锁定音色与 endpoint 版本。\n",
-  "vendorId": "minimax-inc"
+  "vendorId": "minimax-inc",
+  "currentVersion": "Speech 2.8 HD"
 }

@@ -97,4 +97,24 @@ describe('RankingSystem / EntryRanking', () => {
     );
     expect(sorted).toEqual(['b', 'a', 'c']);
   });
+
+  it('无权威快照时按外部突出度兜底，其次 maturity，最后名称', () => {
+    const systems: never[] = []; // 该分类无主榜
+    const resolve = (id: string) => {
+      const map: Record<string, { name: string; maturity: string }> = {
+        popular: { name: 'Z popular', maturity: 'beta' },
+        mid: { name: 'A mid', maturity: 'stable' },
+        none1: { name: 'Y none', maturity: 'mature' },
+        none2: { name: 'B none', maturity: 'beta' },
+      };
+      const m = map[id];
+      return m ? { category: 'x', name: m.name, rankings: [], maturity: m.maturity } : undefined;
+    };
+    const prom: Record<string, number> = { popular: 0.9, mid: 0.4 };
+    const sorted = sortIdsByPrimaryRanking(['none1', 'mid', 'none2', 'popular'], resolve, systems, {
+      prominenceOf: (id) => prom[id],
+    });
+    // 有突出度的按分降序在前；无信号者沉底，先 maturity(mature<beta) 再名称
+    expect(sorted).toEqual(['popular', 'mid', 'none1', 'none2']);
+  });
 });

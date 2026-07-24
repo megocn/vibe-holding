@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "inspiration",
+    "ui",
+    "patterns",
+    "mobile"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "订阅制；截图仅供参考，实现与无研仍要自己做。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://mobbin.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "mobbin",
+  "name": "Mobbin",
+  "category": "design-inspiration",
+  "subcategory": "ui-patterns",
+  "oneLiner": "移动/Web UI 截图库 · 模式检索",
+  "officialUrl": "https://mobbin.com",
+  "descriptionMd": "Mobbin 收录真实 App/Web 界面截图，可按流程与 UI 模式检索，产品设计师做竞品与交互参考时高频使用。\n\n需要真实产品界面模式（登录/支付/列表），而非概念 shot 时优先。\n\n订阅制；截图仅供参考，实现与无研仍要自己做。\n",
+  "vendorId": "mobbin-inc"
+}

@@ -3,6 +3,7 @@ export * from './entry.ts';
 export * from './edge.ts';
 export * from './meta.ts';
 export * from './ranking.ts';
+export * from './popularity.ts';
 export * from './recipe.ts';
 export * from './credential.ts';
 export * from './userdata.ts';

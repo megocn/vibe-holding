@@ -1,0 +1,10 @@
+{
+  "id": "edge-mistral-ocr-docai-alt",
+  "from": "mistral-ocr",
+  "to": "google-document-ai",
+  "type": "alternative_to",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

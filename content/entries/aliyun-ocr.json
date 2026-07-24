@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "ocr",
+    "domestic",
+    "forms"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "按次计费与 QPS 套餐需测算；复杂版式与小语种效果要抽样评测。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.aliyun.com/product/ocr"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "domestic",
+  "id": "aliyun-ocr",
+  "name": "阿里云 OCR",
+  "category": "ai-ocr",
+  "subcategory": "ocr-api",
+  "oneLiner": "阿里云文字识别 · 证件/票据 · 国内",
+  "officialUrl": "https://www.aliyun.com/product/ocr",
+  "descriptionMd": "阿里云 OCR（文字识别）提供通用印刷体、手写、证件、票据、表格等 API，面向国内 App 与政企影像录入，可与百炼/OSS 同区落地。\n\n国内业务需要证件/发票结构化、备案业务同云时优先；开源自托管对照 PaddleOCR。\n\n按次计费与 QPS 套餐需测算；复杂版式与小语种效果要抽样评测。\n",
+  "vendorId": "alibaba-cloud"
+}

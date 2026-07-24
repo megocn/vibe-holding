@@ -1,0 +1,10 @@
+{
+  "id": "edge-adobe-stock-unsplash-alt",
+  "from": "adobe-stock",
+  "to": "unsplash",
+  "type": "alternative_to",
+  "weight": 0.45,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

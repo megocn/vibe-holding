@@ -33,15 +33,20 @@
     }
   ],
   "sources": [
-    "https://openai.com/index/gpt-5-6/"
+    "https://openai.com/index/gpt-5-6/",
+    "https://arena.ai/leaderboard/agent",
+    "https://arena.ai/leaderboard/code/webdev",
+    "https://arena.ai/leaderboard/search",
+    "https://artificialanalysis.ai/leaderboards/models",
+    "https://www.swebench.com/"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-24",
   "region": "overseas",
   "id": "gpt-4o",
   "name": "GPT 旗舰",
   "category": "llm-line",
   "vendorId": "openai",
-  "oneLiner": "OpenAI 旗舰档 · 现为 GPT-5.6 Sol · 多模态/Agent 通用底座",
+  "oneLiner": "OpenAI 旗舰 · GPT-5.6 Sol · Arena Agent/WebDev 前列",
   "descriptionMd": "OpenAI GPT 产品族的**旗舰选型档**。当前版本为 GPT-5.6 Sol（2026-07-09 GA；同代还有 Terra 均衡档与 Luna 成本档）。\n\n与 Claude Opus、Gemini Pro 同层比能力、价与工具调用；「4o」等历史名是旧版本标签，不要当成与「GPT 产品族」同级的节点。\n\n旗舰档用于难任务；日常辅助用同族 Terra/Luna，建立「路由策略」比死磕一档重要。\n",
   "officialUrl": "https://openai.com/index/gpt-5-6/",
   "rankings": [
@@ -49,15 +54,78 @@
       "systemId": "lmarena-text",
       "tier": "Frontier",
       "period": "2026-07",
-      "note": "GPT-5.6 Sol 为当前 OpenAI 旗舰；Arena 名次随榜单波动",
-      "asOf": "2026-07-23"
+      "note": "Text Overall 名次随快照波动；Agent/WebDev 更稳居前列",
+      "sourceUrl": "https://arena.ai/leaderboard/text",
+      "asOf": "2026-07-24"
+    },
+    {
+      "systemId": "lmarena-agent",
+      "period": "2026-07",
+      "note": "GPT 5.6 Sol (xHigh)",
+      "sourceUrl": "https://arena.ai/leaderboard/agent",
+      "asOf": "2026-07-24",
+      "rank": 2,
+      "share": 10.12,
+      "scoreLabel": "10.12% win"
+    },
+    {
+      "systemId": "lmarena-webdev",
+      "period": "2026-07",
+      "note": "gpt-5.6-sol-xhigh (codex-harness)",
+      "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+      "asOf": "2026-07-24",
+      "rank": 3,
+      "score": 1630,
+      "scoreLabel": "1630 Elo"
+    },
+    {
+      "systemId": "lmarena-vision",
+      "period": "2026-07",
+      "note": "gpt-5.5",
+      "sourceUrl": "https://arena.ai/leaderboard/vision",
+      "asOf": "2026-07-24",
+      "rank": 9,
+      "score": 1286,
+      "scoreLabel": "1286 Elo"
+    },
+    {
+      "systemId": "lmarena-document",
+      "period": "2026-07",
+      "note": "gpt-5.5-high",
+      "sourceUrl": "https://arena.ai/leaderboard/document",
+      "asOf": "2026-07-24",
+      "rank": 6,
+      "score": 1487,
+      "scoreLabel": "1487 Elo"
+    },
+    {
+      "systemId": "lmarena-search",
+      "period": "2026-07",
+      "note": "gpt-5.5-search",
+      "sourceUrl": "https://arena.ai/leaderboard/search",
+      "asOf": "2026-07-24",
+      "rank": 2,
+      "score": 1240,
+      "scoreLabel": "1240 Elo"
     },
     {
       "systemId": "artificial-analysis-index",
-      "tier": "Frontier",
       "period": "2026-07",
-      "note": "Sol 为 GPT-5.6 顶档；Terra/Luna 分档控成本",
-      "asOf": "2026-07-23"
+      "note": "GPT-5.6 Sol (max)",
+      "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
+      "asOf": "2026-07-24",
+      "rank": 2,
+      "score": 59,
+      "scoreLabel": "AAII 59"
+    },
+    {
+      "systemId": "swe-bench-pro",
+      "period": "2026-07",
+      "note": "SWE-bench Pro（Sol 档公开报道）",
+      "sourceUrl": "https://www.swebench.com/",
+      "asOf": "2026-07-24",
+      "score": 64.6,
+      "scoreLabel": "64.6%"
     }
   ],
   "subcategory": "line",

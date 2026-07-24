@@ -16,14 +16,26 @@
     "video",
     "openai"
   ],
-  "maturity": "beta",
+  "maturity": "stable",
   "pitfalls": [
     "可用性与区域政策变化快；成本高，生产批量素材更常看 Kling/Runway/Luma 等。"
   ],
   "updates": [],
-  "rankings": [],
+  "rankings": [
+    {
+      "systemId": "lmarena-t2v",
+      "period": "2026-07",
+      "note": "sora-2-pro",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
+      "asOf": "2026-07-24",
+      "rank": 5,
+      "score": 1366,
+      "scoreLabel": "1366 Elo"
+    }
+  ],
   "sources": [
-    "https://openai.com/sora"
+    "https://openai.com/sora",
+    "https://arena.ai/leaderboard/text-to-video"
   ],
   "lastReviewed": "2026-07-24",
   "region": "overseas",
@@ -31,8 +43,9 @@
   "name": "Sora",
   "category": "design-ai-video",
   "subcategory": "video-gen",
-  "oneLiner": "OpenAI 视频生成 · 高保真叙事 · 生态绑定",
+  "oneLiner": "OpenAI Sora 2 Pro · 高保真叙事 · Arena T2V #5",
   "officialUrl": "https://openai.com/sora",
-  "descriptionMd": "Sora 是 OpenAI 的文生视频产品线，强调高保真运动与叙事连贯，常作为海外旗舰视频生成参照，接入与配额随 ChatGPT/API 产品策略变化。\n\n已在 OpenAI 生态、需要旗舰级演示片或研究级样本时关注；具体 API/产品形态以官方当前开放为准。\n\n可用性与区域政策变化快；成本高，生产批量素材更常看 Kling/Runway/Luma 等。\n",
-  "vendorId": "openai"
+  "descriptionMd": "Sora 是 OpenAI 的文生视频产品线（现 Sora 2 / Pro），强调高保真运动与叙事连贯；Arena Text-to-Video 约第 5（sora-2-pro）。\n\n已在 OpenAI 生态、需要旗舰级演示片时关注；批量生产仍常对照 Seedance / Omni Flash / Kling。\n\n可用性与区域政策变化快；成本高。\n",
+  "vendorId": "openai",
+  "currentVersion": "Sora 2 Pro"
 }

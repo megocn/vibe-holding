@@ -43,37 +43,113 @@
     }
   ],
   "sources": [
-    "https://www.anthropic.com/claude"
+    "https://www.anthropic.com/claude",
+    "https://docs.anthropic.com",
+    "https://arena.ai/leaderboard/text",
+    "https://arena.ai/leaderboard/agent",
+    "https://arena.ai/leaderboard/document",
+    "https://artificialanalysis.ai/leaderboards/models",
+    "https://openrouter.ai/rankings",
+    "https://www.swebench.com/"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-24",
   "region": "overseas",
   "id": "claude-opus",
   "name": "Claude Opus",
   "category": "llm-line",
   "vendorId": "anthropic",
-  "oneLiner": "Anthropic 顶档 · 复杂推理/长链路 Agent · 高质量编码；价高",
-  "descriptionMd": "Anthropic Claude 产品族中的**旗舰选型档**。当前版本以 Opus 4.8 为代表，偏复杂推理、长链路 Agent 与高质量编码协作。\n\n应与其他族的旗舰档（如 Kimi 旗舰、Qwen-Max、GPT 旗舰）对比，而不是与「通义千问产品族」等上层节点同列。定价按量，适合高价值任务而非全文检索式滥调用。\n\n贵但稳的复杂任务档；批量便宜活应降级到同族中低档，避免旗舰打杂。\n",
+  "oneLiner": "Anthropic 旗舰档 · Opus 4.8 · 企业 Agent 默认高档",
+  "descriptionMd": "Anthropic Claude 产品族中的**旗舰企业选型档**（现 Opus 4.8）。复杂推理、长链路 Agent 与高质量编码协作；公开最强档见 Claude Fable。Arena Text 上 Opus 4.6/4.7 Thinking 仍处前三甲，Document/Search 亦强。\n\n企业复杂任务与编码 Agent 的默认高档；需当前 Anthropic 绝对顶档时升 Fable。\n\n价高；国内不可直连；长任务 token 消耗需留意。\n",
   "officialUrl": "https://www.anthropic.com/claude",
   "docsUrl": "https://docs.anthropic.com",
   "rankings": [
     {
       "systemId": "lmarena-text",
-      "rank": 1,
-      "score": 1512,
-      "scoreLabel": "1512 Elo",
       "period": "2026-07",
-      "note": "Text Arena 旗舰档（Opus 4.8 Thinking）",
-      "sourceUrl": "https://arena.ai/leaderboard",
-      "asOf": "2026-07-20"
+      "note": "claude-opus-4-6-thinking（同族 Opus 最高可见档）",
+      "sourceUrl": "https://arena.ai/leaderboard/text",
+      "asOf": "2026-07-24",
+      "rank": 2,
+      "score": 1505,
+      "scoreLabel": "1505 Elo"
+    },
+    {
+      "systemId": "lmarena-agent",
+      "period": "2026-07",
+      "note": "Claude Opus 4.8 (Thinking)",
+      "sourceUrl": "https://arena.ai/leaderboard/agent",
+      "asOf": "2026-07-24",
+      "rank": 3,
+      "share": 9.75,
+      "scoreLabel": "9.75% win"
+    },
+    {
+      "systemId": "lmarena-webdev",
+      "period": "2026-07",
+      "note": "claude-opus-4-8-thinking",
+      "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+      "asOf": "2026-07-24",
+      "rank": 5,
+      "score": 1565,
+      "scoreLabel": "1565 Elo"
+    },
+    {
+      "systemId": "lmarena-vision",
+      "period": "2026-07",
+      "note": "claude-opus-4-7-thinking",
+      "sourceUrl": "https://arena.ai/leaderboard/vision",
+      "asOf": "2026-07-24",
+      "rank": 2,
+      "score": 1306,
+      "scoreLabel": "1306 Elo"
+    },
+    {
+      "systemId": "lmarena-document",
+      "period": "2026-07",
+      "note": "claude-opus-4-6",
+      "sourceUrl": "https://arena.ai/leaderboard/document",
+      "asOf": "2026-07-24",
+      "rank": 1,
+      "score": 1510,
+      "scoreLabel": "1510 Elo"
+    },
+    {
+      "systemId": "lmarena-search",
+      "period": "2026-07",
+      "note": "claude-opus-4-6-search",
+      "sourceUrl": "https://arena.ai/leaderboard/search",
+      "asOf": "2026-07-24",
+      "rank": 1,
+      "score": 1253,
+      "scoreLabel": "1253 Elo"
     },
     {
       "systemId": "artificial-analysis-index",
-      "score": 61.4,
-      "scoreLabel": "AAII 61.4",
       "period": "2026-07",
-      "note": "Intelligence Index 前列；SWE-bench Pro ~69%",
-      "sourceUrl": "https://artificialanalysis.ai/",
-      "asOf": "2026-07-20"
+      "note": "Claude Opus 4.8 (max)",
+      "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
+      "asOf": "2026-07-24",
+      "rank": 6,
+      "score": 56,
+      "scoreLabel": "AAII 56"
+    },
+    {
+      "systemId": "openrouter-popularity",
+      "period": "2026-07",
+      "note": "Claude Opus 4.8 · OpenRouter 周用量前列",
+      "sourceUrl": "https://openrouter.ai/rankings",
+      "asOf": "2026-07-24",
+      "rank": 8,
+      "tier": "High usage"
+    },
+    {
+      "systemId": "swe-bench-pro",
+      "period": "2026-07",
+      "note": "SWE-bench Pro（Opus 4.8 公开报道）",
+      "sourceUrl": "https://www.swebench.com/",
+      "asOf": "2026-07-24",
+      "score": 69.2,
+      "scoreLabel": "69.2%"
     }
   ],
   "subcategory": "line"

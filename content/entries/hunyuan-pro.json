@@ -20,17 +20,38 @@
     "跨平台导出模型困难；锁定腾讯生态后迁移成本需评估。"
   ],
   "updates": [],
-  "rankings": [],
-  "sources": [
-    "https://cloud.tencent.com/product/hunyuan"
+  "rankings": [
+    {
+      "systemId": "artificial-analysis-index",
+      "period": "2026-07",
+      "note": "Hy3",
+      "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
+      "asOf": "2026-07-24",
+      "score": 41,
+      "scoreLabel": "AAII 41"
+    },
+    {
+      "systemId": "openrouter-popularity",
+      "period": "2026-07",
+      "note": "Hy3 · OpenRouter 周用量顶尖（快照）",
+      "sourceUrl": "https://openrouter.ai/rankings",
+      "asOf": "2026-07-24",
+      "rank": 3,
+      "tier": "Top usage"
+    }
   ],
-  "lastReviewed": "2026-07-23",
+  "sources": [
+    "https://cloud.tencent.com/product/hunyuan",
+    "https://openrouter.ai/rankings",
+    "https://artificialanalysis.ai/leaderboards/models"
+  ],
+  "lastReviewed": "2026-07-24",
   "region": "domestic",
   "id": "hunyuan-pro",
   "name": "混元 Hy3",
   "category": "llm-line",
   "subcategory": "line",
-  "oneLiner": "腾讯混元旗舰 · Hy3 · 插件/多模态；腾讯云与微信深绑",
+  "oneLiner": "腾讯混元旗舰 · Hy3 · OpenRouter 用量顶尖",
   "officialUrl": "https://cloud.tencent.com/product/hunyuan",
   "descriptionMd": "混元家族旗舰 line。当前版本为混元 Hy3（约 2026-07 正式）；「混元 Pro」为上一代档位称呼。\n\n腾讯云原生应用、企微 Bot 与游戏/社交类国内产品后端。\n\n跨平台导出模型困难；锁定腾讯生态后迁移成本需评估。\n",
   "vendorId": "tencent-hunyuan",

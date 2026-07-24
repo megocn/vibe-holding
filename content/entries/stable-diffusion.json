@@ -19,18 +19,42 @@
     "模型版权与生成内容合规需法务评估；硬件 GPU 成本不低。"
   ],
   "updates": [],
-  "rankings": [],
-  "sources": [
-    "https://stability.ai/stable-diffusion"
+  "rankings": [
+    {
+      "systemId": "lmarena-image",
+      "rank": 73,
+      "score": 938,
+      "scoreLabel": "938 Elo",
+      "period": "2026-07",
+      "note": "stable-diffusion-v35-large",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    },
+    {
+      "systemId": "aa-image-arena",
+      "rank": 111,
+      "score": 1020,
+      "scoreLabel": "1020 Elo",
+      "period": "2026-07",
+      "note": "Stable Diffusion 3.5 Large",
+      "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    }
   ],
-  "lastReviewed": "2026-07-23",
+  "sources": [
+    "https://stability.ai/stable-diffusion",
+    "https://arena.ai/leaderboard/text-to-image",
+    "https://artificialanalysis.ai/image/leaderboard/text-to-image"
+  ],
+  "lastReviewed": "2026-07-24",
   "region": "overseas",
   "id": "stable-diffusion",
   "name": "Stable Diffusion",
   "category": "design-ai-image",
   "subcategory": "image-gen",
-  "oneLiner": "开源可本地 · LoRA/DreamBooth · 自托管可控",
+  "oneLiner": "开源可本地 · SD 3.5 · LoRA 生态",
   "officialUrl": "https://stability.ai/stable-diffusion",
-  "descriptionMd": "Stable Diffusion 开源文生图/图生图模型，可本地或云端运行，LoRA/DreamBooth 生态丰富。\n\n需要可控成本的批量素材、或私有化生成不宜上传商业机密 prompt 时自托管 SD。\n\n模型版权与生成内容合规需法务评估；硬件 GPU 成本不低。\n",
-  "vendorId": "stability-ai"
+  "descriptionMd": "Stable Diffusion 开源文生图/图生图家族，现常见 SD 3.5 Large 等档；Arena 上约第 73，AA 开源权重中段。优势在本地/私有化与 LoRA 生态，而非盲测总分。\n\n需要可控成本批量素材、或私有化不宜上传商业机密 prompt 时自托管。\n\n模型版权与生成内容合规需法务评估；硬件 GPU 成本不低。\n",
+  "vendorId": "stability-ai",
+  "currentVersion": "SD 3.5 Large"
 }

@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ocr",
+    "open-source",
+    "baseline"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "对倾斜、噪声、复杂版面与手写较弱；生产前必须加图像预处理与置信度门槛。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/tesseract-ocr/tesseract"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "tesseract",
+  "name": "Tesseract",
+  "category": "ai-ocr",
+  "subcategory": "ocr-engine",
+  "oneLiner": "经典开源 OCR · CPU 友好 · 基线方案",
+  "officialUrl": "https://github.com/tesseract-ocr/tesseract",
+  "descriptionMd": "Tesseract 是历史最久的开源 OCR 引擎之一（现由社区维护），适合干净印刷体、多语基础识别与嵌入式/低成本 CPU 场景，常作管线基线。\n\n扫描质量高、预算为零、或要嵌入本地工具链做 baseline 时选用；复杂表格/手写应升级 PaddleOCR 或云 Document AI。\n\n对倾斜、噪声、复杂版面与手写较弱；生产前必须加图像预处理与置信度门槛。\n",
+  "githubUrl": "https://github.com/tesseract-ocr/tesseract"
+}

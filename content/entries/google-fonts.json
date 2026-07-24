@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "fonts",
+    "web",
+    "free"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "国内 CDN 可达性与隐私合规需方案；中文字体选择少于西文，常需中文字体源。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://fonts.google.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "google-fonts",
+  "name": "Google Fonts",
+  "category": "design-fonts",
+  "subcategory": "web-fonts",
+  "oneLiner": "Web 字体事实标准 · 免费 CDN/自托管",
+  "officialUrl": "https://fonts.google.com",
+  "descriptionMd": "Google Fonts 提供大量免费可商用 Web 字体与易用嵌入方式，是站点与产品选型字体的默认起点之一。\n\n需要快速上线 Web 字体、开源许可清晰时优先；注重隐私/国内可达可自托管或子集化。\n\n国内 CDN 可达性与隐私合规需方案；中文字体选择少于西文，常需中文字体源。\n",
+  "vendorId": "google"
+}

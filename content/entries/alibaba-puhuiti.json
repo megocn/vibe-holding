@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "fonts",
+    "chinese",
+    "free",
+    "cjk"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "字重与场景要做渲染测试；与西文混排需选搭配字体。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.alibabafonts.com/#/font"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "domestic",
+  "id": "alibaba-puhuiti",
+  "name": "阿里巴巴普惠体",
+  "category": "design-fonts",
+  "subcategory": "cjk-fonts",
+  "oneLiner": "免费商用中文字体 · 品牌/电商常用",
+  "officialUrl": "https://www.alibabafonts.com/#/font",
+  "descriptionMd": "阿里巴巴普惠体是面向中文场景的免费可商用字体家族，电商、活动页与国内产品常用，补齐 Google Fonts 中文不足。\n\n国内 Web/App 需要清晰中文 UI/标题字体且许可友好时评估；可与思源黑体对照。\n\n字重与场景要做渲染测试；与西文混排需选搭配字体。\n",
+  "vendorId": "alibaba"
+}

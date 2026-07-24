@@ -144,20 +144,53 @@ export function entryRankingForSystem(
   return rankings.find((r) => r.systemId === systemId);
 }
 
+/** maturity 兜底排序权重（越小越靠前）。 */
+const MATURITY_ORDER: Record<string, number> = {
+  mature: 0,
+  stable: 1,
+  beta: 2,
+  experimental: 3,
+};
+function maturityRank(m: string | undefined): number {
+  return (m != null ? MATURITY_ORDER[m] : undefined) ?? 2.5;
+}
+
+/** 排序时可解析出的条目信息。 */
+export interface RankingSortInfo {
+  category: string;
+  name: string;
+  rankings: EntryRanking[];
+  /** 可选：条目成熟度（无外部信号时的次级兜底） */
+  maturity?: string;
+}
+
+export interface SortByRankingOptions {
+  /**
+   * 无权威快照时的兜底：条目的外部客观突出度分（0–1，越大越主流）。
+   * 缺省则退回 maturity + 名称。见 computeProminence。
+   */
+  prominenceOf?: (id: string) => number | undefined;
+}
+
 /**
  * 按分类主榜排序条目 id（同分类内）；跨分类时保持相对分组由调用方处理。
- * 无主榜或无快照的条目沉底，再按名称。
+ *
+ * 兜底优先级（都无权威快照时）：外部客观突出度（GitHub/npm/域名流行度）→ maturity → 名称。
+ * 即「有榜听榜；无榜时更主流 / 更被采用的摆前面」，名称仅作最终并列键。
  */
 export function sortIdsByPrimaryRanking(
   ids: string[],
-  resolve: (id: string) => { category: string; name: string; rankings: EntryRanking[] } | undefined,
+  resolve: (id: string) => RankingSortInfo | undefined,
   systems: Iterable<RankingSystem>,
+  options: SortByRankingOptions = {},
 ): string[] {
   const primaryByCat = new Map<string, RankingSystem | undefined>();
   const primaryOf = (cat: string) => {
     if (!primaryByCat.has(cat)) primaryByCat.set(cat, primaryRankingSystem(systems, cat));
     return primaryByCat.get(cat);
   };
+  // 突出度缺省视为 -1，确保「有信号」永远排在「完全无信号」之前
+  const prom = (id: string) => options.prominenceOf?.(id) ?? -1;
 
   return [...ids].sort((a, b) => {
     const ea = resolve(a);
@@ -172,6 +205,14 @@ export function sortIdsByPrimaryRanking(
     const ka = rankingSortKey(ra);
     const kb = rankingSortKey(rb);
     if (ka !== kb) return ka - kb;
+    // 权威快照并列（通常是二者皆无快照）→ 外部客观突出度兜底
+    const pa = prom(a);
+    const pb = prom(b);
+    if (pa !== pb) return pb - pa;
+    // 再退回成熟度，最后名称
+    const ma = maturityRank(ea.maturity);
+    const mb = maturityRank(eb.maturity);
+    if (ma !== mb) return ma - mb;
     return ea.name.localeCompare(eb.name, 'zh') || a.localeCompare(b);
   });
 }

@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ocr",
+    "document-ai",
+    "gcp"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "国内直连受限；定制处理器有学习与标注成本。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://cloud.google.com/document-ai"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "google-document-ai",
+  "name": "Google Document AI",
+  "category": "ai-ocr",
+  "subcategory": "document-ai",
+  "oneLiner": "GCP 文档处理器 · 预置/自定义抽取",
+  "officialUrl": "https://cloud.google.com/document-ai",
+  "descriptionMd": "Google Document AI 提供文档拆分、分类与预置/自定义处理器，覆盖发票、合同等，并与 Vision OCR 能力互补，面向 GCP 企业文档自动化。\n\n已在 Google Cloud、需要处理器工作台与标签流程时评估；纯截图 OCR 也可看 Vision API。\n\n国内直连受限；定制处理器有学习与标注成本。\n",
+  "vendorId": "google"
+}

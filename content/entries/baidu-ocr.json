@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "ocr",
+    "domestic"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "新产品也可直接自托管 PaddleOCR 降本；云 API 适合要 SLA 与证照模板的团队。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://cloud.baidu.com/product/ocr"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "domestic",
+  "id": "baidu-ocr",
+  "name": "百度智能云 OCR",
+  "category": "ai-ocr",
+  "subcategory": "ocr-api",
+  "oneLiner": "百度文字识别 · 与 PaddleOCR 同源叙事",
+  "officialUrl": "https://cloud.baidu.com/product/ocr",
+  "descriptionMd": "百度智能云 OCR 提供通用与卡证票据等 API，技术栈与飞桨/PaddleOCR 叙事相邻，长期服务国内影像识别与 ToB 录入。\n\n存量百度云客户，或要云 API + 开源 PaddleOCR 双轨时评估。\n\n新产品也可直接自托管 PaddleOCR 降本；云 API 适合要 SLA 与证照模板的团队。\n",
+  "vendorId": "baidu"
+}

@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "stock",
+    "domestic",
+    "templates"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "授权范围（个人/企业/多端）必须核对；质量与「网感」参差需人工筛选。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://ibaotu.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "domestic",
+  "id": "bao-tu-wang",
+  "name": "包图网",
+  "category": "design-stock",
+  "subcategory": "stock-market",
+  "oneLiner": "国内商用素材站 · 模板/摄影/视频",
+  "officialUrl": "https://ibaotu.com",
+  "descriptionMd": "包图网是国内常用的商用素材平台，覆盖摄影图、设计模板、视频与各类设计元素，面向电商与营销设计采购。\n\n国内团队需要中文检索、人民币结算与国内版权叙事时评估；与千图/摄图对照。\n\n授权范围（个人/企业/多端）必须核对；质量与「网感」参差需人工筛选。\n",
+  "vendorId": "bao-tu"
+}

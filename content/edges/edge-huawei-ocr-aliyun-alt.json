@@ -1,0 +1,10 @@
+{
+  "id": "edge-huawei-ocr-aliyun-alt",
+  "from": "huawei-ocr",
+  "to": "aliyun-ocr",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

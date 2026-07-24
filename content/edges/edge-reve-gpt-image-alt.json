@@ -1,0 +1,11 @@
+{
+  "id": "edge-reve-gpt-image-alt",
+  "from": "reve",
+  "to": "openai-gpt-image",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24",
+  "note": "Arena/AA 文生图榜相邻旗舰"
+}

@@ -16,14 +16,49 @@
     "image",
     "xai"
   ],
-  "maturity": "beta",
+  "maturity": "stable",
   "pitfalls": [
     "区域与 API 成熟度变化快；企业合规与商用条款需核对。"
   ],
   "updates": [],
-  "rankings": [],
+  "rankings": [
+    {
+      "systemId": "lmarena-image",
+      "rank": 12,
+      "score": 1229,
+      "scoreLabel": "1229 Elo",
+      "period": "2026-07",
+      "note": "grok-imagine-image-quality",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    },
+    {
+      "systemId": "lmarena-image-edit",
+      "period": "2026-07",
+      "note": "grok-imagine-image-quality",
+      "sourceUrl": "https://arena.ai/leaderboard/image-edit",
+      "asOf": "2026-07-24",
+      "rank": 6,
+      "score": 1389,
+      "scoreLabel": "1389 Elo"
+    },
+    {
+      "systemId": "aa-image-arena",
+      "rank": 14,
+      "score": 1200,
+      "scoreLabel": "1200 Elo",
+      "period": "2026-07",
+      "note": "grok-imagine-image-quality",
+      "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    }
+  ],
   "sources": [
-    "https://x.ai"
+    "https://x.ai",
+    "https://docs.x.ai/developers/models/grok-imagine-image-quality",
+    "https://arena.ai/leaderboard/text-to-image",
+    "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+    "https://arena.ai/leaderboard/image-edit"
   ],
   "lastReviewed": "2026-07-24",
   "region": "overseas",
@@ -31,8 +66,9 @@
   "name": "Grok Imagine",
   "category": "design-ai-image",
   "subcategory": "image-gen",
-  "oneLiner": "xAI 文生图/短视频 · Grok 生态",
+  "oneLiner": "xAI 图/短视频 · Imagine · Arena 图改/视频前列",
   "officialUrl": "https://x.ai",
-  "descriptionMd": "Grok Imagine 是 xAI 在 Grok 产品中的图像（及短视频向）生成能力，强调创意与表达，与 Grok 对话生态绑定。\n\n已在 xAI/Grok 生态、需要快速出图或趣味视觉时试用；严肃品牌管线仍对照 Midjourney/Flux。\n\n区域与 API 成熟度变化快；企业合规与商用条款需核对。\n",
-  "vendorId": "xai"
+  "descriptionMd": "Grok Imagine 是 xAI 的图像（及短视频）生成能力；静帧 `grok-imagine-image-quality` 在 Arena 文生图约第 12、改图约第 6；视频档 `grok-imagine-video` 在 T2V/I2V/Video Edit 亦处前列。\n\n已在 xAI/Grok 生态需要快速出图或短视频时选用；严肃品牌管线仍对照 GPT Image / Seedance / Omni Flash。\n\n区域与 API 成熟度变化快；企业合规与商用条款需核对。\n",
+  "vendorId": "xai",
+  "currentVersion": "Grok Imagine Quality"
 }

@@ -1,0 +1,11 @@
+{
+  "id": "edge-paddleocr-tesseract-alt",
+  "from": "paddleocr",
+  "to": "tesseract",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24",
+  "note": "现代深度学习 vs 经典基线"
+}

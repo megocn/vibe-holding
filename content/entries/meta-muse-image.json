@@ -1,0 +1,70 @@
+{
+  "id": "meta-muse-image",
+  "name": "Muse Image",
+  "category": "design-ai-image",
+  "subcategory": "image-gen",
+  "oneLiner": "Meta AI 文生图 · agentic · Arena 前列",
+  "officialUrl": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
+  "vendorId": "meta",
+  "region": "overseas",
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "image",
+    "meta"
+  ],
+  "maturity": "beta",
+  "currentVersion": "Muse Image",
+  "updates": [
+    {
+      "date": "2026-07-07",
+      "type": "release",
+      "version": "Muse Image",
+      "summary": "Meta AI / IG 侧 agentic 图像生成；Arena Text-to-Image 进入前三档",
+      "source": "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "lmarena-image",
+      "rank": 3,
+      "score": 1280,
+      "scoreLabel": "1280 Elo",
+      "period": "2026-07",
+      "note": "muse-image · Preliminary",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    },
+    {
+      "systemId": "lmarena-image-edit",
+      "period": "2026-07",
+      "note": "muse-image",
+      "sourceUrl": "https://arena.ai/leaderboard/image-edit",
+      "asOf": "2026-07-24",
+      "rank": 2,
+      "score": 1402,
+      "scoreLabel": "1402 Elo"
+    }
+  ],
+  "sources": [
+    "https://ai.meta.com/blog/introducing-muse-image-muse-video-msl/",
+    "https://arena.ai/leaderboard/text-to-image",
+    "https://arena.ai/leaderboard/image-edit"
+  ],
+  "pitfalls": [
+    "Arena 样本仍为 Preliminary；企业 API/商用条款与 Meta 产品入口变化快"
+  ],
+  "descriptionMd": "Muse Image 是 Meta 2026-07 推出的 agentic 文生图能力，经 Meta AI / Instagram 等消费入口提供，强调工具调用与自迭代生成，Arena 文生图榜迅速冲到前列。\n\n已在 Meta 生态做社交/创作者出图，或观察 agentic 图像工作流时纳入短名单。\n\n投票样本仍在积累；企业 API 与商用条款、产品入口变化快。\n",
+  "lastReviewed": "2026-07-24"
+}

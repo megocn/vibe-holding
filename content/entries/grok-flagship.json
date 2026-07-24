@@ -20,12 +20,34 @@
     "实时数据依赖 X 平台；API rate limit 与 region 限制需提前申请配额。"
   ],
   "updates": [],
-  "rankings": [],
+  "rankings": [
+    {
+      "systemId": "lmarena-webdev",
+      "period": "2026-07",
+      "note": "grok-4.5",
+      "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+      "asOf": "2026-07-24",
+      "rank": 7,
+      "score": 1557,
+      "scoreLabel": "1557 Elo"
+    },
+    {
+      "systemId": "artificial-analysis-index",
+      "period": "2026-07",
+      "note": "Grok 4.5 (high)",
+      "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
+      "asOf": "2026-07-24",
+      "rank": 8,
+      "score": 54,
+      "scoreLabel": "AAII 54"
+    }
+  ],
   "sources": [
     "https://x.ai/news/grok-4-5",
-    "https://docs.x.ai/developers/grok-4-5"
+    "https://arena.ai/leaderboard/code/webdev",
+    "https://artificialanalysis.ai/leaderboards/models"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-24",
   "region": "overseas",
   "id": "grok-flagship",
   "name": "Grok 4.5",

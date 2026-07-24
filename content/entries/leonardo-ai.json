@@ -16,21 +16,45 @@
   ],
   "maturity": "stable",
   "pitfalls": [
-    "免费额度有限；生成内容 license 用于 commercial 需确认 plan。"
+    "免费额度有限；commercial license 需确认 plan。"
   ],
   "updates": [],
-  "rankings": [],
-  "sources": [
-    "https://leonardo.ai"
+  "rankings": [
+    {
+      "systemId": "lmarena-image",
+      "rank": 66,
+      "score": 1013,
+      "scoreLabel": "1013 Elo",
+      "period": "2026-07",
+      "note": "lucid-origin",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    },
+    {
+      "systemId": "aa-image-arena",
+      "rank": 59,
+      "score": 1118,
+      "scoreLabel": "1118 Elo",
+      "period": "2026-07",
+      "note": "Lucid Origin Ultra",
+      "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    }
   ],
-  "lastReviewed": "2026-07-23",
+  "sources": [
+    "https://leonardo.ai",
+    "https://arena.ai/leaderboard/text-to-image",
+    "https://artificialanalysis.ai/image/leaderboard/text-to-image"
+  ],
+  "lastReviewed": "2026-07-24",
   "region": "overseas",
   "id": "leonardo-ai",
   "name": "Leonardo.Ai",
   "category": "design-ai-image",
   "subcategory": "image-gen",
-  "oneLiner": "fine-tune/sprite · 游戏资产管线 · 创意 asset 批量",
+  "oneLiner": "Leonardo · Lucid Origin · 游戏/创意资产",
   "officialUrl": "https://leonardo.ai",
-  "descriptionMd": "Leonardo 提供 fine-tuned models、sprite sheet 与 asset pipeline，游戏与 NFT 时代起家，现扩 general creative。\n\n需要 consistent character、game asset 或 controlnet 工作流时试用 Leonardo。\n\n免费额度有限；生成内容 license 用于 commercial 需确认 plan。\n",
-  "vendorId": "leonardo-inc"
+  "descriptionMd": "Leonardo 提供 fine-tune、sprite 与创意资产管线；现以 Lucid Origin 等模型参与榜单，Arena 约第 66、AA Lucid Origin Ultra 约第 59，偏游戏与创意 asset 批量。\n\n需要 consistent character、game asset 或平台工作流时试用。\n\n免费额度有限；commercial license 需确认 plan。\n",
+  "vendorId": "leonardo-inc",
+  "currentVersion": "Lucid Origin"
 }

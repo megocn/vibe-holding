@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ocr",
+    "open-source",
+    "chinese",
+    "layout"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "模型与依赖体积不小；高并发生产需自建服务化与 GPU 策略，勿当「装包即 SLA」。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/PaddlePaddle/PaddleOCR"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "both",
+  "id": "paddleocr",
+  "name": "PaddleOCR",
+  "category": "ai-ocr",
+  "subcategory": "ocr-engine",
+  "oneLiner": "开源 OCR 主力 · 中文/版面 · 可自托管",
+  "officialUrl": "https://github.com/PaddlePaddle/PaddleOCR",
+  "descriptionMd": "PaddleOCR 是飞桨生态的开源 OCR 与文档解析工具包，覆盖检测、识别、版面分析与多语（含中文优势），可本地/私有化部署，也可走云端 API 形态。\n\n需要中文/复杂版面、扫描件进 RAG、或数据不出域自托管时优先评估；与 Tesseract/EasyOCR 同层对照。\n\n模型与依赖体积不小；高并发生产需自建服务化与 GPU 策略，勿当「装包即 SLA」。\n",
+  "vendorId": "baidu",
+  "githubUrl": "https://github.com/PaddlePaddle/PaddleOCR"
+}

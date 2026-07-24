@@ -1,0 +1,11 @@
+{
+  "id": "edge-baidu-ocr-paddleocr-with",
+  "from": "baidu-ocr",
+  "to": "paddleocr",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24",
+  "note": "云 API + 开源同源叙事"
+}

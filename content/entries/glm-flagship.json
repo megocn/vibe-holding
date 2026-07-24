@@ -28,21 +28,58 @@
       "systemId": "lmarena-text",
       "tier": "CN frontier",
       "period": "2026-07",
-      "note": "国产闭源旗舰之一；Arena 中文场景表现强",
-      "asOf": "2026-07-20"
+      "note": "国产闭源旗舰；WebDev/Agent 榜更靠前",
+      "sourceUrl": "https://arena.ai/leaderboard/text",
+      "asOf": "2026-07-24"
+    },
+    {
+      "systemId": "lmarena-agent",
+      "period": "2026-07",
+      "note": "GLM 5.2 (Max)",
+      "sourceUrl": "https://arena.ai/leaderboard/agent",
+      "asOf": "2026-07-24",
+      "rank": 10,
+      "share": 6.5,
+      "scoreLabel": "6.50% win"
+    },
+    {
+      "systemId": "lmarena-webdev",
+      "period": "2026-07",
+      "note": "glm-5.2 (max)",
+      "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+      "asOf": "2026-07-24",
+      "rank": 4,
+      "score": 1592,
+      "scoreLabel": "1592 Elo"
     },
     {
       "systemId": "artificial-analysis-index",
-      "tier": "Competitive",
       "period": "2026-07",
-      "asOf": "2026-07-20"
+      "note": "GLM-5.2 (max)",
+      "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
+      "asOf": "2026-07-24",
+      "rank": 13,
+      "score": 51,
+      "scoreLabel": "AAII 51"
+    },
+    {
+      "systemId": "openrouter-popularity",
+      "period": "2026-07",
+      "note": "GLM-5.2 · OpenRouter 周用量顶尖",
+      "sourceUrl": "https://openrouter.ai/rankings",
+      "asOf": "2026-07-24",
+      "rank": 4,
+      "tier": "Top usage"
     }
   ],
   "sources": [
     "https://open.bigmodel.cn",
-    "https://zhipuai.cn"
+    "https://arena.ai/leaderboard/code/webdev",
+    "https://arena.ai/leaderboard/agent",
+    "https://artificialanalysis.ai/leaderboards/models",
+    "https://openrouter.ai/rankings"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-24",
   "region": "domestic",
   "id": "glm-flagship",
   "name": "GLM 旗舰",

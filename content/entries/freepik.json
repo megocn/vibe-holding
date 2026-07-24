@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "stock",
+    "vectors",
+    "templates",
+    "subscription"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "免费层常需署名；品牌项目注意素材「模板感」与授权范围；站点品牌更名期间入口以官网为准。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.freepik.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "freepik",
+  "name": "Freepik",
+  "category": "design-stock",
+  "subcategory": "stock-market",
+  "oneLiner": "海量矢量/模板/图库 · 订阅向素材市场",
+  "officialUrl": "https://www.freepik.com",
+  "descriptionMd": "Freepik（现亦以 Magnific 叙事扩展 AI 创作）提供照片、矢量、图标、模板、Mockup 等超大库存，是营销与演示设计常用的付费/免费分层素材市场。\n\n需要海报、演示、社媒模板与矢量包、可接受订阅换无归因时评估；与 Envato/Adobe Stock 同层。\n\n免费层常需署名；品牌项目注意素材「模板感」与授权范围；站点品牌更名期间入口以官网为准。\n",
+  "vendorId": "freepik-inc"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "edge-llamaparse-unstructured-alt",
+  "from": "llamaparse",
+  "to": "unstructured",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24",
+  "note": "RAG 文档预处理"
+}

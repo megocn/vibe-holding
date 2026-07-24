@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ocr",
+    "open-source",
+    "python"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "大规模吞吐与版面结构化不如专用文档智能；依赖与模型下载需纳入部署。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/JaidedAI/EasyOCR"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "easyocr",
+  "name": "EasyOCR",
+  "category": "ai-ocr",
+  "subcategory": "ocr-engine",
+  "oneLiner": "Python 易用 OCR · 多语原型快",
+  "officialUrl": "https://github.com/JaidedAI/EasyOCR",
+  "descriptionMd": "EasyOCR 提供开箱即用的 Python OCR 接口与多语模型，上手快，适合原型与中小批量图片文字抽取。\n\n需要几天内跑通多语截图/证件文字抽取 POC 时评估；中文重版面场景再对照 PaddleOCR。\n\n大规模吞吐与版面结构化不如专用文档智能；依赖与模型下载需纳入部署。\n",
+  "vendorId": "jaided-ai",
+  "githubUrl": "https://github.com/JaidedAI/EasyOCR"
+}

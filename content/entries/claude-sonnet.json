@@ -28,11 +28,55 @@
       "source": "https://www.anthropic.com/claude/sonnet"
     }
   ],
-  "rankings": [],
-  "sources": [
-    "https://www.anthropic.com/claude/sonnet"
+  "rankings": [
+    {
+      "systemId": "lmarena-agent",
+      "period": "2026-07",
+      "note": "Claude Sonnet 5 (High)",
+      "sourceUrl": "https://arena.ai/leaderboard/agent",
+      "asOf": "2026-07-24",
+      "rank": 5,
+      "share": 8.66,
+      "scoreLabel": "8.66% win"
+    },
+    {
+      "systemId": "lmarena-webdev",
+      "period": "2026-07",
+      "note": "claude-sonnet-5-high",
+      "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+      "asOf": "2026-07-24",
+      "rank": 9,
+      "score": 1544,
+      "scoreLabel": "1544 Elo"
+    },
+    {
+      "systemId": "lmarena-document",
+      "period": "2026-07",
+      "note": "claude-sonnet-5-high",
+      "sourceUrl": "https://arena.ai/leaderboard/document",
+      "asOf": "2026-07-24",
+      "rank": 10,
+      "score": 1471,
+      "scoreLabel": "1471 Elo"
+    },
+    {
+      "systemId": "artificial-analysis-index",
+      "period": "2026-07",
+      "note": "Claude Sonnet 5 (max)",
+      "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
+      "asOf": "2026-07-24",
+      "rank": 10,
+      "score": 53,
+      "scoreLabel": "AAII 53"
+    }
   ],
-  "lastReviewed": "2026-07-23",
+  "sources": [
+    "https://www.anthropic.com/claude/sonnet",
+    "https://arena.ai/leaderboard/agent",
+    "https://arena.ai/leaderboard/code/webdev",
+    "https://artificialanalysis.ai/leaderboards/models"
+  ],
+  "lastReviewed": "2026-07-24",
   "region": "overseas",
   "id": "claude-sonnet",
   "name": "Claude Sonnet",

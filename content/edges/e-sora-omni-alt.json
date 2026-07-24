@@ -1,0 +1,10 @@
+{
+  "id": "e-sora-omni-alt",
+  "from": "openai-sora",
+  "to": "gemini-omni-flash",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

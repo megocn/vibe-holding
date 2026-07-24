@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "stock",
+    "domestic"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "价格与套餐需测算；国际大片种丰富度对照 Shutterstock/Getty。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.hellorf.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "domestic",
+  "id": "zcool-assets",
+  "name": "站酷海洛",
+  "category": "design-stock",
+  "subcategory": "stock-market",
+  "oneLiner": "站酷系商用图库 · 国内设计师向",
+  "officialUrl": "https://www.hellorf.com",
+  "descriptionMd": "站酷海洛（Hellorf）提供面向国内的正版摄影图库与设计素材，与站酷社区设计师生态邻近，适合品牌与广告采购。\n\n需要国内正版图、设计师工作流熟悉站酷时评估。\n\n价格与套餐需测算；国际大片种丰富度对照 Shutterstock/Getty。\n",
+  "vendorId": "zcool-inc"
+}

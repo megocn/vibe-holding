@@ -20,10 +20,42 @@
   "pitfalls": [
     "艺术社区热度因场景而异；内容安全审核策略需适配产品。"
   ],
-  "updates": [],
-  "rankings": [],
+  "updates": [
+    {
+      "date": "2025-09-01",
+      "type": "release",
+      "version": "混元生图 3.0",
+      "summary": "写实与中文场景增强；Arena 进入全球前三十",
+      "source": "https://hunyuan.tencent.com/image/en?tabIndex=0"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "lmarena-image",
+      "rank": 26,
+      "score": 1151,
+      "scoreLabel": "1151 Elo",
+      "period": "2026-07",
+      "note": "hunyuan-image-3.0",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    },
+    {
+      "systemId": "aa-image-arena",
+      "rank": 57,
+      "score": 1120,
+      "scoreLabel": "1120 Elo",
+      "period": "2026-07",
+      "note": "HunyuanImage 3.0",
+      "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    }
+  ],
   "sources": [
-    "https://hunyuan.tencent.com"
+    "https://hunyuan.tencent.com",
+    "https://hunyuan.tencent.com/image/en?tabIndex=0",
+    "https://arena.ai/leaderboard/text-to-image",
+    "https://artificialanalysis.ai/image/leaderboard/text-to-image"
   ],
   "lastReviewed": "2026-07-24",
   "region": "domestic",
@@ -31,8 +63,9 @@
   "name": "混元生图",
   "category": "design-ai-image",
   "subcategory": "image-gen",
-  "oneLiner": "腾讯混元文生图 · 国内云",
+  "oneLiner": "腾讯混元生图 3.0 · 国内云 · Arena 中上",
   "officialUrl": "https://hunyuan.tencent.com",
-  "descriptionMd": "混元生图是腾讯混元多模态中的文生图能力，面向国内开发者与营销/电商素材，可与混元视频及腾讯云业务同生态落地。\n\n腾讯云/微信生态应用需要国内文生图时评估；与即梦、通义万相、可图对照选型。\n\n艺术社区热度因场景而异；内容安全审核策略需适配产品。\n",
-  "vendorId": "tencent-hunyuan"
+  "descriptionMd": "混元生图是腾讯混元多模态中的文生图能力，现以 3.0 为代表；Arena 文生图榜约第 26（1151 Elo），AA 开源变体亦在中段，可与混元视频及腾讯云业务同生态落地。\n\n腾讯云/微信生态应用需要国内文生图时评估；与即梦、通义万相、可图对照。\n\n艺术社区热度因场景而异；内容安全审核策略需适配产品。\n",
+  "vendorId": "tencent-hunyuan",
+  "currentVersion": "混元生图 3.0"
 }

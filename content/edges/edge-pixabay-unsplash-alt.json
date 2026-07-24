@@ -1,0 +1,10 @@
+{
+  "id": "edge-pixabay-unsplash-alt",
+  "from": "pixabay",
+  "to": "unsplash",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-24"
+}

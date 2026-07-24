@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ocr",
+    "document-ai",
+    "azure",
+    "forms"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "与纯开源引擎比按页成本更高；非微软栈要评估锁定。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://azure.microsoft.com/products/ai-services/ai-document-intelligence"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "azure-document-intelligence",
+  "name": "Azure AI Document Intelligence",
+  "category": "ai-ocr",
+  "subcategory": "document-ai",
+  "oneLiner": "微软文档智能 · 预置发票/证件 · Read OCR",
+  "officialUrl": "https://azure.microsoft.com/products/ai-services/ai-document-intelligence",
+  "descriptionMd": "原 Form Recognizer，现 Azure AI Document Intelligence，提供 Read OCR 与发票、收据、证件等预置模型及自定义训练，适合微软生态企业文档自动化。\n\n已在 Azure、需要预置业务文档模型与身份合规一体时优先。\n\n与纯开源引擎比按页成本更高；非微软栈要评估锁定。\n",
+  "vendorId": "microsoft"
+}

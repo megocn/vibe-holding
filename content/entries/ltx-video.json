@@ -20,9 +20,21 @@
     "旗舰云厂商的原生音画一体能力仍需另测；硬件需求不低。"
   ],
   "updates": [],
-  "rankings": [],
+  "rankings": [
+    {
+      "systemId": "aa-video-arena",
+      "period": "2026-07",
+      "note": "LTX-2.3 Fast · open weights · with audio",
+      "sourceUrl": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
+      "asOf": "2026-07-24",
+      "rank": 21,
+      "score": 975,
+      "scoreLabel": "975 Elo"
+    }
+  ],
   "sources": [
-    "https://www.lightricks.com/ltxv"
+    "https://www.lightricks.com/ltxv",
+    "https://artificialanalysis.ai/video/leaderboard/text-to-video"
   ],
   "lastReviewed": "2026-07-24",
   "region": "overseas",
@@ -30,9 +42,10 @@
   "name": "LTX Video",
   "category": "design-ai-video",
   "subcategory": "video-gen",
-  "oneLiner": "Lightricks LTX · 开源/Studio · 可控",
+  "oneLiner": "Lightricks LTX-2.3 · 开源视频 · AA 开权重量前列",
   "officialUrl": "https://www.lightricks.com/ltxv",
   "descriptionMd": "LTX Video（Lightricks）提供偏实时/高效的视频生成模型与 LTX Studio 创作界面，强调镜头级控制与开源权重可用性，创作者与自托管管线常见。\n\n需要开源视频模型、或故事板级控制（Studio）时评估；与 HunyuanVideo/Runway 对照。\n\n旗舰云厂商的原生音画一体能力仍需另测；硬件需求不低。\n",
   "vendorId": "lightricks",
-  "githubUrl": "https://github.com/Lightricks/LTX-Video"
+  "githubUrl": "https://github.com/Lightricks/LTX-Video",
+  "currentVersion": "LTX-2.3"
 }

@@ -35,15 +35,17 @@
   ],
   "sources": [
     "https://api-docs.deepseek.com/news/news260424",
-    "https://www.deepseek.com"
+    "https://www.deepseek.com",
+    "https://artificialanalysis.ai/leaderboards/models",
+    "https://openrouter.ai/rankings"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-24",
   "region": "domestic",
   "id": "deepseek-v3",
   "name": "DeepSeek 旗舰",
   "category": "llm-line",
   "vendorId": "deepseek",
-  "oneLiner": "国产性价比旗舰 · 现为 V4-Pro · 百万上下文 / Agent 向",
+  "oneLiner": "国产性价比旗舰 · V4 · AA/OpenRouter 双强",
   "descriptionMd": "DeepSeek 产品族的**旗舰对话/代码选型档**。当前版本为 DeepSeek-V4-Pro（辅 V4-Flash；约 2026-04 开源预览），主打百万级上下文效率与 Agent/编码。\n\n与 Claude Opus、Qwen-Max、GPT 旗舰等同属档位粒度。注意开源权重与官方 API 的能力/许可差异；旧 `deepseek-chat`/`reasoner` 别名有下线窗口。\n\n旗舰对话/代码档，适合成本敏感的高质量任务；关键合规行业核对数据路径。\n",
   "officialUrl": "https://api-docs.deepseek.com/news/news260424",
   "rankings": [
@@ -56,10 +58,22 @@
     },
     {
       "systemId": "artificial-analysis-index",
-      "tier": "High value",
       "period": "2026-07",
-      "note": "性价比与长上下文效率突出",
-      "asOf": "2026-07-23"
+      "note": "DeepSeek V4 Pro (max)",
+      "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
+      "asOf": "2026-07-24",
+      "rank": 26,
+      "score": 44,
+      "scoreLabel": "AAII 44"
+    },
+    {
+      "systemId": "openrouter-popularity",
+      "period": "2026-07",
+      "note": "V4 Flash/Pro 合计常居 OpenRouter 用量顶部",
+      "sourceUrl": "https://openrouter.ai/rankings",
+      "asOf": "2026-07-24",
+      "rank": 2,
+      "tier": "Top usage"
     }
   ],
   "subcategory": "line",

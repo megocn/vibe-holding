@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "inspiration",
+    "moodboard",
+    "social"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "图片版权复杂，钉图≠可商用；国内访问与账号策略不稳定，团队应另备素材源。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.pinterest.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "pinterest",
+  "name": "Pinterest",
+  "category": "design-inspiration",
+  "subcategory": "moodboard",
+  "oneLiner": "视觉灵感板 · 拼贴收藏 · 营销/品牌 mood",
+  "officialUrl": "https://www.pinterest.com",
+  "descriptionMd": "Pinterest 以图片拼贴与主题板（board）组织视觉灵感，设计师与运营常用作 moodboard、竞品视觉与趋势收集，而非传统「按授权下载商用图库」。\n\n需要发散视觉方向、收集参考拼贴、或运营做内容灵感库时优先；真正可商用下载请转到 Unsplash/Freepik/Adobe Stock。\n\n图片版权复杂，钉图≠可商用；国内访问与账号策略不稳定，团队应另备素材源。\n",
+  "vendorId": "pinterest-inc"
+}

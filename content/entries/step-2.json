@@ -19,11 +19,32 @@
     "Step 2 已淘汰；新项目用 3.x。生态仍在扩张，企业支持体系较新。"
   ],
   "updates": [],
-  "rankings": [],
-  "sources": [
-    "https://www.stepfun.com"
+  "rankings": [
+    {
+      "systemId": "artificial-analysis-index",
+      "period": "2026-07",
+      "note": "Step 3.7 Flash",
+      "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
+      "asOf": "2026-07-24",
+      "score": 30,
+      "scoreLabel": "AAII 30"
+    },
+    {
+      "systemId": "openrouter-popularity",
+      "period": "2026-07",
+      "note": "Step 3.7 Flash · OpenRouter 高用量",
+      "sourceUrl": "https://openrouter.ai/rankings",
+      "asOf": "2026-07-24",
+      "rank": 6,
+      "tier": "High usage"
+    }
   ],
-  "lastReviewed": "2026-07-23",
+  "sources": [
+    "https://www.stepfun.com",
+    "https://openrouter.ai/rankings",
+    "https://artificialanalysis.ai/leaderboards/models"
+  ],
+  "lastReviewed": "2026-07-24",
   "region": "domestic",
   "id": "step-2",
   "name": "Step 3.7 Flash",

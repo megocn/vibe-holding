@@ -1,0 +1,70 @@
+{
+  "id": "luma-uni",
+  "name": "Luma UNI",
+  "category": "design-ai-image",
+  "subcategory": "image-gen",
+  "oneLiner": "Luma 文生图 · UNI 1.1 Max · 与视频同栈",
+  "officialUrl": "https://lumalabs.ai/api",
+  "vendorId": "luma-labs",
+  "region": "overseas",
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "image",
+    "luma"
+  ],
+  "maturity": "stable",
+  "currentVersion": "UNI 1.1 Max",
+  "updates": [
+    {
+      "date": "2026-05-01",
+      "type": "release",
+      "version": "UNI 1.1",
+      "summary": "Luma 文生图旗舰线；Arena/AA 进入前三十档",
+      "source": "https://lumalabs.ai/api"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "lmarena-image",
+      "rank": 15,
+      "score": 1188,
+      "scoreLabel": "1188 Elo",
+      "period": "2026-07",
+      "note": "uni-1.1-max",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    },
+    {
+      "systemId": "aa-image-arena",
+      "rank": 27,
+      "score": 1170,
+      "scoreLabel": "1170 Elo",
+      "period": "2026-07",
+      "note": "Luma UNI 1 Max",
+      "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
+      "asOf": "2026-07-24"
+    }
+  ],
+  "sources": [
+    "https://lumalabs.ai/api",
+    "https://arena.ai/leaderboard/text-to-image",
+    "https://artificialanalysis.ai/image/leaderboard/text-to-image"
+  ],
+  "pitfalls": [
+    "与 Dream Machine 视频是同厂不同模态；按量成本与商用条款需核对"
+  ],
+  "descriptionMd": "Luma UNI 是 Luma AI 的文生图线（现 UNI 1.1 / Max），与 Dream Machine 视频同生态，强调创意静帧与 API 接入，Arena/AA 文生图榜处于第一梯队中后段。\n\n已在 Luma 做视频、需要同厂静帧资产或 API 批量出图时评估；与 Flux、Recraft 对照。\n\n与视频能力分列选型；按量成本与商用条款需核对。\n",
+  "lastReviewed": "2026-07-24"
+}

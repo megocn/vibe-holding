@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "vectors",
+    "illustration",
+    "stock"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "免费许可与署名规则需核对；质量参差，品牌项目要人工筛选。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.vecteezy.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "vecteezy",
+  "name": "Vecteezy",
+  "category": "design-stock",
+  "subcategory": "vectors",
+  "oneLiner": "矢量/插画下载站 · 免费+Pro",
+  "officialUrl": "https://www.vecteezy.com",
+  "descriptionMd": "Vecteezy 专注矢量图、插画与部分照片视频，提供免费与 Pro 分层，适合海报、印刷与社媒向的可编辑矢量素材采购。\n\n需要可编辑矢量插画、或与 Freepik 做备选素材市场时评估；印刷前注意出血与色彩模式。\n\n免费许可与署名规则需核对；质量参差，品牌项目要人工筛选。\n",
+  "vendorId": "vecteezy-inc"
+}

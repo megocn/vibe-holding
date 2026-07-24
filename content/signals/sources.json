@@ -1,0 +1,30 @@
+{
+  "_note": "外部客观信号的标识符种子（人工维护，可编辑）。抓取脚本 scripts/fetch-popularity.ts 会合并此表与从 entry URL 自动推导的仓库/域名，产出 popularity.json。仅填可确证的 owner/repo 与 npm 包名，勿臆造。",
+  "entries": {
+    "nextjs": { "github": "vercel/next.js", "npm": "next" },
+    "react-router": { "github": "remix-run/react-router", "npm": "react-router" },
+    "remix": { "github": "remix-run/remix", "npm": "@remix-run/react" },
+    "nuxt": { "github": "nuxt/nuxt", "npm": "nuxt" },
+    "sveltekit": { "github": "sveltejs/kit", "npm": "@sveltejs/kit" },
+    "astro": { "github": "withastro/astro", "npm": "astro" },
+    "solidstart": { "github": "solidjs/solid-start" },
+    "vite": { "github": "vitejs/vite", "npm": "vite" },
+    "shadcn-ui": { "github": "shadcn-ui/ui" },
+    "antd": { "github": "ant-design/ant-design", "npm": "antd" },
+    "mui": { "github": "mui/material-ui", "npm": "@mui/material" },
+    "chakra-ui": { "github": "chakra-ui/chakra-ui", "npm": "@chakra-ui/react" },
+    "mantine": { "github": "mantinedev/mantine", "npm": "@mantine/core" },
+    "radix-ui": { "github": "radix-ui/primitives", "npm": "@radix-ui/react-dropdown-menu" },
+    "tailwindcss": { "github": "tailwindlabs/tailwindcss", "npm": "tailwindcss" },
+    "lucide": { "github": "lucide-icons/lucide", "npm": "lucide-react" },
+    "prisma": { "github": "prisma/prisma", "npm": "prisma" },
+    "drizzle": { "github": "drizzle-team/drizzle-orm", "npm": "drizzle-orm" },
+    "supabase": { "github": "supabase/supabase" },
+    "langchain": { "github": "langchain-ai/langchain" },
+    "llamaindex": { "github": "run-llama/llama_index" },
+    "vercel-ai-sdk": { "github": "vercel/ai", "npm": "ai" },
+    "esbuild": { "github": "evanw/esbuild", "npm": "esbuild" },
+    "homebrew": { "github": "Homebrew/brew" },
+    "ansible": { "github": "ansible/ansible" }
+  }
+}

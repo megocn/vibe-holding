@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ocr",
+    "document-ai",
+    "invoices"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "深度定制与私有化弱于大型 IDP；中文单据效果需实测。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://nanonets.com"
+  ],
+  "lastReviewed": "2026-07-24",
+  "region": "overseas",
+  "id": "nanonets",
+  "name": "Nanonets",
+  "category": "ai-ocr",
+  "subcategory": "document-ai",
+  "oneLiner": "单据 AI 抽取 · 发票/表格 · 少样本",
+  "officialUrl": "https://nanonets.com",
+  "descriptionMd": "Nanonets 面向发票、收据、表格等业务单据的 AI 抽取与自动化，强调少样本训练与工作流，属于现代 IDP/文档自动化赛道。\n\n中小团队要快速上线单据字段抽取、不愿自建标注平台时评估。\n\n深度定制与私有化弱于大型 IDP；中文单据效果需实测。\n",
+  "vendorId": "nanonets-inc"
+}

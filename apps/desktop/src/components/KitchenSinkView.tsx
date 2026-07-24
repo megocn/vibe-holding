@@ -20,7 +20,7 @@ export function KitchenSinkView({ onBack }: KitchenSinkViewProps) {
           <div className="vh-page-kicker">设计系统 · T-UI-9</div>
           <h1>组件预览</h1>
           <div className="vh-text-caption" style={{ marginTop: 4 }}>
-            令牌、印章、按钮、Chip、Tag、空态与动效。reduced-motion：{reduced ? '开' : '关'}
+            令牌、品牌标记、按钮、Chip、Tag、空态与动效。reduced-motion：{reduced ? '开' : '关'}
           </div>
         </div>
         <button type="button" className="vh-btn" onClick={onBack}>
@@ -37,7 +37,7 @@ export function KitchenSinkView({ onBack }: KitchenSinkViewProps) {
           gap: 28,
         }}
       >
-        <Block title="品牌印章">
+        <Block title="品牌标记">
           <div className="flex items-center gap-4">
             <BrandSeal size={28} />
             <BrandSeal size={36} />

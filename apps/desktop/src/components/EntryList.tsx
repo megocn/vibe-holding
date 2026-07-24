@@ -1,5 +1,6 @@
 import type { Entry, Id, PricingModel } from '@vh/core';
 import {
+  computeProminence,
   entryRankingForSystem,
   formatRankingPrimary,
   leavesOfSection,
@@ -39,6 +40,12 @@ export function EntryList({
   const { isFavorite, getRating } = useUserData();
   const catName = useMemo(() => new Map(categories.map((c) => [c.id, c])), [categories]);
 
+  // 外部客观流行度 → 同类突出度分（无权威榜时兜底排序用）
+  const prominence = useMemo(
+    () => computeProminence(bundle.entries.values(), bundle.popularity),
+    [bundle.entries, bundle.popularity],
+  );
+
   const sortGroup = useCallback(
     (groupIds: Id[]) =>
       sortIdsByPrimaryRanking(
@@ -46,11 +53,17 @@ export function EntryList({
         (id) => {
           const e = bundle.entries.get(id);
           if (!e) return undefined;
-          return { category: e.category, name: e.name, rankings: e.rankings };
+          return {
+            category: e.category,
+            name: e.name,
+            rankings: e.rankings,
+            maturity: e.maturity,
+          };
         },
         bundle.rankingSystems.values(),
+        { prominenceOf: (id) => prominence.get(id) },
       ),
-    [bundle.entries, bundle.rankingSystems],
+    [bundle.entries, bundle.rankingSystems, prominence],
   );
 
   const primaryLabel = useMemo(() => {
@@ -58,8 +71,15 @@ export function EntryList({
     if (nav.kind !== 'category') return null;
     if (isLlmSectionNav(nav.categoryId, categories)) return '按产品族 › 选型档位排列';
     const sys = primaryRankingSystem(bundle.rankingSystems.values(), nav.categoryId);
-    return sys ? `按 ${sys.shortName} 排序` : null;
-  }, [nav, bundle.rankingSystems, categories]);
+    const catEntries = [...bundle.entries.values()].filter((e) => e.category === nav.categoryId);
+    // 仅当类内确有主榜快照时宣称「按权威榜」；否则诚实标流行度兜底
+    const hasPrimarySnap =
+      !!sys &&
+      catEntries.some((e) => entryRankingForSystem(e.rankings, sys.id) != null);
+    if (hasPrimarySnap && sys) return `按 ${sys.shortName} 排序`;
+    const hasSignal = catEntries.some((e) => prominence.has(e.id));
+    return hasSignal ? '按流行度排序（GitHub/域名等外部信号）' : null;
+  }, [nav, bundle.rankingSystems, bundle.entries, categories, prominence]);
 
   const groups = useMemo(() => {
     type ListGroup = {
@@ -115,9 +135,7 @@ export function EntryList({
           )
           .filter((g) => g.ids.length > 0);
       }
-      return [
-        { key: nav.categoryId, label: null, ids: sortGroup(ids) } satisfies ListGroup,
-      ];
+      return [{ key: nav.categoryId, label: null, ids: sortGroup(ids) } satisfies ListGroup];
     }
     if (nav.kind === 'layer') {
       const layer = CATEGORY_LAYERS.find((l) => l.id === nav.layerId);
@@ -206,9 +224,7 @@ export function EntryList({
           return (
             <div key={g.key} className="vh-kb-list-layer">
               <span className="vh-kb-list-layer-name">{g.label}</span>
-              {g.subtitle ? (
-                <span className="vh-kb-list-layer-sub">{g.subtitle}</span>
-              ) : null}
+              {g.subtitle ? <span className="vh-kb-list-layer-sub">{g.subtitle}</span> : null}
             </div>
           );
         }
