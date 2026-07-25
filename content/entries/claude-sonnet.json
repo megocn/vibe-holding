@@ -51,13 +51,13 @@
     },
     {
       "systemId": "lmarena-document",
+      "rank": 8,
+      "score": 1483,
+      "scoreLabel": "1483 Elo",
       "period": "2026-07",
-      "note": "claude-sonnet-5-high",
       "sourceUrl": "https://arena.ai/leaderboard/document",
-      "asOf": "2026-07-24",
-      "rank": 10,
-      "score": 1471,
-      "scoreLabel": "1471 Elo"
+      "note": "模型 claude-sonnet-4-6",
+      "asOf": "2026-07-25"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -68,6 +68,26 @@
       "rank": 10,
       "score": 53,
       "scoreLabel": "AAII 53"
+    },
+    {
+      "systemId": "lmarena-vision",
+      "rank": 19,
+      "score": 1275,
+      "scoreLabel": "1275 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/vision",
+      "note": "模型 claude-sonnet-4-6",
+      "asOf": "2026-07-25"
+    },
+    {
+      "systemId": "lmarena-search",
+      "rank": 6,
+      "score": 1221,
+      "scoreLabel": "1221 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/search",
+      "note": "模型 claude-sonnet-4-6-search",
+      "asOf": "2026-07-25"
     }
   ],
   "sources": [

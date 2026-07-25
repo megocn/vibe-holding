@@ -24,18 +24,52 @@
   "updates": [],
   "rankings": [
     {
-      "systemId": "lmarena-text",
-      "tier": "Open-weight frontier",
+      "systemId": "lmarena-vision",
+      "rank": 26,
+      "score": 1256,
+      "scoreLabel": "1256 Elo",
       "period": "2026-07",
-      "note": "31B 发布时开源 Arena 前列；具体名次随榜单波动",
-      "asOf": "2026-07-20"
+      "sourceUrl": "https://arena.ai/leaderboard/vision",
+      "note": "模型 gemma-4-31b",
+      "asOf": "2026-07-25"
+    },
+    {
+      "systemId": "lmarena-document",
+      "rank": 23,
+      "score": 1423,
+      "scoreLabel": "1423 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/document",
+      "note": "模型 gemma-4-31b",
+      "asOf": "2026-07-25"
+    },
+    {
+      "systemId": "lmarena-text",
+      "rank": 52,
+      "score": 1451,
+      "scoreLabel": "1451 Elo",
+      "sourceUrl": "https://arena.ai/leaderboard/text",
+      "note": "模型 gemma-4-31b",
+      "asOf": "2026-07-21",
+      "period": "2026-07"
+    },
+    {
+      "systemId": "artificial-analysis-index",
+      "score": 29,
+      "scoreLabel": "AAII 29",
+      "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
+      "note": "Gemma 4 31B",
+      "asOf": "2026-07-26",
+      "period": "2026-07"
     }
   ],
   "sources": [
     "https://ai.google.dev/gemma/docs/core/model_card_4",
-    "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/"
+    "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/",
+    "https://arena.ai/leaderboard/text",
+    "https://artificialanalysis.ai/leaderboards/models"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-26",
   "region": "overseas",
   "id": "gemma-4",
   "name": "Gemma 4",

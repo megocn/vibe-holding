@@ -15,12 +15,20 @@
   "pitfalls": [
     "类型系统与性能弱于现代编译型语言；高并发需配合 Octane/Swoole 等。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-02",
+      "type": "release",
+      "summary": "维护线 8.5 最新 8.5.8",
+      "version": "8.5.8",
+      "source": "https://www.php.net/ChangeLog-8.php#8.5.8"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://www.php.net"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-25",
   "region": "overseas",
   "id": "php",
   "name": "PHP",

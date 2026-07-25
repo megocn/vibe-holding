@@ -26,10 +26,13 @@
   "rankings": [
     {
       "systemId": "lmarena-text",
-      "tier": "CN flagship",
+      "rank": 19,
+      "score": 1475,
+      "scoreLabel": "1475 Elo",
       "period": "2026-07",
-      "note": "通义旗舰档；开源线另见 Qwen 开源权重",
-      "asOf": "2026-07-23"
+      "sourceUrl": "https://arena.ai/leaderboard/text",
+      "note": "模型 qwen3.7-max-preview",
+      "asOf": "2026-07-25"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -40,6 +43,36 @@
       "rank": 22,
       "score": 46,
       "scoreLabel": "AAII 46"
+    },
+    {
+      "systemId": "lmarena-vision",
+      "rank": 23,
+      "score": 1261,
+      "scoreLabel": "1261 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/vision",
+      "note": "模型 qwen3.7-plus",
+      "asOf": "2026-07-25"
+    },
+    {
+      "systemId": "lmarena-document",
+      "rank": 19,
+      "score": 1442,
+      "scoreLabel": "1442 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/document",
+      "note": "模型 qwen3.7-plus",
+      "asOf": "2026-07-25"
+    },
+    {
+      "systemId": "lmarena-webdev",
+      "rank": 18,
+      "score": 1519,
+      "scoreLabel": "1519 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+      "note": "模型 qwen3.7-max-20260517",
+      "asOf": "2026-07-25"
     }
   ],
   "sources": [

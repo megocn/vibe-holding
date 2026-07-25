@@ -19,12 +19,20 @@
   "pitfalls": [
     "部分 Node 原生模块兼容仍有缺口"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-05-12",
+      "type": "release",
+      "summary": "维护线 1 最新 1.3.14",
+      "version": "1.3.14",
+      "source": "https://github.com/oven-sh/bun/releases/tag/bun-v1.3.14"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://bun.sh"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-25",
   "region": "overseas",
   "id": "bun",
   "name": "Bun",

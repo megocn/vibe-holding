@@ -39,6 +39,36 @@
       "asOf": "2026-07-24",
       "rank": 7,
       "tier": "High usage"
+    },
+    {
+      "systemId": "lmarena-vision",
+      "rank": 38,
+      "score": 1240,
+      "scoreLabel": "1240 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/vision",
+      "note": "模型 minimax-m3",
+      "asOf": "2026-07-25"
+    },
+    {
+      "systemId": "lmarena-document",
+      "rank": 20,
+      "score": 1435,
+      "scoreLabel": "1435 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/document",
+      "note": "模型 minimax-m3",
+      "asOf": "2026-07-25"
+    },
+    {
+      "systemId": "lmarena-webdev",
+      "rank": 24,
+      "score": 1493,
+      "scoreLabel": "1493 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+      "note": "模型 minimax-m3",
+      "asOf": "2026-07-25"
     }
   ],
   "sources": [

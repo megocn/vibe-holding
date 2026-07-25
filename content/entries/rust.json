@@ -18,12 +18,20 @@
   "pitfalls": [
     "学习曲线陡，Vibe 生成后仍需人工审内存/生命周期"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-16",
+      "type": "release",
+      "summary": "维护线 1.97 最新 1.97.1",
+      "version": "1.97.1",
+      "source": "https://github.com/rust-lang/rust/releases/tag/1.97.1"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://www.rust-lang.org"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-25",
   "region": "both",
   "id": "rust",
   "name": "Rust",

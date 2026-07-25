@@ -85,13 +85,11 @@
     },
     {
       "systemId": "lmarena-agent",
+      "rank": 8,
       "period": "2026-07",
-      "note": "Claude Opus 4.8 (Thinking)（待 Opus 5 上榜）",
       "sourceUrl": "https://arena.ai/leaderboard/agent",
-      "asOf": "2026-07-24",
-      "rank": 3,
-      "share": 9.75,
-      "scoreLabel": "9.75% win"
+      "note": "模型 Claude Opus 4.7",
+      "asOf": "2026-07-25"
     },
     {
       "systemId": "lmarena-webdev",

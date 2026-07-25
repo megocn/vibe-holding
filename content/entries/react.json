@@ -19,11 +19,19 @@
   "pitfalls": [
     "自身不含路由/数据方案，需自行组合"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "summary": "维护线 19 最新 19.2.8",
+      "version": "19.2.8",
+      "source": "https://github.com/facebook/react/releases/tag/v19.2.8"
+    }
+  ],
   "sources": [
     "https://react.dev"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-25",
   "region": "overseas",
   "id": "react",
   "name": "React",

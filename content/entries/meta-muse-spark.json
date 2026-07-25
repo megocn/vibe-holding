@@ -59,6 +59,36 @@
       "rank": 5,
       "score": 1495,
       "scoreLabel": "1495 Elo"
+    },
+    {
+      "systemId": "lmarena-vision",
+      "rank": 6,
+      "score": 1294,
+      "scoreLabel": "1294 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/vision",
+      "note": "模型 muse-spark",
+      "asOf": "2026-07-25"
+    },
+    {
+      "systemId": "lmarena-document",
+      "rank": 17,
+      "score": 1444,
+      "scoreLabel": "1444 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/document",
+      "note": "模型 muse-spark",
+      "asOf": "2026-07-25"
+    },
+    {
+      "systemId": "lmarena-webdev",
+      "rank": 13,
+      "score": 1536,
+      "scoreLabel": "1536 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+      "note": "模型 muse-spark-1.1",
+      "asOf": "2026-07-25"
     }
   ],
   "sources": [

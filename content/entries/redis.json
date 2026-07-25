@@ -20,11 +20,19 @@
     "内存成本",
     "持久化策略需设计"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-24",
+      "type": "release",
+      "summary": "维护线 7.4 最新 7.4.10",
+      "version": "7.4.10",
+      "source": "https://raw.githubusercontent.com/redis/redis/7.4/00-RELEASENOTES"
+    }
+  ],
   "sources": [
     "https://redis.io"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-25",
   "region": "overseas",
   "id": "redis",
   "name": "Redis",

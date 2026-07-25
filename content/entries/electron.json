@@ -15,12 +15,20 @@
   "pitfalls": [
     "内存与包体积大；安全更新需跟踪 Chromium CVE。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "summary": "维护线 43 最新 43.2.0",
+      "version": "43.2.0",
+      "source": "https://releases.electronjs.org/release/v43.2.0"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://www.electronjs.org"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-25",
   "region": "overseas",
   "id": "electron",
   "name": "Electron",
@@ -29,5 +37,6 @@
   "oneLiner": "Chromium+Node 桌面 · VS Code/Slack 同栈 · 生态最成熟",
   "officialUrl": "https://www.electronjs.org",
   "descriptionMd": "Electron 用 Chromium+Node 构建跨平台 desktop App，VS Code/Slack/Discord 等均采用，生态最成熟。\n\n需要快速复用 Web 技能做 desktop、或依赖大量 npm native 模块时。\n\n内存与包体积大；安全更新需跟踪 Chromium CVE。\n",
-  "vendorId": "electronjs"
+  "vendorId": "electronjs",
+  "currentVersion": "43"
 }

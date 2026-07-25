@@ -1,12 +1,14 @@
 import type { Id } from '@vh/core';
 import { motion } from 'motion/react';
-import { type ReactNode, useState } from 'react';
+import { type ReactNode, useMemo } from 'react';
 import { useContent, useContentEditor } from '../lib/content.tsx';
 import { UPDATE_TYPE_META, collectUpdates } from '../lib/intel.ts';
 import { useMotionPrefs } from '../lib/motion.ts';
-import { clearRecent, loadRecent } from '../lib/recent.ts';
+import { buildCatalogProvenance } from '../lib/provenance.ts';
 import { useUserData } from '../lib/userdata.tsx';
 import { BrandSeal } from './BrandSeal.tsx';
+import { Disclaimer } from './Disclaimer.tsx';
+import { FamilyDuelPanel } from './FamilyDuelPanel.tsx';
 import { Icon } from './Icon.tsx';
 
 interface DashboardViewProps {
@@ -34,12 +36,7 @@ export function DashboardView({
   const { bundle } = useContent();
   const { data } = useUserData();
   const { overlaySummary } = useContentEditor();
-  const [recent, setRecent] = useState(() => loadRecent());
   const { fadeSlide, staggerItem, tSlow, tStd, reduced } = useMotionPrefs();
-
-  const favEntries = data.favorites
-    .map((id) => bundle.entries.get(id))
-    .filter((e): e is NonNullable<typeof e> => e != null);
 
   const noteEntries = Object.keys(data.notes)
     .map((id) => ({ id, note: data.notes[id] ?? '', entry: bundle.entries.get(id) }))
@@ -52,6 +49,13 @@ export function DashboardView({
   const allFeed = collectUpdates(bundle.entries.values(), { limit: 6 });
   const feed = followFeed.length > 0 ? followFeed : allFeed;
   const feedTitle = followFeed.length > 0 ? '我的更新流' : '最近更新';
+
+  const provenance = useMemo(
+    () => buildCatalogProvenance(bundle.entries.values(), bundle.rankingSystems.values()),
+    [bundle],
+  );
+  const authorityPreview = provenance.authorityLabels.slice(0, 10);
+  const authorityMore = Math.max(0, provenance.authorityLabels.length - authorityPreview.length);
 
   const pulse = [
     { icon: 'Star', label: '收藏', value: data.favorites.length, onClick: onOpenKnowledge },
@@ -152,57 +156,9 @@ export function DashboardView({
           ))}
         </motion.div>
 
-        {/* —— 两栏：续读 / 风向 —— */}
+        {/* —— 两栏：LLM 双强对垒 / 风向 —— */}
         <div className="vh-home-lanes">
-          <Lane
-            title="续读航线"
-            action={
-              recent.length > 0 ? (
-                <button
-                  type="button"
-                  className="vh-btn"
-                  style={{ padding: '2px 8px', fontSize: 12 }}
-                  onClick={() => {
-                    clearRecent();
-                    setRecent([]);
-                  }}
-                >
-                  清除
-                </button>
-              ) : undefined
-            }
-          >
-            {recent.length === 0 && favEntries.length === 0 ? (
-              <Empty hint="打开知识库条目后，浏览与收藏会汇集在此" />
-            ) : (
-              <ul className="vh-home-list">
-                {recent.slice(0, 6).map((id, i) => {
-                  const e = bundle.entries.get(id);
-                  return (
-                    <Row
-                      key={`r-${id}`}
-                      label={e?.name ?? id}
-                      hint={e?.oneLiner}
-                      onClick={() => onOpenEntry(id as Id)}
-                      variants={staggerItem}
-                      delay={reduced ? 0 : i * 0.03}
-                    />
-                  );
-                })}
-                {favEntries.slice(0, 4).map((e, i) => (
-                  <Row
-                    key={`f-${e.id}`}
-                    label={e.name}
-                    hint={e.oneLiner}
-                    icon="Star"
-                    onClick={() => onOpenEntry(e.id)}
-                    variants={staggerItem}
-                    delay={reduced ? 0 : (recent.length + i) * 0.03}
-                  />
-                ))}
-              </ul>
-            )}
-          </Lane>
+          <FamilyDuelPanel onOpenEntry={onOpenEntry} />
 
           <Lane
             title={feedTitle}
@@ -280,6 +236,95 @@ export function DashboardView({
             />
           )}
         </section>
+
+        {/* —— 信息来源公示：公开权威与规模，不涉及采集手段 —— */}
+        <motion.section
+          className="vh-home-provenance"
+          aria-labelledby="vh-home-provenance-title"
+          variants={fadeSlide}
+          initial="initial"
+          animate="animate"
+          transition={{ ...tStd, delay: reduced ? 0 : 0.18 }}
+        >
+          <div className="vh-home-provenance-head">
+            <h2 id="vh-home-provenance-title" className="vh-home-lane-title">
+              信息来源
+            </h2>
+            <span className="vh-home-provenance-live" title="知识库持续对照公开信息保鲜">
+              <span className="vh-home-provenance-live-dot" aria-hidden />
+              持续更新中
+            </span>
+          </div>
+          <p className="vh-home-provenance-lede">
+            墨台不编造名次与版本节点。条目事实来自公开权威榜、厂商一手发布与可核验的生态信号；排行展示为第三方快照，非墨台主观评分。
+          </p>
+
+          <div className="vh-home-provenance-stats" aria-label="知识库规模">
+            <div className="vh-home-provenance-stat">
+              <span className="vh-home-provenance-stat-value vh-mono">{provenance.entryCount}</span>
+              <span className="vh-home-provenance-stat-label">收录条目</span>
+            </div>
+            <div className="vh-home-provenance-stat">
+              <span className="vh-home-provenance-stat-value vh-mono">
+                {provenance.rankingSystemCount}
+              </span>
+              <span className="vh-home-provenance-stat-label">排行体系</span>
+            </div>
+            <div className="vh-home-provenance-stat">
+              <span className="vh-home-provenance-stat-value vh-mono">
+                {provenance.updatesLast30Days}
+              </span>
+              <span className="vh-home-provenance-stat-label">近 30 日更新</span>
+            </div>
+            {provenance.lastReviewedDate && (
+              <div className="vh-home-provenance-stat">
+                <span className="vh-home-provenance-stat-value vh-mono">
+                  {provenance.lastReviewedDate}
+                </span>
+                <span className="vh-home-provenance-stat-label">信息更新</span>
+              </div>
+            )}
+            {provenance.latestUpdateDate && (
+              <div className="vh-home-provenance-stat">
+                <span className="vh-home-provenance-stat-value vh-mono">
+                  {provenance.latestUpdateDate}
+                </span>
+                <span className="vh-home-provenance-stat-label">最近动态</span>
+              </div>
+            )}
+          </div>
+
+          <ul className="vh-home-provenance-kinds">
+            <li>
+              <strong>权威排行与基准</strong>
+              <span>
+                {authorityPreview.join(' · ')}
+                {authorityMore > 0 ? ` 等 ${provenance.authorityLabels.length} 家` : ''}
+              </span>
+            </li>
+            <li>
+              <strong>官方发布与生命周期</strong>
+              <span>厂商 changelog、版本节点与公开维护/停更公告</span>
+            </li>
+            <li>
+              <strong>开源生态信号</strong>
+              <span>GitHub 与主流包管理器的客观流行度，作选型旁证</span>
+            </li>
+            <li>
+              <strong>社区与行业观察</strong>
+              <span>开发者社区热议与行业报告，仅作扩种参考，不自动定论</span>
+            </li>
+          </ul>
+        </motion.section>
+
+        <motion.div
+          variants={fadeSlide}
+          initial="initial"
+          animate="animate"
+          transition={{ ...tStd, delay: reduced ? 0 : 0.22 }}
+        >
+          <Disclaimer />
+        </motion.div>
       </div>
     </div>
   );

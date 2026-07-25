@@ -15,12 +15,20 @@
   "pitfalls": [
     "学习曲线陡、bundle 偏大；marketing 轻页不如 Astro/Next。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-22",
+      "type": "release",
+      "summary": "维护线 22 最新 22.0.8",
+      "version": "22.0.8",
+      "source": "https://github.com/angular/angular/releases/tag/v22.0.8"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://angular.dev"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-25",
   "region": "overseas",
   "id": "angular",
   "name": "Angular",

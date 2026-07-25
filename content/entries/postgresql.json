@@ -19,11 +19,19 @@
   "pitfalls": [
     "自托管运维门槛"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-05-11",
+      "type": "release",
+      "summary": "维护线 18 最新 18.4",
+      "version": "18.4",
+      "source": "https://www.postgresql.org/docs/release/18.4/"
+    }
+  ],
   "sources": [
     "https://www.postgresql.org"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-25",
   "region": "overseas",
   "id": "postgresql",
   "name": "PostgreSQL",
@@ -51,5 +59,6 @@
       "sourceUrl": "https://survey.stackoverflow.co/2025/technology/",
       "asOf": "2026-07-20"
     }
-  ]
+  ],
+  "currentVersion": "18.4"
 }

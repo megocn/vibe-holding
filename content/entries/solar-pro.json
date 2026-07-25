@@ -20,11 +20,22 @@
     "中文能力需实测；国内访问延迟与合规需网络评估。"
   ],
   "updates": [],
-  "rankings": [],
-  "sources": [
-    "https://upstage.ai"
+  "rankings": [
+    {
+      "systemId": "artificial-analysis-index",
+      "score": 14,
+      "scoreLabel": "AAII 14",
+      "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
+      "note": "Solar Pro 3",
+      "asOf": "2026-07-26",
+      "period": "2026-07"
+    }
   ],
-  "lastReviewed": "2026-07-23",
+  "sources": [
+    "https://upstage.ai",
+    "https://artificialanalysis.ai/leaderboards/models"
+  ],
+  "lastReviewed": "2026-07-26",
   "region": "overseas",
   "id": "solar-pro",
   "name": "Solar Pro 3",

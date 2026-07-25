@@ -15,12 +15,20 @@
   "pitfalls": [
     "纯 Kotlin 团队仍需理解 Java 生态；Native/JS 目标场景社区小于 JVM。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-14",
+      "type": "release",
+      "summary": "维护线 2.4 最新 2.4.10",
+      "version": "2.4.10",
+      "source": "https://github.com/JetBrains/kotlin/releases/tag/v2.4.10"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://kotlinlang.org"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-25",
   "region": "overseas",
   "id": "kotlin",
   "name": "Kotlin",

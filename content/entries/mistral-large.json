@@ -20,11 +20,33 @@
     "与 Small 价差大；简单任务应路由到轻量档控成本。"
   ],
   "updates": [],
-  "rankings": [],
-  "sources": [
-    "https://mistral.ai"
+  "rankings": [
+    {
+      "systemId": "lmarena-text",
+      "rank": 110,
+      "score": 1415,
+      "scoreLabel": "1415 Elo",
+      "sourceUrl": "https://arena.ai/leaderboard/text",
+      "note": "模型 mistral-large-3",
+      "asOf": "2026-07-21",
+      "period": "2026-07"
+    },
+    {
+      "systemId": "artificial-analysis-index",
+      "score": 16,
+      "scoreLabel": "AAII 16",
+      "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
+      "note": "Mistral Large 3",
+      "asOf": "2026-07-26",
+      "period": "2026-07"
+    }
   ],
-  "lastReviewed": "2026-07-23",
+  "sources": [
+    "https://mistral.ai",
+    "https://arena.ai/leaderboard/text",
+    "https://artificialanalysis.ai/leaderboards/models"
+  ],
+  "lastReviewed": "2026-07-26",
   "region": "overseas",
   "id": "mistral-large",
   "name": "Mistral Large 3",

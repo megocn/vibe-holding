@@ -52,11 +52,13 @@
   "rankings": [
     {
       "systemId": "lmarena-text",
-      "tier": "Frontier",
+      "rank": 11,
+      "score": 1485,
+      "scoreLabel": "1485 Elo",
       "period": "2026-07",
-      "note": "Text Overall 名次随快照波动；Agent/WebDev 更稳居前列",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "asOf": "2026-07-24"
+      "note": "模型 gpt-5.6-sol-xhigh",
+      "asOf": "2026-07-25"
     },
     {
       "systemId": "lmarena-agent",

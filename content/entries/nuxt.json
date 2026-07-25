@@ -19,11 +19,19 @@
   "pitfalls": [
     "部分模块版本兼容需留意"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-31",
+      "type": "deprecation",
+      "summary": "nuxt 3 将于 2026-07-31 结束安全支持",
+      "version": "3",
+      "source": "https://endoflife.date/nuxt"
+    }
+  ],
   "sources": [
     "https://nuxt.com"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-25",
   "region": "overseas",
   "id": "nuxt",
   "name": "Nuxt",

@@ -1,6 +1,7 @@
 import type { EntryRanking, Id, RankingSystem } from '@vh/core';
-import { formatRankingPrimary, primaryRankingSystem } from '@vh/core';
-import { useMemo } from 'react';
+import { formatRankingPrimary, formatRankingScore, primaryRankingSystem } from '@vh/core';
+import { useCallback, useEffect, useId, useLayoutEffect, useMemo, useRef, useState } from 'react';
+import { createPortal } from 'react-dom';
 import { useContent } from '../lib/content.tsx';
 import { Icon } from './Icon.tsx';
 
@@ -11,37 +12,64 @@ interface RankingsPanelProps {
   compact?: boolean;
 }
 
-/** 条目多套权威排行快照 + 本分类推荐体系（无数据时提示对照）。 */
+const CADENCE_LABEL: Record<string, string> = {
+  weekly: '约每周更新',
+  monthly: '约每月更新',
+  annual: '约每年更新',
+  quarterly: '约每季度更新',
+  daily: '近乎每日更新',
+  'ad-hoc': '不定期更新',
+};
+
+function metricHowToRead(system: RankingSystem): string {
+  const unit = system.metricUnit ? `（${system.metricUnit}）` : '';
+  switch (system.metric) {
+    case 'rank':
+      return '读法：名次越小越好，#1 为最优。';
+    case 'score':
+      return `读法：分值越高通常越好${unit}。`;
+    case 'share':
+      return '读法：占比越高表示采用越广；热度不等于能力。';
+    case 'tier':
+      return '读法：看档位 / 象限标签（如 Leader），而非单一名次。';
+    case 'mixed':
+      return `读法：常同时参考名次与分值${unit}。`;
+    default:
+      return '';
+  }
+}
+
+/**
+ * 仅展示本条目已有快照的权威排行。
+ * 分类下登记了、但本条目未上榜的体系不出现在主内容（避免「暂无」占位干扰）。
+ */
 export function RankingsPanel({ categoryId, rankings, compact }: RankingsPanelProps) {
   const { bundle } = useContent();
 
-  const { rows, categorySystems } = useMemo(() => {
-    const systems = [...bundle.rankingSystems.values()]
+  const rows = useMemo(() => {
+    if (!rankings.length) return [];
+
+    const categorySystems = [...bundle.rankingSystems.values()]
       .filter((s) => s.categories.includes(categoryId))
       .sort((a, b) => a.order - b.order || a.id.localeCompare(b.id));
 
     const byId = new Map(rankings.map((r) => [r.systemId, r]));
-    const rows = systems.map((sys) => ({
-      system: sys,
-      ranking: byId.get(sys.id),
-    }));
-    // 条目上有、但未挂到本分类的体系（异常数据）仍展示
-    for (const r of rankings) {
-      if (!systems.some((s) => s.id === r.systemId)) {
-        const sys = bundle.rankingSystems.get(r.systemId);
-        if (sys) rows.push({ system: sys, ranking: r });
-      }
+    const rows: { system: RankingSystem; ranking: EntryRanking }[] = [];
+
+    for (const sys of categorySystems) {
+      const ranking = byId.get(sys.id);
+      if (ranking) rows.push({ system: sys, ranking });
     }
-    return { rows, categorySystems: systems };
+    // 条目上有、但未挂到本分类的体系仍展示
+    for (const r of rankings) {
+      if (rows.some((row) => row.system.id === r.systemId)) continue;
+      const sys = bundle.rankingSystems.get(r.systemId);
+      if (sys) rows.push({ system: sys, ranking: r });
+    }
+    return rows;
   }, [bundle.rankingSystems, categoryId, rankings]);
 
-  if (categorySystems.length === 0 && rankings.length === 0) {
-    return (
-      <p className="vh-text-caption" style={{ color: 'var(--ink-3)', margin: 0 }}>
-        本分类尚未登记权威排行体系。
-      </p>
-    );
-  }
+  if (rows.length === 0) return null;
 
   return (
     <div className={`vh-rankings${compact ? ' vh-rankings-compact' : ''}`}>
@@ -66,47 +94,213 @@ function RankingRow({
   compact,
 }: {
   system: RankingSystem;
-  ranking?: EntryRanking;
+  ranking: EntryRanking;
   compact?: boolean;
 }) {
-  const primary = ranking ? formatRankingPrimary(ranking, system) : null;
+  const score = formatRankingScore(ranking, system);
+  const isFirst = ranking.rank === 1;
+  const isTop3 = ranking.rank != null && ranking.rank <= 3;
+
+  let rankKind: 'rank' | 'share' | 'tier' | 'score' = 'score';
+  let rankText = formatRankingPrimary(ranking, system);
+  let primary: string | null = null;
+  let secondary: string | null = null;
+
+  if (ranking.rank != null) {
+    rankKind = 'rank';
+    rankText = String(ranking.rank);
+    secondary = [ranking.tier, score].filter(Boolean).join(' · ') || null;
+  } else if (ranking.share != null) {
+    rankKind = 'share';
+    rankText = String(ranking.share);
+    secondary = ranking.tier || score || null;
+  } else if (ranking.tier) {
+    rankKind = 'tier';
+    primary = ranking.tier;
+    secondary = score || null;
+  } else if (score) {
+    rankKind = 'score';
+    primary = score;
+  } else {
+    primary = rankText;
+  }
+
+  /** 仅短数字/占比适合左侧大字；档位与长分值放正文，避免挤爆卡片。 */
+  const showSideRank = rankKind === 'rank' || rankKind === 'share';
 
   return (
-    <li className="vh-ranking-row" data-has={ranking ? '1' : '0'}>
-      <div className="vh-ranking-head">
-        <span className="vh-ranking-name" title={system.description}>
-          {system.shortName}
-        </span>
-        <a
-          className="vh-ranking-ext"
-          href={system.url}
-          target="_blank"
-          rel="noreferrer"
-          title={`${system.name} · ${system.authority}`}
+    <li
+      className="vh-ranking-row"
+      data-place={isFirst ? '1' : isTop3 ? 'top' : undefined}
+      data-kind={rankKind}
+    >
+      {showSideRank && (
+        <div
+          className="vh-ranking-rank"
+          aria-label={rankKind === 'rank' ? `第 ${rankText} 名` : undefined}
         >
-          <Icon name="ArrowSquareOut" size={12} />
-        </a>
+          <div className="vh-ranking-rank-value">
+            {rankKind === 'rank' && !isFirst && <span className="vh-ranking-hash">#</span>}
+            <span className="vh-ranking-num">{rankText}</span>
+            {rankKind === 'share' && <span className="vh-ranking-hash">%</span>}
+          </div>
+          {isFirst && <span className="vh-ranking-first-mark">榜首</span>}
+        </div>
+      )}
+      <div className="vh-ranking-body">
+        <div className="vh-ranking-main">
+          <span className="vh-ranking-name">{system.shortName}</span>
+          <span className="vh-ranking-brief">{system.brief}</span>
+          <RankingInfoTip system={system} />
+          <a
+            className="vh-ranking-ext"
+            href={system.url}
+            target="_blank"
+            rel="noreferrer"
+            title={`${system.name} · ${system.authority}`}
+          >
+            <Icon name="ArrowSquareOut" size={11} />
+          </a>
+        </div>
+        {primary && <div className="vh-ranking-primary">{primary}</div>}
+        {secondary && <div className="vh-ranking-secondary">{secondary}</div>}
+        {!compact && (
+          <div className="vh-ranking-meta vh-text-caption">
+            <span>{ranking.period}</span>
+            <span className="vh-mono">asOf {ranking.asOf}</span>
+            {ranking.sourceUrl && (
+              <a className="vh-link" href={ranking.sourceUrl} target="_blank" rel="noreferrer">
+                来源
+              </a>
+            )}
+          </div>
+        )}
+        {!compact && ranking.note && <div className="vh-ranking-note">{ranking.note}</div>}
       </div>
-      {ranking ? (
-        <>
-          <div className="vh-ranking-primary">{primary}</div>
-          {!compact && (
-            <div className="vh-ranking-meta vh-text-caption">
-              <span>{ranking.period}</span>
-              <span className="vh-mono">asOf {ranking.asOf}</span>
-              {ranking.sourceUrl && (
-                <a className="vh-link" href={ranking.sourceUrl} target="_blank" rel="noreferrer">
-                  来源
-                </a>
+    </li>
+  );
+}
+
+type PopPos = { top: number; left: number; maxWidth: number };
+
+/** 榜名旁问号：点击展开体系说明（全称 / 权威方 / 描述 / 更新节奏）。 */
+function RankingInfoTip({ system }: { system: RankingSystem }) {
+  const [open, setOpen] = useState(false);
+  const [pos, setPos] = useState<PopPos | null>(null);
+  const triggerRef = useRef<HTMLButtonElement>(null);
+  const panelRef = useRef<HTMLDivElement>(null);
+  const labelId = useId();
+
+  const updatePos = useCallback(() => {
+    const el = triggerRef.current;
+    if (!el) return;
+    const r = el.getBoundingClientRect();
+    const pad = 8;
+    const maxWidth = Math.min(340, window.innerWidth - pad * 2);
+    let left = r.left;
+    if (left + maxWidth > window.innerWidth - pad) {
+      left = window.innerWidth - pad - maxWidth;
+    }
+    if (left < pad) left = pad;
+    const below = r.bottom + pad;
+    const estimatedH = 168;
+    const top =
+      below + estimatedH > window.innerHeight - pad
+        ? Math.max(pad, r.top - pad - estimatedH)
+        : below;
+    setPos({ top, left, maxWidth });
+  }, []);
+
+  useLayoutEffect(() => {
+    if (!open) return;
+    updatePos();
+  }, [open, updatePos]);
+
+  useEffect(() => {
+    if (!open) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setOpen(false);
+    };
+    const onPointer = (e: PointerEvent) => {
+      const t = e.target as Node;
+      if (triggerRef.current?.contains(t) || panelRef.current?.contains(t)) return;
+      setOpen(false);
+    };
+    const onScroll = () => updatePos();
+    window.addEventListener('keydown', onKey);
+    window.addEventListener('pointerdown', onPointer, true);
+    window.addEventListener('resize', onScroll);
+    window.addEventListener('scroll', onScroll, true);
+    return () => {
+      window.removeEventListener('keydown', onKey);
+      window.removeEventListener('pointerdown', onPointer, true);
+      window.removeEventListener('resize', onScroll);
+      window.removeEventListener('scroll', onScroll, true);
+    };
+  }, [open, updatePos]);
+
+  const cadence =
+    system.updateCadence != null
+      ? (CADENCE_LABEL[system.updateCadence] ?? `更新节奏：${system.updateCadence}`)
+      : null;
+  const howToRead = metricHowToRead(system);
+
+  return (
+    <>
+      <button
+        ref={triggerRef}
+        type="button"
+        className="vh-ranking-info"
+        title="榜单说明"
+        aria-label={`${system.shortName} 榜单说明`}
+        aria-haspopup="dialog"
+        aria-expanded={open}
+        aria-controls={open ? labelId : undefined}
+        onClick={() => setOpen((v) => !v)}
+      >
+        <Icon name="Question" size={12} weight="bold" />
+      </button>
+      {open &&
+        pos &&
+        createPortal(
+          <div
+            ref={panelRef}
+            id={labelId}
+            role="dialog"
+            aria-labelledby={`${labelId}-title`}
+            className="vh-concept-pop vh-ranking-pop"
+            style={{ top: pos.top, left: pos.left, maxWidth: pos.maxWidth }}
+          >
+            <div className="vh-concept-pop-title" id={`${labelId}-title`}>
+              {system.name}
+            </div>
+            <div className="vh-ranking-pop-meta">
+              <div>
+                <span className="vh-ranking-pop-k">来源</span>
+                {system.authority}
+              </div>
+              {cadence && (
+                <div>
+                  <span className="vh-ranking-pop-k">更新</span>
+                  {cadence}
+                </div>
               )}
             </div>
-          )}
-          {!compact && ranking.note && <div className="vh-ranking-note">{ranking.note}</div>}
-        </>
-      ) : (
-        <div className="vh-ranking-empty vh-text-caption">暂无快照 · 可点开榜单核对</div>
-      )}
-    </li>
+            <div className="vh-concept-pop-body">{system.description}</div>
+            {howToRead && <div className="vh-ranking-pop-howto">{howToRead}</div>}
+            <a
+              className="vh-link vh-ranking-pop-link"
+              href={system.url}
+              target="_blank"
+              rel="noreferrer"
+            >
+              查看原榜
+              <Icon name="ArrowSquareOut" size={11} />
+            </a>
+          </div>,
+          document.body,
+        )}
+    </>
   );
 }
 

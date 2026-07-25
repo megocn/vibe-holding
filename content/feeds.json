@@ -15,8 +15,118 @@
     "label": "Next.js Blog"
   },
   {
-    "entryId": "cloudflare-pages",
-    "url": "https://blog.cloudflare.com/rss/",
-    "label": "Cloudflare Blog"
+    "entryId": "rust",
+    "url": "https://blog.rust-lang.org/feed.xml",
+    "label": "Rust Blog"
+  },
+  {
+    "entryId": "go",
+    "url": "https://go.dev/blog/feed.atom",
+    "label": "Go Blog"
+  },
+  {
+    "entryId": "python",
+    "url": "https://blog.python.org/feeds/posts/default?alt=rss",
+    "label": "Python Insider"
+  },
+  {
+    "entryId": "docker",
+    "url": "https://www.docker.com/blog/feed/",
+    "label": "Docker Blog"
+  },
+  {
+    "entryId": "kubernetes",
+    "url": "https://kubernetes.io/feed.xml",
+    "label": "Kubernetes Blog"
+  },
+  {
+    "entryId": "react",
+    "url": "https://react.dev/rss.xml",
+    "label": "React Blog"
+  },
+  {
+    "entryId": "vue",
+    "url": "https://blog.vuejs.org/feed.rss",
+    "label": "Vue Blog"
+  },
+  {
+    "entryId": "angular",
+    "url": "https://blog.angular.dev/feed",
+    "label": "Angular Blog"
+  },
+  {
+    "entryId": "django",
+    "url": "https://www.djangoproject.com/rss/weblog/",
+    "label": "Django Weblog"
+  },
+  {
+    "entryId": "rails",
+    "url": "https://rubyonrails.org/feed.xml",
+    "label": "Ruby on Rails"
+  },
+  {
+    "entryId": "postgresql",
+    "url": "https://www.postgresql.org/news.rss",
+    "label": "PostgreSQL News"
+  },
+  {
+    "entryId": "redis",
+    "url": "https://redis.io/blog/feed/",
+    "label": "Redis Blog"
+  },
+  {
+    "entryId": "sentry",
+    "url": "https://blog.sentry.io/feed.xml",
+    "label": "Sentry Blog"
+  },
+  {
+    "entryId": "posthog",
+    "url": "https://posthog.com/rss.xml",
+    "label": "PostHog Blog"
+  },
+  {
+    "entryId": "deno",
+    "url": "https://deno.com/blog/rss.xml",
+    "label": "Deno Blog"
+  },
+  {
+    "entryId": "bun",
+    "url": "https://bun.sh/rss.xml",
+    "label": "Bun Blog"
+  },
+  {
+    "entryId": "electron",
+    "url": "https://www.electronjs.org/blog/rss.xml",
+    "label": "Electron Blog"
+  },
+  {
+    "entryId": "pnpm",
+    "url": "https://pnpm.io/blog/rss.xml",
+    "label": "pnpm Blog"
+  },
+  {
+    "entryId": "prisma",
+    "url": "https://www.prisma.io/blog/rss.xml",
+    "label": "Prisma Blog"
+  },
+  {
+    "entryId": "stripe",
+    "url": "https://stripe.com/blog/feed.rss",
+    "label": "Stripe Blog"
+  },
+  {
+    "entryId": "github-actions",
+    "url": "https://github.blog/changelog/label/actions/feed/",
+    "label": "GitHub Actions Changelog"
+  },
+  {
+    "entryId": "aider",
+    "url": "https://aider.chat/feed.xml",
+    "label": "Aider Blog"
+  },
+  {
+    "entryId": "ahrefs",
+    "url": "https://ahrefs.com/blog/feed",
+    "label": "Ahrefs Blog"
   }
 ]

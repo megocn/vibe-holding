@@ -3,6 +3,7 @@ import { useContent, useContentEditor } from '../lib/content.tsx';
 import { isTauri } from '../lib/platform.ts';
 import type { Density, Theme } from '../lib/prefs.ts';
 import { useUserData } from '../lib/userdata.tsx';
+import { Disclaimer } from './Disclaimer.tsx';
 
 interface SettingsViewProps {
   theme: Theme;
@@ -129,6 +130,10 @@ export function SettingsView({
           </button>
         </div>
       )}
+
+      <div style={{ marginTop: 28 }}>
+        <Disclaimer compact id="vh-settings-disclaimer" />
+      </div>
     </div>
   );
 }

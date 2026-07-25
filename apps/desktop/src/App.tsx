@@ -548,6 +548,7 @@ function AppShell() {
       <header
         {...dragProps}
         className="vh-shell-header flex items-center gap-3"
+        data-view={view}
         style={{
           height: 52,
           padding: '0 12px 0 16px',
@@ -555,6 +556,7 @@ function AppShell() {
           flexShrink: 0,
         }}
       >
+        {/* 首页 hero 已承担品牌，顶栏避免再放 logo+名称 */}
         <div className="vh-shell-brand flex items-center gap-2.5" style={{ pointerEvents: 'none' }}>
           <BrandSeal size={28} />
           <span
@@ -564,7 +566,10 @@ function AppShell() {
             墨台
           </span>
         </div>
-        <div className="vh-shell-search" style={{ flex: 1, maxWidth: 520, marginLeft: 16 }}>
+        <div
+          className="vh-shell-search"
+          style={{ flex: 1, maxWidth: 520, marginLeft: view === 'dashboard' ? 0 : 16 }}
+        >
           <div className="flex items-center gap-2 vh-input" style={{ padding: '6px 12px' }}>
             <Icon name="MagnifyingGlass" size={16} color="var(--ink-3)" />
             <input

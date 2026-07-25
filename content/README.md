@@ -52,6 +52,17 @@ VS Code 已通过 `.vscode/settings.json` 的 `json.schemas` 关联 `content/sch
 
 档位用 `part_of` 边指向产品族。侧栏/列表按族展开档，**不要**把「产品族」「选型档位」当两个平级叶类点选。错误示例：把 `kimi-k3`（版本）与 `通义千问`（族）和 `Claude Opus`（档）并列同榜。
 
+#### 产品族排序（榜单优先 · 综合分）
+
+族列表序**不**按名称、**不**用编辑心智图 `llm-family-landscape`。规则摘要：
+
+1. 从下属 `llm-line` 的权威榜快照聚合族实力分 \(S\)（每榜取族内最好一档，不取均值）。
+2. **主权重**：Arena Text / WebDev / Agent、AA Index、SWE-bench 等（合计约 82%）；缺榜对有数据的榜重归一化，并加覆盖度惩罚。
+3. **辅权**：OpenRouter 热度 · 外部突出度 · 成熟度（合计约 18%）。
+4. 完全无榜的族沉底，再按突出度 / 成熟度 / 名称。
+
+公式、权重表与并列规则见对内详设：`docs-internal/modules/01-知识库.md` §2.3（T-KB-10）。维护者只需保证档位 `rankings[]` 与 `part_of` 正确；**勿**为抬族序手写族级 Arena。
+
 ## 条目最小字段
 
 参见 `@vh/core` 的 `Entry` schema / SPEC §5。实用清单：

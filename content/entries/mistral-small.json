@@ -19,11 +19,22 @@
     "复杂代码生成与 multi-step Agent 应路由到 Large 或 frontier。"
   ],
   "updates": [],
-  "rankings": [],
-  "sources": [
-    "https://mistral.ai"
+  "rankings": [
+    {
+      "systemId": "artificial-analysis-index",
+      "score": 20,
+      "scoreLabel": "AAII 20",
+      "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
+      "note": "Mistral Small 4",
+      "asOf": "2026-07-26",
+      "period": "2026-07"
+    }
   ],
-  "lastReviewed": "2026-07-23",
+  "sources": [
+    "https://mistral.ai",
+    "https://artificialanalysis.ai/leaderboards/models"
+  ],
+  "lastReviewed": "2026-07-26",
   "region": "overseas",
   "id": "mistral-small",
   "name": "Mistral Small 4",

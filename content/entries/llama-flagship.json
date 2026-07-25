@@ -22,12 +22,34 @@
     "许可需读 Llama 4 Community License；推理成本仍高，多数产品可先评 Scout。"
   ],
   "updates": [],
-  "rankings": [],
+  "rankings": [
+    {
+      "systemId": "lmarena-text",
+      "rank": 215,
+      "score": 1327,
+      "scoreLabel": "1327 Elo",
+      "sourceUrl": "https://arena.ai/leaderboard/text",
+      "note": "模型 llama-4-maverick-17b-128e-instruct",
+      "asOf": "2026-07-21",
+      "period": "2026-07"
+    },
+    {
+      "systemId": "artificial-analysis-index",
+      "score": 14,
+      "scoreLabel": "AAII 14",
+      "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
+      "note": "Llama 4 Maverick",
+      "asOf": "2026-07-26",
+      "period": "2026-07"
+    }
+  ],
   "sources": [
     "https://ai.meta.com/blog/Llama-4-multimodal-intelligence/",
-    "https://www.llama.com"
+    "https://www.llama.com",
+    "https://arena.ai/leaderboard/text",
+    "https://artificialanalysis.ai/leaderboards/models"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-26",
   "region": "overseas",
   "id": "llama-flagship",
   "name": "Llama 4 Maverick",

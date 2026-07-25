@@ -38,6 +38,16 @@
       "asOf": "2026-07-24",
       "rank": 3,
       "tier": "Top usage"
+    },
+    {
+      "systemId": "lmarena-webdev",
+      "rank": 19,
+      "score": 1517,
+      "scoreLabel": "1517 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+      "note": "模型 hy3",
+      "asOf": "2026-07-25"
     }
   ],
   "sources": [

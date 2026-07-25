@@ -97,6 +97,26 @@
       "asOf": "2026-07-24",
       "rank": 11,
       "tier": "Rising usage"
+    },
+    {
+      "systemId": "lmarena-vision",
+      "rank": 22,
+      "score": 1265,
+      "scoreLabel": "1265 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/vision",
+      "note": "模型 kimi-k2.6",
+      "asOf": "2026-07-25"
+    },
+    {
+      "systemId": "lmarena-document",
+      "rank": 15,
+      "score": 1451,
+      "scoreLabel": "1451 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/document",
+      "note": "模型 kimi-k2.6",
+      "asOf": "2026-07-25"
     }
   ],
   "sources": [

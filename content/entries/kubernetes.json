@@ -18,12 +18,20 @@
   "pitfalls": [
     "学习曲线陡峭；小项目直接 PaaS（Railway/Fly）可能更省运维。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-22",
+      "type": "release",
+      "summary": "维护线 1.36 最新 1.36.3",
+      "version": "1.36.3",
+      "source": "https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.36.md"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://kubernetes.io"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-25",
   "region": "overseas",
   "id": "kubernetes",
   "name": "Kubernetes",

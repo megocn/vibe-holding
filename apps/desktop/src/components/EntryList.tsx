@@ -67,9 +67,9 @@ export function EntryList({
   );
 
   const primaryLabel = useMemo(() => {
-    if (nav.kind === 'family') return '按产品族 › 选型档位排列';
+    if (nav.kind === 'family') return '按榜单综合分排序（旗舰聚合）';
     if (nav.kind !== 'category') return null;
-    if (isLlmSectionNav(nav.categoryId, categories)) return '按产品族 › 选型档位排列';
+    if (isLlmSectionNav(nav.categoryId, categories)) return '按榜单综合分排序（旗舰聚合）';
     const sys = primaryRankingSystem(bundle.rankingSystems.values(), nav.categoryId);
     const catEntries = [...bundle.entries.values()].filter((e) => e.category === nav.categoryId);
     // 仅当类内确有主榜快照时宣称「按权威榜」；否则诚实标流行度兜底

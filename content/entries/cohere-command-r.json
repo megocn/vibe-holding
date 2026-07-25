@@ -20,11 +20,33 @@
     "通用 chat 创造力可能不如 GPT/Claude；定价含检索组件需看清账单。"
   ],
   "updates": [],
-  "rankings": [],
-  "sources": [
-    "https://cohere.com"
+  "rankings": [
+    {
+      "systemId": "lmarena-text",
+      "rank": 178,
+      "score": 1354,
+      "scoreLabel": "1354 Elo",
+      "sourceUrl": "https://arena.ai/leaderboard/text",
+      "note": "模型 command-a-03-2025（A+ 未单独上榜时的同系最近快照）",
+      "asOf": "2026-07-21",
+      "period": "2026-07"
+    },
+    {
+      "systemId": "artificial-analysis-index",
+      "score": 23,
+      "scoreLabel": "AAII 23",
+      "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
+      "note": "Command A+",
+      "asOf": "2026-07-26",
+      "period": "2026-07"
+    }
   ],
-  "lastReviewed": "2026-07-23",
+  "sources": [
+    "https://cohere.com",
+    "https://arena.ai/leaderboard/text",
+    "https://artificialanalysis.ai/leaderboards/models"
+  ],
+  "lastReviewed": "2026-07-26",
   "region": "overseas",
   "id": "cohere-command-r",
   "name": "Command A+",

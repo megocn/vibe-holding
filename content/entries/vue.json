@@ -18,11 +18,19 @@
   "pitfalls": [
     "大型企业生态相对 React 偏少"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-16",
+      "type": "release",
+      "summary": "维护线 3.5 最新 3.5.40",
+      "version": "3.5.40",
+      "source": "https://github.com/vuejs/core/releases/tag/v3.5.40"
+    }
+  ],
   "sources": [
     "https://vuejs.org"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-25",
   "region": "overseas",
   "id": "vue",
   "name": "Vue",

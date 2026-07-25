@@ -25,6 +25,12 @@
   "currentVersion": "16",
   "updates": [
     {
+      "date": "2026-07-20",
+      "type": "feature",
+      "summary": "July 2026 Security Release",
+      "source": "https://nextjs.org/blog/july-2026-security-release"
+    },
+    {
       "date": "2025-10-21",
       "type": "release",
       "version": "16",
@@ -42,7 +48,7 @@
   "sources": [
     "https://nextjs.org"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-25",
   "region": "overseas",
   "id": "nextjs",
   "name": "Next.js",

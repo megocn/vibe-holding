@@ -24,6 +24,12 @@
   ],
   "updates": [
     {
+      "date": "2026-07-23",
+      "type": "feature",
+      "summary": "Observability for every Supabase project with Grafana Cloud",
+      "source": "https://supabase.com/blog/observability-for-every-supabase-project-with-grafana-cloud"
+    },
+    {
       "date": "2026-06-28",
       "type": "feature",
       "summary": "向量检索与 Auth Hook 增强",
@@ -33,7 +39,7 @@
   "sources": [
     "https://supabase.com"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-25",
   "region": "overseas",
   "id": "supabase",
   "name": "Supabase",

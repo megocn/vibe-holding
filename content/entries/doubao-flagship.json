@@ -20,7 +20,18 @@
     "务必在控制台锁定 model endpoint 版本；beta 能力可能随时变更。"
   ],
   "updates": [],
-  "rankings": [],
+  "rankings": [
+    {
+      "systemId": "lmarena-webdev",
+      "rank": 14,
+      "score": 1528,
+      "scoreLabel": "1528 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+      "note": "模型 seed-2.1-pro-preview",
+      "asOf": "2026-07-25"
+    }
+  ],
   "sources": [
     "https://www.volcengine.com/product/doubao"
   ],

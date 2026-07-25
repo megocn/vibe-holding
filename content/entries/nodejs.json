@@ -16,12 +16,20 @@
   ],
   "maturity": "mature",
   "pitfalls": [],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-08",
+      "type": "release",
+      "summary": "维护线 26 最新 26.5.0",
+      "version": "26.5.0",
+      "source": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V26.md#26.5.0"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://nodejs.org"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-25",
   "region": "both",
   "id": "nodejs",
   "name": "Node.js",
@@ -30,5 +38,6 @@
   "oneLiner": "JS/TS 服务端事实标准 · npm 生态中心 · 前后端同语言底座",
   "descriptionMd": "Node.js 是最主流的 JS/TS 服务端运行时，npm 生态中心，前后端同语言的基础。\n\n几乎所有全栈 TS 工具链的默认假设；与 Bun/Deno 对比时看兼容性、运维成熟度与团队熟悉度，而不是微基准。\n\nLTS 版本线是生产默认；与前端同语言降低上下文切换，是全栈 TS 的底座。\n",
   "officialUrl": "https://nodejs.org",
-  "docsUrl": "https://nodejs.org/docs/"
+  "docsUrl": "https://nodejs.org/docs/",
+  "currentVersion": "26"
 }

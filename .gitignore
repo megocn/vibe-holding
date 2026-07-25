@@ -30,6 +30,9 @@ vh-vault-backup*.json
 docs-internal/**
 !docs-internal/README.md
 
+# 本地私有工具与状态（不公开）
+private/
+
 # 本地变更流水（不公开）
 log.md
 

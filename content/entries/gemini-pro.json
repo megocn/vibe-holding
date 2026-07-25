@@ -77,6 +77,26 @@
       "rank": 20,
       "score": 46,
       "scoreLabel": "AAII 46"
+    },
+    {
+      "systemId": "lmarena-document",
+      "rank": 14,
+      "score": 1459,
+      "scoreLabel": "1459 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/document",
+      "note": "模型 gemini-3.5-flash-medium",
+      "asOf": "2026-07-25"
+    },
+    {
+      "systemId": "lmarena-webdev",
+      "rank": 15,
+      "score": 1526,
+      "scoreLabel": "1526 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+      "note": "模型 gemini-3.6-flash",
+      "asOf": "2026-07-25"
     }
   ],
   "subcategory": "line",

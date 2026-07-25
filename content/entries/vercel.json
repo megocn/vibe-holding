@@ -23,6 +23,12 @@
   ],
   "updates": [
     {
+      "date": "2026-07-24",
+      "type": "feature",
+      "summary": "Workflow steps now support extended function durations",
+      "source": "https://vercel.com/changelog/workflow-steps-now-support-extended-function-durations"
+    },
+    {
       "date": "2026-07-01",
       "type": "pricing",
       "summary": "Hobby 额度调整",
@@ -32,7 +38,7 @@
   "sources": [
     "https://vercel.com"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-25",
   "region": "overseas",
   "id": "vercel",
   "name": "Vercel",

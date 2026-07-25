@@ -15,12 +15,20 @@
   "pitfalls": [
     "async 支持与前端分离不如 FastAPI 现代；API-only 微服务可能过重。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-07",
+      "type": "release",
+      "summary": "维护线 6.0 最新 6.0.7",
+      "version": "6.0.7",
+      "source": "https://docs.djangoproject.com/en/6.0/releases/6.0.7/"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://www.djangoproject.com"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-25",
   "region": "overseas",
   "id": "django",
   "name": "Django",

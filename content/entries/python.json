@@ -17,7 +17,15 @@
   ],
   "maturity": "mature",
   "pitfalls": [],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-10",
+      "type": "release",
+      "summary": "维护线 3.14 最新 3.14.6",
+      "version": "3.14.6",
+      "source": "https://www.python.org/downloads/release/python-3146/"
+    }
+  ],
   "rankings": [
     {
       "systemId": "tiobe-index",
@@ -29,7 +37,7 @@
   "sources": [
     "https://www.python.org"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-25",
   "region": "both",
   "id": "python",
   "name": "Python",

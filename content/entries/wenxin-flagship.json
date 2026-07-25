@@ -20,11 +20,23 @@
     "API 与控制台概念较多；新团队建议从官方 SDK quickstart 减少踩坑。"
   ],
   "updates": [],
-  "rankings": [],
-  "sources": [
-    "https://cloud.baidu.com/product/wenxinworkshop"
+  "rankings": [
+    {
+      "systemId": "lmarena-text",
+      "rank": 32,
+      "score": 1468,
+      "scoreLabel": "1468 Elo",
+      "sourceUrl": "https://arena.ai/leaderboard/text",
+      "note": "模型 ernie-5.1（Preliminary）",
+      "asOf": "2026-07-21",
+      "period": "2026-07"
+    }
   ],
-  "lastReviewed": "2026-07-23",
+  "sources": [
+    "https://cloud.baidu.com/product/wenxinworkshop",
+    "https://arena.ai/leaderboard/text"
+  ],
+  "lastReviewed": "2026-07-26",
   "region": "domestic",
   "id": "wenxin-flagship",
   "name": "ERNIE 5.1",

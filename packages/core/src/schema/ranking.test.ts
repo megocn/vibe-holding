@@ -15,6 +15,7 @@ describe('RankingSystem / EntryRanking', () => {
       id: 'lmarena-text',
       name: 'Arena AI Text',
       shortName: 'LMArena',
+      brief: '对话',
       categories: ['llm'],
       metric: 'mixed',
       metricUnit: 'Elo',
@@ -24,6 +25,7 @@ describe('RankingSystem / EntryRanking', () => {
       order: 1,
     });
     expect(s.shortName).toBe('LMArena');
+    expect(s.brief).toBe('对话');
   });
 
   it('条目排名至少一项指标', () => {
@@ -53,6 +55,7 @@ describe('RankingSystem / EntryRanking', () => {
         id: 'lmarena-text',
         name: 'Arena',
         shortName: 'LMArena',
+        brief: '对话',
         categories: ['llm'],
         metric: 'mixed',
         url: 'https://arena.ai/leaderboard',
@@ -64,6 +67,7 @@ describe('RankingSystem / EntryRanking', () => {
         id: 'aa',
         name: 'AA',
         shortName: 'AA',
+        brief: '综合',
         categories: ['llm'],
         metric: 'score',
         url: 'https://example.com',

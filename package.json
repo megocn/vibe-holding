@@ -16,6 +16,7 @@
     "lint": "biome check .",
     "lint:fix": "biome check --write .",
     "validate": "tsx scripts/validate-content.ts",
+    "health": "tsx scripts/content-health.ts",
     "gen:content": "tsx scripts/build-content.ts",
     "gen:popularity": "tsx scripts/fetch-popularity.ts",
     "gen:schema": "tsx scripts/gen-schema.ts",
@@ -23,7 +24,8 @@
     "gen:fonts": "bash scripts/fetch-fonts.sh",
     "build:web": "pnpm --filter @vh/desktop build",
     "deploy:pages": "pnpm build:web && wrangler pages deploy --project-name=vibeholding --branch=main",
-    "vh": "tsx apps/cli/src/index.ts"
+    "vh": "tsx apps/cli/src/index.ts",
+    "aqua": "tsx private/aqua/cli.ts"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",

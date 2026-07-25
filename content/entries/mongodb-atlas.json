@@ -21,11 +21,19 @@
     "复杂事务不如关系库",
     "成本需监控"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-31",
+      "type": "deprecation",
+      "summary": "mongodb 8.2 将于 2026-07-31 结束安全支持",
+      "version": "8.2",
+      "source": "https://endoflife.date/mongodb"
+    }
+  ],
   "sources": [
     "https://www.mongodb.com/atlas"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-25",
   "region": "overseas",
   "id": "mongodb-atlas",
   "name": "MongoDB Atlas",

@@ -19,12 +19,20 @@
   "pitfalls": [
     "npm 兼容相对 Bun/Node 仍需验证"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "summary": "维护线 2.9 最新 2.9.4",
+      "version": "2.9.4",
+      "source": "https://github.com/denoland/deno/releases/tag/v2.9.4"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://deno.com"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-25",
   "region": "overseas",
   "id": "deno",
   "name": "Deno",

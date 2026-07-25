@@ -20,11 +20,23 @@
     "与 Qwen-Max 等竞品需横向 benchmark；注意 API 域名国内访问稳定性。"
   ],
   "updates": [],
-  "rankings": [],
-  "sources": [
-    "https://www.lingyiwanwu.com"
+  "rankings": [
+    {
+      "systemId": "lmarena-text",
+      "rank": 212,
+      "score": 1328,
+      "scoreLabel": "1328 Elo",
+      "sourceUrl": "https://arena.ai/leaderboard/text",
+      "note": "模型 yi-lightning",
+      "asOf": "2026-07-21",
+      "period": "2026-07"
+    }
   ],
-  "lastReviewed": "2026-07-23",
+  "sources": [
+    "https://www.lingyiwanwu.com",
+    "https://arena.ai/leaderboard/text"
+  ],
+  "lastReviewed": "2026-07-26",
   "region": "both",
   "id": "yi-large",
   "name": "Yi-Lightning",

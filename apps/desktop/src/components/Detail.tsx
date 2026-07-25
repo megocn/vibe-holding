@@ -144,9 +144,11 @@ function DetailLoaded({
             <Prose text={entry.descriptionMd} protectTexts={[entry.name]} />
           </Section>
 
-          <Section level={2} title="权威排行" index="榜">
-            <RankingsPanel categoryId={entry.category} rankings={entry.rankings} />
-          </Section>
+          {entry.rankings.length > 0 && (
+            <Section level={2} title="权威排行" index="榜">
+              <RankingsPanel categoryId={entry.category} rankings={entry.rankings} />
+            </Section>
+          )}
 
           {entry.pricing.notes && (
             <Section level={2} title="定价" index="二">

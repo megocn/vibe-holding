@@ -3,6 +3,7 @@
     "id": "swe-bench-verified",
     "name": "SWE-bench Verified",
     "shortName": "SWE-bench",
+    "brief": "修缺陷",
     "categories": [
       "coding-ide-agent",
       "coding-cli-agent"
@@ -10,7 +11,7 @@
     "metric": "score",
     "metricUnit": "%",
     "url": "https://www.swebench.com/",
-    "description": "软件工程 Agent 解决真实 GitHub issue 的 % Resolved 基准；Verified 子集经人工筛选，是编码代理能力的业界参照。",
+    "description": "用真实 GitHub issue 测软件工程 Agent 的解决率（% Resolved）；Verified 子集经人工筛选。适合评估编码代理能否独立修 bug、改仓库。",
     "authority": "Princeton NLP / SWE-bench",
     "updateCadence": "ad-hoc",
     "order": 2
@@ -19,6 +20,7 @@
     "id": "jetbrains-ai-tools",
     "name": "JetBrains State of Developer Ecosystem · AI Tools",
     "shortName": "JetBrains AI",
+    "brief": "采用率",
     "categories": [
       "coding-ide-agent",
       "coding-cli-agent"
@@ -26,7 +28,7 @@
     "metric": "share",
     "metricUnit": "%",
     "url": "https://www.jetbrains.com/lp/devecosystem/",
-    "description": "年度开发者生态调查中 AI 编码助手 / IDE 采用率与满意度，反映真实工作流渗透度。",
+    "description": "JetBrains 年度开发者调查中的 AI 编码助手 / IDE 采用率与满意度。反映真实工作流里谁用得多，不是能力跑分。",
     "authority": "JetBrains",
     "updateCadence": "annual",
     "order": 2
@@ -35,13 +37,14 @@
     "id": "lmarena-text",
     "name": "Arena AI Text Leaderboard（原 LMSYS Chatbot Arena）",
     "shortName": "LMArena",
+    "brief": "对话",
     "categories": [
       "llm-line"
     ],
     "metric": "mixed",
     "metricUnit": "Elo",
     "url": "https://arena.ai/leaderboard/text",
-    "description": "众包盲测两两偏好 Elo；Text Arena Overall 是通用对话/推理的事实标准。",
+    "description": "众包盲测：隐去模型名，比较两段回复的偏好，再换算 Elo / 名次。通用对话与推理能力的事实标准，选型时常优先参考。",
     "authority": "Arena AI（原 LMSYS）",
     "updateCadence": "weekly",
     "order": 1
@@ -50,6 +53,7 @@
     "id": "artificial-analysis-index",
     "name": "Artificial Analysis Intelligence Index",
     "shortName": "AA Index",
+    "brief": "综合分",
     "categories": [
       "llm-line",
       "gateway-router",
@@ -57,7 +61,7 @@
     ],
     "metric": "score",
     "url": "https://artificialanalysis.ai/",
-    "description": "独立第三方对质量、速度、价格的综合指数；常与 Arena 交叉验证，避免单一偏好偏见。",
+    "description": "独立第三方综合质量、速度、价格的指数。常与 Arena 交叉验证：Arena 偏人的偏好，本榜更偏客观测项与成本。",
     "authority": "Artificial Analysis",
     "updateCadence": "weekly",
     "order": 2
@@ -66,6 +70,7 @@
     "id": "openrouter-popularity",
     "name": "OpenRouter Model Popularity",
     "shortName": "OpenRouter",
+    "brief": "调用热度",
     "categories": [
       "gateway-router",
       "gateway-local",
@@ -74,7 +79,7 @@
     "metric": "share",
     "metricUnit": "%",
     "url": "https://openrouter.ai/rankings",
-    "description": "统一网关上的真实请求份额与热度；反映路由层选用偏好，不等于能力上限。",
+    "description": "OpenRouter 统一网关上的真实请求份额。反映路由层当前选用热度，不等于能力上限。",
     "authority": "OpenRouter",
     "updateCadence": "weekly",
     "order": 8
@@ -83,6 +88,7 @@
     "id": "tiobe-index",
     "name": "TIOBE Programming Community Index",
     "shortName": "TIOBE",
+    "brief": "语言热",
     "categories": [
       "lang-language",
       "lang-runtime"
@@ -90,7 +96,7 @@
     "metric": "mixed",
     "metricUnit": "%",
     "url": "https://www.tiobe.com/tiobe-index/",
-    "description": "基于搜索引擎提及的编程语言人气月榜，历史最长的语言排行之一。",
+    "description": "按搜索引擎提及量统计的编程语言人气月榜。偏关注度与知名度，不宜单独当作「该学哪门语言」的结论。",
     "authority": "TIOBE Software",
     "updateCadence": "monthly",
     "order": 1
@@ -99,6 +105,7 @@
     "id": "so-survey-language",
     "name": "Stack Overflow Developer Survey · Languages",
     "shortName": "SO Survey",
+    "brief": "开发者",
     "categories": [
       "lang-language",
       "lang-runtime",
@@ -117,7 +124,7 @@
     "metric": "share",
     "metricUnit": "%",
     "url": "https://survey.stackoverflow.co/",
-    "description": "全球开发者年度调查的「使用中 / 钦佩 / 想学」比例，覆盖语言、框架、数据库与工具链。",
+    "description": "Stack Overflow 全球开发者年度调查：使用中 / 钦佩 / 想学等比例。覆盖语言、框架、数据库与工具链的从业者口碑。",
     "authority": "Stack Overflow",
     "updateCadence": "annual",
     "order": 2
@@ -126,6 +133,7 @@
     "id": "state-of-js",
     "name": "State of JS",
     "shortName": "State of JS",
+    "brief": "前端热",
     "categories": [
       "fw-fullstack",
       "fw-ui-lib",
@@ -137,7 +145,7 @@
     "metric": "mixed",
     "metricUnit": "%",
     "url": "https://stateofjs.com/",
-    "description": "Devographics 年度 JS 生态调查：使用率、留存与兴趣，前端/元框架/组件库的公认风向标。",
+    "description": "Devographics 年度 JS 生态调查：使用率、留存与兴趣。前端框架、元框架与组件库选型的常用风向标。",
     "authority": "Devographics",
     "updateCadence": "annual",
     "order": 1
@@ -146,6 +154,7 @@
     "id": "npm-downloads",
     "name": "npm Weekly Downloads",
     "shortName": "npm",
+    "brief": "下载量",
     "categories": [
       "ui-kits",
       "ui-composable",
@@ -154,7 +163,7 @@
     ],
     "metric": "score",
     "url": "https://www.npmjs.com/",
-    "description": "包管理器周下载量，衡量前端组件与工具链的实际安装热度（需结合「被依赖」解读）。",
+    "description": "npm 周下载量，衡量前端组件与工具链的安装热度。解读时需注意被间接依赖拉高的情况。",
     "authority": "npm, Inc.",
     "updateCadence": "weekly",
     "order": 2
@@ -163,12 +172,13 @@
     "id": "gartner-mq-cloud",
     "name": "Gartner Magic Quadrant · Strategic Cloud Platform Services",
     "shortName": "Gartner Cloud",
+    "brief": "企业云",
     "categories": [
       "cloud-paas"
     ],
     "metric": "tier",
     "url": "https://www.gartner.com/reviews/market/strategic-cloud-platform-services",
-    "description": "战略云平台服务魔力象限（Leaders / Challengers / Visionaries / Niche），企业选型权威参照。",
+    "description": "Gartner 战略云平台服务魔力象限（Leaders / Challengers / Visionaries / Niche）。偏企业采购视角。",
     "authority": "Gartner",
     "updateCadence": "annual",
     "order": 1
@@ -177,6 +187,7 @@
     "id": "cncf-survey",
     "name": "CNCF Annual Cloud Native Survey",
     "shortName": "CNCF Survey",
+    "brief": "云原生",
     "categories": [
       "cloud-paas",
       "cicd-pipeline",
@@ -187,7 +198,7 @@
     "metric": "share",
     "metricUnit": "%",
     "url": "https://www.cncf.io/",
-    "description": "云原生基金会年度调查：Kubernetes、CI/CD、可观测等生产采用率，开源基础设施事实标准。",
+    "description": "CNCF 年度云原生调查：Kubernetes、CI/CD、可观测等在生产环境的采用率。开源基础设施普及度参照。",
     "authority": "CNCF",
     "updateCadence": "annual",
     "order": 2
@@ -196,6 +207,7 @@
     "id": "db-engines",
     "name": "DB-Engines Ranking",
     "shortName": "DB-Engines",
+    "brief": "库热度",
     "categories": [
       "db-relational",
       "db-nosql",
@@ -205,7 +217,7 @@
     ],
     "metric": "mixed",
     "url": "https://db-engines.com/en/ranking",
-    "description": "solidIT 按搜索、职位、社交等综合人气分的数据库月榜，业界默认 DBMS 排行。",
+    "description": "solidIT 按搜索、职位、社交等综合人气分的数据库月榜。业界默认的 DBMS 热度排行，非性能基准。",
     "authority": "solidIT / DB-Engines",
     "updateCadence": "monthly",
     "order": 1
@@ -214,6 +226,7 @@
     "id": "gartner-mq-access-mgmt",
     "name": "Gartner Magic Quadrant · Access Management",
     "shortName": "Gartner AM",
+    "brief": "鉴权",
     "categories": [
       "baas-platform",
       "baas-auth-only"
@@ -229,6 +242,7 @@
     "id": "so-survey-auth",
     "name": "Stack Overflow Developer Survey · Auth / Backend",
     "shortName": "SO Auth",
+    "brief": "鉴权热",
     "categories": [
       "baas-platform",
       "baas-auth-only"
@@ -236,7 +250,7 @@
     "metric": "share",
     "metricUnit": "%",
     "url": "https://survey.stackoverflow.co/2025/technology/",
-    "description": "开发者调查中的鉴权/BaaS 相关采用（如 Supabase、Firebase 等），反映独立开发者心智份额。",
+    "description": "开发者调查中鉴权 / BaaS（如 Supabase、Firebase）相关采用。更能反映独立开发者与中小团队选择。",
     "authority": "Stack Overflow",
     "updateCadence": "annual",
     "order": 2
@@ -245,6 +259,7 @@
     "id": "mteb-leaderboard",
     "name": "MTEB Leaderboard（Hugging Face）",
     "shortName": "MTEB",
+    "brief": "向量",
     "categories": [
       "ai-agent-fw",
       "ai-rag",
@@ -253,7 +268,7 @@
     ],
     "metric": "mixed",
     "url": "https://huggingface.co/spaces/mteb/leaderboard",
-    "description": "多任务文本嵌入基准总榜，向量模型与检索质量的公认参照。",
+    "description": "多任务文本嵌入基准总榜。向量模型与检索 / RAG 质量的公认参照。",
     "authority": "Hugging Face / MTEB",
     "updateCadence": "ad-hoc",
     "order": 1
@@ -262,6 +277,7 @@
     "id": "db-engines-vector",
     "name": "DB-Engines · Vector DBMS",
     "shortName": "DB-Engines Vec",
+    "brief": "向量库",
     "categories": [
       "ai-agent-fw",
       "ai-rag",
@@ -270,7 +286,7 @@
     ],
     "metric": "mixed",
     "url": "https://db-engines.com/en/ranking/vector+dbms",
-    "description": "向量数据库专项人气榜（Pinecone / Milvus / Qdrant 等）。",
+    "description": "向量数据库专项人气榜（Pinecone / Milvus / Qdrant 等）。看生态热度，非统一数据集上的性能对比。",
     "authority": "solidIT / DB-Engines",
     "updateCadence": "monthly",
     "order": 2
@@ -279,12 +295,13 @@
     "id": "aa-speech-arena",
     "name": "Artificial Analysis · Speech Arena (TTS)",
     "shortName": "AA Speech",
+    "brief": "语音合成",
     "categories": [
       "ai-speech"
     ],
     "metric": "score",
     "url": "https://artificialanalysis.ai/text-to-speech/leaderboard",
-    "description": "TTS 盲听 Elo 排行（Speech Arena），表达力选型常用参照；不覆盖延迟与 STT。",
+    "description": "TTS 盲听 Elo 排行（Speech Arena）。主要比表达自然度；延迟、价格与语音识别需另评。",
     "authority": "Artificial Analysis",
     "updateCadence": "ad-hoc",
     "order": 1
@@ -293,13 +310,14 @@
     "id": "product-hunt-voice-ai",
     "name": "Product Hunt · Voice AI",
     "shortName": "Product Hunt Voice",
+    "brief": "新品热度",
     "categories": [
       "ai-speech",
       "ai-realtime"
     ],
     "metric": "rank",
     "url": "https://www.producthunt.com/topics/artificial-intelligence",
-    "description": "语音/实时对话相关 AI 产品社区热度，偏新品发现；正式选型需另对照延迟与合规基准。",
+    "description": "Product Hunt 上语音 / 实时对话类产品的社区热度。偏新品发现；正式选型需另看延迟与合规。",
     "authority": "Product Hunt",
     "updateCadence": "daily",
     "order": 2
@@ -308,12 +326,13 @@
     "id": "g2-conversational-ai",
     "name": "G2 · Conversational AI",
     "shortName": "G2 Conv AI",
+    "brief": "会话",
     "categories": [
       "ai-realtime"
     ],
     "metric": "score",
     "url": "https://www.g2.com/categories/conversational-ai",
-    "description": "会话式 AI / 语音 Agent 平台用户评分，电话与编排类产品常用市场参照。",
+    "description": "G2 会话式 AI / 语音 Agent 平台用户评分。电话客服与编排类产品的市场参照。",
     "authority": "G2",
     "updateCadence": "quarterly",
     "order": 1
@@ -322,12 +341,13 @@
     "id": "g2-ocr",
     "name": "G2 · Optical Character Recognition (OCR)",
     "shortName": "G2 OCR",
+    "brief": "识文档",
     "categories": [
       "ai-ocr"
     ],
     "metric": "score",
     "url": "https://www.g2.com/categories/optical-character-recognition-ocr",
-    "description": "OCR / 文档识别类产品用户评分，企业 IDP 与云 OCR 选型市场参照。",
+    "description": "G2 上 OCR / 文档识别类产品的用户评分。企业 IDP 与云 OCR 选型常用；仍建议用自有样张复测。",
     "authority": "G2",
     "updateCadence": "quarterly",
     "order": 1
@@ -336,12 +356,13 @@
     "id": "product-hunt-doc-ai",
     "name": "Product Hunt · Document AI",
     "shortName": "Product Hunt DocAI",
+    "brief": "文档热",
     "categories": [
       "ai-ocr"
     ],
     "metric": "rank",
     "url": "https://www.producthunt.com/topics/artificial-intelligence",
-    "description": "文档解析 / OCR 相关新品社区热度，偏开源工具与 API 发现；正式选型需样张评测。",
+    "description": "文档解析 / OCR 相关新品的 Product Hunt 热度。适合发现工具与 API，不能代替样张评测。",
     "authority": "Product Hunt",
     "updateCadence": "daily",
     "order": 2
@@ -350,13 +371,14 @@
     "id": "forrester-wave-payments",
     "name": "Forrester Wave · Merchant Payment Providers",
     "shortName": "Forrester Pay",
+    "brief": "支付",
     "categories": [
       "pay-processor",
       "pay-mor"
     ],
     "metric": "tier",
     "url": "https://www.forrester.com/",
-    "description": "商户支付提供商 Forrester Wave，策略与产品双维度评分，海外支付选型权威。",
+    "description": "Forrester Wave 商户支付提供商评估（战略与产品双维度）。海外支付 / 收单选型权威参照。",
     "authority": "Forrester",
     "updateCadence": "annual",
     "order": 1
@@ -365,6 +387,7 @@
     "id": "builtwith-payments",
     "name": "BuiltWith Payment Technology Share",
     "shortName": "BuiltWith Pay",
+    "brief": "站点渗透",
     "categories": [
       "pay-processor",
       "pay-mor"
@@ -372,7 +395,7 @@
     "metric": "share",
     "metricUnit": "%",
     "url": "https://trends.builtwith.com/payment",
-    "description": "站点技术栈探测的支付组件安装份额，衡量真实站点数渗透。",
+    "description": "全网站点技术栈探测得到的支付组件安装份额。衡量真实站点渗透，非交易额排行。",
     "authority": "BuiltWith",
     "updateCadence": "monthly",
     "order": 2
@@ -381,6 +404,7 @@
     "id": "data-ai-store",
     "name": "data.ai / App Store Intelligence",
     "shortName": "data.ai",
+    "brief": "商店榜",
     "categories": [
       "dist-ios",
       "dist-android",
@@ -389,7 +413,7 @@
     ],
     "metric": "rank",
     "url": "https://www.data.ai/",
-    "description": "应用商店下载与收入情报榜，衡量分发渠道与品类热度（按商店/地区切片）。",
+    "description": "应用商店下载与收入情报榜（可按商店 / 地区切片）。衡量分发渠道与品类热度。",
     "authority": "data.ai",
     "updateCadence": "daily",
     "order": 1
@@ -398,6 +422,7 @@
     "id": "statcounter-platform",
     "name": "StatCounter Platform / OS Share",
     "shortName": "StatCounter",
+    "brief": "平台份额",
     "categories": [
       "dist-ios",
       "dist-android",
@@ -407,7 +432,7 @@
     "metric": "share",
     "metricUnit": "%",
     "url": "https://gs.statcounter.com/",
-    "description": "全球 OS / 浏览器份额，评估分发目标平台的覆盖优先级。",
+    "description": "全球 OS / 浏览器份额统计。评估 App、插件等分发目标平台的覆盖优先级。",
     "authority": "StatCounter",
     "updateCadence": "monthly",
     "order": 2
@@ -416,12 +441,13 @@
     "id": "github-octoverse",
     "name": "GitHub Octoverse / Stars",
     "shortName": "Octoverse",
+    "brief": "开源热",
     "categories": [
       "oss-toolchain"
     ],
     "metric": "mixed",
     "url": "https://github.blog/octoverse/",
-    "description": "GitHub 年度 Octoverse 与星标/贡献趋势，开源组件活跃度参照。",
+    "description": "GitHub 年度 Octoverse 与星标 / 贡献趋势。开源组件活跃度与社区规模参照。",
     "authority": "GitHub",
     "updateCadence": "annual",
     "order": 1
@@ -430,6 +456,7 @@
     "id": "gartner-mq-observability",
     "name": "Gartner Magic Quadrant · Observability Platforms",
     "shortName": "Gartner Obs",
+    "brief": "可观测",
     "categories": [
       "obs-errors",
       "obs-product",
@@ -437,7 +464,7 @@
     ],
     "metric": "tier",
     "url": "https://www.gartner.com/en/documents/8114397",
-    "description": "可观测平台魔力象限（2026 Leaders 含 Datadog、Dynatrace、Grafana Labs、New Relic 等）。",
+    "description": "可观测平台魔力象限（常含 Datadog、Dynatrace、Grafana Labs、New Relic 等）。企业监控栈选型权威参照。",
     "authority": "Gartner",
     "updateCadence": "annual",
     "order": 1
@@ -446,12 +473,13 @@
     "id": "gartner-mq-devops",
     "name": "Gartner Magic Quadrant · DevOps Platforms",
     "shortName": "Gartner DevOps",
+    "brief": "交付链",
     "categories": [
       "cicd-pipeline"
     ],
     "metric": "tier",
     "url": "https://www.gartner.com/",
-    "description": "DevOps 平台魔力象限，覆盖 CI/CD 与端到端交付工具链厂商定位。",
+    "description": "DevOps 平台魔力象限，覆盖 CI/CD 与端到端交付工具链的厂商定位。",
     "authority": "Gartner",
     "updateCadence": "annual",
     "order": 1
@@ -460,6 +488,7 @@
     "id": "builtwith-email",
     "name": "BuiltWith Email / Messaging Tech",
     "shortName": "BuiltWith Msg",
+    "brief": "邮件渗透",
     "categories": [
       "msg-email",
       "msg-sms",
@@ -469,7 +498,7 @@
     "metric": "share",
     "metricUnit": "%",
     "url": "https://trends.builtwith.com/esp",
-    "description": "邮件服务与消息组件的站点安装份额。",
+    "description": "邮件服务与消息组件的站点安装份额统计。",
     "authority": "BuiltWith",
     "updateCadence": "monthly",
     "order": 1
@@ -478,6 +507,7 @@
     "id": "gartner-mq-cpaas",
     "name": "Gartner Magic Quadrant · CPaaS",
     "shortName": "Gartner CPaaS",
+    "brief": "通信",
     "categories": [
       "msg-email",
       "msg-sms",
@@ -486,7 +516,7 @@
     ],
     "metric": "tier",
     "url": "https://www.gartner.com/",
-    "description": "通信平台即服务（短信/语音/推送）魔力象限。",
+    "description": "通信平台即服务（短信 / 语音 / 推送）魔力象限。企业通知通道采购常用。",
     "authority": "Gartner",
     "updateCadence": "annual",
     "order": 2
@@ -495,12 +525,13 @@
     "id": "gartner-mq-product-analytics",
     "name": "Gartner Magic Quadrant · Product Analytics",
     "shortName": "Gartner Analytics",
+    "brief": "产品分析",
     "categories": [
       "growth-web"
     ],
     "metric": "tier",
     "url": "https://www.gartner.com/",
-    "description": "产品分析魔力象限，评估埋点/漏斗/实验类平台。",
+    "description": "产品分析魔力象限，评估埋点、漏斗、实验类平台。",
     "authority": "Gartner",
     "updateCadence": "annual",
     "order": 1
@@ -509,6 +540,7 @@
     "id": "builtwith-analytics",
     "name": "BuiltWith Analytics Share",
     "shortName": "BuiltWith Analytics",
+    "brief": "埋点渗透",
     "categories": [
       "growth-web"
     ],
@@ -524,6 +556,7 @@
     "id": "w3techs-cdn",
     "name": "W3Techs CDN / DNS Usage",
     "shortName": "W3Techs",
+    "brief": "CDN份",
     "categories": [
       "net-cdn-dns",
       "net-domain"
@@ -531,7 +564,7 @@
     "metric": "share",
     "metricUnit": "%",
     "url": "https://w3techs.com/technologies/overview/cdn",
-    "description": "全网站点 CDN / DNS / SSL 技术采用率统计。",
+    "description": "全网站点 CDN / DNS / SSL 技术采用率统计。衡量基础设施铺开程度。",
     "authority": "W3Techs",
     "updateCadence": "daily",
     "order": 1
@@ -540,13 +573,14 @@
     "id": "cloudflare-radar",
     "name": "Cloudflare Radar",
     "shortName": "CF Radar",
+    "brief": "流量",
     "categories": [
       "net-cdn-dns",
       "net-domain"
     ],
     "metric": "mixed",
     "url": "https://radar.cloudflare.com/",
-    "description": "全球流量与 DNS/HTTP 趋势观测，用于对照网络基础设施影响力。",
+    "description": "基于全球流量的 DNS / HTTP 等趋势观测。用于对照网络基础设施大盘，非单一产品打分。",
     "authority": "Cloudflare",
     "updateCadence": "daily",
     "order": 2
@@ -555,12 +589,13 @@
     "id": "gartner-mq-waf",
     "name": "Gartner Magic Quadrant · Cloud WAF / App Protection",
     "shortName": "Gartner WAF",
+    "brief": "应用防",
     "categories": [
       "sec-secrets"
     ],
     "metric": "tier",
     "url": "https://www.gartner.com/",
-    "description": "云 WAF / 应用保护魔力象限，安全边缘与合规相关厂商定位。",
+    "description": "云 WAF / 应用保护魔力象限。安全边缘与合规相关厂商定位。",
     "authority": "Gartner",
     "updateCadence": "annual",
     "order": 1
@@ -569,12 +604,13 @@
     "id": "owasp-asvs",
     "name": "OWASP ASVS / Top 10",
     "shortName": "OWASP",
+    "brief": "安全标",
     "categories": [
       "sec-secrets"
     ],
     "metric": "tier",
     "url": "https://owasp.org/www-project-application-security-verification-standard/",
-    "description": "应用安全验证标准与 Top 10：非厂商排行，而是选型时对齐的权威合规基准。",
+    "description": "应用安全验证标准与 Top 10：不是厂商排行，而是选型与验收时对齐的权威合规基准。",
     "authority": "OWASP",
     "updateCadence": "ad-hoc",
     "order": 2
@@ -583,13 +619,14 @@
     "id": "lmarena-image",
     "name": "Arena AI Text-to-Image Leaderboard",
     "shortName": "Arena Image",
+    "brief": "文生图",
     "categories": [
       "design-ai-image"
     ],
     "metric": "mixed",
     "metricUnit": "Elo",
     "url": "https://arena.ai/leaderboard/text-to-image",
-    "description": "众包盲测文生图偏好 Elo；当前文生图能力与热度的事实标准，选型时优先于社区新品榜。",
+    "description": "众包盲测文生图偏好 Elo。当前文生图能力与观感的事实标准，选型时优先于社区新品榜。",
     "authority": "Arena AI（原 LMSYS）",
     "updateCadence": "weekly",
     "order": 1
@@ -598,13 +635,14 @@
     "id": "aa-image-arena",
     "name": "Artificial Analysis · Text-to-Image Arena",
     "shortName": "AA Image",
+    "brief": "文生图",
     "categories": [
       "design-ai-image"
     ],
     "metric": "mixed",
     "metricUnit": "Elo",
     "url": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-    "description": "独立第三方文生图盲测 Elo，常与 Arena 交叉验证；含开源权重与 API 价参考。",
+    "description": "独立第三方文生图盲测 Elo，常与 Arena 交叉验证；部分条目含开源权重与 API 价参考。",
     "authority": "Artificial Analysis",
     "updateCadence": "weekly",
     "order": 2
@@ -613,6 +651,7 @@
     "id": "javascript-rising-stars",
     "name": "JavaScript Rising Stars",
     "shortName": "Rising Stars",
+    "brief": "涨星热",
     "categories": [
       "design-tools",
       "design-ai-music",
@@ -623,7 +662,7 @@
     ],
     "metric": "rank",
     "url": "https://risingstars.js.org/",
-    "description": "按年度新增 GitHub stars 的前端生态榜，图标/组件/设计相关库常用参照。",
+    "description": "按年度新增 GitHub stars 排序的前端生态榜。图标、组件、设计相关库的常用热度参照。",
     "authority": "BestofJS",
     "updateCadence": "annual",
     "order": 1
@@ -632,6 +671,7 @@
     "id": "product-hunt-design",
     "name": "Product Hunt · Design Tools",
     "shortName": "Product Hunt",
+    "brief": "设计热",
     "categories": [
       "design-tools",
       "design-ai-music",
@@ -642,7 +682,7 @@
     ],
     "metric": "rank",
     "url": "https://www.producthunt.com/topics/design-tools",
-    "description": "设计工具与素材类产品社区热度榜，偏新品发现。",
+    "description": "设计工具与素材类产品的 Product Hunt 社区热度。偏新品发现。",
     "authority": "Product Hunt",
     "updateCadence": "daily",
     "order": 3
@@ -651,6 +691,7 @@
     "id": "gartner-mq-cwm",
     "name": "Gartner Magic Quadrant · Collaborative Work Management",
     "shortName": "Gartner CWM",
+    "brief": "协作",
     "categories": [
       "collab-pm",
       "collab-docs",
@@ -658,7 +699,7 @@
     ],
     "metric": "tier",
     "url": "https://www.gartner.com/",
-    "description": "协作与项目管理魔力象限（Asana / Monday / Jira 等定位）。",
+    "description": "协作与项目管理魔力象限（Asana / Monday / Jira 等定位）。企业协作套件采购参照。",
     "authority": "Gartner",
     "updateCadence": "annual",
     "order": 1
@@ -667,6 +708,7 @@
     "id": "g2-grid-pm",
     "name": "G2 Grid · Project Management",
     "shortName": "G2 PM",
+    "brief": "项目管理",
     "categories": [
       "collab-pm",
       "collab-docs",
@@ -674,7 +716,7 @@
     ],
     "metric": "tier",
     "url": "https://www.g2.com/categories/project-management",
-    "description": "基于用户评价的项目管理软件象限，补充分析师视角。",
+    "description": "基于用户评价的项目管理软件象限，可与分析师报告交叉对照。",
     "authority": "G2",
     "updateCadence": "quarterly",
     "order": 2
@@ -683,6 +725,7 @@
     "id": "csa-research-i18n",
     "name": "CSA Research · Language Services",
     "shortName": "CSA Research",
+    "brief": "本地化",
     "categories": [
       "global-fx",
       "global-entity",
@@ -690,7 +733,7 @@
     ],
     "metric": "tier",
     "url": "https://csa-research.com/",
-    "description": "本地化与语言服务行业研究，出海翻译/TMS 选型参照。",
+    "description": "本地化与语言服务行业研究。出海翻译 / TMS 供应商格局参照。",
     "authority": "CSA Research",
     "updateCadence": "annual",
     "order": 1
@@ -699,6 +742,7 @@
     "id": "gartner-mq-mts",
     "name": "Gartner Magic Quadrant · Multilingual TMS",
     "shortName": "Gartner TMS",
+    "brief": "翻译管",
     "categories": [
       "global-fx",
       "global-entity",
@@ -706,7 +750,7 @@
     ],
     "metric": "tier",
     "url": "https://www.gartner.com/",
-    "description": "多语言翻译管理系统魔力象限（若当期发布），企业出海内容管线权威。",
+    "description": "多语言翻译管理系统（TMS）魔力象限。企业出海内容管线选型权威。",
     "authority": "Gartner",
     "updateCadence": "annual",
     "order": 2
@@ -715,12 +759,13 @@
     "id": "iconify-popularity",
     "name": "Iconify / 开源图标生态采用",
     "shortName": "Iconify",
+    "brief": "图标",
     "categories": [
       "ui-icons"
     ],
     "metric": "tier",
     "url": "https://iconify.design/",
-    "description": "图标集在 Iconify 与前端生态中的采用广度；图标库不应与 Ant Design 等同榜。",
+    "description": "图标集在 Iconify 与前端生态中的采用广度。图标库不宜与整站组件库同榜比较。",
     "authority": "Iconify / community",
     "updateCadence": "ad-hoc",
     "order": 1
@@ -729,12 +774,13 @@
     "id": "github-icon-stars",
     "name": "GitHub Stars · Icon Sets",
     "shortName": "GH Icons",
+    "brief": "图标星标",
     "categories": [
       "ui-icons"
     ],
     "metric": "score",
     "url": "https://github.com/",
-    "description": "主流开源图标集仓库星标，衡量开发者心智份额（非组件库可比）。",
+    "description": "主流开源图标集仓库星标，衡量开发者认知度（非设计审美评测）。",
     "authority": "GitHub",
     "updateCadence": "ad-hoc",
     "order": 2
@@ -743,12 +789,13 @@
     "id": "cloud-builder-mindshare",
     "name": "Cloud App Builder Mindshare",
     "shortName": "Builder buzz",
+    "brief": "云端构建",
     "categories": [
       "coding-cloud-builder"
     ],
     "metric": "tier",
     "url": "https://roadmap.sh/vibe-coding/best-tools",
-    "description": "云端 prompt→部署类 Builder 的社区心智份额（与 IDE Agent 不可同榜）。",
+    "description": "云端 prompt→部署类 Builder 的社区心智份额。与 IDE / CLI 编码 Agent 不同类，不宜混比。",
     "authority": "Community / roadmap.sh vibe tools",
     "updateCadence": "ad-hoc",
     "order": 1
@@ -757,12 +804,13 @@
     "id": "llm-family-landscape",
     "name": "LLM Product Family Landscape",
     "shortName": "Family map",
+    "brief": "产品族",
     "categories": [
       "llm-family"
     ],
     "metric": "tier",
     "url": "https://arena.ai/leaderboard",
-    "description": "产品族心智地图（非 Arena 模型榜）。族级条目不与选型档位/版本同榜；细排名看下属 llm-line。",
+    "description": "产品族心智地图（非 Arena 模型对战榜）。族级条目不与选型档位 / 版本同榜；细排名看下属 llm-line。",
     "authority": "VibeHolding editorial",
     "updateCadence": "ad-hoc",
     "order": 1
@@ -771,13 +819,14 @@
     "id": "lmarena-agent",
     "name": "Arena AI Agent Leaderboard",
     "shortName": "Arena Agent",
+    "brief": "工具调用",
     "categories": [
       "llm-line"
     ],
     "metric": "mixed",
     "metricUnit": "%",
     "url": "https://arena.ai/leaderboard/agent",
-    "description": "Agent 任务众包偏好胜率；长链路工具调用与异步任务选型参照。",
+    "description": "Agent 任务众包偏好胜率。长链路工具调用与多步任务选型参照。",
     "authority": "Arena AI（原 LMSYS）",
     "updateCadence": "weekly",
     "order": 3
@@ -786,13 +835,14 @@
     "id": "lmarena-webdev",
     "name": "Arena AI WebDev Leaderboard",
     "shortName": "Arena WebDev",
+    "brief": "网页开发",
     "categories": [
       "llm-line"
     ],
     "metric": "mixed",
     "metricUnit": "Elo",
     "url": "https://arena.ai/leaderboard/code/webdev",
-    "description": "Web 开发任务盲测 Elo；前端/全栈落地能力常用参照。",
+    "description": "Web 开发任务盲测 Elo。前端 / 全栈落地能力常用参照。",
     "authority": "Arena AI（原 LMSYS）",
     "updateCadence": "weekly",
     "order": 4
@@ -801,13 +851,14 @@
     "id": "lmarena-vision",
     "name": "Arena AI Vision Leaderboard",
     "shortName": "Arena Vision",
+    "brief": "读图",
     "categories": [
       "llm-line"
     ],
     "metric": "mixed",
     "metricUnit": "Elo",
     "url": "https://arena.ai/leaderboard/vision",
-    "description": "多模态视觉理解盲测 Elo；读图/图表/OCR 向选型参照。",
+    "description": "多模态视觉理解盲测 Elo。读图、图表、界面理解向选型参照。",
     "authority": "Arena AI（原 LMSYS）",
     "updateCadence": "weekly",
     "order": 5
@@ -816,6 +867,7 @@
     "id": "lmarena-document",
     "name": "Arena AI Document Leaderboard",
     "shortName": "Arena Doc",
+    "brief": "长文档",
     "categories": [
       "llm-line"
     ],
@@ -831,13 +883,14 @@
     "id": "lmarena-search",
     "name": "Arena AI Search Leaderboard",
     "shortName": "Arena Search",
+    "brief": "联网搜",
     "categories": [
       "llm-line"
     ],
     "metric": "mixed",
     "metricUnit": "Elo",
     "url": "https://arena.ai/leaderboard/search",
-    "description": "带检索/联网的问答盲测 Elo；Search/Grounding 产品选型参照。",
+    "description": "带检索 / 联网的问答盲测 Elo。Search / Grounding 产品选型参照。",
     "authority": "Arena AI（原 LMSYS）",
     "updateCadence": "weekly",
     "order": 7
@@ -846,13 +899,14 @@
     "id": "lmarena-image-edit",
     "name": "Arena AI Image Edit Leaderboard",
     "shortName": "Arena ImgEdit",
+    "brief": "改图",
     "categories": [
       "design-ai-image"
     ],
     "metric": "mixed",
     "metricUnit": "Elo",
     "url": "https://arena.ai/leaderboard/image-edit",
-    "description": "单图编辑盲测 Elo；改图/局部编辑选型参照。",
+    "description": "单图编辑盲测 Elo。改图 / 局部编辑选型参照（非从零文生图）。",
     "authority": "Arena AI（原 LMSYS）",
     "updateCadence": "weekly",
     "order": 3
@@ -861,13 +915,14 @@
     "id": "lmarena-t2v",
     "name": "Arena AI Text-to-Video Leaderboard",
     "shortName": "Arena T2V",
+    "brief": "文生视频",
     "categories": [
       "design-ai-video"
     ],
     "metric": "mixed",
     "metricUnit": "Elo",
     "url": "https://arena.ai/leaderboard/text-to-video",
-    "description": "文生视频盲测 Elo；视频生成能力事实标准之一。",
+    "description": "文生视频盲测 Elo。视频生成能力的事实标准之一。",
     "authority": "Arena AI（原 LMSYS）",
     "updateCadence": "weekly",
     "order": 1
@@ -876,6 +931,7 @@
     "id": "lmarena-i2v",
     "name": "Arena AI Image-to-Video Leaderboard",
     "shortName": "Arena I2V",
+    "brief": "图生视频",
     "categories": [
       "design-ai-video"
     ],
@@ -891,6 +947,7 @@
     "id": "lmarena-video-edit",
     "name": "Arena AI Video Edit Leaderboard",
     "shortName": "Arena VidEdit",
+    "brief": "改视频",
     "categories": [
       "design-ai-video"
     ],
@@ -906,13 +963,14 @@
     "id": "aa-coding-agent",
     "name": "Artificial Analysis · Coding Agent Index",
     "shortName": "AA Coding",
+    "brief": "编码代理",
     "categories": [
       "coding-cli-agent",
       "coding-ide-agent"
     ],
     "metric": "score",
     "url": "https://artificialanalysis.ai/",
-    "description": "编码 Agent 脚手架×模型组合的综合指数；对照 Codex / Claude Code 等真实工作流。",
+    "description": "编码 Agent 脚手架 × 模型组合的综合指数。对照 Cursor / Claude Code / Codex 等真实工作流，而非纯聊天榜。",
     "authority": "Artificial Analysis",
     "updateCadence": "weekly",
     "order": 1
@@ -921,13 +979,14 @@
     "id": "aa-video-arena",
     "name": "Artificial Analysis · Text-to-Video Arena",
     "shortName": "AA Video",
+    "brief": "文生视频",
     "categories": [
       "design-ai-video"
     ],
     "metric": "mixed",
     "metricUnit": "Elo",
     "url": "https://artificialanalysis.ai/video/leaderboard/text-to-video",
-    "description": "文生视频盲测 Elo（含音画）；与 Arena T2V 交叉验证。",
+    "description": "文生视频盲测 Elo（常含音画），建议与 Arena T2V 交叉验证。",
     "authority": "Artificial Analysis",
     "updateCadence": "weekly",
     "order": 4
@@ -936,13 +995,14 @@
     "id": "swe-bench-pro",
     "name": "SWE-bench Pro",
     "shortName": "SWE-bench Pro",
+    "brief": "高难编码",
     "categories": [
       "llm-line"
     ],
     "metric": "score",
     "metricUnit": "%",
     "url": "https://www.swebench.com/",
-    "description": "更难的软件工程 Agent 基准 % Resolved；模型档位编码能力交叉验证（非产品脚手架榜）。",
+    "description": "更难的软件工程 Agent 基准 % Resolved。用于交叉验证模型档位编码能力；比的是模型，不是 IDE 产品脚手架。",
     "authority": "SWE-bench / community",
     "updateCadence": "ad-hoc",
     "order": 9

@@ -15,12 +15,20 @@
   "pitfalls": [
     "超高并发需 Octane/Horizon 调优；与 Node/Go 比 CPU 密集任务弱。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-24",
+      "type": "release",
+      "summary": "维护线 13 最新 13.22.0",
+      "version": "13.22.0",
+      "source": "https://laravel.com/docs/13.x/releases"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://laravel.com"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-25",
   "region": "overseas",
   "id": "laravel",
   "name": "Laravel",
@@ -29,5 +37,6 @@
   "oneLiner": "现代 PHP 旗舰 · Eloquent/queue/auth · Livewire/Inertia",
   "officialUrl": "https://laravel.com",
   "descriptionMd": "Laravel 提供 elegant ORM（Eloquent）、queue、auth 与 Livewire/Inertia 前端集成，是 modern PHP 旗舰框架。\n\nPHP 团队构建 SaaS、需要快速迭代与丰富 package 生态时。\n\n超高并发需 Octane/Horizon 调优；与 Node/Go 比 CPU 密集任务弱。\n",
-  "vendorId": "laravel-inc"
+  "vendorId": "laravel-inc",
+  "currentVersion": "13"
 }

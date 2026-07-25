@@ -15,12 +15,20 @@
   "pitfalls": [
     "启动慢、内存高；serverless 形态需 GraalVM native 等额外工作。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-30",
+      "type": "deprecation",
+      "summary": "spring-boot 3.5 已结束安全支持（EOL 2026-06-30）",
+      "version": "3.5",
+      "source": "https://endoflife.date/spring-boot"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://spring.io/projects/spring-boot"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-25",
   "region": "overseas",
   "id": "spring-boot",
   "name": "Spring Boot",

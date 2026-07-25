@@ -142,6 +142,10 @@ span.vh-mono,
   border-bottom: 1px solid var(--line);
   backdrop-filter: blur(0px); /* 暖纸慎用 vibrancy；占位保持明确 */
 }
+/* 首页首屏由 hero 承载品牌，顶栏收起 logo+名称避免叠印 */
+.vh-shell-header[data-view='dashboard'] .vh-shell-brand {
+  display: none;
+}
 .vh-shell-rail {
   background: color-mix(in oklch, var(--paper-1) 92%, var(--paper-0));
   border-right: 1px solid var(--line);
@@ -750,6 +754,10 @@ span.vh-mono,
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 28px 36px;
 }
+.vh-home-lane {
+  min-width: 0;
+  max-width: 100%;
+}
 @media (max-width: 900px) {
   .vh-home-lanes {
     grid-template-columns: 1fr;
@@ -828,6 +836,163 @@ span.vh-mono,
   font-size: 13px;
   padding: 8px 0;
 }
+
+/* —— 本周对垒：LLM 双强水墨插画 + 战绩 —— */
+.vh-home-duel-week {
+  font-size: 12px;
+  color: var(--ink-3);
+  font-variant-numeric: tabular-nums;
+}
+.vh-home-duel-week-cadence {
+  color: var(--ink-3);
+  opacity: 0.85;
+}
+.vh-home-duel-stage {
+  position: relative;
+  margin-bottom: 12px;
+  min-width: 0;
+  max-width: 100%;
+}
+.vh-home-duel-art {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  height: auto;
+  aspect-ratio: 2 / 1;
+  object-fit: contain;
+  object-position: center center;
+  border-radius: var(--radius);
+  background: color-mix(in oklch, var(--paper-2) 80%, var(--ink-3) 8%);
+}
+.vh-home-duel-art-note {
+  margin: 6px 0 0;
+  font-size: 11px;
+  color: var(--ink-3);
+}
+.vh-home-duel-board {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  gap: 8px 10px;
+  align-items: stretch;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.vh-home-duel-board > li {
+  min-width: 0;
+}
+.vh-home-duel-vs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4px;
+  color: var(--pigment-seal);
+  font-family: var(--font-display);
+  font-size: 15px;
+  opacity: 0.7;
+  user-select: none;
+}
+.vh-home-duel-fighter {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  text-align: left;
+  border: none;
+  background: transparent;
+  padding: 8px 6px;
+  margin: 0 -6px;
+  border-radius: var(--radius);
+  cursor: pointer;
+  font-family: var(--font-body);
+  color: var(--ink-1);
+  transition: background var(--dur) var(--ease-standard);
+}
+.vh-home-duel-fighter:hover {
+  background: var(--paper-2);
+}
+.vh-home-duel-fighter[data-side='right'] {
+  text-align: right;
+}
+.vh-home-duel-fighter[data-side='right'] .vh-home-duel-fighter-top {
+  flex-direction: row-reverse;
+}
+.vh-home-duel-fighter[data-side='right'] .vh-home-duel-metrics {
+  justify-content: flex-end;
+}
+.vh-home-duel-fighter-top {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  min-width: 0;
+}
+.vh-home-duel-place {
+  flex-shrink: 0;
+  font-family: var(--font-display);
+  font-size: 13px;
+  color: var(--pigment-seal);
+}
+.vh-home-duel-fighter[data-place='1'] .vh-home-duel-place {
+  color: var(--pigment-primary);
+}
+.vh-home-duel-name {
+  font-family: var(--font-display);
+  font-size: 16px;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.vh-home-duel-score {
+  margin-left: auto;
+  font-size: 13px;
+  color: var(--ink-2);
+  flex-shrink: 0;
+}
+.vh-home-duel-fighter[data-side='right'] .vh-home-duel-score {
+  margin-left: 0;
+  margin-right: auto;
+}
+.vh-home-duel-oneliner {
+  font-size: var(--text-caption);
+  line-height: var(--text-caption-lh);
+  color: var(--ink-3);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.vh-home-duel-metrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.vh-home-duel-metric {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 3px;
+  padding: 2px 6px;
+  border-radius: calc(var(--radius) - 2px);
+  background: color-mix(in oklch, var(--paper-2) 70%, transparent);
+  border: 1px solid color-mix(in oklch, var(--line) 80%, transparent);
+  font-size: 11px;
+  line-height: 1.3;
+}
+.vh-home-duel-metric-label {
+  color: var(--ink-3);
+}
+.vh-home-duel-metric-rank {
+  color: var(--ink-1);
+  font-weight: 500;
+}
+.vh-home-duel-footnote {
+  margin: 10px 0 0;
+  font-size: 11px;
+  line-height: 1.45;
+  color: var(--ink-3);
+}
+
 .vh-home-paths {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -963,6 +1128,149 @@ span.vh-mono,
   .vh-home-hero-art {
     transform: none !important;
   }
+}
+
+/* —— 信息来源公示 —— */
+.vh-home-provenance {
+  border-top: 1px solid var(--line);
+  padding-top: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.vh-home-provenance-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.vh-home-provenance-live {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-family: var(--font-body);
+  font-size: 12px;
+  color: var(--ink-3);
+  letter-spacing: 0.02em;
+}
+.vh-home-provenance-live-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--pigment-seal);
+  box-shadow: 0 0 0 0 color-mix(in srgb, var(--pigment-seal) 45%, transparent);
+  animation: vh-home-live-pulse 2.4s var(--ease-standard) infinite;
+}
+@keyframes vh-home-live-pulse {
+  0% {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--pigment-seal) 40%, transparent);
+    opacity: 1;
+  }
+  70% {
+    box-shadow: 0 0 0 8px color-mix(in srgb, var(--pigment-seal) 0%, transparent);
+    opacity: 0.85;
+  }
+  100% {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--pigment-seal) 0%, transparent);
+    opacity: 1;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .vh-home-provenance-live-dot {
+    animation: none;
+  }
+}
+.vh-home-provenance-lede {
+  margin: 0;
+  max-width: 52rem;
+  font-family: var(--font-body);
+  font-size: 14px;
+  line-height: 1.65;
+  color: var(--ink-2);
+}
+.vh-home-provenance-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 28px;
+  padding: 4px 0 2px;
+}
+.vh-home-provenance-stat {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 4.5rem;
+}
+.vh-home-provenance-stat-value {
+  font-size: 22px;
+  line-height: 1.15;
+  color: var(--ink-1);
+  font-variant-numeric: tabular-nums;
+}
+.vh-home-provenance-stat-label {
+  font-size: 12px;
+  color: var(--ink-3);
+  font-family: var(--font-body);
+}
+.vh-home-provenance-kinds {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.vh-home-provenance-kinds li {
+  display: grid;
+  grid-template-columns: minmax(7.5rem, 9.5rem) 1fr;
+  gap: 10px 16px;
+  align-items: baseline;
+  font-family: var(--font-body);
+  font-size: 13px;
+  line-height: 1.55;
+  color: var(--ink-2);
+}
+.vh-home-provenance-kinds strong {
+  font-weight: 600;
+  color: var(--ink-1);
+  font-size: 13px;
+}
+.vh-home-provenance-kinds span {
+  color: var(--ink-2);
+}
+
+/* —— 免责声明 —— */
+.vh-disclaimer {
+  border-top: 1px solid var(--line);
+  padding-top: 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.vh-disclaimer-compact {
+  padding-top: 18px;
+}
+.vh-disclaimer-compact > :first-child {
+  margin: 0;
+  font-weight: 600;
+  color: var(--ink-1);
+}
+.vh-disclaimer-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  max-width: 52rem;
+}
+.vh-disclaimer-body p {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 13px;
+  line-height: 1.65;
+  color: var(--ink-3);
+}
+.vh-disclaimer-compact .vh-disclaimer-body p {
+  font-size: 12px;
+  line-height: 1.6;
 }
 
 /* 图谱画布：舆图图廓 + 宣纸/夜砚氛围（canvas 透明透出） */
@@ -2897,67 +3205,285 @@ span.vh-mono,
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+/* 宽屏最多两列，避免挤成三四列 */
+.vh-rankings:not(.vh-rankings-compact) .vh-rankings-list {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+@container kbdetail (max-width: 720px) {
+  .vh-rankings:not(.vh-rankings-compact) .vh-rankings-list {
+    grid-template-columns: 1fr;
+  }
 }
 .vh-ranking-row {
-  padding: 10px 12px;
+  display: flex;
+  align-items: stretch;
+  gap: 10px;
+  padding: 8px 10px;
   border: 1px solid var(--line);
   background: color-mix(in oklch, var(--paper-2) 70%, transparent);
+  min-width: 0;
 }
-.vh-ranking-row[data-has='0'] {
-  opacity: 0.72;
+.vh-ranking-row[data-place='top'] {
+  border-color: color-mix(in oklch, var(--pigment-seal) 22%, var(--line));
+  background: color-mix(in oklch, var(--pigment-seal) 4%, var(--paper-2));
+}
+.vh-ranking-row[data-place='1'] {
+  position: relative;
+  gap: 14px;
+  padding: 12px 14px;
+  border-color: color-mix(in oklch, var(--pigment-seal) 38%, var(--line));
+  background:
+    radial-gradient(
+      120% 90% at 0% 0%,
+      color-mix(in oklch, var(--pigment-seal) 9%, transparent) 0%,
+      transparent 55%
+    ),
+    color-mix(in oklch, var(--paper-1) 88%, var(--paper-2));
+  box-shadow: inset 0 0 0 1px color-mix(in oklch, var(--pigment-seal) 12%, transparent);
+}
+.vh-ranking-row[data-place='1']::before,
+.vh-ranking-row[data-place='1']::after {
+  content: '';
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  pointer-events: none;
+  border-color: color-mix(in oklch, var(--pigment-seal) 72%, transparent);
+  border-style: solid;
+}
+.vh-ranking-row[data-place='1']::before {
+  top: 4px;
+  left: 4px;
+  border-width: 1px 0 0 1px;
+}
+.vh-ranking-row[data-place='1']::after {
+  right: 4px;
+  bottom: 4px;
+  border-width: 0 1px 1px 0;
 }
 .vh-rankings-compact .vh-ranking-row {
-  padding: 8px 10px;
+  padding: 5px 8px;
+  gap: 8px;
 }
-.vh-ranking-head {
+.vh-rankings-compact .vh-ranking-row[data-place='1'] {
+  padding: 8px 10px;
+  gap: 10px;
+}
+.vh-ranking-rank {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  min-width: 2.6em;
+  gap: 3px;
+  color: var(--pigment-seal);
+  line-height: 1;
+}
+.vh-ranking-row[data-place='1'] .vh-ranking-rank {
+  flex-direction: row;
+  align-items: stretch;
+  min-width: 3.2em;
+  gap: 7px;
+  padding-right: 12px;
+  border-right: 1px solid color-mix(in oklch, var(--pigment-seal) 22%, transparent);
+}
+.vh-ranking-rank-value {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+.vh-ranking-row[data-place='1'] .vh-ranking-rank-value {
+  align-items: center;
+}
+.vh-ranking-hash {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-weight: 600;
+  opacity: 0.7;
+  margin-right: 1px;
+  align-self: flex-start;
+  margin-top: 0.35em;
+}
+.vh-ranking-num {
+  font-family: var(--font-display);
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+}
+.vh-ranking-row[data-place='1'] .vh-ranking-num {
+  font-size: 34px;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  line-height: 0.92;
+}
+.vh-ranking-first-mark {
+  writing-mode: vertical-rl;
+  font-family: var(--font-display);
+  font-size: 11px;
+  font-weight: 400;
+  letter-spacing: 0.35em;
+  color: var(--pigment-seal);
+  opacity: 0.88;
+  padding: 2px 0 0;
+  border: none;
+  background: none;
+  line-height: 1;
+}
+.vh-ranking-row[data-kind="share"] .vh-ranking-num {
+  font-size: 18px;
+}
+.vh-ranking-row[data-kind='tier'],
+.vh-ranking-row[data-kind='score'] {
+  gap: 0;
+}
+.vh-ranking-primary {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--pigment-seal);
+  letter-spacing: 0.01em;
+  line-height: 1.35;
+  overflow-wrap: anywhere;
+}
+.vh-ranking-row[data-place='1'] .vh-ranking-name {
+  color: var(--ink-1);
+  letter-spacing: 0.06em;
+}
+.vh-ranking-row[data-place='1'] .vh-ranking-secondary,
+.vh-ranking-row[data-place='1'] .vh-ranking-primary {
+  color: color-mix(in oklch, var(--pigment-seal) 55%, var(--ink-2));
+}
+.vh-ranking-body {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  justify-content: center;
+}
+.vh-ranking-main {
   display: flex;
   align-items: center;
   gap: 6px;
-  margin-bottom: 4px;
+  min-width: 0;
 }
 .vh-ranking-name {
   font-family: var(--font-display);
-  font-size: 13px;
-  letter-spacing: 0.04em;
+  font-size: 12px;
+  letter-spacing: 0.03em;
   color: var(--ink-1);
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.vh-ranking-brief {
+  flex-shrink: 0;
+  font-size: 10.5px;
+  line-height: 1;
+  letter-spacing: 0.06em;
+  color: var(--ink-3);
+  white-space: nowrap;
+}
+.vh-ranking-info {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--ink-3);
+  cursor: pointer;
+}
+.vh-ranking-info:hover,
+.vh-ranking-info[aria-expanded='true'] {
+  color: var(--pigment-primary);
+  background: color-mix(in oklch, var(--pigment-primary) 10%, transparent);
+}
+.vh-ranking-info:focus-visible {
+  outline: 2px solid var(--pigment-primary);
+  outline-offset: 1px;
 }
 .vh-ranking-ext {
   color: var(--ink-3);
   display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
   margin-left: auto;
 }
 .vh-ranking-ext:hover {
   color: var(--pigment-primary);
 }
-.vh-ranking-primary {
+.vh-ranking-pop-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 10px;
+  font-size: var(--text-caption);
+}
+.vh-ranking-pop-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-bottom: 8px;
+  font-size: var(--text-caption);
+  color: var(--ink-2);
+  line-height: 1.4;
+}
+.vh-ranking-pop-k {
+  display: inline-block;
+  min-width: 3.2em;
+  margin-right: 6px;
+  color: var(--ink-3);
+}
+.vh-ranking-pop-howto {
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px dashed var(--line);
+  font-size: var(--text-caption);
+  color: var(--ink-3);
+  line-height: 1.45;
+}
+.vh-ranking-secondary {
   font-family: var(--font-mono);
-  font-size: 13px;
-  color: var(--pigment-seal);
-  letter-spacing: 0.02em;
+  font-size: 11.5px;
+  color: var(--ink-2);
+  letter-spacing: 0.01em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .vh-ranking-meta {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px 12px;
-  margin-top: 4px;
+  gap: 2px 8px;
+  margin-top: 1px;
   color: var(--ink-3);
+  font-size: 11px;
+  line-height: 1.35;
 }
 .vh-ranking-note {
-  margin-top: 6px;
-  font-size: 12.5px;
-  line-height: 1.45;
+  margin-top: 3px;
+  font-size: 11.5px;
+  line-height: 1.35;
   color: var(--ink-2);
 }
-.vh-ranking-empty {
-  color: var(--ink-3);
-}
 .vh-rankings-footnote {
-  margin: 12px 0 0;
+  margin: 8px 0 0;
   color: var(--ink-3);
-  line-height: 1.5;
+  line-height: 1.45;
+  font-size: 11.5px;
 }
 
 /* —— 移动端网页：底部导航 + 窄屏壳 —— */
@@ -3271,9 +3797,86 @@ span.vh-mono,
   .vh-home-lanes {
     grid-template-columns: 1fr;
   }
+  .vh-home-duel .vh-home-lane-head {
+    flex-wrap: wrap;
+    gap: 4px 10px;
+  }
+  .vh-home-duel-board {
+    grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+    gap: 6px 6px;
+    align-items: start;
+  }
+  .vh-home-duel-vs {
+    padding-top: 10px;
+    min-height: 0;
+    opacity: 0.55;
+    font-size: 13px;
+  }
+  .vh-home-duel-vs::before,
+  .vh-home-duel-vs::after {
+    content: none;
+  }
+  .vh-home-duel-vs span {
+    padding: 0;
+  }
+  .vh-home-duel-fighter {
+    padding: 8px 4px;
+    margin: 0 -4px;
+    gap: 5px;
+  }
+  /* 窄屏仍左右对阵：左侧 #1、右侧 #2（保持镜像） */
+  .vh-home-duel-fighter[data-side='right'] {
+    text-align: right;
+  }
+  .vh-home-duel-fighter[data-side='right'] .vh-home-duel-fighter-top {
+    flex-direction: row-reverse;
+  }
+  .vh-home-duel-fighter[data-side='right'] .vh-home-duel-metrics {
+    justify-content: flex-end;
+  }
+  .vh-home-duel-fighter[data-side='right'] .vh-home-duel-score {
+    margin-left: 0;
+    margin-right: auto;
+  }
+  .vh-home-duel-name {
+    font-size: 14px;
+  }
+  .vh-home-duel-oneliner {
+    display: none;
+  }
+  .vh-home-duel-metric {
+    padding: 2px 5px;
+    font-size: 10px;
+  }
+  .vh-home-duel-week-cadence {
+    display: none;
+  }
+  /* 窄屏插画：强制缩进容器，避免 intrinsic 宽撑破被 clip 掉右侧 */
+  .vh-home-duel-stage {
+    min-width: 0;
+    max-width: 100%;
+  }
+  .vh-home-duel-art {
+    aspect-ratio: 2 / 1;
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    height: auto;
+    object-fit: contain;
+    object-position: center center;
+    border-radius: var(--radius);
+  }
+  .vh-home-duel-footnote {
+    font-size: 10px;
+    line-height: 1.5;
+  }
   .vh-home-paths {
     grid-template-columns: 1fr;
     gap: 12px;
+  }
+  .vh-home-provenance-kinds li {
+    grid-template-columns: 1fr;
+    gap: 2px;
   }
   .vh-home-path {
     min-width: 0;

@@ -17,6 +17,8 @@ export const RankingSystem = z.object({
   id: Id,
   name: z.string().min(1),
   shortName: z.string().min(1).max(32),
+  /** 卡片旁 2–4 字能力提示，如「对话」「文生图」 */
+  brief: z.string().min(2).max(4),
   /** 适用分类 id（对应 categories.json） */
   categories: z.array(Id).min(1),
   metric: RankingMetric,

@@ -18,12 +18,20 @@
   "pitfalls": [
     "复杂 JSON/analytics 不如 PostgreSQL；8.0 认证插件变更曾导致兼容问题，升级需测驱动。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-06-03",
+      "type": "release",
+      "summary": "维护线 9.7 最新 9.7.1",
+      "version": "9.7.1",
+      "source": "https://dev.mysql.com/doc/relnotes/mysql/9.7/en/news-9-7-0.html"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://www.mysql.com"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-25",
   "region": "overseas",
   "id": "mysql",
   "name": "MySQL",

@@ -16,12 +16,20 @@
   ],
   "maturity": "mature",
   "pitfalls": [],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-07",
+      "type": "release",
+      "summary": "维护线 1.26 最新 1.26.5",
+      "version": "1.26.5",
+      "source": "https://go.dev/doc/go1.26"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://go.dev"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-25",
   "region": "both",
   "id": "go",
   "name": "Go",

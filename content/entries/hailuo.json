@@ -21,7 +21,18 @@
     "海外发行与长视频稳定性需自测；积分消耗与并发限制影响批量生产。"
   ],
   "updates": [],
-  "rankings": [],
+  "rankings": [
+    {
+      "systemId": "lmarena-t2v",
+      "rank": 27,
+      "score": 1199,
+      "scoreLabel": "1199 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
+      "note": "模型 hailuo-2.3",
+      "asOf": "2026-07-25"
+    }
+  ],
   "sources": [
     "https://hailuoai.com"
   ],

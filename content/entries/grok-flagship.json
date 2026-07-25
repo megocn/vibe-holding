@@ -40,6 +40,46 @@
       "rank": 8,
       "score": 54,
       "scoreLabel": "AAII 54"
+    },
+    {
+      "systemId": "lmarena-text",
+      "rank": 20,
+      "score": 1474,
+      "scoreLabel": "1474 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/text",
+      "note": "模型 grok-4.20-beta1",
+      "asOf": "2026-07-25"
+    },
+    {
+      "systemId": "lmarena-vision",
+      "rank": 27,
+      "score": 1254,
+      "scoreLabel": "1254 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/vision",
+      "note": "模型 grok-4.20-beta-0309-reasoning",
+      "asOf": "2026-07-25"
+    },
+    {
+      "systemId": "lmarena-search",
+      "rank": 10,
+      "score": 1205,
+      "scoreLabel": "1205 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/search",
+      "note": "模型 grok-4.20-multi-agent-beta-0309",
+      "asOf": "2026-07-25"
+    },
+    {
+      "systemId": "lmarena-document",
+      "rank": 28,
+      "score": 1412,
+      "scoreLabel": "1412 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/document",
+      "note": "模型 grok-4.20-beta-0309-reasoning",
+      "asOf": "2026-07-25"
     }
   ],
   "sources": [
