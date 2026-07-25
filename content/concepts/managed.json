@@ -1,10 +1,10 @@
 {
   "id": "managed",
-  "name": "managed",
-  "summaryMd": "由厂商托管运维的服务形态。",
+  "name": "managed service",
+  "summaryMd": "由云厂商运维的托管服务，减少自建负担。",
   "aliases": [
-    "托管",
+    "Managed Service",
     "托管服务",
-    "Managed"
+    "全托管"
   ]
 }

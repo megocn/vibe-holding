@@ -1,9 +1,10 @@
 {
   "id": "orchestrator",
   "name": "orchestrator",
-  "summaryMd": "负责任务分解、调度与汇聚结果的编排层。",
+  "summaryMd": "负责任务调度与多步骤协调的编排器组件。",
   "aliases": [
-    "编排",
-    "Orchestrator"
+    "Orchestrator",
+    "编排器",
+    "编排引擎"
   ]
 }

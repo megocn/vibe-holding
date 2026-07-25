@@ -1,10 +1,11 @@
 {
   "id": "backup",
   "name": "backup",
-  "summaryMd": "数据备份以便恢复。",
+  "summaryMd": "为恢复而保留的数据副本与快照策略。",
   "aliases": [
-    "备份",
-    "快照",
-    "snapshot"
+    "Backup",
+    "数据备份",
+    "备份策略",
+    "快照备份"
   ]
 }

@@ -1,0 +1,10 @@
+{
+  "id": "agentic",
+  "name": "agentic",
+  "summaryMd": "强调工具调用、规划与自迭代的代理式（agentic）能力，而不只是单次生成。",
+  "aliases": [
+    "Agentic",
+    "代理式",
+    "agentic 工作流"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "image-to-image",
+  "name": "图生图",
+  "summaryMd": "以图像（+可选文本）为条件生成或改图（Image-to-Image / I2I）。",
+  "aliases": [
+    "image-to-image",
+    "Image-to-Image",
+    "I2I",
+    "图像编辑生成"
+  ]
+}

@@ -1,6 +1,9 @@
 {
   "id": "orchestration-cn",
-  "name": "编排",
-  "summaryMd": "把多步骤、多工具组织成可运行流程。",
-  "aliases": []
+  "name": "国内编排",
+  "summaryMd": "面向国内合规与网络环境的工作流/任务编排方案。",
+  "aliases": [
+    "国产编排",
+    "国内工作流编排"
+  ]
 }

@@ -1,0 +1,10 @@
+{
+  "id": "diffusion",
+  "name": "Diffusion",
+  "summaryMd": "以逐步去噪为核心的生成范式，广泛用于图像与视频模型。",
+  "aliases": [
+    "diffusion",
+    "扩散模型",
+    "Diffusion Model"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "text-to-image",
+  "name": "文生图",
+  "summaryMd": "由文本提示生成图像（Text-to-Image / T2I）。",
+  "aliases": [
+    "text-to-image",
+    "Text-to-Image",
+    "T2I",
+    "文本生成图像"
+  ]
+}

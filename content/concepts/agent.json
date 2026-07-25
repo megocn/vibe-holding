@@ -4,6 +4,7 @@
   "summaryMd": "能调用工具、规划步骤并自主完成任务的 AI 代理形态。",
   "aliases": [
     "AI Agent",
-    "智能体"
+    "智能体",
+    "Agents"
   ]
 }

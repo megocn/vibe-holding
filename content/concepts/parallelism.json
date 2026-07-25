@@ -1,9 +1,10 @@
 {
   "id": "parallelism",
   "name": "parallelism",
-  "summaryMd": "真正同时执行多个任务。",
+  "summaryMd": "把工作拆成可同时执行的部分以提升吞吐。",
   "aliases": [
-    "并行",
-    "Parallelism"
+    "Parallelism",
+    "并行计算",
+    "数据并行"
   ]
 }

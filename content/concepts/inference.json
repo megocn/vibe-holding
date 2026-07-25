@@ -1,9 +1,11 @@
 {
   "id": "inference",
   "name": "inference",
-  "summaryMd": "用已训练模型做预测/生成的过程（相对训练）。",
+  "summaryMd": "用已训练模型做预测/生成的服务阶段（相对训练）。",
   "aliases": [
-    "推理",
-    "Inference"
+    "Inference",
+    "模型推理",
+    "推理服务",
+    "推理侧"
   ]
 }

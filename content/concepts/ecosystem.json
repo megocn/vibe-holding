@@ -1,6 +1,10 @@
 {
   "id": "ecosystem",
-  "name": "生态",
-  "summaryMd": "围绕核心产品形成的插件、集成与社区。",
-  "aliases": []
+  "name": "技术生态",
+  "summaryMd": "围绕核心产品形成的插件、集成、社区与上下游工具链。",
+  "aliases": [
+    "ecosystem",
+    "开发者生态",
+    "产品生态"
+  ]
 }

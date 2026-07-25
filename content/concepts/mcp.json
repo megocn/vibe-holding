@@ -4,6 +4,7 @@
   "summaryMd": "模型与工具/数据源之间的标准化连接协议。",
   "aliases": [
     "Model Context Protocol",
-    "MCP"
+    "MCP",
+    "模型上下文协议"
   ]
 }

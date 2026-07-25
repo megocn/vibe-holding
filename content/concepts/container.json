@@ -1,9 +1,10 @@
 {
   "id": "container",
   "name": "container",
-  "summaryMd": "打包应用与依赖的轻量隔离运行单元。",
+  "summaryMd": "轻量隔离的运行时封装，常与镜像、编排一起出现。",
   "aliases": [
-    "容器",
-    "Container"
+    "Container",
+    "容器运行时",
+    "Linux 容器"
   ]
 }

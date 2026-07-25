@@ -1,9 +1,10 @@
 {
   "id": "cache",
   "name": "cache",
-  "summaryMd": "用更快介质保存热点数据以降低延迟与负载。",
+  "summaryMd": "用更快介质暂存热点数据以降低延迟与成本。",
   "aliases": [
-    "缓存",
-    "Cache"
+    "Cache",
+    "缓存层",
+    "cache layer"
   ]
 }

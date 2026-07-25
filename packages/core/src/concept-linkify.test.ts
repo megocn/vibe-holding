@@ -1,5 +1,9 @@
 import { describe, expect, it } from 'vitest';
-import { buildConceptTermRules, linkifyConcepts } from './concept-linkify.ts';
+import {
+  buildConceptTermRules,
+  isLinkableTerm,
+  linkifyConcepts,
+} from './concept-linkify.ts';
 
 const concepts = [
   {
@@ -22,7 +26,61 @@ const concepts = [
     name: 'structured output',
     aliases: ['结构化输出'],
   },
+  {
+    id: 'image',
+    name: '容器镜像',
+    aliases: ['Container Image', 'image', '镜像'],
+  },
+  {
+    id: 'ecosystem',
+    name: '技术生态',
+    aliases: ['ecosystem', '生态'],
+  },
+  {
+    id: 'workflow',
+    name: 'workflow',
+    aliases: ['工作流', 'Workflow'],
+  },
+  {
+    id: 'function-calling',
+    name: 'function calling',
+    aliases: ['工具调用', '函数调用', 'tool calling'],
+  },
+  {
+    id: 'text-to-image',
+    name: '文生图',
+    aliases: ['text-to-image', 'T2I'],
+  },
+  {
+    id: 'agentic',
+    name: 'agentic',
+    aliases: ['Agentic'],
+  },
+  {
+    id: 'open-source',
+    name: 'open source',
+    aliases: ['开源'],
+  },
 ];
+
+describe('isLinkableTerm', () => {
+  it('denies ultra-generic short Chinese / bare image', () => {
+    expect(isLinkableTerm('生态')).toBe(false);
+    expect(isLinkableTerm('镜像')).toBe(false);
+    expect(isLinkableTerm('image')).toBe(false);
+    expect(isLinkableTerm('工作流')).toBe(false);
+    expect(isLinkableTerm('托管')).toBe(false);
+  });
+
+  it('allows distinctive short Chinese and domain terms', () => {
+    expect(isLinkableTerm('开源')).toBe(true);
+    expect(isLinkableTerm('微调')).toBe(true);
+    expect(isLinkableTerm('文生图')).toBe(true);
+    expect(isLinkableTerm('工具调用')).toBe(true);
+    expect(isLinkableTerm('RAG')).toBe(true);
+    expect(isLinkableTerm('function calling')).toBe(true);
+  });
+});
 
 describe('linkifyConcepts', () => {
   it('returns plain text when no match', () => {
@@ -72,6 +130,40 @@ describe('linkifyConcepts', () => {
     expect(segs.some((s) => s.type === 'concept' && s.conceptId === 'structured-output')).toBe(
       true,
     );
+  });
+
+  it('does not link bare Image / 生态 / 工作流 in Muse Image prose', () => {
+    const text =
+      'Muse Image 是 Meta 推出的 agentic 文生图能力，强调工具调用；已在 Meta 生态观察图像工作流。';
+    const segs = linkifyConcepts(text, concepts, undefined, {
+      protectTexts: ['Muse Image'],
+    });
+    const hits = segs
+      .filter((s): s is Extract<typeof s, { type: 'concept' }> => s.type === 'concept')
+      .map((s) => s.conceptId);
+    expect(hits).toContain('agentic');
+    expect(hits).toContain('text-to-image');
+    expect(hits).toContain('function-calling');
+    expect(hits).not.toContain('image');
+    expect(hits).not.toContain('ecosystem');
+    expect(hits).not.toContain('workflow');
+  });
+
+  it('protectTexts blocks product-name spans even if term is linkable', () => {
+    const segs = linkifyConcepts('Try Muse Image today', concepts, undefined, {
+      protectTexts: ['Muse Image'],
+    });
+    expect(segs.every((s) => s.type === 'text')).toBe(true);
+  });
+
+  it('buildConceptTermRules skips denied terms', () => {
+    const rules = buildConceptTermRules(concepts);
+    const terms = new Set(rules.map((r) => r.term.toLowerCase()));
+    expect(terms.has('生态')).toBe(false);
+    expect(terms.has('image')).toBe(false);
+    expect(terms.has('工作流')).toBe(false);
+    expect(terms.has('文生图')).toBe(true);
+    expect(terms.has('开源')).toBe(true);
   });
 
   it('buildConceptTermRules sorts by length desc', () => {

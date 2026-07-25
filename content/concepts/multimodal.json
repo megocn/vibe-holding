@@ -1,0 +1,10 @@
+{
+  "id": "multimodal",
+  "name": "多模态",
+  "summaryMd": "同一模型或系统处理文本、图像、音视频等多种模态输入/输出。",
+  "aliases": [
+    "multimodal",
+    "Multimodal",
+    "多模态模型"
+  ]
+}

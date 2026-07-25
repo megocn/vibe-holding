@@ -1,10 +1,11 @@
 {
   "id": "eval",
   "name": "eval",
-  "summaryMd": "用固定集或自动评判衡量模型/链路质量的评测。",
+  "summaryMd": "用基准或人工评估衡量模型/系统质量。",
   "aliases": [
-    "evals",
-    "评测",
-    "Eval"
+    "Eval",
+    "模型评测",
+    "评测集",
+    "evaluation"
   ]
 }

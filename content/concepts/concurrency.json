@@ -1,9 +1,10 @@
 {
   "id": "concurrency",
   "name": "concurrency",
-  "summaryMd": "交错推进多个任务的能力。",
+  "summaryMd": "同一时段内并行处理多个任务的能力。",
   "aliases": [
-    "并发",
-    "Concurrency"
+    "Concurrency",
+    "高并发",
+    "并发模型"
   ]
 }

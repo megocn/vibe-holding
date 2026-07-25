@@ -1,9 +1,10 @@
 {
   "id": "latency",
   "name": "latency",
-  "summaryMd": "从发起到响应完成的耗时。",
+  "summaryMd": "请求从发起到响应的时间延迟。",
   "aliases": [
-    "延迟",
-    "Latency"
+    "Latency",
+    "端到端延迟",
+    "低延迟"
   ]
 }

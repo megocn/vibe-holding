@@ -1,11 +1,10 @@
 {
   "id": "embedding",
   "name": "embedding",
-  "summaryMd": "把文本等映射为稠密向量，供相似度检索与聚类。",
+  "summaryMd": "把文本/图像等映射为稠密向量以便检索与聚类。",
   "aliases": [
-    "嵌入",
-    "Embeddings",
-    "embeddings",
-    "向量嵌入"
+    "Embedding",
+    "向量嵌入",
+    "文本嵌入"
   ]
 }

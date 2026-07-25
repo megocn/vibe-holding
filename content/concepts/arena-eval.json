@@ -1,0 +1,11 @@
+{
+  "id": "arena-eval",
+  "name": "Arena 评测",
+  "summaryMd": "以盲选对战（如 LM Arena）汇聚偏好投票的模型评测方式。",
+  "aliases": [
+    "Arena",
+    "LM Arena",
+    "LMArena",
+    "竞技场评测"
+  ]
+}

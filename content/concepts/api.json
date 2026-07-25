@@ -1,0 +1,10 @@
+{
+  "id": "api",
+  "name": "API",
+  "summaryMd": "应用程序接口：以 HTTP/SDK 等方式程序化调用服务能力。",
+  "aliases": [
+    "api",
+    "HTTP API",
+    "REST API"
+  ]
+}

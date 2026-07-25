@@ -1,9 +1,10 @@
 {
   "id": "hallucination",
   "name": "hallucination",
-  "summaryMd": "模型一本正经地编造事实或引用，看似可信却不真实。",
+  "summaryMd": "模型生成看似合理但事实错误或无依据的内容。",
   "aliases": [
+    "Hallucination",
     "幻觉",
-    "Hallucination"
+    "模型幻觉"
   ]
 }

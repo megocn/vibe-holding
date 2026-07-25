@@ -141,7 +141,7 @@ function DetailLoaded({
           <PersonalBar entryId={entry.id} />
 
           <Section level={1} title="说明" index="一">
-            <Prose text={entry.descriptionMd} />
+            <Prose text={entry.descriptionMd} protectTexts={[entry.name]} />
           </Section>
 
           <Section level={2} title="权威排行" index="榜">
@@ -156,7 +156,7 @@ function DetailLoaded({
 
           {entry.usageGuideMd && (
             <Section level={2} title="使用方式" index="三">
-              <Prose text={entry.usageGuideMd} />
+              <Prose text={entry.usageGuideMd} protectTexts={[entry.name]} />
             </Section>
           )}
 
@@ -404,7 +404,9 @@ function DetailHero({
           </button>
         </div>
       </div>
-      <div className="vh-kb-detail-oneliner">{entry.oneLiner}</div>
+      <div className="vh-kb-detail-oneliner">
+        <ProseInline text={entry.oneLiner} protectTexts={[entry.name]} />
+      </div>
 
       <div className="vh-kb-detail-tags flex flex-wrap items-center gap-2">
         <span
@@ -637,9 +639,9 @@ function AttrList({
   );
 }
 
-function Prose({ text }: { text: string }) {
+function useConceptRules() {
   const { bundle } = useContent();
-  const rules = useMemo(
+  return useMemo(
     () =>
       buildConceptTermRules(
         [...bundle.concepts.values()].map((c) => ({
@@ -650,30 +652,51 @@ function Prose({ text }: { text: string }) {
       ),
     [bundle.concepts],
   );
+}
+
+function linkifiedNodes(
+  text: string,
+  rules: ReturnType<typeof buildConceptTermRules>,
+  protectTexts?: readonly string[],
+) {
+  return linkifyConcepts(text, [], rules, { protectTexts }).map((seg, j) =>
+    seg.type === 'concept' ? (
+      // biome-ignore lint/suspicious/noArrayIndexKey: 片段顺序稳定
+      <ConceptPopover
+        key={`${seg.conceptId}-${j}`}
+        conceptId={seg.conceptId}
+        className="vh-concept-term"
+      >
+        {seg.value}
+      </ConceptPopover>
+    ) : (
+      // biome-ignore lint/suspicious/noArrayIndexKey: 片段顺序稳定
+      <span key={j}>{seg.value}</span>
+    ),
+  );
+}
+
+/** 单行（如 oneLiner）内联点选，不包 prose 段落。 */
+function ProseInline({
+  text,
+  protectTexts,
+}: {
+  text: string;
+  protectTexts?: readonly string[];
+}) {
+  const rules = useConceptRules();
+  if (!text) return null;
+  return <>{linkifiedNodes(text, rules, protectTexts)}</>;
+}
+
+function Prose({ text, protectTexts }: { text: string; protectTexts?: readonly string[] }) {
+  const rules = useConceptRules();
 
   return (
     <div className="vh-prose">
       {text.split('\n').map((line, i) => (
         // biome-ignore lint/suspicious/noArrayIndexKey: 纯文本行渲染
-        <p key={i}>
-          {line
-            ? linkifyConcepts(line, [], rules).map((seg, j) =>
-                seg.type === 'concept' ? (
-                  // biome-ignore lint/suspicious/noArrayIndexKey: 片段顺序稳定
-                  <ConceptPopover
-                    key={`${seg.conceptId}-${j}`}
-                    conceptId={seg.conceptId}
-                    className="vh-concept-term"
-                  >
-                    {seg.value}
-                  </ConceptPopover>
-                ) : (
-                  // biome-ignore lint/suspicious/noArrayIndexKey: 片段顺序稳定
-                  <span key={j}>{seg.value}</span>
-                ),
-              )
-            : null}
-        </p>
+        <p key={i}>{line ? linkifiedNodes(line, rules, protectTexts) : null}</p>
       ))}
     </div>
   );

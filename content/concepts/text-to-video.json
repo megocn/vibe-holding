@@ -1,0 +1,11 @@
+{
+  "id": "text-to-video",
+  "name": "文生视频",
+  "summaryMd": "由文本提示生成视频（Text-to-Video / T2V）。",
+  "aliases": [
+    "text-to-video",
+    "Text-to-Video",
+    "T2V",
+    "文本生成视频"
+  ]
+}

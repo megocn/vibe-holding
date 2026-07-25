@@ -1,0 +1,11 @@
+{
+  "id": "image-to-video",
+  "name": "图生视频",
+  "summaryMd": "以图像为条件生成视频（Image-to-Video / I2V）。",
+  "aliases": [
+    "image-to-video",
+    "Image-to-Video",
+    "I2V",
+    "图像生成视频"
+  ]
+}
