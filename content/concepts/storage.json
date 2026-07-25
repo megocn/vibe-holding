@@ -1,0 +1,9 @@
+{
+  "id": "storage",
+  "name": "storage",
+  "summaryMd": "持久化存放数据或文件的能力层。",
+  "aliases": [
+    "存储",
+    "Storage"
+  ]
+}

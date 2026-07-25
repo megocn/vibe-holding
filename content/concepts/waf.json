@@ -1,0 +1,9 @@
+{
+  "id": "waf",
+  "name": "WAF",
+  "summaryMd": "Web 应用防火墙：在边缘拦截常见 Web 攻击。",
+  "aliases": [
+    "Web Application Firewall",
+    "Web 应用防火墙"
+  ]
+}

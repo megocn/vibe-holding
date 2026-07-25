@@ -1,0 +1,9 @@
+{
+  "id": "bot-management",
+  "name": "bot management",
+  "summaryMd": "识别与治理恶意或过度爬虫流量。",
+  "aliases": [
+    "Bot Management",
+    "机器人防护"
+  ]
+}

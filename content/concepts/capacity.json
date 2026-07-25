@@ -1,0 +1,9 @@
+{
+  "id": "capacity",
+  "name": "容量规划",
+  "summaryMd": "预估资源以支撑预期负载。",
+  "aliases": [
+    "Capacity Planning",
+    "扩容规划"
+  ]
+}

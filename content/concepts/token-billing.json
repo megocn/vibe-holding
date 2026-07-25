@@ -1,0 +1,10 @@
+{
+  "id": "token-billing",
+  "name": "按 token 计费",
+  "summaryMd": "按输入/输出 token 计量收费。",
+  "aliases": [
+    "token 计费",
+    "Token 计费",
+    "按 Token 计费"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "bundle-size",
+  "name": "bundle size",
+  "summaryMd": "前端打包产物体积，影响加载速度。",
+  "aliases": [
+    "包体积",
+    "Bundle Size"
+  ]
+}

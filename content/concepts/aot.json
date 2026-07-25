@@ -1,0 +1,9 @@
+{
+  "id": "aot",
+  "name": "AOT",
+  "summaryMd": "提前编译：运行前生成机器码/字节码，缩短启动。",
+  "aliases": [
+    "Ahead-of-Time",
+    "Ahead of Time"
+  ]
+}

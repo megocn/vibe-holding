@@ -1,0 +1,9 @@
+{
+  "id": "embedding-model",
+  "name": "embedding model",
+  "summaryMd": "专门产出向量嵌入的模型。",
+  "aliases": [
+    "Embedding Model",
+    "嵌入模型"
+  ]
+}

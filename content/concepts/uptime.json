@@ -1,0 +1,9 @@
+{
+  "id": "uptime",
+  "name": "uptime",
+  "summaryMd": "可用时长占比，常用于 SLA。",
+  "aliases": [
+    "可用性时间",
+    "Uptime"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "full-release",
+  "name": "全量发布",
+  "summaryMd": "向全部用户放开新版本。",
+  "aliases": [
+    "全量"
+  ]
+}

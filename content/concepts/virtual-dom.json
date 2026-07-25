@@ -1,0 +1,8 @@
+{
+  "id": "virtual-dom",
+  "name": "Virtual DOM",
+  "summaryMd": "用轻量 JS 对象描述 UI，再差分更新真实 DOM。",
+  "aliases": [
+    "虚拟 DOM"
+  ]
+}

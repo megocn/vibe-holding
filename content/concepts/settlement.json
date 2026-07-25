@@ -1,0 +1,10 @@
+{
+  "id": "settlement",
+  "name": "settlement",
+  "summaryMd": "清算结算：资金从支付渠道进入商户账户。",
+  "aliases": [
+    "清算",
+    "Settlement",
+    "结算"
+  ]
+}

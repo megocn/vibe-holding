@@ -1,0 +1,9 @@
+{
+  "id": "middleware",
+  "name": "middleware",
+  "summaryMd": "请求处理链中的中间层（鉴权、日志、改写等）。",
+  "aliases": [
+    "中间件",
+    "Middleware"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "otp",
+  "name": "OTP",
+  "summaryMd": "一次性密码，常用于双因素认证。",
+  "aliases": [
+    "One-Time Password",
+    "一次性密码"
+  ]
+}

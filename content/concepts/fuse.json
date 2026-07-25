@@ -1,0 +1,8 @@
+{
+  "id": "fuse",
+  "name": "FUSE",
+  "summaryMd": "用户态文件系统接口，用普通进程实现虚拟盘。",
+  "aliases": [
+    "Filesystem in Userspace"
+  ]
+}

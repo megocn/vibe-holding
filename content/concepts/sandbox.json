@@ -1,0 +1,9 @@
+{
+  "id": "sandbox",
+  "name": "sandbox",
+  "summaryMd": "隔离执行环境，限制权限与副作用。",
+  "aliases": [
+    "沙箱",
+    "Sandbox"
+  ]
+}

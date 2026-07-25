@@ -1,0 +1,8 @@
+{
+  "id": "webrtc",
+  "name": "WebRTC",
+  "summaryMd": "浏览器端点对点音视频与数据通道标准。",
+  "aliases": [
+    "Web Real-Time Communication"
+  ]
+}

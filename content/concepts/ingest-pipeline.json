@@ -1,0 +1,8 @@
+{
+  "id": "ingest-pipeline",
+  "name": "ingest pipeline",
+  "summaryMd": "写入前的数据处理管道。",
+  "aliases": [
+    "Ingest Pipeline"
+  ]
+}

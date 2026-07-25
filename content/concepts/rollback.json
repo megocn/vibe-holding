@@ -1,0 +1,9 @@
+{
+  "id": "rollback",
+  "name": "回滚",
+  "summaryMd": "把系统恢复到上一稳定版本。",
+  "aliases": [
+    "Rollback",
+    "回退版本"
+  ]
+}

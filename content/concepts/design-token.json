@@ -1,0 +1,9 @@
+{
+  "id": "design-token",
+  "name": "design token",
+  "summaryMd": "把颜色/间距/字体等设计值抽象为可复用变量。",
+  "aliases": [
+    "Design Token",
+    "设计令牌"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "provider",
+  "name": "provider",
+  "summaryMd": "模型或云能力的供应商。",
+  "aliases": [
+    "供应商",
+    "Provider"
+  ]
+}

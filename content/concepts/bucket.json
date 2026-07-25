@@ -1,0 +1,9 @@
+{
+  "id": "bucket",
+  "name": "bucket",
+  "summaryMd": "对象存储中的桶：存放对象的命名空间。",
+  "aliases": [
+    "存储桶",
+    "Bucket"
+  ]
+}

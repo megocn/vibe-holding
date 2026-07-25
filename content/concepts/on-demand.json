@@ -1,0 +1,9 @@
+{
+  "id": "on-demand",
+  "name": "按需实例",
+  "summaryMd": "即开即用、单价通常更高的计费形态。",
+  "aliases": [
+    "On-Demand",
+    "按需"
+  ]
+}

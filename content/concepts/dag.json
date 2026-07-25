@@ -1,0 +1,9 @@
+{
+  "id": "dag",
+  "name": "DAG",
+  "summaryMd": "有向无环图：表达任务依赖、避免循环的调度结构。",
+  "aliases": [
+    "Directed Acyclic Graph",
+    "有向无环图"
+  ]
+}

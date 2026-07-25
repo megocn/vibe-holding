@@ -1,0 +1,9 @@
+{
+  "id": "consumer-group",
+  "name": "consumer group",
+  "summaryMd": "共享消费进度的一组消费者。",
+  "aliases": [
+    "Consumer Group",
+    "消费组"
+  ]
+}

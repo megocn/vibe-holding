@@ -1,0 +1,10 @@
+{
+  "id": "cdn-purge",
+  "name": "purge",
+  "summaryMd": "主动刷新/删除 CDN 缓存，使源站更新尽快生效。",
+  "aliases": [
+    "缓存刷新",
+    "instant purge",
+    "Purge"
+  ]
+}

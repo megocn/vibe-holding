@@ -1,0 +1,9 @@
+{
+  "id": "plugin",
+  "name": "plugin",
+  "summaryMd": "可插拔扩展模块，增强宿主能力。",
+  "aliases": [
+    "插件",
+    "Plugin"
+  ]
+}

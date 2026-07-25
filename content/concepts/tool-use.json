@@ -1,0 +1,8 @@
+{
+  "id": "tool-use",
+  "name": "tool use",
+  "summaryMd": "模型按协议调用外部工具的能力（同 function calling 近义）。",
+  "aliases": [
+    "Tool Use"
+  ]
+}

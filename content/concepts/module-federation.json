@@ -1,0 +1,9 @@
+{
+  "id": "module-federation",
+  "name": "module federation",
+  "summaryMd": "运行时共享与组合多应用模块的微前端技术。",
+  "aliases": [
+    "Module Federation",
+    "模块联邦"
+  ]
+}

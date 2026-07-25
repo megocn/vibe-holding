@@ -1,0 +1,9 @@
+{
+  "id": "transcoding",
+  "name": "transcoding",
+  "summaryMd": "转码：把音视频从一种编码/封装转到另一种。",
+  "aliases": [
+    "转码",
+    "Transcoding"
+  ]
+}

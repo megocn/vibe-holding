@@ -1,0 +1,9 @@
+{
+  "id": "session-replay",
+  "name": "session replay",
+  "summaryMd": "回放用户会话操作与页面变化，便于复现问题。",
+  "aliases": [
+    "Session Replay",
+    "会话回放"
+  ]
+}

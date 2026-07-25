@@ -1,0 +1,9 @@
+{
+  "id": "guardrail-policy",
+  "name": "safety filter",
+  "summaryMd": "安全过滤：拦截有害输入/输出。",
+  "aliases": [
+    "Safety Filter",
+    "安全过滤"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "typescript-first",
+  "name": "TypeScript-first",
+  "summaryMd": "以 TypeScript 为默认语言与类型中心的技术取向。",
+  "aliases": [
+    "TS-first",
+    "TypeScript first"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "endpoint",
+  "name": "endpoint",
+  "summaryMd": "API 的一个可调用地址或路由。",
+  "aliases": [
+    "Endpoint",
+    "端点"
+  ]
+}

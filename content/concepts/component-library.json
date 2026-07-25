@@ -1,0 +1,9 @@
+{
+  "id": "component-library",
+  "name": "component library",
+  "summaryMd": "可复用 UI 组件集合，常配套文档与主题。",
+  "aliases": [
+    "组件库",
+    "Component Library"
+  ]
+}

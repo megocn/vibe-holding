@@ -1,0 +1,9 @@
+{
+  "id": "jit",
+  "name": "JIT",
+  "summaryMd": "即时编译：运行中把热点编译为本地代码。",
+  "aliases": [
+    "Just-in-Time",
+    "Just In Time"
+  ]
+}

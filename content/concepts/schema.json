@@ -1,0 +1,9 @@
+{
+  "id": "schema",
+  "name": "schema",
+  "summaryMd": "数据结构/接口的形态约定（库表、JSON、API 等）。",
+  "aliases": [
+    "Schema",
+    "模式"
+  ]
+}

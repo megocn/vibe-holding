@@ -1,0 +1,10 @@
+{
+  "id": "serving",
+  "name": "model serving",
+  "summaryMd": "把训练好的模型以在线服务形式对外推理。",
+  "aliases": [
+    "模型服务",
+    "Model Serving",
+    "serving"
+  ]
+}

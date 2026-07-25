@@ -1,0 +1,8 @@
+{
+  "id": "hooks",
+  "name": "Hooks",
+  "summaryMd": "在函数组件中复用状态与副作用逻辑的 API 模式。",
+  "aliases": [
+    "React Hooks"
+  ]
+}

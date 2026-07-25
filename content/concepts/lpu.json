@@ -1,0 +1,8 @@
+{
+  "id": "lpu",
+  "name": "LPU",
+  "summaryMd": "面向 LLM 推理优化的专用处理器品类称谓。",
+  "aliases": [
+    "Language Processing Unit"
+  ]
+}

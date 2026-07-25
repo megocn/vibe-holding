@@ -1,0 +1,8 @@
+{
+  "id": "waf-rules",
+  "name": "WAF 规则",
+  "summaryMd": "匹配并拦截可疑请求的策略集。",
+  "aliases": [
+    "WAF rules"
+  ]
+}

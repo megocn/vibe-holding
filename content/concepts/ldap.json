@@ -1,0 +1,8 @@
+{
+  "id": "ldap",
+  "name": "LDAP",
+  "summaryMd": "目录访问协议，常用于企业账号与组织架构查询。",
+  "aliases": [
+    "Lightweight Directory Access Protocol"
+  ]
+}

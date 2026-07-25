@@ -1,0 +1,9 @@
+{
+  "id": "typo-tolerant",
+  "name": "容错检索",
+  "summaryMd": "对拼写错误仍能召回相关结果。",
+  "aliases": [
+    "typo-tolerant",
+    "拼写容错"
+  ]
+}

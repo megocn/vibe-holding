@@ -3,6 +3,10 @@
   "name": "MAU",
   "summaryMd": "月活跃用户数。",
   "aliases": [
-    "Monthly Active Users"
+    "Monthly Active Users",
+    "活跃",
+    "日活",
+    "月活",
+    "DAU"
   ]
 }

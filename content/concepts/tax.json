@@ -1,0 +1,9 @@
+{
+  "id": "tax",
+  "name": "tax",
+  "summaryMd": "税费处理（销售税、增值税等）常由 MoR 代管。",
+  "aliases": [
+    "税务",
+    "Taxation"
+  ]
+}

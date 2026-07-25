@@ -1,0 +1,9 @@
+{
+  "id": "optimistic-update",
+  "name": "optimistic update",
+  "summaryMd": "先更新 UI 再等服务器确认，失败再回滚。",
+  "aliases": [
+    "Optimistic Update",
+    "乐观更新"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "aigc",
+  "name": "AIGC",
+  "summaryMd": "人工智能生成内容：文本/图/音视频等自动生成。",
+  "aliases": [
+    "AI Generated Content",
+    "生成式 AI 内容"
+  ]
+}

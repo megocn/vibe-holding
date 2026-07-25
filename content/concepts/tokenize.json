@@ -1,0 +1,8 @@
+{
+  "id": "tokenize",
+  "name": "分词",
+  "summaryMd": "把文本切成词或子词单元。",
+  "aliases": [
+    "Tokenization"
+  ]
+}

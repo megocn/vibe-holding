@@ -1,0 +1,9 @@
+{
+  "id": "local-first",
+  "name": "local-first",
+  "summaryMd": "数据优先落本地，再与云端同步的架构取向。",
+  "aliases": [
+    "Local-first",
+    "本地优先"
+  ]
+}

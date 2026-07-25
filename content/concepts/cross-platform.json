@@ -1,0 +1,9 @@
+{
+  "id": "cross-platform",
+  "name": "cross-platform",
+  "summaryMd": "一套代码覆盖多端（Web/iOS/Android/桌面等）。",
+  "aliases": [
+    "跨平台",
+    "Cross-platform"
+  ]
+}

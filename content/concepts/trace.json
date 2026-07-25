@@ -1,0 +1,9 @@
+{
+  "id": "trace",
+  "name": "trace",
+  "summaryMd": "一次请求的分布式追踪记录。",
+  "aliases": [
+    "Trace",
+    "追踪"
+  ]
+}

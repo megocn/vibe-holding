@@ -1,0 +1,9 @@
+{
+  "id": "vector",
+  "name": "vector",
+  "summaryMd": "向量：嵌入后的数值数组，用于相似度计算。",
+  "aliases": [
+    "向量",
+    "Vector"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "paging",
+  "name": "paging",
+  "summaryMd": "呼叫值班：把严重告警推到人工响应。",
+  "aliases": [
+    "Paging",
+    "呼叫"
+  ]
+}

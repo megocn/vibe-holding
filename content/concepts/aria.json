@@ -1,0 +1,9 @@
+{
+  "id": "aria",
+  "name": "ARIA",
+  "summaryMd": "无障碍富互联网应用属性，补足语义与辅助技术支持。",
+  "aliases": [
+    "WAI-ARIA",
+    "Accessible Rich Internet Applications"
+  ]
+}

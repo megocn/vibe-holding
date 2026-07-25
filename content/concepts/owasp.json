@@ -1,0 +1,8 @@
+{
+  "id": "owasp",
+  "name": "OWASP",
+  "summaryMd": "开放 Web 应用安全项目，发布常见风险清单与指南。",
+  "aliases": [
+    "Open Worldwide Application Security Project"
+  ]
+}

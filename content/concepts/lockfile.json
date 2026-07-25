@@ -1,0 +1,9 @@
+{
+  "id": "lockfile",
+  "name": "lockfile",
+  "summaryMd": "锁定依赖精确版本，保证可复现安装。",
+  "aliases": [
+    "Lockfile",
+    "锁文件"
+  ]
+}

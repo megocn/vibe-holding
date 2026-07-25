@@ -1,0 +1,9 @@
+{
+  "id": "mlops",
+  "name": "MLOps",
+  "summaryMd": "把机器学习模型的训练、部署与监控工程化。",
+  "aliases": [
+    "ML Ops",
+    "机器学习运维"
+  ]
+}

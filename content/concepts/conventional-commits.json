@@ -1,0 +1,8 @@
+{
+  "id": "conventional-commits",
+  "name": "Conventional Commits",
+  "summaryMd": "用类型前缀规范 commit message，便于生成变更日志。",
+  "aliases": [
+    "约定式提交"
+  ]
+}

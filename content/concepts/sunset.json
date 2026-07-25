@@ -1,0 +1,9 @@
+{
+  "id": "sunset",
+  "name": "日落",
+  "summaryMd": "正式停止服务或 API 的时间点。",
+  "aliases": [
+    "Sunset",
+    "下线"
+  ]
+}

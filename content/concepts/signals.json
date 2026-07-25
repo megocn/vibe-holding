@@ -1,0 +1,9 @@
+{
+  "id": "signals",
+  "name": "signals",
+  "summaryMd": "细粒度响应式原语，变更时精确更新依赖处。",
+  "aliases": [
+    "Signals",
+    "信号"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "apm",
+  "name": "APM",
+  "summaryMd": "应用性能监控：追踪请求延迟、错误与依赖健康。",
+  "aliases": [
+    "Application Performance Monitoring",
+    "应用性能监控"
+  ]
+}

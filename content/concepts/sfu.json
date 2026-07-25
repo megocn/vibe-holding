@@ -1,0 +1,8 @@
+{
+  "id": "sfu",
+  "name": "SFU",
+  "summaryMd": "选择性转发单元：多方通话中转发媒体而不混流。",
+  "aliases": [
+    "Selective Forwarding Unit"
+  ]
+}

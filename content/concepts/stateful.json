@@ -1,0 +1,9 @@
+{
+  "id": "stateful",
+  "name": "stateful",
+  "summaryMd": "有状态：依赖本地或粘滞状态。",
+  "aliases": [
+    "有状态",
+    "Stateful"
+  ]
+}

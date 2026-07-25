@@ -1,0 +1,9 @@
+{
+  "id": "speech-to-speech",
+  "name": "speech-to-speech",
+  "summaryMd": "语音直接到语音的对话链路，常省去显式文本中转。",
+  "aliases": [
+    "Speech-to-Speech",
+    "S2S"
+  ]
+}

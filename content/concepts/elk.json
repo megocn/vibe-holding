@@ -1,0 +1,8 @@
+{
+  "id": "elk",
+  "name": "ELK",
+  "summaryMd": "Elasticsearch + Logstash + Kibana 日志分析组合的俗称。",
+  "aliases": [
+    "ELK Stack"
+  ]
+}

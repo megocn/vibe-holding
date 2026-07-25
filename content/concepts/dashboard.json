@@ -1,0 +1,9 @@
+{
+  "id": "dashboard",
+  "name": "dashboard",
+  "summaryMd": "汇总指标与状态的可视化面板。",
+  "aliases": [
+    "仪表盘",
+    "Dashboard"
+  ]
+}

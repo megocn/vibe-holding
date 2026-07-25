@@ -1,0 +1,8 @@
+{
+  "id": "shuiyin",
+  "name": "水印",
+  "summaryMd": "叠在媒体上的标识，用于溯源或防盗用。",
+  "aliases": [
+    "Watermark"
+  ]
+}

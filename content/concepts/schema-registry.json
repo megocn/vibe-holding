@@ -1,0 +1,8 @@
+{
+  "id": "schema-registry",
+  "name": "schema registry",
+  "summaryMd": "集中管理 Avro/Protobuf/JSON Schema 的兼容性。",
+  "aliases": [
+    "Schema Registry"
+  ]
+}

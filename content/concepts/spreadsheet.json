@@ -1,0 +1,9 @@
+{
+  "id": "spreadsheet",
+  "name": "spreadsheet",
+  "summaryMd": "表格计算形态，常被当作轻量数据库/运营工具。",
+  "aliases": [
+    "电子表格",
+    "Spreadsheet"
+  ]
+}

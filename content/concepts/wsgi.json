@@ -1,0 +1,8 @@
+{
+  "id": "wsgi",
+  "name": "WSGI",
+  "summaryMd": "Python Web 应用与服务器之间的调用约定。",
+  "aliases": [
+    "Web Server Gateway Interface"
+  ]
+}

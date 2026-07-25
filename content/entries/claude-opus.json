@@ -1,7 +1,7 @@
 {
   "pricing": {
     "model": "usage",
-    "notes": "约 $5/M input · $25/M output（与 Opus 4.7 同价）；Fast mode 另计",
+    "notes": "约 $5/M input · $25/M output（与 Opus 4.8 同价）；Fast mode 约 2× 基价；API `claude-opus-5`",
     "currency": "USD"
   },
   "availability": {
@@ -23,10 +23,18 @@
   "pitfalls": [
     "中国大陆不可直接访问",
     "输出 token 价格较高",
-    "默认 high effort，长任务 token 消耗需留意"
+    "默认 thinking on / high effort，长任务 token 消耗需留意",
+    "xhigh/max effort 下不可关闭 thinking（相对 4.8 的 breaking change）"
   ],
-  "currentVersion": "Opus 4.8",
+  "currentVersion": "Opus 5",
   "updates": [
+    {
+      "date": "2026-07-24",
+      "type": "release",
+      "version": "Opus 5",
+      "summary": "逼近 Fable 5 能力、半价；编码/知识工作多评测 SOTA；API `claude-opus-5`；默认 1M 上下文、thinking 默认开启；Claude Max 默认模型",
+      "source": "https://www.anthropic.com/news/claude-opus-5"
+    },
     {
       "date": "2026-05-28",
       "type": "release",
@@ -44,6 +52,8 @@
   ],
   "sources": [
     "https://www.anthropic.com/claude",
+    "https://www.anthropic.com/news/claude-opus-5",
+    "https://platform.claude.com/docs/en/about-claude/models/whats-new-opus-5",
     "https://docs.anthropic.com",
     "https://arena.ai/leaderboard/text",
     "https://arena.ai/leaderboard/agent",
@@ -52,21 +62,21 @@
     "https://openrouter.ai/rankings",
     "https://www.swebench.com/"
   ],
-  "lastReviewed": "2026-07-24",
+  "lastReviewed": "2026-07-25",
   "region": "overseas",
   "id": "claude-opus",
   "name": "Claude Opus",
   "category": "llm-line",
   "vendorId": "anthropic",
-  "oneLiner": "Anthropic 旗舰档 · Opus 4.8 · 企业 Agent 默认高档",
-  "descriptionMd": "Anthropic Claude 产品族中的**旗舰企业选型档**（现 Opus 4.8）。复杂推理、长链路 Agent 与高质量编码协作；公开最强档见 Claude Fable。Arena Text 上 Opus 4.6/4.7 Thinking 仍处前三甲，Document/Search 亦强。\n\n企业复杂任务与编码 Agent 的默认高档；需当前 Anthropic 绝对顶档时升 Fable。\n\n价高；国内不可直连；长任务 token 消耗需留意。\n",
-  "officialUrl": "https://www.anthropic.com/claude",
-  "docsUrl": "https://docs.anthropic.com",
+  "oneLiner": "Anthropic 旗舰档 · Opus 5 · 近 Fable 半价 · 企业日常默认高档",
+  "descriptionMd": "Anthropic Claude 产品族中的**旗舰企业选型档**（现 Opus 5，2026-07-24）。复杂推理、长链路 Agent 与高质量编码协作；能力逼近公开顶档 Claude Fable 5，价约一半。Claude Max 默认模型、Pro 最强可用档。Arena 榜面仍多见 4.x Thinking 条目，以官方与新榜为准。\n\n企业复杂任务与编码 Agent 的默认高档；极难长任务或需绝对顶档时再升 Fable。\n\n价仍高于 Sonnet；国内不可直连；默认 thinking / high effort，长任务 token 消耗需留意。\n",
+  "officialUrl": "https://www.anthropic.com/claude/opus",
+  "docsUrl": "https://platform.claude.com/docs/en/about-claude/models/whats-new-opus-5",
   "rankings": [
     {
       "systemId": "lmarena-text",
       "period": "2026-07",
-      "note": "claude-opus-4-6-thinking（同族 Opus 最高可见档）",
+      "note": "claude-opus-4-6-thinking（Arena 尚未全面换 Opus 5；同族历史最高可见档）",
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "asOf": "2026-07-24",
       "rank": 2,
@@ -76,7 +86,7 @@
     {
       "systemId": "lmarena-agent",
       "period": "2026-07",
-      "note": "Claude Opus 4.8 (Thinking)",
+      "note": "Claude Opus 4.8 (Thinking)（待 Opus 5 上榜）",
       "sourceUrl": "https://arena.ai/leaderboard/agent",
       "asOf": "2026-07-24",
       "rank": 3,
@@ -86,7 +96,7 @@
     {
       "systemId": "lmarena-webdev",
       "period": "2026-07",
-      "note": "claude-opus-4-8-thinking",
+      "note": "claude-opus-4-8-thinking（待 Opus 5 上榜）",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "asOf": "2026-07-24",
       "rank": 5,
@@ -96,7 +106,7 @@
     {
       "systemId": "lmarena-vision",
       "period": "2026-07",
-      "note": "claude-opus-4-7-thinking",
+      "note": "claude-opus-4-7-thinking（待 Opus 5 上榜）",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "asOf": "2026-07-24",
       "rank": 2,
@@ -126,7 +136,7 @@
     {
       "systemId": "artificial-analysis-index",
       "period": "2026-07",
-      "note": "Claude Opus 4.8 (max)",
+      "note": "Claude Opus 4.8 (max)（待 Opus 5 刷新）",
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "asOf": "2026-07-24",
       "rank": 6,
@@ -136,7 +146,7 @@
     {
       "systemId": "openrouter-popularity",
       "period": "2026-07",
-      "note": "Claude Opus 4.8 · OpenRouter 周用量前列",
+      "note": "Claude Opus 4.8 · OpenRouter 周用量前列（迁移中）",
       "sourceUrl": "https://openrouter.ai/rankings",
       "asOf": "2026-07-24",
       "rank": 8,
@@ -145,7 +155,7 @@
     {
       "systemId": "swe-bench-pro",
       "period": "2026-07",
-      "note": "SWE-bench Pro（Opus 4.8 公开报道）",
+      "note": "SWE-bench Pro（Opus 4.8 公开报道；Opus 5 官方称编码多评测 SOTA）",
       "sourceUrl": "https://www.swebench.com/",
       "asOf": "2026-07-24",
       "score": 69.2,

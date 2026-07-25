@@ -1,0 +1,9 @@
+{
+  "id": "shell",
+  "name": "shell",
+  "summaryMd": "命令行外壳，用于交互执行系统命令。",
+  "aliases": [
+    "Shell",
+    "终端外壳"
+  ]
+}

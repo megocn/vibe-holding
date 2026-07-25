@@ -1,0 +1,8 @@
+{
+  "id": "scroll-api",
+  "name": "scroll",
+  "summaryMd": "深度遍历大批结果的游标式导出。",
+  "aliases": [
+    "Scroll API"
+  ]
+}

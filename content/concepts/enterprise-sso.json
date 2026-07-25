@@ -1,0 +1,9 @@
+{
+  "id": "enterprise-sso",
+  "name": "enterprise SSO",
+  "summaryMd": "企业单点登录集成（常 SAML/OIDC）。",
+  "aliases": [
+    "Enterprise SSO",
+    "企业 SSO"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "refund",
+  "name": "refund",
+  "summaryMd": "退款：把已收款退回付款方。",
+  "aliases": [
+    "退款",
+    "Refund"
+  ]
+}

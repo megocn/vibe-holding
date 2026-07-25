@@ -1,0 +1,9 @@
+{
+  "id": "sre",
+  "name": "SRE",
+  "summaryMd": "站点可靠性工程：用软件工程方法做运维与可靠性。",
+  "aliases": [
+    "Site Reliability Engineering",
+    "站点可靠性工程"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "ide-agent",
+  "name": "IDE Agent",
+  "summaryMd": "嵌入 IDE、能改多文件并跑命令的代理。",
+  "aliases": [
+    "IDE 代理"
+  ]
+}

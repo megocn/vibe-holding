@@ -1,0 +1,8 @@
+{
+  "id": "cncf",
+  "name": "CNCF",
+  "summaryMd": "云原生计算基金会，托管 Kubernetes 等项目。",
+  "aliases": [
+    "Cloud Native Computing Foundation"
+  ]
+}

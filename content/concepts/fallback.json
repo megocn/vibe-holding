@@ -1,0 +1,10 @@
+{
+  "id": "fallback",
+  "name": "fallback",
+  "summaryMd": "主路径失败时的备用方案。",
+  "aliases": [
+    "回退",
+    "Fallback",
+    "降级路径"
+  ]
+}

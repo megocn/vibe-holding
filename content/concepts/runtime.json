@@ -1,0 +1,9 @@
+{
+  "id": "runtime",
+  "name": "runtime",
+  "summaryMd": "代码实际执行的环境与能力边界。",
+  "aliases": [
+    "Runtime",
+    "运行时"
+  ]
+}

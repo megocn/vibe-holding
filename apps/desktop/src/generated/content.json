@@ -4361,13 +4361,13 @@
         "https://artificialanalysis.ai/leaderboards/models",
         "https://www.swebench.com/"
       ],
-      "descriptionMd": "Claude Fable 是 Anthropic 公开可用的**最高能力选型档**（现 Fable 5），面向最长链路 Agent、复杂编码与知识工作；价位高于 Opus。Arena Text/Agent/Vision 等多榜居首。\n\n极难长任务、研究级 Agent 或需当前 Anthropic 最强公开模型时选用；常规企业编码默认仍可 Sonnet/Opus。\n\n价高；部分安全敏感域会路由到 Opus；国内不可直连；供应/政策波动需纳入采购。\n",
-      "lastReviewed": "2026-07-24"
+      "descriptionMd": "Claude Fable 是 Anthropic 公开可用的**最高能力选型档**（现 Fable 5），面向最长链路 Agent、复杂编码与知识工作；价位约 Opus 5 的两倍。Arena Text/Agent/Vision 等多榜居首；Opus 5 在部分编码/知识工作评测已逼近甚至超过，但 Fable 仍是绝对顶档叙事。\n\n极难长任务、研究级 Agent 或需当前 Anthropic 最强公开模型时选用；常规企业编码默认仍可 Sonnet / Opus 5。\n\n价高；部分安全敏感域会路由到 Opus；国内不可直连；供应/政策波动需纳入采购。\n",
+      "lastReviewed": "2026-07-25"
     },
     {
       "pricing": {
         "model": "usage",
-        "notes": "约 $5/M input · $25/M output（与 Opus 4.7 同价）；Fast mode 另计",
+        "notes": "约 $5/M input · $25/M output（与 Opus 4.8 同价）；Fast mode 约 2× 基价；API `claude-opus-5`",
         "currency": "USD"
       },
       "availability": {
@@ -4389,10 +4389,18 @@
       "pitfalls": [
         "中国大陆不可直接访问",
         "输出 token 价格较高",
-        "默认 high effort，长任务 token 消耗需留意"
+        "默认 thinking on / high effort，长任务 token 消耗需留意",
+        "xhigh/max effort 下不可关闭 thinking（相对 4.8 的 breaking change）"
       ],
-      "currentVersion": "Opus 4.8",
+      "currentVersion": "Opus 5",
       "updates": [
+        {
+          "date": "2026-07-24",
+          "type": "release",
+          "version": "Opus 5",
+          "summary": "逼近 Fable 5 能力、半价；编码/知识工作多评测 SOTA；API `claude-opus-5`；默认 1M 上下文、thinking 默认开启；Claude Max 默认模型",
+          "source": "https://www.anthropic.com/news/claude-opus-5"
+        },
         {
           "date": "2026-05-28",
           "type": "release",
@@ -4410,6 +4418,8 @@
       ],
       "sources": [
         "https://www.anthropic.com/claude",
+        "https://www.anthropic.com/news/claude-opus-5",
+        "https://platform.claude.com/docs/en/about-claude/models/whats-new-opus-5",
         "https://docs.anthropic.com",
         "https://arena.ai/leaderboard/text",
         "https://arena.ai/leaderboard/agent",
@@ -4418,21 +4428,21 @@
         "https://openrouter.ai/rankings",
         "https://www.swebench.com/"
       ],
-      "lastReviewed": "2026-07-24",
+      "lastReviewed": "2026-07-25",
       "region": "overseas",
       "id": "claude-opus",
       "name": "Claude Opus",
       "category": "llm-line",
       "vendorId": "anthropic",
-      "oneLiner": "Anthropic 旗舰档 · Opus 4.8 · 企业 Agent 默认高档",
-      "descriptionMd": "Anthropic Claude 产品族中的**旗舰企业选型档**（现 Opus 4.8）。复杂推理、长链路 Agent 与高质量编码协作；公开最强档见 Claude Fable。Arena Text 上 Opus 4.6/4.7 Thinking 仍处前三甲，Document/Search 亦强。\n\n企业复杂任务与编码 Agent 的默认高档；需当前 Anthropic 绝对顶档时升 Fable。\n\n价高；国内不可直连；长任务 token 消耗需留意。\n",
-      "officialUrl": "https://www.anthropic.com/claude",
-      "docsUrl": "https://docs.anthropic.com",
+      "oneLiner": "Anthropic 旗舰档 · Opus 5 · 近 Fable 半价 · 企业日常默认高档",
+      "descriptionMd": "Anthropic Claude 产品族中的**旗舰企业选型档**（现 Opus 5，2026-07-24）。复杂推理、长链路 Agent 与高质量编码协作；能力逼近公开顶档 Claude Fable 5，价约一半。Claude Max 默认模型、Pro 最强可用档。Arena 榜面仍多见 4.x Thinking 条目，以官方与新榜为准。\n\n企业复杂任务与编码 Agent 的默认高档；极难长任务或需绝对顶档时再升 Fable。\n\n价仍高于 Sonnet；国内不可直连；默认 thinking / high effort，长任务 token 消耗需留意。\n",
+      "officialUrl": "https://www.anthropic.com/claude/opus",
+      "docsUrl": "https://platform.claude.com/docs/en/about-claude/models/whats-new-opus-5",
       "rankings": [
         {
           "systemId": "lmarena-text",
           "period": "2026-07",
-          "note": "claude-opus-4-6-thinking（同族 Opus 最高可见档）",
+          "note": "claude-opus-4-6-thinking（Arena 尚未全面换 Opus 5；同族历史最高可见档）",
           "sourceUrl": "https://arena.ai/leaderboard/text",
           "asOf": "2026-07-24",
           "rank": 2,
@@ -4442,7 +4452,7 @@
         {
           "systemId": "lmarena-agent",
           "period": "2026-07",
-          "note": "Claude Opus 4.8 (Thinking)",
+          "note": "Claude Opus 4.8 (Thinking)（待 Opus 5 上榜）",
           "sourceUrl": "https://arena.ai/leaderboard/agent",
           "asOf": "2026-07-24",
           "rank": 3,
@@ -4452,7 +4462,7 @@
         {
           "systemId": "lmarena-webdev",
           "period": "2026-07",
-          "note": "claude-opus-4-8-thinking",
+          "note": "claude-opus-4-8-thinking（待 Opus 5 上榜）",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "asOf": "2026-07-24",
           "rank": 5,
@@ -4462,7 +4472,7 @@
         {
           "systemId": "lmarena-vision",
           "period": "2026-07",
-          "note": "claude-opus-4-7-thinking",
+          "note": "claude-opus-4-7-thinking（待 Opus 5 上榜）",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
           "asOf": "2026-07-24",
           "rank": 2,
@@ -4492,7 +4502,7 @@
         {
           "systemId": "artificial-analysis-index",
           "period": "2026-07",
-          "note": "Claude Opus 4.8 (max)",
+          "note": "Claude Opus 4.8 (max)（待 Opus 5 刷新）",
           "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
           "asOf": "2026-07-24",
           "rank": 6,
@@ -4502,7 +4512,7 @@
         {
           "systemId": "openrouter-popularity",
           "period": "2026-07",
-          "note": "Claude Opus 4.8 · OpenRouter 周用量前列",
+          "note": "Claude Opus 4.8 · OpenRouter 周用量前列（迁移中）",
           "sourceUrl": "https://openrouter.ai/rankings",
           "asOf": "2026-07-24",
           "rank": 8,
@@ -4511,7 +4521,7 @@
         {
           "systemId": "swe-bench-pro",
           "period": "2026-07",
-          "note": "SWE-bench Pro（Opus 4.8 公开报道）",
+          "note": "SWE-bench Pro（Opus 4.8 公开报道；Opus 5 官方称编码多评测 SOTA）",
           "sourceUrl": "https://www.swebench.com/",
           "asOf": "2026-07-24",
           "score": 69.2,
@@ -4606,7 +4616,7 @@
       "subcategory": "line",
       "oneLiner": "Anthropic 平衡主力 · 现为 Sonnet 5 · 编码/Agent 性价比默认档",
       "officialUrl": "https://www.anthropic.com/claude/sonnet",
-      "descriptionMd": "Claude Sonnet 是 Anthropic Claude 家族的高性能平衡 line。当前版本为 Sonnet 5（2026-06-30），在编码、工具调用与日常工作上逼近更贵档位。\n\n日常编码 Agent、企业知识库与批量文档处理的默认选择；极难长链路任务再升 Opus 4.8。\n\n与 Opus 相比复杂开放式推理仍可能弱；敏感数据需确认 Anthropic 企业数据条款；注意 tokenizer/篇幅对账单的影响。\n",
+      "descriptionMd": "Claude Sonnet 是 Anthropic Claude 家族的高性能平衡 line。当前版本为 Sonnet 5（2026-06-30），在编码、工具调用与日常工作上逼近更贵档位。\n\n日常编码 Agent、企业知识库与批量文档处理的默认选择；极难长链路任务再升 Opus 5。\n\n与 Opus 相比复杂开放式推理仍可能弱；敏感数据需确认 Anthropic 企业数据条款；注意 tokenizer/篇幅对账单的影响。\n",
       "vendorId": "anthropic",
       "currentVersion": "Sonnet 5"
     },
@@ -40853,7 +40863,18 @@
       "summaryMd": "无障碍访问：让残障用户也能使用产品。",
       "aliases": [
         "无障碍",
-        "Accessibility"
+        "Accessibility",
+        "可达性"
+      ]
+    },
+    {
+      "id": "ab-test",
+      "name": "A/B 测试",
+      "summaryMd": "随机分流对比不同变体效果的实验方法。",
+      "aliases": [
+        "A/B",
+        "AB 测试",
+        "对照实验"
       ]
     },
     {
@@ -40869,6 +40890,15 @@
       "aliases": [
         "适配器",
         "Adapter"
+      ]
+    },
+    {
+      "id": "adr",
+      "name": "架构决策记录",
+      "summaryMd": "记下重要技术选择、背景与后果的短文（ADR）。",
+      "aliases": [
+        "ADR",
+        "架构决策"
       ]
     },
     {
@@ -40901,6 +40931,15 @@
       ]
     },
     {
+      "id": "aigc",
+      "name": "AIGC",
+      "summaryMd": "人工智能生成内容：文本/图/音视频等自动生成。",
+      "aliases": [
+        "AI Generated Content",
+        "生成式 AI 内容"
+      ]
+    },
+    {
       "id": "air-gapped",
       "name": "air-gapped",
       "summaryMd": "与公网物理或逻辑隔离的部署环境。",
@@ -40908,6 +40947,33 @@
         "air gapped",
         "气隙",
         "Air-gapped"
+      ]
+    },
+    {
+      "id": "alert",
+      "name": "告警",
+      "summaryMd": "指标越阈或规则命中时的通知。",
+      "aliases": [
+        "Alert",
+        "报警"
+      ]
+    },
+    {
+      "id": "analytics",
+      "name": "analytics",
+      "summaryMd": "行为与业务数据分析，用于理解使用与转化。",
+      "aliases": [
+        "Analytics",
+        "数据分析"
+      ]
+    },
+    {
+      "id": "aot",
+      "name": "AOT",
+      "summaryMd": "提前编译：运行前生成机器码/字节码，缩短启动。",
+      "aliases": [
+        "Ahead-of-Time",
+        "Ahead of Time"
       ]
     },
     {
@@ -40939,6 +41005,32 @@
       ]
     },
     {
+      "id": "apm",
+      "name": "APM",
+      "summaryMd": "应用性能监控：追踪请求延迟、错误与依赖健康。",
+      "aliases": [
+        "Application Performance Monitoring",
+        "应用性能监控"
+      ]
+    },
+    {
+      "id": "app-router",
+      "name": "App Router",
+      "summaryMd": "以文件系统路由组织应用页面的现代路由模型（如 Next.js）。",
+      "aliases": [
+        "app router"
+      ]
+    },
+    {
+      "id": "app-store",
+      "name": "应用商店",
+      "summaryMd": "移动应用分发与审核上架的渠道。",
+      "aliases": [
+        "App Store",
+        "应用市场"
+      ]
+    },
+    {
       "id": "archive",
       "name": "archive",
       "summaryMd": "把冷数据转到低成本存储。",
@@ -40958,6 +41050,15 @@
       ]
     },
     {
+      "id": "aria",
+      "name": "ARIA",
+      "summaryMd": "无障碍富互联网应用属性，补足语义与辅助技术支持。",
+      "aliases": [
+        "WAI-ARIA",
+        "Accessible Rich Internet Applications"
+      ]
+    },
+    {
       "id": "asr",
       "name": "ASR",
       "summaryMd": "自动语音识别：语音转文本。",
@@ -40970,6 +41071,15 @@
       ]
     },
     {
+      "id": "async",
+      "name": "async",
+      "summaryMd": "异步：不阻塞等待结果，常配合并发与事件循环。",
+      "aliases": [
+        "异步",
+        "asynchronous"
+      ]
+    },
+    {
       "id": "audit-log",
       "name": "audit log",
       "summaryMd": "记录谁在何时对何资源做了何操作，便于追责。",
@@ -40977,6 +41087,24 @@
         "审计日志",
         "audit trail",
         "Audit Log"
+      ]
+    },
+    {
+      "id": "autocomplete",
+      "name": "自动补全",
+      "summaryMd": "输入时提示候选词/结果。",
+      "aliases": [
+        "Autocomplete",
+        "补全"
+      ]
+    },
+    {
+      "id": "automation",
+      "name": "automation",
+      "summaryMd": "把重复流程脚本化或编排化，减少人工。",
+      "aliases": [
+        "自动化",
+        "Automation"
       ]
     },
     {
@@ -41001,11 +41129,37 @@
       ]
     },
     {
+      "id": "b-roll",
+      "name": "b-roll",
+      "summaryMd": "补充镜头/空镜素材，用于剪辑铺底。",
+      "aliases": [
+        "B-roll",
+        "空镜"
+      ]
+    },
+    {
+      "id": "b2b-saas",
+      "name": "B2B SaaS",
+      "summaryMd": "面向企业客户销售的订阅制软件。",
+      "aliases": [
+        "B2B SaaS"
+      ]
+    },
+    {
       "id": "b2b",
       "name": "B2B",
       "summaryMd": "企业对企业的销售与交付模式。",
       "aliases": [
         "Business-to-Business"
+      ]
+    },
+    {
+      "id": "b2c",
+      "name": "B2C",
+      "summaryMd": "直接面向消费者的业务模式。",
+      "aliases": [
+        "Business-to-Consumer",
+        "对消费者"
       ]
     },
     {
@@ -41015,6 +41169,15 @@
       "aliases": [
         "后端即服务",
         "Backend as a Service"
+      ]
+    },
+    {
+      "id": "backlink",
+      "name": "backlink",
+      "summaryMd": "其他站点指向你的链接，影响 SEO 权重。",
+      "aliases": [
+        "Backlink",
+        "外链"
       ]
     },
     {
@@ -41029,10 +41192,25 @@
       ]
     },
     {
+      "id": "banbenhao",
+      "name": "版本号",
+      "summaryMd": "标识发布迭代的编号，常遵循语义化版本。",
+      "aliases": []
+    },
+    {
       "id": "bandwidth",
       "name": "带宽",
       "summaryMd": "单位时间可传输的数据量上限。",
       "aliases": []
+    },
+    {
+      "id": "banquan",
+      "name": "版权",
+      "summaryMd": "对作品复制与传播的法律权利；素材需核对授权。",
+      "aliases": [
+        "著作权",
+        "Copyright"
+      ]
     },
     {
       "id": "base-consistency",
@@ -41063,14 +41241,21 @@
       ]
     },
     {
+      "id": "bgm",
+      "name": "BGM",
+      "summaryMd": "背景音乐，常用于视频、游戏与产品氛围。",
+      "aliases": [
+        "背景音乐",
+        "配乐"
+      ]
+    },
+    {
       "id": "billing",
       "name": "billing",
       "summaryMd": "用量计量、套餐与出账相关的商业计费能力。",
       "aliases": [
         "Billing",
-        "按量计费",
-        "计费系统",
-        "用量计费"
+        "计费系统"
       ]
     },
     {
@@ -41088,12 +41273,39 @@
       "aliases": []
     },
     {
+      "id": "bot-management",
+      "name": "bot management",
+      "summaryMd": "识别与治理恶意或过度爬虫流量。",
+      "aliases": [
+        "Bot Management",
+        "机器人防护"
+      ]
+    },
+    {
       "id": "breaking-change",
       "name": "breaking change",
       "summaryMd": "不兼容旧用法的变更，通常需升主版本。",
       "aliases": [
         "破坏性变更",
         "Breaking Change"
+      ]
+    },
+    {
+      "id": "bucket",
+      "name": "bucket",
+      "summaryMd": "对象存储中的桶：存放对象的命名空间。",
+      "aliases": [
+        "存储桶",
+        "Bucket"
+      ]
+    },
+    {
+      "id": "bundle-size",
+      "name": "bundle size",
+      "summaryMd": "前端打包产物体积，影响加载速度。",
+      "aliases": [
+        "包体积",
+        "Bundle Size"
       ]
     },
     {
@@ -41116,6 +41328,42 @@
       ]
     },
     {
+      "id": "cancellation",
+      "name": "取消",
+      "summaryMd": "上游超时后停止下游无用工作，避免浪费。",
+      "aliases": [
+        "cancellation",
+        "Cancellation"
+      ]
+    },
+    {
+      "id": "capacity",
+      "name": "容量规划",
+      "summaryMd": "预估资源以支撑预期负载。",
+      "aliases": [
+        "Capacity Planning",
+        "扩容规划"
+      ]
+    },
+    {
+      "id": "cardinality",
+      "name": "cardinality",
+      "summaryMd": "时间序列标签组合数；过高会撑爆监控系统。",
+      "aliases": [
+        "基数",
+        "Cardinality",
+        "高基数"
+      ]
+    },
+    {
+      "id": "cc0",
+      "name": "CC0",
+      "summaryMd": "公共领域捐赠许可：基本放弃版权主张，商用极宽松。",
+      "aliases": [
+        "CC0 许可"
+      ]
+    },
+    {
       "id": "cdc",
       "name": "CDC",
       "summaryMd": "变更数据捕获：持续捕获库表变更流。",
@@ -41134,6 +41382,16 @@
       ]
     },
     {
+      "id": "cdn-purge",
+      "name": "purge",
+      "summaryMd": "主动刷新/删除 CDN 缓存，使源站更新尽快生效。",
+      "aliases": [
+        "缓存刷新",
+        "instant purge",
+        "Purge"
+      ]
+    },
+    {
       "id": "cdn",
       "name": "CDN",
       "summaryMd": "把静态/缓存内容分发到边缘节点，加速访问。",
@@ -41141,6 +41399,24 @@
         "内容分发网络",
         "Content Delivery Network",
         "CDN"
+      ]
+    },
+    {
+      "id": "changelog",
+      "name": "changelog",
+      "summaryMd": "版本变更说明，记录用户可见改动。",
+      "aliases": [
+        "Changelog",
+        "变更日志"
+      ]
+    },
+    {
+      "id": "channel",
+      "name": "channel",
+      "summaryMd": "通道：消息、发布或分发的通路抽象。",
+      "aliases": [
+        "Channel",
+        "渠道"
       ]
     },
     {
@@ -41152,7 +41428,8 @@
         "China accessible",
         "国内可访问",
         "中国可访问",
-        "墙内可用"
+        "墙内可用",
+        "国内不可用"
       ]
     },
     {
@@ -41166,6 +41443,15 @@
         "continuous integration",
         "continuous delivery",
         "continuous deployment"
+      ]
+    },
+    {
+      "id": "cjk",
+      "name": "CJK",
+      "summaryMd": "中日韩文字排印相关能力与字体问题的统称。",
+      "aliases": [
+        "中日韩",
+        "CJK 字体"
       ]
     },
     {
@@ -41186,6 +41472,14 @@
       ]
     },
     {
+      "id": "cncf",
+      "name": "CNCF",
+      "summaryMd": "云原生计算基金会，托管 Kubernetes 等项目。",
+      "aliases": [
+        "Cloud Native Computing Foundation"
+      ]
+    },
+    {
       "id": "code-review",
       "name": "code review",
       "summaryMd": "同行审查变更质量、设计与风险。",
@@ -41195,12 +41489,48 @@
       ]
     },
     {
+      "id": "cohort",
+      "name": "cohort",
+      "summaryMd": "同期群：按相同特征/时间划分的用户组分析。",
+      "aliases": [
+        "同期群",
+        "Cohort"
+      ]
+    },
+    {
       "id": "cold-start",
       "name": "cold start",
       "summaryMd": "实例从零拉起的首次延迟，Serverless 常见痛点。",
       "aliases": [
         "冷启动",
         "Cold Start"
+      ]
+    },
+    {
+      "id": "commercial-license",
+      "name": "commercial license",
+      "summaryMd": "允许商业使用的授权条款，范围因套餐而异。",
+      "aliases": [
+        "商用授权",
+        "可商用"
+      ]
+    },
+    {
+      "id": "compliance",
+      "name": "compliance",
+      "summaryMd": "满足法规、行业标准或客户安全要求的状态与流程。",
+      "aliases": [
+        "合规",
+        "Compliance"
+      ]
+    },
+    {
+      "id": "component-library",
+      "name": "component library",
+      "summaryMd": "可复用 UI 组件集合，常配套文档与主题。",
+      "aliases": [
+        "组件库",
+        "Component Library"
       ]
     },
     {
@@ -41223,6 +41553,15 @@
       ]
     },
     {
+      "id": "consumer-group",
+      "name": "consumer group",
+      "summaryMd": "共享消费进度的一组消费者。",
+      "aliases": [
+        "Consumer Group",
+        "消费组"
+      ]
+    },
+    {
       "id": "container",
       "name": "container",
       "summaryMd": "轻量隔离的运行时封装，常与镜像、编排一起出现。",
@@ -41230,6 +41569,15 @@
         "Container",
         "容器运行时",
         "Linux 容器"
+      ]
+    },
+    {
+      "id": "content-credentials",
+      "name": "Content Credentials",
+      "summaryMd": "内容凭证：标注素材来源/生成信息的溯源标准（C2PA 相关）。",
+      "aliases": [
+        "内容凭证",
+        "C2PA"
       ]
     },
     {
@@ -41252,11 +41600,37 @@
       ]
     },
     {
+      "id": "conventional-commits",
+      "name": "Conventional Commits",
+      "summaryMd": "用类型前缀规范 commit message，便于生成变更日志。",
+      "aliases": [
+        "约定式提交"
+      ]
+    },
+    {
+      "id": "conversational-ai",
+      "name": "conversational AI",
+      "summaryMd": "面向多轮对话的语音/文本智能交互系统。",
+      "aliases": [
+        "Conversational AI",
+        "对话式 AI"
+      ]
+    },
+    {
       "id": "cookie",
       "name": "cookie",
       "summaryMd": "浏览器存储并由请求自动携带的小段数据。",
       "aliases": [
         "Cookie"
+      ]
+    },
+    {
+      "id": "copilot",
+      "name": "Copilot",
+      "summaryMd": "结对辅助编程的 AI 助手品类称谓。",
+      "aliases": [
+        "AI Copilot",
+        "编程助手"
       ]
     },
     {
@@ -41266,6 +41640,15 @@
       "aliases": [
         "核心网页指标",
         "CWV"
+      ]
+    },
+    {
+      "id": "counter",
+      "name": "counter",
+      "summaryMd": "只增计数器指标。",
+      "aliases": [
+        "Counter",
+        "计数器"
       ]
     },
     {
@@ -41302,6 +41685,15 @@
       ]
     },
     {
+      "id": "cross-platform",
+      "name": "cross-platform",
+      "summaryMd": "一套代码覆盖多端（Web/iOS/Android/桌面等）。",
+      "aliases": [
+        "跨平台",
+        "Cross-platform"
+      ]
+    },
+    {
       "id": "crud",
       "name": "CRUD",
       "summaryMd": "创建、读、更新、删除四类基本数据操作。",
@@ -41315,6 +41707,49 @@
       "summaryMd": "跨站请求伪造：借用户已登录态发起非本意请求。",
       "aliases": [
         "Cross-Site Request Forgery"
+      ]
+    },
+    {
+      "id": "css-in-js",
+      "name": "CSS-in-JS",
+      "summaryMd": "在 JS 中编写样式的方案（运行时或编译时）。",
+      "aliases": [
+        "css-in-js"
+      ]
+    },
+    {
+      "id": "cve",
+      "name": "CVE",
+      "summaryMd": "公开漏洞编号，用于标识与追踪安全缺陷。",
+      "aliases": [
+        "Common Vulnerabilities and Exposures"
+      ]
+    },
+    {
+      "id": "dag",
+      "name": "DAG",
+      "summaryMd": "有向无环图：表达任务依赖、避免循环的调度结构。",
+      "aliases": [
+        "Directed Acyclic Graph",
+        "有向无环图"
+      ]
+    },
+    {
+      "id": "dark-mode",
+      "name": "dark mode",
+      "summaryMd": "深色界面主题，降低眩光并适配系统外观。",
+      "aliases": [
+        "Dark Mode",
+        "深色模式"
+      ]
+    },
+    {
+      "id": "dashboard",
+      "name": "dashboard",
+      "summaryMd": "汇总指标与状态的可视化面板。",
+      "aliases": [
+        "仪表盘",
+        "Dashboard"
       ]
     },
     {
@@ -41334,6 +41769,15 @@
         "数据驻留",
         "data localization",
         "数据本地化"
+      ]
+    },
+    {
+      "id": "ddos",
+      "name": "DDoS",
+      "summaryMd": "分布式拒绝服务：用海量流量打垮服务可用性。",
+      "aliases": [
+        "分布式拒绝服务",
+        "DDoS 防护"
       ]
     },
     {
@@ -41361,6 +41805,42 @@
       ]
     },
     {
+      "id": "design-system",
+      "name": "design system",
+      "summaryMd": "设计系统：色板、字体、组件与规范的统一体系。",
+      "aliases": [
+        "设计系统",
+        "Design System"
+      ]
+    },
+    {
+      "id": "design-token",
+      "name": "design token",
+      "summaryMd": "把颜色/间距/字体等设计值抽象为可复用变量。",
+      "aliases": [
+        "Design Token",
+        "设计令牌"
+      ]
+    },
+    {
+      "id": "deterministic",
+      "name": "deterministic",
+      "summaryMd": "相同输入得到相同输出的可复现设置。",
+      "aliases": [
+        "可复现",
+        "Deterministic"
+      ]
+    },
+    {
+      "id": "devtools",
+      "name": "devtools",
+      "summaryMd": "提升研发效率的内部开发者工具平台。",
+      "aliases": [
+        "DevTools",
+        "开发者工具平台"
+      ]
+    },
+    {
       "id": "diffusion",
       "name": "Diffusion",
       "summaryMd": "以逐步去噪为核心的生成范式，广泛用于图像与视频模型。",
@@ -41368,6 +41848,24 @@
         "diffusion",
         "扩散模型",
         "Diffusion Model"
+      ]
+    },
+    {
+      "id": "digital-human",
+      "name": "数字人",
+      "summaryMd": "用 AI 驱动的虚拟形象口播或互动。",
+      "aliases": [
+        "AI 数字人",
+        "数字人口播"
+      ]
+    },
+    {
+      "id": "dispute",
+      "name": "dispute",
+      "summaryMd": "交易争议处理流程。",
+      "aliases": [
+        "争议",
+        "Dispute"
       ]
     },
     {
@@ -41379,12 +41877,55 @@
       ]
     },
     {
+      "id": "dnssec",
+      "name": "DNSSEC",
+      "summaryMd": "给 DNS 记录加签名，防篡改与污染。",
+      "aliases": [
+        "DNS Security Extensions"
+      ]
+    },
+    {
       "id": "document-store",
       "name": "document store",
       "summaryMd": "以 JSON 类文档为单元的数据库。",
       "aliases": [
         "文档库",
         "Document Store"
+      ]
+    },
+    {
+      "id": "downtime",
+      "name": "downtime",
+      "summaryMd": "不可用时段。",
+      "aliases": [
+        "停机",
+        "Downtime"
+      ]
+    },
+    {
+      "id": "drag-drop",
+      "name": "drag-and-drop",
+      "summaryMd": "拖拽交互，降低操作门槛。",
+      "aliases": [
+        "drag-drop",
+        "拖拽",
+        "Drag and Drop"
+      ]
+    },
+    {
+      "id": "duimianfu",
+      "name": "当面付",
+      "summaryMd": "线下扫码或近场完成的收款方式。",
+      "aliases": [
+        "当面付收款"
+      ]
+    },
+    {
+      "id": "duoweibiao",
+      "name": "多维表",
+      "summaryMd": "类似表格+数据库的结构化协作表（如飞书多维表）。",
+      "aliases": [
+        "多维表格"
       ]
     },
     {
@@ -41446,6 +41987,32 @@
       ]
     },
     {
+      "id": "egress",
+      "name": "egress",
+      "summaryMd": "出站流量：从系统访问外部网络的数据与费用。",
+      "aliases": [
+        "出站流量",
+        "Egress"
+      ]
+    },
+    {
+      "id": "elk",
+      "name": "ELK",
+      "summaryMd": "Elasticsearch + Logstash + Kibana 日志分析组合的俗称。",
+      "aliases": [
+        "ELK Stack"
+      ]
+    },
+    {
+      "id": "embedding-model",
+      "name": "embedding model",
+      "summaryMd": "专门产出向量嵌入的模型。",
+      "aliases": [
+        "Embedding Model",
+        "嵌入模型"
+      ]
+    },
+    {
       "id": "embedding",
       "name": "embedding",
       "summaryMd": "把文本/图像等映射为稠密向量以便检索与聚类。",
@@ -41453,6 +42020,42 @@
         "Embedding",
         "向量嵌入",
         "文本嵌入"
+      ]
+    },
+    {
+      "id": "empty-state",
+      "name": "empty state",
+      "summaryMd": "无数据时的占位界面，引导下一步行动。",
+      "aliases": [
+        "空状态",
+        "Empty State"
+      ]
+    },
+    {
+      "id": "endpoint",
+      "name": "endpoint",
+      "summaryMd": "API 的一个可调用地址或路由。",
+      "aliases": [
+        "Endpoint",
+        "端点"
+      ]
+    },
+    {
+      "id": "enterprise-sso",
+      "name": "enterprise SSO",
+      "summaryMd": "企业单点登录集成（常 SAML/OIDC）。",
+      "aliases": [
+        "Enterprise SSO",
+        "企业 SSO"
+      ]
+    },
+    {
+      "id": "escalation",
+      "name": "escalation",
+      "summaryMd": "告警升级：超时未响应则扩大通知范围。",
+      "aliases": [
+        "升级策略",
+        "Escalation"
       ]
     },
     {
@@ -41513,6 +42116,24 @@
       ]
     },
     {
+      "id": "fallback",
+      "name": "fallback",
+      "summaryMd": "主路径失败时的备用方案。",
+      "aliases": [
+        "回退",
+        "Fallback",
+        "降级路径"
+      ]
+    },
+    {
+      "id": "faq",
+      "name": "FAQ",
+      "summaryMd": "常见问题解答区块。",
+      "aliases": [
+        "常见问题"
+      ]
+    },
+    {
       "id": "feature-flag",
       "name": "feature flag",
       "summaryMd": "运行时开关特性，用于灰度与快速关闭。",
@@ -41522,7 +42143,42 @@
         "feature toggle",
         "Feature Flag",
         "特性标志",
-        "灰度"
+        "功能开关",
+        "功能门控"
+      ]
+    },
+    {
+      "id": "federation",
+      "name": "federation",
+      "summaryMd": "联邦：跨系统共享身份或组合 GraphQL/数据图。",
+      "aliases": [
+        "联邦登录",
+        "Federation"
+      ]
+    },
+    {
+      "id": "fenfa",
+      "name": "分发",
+      "summaryMd": "把应用或内容投放到各渠道触达用户。",
+      "aliases": [
+        "应用分发"
+      ]
+    },
+    {
+      "id": "fengkong",
+      "name": "风控",
+      "summaryMd": "识别与拦截欺诈、违规与资金风险。",
+      "aliases": [
+        "风险控制",
+        "Risk Control"
+      ]
+    },
+    {
+      "id": "fenzhang",
+      "name": "分账",
+      "summaryMd": "一笔支付按规则拆给多方收款人。",
+      "aliases": [
+        "分账能力"
       ]
     },
     {
@@ -41555,13 +42211,22 @@
       ]
     },
     {
+      "id": "full-release",
+      "name": "全量发布",
+      "summaryMd": "向全部用户放开新版本。",
+      "aliases": [
+        "全量"
+      ]
+    },
+    {
       "id": "full-text-search",
       "name": "full-text search",
       "summaryMd": "对文本建倒排索引以支持关键词检索。",
       "aliases": [
         "全文检索",
         "full text search",
-        "Full-Text Search"
+        "Full-Text Search",
+        "全文搜索"
       ]
     },
     {
@@ -41587,6 +42252,33 @@
       ]
     },
     {
+      "id": "funnel",
+      "name": "漏斗",
+      "summaryMd": "多步转化路径的逐步流失分析。",
+      "aliases": [
+        "转化漏斗",
+        "Funnel"
+      ]
+    },
+    {
+      "id": "fuse",
+      "name": "FUSE",
+      "summaryMd": "用户态文件系统接口，用普通进程实现虚拟盘。",
+      "aliases": [
+        "Filesystem in Userspace"
+      ]
+    },
+    {
+      "id": "fx",
+      "name": "FX",
+      "summaryMd": "外汇兑换与汇率，影响跨境收款到账。",
+      "aliases": [
+        "汇率",
+        "外汇",
+        "Foreign Exchange"
+      ]
+    },
+    {
       "id": "ga",
       "name": "GA",
       "summaryMd": "General Availability：正式商用可用。",
@@ -41602,6 +42294,14 @@
       "summaryMd": "欧盟通用数据保护条例，约束个人数据处理。",
       "aliases": [
         "General Data Protection Regulation"
+      ]
+    },
+    {
+      "id": "gguf",
+      "name": "GGUF",
+      "summaryMd": "本地推理常用的量化模型文件格式。",
+      "aliases": [
+        "GGUF 格式"
       ]
     },
     {
@@ -41646,6 +42346,15 @@
       "aliases": []
     },
     {
+      "id": "gray-release",
+      "name": "灰度发布",
+      "summaryMd": "按比例或名单逐步放量新版本。",
+      "aliases": [
+        "灰度",
+        "灰度放量"
+      ]
+    },
+    {
       "id": "greenfield",
       "name": "greenfield",
       "summaryMd": "从零新建、无历史包袱的项目。",
@@ -41661,6 +42370,15 @@
       "aliases": [
         "接地",
         "Grounding"
+      ]
+    },
+    {
+      "id": "guardrail-policy",
+      "name": "safety filter",
+      "summaryMd": "安全过滤：拦截有害输入/输出。",
+      "aliases": [
+        "Safety Filter",
+        "安全过滤"
       ]
     },
     {
@@ -41713,6 +42431,16 @@
       ]
     },
     {
+      "id": "hero-section",
+      "name": "Hero",
+      "summaryMd": "页面首屏主视觉与主文案区域。",
+      "aliases": [
+        "Hero 区",
+        "英雄区",
+        "首屏"
+      ]
+    },
+    {
       "id": "hipaa",
       "name": "HIPAA",
       "summaryMd": "美国医疗健康信息隐私与安全合规框架。",
@@ -41731,6 +42459,14 @@
       ]
     },
     {
+      "id": "hooks",
+      "name": "Hooks",
+      "summaryMd": "在函数组件中复用状态与副作用逻辑的 API 模式。",
+      "aliases": [
+        "React Hooks"
+      ]
+    },
+    {
       "id": "hot-cold",
       "name": "冷热分离",
       "summaryMd": "按访问频率把数据分层存储。",
@@ -41745,6 +42481,14 @@
       "aliases": [
         "热点",
         "Hotspot"
+      ]
+    },
+    {
+      "id": "htap",
+      "name": "HTAP",
+      "summaryMd": "同时支撑事务与分析负载的混合架构。",
+      "aliases": [
+        "Hybrid Transactional/Analytical Processing"
       ]
     },
     {
@@ -41803,12 +42547,29 @@
       ]
     },
     {
+      "id": "icon-set",
+      "name": "icon set",
+      "summaryMd": "风格统一的图标集合，常含多尺寸与变体。",
+      "aliases": [
+        "图标集",
+        "Icon Set"
+      ]
+    },
+    {
       "id": "icp",
       "name": "ICP 备案",
       "summaryMd": "中国大陆网站上线前的备案合规要求。",
       "aliases": [
         "ICP",
         "备案"
+      ]
+    },
+    {
+      "id": "ide-agent",
+      "name": "IDE Agent",
+      "summaryMd": "嵌入 IDE、能改多文件并跑命令的代理。",
+      "aliases": [
+        "IDE 代理"
       ]
     },
     {
@@ -41831,11 +42592,29 @@
       ]
     },
     {
+      "id": "idle",
+      "name": "闲置",
+      "summaryMd": "资源未被使用却仍计费的状态。",
+      "aliases": [
+        "Idle",
+        "空闲资源"
+      ]
+    },
+    {
       "id": "idp",
       "name": "IdP",
       "summaryMd": "身份提供方：负责认证并签发断言/令牌。",
       "aliases": [
         "Identity Provider"
+      ]
+    },
+    {
+      "id": "im",
+      "name": "IM",
+      "summaryMd": "即时通讯：实时消息与会话能力。",
+      "aliases": [
+        "即时通讯",
+        "Instant Messaging"
       ]
     },
     {
@@ -41871,6 +42650,24 @@
       ]
     },
     {
+      "id": "in-app-purchase",
+      "name": "IAP",
+      "summaryMd": "应用内购买：在 App 内买数字商品/订阅。",
+      "aliases": [
+        "In-App Purchase",
+        "应用内购买"
+      ]
+    },
+    {
+      "id": "indie-hacker",
+      "name": "indie hacker",
+      "summaryMd": "独立开发者用产品自我造血的路径。",
+      "aliases": [
+        "Indie Hacker",
+        "独立开发者"
+      ]
+    },
+    {
       "id": "indie",
       "name": "indie",
       "summaryMd": "独立开发者/小团队产品取向。",
@@ -41891,6 +42688,14 @@
       ]
     },
     {
+      "id": "ingest-pipeline",
+      "name": "ingest pipeline",
+      "summaryMd": "写入前的数据处理管道。",
+      "aliases": [
+        "Ingest Pipeline"
+      ]
+    },
+    {
       "id": "invoice-cn",
       "name": "发票",
       "summaryMd": "中国税务场景下的开票需求（专票/普票）。",
@@ -41900,11 +42705,37 @@
       ]
     },
     {
+      "id": "invoice",
+      "name": "invoice",
+      "summaryMd": "账单/发票凭证，用于财务与报销。",
+      "aliases": [
+        "账单",
+        "Invoice"
+      ]
+    },
+    {
       "id": "jamstack",
       "name": "JAMstack",
       "summaryMd": "预渲染 + CDN + API/无服务器的架构取向。",
       "aliases": [
         "Jamstack"
+      ]
+    },
+    {
+      "id": "jiehui",
+      "name": "结汇",
+      "summaryMd": "把外币结算兑换为本币（如人民币）的环节。",
+      "aliases": [
+        "结汇体验"
+      ]
+    },
+    {
+      "id": "jit",
+      "name": "JIT",
+      "summaryMd": "即时编译：运行中把热点编译为本地代码。",
+      "aliases": [
+        "Just-in-Time",
+        "Just In Time"
       ]
     },
     {
@@ -41941,6 +42772,22 @@
       ]
     },
     {
+      "id": "kaihu",
+      "name": "开户",
+      "summaryMd": "开通收款/支付等业务账户与资质审核。",
+      "aliases": [
+        "开户审核"
+      ]
+    },
+    {
+      "id": "koubo",
+      "name": "口播",
+      "summaryMd": "出镜或数字人面向镜头的讲解式讲述。",
+      "aliases": [
+        "口播视频"
+      ]
+    },
+    {
       "id": "kv-store",
       "name": "key-value",
       "summaryMd": "以键取值的简单高速存储模型。",
@@ -41951,12 +42798,30 @@
       ]
     },
     {
+      "id": "kyc",
+      "name": "KYC",
+      "summaryMd": "了解你的客户：开户/收款前的身份核验流程。",
+      "aliases": [
+        "Know Your Customer",
+        "实名核验"
+      ]
+    },
+    {
       "id": "l10n",
       "name": "l10n",
       "summaryMd": "本地化：针对特定地区的文案与格式。",
       "aliases": [
         "本地化",
         "Localization"
+      ]
+    },
+    {
+      "id": "landing-page",
+      "name": "landing page",
+      "summaryMd": "为转化目标设计的落地页。",
+      "aliases": [
+        "落地页",
+        "Landing Page"
       ]
     },
     {
@@ -41988,6 +42853,14 @@
       ]
     },
     {
+      "id": "ldap",
+      "name": "LDAP",
+      "summaryMd": "目录访问协议，常用于企业账号与组织架构查询。",
+      "aliases": [
+        "Lightweight Directory Access Protocol"
+      ]
+    },
+    {
       "id": "least-privilege",
       "name": "least privilege",
       "summaryMd": "只授予完成任务所需的最小权限。",
@@ -41997,12 +42870,58 @@
       ]
     },
     {
+      "id": "license",
+      "name": "license",
+      "summaryMd": "使用、修改与分发软件的法律许可条款。",
+      "aliases": [
+        "License",
+        "开源许可",
+        "软件许可"
+      ]
+    },
+    {
+      "id": "liucun",
+      "name": "留存",
+      "summaryMd": "用户在一段时间后仍回访/付费的比例。",
+      "aliases": [
+        "留存率",
+        "Retention"
+      ]
+    },
+    {
       "id": "load-balancer",
       "name": "load balancer",
       "summaryMd": "把流量分摊到多实例，并可做健康检查。",
       "aliases": [
         "负载均衡",
         "Load Balancer"
+      ]
+    },
+    {
+      "id": "local-first",
+      "name": "local-first",
+      "summaryMd": "数据优先落本地，再与云端同步的架构取向。",
+      "aliases": [
+        "Local-first",
+        "本地优先"
+      ]
+    },
+    {
+      "id": "locale",
+      "name": "locale",
+      "summaryMd": "语言地区设置，影响文案、日期、数字与货币格式。",
+      "aliases": [
+        "Locale",
+        "语言区域"
+      ]
+    },
+    {
+      "id": "lockfile",
+      "name": "lockfile",
+      "summaryMd": "锁定依赖精确版本，保证可复现安装。",
+      "aliases": [
+        "Lockfile",
+        "锁文件"
       ]
     },
     {
@@ -42043,12 +42962,29 @@
       ]
     },
     {
+      "id": "lpu",
+      "name": "LPU",
+      "summaryMd": "面向 LLM 推理优化的专用处理器品类称谓。",
+      "aliases": [
+        "Language Processing Unit"
+      ]
+    },
+    {
       "id": "lts",
       "name": "LTS",
       "summaryMd": "长期支持版本，适合生产依赖。",
       "aliases": [
         "长期支持",
         "Long-Term Support"
+      ]
+    },
+    {
+      "id": "maintenance-window",
+      "name": "维护窗口",
+      "summaryMd": "计划内变更的时间段。",
+      "aliases": [
+        "Maintenance Window",
+        "变更窗口"
       ]
     },
     {
@@ -42059,6 +42995,24 @@
         "Managed Service",
         "托管服务",
         "全托管"
+      ]
+    },
+    {
+      "id": "manifest",
+      "name": "manifest",
+      "summaryMd": "描述应用/扩展/构建的元数据清单文件。",
+      "aliases": [
+        "Manifest",
+        "清单文件"
+      ]
+    },
+    {
+      "id": "marketplace",
+      "name": "marketplace",
+      "summaryMd": "第三方扩展/模板的分发与交易市场。",
+      "aliases": [
+        "扩展市场",
+        "Marketplace"
       ]
     },
     {
@@ -42074,7 +43028,11 @@
       "name": "MAU",
       "summaryMd": "月活跃用户数。",
       "aliases": [
-        "Monthly Active Users"
+        "Monthly Active Users",
+        "活跃",
+        "日活",
+        "月活",
+        "DAU"
       ]
     },
     {
@@ -42145,6 +43103,24 @@
       ]
     },
     {
+      "id": "middleware",
+      "name": "middleware",
+      "summaryMd": "请求处理链中的中间层（鉴权、日志、改写等）。",
+      "aliases": [
+        "中间件",
+        "Middleware"
+      ]
+    },
+    {
+      "id": "mlops",
+      "name": "MLOps",
+      "summaryMd": "把机器学习模型的训练、部署与监控工程化。",
+      "aliases": [
+        "ML Ops",
+        "机器学习运维"
+      ]
+    },
+    {
       "id": "moderation",
       "name": "moderation",
       "summaryMd": "对有害、违规内容做自动或人工审核。",
@@ -42152,6 +43128,15 @@
         "内容审核",
         "Content Moderation",
         "内容安全"
+      ]
+    },
+    {
+      "id": "module-federation",
+      "name": "module federation",
+      "summaryMd": "运行时共享与组合多应用模块的微前端技术。",
+      "aliases": [
+        "Module Federation",
+        "模块联邦"
       ]
     },
     {
@@ -42235,7 +43220,8 @@
       "name": "MVP",
       "summaryMd": "最小可行产品：用最小集合验证价值。",
       "aliases": [
-        "Minimum Viable Product"
+        "Minimum Viable Product",
+        "最小可行产品"
       ]
     },
     {
@@ -42319,6 +43305,15 @@
       ]
     },
     {
+      "id": "on-demand",
+      "name": "按需实例",
+      "summaryMd": "即开即用、单价通常更高的计费形态。",
+      "aliases": [
+        "On-Demand",
+        "按需"
+      ]
+    },
+    {
       "id": "on-prem",
       "name": "on-prem",
       "summaryMd": "部署在自有机房/内网，而非公有云托管。",
@@ -42328,6 +43323,15 @@
         "私有化部署",
         "本地化部署",
         "On-prem"
+      ]
+    },
+    {
+      "id": "onboarding",
+      "name": "onboarding",
+      "summaryMd": "新用户首次引导流程，帮助理解产品价值。",
+      "aliases": [
+        "Onboarding",
+        "新手引导"
       ]
     },
     {
@@ -42348,6 +43352,15 @@
       "aliases": [
         "Swagger",
         "OpenAPI Spec"
+      ]
+    },
+    {
+      "id": "optimistic-update",
+      "name": "optimistic update",
+      "summaryMd": "先更新 UI 再等服务器确认，失败再回滚。",
+      "aliases": [
+        "Optimistic Update",
+        "乐观更新"
       ]
     },
     {
@@ -42378,11 +43391,12 @@
       ]
     },
     {
-      "id": "origin",
-      "name": "源站",
-      "summaryMd": "CDN 回源时的原始内容服务器。",
+      "id": "origin-pull",
+      "name": "回源",
+      "summaryMd": "CDN 未命中时向源站拉取内容。",
       "aliases": [
-        "回源"
+        "回源拉取",
+        "源站"
       ]
     },
     {
@@ -42404,12 +43418,56 @@
       ]
     },
     {
+      "id": "otp",
+      "name": "OTP",
+      "summaryMd": "一次性密码，常用于双因素认证。",
+      "aliases": [
+        "One-Time Password",
+        "一次性密码"
+      ]
+    },
+    {
+      "id": "output-tokens",
+      "name": "输出 token",
+      "summaryMd": "模型生成侧消耗的 token。",
+      "aliases": [
+        "output tokens",
+        "Output Tokens",
+        "输出 Token"
+      ]
+    },
+    {
+      "id": "owasp",
+      "name": "OWASP",
+      "summaryMd": "开放 Web 应用安全项目，发布常见风险清单与指南。",
+      "aliases": [
+        "Open Worldwide Application Security Project"
+      ]
+    },
+    {
       "id": "paas",
       "name": "PaaS",
       "summaryMd": "平台即服务：托管运行时与运维，专注应用代码。",
       "aliases": [
         "平台即服务",
         "Platform as a Service"
+      ]
+    },
+    {
+      "id": "paged-attention",
+      "name": "PagedAttention",
+      "summaryMd": "把 KV cache 分页管理以提升并发推理。",
+      "aliases": [
+        "Paged Attention"
+      ]
+    },
+    {
+      "id": "paging",
+      "name": "paging",
+      "summaryMd": "呼叫值班：把严重告警推到人工响应。",
+      "aliases": [
+        "Paging",
+        "呼叫"
       ]
     },
     {
@@ -42433,12 +43491,64 @@
       ]
     },
     {
+      "id": "patch",
+      "name": "补丁",
+      "summaryMd": "小范围修复更新。",
+      "aliases": [
+        "Patch"
+      ]
+    },
+    {
+      "id": "payout",
+      "name": "payout",
+      "summaryMd": "平台向卖家/创作者结算打款。",
+      "aliases": [
+        "结算打款",
+        "Payout"
+      ]
+    },
+    {
+      "id": "pci",
+      "name": "PCI",
+      "summaryMd": "支付卡行业合规语境；正式标准常称 PCI DSS。",
+      "aliases": [
+        "PCI DSS",
+        "支付卡合规"
+      ]
+    },
+    {
       "id": "pii",
       "name": "PII",
       "summaryMd": "个人身份信息，处理与存储常受合规约束。",
       "aliases": [
         "个人身份信息",
         "Personally Identifiable Information"
+      ]
+    },
+    {
+      "id": "platform-engineering",
+      "name": "platform engineering",
+      "summaryMd": "平台工程：为内部团队提供自助黄金路径。",
+      "aliases": [
+        "Platform Engineering",
+        "平台工程"
+      ]
+    },
+    {
+      "id": "plg",
+      "name": "PLG",
+      "summaryMd": "产品驱动增长：靠产品体验自助获客与扩张。",
+      "aliases": [
+        "Product-Led Growth"
+      ]
+    },
+    {
+      "id": "plugin",
+      "name": "plugin",
+      "summaryMd": "可插拔扩展模块，增强宿主能力。",
+      "aliases": [
+        "插件",
+        "Plugin"
       ]
     },
     {
@@ -42509,6 +43619,15 @@
       ]
     },
     {
+      "id": "provider",
+      "name": "provider",
+      "summaryMd": "模型或云能力的供应商。",
+      "aliases": [
+        "供应商",
+        "Provider"
+      ]
+    },
+    {
       "id": "public-cloud",
       "name": "公有云",
       "summaryMd": "多租户共享的云服务平台。",
@@ -42543,6 +43662,14 @@
         "Progressive Web App",
         "PWA",
         "渐进式 Web 应用"
+      ]
+    },
+    {
+      "id": "qianye",
+      "name": "签约",
+      "summaryMd": "与支付/云厂商签订产品合同以开通能力。",
+      "aliases": [
+        "商家签约"
       ]
     },
     {
@@ -42603,6 +43730,15 @@
       ]
     },
     {
+      "id": "rank-tracking",
+      "name": "rank tracking",
+      "summaryMd": "追踪关键词在搜索引擎的排名变化。",
+      "aliases": [
+        "Rank Tracking",
+        "排名追踪"
+      ]
+    },
+    {
       "id": "rate-limit",
       "name": "rate limit",
       "summaryMd": "限制单位时间请求量，保护下游与自身。",
@@ -42651,6 +43787,15 @@
       ]
     },
     {
+      "id": "reconciliation",
+      "name": "reconciliation",
+      "summaryMd": "对账：核对流水与订单，发现差异。",
+      "aliases": [
+        "对账",
+        "Reconciliation"
+      ]
+    },
+    {
       "id": "redis-cache",
       "name": "in-memory",
       "summaryMd": "内存中的数据结构存储，极低延迟。",
@@ -42660,12 +43805,40 @@
       ]
     },
     {
+      "id": "refund",
+      "name": "refund",
+      "summaryMd": "退款：把已收款退回付款方。",
+      "aliases": [
+        "退款",
+        "Refund"
+      ]
+    },
+    {
+      "id": "region-cn",
+      "name": "地域",
+      "summaryMd": "云资源部署的地理区域，影响延迟与合规。",
+      "aliases": [
+        "Region",
+        "region"
+      ]
+    },
+    {
       "id": "remote-cache",
       "name": "remote cache",
       "summaryMd": "共享构建/任务缓存以加速 CI 与本地。",
       "aliases": [
         "远程缓存",
-        "Remote Cache"
+        "Remote Cache",
+        "remote caching",
+        "Remote Caching"
+      ]
+    },
+    {
+      "id": "renminbi",
+      "name": "人民币结算",
+      "summaryMd": "以人民币计价与结算，降低汇兑摩擦。",
+      "aliases": [
+        "人民币收款"
       ]
     },
     {
@@ -42677,6 +43850,14 @@
         "reranker",
         "Rerank",
         "精排"
+      ]
+    },
+    {
+      "id": "reserved-capacity",
+      "name": "预留容量",
+      "summaryMd": "承诺用量换折扣的容量购买。",
+      "aliases": [
+        "Reserved Capacity"
       ]
     },
     {
@@ -42725,6 +43906,15 @@
       ]
     },
     {
+      "id": "rollback",
+      "name": "回滚",
+      "summaryMd": "把系统恢复到上一稳定版本。",
+      "aliases": [
+        "Rollback",
+        "回退版本"
+      ]
+    },
+    {
       "id": "rolling-update",
       "name": "rolling update",
       "summaryMd": "逐批替换实例完成升级，保持服务不中断。",
@@ -42752,13 +43942,51 @@
       ]
     },
     {
+      "id": "ruanzhu",
+      "name": "软著",
+      "summaryMd": "计算机软件著作权登记，国内应用市场上架常见材料。",
+      "aliases": [
+        "软件著作权",
+        "软著登记"
+      ]
+    },
+    {
+      "id": "rules",
+      "name": "rules",
+      "summaryMd": "给 Agent/IDE 的项目级约束与偏好说明。",
+      "aliases": [
+        "项目规则",
+        "Custom Rules",
+        "Agent Rules"
+      ]
+    },
+    {
+      "id": "rum",
+      "name": "RUM",
+      "summaryMd": "真实用户监控：从真实浏览器/端采集性能与错误。",
+      "aliases": [
+        "Real User Monitoring",
+        "真实用户监控"
+      ]
+    },
+    {
       "id": "runbook",
       "name": "runbook",
       "summaryMd": "事故处理步骤手册，降低临场决策成本。",
       "aliases": [
         "运行手册",
         "Runbook",
-        "预案"
+        "预案",
+        "应急预案"
+      ]
+    },
+    {
+      "id": "runtime",
+      "name": "runtime",
+      "summaryMd": "代码实际执行的环境与能力边界。",
+      "aliases": [
+        "Runtime",
+        "运行时"
       ]
     },
     {
@@ -42787,6 +44015,15 @@
       ]
     },
     {
+      "id": "sandbox",
+      "name": "sandbox",
+      "summaryMd": "隔离执行环境，限制权限与副作用。",
+      "aliases": [
+        "沙箱",
+        "Sandbox"
+      ]
+    },
+    {
       "id": "sbom",
       "name": "SBOM",
       "summaryMd": "软件物料清单：列出组件与版本以便审计。",
@@ -42796,11 +44033,36 @@
       ]
     },
     {
+      "id": "schema-registry",
+      "name": "schema registry",
+      "summaryMd": "集中管理 Avro/Protobuf/JSON Schema 的兼容性。",
+      "aliases": [
+        "Schema Registry"
+      ]
+    },
+    {
+      "id": "schema",
+      "name": "schema",
+      "summaryMd": "数据结构/接口的形态约定（库表、JSON、API 等）。",
+      "aliases": [
+        "Schema",
+        "模式"
+      ]
+    },
+    {
       "id": "scim",
       "name": "SCIM",
       "summaryMd": "自动化开通/同步用户与组的标准协议。",
       "aliases": [
         "System for Cross-domain Identity Management"
+      ]
+    },
+    {
+      "id": "scroll-api",
+      "name": "scroll",
+      "summaryMd": "深度遍历大批结果的游标式导出。",
+      "aliases": [
+        "Scroll API"
       ]
     },
     {
@@ -42821,6 +44083,23 @@
       ]
     },
     {
+      "id": "sdlc",
+      "name": "SDLC",
+      "summaryMd": "软件开发生命周期：需求到上线运维的阶段划分。",
+      "aliases": [
+        "Software Development Life Cycle"
+      ]
+    },
+    {
+      "id": "seat",
+      "name": "seat",
+      "summaryMd": "按席位授权的计费单元（一名用户一席）。",
+      "aliases": [
+        "席位",
+        "Seat"
+      ]
+    },
+    {
       "id": "secrets-management",
       "name": "secrets management",
       "summaryMd": "集中存储与轮换密钥、令牌等敏感配置。",
@@ -42831,10 +44110,23 @@
       ]
     },
     {
-      "id": "self-host-cn",
-      "name": "可自托管",
-      "summaryMd": "允许用户自己部署运行，不强制只用云托管。",
-      "aliases": []
+      "id": "secrets",
+      "name": "secrets",
+      "summaryMd": "密钥、令牌等敏感配置，需受控存储与访问。",
+      "aliases": [
+        "机密",
+        "Secrets",
+        "密钥配置"
+      ]
+    },
+    {
+      "id": "seed",
+      "name": "seed",
+      "summaryMd": "随机种子：尽量复现采样结果。",
+      "aliases": [
+        "随机种子",
+        "Seed"
+      ]
     },
     {
       "id": "self-hosted",
@@ -42846,7 +44138,7 @@
         "可自托管",
         "Self-hosted",
         "自建",
-        "self-hosted"
+        "self-host"
       ]
     },
     {
@@ -42866,6 +44158,15 @@
       "aliases": [
         "搜索引擎优化",
         "Search Engine Optimization"
+      ]
+    },
+    {
+      "id": "server-actions",
+      "name": "Server Actions",
+      "summaryMd": "从客户端直接调用的服务端函数（表单/变更常用）。",
+      "aliases": [
+        "server actions",
+        "服务端 Actions"
       ]
     },
     {
@@ -42897,12 +44198,57 @@
       ]
     },
     {
+      "id": "serving",
+      "name": "model serving",
+      "summaryMd": "把训练好的模型以在线服务形式对外推理。",
+      "aliases": [
+        "模型服务",
+        "Model Serving",
+        "serving"
+      ]
+    },
+    {
+      "id": "session-replay",
+      "name": "session replay",
+      "summaryMd": "回放用户会话操作与页面变化，便于复现问题。",
+      "aliases": [
+        "Session Replay",
+        "会话回放"
+      ]
+    },
+    {
       "id": "session",
       "name": "session",
       "summaryMd": "服务端或客户端维护的登录会话状态。",
       "aliases": [
         "会话",
         "Session"
+      ]
+    },
+    {
+      "id": "settlement",
+      "name": "settlement",
+      "summaryMd": "清算结算：资金从支付渠道进入商户账户。",
+      "aliases": [
+        "清算",
+        "Settlement",
+        "结算"
+      ]
+    },
+    {
+      "id": "sfu",
+      "name": "SFU",
+      "summaryMd": "选择性转发单元：多方通话中转发媒体而不混流。",
+      "aliases": [
+        "Selective Forwarding Unit"
+      ]
+    },
+    {
+      "id": "shangjia",
+      "name": "上架",
+      "summaryMd": "把应用提交商店审核并发布。",
+      "aliases": [
+        "上架审核"
       ]
     },
     {
@@ -42914,6 +44260,65 @@
         "分库分表",
         "Sharding",
         "partitioning"
+      ]
+    },
+    {
+      "id": "shell",
+      "name": "shell",
+      "summaryMd": "命令行外壳，用于交互执行系统命令。",
+      "aliases": [
+        "Shell",
+        "终端外壳"
+      ]
+    },
+    {
+      "id": "shouquan",
+      "name": "授权范围",
+      "summaryMd": "许可覆盖的用途、期限、地域与媒介边界。",
+      "aliases": [
+        "授权条款"
+      ]
+    },
+    {
+      "id": "shuiyin",
+      "name": "水印",
+      "summaryMd": "叠在媒体上的标识，用于溯源或防盗用。",
+      "aliases": [
+        "Watermark"
+      ]
+    },
+    {
+      "id": "side-project",
+      "name": "side project",
+      "summaryMd": "主业之外的副业/练手项目。",
+      "aliases": [
+        "Side Project",
+        "副业项目"
+      ]
+    },
+    {
+      "id": "siem",
+      "name": "SIEM",
+      "summaryMd": "安全信息与事件管理：汇聚日志做威胁检测与合规。",
+      "aliases": [
+        "Security Information and Event Management"
+      ]
+    },
+    {
+      "id": "signals",
+      "name": "signals",
+      "summaryMd": "细粒度响应式原语，变更时精确更新依赖处。",
+      "aliases": [
+        "Signals",
+        "信号"
+      ]
+    },
+    {
+      "id": "sku",
+      "name": "SKU",
+      "summaryMd": "库存量单位：可售卖的最小商品规格。",
+      "aliases": [
+        "Stock Keeping Unit"
       ]
     },
     {
@@ -42955,11 +44360,38 @@
       ]
     },
     {
+      "id": "speech-to-speech",
+      "name": "speech-to-speech",
+      "summaryMd": "语音直接到语音的对话链路，常省去显式文本中转。",
+      "aliases": [
+        "Speech-to-Speech",
+        "S2S"
+      ]
+    },
+    {
+      "id": "spreadsheet",
+      "name": "spreadsheet",
+      "summaryMd": "表格计算形态，常被当作轻量数据库/运营工具。",
+      "aliases": [
+        "电子表格",
+        "Spreadsheet"
+      ]
+    },
+    {
       "id": "sql",
       "name": "SQL",
       "summaryMd": "结构化查询语言。",
       "aliases": [
         "Structured Query Language"
+      ]
+    },
+    {
+      "id": "sre",
+      "name": "SRE",
+      "summaryMd": "站点可靠性工程：用软件工程方法做运维与可靠性。",
+      "aliases": [
+        "Site Reliability Engineering",
+        "站点可靠性工程"
       ]
     },
     {
@@ -42994,12 +44426,30 @@
       ]
     },
     {
+      "id": "startup",
+      "name": "startup",
+      "summaryMd": "初创公司；也指进程启动阶段。",
+      "aliases": [
+        "初创",
+        "Startup"
+      ]
+    },
+    {
       "id": "state-machine",
       "name": "state machine",
       "summaryMd": "用显式状态与转移建模流程。",
       "aliases": [
         "状态机",
         "State Machine"
+      ]
+    },
+    {
+      "id": "stateful",
+      "name": "stateful",
+      "summaryMd": "有状态：依赖本地或粘滞状态。",
+      "aliases": [
+        "有状态",
+        "Stateful"
       ]
     },
     {
@@ -43010,6 +44460,34 @@
         "静态分析",
         "SAST",
         "Static Analysis"
+      ]
+    },
+    {
+      "id": "status-page",
+      "name": "status page",
+      "summaryMd": "对外展示服务健康与事故进展的页面。",
+      "aliases": [
+        "状态页",
+        "Status Page"
+      ]
+    },
+    {
+      "id": "stock-photo",
+      "name": "stock photo",
+      "summaryMd": "可授权购买的库存摄影/矢量等素材。",
+      "aliases": [
+        "商用图库",
+        "库存图",
+        "正版图"
+      ]
+    },
+    {
+      "id": "storage",
+      "name": "storage",
+      "summaryMd": "持久化存放数据或文件的能力层。",
+      "aliases": [
+        "存储",
+        "Storage"
       ]
     },
     {
@@ -43031,12 +44509,40 @@
       ]
     },
     {
+      "id": "subscription",
+      "name": "subscription",
+      "summaryMd": "订阅制：按周期收费持续提供服务。",
+      "aliases": [
+        "订阅",
+        "Subscription",
+        "订阅制"
+      ]
+    },
+    {
+      "id": "sunset",
+      "name": "日落",
+      "summaryMd": "正式停止服务或 API 的时间点。",
+      "aliases": [
+        "Sunset",
+        "下线"
+      ]
+    },
+    {
       "id": "supply-chain",
       "name": "supply chain",
       "summaryMd": "依赖与构建链路被投毒或篡改的风险面。",
       "aliases": [
         "供应链",
         "Supply Chain"
+      ]
+    },
+    {
+      "id": "tax",
+      "name": "tax",
+      "summaryMd": "税费处理（销售税、增值税等）常由 MoR 代管。",
+      "aliases": [
+        "税务",
+        "Taxation"
       ]
     },
     {
@@ -43099,13 +44605,30 @@
       ]
     },
     {
+      "id": "token-billing",
+      "name": "按 token 计费",
+      "summaryMd": "按输入/输出 token 计量收费。",
+      "aliases": [
+        "token 计费",
+        "Token 计费",
+        "按 Token 计费"
+      ]
+    },
+    {
       "id": "token",
       "name": "Token",
       "summaryMd": "模型计费与上下文的基本单位，通常小于一个词。",
       "aliases": [
         "token",
-        "上下文 token",
-        "token 计费"
+        "上下文 token"
+      ]
+    },
+    {
+      "id": "tokenize",
+      "name": "分词",
+      "summaryMd": "把文本切成词或子词单元。",
+      "aliases": [
+        "Tokenization"
       ]
     },
     {
@@ -43118,13 +44641,41 @@
       ]
     },
     {
+      "id": "tool-use",
+      "name": "tool use",
+      "summaryMd": "模型按协议调用外部工具的能力（同 function calling 近义）。",
+      "aliases": [
+        "Tool Use"
+      ]
+    },
+    {
+      "id": "trace",
+      "name": "trace",
+      "summaryMd": "一次请求的分布式追踪记录。",
+      "aliases": [
+        "Trace",
+        "追踪"
+      ]
+    },
+    {
       "id": "tracing",
       "name": "tracing",
       "summaryMd": "跟踪一次请求跨服务的调用链。",
       "aliases": [
         "链路追踪",
         "distributed tracing",
-        "Distributed Tracing"
+        "Distributed Tracing",
+        "追踪"
+      ]
+    },
+    {
+      "id": "tracking",
+      "name": "tracking",
+      "summaryMd": "埋点/追踪用户行为或广告效果。",
+      "aliases": [
+        "埋点",
+        "Tracking",
+        "布点"
       ]
     },
     {
@@ -43134,6 +44685,15 @@
       "aliases": [
         "训练",
         "Training"
+      ]
+    },
+    {
+      "id": "transcoding",
+      "name": "transcoding",
+      "summaryMd": "转码：把音视频从一种编码/封装转到另一种。",
+      "aliases": [
+        "转码",
+        "Transcoding"
       ]
     },
     {
@@ -43206,12 +44766,39 @@
       ]
     },
     {
+      "id": "typescript-first",
+      "name": "TypeScript-first",
+      "summaryMd": "以 TypeScript 为默认语言与类型中心的技术取向。",
+      "aliases": [
+        "TS-first",
+        "TypeScript first"
+      ]
+    },
+    {
+      "id": "typo-tolerant",
+      "name": "容错检索",
+      "summaryMd": "对拼写错误仍能召回相关结果。",
+      "aliases": [
+        "typo-tolerant",
+        "拼写容错"
+      ]
+    },
+    {
       "id": "ui",
       "name": "UI",
       "summaryMd": "用户界面（User Interface）。",
       "aliases": [
         "User Interface",
         "用户界面"
+      ]
+    },
+    {
+      "id": "uptime",
+      "name": "uptime",
+      "summaryMd": "可用时长占比，常用于 SLA。",
+      "aliases": [
+        "可用性时间",
+        "Uptime"
       ]
     },
     {
@@ -43222,7 +44809,8 @@
         "按量计费",
         "usage based",
         "pay as you go",
-        "Pay-as-you-go"
+        "Pay-as-you-go",
+        "用量计费"
       ]
     },
     {
@@ -43255,6 +44843,15 @@
       ]
     },
     {
+      "id": "vector",
+      "name": "vector",
+      "summaryMd": "向量：嵌入后的数值数组，用于相似度计算。",
+      "aliases": [
+        "向量",
+        "Vector"
+      ]
+    },
+    {
       "id": "vendor-lock-in",
       "name": "vendor lock-in",
       "summaryMd": "深度绑定某一厂商后迁移成本很高。",
@@ -43262,6 +44859,23 @@
         "厂商锁定",
         "Vendor Lock-in",
         "vendor lock in"
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "name": "Vibe Coding",
+      "summaryMd": "以自然语言与 AI 结对、快速拼装软件的开发方式。",
+      "aliases": [
+        "vibe coding",
+        "氛围编程"
+      ]
+    },
+    {
+      "id": "virtual-dom",
+      "name": "Virtual DOM",
+      "summaryMd": "用轻量 JS 对象描述 UI，再差分更新真实 DOM。",
+      "aliases": [
+        "虚拟 DOM"
       ]
     },
     {
@@ -43282,6 +44896,23 @@
       ]
     },
     {
+      "id": "waf-rules",
+      "name": "WAF 规则",
+      "summaryMd": "匹配并拦截可疑请求的策略集。",
+      "aliases": [
+        "WAF rules"
+      ]
+    },
+    {
+      "id": "waf",
+      "name": "WAF",
+      "summaryMd": "Web 应用防火墙：在边缘拦截常见 Web 攻击。",
+      "aliases": [
+        "Web Application Firewall",
+        "Web 应用防火墙"
+      ]
+    },
+    {
       "id": "wasm",
       "name": "Wasm",
       "summaryMd": "WebAssembly：可在浏览器与边缘运行的二进制格式。",
@@ -43298,6 +44929,23 @@
         "Webhooks",
         "Webhook",
         "回调钩子"
+      ]
+    },
+    {
+      "id": "webhooks-signature",
+      "name": "签名校验",
+      "summaryMd": "用签名验证回调确实来自声称的发送方。",
+      "aliases": [
+        "Webhook 签名",
+        "签名验证"
+      ]
+    },
+    {
+      "id": "webrtc",
+      "name": "WebRTC",
+      "summaryMd": "浏览器端点对点音视频与数据通道标准。",
+      "aliases": [
+        "Web Real-Time Communication"
       ]
     },
     {
@@ -43329,6 +44977,14 @@
       ]
     },
     {
+      "id": "wsgi",
+      "name": "WSGI",
+      "summaryMd": "Python Web 应用与服务器之间的调用约定。",
+      "aliases": [
+        "Web Server Gateway Interface"
+      ]
+    },
+    {
       "id": "xinchuang",
       "name": "信创",
       "summaryMd": "信息技术应用创新：国产软硬件替代与适配。",
@@ -43336,6 +44992,20 @@
         "国产化",
         "自主可控"
       ]
+    },
+    {
+      "id": "yinsi",
+      "name": "隐私合规",
+      "summaryMd": "满足隐私政策、同意与数据最小化等要求。",
+      "aliases": [
+        "隐私政策"
+      ]
+    },
+    {
+      "id": "yuming",
+      "name": "域名",
+      "summaryMd": "网站的人类可读地址，经 DNS 解析。",
+      "aliases": []
     },
     {
       "id": "zero-config",
@@ -43354,6 +45024,32 @@
       "aliases": [
         "零信任",
         "Zero Trust"
+      ]
+    },
+    {
+      "id": "zhengshu",
+      "name": "证书",
+      "summaryMd": "用于 TLS 等身份证明的数字证书。",
+      "aliases": [
+        "TLS 证书",
+        "SSL 证书"
+      ]
+    },
+    {
+      "id": "zhuanhua",
+      "name": "转化",
+      "summaryMd": "用户完成目标动作（注册、付费等）。",
+      "aliases": [
+        "转化率",
+        "Conversion"
+      ]
+    },
+    {
+      "id": "zhuti",
+      "name": "企业主体",
+      "summaryMd": "以公司资质签约与开票的法律实体。",
+      "aliases": [
+        "主体资质"
       ]
     }
   ],
@@ -50268,7 +51964,7 @@
       "name": "Claude Fable",
       "haystackName": "claude fable claude-fable",
       "haystackMid": "anthropic 顶档 · fable 5 · arena 多榜 #1 llm reasoning code agentic flagship",
-      "haystackLow": "claude fable 是 anthropic 公开可用的**最高能力选型档**（现 fable 5），面向最长链路 agent、复杂编码与知识工作；价位高于 opus。arena text/agent/vision 等多榜居首。\n\n极难长任务、研究级 agent 或需当前 anthropic 最强公开模型时选用；常规企业编码默认仍可 sonnet/opus。\n\n价高；部分安全敏感域会路由到 opus；国内不可直连；供应/政策波动需纳入采购。\n",
+      "haystackLow": "claude fable 是 anthropic 公开可用的**最高能力选型档**（现 fable 5），面向最长链路 agent、复杂编码与知识工作；价位约 opus 5 的两倍。arena text/agent/vision 等多榜居首；opus 5 在部分编码/知识工作评测已逼近甚至超过，但 fable 仍是绝对顶档叙事。\n\n极难长任务、研究级 agent 或需当前 anthropic 最强公开模型时选用；常规企业编码默认仍可 sonnet / opus 5。\n\n价高；部分安全敏感域会路由到 opus；国内不可直连；供应/政策波动需纳入采购。\n",
       "category": "llm-line",
       "region": "overseas",
       "tags": [
@@ -50286,8 +51982,8 @@
       "id": "claude-opus",
       "name": "Claude Opus",
       "haystackName": "claude opus claude-opus",
-      "haystackMid": "anthropic 旗舰档 · opus 4.8 · 企业 agent 默认高档 llm reasoning code agentic",
-      "haystackLow": "anthropic claude 产品族中的**旗舰企业选型档**（现 opus 4.8）。复杂推理、长链路 agent 与高质量编码协作；公开最强档见 claude fable。arena text 上 opus 4.6/4.7 thinking 仍处前三甲，document/search 亦强。\n\n企业复杂任务与编码 agent 的默认高档；需当前 anthropic 绝对顶档时升 fable。\n\n价高；国内不可直连；长任务 token 消耗需留意。\n",
+      "haystackMid": "anthropic 旗舰档 · opus 5 · 近 fable 半价 · 企业日常默认高档 llm reasoning code agentic",
+      "haystackLow": "anthropic claude 产品族中的**旗舰企业选型档**（现 opus 5，2026-07-24）。复杂推理、长链路 agent 与高质量编码协作；能力逼近公开顶档 claude fable 5，价约一半。claude max 默认模型、pro 最强可用档。arena 榜面仍多见 4.x thinking 条目，以官方与新榜为准。\n\n企业复杂任务与编码 agent 的默认高档；极难长任务或需绝对顶档时再升 fable。\n\n价仍高于 sonnet；国内不可直连；默认 thinking / high effort，长任务 token 消耗需留意。\n",
       "category": "llm-line",
       "region": "overseas",
       "tags": [
@@ -50305,7 +52001,7 @@
       "name": "Claude Sonnet",
       "haystackName": "claude sonnet claude-sonnet",
       "haystackMid": "anthropic 平衡主力 · 现为 sonnet 5 · 编码/agent 性价比默认档 llm line",
-      "haystackLow": "claude sonnet 是 anthropic claude 家族的高性能平衡 line。当前版本为 sonnet 5（2026-06-30），在编码、工具调用与日常工作上逼近更贵档位。\n\n日常编码 agent、企业知识库与批量文档处理的默认选择；极难长链路任务再升 opus 4.8。\n\n与 opus 相比复杂开放式推理仍可能弱；敏感数据需确认 anthropic 企业数据条款；注意 tokenizer/篇幅对账单的影响。\n",
+      "haystackLow": "claude sonnet 是 anthropic claude 家族的高性能平衡 line。当前版本为 sonnet 5（2026-06-30），在编码、工具调用与日常工作上逼近更贵档位。\n\n日常编码 agent、企业知识库与批量文档处理的默认选择；极难长链路任务再升 opus 5。\n\n与 opus 相比复杂开放式推理仍可能弱；敏感数据需确认 anthropic 企业数据条款；注意 tokenizer/篇幅对账单的影响。\n",
       "category": "llm-line",
       "region": "overseas",
       "tags": [

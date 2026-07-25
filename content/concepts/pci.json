@@ -1,0 +1,9 @@
+{
+  "id": "pci",
+  "name": "PCI",
+  "summaryMd": "支付卡行业合规语境；正式标准常称 PCI DSS。",
+  "aliases": [
+    "PCI DSS",
+    "支付卡合规"
+  ]
+}

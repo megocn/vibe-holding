@@ -1,0 +1,9 @@
+{
+  "id": "manifest",
+  "name": "manifest",
+  "summaryMd": "描述应用/扩展/构建的元数据清单文件。",
+  "aliases": [
+    "Manifest",
+    "清单文件"
+  ]
+}

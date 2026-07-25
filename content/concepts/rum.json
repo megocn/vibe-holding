@@ -1,0 +1,9 @@
+{
+  "id": "rum",
+  "name": "RUM",
+  "summaryMd": "真实用户监控：从真实浏览器/端采集性能与错误。",
+  "aliases": [
+    "Real User Monitoring",
+    "真实用户监控"
+  ]
+}

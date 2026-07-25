@@ -1,0 +1,10 @@
+{
+  "id": "hero-section",
+  "name": "Hero",
+  "summaryMd": "页面首屏主视觉与主文案区域。",
+  "aliases": [
+    "Hero 区",
+    "英雄区",
+    "首屏"
+  ]
+}

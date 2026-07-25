@@ -1,0 +1,9 @@
+{
+  "id": "downtime",
+  "name": "downtime",
+  "summaryMd": "不可用时段。",
+  "aliases": [
+    "停机",
+    "Downtime"
+  ]
+}

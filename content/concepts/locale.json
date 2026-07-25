@@ -1,0 +1,9 @@
+{
+  "id": "locale",
+  "name": "locale",
+  "summaryMd": "语言地区设置，影响文案、日期、数字与货币格式。",
+  "aliases": [
+    "Locale",
+    "语言区域"
+  ]
+}

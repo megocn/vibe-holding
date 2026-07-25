@@ -1,0 +1,9 @@
+{
+  "id": "invoice",
+  "name": "invoice",
+  "summaryMd": "账单/发票凭证，用于财务与报销。",
+  "aliases": [
+    "账单",
+    "Invoice"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "rules",
+  "name": "rules",
+  "summaryMd": "给 Agent/IDE 的项目级约束与偏好说明。",
+  "aliases": [
+    "项目规则",
+    "Custom Rules",
+    "Agent Rules"
+  ]
+}

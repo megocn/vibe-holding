@@ -1,0 +1,9 @@
+{
+  "id": "egress",
+  "name": "egress",
+  "summaryMd": "出站流量：从系统访问外部网络的数据与费用。",
+  "aliases": [
+    "出站流量",
+    "Egress"
+  ]
+}

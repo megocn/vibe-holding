@@ -1,0 +1,8 @@
+{
+  "id": "fenzhang",
+  "name": "分账",
+  "summaryMd": "一笔支付按规则拆给多方收款人。",
+  "aliases": [
+    "分账能力"
+  ]
+}

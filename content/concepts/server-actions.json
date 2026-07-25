@@ -1,0 +1,9 @@
+{
+  "id": "server-actions",
+  "name": "Server Actions",
+  "summaryMd": "从客户端直接调用的服务端函数（表单/变更常用）。",
+  "aliases": [
+    "server actions",
+    "服务端 Actions"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "alert",
+  "name": "告警",
+  "summaryMd": "指标越阈或规则命中时的通知。",
+  "aliases": [
+    "Alert",
+    "报警"
+  ]
+}

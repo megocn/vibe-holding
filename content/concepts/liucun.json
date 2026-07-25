@@ -1,0 +1,9 @@
+{
+  "id": "liucun",
+  "name": "留存",
+  "summaryMd": "用户在一段时间后仍回访/付费的比例。",
+  "aliases": [
+    "留存率",
+    "Retention"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "status-page",
+  "name": "status page",
+  "summaryMd": "对外展示服务健康与事故进展的页面。",
+  "aliases": [
+    "状态页",
+    "Status Page"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "patch",
+  "name": "补丁",
+  "summaryMd": "小范围修复更新。",
+  "aliases": [
+    "Patch"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "deterministic",
+  "name": "deterministic",
+  "summaryMd": "相同输入得到相同输出的可复现设置。",
+  "aliases": [
+    "可复现",
+    "Deterministic"
+  ]
+}

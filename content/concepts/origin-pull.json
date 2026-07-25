@@ -1,0 +1,9 @@
+{
+  "id": "origin-pull",
+  "name": "回源",
+  "summaryMd": "CDN 未命中时向源站拉取内容。",
+  "aliases": [
+    "回源拉取",
+    "源站"
+  ]
+}

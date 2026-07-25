@@ -1,0 +1,9 @@
+{
+  "id": "autocomplete",
+  "name": "自动补全",
+  "summaryMd": "输入时提示候选词/结果。",
+  "aliases": [
+    "Autocomplete",
+    "补全"
+  ]
+}

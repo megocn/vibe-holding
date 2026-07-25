@@ -1,0 +1,8 @@
+{
+  "id": "cve",
+  "name": "CVE",
+  "summaryMd": "公开漏洞编号，用于标识与追踪安全缺陷。",
+  "aliases": [
+    "Common Vulnerabilities and Exposures"
+  ]
+}

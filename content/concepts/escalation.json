@@ -1,0 +1,9 @@
+{
+  "id": "escalation",
+  "name": "escalation",
+  "summaryMd": "告警升级：超时未响应则扩大通知范围。",
+  "aliases": [
+    "升级策略",
+    "Escalation"
+  ]
+}

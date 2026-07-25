@@ -1,0 +1,8 @@
+{
+  "id": "app-router",
+  "name": "App Router",
+  "summaryMd": "以文件系统路由组织应用页面的现代路由模型（如 Next.js）。",
+  "aliases": [
+    "app router"
+  ]
+}

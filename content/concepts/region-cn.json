@@ -1,0 +1,9 @@
+{
+  "id": "region-cn",
+  "name": "地域",
+  "summaryMd": "云资源部署的地理区域，影响延迟与合规。",
+  "aliases": [
+    "Region",
+    "region"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "counter",
+  "name": "counter",
+  "summaryMd": "只增计数器指标。",
+  "aliases": [
+    "Counter",
+    "计数器"
+  ]
+}

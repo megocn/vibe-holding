@@ -1,0 +1,9 @@
+{
+  "id": "webhooks-signature",
+  "name": "签名校验",
+  "summaryMd": "用签名验证回调确实来自声称的发送方。",
+  "aliases": [
+    "Webhook 签名",
+    "签名验证"
+  ]
+}

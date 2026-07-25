@@ -1,0 +1,8 @@
+{
+  "id": "sku",
+  "name": "SKU",
+  "summaryMd": "库存量单位：可售卖的最小商品规格。",
+  "aliases": [
+    "Stock Keeping Unit"
+  ]
+}

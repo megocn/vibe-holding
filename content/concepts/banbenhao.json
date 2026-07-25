@@ -1,0 +1,6 @@
+{
+  "id": "banbenhao",
+  "name": "版本号",
+  "summaryMd": "标识发布迭代的编号，常遵循语义化版本。",
+  "aliases": []
+}

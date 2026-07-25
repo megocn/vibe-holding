@@ -1,0 +1,8 @@
+{
+  "id": "paged-attention",
+  "name": "PagedAttention",
+  "summaryMd": "把 KV cache 分页管理以提升并发推理。",
+  "aliases": [
+    "Paged Attention"
+  ]
+}

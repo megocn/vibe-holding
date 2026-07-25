@@ -1,0 +1,8 @@
+{
+  "id": "htap",
+  "name": "HTAP",
+  "summaryMd": "同时支撑事务与分析负载的混合架构。",
+  "aliases": [
+    "Hybrid Transactional/Analytical Processing"
+  ]
+}

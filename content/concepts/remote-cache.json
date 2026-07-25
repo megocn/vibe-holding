@@ -4,6 +4,8 @@
   "summaryMd": "共享构建/任务缓存以加速 CI 与本地。",
   "aliases": [
     "远程缓存",
-    "Remote Cache"
+    "Remote Cache",
+    "remote caching",
+    "Remote Caching"
   ]
 }

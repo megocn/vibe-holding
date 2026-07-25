@@ -1,0 +1,9 @@
+{
+  "id": "zhengshu",
+  "name": "证书",
+  "summaryMd": "用于 TLS 等身份证明的数字证书。",
+  "aliases": [
+    "TLS 证书",
+    "SSL 证书"
+  ]
+}

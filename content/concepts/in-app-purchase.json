@@ -1,0 +1,9 @@
+{
+  "id": "in-app-purchase",
+  "name": "IAP",
+  "summaryMd": "应用内购买：在 App 内买数字商品/订阅。",
+  "aliases": [
+    "In-App Purchase",
+    "应用内购买"
+  ]
+}

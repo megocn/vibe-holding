@@ -1,0 +1,9 @@
+{
+  "id": "empty-state",
+  "name": "empty state",
+  "summaryMd": "无数据时的占位界面，引导下一步行动。",
+  "aliases": [
+    "空状态",
+    "Empty State"
+  ]
+}

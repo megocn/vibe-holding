@@ -1,0 +1,8 @@
+{
+  "id": "reserved-capacity",
+  "name": "预留容量",
+  "summaryMd": "承诺用量换折扣的容量购买。",
+  "aliases": [
+    "Reserved Capacity"
+  ]
+}

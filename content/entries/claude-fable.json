@@ -136,6 +136,6 @@
     "https://artificialanalysis.ai/leaderboards/models",
     "https://www.swebench.com/"
   ],
-  "descriptionMd": "Claude Fable 是 Anthropic 公开可用的**最高能力选型档**（现 Fable 5），面向最长链路 Agent、复杂编码与知识工作；价位高于 Opus。Arena Text/Agent/Vision 等多榜居首。\n\n极难长任务、研究级 Agent 或需当前 Anthropic 最强公开模型时选用；常规企业编码默认仍可 Sonnet/Opus。\n\n价高；部分安全敏感域会路由到 Opus；国内不可直连；供应/政策波动需纳入采购。\n",
-  "lastReviewed": "2026-07-24"
+  "descriptionMd": "Claude Fable 是 Anthropic 公开可用的**最高能力选型档**（现 Fable 5），面向最长链路 Agent、复杂编码与知识工作；价位约 Opus 5 的两倍。Arena Text/Agent/Vision 等多榜居首；Opus 5 在部分编码/知识工作评测已逼近甚至超过，但 Fable 仍是绝对顶档叙事。\n\n极难长任务、研究级 Agent 或需当前 Anthropic 最强公开模型时选用；常规企业编码默认仍可 Sonnet / Opus 5。\n\n价高；部分安全敏感域会路由到 Opus；国内不可直连；供应/政策波动需纳入采购。\n",
+  "lastReviewed": "2026-07-25"
 }

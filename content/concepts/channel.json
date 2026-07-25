@@ -1,0 +1,9 @@
+{
+  "id": "channel",
+  "name": "channel",
+  "summaryMd": "通道：消息、发布或分发的通路抽象。",
+  "aliases": [
+    "Channel",
+    "渠道"
+  ]
+}

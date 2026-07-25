@@ -1,0 +1,9 @@
+{
+  "id": "maintenance-window",
+  "name": "维护窗口",
+  "summaryMd": "计划内变更的时间段。",
+  "aliases": [
+    "Maintenance Window",
+    "变更窗口"
+  ]
+}

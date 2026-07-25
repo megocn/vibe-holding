@@ -1,0 +1,9 @@
+{
+  "id": "seat",
+  "name": "seat",
+  "summaryMd": "按席位授权的计费单元（一名用户一席）。",
+  "aliases": [
+    "席位",
+    "Seat"
+  ]
+}

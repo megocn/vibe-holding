@@ -1,0 +1,10 @@
+{
+  "id": "output-tokens",
+  "name": "输出 token",
+  "summaryMd": "模型生成侧消耗的 token。",
+  "aliases": [
+    "output tokens",
+    "Output Tokens",
+    "输出 Token"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "siem",
+  "name": "SIEM",
+  "summaryMd": "安全信息与事件管理：汇聚日志做威胁检测与合规。",
+  "aliases": [
+    "Security Information and Event Management"
+  ]
+}

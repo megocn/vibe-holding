@@ -1,0 +1,9 @@
+{
+  "id": "cancellation",
+  "name": "取消",
+  "summaryMd": "上游超时后停止下游无用工作，避免浪费。",
+  "aliases": [
+    "cancellation",
+    "Cancellation"
+  ]
+}

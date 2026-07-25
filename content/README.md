@@ -48,7 +48,7 @@ VS Code 已通过 `.vscode/settings.json` 的 `json.schemas` 关联 `content/sch
 | --- | --- | --- | --- |
 | **产品族** | `llm-family` | Claude、GPT、通义千问、Kimi | 上层导航 /「用哪家」；**不挂 Arena** |
 | **选型档位** | `llm-line` | Claude Opus、Kimi 旗舰、Qwen-Max | 下层可比 + Arena/定价 |
-| **版本** | （不建条目） | Opus 4.8、K3、V3 | 写在档位的 `currentVersion` + `updates[]` |
+| **版本** | （不建条目） | Opus 5、K3、V3 | 写在档位的 `currentVersion` + `updates[]` |
 
 档位用 `part_of` 边指向产品族。侧栏/列表按族展开档，**不要**把「产品族」「选型档位」当两个平级叶类点选。错误示例：把 `kimi-k3`（版本）与 `通义千问`（族）和 `Claude Opus`（档）并列同榜。
 

@@ -1,0 +1,9 @@
+{
+  "id": "federation",
+  "name": "federation",
+  "summaryMd": "联邦：跨系统共享身份或组合 GraphQL/数据图。",
+  "aliases": [
+    "联邦登录",
+    "Federation"
+  ]
+}

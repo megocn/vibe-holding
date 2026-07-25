@@ -1,8 +1,0 @@
-{
-  "id": "origin",
-  "name": "源站",
-  "summaryMd": "CDN 回源时的原始内容服务器。",
-  "aliases": [
-    "回源"
-  ]
-}

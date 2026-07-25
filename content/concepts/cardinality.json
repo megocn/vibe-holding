@@ -1,0 +1,10 @@
+{
+  "id": "cardinality",
+  "name": "cardinality",
+  "summaryMd": "时间序列标签组合数；过高会撑爆监控系统。",
+  "aliases": [
+    "基数",
+    "Cardinality",
+    "高基数"
+  ]
+}

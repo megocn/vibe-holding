@@ -1,0 +1,9 @@
+{
+  "id": "payout",
+  "name": "payout",
+  "summaryMd": "平台向卖家/创作者结算打款。",
+  "aliases": [
+    "结算打款",
+    "Payout"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "gguf",
+  "name": "GGUF",
+  "summaryMd": "本地推理常用的量化模型文件格式。",
+  "aliases": [
+    "GGUF 格式"
+  ]
+}

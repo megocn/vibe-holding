@@ -1,0 +1,9 @@
+{
+  "id": "changelog",
+  "name": "changelog",
+  "summaryMd": "版本变更说明，记录用户可见改动。",
+  "aliases": [
+    "Changelog",
+    "变更日志"
+  ]
+}

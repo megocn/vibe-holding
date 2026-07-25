@@ -1,0 +1,9 @@
+{
+  "id": "async",
+  "name": "async",
+  "summaryMd": "异步：不阻塞等待结果，常配合并发与事件循环。",
+  "aliases": [
+    "异步",
+    "asynchronous"
+  ]
+}

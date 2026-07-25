@@ -1,0 +1,8 @@
+{
+  "id": "css-in-js",
+  "name": "CSS-in-JS",
+  "summaryMd": "在 JS 中编写样式的方案（运行时或编译时）。",
+  "aliases": [
+    "css-in-js"
+  ]
+}

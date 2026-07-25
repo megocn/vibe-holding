@@ -1,0 +1,8 @@
+{
+  "id": "dnssec",
+  "name": "DNSSEC",
+  "summaryMd": "给 DNS 记录加签名，防篡改与污染。",
+  "aliases": [
+    "DNS Security Extensions"
+  ]
+}
