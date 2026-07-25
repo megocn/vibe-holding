@@ -1,0 +1,9 @@
+{
+  "id": "reverse-proxy",
+  "name": "reverse proxy",
+  "summaryMd": "位于服务前的代理，常做 TLS 终结、路由与缓存。",
+  "aliases": [
+    "反向代理",
+    "Reverse Proxy"
+  ]
+}

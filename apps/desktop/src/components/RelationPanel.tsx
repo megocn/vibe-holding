@@ -1,8 +1,9 @@
 import type { Edge, Id } from '@vh/core';
-import { useMemo } from 'react';
+import { type CSSProperties, useMemo } from 'react';
 import { useContent, useContentEditor } from '../lib/content.tsx';
 import { relMeta } from '../lib/relations.ts';
 import { useUserData } from '../lib/userdata.tsx';
+import { ConceptPopover } from './ConceptPopover.tsx';
 import { Icon } from './Icon.tsx';
 
 interface RelationPanelProps {
@@ -59,26 +60,18 @@ export function RelationPanel({ id, onSelect, onEditEdge, onAddEdge }: RelationP
             <span>个人共现（私有）</span>
           </div>
           <div className="flex flex-wrap gap-2">
-            {personalNeighbors.map((n) => {
-              const clickable = isEntry(n.id);
-              return (
-                <button
-                  key={n.id}
-                  type="button"
-                  className="vh-tag"
-                  title={n.note}
-                  onClick={clickable ? () => onSelect(n.id) : undefined}
-                  style={{
-                    cursor: clickable ? 'pointer' : 'default',
-                    color: 'var(--pigment-primary)',
-                    background: 'var(--paper-1)',
-                    borderColor: 'var(--pigment-primary)',
-                  }}
-                >
-                  {resolveName(n.id)} · {n.weight.toFixed(2)}
-                </button>
-              );
-            })}
+            {personalNeighbors.map((n) => (
+              <RelationTarget
+                key={n.id}
+                tid={n.id}
+                label={`${resolveName(n.id)} · ${n.weight.toFixed(2)}`}
+                title={n.note}
+                isEntry={isEntry(n.id)}
+                isConcept={bundle.concepts.has(n.id)}
+                onSelect={onSelect}
+                accent
+              />
+            ))}
           </div>
         </div>
       )}
@@ -97,22 +90,16 @@ export function RelationPanel({ id, onSelect, onEditEdge, onAddEdge }: RelationP
             </div>
             <div className="flex flex-wrap gap-2">
               {targets.map((tid) => {
-                const clickable = isEntry(tid);
                 const edge = findEdge(edgesHere, id, tid, key);
                 return (
                   <span key={tid} className="flex items-center gap-1">
-                    <button
-                      type="button"
-                      className="vh-tag"
-                      onClick={clickable ? () => onSelect(tid) : undefined}
-                      style={{
-                        cursor: clickable ? 'pointer' : 'default',
-                        color: clickable ? 'var(--pigment-primary)' : 'var(--ink-2)',
-                        background: 'var(--paper-1)',
-                      }}
-                    >
-                      {resolveName(tid)}
-                    </button>
+                    <RelationTarget
+                      tid={tid}
+                      label={resolveName(tid)}
+                      isEntry={isEntry(tid)}
+                      isConcept={bundle.concepts.has(tid)}
+                      onSelect={onSelect}
+                    />
                     {edge && onEditEdge && (
                       <button
                         type="button"
@@ -136,6 +123,63 @@ export function RelationPanel({ id, onSelect, onEditEdge, onAddEdge }: RelationP
         );
       })}
     </div>
+  );
+}
+
+function RelationTarget({
+  tid,
+  label,
+  title,
+  isEntry,
+  isConcept,
+  onSelect,
+  accent,
+}: {
+  tid: Id;
+  label: string;
+  title?: string;
+  isEntry: boolean;
+  isConcept: boolean;
+  onSelect: (id: Id) => void;
+  accent?: boolean;
+}) {
+  const style: CSSProperties = accent
+    ? {
+        color: 'var(--pigment-primary)',
+        background: 'var(--paper-1)',
+        borderColor: 'var(--pigment-primary)',
+      }
+    : {
+        color: isEntry || isConcept ? 'var(--pigment-primary)' : 'var(--ink-2)',
+        background: 'var(--paper-1)',
+      };
+
+  if (isConcept) {
+    return (
+      <ConceptPopover conceptId={tid} className="vh-tag" style={style} title={title}>
+        {label}
+      </ConceptPopover>
+    );
+  }
+
+  if (isEntry) {
+    return (
+      <button
+        type="button"
+        className="vh-tag"
+        title={title}
+        onClick={() => onSelect(tid)}
+        style={{ cursor: 'pointer', ...style }}
+      >
+        {label}
+      </button>
+    );
+  }
+
+  return (
+    <span className="vh-tag" title={title} style={{ cursor: 'default', ...style }}>
+      {label}
+    </span>
   );
 }
 

@@ -1,0 +1,8 @@
+{
+  "id": "etl",
+  "name": "ETL",
+  "summaryMd": "抽取-转换-加载：经典数仓入仓流程。",
+  "aliases": [
+    "Extract Transform Load"
+  ]
+}

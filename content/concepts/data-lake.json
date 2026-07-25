@@ -1,0 +1,9 @@
+{
+  "id": "data-lake",
+  "name": "data lake",
+  "summaryMd": "以原始/半结构化为主的大规模数据湖。",
+  "aliases": [
+    "数据湖",
+    "Data Lake"
+  ]
+}

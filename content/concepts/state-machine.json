@@ -1,0 +1,9 @@
+{
+  "id": "state-machine",
+  "name": "state machine",
+  "summaryMd": "用显式状态与转移建模流程。",
+  "aliases": [
+    "状态机",
+    "State Machine"
+  ]
+}

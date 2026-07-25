@@ -1,0 +1,9 @@
+{
+  "id": "websocket",
+  "name": "WebSocket",
+  "summaryMd": "全双工长连接，适合实时推送。",
+  "aliases": [
+    "WebSockets",
+    "全双工"
+  ]
+}

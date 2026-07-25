@@ -1,0 +1,8 @@
+{
+  "id": "csrf",
+  "name": "CSRF",
+  "summaryMd": "跨站请求伪造：借用户已登录态发起非本意请求。",
+  "aliases": [
+    "Cross-Site Request Forgery"
+  ]
+}

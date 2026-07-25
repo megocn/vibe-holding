@@ -1,0 +1,9 @@
+{
+  "id": "quorum",
+  "name": "quorum",
+  "summaryMd": "多数派确认后才认为写入成功。",
+  "aliases": [
+    "法定人数",
+    "Quorum"
+  ]
+}

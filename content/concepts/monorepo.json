@@ -1,0 +1,9 @@
+{
+  "id": "monorepo",
+  "name": "monorepo",
+  "summaryMd": "多项目放同一仓库，便于共享与统一流水线。",
+  "aliases": [
+    "单体仓库",
+    "Monorepo"
+  ]
+}

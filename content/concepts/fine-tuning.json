@@ -1,0 +1,10 @@
+{
+  "id": "fine-tuning",
+  "name": "fine-tuning",
+  "summaryMd": "在下游数据上继续训练，使模型适配特定任务或风格。",
+  "aliases": [
+    "微调",
+    "Fine-tuning",
+    "fine tuning"
+  ]
+}

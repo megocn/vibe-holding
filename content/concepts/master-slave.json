@@ -1,0 +1,8 @@
+{
+  "id": "master-slave",
+  "name": "主从",
+  "summaryMd": "主库接受写、从库复制并分担读。",
+  "aliases": [
+    "主备"
+  ]
+}

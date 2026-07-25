@@ -1,0 +1,9 @@
+{
+  "id": "moe",
+  "name": "MoE",
+  "summaryMd": "混合专家：按输入路由到部分专家子网络以提升效率。",
+  "aliases": [
+    "Mixture of Experts",
+    "mixture of experts"
+  ]
+}

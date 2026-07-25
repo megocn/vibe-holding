@@ -1,0 +1,10 @@
+{
+  "id": "pubsub",
+  "name": "pub/sub",
+  "summaryMd": "发布订阅：生产者发主题，多消费者订阅。",
+  "aliases": [
+    "Pub/Sub",
+    "pub sub",
+    "发布订阅"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "edge-function",
+  "name": "edge function",
+  "summaryMd": "跑在边缘运行时上的短生命周期函数。",
+  "aliases": [
+    "Edge Function",
+    "边缘函数",
+    "edge runtime",
+    "边缘运行时"
+  ]
+}

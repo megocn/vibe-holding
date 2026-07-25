@@ -1,0 +1,12 @@
+{
+  "id": "on-prem",
+  "name": "on-prem",
+  "summaryMd": "部署在自有机房/内网，而非公有云托管。",
+  "aliases": [
+    "on-premise",
+    "on premise",
+    "私有化部署",
+    "本地化部署",
+    "On-prem"
+  ]
+}

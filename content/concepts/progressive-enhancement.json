@@ -1,0 +1,9 @@
+{
+  "id": "progressive-enhancement",
+  "name": "progressive enhancement",
+  "summaryMd": "先保证基础可用再叠加增强体验。",
+  "aliases": [
+    "渐进增强",
+    "Progressive Enhancement"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "concurrency",
+  "name": "concurrency",
+  "summaryMd": "交错推进多个任务的能力。",
+  "aliases": [
+    "并发",
+    "Concurrency"
+  ]
+}

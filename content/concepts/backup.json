@@ -1,0 +1,10 @@
+{
+  "id": "backup",
+  "name": "backup",
+  "summaryMd": "数据备份以便恢复。",
+  "aliases": [
+    "备份",
+    "快照",
+    "snapshot"
+  ]
+}

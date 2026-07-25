@@ -1,0 +1,9 @@
+{
+  "id": "microservices",
+  "name": "microservices",
+  "summaryMd": "按业务边界拆成可独立部署的服务。",
+  "aliases": [
+    "微服务",
+    "Microservices"
+  ]
+}

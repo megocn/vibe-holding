@@ -1,0 +1,10 @@
+{
+  "id": "graceful-degradation",
+  "name": "graceful degradation",
+  "summaryMd": "部分依赖故障时降级功能，保住核心路径。",
+  "aliases": [
+    "优雅降级",
+    "降级",
+    "Graceful Degradation"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "time-series",
+  "name": "time-series",
+  "summaryMd": "按时间戳优化写入与查询的时序数据。",
+  "aliases": [
+    "时序",
+    "TSDB",
+    "Time Series"
+  ]
+}

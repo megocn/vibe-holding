@@ -1,0 +1,9 @@
+{
+  "id": "graph-workflow",
+  "name": "graph workflow",
+  "summaryMd": "用图（节点/边）描述分支、循环与状态的工作流。",
+  "aliases": [
+    "Graph Workflow",
+    "图工作流"
+  ]
+}

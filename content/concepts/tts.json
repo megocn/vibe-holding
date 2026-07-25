@@ -1,0 +1,10 @@
+{
+  "id": "tts",
+  "name": "TTS",
+  "summaryMd": "文本转语音合成。",
+  "aliases": [
+    "语音合成",
+    "text to speech",
+    "Text-to-Speech"
+  ]
+}

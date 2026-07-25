@@ -1,0 +1,8 @@
+{
+  "id": "cpu",
+  "name": "CPU",
+  "summaryMd": "中央处理器。",
+  "aliases": [
+    "Central Processing Unit"
+  ]
+}

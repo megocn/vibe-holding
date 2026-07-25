@@ -1,0 +1,10 @@
+{
+  "id": "runbook",
+  "name": "runbook",
+  "summaryMd": "事故处理步骤手册，降低临场决策成本。",
+  "aliases": [
+    "运行手册",
+    "Runbook",
+    "预案"
+  ]
+}

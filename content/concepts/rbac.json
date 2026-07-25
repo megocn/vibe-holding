@@ -1,0 +1,9 @@
+{
+  "id": "rbac",
+  "name": "RBAC",
+  "summaryMd": "基于角色的访问控制：权限绑到角色再赋给用户。",
+  "aliases": [
+    "基于角色的访问控制",
+    "Role-Based Access Control"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "orchestrator",
+  "name": "orchestrator",
+  "summaryMd": "负责任务分解、调度与汇聚结果的编排层。",
+  "aliases": [
+    "编排",
+    "Orchestrator"
+  ]
+}

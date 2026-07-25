@@ -1,0 +1,9 @@
+{
+  "id": "hotspot",
+  "name": "hotspot",
+  "summaryMd": "流量或数据过度集中在少数分区/键。",
+  "aliases": [
+    "热点",
+    "Hotspot"
+  ]
+}

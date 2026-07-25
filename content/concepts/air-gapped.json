@@ -1,0 +1,10 @@
+{
+  "id": "air-gapped",
+  "name": "air-gapped",
+  "summaryMd": "与公网物理或逻辑隔离的部署环境。",
+  "aliases": [
+    "air gapped",
+    "气隙",
+    "Air-gapped"
+  ]
+}

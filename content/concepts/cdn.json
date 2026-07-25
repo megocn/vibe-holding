@@ -1,0 +1,9 @@
+{
+  "id": "cdn",
+  "name": "CDN",
+  "summaryMd": "把静态/缓存内容分发到边缘节点，加速访问。",
+  "aliases": [
+    "内容分发网络",
+    "Content Delivery Network"
+  ]
+}

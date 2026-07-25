@@ -1,0 +1,8 @@
+{
+  "id": "typed-agent",
+  "name": "typed agent",
+  "summaryMd": "用类型系统约束 Agent 输入输出与依赖的写法，降低运行时出错。",
+  "aliases": [
+    "Typed Agent"
+  ]
+}

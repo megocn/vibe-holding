@@ -1,0 +1,9 @@
+{
+  "id": "retry",
+  "name": "retry",
+  "summaryMd": "失败后再次尝试；需配合退避与幂等。",
+  "aliases": [
+    "重试",
+    "Retry"
+  ]
+}

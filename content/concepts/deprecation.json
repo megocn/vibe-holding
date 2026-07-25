@@ -1,0 +1,9 @@
+{
+  "id": "deprecation",
+  "name": "deprecation",
+  "summaryMd": "宣布某 API 将被移除，给迁移缓冲期。",
+  "aliases": [
+    "弃用",
+    "Deprecation"
+  ]
+}

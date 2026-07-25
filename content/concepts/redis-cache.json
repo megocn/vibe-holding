@@ -1,0 +1,9 @@
+{
+  "id": "redis-cache",
+  "name": "in-memory",
+  "summaryMd": "内存中的数据结构存储，极低延迟。",
+  "aliases": [
+    "内存缓存",
+    "In-Memory"
+  ]
+}

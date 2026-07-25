@@ -1,0 +1,10 @@
+{
+  "id": "audit-log",
+  "name": "audit log",
+  "summaryMd": "记录谁在何时对何资源做了何操作，便于追责。",
+  "aliases": [
+    "审计日志",
+    "audit trail",
+    "Audit Log"
+  ]
+}

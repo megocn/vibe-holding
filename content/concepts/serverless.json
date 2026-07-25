@@ -1,6 +1,9 @@
 {
   "id": "serverless",
   "name": "Serverless",
-  "summaryMd": "按需计费、免运维服务器的计算范式。",
-  "aliases": []
+  "summaryMd": "按请求计费、免管服务器的运行形态。",
+  "aliases": [
+    "无服务器",
+    "FaaS"
+  ]
 }

@@ -1,0 +1,9 @@
+{
+  "id": "esm",
+  "name": "ESM",
+  "summaryMd": "ECMAScript 模块系统（import/export）。",
+  "aliases": [
+    "ES Modules",
+    "ES Module"
+  ]
+}

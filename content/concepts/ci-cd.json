@@ -1,0 +1,13 @@
+{
+  "id": "ci-cd",
+  "name": "CI/CD",
+  "summaryMd": "持续集成与持续交付/部署的自动化流水线。",
+  "aliases": [
+    "持续集成",
+    "持续交付",
+    "持续部署",
+    "continuous integration",
+    "continuous delivery",
+    "continuous deployment"
+  ]
+}

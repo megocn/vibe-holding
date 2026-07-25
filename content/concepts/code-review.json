@@ -1,0 +1,9 @@
+{
+  "id": "code-review",
+  "name": "code review",
+  "summaryMd": "同行审查变更质量、设计与风险。",
+  "aliases": [
+    "代码评审",
+    "Code Review"
+  ]
+}

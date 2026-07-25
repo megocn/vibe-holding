@@ -1,0 +1,8 @@
+{
+  "id": "blob",
+  "name": "blob",
+  "summaryMd": "二进制大对象，常指文件类数据。",
+  "aliases": [
+    "Blob"
+  ]
+}

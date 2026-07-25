@@ -1,0 +1,10 @@
+{
+  "id": "zero-config",
+  "name": "zero-config",
+  "summaryMd": "约定默认即可运行，少写配置。",
+  "aliases": [
+    "零配置",
+    "Zero-config",
+    "zero config"
+  ]
+}

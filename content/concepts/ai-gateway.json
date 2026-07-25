@@ -1,0 +1,9 @@
+{
+  "id": "ai-gateway",
+  "name": "AI gateway",
+  "summaryMd": "统一接入多模型的代理层，常含路由、限流、观测与缓存。",
+  "aliases": [
+    "LLM gateway",
+    "AI Gateway"
+  ]
+}

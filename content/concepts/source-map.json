@@ -1,0 +1,10 @@
+{
+  "id": "source-map",
+  "name": "source map",
+  "summaryMd": "把压缩/转译后的代码映射回源码位置。",
+  "aliases": [
+    "Source Map",
+    "sourcemap",
+    "源映射"
+  ]
+}

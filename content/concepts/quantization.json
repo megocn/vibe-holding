@@ -1,0 +1,11 @@
+{
+  "id": "quantization",
+  "name": "quantization",
+  "summaryMd": "降低权重数值精度以减小模型体积与加速推理。",
+  "aliases": [
+    "量化",
+    "Quantization",
+    "INT8",
+    "INT4"
+  ]
+}

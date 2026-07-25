@@ -1,0 +1,9 @@
+{
+  "id": "cron",
+  "name": "cron",
+  "summaryMd": "按时间表达式周期触发任务。",
+  "aliases": [
+    "Cron",
+    "定时任务"
+  ]
+}

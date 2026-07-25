@@ -1,0 +1,11 @@
+{
+  "id": "hmr",
+  "name": "HMR",
+  "summaryMd": "热模块替换：改码后局部更新而不丢状态。",
+  "aliases": [
+    "Hot Module Replacement",
+    "热更新",
+    "热重载",
+    "hot reload"
+  ]
+}

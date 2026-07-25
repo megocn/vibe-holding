@@ -1,0 +1,9 @@
+{
+  "id": "session",
+  "name": "session",
+  "summaryMd": "服务端或客户端维护的登录会话状态。",
+  "aliases": [
+    "会话",
+    "Session"
+  ]
+}

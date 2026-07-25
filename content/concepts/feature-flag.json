@@ -1,0 +1,13 @@
+{
+  "id": "feature-flag",
+  "name": "feature flag",
+  "summaryMd": "运行时开关特性，用于灰度与快速关闭。",
+  "aliases": [
+    "特性开关",
+    "feature flags",
+    "feature toggle",
+    "Feature Flag",
+    "特性标志",
+    "灰度"
+  ]
+}

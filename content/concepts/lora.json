@@ -1,0 +1,9 @@
+{
+  "id": "lora",
+  "name": "LoRA",
+  "summaryMd": "低秩适配：用少量可训练参数做高效微调。",
+  "aliases": [
+    "QLoRA",
+    "PEFT"
+  ]
+}

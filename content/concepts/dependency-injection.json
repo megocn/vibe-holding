@@ -1,0 +1,9 @@
+{
+  "id": "dependency-injection",
+  "name": "dependency injection",
+  "summaryMd": "把依赖从外部注入组件，便于测试与替换实现（常缩写 DI）。",
+  "aliases": [
+    "DI",
+    "依赖注入"
+  ]
+}

@@ -351,6 +351,57 @@ span.vh-mono,
   margin: 0 0 0.55em;
 }
 
+.vh-concept-term {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+  font: inherit;
+  color: var(--pigment-primary);
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-underline-offset: 0.18em;
+  cursor: pointer;
+}
+.vh-concept-term:hover {
+  color: var(--ink-1);
+}
+.vh-concept-term:focus-visible {
+  outline: 2px solid var(--pigment-primary);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.vh-concept-pop {
+  position: fixed;
+  z-index: 80;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--paper-0);
+  box-shadow: var(--shadow-md, var(--shadow-sm));
+  color: var(--ink-1);
+}
+.vh-concept-pop-title {
+  font-family: var(--font-display);
+  font-size: 15px;
+  letter-spacing: 0.02em;
+  color: var(--ink-1);
+  margin-bottom: 4px;
+}
+.vh-concept-pop-aliases {
+  font-size: var(--text-caption);
+  color: var(--ink-3);
+  margin-bottom: 8px;
+  line-height: 1.4;
+}
+.vh-concept-pop-body {
+  font-size: var(--text-sm);
+  line-height: 1.55;
+  color: var(--ink-2);
+}
+
 .vh-section-title {
   font-family: var(--font-display);
   font-size: 16px;

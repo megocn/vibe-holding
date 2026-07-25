@@ -1,0 +1,8 @@
+{
+  "id": "pwa",
+  "name": "PWA",
+  "summaryMd": "渐进式 Web 应用：可安装、可离线等能力。",
+  "aliases": [
+    "Progressive Web App"
+  ]
+}

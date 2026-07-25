@@ -1,0 +1,10 @@
+{
+  "id": "base-consistency",
+  "name": "BASE",
+  "summaryMd": "基本可用、软状态、最终一致的分布式取向。",
+  "aliases": [
+    "最终一致性",
+    "eventual consistency",
+    "Eventually Consistent"
+  ]
+}

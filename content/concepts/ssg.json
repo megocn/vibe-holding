@@ -1,0 +1,10 @@
+{
+  "id": "ssg",
+  "name": "SSG",
+  "summaryMd": "静态站点生成：构建期产出 HTML。",
+  "aliases": [
+    "静态生成",
+    "Static Site Generation",
+    "静态站点生成"
+  ]
+}

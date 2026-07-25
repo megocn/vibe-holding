@@ -1,0 +1,10 @@
+{
+  "id": "ssr",
+  "name": "SSR",
+  "summaryMd": "服务端渲染：在服务器生成 HTML 再发给浏览器。",
+  "aliases": [
+    "服务端渲染",
+    "Server-Side Rendering",
+    "服务器端渲染"
+  ]
+}

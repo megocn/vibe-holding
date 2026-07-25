@@ -1,8 +1,10 @@
 {
   "id": "rls",
-  "name": "Row Level Security",
-  "summaryMd": "数据库行级安全策略，常见于 Postgres/Supabase。",
+  "name": "RLS",
+  "summaryMd": "行级安全：在数据库层按策略过滤行可见性。",
   "aliases": [
-    "RLS"
+    "Row-Level Security",
+    "Row Level Security",
+    "行级权限"
   ]
 }

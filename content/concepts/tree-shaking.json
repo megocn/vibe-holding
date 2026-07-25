@@ -1,0 +1,10 @@
+{
+  "id": "tree-shaking",
+  "name": "tree shaking",
+  "summaryMd": "打包时剔除未使用导出，减小体积。",
+  "aliases": [
+    "摇树优化",
+    "Tree Shaking",
+    "tree-shake"
+  ]
+}

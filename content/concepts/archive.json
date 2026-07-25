@@ -1,0 +1,8 @@
+{
+  "id": "archive",
+  "name": "archive",
+  "summaryMd": "把冷数据转到低成本存储。",
+  "aliases": [
+    "归档"
+  ]
+}

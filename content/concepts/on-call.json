@@ -1,0 +1,9 @@
+{
+  "id": "on-call",
+  "name": "on-call",
+  "summaryMd": "轮值响应告警与事故的值班制度。",
+  "aliases": [
+    "值班",
+    "On-call"
+  ]
+}

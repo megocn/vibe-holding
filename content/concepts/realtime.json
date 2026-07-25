@@ -1,0 +1,10 @@
+{
+  "id": "realtime",
+  "name": "Realtime",
+  "summaryMd": "低延迟双向流式交互（音视频/对话）。",
+  "aliases": [
+    "realtime",
+    "实时音视频",
+    "Realtime API"
+  ]
+}

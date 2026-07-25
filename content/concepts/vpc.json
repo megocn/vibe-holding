@@ -1,0 +1,8 @@
+{
+  "id": "vpc",
+  "name": "VPC",
+  "summaryMd": "云上逻辑隔离的私有网络。",
+  "aliases": [
+    "Virtual Private Cloud"
+  ]
+}

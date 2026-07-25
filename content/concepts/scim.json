@@ -1,0 +1,8 @@
+{
+  "id": "scim",
+  "name": "SCIM",
+  "summaryMd": "自动化开通/同步用户与组的标准协议。",
+  "aliases": [
+    "System for Cross-domain Identity Management"
+  ]
+}

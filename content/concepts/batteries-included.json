@@ -1,0 +1,9 @@
+{
+  "id": "batteries-included",
+  "name": "batteries included",
+  "summaryMd": "框架自带常用能力，减少拼装。",
+  "aliases": [
+    "开箱即用",
+    "Batteries Included"
+  ]
+}

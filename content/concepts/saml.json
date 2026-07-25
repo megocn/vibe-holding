@@ -1,0 +1,8 @@
+{
+  "id": "saml",
+  "name": "SAML",
+  "summaryMd": "企业联邦登录常用的 XML 断言协议。",
+  "aliases": [
+    "Security Assertion Markup Language"
+  ]
+}

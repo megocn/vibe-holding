@@ -1,0 +1,10 @@
+{
+  "id": "context-window",
+  "name": "context window",
+  "summaryMd": "模型单次能处理的最大上下文长度（含提示与历史）。",
+  "aliases": [
+    "上下文窗口",
+    "context length",
+    "上下文长度"
+  ]
+}

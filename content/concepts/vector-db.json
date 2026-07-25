@@ -1,0 +1,10 @@
+{
+  "id": "vector-db",
+  "name": "vector database",
+  "summaryMd": "专为向量相似度检索优化的数据库或索引服务。",
+  "aliases": [
+    "向量数据库",
+    "vector db",
+    "Vector DB"
+  ]
+}

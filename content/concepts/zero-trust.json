@@ -1,0 +1,9 @@
+{
+  "id": "zero-trust",
+  "name": "zero trust",
+  "summaryMd": "默认不信任内外网络，持续验证身份与设备。",
+  "aliases": [
+    "零信任",
+    "Zero Trust"
+  ]
+}

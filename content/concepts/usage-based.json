@@ -1,0 +1,11 @@
+{
+  "id": "usage-based",
+  "name": "usage-based",
+  "summaryMd": "按实际用量计费。",
+  "aliases": [
+    "按量计费",
+    "usage based",
+    "pay as you go",
+    "Pay-as-you-go"
+  ]
+}

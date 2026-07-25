@@ -1,0 +1,10 @@
+{
+  "id": "mfa",
+  "name": "MFA",
+  "summaryMd": "多因素认证，降低凭据泄露风险。",
+  "aliases": [
+    "2FA",
+    "双因素",
+    "Multi-Factor Authentication"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "type-safety",
+  "name": "type safety",
+  "summaryMd": "用类型系统在编译期捕获错误。",
+  "aliases": [
+    "类型安全",
+    "type-safe",
+    "Type Safety",
+    "端到端类型"
+  ]
+}

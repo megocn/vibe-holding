@@ -1,0 +1,8 @@
+{
+  "id": "gitops",
+  "name": "GitOps",
+  "summaryMd": "以 Git 为真相源驱动集群与环境变更。",
+  "aliases": [
+    "GitOps"
+  ]
+}

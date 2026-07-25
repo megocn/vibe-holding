@@ -1,0 +1,8 @@
+{
+  "id": "gdpr",
+  "name": "GDPR",
+  "summaryMd": "欧盟通用数据保护条例，约束个人数据处理。",
+  "aliases": [
+    "General Data Protection Regulation"
+  ]
+}

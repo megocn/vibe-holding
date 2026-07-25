@@ -1,0 +1,6 @@
+{
+  "id": "graphql",
+  "name": "GraphQL",
+  "summaryMd": "客户端按需声明字段的查询语言与运行时。",
+  "aliases": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "oidc",
+  "name": "OIDC",
+  "summaryMd": "基于 OAuth 的身份层，用于登录与用户信息。",
+  "aliases": [
+    "OpenID Connect",
+    "OpenID"
+  ]
+}

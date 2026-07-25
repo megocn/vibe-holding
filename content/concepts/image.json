@@ -1,0 +1,9 @@
+{
+  "id": "image",
+  "name": "image",
+  "summaryMd": "容器或虚机的不可变构建产物。",
+  "aliases": [
+    "镜像",
+    "Container Image"
+  ]
+}

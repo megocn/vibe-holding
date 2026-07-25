@@ -1,0 +1,9 @@
+{
+  "id": "timeout",
+  "name": "timeout",
+  "summaryMd": "超过时限则放弃等待，释放资源。",
+  "aliases": [
+    "超时",
+    "Timeout"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "object-storage",
+  "name": "object storage",
+  "summaryMd": "按对象存取的海量廉价存储（如 S3 兼容）。",
+  "aliases": [
+    "对象存储",
+    "Object Storage",
+    "blob storage"
+  ]
+}

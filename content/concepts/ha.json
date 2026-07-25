@@ -1,0 +1,9 @@
+{
+  "id": "ha",
+  "name": "HA",
+  "summaryMd": "高可用：通过冗余与故障转移减少停机。",
+  "aliases": [
+    "高可用",
+    "High Availability"
+  ]
+}

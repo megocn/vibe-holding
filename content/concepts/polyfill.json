@@ -1,0 +1,9 @@
+{
+  "id": "polyfill",
+  "name": "polyfill",
+  "summaryMd": "用代码补齐旧环境缺失的新 API。",
+  "aliases": [
+    "垫片",
+    "Polyfill"
+  ]
+}

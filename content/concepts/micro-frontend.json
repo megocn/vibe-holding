@@ -1,0 +1,10 @@
+{
+  "id": "micro-frontend",
+  "name": "micro-frontend",
+  "summaryMd": "把前端拆成可独立部署的子应用。",
+  "aliases": [
+    "微前端",
+    "micro frontend",
+    "Micro Frontend"
+  ]
+}

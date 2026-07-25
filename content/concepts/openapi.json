@@ -1,0 +1,9 @@
+{
+  "id": "openapi",
+  "name": "OpenAPI",
+  "summaryMd": "描述 HTTP API 的标准规范（原 Swagger）。",
+  "aliases": [
+    "Swagger",
+    "OpenAPI Spec"
+  ]
+}

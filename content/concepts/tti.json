@@ -1,0 +1,9 @@
+{
+  "id": "tti",
+  "name": "TTI",
+  "summaryMd": "Time to Interactive：页面可稳定交互的时间。",
+  "aliases": [
+    "可交互时间",
+    "Time to Interactive"
+  ]
+}

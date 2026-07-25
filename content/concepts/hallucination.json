@@ -1,0 +1,9 @@
+{
+  "id": "hallucination",
+  "name": "hallucination",
+  "summaryMd": "模型一本正经地编造事实或引用，看似可信却不真实。",
+  "aliases": [
+    "幻觉",
+    "Hallucination"
+  ]
+}

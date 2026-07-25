@@ -1,0 +1,9 @@
+{
+  "id": "failover",
+  "name": "failover",
+  "summaryMd": "主故障时自动或手动切到备系统。",
+  "aliases": [
+    "故障转移",
+    "Failover"
+  ]
+}

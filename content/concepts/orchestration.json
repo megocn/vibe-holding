@@ -1,0 +1,8 @@
+{
+  "id": "orchestration",
+  "name": "orchestration",
+  "summaryMd": "对多组件部署、调度与生命周期的自动化管理。",
+  "aliases": [
+    "编排调度"
+  ]
+}

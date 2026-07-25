@@ -1,0 +1,8 @@
+{
+  "id": "cookie",
+  "name": "cookie",
+  "summaryMd": "浏览器存储并由请求自动携带的小段数据。",
+  "aliases": [
+    "Cookie"
+  ]
+}

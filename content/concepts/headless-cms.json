@@ -1,0 +1,9 @@
+{
+  "id": "headless-cms",
+  "name": "headless CMS",
+  "summaryMd": "内容头尾分离，经 API 供多端消费。",
+  "aliases": [
+    "Headless CMS",
+    "无头 CMS"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "sharding",
+  "name": "sharding",
+  "summaryMd": "按键把数据水平拆到多个分片。",
+  "aliases": [
+    "分片",
+    "分库分表",
+    "Sharding",
+    "partitioning"
+  ]
+}

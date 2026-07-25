@@ -1,0 +1,10 @@
+{
+  "id": "full-text-search",
+  "name": "full-text search",
+  "summaryMd": "对文本建倒排索引以支持关键词检索。",
+  "aliases": [
+    "全文检索",
+    "full text search",
+    "Full-Text Search"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "metrics",
+  "name": "metrics",
+  "summaryMd": "可聚合的数值指标（QPS、延迟、错误率等）。",
+  "aliases": [
+    "指标",
+    "Metrics"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "k8s",
+  "name": "Kubernetes",
+  "summaryMd": "容器编排平台，管理部署、扩缩与自愈。",
+  "aliases": [
+    "K8s",
+    "k8s"
+  ]
+}

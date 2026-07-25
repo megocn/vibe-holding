@@ -1,0 +1,10 @@
+{
+  "id": "few-shot",
+  "name": "few-shot",
+  "summaryMd": "在提示中给出少量示例，引导模型按同样模式作答。",
+  "aliases": [
+    "少样本",
+    "few shot",
+    "Few-shot"
+  ]
+}

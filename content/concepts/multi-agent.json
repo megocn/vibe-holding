@@ -1,0 +1,10 @@
+{
+  "id": "multi-agent",
+  "name": "multi-agent",
+  "summaryMd": "多个 Agent 分工协作完成复杂任务。",
+  "aliases": [
+    "多智能体",
+    "multi agent",
+    "Multi-agent"
+  ]
+}

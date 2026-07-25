@@ -1,0 +1,11 @@
+{
+  "id": "logging",
+  "name": "logging",
+  "summaryMd": "事件与诊断信息的记录与聚合。",
+  "aliases": [
+    "日志",
+    "log aggregation",
+    "结构化日志",
+    "structured logging"
+  ]
+}

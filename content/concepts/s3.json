@@ -1,0 +1,9 @@
+{
+  "id": "s3",
+  "name": "S3",
+  "summaryMd": "对象存储 API 事实标准（源自 AWS S3）。",
+  "aliases": [
+    "S3-compatible",
+    "S3 兼容"
+  ]
+}

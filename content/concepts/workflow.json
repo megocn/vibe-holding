@@ -1,0 +1,9 @@
+{
+  "id": "workflow",
+  "name": "workflow",
+  "summaryMd": "把多步任务编排成可复用、可观测的流程。",
+  "aliases": [
+    "工作流",
+    "Workflow"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "lazy-loading",
+  "name": "lazy loading",
+  "summaryMd": "用到时再加载资源或组件。",
+  "aliases": [
+    "懒加载",
+    "Lazy Loading"
+  ]
+}

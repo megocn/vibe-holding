@@ -1,0 +1,9 @@
+{
+  "id": "strong-consistency",
+  "name": "strong consistency",
+  "summaryMd": "读立刻反映最新已提交写。",
+  "aliases": [
+    "强一致性",
+    "Strong Consistency"
+  ]
+}

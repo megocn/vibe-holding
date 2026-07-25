@@ -1,0 +1,8 @@
+{
+  "id": "hybrid-cloud",
+  "name": "混合云",
+  "summaryMd": "公有云与私有环境组合使用。",
+  "aliases": [
+    "混合云"
+  ]
+}

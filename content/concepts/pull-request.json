@@ -1,0 +1,11 @@
+{
+  "id": "pull-request",
+  "name": "pull request",
+  "summaryMd": "提出合并变更并触发评审与 CI 的协作单元。",
+  "aliases": [
+    "merge request",
+    "合并请求",
+    "Pull Request",
+    "拉取请求"
+  ]
+}

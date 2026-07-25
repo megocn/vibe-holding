@@ -1,0 +1,9 @@
+{
+  "id": "sbom",
+  "name": "SBOM",
+  "summaryMd": "软件物料清单：列出组件与版本以便审计。",
+  "aliases": [
+    "Software Bill of Materials",
+    "软件物料清单"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "large-language-model",
+  "name": "LLM",
+  "summaryMd": "大语言模型：以文本生成与理解为中心的通用 AI 模型。",
+  "aliases": [
+    "大语言模型",
+    "Large Language Model"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "vendor-lock-in",
+  "name": "vendor lock-in",
+  "summaryMd": "深度绑定某一厂商后迁移成本很高。",
+  "aliases": [
+    "厂商锁定",
+    "Vendor Lock-in",
+    "vendor lock in"
+  ]
+}

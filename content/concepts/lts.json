@@ -1,0 +1,9 @@
+{
+  "id": "lts",
+  "name": "LTS",
+  "summaryMd": "长期支持版本，适合生产依赖。",
+  "aliases": [
+    "长期支持",
+    "Long-Term Support"
+  ]
+}

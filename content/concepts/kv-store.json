@@ -1,0 +1,10 @@
+{
+  "id": "kv-store",
+  "name": "key-value",
+  "summaryMd": "以键取值的简单高速存储模型。",
+  "aliases": [
+    "KV",
+    "key value",
+    "Key-Value"
+  ]
+}

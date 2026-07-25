@@ -1,0 +1,9 @@
+{
+  "id": "reserved-instance",
+  "name": "reserved instance",
+  "summaryMd": "预留时长换更低单价的计费形态。",
+  "aliases": [
+    "预留实例",
+    "Reserved Instance"
+  ]
+}

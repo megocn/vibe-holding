@@ -1,0 +1,11 @@
+{
+  "id": "service-mesh",
+  "name": "service mesh",
+  "summaryMd": "用边车代理治理服务间流量、观测与安全。",
+  "aliases": [
+    "服务网格",
+    "Service Mesh",
+    "sidecar",
+    "边车"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "otel",
+  "name": "OpenTelemetry",
+  "summaryMd": "指标/日志/追踪的开放观测标准与 SDK。",
+  "aliases": [
+    "OTel",
+    "Open Telemetry",
+    "opentelemetry"
+  ]
+}

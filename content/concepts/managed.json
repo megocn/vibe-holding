@@ -1,0 +1,10 @@
+{
+  "id": "managed",
+  "name": "managed",
+  "summaryMd": "由厂商托管运维的服务形态。",
+  "aliases": [
+    "托管",
+    "托管服务",
+    "Managed"
+  ]
+}

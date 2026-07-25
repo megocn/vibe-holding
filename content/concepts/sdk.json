@@ -1,0 +1,8 @@
+{
+  "id": "sdk",
+  "name": "SDK",
+  "summaryMd": "软件开发工具包：集成某能力的库与文档。",
+  "aliases": [
+    "Software Development Kit"
+  ]
+}

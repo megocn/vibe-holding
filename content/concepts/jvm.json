@@ -1,0 +1,8 @@
+{
+  "id": "jvm",
+  "name": "JVM",
+  "summaryMd": "Java 虚拟机，运行 Java/Kotlin 等字节码。",
+  "aliases": [
+    "Java Virtual Machine"
+  ]
+}

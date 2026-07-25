@@ -1,0 +1,9 @@
+{
+  "id": "api-gateway",
+  "name": "API gateway",
+  "summaryMd": "统一入口做鉴权、限流、路由与协议转换。",
+  "aliases": [
+    "API Gateway",
+    "网关"
+  ]
+}

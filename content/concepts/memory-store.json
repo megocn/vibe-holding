@@ -1,0 +1,9 @@
+{
+  "id": "memory-store",
+  "name": "memory",
+  "summaryMd": "Agent 用来记住对话或长期事实的存储层。",
+  "aliases": [
+    "短期记忆",
+    "长期记忆"
+  ]
+}

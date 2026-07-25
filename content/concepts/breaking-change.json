@@ -1,0 +1,9 @@
+{
+  "id": "breaking-change",
+  "name": "breaking change",
+  "summaryMd": "不兼容旧用法的变更，通常需升主版本。",
+  "aliases": [
+    "破坏性变更",
+    "Breaking Change"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "cross-border-payment",
+  "name": "跨境支付",
+  "summaryMd": "资金跨境结算，涉及汇率、主体与合规。",
+  "aliases": [
+    "跨境收款"
+  ]
+}

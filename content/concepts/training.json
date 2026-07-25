@@ -1,0 +1,9 @@
+{
+  "id": "training",
+  "name": "training",
+  "summaryMd": "用数据优化模型参数的过程。",
+  "aliases": [
+    "训练",
+    "Training"
+  ]
+}

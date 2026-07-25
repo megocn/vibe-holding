@@ -1,0 +1,9 @@
+{
+  "id": "load-balancer",
+  "name": "load balancer",
+  "summaryMd": "把流量分摊到多实例，并可做健康检查。",
+  "aliases": [
+    "负载均衡",
+    "Load Balancer"
+  ]
+}

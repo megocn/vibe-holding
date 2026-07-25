@@ -1,0 +1,9 @@
+{
+  "id": "iac",
+  "name": "IaC",
+  "summaryMd": "基础设施即代码：用声明式配置管理云资源。",
+  "aliases": [
+    "Infrastructure as Code",
+    "基础设施即代码"
+  ]
+}

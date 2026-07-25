@@ -1,0 +1,9 @@
+{
+  "id": "wasm",
+  "name": "Wasm",
+  "summaryMd": "WebAssembly：可在浏览器与边缘运行的二进制格式。",
+  "aliases": [
+    "WebAssembly",
+    "WASM"
+  ]
+}

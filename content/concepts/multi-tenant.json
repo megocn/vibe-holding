@@ -1,0 +1,11 @@
+{
+  "id": "multi-tenant",
+  "name": "multi-tenant",
+  "summaryMd": "一套系统服务多个租户并隔离数据。",
+  "aliases": [
+    "多租户",
+    "multi tenant",
+    "Multi-tenant",
+    "租户隔离"
+  ]
+}

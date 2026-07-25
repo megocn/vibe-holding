@@ -1,0 +1,8 @@
+{
+  "id": "rag-pipeline",
+  "name": "RAG pipeline",
+  "summaryMd": "检索→（可选重排）→生成 的端到端流水线。",
+  "aliases": [
+    "RAG 流水线"
+  ]
+}

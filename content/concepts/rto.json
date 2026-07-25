@@ -1,0 +1,8 @@
+{
+  "id": "rto",
+  "name": "RTO",
+  "summaryMd": "恢复时间目标：故障后可接受的最长恢复时长。",
+  "aliases": [
+    "Recovery Time Objective"
+  ]
+}

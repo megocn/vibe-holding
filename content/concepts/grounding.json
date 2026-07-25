@@ -1,0 +1,9 @@
+{
+  "id": "grounding",
+  "name": "grounding",
+  "summaryMd": "把回答锚定在检索结果、工具输出等外部事实上，减少幻觉。",
+  "aliases": [
+    "接地",
+    "Grounding"
+  ]
+}

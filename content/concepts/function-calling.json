@@ -1,9 +1,11 @@
 {
   "id": "function-calling",
-  "name": "Function / Tool Calling",
-  "summaryMd": "模型按 schema 调用外部工具/函数的能力。",
+  "name": "function calling",
+  "summaryMd": "模型按约定发起工具/函数调用，由运行时执行后再回填。",
   "aliases": [
-    "Tool Calling",
-    "Tools"
+    "Function Calling",
+    "函数调用",
+    "tool calling",
+    "工具调用"
   ]
 }

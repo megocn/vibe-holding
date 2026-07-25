@@ -1,0 +1,9 @@
+{
+  "id": "rsc",
+  "name": "RSC",
+  "summaryMd": "React Server Components：在服务端跑的组件模型。",
+  "aliases": [
+    "React Server Components",
+    "服务端组件"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "structured-output",
+  "name": "structured output",
+  "summaryMd": "让模型按 JSON/Schema 等固定结构返回，便于程序消费。",
+  "aliases": [
+    "结构化输出",
+    "structured LLM output"
+  ]
+}

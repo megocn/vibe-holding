@@ -1,0 +1,10 @@
+{
+  "id": "tracing",
+  "name": "tracing",
+  "summaryMd": "跟踪一次请求跨服务的调用链。",
+  "aliases": [
+    "链路追踪",
+    "distributed tracing",
+    "Distributed Tracing"
+  ]
+}

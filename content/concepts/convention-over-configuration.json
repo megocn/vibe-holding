@@ -1,0 +1,9 @@
+{
+  "id": "convention-over-configuration",
+  "name": "convention over configuration",
+  "summaryMd": "用约定减少显式配置。",
+  "aliases": [
+    "约定优于配置",
+    "Convention over Configuration"
+  ]
+}

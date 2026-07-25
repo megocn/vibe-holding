@@ -1,0 +1,9 @@
+{
+  "id": "spa",
+  "name": "SPA",
+  "summaryMd": "单页应用：前端路由切换、少整页刷新。",
+  "aliases": [
+    "Single Page Application",
+    "单页应用"
+  ]
+}

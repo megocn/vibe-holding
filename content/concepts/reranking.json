@@ -1,0 +1,11 @@
+{
+  "id": "reranking",
+  "name": "reranking",
+  "summaryMd": "对初检候选再打分重排，提高最终相关性。",
+  "aliases": [
+    "重排序",
+    "reranker",
+    "Rerank",
+    "精排"
+  ]
+}

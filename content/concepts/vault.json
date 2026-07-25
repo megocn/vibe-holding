@@ -1,0 +1,9 @@
+{
+  "id": "vault",
+  "name": "vault",
+  "summaryMd": "密钥/机密保险库类服务的统称。",
+  "aliases": [
+    "密钥保险库",
+    "Secrets Vault"
+  ]
+}

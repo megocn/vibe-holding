@@ -1,0 +1,10 @@
+{
+  "id": "moderation",
+  "name": "moderation",
+  "summaryMd": "对有害、违规内容做自动或人工审核。",
+  "aliases": [
+    "内容审核",
+    "Content Moderation",
+    "内容安全"
+  ]
+}

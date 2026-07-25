@@ -1,0 +1,9 @@
+{
+  "id": "ttl",
+  "name": "TTL",
+  "summaryMd": "生存时间：缓存或记录自动过期的时长。",
+  "aliases": [
+    "Time To Live",
+    "过期时间"
+  ]
+}

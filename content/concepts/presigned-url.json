@@ -1,0 +1,11 @@
+{
+  "id": "presigned-url",
+  "name": "presigned URL",
+  "summaryMd": "带时限签名的直传/下载链接，无需暴露密钥。",
+  "aliases": [
+    "预签名",
+    "signed URL",
+    "Presigned URL",
+    "签名 URL"
+  ]
+}

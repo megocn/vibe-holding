@@ -1,0 +1,9 @@
+{
+  "id": "postgres",
+  "name": "Postgres",
+  "summaryMd": "PostgreSQL 关系库的常用简称。",
+  "aliases": [
+    "PostgreSQL",
+    "PG"
+  ]
+}

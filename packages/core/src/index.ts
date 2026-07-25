@@ -9,3 +9,4 @@ export * from './personal.ts';
 export * from './intel/index.ts';
 export * from './tutorial-platforms.ts';
 export * from './external-links.ts';
+export * from './concept-linkify.ts';

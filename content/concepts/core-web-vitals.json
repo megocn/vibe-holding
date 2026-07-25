@@ -1,0 +1,9 @@
+{
+  "id": "core-web-vitals",
+  "name": "Core Web Vitals",
+  "summaryMd": "Google 核心体验指标（LCP/INP/CLS 等）。",
+  "aliases": [
+    "核心网页指标",
+    "CWV"
+  ]
+}

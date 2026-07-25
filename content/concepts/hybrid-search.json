@@ -1,0 +1,10 @@
+{
+  "id": "hybrid-search",
+  "name": "hybrid search",
+  "summaryMd": "关键词（稀疏）与向量（稠密）检索结合，再融合排序。",
+  "aliases": [
+    "混合检索",
+    "hybrid retrieval",
+    "Hybrid Search"
+  ]
+}

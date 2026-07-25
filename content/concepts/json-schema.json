@@ -1,0 +1,8 @@
+{
+  "id": "json-schema",
+  "name": "JSON Schema",
+  "summaryMd": "描述与校验 JSON 结构的标准。",
+  "aliases": [
+    "Json Schema"
+  ]
+}

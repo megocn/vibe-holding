@@ -1,0 +1,9 @@
+{
+  "id": "az",
+  "name": "AZ",
+  "summaryMd": "Availability Zone：同地域内的独立故障域。",
+  "aliases": [
+    "可用区",
+    "Availability Zone"
+  ]
+}

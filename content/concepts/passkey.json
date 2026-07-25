@@ -1,0 +1,10 @@
+{
+  "id": "passkey",
+  "name": "passkey",
+  "summaryMd": "基于 WebAuthn/公钥的无密码登录凭证。",
+  "aliases": [
+    "Passkey",
+    "WebAuthn",
+    "通行密钥"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "guardrails",
+  "name": "guardrails",
+  "summaryMd": "对输入/输出做策略过滤与拦截，约束模型行为。",
+  "aliases": [
+    "护栏",
+    "Guardrails",
+    "guardrail"
+  ]
+}

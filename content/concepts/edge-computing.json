@@ -1,0 +1,8 @@
+{
+  "id": "edge-computing",
+  "name": "edge computing",
+  "summaryMd": "在靠近用户的边缘节点执行计算，降低延迟。",
+  "aliases": [
+    "边缘计算"
+  ]
+}

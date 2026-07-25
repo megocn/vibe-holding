@@ -1,0 +1,9 @@
+{
+  "id": "tokenizer",
+  "name": "tokenizer",
+  "summaryMd": "把文本切成模型可消费 token 的组件。",
+  "aliases": [
+    "分词器",
+    "Tokenizer"
+  ]
+}

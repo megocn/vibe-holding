@@ -1,0 +1,9 @@
+{
+  "id": "quota",
+  "name": "quota",
+  "summaryMd": "资源或调用量的配额上限。",
+  "aliases": [
+    "配额",
+    "Quota"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "pii",
+  "name": "PII",
+  "summaryMd": "个人身份信息，处理与存储常受合规约束。",
+  "aliases": [
+    "个人身份信息",
+    "Personally Identifiable Information"
+  ]
+}

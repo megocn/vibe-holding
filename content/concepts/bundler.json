@@ -1,0 +1,9 @@
+{
+  "id": "bundler",
+  "name": "bundler",
+  "summaryMd": "把模块打包为浏览器/运行时可加载产物。",
+  "aliases": [
+    "打包器",
+    "Bundler"
+  ]
+}

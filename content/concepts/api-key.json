@@ -1,0 +1,9 @@
+{
+  "id": "api-key",
+  "name": "API key",
+  "summaryMd": "标识调用方的密钥字符串，常用于服务端集成。",
+  "aliases": [
+    "API Key",
+    "api key"
+  ]
+}

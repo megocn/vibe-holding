@@ -1,0 +1,9 @@
+{
+  "id": "workspace",
+  "name": "workspace",
+  "summaryMd": "包管理器的多包工作区。",
+  "aliases": [
+    "工作区",
+    "Workspace"
+  ]
+}

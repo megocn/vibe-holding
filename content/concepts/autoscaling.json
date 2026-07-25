@@ -1,0 +1,12 @@
+{
+  "id": "autoscaling",
+  "name": "autoscaling",
+  "summaryMd": "按负载自动增减实例或算力。",
+  "aliases": [
+    "自动伸缩",
+    "auto scaling",
+    "Autoscaling",
+    "水平扩展",
+    "垂直扩展"
+  ]
+}

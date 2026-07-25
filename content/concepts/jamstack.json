@@ -1,0 +1,8 @@
+{
+  "id": "jamstack",
+  "name": "JAMstack",
+  "summaryMd": "预渲染 + CDN + API/无服务器的架构取向。",
+  "aliases": [
+    "Jamstack"
+  ]
+}

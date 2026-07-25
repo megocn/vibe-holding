@@ -1,0 +1,10 @@
+{
+  "id": "o11y",
+  "name": "observability",
+  "summaryMd": "通过日志、指标、追踪理解系统内部状态。",
+  "aliases": [
+    "可观测性",
+    "Observability",
+    "o11y"
+  ]
+}

@@ -1,8 +1,9 @@
 {
   "id": "icp",
   "name": "ICP 备案",
-  "summaryMd": "中国大陆网站托管需完成的工信部备案要求。",
+  "summaryMd": "中国大陆网站上线前的备案合规要求。",
   "aliases": [
+    "ICP",
     "备案"
   ]
 }

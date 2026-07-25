@@ -40848,6 +40848,499 @@
   ],
   "concepts": [
     {
+      "id": "a11y",
+      "name": "a11y",
+      "summaryMd": "无障碍访问：让残障用户也能使用产品。",
+      "aliases": [
+        "无障碍",
+        "Accessibility"
+      ]
+    },
+    {
+      "id": "acid",
+      "name": "ACID",
+      "summaryMd": "事务四要素：原子性、一致性、隔离性、持久性。",
+      "aliases": []
+    },
+    {
+      "id": "adapter",
+      "name": "adapter",
+      "summaryMd": "适配层：隔离第三方差异，便于替换实现。",
+      "aliases": [
+        "适配器",
+        "Adapter"
+      ]
+    },
+    {
+      "id": "agent",
+      "name": "Agent",
+      "summaryMd": "能调用工具、规划步骤并自主完成任务的 AI 代理形态。",
+      "aliases": [
+        "AI Agent",
+        "智能体"
+      ]
+    },
+    {
+      "id": "ai-gateway",
+      "name": "AI gateway",
+      "summaryMd": "统一接入多模型的代理层，常含路由、限流、观测与缓存。",
+      "aliases": [
+        "LLM gateway",
+        "AI Gateway"
+      ]
+    },
+    {
+      "id": "air-gapped",
+      "name": "air-gapped",
+      "summaryMd": "与公网物理或逻辑隔离的部署环境。",
+      "aliases": [
+        "air gapped",
+        "气隙",
+        "Air-gapped"
+      ]
+    },
+    {
+      "id": "api-gateway",
+      "name": "API gateway",
+      "summaryMd": "统一入口做鉴权、限流、路由与协议转换。",
+      "aliases": [
+        "API Gateway",
+        "网关"
+      ]
+    },
+    {
+      "id": "api-key",
+      "name": "API key",
+      "summaryMd": "标识调用方的密钥字符串，常用于服务端集成。",
+      "aliases": [
+        "API Key",
+        "api key"
+      ]
+    },
+    {
+      "id": "archive",
+      "name": "archive",
+      "summaryMd": "把冷数据转到低成本存储。",
+      "aliases": [
+        "归档"
+      ]
+    },
+    {
+      "id": "asr",
+      "name": "ASR",
+      "summaryMd": "自动语音识别：语音转文本。",
+      "aliases": [
+        "语音识别",
+        "STT",
+        "speech to text",
+        "Speech-to-Text"
+      ]
+    },
+    {
+      "id": "audit-log",
+      "name": "audit log",
+      "summaryMd": "记录谁在何时对何资源做了何操作，便于追责。",
+      "aliases": [
+        "审计日志",
+        "audit trail",
+        "Audit Log"
+      ]
+    },
+    {
+      "id": "autoscaling",
+      "name": "autoscaling",
+      "summaryMd": "按负载自动增减实例或算力。",
+      "aliases": [
+        "自动伸缩",
+        "auto scaling",
+        "Autoscaling",
+        "水平扩展",
+        "垂直扩展"
+      ]
+    },
+    {
+      "id": "az",
+      "name": "AZ",
+      "summaryMd": "Availability Zone：同地域内的独立故障域。",
+      "aliases": [
+        "可用区",
+        "Availability Zone"
+      ]
+    },
+    {
+      "id": "b2b",
+      "name": "B2B",
+      "summaryMd": "企业对企业的销售与交付模式。",
+      "aliases": [
+        "Business-to-Business"
+      ]
+    },
+    {
+      "id": "baas",
+      "name": "BaaS",
+      "summaryMd": "后端即服务：认证、数据库、存储等开箱后端能力。",
+      "aliases": [
+        "后端即服务",
+        "Backend as a Service"
+      ]
+    },
+    {
+      "id": "backup",
+      "name": "backup",
+      "summaryMd": "数据备份以便恢复。",
+      "aliases": [
+        "备份",
+        "快照",
+        "snapshot"
+      ]
+    },
+    {
+      "id": "bandwidth",
+      "name": "带宽",
+      "summaryMd": "单位时间可传输的数据量上限。",
+      "aliases": []
+    },
+    {
+      "id": "base-consistency",
+      "name": "BASE",
+      "summaryMd": "基本可用、软状态、最终一致的分布式取向。",
+      "aliases": [
+        "最终一致性",
+        "eventual consistency",
+        "Eventually Consistent"
+      ]
+    },
+    {
+      "id": "batteries-included",
+      "name": "batteries included",
+      "summaryMd": "框架自带常用能力，减少拼装。",
+      "aliases": [
+        "开箱即用",
+        "Batteries Included"
+      ]
+    },
+    {
+      "id": "benchmark",
+      "name": "benchmark",
+      "summaryMd": "用标准场景测性能对比。",
+      "aliases": [
+        "基准测试",
+        "Benchmark"
+      ]
+    },
+    {
+      "id": "billing",
+      "name": "计费",
+      "summaryMd": "用量统计与收费模型。",
+      "aliases": []
+    },
+    {
+      "id": "blob",
+      "name": "blob",
+      "summaryMd": "二进制大对象，常指文件类数据。",
+      "aliases": [
+        "Blob"
+      ]
+    },
+    {
+      "id": "bm25",
+      "name": "BM25",
+      "summaryMd": "经典稀疏检索打分函数，适合关键词匹配。",
+      "aliases": []
+    },
+    {
+      "id": "breaking-change",
+      "name": "breaking change",
+      "summaryMd": "不兼容旧用法的变更，通常需升主版本。",
+      "aliases": [
+        "破坏性变更",
+        "Breaking Change"
+      ]
+    },
+    {
+      "id": "bundler",
+      "name": "bundler",
+      "summaryMd": "把模块打包为浏览器/运行时可加载产物。",
+      "aliases": [
+        "打包器",
+        "Bundler"
+      ]
+    },
+    {
+      "id": "cache",
+      "name": "cache",
+      "summaryMd": "用更快介质保存热点数据以降低延迟与负载。",
+      "aliases": [
+        "缓存",
+        "Cache"
+      ]
+    },
+    {
+      "id": "cdc",
+      "name": "CDC",
+      "summaryMd": "变更数据捕获：持续捕获库表变更流。",
+      "aliases": [
+        "Change Data Capture",
+        "change data capture",
+        "变更数据捕获"
+      ]
+    },
+    {
+      "id": "cdn-cache",
+      "name": "CDN cache",
+      "summaryMd": "边缘节点上的内容缓存层。",
+      "aliases": [
+        "CDN 缓存"
+      ]
+    },
+    {
+      "id": "cdn",
+      "name": "CDN",
+      "summaryMd": "把静态/缓存内容分发到边缘节点，加速访问。",
+      "aliases": [
+        "内容分发网络",
+        "Content Delivery Network"
+      ]
+    },
+    {
+      "id": "china-accessible",
+      "name": "国内直连",
+      "summaryMd": "从中国大陆网络可不经特殊手段直接访问。",
+      "aliases": [
+        "国内直连受限",
+        "China accessible"
+      ]
+    },
+    {
+      "id": "ci-cd",
+      "name": "CI/CD",
+      "summaryMd": "持续集成与持续交付/部署的自动化流水线。",
+      "aliases": [
+        "持续集成",
+        "持续交付",
+        "持续部署",
+        "continuous integration",
+        "continuous delivery",
+        "continuous deployment"
+      ]
+    },
+    {
+      "id": "cli",
+      "name": "CLI",
+      "summaryMd": "命令行界面工具。",
+      "aliases": [
+        "Command Line Interface",
+        "命令行"
+      ]
+    },
+    {
+      "id": "cms",
+      "name": "CMS",
+      "summaryMd": "内容管理系统。",
+      "aliases": [
+        "Content Management System"
+      ]
+    },
+    {
+      "id": "code-review",
+      "name": "code review",
+      "summaryMd": "同行审查变更质量、设计与风险。",
+      "aliases": [
+        "代码评审",
+        "Code Review"
+      ]
+    },
+    {
+      "id": "cold-start",
+      "name": "cold start",
+      "summaryMd": "实例从零拉起的首次延迟，Serverless 常见痛点。",
+      "aliases": [
+        "冷启动",
+        "Cold Start"
+      ]
+    },
+    {
+      "id": "concurrency",
+      "name": "concurrency",
+      "summaryMd": "交错推进多个任务的能力。",
+      "aliases": [
+        "并发",
+        "Concurrency"
+      ]
+    },
+    {
+      "id": "connection-pooling",
+      "name": "connection pooling",
+      "summaryMd": "复用数据库连接，避免频繁建连开销。",
+      "aliases": [
+        "连接池",
+        "Connection Pooling"
+      ]
+    },
+    {
+      "id": "container",
+      "name": "container",
+      "summaryMd": "打包应用与依赖的轻量隔离运行单元。",
+      "aliases": [
+        "容器",
+        "Container"
+      ]
+    },
+    {
+      "id": "context-window",
+      "name": "context window",
+      "summaryMd": "模型单次能处理的最大上下文长度（含提示与历史）。",
+      "aliases": [
+        "上下文窗口",
+        "context length",
+        "上下文长度"
+      ]
+    },
+    {
+      "id": "convention-over-configuration",
+      "name": "convention over configuration",
+      "summaryMd": "用约定减少显式配置。",
+      "aliases": [
+        "约定优于配置",
+        "Convention over Configuration"
+      ]
+    },
+    {
+      "id": "cookie",
+      "name": "cookie",
+      "summaryMd": "浏览器存储并由请求自动携带的小段数据。",
+      "aliases": [
+        "Cookie"
+      ]
+    },
+    {
+      "id": "core-web-vitals",
+      "name": "Core Web Vitals",
+      "summaryMd": "Google 核心体验指标（LCP/INP/CLS 等）。",
+      "aliases": [
+        "核心网页指标",
+        "CWV"
+      ]
+    },
+    {
+      "id": "cpu",
+      "name": "CPU",
+      "summaryMd": "中央处理器。",
+      "aliases": [
+        "Central Processing Unit"
+      ]
+    },
+    {
+      "id": "crm",
+      "name": "CRM",
+      "summaryMd": "客户关系管理。",
+      "aliases": [
+        "Customer Relationship Management"
+      ]
+    },
+    {
+      "id": "cron",
+      "name": "cron",
+      "summaryMd": "按时间表达式周期触发任务。",
+      "aliases": [
+        "Cron",
+        "定时任务"
+      ]
+    },
+    {
+      "id": "cross-border-payment",
+      "name": "跨境支付",
+      "summaryMd": "资金跨境结算，涉及汇率、主体与合规。",
+      "aliases": [
+        "跨境收款"
+      ]
+    },
+    {
+      "id": "crud",
+      "name": "CRUD",
+      "summaryMd": "创建、读、更新、删除四类基本数据操作。",
+      "aliases": [
+        "增删改查"
+      ]
+    },
+    {
+      "id": "csrf",
+      "name": "CSRF",
+      "summaryMd": "跨站请求伪造：借用户已登录态发起非本意请求。",
+      "aliases": [
+        "Cross-Site Request Forgery"
+      ]
+    },
+    {
+      "id": "data-lake",
+      "name": "data lake",
+      "summaryMd": "以原始/半结构化为主的大规模数据湖。",
+      "aliases": [
+        "数据湖",
+        "Data Lake"
+      ]
+    },
+    {
+      "id": "data-residency",
+      "name": "data residency",
+      "summaryMd": "数据必须存放在特定司法辖区的要求。",
+      "aliases": [
+        "数据驻留",
+        "data localization",
+        "数据本地化"
+      ]
+    },
+    {
+      "id": "deep-integration",
+      "name": "深度集成",
+      "summaryMd": "与某平台/生态紧密耦合，换栈成本更高。",
+      "aliases": []
+    },
+    {
+      "id": "dependency-injection",
+      "name": "dependency injection",
+      "summaryMd": "把依赖从外部注入组件，便于测试与替换实现（常缩写 DI）。",
+      "aliases": [
+        "DI",
+        "依赖注入"
+      ]
+    },
+    {
+      "id": "deprecation",
+      "name": "deprecation",
+      "summaryMd": "宣布某 API 将被移除，给迁移缓冲期。",
+      "aliases": [
+        "弃用",
+        "Deprecation"
+      ]
+    },
+    {
+      "id": "dns",
+      "name": "DNS",
+      "summaryMd": "域名系统：把域名解析为地址。",
+      "aliases": [
+        "Domain Name System"
+      ]
+    },
+    {
+      "id": "document-store",
+      "name": "document store",
+      "summaryMd": "以 JSON 类文档为单元的数据库。",
+      "aliases": [
+        "文档库",
+        "Document Store"
+      ]
+    },
+    {
+      "id": "dx",
+      "name": "DX",
+      "summaryMd": "Developer Experience：开发者使用工具时的顺畅度与心智负担。",
+      "aliases": [
+        "Developer Experience",
+        "开发者体验"
+      ]
+    },
+    {
       "id": "e2ee",
       "name": "End-to-End Encryption",
       "summaryMd": "端到端加密：服务端仅存密文，无法解密用户数据。",
@@ -40857,20 +41350,631 @@
       ]
     },
     {
-      "id": "function-calling",
-      "name": "Function / Tool Calling",
-      "summaryMd": "模型按 schema 调用外部工具/函数的能力。",
+      "id": "ecosystem",
+      "name": "生态",
+      "summaryMd": "围绕核心产品形成的插件、集成与社区。",
+      "aliases": []
+    },
+    {
+      "id": "edge-computing",
+      "name": "edge computing",
+      "summaryMd": "在靠近用户的边缘节点执行计算，降低延迟。",
       "aliases": [
-        "Tool Calling",
-        "Tools"
+        "边缘计算"
+      ]
+    },
+    {
+      "id": "edge-function",
+      "name": "edge function",
+      "summaryMd": "跑在边缘运行时上的短生命周期函数。",
+      "aliases": [
+        "Edge Function",
+        "边缘函数",
+        "edge runtime",
+        "边缘运行时"
+      ]
+    },
+    {
+      "id": "embedding",
+      "name": "embedding",
+      "summaryMd": "把文本等映射为稠密向量，供相似度检索与聚类。",
+      "aliases": [
+        "嵌入",
+        "Embeddings",
+        "embeddings",
+        "向量嵌入"
+      ]
+    },
+    {
+      "id": "esm",
+      "name": "ESM",
+      "summaryMd": "ECMAScript 模块系统（import/export）。",
+      "aliases": [
+        "ES Modules",
+        "ES Module"
+      ]
+    },
+    {
+      "id": "etl-job",
+      "name": "job queue",
+      "summaryMd": "后台任务队列，异步执行耗时工作。",
+      "aliases": [
+        "任务队列",
+        "background job",
+        "Job Queue",
+        "后台任务"
+      ]
+    },
+    {
+      "id": "etl",
+      "name": "ETL",
+      "summaryMd": "抽取-转换-加载：经典数仓入仓流程。",
+      "aliases": [
+        "Extract Transform Load"
+      ]
+    },
+    {
+      "id": "eval",
+      "name": "eval",
+      "summaryMd": "用固定集或自动评判衡量模型/链路质量的评测。",
+      "aliases": [
+        "evals",
+        "评测",
+        "Eval"
+      ]
+    },
+    {
+      "id": "exactly-once",
+      "name": "exactly-once",
+      "summaryMd": "语义上每条消息效果恰好处理一次（常近似实现）。",
+      "aliases": [
+        "恰好一次",
+        "Exactly-Once"
+      ]
+    },
+    {
+      "id": "failover",
+      "name": "failover",
+      "summaryMd": "主故障时自动或手动切到备系统。",
+      "aliases": [
+        "故障转移",
+        "Failover"
+      ]
+    },
+    {
+      "id": "feature-flag",
+      "name": "feature flag",
+      "summaryMd": "运行时开关特性，用于灰度与快速关闭。",
+      "aliases": [
+        "特性开关",
+        "feature flags",
+        "feature toggle",
+        "Feature Flag",
+        "特性标志",
+        "灰度"
+      ]
+    },
+    {
+      "id": "few-shot",
+      "name": "few-shot",
+      "summaryMd": "在提示中给出少量示例，引导模型按同样模式作答。",
+      "aliases": [
+        "少样本",
+        "few shot",
+        "Few-shot"
+      ]
+    },
+    {
+      "id": "fine-tuning",
+      "name": "fine-tuning",
+      "summaryMd": "在下游数据上继续训练，使模型适配特定任务或风格。",
+      "aliases": [
+        "微调",
+        "Fine-tuning",
+        "fine tuning"
+      ]
+    },
+    {
+      "id": "freemium",
+      "name": "freemium",
+      "summaryMd": "基础免费、高级能力收费。",
+      "aliases": [
+        "免费增值",
+        "Freemium"
+      ]
+    },
+    {
+      "id": "full-text-search",
+      "name": "full-text search",
+      "summaryMd": "对文本建倒排索引以支持关键词检索。",
+      "aliases": [
+        "全文检索",
+        "full text search",
+        "Full-Text Search"
+      ]
+    },
+    {
+      "id": "fullstack",
+      "name": "fullstack",
+      "summaryMd": "前后端（乃至运维）由同一角色覆盖。",
+      "aliases": [
+        "全栈",
+        "Full-stack",
+        "full-stack"
+      ]
+    },
+    {
+      "id": "function-calling",
+      "name": "function calling",
+      "summaryMd": "模型按约定发起工具/函数调用，由运行时执行后再回填。",
+      "aliases": [
+        "Function Calling",
+        "函数调用",
+        "tool calling",
+        "工具调用"
+      ]
+    },
+    {
+      "id": "ga",
+      "name": "GA",
+      "summaryMd": "General Availability：正式商用可用。",
+      "aliases": [
+        "General Availability",
+        "正式版",
+        "正式商用"
+      ]
+    },
+    {
+      "id": "gdpr",
+      "name": "GDPR",
+      "summaryMd": "欧盟通用数据保护条例，约束个人数据处理。",
+      "aliases": [
+        "General Data Protection Regulation"
+      ]
+    },
+    {
+      "id": "gitops",
+      "name": "GitOps",
+      "summaryMd": "以 Git 为真相源驱动集群与环境变更。",
+      "aliases": [
+        "GitOps"
+      ]
+    },
+    {
+      "id": "gpu",
+      "name": "GPU",
+      "summaryMd": "图形处理器，常用于模型训练与推理加速。",
+      "aliases": [
+        "Graphics Processing Unit"
+      ]
+    },
+    {
+      "id": "graceful-degradation",
+      "name": "graceful degradation",
+      "summaryMd": "部分依赖故障时降级功能，保住核心路径。",
+      "aliases": [
+        "优雅降级",
+        "降级",
+        "Graceful Degradation"
+      ]
+    },
+    {
+      "id": "graph-workflow",
+      "name": "graph workflow",
+      "summaryMd": "用图（节点/边）描述分支、循环与状态的工作流。",
+      "aliases": [
+        "Graph Workflow",
+        "图工作流"
+      ]
+    },
+    {
+      "id": "graphql",
+      "name": "GraphQL",
+      "summaryMd": "客户端按需声明字段的查询语言与运行时。",
+      "aliases": []
+    },
+    {
+      "id": "greenfield",
+      "name": "greenfield",
+      "summaryMd": "从零新建、无历史包袱的项目。",
+      "aliases": [
+        "绿地",
+        "Greenfield"
+      ]
+    },
+    {
+      "id": "grounding",
+      "name": "grounding",
+      "summaryMd": "把回答锚定在检索结果、工具输出等外部事实上，减少幻觉。",
+      "aliases": [
+        "接地",
+        "Grounding"
+      ]
+    },
+    {
+      "id": "guardrails",
+      "name": "guardrails",
+      "summaryMd": "对输入/输出做策略过滤与拦截，约束模型行为。",
+      "aliases": [
+        "护栏",
+        "Guardrails",
+        "guardrail"
+      ]
+    },
+    {
+      "id": "ha",
+      "name": "HA",
+      "summaryMd": "高可用：通过冗余与故障转移减少停机。",
+      "aliases": [
+        "高可用",
+        "High Availability"
+      ]
+    },
+    {
+      "id": "hallucination",
+      "name": "hallucination",
+      "summaryMd": "模型一本正经地编造事实或引用，看似可信却不真实。",
+      "aliases": [
+        "幻觉",
+        "Hallucination"
+      ]
+    },
+    {
+      "id": "headless-cms",
+      "name": "headless CMS",
+      "summaryMd": "内容头尾分离，经 API 供多端消费。",
+      "aliases": [
+        "Headless CMS",
+        "无头 CMS"
+      ]
+    },
+    {
+      "id": "health-check",
+      "name": "health check",
+      "summaryMd": "探测实例是否可接受流量。",
+      "aliases": [
+        "健康检查",
+        "readiness",
+        "liveness",
+        "Health Check"
+      ]
+    },
+    {
+      "id": "hipaa",
+      "name": "HIPAA",
+      "summaryMd": "美国医疗健康信息隐私与安全合规框架。",
+      "aliases": []
+    },
+    {
+      "id": "hmr",
+      "name": "HMR",
+      "summaryMd": "热模块替换：改码后局部更新而不丢状态。",
+      "aliases": [
+        "Hot Module Replacement",
+        "热更新",
+        "热重载",
+        "hot reload"
+      ]
+    },
+    {
+      "id": "hot-cold",
+      "name": "冷热分离",
+      "summaryMd": "按访问频率把数据分层存储。",
+      "aliases": [
+        "生命周期"
+      ]
+    },
+    {
+      "id": "hotspot",
+      "name": "hotspot",
+      "summaryMd": "流量或数据过度集中在少数分区/键。",
+      "aliases": [
+        "热点",
+        "Hotspot"
+      ]
+    },
+    {
+      "id": "human-in-the-loop",
+      "name": "human-in-the-loop",
+      "summaryMd": "关键步骤插入人工确认/修正，再继续自动化。",
+      "aliases": [
+        "人工介入",
+        "人机协同",
+        "HITL",
+        "human in the loop"
+      ]
+    },
+    {
+      "id": "hybrid-cloud",
+      "name": "混合云",
+      "summaryMd": "公有云与私有环境组合使用。",
+      "aliases": [
+        "混合云"
+      ]
+    },
+    {
+      "id": "hybrid-search",
+      "name": "hybrid search",
+      "summaryMd": "关键词（稀疏）与向量（稠密）检索结合，再融合排序。",
+      "aliases": [
+        "混合检索",
+        "hybrid retrieval",
+        "Hybrid Search"
+      ]
+    },
+    {
+      "id": "i18n",
+      "name": "i18n",
+      "summaryMd": "国际化：让产品适配多语言与地区。",
+      "aliases": [
+        "国际化",
+        "Internationalization"
+      ]
+    },
+    {
+      "id": "iac",
+      "name": "IaC",
+      "summaryMd": "基础设施即代码：用声明式配置管理云资源。",
+      "aliases": [
+        "Infrastructure as Code",
+        "基础设施即代码"
+      ]
+    },
+    {
+      "id": "iam",
+      "name": "IAM",
+      "summaryMd": "身份与访问管理：账号、权限与策略的统称。",
+      "aliases": [
+        "Identity and Access Management"
       ]
     },
     {
       "id": "icp",
       "name": "ICP 备案",
-      "summaryMd": "中国大陆网站托管需完成的工信部备案要求。",
+      "summaryMd": "中国大陆网站上线前的备案合规要求。",
       "aliases": [
+        "ICP",
         "备案"
+      ]
+    },
+    {
+      "id": "ide",
+      "name": "IDE",
+      "summaryMd": "集成开发环境。",
+      "aliases": [
+        "Integrated Development Environment"
+      ]
+    },
+    {
+      "id": "idempotency",
+      "name": "idempotency",
+      "summaryMd": "同一请求执行多次效果与一次相同。",
+      "aliases": [
+        "幂等",
+        "idempotent",
+        "幂等键",
+        "Idempotency"
+      ]
+    },
+    {
+      "id": "idp",
+      "name": "IdP",
+      "summaryMd": "身份提供方：负责认证并签发断言/令牌。",
+      "aliases": [
+        "Identity Provider"
+      ]
+    },
+    {
+      "id": "image",
+      "name": "image",
+      "summaryMd": "容器或虚机的不可变构建产物。",
+      "aliases": [
+        "镜像",
+        "Container Image"
+      ]
+    },
+    {
+      "id": "indie",
+      "name": "indie",
+      "summaryMd": "独立开发者/小团队产品取向。",
+      "aliases": [
+        "Indie",
+        "独立开发"
+      ]
+    },
+    {
+      "id": "inference",
+      "name": "inference",
+      "summaryMd": "用已训练模型做预测/生成的过程（相对训练）。",
+      "aliases": [
+        "推理",
+        "Inference"
+      ]
+    },
+    {
+      "id": "invoice-cn",
+      "name": "发票",
+      "summaryMd": "中国税务场景下的开票需求（专票/普票）。",
+      "aliases": [
+        "专票",
+        "普票"
+      ]
+    },
+    {
+      "id": "jamstack",
+      "name": "JAMstack",
+      "summaryMd": "预渲染 + CDN + API/无服务器的架构取向。",
+      "aliases": [
+        "Jamstack"
+      ]
+    },
+    {
+      "id": "json-schema",
+      "name": "JSON Schema",
+      "summaryMd": "描述与校验 JSON 结构的标准。",
+      "aliases": [
+        "Json Schema"
+      ]
+    },
+    {
+      "id": "jvm",
+      "name": "JVM",
+      "summaryMd": "Java 虚拟机，运行 Java/Kotlin 等字节码。",
+      "aliases": [
+        "Java Virtual Machine"
+      ]
+    },
+    {
+      "id": "jwt",
+      "name": "JWT",
+      "summaryMd": "JSON Web Token：可自包含声明的紧凑令牌格式。",
+      "aliases": [
+        "JSON Web Token"
+      ]
+    },
+    {
+      "id": "k8s",
+      "name": "Kubernetes",
+      "summaryMd": "容器编排平台，管理部署、扩缩与自愈。",
+      "aliases": [
+        "K8s",
+        "k8s"
+      ]
+    },
+    {
+      "id": "kv-store",
+      "name": "key-value",
+      "summaryMd": "以键取值的简单高速存储模型。",
+      "aliases": [
+        "KV",
+        "key value",
+        "Key-Value"
+      ]
+    },
+    {
+      "id": "l10n",
+      "name": "l10n",
+      "summaryMd": "本地化：针对特定地区的文案与格式。",
+      "aliases": [
+        "本地化",
+        "Localization"
+      ]
+    },
+    {
+      "id": "large-language-model",
+      "name": "LLM",
+      "summaryMd": "大语言模型：以文本生成与理解为中心的通用 AI 模型。",
+      "aliases": [
+        "大语言模型",
+        "Large Language Model"
+      ]
+    },
+    {
+      "id": "latency",
+      "name": "latency",
+      "summaryMd": "从发起到响应完成的耗时。",
+      "aliases": [
+        "延迟",
+        "Latency"
+      ]
+    },
+    {
+      "id": "lazy-loading",
+      "name": "lazy loading",
+      "summaryMd": "用到时再加载资源或组件。",
+      "aliases": [
+        "懒加载",
+        "Lazy Loading"
+      ]
+    },
+    {
+      "id": "least-privilege",
+      "name": "least privilege",
+      "summaryMd": "只授予完成任务所需的最小权限。",
+      "aliases": [
+        "最小权限",
+        "Least Privilege"
+      ]
+    },
+    {
+      "id": "load-balancer",
+      "name": "load balancer",
+      "summaryMd": "把流量分摊到多实例，并可做健康检查。",
+      "aliases": [
+        "负载均衡",
+        "Load Balancer"
+      ]
+    },
+    {
+      "id": "logging",
+      "name": "logging",
+      "summaryMd": "事件与诊断信息的记录与聚合。",
+      "aliases": [
+        "日志",
+        "log aggregation",
+        "结构化日志",
+        "structured logging"
+      ]
+    },
+    {
+      "id": "long-connection",
+      "name": "长连接",
+      "summaryMd": "保持连接复用，减少反复握手。",
+      "aliases": [
+        "短连接"
+      ]
+    },
+    {
+      "id": "lora",
+      "name": "LoRA",
+      "summaryMd": "低秩适配：用少量可训练参数做高效微调。",
+      "aliases": [
+        "QLoRA",
+        "PEFT"
+      ]
+    },
+    {
+      "id": "low-code",
+      "name": "low-code",
+      "summaryMd": "以可视化为主、少量代码完成应用。",
+      "aliases": [
+        "低代码",
+        "Low-code"
+      ]
+    },
+    {
+      "id": "lts",
+      "name": "LTS",
+      "summaryMd": "长期支持版本，适合生产依赖。",
+      "aliases": [
+        "长期支持",
+        "Long-Term Support"
+      ]
+    },
+    {
+      "id": "managed",
+      "name": "managed",
+      "summaryMd": "由厂商托管运维的服务形态。",
+      "aliases": [
+        "托管",
+        "托管服务",
+        "Managed"
+      ]
+    },
+    {
+      "id": "master-slave",
+      "name": "主从",
+      "summaryMd": "主库接受写、从库复制并分担读。",
+      "aliases": [
+        "主备"
+      ]
+    },
+    {
+      "id": "mau",
+      "name": "MAU",
+      "summaryMd": "月活跃用户数。",
+      "aliases": [
+        "Monthly Active Users"
       ]
     },
     {
@@ -40878,16 +41982,174 @@
       "name": "Model Context Protocol (MCP)",
       "summaryMd": "模型与工具/数据源之间的标准化连接协议。",
       "aliases": [
-        "Model Context Protocol"
+        "Model Context Protocol",
+        "MCP"
+      ]
+    },
+    {
+      "id": "memory-store",
+      "name": "memory",
+      "summaryMd": "Agent 用来记住对话或长期事实的存储层。",
+      "aliases": [
+        "短期记忆",
+        "长期记忆"
+      ]
+    },
+    {
+      "id": "message-queue",
+      "name": "message queue",
+      "summaryMd": "异步传递消息的中间件，解耦生产与消费。",
+      "aliases": [
+        "消息队列",
+        "Message Queue",
+        "MQ"
+      ]
+    },
+    {
+      "id": "metrics",
+      "name": "metrics",
+      "summaryMd": "可聚合的数值指标（QPS、延迟、错误率等）。",
+      "aliases": [
+        "指标",
+        "Metrics"
+      ]
+    },
+    {
+      "id": "mfa",
+      "name": "MFA",
+      "summaryMd": "多因素认证，降低凭据泄露风险。",
+      "aliases": [
+        "2FA",
+        "双因素",
+        "Multi-Factor Authentication"
+      ]
+    },
+    {
+      "id": "micro-frontend",
+      "name": "micro-frontend",
+      "summaryMd": "把前端拆成可独立部署的子应用。",
+      "aliases": [
+        "微前端",
+        "micro frontend",
+        "Micro Frontend"
+      ]
+    },
+    {
+      "id": "microservices",
+      "name": "microservices",
+      "summaryMd": "按业务边界拆成可独立部署的服务。",
+      "aliases": [
+        "微服务",
+        "Microservices"
+      ]
+    },
+    {
+      "id": "moderation",
+      "name": "moderation",
+      "summaryMd": "对有害、违规内容做自动或人工审核。",
+      "aliases": [
+        "内容审核",
+        "Content Moderation",
+        "内容安全"
+      ]
+    },
+    {
+      "id": "moe",
+      "name": "MoE",
+      "summaryMd": "混合专家：按输入路由到部分专家子网络以提升效率。",
+      "aliases": [
+        "Mixture of Experts",
+        "mixture of experts"
+      ]
+    },
+    {
+      "id": "monorepo",
+      "name": "monorepo",
+      "summaryMd": "多项目放同一仓库，便于共享与统一流水线。",
+      "aliases": [
+        "单体仓库",
+        "Monorepo"
       ]
     },
     {
       "id": "mor",
       "name": "Merchant of Record (MoR)",
-      "summaryMd": "由平台作为法定商家代收并处理税务/合规，降低卖家主体负担。",
+      "summaryMd": "由平台作为收款与税务主体，代商家处理全球收款合规。",
       "aliases": [
         "MoR",
         "Merchant of Record"
+      ]
+    },
+    {
+      "id": "multi-agent",
+      "name": "multi-agent",
+      "summaryMd": "多个 Agent 分工协作完成复杂任务。",
+      "aliases": [
+        "多智能体",
+        "multi agent",
+        "Multi-agent"
+      ]
+    },
+    {
+      "id": "multi-cloud",
+      "name": "多云",
+      "summaryMd": "同时使用多家云厂商以分散风险或取长。",
+      "aliases": [
+        "多云"
+      ]
+    },
+    {
+      "id": "multi-region",
+      "name": "multi-region",
+      "summaryMd": "业务部署在多个地理区域以提升可用与就近接入。",
+      "aliases": [
+        "多地域",
+        "multi region",
+        "Multi-region"
+      ]
+    },
+    {
+      "id": "multi-tenant",
+      "name": "multi-tenant",
+      "summaryMd": "一套系统服务多个租户并隔离数据。",
+      "aliases": [
+        "多租户",
+        "multi tenant",
+        "Multi-tenant",
+        "租户隔离"
+      ]
+    },
+    {
+      "id": "mvp",
+      "name": "MVP",
+      "summaryMd": "最小可行产品：用最小集合验证价值。",
+      "aliases": [
+        "Minimum Viable Product"
+      ]
+    },
+    {
+      "id": "no-code",
+      "name": "no-code",
+      "summaryMd": "几乎不写代码、靠配置与编排交付。",
+      "aliases": [
+        "无代码",
+        "No-code"
+      ]
+    },
+    {
+      "id": "nosql",
+      "name": "NoSQL",
+      "summaryMd": "非关系型数据存储的统称。",
+      "aliases": []
+    },
+    {
+      "id": "o11y",
+      "name": "observability",
+      "summaryMd": "通过日志、指标、追踪理解系统内部状态。",
+      "aliases": [
+        "可观测性",
+        "Observability",
+        "o11y"
       ]
     },
     {
@@ -40899,26 +42161,1042 @@
       ]
     },
     {
+      "id": "object-storage",
+      "name": "object storage",
+      "summaryMd": "按对象存取的海量廉价存储（如 S3 兼容）。",
+      "aliases": [
+        "对象存储",
+        "Object Storage",
+        "blob storage"
+      ]
+    },
+    {
+      "id": "ocr",
+      "name": "OCR",
+      "summaryMd": "光学字符识别：从图像中提取文字。",
+      "aliases": [
+        "光学字符识别",
+        "Optical Character Recognition"
+      ]
+    },
+    {
+      "id": "oidc",
+      "name": "OIDC",
+      "summaryMd": "基于 OAuth 的身份层，用于登录与用户信息。",
+      "aliases": [
+        "OpenID Connect",
+        "OpenID"
+      ]
+    },
+    {
+      "id": "oltp",
+      "name": "OLTP",
+      "summaryMd": "联机事务处理：高并发短事务型负载。",
+      "aliases": [
+        "Online Transaction Processing"
+      ]
+    },
+    {
+      "id": "on-call",
+      "name": "on-call",
+      "summaryMd": "轮值响应告警与事故的值班制度。",
+      "aliases": [
+        "值班",
+        "On-call"
+      ]
+    },
+    {
+      "id": "on-prem",
+      "name": "on-prem",
+      "summaryMd": "部署在自有机房/内网，而非公有云托管。",
+      "aliases": [
+        "on-premise",
+        "on premise",
+        "私有化部署",
+        "本地化部署",
+        "On-prem"
+      ]
+    },
+    {
+      "id": "open-source",
+      "name": "open source",
+      "summaryMd": "源码公开、允许研究与再分发的许可模式。",
+      "aliases": [
+        "开源",
+        "Open Source",
+        "开源可自托管"
+      ]
+    },
+    {
+      "id": "openapi",
+      "name": "OpenAPI",
+      "summaryMd": "描述 HTTP API 的标准规范（原 Swagger）。",
+      "aliases": [
+        "Swagger",
+        "OpenAPI Spec"
+      ]
+    },
+    {
+      "id": "orchestration-cn",
+      "name": "编排",
+      "summaryMd": "把多步骤、多工具组织成可运行流程。",
+      "aliases": []
+    },
+    {
+      "id": "orchestration",
+      "name": "orchestration",
+      "summaryMd": "对多组件部署、调度与生命周期的自动化管理。",
+      "aliases": [
+        "编排调度"
+      ]
+    },
+    {
+      "id": "orchestrator",
+      "name": "orchestrator",
+      "summaryMd": "负责任务分解、调度与汇聚结果的编排层。",
+      "aliases": [
+        "编排",
+        "Orchestrator"
+      ]
+    },
+    {
+      "id": "origin",
+      "name": "源站",
+      "summaryMd": "CDN 回源时的原始内容服务器。",
+      "aliases": [
+        "回源"
+      ]
+    },
+    {
+      "id": "orm",
+      "name": "ORM",
+      "summaryMd": "对象关系映射：用对象操作关系库。",
+      "aliases": [
+        "Object-Relational Mapping"
+      ]
+    },
+    {
+      "id": "otel",
+      "name": "OpenTelemetry",
+      "summaryMd": "指标/日志/追踪的开放观测标准与 SDK。",
+      "aliases": [
+        "OTel",
+        "Open Telemetry",
+        "opentelemetry"
+      ]
+    },
+    {
+      "id": "paas",
+      "name": "PaaS",
+      "summaryMd": "平台即服务：托管运行时与运维，专注应用代码。",
+      "aliases": [
+        "平台即服务",
+        "Platform as a Service"
+      ]
+    },
+    {
+      "id": "parallelism",
+      "name": "parallelism",
+      "summaryMd": "真正同时执行多个任务。",
+      "aliases": [
+        "并行",
+        "Parallelism"
+      ]
+    },
+    {
+      "id": "passkey",
+      "name": "passkey",
+      "summaryMd": "基于 WebAuthn/公钥的无密码登录凭证。",
+      "aliases": [
+        "Passkey",
+        "WebAuthn",
+        "通行密钥"
+      ]
+    },
+    {
+      "id": "pii",
+      "name": "PII",
+      "summaryMd": "个人身份信息，处理与存储常受合规约束。",
+      "aliases": [
+        "个人身份信息",
+        "Personally Identifiable Information"
+      ]
+    },
+    {
+      "id": "poc",
+      "name": "PoC",
+      "summaryMd": "概念验证：快速证明技术可行性。",
+      "aliases": [
+        "概念验证",
+        "Proof of Concept",
+        "POC"
+      ]
+    },
+    {
+      "id": "polyfill",
+      "name": "polyfill",
+      "summaryMd": "用代码补齐旧环境缺失的新 API。",
+      "aliases": [
+        "垫片",
+        "Polyfill"
+      ]
+    },
+    {
+      "id": "postgres",
+      "name": "Postgres",
+      "summaryMd": "PostgreSQL 关系库的常用简称。",
+      "aliases": [
+        "PostgreSQL",
+        "PG"
+      ]
+    },
+    {
+      "id": "presigned-url",
+      "name": "presigned URL",
+      "summaryMd": "带时限签名的直传/下载链接，无需暴露密钥。",
+      "aliases": [
+        "预签名",
+        "signed URL",
+        "Presigned URL",
+        "签名 URL"
+      ]
+    },
+    {
+      "id": "private-cloud",
+      "name": "专有云",
+      "summaryMd": "为单一客户隔离的云环境。",
+      "aliases": [
+        "私有云"
+      ]
+    },
+    {
+      "id": "progressive-enhancement",
+      "name": "progressive enhancement",
+      "summaryMd": "先保证基础可用再叠加增强体验。",
+      "aliases": [
+        "渐进增强",
+        "Progressive Enhancement"
+      ]
+    },
+    {
+      "id": "prompt-cn",
+      "name": "提示词",
+      "summaryMd": "给模型的自然语言指令与上下文。",
+      "aliases": [
+        "用户提示"
+      ]
+    },
+    {
+      "id": "public-cloud",
+      "name": "公有云",
+      "summaryMd": "多租户共享的云服务平台。",
+      "aliases": []
+    },
+    {
+      "id": "pubsub",
+      "name": "pub/sub",
+      "summaryMd": "发布订阅：生产者发主题，多消费者订阅。",
+      "aliases": [
+        "Pub/Sub",
+        "pub sub",
+        "发布订阅"
+      ]
+    },
+    {
+      "id": "pull-request",
+      "name": "pull request",
+      "summaryMd": "提出合并变更并触发评审与 CI 的协作单元。",
+      "aliases": [
+        "merge request",
+        "合并请求",
+        "Pull Request",
+        "拉取请求"
+      ]
+    },
+    {
+      "id": "pwa",
+      "name": "PWA",
+      "summaryMd": "渐进式 Web 应用：可安装、可离线等能力。",
+      "aliases": [
+        "Progressive Web App"
+      ]
+    },
+    {
+      "id": "qps",
+      "name": "QPS",
+      "summaryMd": "每秒查询/请求数，衡量吞吐。",
+      "aliases": [
+        "RPS",
+        "Queries Per Second"
+      ]
+    },
+    {
+      "id": "quantization",
+      "name": "quantization",
+      "summaryMd": "降低权重数值精度以减小模型体积与加速推理。",
+      "aliases": [
+        "量化",
+        "Quantization",
+        "INT8",
+        "INT4"
+      ]
+    },
+    {
+      "id": "quorum",
+      "name": "quorum",
+      "summaryMd": "多数派确认后才认为写入成功。",
+      "aliases": [
+        "法定人数",
+        "Quorum"
+      ]
+    },
+    {
+      "id": "quota",
+      "name": "quota",
+      "summaryMd": "资源或调用量的配额上限。",
+      "aliases": [
+        "配额",
+        "Quota"
+      ]
+    },
+    {
+      "id": "rag-pipeline",
+      "name": "RAG pipeline",
+      "summaryMd": "检索→（可选重排）→生成 的端到端流水线。",
+      "aliases": [
+        "RAG 流水线"
+      ]
+    },
+    {
       "id": "rag",
       "name": "RAG",
       "summaryMd": "检索增强生成：用外部知识库提升回答准确性。",
       "aliases": [
-        "Retrieval-Augmented Generation"
+        "Retrieval-Augmented Generation",
+        "检索增强生成"
+      ]
+    },
+    {
+      "id": "rate-limit",
+      "name": "rate limit",
+      "summaryMd": "限制单位时间请求量，保护下游与自身。",
+      "aliases": [
+        "限流",
+        "rate limiting",
+        "throttling",
+        "Rate Limit"
+      ]
+    },
+    {
+      "id": "rbac",
+      "name": "RBAC",
+      "summaryMd": "基于角色的访问控制：权限绑到角色再赋给用户。",
+      "aliases": [
+        "基于角色的访问控制",
+        "Role-Based Access Control"
+      ]
+    },
+    {
+      "id": "read-replica",
+      "name": "read replica",
+      "summaryMd": "只读副本，分担读流量。",
+      "aliases": [
+        "读副本",
+        "读写分离",
+        "Read Replica"
+      ]
+    },
+    {
+      "id": "realtime",
+      "name": "Realtime",
+      "summaryMd": "低延迟双向流式交互（音视频/对话）。",
+      "aliases": [
+        "realtime",
+        "实时音视频",
+        "Realtime API"
+      ]
+    },
+    {
+      "id": "recall",
+      "name": "召回",
+      "summaryMd": "检索阶段尽量找出相关候选。",
+      "aliases": [
+        "粗排"
+      ]
+    },
+    {
+      "id": "redis-cache",
+      "name": "in-memory",
+      "summaryMd": "内存中的数据结构存储，极低延迟。",
+      "aliases": [
+        "内存缓存",
+        "In-Memory"
+      ]
+    },
+    {
+      "id": "remote-cache",
+      "name": "remote cache",
+      "summaryMd": "共享构建/任务缓存以加速 CI 与本地。",
+      "aliases": [
+        "远程缓存",
+        "Remote Cache"
+      ]
+    },
+    {
+      "id": "reranking",
+      "name": "reranking",
+      "summaryMd": "对初检候选再打分重排，提高最终相关性。",
+      "aliases": [
+        "重排序",
+        "reranker",
+        "Rerank",
+        "精排"
+      ]
+    },
+    {
+      "id": "reserved-instance",
+      "name": "reserved instance",
+      "summaryMd": "预留时长换更低单价的计费形态。",
+      "aliases": [
+        "预留实例",
+        "Reserved Instance"
+      ]
+    },
+    {
+      "id": "rest",
+      "name": "REST",
+      "summaryMd": "以资源与 HTTP 动词组织的常见 API 风格。",
+      "aliases": [
+        "RESTful"
+      ]
+    },
+    {
+      "id": "retry",
+      "name": "retry",
+      "summaryMd": "失败后再次尝试；需配合退避与幂等。",
+      "aliases": [
+        "重试",
+        "Retry"
+      ]
+    },
+    {
+      "id": "reverse-proxy",
+      "name": "reverse proxy",
+      "summaryMd": "位于服务前的代理，常做 TLS 终结、路由与缓存。",
+      "aliases": [
+        "反向代理",
+        "Reverse Proxy"
       ]
     },
     {
       "id": "rls",
-      "name": "Row Level Security",
-      "summaryMd": "数据库行级安全策略，常见于 Postgres/Supabase。",
+      "name": "RLS",
+      "summaryMd": "行级安全：在数据库层按策略过滤行可见性。",
       "aliases": [
-        "RLS"
+        "Row-Level Security",
+        "Row Level Security",
+        "行级权限"
+      ]
+    },
+    {
+      "id": "rolling-update",
+      "name": "rolling update",
+      "summaryMd": "逐批替换实例完成升级，保持服务不中断。",
+      "aliases": [
+        "滚动发布",
+        "Rolling Update",
+        "滚动更新"
+      ]
+    },
+    {
+      "id": "rsc",
+      "name": "RSC",
+      "summaryMd": "React Server Components：在服务端跑的组件模型。",
+      "aliases": [
+        "React Server Components",
+        "服务端组件"
+      ]
+    },
+    {
+      "id": "rto",
+      "name": "RTO",
+      "summaryMd": "恢复时间目标：故障后可接受的最长恢复时长。",
+      "aliases": [
+        "Recovery Time Objective"
+      ]
+    },
+    {
+      "id": "runbook",
+      "name": "runbook",
+      "summaryMd": "事故处理步骤手册，降低临场决策成本。",
+      "aliases": [
+        "运行手册",
+        "Runbook",
+        "预案"
+      ]
+    },
+    {
+      "id": "s3",
+      "name": "S3",
+      "summaryMd": "对象存储 API 事实标准（源自 AWS S3）。",
+      "aliases": [
+        "S3-compatible",
+        "S3 兼容"
+      ]
+    },
+    {
+      "id": "saas",
+      "name": "SaaS",
+      "summaryMd": "软件即服务：订阅制云端软件。",
+      "aliases": [
+        "Software as a Service"
+      ]
+    },
+    {
+      "id": "saml",
+      "name": "SAML",
+      "summaryMd": "企业联邦登录常用的 XML 断言协议。",
+      "aliases": [
+        "Security Assertion Markup Language"
+      ]
+    },
+    {
+      "id": "sbom",
+      "name": "SBOM",
+      "summaryMd": "软件物料清单：列出组件与版本以便审计。",
+      "aliases": [
+        "Software Bill of Materials",
+        "软件物料清单"
+      ]
+    },
+    {
+      "id": "scim",
+      "name": "SCIM",
+      "summaryMd": "自动化开通/同步用户与组的标准协议。",
+      "aliases": [
+        "System for Cross-domain Identity Management"
+      ]
+    },
+    {
+      "id": "sdk-vs-api",
+      "name": "API-first",
+      "summaryMd": "先定义 API 契约再实现客户端与服务端。",
+      "aliases": [
+        "API 优先",
+        "API first"
+      ]
+    },
+    {
+      "id": "sdk",
+      "name": "SDK",
+      "summaryMd": "软件开发工具包：集成某能力的库与文档。",
+      "aliases": [
+        "Software Development Kit"
+      ]
+    },
+    {
+      "id": "secrets-management",
+      "name": "secrets management",
+      "summaryMd": "集中存储与轮换密钥、令牌等敏感配置。",
+      "aliases": [
+        "密钥管理",
+        "Secrets Management",
+        "密钥轮换"
+      ]
+    },
+    {
+      "id": "self-host-cn",
+      "name": "可自托管",
+      "summaryMd": "允许用户自己部署运行，不强制只用云托管。",
+      "aliases": []
+    },
+    {
+      "id": "self-hosted",
+      "name": "self-hosted",
+      "summaryMd": "由用户自己部署与运维。",
+      "aliases": [
+        "自托管",
+        "self host",
+        "可自托管",
+        "Self-hosted",
+        "自建"
+      ]
+    },
+    {
+      "id": "semver",
+      "name": "SemVer",
+      "summaryMd": "语义化版本：主.次.补丁表达兼容性承诺。",
+      "aliases": [
+        "语义化版本",
+        "Semantic Versioning",
+        "semver"
+      ]
+    },
+    {
+      "id": "seo",
+      "name": "SEO",
+      "summaryMd": "搜索引擎优化：提升被收录与排名的实践。",
+      "aliases": [
+        "搜索引擎优化",
+        "Search Engine Optimization"
       ]
     },
     {
       "id": "serverless",
       "name": "Serverless",
-      "summaryMd": "按需计费、免运维服务器的计算范式。",
-      "aliases": []
+      "summaryMd": "按请求计费、免管服务器的运行形态。",
+      "aliases": [
+        "无服务器",
+        "FaaS"
+      ]
+    },
+    {
+      "id": "service-mesh",
+      "name": "service mesh",
+      "summaryMd": "用边车代理治理服务间流量、观测与安全。",
+      "aliases": [
+        "服务网格",
+        "Service Mesh",
+        "sidecar",
+        "边车"
+      ]
+    },
+    {
+      "id": "service-worker",
+      "name": "service worker",
+      "summaryMd": "可拦截网络请求的后台脚本，支撑离线与推送。",
+      "aliases": [
+        "Service Worker"
+      ]
+    },
+    {
+      "id": "session",
+      "name": "session",
+      "summaryMd": "服务端或客户端维护的登录会话状态。",
+      "aliases": [
+        "会话",
+        "Session"
+      ]
+    },
+    {
+      "id": "sharding",
+      "name": "sharding",
+      "summaryMd": "按键把数据水平拆到多个分片。",
+      "aliases": [
+        "分片",
+        "分库分表",
+        "Sharding",
+        "partitioning"
+      ]
+    },
+    {
+      "id": "sla",
+      "name": "SLA",
+      "summaryMd": "服务等级协议：含赔偿条款的对外合同承诺。",
+      "aliases": [
+        "服务等级协议",
+        "Service Level Agreement"
+      ]
+    },
+    {
+      "id": "slo",
+      "name": "SLO",
+      "summaryMd": "服务等级目标：对外承诺的可靠性量化目标。",
+      "aliases": [
+        "服务等级目标",
+        "Service Level Objective"
+      ]
+    },
+    {
+      "id": "source-map",
+      "name": "source map",
+      "summaryMd": "把压缩/转译后的代码映射回源码位置。",
+      "aliases": [
+        "Source Map",
+        "sourcemap",
+        "源映射"
+      ]
+    },
+    {
+      "id": "spa",
+      "name": "SPA",
+      "summaryMd": "单页应用：前端路由切换、少整页刷新。",
+      "aliases": [
+        "Single Page Application",
+        "单页应用"
+      ]
+    },
+    {
+      "id": "sql",
+      "name": "SQL",
+      "summaryMd": "结构化查询语言。",
+      "aliases": [
+        "Structured Query Language"
+      ]
+    },
+    {
+      "id": "ssg",
+      "name": "SSG",
+      "summaryMd": "静态站点生成：构建期产出 HTML。",
+      "aliases": [
+        "静态生成",
+        "Static Site Generation",
+        "静态站点生成"
+      ]
+    },
+    {
+      "id": "sso",
+      "name": "SSO",
+      "summaryMd": "单点登录：一次认证访问多个应用。",
+      "aliases": [
+        "单点登录",
+        "Single Sign-On"
+      ]
+    },
+    {
+      "id": "ssr",
+      "name": "SSR",
+      "summaryMd": "服务端渲染：在服务器生成 HTML 再发给浏览器。",
+      "aliases": [
+        "服务端渲染",
+        "Server-Side Rendering",
+        "服务器端渲染"
+      ]
+    },
+    {
+      "id": "state-machine",
+      "name": "state machine",
+      "summaryMd": "用显式状态与转移建模流程。",
+      "aliases": [
+        "状态机",
+        "State Machine"
+      ]
+    },
+    {
+      "id": "static-analysis",
+      "name": "static analysis",
+      "summaryMd": "不运行程序、基于源码/产物的问题扫描。",
+      "aliases": [
+        "静态分析",
+        "SAST",
+        "Static Analysis"
+      ]
+    },
+    {
+      "id": "strong-consistency",
+      "name": "strong consistency",
+      "summaryMd": "读立刻反映最新已提交写。",
+      "aliases": [
+        "强一致性",
+        "Strong Consistency"
+      ]
+    },
+    {
+      "id": "structured-output",
+      "name": "structured output",
+      "summaryMd": "让模型按 JSON/Schema 等固定结构返回，便于程序消费。",
+      "aliases": [
+        "结构化输出",
+        "structured LLM output"
+      ]
+    },
+    {
+      "id": "supply-chain",
+      "name": "supply chain",
+      "summaryMd": "依赖与构建链路被投毒或篡改的风险面。",
+      "aliases": [
+        "供应链",
+        "Supply Chain"
+      ]
+    },
+    {
+      "id": "throughput",
+      "name": "throughput",
+      "summaryMd": "单位时间完成的工作量。",
+      "aliases": [
+        "吞吐",
+        "Throughput"
+      ]
+    },
+    {
+      "id": "time-series",
+      "name": "time-series",
+      "summaryMd": "按时间戳优化写入与查询的时序数据。",
+      "aliases": [
+        "时序",
+        "TSDB",
+        "Time Series"
+      ]
+    },
+    {
+      "id": "timeout",
+      "name": "timeout",
+      "summaryMd": "超过时限则放弃等待，释放资源。",
+      "aliases": [
+        "超时",
+        "Timeout"
+      ]
+    },
+    {
+      "id": "tls",
+      "name": "TLS",
+      "summaryMd": "传输层加密协议，HTTPS 的基础。",
+      "aliases": [
+        "SSL",
+        "Transport Layer Security"
+      ]
+    },
+    {
+      "id": "token",
+      "name": "token",
+      "summaryMd": "模型计费与上下文的基本单位，通常小于一个词。",
+      "aliases": [
+        "令牌",
+        "Token"
+      ]
+    },
+    {
+      "id": "tokenizer",
+      "name": "tokenizer",
+      "summaryMd": "把文本切成模型可消费 token 的组件。",
+      "aliases": [
+        "分词器",
+        "Tokenizer"
+      ]
+    },
+    {
+      "id": "tracing",
+      "name": "tracing",
+      "summaryMd": "跟踪一次请求跨服务的调用链。",
+      "aliases": [
+        "链路追踪",
+        "distributed tracing",
+        "Distributed Tracing"
+      ]
+    },
+    {
+      "id": "training",
+      "name": "training",
+      "summaryMd": "用数据优化模型参数的过程。",
+      "aliases": [
+        "训练",
+        "Training"
+      ]
+    },
+    {
+      "id": "transpile",
+      "name": "transpile",
+      "summaryMd": "把一种源码语法转换为另一种（如 TS→JS）。",
+      "aliases": [
+        "转译",
+        "Transpile"
+      ]
+    },
+    {
+      "id": "tree-shaking",
+      "name": "tree shaking",
+      "summaryMd": "打包时剔除未使用导出，减小体积。",
+      "aliases": [
+        "摇树优化",
+        "Tree Shaking",
+        "tree-shake"
+      ]
+    },
+    {
+      "id": "tti",
+      "name": "TTI",
+      "summaryMd": "Time to Interactive：页面可稳定交互的时间。",
+      "aliases": [
+        "可交互时间",
+        "Time to Interactive"
+      ]
+    },
+    {
+      "id": "ttl",
+      "name": "TTL",
+      "summaryMd": "生存时间：缓存或记录自动过期的时长。",
+      "aliases": [
+        "Time To Live",
+        "过期时间"
+      ]
+    },
+    {
+      "id": "tts",
+      "name": "TTS",
+      "summaryMd": "文本转语音合成。",
+      "aliases": [
+        "语音合成",
+        "text to speech",
+        "Text-to-Speech"
+      ]
+    },
+    {
+      "id": "type-safety",
+      "name": "type safety",
+      "summaryMd": "用类型系统在编译期捕获错误。",
+      "aliases": [
+        "类型安全",
+        "type-safe",
+        "Type Safety",
+        "端到端类型"
+      ]
+    },
+    {
+      "id": "typed-agent",
+      "name": "typed agent",
+      "summaryMd": "用类型系统约束 Agent 输入输出与依赖的写法，降低运行时出错。",
+      "aliases": [
+        "Typed Agent"
+      ]
+    },
+    {
+      "id": "ui",
+      "name": "UI",
+      "summaryMd": "用户界面。",
+      "aliases": [
+        "User Interface",
+        "用户界面"
+      ]
+    },
+    {
+      "id": "usage-based",
+      "name": "usage-based",
+      "summaryMd": "按实际用量计费。",
+      "aliases": [
+        "按量计费",
+        "usage based",
+        "pay as you go",
+        "Pay-as-you-go"
+      ]
+    },
+    {
+      "id": "ux",
+      "name": "UX",
+      "summaryMd": "用户体验：使用产品时的感受与效率。",
+      "aliases": [
+        "User Experience",
+        "用户体验"
+      ]
+    },
+    {
+      "id": "vault",
+      "name": "vault",
+      "summaryMd": "密钥/机密保险库类服务的统称。",
+      "aliases": [
+        "密钥保险库",
+        "Secrets Vault"
+      ]
+    },
+    {
+      "id": "vector-db",
+      "name": "vector database",
+      "summaryMd": "专为向量相似度检索优化的数据库或索引服务。",
+      "aliases": [
+        "向量数据库",
+        "vector db",
+        "Vector DB"
+      ]
+    },
+    {
+      "id": "vendor-lock-in",
+      "name": "vendor lock-in",
+      "summaryMd": "深度绑定某一厂商后迁移成本很高。",
+      "aliases": [
+        "厂商锁定",
+        "Vendor Lock-in",
+        "vendor lock in"
+      ]
+    },
+    {
+      "id": "visual-regression",
+      "name": "visual regression",
+      "summaryMd": "对比 UI 截图差异以防视觉回退。",
+      "aliases": [
+        "视觉回归",
+        "Visual Regression"
+      ]
+    },
+    {
+      "id": "vpc",
+      "name": "VPC",
+      "summaryMd": "云上逻辑隔离的私有网络。",
+      "aliases": [
+        "Virtual Private Cloud"
+      ]
+    },
+    {
+      "id": "wasm",
+      "name": "Wasm",
+      "summaryMd": "WebAssembly：可在浏览器与边缘运行的二进制格式。",
+      "aliases": [
+        "WebAssembly",
+        "WASM"
+      ]
+    },
+    {
+      "id": "webhook",
+      "name": "webhook",
+      "summaryMd": "事件发生时主动 HTTP 回调通知对方系统。",
+      "aliases": [
+        "Webhooks",
+        "Webhook",
+        "回调钩子"
+      ]
+    },
+    {
+      "id": "websocket",
+      "name": "WebSocket",
+      "summaryMd": "全双工长连接，适合实时推送。",
+      "aliases": [
+        "WebSockets",
+        "全双工"
+      ]
+    },
+    {
+      "id": "workflow",
+      "name": "workflow",
+      "summaryMd": "把多步任务编排成可复用、可观测的流程。",
+      "aliases": [
+        "工作流",
+        "Workflow"
+      ]
+    },
+    {
+      "id": "workspace",
+      "name": "workspace",
+      "summaryMd": "包管理器的多包工作区。",
+      "aliases": [
+        "工作区",
+        "Workspace"
+      ]
+    },
+    {
+      "id": "xinchuang",
+      "name": "信创",
+      "summaryMd": "信息技术应用创新：国产软硬件替代与适配。",
+      "aliases": [
+        "国产化",
+        "自主可控"
+      ]
+    },
+    {
+      "id": "zero-config",
+      "name": "zero-config",
+      "summaryMd": "约定默认即可运行，少写配置。",
+      "aliases": [
+        "零配置",
+        "Zero-config",
+        "zero config"
+      ]
+    },
+    {
+      "id": "zero-trust",
+      "name": "zero trust",
+      "summaryMd": "默认不信任内外网络，持续验证身份与设备。",
+      "aliases": [
+        "零信任",
+        "Zero Trust"
+      ]
     }
   ],
   "recipes": [

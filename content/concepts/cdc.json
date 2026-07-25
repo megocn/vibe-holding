@@ -1,0 +1,10 @@
+{
+  "id": "cdc",
+  "name": "CDC",
+  "summaryMd": "变更数据捕获：持续捕获库表变更流。",
+  "aliases": [
+    "Change Data Capture",
+    "change data capture",
+    "变更数据捕获"
+  ]
+}

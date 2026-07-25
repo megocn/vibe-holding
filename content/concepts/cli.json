@@ -1,0 +1,9 @@
+{
+  "id": "cli",
+  "name": "CLI",
+  "summaryMd": "命令行界面工具。",
+  "aliases": [
+    "Command Line Interface",
+    "命令行"
+  ]
+}

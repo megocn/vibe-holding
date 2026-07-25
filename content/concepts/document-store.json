@@ -1,0 +1,9 @@
+{
+  "id": "document-store",
+  "name": "document store",
+  "summaryMd": "以 JSON 类文档为单元的数据库。",
+  "aliases": [
+    "文档库",
+    "Document Store"
+  ]
+}

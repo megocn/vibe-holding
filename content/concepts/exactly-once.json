@@ -1,0 +1,9 @@
+{
+  "id": "exactly-once",
+  "name": "exactly-once",
+  "summaryMd": "语义上每条消息效果恰好处理一次（常近似实现）。",
+  "aliases": [
+    "恰好一次",
+    "Exactly-Once"
+  ]
+}

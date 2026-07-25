@@ -1,0 +1,9 @@
+{
+  "id": "benchmark",
+  "name": "benchmark",
+  "summaryMd": "用标准场景测性能对比。",
+  "aliases": [
+    "基准测试",
+    "Benchmark"
+  ]
+}

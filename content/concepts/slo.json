@@ -1,0 +1,9 @@
+{
+  "id": "slo",
+  "name": "SLO",
+  "summaryMd": "服务等级目标：对外承诺的可靠性量化目标。",
+  "aliases": [
+    "服务等级目标",
+    "Service Level Objective"
+  ]
+}

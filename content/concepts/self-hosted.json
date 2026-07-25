@@ -1,0 +1,12 @@
+{
+  "id": "self-hosted",
+  "name": "self-hosted",
+  "summaryMd": "由用户自己部署与运维。",
+  "aliases": [
+    "自托管",
+    "self host",
+    "可自托管",
+    "Self-hosted",
+    "自建"
+  ]
+}

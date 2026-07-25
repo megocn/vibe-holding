@@ -1,0 +1,8 @@
+{
+  "id": "rest",
+  "name": "REST",
+  "summaryMd": "以资源与 HTTP 动词组织的常见 API 风格。",
+  "aliases": [
+    "RESTful"
+  ]
+}

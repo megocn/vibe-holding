@@ -1,0 +1,8 @@
+{
+  "id": "private-cloud",
+  "name": "专有云",
+  "summaryMd": "为单一客户隔离的云环境。",
+  "aliases": [
+    "私有云"
+  ]
+}

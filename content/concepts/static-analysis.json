@@ -1,0 +1,10 @@
+{
+  "id": "static-analysis",
+  "name": "static analysis",
+  "summaryMd": "不运行程序、基于源码/产物的问题扫描。",
+  "aliases": [
+    "静态分析",
+    "SAST",
+    "Static Analysis"
+  ]
+}

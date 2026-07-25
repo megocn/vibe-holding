@@ -1,0 +1,6 @@
+{
+  "id": "bandwidth",
+  "name": "带宽",
+  "summaryMd": "单位时间可传输的数据量上限。",
+  "aliases": []
+}

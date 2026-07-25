@@ -1,0 +1,9 @@
+{
+  "id": "sdk-vs-api",
+  "name": "API-first",
+  "summaryMd": "先定义 API 契约再实现客户端与服务端。",
+  "aliases": [
+    "API 优先",
+    "API first"
+  ]
+}

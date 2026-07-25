@@ -1,0 +1,8 @@
+{
+  "id": "jwt",
+  "name": "JWT",
+  "summaryMd": "JSON Web Token：可自包含声明的紧凑令牌格式。",
+  "aliases": [
+    "JSON Web Token"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "read-replica",
+  "name": "read replica",
+  "summaryMd": "只读副本，分担读流量。",
+  "aliases": [
+    "读副本",
+    "读写分离",
+    "Read Replica"
+  ]
+}

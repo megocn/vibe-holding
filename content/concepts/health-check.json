@@ -1,0 +1,11 @@
+{
+  "id": "health-check",
+  "name": "health check",
+  "summaryMd": "探测实例是否可接受流量。",
+  "aliases": [
+    "健康检查",
+    "readiness",
+    "liveness",
+    "Health Check"
+  ]
+}

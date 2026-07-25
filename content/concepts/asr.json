@@ -1,0 +1,11 @@
+{
+  "id": "asr",
+  "name": "ASR",
+  "summaryMd": "自动语音识别：语音转文本。",
+  "aliases": [
+    "语音识别",
+    "STT",
+    "speech to text",
+    "Speech-to-Text"
+  ]
+}

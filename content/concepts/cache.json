@@ -1,0 +1,9 @@
+{
+  "id": "cache",
+  "name": "cache",
+  "summaryMd": "用更快介质保存热点数据以降低延迟与负载。",
+  "aliases": [
+    "缓存",
+    "Cache"
+  ]
+}

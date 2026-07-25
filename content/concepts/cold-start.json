@@ -1,0 +1,9 @@
+{
+  "id": "cold-start",
+  "name": "cold start",
+  "summaryMd": "实例从零拉起的首次延迟，Serverless 常见痛点。",
+  "aliases": [
+    "冷启动",
+    "Cold Start"
+  ]
+}

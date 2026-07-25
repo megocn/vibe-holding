@@ -1,0 +1,9 @@
+{
+  "id": "inference",
+  "name": "inference",
+  "summaryMd": "用已训练模型做预测/生成的过程（相对训练）。",
+  "aliases": [
+    "推理",
+    "Inference"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "message-queue",
+  "name": "message queue",
+  "summaryMd": "异步传递消息的中间件，解耦生产与消费。",
+  "aliases": [
+    "消息队列",
+    "Message Queue",
+    "MQ"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "semver",
+  "name": "SemVer",
+  "summaryMd": "语义化版本：主.次.补丁表达兼容性承诺。",
+  "aliases": [
+    "语义化版本",
+    "Semantic Versioning",
+    "semver"
+  ]
+}

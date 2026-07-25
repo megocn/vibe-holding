@@ -1,0 +1,9 @@
+{
+  "id": "container",
+  "name": "container",
+  "summaryMd": "打包应用与依赖的轻量隔离运行单元。",
+  "aliases": [
+    "容器",
+    "Container"
+  ]
+}

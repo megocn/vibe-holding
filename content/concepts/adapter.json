@@ -1,0 +1,9 @@
+{
+  "id": "adapter",
+  "name": "adapter",
+  "summaryMd": "适配层：隔离第三方差异，便于替换实现。",
+  "aliases": [
+    "适配器",
+    "Adapter"
+  ]
+}

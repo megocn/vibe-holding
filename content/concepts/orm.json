@@ -1,0 +1,8 @@
+{
+  "id": "orm",
+  "name": "ORM",
+  "summaryMd": "对象关系映射：用对象操作关系库。",
+  "aliases": [
+    "Object-Relational Mapping"
+  ]
+}

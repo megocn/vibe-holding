@@ -1,0 +1,8 @@
+{
+  "id": "idp",
+  "name": "IdP",
+  "summaryMd": "身份提供方：负责认证并签发断言/令牌。",
+  "aliases": [
+    "Identity Provider"
+  ]
+}

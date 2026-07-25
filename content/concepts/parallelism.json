@@ -1,0 +1,9 @@
+{
+  "id": "parallelism",
+  "name": "parallelism",
+  "summaryMd": "真正同时执行多个任务。",
+  "aliases": [
+    "并行",
+    "Parallelism"
+  ]
+}

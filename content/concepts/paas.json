@@ -1,0 +1,9 @@
+{
+  "id": "paas",
+  "name": "PaaS",
+  "summaryMd": "平台即服务：托管运行时与运维，专注应用代码。",
+  "aliases": [
+    "平台即服务",
+    "Platform as a Service"
+  ]
+}

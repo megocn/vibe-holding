@@ -1,0 +1,6 @@
+{
+  "id": "acid",
+  "name": "ACID",
+  "summaryMd": "事务四要素：原子性、一致性、隔离性、持久性。",
+  "aliases": []
+}

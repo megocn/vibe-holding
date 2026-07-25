@@ -1,0 +1,9 @@
+{
+  "id": "sso",
+  "name": "SSO",
+  "summaryMd": "单点登录：一次认证访问多个应用。",
+  "aliases": [
+    "单点登录",
+    "Single Sign-On"
+  ]
+}

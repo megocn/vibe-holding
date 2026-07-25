@@ -1,0 +1,8 @@
+{
+  "id": "cdn-cache",
+  "name": "CDN cache",
+  "summaryMd": "边缘节点上的内容缓存层。",
+  "aliases": [
+    "CDN 缓存"
+  ]
+}

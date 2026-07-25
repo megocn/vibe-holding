@@ -1,0 +1,11 @@
+{
+  "id": "rate-limit",
+  "name": "rate limit",
+  "summaryMd": "限制单位时间请求量，保护下游与自身。",
+  "aliases": [
+    "限流",
+    "rate limiting",
+    "throttling",
+    "Rate Limit"
+  ]
+}

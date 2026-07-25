@@ -1,0 +1,9 @@
+{
+  "id": "throughput",
+  "name": "throughput",
+  "summaryMd": "单位时间完成的工作量。",
+  "aliases": [
+    "吞吐",
+    "Throughput"
+  ]
+}

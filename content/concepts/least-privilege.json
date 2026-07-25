@@ -1,0 +1,9 @@
+{
+  "id": "least-privilege",
+  "name": "least privilege",
+  "summaryMd": "只授予完成任务所需的最小权限。",
+  "aliases": [
+    "最小权限",
+    "Least Privilege"
+  ]
+}

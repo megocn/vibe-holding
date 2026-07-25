@@ -1,0 +1,8 @@
+{
+  "id": "long-connection",
+  "name": "长连接",
+  "summaryMd": "保持连接复用，减少反复握手。",
+  "aliases": [
+    "短连接"
+  ]
+}

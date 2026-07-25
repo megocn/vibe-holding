@@ -1,0 +1,9 @@
+{
+  "id": "tls",
+  "name": "TLS",
+  "summaryMd": "传输层加密协议，HTTPS 的基础。",
+  "aliases": [
+    "SSL",
+    "Transport Layer Security"
+  ]
+}

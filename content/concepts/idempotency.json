@@ -1,0 +1,11 @@
+{
+  "id": "idempotency",
+  "name": "idempotency",
+  "summaryMd": "同一请求执行多次效果与一次相同。",
+  "aliases": [
+    "幂等",
+    "idempotent",
+    "幂等键",
+    "Idempotency"
+  ]
+}

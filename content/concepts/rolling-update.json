@@ -1,0 +1,10 @@
+{
+  "id": "rolling-update",
+  "name": "rolling update",
+  "summaryMd": "逐批替换实例完成升级，保持服务不中断。",
+  "aliases": [
+    "滚动发布",
+    "Rolling Update",
+    "滚动更新"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "webhook",
+  "name": "webhook",
+  "summaryMd": "事件发生时主动 HTTP 回调通知对方系统。",
+  "aliases": [
+    "Webhooks",
+    "Webhook",
+    "回调钩子"
+  ]
+}

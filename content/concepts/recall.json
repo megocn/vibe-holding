@@ -1,0 +1,8 @@
+{
+  "id": "recall",
+  "name": "召回",
+  "summaryMd": "检索阶段尽量找出相关候选。",
+  "aliases": [
+    "粗排"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "gpu",
+  "name": "GPU",
+  "summaryMd": "图形处理器，常用于模型训练与推理加速。",
+  "aliases": [
+    "Graphics Processing Unit"
+  ]
+}

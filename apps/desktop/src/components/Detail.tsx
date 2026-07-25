@@ -1,13 +1,19 @@
 import type { Entry, Id } from '@vh/core';
-import { resolveExternalLinks, resolveTutorialLinks } from '@vh/core';
+import {
+  buildConceptTermRules,
+  linkifyConcepts,
+  resolveExternalLinks,
+  resolveTutorialLinks,
+} from '@vh/core';
 import { CATEGORY_ICONS, layerOfCategory } from '@vh/ui';
 import { AnimatePresence, motion } from 'motion/react';
-import { type ReactNode, useEffect, useRef, useState } from 'react';
+import { type ReactNode, useEffect, useMemo, useRef, useState } from 'react';
 import { useContent } from '../lib/content.tsx';
 import { useContentEditor } from '../lib/content.tsx';
 import { STALE_DAYS, formatReviewedLabel, isStale } from '../lib/intel.ts';
 import { EASE_STANDARD, useMotionPrefs } from '../lib/motion.ts';
 import { useIsMobile } from '../lib/use-is-mobile.ts';
+import { ConceptPopover } from './ConceptPopover.tsx';
 import { EmptyState } from './EmptyState.tsx';
 import { Icon } from './Icon.tsx';
 import { PersonalBar } from './PersonalBar.tsx';
@@ -632,11 +638,42 @@ function AttrList({
 }
 
 function Prose({ text }: { text: string }) {
+  const { bundle } = useContent();
+  const rules = useMemo(
+    () =>
+      buildConceptTermRules(
+        [...bundle.concepts.values()].map((c) => ({
+          id: c.id,
+          name: c.name,
+          aliases: c.aliases,
+        })),
+      ),
+    [bundle.concepts],
+  );
+
   return (
     <div className="vh-prose">
       {text.split('\n').map((line, i) => (
         // biome-ignore lint/suspicious/noArrayIndexKey: 纯文本行渲染
-        <p key={i}>{line}</p>
+        <p key={i}>
+          {line
+            ? linkifyConcepts(line, [], rules).map((seg, j) =>
+                seg.type === 'concept' ? (
+                  // biome-ignore lint/suspicious/noArrayIndexKey: 片段顺序稳定
+                  <ConceptPopover
+                    key={`${seg.conceptId}-${j}`}
+                    conceptId={seg.conceptId}
+                    className="vh-concept-term"
+                  >
+                    {seg.value}
+                  </ConceptPopover>
+                ) : (
+                  // biome-ignore lint/suspicious/noArrayIndexKey: 片段顺序稳定
+                  <span key={j}>{seg.value}</span>
+                ),
+              )
+            : null}
+        </p>
       ))}
     </div>
   );

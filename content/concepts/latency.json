@@ -1,0 +1,9 @@
+{
+  "id": "latency",
+  "name": "latency",
+  "summaryMd": "从发起到响应完成的耗时。",
+  "aliases": [
+    "延迟",
+    "Latency"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "id": "etl-job",
+  "name": "job queue",
+  "summaryMd": "后台任务队列，异步执行耗时工作。",
+  "aliases": [
+    "任务队列",
+    "background job",
+    "Job Queue",
+    "后台任务"
+  ]
+}

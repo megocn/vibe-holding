@@ -1,0 +1,8 @@
+{
+  "id": "iam",
+  "name": "IAM",
+  "summaryMd": "身份与访问管理：账号、权限与策略的统称。",
+  "aliases": [
+    "Identity and Access Management"
+  ]
+}

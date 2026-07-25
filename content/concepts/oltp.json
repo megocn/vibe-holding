@@ -1,0 +1,8 @@
+{
+  "id": "oltp",
+  "name": "OLTP",
+  "summaryMd": "联机事务处理：高并发短事务型负载。",
+  "aliases": [
+    "Online Transaction Processing"
+  ]
+}

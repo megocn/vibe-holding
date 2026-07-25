@@ -1,0 +1,9 @@
+{
+  "id": "transpile",
+  "name": "transpile",
+  "summaryMd": "把一种源码语法转换为另一种（如 TS→JS）。",
+  "aliases": [
+    "转译",
+    "Transpile"
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "id": "service-worker",
+  "name": "service worker",
+  "summaryMd": "可拦截网络请求的后台脚本，支撑离线与推送。",
+  "aliases": [
+    "Service Worker"
+  ]
+}

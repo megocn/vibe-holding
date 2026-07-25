@@ -1,0 +1,10 @@
+{
+  "id": "poc",
+  "name": "PoC",
+  "summaryMd": "概念验证：快速证明技术可行性。",
+  "aliases": [
+    "概念验证",
+    "Proof of Concept",
+    "POC"
+  ]
+}

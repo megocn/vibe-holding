@@ -1,0 +1,9 @@
+{
+  "id": "connection-pooling",
+  "name": "connection pooling",
+  "summaryMd": "复用数据库连接，避免频繁建连开销。",
+  "aliases": [
+    "连接池",
+    "Connection Pooling"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "qps",
+  "name": "QPS",
+  "summaryMd": "每秒查询/请求数，衡量吞吐。",
+  "aliases": [
+    "RPS",
+    "Queries Per Second"
+  ]
+}

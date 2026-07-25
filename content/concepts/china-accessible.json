@@ -1,0 +1,9 @@
+{
+  "id": "china-accessible",
+  "name": "国内直连",
+  "summaryMd": "从中国大陆网络可不经特殊手段直接访问。",
+  "aliases": [
+    "国内直连受限",
+    "China accessible"
+  ]
+}

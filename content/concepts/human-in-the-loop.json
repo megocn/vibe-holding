@@ -1,0 +1,11 @@
+{
+  "id": "human-in-the-loop",
+  "name": "human-in-the-loop",
+  "summaryMd": "关键步骤插入人工确认/修正，再继续自动化。",
+  "aliases": [
+    "人工介入",
+    "人机协同",
+    "HITL",
+    "human in the loop"
+  ]
+}

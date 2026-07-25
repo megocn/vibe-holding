@@ -1,0 +1,9 @@
+{
+  "id": "visual-regression",
+  "name": "visual regression",
+  "summaryMd": "对比 UI 截图差异以防视觉回退。",
+  "aliases": [
+    "视觉回归",
+    "Visual Regression"
+  ]
+}

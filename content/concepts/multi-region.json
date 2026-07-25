@@ -1,0 +1,10 @@
+{
+  "id": "multi-region",
+  "name": "multi-region",
+  "summaryMd": "业务部署在多个地理区域以提升可用与就近接入。",
+  "aliases": [
+    "多地域",
+    "multi region",
+    "Multi-region"
+  ]
+}

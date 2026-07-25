@@ -1,0 +1,10 @@
+{
+  "id": "data-residency",
+  "name": "data residency",
+  "summaryMd": "数据必须存放在特定司法辖区的要求。",
+  "aliases": [
+    "数据驻留",
+    "data localization",
+    "数据本地化"
+  ]
+}
