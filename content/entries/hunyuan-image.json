@@ -49,6 +49,16 @@
       "note": "HunyuanImage 3.0",
       "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "asOf": "2026-07-24"
+    },
+    {
+      "systemId": "lmarena-image-edit",
+      "rank": 20,
+      "score": 1302,
+      "scoreLabel": "1302 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/image-edit",
+      "note": "模型 hunyuan-image-3.0-instruct",
+      "asOf": "2026-07-26"
     }
   ],
   "sources": [

@@ -4634,6 +4634,15 @@
           "sourceUrl": "https://arena.ai/leaderboard/search",
           "note": "模型 claude-sonnet-4-6-search",
           "asOf": "2026-07-25"
+        },
+        {
+          "systemId": "openrouter-popularity",
+          "rank": 12,
+          "scoreLabel": "2%",
+          "share": 2,
+          "period": "2026-07",
+          "sourceUrl": "https://openrouter.ai/rankings",
+          "asOf": "2026-07-26"
         }
       ],
       "sources": [
@@ -7158,6 +7167,26 @@
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 seed-2.1-pro-preview",
           "asOf": "2026-07-25"
+        },
+        {
+          "systemId": "lmarena-image",
+          "rank": 11,
+          "score": 1231,
+          "scoreLabel": "1231 Elo",
+          "period": "2026-07",
+          "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
+          "note": "模型 seedream-5.0-pro",
+          "asOf": "2026-07-26"
+        },
+        {
+          "systemId": "lmarena-image-edit",
+          "rank": 4,
+          "score": 1393,
+          "scoreLabel": "1393 Elo",
+          "period": "2026-07",
+          "sourceUrl": "https://arena.ai/leaderboard/image-edit",
+          "note": "模型 seedream-5.0-pro",
+          "asOf": "2026-07-26"
         }
       ],
       "sources": [
@@ -8973,6 +9002,16 @@
           "note": "FLUX.2 [max]",
           "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
           "asOf": "2026-07-24"
+        },
+        {
+          "systemId": "lmarena-image-edit",
+          "rank": 26,
+          "score": 1262,
+          "scoreLabel": "1262 Elo",
+          "period": "2026-07",
+          "sourceUrl": "https://arena.ai/leaderboard/image-edit",
+          "note": "模型 flux-2-max",
+          "asOf": "2026-07-26"
         }
       ],
       "sources": [
@@ -9571,6 +9610,65 @@
           "rank": 15,
           "score": 50,
           "scoreLabel": "AAII 50"
+        },
+        {
+          "systemId": "lmarena-text",
+          "rank": 12,
+          "score": 1485,
+          "scoreLabel": "1485 Elo",
+          "period": "2026-07",
+          "sourceUrl": "https://arena.ai/leaderboard/text",
+          "note": "模型 gemini-3.6-flash",
+          "asOf": "2026-07-26"
+        },
+        {
+          "systemId": "lmarena-vision",
+          "rank": 8,
+          "score": 1287,
+          "scoreLabel": "1287 Elo",
+          "period": "2026-07",
+          "sourceUrl": "https://arena.ai/leaderboard/vision",
+          "note": "模型 gemini-3.5-flash-medium",
+          "asOf": "2026-07-26"
+        },
+        {
+          "systemId": "lmarena-search",
+          "rank": 13,
+          "score": 1197,
+          "scoreLabel": "1197 Elo",
+          "period": "2026-07",
+          "sourceUrl": "https://arena.ai/leaderboard/search",
+          "note": "模型 gemini-3-flash-grounding",
+          "asOf": "2026-07-26"
+        },
+        {
+          "systemId": "lmarena-image",
+          "rank": 5,
+          "score": 1261,
+          "scoreLabel": "1261 Elo",
+          "period": "2026-07",
+          "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
+          "note": "模型 gemini-3.1-flash-image (nano-banana-2) [web-search]",
+          "asOf": "2026-07-26"
+        },
+        {
+          "systemId": "lmarena-image-edit",
+          "rank": 9,
+          "score": 1385,
+          "scoreLabel": "1385 Elo",
+          "period": "2026-07",
+          "sourceUrl": "https://arena.ai/leaderboard/image-edit",
+          "note": "模型 gemini-3.1-flash-image (nano-banana-2) [web-search]",
+          "asOf": "2026-07-26"
+        },
+        {
+          "systemId": "openrouter-popularity",
+          "rank": 14,
+          "scoreLabel": "1.8%",
+          "share": 1.8,
+          "period": "2026-07",
+          "sourceUrl": "https://openrouter.ai/rankings",
+          "asOf": "2026-07-26"
         }
       ],
       "sources": [
@@ -9805,23 +9903,52 @@
         },
         {
           "systemId": "lmarena-document",
-          "rank": 14,
-          "score": 1459,
-          "scoreLabel": "1459 Elo",
+          "rank": 18,
+          "score": 1443,
+          "scoreLabel": "1443 Elo",
           "period": "2026-07",
           "sourceUrl": "https://arena.ai/leaderboard/document",
-          "note": "模型 gemini-3.5-flash-medium",
-          "asOf": "2026-07-25"
+          "note": "模型 gemini-3.1-pro-preview",
+          "asOf": "2026-07-26"
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 15,
-          "score": 1526,
-          "scoreLabel": "1526 Elo",
+          "rank": 36,
+          "score": 1446,
+          "scoreLabel": "1446 Elo",
           "period": "2026-07",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-          "note": "模型 gemini-3.6-flash",
-          "asOf": "2026-07-25"
+          "note": "模型 gemini-3.1-pro-preview",
+          "asOf": "2026-07-26"
+        },
+        {
+          "systemId": "lmarena-image",
+          "rank": 8,
+          "score": 1245,
+          "scoreLabel": "1245 Elo",
+          "period": "2026-07",
+          "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
+          "note": "模型 gemini-3-pro-image-2k (nano-banana-pro)",
+          "asOf": "2026-07-26"
+        },
+        {
+          "systemId": "lmarena-image-edit",
+          "rank": 7,
+          "score": 1388,
+          "scoreLabel": "1388 Elo",
+          "period": "2026-07",
+          "sourceUrl": "https://arena.ai/leaderboard/image-edit",
+          "note": "模型 gemini-3-pro-image-2k (nano-banana-pro)",
+          "asOf": "2026-07-26"
+        },
+        {
+          "systemId": "openrouter-popularity",
+          "rank": 40,
+          "scoreLabel": "0.4%",
+          "share": 0.4,
+          "period": "2026-07",
+          "sourceUrl": "https://openrouter.ai/rankings",
+          "asOf": "2026-07-26"
         }
       ],
       "subcategory": "line",
@@ -9969,6 +10096,15 @@
           "note": "Gemma 4 31B",
           "asOf": "2026-07-26",
           "period": "2026-07"
+        },
+        {
+          "systemId": "openrouter-popularity",
+          "rank": 26,
+          "scoreLabel": "0.7%",
+          "share": 0.7,
+          "period": "2026-07",
+          "sourceUrl": "https://openrouter.ai/rankings",
+          "asOf": "2026-07-26"
         }
       ],
       "sources": [
@@ -11440,6 +11576,15 @@
           "asOf": "2026-07-24",
           "score": 64.6,
           "scoreLabel": "64.6%"
+        },
+        {
+          "systemId": "openrouter-popularity",
+          "rank": 19,
+          "scoreLabel": "1.1%",
+          "share": 1.1,
+          "period": "2026-07",
+          "sourceUrl": "https://openrouter.ai/rankings",
+          "asOf": "2026-07-26"
         }
       ],
       "subcategory": "line",
@@ -11476,6 +11621,15 @@
           "rank": 12,
           "score": 51,
           "scoreLabel": "AAII 51"
+        },
+        {
+          "systemId": "openrouter-popularity",
+          "rank": 33,
+          "scoreLabel": "0.5%",
+          "share": 0.5,
+          "period": "2026-07",
+          "sourceUrl": "https://openrouter.ai/rankings",
+          "asOf": "2026-07-26"
         }
       ],
       "sources": [
@@ -11651,6 +11805,15 @@
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 grok-4.20-beta-0309-reasoning",
           "asOf": "2026-07-25"
+        },
+        {
+          "systemId": "openrouter-popularity",
+          "rank": 21,
+          "scoreLabel": "1%",
+          "share": 1,
+          "period": "2026-07",
+          "sourceUrl": "https://openrouter.ai/rankings",
+          "asOf": "2026-07-26"
         }
       ],
       "sources": [
@@ -11723,6 +11886,16 @@
           "note": "grok-imagine-image-quality",
           "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
           "asOf": "2026-07-24"
+        },
+        {
+          "systemId": "lmarena-i2v",
+          "rank": 3,
+          "score": 1466,
+          "scoreLabel": "1466 Elo",
+          "period": "2026-07",
+          "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
+          "note": "模型 grok-imagine-video-1.5-preview-720p",
+          "asOf": "2026-07-26"
         }
       ],
       "sources": [
@@ -11952,6 +12125,16 @@
           "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
           "note": "模型 hailuo-2.3",
           "asOf": "2026-07-25"
+        },
+        {
+          "systemId": "lmarena-i2v",
+          "rank": 23,
+          "score": 1260,
+          "scoreLabel": "1260 Elo",
+          "period": "2026-07",
+          "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
+          "note": "模型 hailuo-2.3",
+          "asOf": "2026-07-26"
         }
       ],
       "sources": [
@@ -13062,6 +13245,16 @@
           "note": "HunyuanImage 3.0",
           "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
           "asOf": "2026-07-24"
+        },
+        {
+          "systemId": "lmarena-image-edit",
+          "rank": 20,
+          "score": 1302,
+          "scoreLabel": "1302 Elo",
+          "period": "2026-07",
+          "sourceUrl": "https://arena.ai/leaderboard/image-edit",
+          "note": "模型 hunyuan-image-3.0-instruct",
+          "asOf": "2026-07-26"
         }
       ],
       "sources": [
@@ -13132,6 +13325,16 @@
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 hy3",
           "asOf": "2026-07-25"
+        },
+        {
+          "systemId": "lmarena-i2v",
+          "rank": 34,
+          "score": 1196,
+          "scoreLabel": "1196 Elo",
+          "period": "2026-07",
+          "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
+          "note": "模型 hunyuan-video-1.5",
+          "asOf": "2026-07-26"
         }
       ],
       "sources": [
@@ -15613,12 +15816,19 @@
       "pitfalls": [
         "不适合大规模并发 serving；生产集群更常用 vLLM/TGI。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-07-26",
+          "type": "feature",
+          "summary": "b10133",
+          "source": "https://github.com/ggml-org/llama.cpp/releases/tag/b10133"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://github.com/ggerganov/llama.cpp"
       ],
-      "lastReviewed": "2026-07-23",
+      "lastReviewed": "2026-07-26",
       "region": "overseas",
       "id": "llama-cpp",
       "name": "llama.cpp",
@@ -16179,7 +16389,15 @@
       ],
       "maturity": "mature",
       "pitfalls": [],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-07-25",
+          "type": "release",
+          "summary": "发布 1.27.0: Version 1.27.0",
+          "version": "1.27.0",
+          "source": "https://github.com/lucide-icons/lucide/releases/tag/1.27.0"
+        }
+      ],
       "rankings": [
         {
           "systemId": "iconify-popularity",
@@ -16198,7 +16416,7 @@
       "sources": [
         "https://lucide.dev"
       ],
-      "lastReviewed": "2026-07-23",
+      "lastReviewed": "2026-07-26",
       "region": "overseas",
       "id": "lucide",
       "name": "Lucide",
@@ -16206,7 +16424,8 @@
       "subcategory": "icons",
       "oneLiner": "Feather 演进 · 线条清晰 · shadcn 系常见默认",
       "descriptionMd": "Lucide 是基于 Feather 演进的开源图标集，线条清晰，React 等多框架封装齐全。\n\n适合产品 UI 图标层；与 Phosphor（多字重）按视觉体系二选一或分工。不可与 Ant Design 等完整组件库同榜硬比。\n\n图标语义保持一致比「多一个风格」重要；与文案、空状态插画统一视觉权重。\n",
-      "officialUrl": "https://lucide.dev"
+      "officialUrl": "https://lucide.dev",
+      "currentVersion": "1.27.0"
     },
     {
       "pricing": {
@@ -22244,6 +22463,35 @@
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 qwen3.7-max-20260517",
           "asOf": "2026-07-25"
+        },
+        {
+          "systemId": "lmarena-image",
+          "rank": 14,
+          "score": 1193,
+          "scoreLabel": "1193 Elo",
+          "period": "2026-07",
+          "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
+          "note": "模型 qwen-image-2.0-pro-2026-06-22",
+          "asOf": "2026-07-26"
+        },
+        {
+          "systemId": "lmarena-image-edit",
+          "rank": 16,
+          "score": 1315,
+          "scoreLabel": "1315 Elo",
+          "period": "2026-07",
+          "sourceUrl": "https://arena.ai/leaderboard/image-edit",
+          "note": "模型 qwen-image-2.0-pro-2026-06-22",
+          "asOf": "2026-07-26"
+        },
+        {
+          "systemId": "openrouter-popularity",
+          "rank": 48,
+          "scoreLabel": "0.3%",
+          "share": 0.3,
+          "period": "2026-07",
+          "sourceUrl": "https://openrouter.ai/rankings",
+          "asOf": "2026-07-26"
         }
       ],
       "sources": [
@@ -27176,6 +27424,16 @@
           "note": "Qwen Image 2.0 Pro",
           "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
           "asOf": "2026-07-24"
+        },
+        {
+          "systemId": "lmarena-i2v",
+          "rank": 37,
+          "score": 1169,
+          "scoreLabel": "1169 Elo",
+          "period": "2026-07",
+          "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
+          "note": "模型 wan-v2.2-a14b",
+          "asOf": "2026-07-26"
         }
       ],
       "sources": [
@@ -28232,12 +28490,20 @@
       ],
       "maturity": "stable",
       "pitfalls": [],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-07-26",
+          "type": "release",
+          "summary": "发布 5.0.31: @ai-sdk/google-vertex@5.0.31",
+          "version": "5.0.31",
+          "source": "https://github.com/vercel/ai/releases/tag/%40ai-sdk%2Fgoogle-vertex%405.0.31"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://sdk.vercel.ai"
       ],
-      "lastReviewed": "2026-07-23",
+      "lastReviewed": "2026-07-26",
       "region": "overseas",
       "id": "vercel-ai-sdk",
       "name": "Vercel AI SDK",

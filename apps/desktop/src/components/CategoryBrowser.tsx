@@ -49,7 +49,8 @@ export function CategoryBrowser({
   const [browseLayerId, setBrowseLayerId] = useState<string | null>(() =>
     resolveLayerId(nav, categories),
   );
-  const [llmOpen, setLlmOpen] = useState(true);
+  /** 卷内已展开的 section（默认全开，与 LLM 产品族同级展开） */
+  const [openSections, setOpenSections] = useState<ReadonlySet<string>>(() => new Set());
   /** 全图模式下已展开的卷（默认全开，露出 section 一级） */
   const [openVolumes, setOpenVolumes] = useState<ReadonlySet<string>>(
     () => new Set(CATEGORY_LAYERS.map((l) => l.id)),
@@ -58,6 +59,14 @@ export function CategoryBrowser({
   useEffect(() => {
     setBrowseLayerId(resolveLayerId(nav, categories));
   }, [nav, categories]);
+
+  /** 进入某卷时，该卷下所有 section 默认展开 */
+  useEffect(() => {
+    if (!browseLayerId) return;
+    const layer = CATEGORY_LAYERS.find((l) => l.id === browseLayerId);
+    if (!layer) return;
+    setOpenSections(new Set(layer.categories));
+  }, [browseLayerId]);
 
   useEffect(() => {
     if (mode !== 'drawer' || !open) return;
@@ -297,13 +306,15 @@ export function CategoryBrowser({
             <ul className="vh-kb-atlas-sec-list">
               {sectionRows.length === 0 && <li className="vh-kb-atlas-empty">无匹配分类</li>}
               {sectionRows.map(({ section, leaves, count, sid }) => {
-                // 选中本 section / 其下 leaf / LLM 产品族 时，保持展开与高亮
+                // 选中本 section / 其下 leaf / LLM 产品族 时高亮
                 const sectionInPath =
                   (nav.kind === 'category' &&
                     (nav.categoryId === sid ||
                       sectionIdOf(categories, nav.categoryId) === sid)) ||
                   (nav.kind === 'family' && sid === 'llm');
                 const isLlm = sid === 'llm';
+                const hasChildren = isLlm || leaves.length > 0;
+                const secOpen = (openSections.has(sid) || Boolean(q)) && hasChildren;
                 return (
                   <li key={sid} className="vh-kb-atlas-sec">
                     <div className="vh-kb-atlas-sec-row">
@@ -312,7 +323,14 @@ export function CategoryBrowser({
                         className="vh-kb-atlas-sec-btn"
                         data-active={sectionInPath ? 'true' : 'false'}
                         onClick={() => {
-                          if (isLlm) setLlmOpen(true);
+                          if (hasChildren) {
+                            setOpenSections((prev) => {
+                              if (prev.has(sid)) return prev;
+                              const next = new Set(prev);
+                              next.add(sid);
+                              return next;
+                            });
+                          }
                           navigate({ kind: 'category', categoryId: sid });
                         }}
                       >
@@ -327,20 +345,31 @@ export function CategoryBrowser({
                         <span className="vh-kb-atlas-sec-name">{section.name}</span>
                         <span className="vh-mono vh-kb-atlas-n">{count}</span>
                       </button>
-                      {isLlm && (
+                      {hasChildren && (
                         <button
                           type="button"
                           className="vh-kb-atlas-expand"
-                          aria-expanded={llmOpen}
-                          aria-label={llmOpen ? '折叠产品族' : '展开产品族'}
-                          onClick={() => setLlmOpen((v) => !v)}
+                          aria-expanded={secOpen}
+                          aria-label={
+                            secOpen
+                              ? `折叠${section.name}`
+                              : `展开${section.name}`
+                          }
+                          onClick={() => {
+                            setOpenSections((prev) => {
+                              const next = new Set(prev);
+                              if (next.has(sid)) next.delete(sid);
+                              else next.add(sid);
+                              return next;
+                            });
+                          }}
                         >
-                          <Icon name={llmOpen ? 'CaretDown' : 'CaretRight'} size={12} />
+                          <Icon name={secOpen ? 'CaretDown' : 'CaretRight'} size={12} />
                         </button>
                       )}
                     </div>
 
-                    {!isLlm && leaves.length > 0 && sectionInPath && (
+                    {!isLlm && leaves.length > 0 && secOpen && (
                       <ul className="vh-kb-atlas-leaves">
                         {leaves.map((leaf) => {
                           const leafActive =
@@ -371,7 +400,7 @@ export function CategoryBrowser({
                       </ul>
                     )}
 
-                    {isLlm && llmOpen && (
+                    {isLlm && secOpen && (
                       <ul className="vh-kb-atlas-leaves">
                         {llmTree
                           .filter(

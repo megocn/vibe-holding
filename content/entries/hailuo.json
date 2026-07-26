@@ -31,6 +31,16 @@
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 hailuo-2.3",
       "asOf": "2026-07-25"
+    },
+    {
+      "systemId": "lmarena-i2v",
+      "rank": 23,
+      "score": 1260,
+      "scoreLabel": "1260 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
+      "note": "模型 hailuo-2.3",
+      "asOf": "2026-07-26"
     }
   ],
   "sources": [

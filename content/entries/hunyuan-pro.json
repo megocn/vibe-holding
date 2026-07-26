@@ -48,6 +48,16 @@
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 hy3",
       "asOf": "2026-07-25"
+    },
+    {
+      "systemId": "lmarena-i2v",
+      "rank": 34,
+      "score": 1196,
+      "scoreLabel": "1196 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
+      "note": "模型 hunyuan-video-1.5",
+      "asOf": "2026-07-26"
     }
   ],
   "sources": [

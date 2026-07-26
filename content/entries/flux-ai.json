@@ -47,6 +47,16 @@
       "note": "FLUX.2 [max]",
       "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "asOf": "2026-07-24"
+    },
+    {
+      "systemId": "lmarena-image-edit",
+      "rank": 26,
+      "score": 1262,
+      "scoreLabel": "1262 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/image-edit",
+      "note": "模型 flux-2-max",
+      "asOf": "2026-07-26"
     }
   ],
   "sources": [

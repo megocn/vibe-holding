@@ -17,12 +17,20 @@
   ],
   "maturity": "stable",
   "pitfalls": [],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-26",
+      "type": "release",
+      "summary": "发布 5.0.31: @ai-sdk/google-vertex@5.0.31",
+      "version": "5.0.31",
+      "source": "https://github.com/vercel/ai/releases/tag/%40ai-sdk%2Fgoogle-vertex%405.0.31"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://sdk.vercel.ai"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-26",
   "region": "overseas",
   "id": "vercel-ai-sdk",
   "name": "Vercel AI SDK",

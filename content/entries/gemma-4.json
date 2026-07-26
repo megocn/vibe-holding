@@ -61,6 +61,15 @@
       "note": "Gemma 4 31B",
       "asOf": "2026-07-26",
       "period": "2026-07"
+    },
+    {
+      "systemId": "openrouter-popularity",
+      "rank": 26,
+      "scoreLabel": "0.7%",
+      "share": 0.7,
+      "period": "2026-07",
+      "sourceUrl": "https://openrouter.ai/rankings",
+      "asOf": "2026-07-26"
     }
   ],
   "sources": [

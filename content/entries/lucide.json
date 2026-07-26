@@ -15,7 +15,15 @@
   ],
   "maturity": "mature",
   "pitfalls": [],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-25",
+      "type": "release",
+      "summary": "发布 1.27.0: Version 1.27.0",
+      "version": "1.27.0",
+      "source": "https://github.com/lucide-icons/lucide/releases/tag/1.27.0"
+    }
+  ],
   "rankings": [
     {
       "systemId": "iconify-popularity",
@@ -34,7 +42,7 @@
   "sources": [
     "https://lucide.dev"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-26",
   "region": "overseas",
   "id": "lucide",
   "name": "Lucide",
@@ -42,5 +50,6 @@
   "subcategory": "icons",
   "oneLiner": "Feather 演进 · 线条清晰 · shadcn 系常见默认",
   "descriptionMd": "Lucide 是基于 Feather 演进的开源图标集，线条清晰，React 等多框架封装齐全。\n\n适合产品 UI 图标层；与 Phosphor（多字重）按视觉体系二选一或分工。不可与 Ant Design 等完整组件库同榜硬比。\n\n图标语义保持一致比「多一个风格」重要；与文案、空状态插画统一视觉权重。\n",
-  "officialUrl": "https://lucide.dev"
+  "officialUrl": "https://lucide.dev",
+  "currentVersion": "1.27.0"
 }

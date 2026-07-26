@@ -73,6 +73,35 @@
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 qwen3.7-max-20260517",
       "asOf": "2026-07-25"
+    },
+    {
+      "systemId": "lmarena-image",
+      "rank": 14,
+      "score": 1193,
+      "scoreLabel": "1193 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
+      "note": "模型 qwen-image-2.0-pro-2026-06-22",
+      "asOf": "2026-07-26"
+    },
+    {
+      "systemId": "lmarena-image-edit",
+      "rank": 16,
+      "score": 1315,
+      "scoreLabel": "1315 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/image-edit",
+      "note": "模型 qwen-image-2.0-pro-2026-06-22",
+      "asOf": "2026-07-26"
+    },
+    {
+      "systemId": "openrouter-popularity",
+      "rank": 48,
+      "scoreLabel": "0.3%",
+      "share": 0.3,
+      "period": "2026-07",
+      "sourceUrl": "https://openrouter.ai/rankings",
+      "asOf": "2026-07-26"
     }
   ],
   "sources": [

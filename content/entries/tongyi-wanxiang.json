@@ -49,6 +49,16 @@
       "note": "Qwen Image 2.0 Pro",
       "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "asOf": "2026-07-24"
+    },
+    {
+      "systemId": "lmarena-i2v",
+      "rank": 37,
+      "score": 1169,
+      "scoreLabel": "1169 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
+      "note": "模型 wan-v2.2-a14b",
+      "asOf": "2026-07-26"
     }
   ],
   "sources": [

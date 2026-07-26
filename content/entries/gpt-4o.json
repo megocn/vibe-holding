@@ -128,6 +128,15 @@
       "asOf": "2026-07-24",
       "score": 64.6,
       "scoreLabel": "64.6%"
+    },
+    {
+      "systemId": "openrouter-popularity",
+      "rank": 19,
+      "scoreLabel": "1.1%",
+      "share": 1.1,
+      "period": "2026-07",
+      "sourceUrl": "https://openrouter.ai/rankings",
+      "asOf": "2026-07-26"
     }
   ],
   "subcategory": "line",

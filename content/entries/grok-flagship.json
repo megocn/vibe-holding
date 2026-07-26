@@ -80,6 +80,15 @@
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 grok-4.20-beta-0309-reasoning",
       "asOf": "2026-07-25"
+    },
+    {
+      "systemId": "openrouter-popularity",
+      "rank": 21,
+      "scoreLabel": "1%",
+      "share": 1,
+      "period": "2026-07",
+      "sourceUrl": "https://openrouter.ai/rankings",
+      "asOf": "2026-07-26"
     }
   ],
   "sources": [

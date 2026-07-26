@@ -15,12 +15,19 @@
   "pitfalls": [
     "不适合大规模并发 serving；生产集群更常用 vLLM/TGI。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-26",
+      "type": "feature",
+      "summary": "b10133",
+      "source": "https://github.com/ggml-org/llama.cpp/releases/tag/b10133"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://github.com/ggerganov/llama.cpp"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-07-26",
   "region": "overseas",
   "id": "llama-cpp",
   "name": "llama.cpp",

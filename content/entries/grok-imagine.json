@@ -51,6 +51,16 @@
       "note": "grok-imagine-image-quality",
       "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
       "asOf": "2026-07-24"
+    },
+    {
+      "systemId": "lmarena-i2v",
+      "rank": 3,
+      "score": 1466,
+      "scoreLabel": "1466 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
+      "note": "模型 grok-imagine-video-1.5-preview-720p",
+      "asOf": "2026-07-26"
     }
   ],
   "sources": [

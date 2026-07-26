@@ -88,6 +88,15 @@
       "sourceUrl": "https://arena.ai/leaderboard/search",
       "note": "模型 claude-sonnet-4-6-search",
       "asOf": "2026-07-25"
+    },
+    {
+      "systemId": "openrouter-popularity",
+      "rank": 12,
+      "scoreLabel": "2%",
+      "share": 2,
+      "period": "2026-07",
+      "sourceUrl": "https://openrouter.ai/rankings",
+      "asOf": "2026-07-26"
     }
   ],
   "sources": [

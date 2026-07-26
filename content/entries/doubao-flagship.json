@@ -30,6 +30,26 @@
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 seed-2.1-pro-preview",
       "asOf": "2026-07-25"
+    },
+    {
+      "systemId": "lmarena-image",
+      "rank": 11,
+      "score": 1231,
+      "scoreLabel": "1231 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
+      "note": "模型 seedream-5.0-pro",
+      "asOf": "2026-07-26"
+    },
+    {
+      "systemId": "lmarena-image-edit",
+      "rank": 4,
+      "score": 1393,
+      "scoreLabel": "1393 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/image-edit",
+      "note": "模型 seedream-5.0-pro",
+      "asOf": "2026-07-26"
     }
   ],
   "sources": [

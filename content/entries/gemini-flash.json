@@ -37,6 +37,65 @@
       "rank": 15,
       "score": 50,
       "scoreLabel": "AAII 50"
+    },
+    {
+      "systemId": "lmarena-text",
+      "rank": 12,
+      "score": 1485,
+      "scoreLabel": "1485 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/text",
+      "note": "模型 gemini-3.6-flash",
+      "asOf": "2026-07-26"
+    },
+    {
+      "systemId": "lmarena-vision",
+      "rank": 8,
+      "score": 1287,
+      "scoreLabel": "1287 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/vision",
+      "note": "模型 gemini-3.5-flash-medium",
+      "asOf": "2026-07-26"
+    },
+    {
+      "systemId": "lmarena-search",
+      "rank": 13,
+      "score": 1197,
+      "scoreLabel": "1197 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/search",
+      "note": "模型 gemini-3-flash-grounding",
+      "asOf": "2026-07-26"
+    },
+    {
+      "systemId": "lmarena-image",
+      "rank": 5,
+      "score": 1261,
+      "scoreLabel": "1261 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
+      "note": "模型 gemini-3.1-flash-image (nano-banana-2) [web-search]",
+      "asOf": "2026-07-26"
+    },
+    {
+      "systemId": "lmarena-image-edit",
+      "rank": 9,
+      "score": 1385,
+      "scoreLabel": "1385 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/image-edit",
+      "note": "模型 gemini-3.1-flash-image (nano-banana-2) [web-search]",
+      "asOf": "2026-07-26"
+    },
+    {
+      "systemId": "openrouter-popularity",
+      "rank": 14,
+      "scoreLabel": "1.8%",
+      "share": 1.8,
+      "period": "2026-07",
+      "sourceUrl": "https://openrouter.ai/rankings",
+      "asOf": "2026-07-26"
     }
   ],
   "sources": [
