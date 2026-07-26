@@ -5,8 +5,8 @@
 <h1 align="center">墨台 · VibeHolding</h1>
 
 <p align="center">
-  <strong>从 Agent 选到支付</strong><br/>
-  面向 Vibe Coding 开发者的全链路基建驾驶舱 ——<br/>
+  <strong>AI 时代的选型擂台</strong><br/>
+  从 Agent 选到支付，对照平替、追踪变局。<br/>
   结构化知识库 · 关系拓扑 · 方案组合 · 情报追踪 · 本地凭据
 </p>
 

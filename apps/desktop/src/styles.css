@@ -3287,10 +3287,11 @@ span.vh-mono,
 .vh-ranking-row[data-place='1'] .vh-ranking-rank {
   flex-direction: row;
   align-items: stretch;
-  min-width: 3.2em;
+  min-width: 3.8em;
   gap: 7px;
   padding-right: 12px;
   border-right: 1px solid color-mix(in oklch, var(--pigment-seal) 22%, transparent);
+  overflow: visible;
 }
 .vh-ranking-rank-value {
   display: flex;
@@ -3327,13 +3328,49 @@ span.vh-mono,
   font-family: var(--font-display);
   font-size: 11px;
   font-weight: 400;
-  letter-spacing: 0.35em;
+  /* 字距只加在字间；末字后用负 margin 收回，避免撑破窄卡片 */
+  letter-spacing: 0.28em;
+  margin-block-end: -0.28em;
   color: var(--pigment-seal);
   opacity: 0.88;
-  padding: 2px 0 0;
+  /* 竖排下行高≈物理宽度；楷体出格需 >1，左右再留 padding 防裁切 */
+  line-height: 1.35;
+  padding: 2px 0.15em 0;
   border: none;
   background: none;
-  line-height: 1;
+  overflow: visible;
+  flex-shrink: 0;
+}
+/* 窄详情栏：侧栏数字略收，给竖排「榜首」完整出墨空间 */
+@container kbdetail (max-width: 720px) {
+  .vh-ranking-row[data-place='1'] .vh-ranking-rank {
+    min-width: 3.4em;
+    gap: 6px;
+    padding-right: 10px;
+  }
+  .vh-ranking-row[data-place='1'] .vh-ranking-num {
+    font-size: 28px;
+  }
+  .vh-ranking-first-mark {
+    font-size: 10.5px;
+    line-height: 1.4;
+    padding: 1px 0.2em 0;
+  }
+}
+@media (max-width: 767px) {
+  .vh-ranking-row[data-place='1'] .vh-ranking-rank {
+    min-width: 3.4em;
+    gap: 6px;
+    padding-right: 10px;
+  }
+  .vh-ranking-row[data-place='1'] .vh-ranking-num {
+    font-size: 28px;
+  }
+  .vh-ranking-first-mark {
+    font-size: 10.5px;
+    line-height: 1.4;
+    padding: 1px 0.2em 0;
+  }
 }
 .vh-ranking-row[data-kind="share"] .vh-ranking-num {
   font-size: 18px;

@@ -108,7 +108,7 @@ export function DashboardView({
             animate={{ opacity: 1, y: 0 }}
             transition={{ ...tSlow, delay: reduced ? 0 : 0.14 }}
           >
-            从 Agent 选到支付
+            AI 时代的选型擂台
           </motion.h1>
           <motion.p
             className="vh-home-lede"
@@ -116,7 +116,7 @@ export function DashboardView({
             animate={{ opacity: 1, y: 0 }}
             transition={{ ...tSlow, delay: reduced ? 0 : 0.2 }}
           >
-            把选型坑点妥帖收纳，让技术迭代有据可循。
+            从 Agent 选到支付，对照平替、追踪变局。
           </motion.p>
           <motion.div
             className="vh-home-cta"
