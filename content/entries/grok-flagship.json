@@ -23,13 +23,13 @@
   "rankings": [
     {
       "systemId": "lmarena-webdev",
+      "rank": 10,
+      "score": 1550,
+      "scoreLabel": "1550 Elo",
       "period": "2026-07",
-      "note": "grok-4.5",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-      "asOf": "2026-07-24",
-      "rank": 7,
-      "score": 1557,
-      "scoreLabel": "1557 Elo"
+      "note": "模型 grok-4.5",
+      "asOf": "2026-07-29"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -53,13 +53,13 @@
     },
     {
       "systemId": "lmarena-vision",
-      "rank": 27,
-      "score": 1254,
-      "scoreLabel": "1254 Elo",
+      "rank": 16,
+      "score": 1282,
+      "scoreLabel": "1282 Elo",
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
-      "note": "模型 grok-4.20-beta-0309-reasoning",
-      "asOf": "2026-07-25"
+      "note": "模型 grok-4.5",
+      "asOf": "2026-07-29"
     },
     {
       "systemId": "lmarena-search",
@@ -73,13 +73,13 @@
     },
     {
       "systemId": "lmarena-document",
-      "rank": 28,
-      "score": 1412,
-      "scoreLabel": "1412 Elo",
+      "rank": 17,
+      "score": 1454,
+      "scoreLabel": "1454 Elo",
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/document",
-      "note": "模型 grok-4.20-beta-0309-reasoning",
-      "asOf": "2026-07-25"
+      "note": "模型 grok-4.5",
+      "asOf": "2026-07-29"
     },
     {
       "systemId": "openrouter-popularity",

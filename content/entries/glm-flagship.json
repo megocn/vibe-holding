@@ -44,13 +44,13 @@
     },
     {
       "systemId": "lmarena-webdev",
+      "rank": 6,
+      "score": 1588,
+      "scoreLabel": "1588 Elo",
       "period": "2026-07",
-      "note": "glm-5.2 (max)",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-      "asOf": "2026-07-24",
-      "rank": 4,
-      "score": 1592,
-      "scoreLabel": "1592 Elo"
+      "note": "模型 glm-5.2-max",
+      "asOf": "2026-07-29"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -73,13 +73,13 @@
     },
     {
       "systemId": "lmarena-document",
-      "rank": 26,
+      "rank": 29,
       "score": 1417,
       "scoreLabel": "1417 Elo",
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 glm-5v-turbo",
-      "asOf": "2026-07-25"
+      "asOf": "2026-07-29"
     }
   ],
   "sources": [

@@ -35,13 +35,13 @@
     },
     {
       "systemId": "lmarena-document",
-      "rank": 23,
-      "score": 1423,
-      "scoreLabel": "1423 Elo",
+      "rank": 26,
+      "score": 1424,
+      "scoreLabel": "1424 Elo",
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 gemma-4-31b",
-      "asOf": "2026-07-25"
+      "asOf": "2026-07-29"
     },
     {
       "systemId": "lmarena-text",

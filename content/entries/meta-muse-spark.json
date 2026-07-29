@@ -52,13 +52,13 @@
     },
     {
       "systemId": "lmarena-text",
+      "rank": 8,
+      "score": 1491,
+      "scoreLabel": "1491 Elo",
       "period": "2026-07",
-      "note": "muse-spark-1.1（Arena Text 快照）",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "asOf": "2026-07-24",
-      "rank": 5,
-      "score": 1495,
-      "scoreLabel": "1495 Elo"
+      "note": "模型 muse-spark-1.1",
+      "asOf": "2026-07-29"
     },
     {
       "systemId": "lmarena-vision",
@@ -72,23 +72,23 @@
     },
     {
       "systemId": "lmarena-document",
-      "rank": 17,
-      "score": 1444,
-      "scoreLabel": "1444 Elo",
+      "rank": 11,
+      "score": 1472,
+      "scoreLabel": "1472 Elo",
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/document",
-      "note": "模型 muse-spark",
-      "asOf": "2026-07-25"
+      "note": "模型 muse-spark-1.1",
+      "asOf": "2026-07-29"
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 13,
+      "rank": 15,
       "score": 1536,
       "scoreLabel": "1536 Elo",
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 muse-spark-1.1",
-      "asOf": "2026-07-25"
+      "asOf": "2026-07-29"
     }
   ],
   "sources": [

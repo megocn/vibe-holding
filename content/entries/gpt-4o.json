@@ -52,33 +52,31 @@
   "rankings": [
     {
       "systemId": "lmarena-text",
-      "rank": 11,
+      "rank": 13,
       "score": 1485,
       "scoreLabel": "1485 Elo",
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 gpt-5.6-sol-xhigh",
-      "asOf": "2026-07-25"
+      "asOf": "2026-07-29"
     },
     {
       "systemId": "lmarena-agent",
+      "rank": 4,
       "period": "2026-07",
-      "note": "GPT 5.6 Sol (xHigh)",
       "sourceUrl": "https://arena.ai/leaderboard/agent",
-      "asOf": "2026-07-24",
-      "rank": 2,
-      "share": 10.12,
-      "scoreLabel": "10.12% win"
+      "note": "模型 GPT 5.6 Sol (xHigh)",
+      "asOf": "2026-07-29"
     },
     {
       "systemId": "lmarena-webdev",
+      "rank": 5,
+      "score": 1623,
+      "scoreLabel": "1623 Elo",
       "period": "2026-07",
-      "note": "gpt-5.6-sol-xhigh (codex-harness)",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-      "asOf": "2026-07-24",
-      "rank": 3,
-      "score": 1630,
-      "scoreLabel": "1630 Elo"
+      "note": "模型 gpt-5.6-sol-xhigh (codex-harness)",
+      "asOf": "2026-07-29"
     },
     {
       "systemId": "lmarena-vision",

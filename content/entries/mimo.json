@@ -59,6 +59,16 @@
       "asOf": "2026-07-24",
       "score": 37,
       "scoreLabel": "AAII 37"
+    },
+    {
+      "systemId": "lmarena-webdev",
+      "rank": 30,
+      "score": 1474,
+      "scoreLabel": "1474 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+      "note": "模型 mimo-v2.5-pro",
+      "asOf": "2026-07-29"
     }
   ],
   "sources": [

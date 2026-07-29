@@ -85,21 +85,21 @@
     },
     {
       "systemId": "lmarena-agent",
-      "rank": 8,
+      "rank": 2,
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/agent",
-      "note": "模型 Claude Opus 4.7",
-      "asOf": "2026-07-25"
+      "note": "模型 Claude Opus 5 (Max)",
+      "asOf": "2026-07-29"
     },
     {
       "systemId": "lmarena-webdev",
+      "rank": 1,
+      "score": 1712,
+      "scoreLabel": "1712 Elo",
       "period": "2026-07",
-      "note": "claude-opus-4-8-thinking（待 Opus 5 上榜）",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-      "asOf": "2026-07-24",
-      "rank": 5,
-      "score": 1565,
-      "scoreLabel": "1565 Elo"
+      "note": "模型 claude-opus-5-max",
+      "asOf": "2026-07-29"
     },
     {
       "systemId": "lmarena-vision",

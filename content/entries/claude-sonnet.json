@@ -31,23 +31,21 @@
   "rankings": [
     {
       "systemId": "lmarena-agent",
+      "rank": 7,
       "period": "2026-07",
-      "note": "Claude Sonnet 5 (High)",
       "sourceUrl": "https://arena.ai/leaderboard/agent",
-      "asOf": "2026-07-24",
-      "rank": 5,
-      "share": 8.66,
-      "scoreLabel": "8.66% win"
+      "note": "模型 Claude Sonnet 5 (High)",
+      "asOf": "2026-07-29"
     },
     {
       "systemId": "lmarena-webdev",
-      "period": "2026-07",
-      "note": "claude-sonnet-5-high",
-      "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-      "asOf": "2026-07-24",
-      "rank": 9,
+      "rank": 12,
       "score": 1544,
-      "scoreLabel": "1544 Elo"
+      "scoreLabel": "1544 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+      "note": "模型 claude-sonnet-5-high",
+      "asOf": "2026-07-29"
     },
     {
       "systemId": "lmarena-document",

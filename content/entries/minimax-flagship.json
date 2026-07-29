@@ -52,13 +52,13 @@
     },
     {
       "systemId": "lmarena-document",
-      "rank": 20,
+      "rank": 23,
       "score": 1435,
       "scoreLabel": "1435 Elo",
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 minimax-m3",
-      "asOf": "2026-07-25"
+      "asOf": "2026-07-29"
     },
     {
       "systemId": "lmarena-webdev",
