@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "subscription"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "3d"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "绑骨/动画管线不如 Meshy 一体；需另接工具。",
+    "成本与额度适合样板，不适合无预算量产。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://hyper3d.ai"
+  ],
+  "lastReviewed": "2026-07-28",
+  "region": "overseas",
+  "id": "rodin",
+  "name": "Rodin",
+  "category": "design-ai-3d",
+  "subcategory": "ai-3d",
+  "oneLiner": "Hyper3D 文生 3D · 偏高质量网格与材质",
+  "officialUrl": "https://hyper3d.ai",
+  "descriptionMd": "Rodin（Hyper3D）面向高质量 AI 3D 生成，强调网格完整性与材质表现，常见于数字人、道具与影视概念资产试验。\n\n对网格观感要求高于「能预览就行」、可接受更高单价或排队时评估；与 Meshy/Tripo 对照。\n\n价格与额度策略偏专业向；动画/绑骨能力弱于部分竞品，需另接管线。\n",
+  "vendorId": "hyper3d"
+}

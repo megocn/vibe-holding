@@ -1,0 +1,11 @@
+{
+  "id": "edge-senseavatar-zhiying-alt",
+  "from": "senseavatar",
+  "to": "tencent-zhiying",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-29",
+  "note": "商汤如影 vs 腾讯智影（国内数字人）"
+}

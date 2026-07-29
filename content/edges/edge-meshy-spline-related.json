@@ -1,0 +1,11 @@
+{
+  "id": "edge-meshy-spline-related",
+  "from": "meshy",
+  "to": "spline",
+  "type": "commonly_used_with",
+  "weight": 0.45,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-28",
+  "note": "生成网格资产 vs Web 内建 3D 场景编辑"
+}

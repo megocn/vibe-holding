@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "stock",
+    "3d",
+    "game-art",
+    "unreal"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "许可与引擎绑定需逐项核对。",
+    "国内访问与支付可能受阻。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.fab.com"
+  ],
+  "lastReviewed": "2026-07-28",
+  "region": "overseas",
+  "id": "fab",
+  "name": "Fab",
+  "category": "design-game-assets",
+  "subcategory": "3d-stock",
+  "oneLiner": "Epic 数字资产商店 · 原 Marketplace/Quixel 整合向",
+  "officialUrl": "https://www.fab.com",
+  "descriptionMd": "Fab 是 Epic 侧数字内容商店方向（整合原 Marketplace / Quixel 等叙事），提供游戏与影视向 3D、材质、特效等资产交易与部分免费内容。\n\nUnreal/Epic 生态内采购场景资产、或需要影院级扫描材质时评估；与 Sketchfab 互补。\n\n引擎绑定与授权条款复杂；免费资产亦有使用限制，导出到非 UE 管线前要读许可。\n",
+  "vendorId": "epic-games"
+}

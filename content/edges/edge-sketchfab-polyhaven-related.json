@@ -1,0 +1,11 @@
+{
+  "id": "edge-sketchfab-polyhaven-related",
+  "from": "sketchfab",
+  "to": "polyhaven",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-28",
+  "note": "模型市场 vs CC0 环境/HDRI"
+}

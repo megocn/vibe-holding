@@ -1,0 +1,11 @@
+{
+  "id": "edge-zhizuo-iflytek-speech-related",
+  "from": "iflytek-zhizuo",
+  "to": "iflytek-speech",
+  "type": "commonly_used_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-29",
+  "note": "数字人成片产品 vs 讯飞开放平台语音 API"
+}

@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "stock",
+    "game-art",
+    "free"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "质量与风格极不统一，品牌向项目需精筛。",
+    "署名与衍生协议因上传者而异。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://opengameart.org"
+  ],
+  "lastReviewed": "2026-07-28",
+  "region": "overseas",
+  "id": "opengameart",
+  "name": "OpenGameArt",
+  "category": "design-game-assets",
+  "subcategory": "game-stock",
+  "oneLiner": "开源游戏素材社区 · CC0/CC-BY 常见",
+  "officialUrl": "https://opengameart.org",
+  "descriptionMd": "OpenGameArt 聚集免费/开源游戏贴图、精灵、音效与部分 3D，许可以 CC0、CC-BY 等为主，适合原型与独立游戏起步。\n\n需要可商用免费素材、能接受风格不统一与质量参差时作为第一站检索。\n\n视觉风格混杂；商用项目仍要逐条确认许可与署名要求。\n"
+}

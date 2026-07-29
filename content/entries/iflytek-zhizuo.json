@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "ai",
+    "avatar",
+    "domestic",
+    "tts"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "海外语种与创意镜头弱于国际营销向工具；套餐与定制交付路径以官网为准。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.xfzhizuo.cn"
+  ],
+  "lastReviewed": "2026-07-29",
+  "region": "domestic",
+  "id": "iflytek-zhizuo",
+  "name": "讯飞智作",
+  "category": "design-digital-human",
+  "subcategory": "domestic-suite",
+  "oneLiner": "讯飞数字人成片 · 配音强 · 教育/口播向",
+  "officialUrl": "https://www.xfzhizuo.cn",
+  "descriptionMd": "讯飞智作依托科大讯飞语音与星火能力，提供数字人定制与口播视频生成，强调配音质量与教育/知识输出等中文场景。\n\n课程讲解、知识口播、国内中文音色要求高时评估；可与讯飞开放平台语音能力对照。\n\n海外语种与创意镜头弱于国际营销向工具；套餐与定制交付路径以官网为准。\n",
+  "vendorId": "iflytek"
+}

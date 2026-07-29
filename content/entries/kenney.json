@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "stock",
+    "game-art",
+    "free",
+    "cc0"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "视觉辨识度高，正式产品建议换装。",
+    "不覆盖写实武侠/旗舰角色需求。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://kenney.nl/assets"
+  ],
+  "lastReviewed": "2026-07-28",
+  "region": "overseas",
+  "id": "kenney",
+  "name": "Kenney",
+  "category": "design-game-assets",
+  "subcategory": "game-stock",
+  "oneLiner": "CC0 游戏素材包 · 像素/低模/UI 原型友好",
+  "officialUrl": "https://kenney.nl/assets",
+  "descriptionMd": "Kenney 提供大量 CC0 游戏资产包（2D/3D/音频/UI），几乎无署名压力，是 Game Jam 与玩法原型的默认素材源之一。\n\n需要快速可商用占位美术、像素或低模风格、希望授权最省心时优先。\n\n风格辨识度高，成品上线常被认出「Kenney 味」，正式品牌向需替换。\n"
+}

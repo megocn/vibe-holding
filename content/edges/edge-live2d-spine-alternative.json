@@ -1,0 +1,11 @@
+{
+  "id": "edge-live2d-spine-alternative",
+  "from": "live2d-cubism",
+  "to": "spine",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-28",
+  "note": "2.5D 网格表演 vs 游戏 2D 骨骼"
+}

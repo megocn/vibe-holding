@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "ai",
+    "avatar",
+    "domestic",
+    "cloud"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "偏企业采购与项目制；个人创作者轻量成片可优先看智影/智作等自助产品。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.volcengine.com/product/avatar"
+  ],
+  "lastReviewed": "2026-07-29",
+  "region": "domestic",
+  "id": "volcengine-avatar",
+  "name": "火山引擎智能数字人",
+  "category": "design-digital-human",
+  "subcategory": "domestic-suite",
+  "oneLiner": "字节云数字人 · 企业定制 · 营销/互动",
+  "officialUrl": "https://www.volcengine.com/product/avatar",
+  "descriptionMd": "火山引擎智能数字人面向企业级虚拟人解决方案，覆盖形象生成、驱动与业务集成，常与字节云、豆包语音等能力同栈落地品牌营销与互动场景。\n\n已用火山/字节云、需要国内企业级数字人定制或 API 集成时评估。\n\n偏企业采购与项目制；个人创作者轻量成片可优先看智影/智作等自助产品。\n",
+  "vendorId": "volcengine"
+}

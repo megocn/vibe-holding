@@ -1,0 +1,11 @@
+{
+  "id": "edge-guiji-tavus-related",
+  "from": "guiji-duix",
+  "to": "tavus",
+  "type": "commonly_used_with",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-29",
+  "note": "国内交互/直播数字人 vs 海外 CVI"
+}

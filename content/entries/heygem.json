@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "ai",
+    "avatar",
+    "open-source",
+    "realtime"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "仓库与协议可能分叉迁移；星标热度≠生产就绪，上线前核对授权与模型权重来源。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/GuijiAI/HeyGem.ai"
+  ],
+  "lastReviewed": "2026-07-29",
+  "region": "domestic",
+  "id": "heygem",
+  "name": "HeyGem",
+  "category": "design-digital-human",
+  "subcategory": "talking-head-oss",
+  "oneLiner": "硅基开源本地数字人 · 实时交互试验",
+  "officialUrl": "https://github.com/GuijiAI/HeyGem.ai",
+  "descriptionMd": "HeyGem 是硅基智能开源的本地/实时数字人相关项目，社区常与 DUIX 一并讨论，用于端侧或自托管交互数字人试验，不等同于硅基商业 SaaS 全功能。\n\n要评估开源本地数字人推理、或与硅基生态对照时纳入；商用成片与直播交付看硅基商业产品。\n\n仓库与协议可能分叉迁移；星标热度≠生产就绪，上线前核对授权与模型权重来源。\n",
+  "vendorId": "guiji-inc"
+}

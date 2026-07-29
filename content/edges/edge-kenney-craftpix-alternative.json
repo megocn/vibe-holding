@@ -1,0 +1,11 @@
+{
+  "id": "edge-kenney-craftpix-alternative",
+  "from": "kenney",
+  "to": "craftpix",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-28",
+  "note": "CC0 原型包 vs 免费/付费 2D 游戏包"
+}

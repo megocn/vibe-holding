@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "avatar",
+    "creative",
+    "character"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "企业合规与多语本地化弱于培训向平台；产品形态与套餐变化快，POC 前锁定能力边界。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.hedra.com"
+  ],
+  "lastReviewed": "2026-07-29",
+  "region": "overseas",
+  "id": "hedra",
+  "name": "Hedra",
+  "category": "design-digital-human",
+  "subcategory": "avatar-video",
+  "oneLiner": "表情向角色视频 · 音乐/角色表演 · 风格化",
+  "officialUrl": "https://www.hedra.com",
+  "descriptionMd": "Hedra 偏表情与角色表演的 AI 视频/数字人生成，适合音乐短片、风格化角色口播等「不像企业培训片」的创意向用法，与写实企业数字人平台定位不同。\n\n需要角色表情张力、音乐视频感或非写实说话角色时评估；企业培训模板流优先看 Synthesia/HeyGen。\n\n企业合规与多语本地化弱于培训向平台；产品形态与套餐变化快，POC 前锁定能力边界。\n",
+  "vendorId": "hedra-inc"
+}

@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "animation",
+    "live2d",
+    "stock"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "许可因商品而异，上线前逐条核对。",
+    "与自有 IP 门派形象通常对不上，只能做管线验证。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://nizima.com"
+  ],
+  "lastReviewed": "2026-07-28",
+  "region": "overseas",
+  "id": "nizima",
+  "name": "nizima",
+  "category": "design-character-rig",
+  "subcategory": "live2d-market",
+  "oneLiner": "Live2D 官方向素材市场 · 买现成模型与部件",
+  "officialUrl": "https://nizima.com",
+  "descriptionMd": "nizima 是 Live2D 生态常见的模型与部件交易市场，可购买或获取免费/付费 moc 相关资产，缩短从零绑定的时间。\n\n需要现成 Live2D 角色做原型、虚拟形象或学习参考，而不自建全套绑定时评估。\n\n每套素材许可不同（改作/商用/再分发）；品牌定制形象仍难直接买到。\n",
+  "vendorId": "live2d-inc"
+}

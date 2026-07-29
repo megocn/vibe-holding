@@ -1,0 +1,11 @@
+{
+  "id": "edge-heygem-guiji-related",
+  "from": "heygem",
+  "to": "guiji-duix",
+  "type": "commonly_used_with",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-29",
+  "note": "开源试验线 vs 硅基商业/SDK 产品"
+}

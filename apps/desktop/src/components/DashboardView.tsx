@@ -111,10 +111,18 @@ export function DashboardView({
             AI 时代的选型擂台
           </motion.h1>
           <motion.p
+            className="vh-home-tagline"
+            initial={reduced ? false : { opacity: 0, y: 10 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ ...tSlow, delay: reduced ? 0 : 0.18 }}
+          >
+            新时代的基建维基百科
+          </motion.p>
+          <motion.p
             className="vh-home-lede"
             initial={reduced ? false : { opacity: 0, y: 10 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ ...tSlow, delay: reduced ? 0 : 0.2 }}
+            transition={{ ...tSlow, delay: reduced ? 0 : 0.22 }}
           >
             从 Agent 选到支付，对照平替、追踪变局。
           </motion.p>

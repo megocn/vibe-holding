@@ -1,0 +1,11 @@
+{
+  "id": "edge-spine-rive-related",
+  "from": "spine",
+  "to": "rive",
+  "type": "commonly_used_with",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-28",
+  "note": "游戏骨骼 vs 产品交互动效"
+}

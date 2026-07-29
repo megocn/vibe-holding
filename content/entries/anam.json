@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "avatar",
+    "realtime",
+    "api"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "形象/音色额度与并发上限按套餐变化；合规与克隆授权需产品侧自建流程。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.anam.ai"
+  ],
+  "lastReviewed": "2026-07-29",
+  "region": "overseas",
+  "id": "anam",
+  "name": "Anam",
+  "category": "design-digital-human",
+  "subcategory": "realtime-avatar",
+  "oneLiner": "低时延交互数字人 API · 客服/Agent 向",
+  "officialUrl": "https://www.anam.ai",
+  "descriptionMd": "Anam 提供实时交互式 AI Avatar API，强调低时延对话视频代理，面向客服、培训与销售中的 Conversational Video Agent 嵌入场景。\n\n要在自有产品里嵌「会说话的视频 Agent」、且关注端到端时延时评估；批量口播成片另选。\n\n形象/音色额度与并发上限按套餐变化；合规与克隆授权需产品侧自建流程。\n",
+  "vendorId": "anam-inc"
+}

@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "avatar",
+    "enterprise",
+    "training"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "创意营销镜头弱；按席位/分钟计费需测算规模，勿与实时对话数字人混选。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.colossyan.com"
+  ],
+  "lastReviewed": "2026-07-29",
+  "region": "overseas",
+  "id": "colossyan",
+  "name": "Colossyan",
+  "category": "design-digital-human",
+  "subcategory": "avatar-video",
+  "oneLiner": "互动培训数字人 · L&D 向 · 情景片",
+  "officialUrl": "https://www.colossyan.com",
+  "descriptionMd": "Colossyan 面向学习与发展（L&D）场景的 AI 数字人视频，强调培训情景、分支互动与团队协作成片，是 Synthesia 在互动培训赛道的常见对照。\n\n需要可交互培训视频、情景演练或多角色讲解而非纯营销口播时评估。\n\n创意营销镜头弱；按席位/分钟计费需测算规模，勿与实时对话数字人混选。\n",
+  "vendorId": "colossyan-inc"
+}

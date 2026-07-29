@@ -1,0 +1,11 @@
+{
+  "id": "edge-heygen-hedra-related",
+  "from": "heygen",
+  "to": "hedra",
+  "type": "commonly_used_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-29",
+  "note": "写实营销口播 vs 表情/角色表演向"
+}

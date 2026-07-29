@@ -689,13 +689,32 @@ span.vh-mono,
   color: var(--ink-1);
   text-wrap: pretty;
 }
+.vh-home-tagline {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0 0;
+  font-family: var(--font-display);
+  font-size: clamp(16px, 1.8vw, 20px);
+  line-height: 1.35;
+  letter-spacing: 0.14em;
+  color: var(--pigment-seal);
+}
+.vh-home-tagline::before {
+  content: '';
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--pigment-seal);
+  box-shadow: 0 0 0 3px color-mix(in oklch, var(--pigment-seal) 18%, transparent);
+  flex-shrink: 0;
+}
 .vh-home-lede {
-  margin: 8px 0 0;
-  max-width: 28em;
+  margin: 6px 0 0;
+  max-width: 32em;
   font-size: var(--text-sm);
   line-height: var(--text-sm-lh);
   color: var(--ink-2);
-  text-wrap: pretty;
 }
 .vh-home-cta {
   display: flex;

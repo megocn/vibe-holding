@@ -1,0 +1,11 @@
+{
+  "id": "edge-live2d-lottiefiles-related",
+  "from": "live2d-cubism",
+  "to": "lottiefiles",
+  "type": "commonly_used_with",
+  "weight": 0.35,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-28",
+  "note": "角色网格 vs 营销矢量微动效，不同层"
+}

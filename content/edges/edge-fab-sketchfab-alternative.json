@@ -1,0 +1,11 @@
+{
+  "id": "edge-fab-sketchfab-alternative",
+  "from": "fab",
+  "to": "sketchfab",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-28",
+  "note": "Epic 生态资产店 vs 通用 3D 浏览下载"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "edge-meshy-csm-related",
+  "from": "meshy",
+  "to": "csm-ai",
+  "type": "commonly_used_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-28",
+  "note": "文生概念模 vs 照片/视频重建"
+}

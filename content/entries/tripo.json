@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "3d"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "拓扑/UV 不稳定，量产角色仍常回 DCC。",
+    "积分与商用条款以官网为准，注意区域可用性。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.tripo3d.ai"
+  ],
+  "lastReviewed": "2026-07-28",
+  "region": "overseas",
+  "id": "tripo",
+  "name": "Tripo",
+  "category": "design-ai-3d",
+  "subcategory": "ai-3d",
+  "oneLiner": "文/图生 3D · 多格式导出 · 偏产品与游戏样板",
+  "officialUrl": "https://www.tripo3d.ai",
+  "descriptionMd": "Tripo（VAST）提供 AI 文生/图生 3D，强调较快出模与多格式导出，适合产品可视化、游戏概念体与电商 3D 试制。\n\n需要与 Meshy 对照的第二家文生 3D、或特定导出格式/速度偏好时纳入短名单。\n\n拓扑与 UV 质量因任务波动；角色绑骨与面部细节通常仍需 DCC 或人工。\n",
+  "vendorId": "tripo-ai"
+}

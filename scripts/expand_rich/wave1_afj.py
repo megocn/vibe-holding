@@ -597,9 +597,9 @@ add(llm_line("gemini-flash", "Gemini Flash", "google-deepmind", "https://ai.goog
     region="overseas", pricing="usage", pitfalls=["复杂推理与代码任务应升级 Pro；国内访问 Google API 需网络与合规方…"]))
 link("gemini-flash-part", "gemini-flash", "gemini", "part_of")
 link("gemini-flash-e0", "gemini-flash", "gpt-mini", "alternative_to")
-add(llm_line("gpt-mini", "GPT-4o mini", "openai", "https://openai.com/index/gpt-4o-mini-advancing-cost-efficient-intelligence",
-    "OpenAI 高性价比小型 line", "GPT-4o mini 是 OpenAI 面向大规模部署的成本优化 line，保留较强指令遵循，适合高流量边缘任务。", "海量用户产品的默认 chat 模型、路由层 fallback、或 fine-tune 起点。", "数学与复杂 Agent 规划弱于 full GPT-4o；关键路径应保留升级路由。",
-    region="overseas", pricing="usage", pitfalls=["数学与复杂 Agent 规划弱于 full GPT-4o；关键路径应保留升级路由…"]))
+add(llm_line("gpt-mini", "GPT Luna", "openai", "https://openai.com/index/gpt-5-6/",
+    "OpenAI 成本档 · Luna", "OpenAI GPT 产品族的成本优化选型档。当前版本为 GPT-5.6 Luna（同代 Terra 为均衡档，Sol 为旗舰）。", "海量用户产品的默认 chat、路由层 fallback、或高并发边缘任务；复杂推理与长链路 Agent 应升级 Sol/Terra。", "能力上限低于 Sol/Terra；关键路径应保留升级路由。",
+    region="overseas", pricing="usage", pitfalls=["复杂 Agent / 前沿推理弱于 Sol；关键路径应保留升级路由。"]))
 link("gpt-mini-part", "gpt-mini", "gpt", "part_of")
 link("gpt-mini-e0", "gpt-mini", "gemini-flash", "alternative_to")
 add(llm_line("phi-3", "Phi-3", "microsoft", "https://azure.microsoft.com/products/phi-3",

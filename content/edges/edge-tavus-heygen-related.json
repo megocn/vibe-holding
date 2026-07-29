@@ -1,0 +1,11 @@
+{
+  "id": "edge-tavus-heygen-related",
+  "from": "tavus",
+  "to": "heygen",
+  "type": "commonly_used_with",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-29",
+  "note": "实时对话 vs 批量口播成片，勿混比"
+}

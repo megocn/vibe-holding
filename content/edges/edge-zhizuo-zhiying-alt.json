@@ -1,0 +1,11 @@
+{
+  "id": "edge-zhizuo-zhiying-alt",
+  "from": "iflytek-zhizuo",
+  "to": "tencent-zhiying",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-29",
+  "note": "讯飞配音强 vs 腾讯短视频创作一体"
+}

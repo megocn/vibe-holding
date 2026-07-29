@@ -25,7 +25,10 @@
     "build:web": "pnpm --filter @vh/desktop build",
     "deploy:pages": "pnpm build:web && wrangler pages deploy --project-name=vibeholding --branch=main",
     "vh": "tsx apps/cli/src/index.ts",
-    "aqua": "tsx private/aqua/cli.ts"
+    "aqua": "tsx private/aqua/cli.ts",
+    "arena": "tsx private/arena/cli.ts",
+    "arena:dev": "pnpm --dir private/arena dev",
+    "arena:build": "pnpm --dir private/arena build"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",

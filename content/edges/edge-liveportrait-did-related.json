@@ -1,0 +1,11 @@
+{
+  "id": "edge-liveportrait-did-related",
+  "from": "liveportrait",
+  "to": "d-id",
+  "type": "commonly_used_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-29",
+  "note": "开源自建管线 vs 商业说话头 API"
+}

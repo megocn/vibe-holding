@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "stock",
+    "3d",
+    "cc0",
+    "hdri"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "几乎无角色表演资产。",
+    "高分辨率 HDRI 体积大，Web 实时需降采样。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://polyhaven.com"
+  ],
+  "lastReviewed": "2026-07-28",
+  "region": "overseas",
+  "id": "polyhaven",
+  "name": "Poly Haven",
+  "category": "design-game-assets",
+  "subcategory": "3d-env",
+  "oneLiner": "CC0 HDRI/贴图/模型 · 3D 场景光照友好",
+  "officialUrl": "https://polyhaven.com",
+  "descriptionMd": "Poly Haven 提供 CC0 的 HDRI、PBR 贴图与部分模型，适合 Blender/引擎里搭真实感光照与环境。\n\n需要免费可商用环境光与材质、做产品渲染或场景铺底时评估。\n\n角色/动画资产极少；偏环境与材质，不解决 Live2D/角色绑定。\n"
+}

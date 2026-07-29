@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "ai",
+    "avatar",
+    "domestic",
+    "video"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "能力与套餐以控制台为准；出海多语与海外分发需另测，勿默认等同 HeyGen。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://zenvideo.qq.com"
+  ],
+  "lastReviewed": "2026-07-29",
+  "region": "domestic",
+  "id": "tencent-zhiying",
+  "name": "腾讯智影",
+  "category": "design-digital-human",
+  "subcategory": "domestic-suite",
+  "oneLiner": "腾讯系数字人口播 · 剪辑/配音一体 · 短视频向",
+  "officialUrl": "https://zenvideo.qq.com",
+  "descriptionMd": "腾讯智影是腾讯云端智能视频创作平台，集成数字人口播、形象/声音克隆、文本配音与文章转视频等能力，常用于国内短视频、企业宣传与内容工业化生产。\n\n国内团队要快速出数字人口播、且希望与腾讯生态（账号/素材/分发）同栈时评估。\n\n能力与套餐以控制台为准；出海多语与海外分发需另测，勿默认等同 HeyGen。\n",
+  "vendorId": "tencent"
+}

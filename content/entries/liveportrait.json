@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "avatar",
+    "open-source",
+    "talking-head"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "需自备推理与合规审核；商用授权以仓库协议与上游声明为准，非一键营销成片工具。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/KwaiVGI/LivePortrait"
+  ],
+  "lastReviewed": "2026-07-29",
+  "region": "overseas",
+  "id": "liveportrait",
+  "name": "LivePortrait",
+  "category": "design-digital-human",
+  "subcategory": "talking-head-oss",
+  "oneLiner": "开源人像驱动 · 高效表情迁移 · 研究/自建",
+  "officialUrl": "https://github.com/KwaiVGI/LivePortrait",
+  "descriptionMd": "LivePortrait（快手视觉团队开源）用驱动视频高效迁移表情与头部运动到目标人像，是自建说话头/写真动画管线的常用开源组件，而非完整 SaaS 数字人平台。\n\n有 GPU、要自建口型/表情驱动或研究管线时评估；要开箱成片请用商业数字人平台。\n\n需自备推理与合规审核；商用授权以仓库协议与上游声明为准，非一键营销成片工具。\n"
+}

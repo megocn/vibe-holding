@@ -1,0 +1,11 @@
+{
+  "id": "edge-synthesia-colossyan-alt",
+  "from": "synthesia",
+  "to": "colossyan",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-29",
+  "note": "企业培训口播 vs 互动 L&D 情景"
+}

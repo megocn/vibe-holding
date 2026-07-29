@@ -1,0 +1,11 @@
+{
+  "id": "edge-liveportrait-sadtalker-alt",
+  "from": "liveportrait",
+  "to": "sadtalker",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-29",
+  "note": "开源人像驱动对照"
+}

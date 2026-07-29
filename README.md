@@ -6,6 +6,7 @@
 
 <p align="center">
   <strong>AI 时代的选型擂台</strong><br/>
+  <span style="color:#8B1A1A">新时代的基建维基百科</span><br/>
   从 Agent 选到支付，对照平替、追踪变局。<br/>
   结构化知识库 · 关系拓扑 · 方案组合 · 情报追踪 · 本地凭据
 </p>

@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "avatar",
+    "api",
+    "talking-head"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "成片质量与全身表演弱于头部玩家；形象授权与 deepfake 合规同样严格。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.d-id.com"
+  ],
+  "lastReviewed": "2026-07-29",
+  "region": "overseas",
+  "id": "d-id",
+  "name": "D-ID",
+  "category": "design-digital-human",
+  "subcategory": "avatar-video",
+  "oneLiner": "照片驱动说话头 · API 轻量入门 · 短片向",
+  "officialUrl": "https://www.d-id.com",
+  "descriptionMd": "D-ID 把静图/肖像驱动成说话头视频，提供 Studio 与开发者 API，强调快速生成短口播与会说话肖像，是 HeyGen/Synthesia 之外常见的轻量对照。\n\n只要「一张照片 + 文稿/音频」快速出短片、或要嵌入产品做说话肖像 POC 时评估；不要与文生镜头类工具混比。\n\n成片质量与全身表演弱于头部玩家；形象授权与 deepfake 合规同样严格。\n",
+  "vendorId": "d-id-inc"
+}

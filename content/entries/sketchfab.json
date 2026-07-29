@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "stock",
+    "3d",
+    "game-art"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "许可与是否可商用/改作必须逐模型核对。",
+    "国内访问不稳定时需备用镜像或本地缓存。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://sketchfab.com"
+  ],
+  "lastReviewed": "2026-07-28",
+  "region": "overseas",
+  "id": "sketchfab",
+  "name": "Sketchfab",
+  "category": "design-game-assets",
+  "subcategory": "3d-stock",
+  "oneLiner": "在线 3D 模型库与浏览 · 下载授权分层",
+  "officialUrl": "https://sketchfab.com",
+  "descriptionMd": "Sketchfab 提供海量可在线预览的 3D 模型，含免费与付费授权分层，覆盖游戏、建筑可视化与 AR 试用资产。\n\n需要快速找参考模、免费 CC 模或购买现成道具进引擎时评估；与 Poly Haven、Fab 对照。\n\n免费层许可混杂（CC0/CC-BY 等）；下载与 API 限额、部分地区访问需自备网络策略。\n",
+  "vendorId": "sketchfab-inc"
+}

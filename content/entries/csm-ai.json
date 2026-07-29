@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "3d",
+    "scan"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "输入照片质量与角度覆盖决定结果上限。",
+    "不是角色表演级绑骨方案。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.csm.ai"
+  ],
+  "lastReviewed": "2026-07-28",
+  "region": "overseas",
+  "id": "csm-ai",
+  "name": "CSM",
+  "category": "design-ai-3d",
+  "subcategory": "ai-3d-scan",
+  "oneLiner": "图像/视频转 3D · 偏扫描重建与产品捕捉",
+  "officialUrl": "https://www.csm.ai",
+  "descriptionMd": "CSM 侧重从图像或视频序列重建 3D，接近「轻量扫描/捕捉」叙事，适合实物产品、场景片段进入数字资产库。\n\n已有多视角照片或短视频、希望进引擎做产品 3D 时评估；与纯文生 3D（Meshy）互补。\n\n拍摄规范影响成败；角色绑定与游戏动画仍需下游工具。\n",
+  "vendorId": "csm-inc"
+}

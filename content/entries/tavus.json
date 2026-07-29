@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "avatar",
+    "realtime",
+    "api"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "不是批量成片工具；成本与并发按会话计，需评估 LLM/TTS 联调与合规（形象克隆授权）。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.tavus.io"
+  ],
+  "lastReviewed": "2026-07-29",
+  "region": "overseas",
+  "id": "tavus",
+  "name": "Tavus",
+  "category": "design-digital-human",
+  "subcategory": "realtime-avatar",
+  "oneLiner": "实时对话数字人 · CVI · 销售/客服向",
+  "officialUrl": "https://www.tavus.io",
+  "descriptionMd": "Tavus 做 Conversational Video Interface：低时延、可对话的数字人，面向销售页、互动演示与客服/陪练等「面对面」场景，与批量脚本口播成片是不同产品形态。\n\n需要用户与数字人实时对话、个性化 1:1 视频交互时优先；批量培训/营销口播片请看 HeyGen/Synthesia。\n\n不是批量成片工具；成本与并发按会话计，需评估 LLM/TTS 联调与合规（形象克隆授权）。\n",
+  "vendorId": "tavus-inc"
+}

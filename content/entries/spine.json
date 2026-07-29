@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "subscription"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "animation",
+    "spine",
+    "game-art"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "产品内嵌官方 runtime 需持有对应 Editor 许可。",
+    "从单张立绘自动出 skel 无成熟商用 SaaS。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://esotericsoftware.com"
+  ],
+  "lastReviewed": "2026-07-28",
+  "region": "overseas",
+  "id": "spine",
+  "name": "Spine",
+  "category": "design-character-rig",
+  "subcategory": "skeletal-2d",
+  "oneLiner": "2D 骨骼动画编辑器 · skel/atlas · 游戏角色主流",
+  "officialUrl": "https://esotericsoftware.com",
+  "descriptionMd": "Spine（Esoteric）是游戏业常用的 2D 骨骼动画工具，导出 skel/json + atlas，runtime 覆盖多数引擎；适合平台动作、格斗与 UI 骨骼角色。\n\n需要比 Live2D 更「游戏动作向」的剪影/换装骨骼、且团队熟悉 Spine 工作流时优先。\n\nEditor 许可证与 runtime 分发规则需严格合规；无许可证不可把官方 runtime 打进产品。\n",
+  "vendorId": "esoteric-software"
+}

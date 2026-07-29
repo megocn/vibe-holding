@@ -1,0 +1,11 @@
+{
+  "id": "edge-opengameart-kenney-related",
+  "from": "opengameart",
+  "to": "kenney",
+  "type": "commonly_used_with",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-28",
+  "note": "开源社区素材 vs CC0 成套包"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "edge-meshy-tripo-alternative",
+  "from": "meshy",
+  "to": "tripo",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-28",
+  "note": "文生 3D 同层竞品"
+}

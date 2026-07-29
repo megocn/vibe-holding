@@ -1,0 +1,11 @@
+{
+  "id": "edge-live2d-nizima-related",
+  "from": "live2d-cubism",
+  "to": "nizima",
+  "type": "commonly_used_with",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-28",
+  "note": "工具链 vs 模型素材市场"
+}

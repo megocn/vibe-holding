@@ -1,0 +1,11 @@
+{
+  "id": "edge-volc-avatar-zhiying-related",
+  "from": "volcengine-avatar",
+  "to": "tencent-zhiying",
+  "type": "commonly_used_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-29",
+  "note": "企业定制云数字人 vs 自助成片工具"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "edge-live2d-rive-related",
+  "from": "live2d-cubism",
+  "to": "rive",
+  "type": "commonly_used_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-28",
+  "note": "角色表演 vs 交互 UI/状态机动效"
+}

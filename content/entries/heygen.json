@@ -15,7 +15,8 @@
     "ai",
     "video",
     "avatar",
-    "dubbing"
+    "dubbing",
+    "digital-human"
   ],
   "maturity": "stable",
   "pitfalls": [
@@ -26,11 +27,11 @@
   "sources": [
     "https://www.heygen.com"
   ],
-  "lastReviewed": "2026-07-24",
+  "lastReviewed": "2026-07-29",
   "region": "overseas",
   "id": "heygen",
   "name": "HeyGen",
-  "category": "design-ai-video",
+  "category": "design-digital-human",
   "subcategory": "avatar-video",
   "oneLiner": "数字人视频 · 多语口型 · 营销向",
   "officialUrl": "https://www.heygen.com",

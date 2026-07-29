@@ -15,7 +15,8 @@
     "ai",
     "video",
     "avatar",
-    "enterprise"
+    "enterprise",
+    "digital-human"
   ],
   "maturity": "mature",
   "pitfalls": [
@@ -26,11 +27,11 @@
   "sources": [
     "https://www.synthesia.io"
   ],
-  "lastReviewed": "2026-07-24",
+  "lastReviewed": "2026-07-29",
   "region": "overseas",
   "id": "synthesia",
   "name": "Synthesia",
-  "category": "design-ai-video",
+  "category": "design-digital-human",
   "subcategory": "avatar-video",
   "oneLiner": "企业数字人口播 · 培训/合规向",
   "officialUrl": "https://www.synthesia.io",

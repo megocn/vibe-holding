@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "stock",
+    "game-art",
+    "2d"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "免费与付费许可不同，注意署名与再分发。",
+    "美术风格与国风/武侠项目匹配度低。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://craftpix.net"
+  ],
+  "lastReviewed": "2026-07-28",
+  "region": "overseas",
+  "id": "craftpix",
+  "name": "Craftpix",
+  "category": "design-game-assets",
+  "subcategory": "game-stock",
+  "oneLiner": "2D 游戏素材站 · 免费包+付费包 · 精灵/UI 常见",
+  "officialUrl": "https://craftpix.net",
+  "descriptionMd": "Craftpix 提供 2D 游戏精灵、UI、背景等免费与付费包，偏休闲与平台跳跃原型，许可按包说明。\n\n需要成套 2D 关卡/UI 素材、快速拼出可玩 Demo 时评估；与 Kenney、OpenGameArt 对照。\n\n免费包常有署名或非独占限制；风格偏欧美卡通，难直接用于水墨武侠。\n"
+}

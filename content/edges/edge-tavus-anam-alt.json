@@ -1,0 +1,11 @@
+{
+  "id": "edge-tavus-anam-alt",
+  "from": "tavus",
+  "to": "anam",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-07-29",
+  "note": "实时对话数字人 API 对照"
+}

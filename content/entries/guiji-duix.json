@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "ai",
+    "avatar",
+    "domestic",
+    "sdk",
+    "realtime"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "商用授权与开源协议需分清；品牌名易与 SiliconFlow 混淆，选型文档务必写全称。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://website.guiji.ai"
+  ],
+  "lastReviewed": "2026-07-29",
+  "region": "domestic",
+  "id": "guiji-duix",
+  "name": "硅基智能 · DUIX",
+  "category": "design-digital-human",
+  "subcategory": "realtime-avatar",
+  "oneLiner": "国内交互数字人 · 直播/SDK · 端侧可部署",
+  "officialUrl": "https://website.guiji.ai",
+  "descriptionMd": "硅基智能（勿与「硅基流动」混淆）提供数字人交互与直播相关能力，DUIX 等 SDK/开源线支持 Web/端侧部署说话与互动数字人，常见于国内直播与客服交互场景。\n\n国内要数字人直播、H5/App 嵌入交互形象，或评估端侧开源方案时纳入；推理 API 网关请看硅基流动。\n\n商用授权与开源协议需分清；品牌名易与 SiliconFlow 混淆，选型文档务必写全称。\n",
+  "vendorId": "guiji-inc"
+}

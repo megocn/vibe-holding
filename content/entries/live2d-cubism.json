@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "subscription"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "animation",
+    "live2d",
+    "character"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "中大型企业 SDK/Editor 授权成本高，需对照官方价目。",
+    "单张立绘不能自动变成可用 moc3，必须分层与绑定。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.live2d.com"
+  ],
+  "lastReviewed": "2026-07-28",
+  "region": "overseas",
+  "id": "live2d-cubism",
+  "name": "Live2D Cubism",
+  "category": "design-character-rig",
+  "subcategory": "live2d",
+  "oneLiner": "2.5D 角色网格绑定 · Editor+SDK · moc3 行业标准",
+  "officialUrl": "https://www.live2d.com",
+  "descriptionMd": "Live2D Cubism 用网格变形让 2D 立绘「活」起来，产出 moc3 等运行时格式，是虚拟主播、日式 RPG UI/立绘战斗的常见标准；含 Editor 与多端 SDK。\n\n需要眨眼/口型/摆动级角色表演、且愿意投入绑定与授权时选用；与 Spine、Rive、自研分件木偶对照。\n\nEditor/SDK 按主体规模收费；moc3 无法从单张立绘自动可靠生成，需分层 PSD+绑定。\n",
+  "vendorId": "live2d-inc",
+  "docsUrl": "https://docs.live2d.com"
+}

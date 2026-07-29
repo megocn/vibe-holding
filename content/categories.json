@@ -497,46 +497,74 @@
     "order": 2
   },
   {
+    "id": "design-ai-3d",
+    "name": "AI 三维生成",
+    "kind": "leaf",
+    "parent": "design-assets",
+    "order": 3
+  },
+  {
     "id": "design-ai-video",
     "name": "AI 视频生成",
     "kind": "leaf",
     "parent": "design-assets",
-    "order": 3
+    "order": 4
+  },
+  {
+    "id": "design-digital-human",
+    "name": "数字人 / 口播形象",
+    "kind": "leaf",
+    "parent": "design-assets",
+    "order": 5
   },
   {
     "id": "design-ai-music",
     "name": "AI 音乐生成",
     "kind": "leaf",
     "parent": "design-assets",
-    "order": 4
+    "order": 6
+  },
+  {
+    "id": "design-character-rig",
+    "name": "角色绑定 / 立绘骨骼",
+    "kind": "leaf",
+    "parent": "design-assets",
+    "order": 7
   },
   {
     "id": "design-motion",
-    "name": "动效素材",
+    "name": "UI 动效素材",
     "kind": "leaf",
     "parent": "design-assets",
-    "order": 5
+    "order": 8
+  },
+  {
+    "id": "design-game-assets",
+    "name": "游戏 / 三维素材",
+    "kind": "leaf",
+    "parent": "design-assets",
+    "order": 9
   },
   {
     "id": "design-stock",
-    "name": "图库 / 素材市场",
+    "name": "图库 / 平面素材",
     "kind": "leaf",
     "parent": "design-assets",
-    "order": 6
+    "order": 10
   },
   {
     "id": "design-inspiration",
     "name": "灵感板 / 作品集",
     "kind": "leaf",
     "parent": "design-assets",
-    "order": 7
+    "order": 11
   },
   {
     "id": "design-fonts",
     "name": "字体",
     "kind": "leaf",
     "parent": "design-assets",
-    "order": 8
+    "order": 12
   },
   {
     "id": "collab-pm",

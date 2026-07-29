@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "ai",
+    "avatar",
+    "domestic",
+    "livestream"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "企业采购与试用门槛偏高；产品入口与套餐常随商汤站改版，签约前锁定具体 SKU。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.sensetime.com",
+    "https://www.sensetime.com/cn"
+  ],
+  "lastReviewed": "2026-07-29",
+  "region": "domestic",
+  "id": "senseavatar",
+  "name": "商汤如影",
+  "category": "design-digital-human",
+  "subcategory": "domestic-suite",
+  "oneLiner": "商汤数字人 · 口播/直播复刻 · 营销向",
+  "officialUrl": "https://www.sensetime.com",
+  "descriptionMd": "商汤如影（SenseAvatar）隶属日日新大模型体系，提供数字人视频生成、形象定制与直播间复刻等能力，面向短视频营销、品牌 IP 与数字人直播。\n\n国内要高拟真数字人成片或直播运营、且可接受企业采购路径时评估。\n\n企业采购与试用门槛偏高；产品入口与套餐常随商汤站改版，签约前锁定具体 SKU。\n",
+  "vendorId": "sensetime"
+}

@@ -1,9 +1,12 @@
 {
   "id": "digital-human",
   "name": "数字人",
-  "summaryMd": "用 AI 驱动的虚拟形象口播或互动。",
+  "summaryMd": "用 AI 驱动虚拟形象做口播成片或实时对话互动；与文生镜头视频、立绘骨骼绑定是不同用途。",
   "aliases": [
     "AI 数字人",
-    "数字人口播"
+    "数字人口播",
+    "AI Avatar",
+    "talking head",
+    "对话数字人"
   ]
 }

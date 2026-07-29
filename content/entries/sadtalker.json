@@ -1,0 +1,37 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "avatar",
+    "open-source",
+    "talking-head"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "效果与商业 SaaS 有差距；依赖与 CUDA 环境维护成本高，生产需自建审核与运维。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/OpenTalker/SadTalker"
+  ],
+  "lastReviewed": "2026-07-29",
+  "region": "overseas",
+  "id": "sadtalker",
+  "name": "SadTalker",
+  "category": "design-digital-human",
+  "subcategory": "talking-head-oss",
+  "oneLiner": "开源音频驱动说话头 · 经典管线 · 自托管",
+  "officialUrl": "https://github.com/OpenTalker/SadTalker",
+  "descriptionMd": "SadTalker 是广为使用的开源音频驱动说话头方案：输入肖像与音频生成口型同步视频，适合自托管实验与低成本 POC，质量与稳定性依赖环境与后处理。\n\n要本地/私有化验证「照片+音频→说话视频」、可接受工程投入时评估。\n\n效果与商业 SaaS 有差距；依赖与 CUDA 环境维护成本高，生产需自建审核与运维。\n"
+}

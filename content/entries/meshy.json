@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "subscription"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "3d",
+    "game-art"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "商用授权与积分套餐变化快，导出前核对许可。",
+    "高模体积大，Web/移动端需压面或改公告板。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.meshy.ai"
+  ],
+  "lastReviewed": "2026-07-28",
+  "region": "overseas",
+  "id": "meshy",
+  "name": "Meshy",
+  "category": "design-ai-3d",
+  "subcategory": "ai-3d",
+  "oneLiner": "文/图生 3D · 绑骨与动画管线 · 游戏/原型常用",
+  "officialUrl": "https://www.meshy.ai",
+  "descriptionMd": "Meshy 提供文本/图像生成 3D 网格，并支持重拓扑、贴图、绑骨与基础动画导出（如 GLB），面向游戏原型、角色样板与营销 3D 资产快速试错。\n\n需要从概念图快速落到可预览/可挂动画的 3D 角色或道具、且接受 AI 拓扑质量时评估；可与 Tripo、Rodin 同层对比。\n\n商用授权与积分套餐变化快；高模体积大，上线前需压面/换装自研骨骼或公告板。\n",
+  "vendorId": "meshy-ai"
+}

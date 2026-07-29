@@ -1142,6 +1142,45 @@
     },
     {
       "pricing": {
+        "model": "usage",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": false,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "ai",
+        "avatar",
+        "realtime",
+        "api"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "形象/音色额度与并发上限按套餐变化；合规与克隆授权需产品侧自建流程。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.anam.ai"
+      ],
+      "lastReviewed": "2026-07-29",
+      "region": "overseas",
+      "id": "anam",
+      "name": "Anam",
+      "category": "design-digital-human",
+      "subcategory": "realtime-avatar",
+      "oneLiner": "低时延交互数字人 API · 客服/Agent 向",
+      "officialUrl": "https://www.anam.ai",
+      "descriptionMd": "Anam 提供实时交互式 AI Avatar API，强调低时延对话视频代理，面向客服、培训与销售中的 Conversational Video Agent 嵌入场景。\n\n要在自有产品里嵌「会说话的视频 Agent」、且关注端到端时延时评估；批量口播成片另选。\n\n形象/音色额度与并发上限按套餐变化；合规与克隆授权需产品侧自建流程。\n",
+      "vendorId": "anam-inc"
+    },
+    {
+      "pricing": {
         "model": "open-source"
       },
       "availability": {
@@ -5542,6 +5581,45 @@
     },
     {
       "pricing": {
+        "model": "subscription",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": false,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "ai",
+        "avatar",
+        "enterprise",
+        "training"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "创意营销镜头弱；按席位/分钟计费需测算规模，勿与实时对话数字人混选。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.colossyan.com"
+      ],
+      "lastReviewed": "2026-07-29",
+      "region": "overseas",
+      "id": "colossyan",
+      "name": "Colossyan",
+      "category": "design-digital-human",
+      "subcategory": "avatar-video",
+      "oneLiner": "互动培训数字人 · L&D 向 · 情景片",
+      "officialUrl": "https://www.colossyan.com",
+      "descriptionMd": "Colossyan 面向学习与发展（L&D）场景的 AI 数字人视频，强调培训情景、分支互动与团队协作成片，是 Synthesia 在互动培训赛道的常见对照。\n\n需要可交互培训视频、情景演练或多角色讲解而非纯营销口播时评估。\n\n创意营销镜头弱；按席位/分钟计费需测算规模，勿与实时对话数字人混选。\n",
+      "vendorId": "colossyan-inc"
+    },
+    {
+      "pricing": {
         "model": "freemium"
       },
       "availability": {
@@ -5944,6 +6022,43 @@
     },
     {
       "pricing": {
+        "model": "freemium"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "stock",
+        "game-art",
+        "2d"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "免费与付费许可不同，注意署名与再分发。",
+        "美术风格与国风/武侠项目匹配度低。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://craftpix.net"
+      ],
+      "lastReviewed": "2026-07-28",
+      "region": "overseas",
+      "id": "craftpix",
+      "name": "Craftpix",
+      "category": "design-game-assets",
+      "subcategory": "game-stock",
+      "oneLiner": "2D 游戏素材站 · 免费包+付费包 · 精灵/UI 常见",
+      "officialUrl": "https://craftpix.net",
+      "descriptionMd": "Craftpix 提供 2D 游戏精灵、UI、背景等免费与付费包，偏休闲与平台跳跃原型，许可按包说明。\n\n需要成套 2D 关卡/UI 素材、快速拼出可玩 Demo 时评估；与 Kenney、OpenGameArt 对照。\n\n免费包常有署名或非独占限制；风格偏欧美卡通，难直接用于水墨武侠。\n"
+    },
+    {
+      "pricing": {
         "model": "subscription"
       },
       "availability": {
@@ -6126,6 +6241,44 @@
         ]
       },
       "tags": [
+        "ai",
+        "3d",
+        "scan"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "输入照片质量与角度覆盖决定结果上限。",
+        "不是角色表演级绑骨方案。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.csm.ai"
+      ],
+      "lastReviewed": "2026-07-28",
+      "region": "overseas",
+      "id": "csm-ai",
+      "name": "CSM",
+      "category": "design-ai-3d",
+      "subcategory": "ai-3d-scan",
+      "oneLiner": "图像/视频转 3D · 偏扫描重建与产品捕捉",
+      "officialUrl": "https://www.csm.ai",
+      "descriptionMd": "CSM 侧重从图像或视频序列重建 3D，接近「轻量扫描/捕捉」叙事，适合实物产品、场景片段进入数字资产库。\n\n已有多视角照片或短视频、希望进引擎做产品 3D 时评估；与纯文生 3D（Meshy）互补。\n\n拍摄规范影响成败；角色绑定与游戏动画仍需下游工具。\n",
+      "vendorId": "csm-inc"
+    },
+    {
+      "pricing": {
+        "model": "freemium"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
         "fx",
         "api"
       ],
@@ -6259,6 +6412,45 @@
       "oneLiner": "真实浏览器 · 时间旅行调试/截图 · 组件测试 DX 强",
       "officialUrl": "https://www.cypress.io",
       "descriptionMd": "Cypress 在真实浏览器中运行 E2E，提供时间旅行调试、截图与 component testing，DX 对前端团队友好。\n\n单应用 Web 产品、团队以 Chrome 为主做 E2E 且重视调试体验时常见；组件测试可补单元测试盲区。\n\n多浏览器并行与移动端覆盖不如 Playwright 完整；CI 并行需 Cypress Cloud 或自建编排。\n"
+    },
+    {
+      "pricing": {
+        "model": "subscription",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": false,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "ai",
+        "avatar",
+        "api",
+        "talking-head"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "成片质量与全身表演弱于头部玩家；形象授权与 deepfake 合规同样严格。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.d-id.com"
+      ],
+      "lastReviewed": "2026-07-29",
+      "region": "overseas",
+      "id": "d-id",
+      "name": "D-ID",
+      "category": "design-digital-human",
+      "subcategory": "avatar-video",
+      "oneLiner": "照片驱动说话头 · API 轻量入门 · 短片向",
+      "officialUrl": "https://www.d-id.com",
+      "descriptionMd": "D-ID 把静图/肖像驱动成说话头视频，提供 Studio 与开发者 API，强调快速生成短口播与会说话肖像，是 HeyGen/Synthesia 之外常见的轻量对照。\n\n只要「一张照片 + 文稿/音频」快速出短片、或要嵌入产品做说话肖像 POC 时评估；不要与文生镜头类工具混比。\n\n成片质量与全身表演弱于头部玩家；形象授权与 deepfake 合规同样严格。\n",
+      "vendorId": "d-id-inc"
     },
     {
       "pricing": {
@@ -8133,6 +8325,45 @@
       "officialUrl": "https://expressjs.com",
       "descriptionMd": "Express 是 Node 最普及的 minimalist HTTP 框架，中间件生态无限，适合 API 与 SSR 胶水层。\n\nNode 存量项目、快速 REST prototype、或需要最大 middleware 选择面时。\n\n缺乏内置结构，大项目需自律分层或迁移 Nest；callback 风格需 promisify。\n",
       "vendorId": "expressjs"
+    },
+    {
+      "pricing": {
+        "model": "freemium"
+      },
+      "availability": {
+        "chinaAccessible": false,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "stock",
+        "3d",
+        "game-art",
+        "unreal"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "许可与引擎绑定需逐项核对。",
+        "国内访问与支付可能受阻。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.fab.com"
+      ],
+      "lastReviewed": "2026-07-28",
+      "region": "overseas",
+      "id": "fab",
+      "name": "Fab",
+      "category": "design-game-assets",
+      "subcategory": "3d-stock",
+      "oneLiner": "Epic 数字资产商店 · 原 Marketplace/Quixel 整合向",
+      "officialUrl": "https://www.fab.com",
+      "descriptionMd": "Fab 是 Epic 侧数字内容商店方向（整合原 Marketplace / Quixel 等叙事），提供游戏与影视向 3D、材质、特效等资产交易与部分免费内容。\n\nUnreal/Epic 生态内采购场景资产、或需要影院级扫描材质时评估；与 Sketchfab 互补。\n\n引擎绑定与授权条款复杂；免费资产亦有使用限制，导出到非 UE 管线前要读许可。\n",
+      "vendorId": "epic-games"
     },
     {
       "pricing": {
@@ -11644,7 +11875,7 @@
       "subcategory": "line",
       "oneLiner": "OpenAI 成本档 · Luna · AA Index 51 前沿边缘",
       "officialUrl": "https://openai.com/index/gpt-5-6/",
-      "descriptionMd": "OpenAI GPT 产品族的**成本优化选型档**。当前版本为 GPT-5.6 Luna（同代 Terra 为均衡档，Sol 为旗舰）。\n\n海量用户产品的默认 chat、路由层 fallback、或高并发边缘任务；复杂推理与长链路 Agent 应升级 Sol/Terra。\n\n勿再默认写 GPT-4o mini：那是上一代成本档命名。\n",
+      "descriptionMd": "OpenAI GPT 产品族的**成本优化选型档**。当前版本为 GPT-5.6 Luna（同代 Terra 为均衡档，Sol 为旗舰）。\n\n海量用户产品的默认 chat、路由层 fallback、或高并发边缘任务；复杂推理与长链路 Agent 应升级 Sol/Terra。\n\n能力上限低于 Sol/Terra；关键路径应保留升级路由。\n",
       "vendorId": "openai",
       "currentVersion": "GPT-5.6 Luna"
     },
@@ -12059,6 +12290,46 @@
     },
     {
       "pricing": {
+        "model": "freemium",
+        "currency": "CNY"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "CN"
+        ]
+      },
+      "tags": [
+        "ai",
+        "avatar",
+        "domestic",
+        "sdk",
+        "realtime"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "商用授权与开源协议需分清；品牌名易与 SiliconFlow 混淆，选型文档务必写全称。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://website.guiji.ai"
+      ],
+      "lastReviewed": "2026-07-29",
+      "region": "domestic",
+      "id": "guiji-duix",
+      "name": "硅基智能 · DUIX",
+      "category": "design-digital-human",
+      "subcategory": "realtime-avatar",
+      "oneLiner": "国内交互数字人 · 直播/SDK · 端侧可部署",
+      "officialUrl": "https://website.guiji.ai",
+      "descriptionMd": "硅基智能（勿与「硅基流动」混淆）提供数字人交互与直播相关能力，DUIX 等 SDK/开源线支持 Web/端侧部署说话与互动数字人，常见于国内直播与客服交互场景。\n\n国内要数字人直播、H5/App 嵌入交互形象，或评估端侧开源方案时纳入；推理 API 网关请看硅基流动。\n\n商用授权与开源协议需分清；品牌名易与 SiliconFlow 混淆，选型文档务必写全称。\n",
+      "vendorId": "guiji-inc"
+    },
+    {
+      "pricing": {
         "model": "freemium"
       },
       "availability": {
@@ -12451,6 +12722,45 @@
     },
     {
       "pricing": {
+        "model": "freemium",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": false,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "ai",
+        "avatar",
+        "creative",
+        "character"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "企业合规与多语本地化弱于培训向平台；产品形态与套餐变化快，POC 前锁定能力边界。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.hedra.com"
+      ],
+      "lastReviewed": "2026-07-29",
+      "region": "overseas",
+      "id": "hedra",
+      "name": "Hedra",
+      "category": "design-digital-human",
+      "subcategory": "avatar-video",
+      "oneLiner": "表情向角色视频 · 音乐/角色表演 · 风格化",
+      "officialUrl": "https://www.hedra.com",
+      "descriptionMd": "Hedra 偏表情与角色表演的 AI 视频/数字人生成，适合音乐短片、风格化角色口播等「不像企业培训片」的创意向用法，与写实企业数字人平台定位不同。\n\n需要角色表情张力、音乐视频感或非写实说话角色时评估；企业培训模板流优先看 Synthesia/HeyGen。\n\n企业合规与多语本地化弱于培训向平台；产品形态与套餐变化快，POC 前锁定能力边界。\n",
+      "vendorId": "hedra-inc"
+    },
+    {
+      "pricing": {
         "model": "freemium"
       },
       "availability": {
@@ -12654,6 +12964,44 @@
     },
     {
       "pricing": {
+        "model": "open-source"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "CN"
+        ]
+      },
+      "tags": [
+        "ai",
+        "avatar",
+        "open-source",
+        "realtime"
+      ],
+      "maturity": "beta",
+      "pitfalls": [
+        "仓库与协议可能分叉迁移；星标热度≠生产就绪，上线前核对授权与模型权重来源。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://github.com/GuijiAI/HeyGem.ai"
+      ],
+      "lastReviewed": "2026-07-29",
+      "region": "domestic",
+      "id": "heygem",
+      "name": "HeyGem",
+      "category": "design-digital-human",
+      "subcategory": "talking-head-oss",
+      "oneLiner": "硅基开源本地数字人 · 实时交互试验",
+      "officialUrl": "https://github.com/GuijiAI/HeyGem.ai",
+      "descriptionMd": "HeyGem 是硅基智能开源的本地/实时数字人相关项目，社区常与 DUIX 一并讨论，用于端侧或自托管交互数字人试验，不等同于硅基商业 SaaS 全功能。\n\n要评估开源本地数字人推理、或与硅基生态对照时纳入；商用成片与直播交付看硅基商业产品。\n\n仓库与协议可能分叉迁移；星标热度≠生产就绪，上线前核对授权与模型权重来源。\n",
+      "vendorId": "guiji-inc"
+    },
+    {
+      "pricing": {
         "model": "subscription",
         "currency": "USD"
       },
@@ -12669,7 +13017,8 @@
         "ai",
         "video",
         "avatar",
-        "dubbing"
+        "dubbing",
+        "digital-human"
       ],
       "maturity": "stable",
       "pitfalls": [
@@ -12680,11 +13029,11 @@
       "sources": [
         "https://www.heygen.com"
       ],
-      "lastReviewed": "2026-07-24",
+      "lastReviewed": "2026-07-29",
       "region": "overseas",
       "id": "heygen",
       "name": "HeyGen",
-      "category": "design-ai-video",
+      "category": "design-digital-human",
       "subcategory": "avatar-video",
       "oneLiner": "数字人视频 · 多语口型 · 营销向",
       "officialUrl": "https://www.heygen.com",
@@ -13716,6 +14065,45 @@
     },
     {
       "pricing": {
+        "model": "freemium",
+        "currency": "CNY"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "CN"
+        ]
+      },
+      "tags": [
+        "ai",
+        "avatar",
+        "domestic",
+        "tts"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "海外语种与创意镜头弱于国际营销向工具；套餐与定制交付路径以官网为准。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.xfzhizuo.cn"
+      ],
+      "lastReviewed": "2026-07-29",
+      "region": "domestic",
+      "id": "iflytek-zhizuo",
+      "name": "讯飞智作",
+      "category": "design-digital-human",
+      "subcategory": "domestic-suite",
+      "oneLiner": "讯飞数字人成片 · 配音强 · 教育/口播向",
+      "officialUrl": "https://www.xfzhizuo.cn",
+      "descriptionMd": "讯飞智作依托科大讯飞语音与星火能力，提供数字人定制与口播视频生成，强调配音质量与教育/知识输出等中文场景。\n\n课程讲解、知识口播、国内中文音色要求高时评估；可与讯飞开放平台语音能力对照。\n\n海外语种与创意镜头弱于国际营销向工具；套餐与定制交付路径以官网为准。\n",
+      "vendorId": "iflytek"
+    },
+    {
+      "pricing": {
         "model": "open-source"
       },
       "availability": {
@@ -14355,6 +14743,44 @@
       "officialUrl": "https://kafka.apache.org",
       "descriptionMd": "Kafka 是高吞吐分布式 commit log，用于事件流、CDC 与微服务解耦，Confluent/MSK 等提供托管版，生态连接器丰富。\n\n需要持久化事件流、exactly-once 语义或多消费者 replay 时选用；替代 RabbitMQ 于大数据量场景。\n\n运维复杂，分区与 consumer group 调优需经验；小流量用 SQS/PubSub 更简单经济。\n",
       "vendorId": "confluent"
+    },
+    {
+      "pricing": {
+        "model": "free"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "stock",
+        "game-art",
+        "free",
+        "cc0"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "视觉辨识度高，正式产品建议换装。",
+        "不覆盖写实武侠/旗舰角色需求。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://kenney.nl/assets"
+      ],
+      "lastReviewed": "2026-07-28",
+      "region": "overseas",
+      "id": "kenney",
+      "name": "Kenney",
+      "category": "design-game-assets",
+      "subcategory": "game-stock",
+      "oneLiner": "CC0 游戏素材包 · 像素/低模/UI 原型友好",
+      "officialUrl": "https://kenney.nl/assets",
+      "descriptionMd": "Kenney 提供大量 CC0 游戏资产包（2D/3D/音频/UI），几乎无署名压力，是 Game Jam 与玩法原型的默认素材源之一。\n\n需要快速可商用占位美术、像素或低模风格、希望授权最省心时优先。\n\n风格辨识度高，成品上线常被认出「Kenney 味」，正式品牌向需替换。\n"
     },
     {
       "pricing": {
@@ -15723,6 +16149,45 @@
     },
     {
       "pricing": {
+        "model": "subscription"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "animation",
+        "live2d",
+        "character"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "中大型企业 SDK/Editor 授权成本高，需对照官方价目。",
+        "单张立绘不能自动变成可用 moc3，必须分层与绑定。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.live2d.com"
+      ],
+      "lastReviewed": "2026-07-28",
+      "region": "overseas",
+      "id": "live2d-cubism",
+      "name": "Live2D Cubism",
+      "category": "design-character-rig",
+      "subcategory": "live2d",
+      "oneLiner": "2.5D 角色网格绑定 · Editor+SDK · moc3 行业标准",
+      "officialUrl": "https://www.live2d.com",
+      "descriptionMd": "Live2D Cubism 用网格变形让 2D 立绘「活」起来，产出 moc3 等运行时格式，是虚拟主播、日式 RPG UI/立绘战斗的常见标准；含 Editor 与多端 SDK。\n\n需要眨眼/口型/摆动级角色表演、且愿意投入绑定与授权时选用；与 Spine、Rive、自研分件木偶对照。\n\nEditor/SDK 按主体规模收费；moc3 无法从单张立绘自动可靠生成，需分层 PSD+绑定。\n",
+      "vendorId": "live2d-inc",
+      "docsUrl": "https://docs.live2d.com"
+    },
+    {
+      "pricing": {
         "model": "freemium"
       },
       "availability": {
@@ -15759,6 +16224,43 @@
       "descriptionMd": "LiveKit 提供开源 WebRTC 实时音视频基础设施与 Agents 框架，可编排 STT/LLM/TTS 或对接原生 Realtime 模型，自托管与云服务并存。\n\n需要可控媒体层、多参与者房间、或把多家语音模型拼成生产 Agent 时优先；与 Cartesia/Deepgram 常见搭配。\n\n自托管需运维 SFU 与带宽；纯「一键电话 Agent」比 Vapi/Retell 更偏基础设施。\n",
       "vendorId": "livekit-inc",
       "githubUrl": "https://github.com/livekit/livekit"
+    },
+    {
+      "pricing": {
+        "model": "open-source"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "ai",
+        "avatar",
+        "open-source",
+        "talking-head"
+      ],
+      "maturity": "beta",
+      "pitfalls": [
+        "需自备推理与合规审核；商用授权以仓库协议与上游声明为准，非一键营销成片工具。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://github.com/KwaiVGI/LivePortrait"
+      ],
+      "lastReviewed": "2026-07-29",
+      "region": "overseas",
+      "id": "liveportrait",
+      "name": "LivePortrait",
+      "category": "design-digital-human",
+      "subcategory": "talking-head-oss",
+      "oneLiner": "开源人像驱动 · 高效表情迁移 · 研究/自建",
+      "officialUrl": "https://github.com/KwaiVGI/LivePortrait",
+      "descriptionMd": "LivePortrait（快手视觉团队开源）用驱动视频高效迁移表情与头部运动到目标人像，是自建说话头/写真动画管线的常用开源组件，而非完整 SaaS 数字人平台。\n\n有 GPU、要自建口型/表情驱动或研究管线时评估；要开箱成片请用商业数字人平台。\n\n需自备推理与合规审核；商用授权以仓库协议与上游声明为准，非一键营销成片工具。\n"
     },
     {
       "pricing": {
@@ -17114,6 +17616,44 @@
       "officialUrl": "https://mercury.com",
       "descriptionMd": "Mercury 为美国注册的 tech startup 提供 checking、savings、wire 与 virtual card，API 与 UX 面向 remote-first 公司。\n\nDelaware C-Corp 需要美国银行账户收 Stripe/investor 汇款、且不想跑 physical branch 时常见首选。\n\n仅服务美国注册实体；非美国 founder 需配合 Stripe Atlas/Firstbase 等实体，FDIC 通过 partner bank。\n",
       "vendorId": "mercury"
+    },
+    {
+      "pricing": {
+        "model": "subscription"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "ai",
+        "3d",
+        "game-art"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "商用授权与积分套餐变化快，导出前核对许可。",
+        "高模体积大，Web/移动端需压面或改公告板。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.meshy.ai"
+      ],
+      "lastReviewed": "2026-07-28",
+      "region": "overseas",
+      "id": "meshy",
+      "name": "Meshy",
+      "category": "design-ai-3d",
+      "subcategory": "ai-3d",
+      "oneLiner": "文/图生 3D · 绑骨与动画管线 · 游戏/原型常用",
+      "officialUrl": "https://www.meshy.ai",
+      "descriptionMd": "Meshy 提供文本/图像生成 3D 网格，并支持重拓扑、贴图、绑骨与基础动画导出（如 GLB），面向游戏原型、角色样板与营销 3D 资产快速试错。\n\n需要从概念图快速落到可预览/可挂动画的 3D 角色或道具、且接受 AI 拓扑质量时评估；可与 Tripo、Rodin 同层对比。\n\n商用授权与积分套餐变化快；高模体积大，上线前需压面/换装自研骨骼或公告板。\n",
+      "vendorId": "meshy-ai"
     },
     {
       "id": "meta-muse-image",
@@ -19215,6 +19755,44 @@
     },
     {
       "pricing": {
+        "model": "freemium"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "animation",
+        "live2d",
+        "stock"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "许可因商品而异，上线前逐条核对。",
+        "与自有 IP 门派形象通常对不上，只能做管线验证。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://nizima.com"
+      ],
+      "lastReviewed": "2026-07-28",
+      "region": "overseas",
+      "id": "nizima",
+      "name": "nizima",
+      "category": "design-character-rig",
+      "subcategory": "live2d-market",
+      "oneLiner": "Live2D 官方向素材市场 · 买现成模型与部件",
+      "officialUrl": "https://nizima.com",
+      "descriptionMd": "nizima 是 Live2D 生态常见的模型与部件交易市场，可购买或获取免费/付费 moc 相关资产，缩短从零绑定的时间。\n\n需要现成 Live2D 角色做原型、虚拟形象或学习参考，而不自建全套绑定时评估。\n\n每套素材许可不同（改作/商用/再分发）；品牌定制形象仍难直接买到。\n",
+      "vendorId": "live2d-inc"
+    },
+    {
+      "pricing": {
         "model": "open-source"
       },
       "availability": {
@@ -20037,6 +20615,43 @@
       "descriptionMd": "OpenAI 语音转写线从开源 Whisper 演进到托管 Transcription API（含 gpt-4o-transcribe 等），覆盖批处理与近实时多语识别。\n\n需要快速接入转写、与 GPT 同账号结算、或本地可跑开源 Whisper 权重做私有化时选用。\n\n流式电话级延迟与端点检测不如专用 STT；国内直连受限，常经 Azure 或中转。\n",
       "vendorId": "openai",
       "docsUrl": "https://platform.openai.com/docs/guides/speech-to-text"
+    },
+    {
+      "pricing": {
+        "model": "free"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "stock",
+        "game-art",
+        "free"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "质量与风格极不统一，品牌向项目需精筛。",
+        "署名与衍生协议因上传者而异。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://opengameart.org"
+      ],
+      "lastReviewed": "2026-07-28",
+      "region": "overseas",
+      "id": "opengameart",
+      "name": "OpenGameArt",
+      "category": "design-game-assets",
+      "subcategory": "game-stock",
+      "oneLiner": "开源游戏素材社区 · CC0/CC-BY 常见",
+      "officialUrl": "https://opengameart.org",
+      "descriptionMd": "OpenGameArt 聚集免费/开源游戏贴图、精灵、音效与部分 3D，许可以 CC0、CC-BY 等为主，适合原型与独立游戏起步。\n\n需要可商用免费素材、能接受风格不统一与质量参差时作为第一站检索。\n\n视觉风格混杂；商用项目仍要逐条确认许可与署名要求。\n"
     },
     {
       "pricing": {
@@ -21662,6 +22277,44 @@
       "oneLiner": "开源项目/数字品变现 · MoR 税务托管叙事 · LS/Paddle 备选",
       "descriptionMd": "Polar 强调开源项目与数字产品变现，带 MoR/税务托管叙事，常作 LS/Paddle 备选。\n\n适合开源+付费、赞助与商品化并行的作者。对比竞品时看品类支持、开发者 API 与政策稳定性。\n\n开源赞助与商业化同仓是特色；品类与地区覆盖以官方政策为准并定期复核。\n",
       "officialUrl": "https://polar.sh"
+    },
+    {
+      "pricing": {
+        "model": "free"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "stock",
+        "3d",
+        "cc0",
+        "hdri"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "几乎无角色表演资产。",
+        "高分辨率 HDRI 体积大，Web 实时需降采样。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://polyhaven.com"
+      ],
+      "lastReviewed": "2026-07-28",
+      "region": "overseas",
+      "id": "polyhaven",
+      "name": "Poly Haven",
+      "category": "design-game-assets",
+      "subcategory": "3d-env",
+      "oneLiner": "CC0 HDRI/贴图/模型 · 3D 场景光照友好",
+      "officialUrl": "https://polyhaven.com",
+      "descriptionMd": "Poly Haven 提供 CC0 的 HDRI、PBR 贴图与部分模型，适合 Blender/引擎里搭真实感光照与环境。\n\n需要免费可商用环境光与材质、做产品渲染或场景铺底时评估。\n\n角色/动画资产极少；偏环境与材质，不解决 Live2D/角色绑定。\n"
     },
     {
       "pricing": {
@@ -23676,6 +24329,43 @@
     },
     {
       "pricing": {
+        "model": "subscription"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "ai",
+        "3d"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "绑骨/动画管线不如 Meshy 一体；需另接工具。",
+        "成本与额度适合样板，不适合无预算量产。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://hyper3d.ai"
+      ],
+      "lastReviewed": "2026-07-28",
+      "region": "overseas",
+      "id": "rodin",
+      "name": "Rodin",
+      "category": "design-ai-3d",
+      "subcategory": "ai-3d",
+      "oneLiner": "Hyper3D 文生 3D · 偏高质量网格与材质",
+      "officialUrl": "https://hyper3d.ai",
+      "descriptionMd": "Rodin（Hyper3D）面向高质量 AI 3D 生成，强调网格完整性与材质表现，常见于数字人、道具与影视概念资产试验。\n\n对网格观感要求高于「能预览就行」、可接受更高单价或排队时评估；与 Meshy/Tripo 对照。\n\n价格与额度策略偏专业向；动画/绑骨能力弱于部分竞品，需另接管线。\n",
+      "vendorId": "hyper3d"
+    },
+    {
+      "pricing": {
         "model": "freemium"
       },
       "availability": {
@@ -24012,6 +24702,43 @@
       "oneLiner": "无 GC 内存安全 · 系统/工具链 · 性能敏感底层",
       "descriptionMd": "Rust 提供内存安全与高性能，无 GC，适合系统、工具链与性能敏感组件（如 Tauri 底层、部分运行时）。\n\n学习曲线陡；全栈业务逻辑更常 TS/Go。在「性能/安全边界」上引入，而不是默认业务语言。\n\nCLI/扩展/性能热点是合理切口；业务 CRUD 用 Rust 往往得不偿失。\n",
       "officialUrl": "https://www.rust-lang.org"
+    },
+    {
+      "pricing": {
+        "model": "open-source"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "ai",
+        "avatar",
+        "open-source",
+        "talking-head"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "效果与商业 SaaS 有差距；依赖与 CUDA 环境维护成本高，生产需自建审核与运维。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://github.com/OpenTalker/SadTalker"
+      ],
+      "lastReviewed": "2026-07-29",
+      "region": "overseas",
+      "id": "sadtalker",
+      "name": "SadTalker",
+      "category": "design-digital-human",
+      "subcategory": "talking-head-oss",
+      "oneLiner": "开源音频驱动说话头 · 经典管线 · 自托管",
+      "officialUrl": "https://github.com/OpenTalker/SadTalker",
+      "descriptionMd": "SadTalker 是广为使用的开源音频驱动说话头方案：输入肖像与音频生成口型同步视频，适合自托管实验与低成本 POC，质量与稳定性依赖环境与后处理。\n\n要本地/私有化验证「照片+音频→说话视频」、可接受工程投入时评估。\n\n效果与商业 SaaS 有差距；依赖与 CUDA 环境维护成本高，生产需自建审核与运维。\n"
     },
     {
       "pricing": {
@@ -24467,6 +25194,46 @@
     },
     {
       "pricing": {
+        "model": "subscription",
+        "currency": "CNY"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "CN"
+        ]
+      },
+      "tags": [
+        "ai",
+        "avatar",
+        "domestic",
+        "livestream"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "企业采购与试用门槛偏高；产品入口与套餐常随商汤站改版，签约前锁定具体 SKU。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.sensetime.com",
+        "https://www.sensetime.com/cn"
+      ],
+      "lastReviewed": "2026-07-29",
+      "region": "domestic",
+      "id": "senseavatar",
+      "name": "商汤如影",
+      "category": "design-digital-human",
+      "subcategory": "domestic-suite",
+      "oneLiner": "商汤数字人 · 口播/直播复刻 · 营销向",
+      "officialUrl": "https://www.sensetime.com",
+      "descriptionMd": "商汤如影（SenseAvatar）隶属日日新大模型体系，提供数字人视频生成、形象定制与直播间复刻等能力，面向短视频营销、品牌 IP 与数字人直播。\n\n国内要高拟真数字人成片或直播运营、且可接受企业采购路径时评估。\n\n企业采购与试用门槛偏高；产品入口与套餐常随商汤站改版，签约前锁定具体 SKU。\n",
+      "vendorId": "sensetime"
+    },
+    {
+      "pricing": {
         "model": "freemium"
       },
       "availability": {
@@ -24851,6 +25618,44 @@
       "oneLiner": "CI 测 bundle 体积变化 · 超预算失败防回退",
       "officialUrl": "https://github.com/andresz1/size-limit",
       "descriptionMd": "Size Limit 在 CI 中测量 bundle 体积变化，超出预算则失败，防止前端性能回退。\n\n组件库、营销站或任何关注 FCP 的项目在 PR 阶段 enforce 体积上限。\n\n仅 gzip 指标可能掩盖 parse 成本；需与 Lighthouse/real user metrics 结合。\n"
+    },
+    {
+      "pricing": {
+        "model": "freemium"
+      },
+      "availability": {
+        "chinaAccessible": false,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "stock",
+        "3d",
+        "game-art"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "许可与是否可商用/改作必须逐模型核对。",
+        "国内访问不稳定时需备用镜像或本地缓存。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://sketchfab.com"
+      ],
+      "lastReviewed": "2026-07-28",
+      "region": "overseas",
+      "id": "sketchfab",
+      "name": "Sketchfab",
+      "category": "design-game-assets",
+      "subcategory": "3d-stock",
+      "oneLiner": "在线 3D 模型库与浏览 · 下载授权分层",
+      "officialUrl": "https://sketchfab.com",
+      "descriptionMd": "Sketchfab 提供海量可在线预览的 3D 模型，含免费与付费授权分层，覆盖游戏、建筑可视化与 AR 试用资产。\n\n需要快速找参考模、免费 CC 模或购买现成道具进引擎时评估；与 Poly Haven、Fab 对照。\n\n免费层许可混杂（CC0/CC-BY 等）；下载与 API 限额、部分地区访问需自备网络策略。\n",
+      "vendorId": "sketchfab-inc"
     },
     {
       "pricing": {
@@ -25326,6 +26131,44 @@
       "officialUrl": "https://www.speechmatics.com",
       "descriptionMd": "Speechmatics 以高精度多语语音识别著称，提供实时与批处理 API，面向媒体、会议与受监管行业转写。\n\n多语媒体转写、字幕或企业合规 ASR 短名单中常见。\n\n纯中文性价比需与国内云/FunASR 对照；不是语音 Agent 全家桶。\n",
       "vendorId": "speechmatics-inc"
+    },
+    {
+      "pricing": {
+        "model": "subscription"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "animation",
+        "spine",
+        "game-art"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "产品内嵌官方 runtime 需持有对应 Editor 许可。",
+        "从单张立绘自动出 skel 无成熟商用 SaaS。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://esotericsoftware.com"
+      ],
+      "lastReviewed": "2026-07-28",
+      "region": "overseas",
+      "id": "spine",
+      "name": "Spine",
+      "category": "design-character-rig",
+      "subcategory": "skeletal-2d",
+      "oneLiner": "2D 骨骼动画编辑器 · skel/atlas · 游戏角色主流",
+      "officialUrl": "https://esotericsoftware.com",
+      "descriptionMd": "Spine（Esoteric）是游戏业常用的 2D 骨骼动画工具，导出 skel/json + atlas，runtime 覆盖多数引擎；适合平台动作、格斗与 UI 骨骼角色。\n\n需要比 Live2D 更「游戏动作向」的剪影/换装骨骼、且团队熟悉 Spine 工作流时优先。\n\nEditor 许可证与 runtime 分发规则需严格合规；无许可证不可把官方 runtime 打进产品。\n",
+      "vendorId": "esoteric-software"
     },
     {
       "pricing": {
@@ -26414,7 +27257,8 @@
         "ai",
         "video",
         "avatar",
-        "enterprise"
+        "enterprise",
+        "digital-human"
       ],
       "maturity": "mature",
       "pitfalls": [
@@ -26425,11 +27269,11 @@
       "sources": [
         "https://www.synthesia.io"
       ],
-      "lastReviewed": "2026-07-24",
+      "lastReviewed": "2026-07-29",
       "region": "overseas",
       "id": "synthesia",
       "name": "Synthesia",
-      "category": "design-ai-video",
+      "category": "design-digital-human",
       "subcategory": "avatar-video",
       "oneLiner": "企业数字人口播 · 培训/合规向",
       "officialUrl": "https://www.synthesia.io",
@@ -26671,6 +27515,45 @@
       "officialUrl": "https://tauri.app",
       "descriptionMd": "Tauri 用 Rust 做 desktop shell，WebView 渲染前端，二进制远小于 Electron，强调安全与资源占用低。\n\n需要 desktop 工具、内部客户端，且团队可接受 Rust 侧维护时替代 Electron。\n\nWebView 行为因 OS 而异；复杂 native API 需写 Rust plugin。\n",
       "vendorId": "tauri-apps"
+    },
+    {
+      "pricing": {
+        "model": "usage",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": false,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "ai",
+        "avatar",
+        "realtime",
+        "api"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "不是批量成片工具；成本与并发按会话计，需评估 LLM/TTS 联调与合规（形象克隆授权）。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.tavus.io"
+      ],
+      "lastReviewed": "2026-07-29",
+      "region": "overseas",
+      "id": "tavus",
+      "name": "Tavus",
+      "category": "design-digital-human",
+      "subcategory": "realtime-avatar",
+      "oneLiner": "实时对话数字人 · CVI · 销售/客服向",
+      "officialUrl": "https://www.tavus.io",
+      "descriptionMd": "Tavus 做 Conversational Video Interface：低时延、可对话的数字人，面向销售页、互动演示与客服/陪练等「面对面」场景，与批量脚本口播成片是不同产品形态。\n\n需要用户与数字人实时对话、个性化 1:1 视频交互时优先；批量培训/营销口播片请看 HeyGen/Synthesia。\n\n不是批量成片工具；成本与并发按会话计，需评估 LLM/TTS 联调与合规（形象克隆授权）。\n",
+      "vendorId": "tavus-inc"
     },
     {
       "pricing": {
@@ -27061,6 +27944,45 @@
       "officialUrl": "https://open.tencent.com",
       "descriptionMd": "应用宝是国内最大第三方安卓商店之一，与微信/QQ 流量互通，提供 APK、联运与广告变现入口。\n\n需要国内 android 最大覆盖面、或微信生态导流到 App 时重点运营；social 传播便利。\n\n抽成与联运条款复杂；纯工具 App 与游戏联运政策不同，资质要求严格。\n",
       "vendorId": "tencent-cloud"
+    },
+    {
+      "pricing": {
+        "model": "freemium",
+        "currency": "CNY"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "CN"
+        ]
+      },
+      "tags": [
+        "ai",
+        "avatar",
+        "domestic",
+        "video"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "能力与套餐以控制台为准；出海多语与海外分发需另测，勿默认等同 HeyGen。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://zenvideo.qq.com"
+      ],
+      "lastReviewed": "2026-07-29",
+      "region": "domestic",
+      "id": "tencent-zhiying",
+      "name": "腾讯智影",
+      "category": "design-digital-human",
+      "subcategory": "domestic-suite",
+      "oneLiner": "腾讯系数字人口播 · 剪辑/配音一体 · 短视频向",
+      "officialUrl": "https://zenvideo.qq.com",
+      "descriptionMd": "腾讯智影是腾讯云端智能视频创作平台，集成数字人口播、形象/声音克隆、文本配音与文章转视频等能力，常用于国内短视频、企业宣传与内容工业化生产。\n\n国内团队要快速出数字人口播、且希望与腾讯生态（账号/素材/分发）同栈时评估。\n\n能力与套餐以控制台为准；出海多语与海外分发需另测，勿默认等同 HeyGen。\n",
+      "vendorId": "tencent"
     },
     {
       "pricing": {
@@ -27568,6 +28490,43 @@
       "oneLiner": "TS 后台 Job · 可观测/重试/调度 · 长时运行 · 接 Vercel/Remix",
       "officialUrl": "https://trigger.dev",
       "descriptionMd": "Trigger.dev 为 TypeScript 后台任务提供可观测、重试与调度，支持长时运行 Job 与 Vercel/Remix 集成，DX 面向全栈团队。\n\n需要跑分钟级 AI 批处理、视频转码等等待 Vercel 函数超时场景时选用；开源可自托管。\n\nCloud 版成本与并发限制需监控；自托管要维护 Redis/Postgres 依赖。\n"
+    },
+    {
+      "pricing": {
+        "model": "freemium"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "ai",
+        "3d"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "拓扑/UV 不稳定，量产角色仍常回 DCC。",
+        "积分与商用条款以官网为准，注意区域可用性。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.tripo3d.ai"
+      ],
+      "lastReviewed": "2026-07-28",
+      "region": "overseas",
+      "id": "tripo",
+      "name": "Tripo",
+      "category": "design-ai-3d",
+      "subcategory": "ai-3d",
+      "oneLiner": "文/图生 3D · 多格式导出 · 偏产品与游戏样板",
+      "officialUrl": "https://www.tripo3d.ai",
+      "descriptionMd": "Tripo（VAST）提供 AI 文生/图生 3D，强调较快出模与多格式导出，适合产品可视化、游戏概念体与电商 3D 试制。\n\n需要与 Meshy 对照的第二家文生 3D、或特定导出格式/速度偏好时纳入短名单。\n\n拓扑与 UV 质量因任务波动；角色绑骨与面部细节通常仍需 DCC 或人工。\n",
+      "vendorId": "tripo-ai"
     },
     {
       "pricing": {
@@ -28867,6 +29826,45 @@
       "officialUrl": "https://voideditor.com",
       "descriptionMd": "Void 是基于 VS Code 开源分支的 AI 原生 IDE，强调隐私、本地模型支持与 Cursor 类似的 Agent 交互体验。\n\n关注数据主权、希望本地 Ollama/LM Studio 驱动编码 Agent 的个人开发者可试用。\n\n项目较新，稳定性与扩展兼容需持续跟踪；企业 SLA 支持有限。\n",
       "vendorId": "void-editor-inc"
+    },
+    {
+      "pricing": {
+        "model": "usage",
+        "currency": "CNY"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "CN"
+        ]
+      },
+      "tags": [
+        "ai",
+        "avatar",
+        "domestic",
+        "cloud"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "偏企业采购与项目制；个人创作者轻量成片可优先看智影/智作等自助产品。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.volcengine.com/product/avatar"
+      ],
+      "lastReviewed": "2026-07-29",
+      "region": "domestic",
+      "id": "volcengine-avatar",
+      "name": "火山引擎智能数字人",
+      "category": "design-digital-human",
+      "subcategory": "domestic-suite",
+      "oneLiner": "字节云数字人 · 企业定制 · 营销/互动",
+      "officialUrl": "https://www.volcengine.com/product/avatar",
+      "descriptionMd": "火山引擎智能数字人面向企业级虚拟人解决方案，覆盖形象生成、驱动与业务集成，常与字节云、豆包语音等能力同栈落地品牌营销与互动场景。\n\n已用火山/字节云、需要国内企业级数字人定制或 API 集成时评估。\n\n偏企业采购与项目制；个人创作者轻量成片可优先看智影/智作等自助产品。\n",
+      "vendorId": "volcengine"
     },
     {
       "pricing": {
@@ -34464,6 +35462,17 @@
       "createdAt": "2026-07-23"
     },
     {
+      "id": "edge-fab-sketchfab-alternative",
+      "from": "fab",
+      "to": "sketchfab",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-07-28",
+      "note": "Epic 生态资产店 vs 通用 3D 浏览下载"
+    },
+    {
       "id": "edge-fastly-cloudflare-cdn-alternative-to",
       "from": "fastly",
       "to": "cloudflare-cdn",
@@ -34737,6 +35746,28 @@
       "createdAt": "2026-07-23"
     },
     {
+      "id": "edge-guiji-siliconflow-related",
+      "from": "guiji-duix",
+      "to": "siliconflow",
+      "type": "commonly_used_with",
+      "weight": 0.35,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-07-29",
+      "note": "同名易混：数字人公司 vs 推理聚合；能力不同层"
+    },
+    {
+      "id": "edge-guiji-tavus-related",
+      "from": "guiji-duix",
+      "to": "tavus",
+      "type": "commonly_used_with",
+      "weight": 0.5,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-07-29",
+      "note": "国内交互/直播数字人 vs 海外 CVI"
+    },
+    {
       "id": "edge-hailuo-minimax-owned",
       "from": "hailuo",
       "to": "minimax-inc",
@@ -34796,6 +35827,39 @@
       "confidence": "community",
       "sources": [],
       "createdAt": "2026-07-23"
+    },
+    {
+      "id": "edge-heygem-guiji-related",
+      "from": "heygem",
+      "to": "guiji-duix",
+      "type": "commonly_used_with",
+      "weight": 0.75,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-07-29",
+      "note": "开源试验线 vs 硅基商业/SDK 产品"
+    },
+    {
+      "id": "edge-heygen-did-alt",
+      "from": "heygen",
+      "to": "d-id",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-07-29",
+      "note": "全身多语口播成片 vs 轻量照片说话头"
+    },
+    {
+      "id": "edge-heygen-hedra-related",
+      "from": "heygen",
+      "to": "hedra",
+      "type": "commonly_used_with",
+      "weight": 0.55,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-07-29",
+      "note": "写实营销口播 vs 表情/角色表演向"
     },
     {
       "id": "edge-heygen-runway-related",
@@ -35052,6 +36116,17 @@
       "createdAt": "2026-07-23"
     },
     {
+      "id": "edge-kenney-craftpix-alternative",
+      "from": "kenney",
+      "to": "craftpix",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-07-28",
+      "note": "CC0 原型包 vs 免费/付费 2D 游戏包"
+    },
+    {
       "id": "edge-keycdn-bunny-cdn-alternative-to",
       "from": "keycdn",
       "to": "bunny-cdn",
@@ -35173,6 +36248,50 @@
       "createdAt": "2026-07-24"
     },
     {
+      "id": "edge-live2d-lottiefiles-related",
+      "from": "live2d-cubism",
+      "to": "lottiefiles",
+      "type": "commonly_used_with",
+      "weight": 0.35,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-07-28",
+      "note": "角色网格 vs 营销矢量微动效，不同层"
+    },
+    {
+      "id": "edge-live2d-nizima-related",
+      "from": "live2d-cubism",
+      "to": "nizima",
+      "type": "commonly_used_with",
+      "weight": 0.8,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-07-28",
+      "note": "工具链 vs 模型素材市场"
+    },
+    {
+      "id": "edge-live2d-rive-related",
+      "from": "live2d-cubism",
+      "to": "rive",
+      "type": "commonly_used_with",
+      "weight": 0.55,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-07-28",
+      "note": "角色表演 vs 交互 UI/状态机动效"
+    },
+    {
+      "id": "edge-live2d-spine-alternative",
+      "from": "live2d-cubism",
+      "to": "spine",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-07-28",
+      "note": "2.5D 网格表演 vs 游戏 2D 骨骼"
+    },
+    {
       "id": "edge-livekit-cartesia-with",
       "from": "livekit",
       "to": "cartesia",
@@ -35202,6 +36321,28 @@
       "sources": [],
       "createdAt": "2026-07-24",
       "note": "自建媒体层 vs 托管编排"
+    },
+    {
+      "id": "edge-liveportrait-did-related",
+      "from": "liveportrait",
+      "to": "d-id",
+      "type": "commonly_used_with",
+      "weight": 0.55,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-07-29",
+      "note": "开源自建管线 vs 商业说话头 API"
+    },
+    {
+      "id": "edge-liveportrait-sadtalker-alt",
+      "from": "liveportrait",
+      "to": "sadtalker",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-07-29",
+      "note": "开源人像驱动对照"
     },
     {
       "id": "edge-llamaparse-unstructured-alt",
@@ -35323,6 +36464,50 @@
       "confidence": "community",
       "sources": [],
       "createdAt": "2026-07-23"
+    },
+    {
+      "id": "edge-meshy-csm-related",
+      "from": "meshy",
+      "to": "csm-ai",
+      "type": "commonly_used_with",
+      "weight": 0.55,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-07-28",
+      "note": "文生概念模 vs 照片/视频重建"
+    },
+    {
+      "id": "edge-meshy-rodin-alternative",
+      "from": "meshy",
+      "to": "rodin",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-07-28",
+      "note": "文生 3D：速度/一体管线 vs 网格观感"
+    },
+    {
+      "id": "edge-meshy-spline-related",
+      "from": "meshy",
+      "to": "spline",
+      "type": "commonly_used_with",
+      "weight": 0.45,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-07-28",
+      "note": "生成网格资产 vs Web 内建 3D 场景编辑"
+    },
+    {
+      "id": "edge-meshy-tripo-alternative",
+      "from": "meshy",
+      "to": "tripo",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-07-28",
+      "note": "文生 3D 同层竞品"
     },
     {
       "id": "edge-microsoft-clarity-hotjar-alternative-to",
@@ -35621,6 +36806,17 @@
       "sources": [],
       "createdAt": "2026-07-24",
       "note": "同属 OpenAI Audio"
+    },
+    {
+      "id": "edge-opengameart-kenney-related",
+      "from": "opengameart",
+      "to": "kenney",
+      "type": "commonly_used_with",
+      "weight": 0.75,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-07-28",
+      "note": "开源社区素材 vs CC0 成套包"
     },
     {
       "id": "edge-openreplay-sentry-commonly-used-with",
@@ -36224,6 +37420,17 @@
       "createdAt": "2026-07-23"
     },
     {
+      "id": "edge-senseavatar-zhiying-alt",
+      "from": "senseavatar",
+      "to": "tencent-zhiying",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-07-29",
+      "note": "商汤如影 vs 腾讯智影（国内数字人）"
+    },
+    {
       "id": "edge-sensorsdata-mixpanel-domestic-equivalent-of",
       "from": "sensorsdata",
       "to": "mixpanel",
@@ -36262,6 +37469,17 @@
       "confidence": "community",
       "sources": [],
       "createdAt": "2026-07-23"
+    },
+    {
+      "id": "edge-sketchfab-polyhaven-related",
+      "from": "sketchfab",
+      "to": "polyhaven",
+      "type": "commonly_used_with",
+      "weight": 0.6,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-07-28",
+      "note": "模型市场 vs CC0 环境/HDRI"
     },
     {
       "id": "edge-slack-linear-integrates-with",
@@ -36364,6 +37582,17 @@
       "createdAt": "2026-07-24"
     },
     {
+      "id": "edge-spine-rive-related",
+      "from": "spine",
+      "to": "rive",
+      "type": "commonly_used_with",
+      "weight": 0.5,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-07-28",
+      "note": "游戏骨骼 vs 产品交互动效"
+    },
+    {
       "id": "edge-spline-framer-commonly-used-with",
       "from": "spline",
       "to": "framer",
@@ -36464,6 +37693,17 @@
       "createdAt": "2026-07-23"
     },
     {
+      "id": "edge-synthesia-colossyan-alt",
+      "from": "synthesia",
+      "to": "colossyan",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-07-29",
+      "note": "企业培训口播 vs 互动 L&D 情景"
+    },
+    {
       "id": "edge-synthflow-vapi-alt",
       "from": "synthflow",
       "to": "vapi",
@@ -36472,6 +37712,28 @@
       "confidence": "community",
       "sources": [],
       "createdAt": "2026-07-24"
+    },
+    {
+      "id": "edge-tavus-anam-alt",
+      "from": "tavus",
+      "to": "anam",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-07-29",
+      "note": "实时对话数字人 API 对照"
+    },
+    {
+      "id": "edge-tavus-heygen-related",
+      "from": "tavus",
+      "to": "heygen",
+      "type": "commonly_used_with",
+      "weight": 0.5,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-07-29",
+      "note": "实时对话 vs 批量口播成片，勿混比"
     },
     {
       "id": "edge-tekton-kubernetes-depends-on",
@@ -36758,6 +38020,17 @@
       "createdAt": "2026-07-23"
     },
     {
+      "id": "edge-volc-avatar-zhiying-related",
+      "from": "volcengine-avatar",
+      "to": "tencent-zhiying",
+      "type": "commonly_used_with",
+      "weight": 0.55,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-07-29",
+      "note": "企业定制云数字人 vs 自助成片工具"
+    },
+    {
       "id": "edge-volc-speech-eleven-dom",
       "from": "volcengine-speech",
       "to": "elevenlabs",
@@ -36847,6 +38120,39 @@
       "sources": [],
       "createdAt": "2026-07-24",
       "note": "社区 + 海洛图库"
+    },
+    {
+      "id": "edge-zhiying-heygen-alt",
+      "from": "tencent-zhiying",
+      "to": "heygen",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-07-29",
+      "note": "国内智影生态 vs 海外营销数字人"
+    },
+    {
+      "id": "edge-zhizuo-iflytek-speech-related",
+      "from": "iflytek-zhizuo",
+      "to": "iflytek-speech",
+      "type": "commonly_used_with",
+      "weight": 0.65,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-07-29",
+      "note": "数字人成片产品 vs 讯飞开放平台语音 API"
+    },
+    {
+      "id": "edge-zhizuo-zhiying-alt",
+      "from": "iflytek-zhizuo",
+      "to": "tencent-zhiying",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-07-29",
+      "note": "讯飞配音强 vs 腾讯短视频创作一体"
     },
     {
       "id": "edge-zulip-slack-open-source-alternative-to",
@@ -39567,6 +40873,12 @@
       "url": "https://amplitude.com"
     },
     {
+      "id": "anam-inc",
+      "name": "Anam",
+      "region": "overseas",
+      "url": "https://www.anam.ai"
+    },
+    {
       "id": "angular-team",
       "name": "Google",
       "region": "overseas",
@@ -39909,6 +41221,12 @@
       "url": "https://cohere.com"
     },
     {
+      "id": "colossyan-inc",
+      "name": "Colossyan",
+      "region": "overseas",
+      "url": "https://www.colossyan.com"
+    },
+    {
       "id": "confluent",
       "name": "Confluent",
       "region": "overseas",
@@ -39967,6 +41285,18 @@
       "name": "Crowdin",
       "region": "overseas",
       "url": "https://crowdin.com"
+    },
+    {
+      "id": "csm-inc",
+      "name": "CSM",
+      "region": "overseas",
+      "url": "https://www.csm.ai"
+    },
+    {
+      "id": "d-id-inc",
+      "name": "D-ID",
+      "region": "overseas",
+      "url": "https://www.d-id.com"
     },
     {
       "id": "daily-co",
@@ -40117,6 +41447,18 @@
       "name": "Envato",
       "region": "overseas",
       "url": "https://envato.com"
+    },
+    {
+      "id": "epic-games",
+      "name": "Epic Games",
+      "region": "overseas",
+      "url": "https://www.epicgames.com"
+    },
+    {
+      "id": "esoteric-software",
+      "name": "Esoteric Software",
+      "region": "overseas",
+      "url": "https://esotericsoftware.com"
     },
     {
       "id": "expo-dev",
@@ -40347,6 +41689,12 @@
       "url": "https://www.growingio.com"
     },
     {
+      "id": "guiji-inc",
+      "name": "硅基智能",
+      "region": "domestic",
+      "url": "https://website.guiji.ai"
+    },
+    {
       "id": "hashicorp",
       "name": "HashiCorp",
       "region": "overseas",
@@ -40357,6 +41705,12 @@
       "name": "Heap",
       "region": "overseas",
       "url": "https://www.heap.io"
+    },
+    {
+      "id": "hedra-inc",
+      "name": "Hedra",
+      "region": "overseas",
+      "url": "https://www.hedra.com"
     },
     {
       "id": "height-inc",
@@ -40435,6 +41789,12 @@
       "name": "Hume AI",
       "region": "overseas",
       "url": "https://www.hume.ai"
+    },
+    {
+      "id": "hyper3d",
+      "name": "Hyper3D",
+      "region": "overseas",
+      "url": "https://hyper3d.ai"
     },
     {
       "id": "ibm",
@@ -40623,6 +41983,12 @@
       "url": "https://linear.app"
     },
     {
+      "id": "live2d-inc",
+      "name": "Live2D Inc.",
+      "region": "overseas",
+      "url": "https://www.live2d.com"
+    },
+    {
       "id": "livekit-inc",
       "name": "LiveKit",
       "region": "overseas",
@@ -40693,6 +42059,12 @@
       "name": "Mercury",
       "region": "overseas",
       "url": "https://mercury.com"
+    },
+    {
+      "id": "meshy-ai",
+      "name": "Meshy",
+      "region": "overseas",
+      "url": "https://www.meshy.ai"
     },
     {
       "id": "meta-llama",
@@ -41253,6 +42625,12 @@
       "url": "https://www.semrush.com"
     },
     {
+      "id": "sensetime",
+      "name": "商汤科技",
+      "region": "domestic",
+      "url": "https://www.sensetime.com"
+    },
+    {
       "id": "sensorsdata-inc",
       "name": "神策数据",
       "region": "domestic",
@@ -41299,6 +42677,12 @@
       "name": "Sinch",
       "region": "overseas",
       "url": "https://www.sinch.com"
+    },
+    {
+      "id": "sketchfab-inc",
+      "name": "Sketchfab",
+      "region": "overseas",
+      "url": "https://sketchfab.com"
     },
     {
       "id": "slack-technologies",
@@ -41469,6 +42853,12 @@
       "url": "https://tauri.app"
     },
     {
+      "id": "tavus-inc",
+      "name": "Tavus",
+      "region": "overseas",
+      "url": "https://www.tavus.io"
+    },
+    {
       "id": "tempolabs-inc",
       "name": "Tempo Labs",
       "region": "overseas",
@@ -41521,6 +42911,12 @@
       "name": "通义",
       "region": "domestic",
       "url": "https://tongyi.aliyun.com"
+    },
+    {
+      "id": "tripo-ai",
+      "name": "VAST / Tripo",
+      "region": "overseas",
+      "url": "https://www.tripo3d.ai"
     },
     {
       "id": "turbopuffer-inc",
@@ -42730,10 +44126,13 @@
     {
       "id": "digital-human",
       "name": "数字人",
-      "summaryMd": "用 AI 驱动的虚拟形象口播或互动。",
+      "summaryMd": "用 AI 驱动虚拟形象做口播成片或实时对话互动；与文生镜头视频、立绘骨骼绑定是不同用途。",
       "aliases": [
         "AI 数字人",
-        "数字人口播"
+        "数字人口播",
+        "AI Avatar",
+        "talking head",
+        "对话数字人"
       ]
     },
     {
@@ -46540,46 +47939,74 @@
       "order": 2
     },
     {
+      "id": "design-ai-3d",
+      "name": "AI 三维生成",
+      "kind": "leaf",
+      "parent": "design-assets",
+      "order": 3
+    },
+    {
       "id": "design-ai-video",
       "name": "AI 视频生成",
       "kind": "leaf",
       "parent": "design-assets",
-      "order": 3
+      "order": 4
+    },
+    {
+      "id": "design-digital-human",
+      "name": "数字人 / 口播形象",
+      "kind": "leaf",
+      "parent": "design-assets",
+      "order": 5
     },
     {
       "id": "design-ai-music",
       "name": "AI 音乐生成",
       "kind": "leaf",
       "parent": "design-assets",
-      "order": 4
+      "order": 6
+    },
+    {
+      "id": "design-character-rig",
+      "name": "角色绑定 / 立绘骨骼",
+      "kind": "leaf",
+      "parent": "design-assets",
+      "order": 7
     },
     {
       "id": "design-motion",
-      "name": "动效素材",
+      "name": "UI 动效素材",
       "kind": "leaf",
       "parent": "design-assets",
-      "order": 5
+      "order": 8
+    },
+    {
+      "id": "design-game-assets",
+      "name": "游戏 / 三维素材",
+      "kind": "leaf",
+      "parent": "design-assets",
+      "order": 9
     },
     {
       "id": "design-stock",
-      "name": "图库 / 素材市场",
+      "name": "图库 / 平面素材",
       "kind": "leaf",
       "parent": "design-assets",
-      "order": 6
+      "order": 10
     },
     {
       "id": "design-inspiration",
       "name": "灵感板 / 作品集",
       "kind": "leaf",
       "parent": "design-assets",
-      "order": 7
+      "order": 11
     },
     {
       "id": "design-fonts",
       "name": "字体",
       "kind": "leaf",
       "parent": "design-assets",
-      "order": 8
+      "order": 12
     },
     {
       "id": "collab-pm",
@@ -47294,8 +48721,12 @@
       "brief": "涨星热",
       "categories": [
         "design-tools",
+        "design-ai-3d",
+        "design-digital-human",
         "design-ai-music",
+        "design-character-rig",
         "design-motion",
+        "design-game-assets",
         "design-stock",
         "design-inspiration",
         "design-fonts"
@@ -47314,8 +48745,12 @@
       "brief": "设计热",
       "categories": [
         "design-tools",
+        "design-ai-3d",
+        "design-digital-human",
         "design-ai-music",
+        "design-character-rig",
         "design-motion",
+        "design-game-assets",
         "design-stock",
         "design-inspiration",
         "design-fonts"
@@ -51578,6 +53013,24 @@
       "chinaAccessible": true
     },
     {
+      "id": "anam",
+      "name": "Anam",
+      "haystackName": "anam anam",
+      "haystackMid": "低时延交互数字人 api · 客服/agent 向 ai avatar realtime api",
+      "haystackLow": "anam 提供实时交互式 ai avatar api，强调低时延对话视频代理，面向客服、培训与销售中的 conversational video agent 嵌入场景。\n\n要在自有产品里嵌「会说话的视频 agent」、且关注端到端时延时评估；批量口播成片另选。\n\n形象/音色额度与并发上限按套餐变化；合规与克隆授权需产品侧自建流程。\n",
+      "category": "design-digital-human",
+      "region": "overseas",
+      "tags": [
+        "ai",
+        "avatar",
+        "realtime",
+        "api"
+      ],
+      "pricing": "usage",
+      "maturity": "stable",
+      "chinaAccessible": false
+    },
+    {
       "id": "angular",
       "name": "Angular",
       "haystackName": "angular angular",
@@ -53312,6 +54765,24 @@
       "chinaAccessible": true
     },
     {
+      "id": "colossyan",
+      "name": "Colossyan",
+      "haystackName": "colossyan colossyan",
+      "haystackMid": "互动培训数字人 · l&d 向 · 情景片 ai avatar enterprise training",
+      "haystackLow": "colossyan 面向学习与发展（l&d）场景的 ai 数字人视频，强调培训情景、分支互动与团队协作成片，是 synthesia 在互动培训赛道的常见对照。\n\n需要可交互培训视频、情景演练或多角色讲解而非纯营销口播时评估。\n\n创意营销镜头弱；按席位/分钟计费需测算规模，勿与实时对话数字人混选。\n",
+      "category": "design-digital-human",
+      "region": "overseas",
+      "tags": [
+        "ai",
+        "avatar",
+        "enterprise",
+        "training"
+      ],
+      "pricing": "subscription",
+      "maturity": "stable",
+      "chinaAccessible": false
+    },
+    {
       "id": "comate",
       "name": "Comate",
       "haystackName": "comate comate",
@@ -53487,6 +54958,23 @@
       "chinaAccessible": true
     },
     {
+      "id": "craftpix",
+      "name": "Craftpix",
+      "haystackName": "craftpix craftpix",
+      "haystackMid": "2d 游戏素材站 · 免费包+付费包 · 精灵/ui 常见 stock game-art 2d",
+      "haystackLow": "craftpix 提供 2d 游戏精灵、ui、背景等免费与付费包，偏休闲与平台跳跃原型，许可按包说明。\n\n需要成套 2d 关卡/ui 素材、快速拼出可玩 demo 时评估；与 kenney、opengameart 对照。\n\n免费包常有署名或非独占限制；风格偏欧美卡通，难直接用于水墨武侠。\n",
+      "category": "design-game-assets",
+      "region": "overseas",
+      "tags": [
+        "stock",
+        "game-art",
+        "2d"
+      ],
+      "pricing": "freemium",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
       "id": "create-xyz",
       "name": "Create",
       "haystackName": "create create-xyz",
@@ -53558,6 +55046,23 @@
       "chinaAccessible": true
     },
     {
+      "id": "csm-ai",
+      "name": "CSM",
+      "haystackName": "csm csm-ai",
+      "haystackMid": "图像/视频转 3d · 偏扫描重建与产品捕捉 ai 3d scan",
+      "haystackLow": "csm 侧重从图像或视频序列重建 3d，接近「轻量扫描/捕捉」叙事，适合实物产品、场景片段进入数字资产库。\n\n已有多视角照片或短视频、希望进引擎做产品 3d 时评估；与纯文生 3d（meshy）互补。\n\n拍摄规范影响成败；角色绑定与游戏动画仍需下游工具。\n",
+      "category": "design-ai-3d",
+      "region": "overseas",
+      "tags": [
+        "ai",
+        "3d",
+        "scan"
+      ],
+      "pricing": "freemium",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
       "id": "currencycloud",
       "name": "Currencycloud",
       "haystackName": "currencycloud currencycloud",
@@ -53606,6 +55111,24 @@
       "pricing": "freemium",
       "maturity": "stable",
       "chinaAccessible": true
+    },
+    {
+      "id": "d-id",
+      "name": "D-ID",
+      "haystackName": "d-id d-id",
+      "haystackMid": "照片驱动说话头 · api 轻量入门 · 短片向 ai avatar api talking-head",
+      "haystackLow": "d-id 把静图/肖像驱动成说话头视频，提供 studio 与开发者 api，强调快速生成短口播与会说话肖像，是 heygen/synthesia 之外常见的轻量对照。\n\n只要「一张照片 + 文稿/音频」快速出短片、或要嵌入产品做说话肖像 poc 时评估；不要与文生镜头类工具混比。\n\n成片质量与全身表演弱于头部玩家；形象授权与 deepfake 合规同样严格。\n",
+      "category": "design-digital-human",
+      "region": "overseas",
+      "tags": [
+        "ai",
+        "avatar",
+        "api",
+        "talking-head"
+      ],
+      "pricing": "subscription",
+      "maturity": "stable",
+      "chinaAccessible": false
     },
     {
       "id": "dagger",
@@ -54349,6 +55872,24 @@
       "pricing": "open-source",
       "maturity": "stable",
       "chinaAccessible": true
+    },
+    {
+      "id": "fab",
+      "name": "Fab",
+      "haystackName": "fab fab",
+      "haystackMid": "epic 数字资产商店 · 原 marketplace/quixel 整合向 stock 3d game-art unreal",
+      "haystackLow": "fab 是 epic 侧数字内容商店方向（整合原 marketplace / quixel 等叙事），提供游戏与影视向 3d、材质、特效等资产交易与部分免费内容。\n\nunreal/epic 生态内采购场景资产、或需要影院级扫描材质时评估；与 sketchfab 互补。\n\n引擎绑定与授权条款复杂；免费资产亦有使用限制，导出到非 ue 管线前要读许可。\n",
+      "category": "design-game-assets",
+      "region": "overseas",
+      "tags": [
+        "stock",
+        "3d",
+        "game-art",
+        "unreal"
+      ],
+      "pricing": "freemium",
+      "maturity": "stable",
+      "chinaAccessible": false
     },
     {
       "id": "factory",
@@ -55594,7 +57135,7 @@
       "name": "GPT Luna",
       "haystackName": "gpt luna gpt-mini",
       "haystackMid": "openai 成本档 · luna · aa index 51 前沿边缘 llm line",
-      "haystackLow": "openai gpt 产品族的**成本优化选型档**。当前版本为 gpt-5.6 luna（同代 terra 为均衡档，sol 为旗舰）。\n\n海量用户产品的默认 chat、路由层 fallback、或高并发边缘任务；复杂推理与长链路 agent 应升级 sol/terra。\n\n勿再默认写 gpt-4o mini：那是上一代成本档命名。\n",
+      "haystackLow": "openai gpt 产品族的**成本优化选型档**。当前版本为 gpt-5.6 luna（同代 terra 为均衡档，sol 为旗舰）。\n\n海量用户产品的默认 chat、路由层 fallback、或高并发边缘任务；复杂推理与长链路 agent 应升级 sol/terra。\n\n能力上限低于 sol/terra；关键路径应保留升级路由。\n",
       "category": "llm-line",
       "region": "overseas",
       "tags": [
@@ -55730,6 +57271,25 @@
       ],
       "pricing": "freemium",
       "maturity": "mature",
+      "chinaAccessible": true
+    },
+    {
+      "id": "guiji-duix",
+      "name": "硅基智能 · DUIX",
+      "haystackName": "硅基智能 · duix guiji-duix",
+      "haystackMid": "国内交互数字人 · 直播/sdk · 端侧可部署 ai avatar domestic sdk realtime",
+      "haystackLow": "硅基智能（勿与「硅基流动」混淆）提供数字人交互与直播相关能力，duix 等 sdk/开源线支持 web/端侧部署说话与互动数字人，常见于国内直播与客服交互场景。\n\n国内要数字人直播、h5/app 嵌入交互形象，或评估端侧开源方案时纳入；推理 api 网关请看硅基流动。\n\n商用授权与开源协议需分清；品牌名易与 siliconflow 混淆，选型文档务必写全称。\n",
+      "category": "design-digital-human",
+      "region": "domestic",
+      "tags": [
+        "ai",
+        "avatar",
+        "domestic",
+        "sdk",
+        "realtime"
+      ],
+      "pricing": "freemium",
+      "maturity": "stable",
       "chinaAccessible": true
     },
     {
@@ -55871,6 +57431,24 @@
       "chinaAccessible": true
     },
     {
+      "id": "hedra",
+      "name": "Hedra",
+      "haystackName": "hedra hedra",
+      "haystackMid": "表情向角色视频 · 音乐/角色表演 · 风格化 ai avatar creative character",
+      "haystackLow": "hedra 偏表情与角色表演的 ai 视频/数字人生成，适合音乐短片、风格化角色口播等「不像企业培训片」的创意向用法，与写实企业数字人平台定位不同。\n\n需要角色表情张力、音乐视频感或非写实说话角色时评估；企业培训模板流优先看 synthesia/heygen。\n\n企业合规与多语本地化弱于培训向平台；产品形态与套餐变化快，poc 前锁定能力边界。\n",
+      "category": "design-digital-human",
+      "region": "overseas",
+      "tags": [
+        "ai",
+        "avatar",
+        "creative",
+        "character"
+      ],
+      "pricing": "freemium",
+      "maturity": "stable",
+      "chinaAccessible": false
+    },
+    {
       "id": "height",
       "name": "Height",
       "haystackName": "height height",
@@ -55955,18 +57533,37 @@
       "chinaAccessible": true
     },
     {
+      "id": "heygem",
+      "name": "HeyGem",
+      "haystackName": "heygem heygem",
+      "haystackMid": "硅基开源本地数字人 · 实时交互试验 ai avatar open-source realtime",
+      "haystackLow": "heygem 是硅基智能开源的本地/实时数字人相关项目，社区常与 duix 一并讨论，用于端侧或自托管交互数字人试验，不等同于硅基商业 saas 全功能。\n\n要评估开源本地数字人推理、或与硅基生态对照时纳入；商用成片与直播交付看硅基商业产品。\n\n仓库与协议可能分叉迁移；星标热度≠生产就绪，上线前核对授权与模型权重来源。\n",
+      "category": "design-digital-human",
+      "region": "domestic",
+      "tags": [
+        "ai",
+        "avatar",
+        "open-source",
+        "realtime"
+      ],
+      "pricing": "open-source",
+      "maturity": "beta",
+      "chinaAccessible": true
+    },
+    {
       "id": "heygen",
       "name": "HeyGen",
       "haystackName": "heygen heygen",
-      "haystackMid": "数字人视频 · 多语口型 · 营销向 ai video avatar dubbing",
+      "haystackMid": "数字人视频 · 多语口型 · 营销向 ai video avatar dubbing digital-human",
       "haystackLow": "heygen 专注数字人/口播视频：上传形象或模板，生成多语口型同步讲解，营销、培训与产品介绍高频使用，与文生镜头类工具分工不同。\n\n需要「真人出镜感」讲解视频、多语本地化口播时优先；不要与 runway/veo 的文生场景片混比。\n\n形象授权与 deepfake 合规严格；创意镜头控制弱于生成式视频模型。\n",
-      "category": "design-ai-video",
+      "category": "design-digital-human",
       "region": "overseas",
       "tags": [
         "ai",
         "video",
         "avatar",
-        "dubbing"
+        "dubbing",
+        "digital-human"
       ],
       "pricing": "subscription",
       "maturity": "stable",
@@ -56362,6 +57959,24 @@
       "chinaAccessible": true
     },
     {
+      "id": "iflytek-zhizuo",
+      "name": "讯飞智作",
+      "haystackName": "讯飞智作 iflytek-zhizuo",
+      "haystackMid": "讯飞数字人成片 · 配音强 · 教育/口播向 ai avatar domestic tts",
+      "haystackLow": "讯飞智作依托科大讯飞语音与星火能力，提供数字人定制与口播视频生成，强调配音质量与教育/知识输出等中文场景。\n\n课程讲解、知识口播、国内中文音色要求高时评估；可与讯飞开放平台语音能力对照。\n\n海外语种与创意镜头弱于国际营销向工具；套餐与定制交付路径以官网为准。\n",
+      "category": "design-digital-human",
+      "region": "domestic",
+      "tags": [
+        "ai",
+        "avatar",
+        "domestic",
+        "tts"
+      ],
+      "pricing": "freemium",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
       "id": "infisical",
       "name": "Infisical",
       "haystackName": "infisical infisical",
@@ -56623,6 +58238,24 @@
       ],
       "pricing": "open-source",
       "maturity": "mature",
+      "chinaAccessible": true
+    },
+    {
+      "id": "kenney",
+      "name": "Kenney",
+      "haystackName": "kenney kenney",
+      "haystackMid": "cc0 游戏素材包 · 像素/低模/ui 原型友好 stock game-art free cc0",
+      "haystackLow": "kenney 提供大量 cc0 游戏资产包（2d/3d/音频/ui），几乎无署名压力，是 game jam 与玩法原型的默认素材源之一。\n\n需要快速可商用占位美术、像素或低模风格、希望授权最省心时优先。\n\n风格辨识度高，成品上线常被认出「kenney 味」，正式品牌向需替换。\n",
+      "category": "design-game-assets",
+      "region": "overseas",
+      "tags": [
+        "stock",
+        "game-art",
+        "free",
+        "cc0"
+      ],
+      "pricing": "free",
+      "maturity": "stable",
       "chinaAccessible": true
     },
     {
@@ -57119,6 +58752,23 @@
       "chinaAccessible": true
     },
     {
+      "id": "live2d-cubism",
+      "name": "Live2D Cubism",
+      "haystackName": "live2d cubism live2d-cubism",
+      "haystackMid": "2.5d 角色网格绑定 · editor+sdk · moc3 行业标准 animation live2d character",
+      "haystackLow": "live2d cubism 用网格变形让 2d 立绘「活」起来，产出 moc3 等运行时格式，是虚拟主播、日式 rpg ui/立绘战斗的常见标准；含 editor 与多端 sdk。\n\n需要眨眼/口型/摆动级角色表演、且愿意投入绑定与授权时选用；与 spine、rive、自研分件木偶对照。\n\neditor/sdk 按主体规模收费；moc3 无法从单张立绘自动可靠生成，需分层 psd+绑定。\n",
+      "category": "design-character-rig",
+      "region": "overseas",
+      "tags": [
+        "animation",
+        "live2d",
+        "character"
+      ],
+      "pricing": "subscription",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
       "id": "livekit",
       "name": "LiveKit",
       "haystackName": "livekit livekit",
@@ -57134,6 +58784,24 @@
       ],
       "pricing": "freemium",
       "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
+      "id": "liveportrait",
+      "name": "LivePortrait",
+      "haystackName": "liveportrait liveportrait",
+      "haystackMid": "开源人像驱动 · 高效表情迁移 · 研究/自建 ai avatar open-source talking-head",
+      "haystackLow": "liveportrait（快手视觉团队开源）用驱动视频高效迁移表情与头部运动到目标人像，是自建说话头/写真动画管线的常用开源组件，而非完整 saas 数字人平台。\n\n有 gpu、要自建口型/表情驱动或研究管线时评估；要开箱成片请用商业数字人平台。\n\n需自备推理与合规审核；商用授权以仓库协议与上游声明为准，非一键营销成片工具。\n",
+      "category": "design-digital-human",
+      "region": "overseas",
+      "tags": [
+        "ai",
+        "avatar",
+        "open-source",
+        "talking-head"
+      ],
+      "pricing": "open-source",
+      "maturity": "beta",
       "chinaAccessible": true
     },
     {
@@ -57673,6 +59341,23 @@
       "pricing": "freemium",
       "maturity": "stable",
       "chinaAccessible": false
+    },
+    {
+      "id": "meshy",
+      "name": "Meshy",
+      "haystackName": "meshy meshy",
+      "haystackMid": "文/图生 3d · 绑骨与动画管线 · 游戏/原型常用 ai 3d game-art",
+      "haystackLow": "meshy 提供文本/图像生成 3d 网格，并支持重拓扑、贴图、绑骨与基础动画导出（如 glb），面向游戏原型、角色样板与营销 3d 资产快速试错。\n\n需要从概念图快速落到可预览/可挂动画的 3d 角色或道具、且接受 ai 拓扑质量时评估；可与 tripo、rodin 同层对比。\n\n商用授权与积分套餐变化快；高模体积大，上线前需压面/换装自研骨骼或公告板。\n",
+      "category": "design-ai-3d",
+      "region": "overseas",
+      "tags": [
+        "ai",
+        "3d",
+        "game-art"
+      ],
+      "pricing": "subscription",
+      "maturity": "stable",
+      "chinaAccessible": true
     },
     {
       "id": "meta-muse-image",
@@ -58447,6 +60132,23 @@
       "chinaAccessible": true
     },
     {
+      "id": "nizima",
+      "name": "nizima",
+      "haystackName": "nizima nizima",
+      "haystackMid": "live2d 官方向素材市场 · 买现成模型与部件 animation live2d stock",
+      "haystackLow": "nizima 是 live2d 生态常见的模型与部件交易市场，可购买或获取免费/付费 moc 相关资产，缩短从零绑定的时间。\n\n需要现成 live2d 角色做原型、虚拟形象或学习参考，而不自建全套绑定时评估。\n\n每套素材许可不同（改作/商用/再分发）；品牌定制形象仍难直接买到。\n",
+      "category": "design-character-rig",
+      "region": "overseas",
+      "tags": [
+        "animation",
+        "live2d",
+        "stock"
+      ],
+      "pricing": "freemium",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
       "id": "nodejs",
       "name": "Node.js",
       "haystackName": "node.js nodejs",
@@ -58758,6 +60460,23 @@
       "pricing": "usage",
       "maturity": "stable",
       "chinaAccessible": false
+    },
+    {
+      "id": "opengameart",
+      "name": "OpenGameArt",
+      "haystackName": "opengameart opengameart",
+      "haystackMid": "开源游戏素材社区 · cc0/cc-by 常见 stock game-art free",
+      "haystackLow": "opengameart 聚集免费/开源游戏贴图、精灵、音效与部分 3d，许可以 cc0、cc-by 等为主，适合原型与独立游戏起步。\n\n需要可商用免费素材、能接受风格不统一与质量参差时作为第一站检索。\n\n视觉风格混杂；商用项目仍要逐条确认许可与署名要求。\n",
+      "category": "design-game-assets",
+      "region": "overseas",
+      "tags": [
+        "stock",
+        "game-art",
+        "free"
+      ],
+      "pricing": "free",
+      "maturity": "stable",
+      "chinaAccessible": true
     },
     {
       "id": "openhands",
@@ -59436,6 +61155,24 @@
         "payment"
       ],
       "pricing": "usage",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
+      "id": "polyhaven",
+      "name": "Poly Haven",
+      "haystackName": "poly haven polyhaven",
+      "haystackMid": "cc0 hdri/贴图/模型 · 3d 场景光照友好 stock 3d cc0 hdri",
+      "haystackLow": "poly haven 提供 cc0 的 hdri、pbr 贴图与部分模型，适合 blender/引擎里搭真实感光照与环境。\n\n需要免费可商用环境光与材质、做产品渲染或场景铺底时评估。\n\n角色/动画资产极少；偏环境与材质，不解决 live2d/角色绑定。\n",
+      "category": "design-game-assets",
+      "region": "overseas",
+      "tags": [
+        "stock",
+        "3d",
+        "cc0",
+        "hdri"
+      ],
+      "pricing": "free",
       "maturity": "stable",
       "chinaAccessible": true
     },
@@ -60187,6 +61924,22 @@
       "chinaAccessible": true
     },
     {
+      "id": "rodin",
+      "name": "Rodin",
+      "haystackName": "rodin rodin",
+      "haystackMid": "hyper3d 文生 3d · 偏高质量网格与材质 ai 3d",
+      "haystackLow": "rodin（hyper3d）面向高质量 ai 3d 生成，强调网格完整性与材质表现，常见于数字人、道具与影视概念资产试验。\n\n对网格观感要求高于「能预览就行」、可接受更高单价或排队时评估；与 meshy/tripo 对照。\n\n价格与额度策略偏专业向；动画/绑骨能力弱于部分竞品，需另接管线。\n",
+      "category": "design-ai-3d",
+      "region": "overseas",
+      "tags": [
+        "ai",
+        "3d"
+      ],
+      "pricing": "subscription",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
       "id": "rollbar",
       "name": "Rollbar",
       "haystackName": "rollbar rollbar",
@@ -60318,6 +62071,24 @@
       ],
       "pricing": "open-source",
       "maturity": "mature",
+      "chinaAccessible": true
+    },
+    {
+      "id": "sadtalker",
+      "name": "SadTalker",
+      "haystackName": "sadtalker sadtalker",
+      "haystackMid": "开源音频驱动说话头 · 经典管线 · 自托管 ai avatar open-source talking-head",
+      "haystackLow": "sadtalker 是广为使用的开源音频驱动说话头方案：输入肖像与音频生成口型同步视频，适合自托管实验与低成本 poc，质量与稳定性依赖环境与后处理。\n\n要本地/私有化验证「照片+音频→说话视频」、可接受工程投入时评估。\n\n效果与商业 saas 有差距；依赖与 cuda 环境维护成本高，生产需自建审核与运维。\n",
+      "category": "design-digital-human",
+      "region": "overseas",
+      "tags": [
+        "ai",
+        "avatar",
+        "open-source",
+        "talking-head"
+      ],
+      "pricing": "open-source",
+      "maturity": "stable",
       "chinaAccessible": true
     },
     {
@@ -60518,6 +62289,24 @@
       "chinaAccessible": true
     },
     {
+      "id": "senseavatar",
+      "name": "商汤如影",
+      "haystackName": "商汤如影 senseavatar",
+      "haystackMid": "商汤数字人 · 口播/直播复刻 · 营销向 ai avatar domestic livestream",
+      "haystackLow": "商汤如影（senseavatar）隶属日日新大模型体系，提供数字人视频生成、形象定制与直播间复刻等能力，面向短视频营销、品牌 ip 与数字人直播。\n\n国内要高拟真数字人成片或直播运营、且可接受企业采购路径时评估。\n\n企业采购与试用门槛偏高；产品入口与套餐常随商汤站改版，签约前锁定具体 sku。\n",
+      "category": "design-digital-human",
+      "region": "domestic",
+      "tags": [
+        "ai",
+        "avatar",
+        "domestic",
+        "livestream"
+      ],
+      "pricing": "subscription",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
       "id": "sensorsdata",
       "name": "神策数据",
       "haystackName": "神策数据 sensorsdata",
@@ -60679,6 +62468,23 @@
       "pricing": "open-source",
       "maturity": "stable",
       "chinaAccessible": true
+    },
+    {
+      "id": "sketchfab",
+      "name": "Sketchfab",
+      "haystackName": "sketchfab sketchfab",
+      "haystackMid": "在线 3d 模型库与浏览 · 下载授权分层 stock 3d game-art",
+      "haystackLow": "sketchfab 提供海量可在线预览的 3d 模型，含免费与付费授权分层，覆盖游戏、建筑可视化与 ar 试用资产。\n\n需要快速找参考模、免费 cc 模或购买现成道具进引擎时评估；与 poly haven、fab 对照。\n\n免费层许可混杂（cc0/cc-by 等）；下载与 api 限额、部分地区访问需自备网络策略。\n",
+      "category": "design-game-assets",
+      "region": "overseas",
+      "tags": [
+        "stock",
+        "3d",
+        "game-art"
+      ],
+      "pricing": "freemium",
+      "maturity": "stable",
+      "chinaAccessible": false
     },
     {
       "id": "slack",
@@ -60881,6 +62687,23 @@
       ],
       "pricing": "usage",
       "maturity": "mature",
+      "chinaAccessible": true
+    },
+    {
+      "id": "spine",
+      "name": "Spine",
+      "haystackName": "spine spine",
+      "haystackMid": "2d 骨骼动画编辑器 · skel/atlas · 游戏角色主流 animation spine game-art",
+      "haystackLow": "spine（esoteric）是游戏业常用的 2d 骨骼动画工具，导出 skel/json + atlas，runtime 覆盖多数引擎；适合平台动作、格斗与 ui 骨骼角色。\n\n需要比 live2d 更「游戏动作向」的剪影/换装骨骼、且团队熟悉 spine 工作流时优先。\n\neditor 许可证与 runtime 分发规则需严格合规；无许可证不可把官方 runtime 打进产品。\n",
+      "category": "design-character-rig",
+      "region": "overseas",
+      "tags": [
+        "animation",
+        "spine",
+        "game-art"
+      ],
+      "pricing": "subscription",
+      "maturity": "stable",
       "chinaAccessible": true
     },
     {
@@ -61308,15 +63131,16 @@
       "id": "synthesia",
       "name": "Synthesia",
       "haystackName": "synthesia synthesia",
-      "haystackMid": "企业数字人口播 · 培训/合规向 ai video avatar enterprise",
+      "haystackMid": "企业数字人口播 · 培训/合规向 ai video avatar enterprise digital-human",
       "haystackLow": "synthesia 提供企业向 ai 数字人视频平台，强调模板、品牌安全与培训/内部沟通场景，是 heygen 在企业培训赛道的常见对照。\n\n大型组织需要标准化培训视频、审核流程与多语口播时评估。\n\n创意生成与镜头运动弱；按席位/分钟计费需测算规模。\n",
-      "category": "design-ai-video",
+      "category": "design-digital-human",
       "region": "overseas",
       "tags": [
         "ai",
         "video",
         "avatar",
-        "enterprise"
+        "enterprise",
+        "digital-human"
       ],
       "pricing": "subscription",
       "maturity": "mature",
@@ -61422,6 +63246,24 @@
       "pricing": "open-source",
       "maturity": "stable",
       "chinaAccessible": true
+    },
+    {
+      "id": "tavus",
+      "name": "Tavus",
+      "haystackName": "tavus tavus",
+      "haystackMid": "实时对话数字人 · cvi · 销售/客服向 ai avatar realtime api",
+      "haystackLow": "tavus 做 conversational video interface：低时延、可对话的数字人，面向销售页、互动演示与客服/陪练等「面对面」场景，与批量脚本口播成片是不同产品形态。\n\n需要用户与数字人实时对话、个性化 1:1 视频交互时优先；批量培训/营销口播片请看 heygen/synthesia。\n\n不是批量成片工具；成本与并发按会话计，需评估 llm/tts 联调与合规（形象克隆授权）。\n",
+      "category": "design-digital-human",
+      "region": "overseas",
+      "tags": [
+        "ai",
+        "avatar",
+        "realtime",
+        "api"
+      ],
+      "pricing": "usage",
+      "maturity": "stable",
+      "chinaAccessible": false
     },
     {
       "id": "tekton",
@@ -61589,6 +63431,24 @@
       "tags": [
         "android",
         "store"
+      ],
+      "pricing": "freemium",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
+      "id": "tencent-zhiying",
+      "name": "腾讯智影",
+      "haystackName": "腾讯智影 tencent-zhiying",
+      "haystackMid": "腾讯系数字人口播 · 剪辑/配音一体 · 短视频向 ai avatar domestic video",
+      "haystackLow": "腾讯智影是腾讯云端智能视频创作平台，集成数字人口播、形象/声音克隆、文本配音与文章转视频等能力，常用于国内短视频、企业宣传与内容工业化生产。\n\n国内团队要快速出数字人口播、且希望与腾讯生态（账号/素材/分发）同栈时评估。\n\n能力与套餐以控制台为准；出海多语与海外分发需另测，勿默认等同 heygen。\n",
+      "category": "design-digital-human",
+      "region": "domestic",
+      "tags": [
+        "ai",
+        "avatar",
+        "domestic",
+        "video"
       ],
       "pricing": "freemium",
       "maturity": "stable",
@@ -61793,6 +63653,22 @@
       "tags": [
         "workflow",
         "jobs"
+      ],
+      "pricing": "freemium",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
+      "id": "tripo",
+      "name": "Tripo",
+      "haystackName": "tripo tripo",
+      "haystackMid": "文/图生 3d · 多格式导出 · 偏产品与游戏样板 ai 3d",
+      "haystackLow": "tripo（vast）提供 ai 文生/图生 3d，强调较快出模与多格式导出，适合产品可视化、游戏概念体与电商 3d 试制。\n\n需要与 meshy 对照的第二家文生 3d、或特定导出格式/速度偏好时纳入短名单。\n\n拓扑与 uv 质量因任务波动；角色绑骨与面部细节通常仍需 dcc 或人工。\n",
+      "category": "design-ai-3d",
+      "region": "overseas",
+      "tags": [
+        "ai",
+        "3d"
       ],
       "pricing": "freemium",
       "maturity": "stable",
@@ -62336,6 +64212,24 @@
       "region": "overseas",
       "tags": [],
       "pricing": "open-source",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
+      "id": "volcengine-avatar",
+      "name": "火山引擎智能数字人",
+      "haystackName": "火山引擎智能数字人 volcengine-avatar",
+      "haystackMid": "字节云数字人 · 企业定制 · 营销/互动 ai avatar domestic cloud",
+      "haystackLow": "火山引擎智能数字人面向企业级虚拟人解决方案，覆盖形象生成、驱动与业务集成，常与字节云、豆包语音等能力同栈落地品牌营销与互动场景。\n\n已用火山/字节云、需要国内企业级数字人定制或 api 集成时评估。\n\n偏企业采购与项目制；个人创作者轻量成片可优先看智影/智作等自助产品。\n",
+      "category": "design-digital-human",
+      "region": "domestic",
+      "tags": [
+        "ai",
+        "avatar",
+        "domestic",
+        "cloud"
+      ],
+      "pricing": "usage",
       "maturity": "stable",
       "chinaAccessible": true
     },
