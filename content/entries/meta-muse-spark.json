@@ -72,13 +72,13 @@
     },
     {
       "systemId": "lmarena-document",
-      "rank": 11,
+      "rank": 13,
       "score": 1472,
       "scoreLabel": "1472 Elo",
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 muse-spark-1.1",
-      "asOf": "2026-07-29"
+      "asOf": "2026-07-31"
     },
     {
       "systemId": "lmarena-webdev",

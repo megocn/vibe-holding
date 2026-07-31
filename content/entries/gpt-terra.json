@@ -1,0 +1,89 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line",
+    "balanced",
+    "agent"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "极难推理与关键 Agent 链路应升级 Sol；超 272K 输入会触发长上下文价格倍率。"
+  ],
+  "updates": [
+    {
+      "date": "2026-07-09",
+      "type": "release",
+      "version": "GPT-5.6 Terra",
+      "summary": "GPT-5.6 均衡档；标准价 $2.50/$15；1.05M 上下文",
+      "source": "https://developers.openai.com/api/docs/models/gpt-5.6-terra"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "artificial-analysis-index",
+      "score": 46,
+      "scoreLabel": "AAII 46",
+      "period": "2026-07",
+      "sourceUrl": "https://artificialanalysis.ai/models/gpt-5-6-terra-medium",
+      "note": "GPT-5.6 Terra（medium，标准均衡推理档）",
+      "asOf": "2026-07-30"
+    },
+    {
+      "systemId": "lmarena-vision",
+      "rank": 25,
+      "score": 1273,
+      "scoreLabel": "1273 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/vision",
+      "note": "模型 gpt-5.6-terra-xhigh",
+      "asOf": "2026-07-31"
+    },
+    {
+      "systemId": "lmarena-document",
+      "rank": 10,
+      "score": 1479,
+      "scoreLabel": "1479 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/document",
+      "note": "模型 gpt-5.6-terra-xhigh",
+      "asOf": "2026-07-31"
+    },
+    {
+      "systemId": "lmarena-webdev",
+      "rank": 20,
+      "score": 1522,
+      "scoreLabel": "1522 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+      "note": "模型 gpt-5.6-terra-xhigh (codex-harness)",
+      "asOf": "2026-07-31"
+    }
+  ],
+  "sources": [
+    "https://developers.openai.com/api/docs/models/gpt-5.6-terra",
+    "https://developers.openai.com/api/docs/pricing",
+    "https://artificialanalysis.ai/models/gpt-5-6-terra-medium"
+  ],
+  "lastReviewed": "2026-07-30",
+  "region": "overseas",
+  "id": "gpt-terra",
+  "name": "GPT Terra",
+  "category": "llm-line",
+  "subcategory": "line",
+  "vendorId": "openai",
+  "oneLiner": "OpenAI 均衡档 · GPT-5.6 Terra · 能力与成本折中",
+  "officialUrl": "https://developers.openai.com/api/docs/models/gpt-5.6-terra",
+  "descriptionMd": "GPT 产品族的**均衡选型档**。当前版本为 GPT-5.6 Terra，定位在 Sol 旗舰与 Luna 成本档之间，适合日常编码、工具调用、企业知识工作和中等复杂度 Agent。\n\n标准 API 价格为每百万 token 输入 $2.50、输出 $15，支持约 1.05M 上下文；超 272K 输入按长上下文倍率计价。\n\n极难推理和关键自治链路升级 Sol，高并发轻任务下探 Luna。\n",
+  "currentVersion": "GPT-5.6 Terra"
+}

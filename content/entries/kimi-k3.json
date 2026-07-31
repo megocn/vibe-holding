@@ -100,23 +100,23 @@
     },
     {
       "systemId": "lmarena-vision",
-      "rank": 22,
-      "score": 1265,
-      "scoreLabel": "1265 Elo",
+      "rank": 28,
+      "score": 1264,
+      "scoreLabel": "1264 Elo",
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 kimi-k2.6",
-      "asOf": "2026-07-25"
+      "asOf": "2026-07-31"
     },
     {
       "systemId": "lmarena-document",
-      "rank": 18,
+      "rank": 21,
       "score": 1451,
       "scoreLabel": "1451 Elo",
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 kimi-k2.6",
-      "asOf": "2026-07-29"
+      "asOf": "2026-07-31"
     }
   ],
   "sources": [

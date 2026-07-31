@@ -45,34 +45,14 @@
       "scoreLabel": "AAII 46"
     },
     {
-      "systemId": "lmarena-vision",
-      "rank": 23,
-      "score": 1261,
-      "scoreLabel": "1261 Elo",
-      "period": "2026-07",
-      "sourceUrl": "https://arena.ai/leaderboard/vision",
-      "note": "模型 qwen3.7-plus",
-      "asOf": "2026-07-25"
-    },
-    {
-      "systemId": "lmarena-document",
-      "rank": 22,
-      "score": 1440,
-      "scoreLabel": "1440 Elo",
-      "period": "2026-07",
-      "sourceUrl": "https://arena.ai/leaderboard/document",
-      "note": "模型 qwen3.7-plus",
-      "asOf": "2026-07-29"
-    },
-    {
       "systemId": "lmarena-webdev",
-      "rank": 21,
+      "rank": 23,
       "score": 1517,
       "scoreLabel": "1517 Elo",
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 qwen3.7-max-20260517",
-      "asOf": "2026-07-29"
+      "asOf": "2026-07-31"
     },
     {
       "systemId": "lmarena-image",

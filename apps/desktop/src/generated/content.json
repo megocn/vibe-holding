@@ -4421,6 +4421,75 @@
     },
     {
       "pricing": {
+        "model": "usage"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "llm",
+        "line",
+        "fast",
+        "value"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "复杂长链路推理与高难编码应升级 Sonnet / Opus；生产需锁定 claude-haiku-4-5。"
+      ],
+      "updates": [
+        {
+          "date": "2025-10-15",
+          "type": "release",
+          "version": "Haiku 4.5",
+          "summary": "Anthropic 速度/成本档；API claude-haiku-4-5；标准价 $1/$5",
+          "source": "https://www.anthropic.com/news/claude-haiku-4-5"
+        }
+      ],
+      "rankings": [
+        {
+          "systemId": "artificial-analysis-index",
+          "score": 30,
+          "scoreLabel": "AAII 30",
+          "period": "2026-07",
+          "sourceUrl": "https://artificialanalysis.ai/models/claude-4-5-haiku",
+          "note": "Claude 4.5 Haiku（Reasoning）",
+          "asOf": "2026-07-30"
+        },
+        {
+          "systemId": "lmarena-document",
+          "rank": 30,
+          "score": 1423,
+          "scoreLabel": "1423 Elo",
+          "period": "2026-07",
+          "sourceUrl": "https://arena.ai/leaderboard/document",
+          "note": "模型 claude-haiku-4-5-20251001",
+          "asOf": "2026-07-31"
+        }
+      ],
+      "sources": [
+        "https://www.anthropic.com/claude/haiku",
+        "https://www.anthropic.com/news/claude-haiku-4-5",
+        "https://artificialanalysis.ai/models/claude-4-5-haiku"
+      ],
+      "lastReviewed": "2026-07-30",
+      "region": "overseas",
+      "id": "claude-haiku",
+      "name": "Claude Haiku",
+      "category": "llm-line",
+      "subcategory": "line",
+      "vendorId": "anthropic",
+      "oneLiner": "Anthropic 高速成本档 · Haiku 4.5 · $1/$5",
+      "officialUrl": "https://www.anthropic.com/claude/haiku",
+      "descriptionMd": "Claude 家族的**高速与成本优化档**。当前版本为 Haiku 4.5，适合分类、提取、路由、轻量 Agent 和高并发对话。\n\n标准 API 价格为每百万 token 输入 $1、输出 $5，200K 上下文；复杂编码与长链路推理应升级 Sonnet 或 Opus。\n\n生产调用应锁定 `claude-haiku-4-5`，避免使用浮动别名造成能力变化。\n",
+      "currentVersion": "Haiku 4.5"
+    },
+    {
+      "pricing": {
         "model": "usage",
         "notes": "约 $5/M input · $25/M output（与 Opus 4.8 同价）；Fast mode 约 2× 基价；API `claude-opus-5`",
         "currency": "USD"
@@ -4654,13 +4723,13 @@
         },
         {
           "systemId": "lmarena-vision",
-          "rank": 19,
+          "rank": 24,
           "score": 1275,
           "scoreLabel": "1275 Elo",
           "period": "2026-07",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
           "note": "模型 claude-sonnet-4-6",
-          "asOf": "2026-07-25"
+          "asOf": "2026-07-31"
         },
         {
           "systemId": "lmarena-search",
@@ -6822,13 +6891,13 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 31,
+          "rank": 35,
           "score": 1464,
           "scoreLabel": "1464 Elo",
           "period": "2026-07",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 deepseek-v4-pro-thinking",
-          "asOf": "2026-07-25"
+          "asOf": "2026-07-31"
         }
       ],
       "subcategory": "line",
@@ -9805,6 +9874,106 @@
         "model": "usage"
       },
       "availability": {
+        "chinaAccessible": false,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "llm",
+        "line",
+        "fast",
+        "value",
+        "multimodal"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "复杂推理与高精度编码应升级 Flash / Pro；国内访问需网络与合规方案。"
+      ],
+      "updates": [
+        {
+          "date": "2026-07-21",
+          "type": "release",
+          "version": "3.5 Flash-Lite",
+          "summary": "Gemini 高吞吐成本档；标准价 $0.30/$2.50",
+          "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
+        }
+      ],
+      "rankings": [
+        {
+          "systemId": "artificial-analysis-index",
+          "score": 36,
+          "scoreLabel": "AAII 36",
+          "period": "2026-07",
+          "sourceUrl": "https://artificialanalysis.ai/models/gemini-3-5-flash-lite",
+          "note": "Gemini 3.5 Flash-Lite",
+          "asOf": "2026-07-30"
+        },
+        {
+          "systemId": "lmarena-vision",
+          "rank": 30,
+          "score": 1260,
+          "scoreLabel": "1260 Elo",
+          "period": "2026-07",
+          "sourceUrl": "https://arena.ai/leaderboard/vision",
+          "note": "模型 gemini-3.5-flash-lite",
+          "asOf": "2026-07-31"
+        },
+        {
+          "systemId": "lmarena-webdev",
+          "rank": 39,
+          "score": 1454,
+          "scoreLabel": "1454 Elo",
+          "period": "2026-07",
+          "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+          "note": "模型 gemini-3.5-flash-lite",
+          "asOf": "2026-07-31"
+        },
+        {
+          "systemId": "lmarena-image",
+          "rank": 7,
+          "score": 1250,
+          "scoreLabel": "1250 Elo",
+          "period": "2026-07",
+          "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
+          "note": "模型 gemini-3.1-flash-lite-image (nano-banana-2-lite)",
+          "asOf": "2026-07-31"
+        },
+        {
+          "systemId": "lmarena-image-edit",
+          "rank": 16,
+          "score": 1314,
+          "scoreLabel": "1314 Elo",
+          "period": "2026-07",
+          "sourceUrl": "https://arena.ai/leaderboard/image-edit",
+          "note": "模型 gemini-3.1-flash-lite-image (nano-banana-2-lite)",
+          "asOf": "2026-07-31"
+        }
+      ],
+      "sources": [
+        "https://ai.google.dev/gemini-api/docs/pricing",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+        "https://artificialanalysis.ai/models/gemini-3-5-flash-lite"
+      ],
+      "lastReviewed": "2026-07-30",
+      "region": "overseas",
+      "id": "gemini-flash-lite",
+      "name": "Gemini Flash-Lite",
+      "category": "llm-line",
+      "subcategory": "line",
+      "vendorId": "google",
+      "oneLiner": "Google 高吞吐档 · Gemini 3.5 Flash-Lite · $0.30/$2.50",
+      "officialUrl": "https://ai.google.dev/gemini-api/docs/pricing",
+      "descriptionMd": "Gemini 家族的**高吞吐成本优化档**。当前版本为 Gemini 3.5 Flash-Lite，适合批量分类、抽取、轻量多模态理解和大规模路由。\n\n标准 API 价格为每百万 token 输入 $0.30、输出 $2.50，并支持缓存与 Flex 推理；复杂推理、编码和 Agent 任务升级 Flash 或 Pro。\n\n国内接入需准备网络与合规方案，并核对免费层及区域配额。\n",
+      "currentVersion": "3.5 Flash-Lite"
+    },
+    {
+      "pricing": {
+        "model": "usage"
+      },
+      "availability": {
         "chinaAccessible": true,
         "needsCompany": false,
         "needsIcp": false,
@@ -9901,13 +10070,13 @@
         },
         {
           "systemId": "lmarena-document",
-          "rank": 15,
+          "rank": 17,
           "score": 1465,
           "scoreLabel": "1465 Elo",
           "period": "2026-07",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 gemini-3.5-flash-medium",
-          "asOf": "2026-07-29"
+          "asOf": "2026-07-31"
         },
         {
           "systemId": "lmarena-webdev",
@@ -10152,13 +10321,13 @@
         },
         {
           "systemId": "lmarena-document",
-          "rank": 20,
+          "rank": 23,
           "score": 1445,
           "scoreLabel": "1445 Elo",
           "period": "2026-07",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 gemini-3.1-pro-preview",
-          "asOf": "2026-07-29"
+          "asOf": "2026-07-31"
         },
         {
           "systemId": "lmarena-webdev",
@@ -10319,13 +10488,13 @@
         },
         {
           "systemId": "lmarena-document",
-          "rank": 26,
+          "rank": 29,
           "score": 1424,
           "scoreLabel": "1424 Elo",
           "period": "2026-07",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 gemma-4-31b",
-          "asOf": "2026-07-29"
+          "asOf": "2026-07-31"
         },
         {
           "systemId": "lmarena-text",
@@ -10799,13 +10968,13 @@
         },
         {
           "systemId": "lmarena-document",
-          "rank": 29,
+          "rank": 32,
           "score": 1417,
           "scoreLabel": "1417 Elo",
           "period": "2026-07",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 glm-5v-turbo",
-          "asOf": "2026-07-29"
+          "asOf": "2026-07-31"
         }
       ],
       "sources": [
@@ -11900,6 +12069,95 @@
         "model": "usage"
       },
       "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "llm",
+        "line",
+        "balanced",
+        "agent"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "极难推理与关键 Agent 链路应升级 Sol；超 272K 输入会触发长上下文价格倍率。"
+      ],
+      "updates": [
+        {
+          "date": "2026-07-09",
+          "type": "release",
+          "version": "GPT-5.6 Terra",
+          "summary": "GPT-5.6 均衡档；标准价 $2.50/$15；1.05M 上下文",
+          "source": "https://developers.openai.com/api/docs/models/gpt-5.6-terra"
+        }
+      ],
+      "rankings": [
+        {
+          "systemId": "artificial-analysis-index",
+          "score": 46,
+          "scoreLabel": "AAII 46",
+          "period": "2026-07",
+          "sourceUrl": "https://artificialanalysis.ai/models/gpt-5-6-terra-medium",
+          "note": "GPT-5.6 Terra（medium，标准均衡推理档）",
+          "asOf": "2026-07-30"
+        },
+        {
+          "systemId": "lmarena-vision",
+          "rank": 25,
+          "score": 1273,
+          "scoreLabel": "1273 Elo",
+          "period": "2026-07",
+          "sourceUrl": "https://arena.ai/leaderboard/vision",
+          "note": "模型 gpt-5.6-terra-xhigh",
+          "asOf": "2026-07-31"
+        },
+        {
+          "systemId": "lmarena-document",
+          "rank": 10,
+          "score": 1479,
+          "scoreLabel": "1479 Elo",
+          "period": "2026-07",
+          "sourceUrl": "https://arena.ai/leaderboard/document",
+          "note": "模型 gpt-5.6-terra-xhigh",
+          "asOf": "2026-07-31"
+        },
+        {
+          "systemId": "lmarena-webdev",
+          "rank": 20,
+          "score": 1522,
+          "scoreLabel": "1522 Elo",
+          "period": "2026-07",
+          "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+          "note": "模型 gpt-5.6-terra-xhigh (codex-harness)",
+          "asOf": "2026-07-31"
+        }
+      ],
+      "sources": [
+        "https://developers.openai.com/api/docs/models/gpt-5.6-terra",
+        "https://developers.openai.com/api/docs/pricing",
+        "https://artificialanalysis.ai/models/gpt-5-6-terra-medium"
+      ],
+      "lastReviewed": "2026-07-30",
+      "region": "overseas",
+      "id": "gpt-terra",
+      "name": "GPT Terra",
+      "category": "llm-line",
+      "subcategory": "line",
+      "vendorId": "openai",
+      "oneLiner": "OpenAI 均衡档 · GPT-5.6 Terra · 能力与成本折中",
+      "officialUrl": "https://developers.openai.com/api/docs/models/gpt-5.6-terra",
+      "descriptionMd": "GPT 产品族的**均衡选型档**。当前版本为 GPT-5.6 Terra，定位在 Sol 旗舰与 Luna 成本档之间，适合日常编码、工具调用、企业知识工作和中等复杂度 Agent。\n\n标准 API 价格为每百万 token 输入 $2.50、输出 $15，支持约 1.05M 上下文；超 272K 输入按长上下文倍率计价。\n\n极难推理和关键自治链路升级 Sol，高并发轻任务下探 Luna。\n",
+      "currentVersion": "GPT-5.6 Terra"
+    },
+    {
+      "pricing": {
+        "model": "usage"
+      },
+      "availability": {
         "chinaAccessible": false,
         "needsCompany": false,
         "needsIcp": false,
@@ -12045,13 +12303,13 @@
         },
         {
           "systemId": "lmarena-document",
-          "rank": 17,
+          "rank": 20,
           "score": 1454,
           "scoreLabel": "1454 Elo",
           "period": "2026-07",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 grok-4.5",
-          "asOf": "2026-07-29"
+          "asOf": "2026-07-31"
         },
         {
           "systemId": "openrouter-popularity",
@@ -13683,13 +13941,13 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 19,
+          "rank": 22,
           "score": 1517,
           "scoreLabel": "1517 Elo",
           "period": "2026-07",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 hy3",
-          "asOf": "2026-07-25"
+          "asOf": "2026-07-31"
         },
         {
           "systemId": "lmarena-i2v",
@@ -14970,23 +15228,23 @@
         },
         {
           "systemId": "lmarena-vision",
-          "rank": 22,
-          "score": 1265,
-          "scoreLabel": "1265 Elo",
+          "rank": 28,
+          "score": 1264,
+          "scoreLabel": "1264 Elo",
           "period": "2026-07",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
           "note": "模型 kimi-k2.6",
-          "asOf": "2026-07-25"
+          "asOf": "2026-07-31"
         },
         {
           "systemId": "lmarena-document",
-          "rank": 18,
+          "rank": 21,
           "score": 1451,
           "scoreLabel": "1451 Elo",
           "period": "2026-07",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 kimi-k2.6",
-          "asOf": "2026-07-29"
+          "asOf": "2026-07-31"
         }
       ],
       "sources": [
@@ -17815,13 +18073,13 @@
         },
         {
           "systemId": "lmarena-document",
-          "rank": 11,
+          "rank": 13,
           "score": 1472,
           "scoreLabel": "1472 Elo",
           "period": "2026-07",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 muse-spark-1.1",
-          "asOf": "2026-07-29"
+          "asOf": "2026-07-31"
         },
         {
           "systemId": "lmarena-webdev",
@@ -18189,13 +18447,13 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 30,
+          "rank": 32,
           "score": 1474,
           "scoreLabel": "1474 Elo",
           "period": "2026-07",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 mimo-v2.5-pro",
-          "asOf": "2026-07-29"
+          "asOf": "2026-07-31"
         }
       ],
       "sources": [
@@ -18300,23 +18558,23 @@
         },
         {
           "systemId": "lmarena-document",
-          "rank": 23,
+          "rank": 26,
           "score": 1435,
           "scoreLabel": "1435 Elo",
           "period": "2026-07",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 minimax-m3",
-          "asOf": "2026-07-29"
+          "asOf": "2026-07-31"
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 24,
-          "score": 1493,
-          "scoreLabel": "1493 Elo",
+          "rank": 27,
+          "score": 1494,
+          "scoreLabel": "1494 Elo",
           "period": "2026-07",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 minimax-m3",
-          "asOf": "2026-07-25"
+          "asOf": "2026-07-31"
         }
       ],
       "sources": [
@@ -23114,34 +23372,14 @@
           "scoreLabel": "AAII 46"
         },
         {
-          "systemId": "lmarena-vision",
-          "rank": 23,
-          "score": 1261,
-          "scoreLabel": "1261 Elo",
-          "period": "2026-07",
-          "sourceUrl": "https://arena.ai/leaderboard/vision",
-          "note": "模型 qwen3.7-plus",
-          "asOf": "2026-07-25"
-        },
-        {
-          "systemId": "lmarena-document",
-          "rank": 22,
-          "score": 1440,
-          "scoreLabel": "1440 Elo",
-          "period": "2026-07",
-          "sourceUrl": "https://arena.ai/leaderboard/document",
-          "note": "模型 qwen3.7-plus",
-          "asOf": "2026-07-29"
-        },
-        {
           "systemId": "lmarena-webdev",
-          "rank": 21,
+          "rank": 23,
           "score": 1517,
           "scoreLabel": "1517 Elo",
           "period": "2026-07",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 qwen3.7-max-20260517",
-          "asOf": "2026-07-29"
+          "asOf": "2026-07-31"
         },
         {
           "systemId": "lmarena-image",
@@ -23229,6 +23467,100 @@
       "descriptionMd": "Qwen-Omni Realtime（如 qwen3.5-omni-flash-realtime）在实时会话中同时处理文本/音频/图像等输入，面向「边看边说」的多模态助手，与纯语音的 Qwen-Audio Realtime 分工不同。\n\n需要摄像头/屏幕画面 + 语音同会话、国内合规落地时评估；纯电话/耳机语音可优先 Audio Realtime 以降本。\n\n模态越多成本与延迟越高；与 Gemini Live 对标时注意区域可达与工具调用成熟度。\n",
       "vendorId": "alibaba-cloud",
       "currentVersion": "3.5 Omni Flash Realtime"
+    },
+    {
+      "pricing": {
+        "model": "usage",
+        "currency": "CNY"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global",
+          "cn"
+        ]
+      },
+      "tags": [
+        "llm",
+        "line",
+        "domestic",
+        "balanced",
+        "multimodal"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "限时折扣与长上下文分段价会变化；生产应锁定 qwen3.7-plus-2026-05-26。"
+      ],
+      "updates": [
+        {
+          "date": "2026-05-26",
+          "type": "release",
+          "version": "Qwen3.7-Plus",
+          "summary": "百炼均衡多模态 Agent 档，支持最高 1M 上下文",
+          "source": "https://help.aliyun.com/zh/model-studio/model-pricing"
+        }
+      ],
+      "rankings": [
+        {
+          "systemId": "artificial-analysis-index",
+          "score": 39,
+          "scoreLabel": "AAII 39",
+          "period": "2026-07",
+          "sourceUrl": "https://artificialanalysis.ai/models/qwen3-7-plus",
+          "note": "Qwen3.7 Plus",
+          "asOf": "2026-07-30"
+        },
+        {
+          "systemId": "lmarena-vision",
+          "rank": 29,
+          "score": 1262,
+          "scoreLabel": "1262 Elo",
+          "period": "2026-07",
+          "sourceUrl": "https://arena.ai/leaderboard/vision",
+          "note": "模型 qwen3.7-plus",
+          "asOf": "2026-07-31"
+        },
+        {
+          "systemId": "lmarena-document",
+          "rank": 25,
+          "score": 1440,
+          "scoreLabel": "1440 Elo",
+          "period": "2026-07",
+          "sourceUrl": "https://arena.ai/leaderboard/document",
+          "note": "模型 qwen3.7-plus",
+          "asOf": "2026-07-31"
+        },
+        {
+          "systemId": "lmarena-webdev",
+          "rank": 37,
+          "score": 1458,
+          "scoreLabel": "1458 Elo",
+          "period": "2026-07",
+          "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+          "note": "模型 qwen3.6-plus",
+          "asOf": "2026-07-31"
+        }
+      ],
+      "sources": [
+        "https://help.aliyun.com/zh/model-studio/model-pricing",
+        "https://www.aliyun.com/product/bailian",
+        "https://artificialanalysis.ai/models/qwen3-7-plus",
+        "https://arena.ai/leaderboard/vision",
+        "https://arena.ai/leaderboard/document"
+      ],
+      "lastReviewed": "2026-07-30",
+      "region": "domestic",
+      "id": "qwen-plus",
+      "name": "Qwen Plus",
+      "category": "llm-line",
+      "subcategory": "line",
+      "vendorId": "alibaba-cloud",
+      "oneLiner": "通义均衡档 · Qwen3.7-Plus · 百炼多模态 Agent",
+      "officialUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
+      "descriptionMd": "通义千问产品族的**均衡 Plus 选型档**。当前版本为 Qwen3.7-Plus，面向日常多模态、工具调用、视觉编程与企业 Agent。\n\n≤256K 输入的标准价为每百万 token 输入￥2、输出￥8（活动期可能折扣），最长支持 1M 上下文并采用分段计价。\n\n能力上限对照 Max；生产应锁定日期版本并重新核对活动价。\n",
+      "currentVersion": "Qwen3.7-Plus"
     },
     {
       "pricing": {
@@ -33244,6 +33576,18 @@
       "createdAt": "2026-07-23"
     },
     {
+      "id": "e-gemini-lite-part-gemini",
+      "from": "gemini-flash-lite",
+      "to": "gemini",
+      "type": "part_of",
+      "weight": 1,
+      "confidence": "verified",
+      "sources": [
+        "https://ai.google.dev/gemini-api/docs/pricing"
+      ],
+      "createdAt": "2026-07-30"
+    },
+    {
       "id": "e-gempro-part-gemini",
       "from": "gemini-pro",
       "to": "gemini",
@@ -33353,6 +33697,18 @@
       "confidence": "community",
       "sources": [],
       "createdAt": "2026-07-23"
+    },
+    {
+      "id": "e-haiku-part-claude",
+      "from": "claude-haiku",
+      "to": "claude",
+      "type": "part_of",
+      "weight": 1,
+      "confidence": "verified",
+      "sources": [
+        "https://www.anthropic.com/claude/haiku"
+      ],
+      "createdAt": "2026-07-30"
     },
     {
       "id": "e-happyhorse-seedance-alt",
@@ -34119,6 +34475,18 @@
       "createdAt": "2026-07-23"
     },
     {
+      "id": "e-qwenplus-part-qwen",
+      "from": "qwen-plus",
+      "to": "qwen",
+      "type": "part_of",
+      "weight": 1,
+      "confidence": "verified",
+      "sources": [
+        "https://help.aliyun.com/zh/model-studio/model-pricing"
+      ],
+      "createdAt": "2026-07-30"
+    },
+    {
       "id": "e-r2-alt-s3-narrative",
       "from": "cloudflare-r2",
       "to": "cloudflare-pages",
@@ -34359,6 +34727,18 @@
       "confidence": "verified",
       "sources": [],
       "createdAt": "2026-07-23"
+    },
+    {
+      "id": "e-terra-part-gpt",
+      "from": "gpt-terra",
+      "to": "gpt",
+      "type": "part_of",
+      "weight": 1,
+      "confidence": "verified",
+      "sources": [
+        "https://developers.openai.com/api/docs/models/gpt-5.6-terra"
+      ],
+      "createdAt": "2026-07-30"
     },
     {
       "id": "e-testflight-part-apple",
@@ -54395,6 +54775,24 @@
       "chinaAccessible": false
     },
     {
+      "id": "claude-haiku",
+      "name": "Claude Haiku",
+      "haystackName": "claude haiku claude-haiku",
+      "haystackMid": "anthropic 高速成本档 · haiku 4.5 · $1/$5 llm line fast value",
+      "haystackLow": "claude 家族的**高速与成本优化档**。当前版本为 haiku 4.5，适合分类、提取、路由、轻量 agent 和高并发对话。\n\n标准 api 价格为每百万 token 输入 $1、输出 $5，200k 上下文；复杂编码与长链路推理应升级 sonnet 或 opus。\n\n生产调用应锁定 `claude-haiku-4-5`，避免使用浮动别名造成能力变化。\n",
+      "category": "llm-line",
+      "region": "overseas",
+      "tags": [
+        "llm",
+        "line",
+        "fast",
+        "value"
+      ],
+      "pricing": "usage",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
       "id": "claude-opus",
       "name": "Claude Opus",
       "haystackName": "claude opus claude-opus",
@@ -56515,6 +56913,25 @@
       "chinaAccessible": true
     },
     {
+      "id": "gemini-flash-lite",
+      "name": "Gemini Flash-Lite",
+      "haystackName": "gemini flash-lite gemini-flash-lite",
+      "haystackMid": "google 高吞吐档 · gemini 3.5 flash-lite · $0.30/$2.50 llm line fast value multimodal",
+      "haystackLow": "gemini 家族的**高吞吐成本优化档**。当前版本为 gemini 3.5 flash-lite，适合批量分类、抽取、轻量多模态理解和大规模路由。\n\n标准 api 价格为每百万 token 输入 $0.30、输出 $2.50，并支持缓存与 flex 推理；复杂推理、编码和 agent 任务升级 flash 或 pro。\n\n国内接入需准备网络与合规方案，并核对免费层及区域配额。\n",
+      "category": "llm-line",
+      "region": "overseas",
+      "tags": [
+        "llm",
+        "line",
+        "fast",
+        "value",
+        "multimodal"
+      ],
+      "pricing": "usage",
+      "maturity": "stable",
+      "chinaAccessible": false
+    },
+    {
       "id": "gemini-flash",
       "name": "Gemini Flash",
       "haystackName": "gemini flash gemini-flash",
@@ -57167,6 +57584,24 @@
       "tags": [
         "llm",
         "line"
+      ],
+      "pricing": "usage",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
+      "id": "gpt-terra",
+      "name": "GPT Terra",
+      "haystackName": "gpt terra gpt-terra",
+      "haystackMid": "openai 均衡档 · gpt-5.6 terra · 能力与成本折中 llm line balanced agent",
+      "haystackLow": "gpt 产品族的**均衡选型档**。当前版本为 gpt-5.6 terra，定位在 sol 旗舰与 luna 成本档之间，适合日常编码、工具调用、企业知识工作和中等复杂度 agent。\n\n标准 api 价格为每百万 token 输入 $2.50、输出 $15，支持约 1.05m 上下文；超 272k 输入按长上下文倍率计价。\n\n极难推理和关键自治链路升级 sol，高并发轻任务下探 luna。\n",
+      "category": "llm-line",
+      "region": "overseas",
+      "tags": [
+        "llm",
+        "line",
+        "balanced",
+        "agent"
       ],
       "pricing": "usage",
       "maturity": "stable",
@@ -61527,6 +61962,25 @@
         "omni",
         "domestic",
         "qwen"
+      ],
+      "pricing": "usage",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
+      "id": "qwen-plus",
+      "name": "Qwen Plus",
+      "haystackName": "qwen plus qwen-plus",
+      "haystackMid": "通义均衡档 · qwen3.7-plus · 百炼多模态 agent llm line domestic balanced multimodal",
+      "haystackLow": "通义千问产品族的**均衡 plus 选型档**。当前版本为 qwen3.7-plus，面向日常多模态、工具调用、视觉编程与企业 agent。\n\n≤256k 输入的标准价为每百万 token 输入￥2、输出￥8（活动期可能折扣），最长支持 1m 上下文并采用分段计价。\n\n能力上限对照 max；生产应锁定日期版本并重新核对活动价。\n",
+      "category": "llm-line",
+      "region": "domestic",
+      "tags": [
+        "llm",
+        "line",
+        "domestic",
+        "balanced",
+        "multimodal"
       ],
       "pricing": "usage",
       "maturity": "stable",

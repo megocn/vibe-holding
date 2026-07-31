@@ -42,6 +42,7 @@ import {
 import { kbNavForEntry } from './lib/kb-nav.ts';
 import { llmScopeIds } from './lib/llm-tree.ts';
 import { isTauri } from './lib/platform.ts';
+import { formatStarCount, useRepoStars, VH_GITHUB_URL } from './lib/repo-stars.ts';
 import {
   type Density,
   type Theme,
@@ -101,6 +102,7 @@ function AppShell() {
   const { bundle, index, categories } = useContent();
   const { data: userData, toggleFavorite, isFavorite, toggleFollow, isFollowing } = useUserData();
   const isMobile = useIsMobile();
+  const repoStars = useRepoStars();
   /** Web 或窄屏：隐藏凭据；内容写操作仅桌面 Tauri */
   const includeCredentials = isTauri && !isMobile;
   const canWriteContent = isTauri;
@@ -627,6 +629,21 @@ function AppShell() {
         >
           <Icon name={theme === 'dark' ? 'Sun' : 'Moon'} size={16} />
         </button>
+        <a
+          className="vh-shell-stars"
+          href={VH_GITHUB_URL}
+          target="_blank"
+          rel="noopener noreferrer"
+          title="本关联仓库 · GitHub"
+        >
+          <Icon name="GithubLogo" size={14} />
+          <Icon name="Star" size={12} weight="fill" />
+          {repoStars != null ? (
+            <span className="vh-mono vh-shell-stars-count">{formatStarCount(repoStars)}</span>
+          ) : (
+            <span className="vh-shell-stars-label">Star</span>
+          )}
+        </a>
         {isTauri && <WindowControls />}
       </header>
 

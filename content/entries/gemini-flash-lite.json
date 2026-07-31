@@ -1,0 +1,100 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line",
+    "fast",
+    "value",
+    "multimodal"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "复杂推理与高精度编码应升级 Flash / Pro；国内访问需网络与合规方案。"
+  ],
+  "updates": [
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "version": "3.5 Flash-Lite",
+      "summary": "Gemini 高吞吐成本档；标准价 $0.30/$2.50",
+      "source": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "artificial-analysis-index",
+      "score": 36,
+      "scoreLabel": "AAII 36",
+      "period": "2026-07",
+      "sourceUrl": "https://artificialanalysis.ai/models/gemini-3-5-flash-lite",
+      "note": "Gemini 3.5 Flash-Lite",
+      "asOf": "2026-07-30"
+    },
+    {
+      "systemId": "lmarena-vision",
+      "rank": 30,
+      "score": 1260,
+      "scoreLabel": "1260 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/vision",
+      "note": "模型 gemini-3.5-flash-lite",
+      "asOf": "2026-07-31"
+    },
+    {
+      "systemId": "lmarena-webdev",
+      "rank": 39,
+      "score": 1454,
+      "scoreLabel": "1454 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+      "note": "模型 gemini-3.5-flash-lite",
+      "asOf": "2026-07-31"
+    },
+    {
+      "systemId": "lmarena-image",
+      "rank": 7,
+      "score": 1250,
+      "scoreLabel": "1250 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
+      "note": "模型 gemini-3.1-flash-lite-image (nano-banana-2-lite)",
+      "asOf": "2026-07-31"
+    },
+    {
+      "systemId": "lmarena-image-edit",
+      "rank": 16,
+      "score": 1314,
+      "scoreLabel": "1314 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/image-edit",
+      "note": "模型 gemini-3.1-flash-lite-image (nano-banana-2-lite)",
+      "asOf": "2026-07-31"
+    }
+  ],
+  "sources": [
+    "https://ai.google.dev/gemini-api/docs/pricing",
+    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+    "https://artificialanalysis.ai/models/gemini-3-5-flash-lite"
+  ],
+  "lastReviewed": "2026-07-30",
+  "region": "overseas",
+  "id": "gemini-flash-lite",
+  "name": "Gemini Flash-Lite",
+  "category": "llm-line",
+  "subcategory": "line",
+  "vendorId": "google",
+  "oneLiner": "Google 高吞吐档 · Gemini 3.5 Flash-Lite · $0.30/$2.50",
+  "officialUrl": "https://ai.google.dev/gemini-api/docs/pricing",
+  "descriptionMd": "Gemini 家族的**高吞吐成本优化档**。当前版本为 Gemini 3.5 Flash-Lite，适合批量分类、抽取、轻量多模态理解和大规模路由。\n\n标准 API 价格为每百万 token 输入 $0.30、输出 $2.50，并支持缓存与 Flex 推理；复杂推理、编码和 Agent 任务升级 Flash 或 Pro。\n\n国内接入需准备网络与合规方案，并核对免费层及区域配额。\n",
+  "currentVersion": "3.5 Flash-Lite"
+}

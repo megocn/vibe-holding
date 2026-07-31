@@ -1,0 +1,94 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global",
+      "cn"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line",
+    "domestic",
+    "balanced",
+    "multimodal"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "限时折扣与长上下文分段价会变化；生产应锁定 qwen3.7-plus-2026-05-26。"
+  ],
+  "updates": [
+    {
+      "date": "2026-05-26",
+      "type": "release",
+      "version": "Qwen3.7-Plus",
+      "summary": "百炼均衡多模态 Agent 档，支持最高 1M 上下文",
+      "source": "https://help.aliyun.com/zh/model-studio/model-pricing"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "artificial-analysis-index",
+      "score": 39,
+      "scoreLabel": "AAII 39",
+      "period": "2026-07",
+      "sourceUrl": "https://artificialanalysis.ai/models/qwen3-7-plus",
+      "note": "Qwen3.7 Plus",
+      "asOf": "2026-07-30"
+    },
+    {
+      "systemId": "lmarena-vision",
+      "rank": 29,
+      "score": 1262,
+      "scoreLabel": "1262 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/vision",
+      "note": "模型 qwen3.7-plus",
+      "asOf": "2026-07-31"
+    },
+    {
+      "systemId": "lmarena-document",
+      "rank": 25,
+      "score": 1440,
+      "scoreLabel": "1440 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/document",
+      "note": "模型 qwen3.7-plus",
+      "asOf": "2026-07-31"
+    },
+    {
+      "systemId": "lmarena-webdev",
+      "rank": 37,
+      "score": 1458,
+      "scoreLabel": "1458 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+      "note": "模型 qwen3.6-plus",
+      "asOf": "2026-07-31"
+    }
+  ],
+  "sources": [
+    "https://help.aliyun.com/zh/model-studio/model-pricing",
+    "https://www.aliyun.com/product/bailian",
+    "https://artificialanalysis.ai/models/qwen3-7-plus",
+    "https://arena.ai/leaderboard/vision",
+    "https://arena.ai/leaderboard/document"
+  ],
+  "lastReviewed": "2026-07-30",
+  "region": "domestic",
+  "id": "qwen-plus",
+  "name": "Qwen Plus",
+  "category": "llm-line",
+  "subcategory": "line",
+  "vendorId": "alibaba-cloud",
+  "oneLiner": "通义均衡档 · Qwen3.7-Plus · 百炼多模态 Agent",
+  "officialUrl": "https://help.aliyun.com/zh/model-studio/model-pricing",
+  "descriptionMd": "通义千问产品族的**均衡 Plus 选型档**。当前版本为 Qwen3.7-Plus，面向日常多模态、工具调用、视觉编程与企业 Agent。\n\n≤256K 输入的标准价为每百万 token 输入￥2、输出￥8（活动期可能折扣），最长支持 1M 上下文并采用分段计价。\n\n能力上限对照 Max；生产应锁定日期版本并重新核对活动价。\n",
+  "currentVersion": "Qwen3.7-Plus"
+}

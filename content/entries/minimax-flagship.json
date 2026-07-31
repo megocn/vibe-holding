@@ -52,23 +52,23 @@
     },
     {
       "systemId": "lmarena-document",
-      "rank": 23,
+      "rank": 26,
       "score": 1435,
       "scoreLabel": "1435 Elo",
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 minimax-m3",
-      "asOf": "2026-07-29"
+      "asOf": "2026-07-31"
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 24,
-      "score": 1493,
-      "scoreLabel": "1493 Elo",
+      "rank": 27,
+      "score": 1494,
+      "scoreLabel": "1494 Elo",
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 minimax-m3",
-      "asOf": "2026-07-25"
+      "asOf": "2026-07-31"
     }
   ],
   "sources": [

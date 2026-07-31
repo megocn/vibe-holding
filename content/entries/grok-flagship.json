@@ -73,13 +73,13 @@
     },
     {
       "systemId": "lmarena-document",
-      "rank": 17,
+      "rank": 20,
       "score": 1454,
       "scoreLabel": "1454 Elo",
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 grok-4.5",
-      "asOf": "2026-07-29"
+      "asOf": "2026-07-31"
     },
     {
       "systemId": "openrouter-popularity",

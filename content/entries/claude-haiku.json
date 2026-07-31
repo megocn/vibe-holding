@@ -1,0 +1,69 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "llm",
+    "line",
+    "fast",
+    "value"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "复杂长链路推理与高难编码应升级 Sonnet / Opus；生产需锁定 claude-haiku-4-5。"
+  ],
+  "updates": [
+    {
+      "date": "2025-10-15",
+      "type": "release",
+      "version": "Haiku 4.5",
+      "summary": "Anthropic 速度/成本档；API claude-haiku-4-5；标准价 $1/$5",
+      "source": "https://www.anthropic.com/news/claude-haiku-4-5"
+    }
+  ],
+  "rankings": [
+    {
+      "systemId": "artificial-analysis-index",
+      "score": 30,
+      "scoreLabel": "AAII 30",
+      "period": "2026-07",
+      "sourceUrl": "https://artificialanalysis.ai/models/claude-4-5-haiku",
+      "note": "Claude 4.5 Haiku（Reasoning）",
+      "asOf": "2026-07-30"
+    },
+    {
+      "systemId": "lmarena-document",
+      "rank": 30,
+      "score": 1423,
+      "scoreLabel": "1423 Elo",
+      "period": "2026-07",
+      "sourceUrl": "https://arena.ai/leaderboard/document",
+      "note": "模型 claude-haiku-4-5-20251001",
+      "asOf": "2026-07-31"
+    }
+  ],
+  "sources": [
+    "https://www.anthropic.com/claude/haiku",
+    "https://www.anthropic.com/news/claude-haiku-4-5",
+    "https://artificialanalysis.ai/models/claude-4-5-haiku"
+  ],
+  "lastReviewed": "2026-07-30",
+  "region": "overseas",
+  "id": "claude-haiku",
+  "name": "Claude Haiku",
+  "category": "llm-line",
+  "subcategory": "line",
+  "vendorId": "anthropic",
+  "oneLiner": "Anthropic 高速成本档 · Haiku 4.5 · $1/$5",
+  "officialUrl": "https://www.anthropic.com/claude/haiku",
+  "descriptionMd": "Claude 家族的**高速与成本优化档**。当前版本为 Haiku 4.5，适合分类、提取、路由、轻量 Agent 和高并发对话。\n\n标准 API 价格为每百万 token 输入 $1、输出 $5，200K 上下文；复杂编码与长链路推理应升级 Sonnet 或 Opus。\n\n生产调用应锁定 `claude-haiku-4-5`，避免使用浮动别名造成能力变化。\n",
+  "currentVersion": "Haiku 4.5"
+}

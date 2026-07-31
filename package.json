@@ -28,7 +28,8 @@
     "aqua": "tsx private/aqua/cli.ts",
     "arena": "tsx private/arena/cli.ts",
     "arena:dev": "pnpm --dir private/arena dev",
-    "arena:build": "pnpm --dir private/arena build"
+    "arena:build": "pnpm --dir private/arena build",
+    "deploy:arena": "pnpm arena:build && wrangler pages deploy private/arena/dist --project-name=vibeholding-arena --branch=main"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",

@@ -73,13 +73,13 @@
     },
     {
       "systemId": "lmarena-document",
-      "rank": 29,
+      "rank": 32,
       "score": 1417,
       "scoreLabel": "1417 Elo",
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 glm-5v-turbo",
-      "asOf": "2026-07-29"
+      "asOf": "2026-07-31"
     }
   ],
   "sources": [

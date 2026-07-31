@@ -80,13 +80,13 @@
     },
     {
       "systemId": "lmarena-document",
-      "rank": 20,
+      "rank": 23,
       "score": 1445,
       "scoreLabel": "1445 Elo",
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 gemini-3.1-pro-preview",
-      "asOf": "2026-07-29"
+      "asOf": "2026-07-31"
     },
     {
       "systemId": "lmarena-webdev",

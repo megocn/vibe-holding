@@ -1,0 +1,12 @@
+{
+  "id": "e-haiku-part-claude",
+  "from": "claude-haiku",
+  "to": "claude",
+  "type": "part_of",
+  "weight": 1,
+  "confidence": "verified",
+  "sources": [
+    "https://www.anthropic.com/claude/haiku"
+  ],
+  "createdAt": "2026-07-30"
+}

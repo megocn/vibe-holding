@@ -1,8 +1,9 @@
 import type { Id } from '@vh/core';
 import { motion } from 'motion/react';
 import { type ReactNode, useMemo } from 'react';
+import { ARENA_PIXEL_URL } from '../lib/arena-url.ts';
 import { useContent, useContentEditor } from '../lib/content.tsx';
-import { UPDATE_TYPE_META, collectUpdates } from '../lib/intel.ts';
+import { collectActivities } from '../lib/intel.ts';
 import { useMotionPrefs } from '../lib/motion.ts';
 import { buildCatalogProvenance } from '../lib/provenance.ts';
 import { useUserData } from '../lib/userdata.tsx';
@@ -42,13 +43,13 @@ export function DashboardView({
     .map((id) => ({ id, note: data.notes[id] ?? '', entry: bundle.entries.get(id) }))
     .filter((x) => x.entry && x.note);
 
-  const followFeed = collectUpdates(bundle.entries.values(), {
+  const followFeed = collectActivities(bundle.entries.values(), bundle.rankingSystems, {
     onlyIds: new Set(data.follows),
     limit: 6,
   });
-  const allFeed = collectUpdates(bundle.entries.values(), { limit: 6 });
+  const allFeed = collectActivities(bundle.entries.values(), bundle.rankingSystems, { limit: 6 });
   const feed = followFeed.length > 0 ? followFeed : allFeed;
-  const feedTitle = followFeed.length > 0 ? '我的更新流' : '最近更新';
+  const feedTitle = followFeed.length > 0 ? '我的动态' : '最近动态';
 
   const provenance = useMemo(
     () => buildCatalogProvenance(bundle.entries.values(), bundle.rankingSystems.values()),
@@ -141,6 +142,20 @@ export function DashboardView({
             <button type="button" className="vh-btn" onClick={onOpenRecipes}>
               浏览方案
             </button>
+            <a
+              className="vh-home-arena-cta"
+              href={ARENA_PIXEL_URL}
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span className="vh-home-arena-cta-icon" aria-hidden>
+                <Icon name="Sword" size={16} weight="duotone" />
+              </span>
+              <span className="vh-home-arena-cta-copy">
+                <small>群英论剑</small>
+                <strong>像素论剑</strong>
+              </span>
+            </a>
           </motion.div>
         </div>
       </motion.section>
@@ -186,13 +201,12 @@ export function DashboardView({
             ) : (
               <ul className="vh-home-list">
                 {feed.map((item, i) => {
-                  const meta = UPDATE_TYPE_META[item.update.type];
                   return (
                     <Row
-                      key={`${item.entryId}-${item.update.date}-${item.update.summary}`}
+                      key={item.key}
                       label={item.entryName}
-                      hint={`${item.update.date} · ${meta.label} · ${item.update.summary}`}
-                      icon={meta.icon}
+                      hint={`${item.date} · ${item.label} · ${item.summary}`}
+                      icon={item.icon}
                       onClick={() => onOpenEntry(item.entryId)}
                       variants={staggerItem}
                       delay={reduced ? 0 : i * 0.03}
@@ -243,6 +257,16 @@ export function DashboardView({
               icon="Key"
             />
           )}
+          <PathCard
+            index={onOpenCredentials ? '肆' : '叁'}
+            accent="arena"
+            title="像素论剑"
+            badge="雨夜竹林"
+            lede="模型化作侠客，榜据化作八维。点将开擂，看一场雨夜竹林里的选型对决。"
+            cta="踏入竹林"
+            href={ARENA_PIXEL_URL}
+            icon="Sword"
+          />
         </section>
 
         {/* —— 信息来源公示：公开权威与规模，不涉及采集手段 —— */}
@@ -362,21 +386,25 @@ function PathCard({
   index,
   accent = 'primary',
   title,
+  badge,
   lede,
   cta,
   onClick,
+  href,
   icon,
 }: {
   index: string;
-  accent?: 'primary' | 'warning' | 'seal';
+  accent?: 'primary' | 'warning' | 'seal' | 'arena';
   title: string;
+  badge?: string;
   lede: string;
   cta: string;
-  onClick: () => void;
+  onClick?: () => void;
+  href?: string;
   icon: string;
 }) {
-  return (
-    <button type="button" className="vh-home-path" data-accent={accent} onClick={onClick}>
+  const body = (
+    <>
       <span className="vh-home-path-rule" aria-hidden />
       <span className="vh-home-path-head">
         <span className="vh-home-path-icon" aria-hidden>
@@ -386,12 +414,35 @@ function PathCard({
           {index}
         </span>
       </span>
-      <span className="vh-home-path-title">{title}</span>
+      <span className="vh-home-path-title-row">
+        <span className="vh-home-path-title">{title}</span>
+        {badge ? <span className="vh-home-path-badge">{badge}</span> : null}
+      </span>
       <span className="vh-home-path-lede">{lede}</span>
       <span className="vh-home-path-cta">
         {cta}
         <Icon name="ArrowRight" size={14} />
       </span>
+    </>
+  );
+
+  if (href) {
+    return (
+      <a
+        className="vh-home-path"
+        data-accent={accent}
+        href={href}
+        target="_blank"
+        rel="noreferrer"
+      >
+        {body}
+      </a>
+    );
+  }
+
+  return (
+    <button type="button" className="vh-home-path" data-accent={accent} onClick={onClick}>
+      {body}
     </button>
   );
 }
