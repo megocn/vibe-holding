@@ -21,11 +21,19 @@
     "默认风格偏后台",
     "包体积偏大"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-07-31",
+      "type": "release",
+      "summary": "发布 6.5.3: 新版本",
+      "version": "6.5.3",
+      "source": "https://github.com/ant-design/ant-design/releases/tag/6.5.3"
+    }
+  ],
   "sources": [
     "https://ant.design"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-02",
   "region": "overseas",
   "id": "antd",
   "name": "Ant Design",

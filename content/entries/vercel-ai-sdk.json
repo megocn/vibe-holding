@@ -19,6 +19,13 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-08-01",
+      "type": "release",
+      "summary": "发布 1.0.54: @ai-sdk/workflow-harness@1.0.54",
+      "version": "1.0.54",
+      "source": "https://github.com/vercel/ai/releases/tag/%40ai-sdk%2Fworkflow-harness%401.0.54"
+    },
+    {
       "date": "2026-07-26",
       "type": "release",
       "summary": "发布 5.0.31: @ai-sdk/google-vertex@5.0.31",
@@ -30,7 +37,7 @@
   "sources": [
     "https://sdk.vercel.ai"
   ],
-  "lastReviewed": "2026-07-26",
+  "lastReviewed": "2026-08-02",
   "region": "overseas",
   "id": "vercel-ai-sdk",
   "name": "Vercel AI SDK",

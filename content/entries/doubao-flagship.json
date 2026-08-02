@@ -33,23 +33,23 @@
     },
     {
       "systemId": "lmarena-image",
-      "rank": 11,
-      "score": 1231,
-      "scoreLabel": "1231 Elo",
-      "period": "2026-07",
+      "rank": 6,
+      "score": 1257,
+      "scoreLabel": "1257 Elo",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 seedream-5.0-pro",
-      "asOf": "2026-07-26"
+      "asOf": "2026-08-02"
     },
     {
       "systemId": "lmarena-image-edit",
-      "rank": 4,
-      "score": 1393,
-      "scoreLabel": "1393 Elo",
-      "period": "2026-07",
+      "rank": 8,
+      "score": 1385,
+      "scoreLabel": "1385 Elo",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 seedream-5.0-pro",
-      "asOf": "2026-07-26"
+      "asOf": "2026-08-02"
     }
   ],
   "sources": [

@@ -110,22 +110,22 @@
     },
     {
       "systemId": "lmarena-image-edit",
-      "rank": 7,
-      "score": 1388,
-      "scoreLabel": "1388 Elo",
-      "period": "2026-07",
+      "rank": 5,
+      "score": 1389,
+      "scoreLabel": "1389 Elo",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 gemini-3-pro-image-2k (nano-banana-pro)",
-      "asOf": "2026-07-26"
+      "asOf": "2026-08-02"
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 40,
-      "scoreLabel": "0.4%",
-      "share": 0.4,
-      "period": "2026-07",
+      "rank": 42,
+      "scoreLabel": "0.3%",
+      "share": 0.3,
+      "period": "2026-08",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-07-26"
+      "asOf": "2026-08-02"
     }
   ],
   "subcategory": "line",

@@ -1279,11 +1279,19 @@
         "默认风格偏后台",
         "包体积偏大"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-07-31",
+          "type": "release",
+          "summary": "发布 6.5.3: 新版本",
+          "version": "6.5.3",
+          "source": "https://github.com/ant-design/ant-design/releases/tag/6.5.3"
+        }
+      ],
       "sources": [
         "https://ant.design"
       ],
-      "lastReviewed": "2026-07-23",
+      "lastReviewed": "2026-08-02",
       "region": "overseas",
       "id": "antd",
       "name": "Ant Design",
@@ -4633,12 +4641,12 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "period": "2026-07",
-          "note": "Claude Opus 4.8 · OpenRouter 周用量前列（迁移中）",
+          "rank": 15,
+          "scoreLabel": "1.8%",
+          "share": 1.8,
+          "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-07-24",
-          "rank": 8,
-          "tier": "High usage"
+          "asOf": "2026-08-02"
         },
         {
           "systemId": "swe-bench-pro",
@@ -6891,13 +6899,13 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 35,
-          "score": 1464,
-          "scoreLabel": "1464 Elo",
-          "period": "2026-07",
+          "rank": 7,
+          "score": 1577,
+          "scoreLabel": "1577 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-          "note": "模型 deepseek-v4-pro-thinking",
-          "asOf": "2026-07-31"
+          "note": "模型 deepseek-v4-flash-high",
+          "asOf": "2026-08-02"
         }
       ],
       "subcategory": "line",
@@ -7429,23 +7437,23 @@
         },
         {
           "systemId": "lmarena-image",
-          "rank": 11,
-          "score": 1231,
-          "scoreLabel": "1231 Elo",
-          "period": "2026-07",
+          "rank": 6,
+          "score": 1257,
+          "scoreLabel": "1257 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
           "note": "模型 seedream-5.0-pro",
-          "asOf": "2026-07-26"
+          "asOf": "2026-08-02"
         },
         {
           "systemId": "lmarena-image-edit",
-          "rank": 4,
-          "score": 1393,
-          "scoreLabel": "1393 Elo",
-          "period": "2026-07",
+          "rank": 8,
+          "score": 1385,
+          "scoreLabel": "1385 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/image-edit",
           "note": "模型 seedream-5.0-pro",
-          "asOf": "2026-07-26"
+          "asOf": "2026-08-02"
         }
       ],
       "sources": [
@@ -9676,12 +9684,20 @@
       "pitfalls": [
         "需自备 GPU/运维；实时全双工对话体验仍可能不如云端 S2S。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-07-31",
+          "type": "release",
+          "summary": "发布 1.4.0: FunASR v1.4.0",
+          "version": "1.4.0",
+          "source": "https://github.com/modelscope/FunASR/releases/tag/v1.4.0"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://github.com/modelscope/FunASR"
       ],
-      "lastReviewed": "2026-07-24",
+      "lastReviewed": "2026-08-02",
       "region": "domestic",
       "id": "funasr",
       "name": "FunASR",
@@ -9691,7 +9707,8 @@
       "officialUrl": "https://github.com/modelscope/FunASR",
       "descriptionMd": "FunASR 是面向生产的开源语音识别工具包（ModelScope/达摩院生态），支持标点、时间戳、说话人等，适合私有化转写与中文场景自托管。\n\n数据不能出域、或要自建中文 ASR 服务时优先评估；可与开源 TTS 组成私有管线。\n\n需自备 GPU/运维；实时全双工对话体验仍可能不如云端 S2S。\n",
       "vendorId": "alibaba-cloud",
-      "githubUrl": "https://github.com/modelscope/FunASR"
+      "githubUrl": "https://github.com/modelscope/FunASR",
+      "currentVersion": "1.4.0"
     },
     {
       "pricing": {
@@ -9950,6 +9967,15 @@
           "sourceUrl": "https://arena.ai/leaderboard/image-edit",
           "note": "模型 gemini-3.1-flash-lite-image (nano-banana-2-lite)",
           "asOf": "2026-07-31"
+        },
+        {
+          "systemId": "openrouter-popularity",
+          "rank": 17,
+          "scoreLabel": "1.3%",
+          "share": 1.3,
+          "period": "2026-08",
+          "sourceUrl": "https://openrouter.ai/rankings",
+          "asOf": "2026-08-02"
         }
       ],
       "sources": [
@@ -10351,22 +10377,22 @@
         },
         {
           "systemId": "lmarena-image-edit",
-          "rank": 7,
-          "score": 1388,
-          "scoreLabel": "1388 Elo",
-          "period": "2026-07",
+          "rank": 5,
+          "score": 1389,
+          "scoreLabel": "1389 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/image-edit",
           "note": "模型 gemini-3-pro-image-2k (nano-banana-pro)",
-          "asOf": "2026-07-26"
+          "asOf": "2026-08-02"
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 40,
-          "scoreLabel": "0.4%",
-          "share": 0.4,
-          "period": "2026-07",
+          "rank": 42,
+          "scoreLabel": "0.3%",
+          "share": 0.3,
+          "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-07-26"
+          "asOf": "2026-08-02"
         }
       ],
       "subcategory": "line",
@@ -11995,12 +12021,12 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 19,
-          "scoreLabel": "1.1%",
-          "share": 1.1,
-          "period": "2026-07",
+          "rank": 25,
+          "scoreLabel": "0.8%",
+          "share": 0.8,
+          "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-07-26"
+          "asOf": "2026-08-02"
         }
       ],
       "subcategory": "line",
@@ -12040,12 +12066,12 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 33,
-          "scoreLabel": "0.5%",
-          "share": 0.5,
-          "period": "2026-07",
+          "rank": 11,
+          "scoreLabel": "2.6%",
+          "share": 2.6,
+          "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-07-26"
+          "asOf": "2026-08-02"
         }
       ],
       "sources": [
@@ -12134,6 +12160,15 @@
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 gpt-5.6-terra-xhigh (codex-harness)",
           "asOf": "2026-07-31"
+        },
+        {
+          "systemId": "openrouter-popularity",
+          "rank": 24,
+          "scoreLabel": "0.8%",
+          "share": 0.8,
+          "period": "2026-08",
+          "sourceUrl": "https://openrouter.ai/rankings",
+          "asOf": "2026-08-02"
         }
       ],
       "sources": [
@@ -12313,12 +12348,12 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 21,
-          "scoreLabel": "1%",
-          "share": 1,
-          "period": "2026-07",
+          "rank": 29,
+          "scoreLabel": "0.7%",
+          "share": 0.7,
+          "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-07-26"
+          "asOf": "2026-08-02"
         }
       ],
       "sources": [
@@ -12374,13 +12409,13 @@
         },
         {
           "systemId": "lmarena-image-edit",
-          "period": "2026-07",
-          "note": "grok-imagine-image-quality",
+          "rank": 4,
+          "score": 1390,
+          "scoreLabel": "1390 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/image-edit",
-          "asOf": "2026-07-24",
-          "rank": 6,
-          "score": 1389,
-          "scoreLabel": "1389 Elo"
+          "note": "模型 grok-imagine-image-quality (20260519)",
+          "asOf": "2026-08-02"
         },
         {
           "systemId": "aa-image-arena",
@@ -12401,6 +12436,26 @@
           "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
           "note": "模型 grok-imagine-video-1.5-preview-720p",
           "asOf": "2026-07-26"
+        },
+        {
+          "systemId": "lmarena-t2v",
+          "rank": 10,
+          "score": 1352,
+          "scoreLabel": "1352 Elo",
+          "period": "2026-08",
+          "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
+          "note": "模型 grok-imagine-video-720p",
+          "asOf": "2026-08-02"
+        },
+        {
+          "systemId": "lmarena-video-edit",
+          "rank": 4,
+          "score": 1264,
+          "scoreLabel": "1264 Elo",
+          "period": "2026-08",
+          "sourceUrl": "https://arena.ai/leaderboard/video-edit",
+          "note": "模型 grok-imagine-video",
+          "asOf": "2026-08-02"
         }
       ],
       "sources": [
@@ -13958,6 +14013,16 @@
           "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
           "note": "模型 hunyuan-video-1.5",
           "asOf": "2026-07-26"
+        },
+        {
+          "systemId": "lmarena-t2v",
+          "rank": 32,
+          "score": 1169,
+          "scoreLabel": "1169 Elo",
+          "period": "2026-08",
+          "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
+          "note": "模型 hunyuan-video-1.5",
+          "asOf": "2026-08-02"
         }
       ],
       "sources": [
@@ -15179,13 +15244,13 @@
       "rankings": [
         {
           "systemId": "lmarena-text",
-          "period": "2026-07",
-          "note": "kimi-k3",
+          "rank": 12,
+          "score": 1485,
+          "scoreLabel": "1485 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/text",
-          "asOf": "2026-07-24",
-          "rank": 10,
-          "score": 1486,
-          "scoreLabel": "1486 Elo"
+          "note": "模型 kimi-k3-max",
+          "asOf": "2026-08-02"
         },
         {
           "systemId": "lmarena-agent",
@@ -15219,12 +15284,12 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "period": "2026-07",
-          "note": "K3 上线后 OpenRouter 用量快速爬升",
+          "rank": 9,
+          "scoreLabel": "2.7%",
+          "share": 2.7,
+          "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-07-24",
-          "rank": 11,
-          "tier": "Rising usage"
+          "asOf": "2026-08-02"
         },
         {
           "systemId": "lmarena-vision",
@@ -16594,6 +16659,12 @@
       ],
       "updates": [
         {
+          "date": "2026-08-02",
+          "type": "feature",
+          "summary": "b10229",
+          "source": "https://github.com/ggml-org/llama.cpp/releases/tag/b10229"
+        },
+        {
           "date": "2026-07-26",
           "type": "feature",
           "summary": "b10133",
@@ -16604,7 +16675,7 @@
       "sources": [
         "https://github.com/ggerganov/llama.cpp"
       ],
-      "lastReviewed": "2026-07-26",
+      "lastReviewed": "2026-08-02",
       "region": "overseas",
       "id": "llama-cpp",
       "name": "llama.cpp",
@@ -17518,11 +17589,19 @@
       "pitfalls": [
         "定制深度不如自研设计系统"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-02",
+          "type": "release",
+          "summary": "发布 9.5.1: 新版本",
+          "version": "9.5.1",
+          "source": "https://github.com/mantinedev/mantine/releases/tag/9.5.1"
+        }
+      ],
       "sources": [
         "https://mantine.dev"
       ],
-      "lastReviewed": "2026-07-23",
+      "lastReviewed": "2026-08-02",
       "region": "overseas",
       "id": "mantine",
       "name": "Mantine",
@@ -18568,13 +18647,13 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 27,
-          "score": 1494,
-          "scoreLabel": "1494 Elo",
-          "period": "2026-07",
+          "rank": 29,
+          "score": 1491,
+          "scoreLabel": "1491 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 minimax-m3",
-          "asOf": "2026-07-31"
+          "asOf": "2026-08-02"
         }
       ],
       "sources": [
@@ -20785,13 +20864,13 @@
       "rankings": [
         {
           "systemId": "lmarena-t2v",
-          "period": "2026-07",
-          "note": "sora-2-pro",
+          "rank": 39,
+          "score": 1068,
+          "scoreLabel": "1068 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
-          "asOf": "2026-07-24",
-          "rank": 5,
-          "score": 1366,
-          "scoreLabel": "1366 Elo"
+          "note": "模型 sora",
+          "asOf": "2026-08-02"
         }
       ],
       "sources": [
@@ -22130,12 +22209,20 @@
       "pitfalls": [
         "自托管需运维与可观测；只要「一键电话 Agent」可先看 Vapi/Retell/Bland。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-01",
+          "type": "release",
+          "summary": "发布 1.7.0: 新版本",
+          "version": "1.7.0",
+          "source": "https://github.com/pipecat-ai/pipecat/releases/tag/v1.7.0"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://github.com/pipecat-ai/pipecat"
       ],
-      "lastReviewed": "2026-07-24",
+      "lastReviewed": "2026-08-02",
       "region": "overseas",
       "id": "pipecat",
       "name": "Pipecat",
@@ -22145,7 +22232,8 @@
       "officialUrl": "https://github.com/pipecat-ai/pipecat",
       "descriptionMd": "Pipecat 是面向实时语音与多模态 Agent 的开源 Python 编排框架，用帧管道组合 STT/LLM/TTS 或原生 Realtime 模型，可由 Daily 提供 Pipecat Cloud；与 LiveKit Agents 同属「自建编排」选型层。\n\n要自选模型组合、多 Agent 交接、或把 OpenAI/Gemini/Cartesia 等拼成生产管线时优先；电话可用 SIP/PSTN 扩展。\n\n自托管需运维与可观测；只要「一键电话 Agent」可先看 Vapi/Retell/Bland。\n",
       "vendorId": "daily-co",
-      "githubUrl": "https://github.com/pipecat-ai/pipecat"
+      "githubUrl": "https://github.com/pipecat-ai/pipecat",
+      "currentVersion": "1.7.0"
     },
     {
       "pricing": {
@@ -23393,13 +23481,13 @@
         },
         {
           "systemId": "lmarena-image-edit",
-          "rank": 16,
-          "score": 1315,
-          "scoreLabel": "1315 Elo",
-          "period": "2026-07",
+          "rank": 18,
+          "score": 1303,
+          "scoreLabel": "1303 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/image-edit",
           "note": "模型 qwen-image-2.0-pro-2026-06-22",
-          "asOf": "2026-07-26"
+          "asOf": "2026-08-02"
         },
         {
           "systemId": "openrouter-popularity",
@@ -23743,12 +23831,20 @@
       "pitfalls": [
         "超大 monolith 性能需拆分；JavaScript 前端现代栈需配合 Hotwire/Stimulus。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-09",
+          "type": "deprecation",
+          "summary": "rails 7.2 将于 2026-08-09 结束安全支持",
+          "version": "7.2",
+          "source": "https://endoflife.date/rails"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://rubyonrails.org"
       ],
-      "lastReviewed": "2026-07-23",
+      "lastReviewed": "2026-08-02",
       "region": "overseas",
       "id": "rails",
       "name": "Ruby on Rails",
@@ -26877,12 +26973,12 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "period": "2026-07",
-          "note": "Step 3.7 Flash · OpenRouter 高用量",
+          "rank": 8,
+          "scoreLabel": "3.2%",
+          "share": 3.2,
+          "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-07-24",
-          "rank": 6,
-          "tier": "High usage"
+          "asOf": "2026-08-02"
         }
       ],
       "sources": [
@@ -28714,6 +28810,16 @@
           "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
           "note": "模型 wan-v2.2-a14b",
           "asOf": "2026-07-26"
+        },
+        {
+          "systemId": "lmarena-t2v",
+          "rank": 36,
+          "score": 1131,
+          "scoreLabel": "1131 Elo",
+          "period": "2026-08",
+          "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
+          "note": "模型 wan-v2.2-a14b",
+          "asOf": "2026-08-02"
         }
       ],
       "sources": [
@@ -29809,6 +29915,13 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-08-01",
+          "type": "release",
+          "summary": "发布 1.0.54: @ai-sdk/workflow-harness@1.0.54",
+          "version": "1.0.54",
+          "source": "https://github.com/vercel/ai/releases/tag/%40ai-sdk%2Fworkflow-harness%401.0.54"
+        },
+        {
           "date": "2026-07-26",
           "type": "release",
           "summary": "发布 5.0.31: @ai-sdk/google-vertex@5.0.31",
@@ -29820,7 +29933,7 @@
       "sources": [
         "https://sdk.vercel.ai"
       ],
-      "lastReviewed": "2026-07-26",
+      "lastReviewed": "2026-08-02",
       "region": "overseas",
       "id": "vercel-ai-sdk",
       "name": "Vercel AI SDK",
@@ -30735,6 +30848,16 @@
           "note": "模型 ernie-5.1（Preliminary）",
           "asOf": "2026-07-21",
           "period": "2026-07"
+        },
+        {
+          "systemId": "lmarena-search",
+          "rank": 5,
+          "score": 1226,
+          "scoreLabel": "1226 Elo",
+          "period": "2026-08",
+          "sourceUrl": "https://arena.ai/leaderboard/search",
+          "note": "模型 ernie-5.1",
+          "asOf": "2026-08-02"
         }
       ],
       "sources": [

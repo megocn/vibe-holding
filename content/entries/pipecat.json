@@ -20,12 +20,20 @@
   "pitfalls": [
     "自托管需运维与可观测；只要「一键电话 Agent」可先看 Vapi/Retell/Bland。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-01",
+      "type": "release",
+      "summary": "发布 1.7.0: 新版本",
+      "version": "1.7.0",
+      "source": "https://github.com/pipecat-ai/pipecat/releases/tag/v1.7.0"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://github.com/pipecat-ai/pipecat"
   ],
-  "lastReviewed": "2026-07-24",
+  "lastReviewed": "2026-08-02",
   "region": "overseas",
   "id": "pipecat",
   "name": "Pipecat",
@@ -35,5 +43,6 @@
   "officialUrl": "https://github.com/pipecat-ai/pipecat",
   "descriptionMd": "Pipecat 是面向实时语音与多模态 Agent 的开源 Python 编排框架，用帧管道组合 STT/LLM/TTS 或原生 Realtime 模型，可由 Daily 提供 Pipecat Cloud；与 LiveKit Agents 同属「自建编排」选型层。\n\n要自选模型组合、多 Agent 交接、或把 OpenAI/Gemini/Cartesia 等拼成生产管线时优先；电话可用 SIP/PSTN 扩展。\n\n自托管需运维与可观测；只要「一键电话 Agent」可先看 Vapi/Retell/Bland。\n",
   "vendorId": "daily-co",
-  "githubUrl": "https://github.com/pipecat-ai/pipecat"
+  "githubUrl": "https://github.com/pipecat-ai/pipecat",
+  "currentVersion": "1.7.0"
 }

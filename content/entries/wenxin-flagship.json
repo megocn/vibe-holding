@@ -30,6 +30,16 @@
       "note": "模型 ernie-5.1（Preliminary）",
       "asOf": "2026-07-21",
       "period": "2026-07"
+    },
+    {
+      "systemId": "lmarena-search",
+      "rank": 5,
+      "score": 1226,
+      "scoreLabel": "1226 Elo",
+      "period": "2026-08",
+      "sourceUrl": "https://arena.ai/leaderboard/search",
+      "note": "模型 ernie-5.1",
+      "asOf": "2026-08-02"
     }
   ],
   "sources": [

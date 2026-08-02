@@ -51,13 +51,13 @@
   "rankings": [
     {
       "systemId": "lmarena-text",
-      "period": "2026-07",
-      "note": "kimi-k3",
+      "rank": 12,
+      "score": 1485,
+      "scoreLabel": "1485 Elo",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "asOf": "2026-07-24",
-      "rank": 10,
-      "score": 1486,
-      "scoreLabel": "1486 Elo"
+      "note": "模型 kimi-k3-max",
+      "asOf": "2026-08-02"
     },
     {
       "systemId": "lmarena-agent",
@@ -91,12 +91,12 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "period": "2026-07",
-      "note": "K3 上线后 OpenRouter 用量快速爬升",
+      "rank": 9,
+      "scoreLabel": "2.7%",
+      "share": 2.7,
+      "period": "2026-08",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-07-24",
-      "rank": 11,
-      "tier": "Rising usage"
+      "asOf": "2026-08-02"
     },
     {
       "systemId": "lmarena-vision",

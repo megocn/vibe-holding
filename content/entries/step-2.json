@@ -31,12 +31,12 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "period": "2026-07",
-      "note": "Step 3.7 Flash · OpenRouter 高用量",
+      "rank": 8,
+      "scoreLabel": "3.2%",
+      "share": 3.2,
+      "period": "2026-08",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-07-24",
-      "rank": 6,
-      "tier": "High usage"
+      "asOf": "2026-08-02"
     }
   ],
   "sources": [

@@ -34,13 +34,13 @@
     },
     {
       "systemId": "lmarena-image-edit",
-      "period": "2026-07",
-      "note": "grok-imagine-image-quality",
+      "rank": 4,
+      "score": 1390,
+      "scoreLabel": "1390 Elo",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
-      "asOf": "2026-07-24",
-      "rank": 6,
-      "score": 1389,
-      "scoreLabel": "1389 Elo"
+      "note": "模型 grok-imagine-image-quality (20260519)",
+      "asOf": "2026-08-02"
     },
     {
       "systemId": "aa-image-arena",
@@ -61,6 +61,26 @@
       "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
       "note": "模型 grok-imagine-video-1.5-preview-720p",
       "asOf": "2026-07-26"
+    },
+    {
+      "systemId": "lmarena-t2v",
+      "rank": 10,
+      "score": 1352,
+      "scoreLabel": "1352 Elo",
+      "period": "2026-08",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
+      "note": "模型 grok-imagine-video-720p",
+      "asOf": "2026-08-02"
+    },
+    {
+      "systemId": "lmarena-video-edit",
+      "rank": 4,
+      "score": 1264,
+      "scoreLabel": "1264 Elo",
+      "period": "2026-08",
+      "sourceUrl": "https://arena.ai/leaderboard/video-edit",
+      "note": "模型 grok-imagine-video",
+      "asOf": "2026-08-02"
     }
   ],
   "sources": [

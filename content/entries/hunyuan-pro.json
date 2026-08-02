@@ -58,6 +58,16 @@
       "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
       "note": "模型 hunyuan-video-1.5",
       "asOf": "2026-07-26"
+    },
+    {
+      "systemId": "lmarena-t2v",
+      "rank": 32,
+      "score": 1169,
+      "scoreLabel": "1169 Elo",
+      "period": "2026-08",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
+      "note": "模型 hunyuan-video-1.5",
+      "asOf": "2026-08-02"
     }
   ],
   "sources": [

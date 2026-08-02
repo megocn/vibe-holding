@@ -59,6 +59,16 @@
       "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
       "note": "模型 wan-v2.2-a14b",
       "asOf": "2026-07-26"
+    },
+    {
+      "systemId": "lmarena-t2v",
+      "rank": 36,
+      "score": 1131,
+      "scoreLabel": "1131 Elo",
+      "period": "2026-08",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
+      "note": "模型 wan-v2.2-a14b",
+      "asOf": "2026-08-02"
     }
   ],
   "sources": [

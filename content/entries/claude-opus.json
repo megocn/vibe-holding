@@ -143,12 +143,12 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "period": "2026-07",
-      "note": "Claude Opus 4.8 · OpenRouter 周用量前列（迁移中）",
+      "rank": 15,
+      "scoreLabel": "1.8%",
+      "share": 1.8,
+      "period": "2026-08",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-07-24",
-      "rank": 8,
-      "tier": "High usage"
+      "asOf": "2026-08-02"
     },
     {
       "systemId": "swe-bench-pro",

@@ -19,11 +19,19 @@
   "pitfalls": [
     "定制深度不如自研设计系统"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-02",
+      "type": "release",
+      "summary": "发布 9.5.1: 新版本",
+      "version": "9.5.1",
+      "source": "https://github.com/mantinedev/mantine/releases/tag/9.5.1"
+    }
+  ],
   "sources": [
     "https://mantine.dev"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-02",
   "region": "overseas",
   "id": "mantine",
   "name": "Mantine",
