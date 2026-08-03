@@ -4701,13 +4701,13 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 12,
-          "score": 1544,
-          "scoreLabel": "1544 Elo",
-          "period": "2026-07",
+          "rank": 14,
+          "score": 1542,
+          "scoreLabel": "1542 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 claude-sonnet-5-high",
-          "asOf": "2026-07-29"
+          "asOf": "2026-08-03"
         },
         {
           "systemId": "lmarena-document",
@@ -7427,13 +7427,13 @@
       "rankings": [
         {
           "systemId": "lmarena-webdev",
-          "rank": 17,
+          "rank": 19,
           "score": 1527,
           "scoreLabel": "1527 Elo",
-          "period": "2026-07",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 seed-2.1-pro-preview",
-          "asOf": "2026-07-29"
+          "asOf": "2026-08-03"
         },
         {
           "systemId": "lmarena-image",
@@ -9970,12 +9970,12 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 17,
+          "rank": 18,
           "scoreLabel": "1.3%",
           "share": 1.3,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-02"
+          "asOf": "2026-08-03"
         }
       ],
       "sources": [
@@ -10047,13 +10047,13 @@
         },
         {
           "systemId": "lmarena-vision",
-          "rank": 3,
-          "score": 1301,
-          "scoreLabel": "1301 Elo",
-          "period": "2026-07",
+          "rank": 9,
+          "score": 1290,
+          "scoreLabel": "1290 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
           "note": "模型 gemini-3.6-flash",
-          "asOf": "2026-07-29"
+          "asOf": "2026-08-03"
         },
         {
           "systemId": "lmarena-search",
@@ -10106,13 +10106,13 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 16,
-          "score": 1528,
-          "scoreLabel": "1528 Elo",
-          "period": "2026-07",
+          "rank": 18,
+          "score": 1533,
+          "scoreLabel": "1533 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 gemini-3.6-flash",
-          "asOf": "2026-07-29"
+          "asOf": "2026-08-03"
         }
       ],
       "sources": [
@@ -11944,13 +11944,13 @@
       "rankings": [
         {
           "systemId": "lmarena-text",
-          "rank": 13,
-          "score": 1485,
-          "scoreLabel": "1485 Elo",
-          "period": "2026-07",
+          "rank": 15,
+          "score": 1483,
+          "scoreLabel": "1483 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/text",
           "note": "模型 gpt-5.6-sol-xhigh",
-          "asOf": "2026-07-29"
+          "asOf": "2026-08-03"
         },
         {
           "systemId": "lmarena-agent",
@@ -11972,13 +11972,13 @@
         },
         {
           "systemId": "lmarena-vision",
-          "period": "2026-07",
-          "note": "gpt-5.5",
+          "rank": 11,
+          "score": 1287,
+          "scoreLabel": "1287 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
-          "asOf": "2026-07-24",
-          "rank": 9,
-          "score": 1286,
-          "scoreLabel": "1286 Elo"
+          "note": "模型 gpt-5.5",
+          "asOf": "2026-08-03"
         },
         {
           "systemId": "lmarena-document",
@@ -12066,12 +12066,12 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 11,
-          "scoreLabel": "2.6%",
-          "share": 2.6,
+          "rank": 8,
+          "scoreLabel": "3.7%",
+          "share": 3.7,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-02"
+          "asOf": "2026-08-03"
         }
       ],
       "sources": [
@@ -12164,11 +12164,11 @@
         {
           "systemId": "openrouter-popularity",
           "rank": 24,
-          "scoreLabel": "0.8%",
-          "share": 0.8,
+          "scoreLabel": "0.9%",
+          "share": 0.9,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-02"
+          "asOf": "2026-08-03"
         }
       ],
       "sources": [
@@ -12288,13 +12288,13 @@
       "rankings": [
         {
           "systemId": "lmarena-webdev",
-          "rank": 10,
-          "score": 1550,
-          "scoreLabel": "1550 Elo",
-          "period": "2026-07",
+          "rank": 12,
+          "score": 1549,
+          "scoreLabel": "1549 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 grok-4.5",
-          "asOf": "2026-07-29"
+          "asOf": "2026-08-03"
         },
         {
           "systemId": "artificial-analysis-index",
@@ -12348,12 +12348,12 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 29,
+          "rank": 31,
           "scoreLabel": "0.7%",
           "share": 0.7,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-02"
+          "asOf": "2026-08-03"
         }
       ],
       "sources": [
@@ -13497,12 +13497,20 @@
       "pitfalls": [
         "不签名托管；cask 更新需跟进 upstream version，CI bump 可用 brew bump。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-03",
+          "type": "release",
+          "summary": "发布 6.0.15: 新版本",
+          "version": "6.0.15",
+          "source": "https://github.com/Homebrew/brew/releases/tag/6.0.15"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://brew.sh"
       ],
-      "lastReviewed": "2026-07-23",
+      "lastReviewed": "2026-08-03",
       "region": "overseas",
       "id": "homebrew",
       "name": "Homebrew",
@@ -18162,13 +18170,13 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 15,
+          "rank": 17,
           "score": 1536,
           "scoreLabel": "1536 Elo",
-          "period": "2026-07",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 muse-spark-1.1",
-          "asOf": "2026-07-29"
+          "asOf": "2026-08-03"
         }
       ],
       "sources": [
@@ -21920,6 +21928,13 @@
       ],
       "updates": [
         {
+          "date": "2026-07-30",
+          "type": "release",
+          "summary": "维护线 8.5 最新 8.5.9",
+          "version": "8.5.9",
+          "source": "https://www.php.net/ChangeLog-8.php#8.5.9"
+        },
+        {
           "date": "2026-07-02",
           "type": "release",
           "summary": "维护线 8.5 最新 8.5.8",
@@ -21931,7 +21946,7 @@
       "sources": [
         "https://www.php.net"
       ],
-      "lastReviewed": "2026-07-25",
+      "lastReviewed": "2026-08-03",
       "region": "overseas",
       "id": "php",
       "name": "PHP",
@@ -21940,7 +21955,8 @@
       "oneLiner": "Web 服务端普及 · WordPress/Laravel · CMS 与快速站",
       "officialUrl": "https://www.php.net",
       "descriptionMd": "PHP 是 Web 时代最普及的服务端语言之一，WordPress/Laravel 生态庞大，适合 CMS 与快速 Web 开发。\n\nWordPress//magento 维护、共享主机部署、或 Laravel 现代 PHP 全栈项目。\n\n类型系统与性能弱于现代编译型语言；高并发需配合 Octane/Swoole 等。\n",
-      "vendorId": "php-foundation"
+      "vendorId": "php-foundation",
+      "currentVersion": "8.5"
     },
     {
       "pricing": {
@@ -23441,13 +23457,13 @@
       "rankings": [
         {
           "systemId": "lmarena-text",
-          "rank": 19,
-          "score": 1475,
-          "scoreLabel": "1475 Elo",
-          "period": "2026-07",
+          "rank": 5,
+          "score": 1496,
+          "scoreLabel": "1496 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/text",
-          "note": "模型 qwen3.7-max-preview",
-          "asOf": "2026-07-25"
+          "note": "模型 qwen3.8-max",
+          "asOf": "2026-08-03"
         },
         {
           "systemId": "artificial-analysis-index",
@@ -23461,13 +23477,13 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 23,
-          "score": 1517,
-          "scoreLabel": "1517 Elo",
-          "period": "2026-07",
+          "rank": 4,
+          "score": 1668,
+          "scoreLabel": "1668 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-          "note": "模型 qwen3.7-max-20260517",
-          "asOf": "2026-07-31"
+          "note": "模型 qwen3.8-max",
+          "asOf": "2026-08-03"
         },
         {
           "systemId": "lmarena-image",
@@ -23481,13 +23497,13 @@
         },
         {
           "systemId": "lmarena-image-edit",
-          "rank": 18,
-          "score": 1303,
-          "scoreLabel": "1303 Elo",
-          "period": "2026-08",
+          "rank": 16,
+          "score": 1315,
+          "scoreLabel": "1315 Elo",
+          "period": "2026-07",
           "sourceUrl": "https://arena.ai/leaderboard/image-edit",
           "note": "模型 qwen-image-2.0-pro-2026-06-22",
-          "asOf": "2026-08-02"
+          "asOf": "2026-07-26"
         },
         {
           "systemId": "openrouter-popularity",
@@ -23497,6 +23513,16 @@
           "period": "2026-07",
           "sourceUrl": "https://openrouter.ai/rankings",
           "asOf": "2026-07-26"
+        },
+        {
+          "systemId": "lmarena-vision",
+          "rank": 2,
+          "score": 1305,
+          "scoreLabel": "1305 Elo",
+          "period": "2026-08",
+          "sourceUrl": "https://arena.ai/leaderboard/vision",
+          "note": "模型 qwen3.8-max",
+          "asOf": "2026-08-03"
         }
       ],
       "sources": [
@@ -29970,6 +29996,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-02",
+          "type": "release",
+          "summary": "发布 3.8: Qwen 3.8 Max now available on Vercel AI Gateway",
+          "version": "3.8",
+          "source": "https://vercel.com/changelog/qwen-3-8-max-now-available-on-vercel-ai-gateway"
+        },
+        {
           "date": "2026-07-24",
           "type": "feature",
           "summary": "Workflow steps now support extended function durations",
@@ -29985,7 +30018,7 @@
       "sources": [
         "https://vercel.com"
       ],
-      "lastReviewed": "2026-07-25",
+      "lastReviewed": "2026-08-03",
       "region": "overseas",
       "id": "vercel",
       "name": "Vercel",
@@ -30009,7 +30042,8 @@
           "note": "独立开发者部署心智份额高",
           "asOf": "2026-07-20"
         }
-      ]
+      ],
+      "currentVersion": "3.8"
     },
     {
       "pricing": {

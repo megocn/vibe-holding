@@ -18,12 +18,20 @@
   "pitfalls": [
     "不签名托管；cask 更新需跟进 upstream version，CI bump 可用 brew bump。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-03",
+      "type": "release",
+      "summary": "发布 6.0.15: 新版本",
+      "version": "6.0.15",
+      "source": "https://github.com/Homebrew/brew/releases/tag/6.0.15"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://brew.sh"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-03",
   "region": "overseas",
   "id": "homebrew",
   "name": "Homebrew",

@@ -17,6 +17,13 @@
   ],
   "updates": [
     {
+      "date": "2026-07-30",
+      "type": "release",
+      "summary": "维护线 8.5 最新 8.5.9",
+      "version": "8.5.9",
+      "source": "https://www.php.net/ChangeLog-8.php#8.5.9"
+    },
+    {
       "date": "2026-07-02",
       "type": "release",
       "summary": "维护线 8.5 最新 8.5.8",
@@ -28,7 +35,7 @@
   "sources": [
     "https://www.php.net"
   ],
-  "lastReviewed": "2026-07-25",
+  "lastReviewed": "2026-08-03",
   "region": "overseas",
   "id": "php",
   "name": "PHP",
@@ -37,5 +44,6 @@
   "oneLiner": "Web 服务端普及 · WordPress/Laravel · CMS 与快速站",
   "officialUrl": "https://www.php.net",
   "descriptionMd": "PHP 是 Web 时代最普及的服务端语言之一，WordPress/Laravel 生态庞大，适合 CMS 与快速 Web 开发。\n\nWordPress//magento 维护、共享主机部署、或 Laravel 现代 PHP 全栈项目。\n\n类型系统与性能弱于现代编译型语言；高并发需配合 Octane/Swoole 等。\n",
-  "vendorId": "php-foundation"
+  "vendorId": "php-foundation",
+  "currentVersion": "8.5"
 }

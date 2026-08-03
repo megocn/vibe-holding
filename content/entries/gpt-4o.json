@@ -52,13 +52,13 @@
   "rankings": [
     {
       "systemId": "lmarena-text",
-      "rank": 13,
-      "score": 1485,
-      "scoreLabel": "1485 Elo",
-      "period": "2026-07",
+      "rank": 15,
+      "score": 1483,
+      "scoreLabel": "1483 Elo",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 gpt-5.6-sol-xhigh",
-      "asOf": "2026-07-29"
+      "asOf": "2026-08-03"
     },
     {
       "systemId": "lmarena-agent",
@@ -80,13 +80,13 @@
     },
     {
       "systemId": "lmarena-vision",
-      "period": "2026-07",
-      "note": "gpt-5.5",
+      "rank": 11,
+      "score": 1287,
+      "scoreLabel": "1287 Elo",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
-      "asOf": "2026-07-24",
-      "rank": 9,
-      "score": 1286,
-      "scoreLabel": "1286 Elo"
+      "note": "模型 gpt-5.5",
+      "asOf": "2026-08-03"
     },
     {
       "systemId": "lmarena-document",

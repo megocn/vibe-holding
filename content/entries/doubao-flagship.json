@@ -23,13 +23,13 @@
   "rankings": [
     {
       "systemId": "lmarena-webdev",
-      "rank": 17,
+      "rank": 19,
       "score": 1527,
       "scoreLabel": "1527 Elo",
-      "period": "2026-07",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 seed-2.1-pro-preview",
-      "asOf": "2026-07-29"
+      "asOf": "2026-08-03"
     },
     {
       "systemId": "lmarena-image",

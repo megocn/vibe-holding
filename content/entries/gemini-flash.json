@@ -50,13 +50,13 @@
     },
     {
       "systemId": "lmarena-vision",
-      "rank": 3,
-      "score": 1301,
-      "scoreLabel": "1301 Elo",
-      "period": "2026-07",
+      "rank": 9,
+      "score": 1290,
+      "scoreLabel": "1290 Elo",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 gemini-3.6-flash",
-      "asOf": "2026-07-29"
+      "asOf": "2026-08-03"
     },
     {
       "systemId": "lmarena-search",
@@ -109,13 +109,13 @@
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 16,
-      "score": 1528,
-      "scoreLabel": "1528 Elo",
-      "period": "2026-07",
+      "rank": 18,
+      "score": 1533,
+      "scoreLabel": "1533 Elo",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 gemini-3.6-flash",
-      "asOf": "2026-07-29"
+      "asOf": "2026-08-03"
     }
   ],
   "sources": [

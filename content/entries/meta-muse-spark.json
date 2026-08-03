@@ -82,13 +82,13 @@
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 15,
+      "rank": 17,
       "score": 1536,
       "scoreLabel": "1536 Elo",
-      "period": "2026-07",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 muse-spark-1.1",
-      "asOf": "2026-07-29"
+      "asOf": "2026-08-03"
     }
   ],
   "sources": [

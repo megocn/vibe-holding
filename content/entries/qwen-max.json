@@ -26,13 +26,13 @@
   "rankings": [
     {
       "systemId": "lmarena-text",
-      "rank": 19,
-      "score": 1475,
-      "scoreLabel": "1475 Elo",
-      "period": "2026-07",
+      "rank": 5,
+      "score": 1496,
+      "scoreLabel": "1496 Elo",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "note": "模型 qwen3.7-max-preview",
-      "asOf": "2026-07-25"
+      "note": "模型 qwen3.8-max",
+      "asOf": "2026-08-03"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -46,13 +46,13 @@
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 23,
-      "score": 1517,
-      "scoreLabel": "1517 Elo",
-      "period": "2026-07",
+      "rank": 4,
+      "score": 1668,
+      "scoreLabel": "1668 Elo",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-      "note": "模型 qwen3.7-max-20260517",
-      "asOf": "2026-07-31"
+      "note": "模型 qwen3.8-max",
+      "asOf": "2026-08-03"
     },
     {
       "systemId": "lmarena-image",
@@ -82,6 +82,16 @@
       "period": "2026-07",
       "sourceUrl": "https://openrouter.ai/rankings",
       "asOf": "2026-07-26"
+    },
+    {
+      "systemId": "lmarena-vision",
+      "rank": 2,
+      "score": 1305,
+      "scoreLabel": "1305 Elo",
+      "period": "2026-08",
+      "sourceUrl": "https://arena.ai/leaderboard/vision",
+      "note": "模型 qwen3.8-max",
+      "asOf": "2026-08-03"
     }
   ],
   "sources": [
