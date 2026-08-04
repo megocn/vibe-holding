@@ -15,12 +15,19 @@
   ],
   "maturity": "mature",
   "pitfalls": [],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-04",
+      "type": "feature",
+      "summary": "The Software Supply Chain Is Under Siege. Devs Are Still the First Line of Defense",
+      "source": "https://www.docker.com/blog/software-supply-chain-security-omdia-2026-report/"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://www.docker.com"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-04",
   "region": "overseas",
   "id": "docker",
   "name": "Docker",

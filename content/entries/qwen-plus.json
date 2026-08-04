@@ -44,13 +44,13 @@
     },
     {
       "systemId": "lmarena-vision",
-      "rank": 29,
+      "rank": 31,
       "score": 1262,
       "scoreLabel": "1262 Elo",
-      "period": "2026-07",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 qwen3.7-plus",
-      "asOf": "2026-07-31"
+      "asOf": "2026-08-04"
     },
     {
       "systemId": "lmarena-document",

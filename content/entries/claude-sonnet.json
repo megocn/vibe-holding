@@ -31,11 +31,11 @@
   "rankings": [
     {
       "systemId": "lmarena-agent",
-      "rank": 7,
-      "period": "2026-07",
+      "rank": 10,
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/agent",
       "note": "模型 Claude Sonnet 5 (High)",
-      "asOf": "2026-07-29"
+      "asOf": "2026-08-04"
     },
     {
       "systemId": "lmarena-webdev",
@@ -69,13 +69,13 @@
     },
     {
       "systemId": "lmarena-vision",
-      "rank": 24,
+      "rank": 26,
       "score": 1275,
       "scoreLabel": "1275 Elo",
-      "period": "2026-07",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
-      "note": "模型 claude-sonnet-4-6",
-      "asOf": "2026-07-31"
+      "note": "模型 claude-sonnet-5-high",
+      "asOf": "2026-08-04"
     },
     {
       "systemId": "lmarena-search",
@@ -89,12 +89,12 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 12,
-      "scoreLabel": "2%",
-      "share": 2,
-      "period": "2026-07",
+      "rank": 15,
+      "scoreLabel": "1.9%",
+      "share": 1.9,
+      "period": "2026-08",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-07-26"
+      "asOf": "2026-08-04"
     }
   ],
   "sources": [

@@ -18,12 +18,20 @@
   "pitfalls": [
     "首次配置 release workflow 需与 npm token/GitHub Actions 权限对齐；ignore 列表要维护。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-03",
+      "type": "release",
+      "summary": "发布 1.0.0-next.9: @changesets/write@1.0.0-next.9",
+      "version": "1.0.0-next.9",
+      "source": "https://github.com/changesets/changesets/releases/tag/%40changesets%2Fwrite%401.0.0-next.9"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://github.com/changesets/changesets"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-04",
   "region": "overseas",
   "id": "changesets",
   "name": "Changesets",
@@ -31,5 +39,6 @@
   "subcategory": "release",
   "oneLiner": "变更说明文件驱动 · CI 聚合版本/CHANGELOG · pnpm/Turbo 常见",
   "officialUrl": "https://github.com/changesets/changesets",
-  "descriptionMd": "Changesets 让贡献者提交变更说明文件，CI 聚合生成版本号与 CHANGELOG，是 pnpm/Turborepo 生态常见发布方案。\n\n开源或多包 npm 库需要规范 semver 与自动生成 changelog 时采用；比 manual bump 更可审计。\n\n首次配置 release workflow 需与 npm token/GitHub Actions 权限对齐；ignore 列表要维护。\n"
+  "descriptionMd": "Changesets 让贡献者提交变更说明文件，CI 聚合生成版本号与 CHANGELOG，是 pnpm/Turborepo 生态常见发布方案。\n\n开源或多包 npm 库需要规范 semver 与自动生成 changelog 时采用；比 manual bump 更可审计。\n\n首次配置 release workflow 需与 npm token/GitHub Actions 权限对齐；ignore 列表要维护。\n",
+  "currentVersion": "1.0.0-next.9"
 }

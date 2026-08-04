@@ -53,13 +53,13 @@
     },
     {
       "systemId": "lmarena-i2v",
-      "period": "2026-07",
-      "note": "gemini-omni-flash",
+      "rank": 4,
+      "score": 1462,
+      "scoreLabel": "1462 Elo",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
-      "asOf": "2026-07-24",
-      "rank": 2,
-      "score": 1469,
-      "scoreLabel": "1469 Elo"
+      "note": "模型 gemini-omni-flash",
+      "asOf": "2026-08-04"
     },
     {
       "systemId": "lmarena-video-edit",

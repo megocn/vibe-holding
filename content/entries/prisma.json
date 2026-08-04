@@ -18,12 +18,20 @@
   "pitfalls": [
     "复杂 SQL/窗口函数需回退 raw query；Serverless 连接池要配 Prisma Accelerate 或 PgBouncer。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "summary": "发布 0.17.0: 新版本",
+      "version": "0.17.0",
+      "source": "https://github.com/prisma/prisma/releases/tag/v0.17.0"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://www.prisma.io"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-04",
   "region": "overseas",
   "id": "prisma",
   "name": "Prisma",
@@ -31,5 +39,6 @@
   "subcategory": "orm",
   "oneLiner": "schema-first · 生成 Client+Migrate+Studio",
   "officialUrl": "https://www.prisma.io",
-  "descriptionMd": "Prisma 以 schema-first 定义模型，生成类型安全 Client，配套 Migrate 与 Studio，DX 在 TS 全栈中极受欢迎。\n\nNext.js/Nuxt 等 TS 后端需要强类型数据库访问、快速迭代 schema 时常用；与 PostgreSQL 等搭配多。\n\n复杂 SQL/窗口函数需回退 raw query；Serverless 连接池要配 Prisma Accelerate 或 PgBouncer。\n"
+  "descriptionMd": "Prisma 以 schema-first 定义模型，生成类型安全 Client，配套 Migrate 与 Studio，DX 在 TS 全栈中极受欢迎。\n\nNext.js/Nuxt 等 TS 后端需要强类型数据库访问、快速迭代 schema 时常用；与 PostgreSQL 等搭配多。\n\n复杂 SQL/窗口函数需回退 raw query；Serverless 连接池要配 Prisma Accelerate 或 PgBouncer。\n",
+  "currentVersion": "0.17.0"
 }

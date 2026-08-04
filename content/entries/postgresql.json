@@ -21,6 +21,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-04",
+      "type": "release",
+      "summary": "发布 5.0.0: Announcing E-Maj 5.0.0.",
+      "version": "5.0.0",
+      "source": "https://www.postgresql.org/about/news/announcing-e-maj-500-3353/"
+    },
+    {
       "date": "2026-05-11",
       "type": "release",
       "summary": "维护线 18 最新 18.4",
@@ -31,7 +38,7 @@
   "sources": [
     "https://www.postgresql.org"
   ],
-  "lastReviewed": "2026-07-25",
+  "lastReviewed": "2026-08-04",
   "region": "overseas",
   "id": "postgresql",
   "name": "PostgreSQL",
@@ -60,5 +67,5 @@
       "asOf": "2026-07-20"
     }
   ],
-  "currentVersion": "18.4"
+  "currentVersion": "5.0.0"
 }

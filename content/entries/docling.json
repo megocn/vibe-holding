@@ -20,12 +20,20 @@
   "pitfalls": [
     "企业预置发票/证件模型不如 Azure/AWS；极端扫描件需另配 OCR 引擎。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-03",
+      "type": "release",
+      "summary": "发布 2.118.0: 新版本",
+      "version": "2.118.0",
+      "source": "https://github.com/docling-project/docling/releases/tag/v2.118.0"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://github.com/docling-project/docling"
   ],
-  "lastReviewed": "2026-07-24",
+  "lastReviewed": "2026-08-04",
   "region": "overseas",
   "id": "docling",
   "name": "Docling",
@@ -35,5 +43,6 @@
   "officialUrl": "https://github.com/docling-project/docling",
   "descriptionMd": "Docling 是面向开发者的开源文档转换/理解工具，把 PDF 等转为结构化表示，便于 LLM 与 RAG 消费，社区增长快。\n\n需要本地可控的文档解析、与 Python AI 栈集成时评估；可与云 Document AI 做成本对照。\n\n企业预置发票/证件模型不如 Azure/AWS；极端扫描件需另配 OCR 引擎。\n",
   "vendorId": "ibm",
-  "githubUrl": "https://github.com/docling-project/docling"
+  "githubUrl": "https://github.com/docling-project/docling",
+  "currentVersion": "2.118.0"
 }

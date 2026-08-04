@@ -50,6 +50,16 @@
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 seedream-5.0-pro",
       "asOf": "2026-08-02"
+    },
+    {
+      "systemId": "lmarena-vision",
+      "rank": 33,
+      "score": 1258,
+      "scoreLabel": "1258 Elo",
+      "period": "2026-08",
+      "sourceUrl": "https://arena.ai/leaderboard/vision",
+      "note": "模型 dola-seed-2.0-pro",
+      "asOf": "2026-08-04"
     }
   ],
   "sources": [

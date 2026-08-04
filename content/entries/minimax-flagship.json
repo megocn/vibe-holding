@@ -33,12 +33,12 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "period": "2026-07",
-      "note": "MiniMax M3 · OpenRouter 高用量",
+      "rank": 9,
+      "scoreLabel": "3.6%",
+      "share": 3.6,
+      "period": "2026-08",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-07-24",
-      "rank": 7,
-      "tier": "High usage"
+      "asOf": "2026-08-04"
     },
     {
       "systemId": "lmarena-vision",
@@ -69,6 +69,26 @@
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 minimax-m3",
       "asOf": "2026-08-02"
+    },
+    {
+      "systemId": "lmarena-t2v",
+      "rank": 4,
+      "score": 1455,
+      "scoreLabel": "1455 Elo",
+      "period": "2026-08",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
+      "note": "模型 minimax-h3",
+      "asOf": "2026-08-04"
+    },
+    {
+      "systemId": "lmarena-i2v",
+      "rank": 2,
+      "score": 1476,
+      "scoreLabel": "1476 Elo",
+      "period": "2026-08",
+      "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
+      "note": "模型 minimax-h3",
+      "asOf": "2026-08-04"
     }
   ],
   "sources": [

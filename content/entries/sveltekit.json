@@ -18,11 +18,19 @@
   "pitfalls": [
     "招聘与组件生态小于 React"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "summary": "发布 3.0.0-next.4: @sveltejs/package@3.0.0-next.4",
+      "version": "3.0.0-next.4",
+      "source": "https://github.com/sveltejs/kit/releases/tag/%40sveltejs%2Fpackage%403.0.0-next.4"
+    }
+  ],
   "sources": [
     "https://kit.svelte.dev"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-04",
   "region": "overseas",
   "id": "sveltekit",
   "name": "SvelteKit",
@@ -39,5 +47,6 @@
       "note": "兴趣/留存常年靠前，用量低于 React/Vue",
       "asOf": "2026-07-20"
     }
-  ]
+  ],
+  "currentVersion": "3.0.0-next.4"
 }

@@ -25,13 +25,13 @@
   "rankings": [
     {
       "systemId": "lmarena-vision",
-      "rank": 26,
-      "score": 1256,
-      "scoreLabel": "1256 Elo",
-      "period": "2026-07",
+      "rank": 34,
+      "score": 1257,
+      "scoreLabel": "1257 Elo",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 gemma-4-31b",
-      "asOf": "2026-07-25"
+      "asOf": "2026-08-04"
     },
     {
       "systemId": "lmarena-document",

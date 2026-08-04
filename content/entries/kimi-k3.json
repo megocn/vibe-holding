@@ -91,22 +91,22 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 9,
+      "rank": 11,
       "scoreLabel": "2.7%",
       "share": 2.7,
       "period": "2026-08",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-08-02"
+      "asOf": "2026-08-04"
     },
     {
       "systemId": "lmarena-vision",
-      "rank": 28,
+      "rank": 30,
       "score": 1264,
       "scoreLabel": "1264 Elo",
-      "period": "2026-07",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 kimi-k2.6",
-      "asOf": "2026-07-31"
+      "asOf": "2026-08-04"
     },
     {
       "systemId": "lmarena-document",

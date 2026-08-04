@@ -17,6 +17,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-04",
+      "type": "release",
+      "summary": "发布 6.0.8: Django security releases issued: 6.0.8 and 5.2.17",
+      "version": "6.0.8",
+      "source": "https://www.djangoproject.com/weblog/2026/aug/04/security-releases/"
+    },
+    {
       "date": "2026-07-07",
       "type": "release",
       "summary": "维护线 6.0 最新 6.0.7",
@@ -28,7 +35,7 @@
   "sources": [
     "https://www.djangoproject.com"
   ],
-  "lastReviewed": "2026-07-25",
+  "lastReviewed": "2026-08-04",
   "region": "overseas",
   "id": "django",
   "name": "Django",

@@ -1240,12 +1240,19 @@
       "pitfalls": [
         "大规模动态 inventory 性能不如 Chef/Puppet 历史方案；idempotency 测试需 discipline。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-03",
+          "type": "feature",
+          "summary": "官方动态更新",
+          "source": "https://github.com/ansible/ansible/releases/tag/v2.21.3rc1"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://www.ansible.com"
       ],
-      "lastReviewed": "2026-07-23",
+      "lastReviewed": "2026-08-04",
       "region": "overseas",
       "id": "ansible",
       "name": "Ansible",
@@ -3993,12 +4000,20 @@
       "pitfalls": [
         "首次配置 release workflow 需与 npm token/GitHub Actions 权限对齐；ignore 列表要维护。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-03",
+          "type": "release",
+          "summary": "发布 1.0.0-next.9: @changesets/write@1.0.0-next.9",
+          "version": "1.0.0-next.9",
+          "source": "https://github.com/changesets/changesets/releases/tag/%40changesets%2Fwrite%401.0.0-next.9"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://github.com/changesets/changesets"
       ],
-      "lastReviewed": "2026-07-23",
+      "lastReviewed": "2026-08-04",
       "region": "overseas",
       "id": "changesets",
       "name": "Changesets",
@@ -4006,7 +4021,8 @@
       "subcategory": "release",
       "oneLiner": "变更说明文件驱动 · CI 聚合版本/CHANGELOG · pnpm/Turbo 常见",
       "officialUrl": "https://github.com/changesets/changesets",
-      "descriptionMd": "Changesets 让贡献者提交变更说明文件，CI 聚合生成版本号与 CHANGELOG，是 pnpm/Turborepo 生态常见发布方案。\n\n开源或多包 npm 库需要规范 semver 与自动生成 changelog 时采用；比 manual bump 更可审计。\n\n首次配置 release workflow 需与 npm token/GitHub Actions 权限对齐；ignore 列表要维护。\n"
+      "descriptionMd": "Changesets 让贡献者提交变更说明文件，CI 聚合生成版本号与 CHANGELOG，是 pnpm/Turborepo 生态常见发布方案。\n\n开源或多包 npm 库需要规范 semver 与自动生成 changelog 时采用；比 manual bump 更可审计。\n\n首次配置 release workflow 需与 npm token/GitHub Actions 权限对齐；ignore 列表要维护。\n",
+      "currentVersion": "1.0.0-next.9"
     },
     {
       "pricing": {
@@ -4693,11 +4709,11 @@
       "rankings": [
         {
           "systemId": "lmarena-agent",
-          "rank": 7,
-          "period": "2026-07",
+          "rank": 10,
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/agent",
           "note": "模型 Claude Sonnet 5 (High)",
-          "asOf": "2026-07-29"
+          "asOf": "2026-08-04"
         },
         {
           "systemId": "lmarena-webdev",
@@ -4731,13 +4747,13 @@
         },
         {
           "systemId": "lmarena-vision",
-          "rank": 24,
+          "rank": 26,
           "score": 1275,
           "scoreLabel": "1275 Elo",
-          "period": "2026-07",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
-          "note": "模型 claude-sonnet-4-6",
-          "asOf": "2026-07-31"
+          "note": "模型 claude-sonnet-5-high",
+          "asOf": "2026-08-04"
         },
         {
           "systemId": "lmarena-search",
@@ -4751,12 +4767,12 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 12,
-          "scoreLabel": "2%",
-          "share": 2,
-          "period": "2026-07",
+          "rank": 15,
+          "scoreLabel": "1.9%",
+          "share": 1.9,
+          "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-07-26"
+          "asOf": "2026-08-04"
         }
       ],
       "sources": [
@@ -7223,6 +7239,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-04",
+          "type": "release",
+          "summary": "发布 6.0.8: Django security releases issued: 6.0.8 and 5.2.17",
+          "version": "6.0.8",
+          "source": "https://www.djangoproject.com/weblog/2026/aug/04/security-releases/"
+        },
+        {
           "date": "2026-07-07",
           "type": "release",
           "summary": "维护线 6.0 最新 6.0.7",
@@ -7234,7 +7257,7 @@
       "sources": [
         "https://www.djangoproject.com"
       ],
-      "lastReviewed": "2026-07-25",
+      "lastReviewed": "2026-08-04",
       "region": "overseas",
       "id": "django",
       "name": "Django",
@@ -7296,12 +7319,19 @@
       ],
       "maturity": "mature",
       "pitfalls": [],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-04",
+          "type": "feature",
+          "summary": "The Software Supply Chain Is Under Siege. Devs Are Still the First Line of Defense",
+          "source": "https://www.docker.com/blog/software-supply-chain-security-omdia-2026-report/"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://www.docker.com"
       ],
-      "lastReviewed": "2026-07-23",
+      "lastReviewed": "2026-08-04",
       "region": "overseas",
       "id": "docker",
       "name": "Docker",
@@ -7349,12 +7379,20 @@
       "pitfalls": [
         "企业预置发票/证件模型不如 Azure/AWS；极端扫描件需另配 OCR 引擎。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-03",
+          "type": "release",
+          "summary": "发布 2.118.0: 新版本",
+          "version": "2.118.0",
+          "source": "https://github.com/docling-project/docling/releases/tag/v2.118.0"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://github.com/docling-project/docling"
       ],
-      "lastReviewed": "2026-07-24",
+      "lastReviewed": "2026-08-04",
       "region": "overseas",
       "id": "docling",
       "name": "Docling",
@@ -7364,7 +7402,8 @@
       "officialUrl": "https://github.com/docling-project/docling",
       "descriptionMd": "Docling 是面向开发者的开源文档转换/理解工具，把 PDF 等转为结构化表示，便于 LLM 与 RAG 消费，社区增长快。\n\n需要本地可控的文档解析、与 Python AI 栈集成时评估；可与云 Document AI 做成本对照。\n\n企业预置发票/证件模型不如 Azure/AWS；极端扫描件需另配 OCR 引擎。\n",
       "vendorId": "ibm",
-      "githubUrl": "https://github.com/docling-project/docling"
+      "githubUrl": "https://github.com/docling-project/docling",
+      "currentVersion": "2.118.0"
     },
     {
       "pricing": {
@@ -7454,6 +7493,16 @@
           "sourceUrl": "https://arena.ai/leaderboard/image-edit",
           "note": "模型 seedream-5.0-pro",
           "asOf": "2026-08-02"
+        },
+        {
+          "systemId": "lmarena-vision",
+          "rank": 33,
+          "score": 1258,
+          "scoreLabel": "1258 Elo",
+          "period": "2026-08",
+          "sourceUrl": "https://arena.ai/leaderboard/vision",
+          "note": "模型 dola-seed-2.0-pro",
+          "asOf": "2026-08-04"
         }
       ],
       "sources": [
@@ -9930,13 +9979,13 @@
         },
         {
           "systemId": "lmarena-vision",
-          "rank": 30,
-          "score": 1260,
-          "scoreLabel": "1260 Elo",
-          "period": "2026-07",
+          "rank": 35,
+          "score": 1257,
+          "scoreLabel": "1257 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
           "note": "模型 gemini-3.5-flash-lite",
-          "asOf": "2026-07-31"
+          "asOf": "2026-08-04"
         },
         {
           "systemId": "lmarena-webdev",
@@ -10087,12 +10136,12 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 14,
-          "scoreLabel": "1.8%",
-          "share": 1.8,
-          "period": "2026-07",
+          "rank": 17,
+          "scoreLabel": "1.9%",
+          "share": 1.9,
+          "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-07-26"
+          "asOf": "2026-08-04"
         },
         {
           "systemId": "lmarena-document",
@@ -10226,13 +10275,13 @@
         },
         {
           "systemId": "lmarena-i2v",
-          "period": "2026-07",
-          "note": "gemini-omni-flash",
+          "rank": 4,
+          "score": 1462,
+          "scoreLabel": "1462 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
-          "asOf": "2026-07-24",
-          "rank": 2,
-          "score": 1469,
-          "scoreLabel": "1469 Elo"
+          "note": "模型 gemini-omni-flash",
+          "asOf": "2026-08-04"
         },
         {
           "systemId": "lmarena-video-edit",
@@ -10317,13 +10366,13 @@
         },
         {
           "systemId": "lmarena-vision",
-          "rank": 9,
+          "rank": 11,
           "score": 1289,
           "scoreLabel": "1289 Elo",
-          "period": "2026-07",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
           "note": "模型 gemini-3-pro",
-          "asOf": "2026-07-29"
+          "asOf": "2026-08-04"
         },
         {
           "systemId": "lmarena-search",
@@ -10504,13 +10553,13 @@
       "rankings": [
         {
           "systemId": "lmarena-vision",
-          "rank": 26,
-          "score": 1256,
-          "scoreLabel": "1256 Elo",
-          "period": "2026-07",
+          "rank": 34,
+          "score": 1257,
+          "scoreLabel": "1257 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
           "note": "模型 gemma-4-31b",
-          "asOf": "2026-07-25"
+          "asOf": "2026-08-04"
         },
         {
           "systemId": "lmarena-document",
@@ -12066,12 +12115,12 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 8,
-          "scoreLabel": "3.7%",
-          "share": 3.7,
+          "rank": 6,
+          "scoreLabel": "4.7%",
+          "share": 4.7,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-03"
+          "asOf": "2026-08-04"
         }
       ],
       "sources": [
@@ -12133,13 +12182,13 @@
         },
         {
           "systemId": "lmarena-vision",
-          "rank": 25,
-          "score": 1273,
-          "scoreLabel": "1273 Elo",
-          "period": "2026-07",
+          "rank": 29,
+          "score": 1269,
+          "scoreLabel": "1269 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
           "note": "模型 gpt-5.6-terra-xhigh",
-          "asOf": "2026-07-31"
+          "asOf": "2026-08-04"
         },
         {
           "systemId": "lmarena-document",
@@ -12163,12 +12212,12 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 24,
-          "scoreLabel": "0.9%",
-          "share": 0.9,
+          "rank": 19,
+          "scoreLabel": "1.1%",
+          "share": 1.1,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-03"
+          "asOf": "2026-08-04"
         }
       ],
       "sources": [
@@ -12308,13 +12357,13 @@
         },
         {
           "systemId": "lmarena-text",
-          "rank": 20,
+          "rank": 25,
           "score": 1474,
           "scoreLabel": "1474 Elo",
-          "period": "2026-07",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/text",
           "note": "模型 grok-4.20-beta1",
-          "asOf": "2026-07-25"
+          "asOf": "2026-08-04"
         },
         {
           "systemId": "lmarena-vision",
@@ -15292,22 +15341,22 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 9,
+          "rank": 11,
           "scoreLabel": "2.7%",
           "share": 2.7,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-02"
+          "asOf": "2026-08-04"
         },
         {
           "systemId": "lmarena-vision",
-          "rank": 28,
+          "rank": 30,
           "score": 1264,
           "scoreLabel": "1264 Elo",
-          "period": "2026-07",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
           "note": "模型 kimi-k2.6",
-          "asOf": "2026-07-31"
+          "asOf": "2026-08-04"
         },
         {
           "systemId": "lmarena-document",
@@ -18626,12 +18675,12 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "period": "2026-07",
-          "note": "MiniMax M3 · OpenRouter 高用量",
+          "rank": 9,
+          "scoreLabel": "3.6%",
+          "share": 3.6,
+          "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-07-24",
-          "rank": 7,
-          "tier": "High usage"
+          "asOf": "2026-08-04"
         },
         {
           "systemId": "lmarena-vision",
@@ -18662,6 +18711,26 @@
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 minimax-m3",
           "asOf": "2026-08-02"
+        },
+        {
+          "systemId": "lmarena-t2v",
+          "rank": 4,
+          "score": 1455,
+          "scoreLabel": "1455 Elo",
+          "period": "2026-08",
+          "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
+          "note": "模型 minimax-h3",
+          "asOf": "2026-08-04"
+        },
+        {
+          "systemId": "lmarena-i2v",
+          "rank": 2,
+          "score": 1476,
+          "scoreLabel": "1476 Elo",
+          "period": "2026-08",
+          "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
+          "note": "模型 minimax-h3",
+          "asOf": "2026-08-04"
         }
       ],
       "sources": [
@@ -19965,8 +20034,15 @@
         "非 Vercel 部署需额外配置",
         "async params 等破坏性变更需 codemod"
       ],
-      "currentVersion": "16",
+      "currentVersion": "16.3.0",
       "updates": [
+        {
+          "date": "2026-08-03",
+          "type": "release",
+          "summary": "发布 16.3.0: 新版本",
+          "version": "16.3.0",
+          "source": "https://github.com/vercel/next.js/releases/tag/v16.3.0"
+        },
         {
           "date": "2026-07-20",
           "type": "feature",
@@ -19991,7 +20067,7 @@
       "sources": [
         "https://nextjs.org"
       ],
-      "lastReviewed": "2026-07-25",
+      "lastReviewed": "2026-08-04",
       "region": "overseas",
       "id": "nextjs",
       "name": "Next.js",
@@ -22828,6 +22904,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-04",
+          "type": "release",
+          "summary": "发布 5.0.0: Announcing E-Maj 5.0.0.",
+          "version": "5.0.0",
+          "source": "https://www.postgresql.org/about/news/announcing-e-maj-500-3353/"
+        },
+        {
           "date": "2026-05-11",
           "type": "release",
           "summary": "维护线 18 最新 18.4",
@@ -22838,7 +22921,7 @@
       "sources": [
         "https://www.postgresql.org"
       ],
-      "lastReviewed": "2026-07-25",
+      "lastReviewed": "2026-08-04",
       "region": "overseas",
       "id": "postgresql",
       "name": "PostgreSQL",
@@ -22867,7 +22950,7 @@
           "asOf": "2026-07-20"
         }
       ],
-      "currentVersion": "18.4"
+      "currentVersion": "5.0.0"
     },
     {
       "pricing": {
@@ -23027,12 +23110,20 @@
       "pitfalls": [
         "复杂 SQL/窗口函数需回退 raw query；Serverless 连接池要配 Prisma Accelerate 或 PgBouncer。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-04",
+          "type": "release",
+          "summary": "发布 0.17.0: 新版本",
+          "version": "0.17.0",
+          "source": "https://github.com/prisma/prisma/releases/tag/v0.17.0"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://www.prisma.io"
       ],
-      "lastReviewed": "2026-07-23",
+      "lastReviewed": "2026-08-04",
       "region": "overseas",
       "id": "prisma",
       "name": "Prisma",
@@ -23040,7 +23131,8 @@
       "subcategory": "orm",
       "oneLiner": "schema-first · 生成 Client+Migrate+Studio",
       "officialUrl": "https://www.prisma.io",
-      "descriptionMd": "Prisma 以 schema-first 定义模型，生成类型安全 Client，配套 Migrate 与 Studio，DX 在 TS 全栈中极受欢迎。\n\nNext.js/Nuxt 等 TS 后端需要强类型数据库访问、快速迭代 schema 时常用；与 PostgreSQL 等搭配多。\n\n复杂 SQL/窗口函数需回退 raw query；Serverless 连接池要配 Prisma Accelerate 或 PgBouncer。\n"
+      "descriptionMd": "Prisma 以 schema-first 定义模型，生成类型安全 Client，配套 Migrate 与 Studio，DX 在 TS 全栈中极受欢迎。\n\nNext.js/Nuxt 等 TS 后端需要强类型数据库访问、快速迭代 schema 时常用；与 PostgreSQL 等搭配多。\n\n复杂 SQL/窗口函数需回退 raw query；Serverless 连接池要配 Prisma Accelerate 或 PgBouncer。\n",
+      "currentVersion": "0.17.0"
     },
     {
       "pricing": {
@@ -23233,6 +23325,13 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-08-04",
+          "type": "release",
+          "summary": "发布 3.15.0: Python 3.15.0 candidate 1 is here!",
+          "version": "3.15.0",
+          "source": "https://blog.python.org/2026/08/python-3150-rc1/"
+        },
+        {
           "date": "2026-06-10",
           "type": "release",
           "summary": "维护线 3.14 最新 3.14.6",
@@ -23251,7 +23350,7 @@
       "sources": [
         "https://www.python.org"
       ],
-      "lastReviewed": "2026-07-25",
+      "lastReviewed": "2026-08-04",
       "region": "both",
       "id": "python",
       "name": "Python",
@@ -23259,7 +23358,8 @@
       "subcategory": "language",
       "oneLiner": "AI/数据/脚本通用 · 后端与自动化 · 生态面最宽",
       "descriptionMd": "Python 是 AI Agent、数据与脚本的通用语言，后端与自动化也很常见。\n\n做 AI 基础设施（LangGraph/LlamaIndex）时几乎默认；Web 全栈 TS 团队可把 Python 限在模型/数据面。包装与部署（venv/uv/容器）需约定。\n\nAI 样例代码大多是 Python；与 Node 服务并存时用清晰的 API 边界，避免双栈逻辑漂移。\n",
-      "officialUrl": "https://www.python.org"
+      "officialUrl": "https://www.python.org",
+      "currentVersion": "3.15.0"
     },
     {
       "pricing": {
@@ -23628,13 +23728,13 @@
         },
         {
           "systemId": "lmarena-vision",
-          "rank": 29,
+          "rank": 31,
           "score": 1262,
           "scoreLabel": "1262 Elo",
-          "period": "2026-07",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
           "note": "模型 qwen3.7-plus",
-          "asOf": "2026-07-31"
+          "asOf": "2026-08-04"
         },
         {
           "systemId": "lmarena-document",
@@ -26999,12 +27099,12 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 8,
-          "scoreLabel": "3.2%",
-          "share": 3.2,
+          "rank": 10,
+          "scoreLabel": "3.1%",
+          "share": 3.1,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-02"
+          "asOf": "2026-08-04"
         }
       ],
       "sources": [
@@ -27597,11 +27697,19 @@
       "pitfalls": [
         "招聘与组件生态小于 React"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-04",
+          "type": "release",
+          "summary": "发布 3.0.0-next.4: @sveltejs/package@3.0.0-next.4",
+          "version": "3.0.0-next.4",
+          "source": "https://github.com/sveltejs/kit/releases/tag/%40sveltejs%2Fpackage%403.0.0-next.4"
+        }
+      ],
       "sources": [
         "https://kit.svelte.dev"
       ],
-      "lastReviewed": "2026-07-23",
+      "lastReviewed": "2026-08-04",
       "region": "overseas",
       "id": "sveltekit",
       "name": "SvelteKit",
@@ -27618,7 +27726,8 @@
           "note": "兴趣/留存常年靠前，用量低于 React/Vue",
           "asOf": "2026-07-20"
         }
-      ]
+      ],
+      "currentVersion": "3.0.0-next.4"
     },
     {
       "pricing": {

@@ -18,12 +18,19 @@
   "pitfalls": [
     "大规模动态 inventory 性能不如 Chef/Puppet 历史方案；idempotency 测试需 discipline。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-03",
+      "type": "feature",
+      "summary": "官方动态更新",
+      "source": "https://github.com/ansible/ansible/releases/tag/v2.21.3rc1"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://www.ansible.com"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-04",
   "region": "overseas",
   "id": "ansible",
   "name": "Ansible",

@@ -41,13 +41,13 @@
     },
     {
       "systemId": "lmarena-vision",
-      "rank": 25,
-      "score": 1273,
-      "scoreLabel": "1273 Elo",
-      "period": "2026-07",
+      "rank": 29,
+      "score": 1269,
+      "scoreLabel": "1269 Elo",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 gpt-5.6-terra-xhigh",
-      "asOf": "2026-07-31"
+      "asOf": "2026-08-04"
     },
     {
       "systemId": "lmarena-document",
@@ -71,12 +71,12 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 24,
-      "scoreLabel": "0.9%",
-      "share": 0.9,
+      "rank": 19,
+      "scoreLabel": "1.1%",
+      "share": 1.1,
       "period": "2026-08",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-08-03"
+      "asOf": "2026-08-04"
     }
   ],
   "sources": [

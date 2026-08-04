@@ -43,13 +43,13 @@
     },
     {
       "systemId": "lmarena-text",
-      "rank": 20,
+      "rank": 25,
       "score": 1474,
       "scoreLabel": "1474 Elo",
-      "period": "2026-07",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 grok-4.20-beta1",
-      "asOf": "2026-07-25"
+      "asOf": "2026-08-04"
     },
     {
       "systemId": "lmarena-vision",
