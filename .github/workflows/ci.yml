@@ -1,0 +1,55 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    name: lint · typecheck · test · validate
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install
+        run: pnpm install --frozen-lockfile
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Typecheck
+        run: pnpm typecheck
+
+      - name: Test
+        run: pnpm test
+
+      - name: Validate content (SPEC §6)
+        run: pnpm validate
+
+      - name: Content health invariants
+        run: pnpm health
+
+      - name: Regenerate content.json (must be in sync)
+        run: |
+          pnpm gen:content
+          if ! git diff --exit-code -- apps/desktop/src/generated/content.json; then
+            echo "::error::content/ 与 apps/desktop/src/generated/content.json 不同步。请本地运行 pnpm gen:content 并提交。"
+            exit 1
+          fi
