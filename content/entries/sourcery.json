@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "code-review",
+    "refactoring",
+    "python",
+    "pull-request"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "非 Python 栈覆盖较弱，需先小范围验证",
+    "建议偏局部写法，架构问题不在射程内"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://sourcery.ai"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "sourcery",
+  "name": "Sourcery",
+  "category": "coding-review",
+  "subcategory": "refactor-advice",
+  "oneLiner": "重构建议起家（Python 最熟） · 兼做 PR 评审 · 可本机跑",
+  "officialUrl": "https://sourcery.ai",
+  "descriptionMd": "Sourcery 以「给可读性与重构建议」为特色，早期在 Python 生态中最为人熟知，既能装进编辑器边写边提示，也能作为评审工具在 PR 上留意见。\n\n主力语言是 Python、在意惯用写法与可读性时性价比高；多语言大仓要统一门禁则看 Codacy 一类。\n\n语言覆盖不如通用平台均衡，非 Python 栈需先试；建议偏局部写法，架构层问题不在射程内。\n",
+  "vendorId": "sourcery-ai"
+}

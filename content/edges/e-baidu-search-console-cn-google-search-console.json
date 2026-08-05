@@ -1,0 +1,11 @@
+{
+  "id": "e-baidu-search-console-cn-google-search-console",
+  "from": "baidu-search-console",
+  "to": "google-search-console",
+  "type": "domestic_equivalent_of",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "百度官方站长通道对应 GSC；收录判定与指标口径互不通用"
+}

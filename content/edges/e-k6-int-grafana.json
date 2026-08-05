@@ -1,0 +1,11 @@
+{
+  "id": "e-k6-int-grafana",
+  "from": "k6",
+  "to": "grafana",
+  "type": "integrates_with",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同属 Grafana Labs，压测指标可直接推入观测栈做长期对比"
+}

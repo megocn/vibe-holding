@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "finetune",
+    "lora",
+    "open-source"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "只解决「怎么改模型」，数据处理与训练调度仍要自己搭；适配器合并与推理加载方式需按部署侧要求确认。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/huggingface/peft"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "hf-peft",
+  "name": "PEFT",
+  "category": "ai-finetune",
+  "subcategory": "training-library",
+  "oneLiner": "参数高效微调库 · LoRA/QLoRA 等适配器统一接口 · 生态底座",
+  "officialUrl": "https://github.com/huggingface/peft",
+  "descriptionMd": "PEFT 是 Hugging Face 的参数高效微调库，把 LoRA、QLoRA、前缀微调等方法收进一致的接口，只训练少量新增参数并单独保存适配器权重。\n\n自己写训练循环、或想弄清上层框架到底做了什么时直接用它；要开箱即用的完整流程，选上层封装更省事。\n\n只解决「怎么改模型」，数据处理与训练调度仍要自己搭；适配器合并与推理加载方式需按部署侧要求确认。\n",
+  "vendorId": "huggingface",
+  "githubUrl": "https://github.com/huggingface/peft"
+}

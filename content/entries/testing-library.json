@@ -27,7 +27,7 @@
   "region": "overseas",
   "id": "testing-library",
   "name": "Testing Library",
-  "category": "oss-toolchain",
+  "category": "oss-testing",
   "subcategory": "test",
   "oneLiner": "按角色/文本查 DOM · 避测实现细节 · 多框架绑定",
   "officialUrl": "https://testing-library.com",

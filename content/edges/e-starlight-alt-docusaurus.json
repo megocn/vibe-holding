@@ -1,0 +1,11 @@
+{
+  "id": "e-starlight-alt-docusaurus",
+  "from": "starlight",
+  "to": "docusaurus",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "岛屿架构近零 JS 且不绑前端框架 vs React 生态与内建版本化"
+}

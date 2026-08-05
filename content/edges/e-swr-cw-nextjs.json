@@ -1,0 +1,11 @@
+{
+  "id": "e-swr-cw-nextjs",
+  "from": "swr",
+  "to": "nextjs",
+  "type": "commonly_used_with",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同为 Vercel 维护，常配合 Next.js 客户端侧增量刷新使用"
+}

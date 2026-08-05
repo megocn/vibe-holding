@@ -1,0 +1,10 @@
+{
+  "id": "e-midway-bo-nodejs",
+  "from": "midway",
+  "to": "nodejs",
+  "type": "built_on",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05"
+}

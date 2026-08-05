@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "code-completion",
+    "code-search",
+    "enterprise"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "个人档形态几经调整，长期押注前先确认当前可购买档位",
+    "上下文质量取决于 Sourcegraph 实例索引了哪些仓库"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://sourcegraph.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "cody",
+  "name": "Sourcegraph Cody",
+  "category": "coding-completion",
+  "subcategory": "enterprise-context",
+  "oneLiner": "靠 Sourcegraph 检索取上下文 · 跨仓问答/补全 · 企业档为主",
+  "officialUrl": "https://sourcegraph.com",
+  "descriptionMd": "Cody 是 Sourcegraph 的编辑器内 AI 助手：装在 VS Code / JetBrains 里，靠自家代码检索把跨仓库的实现与调用喂给补全和问答，而不是另起一个 IDE。\n\n团队仓库多、日常要「跨服务先找到实现再改」的检索型上下文时评估；单仓键入补全用 Copilot 一类即可，独立 Agent 编辑器另看 Cursor 系。\n\nSourcegraph 的主线已转向 Amp，Cody 的个人档形态几经收敛，选型前确认当前可购档位与部署方式（云实例 / 自托管）。\n",
+  "vendorId": "sourcegraph"
+}

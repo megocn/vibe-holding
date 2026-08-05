@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "free",
+    "currency": "CNY",
+    "notes": "平台能力免费；账号认证费用按官方最新政策为准"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "wechat",
+    "open-platform",
+    "domestic",
+    "identity"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "与微信公众平台职责易混淆，账号归属需提前约定",
+    "开放平台账号认证需企业主体，且有年度认证要求"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://open.weixin.qq.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "wechat-open-platform",
+  "name": "微信开放平台",
+  "category": "dist-miniapp",
+  "subcategory": "open-platform",
+  "oneLiner": "微信账号与开放能力底座 · UnionID 打通多应用 · 非小程序日常发布后台",
+  "officialUrl": "https://open.weixin.qq.com",
+  "descriptionMd": "微信开放平台是微信生态的账号与开放能力底座：在这里管理移动应用、网站应用与第三方平台接入，把多个 App 与小程序绑定到同一开放平台账号后即可打通 UnionID。\n\n需要微信登录与分享回调、多个小程序或 App 共用一套用户体系，或做服务商代开发第三方平台时进入这里；单个小程序的日常开发与发布仍在小程序后台完成。\n\n开放平台账号认证需要企业主体，认证费用与周期按官方最新政策为准；它与公众平台的职责容易混淆，账号归属与权限要在团队内提前约定。\n",
+  "vendorId": "tencent"
+}

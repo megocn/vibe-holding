@@ -1,0 +1,11 @@
+{
+  "id": "e-contentful-cuw-nextjs",
+  "from": "contentful",
+  "to": "nextjs",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "内容走接口取回、页面在构建期或增量再生成，是营销站常见组合"
+}

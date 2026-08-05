@@ -1,0 +1,11 @@
+{
+  "id": "e-loops-so-with-resend",
+  "from": "loops-so",
+  "to": "resend",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "营销/生命周期名单与旅程 vs 事务邮件发信 API；两类邮件分账号分域名，别混选"
+}

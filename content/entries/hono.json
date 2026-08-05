@@ -24,7 +24,7 @@
   "region": "overseas",
   "id": "hono",
   "name": "Hono",
-  "category": "fw-fullstack",
+  "category": "fw-backend",
   "subcategory": "edge-backend",
   "oneLiner": "超轻多 runtime · Workers/Deno/Node · Express 味 API",
   "officialUrl": "https://hono.dev",

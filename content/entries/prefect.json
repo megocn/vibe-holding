@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "data",
+    "orchestration",
+    "python",
+    "oss"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "跨大版本接口变化较大，旧教程易失效",
+    "数据资产血缘与数仓集成成熟度一般"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.prefect.io",
+    "https://github.com/PrefectHQ/prefect"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "prefect",
+  "name": "Prefect",
+  "category": "db-pipeline",
+  "subcategory": "orchestration",
+  "oneLiner": "Python 原生流编排 · 运行时动态生成 DAG · 装饰器改造现有脚本",
+  "officialUrl": "https://www.prefect.io",
+  "descriptionMd": "Prefect 用装饰器把普通 Python 函数变成可观测的任务与流，依赖图在运行时动态生成而非静态声明，可自托管服务端，也可用云版本做控制面而计算仍留在自己的算力上。\n\n流程分支高度动态、或团队想以最小改造把现有 Python 脚本纳入调度与重试体系时评估。\n\n版本之间接口变化较大，旧教程容易失效；数据资产血缘与数仓集成不如 Dagster、dbt 那条线成熟。\n",
+  "vendorId": "prefect-tech"
+}

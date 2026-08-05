@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "code-completion",
+    "testing",
+    "code-review"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "生成用例需人工筛选，勿直接当验收标准",
+    "同厂 PR 评审线是另一形态，别混作同一产品比价"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.qodo.ai"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "qodo-gen",
+  "name": "Qodo Gen",
+  "category": "coding-completion",
+  "subcategory": "test-and-quality",
+  "oneLiner": "前身 CodiumAI · 强项是生成测试与边界用例 · 编辑器插件形态",
+  "officialUrl": "https://www.qodo.ai",
+  "descriptionMd": "Qodo Gen（原 CodiumAI）是装进 VS Code / JetBrains 的助手，围绕「先补测试再改代码」组织能力：读函数生成用例、提示边界情况，顺带给补全与解释。\n\n在意回归安全网、希望提交前先有测试与自查的团队，可在纯补全插件之上叠这一层；只求键入速度则看 Supermaven / Copilot。\n\n生成的用例需人工筛选，别直接当验收标准；同厂的 PR 评审线是另一形态，别把两者当同一产品比价。\n",
+  "vendorId": "qodo"
+}

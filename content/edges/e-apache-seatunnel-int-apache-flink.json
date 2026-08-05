@@ -1,0 +1,11 @@
+{
+  "id": "e-apache-seatunnel-int-apache-flink",
+  "from": "apache-seatunnel",
+  "to": "apache-flink",
+  "type": "integrates_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "可把同步作业提交到 Flink 集群执行，复用已有的实时计算底座"
+}

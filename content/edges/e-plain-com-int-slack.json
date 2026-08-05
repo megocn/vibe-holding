@@ -1,0 +1,11 @@
+{
+  "id": "e-plain-com-int-slack",
+  "from": "plain-com",
+  "to": "slack",
+  "type": "integrates_with",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "以 Slack 共享频道为一等入口，客户消息直接汇入支持线程"
+}

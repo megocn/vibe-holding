@@ -1,0 +1,11 @@
+{
+  "id": "e-checkly-iw-opentelemetry",
+  "from": "checkly",
+  "to": "opentelemetry",
+  "type": "integrates_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "合成检查可关联 OTel 链路，把外部失败下钻到内部调用"
+}

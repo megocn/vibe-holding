@@ -1,0 +1,11 @@
+{
+  "id": "e-nextra-bo-nextjs",
+  "from": "nextra",
+  "to": "nextjs",
+  "type": "built_on",
+  "weight": 0.85,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "以 Next.js 文件路由与渲染能力为底座"
+}

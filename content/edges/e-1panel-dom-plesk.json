@@ -1,0 +1,11 @@
+{
+  "id": "e-1panel-dom-plesk",
+  "from": "1panel",
+  "to": "plesk",
+  "type": "domestic_equivalent_of",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国产容器优先面板，对应老牌商业主机面板的位置"
+}

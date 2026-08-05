@@ -1,0 +1,11 @@
+{
+  "id": "e-mocha-mig-vitest",
+  "from": "mocha",
+  "to": "vitest",
+  "type": "migration_path_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Mocha 老仓迁 Vitest 可换掉 ESM/TS 配置负担，断言需从 Chai 改写为内建 expect"
+}

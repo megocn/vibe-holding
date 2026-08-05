@@ -1,0 +1,11 @@
+{
+  "id": "e-mkdocs-alt-docusaurus",
+  "from": "mkdocs",
+  "to": "docusaurus",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Python/YAML 极简栈 vs React/MDX 可组件化，取决于是否愿引入 Node 工具链"
+}

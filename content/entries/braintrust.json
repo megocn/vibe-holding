@@ -24,7 +24,7 @@
   "region": "overseas",
   "id": "braintrust",
   "name": "Braintrust",
-  "category": "ai-llm-obs",
+  "category": "ai-eval",
   "subcategory": "eval-platform",
   "oneLiner": "Dataset/在离线 eval · playground+CI · product-grade LLM QA",
   "officialUrl": "https://www.braintrust.dev",

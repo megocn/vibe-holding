@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "compliance",
+    "soc2",
+    "security",
+    "startup"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "复杂或多云架构下自动化覆盖率参差，签约前应做真实环境验证。",
+    "企业级定制、SSO 与高级报表能力弱于头部平台。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://sprinto.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "sprinto",
+  "name": "Sprinto",
+  "category": "sec-compliance",
+  "subcategory": "compliance-automation",
+  "oneLiner": "合规自动化 · 实施节奏轻 · 亚太时区响应好 · 多框架覆盖",
+  "officialUrl": "https://sprinto.com",
+  "descriptionMd": "Sprinto 面向成长型 SaaS 做合规自动化，覆盖 SOC 2、ISO 27001、GDPR、HIPAA 等框架，用自动化检查替代人工收证，并把整改任务直接派发到责任人。\n\n团队规模不大、想用较轻的实施节奏跑完第一次认证，且希望对接方在亚太时区随叫随应时，与 Vanta、Drata 同批评估。\n\n工具只是流程助手，证书仍由审计机构出具；企业级定制与深度集成弱于头部平台，复杂云架构下的自动化覆盖率要先实测再签约。\n",
+  "vendorId": "sprinto-inc"
+}

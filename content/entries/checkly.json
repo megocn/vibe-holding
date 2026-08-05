@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD",
+    "notes": "按检查运行次数计费，含免费额度"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "uptime",
+    "synthetic",
+    "playwright",
+    "monitoring"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "浏览器检查按运行次数计费，高频脚本成本上升快",
+    "监控脚本本身需维护，页面改版易引发连环误报"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.checklyhq.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "checkly",
+  "name": "Checkly",
+  "category": "obs-uptime",
+  "subcategory": "synthetic-monitoring",
+  "oneLiner": "Playwright 写的合成监控 · 监控即代码 · 面向前端关键流程",
+  "officialUrl": "https://www.checklyhq.com",
+  "descriptionMd": "Checkly 把可用性监控写成代码：用 Playwright 脚本跑真实浏览器流程，用 API 检查校验接口契约，配合命令行与基础设施即代码方式纳入版本库，随部署一起发布。\n\n登录、下单这类多步关键流程需要持续验证，或团队已习惯把监控放进仓库管理时选它；只要「域名是否可达」用 UptimeRobot 更划算。\n\n浏览器检查按运行次数计费，脚本写得频繁又冗长会明显推高成本；脚本本身也是需要维护的代码，页面改版后容易连环误报。\n",
+  "vendorId": "checkly-inc"
+}

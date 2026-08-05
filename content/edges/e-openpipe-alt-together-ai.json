@@ -1,0 +1,11 @@
+{
+  "id": "e-openpipe-alt-together-ai",
+  "from": "openpipe",
+  "to": "together-ai",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "围绕生产日志做蒸馏闭环 vs 开源模型托管厂商顺带提供的微调能力"
+}

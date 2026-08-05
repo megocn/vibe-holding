@@ -1,0 +1,11 @@
+{
+  "id": "e-friendly-captcha-alt-hcaptcha",
+  "from": "friendly-captcha",
+  "to": "hcaptcha",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "工作量证明零交互、数据留欧盟；hCaptcha 用挑战题库，对抗强度更高"
+}

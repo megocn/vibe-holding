@@ -1,0 +1,11 @@
+{
+  "id": "e-aliyun-hologres-cuw-postgresql",
+  "from": "aliyun-hologres",
+  "to": "postgresql",
+  "type": "commonly_used_with",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "兼容 PostgreSQL 协议，可复用 PG 客户端与 BI 连接；内核与用途仍是分析型"
+}

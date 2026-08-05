@@ -1,0 +1,11 @@
+{
+  "id": "e-skyvern-alt-browser-use",
+  "from": "skyvern",
+  "to": "browser-use",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "视觉驱动的固定业务流程（登录/填表/下单）vs 目标模糊的探索型网页 Agent"
+}

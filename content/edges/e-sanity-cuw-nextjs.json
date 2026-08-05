@@ -1,0 +1,11 @@
+{
+  "id": "e-sanity-cuw-nextjs",
+  "from": "sanity",
+  "to": "nextjs",
+  "type": "commonly_used_with",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Studio 可与前端同仓部署，配合草稿预览做实时预览"
+}

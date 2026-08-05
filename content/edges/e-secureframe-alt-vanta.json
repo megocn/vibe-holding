@@ -1,0 +1,11 @@
+{
+  "id": "e-secureframe-alt-vanta",
+  "from": "secureframe",
+  "to": "vanta",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Secureframe 偏模板+顾问陪跑，首次认证上手更轻；Vanta 集成清单更长"
+}

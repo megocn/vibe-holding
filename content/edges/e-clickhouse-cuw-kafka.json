@@ -1,0 +1,11 @@
+{
+  "id": "e-clickhouse-cuw-kafka",
+  "from": "clickhouse",
+  "to": "kafka",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Kafka 做实时摄入缓冲，ClickHouse 落列存并对外提供秒级聚合"
+}

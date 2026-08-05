@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "feature-flag",
+    "experiment",
+    "enterprise",
+    "sdk"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "按席位与上下文计价，规模上来后成本抬升明显。",
+    "规则模型与 SDK 有锁定成本，建议自建一层开关抽象。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://launchdarkly.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "launchdarkly",
+  "name": "LaunchDarkly",
+  "category": "growth-experiment",
+  "subcategory": "feature-flag",
+  "oneLiner": "企业级开关标杆 · 权限审批与审计齐 · 按席位与上下文计价",
+  "officialUrl": "https://launchdarkly.com",
+  "descriptionMd": "LaunchDarkly 是功能开关领域的企业级代表：多环境标志管理、目标人群规则、审批与审计流、多语言 SDK 与边缘投递，核心主张是把「部署」和「上线」拆成两件事。\n\n团队规模大、开关数量多且需要权限分级与合规审计，或要把灰度发布纳入正式发布流程时评估；只需要几个简单开关的小团队用它偏贵。\n\n价格随席位与上下文规模增长很快；规则模型有锁定成本，接入时最好在应用侧再包一层自己的开关抽象。\n",
+  "vendorId": "launchdarkly-inc"
+}

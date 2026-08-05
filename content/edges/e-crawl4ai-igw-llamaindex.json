@@ -1,0 +1,11 @@
+{
+  "id": "e-crawl4ai-igw-llamaindex",
+  "from": "crawl4ai",
+  "to": "llamaindex",
+  "type": "integrates_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "抓取产出的 markdown 直接进切分与索引流程，负责 ingest 的最前一段"
+}

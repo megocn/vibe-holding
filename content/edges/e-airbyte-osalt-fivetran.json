@@ -1,0 +1,11 @@
+{
+  "id": "e-airbyte-osalt-fivetran",
+  "from": "airbyte",
+  "to": "fivetran",
+  "type": "open_source_alternative_to",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "开源自托管换掉按行计费与数据出网，代价是连接器质量与运维要自己扛"
+}

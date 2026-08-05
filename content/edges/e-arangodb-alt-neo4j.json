@@ -1,0 +1,11 @@
+{
+  "id": "e-arangodb-alt-neo4j",
+  "from": "arangodb",
+  "to": "neo4j",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "多模型库把文档与图放在一套 AQL 里；深度图分析与算法生态弱于专用图库"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-customer-io-alt-braze",
+  "from": "customer-io",
+  "to": "braze",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "事件驱动、中量级可自助接入 vs 企业级多渠道、项目制实施"
+}

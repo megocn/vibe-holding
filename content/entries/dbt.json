@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "data",
+    "transform",
+    "sql",
+    "oss"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "只做转换，抽取与编排需另配组件",
+    "模型层膨胀后编译与全量重跑耗时明显"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.getdbt.com",
+    "https://github.com/dbt-labs/dbt-core"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "dbt",
+  "name": "dbt",
+  "category": "db-pipeline",
+  "subcategory": "transform",
+  "oneLiner": "仓内 SQL 转换 · 模型血缘/测试/文档一体 · Core 开源 + Cloud 托管",
+  "officialUrl": "https://www.getdbt.com",
+  "descriptionMd": "dbt 把数仓里的 SQL 转换工程化：模型之间通过引用自动推导依赖与血缘，附带数据测试、快照与文档生成，命令行版本开源，调度、协作与权限在云版本。\n\n数据已经落进仓库、需要把散落的 SQL 变成可复用可测试的模型层时几乎是默认选择；抽取加载由 Airbyte / Fivetran 负责，两者分工明确。\n\n只做转换不做抽取，编排仍需 Airflow 或 Dagster；模型层膨胀后编译与全量重跑会成为新瓶颈。\n",
+  "vendorId": "dbt-labs"
+}

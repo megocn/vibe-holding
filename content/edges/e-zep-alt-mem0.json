@@ -1,0 +1,11 @@
+{
+  "id": "e-zep-alt-mem0",
+  "from": "zep",
+  "to": "mem0",
+  "type": "alternative_to",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "时序知识图谱 vs 轻量记忆层；写入成本与可解释性取舍不同"
+}

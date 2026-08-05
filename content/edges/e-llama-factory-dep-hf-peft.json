@@ -1,0 +1,11 @@
+{
+  "id": "e-llama-factory-dep-hf-peft",
+  "from": "llama-factory",
+  "to": "hf-peft",
+  "type": "depends_on",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "参数高效微调能力来自 PEFT，框架主要负责数据、模板与训练调度"
+}

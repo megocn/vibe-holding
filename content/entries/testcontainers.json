@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "test",
+    "docker",
+    "integration",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "依赖本机或 CI 上可用的容器运行时；镜像拉取与启动会显著拉长测试时间，需复用容器并控制粒度。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://testcontainers.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "testcontainers",
+  "name": "Testcontainers",
+  "category": "oss-testing",
+  "subcategory": "integration-test",
+  "oneLiner": "用真容器跑集成测试 · 用例内起停 · 多语言 SDK",
+  "officialUrl": "https://testcontainers.com",
+  "descriptionMd": "Testcontainers 在测试代码里按需启动数据库、消息队列等真实依赖容器，用例结束自动回收，用真实中间件替代 mock 与手工维护的共享测试环境。\n\n集成测试要贴近生产依赖行为（SQL 方言、事务、索引）时使用；配合 JUnit 5 或 pytest 作为用例编排层。\n\n依赖本机或 CI 上可用的容器运行时；镜像拉取与启动会显著拉长测试时间，需复用容器并控制粒度。\n",
+  "githubUrl": "https://github.com/testcontainers"
+}

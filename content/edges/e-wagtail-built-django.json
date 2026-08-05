@@ -1,0 +1,11 @@
+{
+  "id": "e-wagtail-built-django",
+  "from": "wagtail",
+  "to": "django",
+  "type": "built_on",
+  "weight": 0.9,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "页面模型、权限与后台均建立在 Django 之上，可与既有业务模型共存"
+}

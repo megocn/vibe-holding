@@ -1,0 +1,11 @@
+{
+  "id": "e-cloudflare-turnstile-alt-recaptcha",
+  "from": "cloudflare-turnstile",
+  "to": "recaptcha",
+  "type": "alternative_to",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Turnstile 免打勾、无广告绑定，且在国内可加载；reCAPTCHA 面向大陆用户常卡加载"
+}

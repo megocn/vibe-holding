@@ -1,0 +1,11 @@
+{
+  "id": "e-motherduck-builton-duckdb",
+  "from": "motherduck",
+  "to": "duckdb",
+  "type": "built_on",
+  "weight": 0.95,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "把 DuckDB 引擎托管上云，并支持本地与云端混合执行同一条查询"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-chargebee-alt-recurly",
+  "from": "chargebee",
+  "to": "recurly",
+  "type": "alternative_to",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "配置面更全 vs 催收与挽留见长"
+}

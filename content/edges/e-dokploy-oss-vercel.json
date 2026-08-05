@@ -1,0 +1,11 @@
+{
+  "id": "e-dokploy-oss-vercel",
+  "from": "dokploy",
+  "to": "vercel",
+  "type": "open_source_alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "自备服务器换取无平台计价与冷启动限制"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-maestro-cw-flutter",
+  "from": "maestro",
+  "to": "flutter",
+  "type": "commonly_used_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "跨端产物同样以 UI 元素驱动，用例与技术栈解耦"
+}

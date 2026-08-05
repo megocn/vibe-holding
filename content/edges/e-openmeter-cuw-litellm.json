@@ -1,0 +1,11 @@
+{
+  "id": "e-openmeter-cuw-litellm",
+  "from": "openmeter",
+  "to": "litellm",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "网关侧统计 token，计量层聚合成可计费用量"
+}

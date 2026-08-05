@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "finetune",
+    "lora",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "深度优化意味着对模型架构适配有先后，新模型支持需等上游跟进；多卡与集群能力弱于通用训练框架。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://unsloth.ai",
+    "https://github.com/unslothai/unsloth"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "unsloth",
+  "name": "Unsloth",
+  "category": "ai-finetune",
+  "subcategory": "efficient-training",
+  "oneLiner": "单卡 LoRA 提速省显存 · 手写算子重写反传 · 消费级显卡也能跑",
+  "officialUrl": "https://unsloth.ai",
+  "descriptionMd": "Unsloth 通过手写内核与重写反向传播，把常见开源模型的 LoRA/QLoRA 微调做得更省显存、更快，配套的 Colab 笔记本让单卡起步的门槛很低。\n\n手头只有一两张消费卡、想先把微调链路跑通时首选；多机多卡的大规模训练仍应回到分布式框架。\n\n深度优化意味着对模型架构适配有先后，新模型支持需等上游跟进；多卡与集群能力弱于通用训练框架。\n",
+  "vendorId": "unsloth-ai",
+  "githubUrl": "https://github.com/unslothai/unsloth"
+}

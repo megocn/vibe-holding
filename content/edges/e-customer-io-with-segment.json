@@ -1,0 +1,11 @@
+{
+  "id": "e-customer-io-with-segment",
+  "from": "customer-io",
+  "to": "segment",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "埋点与身份统一在 CDP，旅程条件直接引用同一份事件口径"
+}

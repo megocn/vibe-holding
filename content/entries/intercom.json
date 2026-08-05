@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD",
+    "notes": "按席位订阅，AI 应答按解决次数另计"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "support",
+    "livechat",
+    "saas",
+    "ai"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "AI 应答按解决量计费，高峰期账单波动明显。",
+    "国内站点加载气泡脚本延迟较高，需评估首屏影响。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.intercom.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "intercom",
+  "name": "Intercom",
+  "category": "collab-support",
+  "subcategory": "conversational-support",
+  "oneLiner": "站内对话式支持 + AI 客服 · 生态深 · 计价随解决量走",
+  "officialUrl": "https://www.intercom.com",
+  "descriptionMd": "Intercom 以站内消息气泡起家，把在线对话、帮助中心、产品引导与 AI 应答收进一套工作台，客服工单与主动触达共用同一份用户档案。\n\nSaaS 产品要在应用内做售前答疑与留存运营、且愿意为一体化体验付费时评估；纯邮件工单场景性价比不高。\n\n按席位叠加 AI 解决量计费，用量波动会直接反映在账单上；深度绑定后帮助中心与自动化流程迁移成本高。\n",
+  "vendorId": "intercom-inc",
+  "docsUrl": "https://developers.intercom.com"
+}

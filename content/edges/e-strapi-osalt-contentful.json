@@ -1,0 +1,11 @@
+{
+  "id": "e-strapi-osalt-contentful",
+  "from": "strapi",
+  "to": "contentful",
+  "type": "open_source_alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Strapi 后台可点选建模，更接近 Contentful 的运营体验；托管与扩容自理"
+}

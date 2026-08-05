@@ -1,0 +1,11 @@
+{
+  "id": "e-hexo-alt-hugo",
+  "from": "hexo",
+  "to": "hugo",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Node 生态与厚重中文主题 vs Go 单二进制与极快构建，均偏博客/内容站"
+}

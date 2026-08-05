@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "free",
+    "currency": "USD",
+    "notes": "核心功能免费；去品牌与代管坐席为付费项"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "support",
+    "livechat",
+    "free",
+    "smb"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "免费档带品牌露出，去除需按月付费。",
+    "报表、自动化与合规能力基础，规模化后需替换。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.tawk.to"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "tawk-to",
+  "name": "Tawk.to",
+  "category": "collab-support",
+  "subcategory": "livechat",
+  "oneLiner": "基础聊天长期免费 · 去品牌与人力代管另付费 · 嵌入极轻",
+  "officialUrl": "https://www.tawk.to",
+  "descriptionMd": "Tawk.to 提供免费的网站在线聊天与访客实时监控，坐席与会话量不设限，另带基础知识库与预设回复，靠移除品牌标识、代运营坐席等增值服务盈利。\n\n个人站、外包交付或早期产品只想先有一个能收消息的入口、预算接近零、也不打算把客服流程正规化时评估；有合规与报表要求的团队直接看付费方案。\n\n免费的代价是品牌露出与相对基础的能力；数据合规、报表与自动化都弱，业务正规化后通常需要替换。\n",
+  "vendorId": "tawk-inc"
+}

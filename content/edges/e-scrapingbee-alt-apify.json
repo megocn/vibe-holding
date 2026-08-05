@@ -1,0 +1,11 @@
+{
+  "id": "e-scrapingbee-alt-apify",
+  "from": "scrapingbee",
+  "to": "apify",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "单点抓取 API、计费简单 vs 平台化的 Actor 生态与定时调度"
+}

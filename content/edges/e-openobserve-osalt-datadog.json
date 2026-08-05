@@ -1,0 +1,11 @@
+{
+  "id": "e-openobserve-osalt-datadog",
+  "from": "openobserve",
+  "to": "datadog",
+  "type": "open_source_alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "对象存储直写的自托管可观测后端 vs 商业全家桶：省摄入费，换来自运维"
+}

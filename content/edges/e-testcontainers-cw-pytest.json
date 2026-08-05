@@ -1,0 +1,11 @@
+{
+  "id": "e-testcontainers-cw-pytest",
+  "from": "testcontainers",
+  "to": "pytest",
+  "type": "commonly_used_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Python 侧以 fixture 管理容器生命周期，替代手工维护的共享测试库"
+}

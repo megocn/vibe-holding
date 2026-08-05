@@ -24,7 +24,7 @@
   "region": "overseas",
   "id": "svelte",
   "name": "Svelte",
-  "category": "fw-fullstack",
+  "category": "fw-ui-lib",
   "subcategory": "ui-compiler",
   "oneLiner": "编译无 VDOM · DX 简洁 · SvelteKit 补全栈",
   "officialUrl": "https://svelte.dev",

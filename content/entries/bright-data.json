@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "scraping",
+    "proxy",
+    "enterprise",
+    "data"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "住宅代理来源与用途争议长期存在，用途需自查合规；起步价与最低消费对小团队不友好。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://brightdata.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "bright-data",
+  "name": "Bright Data",
+  "category": "ai-search-api",
+  "subcategory": "proxy-network",
+  "oneLiner": "大规模代理 IP 池 · 住宅与机房出口 · 企业合规但门槛偏高",
+  "officialUrl": "https://brightdata.com",
+  "descriptionMd": "Bright Data 的核心资产是覆盖广泛的代理网络与配套的解锁、抓取产品，面向需要长期、大体量采集的企业客户，合规审查与账户尽调流程也更正式。\n\n当抓取规模大到必须自建 IP 策略、或行业要求供应商可审计时进入视野；小团队做几千次调用属于杀鸡用牛刀。\n\n住宅代理来源与用途争议长期存在，用途需自查合规；起步价与最低消费对小团队不友好。\n",
+  "vendorId": "bright-data-inc"
+}

@@ -24,7 +24,7 @@
   "region": "overseas",
   "id": "phoenix",
   "name": "Phoenix",
-  "category": "fw-fullstack",
+  "category": "fw-backend",
   "subcategory": "elixir-web",
   "oneLiner": "Elixir/OTP · Channels 实时 · LiveView 服务端交互",
   "officialUrl": "https://www.phoenixframework.org",

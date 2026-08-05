@@ -1,0 +1,11 @@
+{
+  "id": "e-browserbase-cuw-claude-code",
+  "from": "browserbase",
+  "to": "claude-code",
+  "type": "commonly_used_with",
+  "weight": 0.45,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "通过 MCP 把远端浏览器会话挂给编码 Agent，用于联调与端到端验证"
+}

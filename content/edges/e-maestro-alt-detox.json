@@ -1,0 +1,11 @@
+{
+  "id": "e-maestro-alt-detox",
+  "from": "maestro",
+  "to": "detox",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Maestro 黑盒跑 YAML 流、无需改构建；Detox 灰盒随 App 打包，等待更稳但要额外产物"
+}

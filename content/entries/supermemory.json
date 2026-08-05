@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "memory",
+    "api",
+    "saas"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "记忆策略由平台决定，定制空间有限",
+    "数据出本地需评估合规"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://supermemory.ai"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "supermemory",
+  "name": "Supermemory",
+  "category": "ai-memory",
+  "subcategory": "memory-api",
+  "oneLiner": "记忆 API 与个人知识层 · 接入快；深度定制空间小",
+  "officialUrl": "https://supermemory.ai",
+  "descriptionMd": "Supermemory 提供开箱即用的记忆 API 与个人知识层，把网页、笔记与对话统一收纳、按语义召回，几行代码即可接入。\n\n想尽快给应用加上「记得住上下文」的能力、暂时不打算自建检索与图谱管线时评估。\n\n托管形态决定了深度定制空间有限，记忆的切分与召回策略基本由平台决定；数据要出本地，合规敏感场景需先评估。\n"
+}

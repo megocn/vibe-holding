@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "sandbox",
+    "agent",
+    "runtime"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "按运行时长计费，长任务成本需监控",
+    "沙箱出网策略需按安全要求收紧"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://e2b.dev"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "e2b",
+  "name": "E2B",
+  "category": "ai-sandbox",
+  "subcategory": "code-interpreter",
+  "oneLiner": "Agent 专用代码沙箱 · 秒级冷启动；按运行时长计费",
+  "officialUrl": "https://e2b.dev",
+  "descriptionMd": "E2B 提供给 AI Agent 用的隔离云沙箱，秒级启动一个可跑 Python/Node 的环境，支持文件读写、联网与长任务保活，SDK 直接嵌进 Agent 循环。\n\nAgent 需要真正执行代码、装依赖或处理用户上传文件，而你不愿让它碰生产机器时优先。\n\n按沙箱运行时长计费，长时任务成本要盯；沙箱内网络与依赖安装策略需按安全要求收紧。\n"
+}

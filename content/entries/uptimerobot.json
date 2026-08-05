@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD",
+    "notes": "免费档覆盖基础监控项，付费档提升频率与功能"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "uptime",
+    "monitoring",
+    "status-page",
+    "saas"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "只看外部可用性，定位不到内部原因，需与日志/APM 搭配",
+    "免费档检查频率与探测节点有限，需容忍误报窗口"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://uptimerobot.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "uptimerobot",
+  "name": "UptimeRobot",
+  "category": "obs-uptime",
+  "subcategory": "uptime-check",
+  "oneLiner": "老牌拨测入门款 · 免费额度大 · 监控项与状态页一站配齐",
+  "officialUrl": "https://uptimerobot.com",
+  "descriptionMd": "UptimeRobot 是最常见的外部拨测服务：HTTP、端口、关键字与心跳几类检查加上多渠道通知，免费档就能覆盖几十个监控项，配置界面简单，也提供基础的对外状态页。\n\n个人项目与中小团队要第一层「网站还活着吗」的监控时最省事；需要浏览器级流程校验看 Checkly，需要自托管与数据自持看 OpenStatus。\n\n只从外部看可用性，定位不到内部原因，需与日志和 APM 搭配；免费档的检查频率与节点数量有限，误报与漏报都要留出容忍窗口。\n",
+  "vendorId": "uptimerobot-inc"
+}

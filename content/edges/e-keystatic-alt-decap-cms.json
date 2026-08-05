@@ -1,0 +1,11 @@
+{
+  "id": "e-keystatic-alt-decap-cms",
+  "from": "keystatic",
+  "to": "decap-cms",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Keystatic 后台内嵌进应用路由并支持本地文件模式，Decap 为独立后台页面"
+}

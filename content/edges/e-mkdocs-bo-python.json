@@ -1,0 +1,10 @@
+{
+  "id": "e-mkdocs-bo-python",
+  "from": "mkdocs",
+  "to": "python",
+  "type": "built_on",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05"
+}

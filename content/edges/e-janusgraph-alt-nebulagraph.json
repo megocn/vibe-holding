@@ -1,0 +1,11 @@
+{
+  "id": "e-janusgraph-alt-nebulagraph",
+  "from": "janusgraph",
+  "to": "nebulagraph",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同为分布式图：JanusGraph 复用外部存储与 Gremlin，NebulaGraph 自带存储与 nGQL"
+}

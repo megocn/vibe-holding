@@ -1,0 +1,13 @@
+{
+  "id": "e-crisp-int-slack",
+  "from": "crisp",
+  "to": "slack",
+  "type": "integrates_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [
+    "https://crisp.chat/en/integrations/"
+  ],
+  "createdAt": "2026-08-05",
+  "note": "插件形式把收件箱消息接进频道，适合无专职客服的小团队"
+}

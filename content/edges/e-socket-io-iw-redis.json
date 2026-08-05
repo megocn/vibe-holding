@@ -1,0 +1,11 @@
+{
+  "id": "e-socket-io-iw-redis",
+  "from": "socket-io",
+  "to": "redis",
+  "type": "integrates_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "多实例部署靠 Redis 适配器广播事件，否则房间消息跨节点不通"
+}

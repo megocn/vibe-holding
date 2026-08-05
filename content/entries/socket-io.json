@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "realtime",
+    "websocket",
+    "open-source",
+    "nodejs"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "私有协议，客户端必须使用配套 SDK，与原生 WebSocket 不互通",
+    "水平扩展需引入适配器与粘性会话，运维成本自担"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://socket.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "socket-io",
+  "name": "Socket.IO",
+  "category": "msg-realtime",
+  "subcategory": "websocket-lib",
+  "oneLiner": "经典实时通信库 · 自动重连与房间广播 · 需自建服务端",
+  "officialUrl": "https://socket.io",
+  "descriptionMd": "Socket.IO 是历史最久、生态最厚的实时通信库，在 WebSocket 之上补齐自动重连、心跳、房间与命名空间等约定，服务端以 Node.js 为主，各语言都有社区实现的客户端。\n\n自建服务端、想要一套久经检验的连接层抽象时选它；多实例部署需要配合适配器共享状态，不想运维连接层则用 Pusher、Ably。\n\n协议是私有约定，客户端必须用配套 SDK，与原生 WebSocket 不互通；水平扩展要引入适配器与粘性会话，运维复杂度都在自己这边。\n",
+  "githubUrl": "https://github.com/socketio/socket.io"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-zustand-alt-jotai",
+  "from": "zustand",
+  "to": "jotai",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Zustand 单一 store 加选择器；Jotai 原子化按依赖派生，重渲染粒度更细但全局图不易概览"
+}

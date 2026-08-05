@@ -1,0 +1,11 @@
+{
+  "id": "e-ably-alt-pusher",
+  "from": "ably",
+  "to": "pusher",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "交付保证与历史回放更强 vs 接入更简单、心智更轻"
+}

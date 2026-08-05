@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "bot",
+    "rate-limit",
+    "security",
+    "sdk"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "防护逻辑在应用进程内执行，扛不住需要边缘清洗的大流量攻击。",
+    "产品仍在快速迭代，API 与规则集变动需跟进版本说明。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://arcjet.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "arcjet",
+  "name": "Arcjet",
+  "category": "sec-bot-captcha",
+  "subcategory": "bot-defense",
+  "oneLiner": "开发者向防护 SDK · Bot 检测/限流/邮箱校验一体 · 规则随代码走",
+  "officialUrl": "https://arcjet.com",
+  "descriptionMd": "Arcjet 以 SDK 形式把 Bot 检测、速率限制、邮箱有效性校验与敏感信息拦截放进应用代码，规则跟着仓库走版本管理，对 Next.js、Node、Bun 等运行时提供一等封装。\n\n前后端同仓、希望防护规则和业务代码一起 review 与灰度，而不是在云控制台点配置时评估；它补的是应用层，不替代边缘 WAF。\n\n产品较新，规则库与生态积累不如老牌厂商厚；防护跑在应用进程内，大流量攻击仍要靠边缘先扛，别把它当 DDoS 方案。\n",
+  "vendorId": "arcjet-inc"
+}

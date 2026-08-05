@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "eval",
+    "open-source",
+    "cli"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "LLM-as-judge 自身会漂，需定期抽样人工校准",
+    "评测集不更新会迅速失真"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://promptfoo.dev"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "promptfoo",
+  "name": "Promptfoo",
+  "category": "ai-eval",
+  "subcategory": "cli-eval",
+  "oneLiner": "本地 CLI 跑评测集 · 配置即用例；可进 CI 当回归门",
+  "officialUrl": "https://promptfoo.dev",
+  "descriptionMd": "Promptfoo 用 YAML 描述用例与断言，在本地或 CI 里批量跑 prompt 与模型对照，输出可视化对比表，也支持红队式越狱探测。\n\n想把「换个 prompt 到底变好还是变坏」变成可回归的门禁，而不是靠人肉试几条时优先；与 Vitest、GitHub Actions 一类工程栈天然合拍。\n\n断言质量决定评测价值，LLM-as-judge 本身也会漂；评测集不随业务更新就会很快失真，需要有人长期维护。\n"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-digitalocean-alt-linode",
+  "from": "digitalocean",
+  "to": "linode",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同层开发者 VPS；Linode 侧接 Akamai 边缘"
+}

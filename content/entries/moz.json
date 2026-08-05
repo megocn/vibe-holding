@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "seo",
+    "keyword",
+    "backlink",
+    "saas"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "DA 是第三方估算值，勿当成搜索引擎的真实排名依据。",
+    "外链索引覆盖不及头部竞品，跨工具数据难直接对齐。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://moz.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "moz",
+  "name": "Moz",
+  "category": "growth-seo",
+  "subcategory": "seo-suite",
+  "oneLiner": "DA/PA 权威度口径起家 · 关键词与站点爬取一体 · 教程体系厚",
+  "officialUrl": "https://moz.com",
+  "descriptionMd": "Moz 是老牌 SEO 工具套件，提供关键词研究、站点爬取诊断、外链查询与 Domain Authority（DA）等指标，其 DA/PA 口径被行业长期当作站点权威度的通用参照。\n\n把 SEO 当长期渠道、需要一套「指标口径 + 教程体系」帮团队对齐认知时评估；外链深度情报仍是 Ahrefs 的强项，竞品流量画像看 Similarweb。\n\n索引库与外链覆盖不及头部两家；DA 是第三方估算值，不同工具之间口径不可比。\n",
+  "vendorId": "moz-inc"
+}

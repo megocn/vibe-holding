@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cms",
+    "python",
+    "django",
+    "open-source"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "绑定 Django 技术栈，非 Python 团队维护成本高。",
+    "页面模型改动需写迁移，运营侧无法自助调整结构。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://wagtail.org"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "wagtail",
+  "name": "Wagtail",
+  "category": "collab-cms",
+  "subcategory": "traditional-cms",
+  "oneLiner": "Django 系开源 CMS · 页面树与审校流 · 政企内容站常用",
+  "officialUrl": "https://wagtail.org",
+  "descriptionMd": "Wagtail 是构建在 Django 之上的开源 CMS，以页面树组织站点、模型用 Python 声明，内置版本、审校与工作流，天然与既有 Django 业务共用一套模型与权限。\n\n团队已是 Python/Django 栈、站点信息架构层级深、且对无障碍与审校流程有要求时评估。\n\n对非 Python 团队门槛高；改页面结构要写模型与迁移，运营无法自助扩字段。\n",
+  "vendorId": "torchbox",
+  "githubUrl": "https://github.com/wagtail/wagtail",
+  "docsUrl": "https://docs.wagtail.org"
+}

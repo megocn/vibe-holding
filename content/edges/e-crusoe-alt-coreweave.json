@@ -1,0 +1,11 @@
+{
+  "id": "e-crusoe-alt-coreweave",
+  "from": "crusoe",
+  "to": "coreweave",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "能源产地就地建站、主打电价与碳排 vs 以互联与集群规模为卖点"
+}

@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "browser",
+    "agent",
+    "rpa"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "涉及登录态与凭据托管，权限边界要提前设计；复杂流程仍需人工复核结果，不宜直接对接资金操作。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.skyvern.com",
+    "https://github.com/Skyvern-AI/skyvern"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "skyvern",
+  "name": "Skyvern",
+  "category": "ai-browser",
+  "subcategory": "workflow-agent",
+  "oneLiner": "视觉 LLM 跑表单流程 · 站点改版仍可执行 · 开源加云托管",
+  "officialUrl": "https://www.skyvern.com",
+  "descriptionMd": "Skyvern 用视觉理解加 LLM 规划来完成登录、填表、下单这类多步网页工作流，强调不依赖写死的选择器，页面改版后仍能按目标继续推进。\n\n适合把重复的后台操作、批量申报与信息录入自动化；探索型浏览与研究类任务用通用 Agent 浏览器更顺手。\n\n涉及登录态与凭据托管，权限边界要提前设计；复杂流程仍需人工复核结果，不宜直接对接资金操作。\n",
+  "vendorId": "skyvern-inc",
+  "githubUrl": "https://github.com/Skyvern-AI/skyvern"
+}

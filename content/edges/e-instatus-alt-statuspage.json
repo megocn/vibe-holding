@@ -1,0 +1,11 @@
+{
+  "id": "e-instatus-alt-statuspage",
+  "from": "instatus",
+  "to": "statuspage",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "轻快状态页、定价对订阅者规模更友好 vs Atlassian 生态与完整事故流程"
+}

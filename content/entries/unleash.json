@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "feature-flag",
+    "open-source",
+    "self-host",
+    "sdk"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "不含实验统计能力，需另配分析体系。",
+    "开源版与企业版功能分层明显，容易在采购时才发现缺特性。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.getunleash.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "unleash",
+  "name": "Unleash",
+  "category": "growth-experiment",
+  "subcategory": "feature-flag",
+  "oneLiner": "开源开关服务端 · 私有化与边缘代理 · 专注开关不做实验分析",
+  "officialUrl": "https://www.getunleash.io",
+  "descriptionMd": "Unleash 是开源的功能开关服务，提供服务端 API、多语言 SDK 与 Edge/Proxy 组件，强调标志求值发生在自己这一侧，企业版补充权限、审计与合规相关能力。\n\n把开关当基础设施来建、要求私有化部署或数据不出网，而实验分析另有体系时优先；要开箱即用的实验读数请看 GrowthBook 或 Statsig。\n\n实验与指标能力弱，需要自己拼接分析链路；开源版与企业版功能分层明显，选型前核对所需特性落在哪一档。\n",
+  "vendorId": "unleash-inc",
+  "githubUrl": "https://github.com/Unleash/unleash"
+}

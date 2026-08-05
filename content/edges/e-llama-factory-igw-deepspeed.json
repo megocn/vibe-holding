@@ -1,0 +1,11 @@
+{
+  "id": "e-llama-factory-igw-deepspeed",
+  "from": "llama-factory",
+  "to": "deepspeed",
+  "type": "integrates_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "多卡训练可切到 ZeRO 分片，显存不够时不必改训练代码"
+}

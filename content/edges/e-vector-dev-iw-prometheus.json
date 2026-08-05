@@ -1,0 +1,11 @@
+{
+  "id": "e-vector-dev-iw-prometheus",
+  "from": "vector-dev",
+  "to": "prometheus",
+  "type": "integrates_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Vector 可抓取并导出 Prometheus 指标，把日志与指标收在同一管道"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-browser-use-built-playwright",
+  "from": "browser-use",
+  "to": "playwright",
+  "type": "built_on",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "底层用 Playwright 驱动真实浏览器，上层由 LLM 决定每一步动作"
+}

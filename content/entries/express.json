@@ -24,7 +24,7 @@
   "region": "overseas",
   "id": "express",
   "name": "Express",
-  "category": "fw-fullstack",
+  "category": "fw-backend",
   "subcategory": "node-backend",
   "oneLiner": "Node 最普及最小 HTTP · 中间件无限 · API/SSR 胶水层",
   "officialUrl": "https://expressjs.com",

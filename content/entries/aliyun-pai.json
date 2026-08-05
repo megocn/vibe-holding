@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "gpu",
+    "cloud",
+    "domestic",
+    "mlops"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "与阿里云生态耦合深，迁出成本高；计费维度多且需企业实名与配额申请，个人试水门槛偏高。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.aliyun.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "aliyun-pai",
+  "name": "阿里云 PAI",
+  "category": "ai-gpu-cloud",
+  "subcategory": "domestic-platform",
+  "oneLiner": "阿里云一体化训练平台 · 数据到部署打通 · 走企业采购路径",
+  "officialUrl": "https://www.aliyun.com",
+  "descriptionMd": "阿里云 PAI 是机器学习平台产品，把数据准备、交互式建模、分布式训练与在线服务串成一条流水线，并与阿里云的存储、网络与账号体系深度打通。\n\n企业已在阿里云上、需要合规可审计的训练与部署流水线时是自然选择；只想按小时借卡跑个实验会显得偏重。\n\n与阿里云生态耦合深，迁出成本高；计费维度多且需企业实名与配额申请，个人试水门槛偏高。\n",
+  "vendorId": "alibaba"
+}

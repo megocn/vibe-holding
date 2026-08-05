@@ -1,0 +1,11 @@
+{
+  "id": "e-douyin-miniprogram-alt-wechat-miniprogram",
+  "from": "douyin-miniprogram",
+  "to": "wechat-miniprogram",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "内容流投放即转化 vs 社交分享与私域沉淀；抖音靠内容与投放，微信靠关系链"
+}

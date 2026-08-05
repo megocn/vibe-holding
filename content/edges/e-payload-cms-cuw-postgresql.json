@@ -1,0 +1,11 @@
+{
+  "id": "e-payload-cms-cuw-postgresql",
+  "from": "payload-cms",
+  "to": "postgresql",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "常用 Postgres 适配器落库（亦支持 MongoDB），数据留在自有实例"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-prefect-alt-apache-airflow",
+  "from": "prefect",
+  "to": "apache-airflow",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "运行时动态生成依赖图、装饰器改造脚本更轻；Provider 生态与企业沉淀不如 Airflow"
+}

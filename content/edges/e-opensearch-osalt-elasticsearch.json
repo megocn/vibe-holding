@@ -1,0 +1,11 @@
+{
+  "id": "e-opensearch-osalt-elasticsearch",
+  "from": "opensearch",
+  "to": "elasticsearch",
+  "type": "open_source_alternative_to",
+  "weight": 0.9,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "2021 年自 7.10 分叉，Apache-2.0 规避商业授权；新版特性与客户端已分道"
+}

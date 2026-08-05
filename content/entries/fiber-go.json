@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "go",
+    "backend",
+    "performance",
+    "fasthttp"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "基于 fasthttp，标准库 net/http 中间件不可直接复用",
+    "HTTP/2 等标准能力支持受底层限制"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://gofiber.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "fiber-go",
+  "name": "Fiber",
+  "category": "fw-backend",
+  "subcategory": "go-backend",
+  "oneLiner": "Go 框架 · fasthttp 内核 · Express 风 API · 与标准库生态有隔阂",
+  "officialUrl": "https://gofiber.io",
+  "descriptionMd": "Fiber 建立在 fasthttp 而非标准库 net/http 之上，用类 Express 的链式 API 换取更低的内存分配与更高吞吐，写法对 Node 背景的开发者相当友好。\n\n追求极致吞吐、团队来自 Node 背景、且依赖链不强绑标准库时评估；常规业务服务用 Gin 或 Echo 更稳妥。\n\nfasthttp 与 net/http 接口不兼容，大量标准库中间件与 HTTP/2 等能力无法直接复用，选它基本等于锁定生态。\n",
+  "vendorId": "gofiber",
+  "githubUrl": "https://github.com/gofiber/fiber"
+}

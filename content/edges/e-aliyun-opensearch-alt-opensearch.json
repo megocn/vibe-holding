@@ -1,0 +1,11 @@
+{
+  "id": "e-aliyun-opensearch-alt-opensearch",
+  "from": "aliyun-opensearch",
+  "to": "opensearch",
+  "type": "alternative_to",
+  "weight": 0.4,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同名不同物：阿里云托管检索产品 vs 基金会治理的开源 OpenSearch 项目"
+}

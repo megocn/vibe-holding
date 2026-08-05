@@ -1,0 +1,11 @@
+{
+  "id": "e-codegpt-alt-continue",
+  "from": "codegpt",
+  "to": "continue",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "多模型薄插件：CodeGPT 偏托管产品化，Continue 偏开源可配"
+}

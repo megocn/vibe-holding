@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "eval",
+    "prompt",
+    "enterprise"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "prompt 托管在外部引入运行期依赖，需设计降级",
+    "企业定价不透明，需商务沟通"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://humanloop.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "humanloop",
+  "name": "Humanloop",
+  "category": "ai-eval",
+  "subcategory": "prompt-management",
+  "oneLiner": "Prompt 版本管理 + 评测 · 非工程可改；偏企业协作",
+  "officialUrl": "https://humanloop.com",
+  "descriptionMd": "Humanloop 把 prompt 当作可版本化的资产管理：产品与领域专家在界面里改写并评估，工程侧通过 SDK 拉取指定版本，形成协作闭环。\n\nprompt 频繁被非工程角色调整、需要版本与评测留痕时评估。\n\n把 prompt 托管到外部平台会引入运行期依赖，需要设计好降级路径；企业方案价格不透明，需商务沟通。\n"
+}

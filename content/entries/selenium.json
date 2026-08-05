@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "browser",
+    "automation",
+    "testing",
+    "open-source"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "API 偏底层，显式等待与稳定性要自行打磨；Grid 运维成本高，调试体验落后于新一代工具。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.selenium.dev"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "selenium",
+  "name": "Selenium",
+  "category": "ai-browser",
+  "subcategory": "browser-driver",
+  "oneLiner": "W3C WebDriver 老牌方案 · 多语言多浏览器 · Grid 分布式偏重",
+  "officialUrl": "https://www.selenium.dev",
+  "descriptionMd": "Selenium 是浏览器自动化的元老，其 WebDriver 已成为 W3C 标准，覆盖 Java、Python、C# 等多语言绑定，并通过 Grid 支持大规模分布式执行。\n\n企业里已有大量历史用例、或团队栈是 Java/C# 时继续沿用最划算；新项目从零起步可直接看更现代的驱动。\n\nAPI 偏底层，显式等待与稳定性要自行打磨；Grid 运维成本高，调试体验落后于新一代工具。\n",
+  "githubUrl": "https://github.com/SeleniumHQ/selenium"
+}

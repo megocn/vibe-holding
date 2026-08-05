@@ -27,7 +27,7 @@
   "region": "overseas",
   "id": "timescaledb",
   "name": "TimescaleDB",
-  "category": "db-relational",
+  "category": "db-timeseries",
   "subcategory": "timeseries",
   "oneLiner": "PG 时序扩展 · hypertable/压缩/连续聚合 · IoT/监控 SQL 生态",
   "officialUrl": "https://www.timescale.com",

@@ -1,0 +1,11 @@
+{
+  "id": "e-debezium-dep-kafka",
+  "from": "debezium",
+  "to": "kafka",
+  "type": "depends_on",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "最常见部署形态依赖消息平台的连接器运行时；嵌入式引擎可绕开但需自己保证投递"
+}

@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "olap",
+    "domestic",
+    "cloud",
+    "realtime"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "与阿里云数据栈耦合紧，跨云迁移代价大",
+    "实例与存储按量计费，需提前测算成本"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.aliyun.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "aliyun-hologres",
+  "name": "阿里云 Hologres",
+  "category": "db-analytics",
+  "subcategory": "realtime-warehouse",
+  "oneLiner": "阿里云实时数仓 · 兼容 PostgreSQL 生态 · 与离线数仓同栈",
+  "officialUrl": "https://www.aliyun.com",
+  "descriptionMd": "Hologres 是阿里云的实时交互式分析服务，对外兼容 PostgreSQL 协议与生态，支持写入即可查与行列共存的存储形态，常与 MaxCompute、Flink 一起组成国内实时数仓链路。\n\n国内业务要合规同区的实时报表与在线分析、且已在阿里云数据栈内时评估。\n\n与云厂商数据栈耦合紧，跨云迁移要重做整条链路；实例规格与存储按量累积计费，需提前做容量与成本预估。\n",
+  "vendorId": "alibaba-cloud"
+}

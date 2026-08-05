@@ -1,0 +1,11 @@
+{
+  "id": "e-wu5118-cn-semrush",
+  "from": "wu5118",
+  "to": "semrush",
+  "type": "domestic_equivalent_of",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "中文长尾词库与国内竞品监控，对应海外关键词套件的位置"
+}

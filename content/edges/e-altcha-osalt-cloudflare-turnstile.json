@@ -1,0 +1,11 @@
+{
+  "id": "e-altcha-osalt-cloudflare-turnstile",
+  "from": "altcha",
+  "to": "cloudflare-turnstile",
+  "type": "open_source_alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同为低摩擦验证：ALTCHA 全自托管，Turnstile 依赖 Cloudflare 边缘服务"
+}

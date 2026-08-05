@@ -1,0 +1,11 @@
+{
+  "id": "e-ably-cuw-nextjs",
+  "from": "ably",
+  "to": "nextjs",
+  "type": "commonly_used_with",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "前端订阅频道、服务端路由发布事件，是 Next.js 里加实时能力的常见做法"
+}

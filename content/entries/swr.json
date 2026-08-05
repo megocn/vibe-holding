@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "data-fetching",
+    "react",
+    "cache",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "复杂缓存失效、分页与并发变更的能力弱于 TanStack Query；重度数据编排场景后期可能需要换库。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://swr.vercel.app"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "swr",
+  "name": "SWR",
+  "category": "oss-state",
+  "subcategory": "data-fetching",
+  "oneLiner": "stale-while-revalidate · API 面积极小 · Next.js 同源顺手",
+  "officialUrl": "https://swr.vercel.app",
+  "descriptionMd": "SWR 由 Vercel 维护，遵循 stale-while-revalidate 策略：先返回缓存再后台重新校验，核心就是一个 useSWR hook，配置项与概念都刻意保持精简。\n\n读多写少的页面数据、追求极小 API 面积、项目本身就在 Next.js 生态里时选用。\n\n复杂缓存失效、分页与并发变更的能力弱于 TanStack Query；重度数据编排场景后期可能需要换库。\n",
+  "vendorId": "vercel-inc",
+  "githubUrl": "https://github.com/vercel/swr"
+}

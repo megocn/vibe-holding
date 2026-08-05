@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "billing",
+    "subscription",
+    "saas",
+    "stripe"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "复杂计量与合同期改价的表达能力有限",
+    "与 Stripe 深度绑定，换通道要连计费一起重做"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://stripe.com/billing"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "stripe-billing",
+  "name": "Stripe Billing",
+  "category": "pay-billing",
+  "subcategory": "subscription",
+  "oneLiner": "跟着 Stripe 一起来的订阅引擎 · 起步最省事；深度定制受限",
+  "officialUrl": "https://stripe.com/billing",
+  "descriptionMd": "Stripe Billing 在 Stripe 支付之上补齐订阅生命周期：价目表、试用、按席位或用量计费、代金券、失败重试与发票，配套的 Customer Portal 让用户自助升降级。\n\n已经用 Stripe 收款、计费模型还落在「几档订阅 + 少量用量」范围内时，它几乎是零额外集成成本的默认解。\n\n计费规则一旦超出档位组合（阶梯定价、混合计量、合同期内改价），配置会迅速变复杂；深度绑定 Stripe 后，换支付通道意味着连计费一起重做。\n",
+  "vendorId": "stripe-inc"
+}

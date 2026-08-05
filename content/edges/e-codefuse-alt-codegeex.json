@@ -1,0 +1,11 @@
+{
+  "id": "e-codefuse-alt-codegeex",
+  "from": "codefuse",
+  "to": "codegeex",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国内开源代码模型两条线：CodeFuse 偏工具集自建，CodeGeeX 偏成品插件"
+}

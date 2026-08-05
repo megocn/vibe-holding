@@ -1,0 +1,11 @@
+{
+  "id": "e-meiqia-int-wecom",
+  "from": "meiqia",
+  "to": "wecom",
+  "type": "integrates_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "把企业微信作为会话接入渠道之一，与公众号、小程序并列"
+}

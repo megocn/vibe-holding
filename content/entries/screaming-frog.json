@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "GBP",
+    "notes": "免费版限抓取 URL 数，完整功能按年授权"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "seo",
+    "crawler",
+    "audit",
+    "desktop"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "大站抓取吃内存，需切数据库存储模式并预留磁盘。",
+    "不做关键词研究与排名跟踪，需另配云端套件。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.screamingfrog.co.uk"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "screaming-frog",
+  "name": "Screaming Frog SEO Spider",
+  "category": "growth-seo",
+  "subcategory": "site-audit",
+  "oneLiner": "本机桌面爬虫 · 技术 SEO 体检与批量抓取 · 按年授权、数据留本地",
+  "officialUrl": "https://www.screamingfrog.co.uk",
+  "descriptionMd": "Screaming Frog SEO Spider 是运行在本机的网站爬虫，抓完站点后输出标题、状态码、重定向链、canonical 与结构化数据等技术体检结果，可与搜索表现数据联合排查。\n\n站点改版迁移前后做全量比对、批量排查死链与重复元信息，或要求抓取结果留在本机不上传第三方云时优先。\n\n只做技术审计，不提供关键词研究与长期排名跟踪；大站抓取吃内存，需切换数据库存储模式并预留磁盘。\n",
+  "vendorId": "screaming-frog-ltd"
+}

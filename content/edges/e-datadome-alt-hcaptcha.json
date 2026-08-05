@@ -1,0 +1,11 @@
+{
+  "id": "e-datadome-alt-hcaptcha",
+  "from": "datadome",
+  "to": "hcaptcha",
+  "type": "alternative_to",
+  "weight": 0.45,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "层次不同：DataDome 按请求实时判定并按需弹挑战，hCaptcha 只是表单处的验证挂件"
+}

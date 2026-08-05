@@ -1,0 +1,11 @@
+{
+  "id": "e-buttondown-alt-beehiiv",
+  "from": "buttondown",
+  "to": "beehiiv",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "极简写作与数据可迁出 vs 媒体化增长与变现工具箱"
+}

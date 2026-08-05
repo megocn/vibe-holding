@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD",
+    "notes": "定价不公开，需商务沟通"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "billing",
+    "usage-based",
+    "ai",
+    "saas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "结果准确性完全依赖上游事件采集质量",
+    "面向成长期团队，早期项目偏重"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.withorb.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "orb",
+  "name": "Orb",
+  "category": "pay-billing",
+  "subcategory": "usage-based",
+  "oneLiner": "用量计费专精 · 事件流即账单；需先理清计量口径",
+  "officialUrl": "https://www.withorb.com",
+  "descriptionMd": "Orb 以事件流为输入做用量计费：原始事件进来，按可版本化的定价规则聚合成账单，支持阶梯、封顶、预付额度与合同价，并保留可回溯的计算过程。\n\nAI 或基础设施类产品按 token、请求、时长这类连续量计费，且价目会频繁调整、需要对账可解释时优先。\n\n价值高度依赖上游事件采集的完整与准确，埋点漏了账就不准；面向成长期以上团队，早期项目容易觉得偏重。\n",
+  "vendorId": "orb-inc"
+}

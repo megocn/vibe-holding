@@ -1,0 +1,11 @@
+{
+  "id": "e-apache-airflow-alt-inngest",
+  "from": "apache-airflow",
+  "to": "inngest",
+  "type": "alternative_to",
+  "weight": 0.4,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "不同层：批处理 DAG 回填重跑 vs 应用事件驱动的持久化函数，选型问题不同"
+}

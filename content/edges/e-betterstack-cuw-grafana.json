@@ -1,0 +1,11 @@
+{
+  "id": "e-betterstack-cuw-grafana",
+  "from": "betterstack",
+  "to": "grafana",
+  "type": "commonly_used_with",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "托管告警与值班 vs 自建可视化中枢；常见做法是拨测告警外接、图表留在 Grafana"
+}

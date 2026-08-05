@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD",
+    "notes": "开源框架免费；托管运行随底层边缘平台计费"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "realtime",
+    "edge",
+    "websocket",
+    "open-source"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "受边缘运行时约束：连接时长、内存与依赖都有限制",
+    "已并入 Cloudflare 体系，长期产品形态可能调整"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.partykit.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "partykit",
+  "name": "PartyKit",
+  "category": "msg-realtime",
+  "subcategory": "edge-realtime",
+  "oneLiner": "边缘有状态房间 · 一段服务端代码即一个房间 · Cloudflare 系",
+  "officialUrl": "https://www.partykit.io",
+  "descriptionMd": "PartyKit 把实时应用抽象成「房间」：每个房间是一段跑在边缘的有状态服务端代码，天然处理连接、广播与持久状态，底座是 Cloudflare 的 Durable Objects 与 Workers。\n\n做多人游戏、协同白板或 AI 应用的实时会话，且愿意把逻辑写在边缘运行时里时评估；纯消息分发用 Pusher，协同组件用 Liveblocks。\n\n运行时受边缘平台约束，长连接时长、内存与依赖都有限制；项目已并入 Cloudflare 体系，长期形态可能随之调整，重要项目留好迁移预案。\n",
+  "vendorId": "partykit-inc",
+  "githubUrl": "https://github.com/partykit/partykit"
+}

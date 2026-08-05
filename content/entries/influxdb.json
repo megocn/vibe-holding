@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "timeseries",
+    "database",
+    "metrics",
+    "iot"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "大版本间查询语言与生态不兼容",
+    "开源版与云版能力有差距"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.influxdata.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "influxdb",
+  "name": "InfluxDB",
+  "category": "db-timeseries",
+  "subcategory": "timeseries-db",
+  "oneLiner": "老牌专用时序库 · 新代际转向列存与 SQL · 版本差异明显",
+  "officialUrl": "https://www.influxdata.com",
+  "descriptionMd": "InfluxDB 是使用最广的专用时序数据库之一，早期以自有查询语言与时序存储引擎为主，新一代内核转向列式文件格式并重新拥抱 SQL，同时提供开源版与云托管版本。\n\n监控指标、设备采集与业务时序数据需要专用存储、保留策略与降采样管理时评估。\n\n不同大版本的查询语言与生态差异很大，选版本前先确认客户端与仪表盘是否兼容；开源版与云版能力并不等同。\n",
+  "vendorId": "influxdata-inc"
+}

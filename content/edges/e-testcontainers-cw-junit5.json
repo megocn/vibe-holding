@@ -1,0 +1,11 @@
+{
+  "id": "e-testcontainers-cw-junit5",
+  "from": "testcontainers",
+  "to": "junit5",
+  "type": "commonly_used_with",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "JUnit 5 编排用例生命周期，Testcontainers 负责起停真实依赖"
+}

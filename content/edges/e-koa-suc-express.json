@@ -1,0 +1,11 @@
+{
+  "id": "e-koa-suc-express",
+  "from": "koa",
+  "to": "express",
+  "type": "succeeds",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Express 原班团队的后继设计：以 async/await 洋葱模型替代回调式中间件"
+}

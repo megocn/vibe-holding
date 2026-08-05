@@ -1,0 +1,11 @@
+{
+  "id": "e-meilisearch-osalt-algolia",
+  "from": "meilisearch",
+  "to": "algolia",
+  "type": "open_source_alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "开源即时搜索、DX 接近 vs 托管 SaaS 的排序规则与分析后台"
+}

@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD",
+    "notes": "多为一事一议报价，需索取书面方案"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "eor",
+    "global-hiring",
+    "payroll",
+    "enterprise"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "自助化与产品体验弱于新一代平台",
+    "定价多为一事一议，比价前需拿到书面报价与终止条款"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://velocityglobal.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "velocity-global",
+  "name": "Velocity Global",
+  "category": "global-hire",
+  "subcategory": "eor",
+  "oneLiner": "顾问式跨国雇佣 · EOR/外派/复杂税务架构 · 报价多为一事一议",
+  "officialUrl": "https://velocityglobal.com",
+  "descriptionMd": "Velocity Global 提供 EOR 名义雇主、全球薪资与承包商合规服务，风格更接近传统企业外包交付，常在需要顾问式支持与复杂跨国用工架构时出现。\n\n跨国集团要处理并购留任、员工外派、复杂税务架构等非标场景，且愿意走客户经理沟通路径时评估；追求自助开通与透明定价请看新一代平台。\n\n自助化程度与产品体验弱于新一代平台；条款与定价多为一事一议，比价时务必拿到书面报价、SLA 与终止条款。\n",
+  "vendorId": "velocity-global-inc"
+}

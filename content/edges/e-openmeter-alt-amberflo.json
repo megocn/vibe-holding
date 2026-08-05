@@ -1,0 +1,11 @@
+{
+  "id": "e-openmeter-alt-amberflo",
+  "from": "openmeter",
+  "to": "amberflo",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "开源自托管计量 vs 托管计量与计费一体"
+}

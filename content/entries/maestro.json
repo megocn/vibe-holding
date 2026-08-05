@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "test",
+    "mobile",
+    "e2e",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "YAML 表达力有限，复杂条件与数据构造不便；黑盒驱动拿不到应用内部状态，定位失败原因依赖录屏与日志。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/mobile-dev-inc/Maestro"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "maestro",
+  "name": "Maestro",
+  "category": "oss-testing",
+  "subcategory": "mobile-test",
+  "oneLiner": "YAML 描述移动端 UI 流 · 内建等待容错 · 跨原生与跨端框架",
+  "officialUrl": "https://github.com/mobile-dev-inc/Maestro",
+  "descriptionMd": "Maestro 用 YAML 声明移动端 UI 流程，内建对元素加载与动画的等待容错，不要求把探针编译进 App，iOS/Android 原生与 React Native、Flutter 等跨端产物都能驱动。\n\n移动端冒烟与关键路径回归、希望非开发同学也能读懂用例时使用；需要深入 App 内部状态的白盒断言则另选。\n\nYAML 表达力有限，复杂条件与数据构造不便；黑盒驱动拿不到应用内部状态，定位失败原因依赖录屏与日志。\n",
+  "vendorId": "mobile-dev-inc"
+}

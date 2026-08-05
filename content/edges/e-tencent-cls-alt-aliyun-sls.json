@@ -1,0 +1,11 @@
+{
+  "id": "e-tencent-cls-alt-aliyun-sls",
+  "from": "tencent-cls",
+  "to": "aliyun-sls",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国内两朵云的日志服务对照：跟随主体资源所在云选，跨云使用不划算"
+}

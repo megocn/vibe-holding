@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "EUR"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cloud",
+    "iaas",
+    "europe",
+    "serverless"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "区域集中欧洲，亚太覆盖有限",
+    "第三方生态集成少于超大规模云"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.scaleway.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "scaleway",
+  "name": "Scaleway",
+  "category": "cloud-iaas",
+  "subcategory": "developer-cloud",
+  "oneLiner": "法国云 · Serverless 与 GPU 起步早；区域集中在欧洲",
+  "officialUrl": "https://www.scaleway.com",
+  "descriptionMd": "Scaleway 是法国云厂商，在 Serverless 容器、托管 Kubernetes 与 GPU 实例上动作较早，定价与控制台对开发者友好。\n\n业务面向欧洲、想要欧盟主体的云服务，或要用其 Serverless 与 GPU 能力时评估；与 scaleway-serverless 同栈。\n\n区域基本集中在欧洲，亚太与美洲覆盖有限；生态与第三方集成远不如超大规模云丰富。\n",
+  "vendorId": "scaleway-inc"
+}

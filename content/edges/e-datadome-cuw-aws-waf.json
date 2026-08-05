@@ -1,0 +1,11 @@
+{
+  "id": "e-datadome-cuw-aws-waf",
+  "from": "datadome",
+  "to": "aws-waf",
+  "type": "commonly_used_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "WAF 规则层先过滤已知恶意特征，DataDome 再做行为级 Bot 判定"
+}

@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "privacy",
+    "gdpr",
+    "consent",
+    "compliance"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "模块化销售，实施与培训周期长，小团队用不满模块仍要付整包价。",
+    "同意脚本较重，会拖慢首屏并影响埋点采集口径。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.onetrust.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "onetrust",
+  "name": "OneTrust",
+  "category": "sec-compliance",
+  "subcategory": "privacy-consent",
+  "oneLiner": "企业级隐私治理 · 同意管理/数据地图/数据主体请求全覆盖",
+  "officialUrl": "https://www.onetrust.com",
+  "descriptionMd": "OneTrust 是企业级隐私与治理平台，覆盖 Cookie 同意管理、数据地图、数据主体请求处理、第三方风险与合规评估，是大型组织落地 GDPR、CCPA 等法规的常见底座。\n\n组织已有法务与隐私岗、要统一治理多品牌多站点的同意与数据流时选它；只想生成一份隐私政策与 Cookie 横幅的小团队，用 iubenda、Termly 更划算。\n\n工具只是流程助手，合规责任与审计结论仍在组织与审计机构一侧；模块多、实施与培训成本高，同意脚本体积对首屏性能有实际影响。\n",
+  "vendorId": "onetrust-inc"
+}

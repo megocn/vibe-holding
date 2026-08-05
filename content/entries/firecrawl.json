@@ -24,7 +24,7 @@
   "region": "overseas",
   "id": "firecrawl",
   "name": "Firecrawl",
-  "category": "ai-rag",
+  "category": "ai-search-api",
   "subcategory": "web-scrape-llm",
   "oneLiner": "URL→markdown/结构化 · 处理 JS 渲染站 · RAG ingest 专用",
   "officialUrl": "https://www.firecrawl.dev",

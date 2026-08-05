@@ -32,7 +32,7 @@
   "region": "overseas",
   "id": "electron",
   "name": "Electron",
-  "category": "fw-fullstack",
+  "category": "fw-cross-platform",
   "subcategory": "desktop",
   "oneLiner": "Chromium+Node 桌面 · VS Code/Slack 同栈 · 生态最成熟",
   "officialUrl": "https://www.electronjs.org",

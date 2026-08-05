@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "browser",
+    "automation",
+    "cloud"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "并发额度与套餐强绑定，超量成本上升快；平台较年轻，接口与文档变动频率高于老牌厂商。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.hyperbrowser.ai"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "hyperbrowser",
+  "name": "Hyperbrowser",
+  "category": "ai-browser",
+  "subcategory": "hosted-browser",
+  "oneLiner": "云端浏览器池 · 并发会话/反检测/内置抓取端点 · Agent SDK",
+  "officialUrl": "https://www.hyperbrowser.ai",
+  "descriptionMd": "Hyperbrowser 提供可批量并发的云端浏览器实例，除会话控制外还封装了抓取、结构化提取等现成端点，把「开浏览器」和「取数据」放进同一套 SDK。\n\n需要几十上百个会话同时跑、又不想分别接抓取 API 时评估；只要单会话精细操控，Browserbase 这类更纯粹。\n\n并发额度与套餐强绑定，超量成本上升快；平台较年轻，接口与文档变动频率高于老牌厂商。\n",
+  "vendorId": "hyperbrowser-inc"
+}

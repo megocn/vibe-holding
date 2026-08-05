@@ -1,0 +1,11 @@
+{
+  "id": "e-autodl-deq-vast-ai",
+  "from": "autodl",
+  "to": "vast-ai",
+  "type": "domestic_equivalent_of",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国内按小时租卡、镜像与支付本地化，无需跨境网络；规模与型号选择更有限"
+}

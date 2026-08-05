@@ -1,0 +1,11 @@
+{
+  "id": "e-runpod-alt-together-ai",
+  "from": "runpod",
+  "to": "together-ai",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "按小时租卡自建服务 vs 按 token 调现成 API：前者边际成本低、后者零运维"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-cody-alt-github-copilot",
+  "from": "cody",
+  "to": "github-copilot",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "跨仓检索型上下文 vs 深度绑定 GitHub 生态"
+}

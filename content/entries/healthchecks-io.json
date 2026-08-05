@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD",
+    "notes": "自托管免费开源；官方托管版按项目档位订阅"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "uptime",
+    "cron",
+    "open-source",
+    "self-host"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "只覆盖心跳，不做浏览器流程与深层探测",
+    "自托管时需保证告警通道可用，否则监控自身成盲区"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://healthchecks.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "healthchecks-io",
+  "name": "Healthchecks.io",
+  "category": "obs-uptime",
+  "subcategory": "cron-heartbeat",
+  "oneLiner": "开源 cron 心跳 · 一个 URL 即接入 · 可完全自托管",
+  "officialUrl": "https://healthchecks.io",
+  "descriptionMd": "Healthchecks.io 是专注定时任务心跳的开源项目：给每个作业分配一个 URL，脚本跑完 curl 一下即可，逾期未报到就触发通知，托管版与自托管版功能基本一致。\n\n运维脚本、备份任务与数据管道需要「没跑就告警」的兜底时接入成本最低；要一并管理网站拨测与状态页，再叠 UptimeRobot 或 Cronitor。\n\n只覆盖心跳这一件事，不做浏览器流程与深层探测；自托管版本需要自己保证告警通道与数据库可用，否则监控系统自身成了盲区。\n",
+  "vendorId": "healthchecks-io-inc",
+  "githubUrl": "https://github.com/healthchecks/healthchecks"
+}

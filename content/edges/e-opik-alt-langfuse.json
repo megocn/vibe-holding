@@ -1,0 +1,11 @@
+{
+  "id": "e-opik-alt-langfuse",
+  "from": "opik",
+  "to": "langfuse",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "评测与追踪一体 vs 专做线上追踪；都可自托管"
+}

@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "compliance",
+    "soc2",
+    "security",
+    "audit"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "按框架与员工数计价，团队扩张后续费成本上升明显。",
+    "更换平台时历史证据迁移麻烦，退订前要先完成导出。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://drata.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "drata",
+  "name": "Drata",
+  "category": "sec-compliance",
+  "subcategory": "compliance-automation",
+  "oneLiner": "合规自动化 · 控制测试颗粒度细 · 多框架并行 · 审计师协作区",
+  "officialUrl": "https://drata.com",
+  "descriptionMd": "Drata 同样做安全合规自动化，把 SOC 2、ISO 27001、GDPR、PCI DSS 等框架的控制项接到云、代码仓库与人事系统做持续测试，并提供审计师协作工作区与对外信任中心页面。\n\n需要同时准备多张证书、希望控制测试更细且审计过程留痕完整时，与 Vanta 一起进短名单做 POC；两者能力重叠度高，差别多在集成覆盖与服务方式。\n\n工具只是流程助手，出证仍由审计机构完成；按框架与人数计价，团队扩张后续费涨幅明显，退订前务必先导出证据留存。\n",
+  "vendorId": "drata-inc"
+}

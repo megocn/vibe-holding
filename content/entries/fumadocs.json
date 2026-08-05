@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "docs",
+    "nextjs",
+    "mdx",
+    "react"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "版本迭代快，约定仍在演进",
+    "中文资料与生产案例较少"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://fumadocs.dev"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "fumadocs",
+  "name": "Fumadocs",
+  "category": "fw-docs-site",
+  "subcategory": "docs-generator",
+  "oneLiner": "Next.js 文档框架 · 内容源与 UI 分层可换 · 组件现代 · 生态年轻",
+  "officialUrl": "https://fumadocs.dev",
+  "descriptionMd": "Fumadocs 是 Next.js 生态中较新的文档框架，把内容源、界面组件与搜索拆成可替换的层，默认主题现代，也支持依据 OpenAPI 生成接口文档页。\n\n要在 Next.js 上做文档站、又嫌 Nextra 定制空间不足且愿意跟进较快迭代时评估。\n\n项目年轻，API 与目录约定仍在演进，升级需读迁移文档；中文资料与线上案例较少。\n",
+  "vendorId": "fumadocs-team",
+  "githubUrl": "https://github.com/fuma-nama/fumadocs"
+}

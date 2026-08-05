@@ -31,5 +31,5 @@
   "oneLiner": "国内合规事务/批量邮件 · 阿里云生态对接 · 备案站常用",
   "officialUrl": "https://www.aliyun.com/product/directmail",
   "descriptionMd": "阿里云 DirectMail 提供国内合规的事务邮件与批量通知，控制台与 API 对接阿里云生态，适合备案站点。\n\n面向国内用户的发票、验证码、运营通知且服务器在阿里云时选用。\n\n海外收件送达与模板审核规则需单独确认；营销与事务通道要分离。\n",
-  "vendorId": "aliyun"
+  "vendorId": "alibaba"
 }

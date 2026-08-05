@@ -1,0 +1,11 @@
+{
+  "id": "e-chargebee-alt-stripe-billing",
+  "from": "chargebee",
+  "to": "stripe-billing",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "通道无关的计费中台 vs 绑定 Stripe 的省事方案"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-wechat-miniprogram-cuw-taro",
+  "from": "wechat-miniprogram",
+  "to": "taro",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "用 React 语法一套代码编译到多端小程序，避免为每个平台重写业务层"
+}

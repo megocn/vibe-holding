@@ -1,0 +1,11 @@
+{
+  "id": "e-cloudron-alt-yunohost",
+  "from": "cloudron",
+  "to": "yunohost",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "订阅制托管体验 vs 完全免费的个人自建发行版"
+}

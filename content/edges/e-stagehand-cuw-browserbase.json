@@ -1,0 +1,11 @@
+{
+  "id": "e-stagehand-cuw-browserbase",
+  "from": "stagehand",
+  "to": "browserbase",
+  "type": "commonly_used_with",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同一家出品：Stagehand 表达操作语义，Browserbase 提供托管会话与出口 IP"
+}

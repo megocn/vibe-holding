@@ -1,0 +1,11 @@
+{
+  "id": "e-fluent-bit-alt-logstash",
+  "from": "fluent-bit",
+  "to": "logstash",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "轻量转发首选 vs JVM 重解析：Grok 富化强但资源开销大"
+}

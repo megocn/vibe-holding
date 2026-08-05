@@ -1,0 +1,11 @@
+{
+  "id": "e-symfony-alt-laravel",
+  "from": "symfony",
+  "to": "laravel",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "PHP 两大框架：Symfony 组件化可单取且约定严格，Laravel 开发体验与全家桶更顺"
+}

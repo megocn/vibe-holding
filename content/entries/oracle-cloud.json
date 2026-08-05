@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cloud",
+    "iaas",
+    "free-tier",
+    "enterprise"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "免费 Arm 实例常因容量不足开不出来",
+    "风控较严，账号存在被回收的社区反馈"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.oracle.com/cloud"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "oracle-cloud",
+  "name": "Oracle Cloud",
+  "category": "cloud-iaas",
+  "subcategory": "developer-cloud",
+  "oneLiner": "永久免费额度大方 · Arm 实例慷慨；开通与风控门槛高",
+  "officialUrl": "https://www.oracle.com/cloud",
+  "descriptionMd": "Oracle Cloud Infrastructure 以慷慨的永久免费额度（尤其 Arm 计算）在开发者中出名，企业侧则主打 Oracle 数据库与 ERP 同栈。\n\n想低成本跑常驻小服务、或企业已深度使用 Oracle 数据库时评估。\n\n免费实例常因区域容量不足而长期开不出来，账号也可能因风控被回收；控制台概念（区间、策略）自成一套，上手成本高。\n",
+  "vendorId": "oracle"
+}

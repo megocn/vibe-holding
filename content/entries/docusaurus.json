@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "docs",
+    "react",
+    "static-site",
+    "mdx"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "依赖较重，大型站点构建耗时长",
+    "深度定制主题需掌握 swizzle 机制"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://docusaurus.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "docusaurus",
+  "name": "Docusaurus",
+  "category": "fw-docs-site",
+  "subcategory": "docs-generator",
+  "oneLiner": "Meta 开源文档框架 · React/MDX · 版本化与多语内建 · 构建偏重",
+  "officialUrl": "https://docusaurus.io",
+  "descriptionMd": "Docusaurus 是 Meta 开源的文档站框架，基于 React 与 MDX，把多版本文档、国际化、站内搜索与博客模块做成开箱能力，最终产出纯静态站点。\n\n开源项目或产品要长期维护带版本与多语的文档时，是最稳妥的默认选择；只做一份轻量说明则显得偏重。\n\n依赖与构建较重，大站增量构建慢；深度定制主题需要理解 React 与 swizzle 机制，改造成本不低。\n",
+  "vendorId": "meta",
+  "githubUrl": "https://github.com/facebook/docusaurus"
+}

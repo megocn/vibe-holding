@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "captcha",
+    "bot",
+    "google",
+    "security"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "中国大陆访问 google.com 资源不畅，国内用户常见验证码不加载；换 recaptcha.net 域也不保证稳定。",
+    "v3 只返回风险分数，阈值与拦截动作要业务自行实现和调优。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.google.com/recaptcha/"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "recaptcha",
+  "name": "reCAPTCHA",
+  "category": "sec-bot-captcha",
+  "subcategory": "captcha-widget",
+  "oneLiner": "Google 老牌验证码 · v3 无感打分 · 中国大陆加载不畅",
+  "officialUrl": "https://www.google.com/recaptcha/",
+  "descriptionMd": "reCAPTCHA 是 Google 的人机验证服务：v2 走勾选与图片挑战，v3 用行为打分返回风险值交业务决策，文档与各语言框架封装最齐全，Enterprise 版走 Google Cloud 计费。\n\n站点主要面向海外、希望用最常见方案快速接入时选它；国内站点要么改用 recaptcha.net 域名，要么直接换极验或 Turnstile。\n\ngoogle.com 域在中国大陆访问不畅，国内用户会卡在验证码加载不出——这是国内站点的真实坑；v3 只给分数，拦不拦仍要自己写策略。\n",
+  "vendorId": "google",
+  "docsUrl": "https://developers.google.com/recaptcha"
+}

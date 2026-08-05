@@ -1,0 +1,11 @@
+{
+  "id": "e-orama-alt-meilisearch",
+  "from": "orama",
+  "to": "meilisearch",
+  "type": "alternative_to",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "索引内嵌进浏览器与边缘运行时 vs 独立检索服务；量级与部署形态不同"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-nebulagraph-cuw-llamaindex",
+  "from": "nebulagraph",
+  "to": "llamaindex",
+  "type": "commonly_used_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "知识图谱索引场景的国内常见搭配；图 schema 设计比框架选择更影响效果"
+}

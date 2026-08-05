@@ -1,0 +1,11 @@
+{
+  "id": "e-coderabbit-alt-greptile",
+  "from": "coderabbit",
+  "to": "greptile",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "逐行评论加摘要、上手快 vs 整仓索引、专抓跨文件影响"
+}

@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "search",
+    "open-source",
+    "javascript",
+    "edge"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "索引常驻内存，不适合大规模语料",
+    "开源核心与云端托管能力并不等同"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://orama.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "orama",
+  "name": "Orama",
+  "category": "db-search",
+  "subcategory": "embedded-search",
+  "oneLiner": "TypeScript 内嵌检索 · 浏览器与边缘可跑 · 全文加向量混合查",
+  "officialUrl": "https://orama.com",
+  "descriptionMd": "Orama 是用 TypeScript 写的轻量搜索引擎，索引可以直接跑在浏览器、Node 与边缘运行时里，支持全文、向量与混合检索，另有面向团队的云端托管产品线。\n\n文档站与前端应用要把小体量索引随包分发，或在 Serverless、边缘节点就近完成检索时选它。\n\n索引需要整体装入内存，语料一大就不适用；开源核心与云服务能力有差别，API 迭代较快，升级要读变更说明。\n",
+  "vendorId": "orama-inc"
+}

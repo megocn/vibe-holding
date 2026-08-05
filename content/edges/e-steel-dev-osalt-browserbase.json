@@ -1,0 +1,11 @@
+{
+  "id": "e-steel-dev-osalt-browserbase",
+  "from": "steel-dev",
+  "to": "browserbase",
+  "type": "open_source_alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Steel 的浏览器服务端可自托管，适合数据不便出境；Browserbase 只提供托管形态"
+}

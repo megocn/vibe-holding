@@ -1,0 +1,11 @@
+{
+  "id": "e-questdb-alt-influxdb",
+  "from": "questdb",
+  "to": "influxdb",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "SQL 优先、写入吞吐取向，并兼容常见时序行协议接入，便于从 Influx 侧切换"
+}

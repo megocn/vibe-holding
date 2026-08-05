@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "seo",
+    "search-console",
+    "free",
+    "microsoft"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "数据仅覆盖 Bing 自身，不能代表整体搜索表现。",
+    "IndexNow 推送不等于收录，仍受内容质量判定影响。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.bing.com/webmasters"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "bing-webmaster-tools",
+  "name": "Bing 网站管理员工具",
+  "category": "growth-seo",
+  "subcategory": "search-console",
+  "oneLiner": "Bing 官方索引与搜索表现 · 支持 IndexNow 主动推送 · 完全免费",
+  "officialUrl": "https://www.bing.com/webmasters",
+  "descriptionMd": "Bing 网站管理员工具是微软提供的官方搜索表现面板：提交站点地图、查看抓取与索引状态、观察关键词展现与点击，并支持 IndexNow 协议把新增或更新的 URL 主动推给搜索侧。\n\n面向英文市场、或希望内容被 Bing 及其驱动的问答类入口收录时，与 Google Search Console 并行接入，成本只是多做一次域名验证。\n\n只反映 Bing 自身数据，流量盘子远小于 Google；不要用它的指标替代 GSC 判断整体搜索表现。\n",
+  "vendorId": "microsoft"
+}

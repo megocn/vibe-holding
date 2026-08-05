@@ -1,0 +1,11 @@
+{
+  "id": "e-harmonyos-atomic-service-alt-huawei-appgallery",
+  "from": "harmonyos-atomic-service",
+  "to": "huawei-appgallery",
+  "type": "alternative_to",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同在华为生态内的两种形态：元服务免安装、走卡片与服务中心；应用市场是安装型应用分发"
+}

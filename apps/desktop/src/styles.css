@@ -622,8 +622,9 @@ span.vh-mono,
 .vh-home-hero {
   position: relative;
   isolation: isolate;
+  /* 高度跟文案走；flex-shrink:0 避免在 .vh-home 列 flex 里被压扁到看不见 */
+  flex-shrink: 0;
   min-height: 220px;
-  max-height: 260px;
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -933,11 +934,15 @@ span.vh-mono,
     grid-template-columns: 1fr;
   }
   .vh-home-hero {
+    /* 仍禁止收缩；去掉 max-height 以免裁切，min-height 仅保有气氛下限 */
     min-height: 200px;
-    max-height: 240px;
+    align-items: flex-start;
   }
   .vh-home-hero-copy {
-    padding: 18px 20px 20px;
+    padding: 16px 20px 18px;
+  }
+  .vh-home-hero-art {
+    object-position: 78% 40%;
   }
 }
 .vh-home-lane-head {
@@ -4071,8 +4076,15 @@ span.vh-mono,
   }
   .vh-home-hero-copy {
     max-width: 100%;
-    padding: 18px 16px 20px;
+    padding: 14px 16px 16px;
     box-sizing: border-box;
+  }
+  .vh-home-brand {
+    margin-bottom: 8px;
+  }
+  .vh-home-cta {
+    margin-top: 12px;
+    gap: 6px;
   }
   .vh-home-lanes {
     grid-template-columns: 1fr;

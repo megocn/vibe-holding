@@ -1,0 +1,11 @@
+{
+  "id": "e-auth0-int-recaptcha",
+  "from": "auth0",
+  "to": "recaptcha",
+  "type": "integrates_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Auth0 的 Bot Detection 可挂接 reCAPTCHA 挑战；面向大陆用户要注意加载问题"
+}

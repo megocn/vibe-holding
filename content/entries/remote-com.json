@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD",
+    "notes": "EOR 与承包商分别按人月计费，以官网报价为准"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "eor",
+    "payroll",
+    "global-hiring",
+    "compliance"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "自有实体覆盖并非全球均等，小众国家仍可能走合作方",
+    "福利包与终止条款逐国不同，需要书面确认目标国方案"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://remote.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "remote-com",
+  "name": "Remote",
+  "category": "global-hire",
+  "subcategory": "eor",
+  "oneLiner": "自有实体网络 · EOR/承包商/全球薪资闭环 · 合规链条不层层转包",
+  "officialUrl": "https://remote.com",
+  "descriptionMd": "Remote 在多国自建本地实体来提供 EOR、承包商管理与全球薪资，强调用自有实体而非第三方转包承接雇佣关系，合同、福利与个税在同一后台闭环。\n\n当你在意「服务商在当地是否有自有实体」「数据与责任链条是否层层外包」时，把它与 Deel 放在一起横向比；它位于用人合规层，不替代主体注册与跨境收款工具。\n\n覆盖国家清单与自有实体分布会随时间变化；小众国家的福利包可能受限，签约前索要目标国的具体方案、终止条款与数据处理方名单。\n",
+  "vendorId": "remote-com-inc"
+}

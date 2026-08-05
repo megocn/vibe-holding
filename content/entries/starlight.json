@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "docs",
+    "astro",
+    "static-site",
+    "performance"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "插件生态规模小于 Docusaurus",
+    "多版本文档需依赖社区方案"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://starlight.astro.build"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "starlight",
+  "name": "Starlight",
+  "category": "fw-docs-site",
+  "subcategory": "docs-generator",
+  "oneLiner": "Astro 官方文档主题 · 默认近零 JS · 可混用任意前端框架组件",
+  "officialUrl": "https://starlight.astro.build",
+  "descriptionMd": "Starlight 是 Astro 官方的文档站方案，借岛屿架构默认输出近乎零 JavaScript 的页面，同时允许在页面内嵌入 React、Vue 或 Svelte 组件，并内建多语与站内搜索。\n\n追求加载性能与轻量产物，或团队前端框架不统一、希望文档不被某一框架绑死时是很好的折中。\n\n生态围绕 Astro，插件数量少于 Docusaurus；版本化文档需借助社区方案，不如内建能力省心。\n",
+  "vendorId": "astro-inc",
+  "githubUrl": "https://github.com/withastro/starlight"
+}

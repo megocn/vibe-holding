@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "seo",
+    "keyword",
+    "domestic",
+    "chinese"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "权重与流量为平台自定义估算口径，跨平台不可比。",
+    "导出条数与高级功能按套餐分级，容易低估采购成本。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.5118.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "wu5118",
+  "name": "5118",
+  "category": "growth-seo",
+  "subcategory": "keyword-research",
+  "oneLiner": "中文关键词与长尾词挖掘 · 竞品词库与收录监控 · 套餐分级明显",
+  "officialUrl": "https://www.5118.com",
+  "descriptionMd": "5118 是国内老牌 SEO 数据平台，提供中文关键词与长尾词挖掘、竞品站点词库、收录与排名监控等能力，词库与语料以中文搜索场景为主，适合做规模化选题输入。\n\n做中文内容选题、需要成规模的长尾词库，或想监控国内竞品站点表现时评估；官方索引提交与抓取诊断仍要回到百度搜索资源平台。\n\n数据为第三方估算，权重类指标不是搜索引擎口径；高级功能与导出条数按套餐分级，采购前核对配额。\n",
+  "vendorId": "wu5118-inc"
+}

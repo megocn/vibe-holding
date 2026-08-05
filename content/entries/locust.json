@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "test",
+    "performance",
+    "python",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "压测机本身可能先于被测服务成为瓶颈；默认 HTTP 客户端性能有限，高压场景需换用更快的客户端实现。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://locust.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "locust",
+  "name": "Locust",
+  "category": "oss-testing",
+  "subcategory": "load-test",
+  "oneLiner": "Python 写压测行为 · 协程并发 · 自带实时 Web UI",
+  "officialUrl": "https://locust.io",
+  "descriptionMd": "Locust 用 Python 代码描述用户行为，基于协程驱动并发，自带实时 Web UI 观察并发数与响应分布，支持 master/worker 分布式扩展压力。\n\n团队以 Python 为主、压测逻辑需要复杂分支或复用业务 SDK 时优先；纯接口基准压测用 k6 更轻。\n\n压测机本身可能先于被测服务成为瓶颈；默认 HTTP 客户端性能有限，高压场景需换用更快的客户端实现。\n",
+  "githubUrl": "https://github.com/locustio/locust"
+}

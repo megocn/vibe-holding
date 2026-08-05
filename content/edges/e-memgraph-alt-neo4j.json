@@ -1,0 +1,11 @@
+{
+  "id": "e-memgraph-alt-neo4j",
+  "from": "memgraph",
+  "to": "neo4j",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同用 Cypher，但内存优先主打毫秒级实时图查询；容量受内存限制"
+}

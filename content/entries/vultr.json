@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cloud",
+    "iaas",
+    "vps",
+    "global"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "托管型中间件少，运维靠自己",
+    "各机房网络质量差异明显，上线前实测"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.vultr.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "vultr",
+  "name": "Vultr",
+  "category": "cloud-iaas",
+  "subcategory": "developer-cloud",
+  "oneLiner": "全球节点多 · 按小时计费灵活；托管服务面较薄",
+  "officialUrl": "https://www.vultr.com",
+  "descriptionMd": "Vultr 提供覆盖面广的云主机与裸金属节点，按小时计费、开机即用，近年也补上了托管 Kubernetes 与 GPU 实例。\n\n需要在冷门地区落节点、做多地部署测试或短期算力时评估；与 DigitalOcean、Linode 属同层可直接横比。\n\n托管型中间件与数据库选择少，运维仍靠自己；部分节点的网络质量随机房差异明显，上线前先实测。\n",
+  "vendorId": "vultr-inc"
+}

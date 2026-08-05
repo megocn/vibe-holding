@@ -1,0 +1,11 @@
+{
+  "id": "e-fumadocs-bo-nextjs",
+  "from": "fumadocs",
+  "to": "nextjs",
+  "type": "built_on",
+  "weight": 0.85,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同样构建在 Next.js 之上，但内容源与 UI 层可替换"
+}

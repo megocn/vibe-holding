@@ -1,0 +1,11 @@
+{
+  "id": "e-papaya-global-alt-velocity-global",
+  "from": "papaya-global",
+  "to": "velocity-global",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同为企业级路线：Papaya 偏全球薪资与付款报表，Velocity 偏顾问式非标用工架构"
+}

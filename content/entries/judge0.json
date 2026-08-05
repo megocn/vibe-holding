@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "sandbox",
+    "judge",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "面向短程序，不适合长驻或重依赖工程",
+    "自托管需自行配置资源隔离与配额"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://judge0.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "judge0",
+  "name": "Judge0",
+  "category": "ai-sandbox",
+  "subcategory": "code-judge",
+  "oneLiner": "多语言代码判题引擎 · 六十余种语言；面向短程序",
+  "officialUrl": "https://judge0.com",
+  "descriptionMd": "Judge0 是开源的在线代码执行与判题引擎，支持数十种语言的编译与运行，可自托管也有托管 API，长期用于教育与面试平台。\n\n需要批量跑短程序并拿到标准输出、退出码与耗时，例如判题、代码题评测或模型代码能力测评时评估。\n\n面向一次性短程序，不适合长驻服务或复杂依赖工程；自托管时资源隔离与配额必须自己配好。\n"
+}

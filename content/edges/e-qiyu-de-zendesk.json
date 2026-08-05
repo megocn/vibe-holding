@@ -1,0 +1,11 @@
+{
+  "id": "e-qiyu-de-zendesk",
+  "from": "qiyu",
+  "to": "zendesk",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国内工单/呼叫中心镜像：本地化与资质合规更省事，生态开放度低一档"
+}

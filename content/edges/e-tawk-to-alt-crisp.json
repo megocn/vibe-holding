@@ -1,0 +1,11 @@
+{
+  "id": "e-tawk-to-alt-crisp",
+  "from": "tawk-to",
+  "to": "crisp",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Tawk.to 核心功能免费但带品牌露出，Crisp 付费换更完整的插件与体验"
+}

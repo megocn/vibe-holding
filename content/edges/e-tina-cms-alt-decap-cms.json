@@ -1,0 +1,11 @@
+{
+  "id": "e-tina-cms-alt-decap-cms",
+  "from": "tina-cms",
+  "to": "decap-cms",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同为 Git 存内容：TinaCMS 有可视化实时编辑与可选云端，Decap 纯前端配置更轻"
+}

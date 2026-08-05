@@ -24,7 +24,7 @@
   "region": "overseas",
   "id": "tauri",
   "name": "Tauri",
-  "category": "fw-fullstack",
+  "category": "fw-cross-platform",
   "subcategory": "desktop",
   "oneLiner": "Rust shell + WebView · 二进制远小于 Electron · 安全/省资源",
   "officialUrl": "https://tauri.app",

@@ -1,0 +1,11 @@
+{
+  "id": "e-klaviyo-alt-mailchimp",
+  "from": "klaviyo",
+  "to": "mailchimp",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "电商深绑订单与购物车数据 vs 通用营销名单工具"
+}

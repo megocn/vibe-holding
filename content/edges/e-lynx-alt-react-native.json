@@ -1,0 +1,11 @@
+{
+  "id": "e-lynx-alt-react-native",
+  "from": "lynx",
+  "to": "react-native",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "字节双线程架构与自研渲染，对照 RN 新架构；生态成熟度差距明显"
+}

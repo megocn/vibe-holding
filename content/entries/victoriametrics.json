@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "timeseries",
+    "metrics",
+    "prometheus",
+    "open-source"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "查询语言方言扩展会影响跨实现迁移",
+    "集群版组件多，容量规划需前置"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://victoriametrics.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "victoriametrics",
+  "name": "VictoriaMetrics",
+  "category": "db-timeseries",
+  "subcategory": "metrics-store",
+  "oneLiner": "兼容 Prometheus 协议 · 压缩率与内存占用友好 · 单机集群双形态",
+  "officialUrl": "https://victoriametrics.com",
+  "descriptionMd": "VictoriaMetrics 是兼容 Prometheus 写入与查询协议的开源时序数据库，以压缩率和资源占用见长，提供单机二进制与集群两种形态，常被用作 Prometheus 的远端长期存储与跨集群统一查询层。\n\n指标量级增长到 Prometheus 单机吃紧、需要长期留存或跨多集群统一查询时接上。\n\n查询语言存在方言扩展，跨实现迁移时告警规则要重新回归；集群版组件较多，容量规划需提前做。\n",
+  "vendorId": "victoriametrics-inc"
+}

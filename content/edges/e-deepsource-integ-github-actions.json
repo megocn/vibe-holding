@@ -1,0 +1,11 @@
+{
+  "id": "e-deepsource-integ-github-actions",
+  "from": "deepsource",
+  "to": "github-actions",
+  "type": "integrates_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "分析结果回写为检查项，配质量阈值卡合并"
+}

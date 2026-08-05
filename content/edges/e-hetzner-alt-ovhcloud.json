@@ -1,0 +1,11 @@
+{
+  "id": "e-hetzner-alt-ovhcloud",
+  "from": "hetzner",
+  "to": "ovhcloud",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "欧洲性价比 vs 欧洲主权云与裸金属规模"
+}

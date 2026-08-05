@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cloud",
+    "iaas",
+    "vps",
+    "edge"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "新兴能力跟进慢于超大规模云",
+    "品牌整合期文档与入口新旧并存"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.linode.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "linode",
+  "name": "Akamai Linode",
+  "category": "cloud-iaas",
+  "subcategory": "developer-cloud",
+  "oneLiner": "并入 Akamai 后接边缘网络 · 老牌 VPS 心智；产品迭代偏稳",
+  "officialUrl": "https://www.linode.com",
+  "descriptionMd": "Linode 是老牌开发者 VPS 品牌，被 Akamai 收购后与其边缘网络与安全能力整合，定价结构依旧简单直白。\n\n看重稳定与简单计价、又希望顺带用上 Akamai 边缘分发时评估；与 DigitalOcean、Vultr 同层可直接横比。\n\n产品迭代节奏偏稳，新兴能力（如 GPU、Serverless）跟进慢于超大规模云；品牌整合期文档与控制台入口有新旧并存。\n",
+  "vendorId": "akamai"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-apache-seatunnel-int-nebulagraph",
+  "from": "apache-seatunnel",
+  "to": "nebulagraph",
+  "type": "integrates_with",
+  "weight": 0.5,
+  "confidence": "inferred",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "批量把关系数据灌进图库的常见路径；点边映射与去重规则需在作业里自行约定"
+}

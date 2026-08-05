@@ -1,0 +1,11 @@
+{
+  "id": "e-swr-alt-tanstack-query",
+  "from": "swr",
+  "to": "tanstack-query",
+  "type": "alternative_to",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "SWR 概念少、读多写少页面够用；TanStack Query 在失效编排、分页与乐观更新上更完备，重数据编排选后者"
+}

@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "self-hosted",
+    "personal",
+    "debian",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "面向个人自建，不以生产高可用为目标",
+    "自建邮件投递率仍需自行解决"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://yunohost.org"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "yunohost",
+  "name": "YunoHost",
+  "category": "cloud-self-host",
+  "subcategory": "app-hosting",
+  "oneLiner": "个人自主托管发行版 · 邮件/账号开箱；面向自建而非生产",
+  "officialUrl": "https://yunohost.org",
+  "descriptionMd": "YunoHost 是面向个人自主托管的 Debian 衍生发行版，内置账号体系、邮件与应用目录，让非专业运维者也能在家用机或小 VPS 上跑起自己的服务。\n\n做个人数字主权实践、家庭服务器或小型社群服务时评估；与 Cloudron 的差别在于完全免费但要多担一些运维。\n\n定位是个人自建而非商业生产环境，性能与高可用不在设计目标内；自建邮件的投递率问题依旧要自己面对。\n"
+}

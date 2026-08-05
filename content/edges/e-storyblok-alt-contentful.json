@@ -1,0 +1,11 @@
+{
+  "id": "e-storyblok-alt-contentful",
+  "from": "storyblok",
+  "to": "contentful",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Storyblok 主打可视化 Block 编辑，Contentful 主打纯结构化接口与治理"
+}

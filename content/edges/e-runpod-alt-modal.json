@@ -1,0 +1,11 @@
+{
+  "id": "e-runpod-alt-modal",
+  "from": "runpod",
+  "to": "modal",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "租容器与实例、自己管进程 vs 把 Python 函数部署成按调用伸缩的 Serverless"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-tina-cms-osalt-storyblok",
+  "from": "tina-cms",
+  "to": "storyblok",
+  "type": "open_source_alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "可视化编辑的开源方向：内容留在 Git，换掉托管服务与按席位计费"
+}

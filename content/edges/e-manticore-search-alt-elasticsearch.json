@@ -1,0 +1,11 @@
+{
+  "id": "e-manticore-search-alt-elasticsearch",
+  "from": "manticore-search",
+  "to": "elasticsearch",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "C++ 轻量内核、MySQL 协议 SQL 查询 vs JVM 集群与完整分析生态"
+}

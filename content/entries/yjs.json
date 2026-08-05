@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "realtime",
+    "crdt",
+    "collaboration",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "只解决数据合并，鉴权、持久化与版本历史需自建",
+    "文档随编辑历史增长，需设计快照与垃圾回收策略"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://yjs.dev"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "yjs",
+  "name": "Yjs",
+  "category": "msg-realtime",
+  "subcategory": "crdt",
+  "oneLiner": "协同编辑的 CRDT 内核 · 传输层可插拔 · 编辑器适配最全",
+  "officialUrl": "https://yjs.dev",
+  "descriptionMd": "Yjs 是高性能的 CRDT 实现，负责多端并发修改后的自动合并与离线同步，本身不含服务器，传输可以走 WebSocket、WebRTC 或任意通道，并为主流富文本与代码编辑器提供了成熟绑定。\n\n自建协同文档、白板或代码编辑器时作为数据同步内核；想连服务端一起省掉，就选 Liveblocks 或 PartyKit 这类把 Yjs 托管起来的方案。\n\n只解决数据合并，鉴权、持久化与历史版本都得自建；CRDT 文档会随编辑历史增长，需要设计快照与垃圾回收策略。\n",
+  "githubUrl": "https://github.com/yjs/yjs"
+}

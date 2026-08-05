@@ -1,0 +1,11 @@
+{
+  "id": "e-ghost-cuw-astro",
+  "from": "ghost",
+  "to": "astro",
+  "type": "commonly_used_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "关掉自带前台只用内容接口，由 Astro 生成静态前端"
+}

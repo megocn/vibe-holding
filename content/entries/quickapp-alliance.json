@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "free",
+    "currency": "CNY",
+    "notes": "标准与工具链免费；各厂商上架政策以官方最新说明为准"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": true,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "quickapp",
+    "android",
+    "domestic",
+    "distribution"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "各厂商审核标准不一致，需逐家提审与回归验证",
+    "入口曝光高度依赖厂商推荐位，自然流量不稳定"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.quickapp.cn"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "quickapp-alliance",
+  "name": "快应用联盟",
+  "category": "dist-miniapp",
+  "subcategory": "quickapp",
+  "oneLiner": "厂商联盟免安装标准 · 系统负一屏与全局搜索入口 · 一次开发多家提审",
+  "officialUrl": "https://www.quickapp.cn",
+  "descriptionMd": "快应用是国内主流安卓手机厂商联合推出的免安装轻应用标准：由厂商在系统负一屏、全局搜索与应用商店等系统级位置提供入口，开发者一次开发、多厂商分发。\n\n想覆盖安卓的系统级入口、又不希望用户先下载安装包时评估；它绑定的是手机厂商终端，而不是某个超级 App 的流量池，与微信/抖音小程序是并行选择。\n\n各厂商的实现与审核标准并不完全一致，需要逐家提审与回归；生态热度不及超级 App 小程序，入口曝光高度依赖厂商推荐位。\n"
+}

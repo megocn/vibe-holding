@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD",
+    "notes": "按监控项数量分档订阅"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "uptime",
+    "cron",
+    "heartbeat",
+    "monitoring"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "心跳监控需要业务侧改代码埋点，接入面大于外部拨测",
+    "监控项增多后按项计费的单价需重新测算"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://cronitor.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "cronitor",
+  "name": "Cronitor",
+  "category": "obs-uptime",
+  "subcategory": "cron-heartbeat",
+  "oneLiner": "定时任务心跳起家 · 兼顾拨测与状态页 · 面向后台作业",
+  "officialUrl": "https://cronitor.io",
+  "descriptionMd": "Cronitor 从定时任务监控起家：作业开始与结束时上报心跳，超时、失败或干脆没跑都会告警，后来又补上了站点拨测与状态页，形成一套围绕后台作业的可用性视图。\n\n关心的是「夜里那个批处理有没有跑成功」而不只是首页能否打开时选它；纯网站拨测用 UptimeRobot，自托管心跳看 Healthchecks.io。\n\n心跳类监控要求业务侧改代码埋点，接入面比外部拨测大；多产品线合并计费，监控项一多要重新算单价。\n",
+  "vendorId": "cronitor-inc"
+}

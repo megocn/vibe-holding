@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD",
+    "notes": "定价不公开，需商务沟通"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "billing",
+    "metering",
+    "usage-based",
+    "saas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "生态与社区规模小，疑难问题资料少",
+    "绑定其计量模型后迁移成本高"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.amberflo.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "amberflo",
+  "name": "Amberflo",
+  "category": "pay-billing",
+  "subcategory": "metering",
+  "oneLiner": "计量优先的用量计费 · 指标粒度细；生态偏小",
+  "officialUrl": "https://www.amberflo.io",
+  "descriptionMd": "Amberflo 从计量出发做用量计费，提供事件采集 SDK、实时用量仪表与基于计量结果的定价配置，也能把用量指标推给下游做成本分析。\n\n产品定价维度多、又要给客户展示细粒度的用量明细，同时不打算自建计量管道时评估。\n\n生态与社区规模不及头部方案，遇到冷门问题可参考的资料很少；深度绑定其计量模型之后，迁移成本也不低。\n"
+}

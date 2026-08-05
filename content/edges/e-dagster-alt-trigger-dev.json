@@ -1,0 +1,11 @@
+{
+  "id": "e-dagster-alt-trigger-dev",
+  "from": "dagster",
+  "to": "trigger-dev",
+  "type": "alternative_to",
+  "weight": 0.4,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "不同层：数据资产编排 vs 应用后台任务；同叫「编排」但关心的对象不是一回事"
+}

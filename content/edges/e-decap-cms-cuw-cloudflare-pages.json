@@ -1,0 +1,11 @@
+{
+  "id": "e-decap-cms-cuw-cloudflare-pages",
+  "from": "decap-cms",
+  "to": "cloudflare-pages",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "静态站托管 + Git 提交式后台：提交回仓库即触发重新构建"
+}

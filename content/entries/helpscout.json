@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD",
+    "notes": "按席位订阅，含帮助中心与站内气泡"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "support",
+    "shared-inbox",
+    "email",
+    "saas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "SLA、分级路由与报表能力有限，规模化后易触顶。",
+    "以邮件为主线，实时聊天与自动化弱于对话式平台。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.helpscout.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "helpscout",
+  "name": "Help Scout",
+  "category": "collab-support",
+  "subcategory": "shared-inbox",
+  "oneLiner": "邮件为主的共享收件箱 · 对客无工单感 · 帮助中心自带",
+  "officialUrl": "https://www.helpscout.com",
+  "descriptionMd": "Help Scout 以共享收件箱为核心：客户收到的是普通邮件而非带编号的工单通知，团队侧有分派、协作备注、帮助中心与轻量站内气泡。\n\n希望支持体验保持人情味、对话量中等、不想让客户面对工单系统的团队评估；重流程 SLA 场景仍需正式工单台。\n\n复杂路由、SLA 与报表能力有限；随着团队扩张常需迁移到更重的工单套件。\n",
+  "vendorId": "helpscout-inc",
+  "docsUrl": "https://developer.helpscout.com"
+}

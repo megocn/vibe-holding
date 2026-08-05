@@ -1,0 +1,10 @@
+{
+  "id": "e-fiber-go-bo-go",
+  "from": "fiber-go",
+  "to": "go",
+  "type": "built_on",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05"
+}

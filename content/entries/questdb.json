@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "timeseries",
+    "database",
+    "sql",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "集群与高可用能力集中在企业版",
+    "生态与社区规模小于主流时序方案"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://questdb.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "questdb",
+  "name": "QuestDB",
+  "category": "db-timeseries",
+  "subcategory": "timeseries-db",
+  "oneLiner": "高频写入时序库 · SQL 加时间连接扩展 · 兼容行协议接入",
+  "officialUrl": "https://questdb.com",
+  "descriptionMd": "QuestDB 是面向高频写入的开源时序数据库，用列式存储与时间分区支撑吞吐，查询侧提供标准 SQL 以及面向时间的连接与采样扩展，写入与访问兼容常见时序行协议和数据库有线协议。\n\n行情、传感器等写入密集又要即席分析的场景，且团队希望直接用 SQL 而非专用查询语言时评估。\n\n集群与高可用能力主要放在企业版；工具生态与社区规模小于 InfluxDB 和 Prometheus 体系。\n",
+  "vendorId": "questdb-inc"
+}

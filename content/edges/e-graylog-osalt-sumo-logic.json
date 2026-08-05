@@ -1,0 +1,11 @@
+{
+  "id": "e-graylog-osalt-sumo-logic",
+  "from": "graylog",
+  "to": "sumo-logic",
+  "type": "open_source_alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "自托管日志门面 vs 全托管日志分析 SaaS：省订阅费但要自养存储与集群"
+}

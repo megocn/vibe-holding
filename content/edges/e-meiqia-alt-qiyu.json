@@ -1,0 +1,11 @@
+{
+  "id": "e-meiqia-alt-qiyu",
+  "from": "meiqia",
+  "to": "qiyu",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国内同层：美洽偏中小团队自助开通，七鱼偏企业采购与呼叫中心"
+}

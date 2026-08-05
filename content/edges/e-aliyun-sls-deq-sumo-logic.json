@@ -1,0 +1,11 @@
+{
+  "id": "e-aliyun-sls-deq-sumo-logic",
+  "from": "aliyun-sls",
+  "to": "sumo-logic",
+  "type": "domestic_equivalent_of",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国内公有云托管日志的对标：SLS 与云内产品打通更深，出境合规更省心"
+}

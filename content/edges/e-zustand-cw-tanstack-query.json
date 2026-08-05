@@ -1,0 +1,11 @@
+{
+  "id": "e-zustand-cw-tanstack-query",
+  "from": "zustand",
+  "to": "tanstack-query",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "服务端状态交给 Query 缓存、纯客户端状态留在 store，两者职责不重叠"
+}

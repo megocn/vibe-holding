@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "gpu",
+    "cloud",
+    "training",
+    "infra"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "热门型号常需排队或预留，临时扩容不一定拿得到；按需实例价格高于竞价市集，长期用应谈预留。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://lambda.ai"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "lambda-labs",
+  "name": "Lambda",
+  "category": "ai-gpu-cloud",
+  "subcategory": "gpu-cloud",
+  "oneLiner": "AI 专用云 · 预装深度学习栈 · 按需实例与整柜集群并行",
+  "officialUrl": "https://lambda.ai",
+  "descriptionMd": "Lambda 长期做深度学习工作站与服务器，云上延续同一套预装环境，从单卡按需实例到成规模的训练集群都提供，交付形态偏向研究与训练场景。\n\n需要稳定的多卡机器跑几天到几周的训练、且希望环境开箱可用时评估；短平快的弹性任务用按秒计费平台更灵活。\n\n热门型号常需排队或预留，临时扩容不一定拿得到；按需实例价格高于竞价市集，长期用应谈预留。\n",
+  "vendorId": "lambda-labs-inc"
+}

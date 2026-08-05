@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "bot",
+    "security",
+    "enterprise",
+    "fraud"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "按请求量计费、走企业采购流程，中小团队性价比不高。",
+    "误杀会直接影响真实用户与合作方抓取，需先跑观察模式调参。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://datadome.co"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "datadome",
+  "name": "DataDome",
+  "category": "sec-bot-captcha",
+  "subcategory": "bot-defense",
+  "oneLiner": "企业级 Bot 防护 · 边缘毫秒决策 · 必要时才弹验证码",
+  "officialUrl": "https://datadome.co",
+  "descriptionMd": "DataDome 是企业级 Bot 与自动化欺诈防护，在 CDN 或服务端边缘对每个请求做毫秒级机器学习判定，只在必要时才弹出验证挑战，覆盖爬虫、撞库、抢购囤货与广告作弊。\n\n电商、票务、媒体等被规模化爬虫与自动化下单困扰、单靠验证码已挡不住时评估；它属于流量决策层，比表单验证挂件重得多。\n\n按请求量计价且偏企业采购，小站点成本不划算；误判会直接挡掉真实用户与合作方爬虫，上线务必先跑一段观察模式再开拦截。\n",
+  "vendorId": "datadome-inc"
+}

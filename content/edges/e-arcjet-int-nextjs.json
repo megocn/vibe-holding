@@ -1,0 +1,11 @@
+{
+  "id": "e-arcjet-int-nextjs",
+  "from": "arcjet",
+  "to": "nextjs",
+  "type": "integrates_with",
+  "weight": 0.8,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "对 Next.js 路由与中间件提供一等封装，防护规则随应用代码部署"
+}

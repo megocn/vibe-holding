@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "feature-flag",
+    "saas",
+    "lightweight",
+    "sdk"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "不提供实验统计，只解决开关下发。",
+    "复杂人群规则与治理需求增长后需要迁移。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://configcat.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "configcat",
+  "name": "ConfigCat",
+  "category": "growth-experiment",
+  "subcategory": "feature-flag",
+  "oneLiner": "轻量托管开关 · 计价与终端用户量脱钩 · 功能面刻意克制",
+  "officialUrl": "https://configcat.com",
+  "descriptionMd": "ConfigCat 是定位轻量的托管功能开关服务，主打接入简单、SDK 体积小，按配置数与席位而不是终端用户量计价，功能面刻意保持克制，不往实验平台方向堆。\n\n只需要稳定的开关下发与基础人群定向、不打算为实验平台付费，或月活很大但开关很少、按用户量计价不划算时评估。\n\n没有完整的实验与指标体系；复杂人群规则和企业级治理需求超出后仍要换更重的平台。\n",
+  "vendorId": "configcat-inc"
+}

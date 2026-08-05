@@ -1,0 +1,11 @@
+{
+  "id": "e-chatwoot-int-slack",
+  "from": "chatwoot",
+  "to": "slack",
+  "type": "integrates_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "官方集成把会话转发到频道并支持直接回复"
+}

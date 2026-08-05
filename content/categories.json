@@ -621,5 +621,257 @@
     "kind": "leaf",
     "parent": "llm",
     "order": 2
+  },
+  {
+    "id": "coding-completion",
+    "name": "补全插件 / 代码助手",
+    "kind": "leaf",
+    "parent": "coding-agent",
+    "order": 4
+  },
+  {
+    "id": "coding-review",
+    "name": "代码审查 / PR Agent",
+    "kind": "leaf",
+    "parent": "coding-agent",
+    "order": 5
+  },
+  {
+    "id": "fw-backend",
+    "name": "后端框架 / API",
+    "kind": "leaf",
+    "parent": "framework",
+    "order": 3
+  },
+  {
+    "id": "fw-cross-platform",
+    "name": "跨端 / 移动 / 桌面",
+    "kind": "leaf",
+    "parent": "framework",
+    "order": 4
+  },
+  {
+    "id": "fw-docs-site",
+    "name": "文档站 / 静态站生成",
+    "kind": "leaf",
+    "parent": "framework",
+    "order": 5
+  },
+  {
+    "id": "cloud-iaas",
+    "name": "公有云 / IaaS",
+    "kind": "leaf",
+    "parent": "cloud-deploy",
+    "order": 2
+  },
+  {
+    "id": "cloud-self-host",
+    "name": "自托管面板 / 私有 PaaS",
+    "kind": "leaf",
+    "parent": "cloud-deploy",
+    "order": 3
+  },
+  {
+    "id": "db-search",
+    "name": "搜索引擎 / 检索服务",
+    "kind": "leaf",
+    "parent": "database-storage",
+    "order": 6
+  },
+  {
+    "id": "db-analytics",
+    "name": "分析型 / OLAP 数仓",
+    "kind": "leaf",
+    "parent": "database-storage",
+    "order": 7
+  },
+  {
+    "id": "db-timeseries",
+    "name": "时序 / 指标存储",
+    "kind": "leaf",
+    "parent": "database-storage",
+    "order": 8
+  },
+  {
+    "id": "db-graph",
+    "name": "图数据库",
+    "kind": "leaf",
+    "parent": "database-storage",
+    "order": 9
+  },
+  {
+    "id": "db-pipeline",
+    "name": "数据管道 / ETL",
+    "kind": "leaf",
+    "parent": "database-storage",
+    "order": 10
+  },
+  {
+    "id": "ai-eval",
+    "name": "评测 / Prompt 实验",
+    "kind": "leaf",
+    "parent": "ai-infra",
+    "order": 8
+  },
+  {
+    "id": "ai-guardrail",
+    "name": "护栏 / 内容安全",
+    "kind": "leaf",
+    "parent": "ai-infra",
+    "order": 9
+  },
+  {
+    "id": "ai-memory",
+    "name": "Agent 记忆",
+    "kind": "leaf",
+    "parent": "ai-infra",
+    "order": 10
+  },
+  {
+    "id": "ai-browser",
+    "name": "浏览器自动化 / Computer Use",
+    "kind": "leaf",
+    "parent": "ai-infra",
+    "order": 11
+  },
+  {
+    "id": "ai-search-api",
+    "name": "联网检索 / 抓取 API",
+    "kind": "leaf",
+    "parent": "ai-infra",
+    "order": 12
+  },
+  {
+    "id": "ai-sandbox",
+    "name": "代码沙箱 / Agent 运行时",
+    "kind": "leaf",
+    "parent": "ai-infra",
+    "order": 13
+  },
+  {
+    "id": "ai-finetune",
+    "name": "微调 / 训练框架",
+    "kind": "leaf",
+    "parent": "ai-infra",
+    "order": 14
+  },
+  {
+    "id": "ai-gpu-cloud",
+    "name": "GPU 算力 / 训练平台",
+    "kind": "leaf",
+    "parent": "ai-infra",
+    "order": 15
+  },
+  {
+    "id": "pay-billing",
+    "name": "订阅与用量计费",
+    "kind": "leaf",
+    "parent": "payment",
+    "order": 3
+  },
+  {
+    "id": "dist-miniapp",
+    "name": "小程序 / 快应用",
+    "kind": "leaf",
+    "parent": "app-distribution",
+    "order": 5
+  },
+  {
+    "id": "oss-testing",
+    "name": "测试与质量",
+    "kind": "leaf",
+    "parent": "oss-ecosystem",
+    "order": 2
+  },
+  {
+    "id": "oss-state",
+    "name": "状态管理 / 数据请求",
+    "kind": "leaf",
+    "parent": "oss-ecosystem",
+    "order": 3
+  },
+  {
+    "id": "obs-logs",
+    "name": "日志管道 / 检索",
+    "kind": "leaf",
+    "parent": "observability",
+    "order": 4
+  },
+  {
+    "id": "obs-uptime",
+    "name": "可用性监控 / 状态页",
+    "kind": "leaf",
+    "parent": "observability",
+    "order": 5
+  },
+  {
+    "id": "msg-realtime",
+    "name": "实时通信 / 协同",
+    "kind": "leaf",
+    "parent": "messaging",
+    "order": 5
+  },
+  {
+    "id": "growth-seo",
+    "name": "SEO / 关键词",
+    "kind": "leaf",
+    "parent": "analytics-growth",
+    "order": 2
+  },
+  {
+    "id": "growth-experiment",
+    "name": "Feature Flag / 实验",
+    "kind": "leaf",
+    "parent": "analytics-growth",
+    "order": 3
+  },
+  {
+    "id": "growth-lifecycle",
+    "name": "邮件营销 / 生命周期",
+    "kind": "leaf",
+    "parent": "analytics-growth",
+    "order": 4
+  },
+  {
+    "id": "sec-appsec",
+    "name": "应用安全扫描",
+    "kind": "leaf",
+    "parent": "security-compliance",
+    "order": 2
+  },
+  {
+    "id": "sec-compliance",
+    "name": "合规认证 / 隐私",
+    "kind": "leaf",
+    "parent": "security-compliance",
+    "order": 3
+  },
+  {
+    "id": "sec-bot-captcha",
+    "name": "验证码 / Bot 防护",
+    "kind": "leaf",
+    "parent": "security-compliance",
+    "order": 4
+  },
+  {
+    "id": "collab-cms",
+    "name": "内容管理 / CMS",
+    "kind": "leaf",
+    "parent": "collaboration",
+    "order": 4
+  },
+  {
+    "id": "collab-support",
+    "name": "客服 / 工单",
+    "kind": "leaf",
+    "parent": "collaboration",
+    "order": 5
+  },
+  {
+    "id": "global-hire",
+    "name": "远程雇佣 / EOR",
+    "kind": "leaf",
+    "parent": "globalization",
+    "order": 4
   }
 ]

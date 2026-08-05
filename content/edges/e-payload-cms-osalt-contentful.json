@@ -1,0 +1,11 @@
+{
+  "id": "e-payload-cms-osalt-contentful",
+  "from": "payload-cms",
+  "to": "contentful",
+  "type": "open_source_alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "用自托管代码建模换取数据自持，代价是运维与非技术同事自助能力"
+}

@@ -27,7 +27,7 @@
   "region": "overseas",
   "id": "betterstack",
   "name": "Better Stack",
-  "category": "obs-errors",
+  "category": "obs-uptime",
   "subcategory": "uptime",
   "oneLiner": "日志+异常告警+On-call · 公开状态页 · 界面现代上手快",
   "officialUrl": "https://betterstack.com",

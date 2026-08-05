@@ -1,0 +1,11 @@
+{
+  "id": "e-greptimedb-domeq-influxdb",
+  "from": "greptimedb",
+  "to": "influxdb",
+  "type": "domestic_equivalent_of",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国内团队的云原生实现：数据落对象存储，指标与日志共用一套接口"
+}

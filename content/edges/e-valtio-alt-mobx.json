@@ -1,0 +1,11 @@
+{
+  "id": "e-valtio-alt-mobx",
+  "from": "valtio",
+  "to": "mobx",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "都是 Proxy 响应式：Valtio 面向 React 且极轻；MobX 概念完整、框架无关但体量大"
+}

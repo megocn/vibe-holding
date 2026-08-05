@@ -1,0 +1,11 @@
+{
+  "id": "e-liveblocks-iw-yjs",
+  "from": "liveblocks",
+  "to": "yjs",
+  "type": "integrates_with",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Liveblocks 可承载 Yjs 文档，把 CRDT 的服务端与持久化托管起来"
+}

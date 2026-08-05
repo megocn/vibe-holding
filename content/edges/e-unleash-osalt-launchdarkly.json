@@ -1,0 +1,11 @@
+{
+  "id": "e-unleash-osalt-launchdarkly",
+  "from": "unleash",
+  "to": "launchdarkly",
+  "type": "open_source_alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "开源开关服务端，标志求值留在自己一侧；企业治理特性在商业版"
+}

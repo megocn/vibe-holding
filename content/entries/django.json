@@ -39,7 +39,7 @@
   "region": "overseas",
   "id": "django",
   "name": "Django",
-  "category": "fw-fullstack",
+  "category": "fw-backend",
   "subcategory": "python-fullstack",
   "oneLiner": "Python batteries · ORM/admin/auth · CMS/内部后台快",
   "officialUrl": "https://www.djangoproject.com",

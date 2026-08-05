@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "guardrail",
+    "validation",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "每次校验增加时延与成本",
+    "社区校验器质量参差，需自建回归验证"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.guardrailsai.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "guardrails-ai",
+  "name": "Guardrails AI",
+  "category": "ai-guardrail",
+  "subcategory": "output-validation",
+  "oneLiner": "输出结构与内容校验 · 校验器可插拔；社区版为主",
+  "officialUrl": "https://www.guardrailsai.com",
+  "descriptionMd": "Guardrails AI 用可插拔的校验器约束模型输出：结构是否合法、有无有害内容、是否偏题，校验失败可重试或降级，配套 Hub 提供社区校验器。\n\n输出要直接进下游系统、不能出现结构错误或越界内容时，在应用与模型之间加这一层做兜底。\n\n每次校验都额外增加一轮时延与成本；Hub 上的社区校验器质量参差，上线前需自建回归用例逐个验证。\n"
+}

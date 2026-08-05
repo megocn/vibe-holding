@@ -1,0 +1,11 @@
+{
+  "id": "e-qiyu-int-wecom",
+  "from": "qiyu",
+  "to": "wecom",
+  "type": "integrates_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "企业微信渠道接入后统一进工单与坐席分派"
+}

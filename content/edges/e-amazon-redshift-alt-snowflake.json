@@ -1,0 +1,11 @@
+{
+  "id": "e-amazon-redshift-alt-snowflake",
+  "from": "amazon-redshift",
+  "to": "snowflake",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "AWS 同栈治理与既有权限复用 vs 跨云中立、计算资源按团队隔离"
+}

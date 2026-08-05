@@ -1,0 +1,11 @@
+{
+  "id": "e-ellipsis-alt-coderabbit",
+  "from": "ellipsis",
+  "to": "coderabbit",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "能按评论直接改代码提交 vs 以评审意见为主"
+}

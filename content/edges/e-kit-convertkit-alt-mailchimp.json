@@ -1,0 +1,11 @@
+{
+  "id": "e-kit-convertkit-alt-mailchimp",
+  "from": "kit-convertkit",
+  "to": "mailchimp",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "创作者标签+序列模型 vs 传统名单+模板模型"
+}

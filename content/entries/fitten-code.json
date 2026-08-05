@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "ai",
+    "code-completion",
+    "domestic",
+    "free"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "复杂重构能力有限，别当主力 Agent 用",
+    "免费档数据使用范围以条款为准，敏感仓库先评估"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.fittentech.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "fitten-code",
+  "name": "Fitten Code",
+  "category": "coding-completion",
+  "subcategory": "domestic-plugin",
+  "oneLiner": "国内免费补全插件 · 中文交互顺 · 覆盖 VS Code/JetBrains",
+  "officialUrl": "https://www.fittentech.com",
+  "descriptionMd": "Fitten Code 是非十科技的编辑器补全与对话插件，主打国内网络下的低延迟响应，对中文提示与注释友好，个人使用长期保留免费档。\n\n国内开发者想要一个零门槛、不依赖外网也能用的补全插件时可以先试，和通义灵码、CodeGeeX 属同层比较；企业私有化与合规采购需另谈方案。\n\n复杂重构与长链路改造别过度依赖；免费档的数据使用范围以官网条款为准，敏感仓库先内部评估。\n",
+  "vendorId": "fitten-tech"
+}

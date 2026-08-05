@@ -1,0 +1,11 @@
+{
+  "id": "e-aliyun-opensearch-domeq-algolia",
+  "from": "aliyun-opensearch",
+  "to": "algolia",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国内合规同区的托管检索服务，对应海外托管搜索 SaaS 的位置"
+}

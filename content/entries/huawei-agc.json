@@ -32,5 +32,5 @@
   "oneLiner": "HarmonyOS/Android · 认证/云函数/推送/分发 · 华为生态一体后端",
   "officialUrl": "https://developer.huawei.com/consumer/cn/service/josp/agc",
   "descriptionMd": "AppGallery Connect 为 HarmonyOS/Android 应用提供认证、云函数、云数据库、推送与分发一体化后端，面向华为生态开发者。\n\n上架华为应用市场、或鸿蒙/ HMS 栈需要官方 BaaS 与合规能力时必选；国内安卓多渠道分发常配合使用。\n\n海外设备覆盖与 Google 服务差异大；非华为渠道用户占比低时不宜作为唯一后端，API 与 Firebase 不完全等价。\n",
-  "vendorId": "huawei-cloud"
+  "vendorId": "huawei"
 }

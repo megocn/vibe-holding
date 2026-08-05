@@ -1,0 +1,11 @@
+{
+  "id": "e-mocha-dep-nodejs",
+  "from": "mocha",
+  "to": "nodejs",
+  "type": "depends_on",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Node 运行器，浏览器端需另行打包运行"
+}

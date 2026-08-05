@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "EUR"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cloud",
+    "iaas",
+    "vps",
+    "value"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "新账号风控偏严，可能要求补充身份材料",
+    "托管型服务少，中间件基本要自运维"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.hetzner.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "hetzner",
+  "name": "Hetzner",
+  "category": "cloud-iaas",
+  "subcategory": "developer-cloud",
+  "oneLiner": "欧洲机房性价比标杆 · 独服/云主机便宜；风控偏严",
+  "officialUrl": "https://www.hetzner.com",
+  "descriptionMd": "Hetzner 是德国老牌托管商，云主机与独立服务器的性价比长期是行业参照点，欧洲机房网络质量稳定，也提供对象存储与备份。\n\n预算敏感、用户主要在欧洲、或要跑自托管服务与 GPU 之外的常驻负载时优先；常配 Coolify、Dokploy 这类面板自建 PaaS。\n\n开户风控偏严，新账号可能被要求补充身份材料；托管服务面窄，数据库与队列多需自己运维。\n",
+  "vendorId": "hetzner-inc"
+}

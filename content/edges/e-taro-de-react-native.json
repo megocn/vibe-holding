@@ -1,0 +1,11 @@
+{
+  "id": "e-taro-de-react-native",
+  "from": "taro",
+  "to": "react-native",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同为 React 语法跨端，Taro 主战场是各家小程序与 H5，RN 面向原生双端"
+}

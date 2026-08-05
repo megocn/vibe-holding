@@ -1,0 +1,11 @@
+{
+  "id": "e-decap-cms-alt-strapi",
+  "from": "decap-cms",
+  "to": "strapi",
+  "type": "alternative_to",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "静态站给编辑者最简后台 vs 需要数据库与接口的完整内容服务"
+}

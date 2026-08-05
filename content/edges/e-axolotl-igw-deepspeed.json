@@ -1,0 +1,11 @@
+{
+  "id": "e-axolotl-igw-deepspeed",
+  "from": "axolotl",
+  "to": "deepspeed",
+  "type": "integrates_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "并行策略在配置里声明即可启用，全参训练时常搭配使用"
+}

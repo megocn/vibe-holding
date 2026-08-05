@@ -1,0 +1,11 @@
+{
+  "id": "e-chargebee-cuw-stripe",
+  "from": "chargebee",
+  "to": "stripe",
+  "type": "commonly_used_with",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "计费中台在上、支付通道在下的常见组合"
+}

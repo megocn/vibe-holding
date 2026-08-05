@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "search",
+    "saas",
+    "hosted",
+    "frontend"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "按记录数与检索量计费，规模上来后成本跳升",
+    "排序规则与前端组件绑定平台，迁移成本高"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.algolia.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "algolia",
+  "name": "Algolia",
+  "category": "db-search",
+  "subcategory": "hosted-search",
+  "oneLiner": "托管检索 SaaS · 排序规则可视化配置 · InstantSearch 前端组件齐",
+  "officialUrl": "https://www.algolia.com",
+  "descriptionMd": "Algolia 是托管式站内搜索服务：索引与查询全部托管在其云上，排序、同义词与业务规则在后台配置，前端配套 InstantSearch 组件库，把自动补全、分面筛选做成开箱即用的产品能力。\n\n电商与内容站要快速上线站内搜索、团队不想承担集群运维时优先；日志检索与大规模聚合分析仍看 Elasticsearch 一侧。\n\n计费与记录条数、检索次数强相关，流量涨上去成本敏感；排序规则与前端组件都绑在平台上，迁出等于重做检索层。\n",
+  "vendorId": "algolia-inc"
+}

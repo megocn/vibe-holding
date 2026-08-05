@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "seo",
+    "domestic",
+    "webmaster",
+    "chinese"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "平台权重非搜索引擎口径，勿写进对外指标。",
+    "免费查询有频次限制，批量核对需付费或用本地工具包。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.aizhan.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "aizhan",
+  "name": "爱站网",
+  "category": "growth-seo",
+  "subcategory": "seo-suite",
+  "oneLiner": "中文站长查询工具集 · 收录/排名/备案一站查 · 含本地工具包",
+  "officialUrl": "https://www.aizhan.com",
+  "descriptionMd": "爱站网是国内常用的站长查询工具集：域名收录、关键词排名、外链与备案信息查询，并提供可下载的本地工具包，用于批量核对站点与竞品域名的基础状况。\n\n需要快速体检中文站点的基础指标、批量核对竞品域名，或作为 5118 之外的第二数据源做交叉验证时使用。\n\n权重是平台自定义估算口径，不同站长工具之间不可比；免费查询有频次限制，深度功能需付费。\n",
+  "vendorId": "aizhan-inc"
+}

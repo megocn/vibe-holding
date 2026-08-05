@@ -1,0 +1,11 @@
+{
+  "id": "e-codesandbox-sdk-alt-e2b",
+  "from": "codesandbox-sdk",
+  "to": "e2b",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "可分叉的有状态微型 VM vs 一次性沙箱"
+}

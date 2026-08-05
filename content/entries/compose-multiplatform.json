@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cross-platform",
+    "kotlin",
+    "ui",
+    "compose"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "iOS/Web 目标成熟度落后于 Android 与桌面",
+    "自绘 UI 的无障碍与系统控件融合需逐项验证"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/JetBrains/compose-multiplatform"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "compose-multiplatform",
+  "name": "Compose Multiplatform",
+  "category": "fw-cross-platform",
+  "subcategory": "shared-ui",
+  "oneLiner": "Compose 声明式 UI 跨端 · 建在 KMP 之上 · iOS 与 Web 仍在追赶",
+  "officialUrl": "https://github.com/JetBrains/compose-multiplatform",
+  "descriptionMd": "Compose Multiplatform 由 JetBrains 把 Android 的 Jetpack Compose 延伸到 iOS、桌面与 Web，在 Kotlin Multiplatform 的共享逻辑之上再共享一层声明式界面。\n\n已选 KMP、团队熟悉 Compose 且希望界面也复用时评估；只想共享逻辑、界面保留原生的项目留在 KMP 即可。\n\niOS 与 Web 目标的成熟度落后于 Android 与桌面；自绘 UI 与系统控件、无障碍能力的融合需逐项验证。\n",
+  "vendorId": "jetbrains",
+  "githubUrl": "https://github.com/JetBrains/compose-multiplatform"
+}

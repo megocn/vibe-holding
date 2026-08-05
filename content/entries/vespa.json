@@ -24,7 +24,7 @@
   "region": "overseas",
   "id": "vespa",
   "name": "Vespa",
-  "category": "ai-vector",
+  "category": "db-search",
   "subcategory": "search-engine",
   "oneLiner": "keyword+vector+ranking 一体 · billion-doc · JVM 重型检索",
   "officialUrl": "https://vespa.ai",

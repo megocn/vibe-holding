@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "finetune",
+    "training",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "配置项繁多，参数组合错误往往到训练中段才暴露；环境依赖较重，升级时容易出现版本冲突。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/axolotl-ai-cloud/axolotl"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "axolotl",
+  "name": "Axolotl",
+  "category": "ai-finetune",
+  "subcategory": "training-framework",
+  "oneLiner": "YAML 配置驱动微调 · 全参/LoRA/QLoRA 齐备 · 多卡脚本成熟",
+  "officialUrl": "https://github.com/axolotl-ai-cloud/axolotl",
+  "descriptionMd": "Axolotl 用一份 YAML 描述模型、数据集、训练策略与并行方式，把 Transformers 生态的训练细节收敛成可版本化的配置，社区里长期是复现实验的常用底座。\n\n需要把多组微调实验管起来、并在多卡环境反复跑时选它；只想在单卡上快速试一版，轻量方案上手更快。\n\n配置项繁多，参数组合错误往往到训练中段才暴露；环境依赖较重，升级时容易出现版本冲突。\n",
+  "vendorId": "axolotl-ai",
+  "githubUrl": "https://github.com/axolotl-ai-cloud/axolotl"
+}

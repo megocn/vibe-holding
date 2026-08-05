@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "memory",
+    "graph",
+    "open-source"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "接口仍在演进，升级可能不兼容",
+    "管道越重写入成本越高"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.cognee.ai"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "cognee",
+  "name": "Cognee",
+  "category": "ai-memory",
+  "subcategory": "memory-pipeline",
+  "oneLiner": "记忆即管道 · 图谱与向量并用；仍在快速演进",
+  "officialUrl": "https://www.cognee.ai",
+  "descriptionMd": "Cognee 把记忆构建当作一条数据管道来做：抽取实体与关系写入图谱，同时保留向量索引，让 Agent 既能语义召回、也能沿关系做多跳推理。\n\n记忆里既有大量非结构文本、又有明确实体与关系，单纯向量检索答不好多跳问题时评估。\n\n接口与抽象仍在快速演进，跨版本升级可能不兼容；管道跑得越重，每条记忆的写入成本与时延就越高。\n"
+}

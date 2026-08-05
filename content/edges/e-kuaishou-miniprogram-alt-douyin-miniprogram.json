@@ -1,0 +1,11 @@
+{
+  "id": "e-kuaishou-miniprogram-alt-douyin-miniprogram",
+  "from": "kuaishou-miniprogram",
+  "to": "douyin-miniprogram",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同为短视频生态承接页，用户结构与达人生态不同，实践中常并行铺设而非二选一"
+}

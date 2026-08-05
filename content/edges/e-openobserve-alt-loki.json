@@ -1,0 +1,11 @@
+{
+  "id": "e-openobserve-alt-loki",
+  "from": "openobserve",
+  "to": "loki",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "一体化后端（日志+指标+链路）vs 只索引标签、依赖 Grafana 做界面"
+}

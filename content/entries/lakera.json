@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "guardrail",
+    "security",
+    "saas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "内容需发往第三方，合规敏感场景先过审",
+    "按调用计费，高流量下成本可观"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.lakera.ai"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "lakera",
+  "name": "Lakera",
+  "category": "ai-guardrail",
+  "subcategory": "prompt-security",
+  "oneLiner": "提示注入防护 SaaS · 攻击情报持续更新；数据需出本地",
+  "officialUrl": "https://www.lakera.ai",
+  "descriptionMd": "Lakera 专注 AI 应用的提示注入与越狱防护，以 API 形式提供实时判定，并靠持续更新的攻击样本库跟进新出现的绕过手法。\n\n面向公众开放的 AI 产品，把安全判定外包给专业团队比自己天天追新攻击面更划算时评估。\n\n判定要把用户内容发往第三方，合规敏感场景需先过审；按调用计费，高流量下的成本要先测算。\n"
+}

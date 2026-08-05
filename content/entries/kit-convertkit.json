@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "email",
+    "newsletter",
+    "creator",
+    "automation"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "电商与复杂事件编排能力弱于专业生命周期平台。",
+    "改名后新旧资料混杂，查文档需确认是 Kit 还是 ConvertKit 时期。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://kit.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "kit-convertkit",
+  "name": "Kit（原 ConvertKit）",
+  "category": "growth-lifecycle",
+  "subcategory": "newsletter",
+  "oneLiner": "创作者订阅通讯 · 标签式分群与序列 · 纯文本风格转化好",
+  "officialUrl": "https://kit.com",
+  "descriptionMd": "Kit（原 ConvertKit）面向创作者与独立作者，用标签与序列而不是传统名单来管理订阅者，内置落地页、表单与付费订阅能力，邮件模板偏纯文本风格。\n\n以个人品牌、课程或知识内容变现为主，需要把订阅者沉淀在自己手上并做长期序列培育时评估。\n\n电商场景与复杂事件编排能力弱；品牌改名后新旧文档、社区教程混杂，检索资料时注意分辨版本。\n",
+  "vendorId": "kit-inc"
+}

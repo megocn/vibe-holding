@@ -27,7 +27,7 @@
   "region": "overseas",
   "id": "caprover",
   "name": "CapRover",
-  "category": "cloud-paas",
+  "category": "cloud-self-host",
   "subcategory": "self-hosted",
   "oneLiner": "单机 VPS · Docker Swarm · 一键 SSL/模板 · 经典自建 PaaS",
   "officialUrl": "https://caprover.com",

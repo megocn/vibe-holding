@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "sandbox",
+    "browser",
+    "node"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "仅覆盖 Node/Web 生态",
+    "受浏览器隔离与性能限制，重任务不适用"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://webcontainers.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "webcontainers",
+  "name": "WebContainers",
+  "category": "ai-sandbox",
+  "subcategory": "browser-runtime",
+  "oneLiner": "浏览器内跑 Node · 零服务器成本；受浏览器能力限制",
+  "officialUrl": "https://webcontainers.io",
+  "descriptionMd": "WebContainers 是 StackBlitz 的浏览器内运行时，直接在用户标签页里跑 Node 与包管理器，无需后端沙箱即可预览与执行前端项目。\n\n做在线教程、可交互文档或 Web 应用预览，希望执行成本落在用户端时优先。\n\n只覆盖 Node/Web 生态，原生依赖与后端语言跑不了；受浏览器隔离策略限制，对跨源与性能有约束。\n"
+}

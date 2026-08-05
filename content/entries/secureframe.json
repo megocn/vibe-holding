@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "compliance",
+    "soc2",
+    "iso27001",
+    "security"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "集成清单不如头部平台长，国内云与自研系统多为手工取证。",
+    "顾问陪跑服务通常绑定较高档套餐，低档位体验接近纯工具。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://secureframe.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "secureframe",
+  "name": "Secureframe",
+  "category": "sec-compliance",
+  "subcategory": "compliance-automation",
+  "oneLiner": "合规自动化 · 策略模板与顾问陪跑 · 首次认证上手门槛低",
+  "officialUrl": "https://secureframe.com",
+  "descriptionMd": "Secureframe 提供 SOC 2、ISO 27001、HIPAA、GDPR 等框架的自动化合规平台，强调开箱的策略模板、员工安全培训与顾问式陪跑，把首次认证的准备动作模板化。\n\n第一次做合规、内部缺人带节奏，希望供应商顺带给实施建议时评估；与 Vanta、Drata 属同层可比单元，选择前先对齐各自的集成清单。\n\n工具只是流程助手，认证要审计机构出具报告；集成覆盖面不如头部平台广，自研组件与国内云资源常需手工补证据。\n",
+  "vendorId": "secureframe-inc"
+}

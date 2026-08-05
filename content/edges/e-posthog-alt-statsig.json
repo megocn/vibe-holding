@@ -1,0 +1,11 @@
+{
+  "id": "e-posthog-alt-statsig",
+  "from": "posthog",
+  "to": "statsig",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "一体化：分析与开关同库；专业化：实验统计与指标引擎更完备，事件量计价"
+}

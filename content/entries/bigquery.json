@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "olap",
+    "cloud",
+    "serverless",
+    "warehouse"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "未做分区裁剪的查询按扫描量计费易超支",
+    "国内不可直连，需跨境方案与合规评估"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://cloud.google.com/bigquery"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "bigquery",
+  "name": "Google BigQuery",
+  "category": "db-analytics",
+  "subcategory": "cloud-warehouse",
+  "oneLiner": "Serverless 数仓 · 按扫描量或槽位计价 · 与 GCP 生态深绑",
+  "officialUrl": "https://cloud.google.com/bigquery",
+  "descriptionMd": "BigQuery 是 Google Cloud 的 Serverless 数据仓库，不需要管理节点，存储与计算分离，既可按查询扫描的数据量付费，也能购买槽位容量，并内建 BI 加速、地理分析与机器学习等扩展。\n\n团队已在 Google Cloud、数据量大且查询波峰明显、希望把运维降到零时优先。\n\n按扫描量计费的模式下，没做好分区与列裁剪的查询会直接烧钱；国内使用需走跨境方案，深度绑定后迁出成本高。\n",
+  "vendorId": "google"
+}

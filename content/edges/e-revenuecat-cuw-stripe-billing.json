@@ -1,0 +1,11 @@
+{
+  "id": "e-revenuecat-cuw-stripe-billing",
+  "from": "revenuecat",
+  "to": "stripe-billing",
+  "type": "commonly_used_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "移动内购走 RevenueCat、Web 订阅走 Stripe 的双轨常态"
+}

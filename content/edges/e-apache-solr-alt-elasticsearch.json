@@ -1,0 +1,11 @@
+{
+  "id": "e-apache-solr-alt-elasticsearch",
+  "from": "apache-solr",
+  "to": "elasticsearch",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同为 Lucene 之上：Solr 显式结构与分面可控、依赖 ZooKeeper；ES 生态与托管更全"
+}

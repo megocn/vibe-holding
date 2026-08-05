@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "browser",
+    "automation",
+    "open-source",
+    "self-hosted"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "自托管要自己扛代理、指纹与扩容；云端配额与商业条款仍在调整期，长期方案需锁定版本。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://steel.dev",
+    "https://github.com/steel-dev/steel-browser"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "steel-dev",
+  "name": "Steel",
+  "category": "ai-browser",
+  "subcategory": "hosted-browser",
+  "oneLiner": "开源浏览器 API · 自托管或用云端会话 · 规避单一厂商锁定",
+  "officialUrl": "https://steel.dev",
+  "descriptionMd": "Steel 提供面向 Agent 的浏览器 API，同时开源了可自行部署的浏览器服务端，云端托管与私有部署共用同一套接口，属于这一层里少见的双轨形态。\n\n当数据不便出境、或想先用云端验证再迁回自有机房时优先评估；纯托管省心可看 Browserbase 与 Hyperbrowser。\n\n自托管要自己扛代理、指纹与扩容；云端配额与商业条款仍在调整期，长期方案需锁定版本。\n",
+  "vendorId": "steel-inc",
+  "githubUrl": "https://github.com/steel-dev/steel-browser"
+}

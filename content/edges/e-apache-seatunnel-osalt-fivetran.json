@@ -1,0 +1,11 @@
+{
+  "id": "e-apache-seatunnel-osalt-fivetran",
+  "from": "apache-seatunnel",
+  "to": "fivetran",
+  "type": "open_source_alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "偏大批量库到库与湖仓同步的开源替代；SaaS 连接器覆盖远不如托管服务"
+}

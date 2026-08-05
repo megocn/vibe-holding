@@ -1,0 +1,11 @@
+{
+  "id": "e-wails-alt-tauri",
+  "from": "wails",
+  "to": "tauri",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同为系统 WebView + 原生后端的轻量桌面壳：后端语言 Go vs Rust"
+}

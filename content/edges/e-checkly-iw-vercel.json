@@ -1,0 +1,11 @@
+{
+  "id": "e-checkly-iw-vercel",
+  "from": "checkly",
+  "to": "vercel",
+  "type": "integrates_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "常在 Vercel 部署后触发合成检查，把关键流程校验挂进发布流程"
+}

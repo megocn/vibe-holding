@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "free",
+    "currency": "CNY",
+    "notes": "开发免费；认证与商业化费用按官方最新政策为准"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": true,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "miniapp",
+    "baidu",
+    "domestic",
+    "search"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "生态活跃度与平台投入不如头部，长期维护回报需评估",
+    "主体认证、类目审核与备案流程一样不能少"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://smartprogram.baidu.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "baidu-smartprogram",
+  "name": "百度智能小程序",
+  "category": "dist-miniapp",
+  "subcategory": "baidu",
+  "oneLiner": "搜索与信息流入口 · 结果页直达服务 · 多宿主开放 · 生态热度一般",
+  "officialUrl": "https://smartprogram.baidu.com",
+  "descriptionMd": "百度智能小程序以搜索与信息流为主要入口，用户从搜索结果直接进入服务页，并可开放给百度系的多个宿主 App，适合把已有内容与服务能力接进搜索场景。\n\n业务本身有明确的搜索需求——工具查询、垂类内容、本地服务——且希望承接搜索流量时评估；社交分享与内容裂变不是它的强项。\n\n生态活跃度与平台投入近年不如微信、抖音，长期维护成本要单独权衡；开发者同样需完成主体认证、类目审核与备案。\n",
+  "vendorId": "baidu"
+}

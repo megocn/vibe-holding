@@ -1,0 +1,11 @@
+{
+  "id": "e-digitalocean-alt-vultr",
+  "from": "digitalocean",
+  "to": "vultr",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "文档与生态更厚 vs 节点覆盖更广"
+}

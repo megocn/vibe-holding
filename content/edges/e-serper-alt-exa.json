@@ -1,0 +1,11 @@
+{
+  "id": "e-serper-alt-exa",
+  "from": "serper",
+  "to": "exa",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "转发主流搜索引擎的排位结果 vs 自建索引按语义召回，两者覆盖面不同"
+}

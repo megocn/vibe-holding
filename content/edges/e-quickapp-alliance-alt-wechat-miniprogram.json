@@ -1,0 +1,11 @@
+{
+  "id": "e-quickapp-alliance-alt-wechat-miniprogram",
+  "from": "quickapp-alliance",
+  "to": "wechat-miniprogram",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "厂商系统级入口（负一屏/全局搜索）vs 超级 App 内流量池；同为免安装，但流量来源完全不同"
+}

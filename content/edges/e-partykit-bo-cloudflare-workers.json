@@ -1,0 +1,11 @@
+{
+  "id": "e-partykit-bo-cloudflare-workers",
+  "from": "partykit",
+  "to": "cloudflare-workers",
+  "type": "built_on",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "房间的有状态运行时建立在 Workers 与 Durable Objects 之上"
+}

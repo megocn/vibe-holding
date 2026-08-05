@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "search",
+    "open-source",
+    "log",
+    "analytics"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "与 Elasticsearch 新版特性分叉，客户端不通用",
+    "集群容量与分片规划仍需专门运维"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://opensearch.org"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "opensearch",
+  "name": "OpenSearch",
+  "category": "db-search",
+  "subcategory": "search-cluster",
+  "oneLiner": "Elasticsearch 7.10 分叉 · Apache-2.0 授权 · 含 Dashboards 套件",
+  "officialUrl": "https://opensearch.org",
+  "descriptionMd": "OpenSearch 是 2021 年从 Elasticsearch 7.10 分叉出的开源检索与分析套件，含可视化端 OpenSearch Dashboards，采用 Apache-2.0 协议并交由基金会治理，云厂商多提供同源托管形态。\n\n要 ELK 式全文检索与日志分析、又希望规避商业授权约束时选它；已在 AWS 栈内的日志平台通常默认走这条线。\n\n与 Elasticsearch 新版能力已明显分叉，插件、客户端与查询特性并不通用；升级或双栈并存前先核对版本矩阵。\n"
+}

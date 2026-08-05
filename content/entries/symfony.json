@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "php",
+    "backend",
+    "enterprise",
+    "components"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "抽象层次多，上手曲线陡于 Laravel",
+    "国内中文资料与招聘面较窄"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://symfony.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "symfony",
+  "name": "Symfony",
+  "category": "fw-backend",
+  "subcategory": "php-backend",
+  "oneLiner": "PHP 组件化企业框架 · 组件可单取 · 是 Laravel 的底层来源",
+  "officialUrl": "https://symfony.com",
+  "descriptionMd": "Symfony 是 PHP 的组件化企业框架，数十个解耦组件既能整框架使用，也可被别的项目单独引入——Laravel 的 HTTP、路由与控制台底层大量取自 Symfony。\n\n做长周期企业系统、需要严格分层与可替换组件时选；追求快速交付与内建全家桶体验，Laravel 通常更顺手。\n\n配置与抽象层次多，上手曲线比 Laravel 陡；Bundle 生态偏欧洲，国内中文资料与招聘面较窄。\n",
+  "vendorId": "symfony-sas",
+  "githubUrl": "https://github.com/symfony/symfony"
+}

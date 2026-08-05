@@ -1,0 +1,11 @@
+{
+  "id": "e-aws-alt-vercel",
+  "from": "aws",
+  "to": "vercel",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "自己拼装 vs 平台化托管；心智与账单结构完全不同"
+}

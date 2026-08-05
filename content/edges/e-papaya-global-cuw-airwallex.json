@@ -1,0 +1,11 @@
+{
+  "id": "e-papaya-global-cuw-airwallex",
+  "from": "papaya-global",
+  "to": "airwallex",
+  "type": "commonly_used_with",
+  "weight": 0.4,
+  "confidence": "inferred",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Papaya 解决多国工资单与付款流，Airwallex 解决企业跨境收付与换汇，二者常并存于同一财务栈"
+}

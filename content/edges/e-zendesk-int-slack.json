@@ -1,0 +1,11 @@
+{
+  "id": "e-zendesk-int-slack",
+  "from": "zendesk",
+  "to": "slack",
+  "type": "integrates_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "工单通知与创建可在频道内完成，减少来回切换"
+}

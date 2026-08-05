@@ -1,0 +1,11 @@
+{
+  "id": "e-openmeter-cuw-lago",
+  "from": "openmeter",
+  "to": "lago",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "计量在前、出账在后，自建计费链路的常见拼法"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-compose-multiplatform-alt-flutter",
+  "from": "compose-multiplatform",
+  "to": "flutter",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同为自绘跨端 UI：Kotlin/Compose 栈 vs Dart/Flutter 栈，iOS 成熟度尚有差距"
+}

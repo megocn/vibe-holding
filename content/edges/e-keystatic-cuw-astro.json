@@ -1,0 +1,11 @@
+{
+  "id": "e-keystatic-cuw-astro",
+  "from": "keystatic",
+  "to": "astro",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "后台以路由形式内嵌进 Astro 站点，内容文件与代码同仓"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-vector-dev-cuw-loki",
+  "from": "vector-dev",
+  "to": "loki",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Vector 采集与裁剪，Loki 承担存储与检索，是常见的低成本日志栈"
+}

@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "docs",
+    "nextjs",
+    "mdx",
+    "react"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "随 Next.js 大版本升级带来维护负担",
+    "主题体系较薄，复杂需求需自写布局"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://nextra.site"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "nextra",
+  "name": "Nextra",
+  "category": "fw-docs-site",
+  "subcategory": "docs-generator",
+  "oneLiner": "建在 Next.js 上的文档框架 · MDX 约定式 · 与 Vercel 部署顺路",
+  "officialUrl": "https://nextra.site",
+  "descriptionMd": "Nextra 是构建在 Next.js 之上的文档与博客框架，用文件路由与 MDX 约定生成站点，同时保留完整的 Next.js 能力，可在文档中混用 React 组件与服务端渲染。\n\n项目本就是 Next.js 栈、希望文档与主站同仓同栈同部署时最省事。\n\nNext.js 大版本升级的负担会传导到文档站；主题体系较薄，复杂布局与组件常需自己写。\n",
+  "vendorId": "vercel-inc",
+  "githubUrl": "https://github.com/shuding/nextra"
+}

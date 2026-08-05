@@ -27,7 +27,7 @@
   "region": "overseas",
   "id": "trivy",
   "name": "Trivy",
-  "category": "sec-secrets",
+  "category": "sec-appsec",
   "subcategory": "scanning",
   "oneLiner": "扫镜像/文件系统/IaC/SBOM · CI 集成简单 · Aqua 维护开源",
   "officialUrl": "https://trivy.dev",

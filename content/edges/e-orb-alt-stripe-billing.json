@@ -1,0 +1,11 @@
+{
+  "id": "e-orb-alt-stripe-billing",
+  "from": "orb",
+  "to": "stripe-billing",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "复杂用量定价 vs 档位订阅，超出档位组合时才需要换"
+}

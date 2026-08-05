@@ -26,7 +26,7 @@
   "region": "overseas",
   "id": "meilisearch",
   "name": "Meilisearch",
-  "category": "db-nosql",
+  "category": "db-search",
   "subcategory": "search",
   "oneLiner": "Typo-tolerant 即时搜 · 应用开发者 DX · 非日志分析向",
   "officialUrl": "https://www.meilisearch.com",

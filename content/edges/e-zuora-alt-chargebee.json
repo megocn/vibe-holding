@@ -1,0 +1,11 @@
+{
+  "id": "e-zuora-alt-chargebee",
+  "from": "zuora",
+  "to": "chargebee",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "企业级合同复杂度 vs 中小团队可自助落地"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-helpscout-alt-intercom",
+  "from": "helpscout",
+  "to": "intercom",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Help Scout 以邮件共享收件箱为主线，对客不暴露工单编号"
+}

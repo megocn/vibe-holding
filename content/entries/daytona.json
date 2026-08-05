@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "sandbox",
+    "devenv",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "镜像与依赖规范需团队自建",
+    "自托管形态运维成本不低"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.daytona.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "daytona",
+  "name": "Daytona",
+  "category": "ai-sandbox",
+  "subcategory": "dev-environment",
+  "oneLiner": "标准化开发环境 · 从人用转向 Agent 用；需自建镜像规范",
+  "officialUrl": "https://www.daytona.io",
+  "descriptionMd": "Daytona 做标准化的按需开发环境，近年重心转向为 AI Agent 提供可编程的隔离运行环境，支持自托管与多种基础设施后端。\n\n既要给人开一致的开发环境、又要给 Agent 提供同规格沙箱，希望两者共用一套定义时评估。\n\n环境镜像与依赖规范要团队自己立，否则一致性收益打折；自托管形态的运维成本别低估。\n"
+}

@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY",
+    "notes": "写入、索引、存储与投递分项计费"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "logging",
+    "cloud",
+    "domestic",
+    "aliyun"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "写入、索引、存储分项计费，索引字段开多成本明显上升",
+    "深度使用后迁出成本高，采集端建议保留标准协议出口"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.aliyun.com/product/sls",
+    "https://www.aliyun.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "aliyun-sls",
+  "name": "阿里云日志服务 SLS",
+  "category": "obs-logs",
+  "subcategory": "cloud-logs",
+  "oneLiner": "阿里云一站式日志 · 采集/加工/投递闭环 · 与云内产品打通深",
+  "officialUrl": "https://www.aliyun.com/product/sls",
+  "descriptionMd": "阿里云日志服务 SLS 覆盖日志的采集、存储、加工、检索与投递全链路，自带 Logtail 采集端与查询分析语法，并与云内的计算、存储、告警产品打通，是国内公有云日志侧最完整的一套。\n\n主体资源已在阿里云、希望日志与云监控告警同栈闭环时优先；跨云或混合部署再评估 Loki、OpenObserve 这类可自托管方案。\n\n计费维度较多（写入、索引、存储、投递分开算），索引字段开多了成本上升明显；重度使用后迁出成本高，采集端尽量保留标准协议出口。\n",
+  "vendorId": "alibaba"
+}

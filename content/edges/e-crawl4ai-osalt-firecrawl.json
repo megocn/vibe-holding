@@ -1,0 +1,11 @@
+{
+  "id": "e-crawl4ai-osalt-firecrawl",
+  "from": "crawl4ai",
+  "to": "firecrawl",
+  "type": "open_source_alternative_to",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同为 URL 转 markdown 供 RAG，自托管零调用费，但代理与反爬运维要自己扛"
+}

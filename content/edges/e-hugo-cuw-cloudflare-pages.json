@@ -1,0 +1,11 @@
+{
+  "id": "e-hugo-cuw-cloudflare-pages",
+  "from": "hugo",
+  "to": "cloudflare-pages",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "单二进制构建 + 静态托管，是低成本内容站的常见组合"
+}

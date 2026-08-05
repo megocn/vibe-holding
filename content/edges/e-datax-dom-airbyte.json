@@ -1,0 +1,11 @@
+{
+  "id": "e-datax-dom-airbyte",
+  "from": "datax",
+  "to": "airbyte",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国内离线同步的老牌选择：部署更轻、内网友好，但单机不可扩且不含调度与实时 CDC"
+}

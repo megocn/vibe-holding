@@ -1,0 +1,11 @@
+{
+  "id": "e-flagsmith-int-openfeature",
+  "from": "flagsmith",
+  "to": "openfeature",
+  "type": "integrates_with",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "提供 OpenFeature Provider，便于日后更换开关后端"
+}

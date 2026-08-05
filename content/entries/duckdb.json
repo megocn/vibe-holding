@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "olap",
+    "database",
+    "embedded",
+    "open-source"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "单进程模型不支持多客户端并发写",
+    "受限于单机内存与磁盘容量"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://duckdb.org"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "duckdb",
+  "name": "DuckDB",
+  "category": "db-analytics",
+  "subcategory": "embedded-olap",
+  "oneLiner": "进程内分析 SQL · 单文件零依赖 · 直查 Parquet 与 DataFrame",
+  "officialUrl": "https://duckdb.org",
+  "descriptionMd": "DuckDB 是嵌入进程内运行的分析型数据库，无需服务端、单文件即是一个库，可以直接对 Parquet、CSV 与内存中的 DataFrame 跑列式 SQL，常被称作「分析界的 SQLite」。\n\n本地数据探索、笔记本分析、数据管道中间层与单机中等规模离线计算首选；多用户并发写入与在线服务另择数仓。\n\n单进程模型不提供多客户端并发写与高可用；数据量超出本机内存与磁盘上限时必须换分布式方案。\n",
+  "vendorId": "duckdb-labs"
+}

@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "finetune",
+    "domestic",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "功能面铺得广，单点深度不一定优于专精工具；版本迭代快，训练脚本需固定版本以保证可复现。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/modelscope/ms-swift"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "both",
+  "id": "ms-swift",
+  "name": "ms-swift",
+  "category": "ai-finetune",
+  "subcategory": "training-framework",
+  "oneLiner": "魔搭出品全流程 · 训练到部署一条命令 · 国产模型适配齐全",
+  "officialUrl": "https://github.com/modelscope/ms-swift",
+  "descriptionMd": "ms-swift 是魔搭社区的大模型训练与部署框架，覆盖微调、对齐、量化到推理部署的完整链路，对国内开源模型与多模态模型的适配跟进较快。\n\n主力使用国产开源模型、或已在魔搭生态里管理模型与数据集时最顺；纯英文社区模型的资料仍以海外框架更多。\n\n功能面铺得广，单点深度不一定优于专精工具；版本迭代快，训练脚本需固定版本以保证可复现。\n",
+  "vendorId": "modelscope",
+  "githubUrl": "https://github.com/modelscope/ms-swift"
+}

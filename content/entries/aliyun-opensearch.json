@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "search",
+    "domestic",
+    "cloud",
+    "hosted"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "与开源 OpenSearch 同名不同物，易选错",
+    "索引与排序配置绑定阿里云，跨云迁移需重建"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.aliyun.com/product/opensearch"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "aliyun-opensearch",
+  "name": "阿里云 OpenSearch",
+  "category": "db-search",
+  "subcategory": "hosted-search",
+  "oneLiner": "阿里云托管检索 · 行业增强与大模型检索版 · 国内同区合规",
+  "officialUrl": "https://www.aliyun.com/product/opensearch",
+  "descriptionMd": "阿里云 OpenSearch 是托管型检索服务，除通用检索外提供面向电商、内容等场景的行业增强能力，并延伸出服务大模型问答的检索版本，分词、索引与排序均在控制台配置。\n\n国内业务需要合规同区的托管检索、已在阿里云栈内且不想自建 Elasticsearch 集群时评估。\n\n与开源 OpenSearch 项目同名但并非同一产品，勿混选；能力与计费以控制台为准，跨云迁移要重建索引与排序配置。\n",
+  "vendorId": "alibaba-cloud"
+}

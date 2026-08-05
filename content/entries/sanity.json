@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD",
+    "notes": "免费档含一定用量；按席位与 API/带宽用量升档"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cms",
+    "headless",
+    "saas",
+    "graphql"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "GROQ 与 Portable Text 属自有口径，跨 CMS 迁移需重写取数与渲染层。",
+    "Studio 深度定制后即成为需长期维护的前端项目。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.sanity.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "sanity",
+  "name": "Sanity",
+  "category": "collab-cms",
+  "subcategory": "headless-cms",
+  "oneLiner": "内容湖 + GROQ 查询 · Studio 可代码定制 · 实时协作强",
+  "officialUrl": "https://www.sanity.io",
+  "descriptionMd": "Sanity 把内容存为托管的结构化文档，用 GROQ 查询取数；编辑后台 Studio 是可自行编码与部署的 React 应用，支持实时协作与自定义输入控件。\n\n内容模型复杂、需要把编辑器改造成业务专用工作台，或看重实时协作与富文本可移植性时评估；常与 Next.js、Vercel 同栈。\n\nGROQ 与可移植富文本是自有口径，前端需要适配层；Studio 定制能力强也意味着要自己维护这份代码。\n",
+  "vendorId": "sanity-inc",
+  "docsUrl": "https://www.sanity.io/docs"
+}

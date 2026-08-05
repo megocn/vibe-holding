@@ -1,0 +1,11 @@
+{
+  "id": "e-braze-with-segment",
+  "from": "braze",
+  "to": "segment",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "CDP 统一用户档案与事件 → 触达平台负责多渠道编排"
+}

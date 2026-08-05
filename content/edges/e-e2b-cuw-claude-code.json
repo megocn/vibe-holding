@@ -1,0 +1,11 @@
+{
+  "id": "e-e2b-cuw-claude-code",
+  "from": "e2b",
+  "to": "claude-code",
+  "type": "commonly_used_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "终端 Agent 跑不可信代码时挂一层隔离环境"
+}

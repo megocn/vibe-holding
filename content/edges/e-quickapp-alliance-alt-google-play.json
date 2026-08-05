@@ -1,0 +1,11 @@
+{
+  "id": "e-quickapp-alliance-alt-google-play",
+  "from": "quickapp-alliance",
+  "to": "google-play",
+  "type": "alternative_to",
+  "weight": 0.35,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国内厂商联盟的免安装轻应用入口 vs 海外安卓商店的安装型分发；形态不同，仅作渠道对照"
+}

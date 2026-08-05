@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "guardrail",
+    "moderation",
+    "cloud"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "与 Azure 账号区域强绑定，跨云不经济",
+    "审核类目由平台定义，未必贴合业务红线"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://azure.microsoft.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "azure-content-safety",
+  "name": "Azure AI Content Safety",
+  "category": "ai-guardrail",
+  "subcategory": "cloud-moderation",
+  "oneLiner": "云侧内容审核 API · 多模态分级；与 Azure 生态绑定",
+  "officialUrl": "https://azure.microsoft.com",
+  "descriptionMd": "Azure AI Content Safety 提供文本与图像的有害内容分级判定，以及针对提示攻击与「越权输出」的检测能力，是 Azure 上模型服务的常见配套。\n\n已在 Azure 生态、要给 Azure OpenAI 之类服务补一层官方审核时优先。\n\n与 Azure 账号和区域强绑定，跨云使用不经济；类目与阈值口径是平台定义的，不一定贴合你的业务红线。\n",
+  "vendorId": "microsoft"
+}

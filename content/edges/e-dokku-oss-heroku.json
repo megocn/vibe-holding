@@ -1,0 +1,11 @@
+{
+  "id": "e-dokku-oss-heroku",
+  "from": "dokku",
+  "to": "heroku",
+  "type": "open_source_alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Buildpack 与 git push 心智的自托管版"
+}

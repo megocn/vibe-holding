@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "timeseries",
+    "iot",
+    "apache",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "树状测点模型调整代价高",
+    "周边 BI 与告警生态需自建对接"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://iotdb.apache.org"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "both",
+  "id": "apache-iotdb",
+  "name": "Apache IoTDB",
+  "category": "db-timeseries",
+  "subcategory": "iot-timeseries",
+  "oneLiner": "工业时序 Apache 项目 · 树状测点建模 · 端边云同源文件格式",
+  "officialUrl": "https://iotdb.apache.org",
+  "descriptionMd": "Apache IoTDB 源自清华大学的研究工作，面向工业物联网的时序数据管理，用树状层次组织设备与测点，配套列式时序文件格式，可在设备端、边缘与云端之间沿用同一套存储格式。\n\n工厂、电力、轨道交通等测点层级清晰、需要端边云一体采集与归档的场景评估。\n\n树状模型与标签式时序库思路不同，选定后调整层级代价高；周边报表与告警生态需要自行对接建设。\n"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-starlight-bo-astro",
+  "from": "starlight",
+  "to": "astro",
+  "type": "built_on",
+  "weight": 0.85,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Astro 官方文档主题，随 Astro 岛屿架构一同演进"
+}

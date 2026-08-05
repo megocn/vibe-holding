@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "database",
+    "graph",
+    "graphql",
+    "oss"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "DQL 与 Cypher 生态不互通，选型即锁定",
+    "项目治理与商业实体变动过，需跟踪社区活跃度"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://dgraph.io",
+    "https://github.com/hypermodeinc/dgraph"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "dgraph",
+  "name": "Dgraph",
+  "category": "db-graph",
+  "subcategory": "distributed-graph",
+  "oneLiner": "分布式原生图 · GraphQL 优先接口 · 自有 DQL 查询 · 数据按谓词分片",
+  "officialUrl": "https://dgraph.io",
+  "descriptionMd": "Dgraph 是分布式原生图数据库，对外主打 GraphQL 风格接口，内部用自有的 DQL 查询语言，数据按谓词分片并支持分布式事务，可以把图库直接当作 API 后端使用。\n\n团队已经在用 GraphQL、希望后端接口与图存储共用一套模型时评估；重图算法与成熟可视化工具链仍是 Neo4j 更强。\n\n查询语言与主流 Cypher 生态不互通，选型即锁定；项目治理与商业实体几经变动，长期维护节奏需自行跟踪。\n",
+  "vendorId": "dgraph-labs"
+}

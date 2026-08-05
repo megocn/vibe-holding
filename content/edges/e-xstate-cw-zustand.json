@@ -1,0 +1,11 @@
+{
+  "id": "e-xstate-cw-zustand",
+  "from": "xstate",
+  "to": "zustand",
+  "type": "commonly_used_with",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "流程状态交给状态机、零散共享数据留在 store；不是同一心智模型，勿直接互替"
+}

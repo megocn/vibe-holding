@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "search",
+    "api",
+    "domestic",
+    "rag"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "英文与海外站点覆盖不及国际引擎；配额与字段定义以控制台为准，跨境业务建议与海外搜索 API 双路兜底。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://bochaai.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "bocha-search",
+  "name": "博查搜索",
+  "category": "ai-search-api",
+  "subcategory": "domestic-search",
+  "oneLiner": "国内联网检索 API · 中文网页与垂类语料 · 人民币计费无需出海",
+  "officialUrl": "https://bochaai.com",
+  "descriptionMd": "博查（Bocha）面向国内开发者提供搜索与网页内容 API，覆盖中文网页及部分垂类内容，接口形态贴近给大模型做联网检索的用法。\n\n国内产品要给模型加联网能力、又受限于境外服务的支付与网络时，它是常见的第一选择；中文语料覆盖也比海外引擎更贴合。\n\n英文与海外站点覆盖不及国际引擎；配额与字段定义以控制台为准，跨境业务建议与海外搜索 API 双路兜底。\n",
+  "vendorId": "bocha-ai"
+}

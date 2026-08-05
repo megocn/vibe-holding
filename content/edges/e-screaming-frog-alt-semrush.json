@@ -1,0 +1,11 @@
+{
+  "id": "e-screaming-frog-alt-semrush",
+  "from": "screaming-frog",
+  "to": "semrush",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "本机一次性技术抓取 vs 云端定期站点审计；前者数据不出本机"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-puppeteer-alt-selenium",
+  "from": "puppeteer",
+  "to": "selenium",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Node 单栈直连 DevTools 协议 vs 多语言绑定的 W3C WebDriver 标准实现"
+}

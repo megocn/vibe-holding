@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "database",
+    "graph",
+    "streaming",
+    "cypher"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "内存驻留，容量与成本随图规模线性上升",
+    "持久化与恢复策略需在压测阶段验证"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://memgraph.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "memgraph",
+  "name": "Memgraph",
+  "category": "db-graph",
+  "subcategory": "native-graph",
+  "oneLiner": "内存优先图库 · 兼容 Cypher · 流式摄入与图上实时触发",
+  "officialUrl": "https://memgraph.com",
+  "descriptionMd": "Memgraph 是内存优先的图数据库，兼容 Cypher 查询，内置从消息流持续摄入并在图上触发计算的能力，配套图算法库与可视化界面，主打低延迟的实时图查询。\n\n需要在毫秒级延迟下对不断变化的图做查询与算法（风控、网络拓扑、实时推荐）时，作为 Neo4j 的低延迟对照评估。\n\n内存驻留意味着容量受机器内存限制，成本随图规模线性上升；持久化与恢复策略需在压测阶段就验证。\n",
+  "vendorId": "memgraph-inc"
+}

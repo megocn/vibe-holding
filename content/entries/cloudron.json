@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "self-hosted",
+    "app-store",
+    "backup",
+    "ops"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "面向打包应用，不适合自研代码部署",
+    "按应用数收费，规模上去成本明显"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.cloudron.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "cloudron",
+  "name": "Cloudron",
+  "category": "cloud-self-host",
+  "subcategory": "app-hosting",
+  "oneLiner": "自托管应用商店 · 备份/账号统一托管；按应用数收费",
+  "officialUrl": "https://www.cloudron.io",
+  "descriptionMd": "Cloudron 把自托管做成「应用商店 + 平台」：应用一键安装，账号、备份、证书与更新由平台统一管理，运维心智接近托管 SaaS。\n\n想自建一套 Nextcloud、邮件、Wiki 等内部服务，又不愿逐个折腾配置与备份时评估。\n\n面向的是打包好的应用而非自研代码部署；按应用数量收费，装得多成本不低，且离开平台迁移不算轻松。\n"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-statsig-alt-launchdarkly",
+  "from": "statsig",
+  "to": "launchdarkly",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "开关+实验+指标一体（按事件量） vs 开关治理专精（按席位）"
+}

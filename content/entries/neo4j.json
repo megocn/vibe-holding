@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "database",
+    "graph",
+    "cypher",
+    "oss"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "社区版单机，集群与企业特性需商业授权",
+    "Cypher 与配套工具链绑定深，迁出成本高",
+    "超大规模写入吞吐需要专门调优"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://neo4j.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "neo4j",
+  "name": "Neo4j",
+  "category": "db-graph",
+  "subcategory": "native-graph",
+  "oneLiner": "原生属性图 · Cypher 与图算法工具链最全 · 社区版单机、集群走商业授权",
+  "officialUrl": "https://neo4j.com",
+  "descriptionMd": "Neo4j 是原生属性图数据库，以节点与关系为一等模型，用 Cypher 表达多跳遍历、路径与模式匹配，配套可视化、图算法库与大量学习资料，是图库里生态最完整的一支。\n\n关系推理、反欺诈、权限链路、知识图谱与 GraphRAG 这类「多跳查询比 JOIN 更自然」的场景优先；只是偶尔查两层关联，关系库配递归查询往往更省事。\n\n社区版为单机且采用 GPL，集群与企业特性在商业版；托管的 Aura 会带来地区与出网约束，国内落地需先确认合规路径。\n",
+  "vendorId": "neo4j-inc"
+}

@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "browser",
+    "testing",
+    "open-source"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "多模态模型调用带来额外费用与延迟；安卓侧对环境依赖较多，接入前先跑通设备链路。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://midscenejs.com",
+    "https://github.com/web-infra-dev/midscene"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "both",
+  "id": "midscene",
+  "name": "Midscene.js",
+  "category": "ai-browser",
+  "subcategory": "agent-browser-oss",
+  "oneLiner": "字节开源 · 自然语言驱动 Web 与安卓 · 带可视化回放报告",
+  "officialUrl": "https://midscenejs.com",
+  "descriptionMd": "Midscene.js 出自字节跳动 Web Infra 团队，用自然语言描述界面操作与断言，除浏览器外还支持安卓设备，并把每一步的模型判断生成可回放的可视化报告。\n\n国内团队做 UI 自动化或跨端验证、且希望调试过程可追溯时值得试；纯服务端抓取用无头方案更省资源。\n\n多模态模型调用带来额外费用与延迟；安卓侧对环境依赖较多，接入前先跑通设备链路。\n",
+  "vendorId": "bytedance",
+  "githubUrl": "https://github.com/web-infra-dev/midscene"
+}

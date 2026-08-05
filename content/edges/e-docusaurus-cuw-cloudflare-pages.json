@@ -1,0 +1,11 @@
+{
+  "id": "e-docusaurus-cuw-cloudflare-pages",
+  "from": "docusaurus",
+  "to": "cloudflare-pages",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "纯静态产物，常托管到 Pages 类平台以获得国内外可访问的 CDN"
+}

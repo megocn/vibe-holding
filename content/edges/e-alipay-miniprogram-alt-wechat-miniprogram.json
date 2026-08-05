@@ -1,0 +1,11 @@
+{
+  "id": "e-alipay-miniprogram-alt-wechat-miniprogram",
+  "from": "alipay-miniprogram",
+  "to": "wechat-miniprogram",
+  "type": "alternative_to",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "交易与生活服务意图流量 vs 社交关系链与线下扫码流量；开放能力一偏金融、一偏社交"
+}

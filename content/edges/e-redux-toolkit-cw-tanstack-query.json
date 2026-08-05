@@ -1,0 +1,11 @@
+{
+  "id": "e-redux-toolkit-cw-tanstack-query",
+  "from": "redux-toolkit",
+  "to": "tanstack-query",
+  "type": "commonly_used_with",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "RTK Query 与 TanStack Query 职责重叠，同项目宜二选一，勿两套缓存并存"
+}

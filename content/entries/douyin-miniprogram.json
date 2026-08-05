@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "free",
+    "currency": "CNY",
+    "notes": "开发免费；交易类目服务费按官方最新政策为准"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": true,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "miniapp",
+    "douyin",
+    "domestic",
+    "commerce"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "没有内容与投放能力时几乎拿不到自然流量",
+    "类目资质与经营规则调整频繁，需要专人跟进"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://open.douyin.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "douyin-miniprogram",
+  "name": "抖音小程序",
+  "category": "dist-miniapp",
+  "subcategory": "douyin",
+  "oneLiner": "短视频与直播内容流入口 · 种草即转化 · 强依赖投放与内容运营",
+  "officialUrl": "https://open.douyin.com",
+  "descriptionMd": "抖音小程序挂在短视频与直播的内容流里：从视频挂载、直播间组件、评论区与个人主页等入口唤起，天然服务于「内容种草到当场转化」的链路。\n\n增长依赖短视频与直播投放、需要在内容旁边直接承接下单或留资时评估；它与微信的社交关系链分发是两种完全不同的流量逻辑，通常不互相替代。\n\n强依赖内容与投放能力，没有内容运营的团队很难拿到自然流量；类目资质与经营规则调整频繁，服务费与结算政策以官方最新说明为准。\n",
+  "vendorId": "bytedance"
+}

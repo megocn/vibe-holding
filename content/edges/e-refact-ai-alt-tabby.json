@@ -1,0 +1,11 @@
+{
+  "id": "e-refact-ai-alt-tabby",
+  "from": "refact-ai",
+  "to": "tabby",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "两条自托管开源线：Refact 带 Agent 与模型适配，Tabby 更轻更易起"
+}

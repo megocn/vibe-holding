@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cross-platform",
+    "kotlin",
+    "mobile",
+    "shared-code"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "iOS 侧仍需原生工程能力与互操作调试",
+    "第三方库须支持多平台目标才可引入"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://kotlinlang.org"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "kotlin-multiplatform",
+  "name": "Kotlin Multiplatform",
+  "category": "fw-cross-platform",
+  "subcategory": "shared-logic",
+  "oneLiner": "只共享业务逻辑 · UI 各端保留原生 · 编译到 JVM/iOS/Web",
+  "officialUrl": "https://kotlinlang.org",
+  "descriptionMd": "Kotlin Multiplatform 把网络、存储与领域逻辑写一次，编译到 Android、iOS、桌面与 Web，界面层则各端保留原生实现，走的是共享逻辑而非共享 UI 的路线。\n\n已有原生双端团队、想复用数据层与业务层又不愿牺牲原生体验时最合适；要连界面一起复用则看 Compose Multiplatform。\n\niOS 侧仍需 Swift 工程能力与互操作调试；构建配置复杂，第三方库必须专门支持多平台目标才能引入。\n",
+  "vendorId": "jetbrains",
+  "githubUrl": "https://github.com/JetBrains/kotlin"
+}

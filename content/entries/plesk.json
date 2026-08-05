@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "hosting",
+    "panel",
+    "multi-tenant",
+    "commercial"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "按许可证计费，成本随档位上涨",
+    "心智偏传统主机，与容器工作流不合拍"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.plesk.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "plesk",
+  "name": "Plesk",
+  "category": "cloud-self-host",
+  "subcategory": "hosting-panel",
+  "oneLiner": "老牌商业主机面板 · 多站点/多租户成熟；按许可证计费",
+  "officialUrl": "https://www.plesk.com",
+  "descriptionMd": "Plesk 是老牌商业主机控制面板，覆盖多站点托管、邮件、DNS、备份与多租户权限，在主机商与代运维场景中长期是标准件。\n\n要给客户做多租户虚拟主机托管、或接手已用 Plesk 的存量环境时评估；自研应用部署更适合看 Dokploy 这类现代面板。\n\n按许可证订阅计费，成本随站点与功能档位上涨；心智偏传统主机运维，与容器化工作流不太合拍。\n"
+}

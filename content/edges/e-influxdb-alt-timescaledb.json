@@ -1,0 +1,11 @@
+{
+  "id": "e-influxdb-alt-timescaledb",
+  "from": "influxdb",
+  "to": "timescaledb",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "专用时序内核与保留策略 vs 留在 PostgreSQL 生态里用扩展做时序"
+}

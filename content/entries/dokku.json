@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "self-hosted",
+    "paas",
+    "buildpack",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "多机编排能力弱，偏单机场景",
+    "能力受插件生态限制"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://dokku.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "dokku",
+  "name": "Dokku",
+  "category": "cloud-self-host",
+  "subcategory": "self-hosted-paas",
+  "oneLiner": "单机 Heroku 心智 · git push 部署；插件即能力边界",
+  "officialUrl": "https://dokku.com",
+  "descriptionMd": "Dokku 是最早一批「迷你 Heroku」，用 Buildpack 与 git push 完成部署，插件体系覆盖数据库、证书与备份，占用极轻。\n\n单台服务器上跑若干小应用、喜欢 Heroku 那套心智又想自己掌控成本与数据时评估；也常作为学习容器化部署的过渡。\n\n多机编排与图形界面不是它的强项；能力上限基本由插件生态决定，冷门需求要自己写插件。\n"
+}

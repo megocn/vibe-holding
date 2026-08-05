@@ -1,0 +1,11 @@
+{
+  "id": "e-cookiebot-alt-iubenda",
+  "from": "cookiebot",
+  "to": "iubenda",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Cookiebot 强在脚本自动扫描与同意日志留痕；iubenda 强在政策文本生成一体化"
+}

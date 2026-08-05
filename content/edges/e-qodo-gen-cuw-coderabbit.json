@@ -1,0 +1,11 @@
+{
+  "id": "e-qodo-gen-cuw-coderabbit",
+  "from": "qodo-gen",
+  "to": "coderabbit",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "提交前在编辑器补测试，提交后在 PR 上自动评审"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-tencent-trtc-alt-agora",
+  "from": "tencent-trtc",
+  "to": "agora",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "云内一体（直播/点播/IM 同栈）vs 独立厂商、跨云中立"
+}

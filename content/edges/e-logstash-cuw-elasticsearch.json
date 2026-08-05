@@ -1,0 +1,11 @@
+{
+  "id": "e-logstash-cuw-elasticsearch",
+  "from": "logstash",
+  "to": "elasticsearch",
+  "type": "commonly_used_with",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "ELK 经典组合：Logstash 解析富化，Elasticsearch 承担索引与检索"
+}

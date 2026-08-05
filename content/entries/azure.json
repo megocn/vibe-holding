@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cloud",
+    "iaas",
+    "hyperscaler",
+    "enterprise"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "中国区由世纪互联运营，功能落后 Global 若干版本",
+    "Azure OpenAI 配额需单独申请，非开通即用"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://azure.microsoft.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "azure",
+  "name": "Microsoft Azure",
+  "category": "cloud-iaas",
+  "subcategory": "hyperscaler",
+  "oneLiner": "贴合 AD/Office 企业生态 · Azure OpenAI 独立档位与配额",
+  "officialUrl": "https://azure.microsoft.com",
+  "descriptionMd": "Azure 与 Entra ID（原 Azure AD）、Microsoft 365 及 Windows 体系深度咬合，企业采购与身份治理路径顺畅，Azure OpenAI 亦是独立的模型接入通道。\n\n企业已在微软生态、需要合规采购通道、或要以独立配额调用 OpenAI 系模型时优先；常与 azure-openai、azure-functions 同栈。\n\n门户信息密度高、术语自成一套，学习成本不低；中国区由世纪互联独立运营，功能与 Global 存在时间差。\n",
+  "vendorId": "microsoft"
+}

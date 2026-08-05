@@ -1,0 +1,11 @@
+{
+  "id": "e-chromatic-int-github-actions",
+  "from": "chromatic",
+  "to": "github-actions",
+  "type": "integrates_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "PR 上以待确认状态回写检查项，差异需人工判定通过"
+}

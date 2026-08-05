@@ -1,0 +1,11 @@
+{
+  "id": "e-ragas-alt-deepeval",
+  "from": "ragas",
+  "to": "deepeval",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "RAG 专用指标 vs 通用 LLM 断言框架"
+}

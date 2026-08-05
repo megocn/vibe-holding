@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD",
+    "notes": "按席位订阅"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "support",
+    "b2b",
+    "slack",
+    "saas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "面向 B2B 窄场景，消费级海量会话与呼叫中心能力缺位。",
+    "产品较年轻，复杂需求需 POC 验证能力边界。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.plain.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "plain-com",
+  "name": "Plain",
+  "category": "collab-support",
+  "subcategory": "b2b-support",
+  "oneLiner": "面向 B2B SaaS 的支持台 · Slack 原生 · API 与工作流优先",
+  "officialUrl": "https://www.plain.com",
+  "descriptionMd": "Plain 是面向 B2B SaaS 的客户支持工具：把 Slack 共享频道、邮件与站内求助收进统一线程，并强调用接口把客户上下文与工程侧问题单串起来。\n\n客户是企业账号、日常支持发生在 Slack 共享频道、且希望支持与研发工单联动时评估；面向海量消费者的场景不匹配。\n\n定位窄，缺少大众客服套件的呼叫中心与复杂知识库；团队与生态较年轻，能力边界需 POC 验证。\n",
+  "vendorId": "plain-inc",
+  "docsUrl": "https://www.plain.com/docs"
+}

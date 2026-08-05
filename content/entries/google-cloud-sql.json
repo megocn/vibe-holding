@@ -32,5 +32,5 @@
   "oneLiner": "GCP 全托管 · Run/GKE/BQ 联邦 · GCP SQL 默认选项",
   "officialUrl": "https://cloud.google.com/sql",
   "descriptionMd": "Cloud SQL 提供全托管关系库、自动备份与高可用，与 Cloud Run、GKE、BigQuery 联邦查询集成，是 GCP SQL 默认选项。\n\nFirebase/GCP 栈需要托管 Postgres/MySQL 时选用；私有 IP 访问 GKE 常见。\n\n连接数与磁盘扩容有操作窗口；极端高 QPS 可能迁移到 AlloyDB/Spanner。\n",
-  "vendorId": "google-cloud"
+  "vendorId": "google"
 }

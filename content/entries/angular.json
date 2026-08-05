@@ -32,7 +32,7 @@
   "region": "overseas",
   "id": "angular",
   "name": "Angular",
-  "category": "fw-fullstack",
+  "category": "fw-ui-lib",
   "subcategory": "spa-framework",
   "oneLiner": "Opinionated 全家桶 · routing/forms/RxJS · 大型 enterprise SPA",
   "officialUrl": "https://angular.dev",

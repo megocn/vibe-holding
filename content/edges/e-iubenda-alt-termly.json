@@ -1,0 +1,11 @@
+{
+  "id": "e-iubenda-alt-termly",
+  "from": "iubenda",
+  "to": "termly",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "iubenda 偏欧盟 GDPR 与多语种条款；Termly 偏美国州级隐私法口径"
+}

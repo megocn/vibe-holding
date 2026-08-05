@@ -32,5 +32,5 @@
   "oneLiner": "GCP 分级存储 · BigQuery/Cloud CDN/Firebase 联动",
   "officialUrl": "https://cloud.google.com/storage",
   "descriptionMd": "GCS 提供 multi-regional、Nearline/Coldline 分级与 uniform bucket 访问，与 BigQuery、Cloud CDN、Firebase 集成。\n\nGCP/Firebase 栈存放用户上传、ML 数据集或静态站点时默认选择；Signed URL 模式成熟。\n\n与 AWS 工具链 S3 兼容层非 100%；细粒度 IAM 学习曲线存在。\n",
-  "vendorId": "google-cloud"
+  "vendorId": "google"
 }

@@ -1,0 +1,11 @@
+{
+  "id": "e-sumo-logic-alt-datadog",
+  "from": "sumo-logic",
+  "to": "datadog",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "偏日志与安全审计的托管服务 vs 指标链路日志全覆盖的可观测平台"
+}

@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "gpu",
+    "cloud",
+    "marketplace",
+    "budget"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "机器质量与网络差异极大，需按评分和实测挑选；竞价实例可能被抢占，务必自建检查点与重试。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://vast.ai"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "vast-ai",
+  "name": "Vast.ai",
+  "category": "ai-gpu-cloud",
+  "subcategory": "gpu-marketplace",
+  "oneLiner": "GPU 竞价市集 · 散户机器价格极低 · 可靠性靠评分自行筛选",
+  "officialUrl": "https://vast.ai",
+  "descriptionMd": "Vast.ai 是 GPU 算力的撮合市场，供给方既有数据中心也有个人机器，价格由竞价决定，平台用可靠性评分、带宽与硬件参数帮助买方筛选。\n\n预算敏感、任务可中断的实验与批处理最划算；对合规、网络与稳定性有硬要求的生产负载不适合。\n\n机器质量与网络差异极大，需按评分和实测挑选；竞价实例可能被抢占，务必自建检查点与重试。\n",
+  "vendorId": "vast-ai-inc"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-airbyte-int-postgresql",
+  "from": "airbyte",
+  "to": "postgresql",
+  "type": "integrates_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "既可作来源也可作目的地，增量同步模式的选择直接决定源库压力"
+}

@@ -26,7 +26,7 @@
   "region": "overseas",
   "id": "jest",
   "name": "Jest",
-  "category": "oss-toolchain",
+  "category": "oss-testing",
   "subcategory": "test",
   "oneLiner": "snapshot/mock/coverage 一体 · React/Node 传统默认",
   "officialUrl": "https://jestjs.io",

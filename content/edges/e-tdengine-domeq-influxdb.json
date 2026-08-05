@@ -1,0 +1,11 @@
+{
+  "id": "e-tdengine-domeq-influxdb",
+  "from": "tdengine",
+  "to": "influxdb",
+  "type": "domestic_equivalent_of",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国内工业时序主力：一个采集点一张表的建模，内置流式与订阅"
+}

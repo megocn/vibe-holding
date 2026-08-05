@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "email",
+    "marketing",
+    "automation",
+    "crm"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "按联系人数阶梯计价，不清理名单会持续吃成本。",
+    "勿用营销账号发事务邮件，信誉与到达率会互相拖累。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://mailchimp.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "mailchimp",
+  "name": "Mailchimp",
+  "category": "growth-lifecycle",
+  "subcategory": "email-marketing",
+  "oneLiner": "老牌营销邮件一体机 · 模板名单自动化齐 · 按联系人阶梯计价",
+  "officialUrl": "https://mailchimp.com",
+  "descriptionMd": "Mailchimp 是历史最长的邮件营销平台之一：可视化模板编辑、名单与分群管理、自动化旅程、落地页与表单打包提供，面向不写代码的市场与运营角色。\n\n中小企业或内容团队需要一套开箱即用的营销邮件与名单工具，并由非技术同事日常操作时评估。\n\n按联系人规模阶梯涨价，长期不清理的僵尸订阅者会持续吃成本；验证码、账单一类事务邮件请走专门的发信 API，不要混在营销账号里。\n",
+  "vendorId": "intuit"
+}

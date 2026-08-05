@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "privacy",
+    "consent",
+    "ccpa",
+    "legal"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "生成的政策是通用模板，未按真实数据流改写反而形成合规风险。",
+    "免费档会在横幅上带品牌标识，扫描频次与页面数也有上限。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://termly.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "termly",
+  "name": "Termly",
+  "category": "sec-compliance",
+  "subcategory": "privacy-consent",
+  "oneLiner": "政策生成器 + Cookie 扫描 · 偏美国州级隐私法口径 · 有免费档",
+  "officialUrl": "https://termly.io",
+  "descriptionMd": "Termly 提供隐私政策、服务条款与 Cookie 政策生成器，配套 Cookie 扫描与同意横幅，法规口径侧重 CCPA/CPRA 等美国州级隐私法，同时兼顾 GDPR。\n\n主要面向美国用户的小型站点，想低成本挂上合规政策与同意条时评估；欧盟精细化同意与多语场景可对照 iubenda、Cookiebot。\n\n工具只是流程助手，生成文本必须按真实数据流改写；免费档在横幅样式与扫描频次上有限制，政策更新是否随法规同步要定期自查。\n",
+  "vendorId": "termly-inc"
+}

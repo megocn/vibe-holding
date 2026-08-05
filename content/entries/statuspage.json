@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD",
+    "notes": "按状态页数量与订阅者规模分档"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "status-page",
+    "incident",
+    "atlassian",
+    "saas"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "自身不含拨测能力，需与监控工具搭配",
+    "按订阅者规模计费，用户量大时成本上升明显"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.atlassian.com/software/statuspage"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "statuspage",
+  "name": "Atlassian Statuspage",
+  "category": "obs-uptime",
+  "subcategory": "status-page",
+  "oneLiner": "对外事故沟通标准件 · 与 Jira/Opsgenie 同栈 · 订阅者通知全",
+  "officialUrl": "https://www.atlassian.com/software/statuspage",
+  "descriptionMd": "Statuspage 是 Atlassian 的对外状态页产品，负责事故公告、组件状态、维护窗口与订阅者通知，本身不做探测，而是把内部告警与人工判断翻译成客户能看懂的对外口径。\n\n面向外部客户、需要一套规范的事故沟通与订阅通知机制时选它，尤其是已经在用 Jira 与 Opsgenie 的团队；探测能力仍需 UptimeRobot、Checkly 等提供。\n\n不含拨测能力，得与监控工具搭配才完整；按订阅者规模计费，用户量大时成本上升，轻量场景可看 Instatus 或 OpenStatus。\n",
+  "vendorId": "atlassian"
+}

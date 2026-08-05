@@ -1,0 +1,11 @@
+{
+  "id": "e-fumadocs-alt-nextra",
+  "from": "fumadocs",
+  "to": "nextra",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同在 Next.js 上做文档：Fumadocs 分层可替换、组件更新，Nextra 约定更成熟"
+}

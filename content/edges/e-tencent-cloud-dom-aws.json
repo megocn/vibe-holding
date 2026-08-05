@@ -1,0 +1,11 @@
+{
+  "id": "e-tencent-cloud-dom-aws",
+  "from": "tencent-cloud",
+  "to": "aws",
+  "type": "domestic_equivalent_of",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国内综合云；音视频与微信链路是其差异点"
+}

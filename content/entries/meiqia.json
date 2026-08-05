@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "CNY",
+    "notes": "按坐席数与功能档订阅"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "support",
+    "livechat",
+    "domestic",
+    "wechat"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "面向国内场景，海外访问与多语言能力有限。",
+    "渠道与坐席能力按套餐分层，签约前需逐项确认。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://meiqia.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "meiqia",
+  "name": "美洽",
+  "category": "collab-support",
+  "subcategory": "domestic-support",
+  "oneLiner": "国内多渠道在线客服 · 微信小程序接入顺 · 中小团队向",
+  "officialUrl": "https://meiqia.com",
+  "descriptionMd": "美洽是国内的在线客服 SaaS，覆盖网页与 App 咨询、微信公众号与小程序等渠道接入，配工单、客服机器人与会话质检等常规能力。\n\n国内产品要快速接入在线客服、主要流量来自微信生态与自有网站、且希望开通与结算都走本地渠道时评估；出海多语与全球节点需另选方案。\n\n海外访问与多语言支持有限；渠道能力与并发坐席按套餐差异大，签约前需按实际渠道逐项确认。\n",
+  "vendorId": "meiqia-inc"
+}

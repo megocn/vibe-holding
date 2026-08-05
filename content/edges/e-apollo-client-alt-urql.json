@@ -1,0 +1,11 @@
+{
+  "id": "e-apollo-client-alt-urql",
+  "from": "apollo-client",
+  "to": "urql",
+  "type": "alternative_to",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Apollo 默认规范化缓存、工具链全但体积大；urql 默认文档缓存、按 exchange 拼装，起步更轻"
+}

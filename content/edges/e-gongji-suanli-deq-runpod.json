@@ -1,0 +1,11 @@
+{
+  "id": "e-gongji-suanli-deq-runpod",
+  "from": "gongji-suanli",
+  "to": "runpod",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国内的容器化弹性算力与推理托管，靠错峰聚合压价，稳定性需自行兜底"
+}

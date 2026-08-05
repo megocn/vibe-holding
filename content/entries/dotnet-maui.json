@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cross-platform",
+    "dotnet",
+    "csharp",
+    "mobile"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "平台特性覆盖与工具链稳定性常被诟病",
+    "第三方控件生态远小于 Flutter / React Native"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/dotnet/maui"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "dotnet-maui",
+  "name": ".NET MAUI",
+  "category": "fw-cross-platform",
+  "subcategory": "mobile-cross",
+  "oneLiner": "微软跨端 UI · C# 一套代码出四端 · Xamarin.Forms 继任者",
+  "officialUrl": "https://github.com/dotnet/maui",
+  "descriptionMd": ".NET MAUI 是微软 Xamarin.Forms 的继任框架，用 C# 与 XAML 写一套界面并映射到各平台原生控件，输出 Android、iOS、macOS 与 Windows 应用。\n\n团队已是 .NET 栈、要把内部业务应用铺到桌面与移动端时评估；面向消费者的高动效产品通常仍选 Flutter。\n\n平台特性覆盖与工具链稳定性历来是社区抱怨点，iOS 构建仍依赖 Mac；第三方控件生态远小于 Flutter 与 React Native。\n",
+  "vendorId": "microsoft",
+  "githubUrl": "https://github.com/dotnet/maui"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-orb-cuw-litellm",
+  "from": "orb",
+  "to": "litellm",
+  "type": "commonly_used_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "把网关吐出的 token 用量转成对外账单"
+}

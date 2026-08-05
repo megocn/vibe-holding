@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "browser",
+    "agent",
+    "open-source"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "每步都要喂截图与 DOM，token 成本高且延迟明显；长链路成功率不稳定，生产任务需自建重试与人工兜底。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://browser-use.com",
+    "https://github.com/browser-use/browser-use"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "browser-use",
+  "name": "Browser Use",
+  "category": "ai-browser",
+  "subcategory": "agent-browser-oss",
+  "oneLiner": "开源 Python Agent 驱动浏览器 · 视觉+DOM 混合定位 · 可自托管",
+  "officialUrl": "https://browser-use.com",
+  "descriptionMd": "Browser Use 是把浏览器交给 LLM 的开源 Python 库：它抽取页面可交互元素并配合截图让模型决定点哪里、填什么，再回放为真实操作，社区里常被当作「通用网页 Agent」的默认起点。\n\n适合任务描述模糊、页面结构无法预先写死的探索型自动化；若流程稳定且需要断言，写 Playwright 脚本更省钱也更快。\n\n每步都要喂截图与 DOM，token 成本高且延迟明显；长链路成功率不稳定，生产任务需自建重试与人工兜底。\n",
+  "vendorId": "browser-use-inc",
+  "githubUrl": "https://github.com/browser-use/browser-use"
+}

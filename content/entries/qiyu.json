@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "CNY",
+    "notes": "按坐席与模块分档，企业采购为主"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "support",
+    "ticketing",
+    "domestic",
+    "callcenter"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "以企业采购为主，个人与小团队开通门槛偏高。",
+    "呼叫中心等模块需单独开通，整体报价随模块叠加。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://qiyukf.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "qiyu",
+  "name": "网易七鱼",
+  "category": "collab-support",
+  "subcategory": "domestic-support",
+  "oneLiner": "网易系客服云 · 工单与智能机器人齐备 · 偏企业采购",
+  "officialUrl": "https://qiyukf.com",
+  "descriptionMd": "网易七鱼是网易旗下的智能客服云，提供在线客服、工单系统、呼叫中心与客服机器人，渠道覆盖网页、App、微信与企业微信等国内入口。\n\n国内中大型团队需要工单流转、质检报表与呼叫中心一体，且倾向选择有资质与本地服务的厂商时评估。\n\n开通与计费偏企业采购路径，个人与小团队门槛偏高；能力按模块拆分，报价前需明确所需模块与坐席数。\n",
+  "vendorId": "netease"
+}

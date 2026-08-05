@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "compliance",
+    "soc2",
+    "security",
+    "saas"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "Vanta 自身不出证，审计报告仍需另付费请审计机构执行。",
+    "需要在每台员工设备装监控代理，远程与外包成员推行阻力大。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.vanta.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "vanta",
+  "name": "Vanta",
+  "category": "sec-compliance",
+  "subcategory": "compliance-automation",
+  "oneLiner": "合规自动化老牌 · 控制项持续取证 · 审计师与集成生态最广",
+  "officialUrl": "https://www.vanta.com",
+  "descriptionMd": "Vanta 把 SOC 2、ISO 27001、HIPAA 等框架拆成可执行控制项，接入云账号、身份系统与设备管理后持续采集证据，并把政策模板、安全培训与供应商风险收进同一后台。\n\n出海 SaaS 要在数月内拿下第一张 SOC 2、团队又没有专职合规岗时，用它替代人工整理证据表格；它位于云与身份系统之上的流程编排层，不改变基础设施本身。\n\n工具只是流程助手，认证仍要审计机构出具报告；国内团队常卡在设备管理代理装机与英文政策落地，且国内等保测评是另一套路径，两边不互认。\n",
+  "vendorId": "vanta-inc"
+}

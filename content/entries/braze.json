@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "lifecycle",
+    "multichannel",
+    "enterprise",
+    "push"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "企业项目制实施，接入周期长、成本高。",
+    "旅程与数据模型迁移困难，切换供应商代价大。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.braze.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "braze",
+  "name": "Braze",
+  "category": "growth-lifecycle",
+  "subcategory": "crm-messaging",
+  "oneLiner": "企业级跨渠道触达编排 · 推送短信站内齐 · 项目制实施",
+  "officialUrl": "https://www.braze.com",
+  "descriptionMd": "Braze 是面向中大型企业的客户互动平台，围绕用户档案与实时事件编排邮件、App 推送、短信与站内消息等多渠道旅程，并配套试验与内容个性化能力。\n\n以 App 为主、用户量级大且需要多渠道统一编排与团队协作治理时评估；只做邮件通讯用它明显过重。\n\n采购与实施偏企业项目制，接入成本高、周期长；数据模型与旅程配置迁移困难，选型前要想清楚长期归属。\n",
+  "vendorId": "braze-inc"
+}

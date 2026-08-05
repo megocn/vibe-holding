@@ -1,0 +1,11 @@
+{
+  "id": "e-drata-cuw-sonarqube",
+  "from": "drata",
+  "to": "sonarqube",
+  "type": "commonly_used_with",
+  "weight": 0.4,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "代码质量与安全门禁的执行记录，可作为变更管理控制项的证据"
+}

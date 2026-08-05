@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "captcha",
+    "bot",
+    "privacy",
+    "security"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "挑战难度偏高时会明显影响注册转化，需要按场景调档。",
+    "国内加载速度不稳定，面向大陆用户前必须实测链路。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.hcaptcha.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "hcaptcha",
+  "name": "hCaptcha",
+  "category": "sec-bot-captcha",
+  "subcategory": "captcha-widget",
+  "oneLiner": "隐私导向验证码 · 难度可调 · 企业风险评分 · 不用于广告画像",
+  "officialUrl": "https://www.hcaptcha.com",
+  "descriptionMd": "hCaptcha 是 reCAPTCHA 之外使用面较广的人机验证服务，提供可调难度、企业级风险评分与无障碍通道，接入方式与主流验证码基本一致，迁移成本低。\n\n想替换 reCAPTCHA、又需要成熟挑战题库与企业支持时评估；国内访问链路需实测，以海外用户为主的站点更合适。\n\n它只挡自动化流量，账号与支付风控仍要另建；免费档挑战偶尔偏难会压低转化，无障碍体验需要专门回归测试。\n",
+  "vendorId": "hcaptcha-inc"
+}

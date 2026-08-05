@@ -24,7 +24,7 @@
   "region": "overseas",
   "id": "adonisjs",
   "name": "AdonisJS",
-  "category": "fw-fullstack",
+  "category": "fw-backend",
   "subcategory": "node-fullstack",
   "oneLiner": "Node Laravel 式 · Lucid ORM/auth · TS-first 结构化全栈",
   "officialUrl": "https://adonisjs.com",

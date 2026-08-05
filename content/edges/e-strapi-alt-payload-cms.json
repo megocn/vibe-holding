@@ -1,0 +1,11 @@
+{
+  "id": "e-strapi-alt-payload-cms",
+  "from": "strapi",
+  "to": "payload-cms",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同为自托管 Node CMS：Strapi 后台点选建模，Payload 以 TypeScript 代码声明模型"
+}

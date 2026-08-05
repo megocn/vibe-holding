@@ -1,0 +1,11 @@
+{
+  "id": "e-fiber-go-alt-echo-go",
+  "from": "fiber-go",
+  "to": "echo-go",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同为 Gin 之外的 Go 选项：Fiber 换内核求性能，Echo 保持标准库兼容"
+}

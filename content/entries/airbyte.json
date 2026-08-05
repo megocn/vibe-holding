@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "data",
+    "elt",
+    "etl",
+    "oss"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "长尾连接器成熟度参差，上线前需逐个压测",
+    "自托管调度与资源治理成本随任务数上升"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://airbyte.com",
+    "https://github.com/airbytehq/airbyte"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "airbyte",
+  "name": "Airbyte",
+  "category": "db-pipeline",
+  "subcategory": "elt-connector",
+  "oneLiner": "开源 ELT · 连接器目录最广 · 自托管或云托管 · CDK 可自建连接器",
+  "officialUrl": "https://airbyte.com",
+  "descriptionMd": "Airbyte 是开源 ELT 平台，提供数百个来源与目的地连接器，支持全量与增量同步，既可自托管在自己的集群里，也可用官方云版本；连接器开发套件让自建长尾数据源的门槛不高。\n\n要把 SaaS 与业务库的数据搬进数仓，又想避开按行计费或要求数据不出内网时，作为 Fivetran 的开源对照评估；转换环节交给 dbt。\n\n长尾连接器成熟度参差，生产前需逐个压测；自托管的调度与资源治理成本会随任务数明显上升。\n",
+  "vendorId": "airbyte-inc"
+}

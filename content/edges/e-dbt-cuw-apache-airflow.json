@@ -1,0 +1,11 @@
+{
+  "id": "e-dbt-cuw-apache-airflow",
+  "from": "dbt",
+  "to": "apache-airflow",
+  "type": "commonly_used_with",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "dbt 只管仓内转换，触发时机与上下游依赖交给调度器，是最常见的分工"
+}

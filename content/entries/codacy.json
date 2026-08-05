@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "code-review",
+    "static-analysis",
+    "quality-gate",
+    "ci"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "规则集过严会拖慢合并，先定基线再收紧",
+    "职责与安全扫描不同，不能替代 SAST"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.codacy.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "codacy",
+  "name": "Codacy",
+  "category": "coding-review",
+  "subcategory": "quality-gate",
+  "oneLiner": "多语静态分析聚合 · 质量门禁与阈值 · 团队治理面板",
+  "officialUrl": "https://www.codacy.com",
+  "descriptionMd": "Codacy 把多语言的静态分析、重复度与覆盖率结果聚到一处，给 PR 打门禁、给团队看趋势，属于流程里的质量闸门，而非会对话的评审 Agent。\n\n组织需要统一的质量标准与可汇报指标时纳入；要针对业务逻辑的语义化意见，则另配 AI 评审工具。\n\n规则集过严会拖慢合并，落地要先定基线再逐步收紧；与安全扫描职责不同，别指望它替代 SAST。\n",
+  "vendorId": "codacy-inc"
+}

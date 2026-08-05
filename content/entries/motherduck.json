@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "olap",
+    "cloud",
+    "duckdb",
+    "serverless"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "能力随 DuckDB 版本节奏变化",
+    "数据托管境外，国内访问延迟与合规需评估"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://motherduck.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "motherduck",
+  "name": "MotherDuck",
+  "category": "db-analytics",
+  "subcategory": "serverless-warehouse",
+  "oneLiner": "DuckDB 托管上云 · 本地与云端混合执行 · 小团队免运维",
+  "officialUrl": "https://motherduck.com",
+  "descriptionMd": "MotherDuck 把 DuckDB 搬到云端，提供托管存储、共享与协作能力，并支持让同一条查询在本地 DuckDB 与云端之间混合执行，使单机分析平滑扩展成团队共享的数据环境。\n\n已经用 DuckDB 做本地分析，需要共享数据集、定时任务与团队协作，但不想搭一套大型数仓时选它。\n\n与 DuckDB 版本节奏耦合较紧；数据托管到境外后需确认合规边界，国内访问延迟明显。\n",
+  "vendorId": "motherduck-inc"
+}

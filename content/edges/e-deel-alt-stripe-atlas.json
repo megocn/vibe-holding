@@ -1,0 +1,11 @@
+{
+  "id": "e-deel-alt-stripe-atlas",
+  "from": "deel",
+  "to": "stripe-atlas",
+  "type": "alternative_to",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "两条不同路径：EOR 不注册当地主体也能合规雇人；Atlas 是注册美国公司并绑定收款，解决的是主体与收单"
+}

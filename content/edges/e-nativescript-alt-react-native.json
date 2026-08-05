@@ -1,0 +1,11 @@
+{
+  "id": "e-nativescript-alt-react-native",
+  "from": "nativescript",
+  "to": "react-native",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同为 JS 直调原生：NativeScript 不绑 React，但社区与插件规模小得多"
+}

@@ -24,7 +24,7 @@
   "region": "overseas",
   "id": "capacitor",
   "name": "Capacitor",
-  "category": "fw-fullstack",
+  "category": "fw-cross-platform",
   "subcategory": "mobile-hybrid",
   "oneLiner": "Web App 包 iOS/Android · Ionic 维护 · hybrid plugin API",
   "officialUrl": "https://capacitorjs.com",

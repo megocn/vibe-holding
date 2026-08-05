@@ -1,0 +1,11 @@
+{
+  "id": "e-junit5-cw-spring-boot",
+  "from": "junit5",
+  "to": "spring-boot",
+  "type": "commonly_used_with",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "spring-boot-starter-test 默认集成 JUnit 5，切片测试按注解裁剪上下文"
+}

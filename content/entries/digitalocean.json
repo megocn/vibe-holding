@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cloud",
+    "iaas",
+    "developer",
+    "vps"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "企业级服务面与区域覆盖窄于超大规模云",
+    "规模上去后迁移成本需提前评估"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.digitalocean.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "digitalocean",
+  "name": "DigitalOcean",
+  "category": "cloud-iaas",
+  "subcategory": "developer-cloud",
+  "oneLiner": "定价直白可预估 · 文档教程一流；企业级服务面较窄",
+  "officialUrl": "https://www.digitalocean.com",
+  "descriptionMd": "DigitalOcean 面向开发者与中小团队，Droplet、托管数据库与 Spaces 的定价直白可预估，社区教程质量长期是同行标杆。\n\n个人项目、小团队 SaaS 或不想被超大规模云账单吓到时优先；与 digitalocean-app-platform、digitalocean-spaces 同栈。\n\n企业级服务面（专线、复杂合规、区域覆盖）明显窄于超大规模云；业务长到一定规模后迁移成本要提前想清。\n",
+  "vendorId": "digitalocean-inc"
+}

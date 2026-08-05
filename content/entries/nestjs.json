@@ -24,7 +24,7 @@
   "region": "overseas",
   "id": "nestjs",
   "name": "NestJS",
-  "category": "fw-fullstack",
+  "category": "fw-backend",
   "subcategory": "node-backend",
   "oneLiner": "TS Angular 式 DI/模块 · 大型 Node API · GraphQL/微服务",
   "officialUrl": "https://nestjs.com",

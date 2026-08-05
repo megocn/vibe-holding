@@ -1,0 +1,11 @@
+{
+  "id": "e-wagtail-alt-wordpress",
+  "from": "wagtail",
+  "to": "wordpress",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Wagtail 走 Django 模型与审校流，WordPress 走 PHP 主题插件生态"
+}

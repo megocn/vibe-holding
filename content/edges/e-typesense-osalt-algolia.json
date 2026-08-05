@@ -1,0 +1,11 @@
+{
+  "id": "e-typesense-osalt-algolia",
+  "from": "typesense",
+  "to": "algolia",
+  "type": "open_source_alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "开源可自托管、API 极简 vs 托管 SaaS 的规则与组件生态"
+}

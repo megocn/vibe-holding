@@ -1,0 +1,11 @@
+{
+  "id": "e-nextra-cuw-vercel",
+  "from": "nextra",
+  "to": "vercel",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Next.js 系文档站在 Vercel 上部署最顺路，也可导出静态托管别处"
+}

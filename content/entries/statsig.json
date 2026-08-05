@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "feature-flag",
+    "experiment",
+    "analytics",
+    "sdk"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "按事件量计价，埋点膨胀会直接推高账单。",
+    "实验结论强依赖埋点口径，指标定义不统一会得出错误结论。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://statsig.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "statsig",
+  "name": "Statsig",
+  "category": "growth-experiment",
+  "subcategory": "experimentation",
+  "oneLiner": "开关与实验同栈 · 自带指标与统计引擎 · 按事件量计价",
+  "officialUrl": "https://statsig.com",
+  "descriptionMd": "Statsig 把功能开关、A/B 实验与产品指标放在同一套系统里：开关发布后直接复用同一份事件流做实验读数，内置统计引擎与自动化的实验结果分析。\n\n希望「灰度 → 实验 → 指标」闭环少接一套分析工具，并愿意把事件送进同一平台时评估；只要开关、不做实验的团队可以选更轻的方案。\n\n事件量是计价主轴，埋点膨胀会直接推高成本；实验结论依赖埋点口径，接入前先把指标定义统一。\n",
+  "vendorId": "statsig-inc"
+}

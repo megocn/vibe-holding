@@ -28,7 +28,7 @@
   "region": "overseas",
   "id": "modal",
   "name": "Modal",
-  "category": "cloud-paas",
+  "category": "ai-gpu-cloud",
   "subcategory": "gpu",
   "oneLiner": "Python 按需 GPU/CPU · 秒级伸缩 · ML 推理/批处理代码即基建",
   "officialUrl": "https://modal.com",

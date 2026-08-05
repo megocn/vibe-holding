@@ -1,0 +1,11 @@
+{
+  "id": "e-llm-guard-alt-guardrails-ai",
+  "from": "llm-guard",
+  "to": "guardrails-ai",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "安全扫描取向 vs 输出结构校验取向"
+}

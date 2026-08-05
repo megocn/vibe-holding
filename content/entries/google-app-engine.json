@@ -31,5 +31,5 @@
   "oneLiner": "标准/灵活环境 · 自动伸缩与版本成熟 · Firebase/Datastore 历史绑定",
   "officialUrl": "https://cloud.google.com/appengine",
   "descriptionMd": "App Engine 提供标准/灵活环境托管 Web 应用，自动伸缩与版本管理成熟，与 Firebase、Cloud Datastore 历史深度绑定。\n\nGCP 存量项目、或需要长运行实例与标准环境沙箱时继续沿用；企业 App Engine 迁移成本较高。\n\n新项目更常选 Cloud Run；标准环境语言版本更新慢，灵活环境仍需管理实例。\n",
-  "vendorId": "google-cloud"
+  "vendorId": "google"
 }

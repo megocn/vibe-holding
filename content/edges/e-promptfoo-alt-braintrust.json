@@ -1,0 +1,11 @@
+{
+  "id": "e-promptfoo-alt-braintrust",
+  "from": "promptfoo",
+  "to": "braintrust",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "本地 CLI 与 CI 门禁 vs 托管评测平台"
+}

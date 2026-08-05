@@ -1,0 +1,11 @@
+{
+  "id": "e-databend-domeq-snowflake",
+  "from": "databend",
+  "to": "snowflake",
+  "type": "domestic_equivalent_of",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国内团队主导的开源实现，对齐 Snowflake 的存算分离与弹性计算语义"
+}

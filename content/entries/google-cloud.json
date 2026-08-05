@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cloud",
+    "iaas",
+    "hyperscaler",
+    "data"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "中国大陆访问不稳，需自备网络方案",
+    "历史上有服务下线记录，长周期项目需看产品承诺"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://cloud.google.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "google-cloud",
+  "name": "Google Cloud",
+  "category": "cloud-iaas",
+  "subcategory": "hyperscaler",
+  "oneLiner": "数据与 AI 一等公民 · BigQuery/Vertex 强；大陆直连受限",
+  "officialUrl": "https://cloud.google.com",
+  "descriptionMd": "Google Cloud 以数据分析与 AI 见长，BigQuery、Vertex AI 与 Kubernetes 相关能力是主要卖点，网络与全球调度素质也在第一梯队。\n\n做大规模数据分析、想用 Gemini 系模型托管、或团队偏好 GKE 时优先评估；与 google-cloud-run、bigquery 等单品同栈。\n\n中国大陆直连不稳，控制台与部分 API 需自备网络方案；产品线更迭较快，早期服务被弃用的历史让部分团队心存顾虑。\n",
+  "vendorId": "google"
+}

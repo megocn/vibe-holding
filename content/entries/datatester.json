@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "experiment",
+    "ab-test",
+    "domestic",
+    "volcengine"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "与火山账号及数据产品绑定深，跨云迁移成本高。",
+    "功能分档与计价随控制台调整，需以官方为准。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.volcengine.com/product/datatester"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "datatester",
+  "name": "火山引擎 DataTester",
+  "category": "growth-experiment",
+  "subcategory": "experimentation",
+  "oneLiner": "火山系 A/B 实验 · 承接字节内部方法论 · 与国内数据栈同云",
+  "officialUrl": "https://www.volcengine.com/product/datatester",
+  "descriptionMd": "DataTester 是火山引擎提供的 A/B 实验平台，沿用字节跳动内部沉淀的实验方法论，覆盖流量分层、实验分流、指标看板与开关式发布，常与火山引擎的数据与增长产品同栈使用。\n\n团队在国内、数据与业务已经落在火山或字节云体系，且需要中文文档与本地化实施支持时评估。\n\n与火山账号及其数据产品绑定较深，跨云迁移成本高；计费与功能分档以控制台为准，勿按海外同类产品的价格心智估算。\n",
+  "vendorId": "bytedance"
+}

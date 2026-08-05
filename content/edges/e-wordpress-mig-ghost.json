@@ -1,0 +1,11 @@
+{
+  "id": "e-wordpress-mig-ghost",
+  "from": "wordpress",
+  "to": "ghost",
+  "type": "migration_path_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "内容站转做付费订阅/邮件通讯时的常见迁移方向；插件类功能需另找替代"
+}

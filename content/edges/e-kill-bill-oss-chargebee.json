@@ -1,0 +1,11 @@
+{
+  "id": "e-kill-bill-oss-chargebee",
+  "from": "kill-bill",
+  "to": "chargebee",
+  "type": "open_source_alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "用自维护成本换计费内核的完全可控"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-aliyun-alt-huawei-cloud",
+  "from": "aliyun",
+  "to": "huawei-cloud",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "通用云主力 vs 信创与政企路径"
+}

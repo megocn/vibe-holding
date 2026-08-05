@@ -1,0 +1,11 @@
+{
+  "id": "e-unsloth-alt-axolotl",
+  "from": "unsloth",
+  "to": "axolotl",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "单卡极致提速省显存 vs 配置化管理多组实验、多卡与全参训练更成熟"
+}

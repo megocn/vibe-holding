@@ -1,0 +1,11 @@
+{
+  "id": "e-mobx-alt-redux-toolkit",
+  "from": "mobx",
+  "to": "redux-toolkit",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "MobX 自动追踪、面向对象领域模型友好；RTK 显式 action 流可审计，排查数据来源更直接"
+}

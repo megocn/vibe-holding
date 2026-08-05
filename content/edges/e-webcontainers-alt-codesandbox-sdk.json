@@ -1,0 +1,11 @@
+{
+  "id": "e-webcontainers-alt-codesandbox-sdk",
+  "from": "webcontainers",
+  "to": "codesandbox-sdk",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "执行落在浏览器 vs 落在云端 VM"
+}

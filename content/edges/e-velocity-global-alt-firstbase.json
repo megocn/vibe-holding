@@ -1,0 +1,11 @@
+{
+  "id": "e-velocity-global-alt-firstbase",
+  "from": "velocity-global",
+  "to": "firstbase",
+  "type": "alternative_to",
+  "weight": 0.4,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "跨国用工外包 vs 自注册主体自行雇佣；前者省实体、后者省长期人均成本"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-quickwit-alt-loki",
+  "from": "quickwit",
+  "to": "loki",
+  "type": "alternative_to",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "日志留存两种索引策略：全文倒排可搜正文 vs 仅索引标签、正文靠扫描"
+}

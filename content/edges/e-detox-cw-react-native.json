@@ -1,0 +1,11 @@
+{
+  "id": "e-detox-cw-react-native",
+  "from": "detox",
+  "to": "react-native",
+  "type": "commonly_used_with",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "RN 生态最常用的 E2E 方案，探针需编入调试构建"
+}

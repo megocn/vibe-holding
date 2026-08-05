@@ -1,0 +1,11 @@
+{
+  "id": "e-chromatic-cw-testing-library",
+  "from": "chromatic",
+  "to": "testing-library",
+  "type": "commonly_used_with",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Testing Library 断言行为，Chromatic 盯像素变化，两者管不同失效"
+}

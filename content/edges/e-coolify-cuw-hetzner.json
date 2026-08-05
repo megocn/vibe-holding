@@ -1,0 +1,11 @@
+{
+  "id": "e-coolify-cuw-hetzner",
+  "from": "coolify",
+  "to": "hetzner",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "便宜 VPS + 自托管 PaaS 是常见的省钱组合"
+}

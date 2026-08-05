@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD",
+    "notes": "按监控项与真实用户监控量分档"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "uptime",
+    "monitoring",
+    "enterprise",
+    "saas"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "套餐面向企业，个人与小团队性价比偏低",
+    "迭代节奏稳健，新特性不如新兴同类活跃"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.pingdom.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "pingdom",
+  "name": "Pingdom",
+  "category": "obs-uptime",
+  "subcategory": "uptime-check",
+  "oneLiner": "SolarWinds 旗下老牌拨测 · 全球节点多 · 偏企业采购",
+  "officialUrl": "https://www.pingdom.com",
+  "descriptionMd": "Pingdom 是历史悠久的站点可用性与性能监控服务，现属 SolarWinds，提供全球分布的探测节点、页面速度分析与真实用户监控，报表与告警形态偏向企业运维。\n\n需要覆盖面广的全球拨测节点、且已在 SolarWinds 体系内采购运维工具时评估；轻量项目用 UptimeRobot，流程校验用 Checkly。\n\n价格与套餐面向企业，个人项目性价比低；产品迭代节奏偏稳健，新特性不如新兴同类活跃。\n",
+  "vendorId": "solarwinds"
+}

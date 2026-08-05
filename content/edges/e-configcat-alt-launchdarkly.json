@@ -1,0 +1,11 @@
+{
+  "id": "e-configcat-alt-launchdarkly",
+  "from": "configcat",
+  "to": "launchdarkly",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "轻量托管、计价与终端用户量脱钩 vs 企业级权限审批与审计"
+}

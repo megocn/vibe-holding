@@ -1,0 +1,11 @@
+{
+  "id": "e-hyperbrowser-alt-browserbase",
+  "from": "hyperbrowser",
+  "to": "browserbase",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "偏高并发会话池并自带抓取端点 vs 偏单会话精细控制与观测"
+}

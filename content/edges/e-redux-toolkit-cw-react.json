@@ -1,0 +1,11 @@
+{
+  "id": "e-redux-toolkit-cw-react",
+  "from": "redux-toolkit",
+  "to": "react",
+  "type": "commonly_used_with",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "经 react-redux 接入，DevTools 支持时间旅行回放"
+}

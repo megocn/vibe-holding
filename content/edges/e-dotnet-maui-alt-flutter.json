@@ -1,0 +1,11 @@
+{
+  "id": "e-dotnet-maui-alt-flutter",
+  "from": "dotnet-maui",
+  "to": "flutter",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": ".NET 栈映射原生控件 vs Dart 自绘引擎，生态规模差距明显"
+}

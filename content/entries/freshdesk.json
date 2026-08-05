@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD",
+    "notes": "有免费入门档；按席位分档订阅"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "support",
+    "ticketing",
+    "saas",
+    "helpdesk"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "企业级权限、审计与定制深度弱于头部套件。",
+    "同厂产品的数据打通需逐模块核实，勿默认全通。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://freshdesk.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "freshdesk",
+  "name": "Freshdesk",
+  "category": "collab-support",
+  "subcategory": "ticketing-suite",
+  "oneLiner": "工单起家的性价比套件 · Freshworks 生态 · 中小团队向",
+  "officialUrl": "https://freshdesk.com",
+  "descriptionMd": "Freshdesk 是 Freshworks 旗下的客服工单产品，覆盖邮件与多渠道工单、自动分派、知识库与基础报表，并与同厂的销售、IT 服务台产品共用生态。\n\n预算敏感、又需要正规工单流程与知识库的中小团队评估；已用 Freshworks 其他产品时协同更划算。\n\n深度定制与企业级治理弱于头部套件；跨产品数据打通程度需按实际模块核实，勿默认全通。\n",
+  "vendorId": "freshworks"
+}

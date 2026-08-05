@@ -1,0 +1,11 @@
+{
+  "id": "e-oracle-cloud-alt-digitalocean",
+  "from": "oracle-cloud",
+  "to": "digitalocean",
+  "type": "alternative_to",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "免费额度诱人但开通与风控门槛高"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-wechat-miniprogram-cuw-uni-app",
+  "from": "wechat-miniprogram",
+  "to": "uni-app",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "用 Vue 语法多端编译，常与微信小程序原生开发二选一"
+}

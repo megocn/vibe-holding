@@ -27,7 +27,7 @@
   "region": "overseas",
   "id": "cypress",
   "name": "Cypress",
-  "category": "oss-toolchain",
+  "category": "oss-testing",
   "subcategory": "test",
   "oneLiner": "真实浏览器 · 时间旅行调试/截图 · 组件测试 DX 强",
   "officialUrl": "https://www.cypress.io",

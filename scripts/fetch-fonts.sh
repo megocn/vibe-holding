@@ -37,4 +37,14 @@ curl -fsSL -o "$OUT/LXGW-OFL.txt" \
   "https://raw.githubusercontent.com/lxgw/LxgwWenKai-Lite/master/OFL.txt" || true
 
 ls -lh "$OUT"/*.woff2
-echo "✓ 字体已写入 $OUT"
+echo "✓ 全量字体已写入 $OUT"
+
+# 归档母本并子集化（Web 部署体积 ~1–2MB，而非 20MB）
+FULL="$ROOT/apps/desktop/assets/fonts-full"
+mkdir -p "$FULL"
+cp "$OUT"/*.woff2 "$FULL/" 2>/dev/null || true
+if command -v python3 >/dev/null 2>&1; then
+  echo "→ 子集化 Web 用字体…"
+  python3 "$ROOT/scripts/prepare-web-fonts.py" || echo "⚠ 子集化失败（可稍后 pnpm gen:fonts:subset）"
+fi
+echo "✓ 完成（public 应为子集；母本在 assets/fonts-full）"

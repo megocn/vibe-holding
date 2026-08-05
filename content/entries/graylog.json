@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "notes": "Open 版免费自托管；Enterprise / Security 按数据量商业授权"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "logging",
+    "self-host",
+    "open-source",
+    "siem"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "存储层（ES/OpenSearch）的扩容与调优成本仍在自己身上",
+    "开源版与企业版的归档、审计、安全模块边界需逐项核对"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://graylog.org"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "graylog",
+  "name": "Graylog",
+  "category": "obs-logs",
+  "subcategory": "log-management",
+  "oneLiner": "自托管日志门面 · 输入/流分发/权限告警齐全 · 依赖搜索引擎存储",
+  "officialUrl": "https://graylog.org",
+  "descriptionMd": "Graylog 是自托管的日志管理平台：统一接收 Syslog、GELF、Beats 等输入，按流做分发与留存策略，再叠加检索、仪表盘、告警与角色权限。Open 版免费自建，企业与安全模块另行授权。\n\n已经或愿意维护 Elasticsearch / OpenSearch 集群、需要一套带账号权限与审计视角的日志门面时评估；只想低成本把日志聚起来看，先比 Loki 这类只索引标签的方案。\n\n存储层的容量与运维仍归自己；开源版与商业版在归档、审计、安全分析上的边界要在选型时逐项核对，别按官网总览页想当然。\n",
+  "vendorId": "graylog-inc",
+  "githubUrl": "https://github.com/Graylog2/graylog2-server"
+}

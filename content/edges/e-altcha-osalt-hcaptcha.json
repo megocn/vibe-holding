@@ -1,0 +1,11 @@
+{
+  "id": "e-altcha-osalt-hcaptcha",
+  "from": "altcha",
+  "to": "hcaptcha",
+  "type": "open_source_alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "开源自托管、无第三方请求；对抗强度与运营支持不及商业验证码"
+}

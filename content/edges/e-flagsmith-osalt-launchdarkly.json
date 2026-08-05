@@ -1,0 +1,11 @@
+{
+  "id": "e-flagsmith-osalt-launchdarkly",
+  "from": "flagsmith",
+  "to": "launchdarkly",
+  "type": "open_source_alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "开源开关+远程配置，可托管可自建；实验统计能力弱于商业方案"
+}

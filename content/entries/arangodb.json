@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "database",
+    "graph",
+    "multi-model",
+    "oss"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "多模型换来的是各面都非最优",
+    "许可与发行策略调整过，条款需按当前版本核对"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://arangodb.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "arangodb",
+  "name": "ArangoDB",
+  "category": "db-graph",
+  "subcategory": "multi-model",
+  "oneLiner": "多模型库 · 文档/图/键值共用一套 AQL · 图只是其中一种能力",
+  "officialUrl": "https://arangodb.com",
+  "descriptionMd": "ArangoDB 是多模型数据库，文档、图与键值共用同一套存储与 AQL 查询语言，可以在一条语句里既过滤文档字段又做图遍历，省去在文档库与图库之间同步数据。\n\n数据既有文档形态又需要关系遍历、且不愿维护两套库时评估；纯粹的深度图分析与图算法生态仍以专用图库更强。\n\n多模型意味着每一面都不是最优解；许可与发行策略调整过，商业条款需按当前版本核对。\n",
+  "vendorId": "arangodb-inc"
+}

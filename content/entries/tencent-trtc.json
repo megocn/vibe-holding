@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY",
+    "notes": "按通话分钟数与套餐包计费"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "realtime",
+    "rtc",
+    "cloud",
+    "domestic"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "按分钟与套餐包计费，连麦人数与分辨率是主要成本变量",
+    "与云内其他产品耦合紧，迁自建需重做信令与转推链路"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://cloud.tencent.com/product/trtc",
+    "https://cloud.tencent.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "tencent-trtc",
+  "name": "腾讯云 TRTC",
+  "category": "msg-realtime",
+  "subcategory": "rtc",
+  "oneLiner": "腾讯云实时音视频 · 与直播/点播/IM 同栈 · 国内节点密",
+  "officialUrl": "https://cloud.tencent.com/product/trtc",
+  "descriptionMd": "腾讯云 TRTC 是云上的实时音视频服务，提供多人通话、互动连麦与低延时观看，并与腾讯云的直播、点播、即时通信等产品同栈，接入侧有较完整的 UI 组件与 Demo。\n\n业务已在腾讯云、需要 RTC 与直播链路自然衔接的国内团队优先；跨云或要自托管控制成本，则评估 LiveKit 这类开源方案。\n\n按通话分钟与套餐包计费，连麦人数与分辨率是主要成本变量；能力与云内其他产品耦合较紧，迁移到自建方案需重做信令与转推链路。\n",
+  "vendorId": "tencent"
+}

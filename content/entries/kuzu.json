@@ -1,0 +1,43 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "database",
+    "graph",
+    "embedded",
+    "oss",
+    "archived"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "上游仓库 2025-10 已归档，官网下线，不再有官方修复与新特性",
+    "嵌入式定位，不提供集群与多写并发",
+    "如需长期依赖，只能押注 bighorn 等社区分叉的维护力度"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/kuzudb/kuzu",
+    "https://kuzudb.github.io/docs"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "kuzu",
+  "name": "Kùzu",
+  "category": "db-graph",
+  "subcategory": "embedded-graph",
+  "oneLiner": "嵌入式图库 · Cypher + 列存向量化 · 上游已归档，仅剩社区分叉",
+  "officialUrl": "https://github.com/kuzudb/kuzu",
+  "descriptionMd": "Kùzu 是嵌入式图数据库，以库的形式跑在应用进程内、数据落成本地文件，支持 Cypher 并采用列式向量化执行，常被类比为「图领域的 DuckDB」，长于分析型的批量遍历。\n\n做本地图分析、单机 GraphRAG 这类一次性或离线场景时，0.11.3 仍是可用的；但新项目应先看 bighorn 等社区分叉，或直接选服务端图库。\n\n**Kùzu Inc. 已于 2025 年 10 月被 Apple 收购**，仓库归档、官网下线，文档迁到 kuzudb.github.io，官方不再有修复与新特性；嵌入式定位本身也不提供集群与多写并发。\n",
+  "githubUrl": "https://github.com/kuzudb/kuzu",
+  "docsUrl": "https://kuzudb.github.io/docs"
+}

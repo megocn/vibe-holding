@@ -1,0 +1,11 @@
+{
+  "id": "e-chromatic-dep-storybook",
+  "from": "chromatic",
+  "to": "storybook",
+  "type": "depends_on",
+  "weight": 0.9,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "以 story 为快照单元，没有 Storybook 则无从取样"
+}

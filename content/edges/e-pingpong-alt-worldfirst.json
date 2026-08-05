@@ -1,0 +1,11 @@
+{
+  "id": "e-pingpong-alt-worldfirst",
+  "from": "pingpong",
+  "to": "worldfirst",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同为国内出海收款主力，费率与结汇路径按平台来源选"
+}

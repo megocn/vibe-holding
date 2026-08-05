@@ -1,0 +1,11 @@
+{
+  "id": "e-alipay-miniprogram-cuw-taro",
+  "from": "alipay-miniprogram",
+  "to": "taro",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "多端编译可复用业务代码，但支付与信用等平台专有能力仍需分支处理"
+}

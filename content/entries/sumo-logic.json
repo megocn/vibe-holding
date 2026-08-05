@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD",
+    "notes": "按摄入数据量与留存时长计费"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "logging",
+    "saas",
+    "security",
+    "compliance"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "按摄入量计费，噪声日志会直接推高账单",
+    "数据出境与留存地域需与合规团队确认"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.sumologic.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "sumo-logic",
+  "name": "Sumo Logic",
+  "category": "obs-logs",
+  "subcategory": "log-management",
+  "oneLiner": "老牌托管日志分析 SaaS · 偏安全与合规审计 · 按摄入量计费",
+  "officialUrl": "https://www.sumologic.com",
+  "descriptionMd": "Sumo Logic 是较早的一批云端日志分析服务，主打机器数据的集中检索、仪表盘与告警，并在安全运营与合规审计方向做了不少打包能力，属于完全托管、不需自建存储的形态。\n\n企业侧要求日志长期留存、审计线索与安全分析，又不想自己养集群时评估；轻量应用日志上云看 Axiom，自建省钱看 Loki 或 OpenObserve。\n\n按摄入与留存计费，噪声日志会直接变成账单，接入前先做采样与裁剪；数据出境与留存地域需与合规团队确认。\n",
+  "vendorId": "sumo-logic-inc"
+}

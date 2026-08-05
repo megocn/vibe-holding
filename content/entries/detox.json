@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "test",
+    "mobile",
+    "react-native",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "需要为测试单独出构建产物，本地与 CI 环境配置较重；对非 RN 技术栈的适配与文档相对薄弱。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/wix/Detox"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "detox",
+  "name": "Detox",
+  "category": "oss-testing",
+  "subcategory": "mobile-test",
+  "oneLiner": "灰盒移动端 E2E · 与 App 同步等待 · React Native 生态深",
+  "officialUrl": "https://github.com/wix/Detox",
+  "descriptionMd": "Detox 采用灰盒方式：探针随 App 一起构建，能感知网络请求与动画是否结束再执行下一步，从源头减少移动端 E2E 的随机失败，在 React Native 社区使用最广。\n\nReact Native 应用要做稳定的端到端回归、且能接受把测试构建纳入发版流程时选用。\n\n需要为测试单独出构建产物，本地与 CI 环境配置较重；对非 RN 技术栈的适配与文档相对薄弱。\n",
+  "vendorId": "wix"
+}

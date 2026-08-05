@@ -1,0 +1,11 @@
+{
+  "id": "e-starrocks-domeq-clickhouse",
+  "from": "starrocks",
+  "to": "clickhouse",
+  "type": "domestic_equivalent_of",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国产起源的向量化 MPP：多表 JOIN 现场算，不必靠宽表预聚合"
+}

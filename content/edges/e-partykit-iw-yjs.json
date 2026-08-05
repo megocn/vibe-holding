@@ -1,0 +1,11 @@
+{
+  "id": "e-partykit-iw-yjs",
+  "from": "partykit",
+  "to": "yjs",
+  "type": "integrates_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "边缘房间常作为 Yjs 的同步服务端，适合自建协同白板与文档"
+}

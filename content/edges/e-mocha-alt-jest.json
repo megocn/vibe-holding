@@ -1,0 +1,11 @@
+{
+  "id": "e-mocha-alt-jest",
+  "from": "mocha",
+  "to": "jest",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Mocha 只做运行器需自拼断言与 mock；Jest 是自带快照与 mock 的全家桶"
+}

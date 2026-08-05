@@ -1,0 +1,11 @@
+{
+  "id": "e-coderabbit-integ-github-actions",
+  "from": "coderabbit",
+  "to": "github-actions",
+  "type": "integrates_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "以 App 与检查项形式并入 CI，可作合并前门禁"
+}

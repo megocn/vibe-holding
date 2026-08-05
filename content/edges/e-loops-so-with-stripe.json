@@ -1,0 +1,11 @@
+{
+  "id": "e-loops-so-with-stripe",
+  "from": "loops-so",
+  "to": "stripe",
+  "type": "commonly_used_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "订阅与支付事件触发续费提醒、失败挽回等生命周期邮件"
+}

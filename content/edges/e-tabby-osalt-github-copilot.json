@@ -1,0 +1,11 @@
+{
+  "id": "e-tabby-osalt-github-copilot",
+  "from": "tabby",
+  "to": "github-copilot",
+  "type": "open_source_alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "自托管补全服务，代码不出内网；手感换算力预算"
+}

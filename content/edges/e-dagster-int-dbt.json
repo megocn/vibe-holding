@@ -1,0 +1,11 @@
+{
+  "id": "e-dagster-int-dbt",
+  "from": "dagster",
+  "to": "dbt",
+  "type": "integrates_with",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "dbt 模型可直接映射成编排层的数据资产，血缘在一处呈现，无需两套依赖图"
+}

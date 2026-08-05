@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cross-platform",
+    "mobile",
+    "javascript",
+    "native"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "社区与插件生态规模小，长期维护存在风险",
+    "原生 API 类型定义与系统适配常需自行补齐"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://nativescript.org"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "nativescript",
+  "name": "NativeScript",
+  "category": "fw-cross-platform",
+  "subcategory": "mobile-cross",
+  "oneLiner": "JS 直调原生 API · 不走 WebView · Angular/Vue 可用 · 社区偏小",
+  "officialUrl": "https://nativescript.org",
+  "descriptionMd": "NativeScript 让 JavaScript/TypeScript 直接访问 iOS 与 Android 原生 API 并渲染原生控件，不经过 WebView，可搭配 Angular、Vue 或纯 TypeScript 编写。\n\n想用 Web 语言写原生渲染应用、又要绕开 React 生态时评估；主流选择仍是 React Native 或 Flutter。\n\n社区与插件生态明显小于 React Native，长期维护风险需评估；原生 API 直调虽灵活，类型定义与系统版本适配常要自己补。\n",
+  "vendorId": "nativescript-team",
+  "githubUrl": "https://github.com/NativeScript/NativeScript"
+}

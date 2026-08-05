@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD",
+    "notes": "定价不公开，需商务沟通"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "billing",
+    "subscription",
+    "saas",
+    "finance"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "配置项繁多，落地需财务一起定义口径",
+    "按营收比例计费，规模上来后成本明显"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.chargebee.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "chargebee",
+  "name": "Chargebee",
+  "category": "pay-billing",
+  "subcategory": "subscription",
+  "oneLiner": "老牌订阅计费中台 · 支付通道可换；配置面偏重",
+  "officialUrl": "https://www.chargebee.com",
+  "descriptionMd": "Chargebee 是独立于支付通道的订阅计费平台，覆盖价目管理、试用与折扣、发票与催收、收入确认与报表，可同时挂 Stripe、Adyen、PayPal 等多个通道。\n\nSaaS 已经跑起来、订阅套餐和折扣策略越来越碎，或需要多币种多通道并存、财务要能出规范报表时评估。\n\n功能面广也意味着配置项繁多，落地通常要拉上财务一起定义口径；按营收抽成的定价在规模上来后并不便宜。\n",
+  "vendorId": "chargebee-inc"
+}

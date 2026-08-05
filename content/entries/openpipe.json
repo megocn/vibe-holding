@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "finetune",
+    "managed",
+    "distillation"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "训练数据来自生产日志，脱敏与合规要先做；模型与权重的可迁移性需在签约前确认，避免后续锁仓。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://openpipe.ai"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "openpipe",
+  "name": "OpenPipe",
+  "category": "ai-finetune",
+  "subcategory": "managed-finetune",
+  "oneLiner": "托管微调加数据回流 · 用生产日志蒸馏小模型 · 按用量计费",
+  "officialUrl": "https://openpipe.ai",
+  "descriptionMd": "OpenPipe 把线上调用日志沉淀为训练集，再托管完成微调与部署，典型用法是用大模型的输出蒸馏出一个更便宜的小模型来接管稳定流量。\n\n已有大模型跑在生产、想把重复请求换成自训小模型省成本时评估；从零开始的研究性训练用开源框架更自由。\n\n训练数据来自生产日志，脱敏与合规要先做；模型与权重的可迁移性需在签约前确认，避免后续锁仓。\n",
+  "vendorId": "openpipe-inc"
+}

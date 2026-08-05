@@ -1,0 +1,11 @@
+{
+  "id": "e-portainer-cuw-docker",
+  "from": "portainer",
+  "to": "docker",
+  "type": "commonly_used_with",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "给 Docker 环境补一层图形管控"
+}

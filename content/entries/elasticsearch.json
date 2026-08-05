@@ -27,7 +27,7 @@
   "region": "overseas",
   "id": "elasticsearch",
   "name": "Elasticsearch",
-  "category": "db-nosql",
+  "category": "db-search",
   "subcategory": "search",
   "oneLiner": "Lucene 全文+聚合 · ELK/可观测主力 · 集群运维重",
   "officialUrl": "https://www.elastic.co/elasticsearch",

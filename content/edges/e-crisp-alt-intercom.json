@@ -1,0 +1,11 @@
+{
+  "id": "e-crisp-alt-intercom",
+  "from": "crisp",
+  "to": "intercom",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同为站内聊天形态，Crisp 价格与功能都更轻，缺企业级治理"
+}

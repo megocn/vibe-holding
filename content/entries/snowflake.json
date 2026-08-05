@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "olap",
+    "cloud",
+    "warehouse",
+    "multi-cloud"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "虚拟仓库闲置策略配置不当易超支",
+    "专有方言与生态绑定深，迁出成本高"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.snowflake.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "snowflake",
+  "name": "Snowflake",
+  "category": "db-analytics",
+  "subcategory": "cloud-warehouse",
+  "oneLiner": "多云托管数仓 · 虚拟仓库按运行时长计费 · 数据共享生态",
+  "officialUrl": "https://www.snowflake.com",
+  "descriptionMd": "Snowflake 是可跑在 AWS、Azure 与 GCP 上的托管数据仓库，存储与计算彻底分离，计算以可独立伸缩的虚拟仓库形式按用量计费，并以跨账号数据共享、数据市场与应用生态见长。\n\n多云或跨组织共享数据、需要按团队隔离计算资源并要求稳定服务水平的中大型企业优先。\n\n计算按运行时长计费，自动挂起策略没配好很容易超支；专有 SQL 方言与生态绑定深，退出成本高。\n",
+  "vendorId": "snowflake-inc"
+}

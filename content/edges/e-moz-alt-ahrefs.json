@@ -1,0 +1,11 @@
+{
+  "id": "e-moz-alt-ahrefs",
+  "from": "moz",
+  "to": "ahrefs",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "DA 口径与教程体系 vs 外链索引深度；两边权威度指标不可直接换算"
+}

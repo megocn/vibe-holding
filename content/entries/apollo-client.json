@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "graphql",
+    "data-fetching",
+    "cache",
+    "open-source"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "包体积与配置复杂度明显高于轻量客户端；规范化缓存的 key 与更新策略配错时，排查缓存不一致相当耗时。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.apollographql.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "apollo-client",
+  "name": "Apollo Client",
+  "category": "oss-state",
+  "subcategory": "graphql-client",
+  "oneLiner": "GraphQL 规范化缓存 · 按实体归一 · 生态齐全但体积偏大",
+  "officialUrl": "https://www.apollographql.com",
+  "descriptionMd": "Apollo Client 是功能最完整的 GraphQL 客户端：把响应按实体归一化进规范化缓存，一处更新处处生效，并提供本地状态、订阅、开发者工具与代码生成等配套。\n\nGraphQL 查询密集、多视图共享同一批实体、需要成熟工具链与商业支持时选用。\n\n包体积与配置复杂度明显高于轻量客户端；规范化缓存的 key 与更新策略配错时，排查缓存不一致相当耗时。\n",
+  "vendorId": "apollo-graphql",
+  "githubUrl": "https://github.com/apollographql/apollo-client"
+}

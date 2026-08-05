@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "go",
+    "backend",
+    "http",
+    "middleware"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "生态与中文资料规模不及 Gin",
+    "跨大版本模块路径变更需批量改 import"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://echo.labstack.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "echo-go",
+  "name": "Echo",
+  "category": "fw-backend",
+  "subcategory": "go-backend",
+  "oneLiner": "Go 高性能 HTTP 框架 · 中间件开箱齐 · API 风格贴近 Gin",
+  "officialUrl": "https://echo.labstack.com",
+  "descriptionMd": "Echo 是 Go 的轻量高性能 Web 框架，路由分组、参数绑定与中间件一应俱全，另内建 JWT、限流与自动 TLS 等常用件，整体 API 风格与 Gin 高度相似。\n\nGo 服务想要比 Gin 更多开箱中间件、又不愿引入大型企业框架时评估；两者迁移成本相近，团队熟悉度往往是决定项。\n\n生态广度与招聘心智不及 Gin，中文教程较少；历史上换过模块导入路径，老代码跨大版本升级要批量改 import。\n",
+  "vendorId": "labstack",
+  "githubUrl": "https://github.com/labstack/echo"
+}

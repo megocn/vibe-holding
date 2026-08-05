@@ -1,0 +1,11 @@
+{
+  "id": "e-tencent-cls-deq-sumo-logic",
+  "from": "tencent-cls",
+  "to": "sumo-logic",
+  "type": "domestic_equivalent_of",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同为托管日志检索与告警；CLS 计费与控制台在国内，安全分析能力弱于 Sumo"
+}

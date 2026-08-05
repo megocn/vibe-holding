@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cms",
+    "git-based",
+    "open-source",
+    "static-site"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "需要额外的 OAuth 认证服务才能对接 Git 托管方。",
+    "媒体库与富文本能力基础，重内容站点容易触顶。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://decapcms.org"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "decap-cms",
+  "name": "Decap CMS",
+  "category": "collab-cms",
+  "subcategory": "git-based-cms",
+  "oneLiner": "纯 Git 的开源静态站后台 · 无数据库 · 配置即建模",
+  "officialUrl": "https://decapcms.org",
+  "descriptionMd": "Decap CMS（原 Netlify CMS）是运行在浏览器里的静态站内容后台：用一份配置描述集合与字段，编辑结果通过 Git 提供方的接口直接提交回仓库，不需要自建数据库与服务端。\n\nHugo、Astro、Jekyll 等静态站要给编辑者一个最简后台、且希望内容随代码一起版本化时评估。\n\n依赖 Git 托管方的鉴权与提交接口，需要一层认证服务；媒体管理与富文本体验偏基础。\n",
+  "githubUrl": "https://github.com/decaporg/decap-cms",
+  "docsUrl": "https://decapcms.org/docs/"
+}

@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "search",
+    "open-source",
+    "log",
+    "observability"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "对象存储读取带来更高查询延迟",
+    "项目归属变动过，长期维护节奏需确认"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://quickwit.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "quickwit",
+  "name": "Quickwit",
+  "category": "db-search",
+  "subcategory": "log-search",
+  "oneLiner": "索引直落对象存储 · 存算分离压低留存成本 · 日志与追踪向",
+  "officialUrl": "https://quickwit.io",
+  "descriptionMd": "Quickwit 是 Rust 实现的搜索引擎，把索引直接放在对象存储上、计算与存储彻底分离，专为日志与链路追踪这类只追加的海量数据设计，并提供部分 Elasticsearch 接入兼容。\n\n日志与 Trace 留存周期长、想把冷数据成本压到对象存储级别，且能接受查询延迟高于本地磁盘方案时评估。\n\n定位是可观测数据检索而非通用应用搜索；项目归属与商业支持路径几经变化，长期投入前请确认维护状态。\n",
+  "vendorId": "quickwit-inc"
+}

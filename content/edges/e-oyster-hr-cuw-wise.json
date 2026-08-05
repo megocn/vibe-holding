@@ -1,0 +1,11 @@
+{
+  "id": "e-oyster-hr-cuw-wise",
+  "from": "oyster-hr",
+  "to": "wise",
+  "type": "commonly_used_with",
+  "weight": 0.4,
+  "confidence": "inferred",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "承包商拿到跨境付款后常经多币种账户结汇，两者分处雇佣层与收款层"
+}

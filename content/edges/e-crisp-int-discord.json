@@ -1,0 +1,13 @@
+{
+  "id": "e-crisp-int-discord",
+  "from": "crisp",
+  "to": "discord",
+  "type": "integrates_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [
+    "https://crisp.chat/en/integrations/"
+  ],
+  "createdAt": "2026-08-05",
+  "note": "官方 Discord 插件可在频道内收发会话，社区型产品常用"
+}

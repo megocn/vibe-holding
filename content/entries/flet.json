@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cross-platform",
+    "python",
+    "ui",
+    "prototyping"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "控件与主题能力受封装层限制",
+    "不适合大型消费级应用的性能与状态需求"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://flet.dev"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "flet",
+  "name": "Flet",
+  "category": "fw-cross-platform",
+  "subcategory": "shared-ui",
+  "oneLiner": "用 Python 写 Flutter 界面 · 免前端知识 · 内部工具与原型向",
+  "officialUrl": "https://flet.dev",
+  "descriptionMd": "Flet 让 Python 开发者直接用 Python 代码构建由 Flutter 渲染的界面，无需接触 Dart 与前端工具链，可输出桌面、移动与 Web 应用。\n\n数据、算法或运维团队要给脚本加图形界面、做内部工具或演示原型时非常省事；面向用户的正式应用仍建议原生 Flutter。\n\n控件与主题受封装层限制，复杂交互不如直接写 Flutter；状态与性能模型偏简单，不适合大型消费级产品。\n",
+  "vendorId": "flet-dev",
+  "githubUrl": "https://github.com/flet-dev/flet"
+}

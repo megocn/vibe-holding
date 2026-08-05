@@ -1,0 +1,11 @@
+{
+  "id": "e-aurora-mysql-part-of-aws",
+  "from": "aurora-mysql",
+  "to": "aws",
+  "type": "part_of",
+  "weight": 0.9,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "该云厂商旗下产品"
+}

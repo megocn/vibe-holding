@@ -1,0 +1,11 @@
+{
+  "id": "e-meiqia-de-intercom",
+  "from": "meiqia",
+  "to": "intercom",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国内在线客服镜像：微信生态接入顺，AI 与全球节点弱于 Intercom"
+}

@@ -27,7 +27,7 @@
   "region": "overseas",
   "id": "snyk",
   "name": "Snyk",
-  "category": "sec-secrets",
+  "category": "sec-appsec",
   "subcategory": "scanning",
   "oneLiner": "依赖/镜像/IaC 漏洞扫描 · GitHub/GitLab PR checks · DevSecOps",
   "officialUrl": "https://snyk.io",

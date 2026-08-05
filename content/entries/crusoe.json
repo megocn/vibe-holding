@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "gpu",
+    "cloud",
+    "enterprise",
+    "sustainability"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "站点选址特殊，网络与区域覆盖不如超大规模云；以企业合同为主，自助开通体验有限，起量门槛偏高。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://crusoe.ai"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "crusoe",
+  "name": "Crusoe",
+  "category": "ai-gpu-cloud",
+  "subcategory": "gpu-cloud",
+  "oneLiner": "能源侧自建 AI 云 · 就地取电降碳降本 · 大规模训练容量导向",
+  "officialUrl": "https://crusoe.ai",
+  "descriptionMd": "Crusoe 把算力部署在能源产地，用就地供电支撑 GPU 集群，主打成本与碳排放优势，产品形态是面向训练与推理的规模化 AI 云。\n\n长期大批量训练、电费在总成本里占比高、或需要向上游交代碳排指标的团队值得询价；临时借几张卡请用零售型平台。\n\n站点选址特殊，网络与区域覆盖不如超大规模云；以企业合同为主，自助开通体验有限，起量门槛偏高。\n",
+  "vendorId": "crusoe-inc"
+}

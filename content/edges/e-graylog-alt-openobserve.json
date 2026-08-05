@@ -1,0 +1,11 @@
+{
+  "id": "e-graylog-alt-openobserve",
+  "from": "graylog",
+  "to": "openobserve",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "成熟权限与告警体系 vs 更轻的存储形态与更新的实现"
+}

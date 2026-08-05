@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "self-hosted",
+    "panel",
+    "domestic",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "面板暴露公网风险大，需限制来源并及时升级",
+    "英文材料与海外社区少"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://1panel.cn"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "1panel",
+  "name": "1Panel",
+  "category": "cloud-self-host",
+  "subcategory": "domestic-panel",
+  "oneLiner": "国产现代面板 · 容器优先/应用商店；社区偏国内",
+  "officialUrl": "https://1panel.cn",
+  "descriptionMd": "1Panel 是飞致云开源的现代化 Linux 运维面板，以容器为一等公民，配套应用商店可一键装常见开源服务，中文界面与文档完整。\n\n国内服务器上要一个比宝塔更贴近容器时代的面板、又希望中文支持到位时评估；也常被用来托管开源自建服务。\n\n社区与插件生态以国内为主，英文材料少；面板本身暴露在公网是常见风险面，务必限制访问来源并及时升级。\n"
+}

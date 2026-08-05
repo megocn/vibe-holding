@@ -1,0 +1,11 @@
+{
+  "id": "e-exa-igw-llamaindex",
+  "from": "exa",
+  "to": "llamaindex",
+  "type": "integrates_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "作为外部检索源接入索引与查询管线，补足本地向量库覆盖不到的长尾网页"
+}

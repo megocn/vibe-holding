@@ -31,5 +31,5 @@
   "oneLiner": "DO 同控制台 · 内置 CDN · S3 兼容简易权限",
   "officialUrl": "https://www.digitalocean.com/products/spaces",
   "descriptionMd": "Spaces 提供 S3 兼容 API、内置 CDN 与简单权限管理，与 App Platform/Droplet 同控制台，适合 DO 栈静态与备份。\n\n已用 DigitalOcean 部署应用、需要同源对象存储时选用；小团队 all-in-DO 常见。\n\n全球 region 少于 hyperscaler；高级 lifecycle 与 analytics 功能有限。\n",
-  "vendorId": "digitalocean"
+  "vendorId": "digitalocean-inc"
 }

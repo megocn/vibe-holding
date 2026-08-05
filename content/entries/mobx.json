@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "state",
+    "reactive",
+    "typescript",
+    "open-source"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "自动追踪使更新来源不够显式，大团队排查数据流较费力；装饰器与严格模式配置在不同构建链上差异明显。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://mobx.js.org"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "mobx",
+  "name": "MobX",
+  "category": "oss-state",
+  "subcategory": "state-management",
+  "oneLiner": "响应式可观察对象 · 依赖自动追踪 · 框架无关且面向对象友好",
+  "officialUrl": "https://mobx.js.org",
+  "descriptionMd": "MobX 通过可观察对象与自动依赖追踪实现响应式更新：修改数据即精确触发相关视图重算，不依赖 React，也常见于 Angular 或纯 TypeScript 领域模型中。\n\n领域模型复杂、偏好面向对象组织业务状态，或需要在多框架间复用同一份状态逻辑时选用。\n\n自动追踪使更新来源不够显式，大团队排查数据流较费力；装饰器与严格模式配置在不同构建链上差异明显。\n",
+  "githubUrl": "https://github.com/mobxjs/mobx"
+}

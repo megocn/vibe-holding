@@ -1,0 +1,11 @@
+{
+  "id": "e-sprinto-alt-drata",
+  "from": "sprinto",
+  "to": "drata",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Sprinto 实施节奏轻、亚太时区响应好；Drata 更适合多框架并行与企业级留痕"
+}

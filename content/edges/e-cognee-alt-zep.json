@@ -1,0 +1,11 @@
+{
+  "id": "e-cognee-alt-zep",
+  "from": "cognee",
+  "to": "zep",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "通用记忆管道 vs 面向对话的时序图谱"
+}

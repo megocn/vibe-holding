@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "EUR"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "EU",
+      "global"
+    ]
+  },
+  "tags": [
+    "privacy",
+    "gdpr",
+    "consent",
+    "cookies"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "开启阻断式加载后统计数据会明显下降，需提前与数据团队对齐口径。",
+    "按域名与页面量计价，多子域站群成本容易超出预算。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.cookiebot.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "cookiebot",
+  "name": "Cookiebot",
+  "category": "sec-compliance",
+  "subcategory": "privacy-consent",
+  "oneLiner": "Cookie 自动扫描分类 · 同意日志可留痕 · 欧盟 CMP 老牌",
+  "officialUrl": "https://www.cookiebot.com",
+  "descriptionMd": "Cookiebot 专注 Cookie 与追踪脚本的自动扫描、分类与同意管理，生成可审计的同意日志，并支持与 Google Consent Mode 等标签体系联动，现属 Usercentrics。\n\n站点埋点复杂、需要定期扫描清点第三方脚本并留存同意证据时选它；只要一份静态政策文本、没有追踪脚本的站点则不必上 CMP。\n\n工具只是流程助手，合规结论仍取决于真实数据处理与审计机构判断；阻断式加载会让统计口径明显变化，上线前要和数据团队对齐。\n",
+  "vendorId": "usercentrics"
+}

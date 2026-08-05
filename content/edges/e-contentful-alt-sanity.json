@@ -1,0 +1,11 @@
+{
+  "id": "e-contentful-alt-sanity",
+  "from": "contentful",
+  "to": "sanity",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "托管 Headless 双雄：Contentful 偏空间/环境治理与企业流程，Sanity 偏可编码 Studio 与实时协作"
+}

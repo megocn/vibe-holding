@@ -24,7 +24,7 @@
   "region": "overseas",
   "id": "actix-web",
   "name": "Actix Web",
-  "category": "fw-fullstack",
+  "category": "fw-backend",
   "subcategory": "rust-backend",
   "oneLiner": "Rust HTTP · actor 模型 · benchmark 领先 · 极致吞吐/低延迟",
   "officialUrl": "https://actix.rs",

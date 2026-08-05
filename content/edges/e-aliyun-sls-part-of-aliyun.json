@@ -1,0 +1,11 @@
+{
+  "id": "e-aliyun-sls-part-of-aliyun",
+  "from": "aliyun-sls",
+  "to": "aliyun",
+  "type": "part_of",
+  "weight": 0.9,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "该云厂商旗下产品"
+}

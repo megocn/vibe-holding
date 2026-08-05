@@ -1,0 +1,11 @@
+{
+  "id": "e-vanta-cuw-onetrust",
+  "from": "vanta",
+  "to": "onetrust",
+  "type": "commonly_used_with",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "SOC 2/ISO 认证与隐私同意治理是两条并行的线，大团队常同时铺"
+}

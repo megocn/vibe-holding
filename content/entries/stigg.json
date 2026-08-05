@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "billing",
+    "entitlement",
+    "pricing",
+    "saas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "只管权益不管收款，需搭配计费系统",
+    "权益判断进关键路径，可用性风险需兜底"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.stigg.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "stigg",
+  "name": "Stigg",
+  "category": "pay-billing",
+  "subcategory": "entitlement",
+  "oneLiner": "权益与套餐开关层 · 改套餐不改代码；仍需配计费",
+  "officialUrl": "https://www.stigg.io",
+  "descriptionMd": "Stigg 把「这个用户能用什么、能用多少」从业务代码里抽出来做成独立的权益层，套餐与限额在后台配置即时生效，配套付费墙与用量提示组件。\n\n套餐经常调整、每次改价都要动代码发版，或想做定价实验却被工程排期卡住时，这一层的收益最直接。\n\n它管权益不管收钱，仍要搭配 Stripe Billing 一类计费系统；权益判断进入关键路径后，其可用性就成了你的可用性。\n",
+  "vendorId": "stigg-inc"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-promptfoo-cuw-langfuse",
+  "from": "promptfoo",
+  "to": "langfuse",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "离线评测 vs 线上观测，是互补的两层而非二选一"
+}

@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "sandbox",
+    "vm",
+    "web"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "镜像与生态偏 Web/Node 栈",
+    "持久环境的存储与保活成本需监控"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://codesandbox.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "codesandbox-sdk",
+  "name": "CodeSandbox SDK",
+  "category": "ai-sandbox",
+  "subcategory": "vm-sandbox",
+  "oneLiner": "可分叉的持久化微型 VM · 带内存快照；偏 Web 栈",
+  "officialUrl": "https://codesandbox.io",
+  "descriptionMd": "CodeSandbox SDK 把其在线 IDE 背后的微型虚拟机开放出来：环境可分叉、可快照恢复，让 Agent 在有状态的环境里连续工作。\n\nAgent 需要反复回到同一环境继续改代码、或要为每个用户会话分叉一份环境时评估。\n\n生态与镜像偏 Web/Node 栈，异构语言支持要先验证；持久化环境的存储与保活成本需要盯。\n"
+}

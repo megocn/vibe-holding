@@ -1,0 +1,11 @@
+{
+  "id": "e-aws-alt-google-cloud",
+  "from": "aws",
+  "to": "google-cloud",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "服务广度与生态 vs 数据分析与 AI 取向"
+}

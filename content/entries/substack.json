@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD",
+    "notes": "免费发信，付费订阅按比例抽成"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "newsletter",
+    "publishing",
+    "subscription",
+    "creator"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "品牌与站点自定义受限，增长依赖平台推荐位。",
+    "支付与读者关系在平台侧，转独立站需重建链路。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://substack.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "substack",
+  "name": "Substack",
+  "category": "growth-lifecycle",
+  "subcategory": "newsletter",
+  "oneLiner": "写作与付费订阅托管 · 平台自带发现流量 · 按订阅收入抽成",
+  "officialUrl": "https://substack.com",
+  "descriptionMd": "Substack 提供从写作、发信到付费订阅的一站式托管，内置阅读器与推荐网络能带来平台内的自然曝光，商业模式是按付费订阅收入抽成而非收工具订阅费。\n\n个人作者想零配置开始写作、并顺手验证付费订阅，且愿意用部分收入换取平台生态曝光时选它。\n\n站点形态与品牌自定义受限，增长较依赖平台推荐；名单可导出，但读者关系与支付链路留在平台侧，转向独立站需要重建。\n",
+  "vendorId": "substack-inc"
+}

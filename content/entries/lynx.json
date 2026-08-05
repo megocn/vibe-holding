@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cross-platform",
+    "mobile",
+    "domestic",
+    "performance"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "开源时间短，第三方库与文档积累有限",
+    "工具链以字节内部实践为主，生产落地需兜底"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://lynxjs.org",
+    "https://github.com/lynx-family/lynx"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "both",
+  "id": "lynx",
+  "name": "Lynx",
+  "category": "fw-cross-platform",
+  "subcategory": "mobile-cross",
+  "oneLiner": "字节开源跨端 · 双线程架构 · Web 语法出原生视图 · 生态尚新",
+  "officialUrl": "https://lynxjs.org",
+  "descriptionMd": "Lynx 是字节跳动开源的跨端框架，用 Web 风格的语法与样式描述界面，经自研的双线程架构渲染为原生视图，已在其自家超级 App 的大流量页面中长期使用。\n\n关注首屏与滚动性能、愿意尝试新生态，或想在 React Native 之外多一个对照方案时评估。\n\n开源时间短，第三方库与中英文档积累有限；周边工具链以字节内部实践为准，生产落地需自建兜底方案。\n",
+  "vendorId": "bytedance",
+  "githubUrl": "https://github.com/lynx-family/lynx"
+}

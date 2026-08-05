@@ -1,0 +1,11 @@
+{
+  "id": "e-serper-alt-serpapi",
+  "from": "serper",
+  "to": "serpapi",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "单引擎低价高并发 vs 多引擎垂类覆盖与更正式的合规说明，单价更高"
+}

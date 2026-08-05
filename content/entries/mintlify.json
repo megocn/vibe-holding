@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "docs",
+    "hosted",
+    "saas",
+    "api-docs"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "定制自由度受平台框架限制",
+    "按席位计费，规模扩大后成本需测算"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://mintlify.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "mintlify",
+  "name": "Mintlify",
+  "category": "fw-docs-site",
+  "subcategory": "hosted-docs",
+  "oneLiner": "托管式开发者文档 · 开箱 AI 问答与 API 页 · 按席位订阅",
+  "officialUrl": "https://mintlify.com",
+  "descriptionMd": "Mintlify 是面向开发者文档的托管产品：内容以 MDX 存放在 Git 仓库，平台负责构建、部署、搜索与 AI 问答，并能依据 OpenAPI 规范自动生成接口文档页。\n\n团队想要一套观感专业的产品文档、又不愿自养前端与运维时评估；纯开源项目文档用自建生成器成本更低。\n\n主题与交互只能在平台框架内定制，深度改版受限；按席位与站点计费，自托管与数据出境需按合规口径确认。\n",
+  "vendorId": "mintlify-inc"
+}

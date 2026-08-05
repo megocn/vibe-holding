@@ -1,0 +1,11 @@
+{
+  "id": "e-growthbook-osalt-statsig",
+  "from": "growthbook",
+  "to": "statsig",
+  "type": "open_source_alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "实验分析在自有数仓执行 vs 事件送进厂商云按量计费"
+}

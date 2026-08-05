@@ -1,0 +1,11 @@
+{
+  "id": "e-oyster-hr-alt-remote-com",
+  "from": "oyster-hr",
+  "to": "remote-com",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Oyster 偏远程优先小团队的自助体验；Remote 偏自有实体与合规纵深"
+}

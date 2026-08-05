@@ -27,7 +27,7 @@
   "region": "overseas",
   "id": "coolify",
   "name": "Coolify",
-  "category": "cloud-paas",
+  "category": "cloud-self-host",
   "subcategory": "self-hosted",
   "oneLiner": "开源自建 Heroku · Git→Docker/DB/SSL · UI 友好",
   "officialUrl": "https://coolify.io",

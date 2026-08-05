@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "scraping",
+    "api",
+    "proxy",
+    "html"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "返回原始 HTML，正文清洗成本仍在自己这边；按请求计费，渲染类请求消耗更高需注意配置。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.scrapingbee.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "scrapingbee",
+  "name": "ScrapingBee",
+  "category": "ai-search-api",
+  "subcategory": "scrape-api",
+  "oneLiner": "抓取 API 代管代理与渲染 · 返回原始 HTML · 计费口径简单",
+  "officialUrl": "https://www.scrapingbee.com",
+  "descriptionMd": "ScrapingBee 把代理轮换、JS 渲染与重试封装成一个请求参数化的 API，给一个 URL 返回渲染后的 HTML 或截图，解析与清洗留给调用方。\n\n已有成熟解析逻辑、只缺一个稳定出口时接入最快；要直接拿到干净 markdown 喂模型，抽取型服务更省一步。\n\n返回原始 HTML，正文清洗成本仍在自己这边；按请求计费，渲染类请求消耗更高需注意配置。\n",
+  "vendorId": "scrapingbee-inc"
+}

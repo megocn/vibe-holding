@@ -1,0 +1,11 @@
+{
+  "id": "e-pinia-dep-vue",
+  "from": "pinia",
+  "to": "vue",
+  "type": "depends_on",
+  "weight": 0.9,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Vue 官方推荐状态库，心智与组合式 API 一致"
+}

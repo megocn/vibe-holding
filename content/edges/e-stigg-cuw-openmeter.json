@@ -1,0 +1,11 @@
+{
+  "id": "e-stigg-cuw-openmeter",
+  "from": "stigg",
+  "to": "openmeter",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "限额判断要读计量结果"
+}

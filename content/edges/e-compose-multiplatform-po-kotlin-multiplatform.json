@@ -1,0 +1,11 @@
+{
+  "id": "e-compose-multiplatform-po-kotlin-multiplatform",
+  "from": "compose-multiplatform",
+  "to": "kotlin-multiplatform",
+  "type": "part_of",
+  "weight": 0.85,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Compose Multiplatform 是 KMP 之上的共享 UI 层，先有共享逻辑再谈共享界面"
+}

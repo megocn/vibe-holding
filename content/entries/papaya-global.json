@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD",
+    "notes": "按人月与模块计费，偏企业级报价"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "payroll",
+    "eor",
+    "global-hiring",
+    "enterprise"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "实施周期与最低规模门槛较高，不适合零星雇佣",
+    "跨境付款涉及银行合规审查，上线时间需预留"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.papayaglobal.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "papaya-global",
+  "name": "Papaya Global",
+  "category": "global-hire",
+  "subcategory": "global-payroll",
+  "oneLiner": "全球薪资与跨境付款见长 · 多国工资单统一报表 · 偏企业级采购",
+  "officialUrl": "https://www.papayaglobal.com",
+  "descriptionMd": "Papaya Global 以全球薪资与跨境付款见长，把多国工资单、福利与合规数据汇成一套报表和付款流，同时也提供 EOR 与承包商雇佣形态。\n\n已经在多国有实体、需要把分散的当地薪资服务商收敛成统一口径时优先；只在海外招零星几人的小团队用它偏重，自助式 EOR 更合适。\n\n偏企业级采购，实施周期与最低规模门槛较高；付款链路涉及银行合规审查，上线要预留时间，费用形态以官方最新政策为准。\n",
+  "vendorId": "papaya-global-inc"
+}

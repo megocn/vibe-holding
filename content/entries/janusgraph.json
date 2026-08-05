@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "database",
+    "graph",
+    "gremlin",
+    "oss"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "需同时运维图引擎与后端存储、索引组件",
+    "社区发版节奏偏慢，疑难问题定位成本高"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://janusgraph.org",
+    "https://github.com/JanusGraph/janusgraph"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "janusgraph",
+  "name": "JanusGraph",
+  "category": "db-graph",
+  "subcategory": "graph-on-storage",
+  "oneLiner": "存算分离图引擎 · Gremlin/TinkerPop · 存储与索引都靠外部组件",
+  "officialUrl": "https://janusgraph.org",
+  "descriptionMd": "JanusGraph 是开源分布式图引擎，自身不带存储：数据落在宽列存储上，索引交给搜索引擎，查询走 TinkerPop 生态的 Gremlin 语言，本质是给已有大数据底座加一层图遍历能力。\n\n已有大数据存储集群、希望复用现有底座做图查询，或团队必须走 Gremlin 生态时评估；没有底座就直接选自带存储的图库。\n\n运维等于同时维护图引擎与后端存储两套系统；社区发版节奏较慢，疑难问题常需自己读源码定位。\n",
+  "vendorId": "linux-foundation"
+}

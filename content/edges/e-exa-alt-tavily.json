@@ -1,0 +1,11 @@
+{
+  "id": "e-exa-alt-tavily",
+  "from": "exa",
+  "to": "tavily",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "自建语义索引、能连正文一起返回 vs 对结果做压缩重排、直接给可入上下文的片段"
+}

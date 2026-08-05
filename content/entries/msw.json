@@ -27,7 +27,7 @@
   "region": "overseas",
   "id": "msw",
   "name": "MSW",
-  "category": "oss-toolchain",
+  "category": "oss-testing",
   "subcategory": "test",
   "oneLiner": "Service Worker 拦截 · 浏览器/Node 同 handlers · Storybook 友好",
   "officialUrl": "https://mswjs.io",

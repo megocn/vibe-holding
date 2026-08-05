@@ -24,7 +24,7 @@
   "region": "overseas",
   "id": "fastapi",
   "name": "FastAPI",
-  "category": "fw-fullstack",
+  "category": "fw-backend",
   "subcategory": "python-api",
   "oneLiner": "Python async · Pydantic/OpenAPI 自动 · ML 服务与 REST",
   "officialUrl": "https://fastapi.tiangolo.com",

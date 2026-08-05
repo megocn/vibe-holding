@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "email",
+    "lifecycle",
+    "automation",
+    "multichannel"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "旅程效果依赖埋点质量，数据不全等于空转。",
+    "按可触达用户与消息量计价，规模化成本需提前测算。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://customer.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "customer-io",
+  "name": "Customer.io",
+  "category": "growth-lifecycle",
+  "subcategory": "lifecycle-automation",
+  "oneLiner": "事件驱动旅程编排 · 邮件推送短信多渠道 · 依赖上游埋点质量",
+  "officialUrl": "https://customer.io",
+  "descriptionMd": "Customer.io 以用户事件与属性为核心做生命周期消息编排：可视化旅程画布支持分支与等待条件，除邮件外还能发 App 推送、短信与站内消息。\n\n产品行为数据比较完整、需要按「做了什么/没做什么」触发精细的激活与留存流程时评估；只发周报通讯用它偏重。\n\n效果高度依赖上游埋点质量，数据没接好旅程就是空转；按可触达用户与消息量计价，规模化前先测算成本。\n",
+  "vendorId": "customerio-inc"
+}

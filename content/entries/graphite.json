@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "code-review",
+    "pull-request",
+    "workflow",
+    "ai"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "堆叠工作流需全员一致，半数人不用则收益打折",
+    "生态以 GitHub 为主，其他平台支持先确认"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://graphite.dev"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "graphite",
+  "name": "Graphite",
+  "category": "coding-review",
+  "subcategory": "pr-workflow",
+  "oneLiner": "堆叠 PR 工作流为主 · 顺带 AI 评审 · 合并队列与 CLI",
+  "officialUrl": "https://graphite.dev",
+  "descriptionMd": "Graphite 的底子是 stacked PR 工作流：用 CLI 把大改拆成一串小 PR，配合合并队列与看板推进，近年在此之上叠了 AI 评审给即时反馈。\n\n团队愿意调整协作习惯、追求小步快评的评审节奏时评估；只想加评审意见而不动流程，选纯评审 Agent 更省事。\n\n堆叠流程要全员一致才有收益，个别人不用就会打断链路；生态以 GitHub 为主，其他平台支持需先确认。\n",
+  "vendorId": "graphite-dev"
+}

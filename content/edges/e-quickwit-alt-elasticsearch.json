@@ -1,0 +1,11 @@
+{
+  "id": "e-quickwit-alt-elasticsearch",
+  "from": "quickwit",
+  "to": "elasticsearch",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "索引落对象存储、按留存成本优化 vs 本地磁盘倒排、低延迟通用检索"
+}

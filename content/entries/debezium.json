@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "data",
+    "cdc",
+    "streaming",
+    "oss"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "对源库日志保留与复制槽有硬要求，配置不当会撑爆磁盘",
+    "模式变更与初始快照需上线前演练"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://debezium.io",
+    "https://github.com/debezium/debezium"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "debezium",
+  "name": "Debezium",
+  "category": "db-pipeline",
+  "subcategory": "cdc",
+  "oneLiner": "开源 CDC · 读事务日志捕获行级变更 · 以连接器形态部署，也可嵌入应用",
+  "officialUrl": "https://debezium.io",
+  "descriptionMd": "Debezium 通过读取数据库事务日志把行级变更转成事件流，常见形态是作为消息平台的连接器运行，也提供可嵌入应用的引擎与独立服务，是事件驱动架构里最常用的变更捕获组件。\n\n要做近实时同步、缓存失效、审计或事件驱动集成，且不能接受轮询扫表的延迟与压力时选它；下游通常接流处理引擎或数仓。\n\n对源库的日志保留、账号权限与复制槽有硬要求，配置不当会撑爆磁盘；模式变更处理与初始快照必须上线前演练。\n",
+  "vendorId": "red-hat"
+}

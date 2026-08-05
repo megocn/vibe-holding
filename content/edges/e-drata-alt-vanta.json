@@ -1,0 +1,11 @@
+{
+  "id": "e-drata-alt-vanta",
+  "from": "drata",
+  "to": "vanta",
+  "type": "alternative_to",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同为合规自动化：Drata 控制测试更细、审计协作区完整；Vanta 集成与审计师生态更广"
+}

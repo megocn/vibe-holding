@@ -1,0 +1,11 @@
+{
+  "id": "e-vanta-cuw-snyk",
+  "from": "vanta",
+  "to": "snyk",
+  "type": "commonly_used_with",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "合规控制项要求漏洞管理证据，扫描结果常作为 Vanta 的取证来源"
+}

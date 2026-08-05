@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "data",
+    "elt",
+    "sync",
+    "domestic",
+    "oss"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "SaaS 类连接器广度不及 Airbyte",
+    "多执行引擎导致配置分叉，压测结论不可跨引擎照搬"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://seatunnel.apache.org",
+    "https://github.com/apache/seatunnel"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "both",
+  "id": "apache-seatunnel",
+  "name": "Apache SeaTunnel",
+  "category": "db-pipeline",
+  "subcategory": "elt-connector",
+  "oneLiner": "国内孵化的 Apache 顶级数据集成项目 · 自带 Zeta 引擎，也可跑 Flink/Spark",
+  "officialUrl": "https://seatunnel.apache.org",
+  "descriptionMd": "Apache SeaTunnel 是国内孵化并进入 Apache 顶级项目的数据集成平台，连接器覆盖主流数据库、消息与湖仓，既能用自带引擎独立运行，也能提交到 Flink 或 Spark 集群，支持整库同步与变更捕获。\n\n国内团队要做大批量的批流一体同步、又不想额外引入完整大数据栈时评估；小规模 SaaS 数据接入用 Airbyte 的连接器目录更省事。\n\nSaaS 类连接器广度不及 Airbyte；三种执行引擎带来配置分叉，压测结论不能跨引擎照搬。\n",
+  "vendorId": "apache-software-foundation"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-zendesk-alt-intercom",
+  "from": "zendesk",
+  "to": "intercom",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Zendesk 从工单与流程出发，Intercom 从站内对话与增长运营出发"
+}

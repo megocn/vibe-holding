@@ -1,0 +1,11 @@
+{
+  "id": "e-nemo-guardrails-alt-guardrails-ai",
+  "from": "nemo-guardrails",
+  "to": "guardrails-ai",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "对话流轨道 vs 单次输出校验"
+}

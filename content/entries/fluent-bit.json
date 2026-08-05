@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "logging",
+    "pipeline",
+    "kubernetes",
+    "open-source"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "复杂解析与富化能力弱于 Logstash / Vector",
+    "多环境配置容易漂移，需纳入统一配置管理"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://fluentbit.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "fluent-bit",
+  "name": "Fluent Bit",
+  "category": "obs-logs",
+  "subcategory": "log-pipeline",
+  "oneLiner": "轻量 C 语言采集器 · K8s DaemonSet 事实标准 · 内存占用极低",
+  "officialUrl": "https://fluentbit.io",
+  "descriptionMd": "Fluent Bit 是 CNCF 旗下的轻量日志与指标采集器，用 C 实现，内存占用只有几十 MB，插件覆盖主流输入与输出，几乎是 Kubernetes 集群里日志边车与 DaemonSet 的默认选择。\n\n在容器与边缘节点上要一个足够省资源的采集端时首选；它负责收与转，落地存储与检索交给 Loki、Elasticsearch、对象存储或各家云日志服务。\n\n复杂的解析与富化能力弱于 Logstash 与 Vector；配置以文件段落为主，多环境差异容易漂移，建议纳入配置管理统一下发。\n",
+  "githubUrl": "https://github.com/fluent/fluent-bit"
+}

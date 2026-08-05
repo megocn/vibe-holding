@@ -1,0 +1,11 @@
+{
+  "id": "e-axolotl-dep-hf-trl",
+  "from": "axolotl",
+  "to": "hf-trl",
+  "type": "depends_on",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "SFT 与偏好对齐的训练器来自 TRL，Axolotl 用配置把它们串起来"
+}

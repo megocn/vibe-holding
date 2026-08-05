@@ -1,0 +1,11 @@
+{
+  "id": "e-openstatus-bo-nextjs",
+  "from": "openstatus",
+  "to": "nextjs",
+  "type": "built_on",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "仪表盘与状态页以 Next.js 实现，自托管时需具备该栈的部署能力"
+}

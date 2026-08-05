@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "experiment",
+    "dxp",
+    "enterprise",
+    "marketing"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "并购整合后模块命名与边界变化大，查文档需确认版本。",
+    "企业项目制采购，小团队投入产出比低。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.optimizely.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "optimizely",
+  "name": "Optimizely",
+  "category": "growth-experiment",
+  "subcategory": "experimentation",
+  "oneLiner": "老牌实验平台并入 DXP · 偏营销与内容试验 · 企业采购路径",
+  "officialUrl": "https://www.optimizely.com",
+  "descriptionMd": "Optimizely 从网页 A/B 测试起家，如今是包含内容管理、个性化与实验的数字体验平台，试验形态覆盖页面改版、内容位与功能开关，面向营销与内容团队的比重更高。\n\n营销或内容团队要做页面级试验并与 CMS、个性化能力同栈，或企业已在其体系内时评估；纯工程侧的开关治理看 LaunchDarkly 一类更合适。\n\n产品线经多次并购整合，模块边界与命名变化较大；采购与实施偏企业项目制，小团队的成本与复杂度都高。\n",
+  "vendorId": "optimizely-inc"
+}

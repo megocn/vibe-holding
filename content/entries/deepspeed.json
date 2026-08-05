@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "training",
+    "distributed",
+    "open-source"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "配置文件与通信参数调优门槛高；卸载到内存或硬盘虽省显存，但吞吐下降需要实测权衡。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.deepspeed.ai"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "deepspeed",
+  "name": "DeepSpeed",
+  "category": "ai-finetune",
+  "subcategory": "distributed-training",
+  "oneLiner": "ZeRO 分片省显存 · 支撑千卡级并行 · 偏底层需要调参经验",
+  "officialUrl": "https://www.deepspeed.ai",
+  "descriptionMd": "DeepSpeed 由微软开源，核心是 ZeRO 系列显存优化：把优化器状态、梯度与参数在多卡间分片，再配合卸载与混合精度，让超出单卡容量的模型也能训练。\n\n参数量或批大小已经撑爆显存、需要多机扩展时引入；单卡小规模微调用它反而增加复杂度。\n\n配置文件与通信参数调优门槛高；卸载到内存或硬盘虽省显存，但吞吐下降需要实测权衡。\n",
+  "vendorId": "microsoft"
+}

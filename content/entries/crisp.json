@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD",
+    "notes": "免费档基础聊天；插件与高级能力随档位开放"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "support",
+    "livechat",
+    "saas",
+    "smb"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "企业级权限、SLA 与报表能力偏弱。",
+    "关键能力分散在插件里，需按档位逐项核对可用范围。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://crisp.chat"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "crisp",
+  "name": "Crisp",
+  "category": "collab-support",
+  "subcategory": "livechat",
+  "oneLiner": "轻量共享收件箱 · 渠道插件多 · 小团队价格友好",
+  "officialUrl": "https://crisp.chat",
+  "descriptionMd": "Crisp 提供网站聊天气泡、共享收件箱与多渠道插件，把邮件、社交与即时通讯消息汇进一个界面，另带机器人、知识库与共享浏览等实用件。\n\n初创或中小团队要快速上一个能用的在线客服、渠道杂而预算有限时评估；重工单流程与合规审计场景不合适。\n\n企业级权限、报表与 SLA 偏弱；能力散在插件中，不同档位可用范围差别大，选档前需逐项核对。\n",
+  "vendorId": "crisp-im",
+  "docsUrl": "https://docs.crisp.chat"
+}

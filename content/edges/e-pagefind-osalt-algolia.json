@@ -1,0 +1,11 @@
+{
+  "id": "e-pagefind-osalt-algolia",
+  "from": "pagefind",
+  "to": "algolia",
+  "type": "open_source_alternative_to",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "构建期静态索引、零后端 vs 托管检索 SaaS；只覆盖小体量站内搜索"
+}

@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "billing",
+    "usage-based",
+    "open-source",
+    "self-host"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "自托管需自行承担计量写入峰值与一致性",
+    "税务与收入确认等边缘能力需自补"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.getlago.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "lago",
+  "name": "Lago",
+  "category": "pay-billing",
+  "subcategory": "usage-based",
+  "oneLiner": "开源用量计费引擎 · 可自托管；边缘能力需自补",
+  "officialUrl": "https://www.getlago.com",
+  "descriptionMd": "Lago 是开源的用量计费引擎，提供计量、套餐与附加项、优惠券、发票与钱包额度，既有云托管版也可完整自托管，API 与 Webhook 覆盖主要流程。\n\n计费逻辑敏感或数据不能出境、希望自己掌控计费内核而不是绑定闭源 SaaS 时，是这一叶里最现实的自托管选项。\n\n自托管要自己扛住计量写入的峰值与数据一致性；相比闭源竞品，税务、收入确认这些边缘能力仍需自行补齐。\n",
+  "vendorId": "getlago"
+}

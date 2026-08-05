@@ -1,0 +1,11 @@
+{
+  "id": "e-manticore-search-alt-meilisearch",
+  "from": "manticore-search",
+  "to": "meilisearch",
+  "type": "alternative_to",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "自托管轻量检索两条路：SQL 心智接入 vs typo 容错的 REST 应用搜索"
+}

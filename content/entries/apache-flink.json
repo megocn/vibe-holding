@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "data",
+    "streaming",
+    "realtime",
+    "oss"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "集群与状态后端运维、调优需要专门经验",
+    "作业升级的状态兼容是长期维护痛点"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://flink.apache.org",
+    "https://github.com/apache/flink"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "apache-flink",
+  "name": "Apache Flink",
+  "category": "db-pipeline",
+  "subcategory": "stream-processing",
+  "oneLiner": "有状态流处理引擎 · 事件时间与检查点 · 流批一体 · Flink SQL/CDC 生态",
+  "officialUrl": "https://flink.apache.org",
+  "descriptionMd": "Apache Flink 是有状态的分布式流处理引擎，以事件时间、窗口与检查点支撑容错语义，同一套运行时既跑流也跑批，Flink SQL 与其 CDC 生态把实时同步和实时数仓的门槛拉低了不少。\n\n需要秒级延迟的实时聚合、实时风控或实时数仓，且状态较大需要容错时选它；只是定时搬数就别引入常驻集群。\n\n集群与状态后端运维、反压与检查点调优都需要专门经验；作业升级时的状态兼容是长期维护主要痛点。\n",
+  "vendorId": "apache-software-foundation"
+}

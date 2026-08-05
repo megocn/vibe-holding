@@ -1,0 +1,11 @@
+{
+  "id": "e-apify-igw-playwright",
+  "from": "apify",
+  "to": "playwright",
+  "type": "integrates_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "平台的爬虫运行时支持 Playwright 编写采集器，本地脚本可迁到托管环境"
+}

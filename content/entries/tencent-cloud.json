@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": true,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "cloud",
+    "iaas",
+    "domestic",
+    "wechat"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "国内 Web 服务需先完成 ICP 备案",
+    "冷门产品线文档与迭代不如主力线，选型前核实控制台现状"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://cloud.tencent.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "tencent-cloud",
+  "name": "腾讯云",
+  "category": "cloud-iaas",
+  "subcategory": "domestic-hyperscaler",
+  "oneLiner": "微信/小程序链路顺 · 音视频与 IM 强；备案同样前置",
+  "officialUrl": "https://cloud.tencent.com",
+  "descriptionMd": "腾讯云在音视频、实时通信与微信生态打通上有天然优势，云开发（CloudBase）让小程序后端几乎零运维，混元系模型与文档能力也在其内。\n\n做小程序、公众号或音视频业务时优先；与 tencent-cloudbase、tencent-cos、tencent-trtc 这些单品天然同栈。\n\n国内 Web 服务同样需要备案；部分产品线更新节奏与文档完备度不及阿里云，选冷门服务前先看控制台实际可用性。\n",
+  "vendorId": "tencent"
+}

@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "feature-flag",
+    "open-source",
+    "remote-config",
+    "self-host"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "实验统计能力有限，A/B 结论需借助外部分析。",
+    "自托管的高可用与扩容需自行压测。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.flagsmith.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "flagsmith",
+  "name": "Flagsmith",
+  "category": "growth-experiment",
+  "subcategory": "feature-flag",
+  "oneLiner": "开源开关与远程配置 · 托管自建两条路 · 移动端配置下发友好",
+  "officialUrl": "https://www.flagsmith.com",
+  "descriptionMd": "Flagsmith 提供开源的功能开关与远程配置服务，支持自托管与官方托管两种形态；除布尔开关外也常被用来下发多变体配置，前端与移动端 SDK 覆盖较全。\n\n既要功能开关也要远程配置、并希望保留「先用托管、后转自建」退路的团队适合评估。\n\n实验统计能力有限，A/B 结论仍需外部分析；自托管版本的规模化与高可用要自己压测和运维。\n",
+  "vendorId": "flagsmith-inc",
+  "githubUrl": "https://github.com/Flagsmith/flagsmith"
+}

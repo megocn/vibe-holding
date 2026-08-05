@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "sandbox",
+    "security",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "系统调用兼容性需按负载实测",
+    "只是隔离层，不含调度与计费等平台能力"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://gvisor.dev"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "gvisor",
+  "name": "gVisor",
+  "category": "ai-sandbox",
+  "subcategory": "kernel-sandbox",
+  "oneLiner": "用户态内核隔离 · 比容器强的边界；有系统调用兼容代价",
+  "officialUrl": "https://gvisor.dev",
+  "descriptionMd": "gVisor 是 Google 开源的应用内核，在用户态实现一层系统调用拦截，让不受信任的容器获得接近虚拟机的隔离强度，是多家沙箱产品的底层。\n\n自建执行沙箱、要在容器成本与虚拟机隔离之间取平衡时，作为基础设施层评估。\n\n部分系统调用不完全兼容，重 I/O 与特殊内核特性场景需实测；它是基础组件，不含调度与计费等平台能力。\n"
+}

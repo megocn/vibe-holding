@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "notes": "开源自托管免费；Tina Cloud 按团队计费"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cms",
+    "git-based",
+    "open-source",
+    "markdown"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "内容规模变大后 Git 读写与构建时间明显变慢。",
+    "多人同时编辑的冲突处理与权限粒度弱于托管型 CMS。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://tina.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "tina-cms",
+  "name": "TinaCMS",
+  "category": "collab-cms",
+  "subcategory": "git-based-cms",
+  "oneLiner": "内容存 Git · Markdown 可视化编辑 · Next.js 生态最顺",
+  "officialUrl": "https://tina.io",
+  "descriptionMd": "TinaCMS 把 Markdown/MDX 等文件仍留在 Git 仓库，另提供可视化编辑界面与内容 Schema，编辑动作最终落成仓库提交，可选官方云做协作与索引。\n\n文档站、博客与营销站已用静态生成、希望非技术同事在页面上直接改文案又不引入数据库时评估。\n\n内容量大或需要复杂关联查询时 Git 方案会吃力；实时协作与权限粒度弱于托管型 CMS。\n",
+  "vendorId": "tina-inc",
+  "githubUrl": "https://github.com/tinacms/tinacms",
+  "docsUrl": "https://tina.io/docs"
+}

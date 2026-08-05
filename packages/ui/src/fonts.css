@@ -1,7 +1,7 @@
 /*
  * 字体 @font-face（霞鹜文楷 / 霞鹜臻楷 / Maple Mono）。
- * 桌面端资源：apps/desktop/public/fonts（见该目录 README；可用 scripts/fetch-fonts.sh 再生）。
- * Web 端 MUST 再做子集化（cn-font-split / unicode-range）；当前为开发/桌面全量 woff2。
+ * 资源：apps/desktop/public/fonts（Web 用字表子集；母本在 assets/fonts-full）。
+ * 再生：bash scripts/fetch-fonts.sh && python3 scripts/prepare-web-fonts.py
  * Bold 槽位映射 Lite Medium（上游无独立 Bold）。
  */
 @font-face {
@@ -16,7 +16,8 @@
   src: url('/fonts/LXGWWenKai-Bold.woff2') format('woff2');
   font-weight: 700;
   font-style: normal;
-  font-display: swap;
+  /* 粗体次要，不抢首屏带宽 */
+  font-display: optional;
 }
 @font-face {
   font-family: 'LXGW ZhenKai';

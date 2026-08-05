@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "captcha",
+    "bot",
+    "open-source",
+    "self-hosted"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "自托管后规则调优、监控与版本跟进全部由自己承担。",
+    "工作量证明对有算力的攻击者威慑有限，高风险场景需叠加风控。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://altcha.org",
+    "https://github.com/altcha-org/altcha"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "altcha",
+  "name": "ALTCHA",
+  "category": "sec-bot-captcha",
+  "subcategory": "captcha-widget",
+  "oneLiner": "开源工作量证明验证码 · 可自托管 · 无第三方请求与 Cookie",
+  "officialUrl": "https://altcha.org",
+  "descriptionMd": "ALTCHA 是开源的工作量证明人机验证组件，前端 widget 与服务端校验库都能自托管，默认不发起第三方请求、不写 Cookie，也提供可选的托管服务与插件。\n\n自建可控、不愿把用户请求交给第三方验证码厂商，或有数据本地化要求时选它；代价是防护调优与运维要自己承担。\n\n它只抬高脚本成本，挡不住有算力的定向刷量；开源项目的迭代与安全响应依赖社区，生产使用前要盯紧版本与依赖更新。\n",
+  "githubUrl": "https://github.com/altcha-org/altcha"
+}

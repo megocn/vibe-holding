@@ -1,0 +1,11 @@
+{
+  "id": "e-presidio-cuw-llm-guard",
+  "from": "presidio",
+  "to": "llm-guard",
+  "type": "commonly_used_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "PII 脱敏与安全扫描常串在同一入口层"
+}

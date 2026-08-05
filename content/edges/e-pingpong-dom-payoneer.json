@@ -1,0 +1,11 @@
+{
+  "id": "e-pingpong-dom-payoneer",
+  "from": "pingpong",
+  "to": "payoneer",
+  "type": "domestic_equivalent_of",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国内团队做的跨境收款，对标 Payoneer 的平台回款位置"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-portainer-alt-1panel",
+  "from": "portainer",
+  "to": "1panel",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "纯容器管控 vs 面板 + 应用商店"
+}

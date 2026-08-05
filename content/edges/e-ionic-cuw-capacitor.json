@@ -1,0 +1,11 @@
+{
+  "id": "e-ionic-cuw-capacitor",
+  "from": "ionic",
+  "to": "capacitor",
+  "type": "commonly_used_with",
+  "weight": 0.85,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同团队产物：Ionic 提供 Web UI 组件，Capacitor 负责原生打包与插件桥"
+}

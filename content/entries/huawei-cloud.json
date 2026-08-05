@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": true,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "cloud",
+    "iaas",
+    "domestic",
+    "enterprise"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "个人开发者自助体验与社区活跃度偏弱",
+    "部分能力走解决方案交付，非开箱自助"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.huaweicloud.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "huawei-cloud",
+  "name": "华为云",
+  "category": "cloud-iaas",
+  "subcategory": "domestic-hyperscaler",
+  "oneLiner": "政企与信创路径顺 · 鲲鹏/昇腾自有芯；生态偏企业侧",
+  "officialUrl": "https://www.huaweicloud.com",
+  "descriptionMd": "华为云在政企、信创与国产化替代路径上准备最足，鲲鹏与昇腾芯片形成自有算力栈，盘古系模型与鸿蒙生态亦在同一体系内。\n\n项目对信创合规、国产芯片或政企采购有硬性要求时优先；做鸿蒙应用可与 huawei-agc 一并考虑。\n\n面向个人开发者的自助体验与社区活跃度弱于阿里云、腾讯云；不少能力偏解决方案交付而非自助开通，采购与实施周期要提前预留。\n",
+  "vendorId": "huawei"
+}

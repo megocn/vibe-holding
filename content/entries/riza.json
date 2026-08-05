@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "sandbox",
+    "wasm",
+    "api"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "WASM 环境不支持重原生依赖",
+    "无长驻状态，需自行设计会话保持"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://riza.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "riza",
+  "name": "Riza",
+  "category": "ai-sandbox",
+  "subcategory": "code-execution-api",
+  "oneLiner": "代码执行 API · WASM 隔离轻量；不适合重依赖任务",
+  "officialUrl": "https://riza.io",
+  "descriptionMd": "Riza 提供面向 LLM 工具调用的代码执行 API，用 WebAssembly 沙箱跑不受信任的代码片段，启动极快、隔离边界清晰。\n\n只需要让模型跑一小段计算或数据处理、并不需要完整操作系统时，它比整机沙箱轻得多。\n\nWASM 隔离意味着系统调用与三方原生依赖都受限，重依赖任务跑不动；没有长驻状态，会话保持需自行设计。\n"
+}

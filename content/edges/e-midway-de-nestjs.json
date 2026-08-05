@@ -1,0 +1,11 @@
+{
+  "id": "e-midway-de-nestjs",
+  "from": "midway",
+  "to": "nestjs",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国内企业级 Node 框架：同为 IoC/装饰器分层，Midway 额外覆盖函数计算与阿里云生态"
+}

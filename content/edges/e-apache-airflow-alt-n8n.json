@@ -1,0 +1,11 @@
+{
+  "id": "e-apache-airflow-alt-n8n",
+  "from": "apache-airflow",
+  "to": "n8n",
+  "type": "alternative_to",
+  "weight": 0.4,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "不同层：Airflow 是数据工程批处理调度，n8n 是应用与 SaaS 之间的自动化连线，勿横向比吞吐"
+}

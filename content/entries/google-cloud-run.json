@@ -32,5 +32,5 @@
   "oneLiner": "Knative 按请求伸缩容器 · 任意 Docker · GCP 主力 Serverless",
   "officialUrl": "https://cloud.google.com/run",
   "descriptionMd": "Cloud Run 以 Knative 为基础按请求伸缩容器，支持任意语言 Docker 镜像，与 Cloud SQL、Pub/Sub、Firebase 集成，是 GCP 主力 Serverless 计算。\n\n需要容器自由度又不要管节点、或 GCP 已有 BigQuery/Firebase 栈时首选 Serverless 计算；适合 API 与批处理 Job。\n\n冷启动与并发配置影响 latency 与成本；最小实例>0 可避免冷启动但增加固定费用，VPC 连接器配置较繁琐。\n",
-  "vendorId": "google-cloud"
+  "vendorId": "google"
 }

@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD",
+    "notes": "免费档可用基础状态页，付费档解锁自定义域名等"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "status-page",
+    "incident",
+    "saas",
+    "monitoring"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "事故管理与值班排班能力有限，偏纯状态页",
+    "自动更新依赖上游监控集成质量，需先验证事件映射"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://instatus.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "instatus",
+  "name": "Instatus",
+  "category": "obs-uptime",
+  "subcategory": "status-page",
+  "oneLiner": "轻快状态页 · 一次性买断式定价友好 · 自定义域名与主题",
+  "officialUrl": "https://instatus.com",
+  "descriptionMd": "Instatus 是主打轻快与好看的状态页服务，页面为静态托管、加载快，支持自定义域名、主题与订阅通知，并能从常见监控工具接收事件自动更新组件状态。\n\n需要一张体面的对外状态页、又不想为订阅者规模持续付高价时评估；企业级事故流程与工单联动仍是 Statuspage 更完整。\n\n定位在状态页本身，事故管理与值班排班能力有限；自动更新依赖上游监控的集成质量，接入前先验证事件映射关系。\n",
+  "vendorId": "instatus-inc"
+}

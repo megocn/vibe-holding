@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "search",
+    "open-source",
+    "java",
+    "lucene"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "SolrCloud 需额外维护 ZooKeeper",
+    "托管服务与新生代生态支持少于 Elasticsearch"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://solr.apache.org"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "apache-solr",
+  "name": "Apache Solr",
+  "category": "db-search",
+  "subcategory": "search-cluster",
+  "oneLiner": "老牌 Lucene 检索服务 · 分面与打分可控 · SolrCloud 依赖 ZooKeeper",
+  "officialUrl": "https://solr.apache.org",
+  "descriptionMd": "Apache Solr 是 Lucene 之上的老牌开源检索服务器，以显式索引结构定义、分面检索与丰富的查询解析器见长；集群形态 SolrCloud 依靠 ZooKeeper 做分片协调与选主。\n\n已有 Java 企业检索资产、需要精细可控的打分与分面，或做目录、文献、政企内检索时评估。\n\n云上托管选择与社区热度都少于 Elasticsearch；额外维护 ZooKeeper 是实打实的成本，新项目要先掂量团队熟悉度。\n"
+}

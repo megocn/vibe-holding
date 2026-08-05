@@ -1,0 +1,11 @@
+{
+  "id": "e-plain-com-alt-intercom",
+  "from": "plain-com",
+  "to": "intercom",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Plain 面向 B2B 企业客户与 Slack 共享频道，Intercom 面向海量终端用户"
+}

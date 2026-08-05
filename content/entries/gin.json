@@ -24,7 +24,7 @@
   "region": "overseas",
   "id": "gin",
   "name": "Gin",
-  "category": "fw-fullstack",
+  "category": "fw-backend",
   "subcategory": "go-backend",
   "oneLiner": "Go 流行 Web · 路由快/中间件简 · 高 QPS 微服务 API",
   "officialUrl": "https://gin-gonic.com",

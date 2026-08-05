@@ -1,0 +1,11 @@
+{
+  "id": "e-pytest-dep-python",
+  "from": "pytest",
+  "to": "python",
+  "type": "depends_on",
+  "weight": 0.9,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "运行在 Python 解释器上，版本支持范围随主版本推进"
+}

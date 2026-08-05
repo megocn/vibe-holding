@@ -1,0 +1,11 @@
+{
+  "id": "e-scrapingbee-alt-firecrawl",
+  "from": "scrapingbee",
+  "to": "firecrawl",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "返回渲染后的原始 HTML 由你解析 vs 直接给清洗过的 markdown 与结构化字段"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-duckdb-alt-clickhouse",
+  "from": "duckdb",
+  "to": "clickhouse",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同为列存分析：DuckDB 进程内单机、随代码走；ClickHouse 是常驻服务与集群"
+}

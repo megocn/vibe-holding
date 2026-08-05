@@ -1,0 +1,11 @@
+{
+  "id": "e-unleash-int-openfeature",
+  "from": "unleash",
+  "to": "openfeature",
+  "type": "integrates_with",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "提供 OpenFeature Provider，应用侧可按标准接口接入"
+}

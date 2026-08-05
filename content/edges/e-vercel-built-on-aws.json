@@ -1,0 +1,11 @@
+{
+  "id": "e-vercel-built-on-aws",
+  "from": "vercel",
+  "to": "aws",
+  "type": "built_on",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "托管平台跑在超大规模云之上，选 PaaS 不等于绕开底层云"
+}

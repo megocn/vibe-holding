@@ -1,0 +1,11 @@
+{
+  "id": "e-apache-flink-int-apache-pulsar",
+  "from": "apache-flink",
+  "to": "apache-pulsar",
+  "type": "integrates_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "除 Kafka 外的消息源选择；连接器成熟度与社区活跃度需按版本核对"
+}

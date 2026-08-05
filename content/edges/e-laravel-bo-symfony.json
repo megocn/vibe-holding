@@ -1,0 +1,11 @@
+{
+  "id": "e-laravel-bo-symfony",
+  "from": "laravel",
+  "to": "symfony",
+  "type": "built_on",
+  "weight": 0.8,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Laravel 的 HTTP、路由与控制台等底层大量取自 Symfony 组件"
+}

@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "notes": "开源自托管免费；官方云版按摄入量计费"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "logging",
+    "observability",
+    "open-source",
+    "self-host"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "项目较年轻，高基数与大规模查询表现需自行压测",
+    "开源版与云版在多租户与权限上的差异需提前确认"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://openobserve.ai"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "openobserve",
+  "name": "OpenObserve",
+  "category": "obs-logs",
+  "subcategory": "log-store",
+  "oneLiner": "Rust 写的一体化可观测后端 · 直接落对象存储 · 号称极省存储",
+  "officialUrl": "https://openobserve.ai",
+  "descriptionMd": "OpenObserve 用 Rust 实现，把日志、指标与链路收在同一后端，数据以列式格式直接落在 S3 等对象存储上，自带查询界面与告警，部署形态比 Elasticsearch 一类集群轻得多。\n\n想自托管一套统一的可观测后端、又不愿养搜索引擎集群时评估；它可以接在 Fluent Bit、Vector 或 OpenTelemetry Collector 后面，替代 Loki 加 Elasticsearch 的组合。\n\n项目相对年轻，大规模高基数场景下的查询表现需自行压测；开源版与云版在多租户、权限上的差异要提前确认。\n",
+  "vendorId": "openobserve-inc",
+  "githubUrl": "https://github.com/openobserve/openobserve"
+}

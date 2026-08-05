@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD",
+    "notes": "按席位分档订阅，AI 与高级功能常需加购"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "support",
+    "ticketing",
+    "saas",
+    "enterprise"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "高级能力散落在加购模块，实际单价常高于标称档位。",
+    "自动化规则长期堆积后难以审计与重构。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.zendesk.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "zendesk",
+  "name": "Zendesk",
+  "category": "collab-support",
+  "subcategory": "ticketing-suite",
+  "oneLiner": "企业级工单与知识库 · 流程报表完备 · 实施与配置偏重",
+  "officialUrl": "https://www.zendesk.com",
+  "descriptionMd": "Zendesk 是工单起家的客户服务套件：多渠道汇聚成工单、配 SLA、分派规则、知识库与报表，另有面向大型组织的权限与审计能力。\n\n客服团队规模化、需要 SLA 考核与跨部门流转、并对报表和合规有硬要求时评估；小团队会觉得配置负担重。\n\n功能按模块与档位拆分，报价与实施周期都不轻；自动化规则堆积后维护复杂，换供应商时历史工单迁移量大。\n",
+  "vendorId": "zendesk-inc",
+  "docsUrl": "https://developer.zendesk.com"
+}

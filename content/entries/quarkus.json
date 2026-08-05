@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "java",
+    "backend",
+    "cloud-native",
+    "graalvm"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "原生镜像编译慢且对反射敏感，老库需配置适配",
+    "扩展需官方 extension 支持，生态广度不及 Spring"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://quarkus.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "quarkus",
+  "name": "Quarkus",
+  "category": "fw-backend",
+  "subcategory": "java-backend",
+  "oneLiner": "Red Hat 云原生 Java · 构建期优化与原生镜像 · 冷启与内存友好",
+  "officialUrl": "https://quarkus.io",
+  "descriptionMd": "Quarkus 是 Red Hat 主导的云原生 Java 框架，把大量工作前移到构建期并支持 GraalVM 原生镜像，显著压低启动时间与内存占用，同时保留 CDI、JAX-RS 等标准写法。\n\nJava 栈要上 Kubernetes、在意容器密度与冷启动，或想做函数计算时评估；常规单体与人才储备仍以 Spring Boot 为主。\n\n原生镜像编译耗时且对反射敏感，部分老库需额外配置；第三方能力需走官方 extension，生态广度不及 Spring。\n",
+  "vendorId": "red-hat",
+  "githubUrl": "https://github.com/quarkusio/quarkus"
+}

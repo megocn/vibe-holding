@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "guardrail",
+    "security",
+    "open-source"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "维护节奏一般，不宜作唯一防线",
+    "多层检测叠加时延与成本"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/protectai/rebuff"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "rebuff",
+  "name": "Rebuff",
+  "category": "ai-guardrail",
+  "subcategory": "prompt-injection",
+  "oneLiner": "提示注入多层检测 · 含金丝雀词；项目偏轻量",
+  "officialUrl": "https://github.com/protectai/rebuff",
+  "descriptionMd": "Rebuff 用启发式规则、模型判定、向量相似比对与金丝雀词四层手段检测提示注入，其中金丝雀词能反过来确认系统提示是否已被泄露出去。\n\n想低成本给现有链路先加一道注入检测、或用它来研究注入攻防机制、做安全基线时评估。\n\n项目体量与维护节奏都不及商业方案，不建议当作唯一防线；检测层开得越多，时延与成本叠加越明显。\n"
+}

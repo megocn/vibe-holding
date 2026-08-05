@@ -1,0 +1,11 @@
+{
+  "id": "e-e2b-cuw-langchain",
+  "from": "e2b",
+  "to": "langchain",
+  "type": "commonly_used_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "作为代码解释器工具接进 Agent 链路"
+}

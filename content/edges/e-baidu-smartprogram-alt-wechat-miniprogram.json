@@ -1,0 +1,11 @@
+{
+  "id": "e-baidu-smartprogram-alt-wechat-miniprogram",
+  "from": "baidu-smartprogram",
+  "to": "wechat-miniprogram",
+  "type": "alternative_to",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "搜索结果页直达服务 vs 社交生态内分发；搜索意图明确但生态热度较低"
+}

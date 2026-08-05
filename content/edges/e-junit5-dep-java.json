@@ -1,0 +1,11 @@
+{
+  "id": "e-junit5-dep-java",
+  "from": "junit5",
+  "to": "java",
+  "type": "depends_on",
+  "weight": 0.9,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "JVM 语言测试基座，Kotlin/Scala 亦可复用其 Platform"
+}

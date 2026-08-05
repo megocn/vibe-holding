@@ -1,0 +1,11 @@
+{
+  "id": "e-fiber-go-alt-gin",
+  "from": "fiber-go",
+  "to": "gin",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Gin 基于标准库 net/http，Fiber 走 fasthttp 换吞吐但牺牲标准库生态兼容"
+}

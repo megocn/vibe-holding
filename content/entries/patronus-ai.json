@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "eval",
+    "managed",
+    "enterprise"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "评判逻辑不完全可审计",
+    "按调用计费，大规模回归成本需测算"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.patronus.ai"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "patronus-ai",
+  "name": "Patronus AI",
+  "category": "ai-eval",
+  "subcategory": "managed-eval",
+  "oneLiner": "托管评测与幻觉检测 · 自带评判模型；闭源为主",
+  "officialUrl": "https://www.patronus.ai",
+  "descriptionMd": "Patronus AI 提供托管式 LLM 评测服务，主打幻觉与不安全输出的自动检测，附带自研评判模型与行业基准，面向企业交付。\n\n企业要一份「第三方出具」的质量评估、且不愿自己维护裁判模型与评测集时评估；与自建评测栈是买与造的关系。\n\n闭源托管意味着评判逻辑不完全可审计；按调用计费，大规模回归评测成本需先测算，敏感数据也要过合规。\n"
+}

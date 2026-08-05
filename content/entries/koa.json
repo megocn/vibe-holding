@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "nodejs",
+    "backend",
+    "middleware",
+    "minimal"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "无官方路由等标配，技术栈由团队自行拼装",
+    "社区体量与中间件更新节奏弱于 Express"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://koajs.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "koa",
+  "name": "Koa",
+  "category": "fw-backend",
+  "subcategory": "node-backend",
+  "oneLiner": "Express 原班团队后继 · 洋葱中间件 · 极简内核需自拼装",
+  "officialUrl": "https://koajs.com",
+  "descriptionMd": "Koa 由 Express 原班团队打造，用 async/await 与洋葱模型重写中间件机制，内核不含路由与模板，一切能力由 koa-router 等中间件按需引入。\n\n想要比 Express 更干净的异步中间件、且愿意自建技术栈约定时选；要开箱的分层与依赖注入看 NestJS，要边缘运行时看 Hono。\n\n官方不提供路由等标配，团队约定不一致时项目容易分化；社区活跃度低于 Express，第三方中间件更新偏慢。\n",
+  "vendorId": "koajs",
+  "githubUrl": "https://github.com/koajs/koa"
+}

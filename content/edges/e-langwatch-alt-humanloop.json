@@ -1,0 +1,11 @@
+{
+  "id": "e-langwatch-alt-humanloop",
+  "from": "langwatch",
+  "to": "humanloop",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "质量看板取向 vs prompt 资产管理取向"
+}

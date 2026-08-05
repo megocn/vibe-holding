@@ -1,0 +1,11 @@
+{
+  "id": "e-posthog-alt-launchdarkly",
+  "from": "posthog",
+  "to": "launchdarkly",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "分析平台自带 feature flag 的一体化省事 vs 专业化开关平台的权限、审计与规则深度"
+}

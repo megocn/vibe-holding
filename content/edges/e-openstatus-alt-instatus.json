@@ -1,0 +1,11 @@
+{
+  "id": "e-openstatus-alt-instatus",
+  "from": "openstatus",
+  "to": "instatus",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "拨测与状态页合一且可自托管 vs 专注状态页、托管开箱即用"
+}

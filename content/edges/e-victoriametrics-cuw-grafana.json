@@ -1,0 +1,11 @@
+{
+  "id": "e-victoriametrics-cuw-grafana",
+  "from": "victoriametrics",
+  "to": "grafana",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "以 Prometheus 兼容数据源接入 Grafana 出图，面板可基本沿用"
+}

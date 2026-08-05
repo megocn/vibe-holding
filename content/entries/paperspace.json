@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "gpu",
+    "cloud",
+    "notebook",
+    "prototyping"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "GPU 型号与库存不如专业 GPU 云丰富；产品线整合期间入口与套餐仍在调整，长期方案需确认承接关系。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.paperspace.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "paperspace",
+  "name": "Paperspace",
+  "category": "ai-gpu-cloud",
+  "subcategory": "gpu-rental",
+  "oneLiner": "Notebook 起步的 GPU 云 · 已并入 DigitalOcean · 上手门槛低",
+  "officialUrl": "https://www.paperspace.com",
+  "descriptionMd": "Paperspace 提供托管 Notebook 与 GPU 虚拟机，界面友好、模板齐全，被 DigitalOcean 收购后逐步与其云产品线整合。\n\n教学、原型验证或希望在浏览器里直接开工时体验最好；追求最低单价或极致弹性的生产任务另择平台。\n\nGPU 型号与库存不如专业 GPU 云丰富；产品线整合期间入口与套餐仍在调整，长期方案需确认承接关系。\n",
+  "vendorId": "paperspace-inc"
+}

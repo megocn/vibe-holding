@@ -1,0 +1,11 @@
+{
+  "id": "e-webdriverio-alt-playwright",
+  "from": "webdriverio",
+  "to": "playwright",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "WebdriverIO 走 WebDriver 协议、能接真机与云设备矩阵；Playwright 自带三引擎与 trace，纯 Web 更快"
+}

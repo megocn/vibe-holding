@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "graphql",
+    "data-fetching",
+    "react",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "默认文档缓存粒度粗，跨查询更新不会自动同步；exchange 组合顺序理解不对会出现难以复现的缓存行为。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/urql-graphql/urql"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "urql",
+  "name": "urql",
+  "category": "oss-state",
+  "subcategory": "graphql-client",
+  "oneLiner": "轻量 GraphQL 客户端 · 默认文档缓存 · exchange 管道按需拼装",
+  "officialUrl": "https://github.com/urql-graphql/urql",
+  "descriptionMd": "urql 是轻量 GraphQL 客户端，默认采用简单的文档缓存，功能通过 exchange 管道按需拼装；规范化缓存作为可选包引入，起步体积和概念负担都更小。\n\nGraphQL 用量适中、想避免规范化缓存复杂度、偏好按需扩展的项目选用；重度实体共享场景仍是 Apollo 更稳。\n\n默认文档缓存粒度粗，跨查询更新不会自动同步；exchange 组合顺序理解不对会出现难以复现的缓存行为。\n",
+  "githubUrl": "https://github.com/urql-graphql/urql"
+}

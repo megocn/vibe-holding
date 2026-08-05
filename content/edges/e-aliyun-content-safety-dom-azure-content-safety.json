@@ -1,0 +1,11 @@
+{
+  "id": "e-aliyun-content-safety-dom-azure-content-safety",
+  "from": "aliyun-content-safety",
+  "to": "azure-content-safety",
+  "type": "domestic_equivalent_of",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国内合规审核对应云侧内容审核 API 的位置"
+}

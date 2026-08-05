@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD",
+    "notes": "按雇员/承包商人月计费，具体以官网报价为准"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "eor",
+    "payroll",
+    "global-hiring",
+    "compliance"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "按人月计费，规模化后单人成本可能高于自建当地主体",
+    "各国劳动法差异大，解雇补偿与 IP 归属条款需逐国确认"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.deel.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "deel",
+  "name": "Deel",
+  "category": "global-hire",
+  "subcategory": "eor",
+  "oneLiner": "EOR 代雇与承包商合规一体 · 覆盖国家多 · 自助开通快 · 按人月订阅",
+  "officialUrl": "https://www.deel.com",
+  "descriptionMd": "Deel 是覆盖面很广的全球雇佣平台：以名义雇主（EOR）身份在当地合规雇人，同时管理承包商合同、全球薪资发放与个税申报，让你不必在每个用人国注册公司。\n\n团队要在海外招一两个人试水，或分布式团队跨多国用人时优先评估；如果目的只是拿一个海外主体去收款开户，那属于注册公司路径，不是同一件事。\n\n按人/月计费，人数上来后成本可观；各国终止条款、竞业与知识产权归属需逐国确认，覆盖国家与费用形态以官方最新政策为准。\n",
+  "vendorId": "deel-inc"
+}

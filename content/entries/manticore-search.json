@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "search",
+    "open-source",
+    "sql",
+    "self-hosted"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "生态与社区规模小，问题排查资料少",
+    "中文分词与排序需自行验证"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://manticoresearch.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "manticore-search",
+  "name": "Manticore Search",
+  "category": "db-search",
+  "subcategory": "search-engine",
+  "oneLiner": "Sphinx 血统 C++ 引擎 · MySQL 协议直接查 · 单机资源占用低",
+  "officialUrl": "https://manticoresearch.com",
+  "descriptionMd": "Manticore Search 由 Sphinx 分支演进而来，用 C++ 实现全文检索内核，既能通过 MySQL 协议以 SQL 语法查询，也提供 HTTP JSON 接口，定位是轻量、低资源占用的自托管检索引擎。\n\n单机或小集群、希望沿用 SQL 心智做全文检索、又在意内存与 CPU 开销时评估。\n\n社区与插件生态远小于 Elasticsearch，托管服务选择少；中文分词与业务排序方案需要自己验证落地。\n",
+  "vendorId": "manticore-software"
+}

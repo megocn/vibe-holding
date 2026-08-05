@@ -1,0 +1,11 @@
+{
+  "id": "e-payload-cms-built-nextjs",
+  "from": "payload-cms",
+  "to": "nextjs",
+  "type": "built_on",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "后台与接口以 Next.js 应用形态运行，与业务前端同仓同部署"
+}

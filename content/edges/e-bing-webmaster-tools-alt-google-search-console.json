@@ -1,0 +1,11 @@
+{
+  "id": "e-bing-webmaster-tools-alt-google-search-console",
+  "from": "bing-webmaster-tools",
+  "to": "google-search-console",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Bing 官方面板 vs Google 官方面板；建议并行接入而非二选一"
+}

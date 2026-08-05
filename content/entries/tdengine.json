@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "timeseries",
+    "iot",
+    "domestic",
+    "database"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "建模范式特殊，迁入迁出需改写入侧",
+    "集群与备份等能力集中在企业版"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.taosdata.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "both",
+  "id": "tdengine",
+  "name": "TDengine",
+  "category": "db-timeseries",
+  "subcategory": "iot-timeseries",
+  "oneLiner": "国产物联网时序库 · 一个采集点一张表 · 内置流式与订阅",
+  "officialUrl": "https://www.taosdata.com",
+  "descriptionMd": "TDengine 由涛思数据开发，面向物联网与工业设备场景，采用「一个采集点一张表」的建模方式压缩时间与标签维度，并内置缓存、流式计算与数据订阅，减少外挂组件的拼装。\n\n设备测点多、写入持续、需要按设备与标签维度聚合的国内工业、能源与车联网场景优先评估。\n\n建模范式与通用时序库差异大，迁移时写入侧要重写；开源版与企业版在集群、备份与多副本能力上有分界。\n",
+  "vendorId": "taosdata"
+}

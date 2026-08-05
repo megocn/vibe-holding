@@ -1,0 +1,11 @@
+{
+  "id": "e-freshdesk-alt-zendesk",
+  "from": "freshdesk",
+  "to": "zendesk",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同为工单套件，Freshdesk 价格与上手更友好，企业级定制弱一档"
+}

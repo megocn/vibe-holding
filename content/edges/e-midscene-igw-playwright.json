@@ -1,0 +1,11 @@
+{
+  "id": "e-midscene-igw-playwright",
+  "from": "midscene",
+  "to": "playwright",
+  "type": "integrates_with",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "可接入既有 Playwright 用例，把难写的断言与定位换成自然语言描述"
+}

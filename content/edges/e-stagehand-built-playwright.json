@@ -1,0 +1,11 @@
+{
+  "id": "e-stagehand-built-playwright",
+  "from": "stagehand",
+  "to": "playwright",
+  "type": "built_on",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Stagehand 是 Playwright 的外层封装：原有 API 仍可用，自然语言步骤只是额外一层"
+}

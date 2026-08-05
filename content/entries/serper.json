@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "search",
+    "api",
+    "serp",
+    "scraping"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "结果依赖第三方对搜索页的解析，上游改版时可能短暂波动；不含正文，完整链路仍要配抓取工具。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://serper.dev"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "serper",
+  "name": "Serper",
+  "category": "ai-search-api",
+  "subcategory": "serp-api",
+  "oneLiner": "Google SERP 转 JSON · 低价高并发 · 只给链接摘要不含正文",
+  "officialUrl": "https://serper.dev",
+  "descriptionMd": "Serper 把 Google 搜索结果页解析成结构化 JSON，主打低延迟与低单价，返回的是标题、链接与摘要，正文需要自己再抓。\n\n只需要「拿到一批相关链接」再交给抓取层处理时性价比高；要多引擎覆盖或法务背书，成熟 SERP 厂商更稳。\n\n结果依赖第三方对搜索页的解析，上游改版时可能短暂波动；不含正文，完整链路仍要配抓取工具。\n",
+  "vendorId": "serper-inc"
+}

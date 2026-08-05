@@ -1,0 +1,11 @@
+{
+  "id": "e-koa-alt-fastify",
+  "from": "koa",
+  "to": "fastify",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Node 轻量后端：Koa 极简需自拼装，Fastify 内建 schema 校验与更高吞吐"
+}

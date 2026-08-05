@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "code-review",
+    "pull-request",
+    "agent"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "Agent 直接提交需配分支保护与必需审查",
+    "复杂改造仍需人接手，勿全权托付"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.ellipsis.dev"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "ellipsis",
+  "name": "Ellipsis",
+  "category": "coding-review",
+  "subcategory": "pr-review-agent",
+  "oneLiner": "评审之外还能直接改 · 按评论产出提交 · 以 GitHub 为主",
+  "officialUrl": "https://www.ellipsis.dev",
+  "descriptionMd": "Ellipsis 是 PR 上的 AI 评审 Agent：除了留意见，还能按评论直接改代码并推送提交，把「指出问题」与「顺手修掉」放进同一个循环。\n\n小改动希望机器直接收尾、减少评审来回时评估，与只留意见的 CodeRabbit 是同层的两种取向；要求严格人工把关的仓库应限制其写权限。\n\n让 Agent 直接提交需配分支保护与必需审查，避免自动改动绕过流程；复杂改造仍要人接手。\n",
+  "vendorId": "ellipsis-dev"
+}

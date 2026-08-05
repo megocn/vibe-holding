@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "finetune",
+    "training",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "界面便利掩盖了超参细节，出问题需回到日志排查；模板众多但更新节奏不一，冷门模型分支质量参差。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/hiyouga/LLaMA-Factory"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "both",
+  "id": "llama-factory",
+  "name": "LLaMA-Factory",
+  "category": "ai-finetune",
+  "subcategory": "training-framework",
+  "oneLiner": "Web UI 点选微调 · 上百模型模板内置 · 中文社区文档厚",
+  "officialUrl": "https://github.com/hiyouga/LLaMA-Factory",
+  "descriptionMd": "LLaMA-Factory 把主流开源模型的微调、对齐与评测收进统一框架，既能命令行跑也提供可视化界面，内置大量模型与数据集模板，中文资料尤其丰富。\n\n团队里有人不写训练代码、或需要快速覆盖多个国产与开源模型做对比时很合适；追求极致吞吐仍看底层框架。\n\n界面便利掩盖了超参细节，出问题需回到日志排查；模板众多但更新节奏不一，冷门模型分支质量参差。\n",
+  "githubUrl": "https://github.com/hiyouga/LLaMA-Factory"
+}

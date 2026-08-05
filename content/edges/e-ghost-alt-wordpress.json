@@ -1,0 +1,11 @@
+{
+  "id": "e-ghost-alt-wordpress",
+  "from": "ghost",
+  "to": "wordpress",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Ghost 聚焦出版与订阅收费，WordPress 靠插件生态覆盖任意站点形态"
+}

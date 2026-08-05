@@ -1,0 +1,11 @@
+{
+  "id": "e-dbt-cuw-fivetran",
+  "from": "dbt",
+  "to": "fivetran",
+  "type": "commonly_used_with",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "EL 与 T 的经典组合：托管同步负责落仓，dbt 负责建模、测试与血缘"
+}

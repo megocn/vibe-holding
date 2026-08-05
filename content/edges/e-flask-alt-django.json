@@ -1,0 +1,11 @@
+{
+  "id": "e-flask-alt-django",
+  "from": "flask",
+  "to": "django",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Python 后端两条路线：微内核自选组件 vs 全家桶与内建后台"
+}

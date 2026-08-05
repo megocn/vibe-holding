@@ -1,0 +1,11 @@
+{
+  "id": "e-hetzner-alt-vultr",
+  "from": "hetzner",
+  "to": "vultr",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "单价更低但区域集中 vs 全球节点多"
+}

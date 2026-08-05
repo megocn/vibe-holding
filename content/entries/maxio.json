@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD",
+    "notes": "定价不公开，需商务沟通"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "billing",
+    "subscription",
+    "b2b",
+    "finance"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "实时用量计量能力弱于专精工具",
+    "两套产品合并后的体验一致性仍在改善"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.maxio.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "maxio",
+  "name": "Maxio",
+  "category": "pay-billing",
+  "subcategory": "subscription",
+  "oneLiner": "B2B SaaS 财务向计费 · 强收入确认；不适合 to C 高频",
+  "officialUrl": "https://www.maxio.com",
+  "descriptionMd": "Maxio 由 Chargify 与 SaaSOptics 合并而来，把订阅计费和 SaaS 财务分析放在一起，覆盖合同、开票、收入确认与 ARR、留存等指标口径。\n\nB2B SaaS 走合同制销售、财务需要合规的收入确认与投资人口径报表，而不只是把钱收上来时评估。\n\n产品重心偏财务，工程侧的实时计量能力不如用量计费专精工具；两套系统合并留下的使用体验割裂仍在改善中。\n"
+}

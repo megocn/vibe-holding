@@ -1,0 +1,11 @@
+{
+  "id": "e-llama-factory-cuw-vllm",
+  "from": "llama-factory",
+  "to": "vllm",
+  "type": "commonly_used_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "训练侧产出权重、推理侧负责高吞吐 serving，两者不要放在同一层比较"
+}

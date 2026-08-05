@@ -1,0 +1,11 @@
+{
+  "id": "e-flask-alt-fastapi",
+  "from": "flask",
+  "to": "fastapi",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同为 Python 微框架：同步 WSGI 扩展拼装 vs 异步类型优先且自动出接口文档"
+}

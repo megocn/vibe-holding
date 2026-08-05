@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "free",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": true,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "seo",
+    "search-console",
+    "domestic",
+    "baidu"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "提交链接不等于收录，判定规则不公开。",
+    "部分功能与备案主体、站点验证状态强绑定。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://ziyuan.baidu.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "baidu-search-console",
+  "name": "百度搜索资源平台",
+  "category": "growth-seo",
+  "subcategory": "search-console",
+  "oneLiner": "百度官方索引与抓取诊断 · 站点验证与链接提交 · 中文站必接",
+  "officialUrl": "https://ziyuan.baidu.com",
+  "descriptionMd": "百度搜索资源平台是百度官方的站长工具：站点验证、Sitemap 与链接主动推送、抓取诊断、索引量与搜索关键词展现，是中文站点与百度搜索之间的官方通道。\n\n面向国内用户、内容以中文为主并希望被百度收录时必接；面向海外市场的站点主看 Google Search Console，两边的指标与判定规则不通用。\n\n多数功能要求站点完成验证、部分权益与备案主体挂钩；收录判定不透明，提交成功不等于会被收录。\n",
+  "vendorId": "baidu"
+}

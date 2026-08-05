@@ -1,0 +1,11 @@
+{
+  "id": "e-kuzu-alt-neo4j",
+  "from": "kuzu",
+  "to": "neo4j",
+  "type": "alternative_to",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "嵌入式进程内、单文件落盘，适合本地分析；不提供集群与多写并发"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-maxio-alt-chargebee",
+  "from": "maxio",
+  "to": "chargebee",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "B2B 财务口径优先 vs 通用订阅能力优先"
+}

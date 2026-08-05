@@ -1,0 +1,11 @@
+{
+  "id": "e-lago-oss-orb",
+  "from": "lago",
+  "to": "orb",
+  "type": "open_source_alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "可自托管的用量计费内核"
+}

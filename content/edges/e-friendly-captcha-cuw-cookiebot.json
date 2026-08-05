@@ -1,0 +1,11 @@
+{
+  "id": "e-friendly-captcha-cuw-cookiebot",
+  "from": "friendly-captcha",
+  "to": "cookiebot",
+  "type": "commonly_used_with",
+  "weight": 0.4,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "欧盟站点常见搭配：无 Cookie 的人机验证 + 同意管理，减少同意前的追踪面"
+}

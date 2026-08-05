@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "memory",
+    "profile",
+    "agent",
+    "open-source"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "画像字段设计是主要工作量，抽取不准会长期误导下游",
+    "官网主站已下线，只剩文档与仓库，商业化前景不明"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/memodb-io/memobase",
+    "https://docs.memobase.io/introduction"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "memobase",
+  "name": "Memobase",
+  "category": "ai-memory",
+  "subcategory": "user-profile",
+  "oneLiner": "以用户画像为中心的记忆 · 结构化档案；官网已下线",
+  "officialUrl": "https://docs.memobase.io/introduction",
+  "descriptionMd": "Memobase 侧重把对话沉淀成结构化的用户画像，用可读的档案字段而非纯向量记录偏好与状态，便于在提示里直接引用与人工核对，服务端可自托管。\n\n做面向个人用户的长期产品、需要一份「这个用户是谁」的可解释画像而非黑盒向量时评估，自托管一份即可跑通。\n\n画像字段设计是主要工作量，抽取不准会长期误导下游生成；官网主站已下线、只剩文档与开源仓库，长期依赖前先看提交活跃度。\n",
+  "githubUrl": "https://github.com/memodb-io/memobase",
+  "docsUrl": "https://docs.memobase.io"
+}

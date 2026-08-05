@@ -1,0 +1,11 @@
+{
+  "id": "e-deel-alt-remote-com",
+  "from": "deel",
+  "to": "remote-com",
+  "type": "alternative_to",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同为 EOR 头部：Deel 覆盖广、自助流程快；Remote 强调自有实体、合规链条不层层转包"
+}

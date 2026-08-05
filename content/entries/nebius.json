@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "gpu",
+    "cloud",
+    "europe",
+    "training"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "亚太区域延迟与可用区选择有限；合同与配额审批流程偏企业化，起步节奏慢于零售平台。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://nebius.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "nebius",
+  "name": "Nebius",
+  "category": "ai-gpu-cloud",
+  "subcategory": "gpu-cloud",
+  "oneLiner": "欧洲 AI 云 · 自建数据中心整机柜交付 · 偏长周期训练任务",
+  "officialUrl": "https://nebius.com",
+  "descriptionMd": "Nebius 在欧洲自建数据中心提供 AI 专用云，围绕 GPU 集群配套存储、编排与托管服务，面向需要在欧盟境内完成训练与数据落地的客户。\n\n有数据驻留在欧洲的合规要求、或想在北美供给紧张时找替代产能时评估；小规模零散用卡不是它的主场。\n\n亚太区域延迟与可用区选择有限；合同与配额审批流程偏企业化，起步节奏慢于零售平台。\n",
+  "vendorId": "nebius-inc"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-graphite-cuw-coderabbit",
+  "from": "graphite",
+  "to": "coderabbit",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "堆叠 PR 管流程，AI 评审补意见；两者关注点不重叠"
+}

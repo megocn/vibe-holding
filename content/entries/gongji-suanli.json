@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "gpu",
+    "cloud",
+    "domestic",
+    "inference"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "资源池由多方拼接，稳定性与可用区不如自建机房；长期作业需评估回收策略并做好检查点。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.gongjiyun.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "gongji-suanli",
+  "name": "共绩算力",
+  "category": "ai-gpu-cloud",
+  "subcategory": "domestic-gpu",
+  "oneLiner": "国内弹性算力平台 · 聚合闲时资源压价 · 容器与推理托管并行",
+  "officialUrl": "https://www.gongjiyun.com",
+  "descriptionMd": "共绩算力把闲置与错峰的 GPU 资源聚合起来对外出租，支持容器化部署与模型推理托管，价格策略主打错峰低价，是国内这一层里较活跃的新玩家。\n\n国内团队做可中断的批量推理、临时训练或成本敏感的实验时值得比价；关键在线业务仍建议放在大厂云上。\n\n资源池由多方拼接，稳定性与可用区不如自建机房；长期作业需评估回收策略并做好检查点。\n",
+  "vendorId": "gongji-tech"
+}

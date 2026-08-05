@@ -1,0 +1,11 @@
+{
+  "id": "e-customer-io-with-posthog",
+  "from": "customer-io",
+  "to": "posthog",
+  "type": "commonly_used_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "产品分析定义人群与留存指标 → 生命周期平台执行触达"
+}

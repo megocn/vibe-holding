@@ -1,0 +1,11 @@
+{
+  "id": "e-multiplier-alt-deel",
+  "from": "multiplier",
+  "to": "deel",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Multiplier 亚太与新兴市场为主、价格敏感；Deel 覆盖更广、生态与集成更多"
+}

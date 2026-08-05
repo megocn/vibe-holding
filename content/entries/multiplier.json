@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD",
+    "notes": "按人月计费，以官网报价为准"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "eor",
+    "global-hiring",
+    "payroll",
+    "apac"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "部分国家依赖本地合作伙伴而非自有实体",
+    "规模与品牌不及头部，SLA 与数据处理方需写进合同"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.usemultiplier.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "multiplier",
+  "name": "Multiplier",
+  "category": "global-hire",
+  "subcategory": "eor",
+  "oneLiner": "亚太覆盖为主的新一代 EOR · 开通快、界面轻 · 价格敏感型候选",
+  "officialUrl": "https://www.usemultiplier.com",
+  "descriptionMd": "Multiplier 提供 EOR、承包商管理与全球薪资，主打亚太与新兴市场覆盖和快速开通，界面轻、上手门槛低，是新一代 EOR 里价格敏感型团队的常见候选。\n\n预算有限、招人重心在亚太或新兴市场、希望短时间内完成一名员工合规入职时纳入横向比较；欧美复杂福利与集团级架构另看老牌方案。\n\n品牌与规模不及头部，个别国家依赖本地合作伙伴而非自有实体；SLA、数据处理方与终止条款要在合同里写清。\n",
+  "vendorId": "multiplier-inc"
+}

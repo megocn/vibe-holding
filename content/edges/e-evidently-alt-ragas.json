@@ -1,0 +1,11 @@
+{
+  "id": "e-evidently-alt-ragas",
+  "from": "evidently",
+  "to": "ragas",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "从 ML 监控延伸 vs RAG 原生指标"
+}

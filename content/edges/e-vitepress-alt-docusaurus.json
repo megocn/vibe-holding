@@ -1,0 +1,11 @@
+{
+  "id": "e-vitepress-alt-docusaurus",
+  "from": "vitepress",
+  "to": "docusaurus",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "VitePress 启动快、主题克制；Docusaurus 内建版本化与多语，适合长期维护的大站"
+}

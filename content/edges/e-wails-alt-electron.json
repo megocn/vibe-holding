@@ -1,0 +1,11 @@
+{
+  "id": "e-wails-alt-electron",
+  "from": "wails",
+  "to": "electron",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "系统 WebView 换取小体积 vs 自带 Chromium 换取渲染一致性"
+}

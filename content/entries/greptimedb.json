@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "timeseries",
+    "cloud-native",
+    "domestic",
+    "open-source"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "项目演进快，接口与部署形态可能变动",
+    "大规模生产案例较少，需自行压测"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://greptime.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "both",
+  "id": "greptimedb",
+  "name": "GreptimeDB",
+  "category": "db-timeseries",
+  "subcategory": "timeseries-db",
+  "oneLiner": "Rust 云原生时序库 · 指标日志事件同栈 · 对象存储存算分离",
+  "officialUrl": "https://greptime.com",
+  "descriptionMd": "GreptimeDB 是 Rust 实现的开源云原生时序数据库，走存算分离路线把数据放在对象存储上，试图用同一套 SQL 与指标查询接口容纳指标、日志和事件，另提供托管云服务。\n\n云原生环境要低成本长期留存时序数据，并希望少维护一套日志系统时评估。\n\n项目仍在快速演进，接口与部署形态可能变化；大规模生产案例少于老牌时序库，上线前需按自身负载压测。\n",
+  "vendorId": "greptime-inc"
+}

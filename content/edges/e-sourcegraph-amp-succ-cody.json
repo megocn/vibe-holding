@@ -1,0 +1,11 @@
+{
+  "id": "e-sourcegraph-amp-succ-cody",
+  "from": "sourcegraph-amp",
+  "to": "cody",
+  "type": "succeeds",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Amp 接棒 Sourcegraph 的 AI 主线，Cody 收敛到企业上下文档"
+}

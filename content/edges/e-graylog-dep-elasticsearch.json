@@ -1,0 +1,11 @@
+{
+  "id": "e-graylog-dep-elasticsearch",
+  "from": "graylog",
+  "to": "elasticsearch",
+  "type": "depends_on",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Graylog 的检索层依赖 Elasticsearch / OpenSearch，存储运维成本随之而来"
+}

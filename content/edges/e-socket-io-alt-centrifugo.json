@@ -1,0 +1,11 @@
+{
+  "id": "e-socket-io-alt-centrifugo",
+  "from": "socket-io",
+  "to": "centrifugo",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "嵌入 Node 应用的库 vs 语言无关的独立服务器，后者更适合非 Node 后端"
+}

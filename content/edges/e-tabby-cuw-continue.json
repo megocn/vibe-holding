@@ -1,0 +1,11 @@
+{
+  "id": "e-tabby-cuw-continue",
+  "from": "tabby",
+  "to": "continue",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "自托管补全后端配开源插件前端，凑一套内网可用组合"
+}

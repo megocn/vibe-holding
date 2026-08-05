@@ -1,0 +1,11 @@
+{
+  "id": "e-rippling-alt-deel",
+  "from": "rippling",
+  "to": "deel",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Rippling 是 HR+IT+财务统一中台，全球雇佣只是模块；Deel 是 EOR 优先的专用平台"
+}

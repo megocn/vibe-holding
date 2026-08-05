@@ -1,0 +1,11 @@
+{
+  "id": "e-dbt-int-postgresql",
+  "from": "dbt",
+  "to": "postgresql",
+  "type": "integrates_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "通过适配器把关系库当轻量数仓用；数据量上来后仍需迁往列存仓库"
+}

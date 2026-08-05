@@ -1,0 +1,11 @@
+{
+  "id": "e-runpod-alt-vast-ai",
+  "from": "runpod",
+  "to": "vast-ai",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "平台自营与社区节点分档、体验统一 vs 纯竞价市集、更便宜但需自行筛机器"
+}

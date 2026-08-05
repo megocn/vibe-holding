@@ -1,0 +1,11 @@
+{
+  "id": "e-statsig-int-nextjs",
+  "from": "statsig",
+  "to": "nextjs",
+  "type": "integrates_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "前端/边缘侧开关求值，配合 Next.js 渲染分流做灰度"
+}

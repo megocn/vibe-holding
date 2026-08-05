@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cms",
+    "git-based",
+    "open-source",
+    "astro"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "项目较新，生态与第三方字段类型少于老牌方案。",
+    "面向中小内容量，重协作场景仍需托管型 CMS。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://keystatic.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "keystatic",
+  "name": "Keystatic",
+  "category": "collab-cms",
+  "subcategory": "git-based-cms",
+  "oneLiner": "内容写回仓库 · Astro/Next 内嵌后台 · 本地模式可离线",
+  "officialUrl": "https://keystatic.com",
+  "descriptionMd": "Keystatic 由 Thinkmill 开源，内容以 Markdoc/MDX/JSON 存在仓库中，后台可作为路由内嵌进 Astro、Next.js 等应用，本地模式直接读写工作区文件。\n\n小型内容站想要轻量后台、又不愿引入托管服务与数据库时评估；与 Decap、TinaCMS 属同层的 Git 方案。\n\n生态与插件数量少于老牌方案；内容体量与协作规模上去后仍需转向托管型 CMS。\n",
+  "vendorId": "thinkmill",
+  "githubUrl": "https://github.com/Thinkmill/keystatic",
+  "docsUrl": "https://keystatic.com/docs"
+}

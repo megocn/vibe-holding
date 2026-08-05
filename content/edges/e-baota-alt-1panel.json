@@ -1,0 +1,11 @@
+{
+  "id": "e-baota-alt-1panel",
+  "from": "baota",
+  "to": "1panel",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "传统 LNMP 心智 vs 容器优先；同为国内主力面板"
+}

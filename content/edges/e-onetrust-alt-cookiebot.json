@@ -1,0 +1,11 @@
+{
+  "id": "e-onetrust-alt-cookiebot",
+  "from": "onetrust",
+  "to": "cookiebot",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "OneTrust 是覆盖数据地图与数据主体请求的企业治理套件；Cookiebot 只做 Cookie 同意这一段"
+}

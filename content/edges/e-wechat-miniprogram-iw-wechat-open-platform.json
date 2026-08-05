@@ -1,0 +1,11 @@
+{
+  "id": "e-wechat-miniprogram-iw-wechat-open-platform",
+  "from": "wechat-miniprogram",
+  "to": "wechat-open-platform",
+  "type": "integrates_with",
+  "weight": 0.8,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "小程序绑定同一开放平台账号后可打通 UnionID 与多应用用户体系；日常发布仍在小程序后台"
+}

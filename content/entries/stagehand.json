@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "browser",
+    "agent",
+    "open-source"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "自然语言步骤的结果不稳定，需要缓存动作或补断言；TypeScript 生态最完整，其他语言支持相对滞后。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/browserbase/stagehand"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "stagehand",
+  "name": "Stagehand",
+  "category": "ai-browser",
+  "subcategory": "agent-browser-oss",
+  "oneLiner": "在 Playwright 之上加自然语言动作 · AI 与代码混写 · TS 优先",
+  "officialUrl": "https://github.com/browserbase/stagehand",
+  "descriptionMd": "Stagehand 由 Browserbase 开源，不另起炉灶而是包在 Playwright 外层：确定的步骤照常写代码，不确定的一步用一句自然语言描述，两种写法可在同一脚本里交替。\n\n适合已有 Playwright 资产、只想让少数易变环节由模型兜底的团队；全流程都交给模型自由发挥可看 Browser Use。\n\n自然语言步骤的结果不稳定，需要缓存动作或补断言；TypeScript 生态最完整，其他语言支持相对滞后。\n",
+  "vendorId": "browserbase-inc",
+  "githubUrl": "https://github.com/browserbase/stagehand"
+}

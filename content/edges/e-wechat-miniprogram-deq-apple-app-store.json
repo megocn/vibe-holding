@@ -1,0 +1,11 @@
+{
+  "id": "e-wechat-miniprogram-deq-apple-app-store",
+  "from": "wechat-miniprogram",
+  "to": "apple-app-store",
+  "type": "domestic_equivalent_of",
+  "weight": 0.45,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "小程序是免安装分发、寄生于超级 App，与应用商店的安装型分发不是一回事，仅作分发渠道对照"
+}

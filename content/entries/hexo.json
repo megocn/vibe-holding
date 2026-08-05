@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "static-site",
+    "blog",
+    "nodejs",
+    "markdown"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "面向博客，版本化文档能力弱",
+    "老主题与插件更新滞后，Node 升级易踩坑"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://hexo.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "both",
+  "id": "hexo",
+  "name": "Hexo",
+  "category": "fw-docs-site",
+  "subcategory": "static-site-generator",
+  "oneLiner": "Node 静态博客生成器 · 中文社区厚 · 主题插件多 · 偏博客而非文档",
+  "officialUrl": "https://hexo.io",
+  "descriptionMd": "Hexo 是基于 Node.js 的静态站生成器，以博客场景起家，命令行一键生成与部署，主题与插件数量庞大，在中文技术圈积累了很深的使用惯性。\n\n个人博客、技术周刊等以时间流为主的内容站，想沿用成熟中文教程与现成主题时选；产品文档更适合交给 Docusaurus 或 VitePress。\n\n定位偏博客，多版本文档与接口文档能力弱；不少老主题与插件久未更新，Node 大版本升级容易踩坑。\n",
+  "vendorId": "hexo-team",
+  "githubUrl": "https://github.com/hexojs/hexo"
+}

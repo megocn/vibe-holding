@@ -1,0 +1,11 @@
+{
+  "id": "e-intercom-int-slack",
+  "from": "intercom",
+  "to": "slack",
+  "type": "integrates_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "会话与提醒同步到频道，团队可在 Slack 内响应与协作"
+}

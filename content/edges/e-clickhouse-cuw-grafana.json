@@ -1,0 +1,11 @@
+{
+  "id": "e-clickhouse-cuw-grafana",
+  "from": "clickhouse",
+  "to": "grafana",
+  "type": "commonly_used_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "ClickHouse 作为 Grafana 数据源出大盘，适合埋点与业务指标而非纯 Prom 指标"
+}

@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "search",
+    "api",
+    "serp",
+    "scraping"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "单价高于轻量竞品，大批量查询成本明显；不同引擎的字段结构差异大，切换时要重写解析。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://serpapi.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "serpapi",
+  "name": "SerpApi",
+  "category": "ai-search-api",
+  "subcategory": "serp-api",
+  "oneLiner": "多引擎 SERP 结构化 · 谷歌/必应/地图/学术全覆盖 · 稳定性溢价",
+  "officialUrl": "https://serpapi.com",
+  "descriptionMd": "SerpApi 是老牌搜索结果抓取服务，覆盖谷歌网页、图片、地图、购物、学术以及必应等多个引擎，字段解析细致且长期维护，文档与法务说明相对完备。\n\n需要地图、商品、学术等垂类 SERP，或企业对供应商合规资质有要求时选它；只要普通网页链接可用更便宜的方案。\n\n单价高于轻量竞品，大批量查询成本明显；不同引擎的字段结构差异大，切换时要重写解析。\n",
+  "vendorId": "serpapi-inc"
+}

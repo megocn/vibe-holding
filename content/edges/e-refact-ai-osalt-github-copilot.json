@@ -1,0 +1,11 @@
+{
+  "id": "e-refact-ai-osalt-github-copilot",
+  "from": "refact-ai",
+  "to": "github-copilot",
+  "type": "open_source_alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "开源插件把补全/聊天/Agent 收在一起，服务端可自托管"
+}

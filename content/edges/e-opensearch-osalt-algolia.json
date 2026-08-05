@@ -1,0 +1,11 @@
+{
+  "id": "e-opensearch-osalt-algolia",
+  "from": "opensearch",
+  "to": "algolia",
+  "type": "open_source_alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "自托管开源检索集群 vs 托管搜索 SaaS：省订阅费但换来集群运维"
+}

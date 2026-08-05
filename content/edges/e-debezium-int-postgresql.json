@@ -1,0 +1,11 @@
+{
+  "id": "e-debezium-int-postgresql",
+  "from": "debezium",
+  "to": "postgresql",
+  "type": "integrates_with",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "基于逻辑复制读取变更；复制槽未消费会累积 WAL，磁盘水位需单独告警"
+}

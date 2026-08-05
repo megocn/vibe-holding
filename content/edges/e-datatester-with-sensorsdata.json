@@ -1,0 +1,11 @@
+{
+  "id": "e-datatester-with-sensorsdata",
+  "from": "datatester",
+  "to": "sensorsdata",
+  "type": "commonly_used_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "实验分流与读数 + 行为分析埋点；指标口径需先对齐再看实验结论"
+}

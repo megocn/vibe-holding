@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD",
+    "notes": "定价不公开，需商务沟通"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "billing",
+    "subscription",
+    "retention",
+    "saas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "面向中大型客户，小团队起步成本偏高",
+    "挽留策略依赖数据积累，短期效果有限"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://recurly.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "recurly",
+  "name": "Recurly",
+  "category": "pay-billing",
+  "subcategory": "subscription",
+  "oneLiner": "订阅计费与挽留 · 催收能力见长；偏中大型客户",
+  "officialUrl": "https://recurly.com",
+  "descriptionMd": "Recurly 专做订阅计费，除常规的价目与发票外，把重心放在续费失败的智能重试与流失挽留上，并提供订阅指标看板给增长和财务共用。\n\n订阅是主要收入形态、被动流失（扣款失败）已经吃掉可观营收，需要专门的催收与挽留机制时评估。\n\n面向中大型客户，小团队起步成本偏高；挽留策略的效果依赖历史数据积累，接入初期不会立刻见效。\n"
+}

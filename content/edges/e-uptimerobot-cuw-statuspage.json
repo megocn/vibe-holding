@@ -1,0 +1,11 @@
+{
+  "id": "e-uptimerobot-cuw-statuspage",
+  "from": "uptimerobot",
+  "to": "statuspage",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "拨测负责发现，状态页负责对外沟通，两者分工不重叠"
+}

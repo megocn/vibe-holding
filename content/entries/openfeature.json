@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "feature-flag",
+    "standard",
+    "open-source",
+    "cncf"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "只是规范与 SDK，仍需搭配具体 Provider 才能用。",
+    "各家 Provider 特性覆盖不一致，换后端未必零成本。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://openfeature.dev"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "openfeature",
+  "name": "OpenFeature",
+  "category": "growth-experiment",
+  "subcategory": "flag-standard",
+  "oneLiner": "CNCF 开关开放标准 · 统一 SDK 接口换后端 · 自身不提供托管",
+  "officialUrl": "https://openfeature.dev",
+  "descriptionMd": "OpenFeature 是 CNCF 旗下的功能开关开放标准，定义统一的 SDK 接口与 Provider 机制，让应用代码与具体开关厂商解耦，后端可以在不同开关服务之间替换而不改调用处。\n\n担心开关厂商锁定，或多个团队各用不同后端、需要统一接入口径时，先按它写好封装层再去选具体供应商。\n\n它是规范与 SDK，不提供标志存储与管理界面，仍需搭配一个 Provider；各家 Provider 的成熟度与特性覆盖并不一致。\n",
+  "vendorId": "cncf-foundation",
+  "githubUrl": "https://github.com/open-feature/spec"
+}

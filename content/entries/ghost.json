@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "notes": "自托管免费；Ghost(Pro) 官方托管按订阅计费"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": true,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cms",
+    "publishing",
+    "open-source",
+    "newsletter"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "无插件市场，复杂功能需改主题或自建前端。",
+    "自托管需自理版本升级与邮件送达率。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://ghost.org"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "ghost",
+  "name": "Ghost",
+  "category": "collab-cms",
+  "subcategory": "traditional-cms",
+  "oneLiner": "内容订阅与邮件通讯一体 · Node 开源 · 托管自托管皆可",
+  "officialUrl": "https://ghost.org",
+  "descriptionMd": "Ghost 是面向出版与订阅的开源 Node 内容平台：写作后台克制，内置会员、付费墙与邮件通讯，也可关掉自带前台只作内容接口使用。\n\n个人或小团队做付费专栏、品牌博客与邮件通讯，希望内容与订阅收费在一套系统里闭环时评估。\n\n扩展性远不如插件生态型 CMS，复杂业务页面需自写主题或前端；自托管要自行处理升级与邮件送达。\n",
+  "vendorId": "ghost-foundation",
+  "githubUrl": "https://github.com/TryGhost/Ghost",
+  "docsUrl": "https://ghost.org/docs/"
+}

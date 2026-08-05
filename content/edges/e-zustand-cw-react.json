@@ -1,0 +1,11 @@
+{
+  "id": "e-zustand-cw-react",
+  "from": "zustand",
+  "to": "react",
+  "type": "commonly_used_with",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "以 hook 加选择器订阅，无需 Provider 包裹根组件"
+}

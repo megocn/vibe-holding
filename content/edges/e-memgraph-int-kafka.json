@@ -1,0 +1,11 @@
+{
+  "id": "e-memgraph-int-kafka",
+  "from": "memgraph",
+  "to": "kafka",
+  "type": "integrates_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "从消息流持续摄入并在图上触发计算，是其实时定位的关键一环"
+}

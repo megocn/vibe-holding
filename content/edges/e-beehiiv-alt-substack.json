@@ -1,0 +1,11 @@
+{
+  "id": "e-beehiiv-alt-substack",
+  "from": "beehiiv",
+  "to": "substack",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "自有站点与广告/推荐增长工具箱 vs 平台托管、按订阅收入抽成"
+}

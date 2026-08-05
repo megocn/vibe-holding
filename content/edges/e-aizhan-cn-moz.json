@@ -1,0 +1,11 @@
+{
+  "id": "e-aizhan-cn-moz",
+  "from": "aizhan",
+  "to": "moz",
+  "type": "domestic_equivalent_of",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "中文站长查询与自定义权重口径，对应 Moz 的站点权威度心智"
+}

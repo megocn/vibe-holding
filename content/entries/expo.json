@@ -24,7 +24,7 @@
   "region": "overseas",
   "id": "expo",
   "name": "Expo",
-  "category": "fw-fullstack",
+  "category": "fw-cross-platform",
   "subcategory": "mobile-toolchain",
   "oneLiner": "RN 托管工具链 · EAS Build/OTA · 上架与更新大幅简化",
   "officialUrl": "https://expo.dev",

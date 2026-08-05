@@ -1,0 +1,11 @@
+{
+  "id": "e-graphiti-part-of-zep",
+  "from": "graphiti",
+  "to": "zep",
+  "type": "part_of",
+  "weight": 0.9,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Zep 开源出来的时序图谱内核"
+}

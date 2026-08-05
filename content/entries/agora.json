@@ -1,0 +1,44 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY",
+    "notes": "按音视频通话分钟数计费，分辨率越高单价越高"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN",
+      "global"
+    ]
+  },
+  "tags": [
+    "realtime",
+    "rtc",
+    "webrtc",
+    "video"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "按分钟计费，高分辨率与大并发会显著放大账单",
+    "国内与海外属不同区域，账号与合规需分别规划"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.shengwang.cn",
+    "https://docs.agora.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "both",
+  "id": "agora",
+  "name": "声网 Agora",
+  "category": "msg-realtime",
+  "subcategory": "rtc",
+  "oneLiner": "自建实时网络的音视频云 · 弱网表现稳 · 国内外双区可用",
+  "officialUrl": "https://www.shengwang.cn",
+  "docsUrl": "https://docs.agora.io",
+  "descriptionMd": "声网 Agora 是以软件定义实时网络为底座的音视频云，提供互动直播、语音通话、实时消息与信令 SDK，覆盖移动端、Web 与小程序，在弱网抗性与全球加速上投入较多。\n\n出海产品或国内互动场景需要成熟的 RTC 能力、且希望一套 SDK 兼顾双区时评估；愿意自托管则看 LiveKit，纯消息通道用 Ably 或 Pusher。\n\n按分钟数计费，音视频分辨率与并发规模会显著放大账单；国内与海外为不同区域，账号、合规与接入域名需分别规划。\n",
+  "vendorId": "agora-inc"
+}

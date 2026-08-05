@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "free",
+    "currency": "CNY",
+    "notes": "开发免费；主体认证与部分能力的费用按官方最新政策为准"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": true,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "miniapp",
+    "wechat",
+    "domestic",
+    "distribution"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "主体资质与类目审核门槛高，个人主体可用能力受限",
+    "小程序需完成备案，未备案无法正式上线",
+    "平台规则与接口调整频繁，营销玩法边界随时收紧"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://mp.weixin.qq.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "wechat-miniprogram",
+  "name": "微信小程序",
+  "category": "dist-miniapp",
+  "subcategory": "wechat",
+  "oneLiner": "社交关系链与线下扫码入口 · 国内最大免安装生态 · 主体资质与类目审核严",
+  "officialUrl": "https://mp.weixin.qq.com",
+  "descriptionMd": "微信小程序是国内最大的免安装轻应用生态：依托社交关系链、公众号、搜一搜与线下扫码等入口分发，用平台自有的语法与组件体系开发，能力边界由开放接口决定。\n\n产品要触达微信内的社交分享、线下扫码或公众号沉淀下来的流量时，它几乎是国内默认的第一站；需要长期驻留、后台任务与系统级权限，则仍要做原生 App。\n\n注册需要主体资质并通过类目审核，小程序还需完成备案，个人主体可用能力有限；平台规则与接口调整频繁，诱导分享类玩法容易触发处罚。\n",
+  "vendorId": "tencent"
+}

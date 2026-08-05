@@ -1,0 +1,11 @@
+{
+  "id": "e-centrifugo-osalt-pusher",
+  "from": "centrifugo",
+  "to": "pusher",
+  "type": "open_source_alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "自托管实时消息服务器，省下按连接计费，代价是连接层运维"
+}

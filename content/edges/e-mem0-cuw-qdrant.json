@@ -1,0 +1,11 @@
+{
+  "id": "e-mem0-cuw-qdrant",
+  "from": "mem0",
+  "to": "qdrant",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "记忆层通常仍要落到一个向量库上"
+}

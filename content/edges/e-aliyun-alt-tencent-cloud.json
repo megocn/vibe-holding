@@ -1,0 +1,11 @@
+{
+  "id": "e-aliyun-alt-tencent-cloud",
+  "from": "aliyun",
+  "to": "tencent-cloud",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "产品面最全 vs 微信/音视频链路顺"
+}

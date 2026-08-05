@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "free",
+    "currency": "CNY",
+    "notes": "开发免费；资质认证与交易相关费用按官方最新政策为准"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": true,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "miniapp",
+    "alipay",
+    "domestic",
+    "payment"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "多数类目要求企业主体与行业资质，个人开发者路径窄",
+    "金融、医疗等强监管类目审核严格且周期长"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://open.alipay.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "alipay-miniprogram",
+  "name": "支付宝小程序",
+  "category": "dist-miniapp",
+  "subcategory": "alipay",
+  "oneLiner": "交易与生活服务语境 · 支付/信用/政务开放能力强 · 企业主体门槛高",
+  "officialUrl": "https://open.alipay.com",
+  "descriptionMd": "支付宝小程序生长在交易与生活服务的语境里：用户往往带着支付、信用、政务或本地生活的明确意图进入，平台开放能力也偏交易、营销与信用等金融基建方向。\n\n业务与支付、会员卡券、政务民生或线下商户经营强相关时优先考虑；纯内容型、靠社交分享裂变的产品在这里拿不到微信那样的关系链分发。\n\n多数类目要求企业主体与行业资质，金融、医疗等强监管类目审核更严；备案与平台经营规则会持续调整，费用形态以官方最新政策为准。\n",
+  "vendorId": "ant-group"
+}

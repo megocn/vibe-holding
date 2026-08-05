@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "docs",
+    "vue",
+    "vite",
+    "static-site"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "版本化与国际化需自行按目录约定拼装",
+    "默认主题定制空间有限"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://vitepress.dev"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "vitepress",
+  "name": "VitePress",
+  "category": "fw-docs-site",
+  "subcategory": "docs-generator",
+  "oneLiner": "Vue 团队文档站 · Vite 驱动启动极快 · 主题克制 · 版本化需自拼",
+  "officialUrl": "https://vitepress.dev",
+  "descriptionMd": "VitePress 由 Vue 团队维护，以 Vite 为构建内核、Vue 单文件组件为主题层，Markdown 中可直接书写组件，开发启动与热更新几乎无等待。\n\n中小型文档、组件库文档，或 Vue 生态项目要快速起一个干净的站点时最合适。\n\n内建的版本化与多语能力弱于 Docusaurus，需按目录约定自行组织；默认主题定制空间有限，重设计要自写主题。\n",
+  "vendorId": "vuejs-team",
+  "githubUrl": "https://github.com/vuejs/vitepress"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-neo4j-cuw-postgresql",
+  "from": "neo4j",
+  "to": "postgresql",
+  "type": "commonly_used_with",
+  "weight": 0.45,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "业务主库仍在关系库，关系遍历旁路到图库；别把图库当唯一真相源，同步链路要有兜底"
+}

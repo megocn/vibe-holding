@@ -1,0 +1,11 @@
+{
+  "id": "e-bocha-search-deq-tavily",
+  "from": "bocha-search",
+  "to": "tavily",
+  "type": "domestic_equivalent_of",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国内联网检索 API，中文覆盖更好、人民币计费，免去跨境支付与网络问题"
+}

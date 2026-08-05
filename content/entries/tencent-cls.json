@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY",
+    "notes": "按写入流量、索引与存储时长计费"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "logging",
+    "cloud",
+    "domestic",
+    "tencent"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "索引与留存策略直接决定账单，需按日志级别分流",
+    "控制台与开放接口迭代较快，自动化脚本需跟随回归"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://cloud.tencent.com/product/cls",
+    "https://cloud.tencent.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "tencent-cls",
+  "name": "腾讯云日志服务 CLS",
+  "category": "obs-logs",
+  "subcategory": "cloud-logs",
+  "oneLiner": "腾讯云托管日志 · 检索分析与投递一体 · 与云内告警同栈",
+  "officialUrl": "https://cloud.tencent.com/product/cls",
+  "descriptionMd": "腾讯云日志服务 CLS 提供日志采集、结构化存储、检索分析、告警与投递能力，支持 LogListener 与主流开源采集端接入，常与腾讯云上的容器、网关、数据库日志一起使用。\n\n业务主体在腾讯云、希望日志与云上告警与对象存储链路打通时优先；国内跨云或要自控存储成本，再看自托管管道加对象存储的组合。\n\n索引与留存策略直接决定账单，接入前先按日志级别分流；控制台能力与开放接口更新较快，自动化脚本要跟随版本回归。\n",
+  "vendorId": "tencent"
+}

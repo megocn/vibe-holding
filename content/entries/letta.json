@@ -24,7 +24,7 @@
   "region": "overseas",
   "id": "letta",
   "name": "Letta",
-  "category": "ai-agent-fw",
+  "category": "ai-memory",
   "subcategory": "stateful-agent",
   "oneLiner": "长期 memory 管理 · self-editing memory · MemGPT 系 research agent",
   "officialUrl": "https://www.letta.com",

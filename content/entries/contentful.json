@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD",
+    "notes": "免费档有条目与用户上限；企业档按空间/用量报价"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cms",
+    "headless",
+    "saas",
+    "api"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "按条目/语言/调用计费，内容规模膨胀后成本不易预测。",
+    "免费与低档位有较硬的条目和角色上限，团队扩张需提前测算。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.contentful.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "contentful",
+  "name": "Contentful",
+  "category": "collab-cms",
+  "subcategory": "headless-cms",
+  "oneLiner": "API-first 老牌 Headless · 空间与环境分层严 · 企业治理向",
+  "officialUrl": "https://www.contentful.com",
+  "descriptionMd": "Contentful 是 API 优先的托管型 Headless CMS：内容类型与条目走空间与环境分层，配交付/管理两套接口、Webhook 与多语言，编辑后台与前端完全解耦。\n\n多品牌多站点共用一份内容、需要发布流程与权限审计、且愿意把内容托管交给厂商时评估；前端多与 Next.js、Nuxt 等框架同栈。\n\n按内容条目、语言与 API 调用计费，规模上来后成本抬升快；导出迁移可行但建模习惯有厂商烙印。\n",
+  "vendorId": "contentful-inc",
+  "docsUrl": "https://www.contentful.com/developers/docs/"
+}

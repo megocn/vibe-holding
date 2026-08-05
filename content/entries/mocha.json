@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "test",
+    "nodejs",
+    "javascript",
+    "open-source"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "开箱能力少，需要自行搭断言与覆盖率；ESM 与 TypeScript 配置比现代运行器繁琐，新项目起步成本偏高。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://mochajs.org"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "mocha",
+  "name": "Mocha",
+  "category": "oss-testing",
+  "subcategory": "unit-test",
+  "oneLiner": "老牌 Node 测试运行器 · 断言/桩件自选 · 组合而非全家桶",
+  "officialUrl": "https://mochajs.org",
+  "descriptionMd": "Mocha 只做测试运行与报告，断言（Chai）、桩件（Sinon）、覆盖率（c8/nyc）都由使用者自行拼装，是「组合式」而非全家桶式的 Node 测试框架。\n\n偏好自选组件、或维护历史 Node 服务时仍然合用；新前端项目一般直接选自带断言与 mock 的 Vitest 或 Jest。\n\n开箱能力少，需要自行搭断言与覆盖率；ESM 与 TypeScript 配置比现代运行器繁琐，新项目起步成本偏高。\n",
+  "githubUrl": "https://github.com/mochajs/mocha"
+}

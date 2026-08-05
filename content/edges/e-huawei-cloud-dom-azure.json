@@ -1,0 +1,11 @@
+{
+  "id": "e-huawei-cloud-dom-azure",
+  "from": "huawei-cloud",
+  "to": "azure",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "政企与合规采购路径的国内对应"
+}

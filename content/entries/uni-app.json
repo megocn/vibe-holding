@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "cross-platform",
+    "miniprogram",
+    "vue",
+    "domestic"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "工具链与云服务高度绑定 DCloud，部分能力付费",
+    "复杂原生能力需自写原生插件"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://uniapp.dcloud.net.cn"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "uni-app",
+  "name": "uni-app",
+  "category": "fw-cross-platform",
+  "subcategory": "miniprogram-cross",
+  "oneLiner": "DCloud 跨端 · Vue 语法一码多端 · 插件市场大 · 工具链绑定强",
+  "officialUrl": "https://uniapp.dcloud.net.cn",
+  "descriptionMd": "uni-app 是 DCloud 推出的跨端框架，用 Vue 语法一套代码发布到各家小程序、H5 与 iOS/Android 原生 App，配套 HBuilderX 工具、插件市场与云打包服务形成闭环。\n\n国内中小团队要低成本铺满小程序与 App、团队又熟悉 Vue 时优先；React 栈团队通常转向 Taro。\n\n生态与工具高度绑定 DCloud，云打包与部分插件为付费项；复杂原生能力仍需写原生插件，性能受运行时限制。\n",
+  "vendorId": "dcloud"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-stigg-cuw-stripe-billing",
+  "from": "stigg",
+  "to": "stripe-billing",
+  "type": "commonly_used_with",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "权益开关在上、收款出账在下"
+}

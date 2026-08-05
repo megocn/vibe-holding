@@ -1,0 +1,11 @@
+{
+  "id": "e-axolotl-alt-llama-factory",
+  "from": "axolotl",
+  "to": "llama-factory",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "YAML 配置面向工程复现 vs Web UI 与模板降低门槛、中文资料更多"
+}

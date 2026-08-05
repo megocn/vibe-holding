@@ -1,0 +1,11 @@
+{
+  "id": "e-riza-alt-e2b",
+  "from": "riza",
+  "to": "e2b",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "WASM 轻量执行 vs 完整环境沙箱"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-vanta-cuw-stripe-atlas",
+  "from": "vanta",
+  "to": "stripe-atlas",
+  "type": "commonly_used_with",
+  "weight": 0.45,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "出海路径：先用 Atlas 落地美国主体，再用合规自动化准备客户要的 SOC 2"
+}

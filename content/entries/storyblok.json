@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD",
+    "notes": "免费社区档；按席位与流量升档"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cms",
+    "headless",
+    "saas",
+    "visual-editor"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "可视化预览需前端接入桥接脚本，非纯后端接管。",
+    "Block 组件缺乏规范时会快速膨胀，后期治理成本高。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.storyblok.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "storyblok",
+  "name": "Storyblok",
+  "category": "collab-cms",
+  "subcategory": "headless-cms",
+  "oneLiner": "可视化编辑器 + 组件化 Block 建模 · 市场团队友好",
+  "officialUrl": "https://www.storyblok.com",
+  "descriptionMd": "Storyblok 是带可视化编辑器的 Headless CMS：页面由可复用 Block 组件拼装，编辑者在真实预览里点选修改，开发者仍通过接口取结构化内容。\n\n营销站点需要非技术同事自助改版、又不想退回传统整站 CMS 时评估；与 Nuxt、Next.js 等框架的预览桥接是常见落点。\n\n可视化预览要前端配合埋桥接代码，改造成本落在开发侧；组件粒度设计不当会让 Block 库迅速膨胀难维护。\n",
+  "vendorId": "storyblok-gmbh",
+  "docsUrl": "https://www.storyblok.com/docs"
+}

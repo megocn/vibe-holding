@@ -32,7 +32,7 @@
   "region": "overseas",
   "id": "spring-boot",
   "name": "Spring Boot",
-  "category": "fw-fullstack",
+  "category": "fw-backend",
   "subcategory": "java-backend",
   "oneLiner": "Java 企业后端标配 · auto-config/actuator · 生态庞大",
   "officialUrl": "https://spring.io/projects/spring-boot",

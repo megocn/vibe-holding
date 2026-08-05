@@ -1,0 +1,11 @@
+{
+  "id": "e-dokploy-alt-coolify",
+  "from": "dokploy",
+  "to": "coolify",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同为开源自托管 PaaS，Compose 原生 vs 功能面更全"
+}

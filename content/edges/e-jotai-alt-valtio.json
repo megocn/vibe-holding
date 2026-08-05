@@ -1,0 +1,11 @@
+{
+  "id": "e-jotai-alt-valtio",
+  "from": "jotai",
+  "to": "valtio",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同为 pmndrs 出品：Jotai 不可变原子、显式派生；Valtio 是 Proxy 可变式赋值，写法更命令式"
+}

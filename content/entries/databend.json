@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "olap",
+    "database",
+    "cloud-native",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "生态与工具链成熟度弱于老牌数仓",
+    "对象存储延迟影响交互式查询体验"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.databend.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "both",
+  "id": "databend",
+  "name": "Databend",
+  "category": "db-analytics",
+  "subcategory": "cloud-warehouse",
+  "oneLiner": "Rust 云原生数仓 · 存算分离跑对象存储 · Snowflake 式用法",
+  "officialUrl": "https://www.databend.com",
+  "descriptionMd": "Databend 是 Rust 实现的开源云原生数据仓库，存算分离、数据落在对象存储上、按需拉起计算，SQL 语义与使用方式明显向 Snowflake 靠拢，另有 Databend Cloud 托管形态。\n\n想要 Snowflake 式弹性、又希望开源自控并用对象存储压低长期留存成本时评估。\n\n周边工具链与生态成熟度不及老牌数仓；对象存储访问延迟直接决定小查询体验，交互式 BI 场景务必实测。\n",
+  "vendorId": "databend-labs"
+}

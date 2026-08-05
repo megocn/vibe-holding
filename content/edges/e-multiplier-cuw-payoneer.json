@@ -1,0 +1,11 @@
+{
+  "id": "e-multiplier-cuw-payoneer",
+  "from": "multiplier",
+  "to": "payoneer",
+  "type": "commonly_used_with",
+  "weight": 0.4,
+  "confidence": "inferred",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "亚太承包商侧常见的收款落地方式；雇佣合规与收款账户是两层，勿混为一谈"
+}

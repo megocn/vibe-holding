@@ -1,0 +1,11 @@
+{
+  "id": "e-neo4j-cuw-langchain",
+  "from": "neo4j",
+  "to": "langchain",
+  "type": "commonly_used_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "GraphRAG 常见组合：图库存实体关系，编排框架负责检索与提示拼装"
+}

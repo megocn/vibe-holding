@@ -32,7 +32,7 @@
   "region": "overseas",
   "id": "laravel",
   "name": "Laravel",
-  "category": "fw-fullstack",
+  "category": "fw-backend",
   "subcategory": "php-fullstack",
   "oneLiner": "现代 PHP 旗舰 · Eloquent/queue/auth · Livewire/Inertia",
   "officialUrl": "https://laravel.com",

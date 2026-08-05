@@ -1,0 +1,11 @@
+{
+  "id": "e-dagster-alt-apache-airflow",
+  "from": "dagster",
+  "to": "apache-airflow",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "以数据资产为中心 vs 以任务为中心；血缘与新鲜度内建，但集成广度不及 Airflow"
+}

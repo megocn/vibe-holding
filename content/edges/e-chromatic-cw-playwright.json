@@ -1,0 +1,11 @@
+{
+  "id": "e-chromatic-cw-playwright",
+  "from": "chromatic",
+  "to": "playwright",
+  "type": "commonly_used_with",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "组件层视觉快照 vs 跨页面流程断言，覆盖面互补而非二选一"
+}

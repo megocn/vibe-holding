@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "free",
+    "currency": "CNY",
+    "notes": "开发工具免费；开发者账号与上架政策以官方最新说明为准"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": true,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "harmonyos",
+    "miniapp",
+    "domestic",
+    "distribution"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "需额外投入鸿蒙 ArkTS 技术栈与独立发布流程",
+    "接口与规范随系统版本演进较快，需跟随升级",
+    "上架要求企业主体与类目资质"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://developer.huawei.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "harmonyos-atomic-service",
+  "name": "鸿蒙元服务",
+  "category": "dist-miniapp",
+  "subcategory": "harmonyos",
+  "oneLiner": "鸿蒙免安装轻形态 · 卡片与服务中心入口 · ArkTS 同栈 · 经 AGC 上架",
+  "officialUrl": "https://developer.huawei.com",
+  "descriptionMd": "元服务是 HarmonyOS 上的免安装轻量形态：以桌面卡片、服务中心与碰一碰等系统级入口触达用户，与鸿蒙应用共用 ArkTS 技术栈，经 AppGallery Connect 提交上架。\n\n已经在做鸿蒙原生应用、想用卡片和系统入口做轻量触达时顺带评估；纯 Android/iOS 团队接入意味着额外引入一套鸿蒙技术栈与发布流程。\n\n设备存量与生态仍在扩张期，投入产出需按目标用户盘算；上架要求企业主体与类目资质，接口规范随系统版本演进较快。\n",
+  "vendorId": "huawei"
+}

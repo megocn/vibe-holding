@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "newsletter",
+    "minimal",
+    "markdown",
+    "indie"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "自动化与分群能力有限，复杂旅程做不了。",
+    "小团队维护，支持响应与功能演进节奏偏慢。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://buttondown.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "buttondown",
+  "name": "Buttondown",
+  "category": "growth-lifecycle",
+  "subcategory": "newsletter",
+  "oneLiner": "极简通讯工具 · Markdown 写作与完整 API · 数据可随时导出",
+  "officialUrl": "https://buttondown.com",
+  "descriptionMd": "Buttondown 是由小团队维护的极简新闻通讯工具，用 Markdown 写作、界面克制，提供完整 API 与导入导出能力，刻意不堆砌营销功能。\n\n个人或小团队只想稳定地把文章发给订阅者，重视写作体验与数据可迁出，且不需要复杂自动化时评估。\n\n自动化、分群与团队协作能力有限；由小团队维护，选型时要接受相应的支持响应节奏与功能演进速度。\n",
+  "vendorId": "buttondown-inc"
+}

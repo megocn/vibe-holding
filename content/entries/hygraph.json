@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD",
+    "notes": "免费档有用量上限；按项目与用量升档"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cms",
+    "headless",
+    "graphql",
+    "saas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "以 GraphQL 为主路径，REST 心智的团队迁移成本更高。",
+    "内容联邦把外部接口的限流与故障引入内容交付链路。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://hygraph.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "hygraph",
+  "name": "Hygraph",
+  "category": "collab-cms",
+  "subcategory": "headless-cms",
+  "oneLiner": "GraphQL 原生 Headless · 可联邦聚合外部数据源",
+  "officialUrl": "https://hygraph.com",
+  "descriptionMd": "Hygraph（原 GraphCMS）以 GraphQL 为一等接口，内容建模与查询都围绕 Schema 展开，并提供把外部服务数据联邦进同一张查询图的能力。\n\n前端已全面 GraphQL、希望内容与商品/用户等外部数据一次查询取回时评估；纯 REST 团队收益有限。\n\nGraphQL 是主路径，团队缺少相关经验时上手更慢；联邦聚合会把外部服务的可用性与限流一并带进内容接口。\n",
+  "vendorId": "hygraph-gmbh",
+  "docsUrl": "https://hygraph.com/docs"
+}

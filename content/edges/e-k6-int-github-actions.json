@@ -1,0 +1,11 @@
+{
+  "id": "e-k6-int-github-actions",
+  "from": "k6",
+  "to": "github-actions",
+  "type": "integrates_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "脚本内 threshold 未达标即非零退出，可当性能门禁卡流水线"
+}

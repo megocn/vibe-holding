@@ -1,0 +1,11 @@
+{
+  "id": "e-nebulagraph-dom-neo4j",
+  "from": "nebulagraph",
+  "to": "neo4j",
+  "type": "domestic_equivalent_of",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国产分布式图库对标 Neo4j：存算分离横向扩容、国内支持，代价是 nGQL 与 Cypher 不等价"
+}

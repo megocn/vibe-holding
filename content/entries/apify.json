@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "scraping",
+    "api",
+    "platform",
+    "crawler"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "第三方 Actor 质量与维护状态参差，站点改版即失效；计费叠加算力、存储与代理，账单结构需要摸清。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://apify.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "apify",
+  "name": "Apify",
+  "category": "ai-search-api",
+  "subcategory": "scrape-platform",
+  "oneLiner": "Actor 爬虫市集 · 现成抓取器开箱即跑 · 按算力与代理计费",
+  "officialUrl": "https://apify.com",
+  "descriptionMd": "Apify 是爬虫托管平台，社区把针对具体站点的抓取器打包成 Actor 上架，用户既能直接调用别人写好的采集器，也能部署自己的爬虫并使用平台的代理与调度。\n\n目标站点明确且已有现成 Actor、或需要定时批量采集时最省开发；只想把任意 URL 转成干净文本，用抽取型 API 更直接。\n\n第三方 Actor 质量与维护状态参差，站点改版即失效；计费叠加算力、存储与代理，账单结构需要摸清。\n",
+  "vendorId": "apify-inc"
+}

@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "guardrail",
+    "privacy",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "中文场景识别需自补词典与规则",
+    "还原逻辑设计不当会引入新泄露面"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/microsoft/presidio"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "presidio",
+  "name": "Microsoft Presidio",
+  "category": "ai-guardrail",
+  "subcategory": "pii-redaction",
+  "oneLiner": "PII 识别与脱敏 · 支持文本/图像；需按语种调词典",
+  "officialUrl": "https://github.com/microsoft/presidio",
+  "descriptionMd": "Presidio 是微软开源的隐私数据识别与脱敏框架，内置多种实体识别器并可自定义规则，支持文本与图像，常被放在数据进模型之前。\n\n要在把用户数据喂给模型或送往第三方之前先做一遍脱敏、且要求整条链路可自托管时优先。\n\n中文等非英语场景的识别效果需要自行补词典与规则才够用；脱敏后若还原逻辑设计不当，反而会引入新的泄露面。\n"
+}

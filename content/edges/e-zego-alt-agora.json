@@ -1,0 +1,11 @@
+{
+  "id": "e-zego-alt-agora",
+  "from": "zego",
+  "to": "agora",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国内 RTC 双雄：即构上层场景组件更全，声网底层网络与出海口碑更久"
+}

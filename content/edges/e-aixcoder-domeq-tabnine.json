@@ -1,0 +1,11 @@
+{
+  "id": "e-aixcoder-domeq-tabnine",
+  "from": "aixcoder",
+  "to": "tabnine",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "都以私有化部署与合规为卖点，aiXcoder 走国内项目制交付"
+}

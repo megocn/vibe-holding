@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "self-hosted",
+    "paas",
+    "docker",
+    "ui"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "非完全开源，授权边界需先确认",
+    "单机取向，横向扩展能力有限"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://easypanel.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "easypanel",
+  "name": "Easypanel",
+  "category": "cloud-self-host",
+  "subcategory": "self-hosted-paas",
+  "oneLiner": "界面清爽的单机 PaaS · 模板丰富；商业授权非开源",
+  "officialUrl": "https://easypanel.io",
+  "descriptionMd": "Easypanel 在单台服务器上提供接近托管 PaaS 的体验：Git 部署、数据库模板、域名证书与监控都在一个清爽界面里。\n\n只有一两台服务器、想尽快获得部署体验又不愿啃 Docker 细节时评估；与 Dokploy、Coolify 属同层可直接横比。\n\n并非完全开源，商业授权与免费额度的边界要先看清；单机取向决定了横向扩展能力有限。\n"
+}

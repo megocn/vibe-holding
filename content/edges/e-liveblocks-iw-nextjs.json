@@ -1,0 +1,11 @@
+{
+  "id": "e-liveblocks-iw-nextjs",
+  "from": "liveblocks",
+  "to": "nextjs",
+  "type": "integrates_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "以 React Hook 与服务端鉴权接入 Next.js，是最常见的落地组合"
+}

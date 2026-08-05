@@ -27,7 +27,7 @@
   "region": "overseas",
   "id": "vitest",
   "name": "Vitest",
-  "category": "oss-toolchain",
+  "category": "oss-testing",
   "subcategory": "test",
   "oneLiner": "与 Vite 同配置管道 · Jest API+ESM · watch 快",
   "officialUrl": "https://vitest.dev",

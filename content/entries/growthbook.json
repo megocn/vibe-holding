@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "feature-flag",
+    "experiment",
+    "open-source",
+    "self-host"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "实验结论质量取决于自有数仓的数据口径与查询成本。",
+    "自托管需自担升级与高可用运维。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.growthbook.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "growthbook",
+  "name": "GrowthBook",
+  "category": "growth-experiment",
+  "subcategory": "experimentation",
+  "oneLiner": "开源实验平台 · 直接在自有数仓上跑分析 · 可自托管、事件不外传",
+  "officialUrl": "https://www.growthbook.io",
+  "descriptionMd": "GrowthBook 是开源的功能开关与 A/B 实验平台，特点是不要求把事件送进厂商云，而是直接连到你已有的数据仓库上执行实验查询，把标志下发与实验分析解耦。\n\n已有数仓与埋点体系、希望实验分析复用现成数据并规避事件外传，或因合规要求必须私有化部署时优先。\n\n实验结论的质量取决于自家数仓的数据质量与查询成本；自托管要自己承担升级、备份与可用性运维。\n",
+  "vendorId": "growthbook-inc",
+  "githubUrl": "https://github.com/growthbook/growthbook"
+}

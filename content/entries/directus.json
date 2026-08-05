@@ -27,7 +27,7 @@
   "region": "overseas",
   "id": "directus",
   "name": "Directus",
-  "category": "baas-platform",
+  "category": "collab-cms",
   "subcategory": "headless-cms",
   "oneLiner": "现有 SQL→Headless CMS · REST/GraphQL · Admin 可配包装层",
   "officialUrl": "https://directus.io",

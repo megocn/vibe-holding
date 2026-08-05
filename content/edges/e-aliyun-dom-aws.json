@@ -1,0 +1,11 @@
+{
+  "id": "e-aliyun-dom-aws",
+  "from": "aliyun",
+  "to": "aws",
+  "type": "domestic_equivalent_of",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国内服务面最全的综合云，对标 AWS 的通用云位置"
+}

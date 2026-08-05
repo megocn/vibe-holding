@@ -1,0 +1,11 @@
+{
+  "id": "e-hcaptcha-alt-recaptcha",
+  "from": "hcaptcha",
+  "to": "recaptcha",
+  "type": "alternative_to",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "接入方式接近、迁移成本低；hCaptcha 主打不做广告画像，reCAPTCHA 胜在生态与文档"
+}

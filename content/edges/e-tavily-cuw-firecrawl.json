@@ -1,0 +1,11 @@
+{
+  "id": "e-tavily-cuw-firecrawl",
+  "from": "tavily",
+  "to": "firecrawl",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "搜索层负责找到候选链接，抓取层负责把选中的页面转成干净正文"
+}

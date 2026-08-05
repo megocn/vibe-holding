@@ -1,0 +1,11 @@
+{
+  "id": "e-tencent-cloud-alt-volcengine",
+  "from": "tencent-cloud",
+  "to": "volcengine",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "老牌综合云 vs 后发的 AI/内容取向云"
+}

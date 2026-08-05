@@ -1,0 +1,11 @@
+{
+  "id": "e-e2b-built-on-gvisor",
+  "from": "e2b",
+  "to": "gvisor",
+  "type": "built_on",
+  "weight": 0.5,
+  "confidence": "inferred",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Agent 沙箱普遍依赖用户态内核这类隔离底座"
+}

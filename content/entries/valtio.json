@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "state",
+    "react",
+    "proxy",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "隐式追踪让数据流不如显式 action 直观，调试与 code review 更依赖经验；Proxy 对部分特殊对象类型有限制。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://valtio.dev"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "valtio",
+  "name": "Valtio",
+  "category": "oss-state",
+  "subcategory": "state-management",
+  "oneLiner": "Proxy 可变式写法 · 直接赋值触发更新 · 快照保证渲染一致",
+  "officialUrl": "https://valtio.dev",
+  "descriptionMd": "Valtio 基于 Proxy 提供可变式状态：直接给属性赋值即触发更新，组件侧通过快照读取以保证渲染一致性，写法上最接近普通 JavaScript 对象操作。\n\n偏好命令式赋值、或从 MobX 一类可变模型迁移到 React 时选用；追求显式不可变更新的团队则不合口味。\n\n隐式追踪让数据流不如显式 action 直观，调试与 code review 更依赖经验；Proxy 对部分特殊对象类型有限制。\n",
+  "githubUrl": "https://github.com/pmndrs/valtio"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-chatwoot-osalt-zendesk",
+  "from": "chatwoot",
+  "to": "zendesk",
+  "type": "open_source_alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "覆盖多渠道收件箱与基础工单，SLA、报表与合规审计仍弱一档"
+}

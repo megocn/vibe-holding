@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "olap",
+    "database",
+    "columnar",
+    "open-source"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "更新删除代价高，不适合事务型写入",
+    "分区键与排序键设计失误后重建成本大"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://clickhouse.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "clickhouse",
+  "name": "ClickHouse",
+  "category": "db-analytics",
+  "subcategory": "olap-engine",
+  "oneLiner": "列存 MPP 分析库 · 向量化执行与物化视图 · 自托管或官方云",
+  "officialUrl": "https://clickhouse.com",
+  "descriptionMd": "ClickHouse 是面向分析查询的开源列式数据库，依靠向量化执行、稀疏主键索引与物化视图支撑大宽表聚合，可自托管集群，也有官方托管的 ClickHouse Cloud 形态。\n\n事件日志、行为埋点与实时报表需要秒级聚合、写多改少时优先；高频单行更新与事务仍交给 PostgreSQL 这类在线库。\n\n更新与删除代价高，去重和多表关联要顺着引擎特性设计表；分区键与排序键定错后重建数据的代价很大。\n",
+  "vendorId": "clickhouse-inc"
+}

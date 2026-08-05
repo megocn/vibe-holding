@@ -1,0 +1,11 @@
+{
+  "id": "e-openstatus-osalt-uptimerobot",
+  "from": "openstatus",
+  "to": "uptimerobot",
+  "type": "open_source_alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "开源可自托管、数据自持 vs 免费额度大但托管封闭"
+}

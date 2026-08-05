@@ -1,0 +1,11 @@
+{
+  "id": "e-geetest-domeq-recaptcha",
+  "from": "geetest",
+  "to": "recaptcha",
+  "type": "domestic_equivalent_of",
+  "weight": 0.9,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国内镜像位：极验境内节点加载稳、支持本地化风控，替代在大陆加载不畅的 reCAPTCHA"
+}

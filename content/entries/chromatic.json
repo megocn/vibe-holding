@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "test",
+    "visual",
+    "storybook",
+    "saas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "按快照数计费，story 与浏览器矩阵一多成本上升明显；动画与随机内容需要冻结，否则误报会淹没真实差异。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.chromatic.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "chromatic",
+  "name": "Chromatic",
+  "category": "oss-testing",
+  "subcategory": "visual-test",
+  "oneLiner": "Storybook 官方托管 · 逐 story 视觉快照 · PR 里人工确认差异",
+  "officialUrl": "https://www.chromatic.com",
+  "descriptionMd": "Chromatic 由 Storybook 团队提供，把每个 story 在云端截图并与基线逐像素比对，差异在 Pull Request 中以待确认状态呈现，同时托管可分享的 Storybook 供设计评审。\n\n组件库或设计系统需要防止视觉回归、并让设计侧参与验收时使用；纯逻辑断言仍由单元测试承担。\n\n按快照数计费，story 与浏览器矩阵一多成本上升明显；动画与随机内容需要冻结，否则误报会淹没真实差异。\n",
+  "vendorId": "chromatic-com"
+}

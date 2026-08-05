@@ -1,0 +1,11 @@
+{
+  "id": "e-testcontainers-dep-docker",
+  "from": "testcontainers",
+  "to": "docker",
+  "type": "depends_on",
+  "weight": 0.9,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "需本机或 CI 上可用的容器运行时，无容器环境则整体不可用"
+}

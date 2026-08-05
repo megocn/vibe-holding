@@ -1,0 +1,11 @@
+{
+  "id": "e-openobserve-osalt-axiom",
+  "from": "openobserve",
+  "to": "axiom",
+  "type": "open_source_alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同为列式低成本日志后端；OpenObserve 可自托管，Axiom 是托管 Serverless 形态"
+}

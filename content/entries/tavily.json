@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "search",
+    "api",
+    "agent"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "结果经过平台裁剪，无法完全复现搜索引擎原貌；免费额度之外按次计费，高频轮询要设上限。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://tavily.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "tavily",
+  "name": "Tavily",
+  "category": "ai-search-api",
+  "subcategory": "agent-search",
+  "oneLiner": "为 Agent 调优的搜索 API · 直接给答案与引用片段 · 免费额度友好",
+  "officialUrl": "https://tavily.com",
+  "descriptionMd": "Tavily 面向 LLM 场景重排与压缩搜索结果，返回的是可直接塞进上下文的摘要片段与来源链接，而不是让你自己去抓一堆网页再清洗。\n\n做联网问答、给 Agent 挂一个「先搜再答」工具时最省事；需要原始 SERP 排位或整站抓取则另选。\n\n结果经过平台裁剪，无法完全复现搜索引擎原貌；免费额度之外按次计费，高频轮询要设上限。\n",
+  "vendorId": "tavily-inc"
+}

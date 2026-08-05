@@ -1,0 +1,11 @@
+{
+  "id": "e-amberflo-alt-metronome",
+  "from": "amberflo",
+  "to": "metronome",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "计量粒度与用量展示优先 vs 大额合同场景优先"
+}

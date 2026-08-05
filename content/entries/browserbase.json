@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "browser",
+    "automation",
+    "cloud"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "按会话时长计费，Agent 卡住不退出会持续烧钱；反爬对抗属灰色地带，抓取前需自查目标站条款。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.browserbase.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "browserbase",
+  "name": "Browserbase",
+  "category": "ai-browser",
+  "subcategory": "hosted-browser",
+  "oneLiner": "托管无头浏览器会话 · 隐身代理/验证码/录屏 · 按会话时长计费",
+  "officialUrl": "https://www.browserbase.com",
+  "descriptionMd": "Browserbase 把浏览器本身变成云服务：Agent 通过 API 拿到一个远端会话，代理出口、指纹隐身、会话录像与实时查看都由平台托管，本地只保留控制逻辑。\n\n当 Agent 需要长期稳定跑真实浏览器、但你不想自己维护容器与代理池时选它；它是运行层，上面的操作语义通常交给 Stagehand 或 Playwright 客户端表达。\n\n按会话时长计费，Agent 卡住不退出会持续烧钱；反爬对抗属灰色地带，抓取前需自查目标站条款。\n",
+  "vendorId": "browserbase-inc"
+}

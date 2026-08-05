@@ -1,0 +1,11 @@
+{
+  "id": "e-sourcery-alt-coderabbit",
+  "from": "sourcery",
+  "to": "coderabbit",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Python 向重构建议 vs 通用多语 PR 评审"
+}

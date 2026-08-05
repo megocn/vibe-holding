@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "notes": "随 Elastic Stack 发行，遵循其授权条款"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "logging",
+    "pipeline",
+    "elastic",
+    "open-source"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "JVM 内存与启动开销高于 C/Rust 系采集器",
+    "版本与授权跟随 Elastic 主线，跨大版本升级需连同下游验证"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.elastic.co/logstash"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "logstash",
+  "name": "Logstash",
+  "category": "obs-logs",
+  "subcategory": "log-pipeline",
+  "oneLiner": "ELK 经典管道 · 插件与 Grok 解析最全 · JVM 资源开销偏重",
+  "officialUrl": "https://www.elastic.co/logstash",
+  "descriptionMd": "Logstash 是 Elastic 官方的日志收集与处理管道，凭 Grok、Mutate 等成熟过滤器与庞大的插件生态，长期承担 ELK 栈里的解析与富化环节，也能对接非 Elastic 的下游。\n\n已在 Elastic 栈内、且日志格式杂乱需要重解析时最划算；纯转发场景用 Elastic Agent、Fluent Bit 或 Vector 更省资源。\n\n基于 JVM，单实例内存与启动开销明显高于 C/Rust 系采集器；授权与版本节奏跟随 Elastic 主线，跨大版本升级要连同下游一起验证。\n",
+  "vendorId": "elastic",
+  "githubUrl": "https://github.com/elastic/logstash"
+}

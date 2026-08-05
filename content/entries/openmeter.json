@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "billing",
+    "metering",
+    "ai",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "只做计量不出账单，仍需搭配计费系统",
+    "事件口径变更后历史数据难以重算"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://openmeter.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "openmeter",
+  "name": "OpenMeter",
+  "category": "pay-billing",
+  "subcategory": "metering",
+  "oneLiner": "只做计量这一层 · 高吞吐聚合；不出账单",
+  "officialUrl": "https://openmeter.io",
+  "descriptionMd": "OpenMeter 专注计费链路的前半段：高吞吐地接收用量事件、按窗口聚合成可查询的指标，再把结果交给下游的计费或额度系统，本身不生成账单。\n\n已有计费或自研出账逻辑，缺的只是一个可靠的用量计量与配额层，尤其是 AI 产品的 token 统计时选它。\n\n不出账单意味着还要另配计费侧，链路多一跳；事件定义与幂等策略要提前想清楚，改口径后历史数据难以回溯重算。\n",
+  "vendorId": "openmeter-io"
+}

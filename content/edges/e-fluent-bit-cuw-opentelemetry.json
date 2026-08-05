@@ -1,0 +1,11 @@
+{
+  "id": "e-fluent-bit-cuw-opentelemetry",
+  "from": "fluent-bit",
+  "to": "opentelemetry",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Fluent Bit 支持 OTLP 收发，常与 OTel Collector 混编在同一采集链路"
+}

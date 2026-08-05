@@ -1,0 +1,11 @@
+{
+  "id": "e-vector-dev-alt-fluent-bit",
+  "from": "vector-dev",
+  "to": "fluent-bit",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Rust 管道，变换与多路分发更强 vs C 采集器，资源占用更低"
+}

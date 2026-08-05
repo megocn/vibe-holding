@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "self-hosted",
+    "paas",
+    "docker",
+    "open-source"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "项目年轻、迭代快，升级前先备份",
+    "无 SLA，可用性由自己兜底"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://dokploy.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "dokploy",
+  "name": "Dokploy",
+  "category": "cloud-self-host",
+  "subcategory": "self-hosted-paas",
+  "oneLiner": "Docker/Compose 原生 · 多服务器纳管；社区年轻",
+  "officialUrl": "https://dokploy.com",
+  "descriptionMd": "Dokploy 是开源自托管 PaaS，把 VPS 变成带 Git 部署、域名与证书自动化的应用平台，原生支持 Docker Compose 与多服务器纳管。\n\n想在 Hetzner、Vultr 这类便宜 VPS 上获得近似 Vercel 的部署体验、又不愿被平台计价绑定时评估。\n\n项目年轻、版本迭代快，升级前务必备份；平台可用性由你自己负责，出问题没有 SLA 兜底。\n"
+}

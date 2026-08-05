@@ -1,0 +1,11 @@
+{
+  "id": "e-douyin-miniprogram-cuw-uni-app",
+  "from": "douyin-miniprogram",
+  "to": "uni-app",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "跨端框架覆盖抖音端编译，直播间与视频挂载等专有能力仍需按平台适配"
+}

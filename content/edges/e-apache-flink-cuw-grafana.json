@@ -1,0 +1,11 @@
+{
+  "id": "e-apache-flink-cuw-grafana",
+  "from": "apache-flink",
+  "to": "grafana",
+  "type": "commonly_used_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "作业指标外送后用看板盯反压与检查点耗时，是流作业可观测的常规做法"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-apollo-client-cw-react",
+  "from": "apollo-client",
+  "to": "react",
+  "type": "commonly_used_with",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "以 hook 形式发起查询与订阅，缓存更新即触发相关组件重渲染"
+}

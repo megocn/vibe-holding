@@ -1,0 +1,11 @@
+{
+  "id": "e-growthbook-int-openfeature",
+  "from": "growthbook",
+  "to": "openfeature",
+  "type": "integrates_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "可通过 OpenFeature 接口接入，降低对单一开关平台的耦合"
+}

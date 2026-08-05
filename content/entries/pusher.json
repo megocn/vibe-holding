@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD",
+    "notes": "按并发连接数与日消息量分档"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "realtime",
+    "websocket",
+    "pubsub",
+    "saas"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "按并发连接与消息量计费，广播型场景成本增长快",
+    "国内访问的跨境时延需实测，无本地节点保障"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://pusher.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "pusher",
+  "name": "Pusher",
+  "category": "msg-realtime",
+  "subcategory": "hosted-pubsub",
+  "oneLiner": "托管 WebSocket 频道 · 接入最省事 · 按连接与消息数计费",
+  "officialUrl": "https://pusher.com",
+  "descriptionMd": "Pusher Channels 提供托管的发布订阅通道：客户端订阅频道、服务端触发事件，SDK 覆盖主流语言与前端框架，开发者不必自建长连接集群就能做通知、在线状态与实时看板。\n\n只需要把服务端事件推到浏览器、且不想承担连接层运维时最快；要严格的消息有序与历史回放看 Ably，要自托管省钱看 Centrifugo。\n\n按并发连接与消息条数计费，广播型场景增长很快；托管服务的连接上限与区域节点决定体验，国内用户的跨境时延需实测。\n",
+  "vendorId": "pusher-inc"
+}

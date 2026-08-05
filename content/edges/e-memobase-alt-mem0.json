@@ -1,0 +1,11 @@
+{
+  "id": "e-memobase-alt-mem0",
+  "from": "memobase",
+  "to": "mem0",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "结构化用户画像 vs 通用记忆条目"
+}

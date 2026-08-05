@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "memory",
+    "graph",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "需自备并运维图数据库",
+    "增量更新与冲突消解调参成本高"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/getzep/graphiti"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "graphiti",
+  "name": "Graphiti",
+  "category": "ai-memory",
+  "subcategory": "memory-framework",
+  "oneLiner": "时序图谱记忆框架 · Zep 内核开源；需自备图库",
+  "officialUrl": "https://github.com/getzep/graphiti",
+  "descriptionMd": "Graphiti 是 Zep 开源出来的时序知识图谱框架，把对话与事件增量写入图中并维护事实的有效期，可独立集成到自己的 Agent 里。\n\n想要 Zep 那套时序记忆但坚持全自托管、或要在自有图数据库上做二次开发时选它。\n\n需要自备并长期运维一套图数据库；增量更新与事实冲突消解的调参不轻松，小项目上很容易得不偿失。\n"
+}

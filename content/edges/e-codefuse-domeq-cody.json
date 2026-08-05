@@ -1,0 +1,11 @@
+{
+  "id": "e-codefuse-domeq-cody",
+  "from": "codefuse",
+  "to": "cody",
+  "type": "domestic_equivalent_of",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同走仓库级理解路线，CodeFuse 以开源组件自建替代商业托管"
+}

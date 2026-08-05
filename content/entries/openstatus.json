@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "notes": "开源自托管免费；官方云版按监控项分档"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "uptime",
+    "status-page",
+    "open-source",
+    "self-host"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "项目演进快，自托管需要持续跟随上游升级",
+    "探测节点与告警通道少于成熟商业服务，关键业务建议双份监控"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.openstatus.dev"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "openstatus",
+  "name": "OpenStatus",
+  "category": "obs-uptime",
+  "subcategory": "uptime-check",
+  "oneLiner": "开源拨测加状态页 · 可自托管数据自持 · 现代前端栈实现",
+  "officialUrl": "https://www.openstatus.dev",
+  "descriptionMd": "OpenStatus 是开源的可用性监控与状态页项目，把合成拨测、延迟分布与对外状态页放在一起，既提供官方托管版，也可以完整自托管，数据留在自己手里。\n\n既要拨测又要状态页、且倾向开源与自持数据的团队值得一试；要成熟的企业事故流程仍看 Statuspage，要省心免维护看 UptimeRobot。\n\n项目仍在快速演进，自托管需要跟随上游升级；探测节点与告警通道数量不及成熟商业服务，关键业务建议双份监控。\n",
+  "vendorId": "openstatus-inc",
+  "githubUrl": "https://github.com/openstatusHQ/openstatus"
+}

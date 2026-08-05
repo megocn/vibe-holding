@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "captcha",
+    "bot",
+    "security",
+    "cloudflare"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "只解决「是不是机器」，账号欺诈与撞库仍需业务风控。",
+    "国内链路偶有抖动，需为校验超时准备降级或重试策略。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.cloudflare.com/application-services/products/turnstile/"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "cloudflare-turnstile",
+  "name": "Cloudflare Turnstile",
+  "category": "sec-bot-captcha",
+  "subcategory": "captcha-widget",
+  "oneLiner": "无感人机验证 · 免打勾免拼图 · 站点不必整体迁 Cloudflare",
+  "officialUrl": "https://www.cloudflare.com/application-services/products/turnstile/",
+  "descriptionMd": "Turnstile 是 Cloudflare 的免打勾人机验证组件，用浏览器信号与轻量挑战替代拼图点选，前端嵌 widget、后端校验 token 即可接入，站点不必把流量整体迁到 Cloudflare。\n\n要给注册、登录、留言等表单加一层低摩擦人机校验时首选；它在应用表单层，与 Cloudflare WAF 的规则与速率限制不是一层，两者可叠加使用。\n\n它只挡自动化脚本，业务欺诈与撞库仍需风控规则配合；国内访问 Cloudflare 边缘偶有抖动，校验请求变慢时要有降级放行路径。\n",
+  "vendorId": "cloudflare",
+  "docsUrl": "https://developers.cloudflare.com/turnstile/"
+}

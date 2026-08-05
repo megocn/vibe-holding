@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "logging",
+    "pipeline",
+    "open-source",
+    "observability"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "VRL 变换脚本是独立语法，需要单独学习与回归测试",
+    "作聚合层时自身要做高可用与磁盘缓冲容量规划"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://vector.dev"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "vector-dev",
+  "name": "Vector",
+  "category": "obs-logs",
+  "subcategory": "log-pipeline",
+  "oneLiner": "Rust 高性能可观测数据管道 · 日志/指标统一转换 · Datadog 开源",
+  "officialUrl": "https://vector.dev",
+  "descriptionMd": "Vector 是 Datadog 开源的可观测数据管道，用 Rust 写成，把日志、指标、事件从各类来源采集后经 VRL 变换脚本清洗、采样、脱敏，再分发到多个下游后端，可作 Agent 也可作聚合层。\n\n需要在采集端就做裁剪降本、或要同时向多个后端双写以便平滑迁移供应商时评估；栈中它站在应用与日志存储之间，替代或前置于 Fluent Bit、Logstash。\n\nVRL 变换脚本属于新的一套语法，团队要额外学习与测试；作为聚合层部署时它本身也需要高可用与背压容量规划。\n",
+  "vendorId": "datadog-inc",
+  "githubUrl": "https://github.com/vectordotdev/vector"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-zincsearch-alt-elasticsearch",
+  "from": "zincsearch",
+  "to": "elasticsearch",
+  "type": "alternative_to",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "单二进制低资源、适合小规模自托管 vs 大规模集群与完整插件体系"
+}

@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "email",
+    "ecommerce",
+    "lifecycle",
+    "sms"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "非电商场景性价比低，大量电商指标闲置。",
+    "与店铺数据模型绑定深，迁出需重建旅程与分群。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.klaviyo.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "klaviyo",
+  "name": "Klaviyo",
+  "category": "growth-lifecycle",
+  "subcategory": "email-marketing",
+  "oneLiner": "电商生命周期专精 · 深绑店铺订单数据 · 邮件短信同台",
+  "officialUrl": "https://www.klaviyo.com",
+  "descriptionMd": "Klaviyo 面向电商做生命周期营销：直接对接店铺的订单、购物车与商品数据，按购买行为分群，并触发弃购挽回、复购提醒等邮件与短信流程。\n\n主营 DTC 或电商、销售额与邮件渠道强相关，且已经在成熟电商平台上运营时优先。\n\n非电商场景下大量模板与指标用不上，性价比偏低；与店铺数据模型绑定较深，迁出时旅程与分群基本要重建。\n",
+  "vendorId": "klaviyo-inc"
+}

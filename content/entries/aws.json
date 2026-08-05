@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cloud",
+    "iaas",
+    "hyperscaler",
+    "enterprise"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "出网与跨可用区流量费常被低估",
+    "中国区由本地伙伴独立运营，服务清单与 Global 不同步"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://aws.amazon.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "aws",
+  "name": "AWS",
+  "category": "cloud-iaas",
+  "subcategory": "hyperscaler",
+  "oneLiner": "服务面最广 · 生态与人才最厚；计费维度与 IAM 复杂度也最高",
+  "officialUrl": "https://aws.amazon.com",
+  "descriptionMd": "AWS 是服务品类最全的公有云，从计算、对象存储到托管数据库、消息队列与模型平台一应俱全，第三方集成与运维人才储备同样最厚。\n\n跨区域部署、需要齐全合规资质、或团队已有 AWS 经验时的稳妥默认解；栈中通常与 aws-lambda、aws-s3、amazon-rds 这些单品一起出现。\n\n服务命名与计费维度极碎，**出网与跨可用区流量**常是账单意外的来源；中国区由本地伙伴独立运营，账号与服务清单和 Global 并不互通。\n",
+  "vendorId": "amazon"
+}

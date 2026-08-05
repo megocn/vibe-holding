@@ -1,0 +1,11 @@
+{
+  "id": "e-datatester-cn-optimizely",
+  "from": "datatester",
+  "to": "optimizely",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "火山系 A/B 实验平台对应老牌商业实验平台；生态与计价完全不同"
+}

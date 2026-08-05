@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "eval",
+    "monitoring",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "偏数据科学心智，应用团队接入成本略高",
+    "LLM 侧能力起步晚于专做评测的工具"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.evidentlyai.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "evidently",
+  "name": "Evidently",
+  "category": "ai-eval",
+  "subcategory": "ml-monitoring",
+  "oneLiner": "从 ML 监控延伸到 LLM 评测 · 报告丰富；偏数据科学心智",
+  "officialUrl": "https://www.evidentlyai.com",
+  "descriptionMd": "Evidently 起家于表格模型的数据漂移与质量监控，如今把同一套报告体系延伸到 LLM 与 RAG 评测，开源库可直接生成可视化报告。\n\n团队里已有传统机器学习模型、希望 LLM 与它们共用一套质量报告口径时评估。\n\n心智偏数据科学而非应用工程，接入成本对纯应用团队略高；LLM 侧能力仍晚于专做评测的工具。\n"
+}

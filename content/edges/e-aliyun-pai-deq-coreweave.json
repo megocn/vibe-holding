@@ -1,0 +1,11 @@
+{
+  "id": "e-aliyun-pai-deq-coreweave",
+  "from": "aliyun-pai",
+  "to": "coreweave",
+  "type": "domestic_equivalent_of",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国内企业级训练平台的对应位；PAI 额外打包数据与流水线，口径并非完全等同"
+}

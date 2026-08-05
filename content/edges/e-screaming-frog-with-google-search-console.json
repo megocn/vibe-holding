@@ -1,0 +1,11 @@
+{
+  "id": "e-screaming-frog-with-google-search-console",
+  "from": "screaming-frog",
+  "to": "google-search-console",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "本机抓取查结构问题 + 官方索引数据看实际收录，联合定位掉量原因"
+}

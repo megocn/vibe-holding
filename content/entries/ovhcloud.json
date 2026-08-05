@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "EUR"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cloud",
+    "iaas",
+    "europe",
+    "bare-metal"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "控制台与文档体验一般",
+    "历史机房事故提醒：异地备份必须自建"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.ovhcloud.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "ovhcloud",
+  "name": "OVHcloud",
+  "category": "cloud-iaas",
+  "subcategory": "developer-cloud",
+  "oneLiner": "欧洲主权云取向 · 自有机房与裸金属；控制台体验一般",
+  "officialUrl": "https://www.ovhcloud.com",
+  "descriptionMd": "OVHcloud 是法国大型托管商，自建机房与裸金属规模可观，主打欧洲数据主权与本地合规，同时提供公有云与私有云托管。\n\n业务需落在欧盟境内、对数据主权有明确要求，或需要成规模裸金属而非弹性实例时评估；也常被当作 Hetzner 之外的第二欧洲选项。\n\n控制台与文档体验不如英美同行顺手；历史上有机房火灾导致数据丢失的事故，备份策略必须自己做实。\n",
+  "vendorId": "ovhcloud-inc"
+}

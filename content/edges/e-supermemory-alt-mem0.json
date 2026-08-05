@@ -1,0 +1,11 @@
+{
+  "id": "e-supermemory-alt-mem0",
+  "from": "supermemory",
+  "to": "mem0",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "开箱托管 API vs 可自托管的记忆层"
+}

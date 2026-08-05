@@ -1,0 +1,11 @@
+{
+  "id": "e-aws-app-runner-part-of-aws",
+  "from": "aws-app-runner",
+  "to": "aws",
+  "type": "part_of",
+  "weight": 0.9,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "该云厂商旗下产品"
+}

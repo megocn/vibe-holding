@@ -1,0 +1,11 @@
+{
+  "id": "e-liveblocks-alt-partykit",
+  "from": "liveblocks",
+  "to": "partykit",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "现成协同组件与托管数据模型 vs 自己写边缘房间逻辑，自由度更高"
+}

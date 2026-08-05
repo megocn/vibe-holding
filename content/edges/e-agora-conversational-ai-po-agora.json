@@ -1,0 +1,11 @@
+{
+  "id": "e-agora-conversational-ai-po-agora",
+  "from": "agora-conversational-ai",
+  "to": "agora",
+  "type": "part_of",
+  "weight": 0.9,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "对话式 AI 能力是声网 RTC 之上的扩展，底层仍是同一套实时网络"
+}

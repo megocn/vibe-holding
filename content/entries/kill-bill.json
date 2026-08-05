@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "billing",
+    "subscription",
+    "open-source",
+    "self-host"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "Java 插件体系学习曲线陡，需专人维护",
+    "界面与开箱体验落后于商业方案"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://killbill.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "kill-bill",
+  "name": "Kill Bill",
+  "category": "pay-billing",
+  "subcategory": "self-host",
+  "oneLiner": "老牌开源计费平台 · 插件化可深改；Java 栈运维重",
+  "officialUrl": "https://killbill.io",
+  "descriptionMd": "Kill Bill 是运行多年的开源订阅与计费平台，核心提供目录、订阅、发票与支付插件框架，几乎所有环节都能通过插件替换，被不少自建计费的团队当作底座。\n\n计费规则特殊到 SaaS 产品表达不了、团队又有能力长期自维护一套计费系统时，它比从零写要稳妥得多。\n\nJava 技术栈与插件体系的学习曲线陡峭，运维和升级都要专人负责；界面与开箱体验明显落后于商业方案。\n"
+}

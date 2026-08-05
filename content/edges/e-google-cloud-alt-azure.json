@@ -1,0 +1,11 @@
+{
+  "id": "e-google-cloud-alt-azure",
+  "from": "google-cloud",
+  "to": "azure",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "数据/AI 强项 vs 身份治理与合规采购"
+}

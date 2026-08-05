@@ -1,0 +1,11 @@
+{
+  "id": "e-clickhouse-alt-elasticsearch",
+  "from": "clickhouse",
+  "to": "elasticsearch",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "日志分析的两条路线：列存聚合与成本占优 vs 倒排全文检索与即席查错占优"
+}

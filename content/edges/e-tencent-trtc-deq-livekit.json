@@ -1,0 +1,11 @@
+{
+  "id": "e-tencent-trtc-deq-livekit",
+  "from": "tencent-trtc",
+  "to": "livekit",
+  "type": "domestic_equivalent_of",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国内云托管 RTC vs 海外开源 RTC；国内节点与合规更省事，自控性更弱"
+}

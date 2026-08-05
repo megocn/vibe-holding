@@ -1,0 +1,11 @@
+{
+  "id": "e-aliyun-hologres-domeq-bigquery",
+  "from": "aliyun-hologres",
+  "to": "bigquery",
+  "type": "domestic_equivalent_of",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国内云上实时数仓位，对应海外云原生数仓；侧重写入即查与同区合规"
+}

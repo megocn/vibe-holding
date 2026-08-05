@@ -89,10 +89,12 @@
   --ease-standard: cubic-bezier(0.2, 0, 0, 1);
   --ease-emphasized: cubic-bezier(0.3, 0, 0, 1);
 
-  /* 字族 */
-  --font-display: 'LXGW ZhenKai', 'LXGW WenKai', system-ui, 'PingFang SC', sans-serif;
-  --font-body: 'LXGW WenKai', system-ui, 'PingFang SC', 'Microsoft YaHei', sans-serif;
-  --font-mono: 'Maple Mono', 'JetBrains Mono', ui-monospace, monospace;
+  /* 字族：系统栈先出字，Web 字体 swap 替换 */
+  --font-display: 'LXGW ZhenKai', 'Songti SC', 'STSong', 'Noto Serif SC', system-ui,
+    'PingFang SC', serif;
+  --font-body: 'LXGW WenKai', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei',
+    'Noto Sans SC', system-ui, sans-serif;
+  --font-mono: 'Maple Mono', 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
 
   /* 字阶（模数 ≈ 1.2，楷体正文行高 1.75） */
   --text-display: 32px;

@@ -38,6 +38,12 @@ log.md
 
 # OS / IDE
 .DS_Store
+
+# 字体全量母本与字表缓存（部署用子集已在 public/fonts）
+apps/desktop/assets/fonts-full/
+scripts/.web-font-subset-chars.txt
+private/arena/assets/fonts-full/
+private/arena/scripts/.font-subset-chars.txt
 Thumbs.db
 .idea/
 *.swp

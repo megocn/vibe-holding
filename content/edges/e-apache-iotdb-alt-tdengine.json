@@ -1,0 +1,11 @@
+{
+  "id": "e-apache-iotdb-alt-tdengine",
+  "from": "apache-iotdb",
+  "to": "tdengine",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国产工业时序两种建模：树状层次组织测点 vs 一个采集点一张表加标签"
+}

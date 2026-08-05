@@ -1,0 +1,11 @@
+{
+  "id": "e-agora-alt-livekit",
+  "from": "agora",
+  "to": "livekit",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "成熟商业 RTC 云、弱网与全球加速自带 vs 开源可自托管、成本与可控性更好"
+}

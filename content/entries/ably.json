@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD",
+    "notes": "按消息数、并发连接与通道数计量"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "realtime",
+    "websocket",
+    "pubsub",
+    "saas"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "计费维度多（消息/连接/通道），需按峰值建模测算",
+    "交付保证一旦写进业务假设，迁移到简单方案代价大"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://ably.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "ably",
+  "name": "Ably",
+  "category": "msg-realtime",
+  "subcategory": "hosted-pubsub",
+  "oneLiner": "带交付保证的实时消息云 · 有序与历史回放 · 多协议接入",
+  "officialUrl": "https://ably.com",
+  "descriptionMd": "Ably 是面向实时消息的托管平台，强调消息有序、精确一次的交付语义、断线续传与历史回放，除 WebSocket 外还支持 MQTT、SSE 等多种协议，并提供跨区域的边缘网络。\n\n金融行情、体育比分、协同状态同步等对丢消息零容忍的场景优先；只做简单通知推送，Pusher 接入更轻，自托管看 Centrifugo。\n\n能力越全定价维度越复杂，消息数、连接数与通道数分别计量；把交付保证的假设写进业务逻辑后，迁移到简单方案的代价会变大。\n",
+  "vendorId": "ably-inc"
+}

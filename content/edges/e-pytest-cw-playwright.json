@@ -1,0 +1,11 @@
+{
+  "id": "e-pytest-cw-playwright",
+  "from": "pytest",
+  "to": "playwright",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Playwright 提供 pytest 插件：pytest 负责用例编排，浏览器驱动交给 Playwright"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-loops-so-alt-mailchimp",
+  "from": "loops-so",
+  "to": "mailchimp",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "SaaS 向轻量旅程、事件触发友好 vs 老牌营销一体机、面向运营岗"
+}

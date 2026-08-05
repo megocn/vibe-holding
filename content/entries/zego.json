@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY",
+    "notes": "按音视频通话分钟数计费，按场景包另行报价"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN",
+      "global"
+    ]
+  },
+  "tags": [
+    "realtime",
+    "rtc",
+    "webrtc",
+    "domestic"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "上层场景组件用得越深，业务与其 SDK 耦合越紧",
+    "海外节点覆盖与国内不完全一致，出海前需确认目标地区"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.zego.im"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "both",
+  "id": "zego",
+  "name": "即构 ZEGO",
+  "category": "msg-realtime",
+  "subcategory": "rtc",
+  "oneLiner": "音视频加上层场景组件 · 语聊房/直播模板全 · 出海双区支持",
+  "officialUrl": "https://www.zego.im",
+  "descriptionMd": "即构科技提供实时音视频、实时语音与互动直播的 SDK，除底层通话能力外还打包了语聊房、直播间、K 歌等上层场景组件，可以少写不少业务侧的连麦与麦位逻辑。\n\n社交娱乐、语聊房与秀场直播这类场景要快速成型时优势明显；只要纯粹的会议或对话式 AI 通道，声网与 LiveKit 的对照更直接。\n\n上层场景组件用得越深，业务与其 SDK 的耦合越紧；按分钟计费，海外区域覆盖与国内不完全一致，出海前先确认目标地区节点。\n",
+  "vendorId": "zego-inc"
+}

@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "olap",
+    "cloud",
+    "warehouse",
+    "aws"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "集群形态下分布键与维护作业仍需 DBA 经验",
+    "与 AWS 权限和管道耦合，迁出牵连面广"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://aws.amazon.com/redshift/"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "amazon-redshift",
+  "name": "Amazon Redshift",
+  "category": "db-analytics",
+  "subcategory": "cloud-warehouse",
+  "oneLiner": "AWS 老牌 MPP 数仓 · 存算分离与 Serverless 形态 · 直查 S3",
+  "officialUrl": "https://aws.amazon.com/redshift/",
+  "descriptionMd": "Amazon Redshift 是 AWS 的 MPP 数据仓库，早期以固定节点集群为主，如今提供存算分离节点与 Serverless 形态，可直接查询 S3 上的外部表，与 AWS 的数据与权限体系天然打通。\n\n数据与 ETL 已在 AWS、希望数仓和身份权限、对象存储、元数据目录同栈治理时评估。\n\n集群形态下扩缩容、分布键与清理维护仍需经验；跨云使用或迁出会牵动整套权限与数据管道。\n",
+  "vendorId": "amazon-web-services"
+}

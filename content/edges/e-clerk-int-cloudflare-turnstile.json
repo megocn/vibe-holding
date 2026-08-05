@@ -1,0 +1,11 @@
+{
+  "id": "e-clerk-int-cloudflare-turnstile",
+  "from": "clerk",
+  "to": "cloudflare-turnstile",
+  "type": "integrates_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "登录注册流内置的 Bot 防护基于 Turnstile，无需自行嵌 widget"
+}

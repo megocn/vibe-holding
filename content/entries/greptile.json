@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "code-review",
+    "codebase-index",
+    "pull-request"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "需授权读取全仓，合规审批要提前安排",
+    "大仓索引与增量维护有额外成本"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.greptile.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "greptile",
+  "name": "Greptile",
+  "category": "coding-review",
+  "subcategory": "pr-review-agent",
+  "oneLiner": "先索引整仓再评审 · 抓跨文件影响面 · 检索能力也开放 API",
+  "officialUrl": "https://www.greptile.com",
+  "descriptionMd": "Greptile 先给代码库建索引，再用整仓上下文做 PR 评审，强项是指出「这一改会牵动别处」的跨文件问题；同一套检索能力也以 API 形式对外提供。\n\n老仓库耦合重、最担心一次改动引发连带故障时优先，可与 CodeRabbit 对照试跑同一批 PR；只需要风格与规范类意见，轻量评审工具就够。\n\n索引需要读全仓权限，合规审批要提前走；大仓的首次索引与增量维护都有成本。\n",
+  "vendorId": "greptile-inc"
+}

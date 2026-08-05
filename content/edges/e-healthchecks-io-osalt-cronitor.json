@@ -1,0 +1,11 @@
+{
+  "id": "e-healthchecks-io-osalt-cronitor",
+  "from": "healthchecks-io",
+  "to": "cronitor",
+  "type": "open_source_alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同做定时任务心跳；Healthchecks 可自托管，Cronitor 另有拨测与状态页"
+}

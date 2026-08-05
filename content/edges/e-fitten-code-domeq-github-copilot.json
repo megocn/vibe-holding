@@ -1,0 +1,11 @@
+{
+  "id": "e-fitten-code-domeq-github-copilot",
+  "from": "fitten-code",
+  "to": "github-copilot",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国内网络直连、个人免费档；能力上限低于 Copilot"
+}

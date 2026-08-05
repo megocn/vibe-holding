@@ -27,7 +27,7 @@
   "region": "overseas",
   "id": "checkov",
   "name": "Checkov",
-  "category": "sec-secrets",
+  "category": "sec-appsec",
   "subcategory": "scanning",
   "oneLiner": "扫描 TF/CFN/K8s misconfig · CI 友好 · Bridgecrew/Prisma 生态",
   "officialUrl": "https://www.checkov.io",

@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "database",
+    "graph",
+    "distributed",
+    "domestic",
+    "oss"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "三类组件分开部署，运维成本高于单机图库",
+    "nGQL 与 Cypher 不等价，迁移需逐条改写"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.nebula-graph.io",
+    "https://github.com/vesoft-inc/nebula"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "nebulagraph",
+  "name": "NebulaGraph",
+  "category": "db-graph",
+  "subcategory": "distributed-graph",
+  "oneLiner": "国产开源分布式图库 · 存算分离可独立扩缩 · nGQL 部分兼容 openCypher",
+  "officialUrl": "https://www.nebula-graph.io",
+  "descriptionMd": "NebulaGraph 是开源分布式图数据库，查询层、存储层与元数据层分离部署、可各自扩缩，面向超大规模点边与高并发多跳查询，查询语言为 nGQL 并部分兼容 openCypher 语法。\n\n点边规模到十亿量级、需要横向扩容并希望有国内商业支持时，作为 Neo4j 的分布式对照评估；小图单机场景用 Neo4j 或嵌入式方案更轻。\n\n多组件部署与运维复杂度明显高于单机图库；nGQL 与 Cypher 并不等价，迁移时语句需逐条改写。\n",
+  "vendorId": "vesoft"
+}

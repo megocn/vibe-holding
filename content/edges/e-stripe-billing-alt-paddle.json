@@ -1,0 +1,11 @@
+{
+  "id": "e-stripe-billing-alt-paddle",
+  "from": "stripe-billing",
+  "to": "paddle",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "自己管订阅与税务 vs 交给 MoR 一并托管"
+}

@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "guardrail",
+    "security",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "误杀与漏判并存，阈值需按业务调",
+    "串在链路上明显影响首字时延"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/protectai/llm-guard"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "llm-guard",
+  "name": "LLM Guard",
+  "category": "ai-guardrail",
+  "subcategory": "input-output-scan",
+  "oneLiner": "输入输出双向扫描 · 提示注入/PII 检测；自托管",
+  "officialUrl": "https://github.com/protectai/llm-guard",
+  "descriptionMd": "LLM Guard 在请求进入模型前与响应返回前各扫一遍，覆盖提示注入、越狱、敏感信息泄露、有害语言与代码注入等常见风险项。\n\n自建 LLM 网关、需要一层完全可自托管的安全扫描而不愿把用户内容送到第三方时评估。\n\n扫描器基于模型与规则，误杀与漏判都会发生，阈值需按业务反复调；同步串在链路上会明显拉长首字时延。\n"
+}

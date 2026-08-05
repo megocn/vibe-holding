@@ -1,0 +1,11 @@
+{
+  "id": "e-mintlify-alt-gitbook",
+  "from": "mintlify",
+  "to": "gitbook",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "托管文档两类：Mintlify 偏开发者与 API 文档，GitBook 偏协作写作与权限"
+}

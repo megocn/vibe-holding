@@ -1,0 +1,11 @@
+{
+  "id": "e-tavily-igw-langchain",
+  "from": "tavily",
+  "to": "langchain",
+  "type": "integrates_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "以现成检索工具的形式接入编排框架，是「先搜再答」链路的常见默认项"
+}

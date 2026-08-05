@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "data",
+    "etl",
+    "sync",
+    "domestic",
+    "oss"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "单机架构不能横向扩展，超大表需手工切分",
+    "上游更新节奏放缓，新插件多靠社区分支",
+    "不含调度与实时 CDC，需另配组件"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/alibaba/DataX"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "datax",
+  "name": "DataX",
+  "category": "db-pipeline",
+  "subcategory": "elt-connector",
+  "oneLiner": "阿里开源离线同步 · 单进程多线程 · Reader/Writer 插件式 · 不含调度",
+  "officialUrl": "https://github.com/alibaba/DataX",
+  "descriptionMd": "DataX 是阿里开源的离线数据同步工具，以单进程多线程把源端读插件与目标端写插件拼起来，一份配置即一个作业，部署极轻、跑批稳定，在国内传统数仓迁移场景里沉淀很深。\n\n要在内网做库到库的定时全量或分片增量同步、且已有现成调度系统时用它；实时变更捕获与 SaaS 数据接入不在其覆盖范围。\n\n单机架构无法横向扩展，超大表需自己切分并发；仓库更新节奏放缓，新数据源插件多来自社区分支。\n",
+  "vendorId": "alibaba"
+}

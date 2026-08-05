@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD",
+    "notes": "按雇员/承包商人月计费，以官网报价为准"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "eor",
+    "remote-work",
+    "global-hiring",
+    "payroll"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "企业级薪资与本地 HR 服务深度弱于老牌方案",
+    "各国福利与覆盖情况差异大，不要按宣传页默认全球一致"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.oysterhr.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "oyster-hr",
+  "name": "Oyster",
+  "category": "global-hire",
+  "subcategory": "eor",
+  "oneLiner": "远程优先小团队向 EOR · 自助流程轻 · 本地福利与承包商合规",
+  "officialUrl": "https://www.oysterhr.com",
+  "descriptionMd": "Oyster 是面向分布式团队的全球雇佣平台，提供 EOR 代雇、承包商合规与本地福利方案，产品语境偏「远程优先的小团队也能合规地跨国雇人」。\n\n早期公司要在少数几个国家招远程同事、更看重上手成本与自助流程时评估；如果是多国实体、要把工资单统一收敛成报表，偏企业级的薪资方案更合适。\n\n企业级薪资深度与本地 HR 服务不如老牌方案；覆盖国家、福利细节与费用形态以官方最新政策为准，勿按宣传页默认全球一致。\n",
+  "vendorId": "oyster-hr-inc"
+}

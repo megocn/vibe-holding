@@ -1,0 +1,11 @@
+{
+  "id": "e-plain-com-int-linear",
+  "from": "plain-com",
+  "to": "linear",
+  "type": "integrates_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "支持会话可转成研发问题单并回写状态，闭合客户反馈环"
+}

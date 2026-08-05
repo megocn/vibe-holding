@@ -1,0 +1,11 @@
+{
+  "id": "e-promptfoo-alt-deepeval",
+  "from": "promptfoo",
+  "to": "deepeval",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "YAML 配置用例 vs pytest 断言心智"
+}

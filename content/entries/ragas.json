@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "eval",
+    "rag",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "换裁判模型后历史分数不可横比",
+    "只评 RAG 语义质量，不等于业务效果"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/explodinggradients/ragas"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "ragas",
+  "name": "Ragas",
+  "category": "ai-eval",
+  "subcategory": "rag-eval",
+  "oneLiner": "RAG 专用指标 · 忠实度/相关性打分；依赖裁判模型",
+  "officialUrl": "https://github.com/explodinggradients/ragas",
+  "descriptionMd": "Ragas 是面向检索增强生成的评测库，围绕忠实度、答案相关性、上下文精确率与召回率等指标给 RAG 链路打分，可无参考答案运行。\n\n已经搭起 RAG、要判断「是检索差还是生成差」时用它做分层归因；常与 LlamaIndex、LangChain 的评测流水线搭配。\n\n指标依赖裁判模型，换模型会让分数不可比；只覆盖 RAG 语义质量，端到端业务效果仍要另测。\n"
+}

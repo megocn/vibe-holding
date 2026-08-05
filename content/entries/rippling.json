@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD",
+    "notes": "按模块与人数组合计费，以官网报价为准"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "eor",
+    "hr",
+    "payroll",
+    "it-management"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "模块化售卖，开通越多报价越高，需先算总账",
+    "员工数据模型绑定深，后续迁移成本高"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.rippling.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "rippling",
+  "name": "Rippling",
+  "category": "global-hire",
+  "subcategory": "unified-hr",
+  "oneLiner": "HR+IT+财务统一中台 · 全球雇佣只是其中一模块 · 入职即配号发设备",
+  "officialUrl": "https://www.rippling.com",
+  "descriptionMd": "Rippling 把人事、IT 设备与账号权限、财务支出统一到一套员工数据中台，全球雇佣与薪资是其中一个模块：员工入职即自动开通账号、寄送设备并配好权限。\n\n当员工全生命周期（账号、设备、报销）本身就是核心痛点、跨境雇佣只是顺带需求时评估；只要一两个国家的 EOR，专做 EOR 的平台更轻更快。\n\n模块化售卖，实际报价随开通模块累加；深度绑定其员工数据模型后迁移成本高，跨境雇佣的国家覆盖以官方最新政策为准。\n",
+  "vendorId": "rippling-inc"
+}

@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "notes": "自托管免费；官方云托管另计"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cms",
+    "headless",
+    "open-source",
+    "typescript"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "内容模型改动需改代码并做迁移，运营侧无法自助扩字段。",
+    "自托管意味着数据库、备份与升级全部自担。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://payloadcms.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "payload-cms",
+  "name": "Payload CMS",
+  "category": "collab-cms",
+  "subcategory": "headless-cms",
+  "oneLiner": "TypeScript 配置即模型 · 跑在 Next.js 内 · 自托管开源",
+  "officialUrl": "https://payloadcms.com",
+  "descriptionMd": "Payload 是 TypeScript 原生的开源 Headless CMS，内容模型用代码声明，后台与接口可直接跑在 Next.js 应用内部，数据落在自己的 Postgres 或 MongoDB。\n\n已用 Next.js、希望内容后台与业务代码同仓同部署、且要求数据自持时评估；与 Strapi、Directus 属同层的自托管选项。\n\n运维与升级由自己承担；模型改动走代码与迁移而非后台点选，非技术同事无法自助加字段。\n",
+  "vendorId": "payload-inc",
+  "githubUrl": "https://github.com/payloadcms/payload",
+  "docsUrl": "https://payloadcms.com/docs"
+}

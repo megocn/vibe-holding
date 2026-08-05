@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "python",
+    "backend",
+    "asgi",
+    "type-safe"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "社区与教程规模远小于 FastAPI",
+    "跨大版本有破坏性变更，升级需读迁移说明"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://litestar.dev"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "litestar",
+  "name": "Litestar",
+  "category": "fw-backend",
+  "subcategory": "python-backend",
+  "oneLiner": "Python ASGI 框架 · 内建 DI 与分层 · FastAPI 的电池齐备对照",
+  "officialUrl": "https://litestar.dev",
+  "descriptionMd": "Litestar 是 Python 的 ASGI 框架，把依赖注入、数据传输对象、分层控制器与 SQLAlchemy 集成做进内核，走类型优先且电池齐备的路线。\n\n已用 FastAPI 但被中大型项目的目录分层与依赖拼装困扰、想要更成体系的框架约定时评估；小脚本级接口仍是 FastAPI 更轻。\n\n社区规模与教程量远小于 FastAPI，排障更依赖官方文档；项目早期改过名且有破坏性变更，升级需通读迁移说明。\n",
+  "vendorId": "litestar-org",
+  "githubUrl": "https://github.com/litestar-org/litestar"
+}

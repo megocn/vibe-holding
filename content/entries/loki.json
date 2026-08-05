@@ -27,7 +27,7 @@
   "region": "overseas",
   "id": "loki",
   "name": "Grafana Loki",
-  "category": "obs-platform",
+  "category": "obs-logs",
   "subcategory": "logging",
   "oneLiner": "只索引 label · 低成本集中日志 · Grafana 同栈",
   "officialUrl": "https://grafana.com/oss/loki/",

@@ -1,0 +1,11 @@
+{
+  "id": "e-substack-alt-kit-convertkit",
+  "from": "substack",
+  "to": "kit-convertkit",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "平台托管带发现流量 vs 名单与付费关系握在自己手里"
+}

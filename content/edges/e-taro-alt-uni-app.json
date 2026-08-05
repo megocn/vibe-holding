@@ -1,0 +1,11 @@
+{
+  "id": "e-taro-alt-uni-app",
+  "from": "taro",
+  "to": "uni-app",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国内小程序跨端两强：Taro 走 React 语法，uni-app 走 Vue 语法与 DCloud 工具闭环"
+}

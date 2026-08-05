@@ -1,0 +1,11 @@
+{
+  "id": "e-rebuff-alt-llm-guard",
+  "from": "rebuff",
+  "to": "llm-guard",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "专攻提示注入 vs 覆盖面更全的双向扫描"
+}

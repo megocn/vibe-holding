@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "gpu",
+    "cloud",
+    "enterprise",
+    "training"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "以合同与预留容量为主，缺少即开即用的自助体验；起量门槛与承诺周期对中小团队不友好。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.coreweave.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "coreweave",
+  "name": "CoreWeave",
+  "category": "ai-gpu-cloud",
+  "subcategory": "gpu-cloud",
+  "oneLiner": "企业级 GPU 云 · 大规模高速互联集群 · 面向长约容量交付",
+  "officialUrl": "https://www.coreweave.com",
+  "descriptionMd": "CoreWeave 面向大模型训练与规模化推理提供专用 GPU 基础设施，强调高速互联、集群编排与容量规划，客户多为模型厂商与大型企业。\n\n训练规模到了需要成百上千张卡、并要谈长期容量与 SLA 时进入选型；十几张卡的实验用零售型平台更省事。\n\n以合同与预留容量为主，缺少即开即用的自助体验；起量门槛与承诺周期对中小团队不友好。\n",
+  "vendorId": "coreweave-inc"
+}

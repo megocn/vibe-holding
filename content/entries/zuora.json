@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD",
+    "notes": "定价不公开，需商务沟通"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "billing",
+    "subscription",
+    "enterprise",
+    "erp"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "实施周期长，通常需外部顾问参与",
+    "对中小团队功能与价格双重过剩"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.zuora.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "zuora",
+  "name": "Zuora",
+  "category": "pay-billing",
+  "subcategory": "subscription",
+  "oneLiner": "企业级订阅商业化平台 · 合同复杂度上限高；实施周期长",
+  "officialUrl": "https://www.zuora.com",
+  "descriptionMd": "Zuora 面向大型企业的订阅商业化，覆盖报价到收款的全链路：复杂合同条款、分级折扣、多实体多币种、收入确认与 ERP 对接都在其射程内。\n\n上市公司或大型企业、订阅合同条款复杂且要与 ERP、CRM 打通，审计口径不能有含糊时才值得考虑。\n\n实施周期以季度计，通常需要外部顾问参与；对中小团队而言功能与价格都严重过剩，属于典型的杀鸡用牛刀。\n"
+}

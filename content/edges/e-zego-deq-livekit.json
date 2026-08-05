@@ -1,0 +1,11 @@
+{
+  "id": "e-zego-deq-livekit",
+  "from": "zego",
+  "to": "livekit",
+  "type": "domestic_equivalent_of",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国内 RTC SDK 与场景组件 vs 海外开源自托管方案，交付形态与计费完全不同"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-apache-seatunnel-alt-datax",
+  "from": "apache-seatunnel",
+  "to": "datax",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同为国产同步工具：SeaTunnel 可分布式并支持流与 CDC，DataX 是单进程离线跑批"
+}

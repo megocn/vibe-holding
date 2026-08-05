@@ -1,0 +1,11 @@
+{
+  "id": "e-debezium-cuw-apache-flink",
+  "from": "debezium",
+  "to": "apache-flink",
+  "type": "commonly_used_with",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "变更事件进流处理引擎做实时宽表与实时数仓，是实时链路的标准两段"
+}

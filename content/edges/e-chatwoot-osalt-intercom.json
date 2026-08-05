@@ -1,0 +1,11 @@
+{
+  "id": "e-chatwoot-osalt-intercom",
+  "from": "chatwoot",
+  "to": "intercom",
+  "type": "open_source_alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "自托管换数据自持与去席位计费，代价是运维与 AI 能力差距"
+}

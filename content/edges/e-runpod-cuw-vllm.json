@@ -1,0 +1,11 @@
+{
+  "id": "e-runpod-cuw-vllm",
+  "from": "runpod",
+  "to": "vllm",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "自建推理的典型组合：在租来的卡上跑高吞吐 serving，成本按机时算"
+}

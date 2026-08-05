@@ -27,7 +27,7 @@
   "region": "overseas",
   "id": "strapi",
   "name": "Strapi",
-  "category": "baas-platform",
+  "category": "collab-cms",
   "subcategory": "headless-cms",
   "oneLiner": "Node Headless CMS · 可定制 content types · Cloud/自托管可选",
   "officialUrl": "https://strapi.io",

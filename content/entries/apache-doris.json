@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "olap",
+    "database",
+    "mpp",
+    "open-source"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "节点角色与副本规划需前置设计",
+    "版本迭代快，升级需回归验证"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://doris.apache.org"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "both",
+  "id": "apache-doris",
+  "name": "Apache Doris",
+  "category": "db-analytics",
+  "subcategory": "olap-engine",
+  "oneLiner": "MPP 实时数仓 · MySQL 协议直连 · 国产起源的 Apache 项目",
+  "officialUrl": "https://doris.apache.org",
+  "descriptionMd": "Apache Doris 起源于百度 Palo，是 MPP 架构的开源实时分析数据库，对外兼容 MySQL 协议与语法，内置多种数据模型与物化视图，在国内有较厚的社区与商业支持。\n\n既要高并发点查又要实时聚合、希望沿用 MySQL 客户端与既有 BI 连接时评估。\n\n前后端节点角色与副本布局需要提前规划；版本迭代快，生产升级务必先在预发环境验证兼容性。\n"
+}

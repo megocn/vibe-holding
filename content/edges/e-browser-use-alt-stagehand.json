@@ -1,0 +1,11 @@
+{
+  "id": "e-browser-use-alt-stagehand",
+  "from": "browser-use",
+  "to": "stagehand",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "全流程交给模型自主决策 vs 保留 Playwright 代码、只在易变处插自然语言"
+}

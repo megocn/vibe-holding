@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "data",
+    "orchestration",
+    "python",
+    "oss"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "资产模型与既有 DAG 思路不同，迁移非逐条搬运",
+    "集成组件广度不及 Airflow"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://dagster.io",
+    "https://github.com/dagster-io/dagster"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "dagster",
+  "name": "Dagster",
+  "category": "db-pipeline",
+  "subcategory": "orchestration",
+  "oneLiner": "以数据资产为中心的编排 · 内建血缘与新鲜度 · 本地可测试",
+  "officialUrl": "https://dagster.io",
+  "descriptionMd": "Dagster 把编排的核心从「任务」换成「数据资产」：声明每张表由什么产出、依赖谁，平台据此推导血缘、按需物化并展示新鲜度，配套类型系统与较好的本地测试体验。\n\n关心数据资产血缘与新鲜度、希望编排层本身就能回答「这张表怎么来的」时，作为 Airflow 的现代对照评估，与 dbt 组合尤其顺手。\n\n资产模型需要重构既有 DAG 思路，迁移不是逐条搬运；集成组件的广度仍不及 Airflow。\n",
+  "vendorId": "dagster-labs"
+}

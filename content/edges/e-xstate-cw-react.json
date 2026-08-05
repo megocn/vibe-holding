@@ -1,0 +1,11 @@
+{
+  "id": "e-xstate-cw-react",
+  "from": "xstate",
+  "to": "react",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "核心与框架无关，React 绑定把机器接进组件；复杂流程用它替代散落的布尔标志"
+}

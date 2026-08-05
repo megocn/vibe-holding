@@ -1,0 +1,11 @@
+{
+  "id": "e-hf-trl-cuw-hf-peft",
+  "from": "hf-trl",
+  "to": "hf-peft",
+  "type": "commonly_used_with",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同一生态的两层：TRL 决定用什么后训练算法，PEFT 决定改模型的哪部分参数"
+}

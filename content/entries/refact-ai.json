@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "code-completion",
+    "open-source",
+    "self-hosted"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "自托管需自备 GPU 与日常运维",
+    "开源版与云端档能力不等价，商用前核对协议"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://refact.ai"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "refact-ai",
+  "name": "Refact.ai",
+  "category": "coding-completion",
+  "subcategory": "self-hosted-oss",
+  "oneLiner": "开源可自托管 · 补全/聊天/Agent 同一插件 · 支持自有模型",
+  "officialUrl": "https://refact.ai",
+  "descriptionMd": "Refact.ai 是开源的编辑器内 AI 栈：补全、聊天与 Agent 收在同一个插件里，服务端可以自托管，也支持接自有模型、在私有代码上做适配。\n\n代码不能出内网、又想要一套较完整的插件体验时评估；只要最省事的托管补全则用 Copilot 一类，纯补全后端可对照 Tabby。\n\n自托管要自备 GPU 与运维；开源版与云端付费档能力边界不同，商用前核对协议与档位。\n",
+  "vendorId": "refact-ai-inc",
+  "githubUrl": "https://github.com/smallcloudai/refact"
+}

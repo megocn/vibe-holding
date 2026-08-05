@@ -1,0 +1,11 @@
+{
+  "id": "e-litestar-alt-fastapi",
+  "from": "litestar",
+  "to": "fastapi",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同为 Python ASGI：Litestar 内建 DI 与分层约定，FastAPI 更轻但需自建工程结构"
+}

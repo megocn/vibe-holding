@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "data",
+    "orchestration",
+    "python",
+    "oss"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "自托管需维护调度器、执行器与元数据库",
+    "以任务为中心，数据血缘与质量需外部补齐"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://airflow.apache.org",
+    "https://github.com/apache/airflow"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "apache-airflow",
+  "name": "Apache Airflow",
+  "category": "db-pipeline",
+  "subcategory": "orchestration",
+  "oneLiner": "Python 定义 DAG 的调度中枢 · 算子生态最广 · 以任务而非数据资产为中心",
+  "officialUrl": "https://airflow.apache.org",
+  "descriptionMd": "Apache Airflow 用 Python 代码定义有向无环图来编排批处理任务，调度、重试、回填与依赖管理成熟，算子与 Provider 生态覆盖主流云与数据组件，是数据平台事实上的调度底座。\n\n已有多条批处理链路需要统一调度、依赖关系复杂且团队熟悉 Python 时选它；应用侧的事件触发与后台任务不必用这么重的底座。\n\n自托管需维护调度器、执行器与元数据库，运维成本不低；以任务为中心，数据血缘与质量要靠外部补齐。\n",
+  "vendorId": "apache-software-foundation"
+}

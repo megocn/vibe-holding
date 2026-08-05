@@ -27,7 +27,7 @@
   "region": "overseas",
   "id": "sonarqube",
   "name": "SonarQube",
-  "category": "sec-secrets",
+  "category": "sec-appsec",
   "subcategory": "scanning",
   "oneLiner": "SAST · smell/bug/安全 hotspot · quality gate 可阻断 merge",
   "officialUrl": "https://www.sonarsource.com/products/sonarqube/",

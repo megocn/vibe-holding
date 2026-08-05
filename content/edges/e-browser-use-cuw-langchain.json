@@ -1,0 +1,11 @@
+{
+  "id": "e-browser-use-cuw-langchain",
+  "from": "browser-use",
+  "to": "langchain",
+  "type": "commonly_used_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "常被包成编排框架里的「浏览器工具」，由 LangChain 侧负责多工具调度"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-unsloth-dep-hf-peft",
+  "from": "unsloth",
+  "to": "hf-peft",
+  "type": "depends_on",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "沿用 PEFT 的适配器体系，产出的 LoRA 权重可在通用生态里加载"
+}

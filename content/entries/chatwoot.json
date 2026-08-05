@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "notes": "社区版自托管免费；云版与企业功能按席位计费"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "support",
+    "open-source",
+    "self-hosted",
+    "omnichannel"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "自托管需自理升级、附件存储与各渠道凭据轮换。",
+    "部分能力属商业版授权，社区版边界需提前核对。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.chatwoot.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "chatwoot",
+  "name": "Chatwoot",
+  "category": "collab-support",
+  "subcategory": "open-source-support",
+  "oneLiner": "开源全渠道客服 · 可自托管数据自持 · Rails 栈需运维",
+  "officialUrl": "https://www.chatwoot.com",
+  "descriptionMd": "Chatwoot 是开源的客户互动平台：网站聊天、邮件与主流社交渠道汇进共享收件箱，带团队分派、自动化与知识库，可自托管也可用官方云。\n\n对客服会话数据落地有要求、或想避开按席位长期付费的团队评估；愿意承担 Rails 与依赖服务的运维成本时收益最大。\n\n自托管要自理升级、存储与消息渠道凭据；部分高级能力属商业版授权，社区版能力边界需先核对。\n",
+  "vendorId": "chatwoot-inc",
+  "githubUrl": "https://github.com/chatwoot/chatwoot",
+  "docsUrl": "https://www.chatwoot.com/docs"
+}

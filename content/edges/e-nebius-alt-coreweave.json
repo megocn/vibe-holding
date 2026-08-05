@@ -1,0 +1,11 @@
+{
+  "id": "e-nebius-alt-coreweave",
+  "from": "nebius",
+  "to": "coreweave",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "欧洲自建机房、满足数据驻留要求 vs 北美为主的规模化 GPU 供给"
+}

@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "state",
+    "react",
+    "redux",
+    "open-source"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "概念与文件层级仍比轻量 store 多；RTK Query 与 TanStack Query 职责重叠，同项目里不建议两套并存。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://redux-toolkit.js.org"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "redux-toolkit",
+  "name": "Redux Toolkit",
+  "category": "oss-state",
+  "subcategory": "state-management",
+  "oneLiner": "Redux 官方标准写法 · slice/immer 去样板 · DevTools 时间旅行",
+  "officialUrl": "https://redux-toolkit.js.org",
+  "descriptionMd": "Redux Toolkit 是 Redux 官方推荐的标准写法：createSlice 收敛 action 与 reducer，内建 Immer 支持「看似可变」的更新，附带 RTK Query 处理服务端数据请求。\n\n多人协作的大型应用、状态变更需要可审计与时间旅行调试时优先；小型应用用它往往显得偏重。\n\n概念与文件层级仍比轻量 store 多；RTK Query 与 TanStack Query 职责重叠，同项目里不建议两套并存。\n",
+  "githubUrl": "https://github.com/reduxjs/redux-toolkit"
+}

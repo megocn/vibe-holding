@@ -1,0 +1,11 @@
+{
+  "id": "e-storyblok-cuw-nuxt",
+  "from": "storyblok",
+  "to": "nuxt",
+  "type": "commonly_used_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "可视化编辑需要前端接入桥接层，Nuxt 生态的对接示例较完整"
+}

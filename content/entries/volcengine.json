@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": true,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "cloud",
+    "iaas",
+    "domestic",
+    "ai"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "通用 IaaS 的区域与产品广度仍在补齐",
+    "部分能力需商务对接，非自助开通"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.volcengine.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "volcengine",
+  "name": "火山引擎",
+  "category": "cloud-iaas",
+  "subcategory": "domestic-hyperscaler",
+  "oneLiner": "字节自用技术外供 · 豆包与推荐/视频链路强；起步较晚",
+  "officialUrl": "https://www.volcengine.com",
+  "descriptionMd": "火山引擎把字节内部的推荐、视频与大模型技术对外输出，豆包系模型、视频云与增长分析是主要抓手，价格策略也较进取。\n\n要用豆包系模型、做内容/视频类业务或看重增长分析工具链时评估；与 volcengine-speech、doubao 系条目同栈。\n\n起步晚于阿里云、腾讯云，通用 IaaS 的区域与产品广度仍在补齐；部分能力需商务对接而非自助开通。\n",
+  "vendorId": "bytedance"
+}

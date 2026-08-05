@@ -1,0 +1,11 @@
+{
+  "id": "e-wu5118-with-baidu-search-console",
+  "from": "wu5118",
+  "to": "baidu-search-console",
+  "type": "commonly_used_with",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "第三方词库挖掘选题 + 百度官方通道提交与看收录，前者不替代后者"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-wechat-miniprogram-iw-wechat-pay",
+  "from": "wechat-miniprogram",
+  "to": "wechat-pay",
+  "type": "integrates_with",
+  "weight": 0.9,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "小程序内交易走微信支付，需商户号与对应类目资质；费率与结算政策以官方最新说明为准"
+}

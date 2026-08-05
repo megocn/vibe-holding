@@ -1,0 +1,11 @@
+{
+  "id": "e-similarweb-with-ga4",
+  "from": "similarweb",
+  "to": "ga4",
+  "type": "commonly_used_with",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "看竞品的估算数据 vs 看自家的真实埋点数据，两者不可互相替代"
+}

@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "test",
+    "python",
+    "open-source",
+    "unit-test"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "fixture 作用域与 conftest 层级容易被滥用成隐式全局状态；插件版本与主版本升级偶有断裂，CI 建议锁定版本。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://docs.pytest.org"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "pytest",
+  "name": "pytest",
+  "category": "oss-testing",
+  "subcategory": "unit-test",
+  "oneLiner": "Python 测试事实标准 · 裸 assert+fixture · 插件生态厚",
+  "officialUrl": "https://docs.pytest.org",
+  "descriptionMd": "pytest 是 Python 生态事实标准的测试框架：用裸 `assert` 写断言、用 fixture 组织依赖与生命周期，参数化与插件（覆盖率、并行、异步、浏览器驱动）覆盖面很广。\n\nPython 服务、脚本或数据管线要写单元与集成测试时的默认起点；标准库 unittest 的用例也能被它直接收集运行，迁移成本低。\n\nfixture 作用域与 conftest 层级容易被滥用成隐式全局状态；插件版本与主版本升级偶有断裂，CI 建议锁定版本。\n",
+  "githubUrl": "https://github.com/pytest-dev/pytest"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-coderabbit-cuw-cursor",
+  "from": "coderabbit",
+  "to": "cursor",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "本机 Agent 快速改完，PR 侧再要一双独立的眼睛"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-redux-toolkit-alt-zustand",
+  "from": "redux-toolkit",
+  "to": "zustand",
+  "type": "alternative_to",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "RTK 有强约定与时间旅行调试、适合多人大仓；Zustand API 极小无 Provider，胜在轻但缺乏统一范式"
+}

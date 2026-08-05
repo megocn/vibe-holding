@@ -1,0 +1,11 @@
+{
+  "id": "e-uni-app-de-react-native",
+  "from": "uni-app",
+  "to": "react-native",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国内一码多端方案：uni-app 以小程序为核心并兼顾 App，RN 只做原生双端"
+}

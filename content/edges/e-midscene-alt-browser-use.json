@@ -1,0 +1,11 @@
+{
+  "id": "e-midscene-alt-browser-use",
+  "from": "midscene",
+  "to": "browser-use",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "字节开源、TS 生态且覆盖安卓并产出可视化报告 vs Python 生态的通用网页 Agent"
+}

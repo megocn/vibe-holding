@@ -1,0 +1,11 @@
+{
+  "id": "e-deel-cuw-wise",
+  "from": "deel",
+  "to": "wise",
+  "type": "commonly_used_with",
+  "weight": 0.5,
+  "confidence": "inferred",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "平台负责雇佣合规与出账，个人侧常再用多币种账户落地收款；具体可用提现渠道以平台为准"
+}

@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "static-site",
+    "go",
+    "docs",
+    "blog"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "Go 模板语法上手心智与前端生态差异大",
+    "主题质量参差，深度定制需读主题源码"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://gohugo.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "hugo",
+  "name": "Hugo",
+  "category": "fw-docs-site",
+  "subcategory": "static-site-generator",
+  "oneLiner": "Go 静态站生成器 · 构建极快 · 万页站点友好 · 模板语法独特",
+  "officialUrl": "https://gohugo.io",
+  "descriptionMd": "Hugo 是用 Go 编写的静态站生成器，单二进制、无运行时依赖，万级页面也能在数秒内构建完成，内容与主题高度依赖它自有的模板语法与目录约定。\n\n内容量大的文档站、博客或站群，追求构建速度与部署简单时选；需要在页面里做复杂交互则考虑前端框架系方案。\n\nGo 模板语法与前端组件化心智差异大，交互需自行写脚本；主题质量参差，深度定制往往要通读主题源码。\n",
+  "vendorId": "hugo-team",
+  "githubUrl": "https://github.com/gohugoio/hugo"
+}

@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cross-platform",
+    "hybrid",
+    "webview",
+    "ui"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "WebView 渲染，复杂交互与长列表性能有天花板",
+    "企业级构建与部分配套工具需付费"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://ionicframework.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "ionic",
+  "name": "Ionic",
+  "category": "fw-cross-platform",
+  "subcategory": "mobile-hybrid",
+  "oneLiner": "Web 技术做移动 UI · 组件贴合平台观感 · 配 Capacitor 上原生",
+  "officialUrl": "https://ionicframework.com",
+  "descriptionMd": "Ionic 提供一整套贴近 iOS/Android 观感的 Web 组件，可与 Angular、React、Vue 任一框架搭配，再交由同团队的 Capacitor 打包为原生应用或 PWA。\n\n团队是 Web 背景、界面以表单与列表为主、要快速出移动端时选；重动效与图形性能的场景看 Flutter 或 React Native。\n\n本质仍是 WebView 渲染，长列表与复杂手势体验有天花板；企业级构建与部分工具属付费服务。\n",
+  "vendorId": "ionic-team",
+  "githubUrl": "https://github.com/ionic-team/ionic-framework"
+}

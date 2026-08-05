@@ -1,0 +1,11 @@
+{
+  "id": "e-socket-io-osalt-pusher",
+  "from": "socket-io",
+  "to": "pusher",
+  "type": "open_source_alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "自建 Node.js 连接层 vs 托管频道服务；扩容与粘性会话需自理"
+}

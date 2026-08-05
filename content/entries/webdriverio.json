@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "test",
+    "e2e",
+    "webdriver",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "配置文件与插件体系较重，调试链路比一体化框架长；跨协议行为差异需要在目标环境上实测确认。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://webdriver.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "webdriverio",
+  "name": "WebdriverIO",
+  "category": "oss-testing",
+  "subcategory": "e2e-test",
+  "oneLiner": "WebDriver/DevTools 双协议 · Web 与移动端共用一套 · 服务插件多",
+  "officialUrl": "https://webdriver.io",
+  "descriptionMd": "WebdriverIO 同时支持 W3C WebDriver 与 DevTools 协议，一套 API 覆盖桌面浏览器与 Appium 驱动的移动端，测试服务、报告器与云端设备平台以插件形式接入。\n\n需要真机/云设备矩阵、或 Web 与原生 App 共用一套自动化技术栈时评估；纯 Web E2E 用 Playwright 上手更快。\n\n配置文件与插件体系较重，调试链路比一体化框架长；跨协议行为差异需要在目标环境上实测确认。\n",
+  "githubUrl": "https://github.com/webdriverio/webdriverio"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-flet-bo-flutter",
+  "from": "flet",
+  "to": "flutter",
+  "type": "built_on",
+  "weight": 0.85,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Flet 界面最终由 Flutter 渲染，用 Python 描述控件树"
+}

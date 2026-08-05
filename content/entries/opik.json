@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "eval",
+    "observability",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "评测与追踪兼顾，单项深度不及专精工具",
+    "自托管需自担运维与升级"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/comet-ml/opik"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "opik",
+  "name": "Opik",
+  "category": "ai-eval",
+  "subcategory": "eval-tracing",
+  "oneLiner": "评测与追踪一体 · Comet 开源；可自托管",
+  "officialUrl": "https://github.com/comet-ml/opik",
+  "descriptionMd": "Opik 是 Comet 开源的 LLM 评测与追踪工具，既能记录线上调用轨迹，也能对数据集批量跑评测指标，支持自托管部署。\n\n希望「线上追踪」和「离线评测」共用一套数据与界面、又要能私有化部署时评估；与 Langfuse 属同层可直接横比。\n\n两头都做意味着两头都不如专精工具深；自托管版本的运维与升级成本要计入，托管版则要评估数据出境。\n"
+}

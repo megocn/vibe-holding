@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "notes": "开源自托管；另有商业版扩展"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "realtime",
+    "websocket",
+    "open-source",
+    "self-host"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "连接层容量规划、灰度与故障演练需自行承担",
+    "令牌鉴权需自行设计密钥轮换与过期策略"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://centrifugal.dev"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "centrifugo",
+  "name": "Centrifugo",
+  "category": "msg-realtime",
+  "subcategory": "self-hosted-pubsub",
+  "oneLiner": "自托管实时消息服务器 · 语言无关 · 靠 Redis 横向扩展",
+  "officialUrl": "https://centrifugal.dev",
+  "descriptionMd": "Centrifugo 是用 Go 写的独立实时消息服务器，与业务语言解耦：后端通过 HTTP 或 gRPC 发布，前端用其 SDK 订阅频道，支持在线状态、历史消息与频道权限，多节点靠 Redis 一类代理打通。\n\n后端不是 Node.js、又想自建长连接层省下托管费用时是常见选择；不愿运维连接层就用 Pusher 或 Ably，需要协同数据结构则叠 Yjs。\n\n连接层的容量规划、灰度与故障演练都要自己做；鉴权采用签名令牌模式，接入时要把密钥轮换与过期策略一并设计好。\n",
+  "githubUrl": "https://github.com/centrifugal/centrifugo"
+}

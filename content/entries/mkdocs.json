@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "docs",
+    "python",
+    "static-site",
+    "markdown"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "页面内无法像 MDX 那样嵌入组件",
+    "Material 主题部分高级特性仅赞助者可用"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.mkdocs.org",
+    "https://squidfunk.github.io/mkdocs-material/"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "mkdocs",
+  "name": "MkDocs",
+  "category": "fw-docs-site",
+  "subcategory": "docs-generator",
+  "oneLiner": "Python 静态文档生成器 · 一份 YAML 配置 · Material 主题近乎标配",
+  "officialUrl": "https://www.mkdocs.org",
+  "descriptionMd": "MkDocs 用 Markdown 与一份 YAML 配置生成静态文档站，本体极简，实际项目几乎都会搭配 Material for MkDocs 主题来获得导航、搜索与版本切换等能力。\n\nPython 项目文档、运维手册或内部知识库要低成本起站、且不希望引入 Node 工具链时选。\n\n交互与组件化能力弱，页面里无法像 MDX 那样直接写组件；Material 主题的部分高级特性仅对赞助者开放。\n",
+  "vendorId": "mkdocs-team",
+  "githubUrl": "https://github.com/mkdocs/mkdocs"
+}

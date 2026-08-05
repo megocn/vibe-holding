@@ -1,0 +1,11 @@
+{
+  "id": "e-dgraph-alt-neo4j",
+  "from": "dgraph",
+  "to": "neo4j",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "GraphQL 优先接口 + 自有 DQL 与分布式分片，换掉了 Cypher 与图算法工具链"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-starrocks-alt-apache-doris",
+  "from": "starrocks",
+  "to": "apache-doris",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同源分叉：StarRocks 侧重向量化与湖上直查，Doris 留在 Apache 社区演进"
+}

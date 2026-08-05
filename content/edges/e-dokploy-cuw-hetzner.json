@@ -1,0 +1,11 @@
+{
+  "id": "e-dokploy-cuw-hetzner",
+  "from": "dokploy",
+  "to": "hetzner",
+  "type": "commonly_used_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同上：把独服变成可 git 部署的平台"
+}

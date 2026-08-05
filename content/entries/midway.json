@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "nodejs",
+    "backend",
+    "domestic",
+    "serverless"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "中文社区为主，海外资料与第三方组件较少",
+    "Serverless 形态与阿里云函数计算耦合较深"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://midwayjs.org"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "midway",
+  "name": "Midway",
+  "category": "fw-backend",
+  "subcategory": "node-backend",
+  "oneLiner": "阿里开源 Node 企业框架 · IoC 装饰器分层 · 兼顾函数计算形态",
+  "officialUrl": "https://midwayjs.org",
+  "descriptionMd": "Midway 是阿里巴巴开源的 Node.js 企业级框架，提供依赖注入容器、装饰器路由与组件体系，同一套代码可输出常驻服务或函数计算形态，与阿里云生态衔接紧密。\n\n国内团队做中后台 BFF、需要企业级分层约定，或想让服务与 Serverless 共用代码时评估；纯轻量 API 用 Express/Koa 更省事。\n\n生态与文档以中文社区为主，海外资料与第三方组件较少；与阿里云函数计算耦合较深，换云需评估适配成本。\n",
+  "vendorId": "alibaba",
+  "githubUrl": "https://github.com/midwayjs/midway"
+}

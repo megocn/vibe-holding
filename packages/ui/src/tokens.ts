@@ -82,7 +82,8 @@ export const motion = {
 } as const;
 
 export const fonts = {
-  display: "'LXGW ZhenKai', 'LXGW WenKai', system-ui, sans-serif",
-  body: "'LXGW WenKai', system-ui, 'PingFang SC', sans-serif",
-  mono: "'Maple Mono', 'JetBrains Mono', ui-monospace, monospace",
+  display:
+    "'LXGW ZhenKai', 'Songti SC', 'STSong', 'Noto Serif SC', system-ui, 'PingFang SC', serif",
+  body: "'LXGW WenKai', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', system-ui, sans-serif",
+  mono: "'Maple Mono', 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace",
 } as const;

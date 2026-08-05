@@ -1,0 +1,11 @@
+{
+  "id": "e-stripe-billing-part-of-stripe",
+  "from": "stripe-billing",
+  "to": "stripe",
+  "type": "part_of",
+  "weight": 0.9,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Stripe 支付之上的订阅计费模块"
+}

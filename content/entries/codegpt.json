@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "code-completion",
+    "multi-model",
+    "plugin"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "同名项目多，确认是哪条产品线再采购",
+    "体验随所接模型波动，账单走自有 Key"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://codegpt.co"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "codegpt",
+  "name": "CodeGPT",
+  "category": "coding-completion",
+  "subcategory": "multi-model-plugin",
+  "oneLiner": "模型自选的薄插件 · 可挂自有 Key 或本机模型 · 多编辑器",
+  "officialUrl": "https://codegpt.co",
+  "descriptionMd": "CodeGPT 是主打「模型自选」的编辑器插件：在 VS Code、JetBrains 里接不同厂商的模型或本机模型，做补全、解释与局部小改，把选模型的权力交回用户。\n\n已有自己的 API Key 或本地模型、只需要一层薄外壳时评估；要深度 Agent 与多文件改造仍看独立 IDE 或 CLI Agent。\n\n同名项目不少（社区版 JetBrains 插件等），落地前确认是哪条产品线；体验随所接模型波动，token 账单由自有 Key 承担。\n",
+  "vendorId": "codegpt-inc"
+}

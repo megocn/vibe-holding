@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "python",
+    "backend",
+    "wsgi",
+    "micro-framework"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "同步 WSGI 模型在高并发 I/O 场景需额外部署调优",
+    "扩展生态质量参差，需自行核对维护活跃度"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://flask.palletsprojects.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "flask",
+  "name": "Flask",
+  "category": "fw-backend",
+  "subcategory": "python-backend",
+  "oneLiner": "Python WSGI 微框架 · 内核只留路由与模板 · 能力靠扩展自拼",
+  "officialUrl": "https://flask.palletsprojects.com",
+  "descriptionMd": "Flask 是 Python 的 WSGI 微框架，核心只保留路由、请求上下文与模板渲染，数据库、表单、鉴权等一律交给 Flask-SQLAlchemy 一类扩展按需拼装。\n\n适合小型服务、内部工具与既有 Python 栈的延续；要原生异步与自动生成的接口文档看 FastAPI，要一站式后台与 ORM 看 Django。\n\n同步模型下承接高并发要靠多进程部署或改走 ASGI 适配；扩展质量参差，拼装口径不统一会推高长期维护成本。\n",
+  "vendorId": "pallets-projects",
+  "githubUrl": "https://github.com/pallets/flask"
+}

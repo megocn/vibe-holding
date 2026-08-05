@@ -1,0 +1,11 @@
+{
+  "id": "e-victoriametrics-cuw-prometheus",
+  "from": "victoriametrics",
+  "to": "prometheus",
+  "type": "commonly_used_with",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "常作 Prometheus 的远端长期存储与跨集群统一查询层，采集仍由 Prom 完成"
+}

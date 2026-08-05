@@ -1,0 +1,11 @@
+{
+  "id": "e-janusgraph-dep-elasticsearch",
+  "from": "janusgraph",
+  "to": "elasticsearch",
+  "type": "depends_on",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "全文与混合索引需外接搜索引擎，索引后端属于必选依赖而非可选增强"
+}

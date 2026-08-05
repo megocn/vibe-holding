@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "email",
+    "saas",
+    "lifecycle",
+    "developer"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "分群与多渠道编排能力弱于企业级平台。",
+    "验证码类高频事务邮件建议另走专用通道。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://loops.so"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "loops-so",
+  "name": "Loops",
+  "category": "growth-lifecycle",
+  "subcategory": "lifecycle-automation",
+  "oneLiner": "面向 SaaS 的轻量邮件旅程 · 事件触发友好 · 界面克制易上手",
+  "officialUrl": "https://loops.so",
+  "descriptionMd": "Loops 是面向现代 SaaS 的邮件平台，把订阅名单、生命周期旅程与产品内触发邮件放在同一处，界面简洁，API 与事件触发对开发者友好。\n\n独立开发者或小型 SaaS 想用一套工具同时管好欢迎序列、留存触达与产品更新通知，又不愿配置传统营销平台那套复杂旅程时评估。\n\n深度分群与多渠道编排能力不及企业级平台；高频验证码类邮件仍建议走专用事务通道，避免拖累营销域名信誉。\n",
+  "vendorId": "loops-inc"
+}

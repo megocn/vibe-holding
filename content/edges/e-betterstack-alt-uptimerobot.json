@@ -1,0 +1,11 @@
+{
+  "id": "e-betterstack-alt-uptimerobot",
+  "from": "betterstack",
+  "to": "uptimerobot",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "日志、告警与值班一体 vs 只做拨测与基础状态页"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-deepsource-alt-codacy",
+  "from": "deepsource",
+  "to": "codacy",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "偏问题收敛与自动修复 vs 偏多语聚合与治理面板"
+}

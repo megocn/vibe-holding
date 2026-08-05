@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "captcha",
+    "bot",
+    "domestic",
+    "security"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "打码平台与众包接单能绕过验证，高价值场景需叠加设备指纹与风控。",
+    "海外节点覆盖不如国际厂商，出海业务要按目标市场实测延迟。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.geetest.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "geetest",
+  "name": "极验 GeeTest",
+  "category": "sec-bot-captcha",
+  "subcategory": "captcha-widget",
+  "oneLiner": "国内行为验证码 · 滑块/点选多形态 · 境内节点稳 · 本地化支持",
+  "officialUrl": "https://www.geetest.com",
+  "descriptionMd": "极验（GeeTest）是国内使用面较广的行为验证服务，提供滑动拼图、文字点选、无感验证等多种形态，服务节点与资质在境内，同时也有面向出海业务的海外节点。\n\n国内 App 与网站要在注册、登录、抢购等环节挡住脚本，且要求验证资源加载稳定、能对接本地化风控与人工支持时选它，用来替代加载不畅的 reCAPTCHA。\n\n它只挡自动化，打码平台与真人众包仍能穿透，关键场景要叠加设备指纹与业务规则；海外节点的覆盖与延迟需按目标市场实测。\n",
+  "vendorId": "geetest-inc"
+}

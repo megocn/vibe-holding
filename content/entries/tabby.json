@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "code-completion",
+    "open-source",
+    "self-hosted"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "同名产品多（终端工具 Tabby 等），检索与文档需带 TabbyML 限定",
+    "补全质量随开源模型与显卡预算浮动"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.tabbyml.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "tabby",
+  "name": "Tabby（TabbyML）",
+  "category": "coding-completion",
+  "subcategory": "self-hosted-oss",
+  "oneLiner": "自托管补全服务 · 单机 GPU 即可起 · 主打代码不外传",
+  "officialUrl": "https://www.tabbyml.com",
+  "descriptionMd": "Tabby 是自托管的代码补全服务：一台带 GPU 的机器起服务，编辑器只装轻量插件连过去，提示与代码不出自有网络，也可挂仓库索引补上下文。\n\n把「代码不出内网」当硬约束、又不想走企业采购流程时的第一批候选；要开箱即用的多模型体验仍看托管产品。\n\n补全手感取决于所选开源模型与显卡预算，别照 Copilot 预期；集群化与权限治理要自建。\n",
+  "vendorId": "tabbyml",
+  "githubUrl": "https://github.com/TabbyML/tabby"
+}

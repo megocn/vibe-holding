@@ -1,0 +1,11 @@
+{
+  "id": "e-apache-doris-domeq-clickhouse",
+  "from": "apache-doris",
+  "to": "clickhouse",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "国产起源的 MPP 实时数仓：MySQL 协议直连、高并发点查更顺手"
+}

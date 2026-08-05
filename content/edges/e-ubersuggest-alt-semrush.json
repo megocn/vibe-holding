@@ -1,0 +1,11 @@
+{
+  "id": "e-ubersuggest-alt-semrush",
+  "from": "ubersuggest",
+  "to": "semrush",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "低价入门档粗筛关键词 vs 全渠道营销套件；数据深度差一个量级"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-maestro-cw-react-native",
+  "from": "maestro",
+  "to": "react-native",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "黑盒驱动，RN 与 Flutter 产物都能跑，不要求改动应用代码"
+}

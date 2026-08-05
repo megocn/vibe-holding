@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "seo",
+    "keyword",
+    "budget",
+    "starter"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "关键词与外链数据深度弱于头部套件，适合粗筛不适合深挖。",
+    "估算值波动较大，建议与第二数据源交叉验证。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://neilpatel.com/ubersuggest/"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "ubersuggest",
+  "name": "Ubersuggest",
+  "category": "growth-seo",
+  "subcategory": "seo-suite",
+  "oneLiner": "轻量关键词与站点体检 · 低价订阅或买断 · 个人站入门够用",
+  "officialUrl": "https://neilpatel.com/ubersuggest/",
+  "descriptionMd": "Ubersuggest 由 Neil Patel 团队运营，把关键词建议、内容创意、站点体检与基础排名跟踪打包成低价工具，界面简单、上手门槛低，定位是 SEO 套件里的入门档。\n\n个人站、独立开发者或早期项目只需要判断「有没有搜索量、页面有没有明显毛病」，又不愿承担头部套件订阅时评估。\n\n数据深度与更新频率明显弱于头部套件；站内营销内容较重，别把它的估算值当作唯一决策依据。\n",
+  "vendorId": "neil-patel-digital"
+}

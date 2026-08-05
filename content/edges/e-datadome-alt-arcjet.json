@@ -1,0 +1,11 @@
+{
+  "id": "e-datadome-alt-arcjet",
+  "from": "datadome",
+  "to": "arcjet",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "DataDome 是边缘企业级流量决策；Arcjet 是写在应用代码里的开发者向 SDK"
+}

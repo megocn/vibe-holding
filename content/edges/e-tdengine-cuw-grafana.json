@@ -1,0 +1,11 @@
+{
+  "id": "e-tdengine-cuw-grafana",
+  "from": "tdengine",
+  "to": "grafana",
+  "type": "commonly_used_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "通过数据源插件在 Grafana 出设备与产线大盘，是国内工业监控常见搭配"
+}

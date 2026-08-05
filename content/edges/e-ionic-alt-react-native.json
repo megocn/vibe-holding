@@ -1,0 +1,11 @@
+{
+  "id": "e-ionic-alt-react-native",
+  "from": "ionic",
+  "to": "react-native",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "WebView 渲染的混合方案 vs 原生控件渲染，性能与开发心智取舍不同"
+}

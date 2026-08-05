@@ -1,0 +1,11 @@
+{
+  "id": "e-aizhan-alt-wu5118",
+  "from": "aizhan",
+  "to": "wu5118",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "两家中文 SEO 数据源，权重口径不同，建议交叉验证而非只信一家"
+}

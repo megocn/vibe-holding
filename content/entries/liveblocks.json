@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD",
+    "notes": "按月活协同用户与房间数分档"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "realtime",
+    "collaboration",
+    "crdt",
+    "saas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "上层抽象绑定其房间与数据模型，替换需重写协同层",
+    "按月活协同用户计费，规模扩大后成本需重新测算"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://liveblocks.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "liveblocks",
+  "name": "Liveblocks",
+  "category": "msg-realtime",
+  "subcategory": "collaboration",
+  "oneLiner": "多人协同现成积木 · 光标/评论/通知开箱 · 前端框架优先",
+  "officialUrl": "https://liveblocks.io",
+  "descriptionMd": "Liveblocks 提供多人协同的上层能力：在线状态与光标、共享存储、评论与通知等做成了现成组件与 Hook，同时可以承载 Yjs 文档，让协同编辑不必从连接层自己搭起。\n\n要在 React 一类前端里快速做出「像 Figma 那样多人在场」的体验时最省时间；只要底层同步算法用 Yjs，只要消息通道用 Pusher 或 Ably。\n\n上层抽象越省事，越绑定其数据模型与房间概念，替换需要重写协同层；按月活协同用户计费，规模上来后要重新测算。\n",
+  "vendorId": "liveblocks-inc"
+}

@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "seo",
+    "market-intel",
+    "competitor",
+    "analytics"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "估算数据对长尾小站误差大，勿当精确口径引用。",
+    "深度报表价格高，免费额度只够看概览。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.similarweb.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "similarweb",
+  "name": "Similarweb",
+  "category": "growth-seo",
+  "subcategory": "traffic-intelligence",
+  "oneLiner": "第三方流量与渠道构成估算 · 竞品行业面板 · 看别人家不看自家",
+  "officialUrl": "https://www.similarweb.com",
+  "descriptionMd": "Similarweb 用第三方数据估算网站与 App 的访问规模、流量来源构成、受众重合与竞品排名，属于「看别人家」的市场情报工具，而不是部署在自己站点上的分析埋点。\n\n做竞品调研、渠道结构判断或行业选型输入时使用；自家站点真实数据请用 GA4/Plausible 一类分析工具，搜索表现回到 Search Console。\n\n数据是模型估算，长尾小站误差尤其大；企业套餐门槛高，免费额度只能看粗粒度概览。\n",
+  "vendorId": "similarweb-inc"
+}

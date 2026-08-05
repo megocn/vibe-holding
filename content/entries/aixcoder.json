@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "ai",
+    "code-completion",
+    "domestic",
+    "self-hosted"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "项目制交付为主，评估周期与投入不低",
+    "效果依赖本地算力与代码库适配，需先试点"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.aixcoder.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "aixcoder",
+  "name": "aiXcoder",
+  "category": "coding-completion",
+  "subcategory": "domestic-plugin",
+  "oneLiner": "重心在私有化部署 · 面向金融/运营商合规 · 补全加代码检索",
+  "officialUrl": "https://www.aixcoder.com",
+  "descriptionMd": "aiXcoder 提供代码补全与生成插件，产品重心是私有化部署：模型与服务落到客户机房，再结合团队代码库做适配，常见于金融、运营商等合规要求高的组织。\n\n国内企业要「模型进机房、过程可审计」的补全能力时纳入候选；个人轻量使用可先看免费插件。\n\n以项目制交付为主，个人档能力相对有限；效果依赖本地算力与代码库适配投入，建议先做小范围试点。\n",
+  "vendorId": "aixcoder-inc"
+}

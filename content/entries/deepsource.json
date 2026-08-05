@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "code-review",
+    "static-analysis",
+    "autofix",
+    "ci"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "自动修复需人工 review 后再合并",
+    "各语言规则覆盖差异大，按主力语言核对"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://deepsource.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "deepsource",
+  "name": "DeepSource",
+  "category": "coding-review",
+  "subcategory": "quality-gate",
+  "oneLiner": "持续静态分析 · 部分规则可自动出修复 PR · 多语覆盖",
+  "officialUrl": "https://deepsource.com",
+  "descriptionMd": "DeepSource 在仓库上持续跑静态分析，把问题按类型收敛成可处理的列表，并能对部分规则直接生成修复提交，减少「只报不修」的负担。\n\n存量代码坏味道多、想用自动化逐步偿还技术债时合适；一次性的架构评审仍要靠人或评审 Agent。\n\n自动修复要 review 后再合，别开全自动；各语言的规则覆盖差异较大，选型前按主力语言核对。\n",
+  "vendorId": "deepsource-inc"
+}

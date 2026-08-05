@@ -1,0 +1,11 @@
+{
+  "id": "e-scaleway-alt-hetzner",
+  "from": "scaleway",
+  "to": "hetzner",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "托管服务更全 vs 裸机性价比更高"
+}

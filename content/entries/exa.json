@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "search",
+    "api",
+    "rag"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "索引覆盖与主流搜索引擎不同，时效性强的查询可能漏结果；检索次数与内容抓取分别计价，需分别测算。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://exa.ai"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "exa",
+  "name": "Exa",
+  "category": "ai-search-api",
+  "subcategory": "neural-search",
+  "oneLiner": "自建神经索引 · 语义找页面并直接给正文 · 检索与取文分开计费",
+  "officialUrl": "https://exa.ai",
+  "descriptionMd": "Exa 不转发通用搜索引擎结果，而是自建面向语义的网页索引：可以按「像这样的页面」检索，也能在一次调用里连正文一起返回，省去二次抓取。\n\n研究型检索、找相似公司或论文、给 RAG 喂长尾网页时表现突出；要的是新闻热词的实时排名，传统 SERP 更对口。\n\n索引覆盖与主流搜索引擎不同，时效性强的查询可能漏结果；检索次数与内容抓取分别计价，需分别测算。\n",
+  "vendorId": "exa-labs"
+}

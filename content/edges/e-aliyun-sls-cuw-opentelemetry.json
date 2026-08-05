@@ -1,0 +1,11 @@
+{
+  "id": "e-aliyun-sls-cuw-opentelemetry",
+  "from": "aliyun-sls",
+  "to": "opentelemetry",
+  "type": "commonly_used_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "以 OTel 协议接入可降低锁仓，采集端保留标准出口便于日后迁移"
+}

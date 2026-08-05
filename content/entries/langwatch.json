@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "eval",
+    "platform",
+    "collaboration"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "数据出本地，合规敏感场景需先确认部署形态",
+    "与已有 LLM 可观测工具职责易重叠"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://langwatch.ai"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "langwatch",
+  "name": "LangWatch",
+  "category": "ai-eval",
+  "subcategory": "eval-platform",
+  "oneLiner": "评测 + 优化闭环 · 面向非工程角色的实验台",
+  "officialUrl": "https://langwatch.ai",
+  "descriptionMd": "LangWatch 把质量监控、评测集与 prompt 优化放在一个平台里，界面友好到产品与运营也能参与调优，同时提供 SDK 接入线上流量。\n\n团队里做 prompt 调优的不只是工程师、需要一个共同看板讨论质量时评估。\n\n平台化意味着数据要出本地，合规敏感场景需先确认部署形态；与已有可观测工具容易职责重叠。\n"
+}

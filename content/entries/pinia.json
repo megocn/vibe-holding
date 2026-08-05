@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "state",
+    "vue",
+    "store",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "生态与心智绑定 Vue，换框架无法复用；服务端数据的缓存与失效仍建议交给专门的数据请求库。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://pinia.vuejs.org"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "pinia",
+  "name": "Pinia",
+  "category": "oss-state",
+  "subcategory": "state-management",
+  "oneLiner": "Vue 官方状态库 · 组合式 API 心智 · 无 mutation 且类型推断好",
+  "officialUrl": "https://pinia.vuejs.org",
+  "descriptionMd": "Pinia 是 Vue 官方推荐的状态管理库，取消了 Vuex 的 mutation 概念，用组合式 API 的写法定义 store，TypeScript 类型推断与 Devtools 支持都比 Vuex 更完整。\n\nVue 3 项目需要跨组件共享状态时的默认选择；Vuex 老项目可按 store 逐个迁移过来。\n\n生态与心智绑定 Vue，换框架无法复用；服务端数据的缓存与失效仍建议交给专门的数据请求库。\n",
+  "githubUrl": "https://github.com/vuejs/pinia"
+}

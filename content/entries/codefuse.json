@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "ai",
+    "code-completion",
+    "open-source",
+    "domestic"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "仓库分散、集成成本高，不是开箱即用插件",
+    "对外开源能力≠内部完整版，勿据此推断效果"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://codefuse.ai",
+    "https://github.com/codefuse-ai"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "codefuse",
+  "name": "CodeFuse",
+  "category": "coding-completion",
+  "subcategory": "domestic-plugin",
+  "oneLiner": "蚂蚁开源代码智能线 · 模型加工具集 · 偏自建拼装",
+  "officialUrl": "https://codefuse.ai",
+  "descriptionMd": "CodeFuse 是蚂蚁集团的代码智能线，对外以开源模型与工具集为主，覆盖补全、代码解释与仓库级理解，可自行拼装成组织内部的编码助手。\n\n想在国内自建代码助手、愿意基于开源模型与组件搭一套时评估；要开箱可用的商业插件请看通义灵码、Fitten 一类。\n\n开源仓库分散、版本节奏快，需要持续的工程集成投入；对外仓库与蚂蚁内部完整能力不等同，别据此推断全部效果。\n",
+  "vendorId": "ant-group"
+}

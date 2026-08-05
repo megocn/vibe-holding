@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "memory",
+    "graph",
+    "agent"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "图谱构建带来额外调用成本与写入时延",
+    "开源版与托管版能力有差异"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.getzep.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "zep",
+  "name": "Zep",
+  "category": "ai-memory",
+  "subcategory": "temporal-memory",
+  "oneLiner": "时序知识图谱记忆 · 记事实也记变化；有托管与开源",
+  "officialUrl": "https://www.getzep.com",
+  "descriptionMd": "Zep 把对话历史提炼成带时间维度的知识图谱，既保留事实也保留事实何时发生变化，检索时按相关性与时效一并排序。\n\n做长期陪伴、客服或销售类 Agent，需要「记得用户三个月前说过什么、后来又改口了」这类记忆时评估。\n\n图谱构建要额外的模型调用，写入成本与时延都高于简单向量存储；开源版与托管版能力有差别，选型前先对齐。\n"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-bigquery-alt-snowflake",
+  "from": "bigquery",
+  "to": "snowflake",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Serverless 按扫描量、深绑 GCP vs 多云虚拟仓库按时长计费、数据共享生态"
+}

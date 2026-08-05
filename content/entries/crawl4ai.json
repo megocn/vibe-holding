@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "scraping",
+    "rag",
+    "open-source",
+    "python"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "反爬对抗、代理与失败重试全要自己维护；抓取吞吐受本机资源限制，规模化需自建队列与调度。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/unclecode/crawl4ai"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "crawl4ai",
+  "name": "Crawl4AI",
+  "category": "ai-search-api",
+  "subcategory": "web-scrape-llm",
+  "oneLiner": "开源抓取库 · 输出 LLM 友好 markdown · 自托管零调用费",
+  "officialUrl": "https://github.com/unclecode/crawl4ai",
+  "descriptionMd": "Crawl4AI 是 Python 开源抓取框架，内置无头浏览器渲染、正文清洗与 markdown 输出，还支持按 schema 做结构化提取，定位就是给 RAG 与 Agent 供料。\n\n调用量大到 API 计费不划算、或语料不便经过第三方时自托管它；不想管代理与反爬运维则用托管服务省心。\n\n反爬对抗、代理与失败重试全要自己维护；抓取吞吐受本机资源限制，规模化需自建队列与调度。\n",
+  "githubUrl": "https://github.com/unclecode/crawl4ai"
+}

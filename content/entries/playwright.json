@@ -27,7 +27,7 @@
   "region": "overseas",
   "id": "playwright",
   "name": "Playwright",
-  "category": "oss-toolchain",
+  "category": "oss-testing",
   "subcategory": "test",
   "oneLiner": "三引擎并行 · auto-wait/trace/codegen · E2E+API 一体",
   "officialUrl": "https://playwright.dev",

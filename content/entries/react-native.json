@@ -24,7 +24,7 @@
   "region": "overseas",
   "id": "react-native",
   "name": "React Native",
-  "category": "fw-fullstack",
+  "category": "fw-cross-platform",
   "subcategory": "mobile-cross",
   "oneLiner": "React 写原生 UI · Meta 维护 · 生态大 · OTA/原生桥",
   "officialUrl": "https://reactnative.dev",

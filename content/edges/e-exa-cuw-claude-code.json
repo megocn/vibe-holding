@@ -1,0 +1,11 @@
+{
+  "id": "e-exa-cuw-claude-code",
+  "from": "exa",
+  "to": "claude-code",
+  "type": "commonly_used_with",
+  "weight": 0.45,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "通过 MCP 给编码 Agent 补一个联网检索工具，用于查文档与依赖变更"
+}

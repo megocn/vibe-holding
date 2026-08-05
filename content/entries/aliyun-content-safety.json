@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "ai",
+    "guardrail",
+    "moderation",
+    "domestic"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "机审不能完全兜底，重点场景需人工复核",
+    "监管口径变化后需跟进规则调整"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.aliyun.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "aliyun-content-safety",
+  "name": "阿里云内容安全",
+  "category": "ai-guardrail",
+  "subcategory": "domestic-moderation",
+  "oneLiner": "国内合规审核主力 · 覆盖图文音视频；按调用计费",
+  "officialUrl": "https://www.aliyun.com",
+  "descriptionMd": "阿里云内容安全提供文本、图片、音视频的机器审核能力，规则与类目对齐国内监管要求，是面向国内用户的产品做合规兜底的常规选择。\n\n产品在国内上线、需要留存审核记录并应对监管抽查时基本是必选项；常与生成式模型输出侧串联。\n\n机审无法百分之百兜底，重点场景仍要配人工复核队列；类目口径会随监管调整，接入后需持续跟进变更公告。\n",
+  "vendorId": "alibaba"
+}

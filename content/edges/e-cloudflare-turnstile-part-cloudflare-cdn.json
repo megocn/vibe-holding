@@ -1,0 +1,11 @@
+{
+  "id": "e-cloudflare-turnstile-part-cloudflare-cdn",
+  "from": "cloudflare-turnstile",
+  "to": "cloudflare-cdn",
+  "type": "part_of",
+  "weight": 0.9,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Turnstile 属 Cloudflare 应用安全产品线，但可独立于 CDN 单独接入站点"
+}

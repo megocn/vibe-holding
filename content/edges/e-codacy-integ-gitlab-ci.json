@@ -1,0 +1,11 @@
+{
+  "id": "e-codacy-integ-gitlab-ci",
+  "from": "codacy",
+  "to": "gitlab-ci",
+  "type": "integrates_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "接 MR 流水线做质量阈值与覆盖率门禁"
+}

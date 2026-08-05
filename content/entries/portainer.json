@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "self-hosted",
+    "docker",
+    "kubernetes",
+    "ops"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "不含构建与 CI，需另配流水线",
+    "社区版与商业版功能边界要提前确认"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.portainer.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "portainer",
+  "name": "Portainer",
+  "category": "cloud-self-host",
+  "subcategory": "container-ui",
+  "oneLiner": "容器与 K8s 图形管控 · 不做构建；偏运维视角",
+  "officialUrl": "https://www.portainer.io",
+  "descriptionMd": "Portainer 给 Docker、Swarm 与 Kubernetes 提供图形化管控台，覆盖容器、镜像、卷、网络与权限，社区版免费、商业版补企业治理。\n\n已有容器环境、需要一个可视化面板给团队用，而不是要一套「从 Git 到上线」的部署流水线时选它。\n\n它不负责构建与 CI，Git 到镜像那段仍要另配；社区版与商业版功能边界需事先看清，别在 POC 后才发现要付费。\n"
+}

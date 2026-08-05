@@ -1,0 +1,11 @@
+{
+  "id": "e-wagtail-cuw-postgresql",
+  "from": "wagtail",
+  "to": "postgresql",
+  "type": "commonly_used_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "生产部署的常规数据库选择，全文检索与并发表现更稳"
+}

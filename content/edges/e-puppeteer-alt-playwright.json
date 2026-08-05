@@ -1,0 +1,11 @@
+{
+  "id": "e-puppeteer-alt-playwright",
+  "from": "puppeteer",
+  "to": "playwright",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "只管 Chromium、偏底层控制 vs 三引擎覆盖并自带 auto-wait、trace 等测试工具链"
+}

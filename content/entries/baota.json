@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "self-hosted",
+    "panel",
+    "domestic",
+    "lnmp"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "历史上有面板自身安全漏洞，须及时升级并限制访问",
+    "较多能力依赖付费插件"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.bt.cn"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "baota",
+  "name": "宝塔面板",
+  "category": "cloud-self-host",
+  "subcategory": "domestic-panel",
+  "oneLiner": "国内装机量大 · LNMP 一键起；插件商业化与安全争议并存",
+  "officialUrl": "https://www.bt.cn",
+  "descriptionMd": "宝塔面板是国内使用面极广的服务器运维面板，一键部署 LNMP/LAMP、站点、数据库与证书，把传统虚拟主机的操作习惯搬到了 VPS 上。\n\n面向国内、以 PHP/传统 Web 栈为主、需要快速把站点跑起来且团队习惯图形操作时评估。\n\n历史上出现过面板自身的安全漏洞与默认端口暴露事件；不少能力走付费插件，长期成本要算进来。\n"
+}

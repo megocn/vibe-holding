@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD",
+    "notes": "定价不公开，需商务沟通"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "billing",
+    "usage-based",
+    "b2b",
+    "realtime"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "定位中大型 B2B，小团队不划算",
+    "实时计费对上游埋点架构要求更高"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://metronome.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "metronome",
+  "name": "Metronome",
+  "category": "pay-billing",
+  "subcategory": "usage-based",
+  "oneLiner": "实时用量计费 · 面向大额合同；小客户不划算",
+  "officialUrl": "https://metronome.com",
+  "descriptionMd": "Metronome 做实时用量计费，账单随事件即时更新，支持自定义定价维度、承诺消费额度与合同折扣，也把用量数据回吐给销售侧做扩张与预警。\n\n客户以年度承诺额合同为主、销售需要随时看到「这个客户消耗了多少额度」时，比事后出账的方案更合适。\n\n定位偏中大型 B2B，定价与实施门槛对小团队不友好；实时性带来的架构复杂度也会传导到你的上游埋点。\n",
+  "vendorId": "metronome-inc"
+}

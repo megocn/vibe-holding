@@ -24,7 +24,7 @@
   "region": "overseas",
   "id": "axum",
   "name": "Axum",
-  "category": "fw-fullstack",
+  "category": "fw-backend",
   "subcategory": "rust-backend",
   "oneLiner": "Rust Tokio/Hyper · 类型安全 extractor · Tower 中间件一体",
   "officialUrl": "https://github.com/tokio-rs/axum",

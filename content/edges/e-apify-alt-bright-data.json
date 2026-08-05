@@ -1,0 +1,11 @@
+{
+  "id": "e-apify-alt-bright-data",
+  "from": "apify",
+  "to": "bright-data",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "现成爬虫市集与托管调度 vs 以代理 IP 网络为核心的企业级采集基建"
+}

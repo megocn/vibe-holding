@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "data",
+    "elt",
+    "saas",
+    "managed"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "按月活跃行计费，高频变更易致账单失控",
+    "连接器行为不可改，定制需求依赖厂商排期",
+    "数据需出网到托管服务，国内合规需评估"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.fivetran.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "fivetran",
+  "name": "Fivetran",
+  "category": "db-pipeline",
+  "subcategory": "elt-connector",
+  "oneLiner": "全托管 ELT · 连接器由厂商维护随上游变更 · 按月活跃行计费",
+  "officialUrl": "https://www.fivetran.com",
+  "descriptionMd": "Fivetran 是全托管的数据同步服务，连接器由厂商维护并跟随上游 API 变更自动适配，数据落仓后再由 dbt 做转换，是把抽取与加载整体外包出去的典型代表。\n\n团队没有专职数据工程、希望连接器坏了有人兜底，且数据可以出网到托管服务时优先；内网合规要求高就看开源自托管方案。\n\n按月活跃行计费，宽表与高频变更容易让账单失控；连接器行为不可改，定制需求只能等厂商排期。\n",
+  "vendorId": "fivetran-inc"
+}

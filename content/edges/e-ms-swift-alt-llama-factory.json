@@ -1,0 +1,11 @@
+{
+  "id": "e-ms-swift-alt-llama-factory",
+  "from": "ms-swift",
+  "to": "llama-factory",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同为国内主力框架：ms-swift 打通训练到部署且贴魔搭生态，后者胜在上手与模板"
+}

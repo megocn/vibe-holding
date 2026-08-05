@@ -1,0 +1,11 @@
+{
+  "id": "e-volcengine-dom-google-cloud",
+  "from": "volcengine",
+  "to": "google-cloud",
+  "type": "domestic_equivalent_of",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "以自研 AI 与数据能力外供，对应 GCP 的取向"
+}

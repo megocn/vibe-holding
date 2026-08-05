@@ -1,0 +1,11 @@
+{
+  "id": "e-mailchimp-alt-sendgrid",
+  "from": "mailchimp",
+  "to": "sendgrid",
+  "type": "alternative_to",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "营销邮件（名单、模板、自动化） vs 事务邮件 API（验证码、账单）；同属发信但选型口径不同"
+}

@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "EUR"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "EU",
+      "global"
+    ]
+  },
+  "tags": [
+    "captcha",
+    "bot",
+    "privacy",
+    "gdpr"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "面对有算力的定向刷量，工作量证明的拦截效果有限。",
+    "老旧移动设备上求解挑战耗时可感知，需实测再全量。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://friendlycaptcha.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "friendly-captcha",
+  "name": "Friendly Captcha",
+  "category": "sec-bot-captcha",
+  "subcategory": "captcha-widget",
+  "oneLiner": "工作量证明验证 · 用户零交互 · 数据留在欧盟 · 无障碍友好",
+  "officialUrl": "https://friendlycaptcha.com",
+  "descriptionMd": "Friendly Captcha 用浏览器端工作量证明替代图形挑战，用户全程无需点选，服务由德国团队运营且数据处理留在欧盟，常见于对 GDPR 与无障碍要求严格的站点。\n\n欧洲市场站点、政府与公共部门项目，需要可访问性好、数据不出欧盟的人机验证时优先；对抗强度要求高的电商风控另选行为决策类产品。\n\n它只抬高自动化成本，面对定向攻击的防护强度不如商业风控；低端设备上计算挑战会增加等待，移动端体验要实测。\n",
+  "vendorId": "friendly-captcha-gmbh"
+}

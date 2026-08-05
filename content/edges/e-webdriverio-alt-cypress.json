@@ -1,0 +1,11 @@
+{
+  "id": "e-webdriverio-alt-cypress",
+  "from": "webdriverio",
+  "to": "cypress",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "WebdriverIO 覆盖 Web 与原生 App；Cypress 绑定浏览器内运行，调试体验好但跨端不可用"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-ragas-cuw-llamaindex",
+  "from": "ragas",
+  "to": "llamaindex",
+  "type": "commonly_used_with",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "搭好 RAG 之后用它做检索/生成分层归因"
+}

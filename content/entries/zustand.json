@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "state",
+    "react",
+    "hooks",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "缺乏强制约定，团队大了容易演化出风格各异的 store；选择器写得太粗会带来不必要的重渲染。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/pmndrs/zustand"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "zustand",
+  "name": "Zustand",
+  "category": "oss-state",
+  "subcategory": "state-management",
+  "oneLiner": "极简 hook store · 无 Provider 包裹 · 选择器订阅控重渲染",
+  "officialUrl": "https://github.com/pmndrs/zustand",
+  "descriptionMd": "Zustand 用一个 create 函数定义 store，组件通过 hook 加选择器订阅切片，无需 Provider 包裹，也不强制 action/reducer 分层，API 面积非常小。\n\n中小型 React 应用需要跨组件共享客户端状态、又不想引入 Redux 那套约定时优先。\n\n缺乏强制约定，团队大了容易演化出风格各异的 store；选择器写得太粗会带来不必要的重渲染。\n",
+  "githubUrl": "https://github.com/pmndrs/zustand"
+}

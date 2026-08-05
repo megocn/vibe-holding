@@ -1,0 +1,11 @@
+{
+  "id": "e-cloudflare-turnstile-cuw-cloudflare-waf",
+  "from": "cloudflare-turnstile",
+  "to": "cloudflare-waf",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "分层：WAF 在边缘按规则与速率拦截，Turnstile 在表单处判人机，二者叠加不冲突"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-codescene-alt-codacy",
+  "from": "codescene",
+  "to": "codacy",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "用提交历史看热点与技术债 vs 用规则集做门禁"
+}

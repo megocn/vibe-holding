@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "state",
+    "state-machine",
+    "typescript",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "状态机概念有学习成本，简单开关状态用它属于杀鸡用牛刀；建模不当会把复杂度从组件搬进机器定义。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://xstate.js.org"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "xstate",
+  "name": "XState",
+  "category": "oss-state",
+  "subcategory": "state-machine",
+  "oneLiner": "状态机/状态图建模 · 非法转移不可达 · 可视化与框架无关",
+  "officialUrl": "https://xstate.js.org",
+  "descriptionMd": "XState 用有限状态机与状态图描述状态和转移：合法路径写进机器定义，非法转移在结构上不可达；机器可视化查看，核心与框架无关，另有 React、Vue 等绑定。\n\n多步表单、审批流、播放器、连接管理等「状态爆炸」场景，用它替代层层布尔标志位最划算。\n\n状态机概念有学习成本，简单开关状态用它属于杀鸡用牛刀；建模不当会把复杂度从组件搬进机器定义。\n",
+  "vendorId": "stately",
+  "githubUrl": "https://github.com/statelyai/xstate"
+}

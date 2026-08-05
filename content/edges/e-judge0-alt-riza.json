@@ -1,0 +1,11 @@
+{
+  "id": "e-judge0-alt-riza",
+  "from": "judge0",
+  "to": "riza",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "多语言判题引擎 vs 面向工具调用的执行 API"
+}

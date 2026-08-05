@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "free",
+    "currency": "CNY",
+    "notes": "开发免费；交易类目相关费用按官方最新政策为准"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": true,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "miniapp",
+    "kuaishou",
+    "domestic",
+    "commerce"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "开放能力与文档完善度不及头部平台，部分接口需申请",
+    "经营类目规则变动频繁，需持续跟进平台公告"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://mp.kuaishou.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "kuaishou-miniprogram",
+  "name": "快手小程序",
+  "category": "dist-miniapp",
+  "subcategory": "kuaishou",
+  "oneLiner": "快手直播与短视频入口 · 本地生活与电商承接 · 常与抖音并行投放",
+  "officialUrl": "https://mp.kuaishou.com",
+  "descriptionMd": "快手小程序依托快手的短视频与直播生态，从视频、直播间与私信等入口承接交易与服务，用户结构与内容语境和抖音有明显差异，转化路径也更偏信任型成交。\n\n投放与达人合作的重心在快手、需要在本地生活或电商链路里承接直播间流量时纳入；实践中通常与抖音小程序并行铺设，而不是二选一。\n\n开放能力与文档完善度不及头部平台，部分接口需要单独申请；类目资质与经营规则变动频繁，费用形态以官方最新政策为准。\n",
+  "vendorId": "kuaishou"
+}

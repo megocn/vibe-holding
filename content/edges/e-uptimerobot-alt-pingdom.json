@@ -1,0 +1,11 @@
+{
+  "id": "e-uptimerobot-alt-pingdom",
+  "from": "uptimerobot",
+  "to": "pingdom",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "轻量免费档起步 vs 企业采购与全球节点覆盖"
+}

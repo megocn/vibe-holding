@@ -1,0 +1,11 @@
+{
+  "id": "e-hygraph-alt-contentful",
+  "from": "hygraph",
+  "to": "contentful",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Hygraph 以 GraphQL 与内容联邦为主路径，Contentful 以 REST/GraphQL 双接口与空间模型为主"
+}

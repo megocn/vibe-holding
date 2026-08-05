@@ -1,0 +1,11 @@
+{
+  "id": "e-tencent-scf-part-of-tencent-cloud",
+  "from": "tencent-scf",
+  "to": "tencent-cloud",
+  "type": "part_of",
+  "weight": 0.9,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "该云厂商旗下产品"
+}

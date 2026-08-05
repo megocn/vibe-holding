@@ -24,7 +24,7 @@
   "region": "overseas",
   "id": "fastify",
   "name": "Fastify",
-  "category": "fw-fullstack",
+  "category": "fw-backend",
   "subcategory": "node-backend",
   "oneLiner": "Schema 校验 · 低开销 JSON · plugin 清晰 · 快于 Express",
   "officialUrl": "https://fastify.dev",

@@ -1,0 +1,11 @@
+{
+  "id": "e-checkly-cuw-sentry",
+  "from": "checkly",
+  "to": "sentry",
+  "type": "commonly_used_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "外部拨测发现「打不开」，Sentry 解释「为什么报错」，互为补充"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-lambda-labs-alt-coreweave",
+  "from": "lambda-labs",
+  "to": "coreweave",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "面向研究团队的预装环境与中等规模集群 vs 面向模型厂商的大规模长约容量"
+}

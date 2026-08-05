@@ -1,0 +1,11 @@
+{
+  "id": "e-pinia-cw-tanstack-query",
+  "from": "pinia",
+  "to": "tanstack-query",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Vue 侧常见组合：Pinia 管客户端状态，Query 管服务端缓存与失效"
+}

@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "finetune",
+    "rlhf",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "对齐训练对数据质量与超参极敏感，效果波动大；算法迭代快，示例代码常需跟随版本调整。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/huggingface/trl"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "hf-trl",
+  "name": "TRL",
+  "category": "ai-finetune",
+  "subcategory": "training-library",
+  "oneLiner": "后训练算法库 · SFT/DPO/GRPO 一套 API · 对齐训练常用底座",
+  "officialUrl": "https://github.com/huggingface/trl",
+  "descriptionMd": "TRL 提供监督微调与偏好对齐的训练器，把 SFT、DPO、GRPO 等后训练方法封装成一致用法，是 Transformers 生态里做对齐与强化学习实验的常用起点。\n\n要在指令微调之外再做偏好对齐、或复现论文里的对齐方法时用它；只做单纯的领域适配，参数高效微调就够。\n\n对齐训练对数据质量与超参极敏感，效果波动大；算法迭代快，示例代码常需跟随版本调整。\n",
+  "vendorId": "huggingface",
+  "githubUrl": "https://github.com/huggingface/trl"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-sanity-cuw-vercel",
+  "from": "sanity",
+  "to": "vercel",
+  "type": "commonly_used_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "内容更新触发部署或按需再生成，Studio 亦常托管在同一平台"
+}

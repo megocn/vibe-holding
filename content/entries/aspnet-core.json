@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "dotnet",
+    "csharp",
+    "backend",
+    "enterprise"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    ".NET 大版本节奏快，LTS 与非 LTS 混用增加升级压力",
+    "国内云与中间件官方 SDK 覆盖弱于 Java"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://dotnet.microsoft.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "aspnet-core",
+  "name": "ASP.NET Core",
+  "category": "fw-backend",
+  "subcategory": "dotnet-backend",
+  "oneLiner": "微软跨平台服务端 · Minimal API/MVC/gRPC · 工具链与性能强",
+  "officialUrl": "https://dotnet.microsoft.com",
+  "descriptionMd": "ASP.NET Core 是微软的跨平台服务端框架，覆盖 Minimal API、MVC、SignalR 与 gRPC，配合 Entity Framework Core 与内建依赖注入构成完整的企业开发栈。\n\n团队以 C#/.NET 为主，或需要与 Windows、Azure 生态深度衔接时是默认答案；纯 Linux 微服务同样可用，但要接受 .NET 运行时与工具链。\n\n大版本节奏快，LTS 与非 LTS 混用会积累升级压力；国内云厂商与中间件的官方 SDK 覆盖弱于 Java 生态。\n",
+  "vendorId": "microsoft",
+  "githubUrl": "https://github.com/dotnet/aspnetcore"
+}

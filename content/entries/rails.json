@@ -32,7 +32,7 @@
   "region": "overseas",
   "id": "rails",
   "name": "Ruby on Rails",
-  "category": "fw-fullstack",
+  "category": "fw-backend",
   "subcategory": "ruby-fullstack",
   "oneLiner": "Convention 优先 · scaffold 极快 · ActiveRecord 一体 MVP",
   "officialUrl": "https://rubyonrails.org",

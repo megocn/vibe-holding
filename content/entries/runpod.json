@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "gpu",
+    "cloud",
+    "serverless",
+    "training"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "社区节点可能随时被回收，重要任务需勤存检查点；镜像与网络存储另计费，长期挂载成本容易被忽略。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.runpod.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "runpod",
+  "name": "RunPod",
+  "category": "ai-gpu-cloud",
+  "subcategory": "gpu-rental",
+  "oneLiner": "按秒计费 GPU 容器 · Serverless 与常驻实例双形态 · 社区卡便宜",
+  "officialUrl": "https://www.runpod.io",
+  "descriptionMd": "RunPod 以容器方式出租 GPU，既有开机即用的常驻实例，也有按请求扩缩的 Serverless 端点，并区分自营机房与社区节点两档价格与可靠性。\n\n个人和小团队做微调、批量推理或临时压测时上手最快；企业级 SLA 与长期容量承诺仍要看专业 GPU 云。\n\n社区节点可能随时被回收，重要任务需勤存检查点；镜像与网络存储另计费，长期挂载成本容易被忽略。\n",
+  "vendorId": "runpod-inc"
+}

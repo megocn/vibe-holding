@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "code-review",
+    "code-health",
+    "tech-debt",
+    "analytics"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "依赖较长提交历史，新仓结论意义有限",
+    "指标别直接当 KPI 考核，需结合上下文"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://codescene.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "codescene",
+  "name": "CodeScene",
+  "category": "coding-review",
+  "subcategory": "code-health",
+  "oneLiner": "行为代码分析 · 热点与技术债、团队耦合 · 偏管理视角",
+  "officialUrl": "https://codescene.com",
+  "descriptionMd": "CodeScene 从版本历史出发做行为代码分析：结合改动频率与复杂度找出热点文件、量化代码健康度，也能看出团队与模块之间的耦合关系。\n\n要给重构排优先级、或向管理层解释技术债集中在哪时最有用，可与 Codacy 这类规则门禁互补；单个 PR 的逐行意见不是它的强项。\n\n结论依赖较长的提交历史，新仓或刚迁移的仓意义有限；指标需结合上下文解读，别直接当 KPI 考核。\n",
+  "vendorId": "codescene-ab"
+}

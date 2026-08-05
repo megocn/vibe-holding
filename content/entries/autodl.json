@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "gpu",
+    "cloud",
+    "domestic",
+    "training"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "热门卡型高峰期常无库存，需守候或换区；实例回收与数据盘计费规则要提前看清，避免作业中断。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.autodl.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "domestic",
+  "id": "autodl",
+  "name": "AutoDL",
+  "category": "ai-gpu-cloud",
+  "subcategory": "domestic-gpu",
+  "oneLiner": "国内按小时租卡 · 深度学习镜像齐备 · 无需海外支付与网络",
+  "officialUrl": "https://www.autodl.com",
+  "descriptionMd": "AutoDL 是国内常见的 GPU 租用平台，按小时计费，提供预装框架的镜像与数据盘，学生与研究者用来跑训练和复现实验的比例很高。\n\n国内做微调、跑论文代码、临时借几张卡时最省事，支付与网络都不用绕路；企业级 SLA 与大规模集群不在其强项。\n\n热门卡型高峰期常无库存，需守候或换区；实例回收与数据盘计费规则要提前看清，避免作业中断。\n",
+  "vendorId": "autodl-inc"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-paperspace-alt-runpod",
+  "from": "paperspace",
+  "to": "runpod",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Notebook 优先、适合教学与原型 vs 容器与 Serverless 优先、按秒计费更灵活"
+}

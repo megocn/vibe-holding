@@ -1,0 +1,11 @@
+{
+  "id": "e-easypanel-alt-dokploy",
+  "from": "easypanel",
+  "to": "dokploy",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "商业授权单机 vs 完全开源多机"
+}

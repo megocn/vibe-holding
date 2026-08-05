@@ -1,0 +1,11 @@
+{
+  "id": "e-alipay-miniprogram-iw-alipay",
+  "from": "alipay-miniprogram",
+  "to": "alipay",
+  "type": "integrates_with",
+  "weight": 0.9,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "小程序内交易走支付宝支付能力，与开放平台账号、商户资质同一套体系"
+}

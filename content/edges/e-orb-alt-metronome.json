@@ -1,0 +1,11 @@
+{
+  "id": "e-orb-alt-metronome",
+  "from": "orb",
+  "to": "metronome",
+  "type": "alternative_to",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "定价规则表达力优先 vs 实时额度与销售协同优先"
+}

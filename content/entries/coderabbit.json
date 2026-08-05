@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "code-review",
+    "pull-request",
+    "ci"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "默认评论偏多，需调阈值与路径过滤",
+    "按贡献者计费，规模上去成本增长明显"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.coderabbit.ai"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "coderabbit",
+  "name": "CodeRabbit",
+  "category": "coding-review",
+  "subcategory": "pr-review-agent",
+  "oneLiner": "PR 逐行评审加变更摘要 · GitHub/GitLab App 接入 · 上手最快",
+  "officialUrl": "https://www.coderabbit.ai",
+  "descriptionMd": "CodeRabbit 以 GitHub/GitLab App 的形式挂在 PR 上：自动给变更摘要、逐行评论与可追问的对话，也能把团队约定写进配置来约束评审口径。\n\n团队想先用「自动第二双眼睛」补上评审人力缺口时的默认起点；架构级问题仍需人来评。\n\n评论量容易过多，需要调阈值与路径过滤，否则真问题被噪声淹没；按贡献者计费，团队规模上去要先测算。\n",
+  "vendorId": "coderabbit-inc"
+}

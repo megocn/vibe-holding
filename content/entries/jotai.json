@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "state",
+    "react",
+    "atomic",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "原子散落各文件后全局状态图不易概览；异步与 Suspense 组合的边界行为需要实测理解。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://jotai.org"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "jotai",
+  "name": "Jotai",
+  "category": "oss-state",
+  "subcategory": "state-management",
+  "oneLiner": "原子化状态 · 依赖自动派生 · 按原子粒度精确重渲染",
+  "officialUrl": "https://jotai.org",
+  "descriptionMd": "Jotai 把状态拆成一个个原子，派生原子按依赖自动重算，组件只订阅用到的原子，重渲染范围天然收敛到最小，心智接近 useState 的自然扩展。\n\n状态零散、组件树深、希望避免大 store 引发广播式重渲染时选用；集中式审计与中间件需求更适合 Redux Toolkit。\n\n原子散落各文件后全局状态图不易概览；异步与 Suspense 组合的边界行为需要实测理解。\n",
+  "githubUrl": "https://github.com/pmndrs/jotai"
+}

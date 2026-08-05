@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "EUR"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "EU",
+      "global"
+    ]
+  },
+  "tags": [
+    "privacy",
+    "gdpr",
+    "consent",
+    "legal"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "模板化条款不等于法律意见，业务特殊时需律师复核。",
+    "按站点与语言计费，多站点、多语种叠加后成本上升快。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.iubenda.com"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "iubenda",
+  "name": "iubenda",
+  "category": "sec-compliance",
+  "subcategory": "privacy-consent",
+  "oneLiner": "隐私政策生成 + 同意管理 · 多语种欧盟条款 · 嵌一段脚本即可",
+  "officialUrl": "https://www.iubenda.com",
+  "descriptionMd": "iubenda 提供隐私政策与 Cookie 政策生成、同意管理和内部合规记录，条款模板由法务团队维护并随法规更新，站点嵌一段脚本即可挂上横幅与政策页。\n\n面向欧盟用户的独立开发者或中小出海站点，需要一份能自动跟进法规、且支持多语种的政策与 GDPR 同意横幅时优先。\n\n工具只是流程助手，模板不等于法律意见，敏感业务仍应请律师复核；按站点与语言分档计费，多站点多语场景成本会明显叠加。\n",
+  "vendorId": "iubenda-srl"
+}

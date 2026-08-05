@@ -1,0 +1,11 @@
+{
+  "id": "e-browserbase-cuw-firecrawl",
+  "from": "browserbase",
+  "to": "firecrawl",
+  "type": "commonly_used_with",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "需要登录态与多步交互时用托管会话，只要把公开页转成正文时用抽取 API"
+}

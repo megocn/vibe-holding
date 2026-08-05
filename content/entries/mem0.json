@@ -24,7 +24,7 @@
   "region": "overseas",
   "id": "mem0",
   "name": "Mem0",
-  "category": "ai-rag",
+  "category": "ai-memory",
   "subcategory": "memory-layer",
   "oneLiner": "user/session 级记忆 · 自动抽 fact 注入 prompt · 减重复上下文",
   "officialUrl": "https://mem0.ai",

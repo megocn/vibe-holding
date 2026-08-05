@@ -1,0 +1,11 @@
+{
+  "id": "e-k6-alt-locust",
+  "from": "k6",
+  "to": "locust",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "k6 用 JS 脚本、Go 引擎单机吞吐高；Locust 用 Python 写行为、复杂业务分支更好表达"
+}

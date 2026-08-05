@@ -1,0 +1,11 @@
+{
+  "id": "e-hf-peft-cuw-huggingface-inference",
+  "from": "hf-peft",
+  "to": "huggingface-inference",
+  "type": "commonly_used_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同一生态的训练与推理两端：适配器权重推回 Hub 后可直接部署为端点"
+}

@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "search",
+    "open-source",
+    "static-site",
+    "frontend"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "索引随构建产生，内容更新需重新构建",
+    "不支持实时索引与个性化排序"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://pagefind.app"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "pagefind",
+  "name": "Pagefind",
+  "category": "db-search",
+  "subcategory": "static-search",
+  "oneLiner": "静态站构建期建索引 · 索引分片按需下载 · 零后端全文搜索",
+  "officialUrl": "https://pagefind.app",
+  "descriptionMd": "Pagefind 在静态站点构建完成后扫描产物生成分片索引，浏览器只下载命中所需的片段即可完成全文检索，整个链路不需要任何检索服务端，由 CloudCannon 开源维护。\n\n文档站、博客等纯静态站要「零后端」站内搜索，且可接受索引随构建产出时首选。\n\n内容一改就得重新构建；不支持实时增量索引、复杂聚合与按用户个性化的排序策略。\n",
+  "vendorId": "cloudcannon-inc"
+}

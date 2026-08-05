@@ -1,0 +1,11 @@
+{
+  "id": "e-daytona-alt-e2b",
+  "from": "daytona",
+  "to": "e2b",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "标准化开发环境延伸而来 vs 原生为 Agent 设计的沙箱"
+}

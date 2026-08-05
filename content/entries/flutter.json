@@ -24,7 +24,7 @@
   "region": "overseas",
   "id": "flutter",
   "name": "Flutter",
-  "category": "fw-fullstack",
+  "category": "fw-cross-platform",
   "subcategory": "mobile-cross",
   "oneLiner": "Dart 自绘引擎 · 一码 iOS/Android/Web/Desktop · UI 一致性强",
   "officialUrl": "https://flutter.dev",

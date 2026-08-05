@@ -1,0 +1,11 @@
+{
+  "id": "e-echo-go-alt-gin",
+  "from": "echo-go",
+  "to": "gin",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "Go Web 框架同层：API 风格相近，Echo 开箱中间件更多，Gin 生态与心智更广"
+}

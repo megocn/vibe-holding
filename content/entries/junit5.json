@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "test",
+    "java",
+    "jvm",
+    "open-source"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "Runner/Rule 写法需改写成 Extension，老仓迁移不是纯升级依赖；模块拆分较细，依赖配错会出现「用例不被发现」。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://junit.org"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "junit5",
+  "name": "JUnit 5",
+  "category": "oss-testing",
+  "subcategory": "unit-test",
+  "oneLiner": "JVM 测试基座 · Jupiter/Platform 分层 · 扩展模型替代 Runner",
+  "officialUrl": "https://junit.org",
+  "descriptionMd": "JUnit 5 由 Platform、Jupiter、Vintage 三部分组成：Platform 是运行基座，Jupiter 提供新注解与断言，Vintage 兼容跑 JUnit 4 用例。扩展模型（Extension）取代了旧的 Runner/Rule。\n\nJVM 项目的测试底座，Spring Boot、Gradle、Maven 默认与之集成；容器化集成测试常再叠 Testcontainers。\n\nRunner/Rule 写法需改写成 Extension，老仓迁移不是纯升级依赖；模块拆分较细，依赖配错会出现「用例不被发现」。\n",
+  "githubUrl": "https://github.com/junit-team/junit5"
+}

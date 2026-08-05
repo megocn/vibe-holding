@@ -1,0 +1,11 @@
+{
+  "id": "e-unsloth-cuw-runpod",
+  "from": "unsloth",
+  "to": "runpod",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "没有本地显卡时的常见组合：按小时租一张卡跑完微调即释放"
+}

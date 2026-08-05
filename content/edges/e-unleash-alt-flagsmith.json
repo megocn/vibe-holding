@@ -1,0 +1,11 @@
+{
+  "id": "e-unleash-alt-flagsmith",
+  "from": "unleash",
+  "to": "flagsmith",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "专注开关基础设施 vs 开关叠远程配置、移动端下发更顺"
+}

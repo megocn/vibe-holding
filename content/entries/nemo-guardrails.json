@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "ai",
+    "guardrail",
+    "dialog",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "需额外学习 Colang，规则复杂后难维护",
+    "护栏自身走模型调用，叠加时延"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/NVIDIA/NeMo-Guardrails"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "nemo-guardrails",
+  "name": "NeMo Guardrails",
+  "category": "ai-guardrail",
+  "subcategory": "dialog-rails",
+  "oneLiner": "对话流护栏 · Colang 描述可走路径；NVIDIA 生态",
+  "officialUrl": "https://github.com/NVIDIA/NeMo-Guardrails",
+  "descriptionMd": "NeMo Guardrails 用 Colang 这门专用语言描述对话可以走与不可以走的路径，把话题边界、事实核查与越狱防护做成可编排的轨道。\n\n做客服、陪练这类多轮对话产品，需要明确写死「这个机器人不谈什么、越界了怎么接」时评估。\n\n要额外学一门 Colang，规则一复杂维护成本就上来了；护栏本身也走模型调用，会给每轮对话叠加时延。\n"
+}

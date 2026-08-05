@@ -1,0 +1,11 @@
+{
+  "id": "e-harmonyos-atomic-service-iw-huawei-agc",
+  "from": "harmonyos-atomic-service",
+  "to": "huawei-agc",
+  "type": "integrates_with",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "元服务通过 AppGallery Connect 完成创建、认证与上架，与鸿蒙应用共用同一套发布控制台"
+}

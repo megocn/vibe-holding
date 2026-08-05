@@ -1,0 +1,11 @@
+{
+  "id": "e-harmonyos-atomic-service-alt-quickapp-alliance",
+  "from": "harmonyos-atomic-service",
+  "to": "quickapp-alliance",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-05",
+  "note": "同属厂商侧免安装形态：元服务绑定 HarmonyOS 与 ArkTS，快应用是多厂商安卓联盟标准"
+}

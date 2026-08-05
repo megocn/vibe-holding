@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "search",
+    "open-source",
+    "log",
+    "self-hosted"
+  ],
+  "maturity": "beta",
+  "pitfalls": [
+    "功能与大规模稳定性弱于 Elasticsearch",
+    "社区维护节奏偏慢，需评估长期可用性"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/zincsearch/zincsearch"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "overseas",
+  "id": "zincsearch",
+  "name": "ZincSearch",
+  "category": "db-search",
+  "subcategory": "log-search",
+  "oneLiner": "Go 单二进制检索 · 自带 Web 界面 · 小规模自托管低资源",
+  "officialUrl": "https://github.com/zincsearch/zincsearch",
+  "descriptionMd": "ZincSearch 是 Go 实现的轻量搜索引擎，单二进制即可部署、自带 Web 管理界面，定位是小规模日志与文档检索场景里 Elasticsearch 的低资源替代品。\n\n个人项目或中小自托管环境要一份能搜的日志库，又不愿为 JVM 集群付出内存与运维成本时评估。\n\n功能覆盖与大规模稳定性都不及 Elasticsearch；社区维护节奏偏慢，上生产前务必按真实数据量压测上限。\n",
+  "vendorId": "zinclabs-inc"
+}

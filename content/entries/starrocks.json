@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "olap",
+    "database",
+    "lakehouse",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "与 Doris 同源但已分叉，工具链不通用",
+    "大查询资源隔离需运维治理"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.starrocks.io"
+  ],
+  "lastReviewed": "2026-08-05",
+  "region": "both",
+  "id": "starrocks",
+  "name": "StarRocks",
+  "category": "db-analytics",
+  "subcategory": "olap-engine",
+  "oneLiner": "全面向量化 MPP · 免预聚合多表 JOIN · 可直读 Iceberg 湖表",
+  "officialUrl": "https://www.starrocks.io",
+  "descriptionMd": "StarRocks 由 Apache Doris 分叉演进而来，主打全面向量化执行与代价优化器，强调多表关联现场算而不靠预聚合，同时可作为查询引擎直读 Iceberg、Hudi、Hive 等湖上表。\n\n已有数据湖、希望一套引擎兼顾湖上查询与实时数仓，报表里多表关联复杂时评估。\n\n与 Doris 语法相近但生态已分叉，工具链并不通用；大查询的资源隔离与治理需要持续运维投入。\n"
+}
