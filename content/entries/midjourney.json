@@ -29,7 +29,10 @@
       "period": "2026-07",
       "note": "Midjourney v7 Alpha（AA 快照；非 Arena 顶流）",
       "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "asOf": "2026-07-24"
+      "asOf": "2026-07-24",
+      "previousRank": 90,
+      "previousScore": 1064,
+      "previousAsOf": "2026-07-24"
     }
   ],
   "sources": [

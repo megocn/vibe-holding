@@ -1,0 +1,11 @@
+{
+  "id": "e-tencent-hiflow-alt-jijyun",
+  "from": "tencent-hiflow",
+  "to": "jijyun",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "腾讯生态轻量连接 vs 更广国内 SaaS 目录"
+}

@@ -31,7 +31,10 @@
       "period": "2026-07",
       "note": "Kolors 2.1",
       "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "asOf": "2026-07-24"
+      "asOf": "2026-07-24",
+      "previousRank": 55,
+      "previousScore": 1125,
+      "previousAsOf": "2026-07-24"
     }
   ],
   "sources": [

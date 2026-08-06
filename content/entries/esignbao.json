@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "esign",
+    "contract",
+    "domestic",
+    "compliance"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "公有云与专有云产品线多会拉长选型；默认跨境签约仍优先看 DocuSign 系与海外合规、证据链叙述。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.esign.cn"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "domestic",
+  "id": "esignbao",
+  "name": "e签宝",
+  "category": "sec-esign",
+  "subcategory": "e-signature",
+  "oneLiner": "国内电子签平台 · 公有云/混合 · 政企与互联网常用",
+  "officialUrl": "https://www.esign.cn",
+  "descriptionMd": "e签宝覆盖个人与企业实名、签署、存证与开放 API，在政企与互联网合同电子化中渗透率高，产品线从公有云到专有部署都覆盖。\n\n国内合同电子化招标或供应商比选、与法大大同轴比较产品能力与价格时使用；法务常会同时看两家。\n\n公有云与专有云产品线多会拉长选型；默认跨境签约仍优先看 DocuSign 系与海外合规、证据链叙述。\n",
+  "vendorId": "esignbao-inc"
+}

@@ -23,7 +23,14 @@
     "自托管主题、邮件与反垃圾需持续投入。",
     "实时语音与轻社交节奏弱于 Discord 类。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-06",
+      "type": "feature",
+      "summary": "stable",
+      "source": "https://github.com/discourse/discourse/releases/tag/stable"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://www.discourse.org"

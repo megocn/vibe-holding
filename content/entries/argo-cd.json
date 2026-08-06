@@ -12,7 +12,8 @@
   },
   "tags": [
     "gitops",
-    "kubernetes"
+    "kubernetes",
+    "cd"
   ],
   "maturity": "stable",
   "pitfalls": [
@@ -23,12 +24,12 @@
   "sources": [
     "https://argo-cd.readthedocs.io"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-07",
   "region": "overseas",
   "id": "argo-cd",
   "name": "Argo CD",
-  "category": "cicd-pipeline",
-  "subcategory": "cd",
+  "category": "cicd-gitops",
+  "subcategory": "gitops",
   "oneLiner": "K8s GitOps · Git↔集群自动 sync · 声明式持续交付",
   "officialUrl": "https://argo-cd.readthedocs.io",
   "descriptionMd": "Argo CD 监控 Git 仓库 manifest 与集群状态差异，自动/手动 sync，是 Kubernetes GitOps 主流方案。\n\nK8s 部署希望以 Git 为唯一真相源、可审计 rollback 时采用；与 Helm/Kustomize 配合。\n\nApplication 配置复杂时 diff 难读；多集群联邦需额外架构。\n"

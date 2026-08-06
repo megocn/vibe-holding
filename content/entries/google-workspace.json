@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "subscription"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "suite",
+    "docs",
+    "email",
+    "collaboration"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "深度公文版式与某些政企信创要求不如国产套件；中国大陆访问与合规需单独评估。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://workspace.google.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "id": "google-workspace",
+  "name": "Google Workspace",
+  "category": "collab-suite",
+  "subcategory": "suite",
+  "oneLiner": "Gmail/Docs/Drive/Meet 一体 · 中小团队默认 · 开放生态广",
+  "officialUrl": "https://workspace.google.com",
+  "descriptionMd": "Google Workspace 将邮箱、文档、表格、云盘与会议合并为组织默认协作面，第三方集成与教育/创业折扣常见。\n\n团队以邮件+文档为核心生产力、希望快速开通身份与分享、不强依赖本地 Office 兼容时选它。\n\n深度公文版式与某些政企信创要求不如国产套件；中国大陆访问与合规需单独评估。选型前请以官网能力与当前定价为准。\n",
+  "vendorId": "google"
+}

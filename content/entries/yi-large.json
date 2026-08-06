@@ -29,7 +29,10 @@
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 yi-lightning",
       "asOf": "2026-07-21",
-      "period": "2026-07"
+      "period": "2026-07",
+      "previousRank": 212,
+      "previousScore": 1328,
+      "previousAsOf": "2026-07-21"
     }
   ],
   "sources": [

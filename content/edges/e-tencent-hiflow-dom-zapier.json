@@ -1,0 +1,11 @@
+{
+  "id": "e-tencent-hiflow-dom-zapier",
+  "from": "tencent-hiflow",
+  "to": "zapier",
+  "type": "domestic_equivalent_of",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "腾讯系场景连接器 vs Zapier 通用自动化"
+}

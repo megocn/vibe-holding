@@ -1,0 +1,11 @@
+{
+  "id": "e-tencent-vod-dom-mux",
+  "from": "tencent-vod",
+  "to": "mux",
+  "type": "domestic_equivalent_of",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "国内云点播转码播放 vs Mux 开发者视频基建"
+}

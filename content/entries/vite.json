@@ -16,12 +16,20 @@
   ],
   "maturity": "mature",
   "pitfalls": [],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-06",
+      "type": "release",
+      "summary": "发布 8.2.1: 新版本",
+      "version": "8.2.1",
+      "source": "https://github.com/vitejs/vite/releases/tag/v8.2.1"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://vite.dev"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-06",
   "region": "overseas",
   "id": "vite",
   "name": "Vite",

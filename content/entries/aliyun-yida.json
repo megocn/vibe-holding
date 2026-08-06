@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "internal-tools",
+    "low-code",
+    "dingtalk",
+    "domestic"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "钉钉组织绑定深，迁出成本高",
+    "复杂定制与非阿里数据源不如 Retool 灵活"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.aliyun.com/product/yida"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "domestic",
+  "id": "aliyun-yida",
+  "name": "宜搭",
+  "category": "ops-internal",
+  "subcategory": "internal-admin",
+  "oneLiner": "钉钉生态低代码应用 · 表单流程审批 · 国内内部系统常选",
+  "officialUrl": "https://www.aliyun.com/product/yida",
+  "descriptionMd": "宜搭（钉钉/阿里云）以表单、流程与门户形式搭建内部应用，深度嵌钉钉组织、审批与消息，国内中小团队落地内部系统很快。\n\n组织已在钉钉，要考勤、采购、运营台账、轻审批而非纯代码 admin 时，是国内主选之一；选型时与简道云同轴比较。\n\n与欧美 Retool「连任意 SQL 写逻辑」轴不同；复杂界面与跨云身份集成碰到平台边界，迁出钉钉成本高。\n",
+  "vendorId": "alibaba-cloud"
+}

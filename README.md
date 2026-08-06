@@ -11,7 +11,7 @@
 
 <p align="center">
   一个开源的 <strong>AI 时代全链路基建选型知识库</strong>，外加用它的桌面 / Web 客户端。<br/>
-  <strong>22 卷图廓 · 104 个可比较类 · 1090 条目 · 1540 条关系边</strong>，按「想法 → 上线 → 变现」的真实顺序铺开，而不是按字母堆目录。<br/>
+  <strong>22 卷图廓 · 132 个可比较类 · 1201 条目 · 1717 条关系边</strong>，按「想法 → 上线 → 变现」的真实顺序铺开，而不是按字母堆目录。<br/>
   它记的不只是工具，更是工具<strong>之间</strong>的边：谁能平替谁、国内对标是哪个、哪两个放一起会打架。<br/>
   免注册、免后端，打开即用；API Key 只留在你自己的机器上。
 </p>
@@ -36,10 +36,11 @@
 
 <p align="center">
   <img alt="license" src="https://img.shields.io/badge/License-Apache%202.0-blue?style=flat-square" />
-  <img alt="entries" src="https://img.shields.io/badge/条目-1090-8B1A1A?style=flat-square" />
-  <img alt="edges" src="https://img.shields.io/badge/关系边-1540-2F5D62?style=flat-square" />
+  <img alt="entries" src="https://img.shields.io/badge/条目-1201-8B1A1A?style=flat-square" />
+  <img alt="edges" src="https://img.shields.io/badge/关系边-1717-2F5D62?style=flat-square" />
   <img alt="sections" src="https://img.shields.io/badge/图廓-A–V·22卷-5C4033?style=flat-square" />
-  <img alt="vendors" src="https://img.shields.io/badge/厂商-576-5C4033?style=flat-square" />
+  <img alt="vendors" src="https://img.shields.io/badge/厂商-673-5C4033?style=flat-square" />
+  <img alt="leaves" src="https://img.shields.io/badge/可比较类-132-5C4033?style=flat-square" />
   <img alt="recipes" src="https://img.shields.io/badge/方案模板-5-6B4F3A?style=flat-square" />
   <img alt="stack" src="https://img.shields.io/badge/TypeScript-Tauri·React·Expo-111?style=flat-square" />
 </p>
@@ -99,7 +100,7 @@ V 出海与本地化            跨境收款 · 主体路径 · i18n · EOR
 | **section + 可比较 leaf** | 图标库不跟组件库同榜；排行、对比只发生在同 leaf 内 |
 | **边是一等公民** | 替代、国内对标、常搭配、冲突，全是可遍历的边，不只是标签 |
 
-数量只是结果：当前 **1090 条目 / 1540 边 / 576 厂商 / 5 套方案模板**，覆盖 A–V 全卷。
+数量只是结果：当前 **1201 条目 / 1717 边 / 673 厂商 / 132 可比较类 / 5 套方案模板**，覆盖 A–V 全卷。
 
 ---
 
@@ -417,7 +418,7 @@ M0 地基 ──●── M1 知识库 MVP ──●── M2 凭据管家 ─�
 - ✅ 图谱多视图、Worker 布局、聚类与沿图选型
 - ✅ 方案模板、选型向导、并观对比
 - ✅ 情报时间线、关注与草稿确认队列
-- ✅ 桌面壳 + 浏览器窄屏适配；内容库 **A–V 22 卷 / 104 leaf / 1090 条目 / 1540 边**
+- ✅ 桌面壳 + 浏览器窄屏适配；内容库 **A–V 22 卷 / 132 leaf / 1201 条目 / 1717 边**
 - ✅ 选型擂台（挂 B 卷）：13 擂台 / 三模式 / 造擂分享码（闭源，[可玩](https://vibeholding-arena.pages.dev/pixel.html)）
 
 ### 正在铺的桥（Next）

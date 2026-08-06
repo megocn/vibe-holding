@@ -41,7 +41,10 @@
       "period": "2026-07",
       "note": "gpt-image-2 (medium)",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
-      "asOf": "2026-07-24"
+      "asOf": "2026-07-24",
+      "previousRank": 1,
+      "previousScore": 1385,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "lmarena-image-edit",
@@ -51,7 +54,10 @@
       "asOf": "2026-07-24",
       "rank": 1,
       "score": 1465,
-      "scoreLabel": "1465 Elo"
+      "scoreLabel": "1465 Elo",
+      "previousRank": 1,
+      "previousScore": 1465,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "aa-image-arena",
@@ -61,7 +67,10 @@
       "period": "2026-07",
       "note": "GPT Image 2 (high)",
       "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "asOf": "2026-07-24"
+      "asOf": "2026-07-24",
+      "previousRank": 1,
+      "previousScore": 1337,
+      "previousAsOf": "2026-07-24"
     }
   ],
   "sources": [

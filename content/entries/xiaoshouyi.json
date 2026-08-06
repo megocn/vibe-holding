@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "crm",
+    "b2b",
+    "paas",
+    "domestic"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "PaaS 定制投入大，范围失控会拖实施。",
+    "非国内交付网络的出海团队生态不如 Salesforce。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.xiaoshouyi.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "domestic",
+  "id": "xiaoshouyi",
+  "name": "销售易",
+  "category": "collab-crm",
+  "subcategory": "pipeline-crm",
+  "oneLiner": "B2B 流程与 PaaS 定制 · 销售颗粒度细 · 中大型向",
+  "officialUrl": "https://www.xiaoshouyi.com",
+  "descriptionMd": "销售易深耕 B2B 销售过程管理与 PaaS 定制：线索到回款链路颗粒度细，移动端与行业方案成熟，适合流程规范、要深度配置的中大型国内企业。\n\n项目型/长周期 B2B 销售、需要 PaaS 扩展时与纷享销客对照；要现代灵活对象小团队可看 Attio，开源自托管看悟空。\n\n定制能力强也意味着实施周期与顾问成本；小微线性管道可先 Pipedrive 类轻量。\n",
+  "vendorId": "xiaoshouyi-inc"
+}

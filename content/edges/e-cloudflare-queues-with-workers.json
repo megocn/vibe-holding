@@ -1,0 +1,11 @@
+{
+  "id": "e-cloudflare-queues-with-workers",
+  "from": "cloudflare-queues",
+  "to": "cloudflare-workers",
+  "type": "commonly_used_with",
+  "weight": 0.9,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "生产者/消费者挂在 Workers"
+}

@@ -31,7 +31,10 @@
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 llama-4-maverick-17b-128e-instruct",
       "asOf": "2026-07-21",
-      "period": "2026-07"
+      "period": "2026-07",
+      "previousRank": 215,
+      "previousScore": 1327,
+      "previousAsOf": "2026-07-21"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -40,7 +43,9 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "note": "Llama 4 Maverick",
       "asOf": "2026-07-26",
-      "period": "2026-07"
+      "period": "2026-07",
+      "previousScore": 14,
+      "previousAsOf": "2026-07-26"
     }
   ],
   "sources": [

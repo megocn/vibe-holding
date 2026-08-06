@@ -1,0 +1,11 @@
+{
+  "id": "e-carrd-alt-framer",
+  "from": "carrd",
+  "to": "framer",
+  "type": "alternative_to",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "低成本单页 vs 高定动画站点"
+}

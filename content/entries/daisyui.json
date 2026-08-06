@@ -35,7 +35,8 @@
       "systemId": "npm-downloads",
       "tier": "Tailwind plugin",
       "period": "2026-H1",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     }
   ]
 }

@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "esign",
+    "contract",
+    "compliance",
+    "b2b"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "席位与信封单价高；中国大陆法律效力与信创/国密场景应改看法大大、e签宝等；采购要算法务模板量。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.docusign.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "id": "docusign",
+  "name": "DocuSign",
+  "category": "sec-esign",
+  "subcategory": "e-signature",
+  "oneLiner": "全球电子签名事实标准 · 模板/API/合规 · B2B 合同默认",
+  "officialUrl": "https://www.docusign.com",
+  "descriptionMd": "DocuSign 覆盖模板签署、信封流程、开放 API 与多司法辖区合规证据链，是跨境外企电子签事实参考之一，生态集成与模板市场极广。\n\n出海 SaaS 要客户远程签 NDA、主协议或附件，法务要求审计与证据链时，作为主轴对标。\n\n席位与信封单价高；中国大陆法律效力与信创/国密场景应改看法大大、e签宝等；采购要算法务模板量。\n",
+  "vendorId": "docusign-inc"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-trigger-dev-alt-temporal",
+  "from": "trigger-dev",
+  "to": "temporal",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "应用 Job 平台 vs 强一致工作流底座"
+}

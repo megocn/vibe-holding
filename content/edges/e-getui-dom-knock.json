@@ -1,0 +1,11 @@
+{
+  "id": "e-getui-dom-knock",
+  "from": "getui",
+  "to": "knock",
+  "type": "domestic_equivalent_of",
+  "weight": 0.45,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "国内推送通道头部（渠道层）vs Knock 多渠道通知编排；层不同"
+}

@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "cdp",
+    "events",
+    "open-source",
+    "warehouse"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "目的地与调试体验需对照版本；治理与 schema 契约仍靠团队纪律。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://jitsu.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "id": "jitsu",
+  "name": "Jitsu",
+  "category": "growth-cdp",
+  "subcategory": "cdp",
+  "oneLiner": "开源 Segment 替代 · 事件进仓 · ClickHouse/仓库友好",
+  "officialUrl": "https://jitsu.com",
+  "descriptionMd": "Jitsu 提供开源事件采集与路由，强调把数据写入仓库/ClickHouse 等自有存储，减少纯黑盒 CDP 锁定。\n\n要自托管或仓库优先的事件管道、预算敏感且愿接维护成本时，与 RudderStack/Segment 同轴。\n\n目的地与调试体验需对照版本；治理与 schema 契约仍靠团队纪律。选型前请以官网能力与当前定价为准。\n",
+  "vendorId": "jitsu-inc",
+  "githubUrl": "https://github.com/jitsucom/jitsu"
+}

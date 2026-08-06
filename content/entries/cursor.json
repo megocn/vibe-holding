@@ -63,7 +63,9 @@
       "period": "2025 Survey",
       "note": "AI IDE 心智份额领先档（调查口径因届而异）",
       "sourceUrl": "https://www.jetbrains.com/lp/devecosystem/",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousShare": 28,
+      "previousAsOf": "2026-07-20"
     },
     {
       "systemId": "swe-bench-verified",
@@ -71,7 +73,8 @@
       "period": "2025–2026",
       "note": "产品侧 Agent 能力随底层模型+脚手架变化；对照 SWE-bench 模型榜",
       "sourceUrl": "https://www.swebench.com/",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     }
   ]
 }

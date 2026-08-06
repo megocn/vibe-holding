@@ -49,7 +49,10 @@
       "asOf": "2026-07-24",
       "rank": 3,
       "score": 1164,
-      "scoreLabel": "1164 Elo"
+      "scoreLabel": "1164 Elo",
+      "previousRank": 3,
+      "previousScore": 1164,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "lmarena-i2v",
@@ -59,7 +62,10 @@
       "asOf": "2026-07-24",
       "rank": 5,
       "score": 1434,
-      "scoreLabel": "1434 Elo"
+      "scoreLabel": "1434 Elo",
+      "previousRank": 5,
+      "previousScore": 1434,
+      "previousAsOf": "2026-07-24"
     }
   ],
   "sources": [

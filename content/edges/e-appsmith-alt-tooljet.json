@@ -1,0 +1,11 @@
+{
+  "id": "e-appsmith-alt-tooljet",
+  "from": "appsmith",
+  "to": "tooljet",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "开源内部工具同轴"
+}

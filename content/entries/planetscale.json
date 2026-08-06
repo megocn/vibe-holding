@@ -40,7 +40,8 @@
       "tier": "Managed MySQL/Vitess",
       "period": "2026-07",
       "note": "对照 MySQL #2 人气；面向分支工作流",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     }
   ]
 }

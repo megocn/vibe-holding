@@ -1,0 +1,11 @@
+{
+  "id": "e-xiaoshouyi-alt-fxiaoke",
+  "from": "xiaoshouyi",
+  "to": "fxiaoke",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "流程颗粒与 PaaS vs 连接/渠道与协同"
+}

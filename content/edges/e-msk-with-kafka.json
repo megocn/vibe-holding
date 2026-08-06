@@ -1,0 +1,11 @@
+{
+  "id": "e-msk-with-kafka",
+  "from": "aws-msk",
+  "to": "kafka",
+  "type": "commonly_used_with",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "AWS 托管开源 Kafka"
+}

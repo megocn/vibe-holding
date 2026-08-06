@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "community",
+    "courses",
+    "wechat",
+    "domestic"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "重度依赖微信生态规则与支付通道。",
+    "功能包多，范围失控会变成重运营系统。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.xiaoe-tech.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "domestic",
+  "id": "xiaoe-tech",
+  "name": "小鹅通",
+  "category": "collab-community",
+  "subcategory": "membership-community",
+  "oneLiner": "微信私域知识店铺 · 课程直播社群 · Circle 国内对位",
+  "officialUrl": "https://www.xiaoe-tech.com",
+  "descriptionMd": "小鹅通是国内知识付费与私域经营 SaaS：课程、直播、训练营、店铺与社群（鹅圈子）装在同一产品里，深度挂接微信生态，服务创作者、讲师与教育机构做私域变现。\n\n要在微信侧卖课、跑训练营与会员、对照 Circle 托管会员社区时优先；纯付费问答型轻社群可看知识星球，可索引公开论坛看 Discourse。\n\n年费与支付通道费叠加；品牌与数据边界受微信平台规则强约束。\n",
+  "vendorId": "xiaoe-inc"
+}

@@ -37,7 +37,9 @@
       "period": "2026-07",
       "sourceUrl": "https://artificialanalysis.ai/models/gpt-5-6-terra-medium",
       "note": "GPT-5.6 Terra（medium，标准均衡推理档）",
-      "asOf": "2026-07-30"
+      "asOf": "2026-07-30",
+      "previousScore": 46,
+      "previousAsOf": "2026-07-30"
     },
     {
       "systemId": "lmarena-vision",
@@ -47,7 +49,10 @@
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 gpt-5.6-terra-xhigh",
-      "asOf": "2026-08-04"
+      "asOf": "2026-08-04",
+      "previousRank": 25,
+      "previousScore": 1273,
+      "previousAsOf": "2026-07-31"
     },
     {
       "systemId": "lmarena-document",
@@ -57,17 +62,23 @@
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 gpt-5.6-terra-xhigh",
-      "asOf": "2026-07-31"
+      "asOf": "2026-07-31",
+      "previousRank": 10,
+      "previousScore": 1479,
+      "previousAsOf": "2026-07-31"
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 20,
+      "rank": 22,
       "score": 1522,
       "scoreLabel": "1522 Elo",
-      "period": "2026-07",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 gpt-5.6-terra-xhigh (codex-harness)",
-      "asOf": "2026-07-31"
+      "asOf": "2026-08-06",
+      "previousRank": 20,
+      "previousScore": 1522,
+      "previousAsOf": "2026-07-31"
     },
     {
       "systemId": "openrouter-popularity",
@@ -76,7 +87,10 @@
       "share": 1.1,
       "period": "2026-08",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-08-04"
+      "asOf": "2026-08-04",
+      "previousRank": 24,
+      "previousShare": 0.9,
+      "previousAsOf": "2026-08-03"
     }
   ],
   "sources": [

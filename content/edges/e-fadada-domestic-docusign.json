@@ -1,0 +1,11 @@
+{
+  "id": "e-fadada-domestic-docusign",
+  "from": "fadada",
+  "to": "docusign",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "中国大陆电子签 vs 跨境 DocuSign"
+}

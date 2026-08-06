@@ -1,0 +1,11 @@
+{
+  "id": "e-sift-with-stripe",
+  "from": "sift",
+  "to": "stripe",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "支付链路风险评分"
+}

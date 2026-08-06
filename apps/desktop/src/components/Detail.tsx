@@ -1,4 +1,4 @@
-import type { Entry, Id } from '@vh/core';
+import type { Category, Entry, Id } from '@vh/core';
 import {
   buildConceptTermRules,
   linkifyConcepts,
@@ -13,9 +13,11 @@ import { useContentEditor } from '../lib/content.tsx';
 import { STALE_DAYS, formatReviewedLabel, isStale } from '../lib/intel.ts';
 import { EASE_STANDARD, useMotionPrefs } from '../lib/motion.ts';
 import { useIsMobile } from '../lib/use-is-mobile.ts';
+import type { KbNav } from './CategoryBrowser.tsx';
 import { ConceptPopover } from './ConceptPopover.tsx';
 import { EmptyState } from './EmptyState.tsx';
 import { Icon } from './Icon.tsx';
+import { LeafJourneyStrip } from './LeafJourneyStrip.tsx';
 import { PersonalBar } from './PersonalBar.tsx';
 import { PitfallsPanel } from './PitfallsPanel.tsx';
 import { RankingBadges, RankingsPanel } from './RankingsPanel.tsx';
@@ -28,7 +30,13 @@ const HERO_COLLAPSE_Y = 56;
 
 interface DetailProps {
   id: Id | null;
+  /** 无选中条目时用于展示叶级 usageMd */
+  scopeNav?: KbNav;
+  onScopeNav?: (nav: KbNav) => void;
   onSelect: (id: Id) => void;
+  /** 与中栏列表双向 hover 的当前 id */
+  hoverEntryId?: Id | null;
+  onHoverEntry?: (id: Id | null) => void;
   onEdit?: (id: Id) => void;
   onEditEdge?: (edgeId: Id) => void;
   onAddEdge?: (fromId: Id) => void;
@@ -38,7 +46,11 @@ interface DetailProps {
 
 export function Detail({
   id,
+  scopeNav,
+  onScopeNav,
   onSelect,
+  hoverEntryId,
+  onHoverEntry,
   onEdit,
   onEditEdge,
   onAddEdge,
@@ -49,6 +61,19 @@ export function Detail({
   const { isOverridden } = useContentEditor();
   const entry = id ? bundle.entries.get(id) : undefined;
   if (!entry) {
+    const leafGuide = resolveLeafGuide(scopeNav, categories);
+    if (leafGuide?.usageMd) {
+      return (
+        <LeafUsagePanel
+          category={leafGuide}
+          categories={categories}
+          onScopeNav={onScopeNav}
+          onSelect={onSelect}
+          hoverEntryId={hoverEntryId}
+          onHoverEntry={onHoverEntry}
+        />
+      );
+    }
     return (
       <EmptyState
         seal
@@ -71,6 +96,105 @@ export function Detail({
       inCompare={inCompare}
       onToggleCompare={onToggleCompare}
     />
+  );
+}
+
+/** 从 kbNav 解析可展示说明的 leaf（leaf 直接命中；section 回落该卷首叶） */
+function resolveLeafGuide(
+  scopeNav: KbNav | undefined,
+  categories: Category[],
+): Category | undefined {
+  if (scopeNav?.kind !== 'category') return undefined;
+  const hit = categories.find((c) => c.id === scopeNav.categoryId);
+  if (!hit) return undefined;
+  if (hit.kind === 'leaf' && hit.usageMd) return hit;
+  if (hit.kind === 'section') {
+    const leaves = categories
+      .filter((c) => c.kind === 'leaf' && c.parent === hit.id)
+      .sort((a, b) => a.order - b.order);
+    return leaves.find((l) => l.usageMd) ?? leaves[0];
+  }
+  return undefined;
+}
+
+/** 选中叶、未选条目：位置图 + 用法；条目为图上落点，完整扫阅仍在中栏 */
+function LeafUsagePanel({
+  category,
+  categories,
+  onScopeNav,
+  onSelect,
+  hoverEntryId,
+  onHoverEntry,
+}: {
+  category: Category;
+  categories: Category[];
+  onScopeNav?: (nav: KbNav) => void;
+  onSelect: (id: Id) => void;
+  hoverEntryId?: Id | null;
+  onHoverEntry?: (id: Id | null) => void;
+}) {
+  const { bundle, categoryCount } = useContent();
+  const icon = CATEGORY_ICONS[category.id] ?? 'CirclesFour';
+  const parentId = category.parent;
+  const parentName = parentId ? categories.find((c) => c.id === parentId)?.name : undefined;
+  const layer = layerOfCategory(category.id, categories);
+  const entryCount = categoryCount[category.id] ?? 0;
+  const crumb = [layer?.label, parentName].filter(Boolean).join(' · ');
+
+  const entries = useMemo(() => {
+    const list = [...bundle.entries.values()].filter((e) => e.category === category.id);
+    return list.sort((a, b) => a.name.localeCompare(b.name, 'zh'));
+  }, [bundle.entries, category.id]);
+
+  return (
+    <div className="vh-kb-detail vh-kb-leaf-usage" data-scroll-mode="unified">
+      <header className="vh-kb-leaf-usage-head">
+        <div className="vh-kb-leaf-usage-badge-row">
+          <span className="vh-kb-leaf-usage-badge">
+            <Icon name="TreeStructure" size={12} weight="bold" />
+            这一类
+          </span>
+        </div>
+
+        <div className="vh-kb-leaf-usage-title-row">
+          <div className="vh-kb-detail-icon vh-kb-leaf-usage-icon" aria-hidden>
+            <Icon name={icon} size={28} weight="duotone" />
+          </div>
+          <div className="vh-kb-leaf-usage-copy">
+            {crumb && (
+              <div className="vh-kb-crumb vh-text-xs" style={{ color: 'var(--ink-3)' }}>
+                {crumb}
+              </div>
+            )}
+            <h1 className="vh-text-h1 vh-kb-leaf-usage-title">{category.name}</h1>
+            <p className="vh-kb-leaf-usage-sub">
+              什么时候用、干什么用
+              {entryCount > 0 ? (
+                <>
+                  {' '}
+                  · 中栏 / 图共 <strong>{entryCount}</strong> 个落点
+                </>
+              ) : null}
+            </p>
+          </div>
+        </div>
+      </header>
+
+      <div className="vh-kb-leaf-usage-body">
+        <div className="vh-kb-leaf-usage-section-label">这类怎么用</div>
+        <Prose text={category.usageMd ?? ''} />
+      </div>
+
+      <LeafJourneyStrip
+        leaf={category}
+        categories={categories}
+        entries={entries}
+        onNav={onScopeNav}
+        onSelectEntry={onSelect}
+        hoverId={hoverEntryId}
+        onHoverEntry={onHoverEntry}
+      />
+    </div>
   );
 }
 

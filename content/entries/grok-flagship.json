@@ -29,7 +29,10 @@
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 grok-4.5",
-      "asOf": "2026-08-03"
+      "asOf": "2026-08-03",
+      "previousRank": 12,
+      "previousScore": 1549,
+      "previousAsOf": "2026-08-03"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -39,7 +42,10 @@
       "asOf": "2026-07-24",
       "rank": 8,
       "score": 54,
-      "scoreLabel": "AAII 54"
+      "scoreLabel": "AAII 54",
+      "previousRank": 8,
+      "previousScore": 54,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "lmarena-text",
@@ -49,7 +55,10 @@
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 grok-4.20-beta1",
-      "asOf": "2026-08-04"
+      "asOf": "2026-08-04",
+      "previousRank": 20,
+      "previousScore": 1474,
+      "previousAsOf": "2026-07-25"
     },
     {
       "systemId": "lmarena-vision",
@@ -59,7 +68,10 @@
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 grok-4.5",
-      "asOf": "2026-07-29"
+      "asOf": "2026-07-29",
+      "previousRank": 16,
+      "previousScore": 1282,
+      "previousAsOf": "2026-07-29"
     },
     {
       "systemId": "lmarena-search",
@@ -69,7 +81,10 @@
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/search",
       "note": "模型 grok-4.20-multi-agent-beta-0309",
-      "asOf": "2026-07-25"
+      "asOf": "2026-07-25",
+      "previousRank": 10,
+      "previousScore": 1205,
+      "previousAsOf": "2026-07-25"
     },
     {
       "systemId": "lmarena-document",
@@ -79,7 +94,10 @@
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 grok-4.5",
-      "asOf": "2026-07-31"
+      "asOf": "2026-07-31",
+      "previousRank": 20,
+      "previousScore": 1454,
+      "previousAsOf": "2026-07-31"
     },
     {
       "systemId": "openrouter-popularity",
@@ -88,7 +106,10 @@
       "share": 0.7,
       "period": "2026-08",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-08-03"
+      "asOf": "2026-08-03",
+      "previousRank": 31,
+      "previousShare": 0.7,
+      "previousAsOf": "2026-08-03"
     }
   ],
   "sources": [

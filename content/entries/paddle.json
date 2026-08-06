@@ -40,7 +40,8 @@
       "tier": "MoR Leader niche",
       "period": "2024–2025",
       "note": "Merchant of Record 模式；独立开发者友好",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     }
   ]
 }

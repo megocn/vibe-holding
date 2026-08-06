@@ -1,0 +1,11 @@
+{
+  "id": "e-paragon-alt-nango",
+  "from": "paragon",
+  "to": "nango",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "托管嵌入式集成 vs 开源 Nango"
+}

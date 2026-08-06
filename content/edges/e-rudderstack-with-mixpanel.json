@@ -1,0 +1,11 @@
+{
+  "id": "e-rudderstack-with-mixpanel",
+  "from": "rudderstack",
+  "to": "mixpanel",
+  "type": "commonly_used_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "管道下游常接产品分析"
+}

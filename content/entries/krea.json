@@ -43,7 +43,10 @@
       "period": "2026-07",
       "note": "krea-2-medium",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
-      "asOf": "2026-07-24"
+      "asOf": "2026-07-24",
+      "previousRank": 36,
+      "previousScore": 1120,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "aa-image-arena",
@@ -53,7 +56,10 @@
       "period": "2026-07",
       "note": "Krea 2 Medium",
       "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "asOf": "2026-07-24"
+      "asOf": "2026-07-24",
+      "previousRank": 15,
+      "previousScore": 1197,
+      "previousAsOf": "2026-07-24"
     }
   ],
   "sources": [

@@ -1,0 +1,11 @@
+{
+  "id": "e-merge-with-hubspot",
+  "from": "merge-dev",
+  "to": "hubspot",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "统一 CRM 类别常映射到 HubSpot 等"
+}

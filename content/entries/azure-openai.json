@@ -39,7 +39,8 @@
       "tier": "Enterprise channel",
       "period": "2026-07",
       "note": "企业合规接入 OpenAI 模型的主流云通道",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     }
   ]
 }

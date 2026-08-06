@@ -1,0 +1,11 @@
+{
+  "id": "e-fingerprint-with-sift",
+  "from": "fingerprint",
+  "to": "sift",
+  "type": "commonly_used_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "设备信号喂给反欺诈决策"
+}

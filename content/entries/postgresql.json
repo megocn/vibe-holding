@@ -55,7 +55,10 @@
       "period": "2026-07",
       "note": "Top4 中唯一同比正增长；含向量等多模型",
       "sourceUrl": "https://db-engines.com/en/ranking",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousRank": 4,
+      "previousScore": 687.8,
+      "previousAsOf": "2026-07-20"
     },
     {
       "systemId": "so-survey-language",
@@ -64,7 +67,10 @@
       "period": "2025 Survey",
       "note": "开发者使用率第一；最受钦佩库之一",
       "sourceUrl": "https://survey.stackoverflow.co/2025/technology/",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousRank": 1,
+      "previousShare": 55.6,
+      "previousAsOf": "2026-07-20"
     }
   ],
   "currentVersion": "5.0.0"

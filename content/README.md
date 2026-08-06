@@ -38,6 +38,7 @@ VS Code 已通过 `.vscode/settings.json` 的 `json.schemas` 关联 `content/sch
 - **section（A–V）**：图廓导航地图，**不**直接挂条目、**不**挂排行。
 - **leaf**：可比较单元（如 `ui-icons` vs `ui-kits`）；`Entry.category` 必须是 leaf id。
 - 排行体系的 `categories[]` 挂 leaf；选型向导仍可传 section id（引擎按 section 聚合 leaf）。
+- **`usageMd`（仅 leaf）**：用户视角——什么时候用、想干什么、一般怎么弄。语气偏口语短句，非站内可比方法论。选中叶且未点条目时右侧展示。批量：`scripts/enrich-leaf-usage-2026-08.py`。
 - 维护脚本：`scripts/migrate-category-leaves.py`（结构变更时参考）。
 
 ### LLM 粒度约定（B 类）
@@ -75,6 +76,8 @@ VS Code 已通过 `.vscode/settings.json` 的 `json.schemas` 关联 `content/sch
 | **写法优质** | `oneLiner` = 同叶可对比特点（· 串点），非品类简介；`descriptionMd` = 是什么 → 何时选 → 注意什么；`pitfalls` 写真实坑；`sources`/`officialUrl` 必填可点开的官方源。 |
 | **叶不空、叶不滥** | 新 leaf 至少 3 条且每条有差异化轴；禁止同一产品改名重复、禁止不同可比层捏成一条。 |
 | **先源后量** | 先写清对比轴与 3–5 个锚点，再补边；边表达真实选型关系，不为图密度硬连。 |
+
+| **国内外对标** | 新叶与全球赛道扩种须**同步调研国内短名单**（能对标则 `domestic_equivalent_of`）；无短名单级产品时宁缺并在脚本注释写明，禁止硬凑。 |
 
 批量脚本（`scripts/expand-*.py`）必须遵守上表；不达标宁可不落库。
 

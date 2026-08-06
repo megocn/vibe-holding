@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "api",
+    "http",
+    "devops",
+    "collaboration"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "高级协作与用量计费陡；纯开源替代看 Hoppscotch/Insomnia/Apifox。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.postman.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "id": "postman",
+  "name": "Postman",
+  "category": "oss-api-dev",
+  "subcategory": "api-client",
+  "oneLiner": "API 调试协作事实标准 · 集合/Mock/监控 · 团队空间",
+  "officialUrl": "https://www.postman.com",
+  "descriptionMd": "Postman 是 API 设计与调试协作平台：集合、环境、Mock、监控与团队工作区，行业默认短名单。\n\n前后端联调、对外 API 交付文档与自动化轻测、跨角色共享请求样本时主轴。\n\n高级协作与用量计费陡；纯开源替代看 Hoppscotch/Insomnia/Apifox。选型前请以官网与当前定价页为准。选型前请以官网与当前定价页为准。\n",
+  "vendorId": "postman-inc"
+}

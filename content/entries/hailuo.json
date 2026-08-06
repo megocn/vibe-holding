@@ -30,7 +30,10 @@
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 hailuo-2.3",
-      "asOf": "2026-07-25"
+      "asOf": "2026-07-25",
+      "previousRank": 27,
+      "previousScore": 1199,
+      "previousAsOf": "2026-07-25"
     },
     {
       "systemId": "lmarena-i2v",
@@ -40,7 +43,10 @@
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
       "note": "模型 hailuo-2.3",
-      "asOf": "2026-07-26"
+      "asOf": "2026-07-26",
+      "previousRank": 23,
+      "previousScore": 1260,
+      "previousAsOf": "2026-07-26"
     }
   ],
   "sources": [

@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "internal-tools",
+    "low-code",
+    "forms",
+    "domestic"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "复杂权限矩阵与深度 API 集成弱于工程级 low-code；业务膨胀后会逼近自研或 Retool 系。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.jiandaoyun.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "domestic",
+  "id": "jiandaoyun",
+  "name": "简道云",
+  "category": "ops-internal",
+  "subcategory": "internal-admin",
+  "oneLiner": "零代码业务应用 · 表单流水线 · 国内中小企业运维台",
+  "officialUrl": "https://www.jiandaoyun.com",
+  "descriptionMd": "简道云以零/低代码表单与流程构建 CRM 轻模块、进销存、审批等业务系统，定位业务侧配置多于全职前端开发。\n\n国内中小团队技术人手不足、要快速上线业务台账与审批流时，与宜搭同级国内短名单；导入导出与消息通知较齐。\n\n复杂权限矩阵与深度 API 集成弱于工程级 low-code；业务膨胀后会逼近自研或 Retool 系。\n",
+  "vendorId": "fanruan-jdy"
+}

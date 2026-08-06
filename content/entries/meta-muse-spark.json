@@ -48,7 +48,10 @@
       "asOf": "2026-07-24",
       "rank": 14,
       "score": 51,
-      "scoreLabel": "AAII 51"
+      "scoreLabel": "AAII 51",
+      "previousRank": 14,
+      "previousScore": 51,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "lmarena-text",
@@ -58,7 +61,10 @@
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 muse-spark-1.1",
-      "asOf": "2026-07-29"
+      "asOf": "2026-07-29",
+      "previousRank": 8,
+      "previousScore": 1491,
+      "previousAsOf": "2026-07-29"
     },
     {
       "systemId": "lmarena-vision",
@@ -68,7 +74,10 @@
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 muse-spark",
-      "asOf": "2026-07-25"
+      "asOf": "2026-07-25",
+      "previousRank": 6,
+      "previousScore": 1294,
+      "previousAsOf": "2026-07-25"
     },
     {
       "systemId": "lmarena-document",
@@ -78,7 +87,10 @@
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 muse-spark-1.1",
-      "asOf": "2026-07-31"
+      "asOf": "2026-07-31",
+      "previousRank": 13,
+      "previousScore": 1472,
+      "previousAsOf": "2026-07-31"
     },
     {
       "systemId": "lmarena-webdev",
@@ -88,7 +100,10 @@
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 muse-spark-1.1",
-      "asOf": "2026-08-03"
+      "asOf": "2026-08-03",
+      "previousRank": 17,
+      "previousScore": 1536,
+      "previousAsOf": "2026-08-03"
     }
   ],
   "sources": [

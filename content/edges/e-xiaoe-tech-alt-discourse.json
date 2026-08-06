@@ -1,0 +1,11 @@
+{
+  "id": "e-xiaoe-tech-alt-discourse",
+  "from": "xiaoe-tech",
+  "to": "discourse",
+  "type": "alternative_to",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "私域付费经营 vs 公开可索引论坛"
+}

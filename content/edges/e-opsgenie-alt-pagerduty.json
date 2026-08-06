@@ -1,0 +1,11 @@
+{
+  "id": "e-opsgenie-alt-pagerduty",
+  "from": "opsgenie",
+  "to": "pagerduty",
+  "type": "alternative_to",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "Atlassian 栈 On-call vs 中立 On-call 枢纽"
+}

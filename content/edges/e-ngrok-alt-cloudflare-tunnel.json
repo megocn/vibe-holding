@@ -1,0 +1,11 @@
+{
+  "id": "e-ngrok-alt-cloudflare-tunnel",
+  "from": "ngrok",
+  "to": "cloudflare-tunnel",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "本地公网隧道：SaaS DX vs CF 边缘出站"
+}

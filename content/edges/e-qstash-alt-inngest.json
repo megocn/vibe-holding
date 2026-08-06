@@ -1,0 +1,11 @@
+{
+  "id": "e-qstash-alt-inngest",
+  "from": "upstash-qstash",
+  "to": "inngest",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "HTTP 投递队列 vs 代码内 durable step"
+}

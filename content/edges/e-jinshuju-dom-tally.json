@@ -1,0 +1,11 @@
+{
+  "id": "e-jinshuju-dom-tally",
+  "from": "jinshuju",
+  "to": "tally",
+  "type": "domestic_equivalent_of",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "国内业务表单+办公套件集成 vs Tally 慷慨免费国际表单"
+}

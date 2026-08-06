@@ -12,7 +12,9 @@
   },
   "tags": [
     "suite",
-    "docs"
+    "docs",
+    "microsoft",
+    "collaboration"
   ],
   "maturity": "stable",
   "pitfalls": [
@@ -23,7 +25,7 @@
   "sources": [
     "https://www.microsoft.com/microsoft-loop"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-07",
   "region": "overseas",
   "id": "microsoft-loop",
   "name": "Microsoft Loop",

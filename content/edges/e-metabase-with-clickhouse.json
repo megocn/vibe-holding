@@ -1,0 +1,11 @@
+{
+  "id": "e-metabase-with-clickhouse",
+  "from": "metabase",
+  "to": "clickhouse",
+  "type": "commonly_used_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "分析库常见接法"
+}

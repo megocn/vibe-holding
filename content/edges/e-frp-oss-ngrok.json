@@ -1,0 +1,11 @@
+{
+  "id": "e-frp-oss-ngrok",
+  "from": "frp",
+  "to": "ngrok",
+  "type": "open_source_alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "自建穿透 vs 托管隧道"
+}

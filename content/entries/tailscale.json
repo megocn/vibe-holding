@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "tunnel",
+    "vpn",
+    "zero-trust",
+    "wireguard"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "规模与 IdP 集成会进企业档；中国大陆访问质量与企业合规策略需要实测与法务确认。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://tailscale.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "id": "tailscale",
+  "name": "Tailscale",
+  "category": "net-tunnel",
+  "subcategory": "zero-trust-vpn",
+  "oneLiner": "WireGuard mesh · 设备身份 · 零信任内网 · 开发机互联极快",
+  "officialUrl": "https://tailscale.com",
+  "descriptionMd": "Tailscale 基于 WireGuard 组成零信任 mesh 网络：设备身份登录、ACL、出口节点，把分散的开发机与环境连成一张安全内网。\n\n多地开发机、家庭 lab、安全访问预发环境，又不想维护传统 VPN 中枢与证书地狱时，它是默认体验首选。\n\n规模与 IdP 集成会进企业档；中国大陆访问质量与企业合规策略需要实测与法务确认。\n",
+  "vendorId": "tailscale-inc"
+}

@@ -24,7 +24,8 @@
       "tier": "Frontier closed",
       "period": "2026-07",
       "note": "族级定位；能力对比请打开下属选型档位",
-      "asOf": "2026-07-23"
+      "asOf": "2026-07-23",
+      "previousAsOf": "2026-07-23"
     }
   ],
   "sources": [

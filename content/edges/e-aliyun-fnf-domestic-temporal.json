@@ -1,0 +1,11 @@
+{
+  "id": "e-aliyun-fnf-domestic-temporal",
+  "from": "aliyun-fnf",
+  "to": "temporal",
+  "type": "domestic_equivalent_of",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "阿里云有状态工作流 vs Temporal 耐久执行"
+}

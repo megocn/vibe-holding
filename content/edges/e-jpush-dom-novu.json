@@ -1,0 +1,11 @@
+{
+  "id": "e-jpush-dom-novu",
+  "from": "jpush",
+  "to": "novu",
+  "type": "domestic_equivalent_of",
+  "weight": 0.45,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "极光推送通道 vs Novu 开源编排；通道≠编排中台"
+}

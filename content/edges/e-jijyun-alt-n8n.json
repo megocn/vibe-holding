@@ -1,0 +1,11 @@
+{
+  "id": "e-jijyun-alt-n8n",
+  "from": "jijyun",
+  "to": "n8n",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "托管零代码国内连接 vs 可自托管节点工作流"
+}

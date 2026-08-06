@@ -1,0 +1,11 @@
+{
+  "id": "e-bullmq-depends-redis",
+  "from": "bullmq",
+  "to": "redis",
+  "type": "depends_on",
+  "weight": 0.9,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "队列状态与后端在 Redis"
+}

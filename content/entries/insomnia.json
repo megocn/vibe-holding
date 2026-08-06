@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "api",
+    "http",
+    "graphql",
+    "desktop"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "团队协作与云同步能力相对 Postman 弱；许可证与账号策略历史上有过调整需关注。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://insomnia.rest"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "id": "insomnia",
+  "name": "Insomnia",
+  "category": "oss-api-dev",
+  "subcategory": "api-client",
+  "oneLiner": "设计简洁的 API 客户端 · 插件/Git · Kong 生态",
+  "officialUrl": "https://insomnia.rest",
+  "descriptionMd": "Insomnia 侧重视觉清晰的 REST/GraphQL 调试，支持插件与 Git 同步，与 Kong 生态有交集。\n\n工程师偏好本地客户端、需要 GraphQL 调试体验并与 Postman 比工作流时选。\n\n团队协作与云同步能力相对 Postman 弱；许可证与账号策略历史上有过调整需关注。选型前请以官网与当前定价页为准。\n",
+  "vendorId": "kong-inc"
+}

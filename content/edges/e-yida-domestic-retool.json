@@ -1,0 +1,11 @@
+{
+  "id": "e-yida-domestic-retool",
+  "from": "aliyun-yida",
+  "to": "retool",
+  "type": "domestic_equivalent_of",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "钉钉低代码内部应用 vs 工程向 Retool；可比场景有限"
+}

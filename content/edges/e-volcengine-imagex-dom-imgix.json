@@ -1,0 +1,11 @@
+{
+  "id": "e-volcengine-imagex-dom-imgix",
+  "from": "volcengine-imagex",
+  "to": "imgix",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "字节系海量图处理分发 vs imgix URL 实时变换"
+}

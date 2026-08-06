@@ -12,7 +12,8 @@
   },
   "tags": [
     "iac",
-    "cloud"
+    "cloud",
+    "devops"
   ],
   "maturity": "mature",
   "pitfalls": [
@@ -23,11 +24,11 @@
   "sources": [
     "https://www.terraform.io"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-07",
   "region": "overseas",
   "id": "terraform",
   "name": "Terraform",
-  "category": "cicd-pipeline",
+  "category": "cicd-iac",
   "subcategory": "iac",
   "oneLiner": "HCL plan/apply · 多云模块复用 · IaC 最普及",
   "officialUrl": "https://www.terraform.io",

@@ -1,0 +1,11 @@
+{
+  "id": "e-volcengine-imagex-alt-qiniu",
+  "from": "volcengine-imagex",
+  "to": "qiniu",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "大流量图站/字节栈 vs 通用开发者媒体底座"
+}

@@ -60,7 +60,10 @@
       "period": "2025 Survey",
       "note": "使用率第一；满意度有分歧",
       "sourceUrl": "https://stateofjs.com/",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousRank": 1,
+      "previousShare": 83.6,
+      "previousAsOf": "2026-07-20"
     },
     {
       "systemId": "so-survey-language",
@@ -69,7 +72,9 @@
       "period": "2025 Survey",
       "note": "SO 调查前端框架持续领先档（口径为库/框架合并）",
       "sourceUrl": "https://survey.stackoverflow.co/2025/technology/",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousShare": 40,
+      "previousAsOf": "2026-07-20"
     }
   ]
 }

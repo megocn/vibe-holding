@@ -12,7 +12,9 @@
   },
   "tags": [
     "kafka",
-    "managed"
+    "managed",
+    "messaging",
+    "broker"
   ],
   "maturity": "stable",
   "pitfalls": [
@@ -23,11 +25,11 @@
   "sources": [
     "https://aws.amazon.com/msk"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-07",
   "region": "overseas",
   "id": "aws-msk",
   "name": "Amazon MSK",
-  "category": "db-nosql",
+  "category": "msg-broker",
   "subcategory": "managed",
   "oneLiner": "托管开源 Kafka · VPC/IAM/Glue · AWS 栈补丁与扩缩",
   "officialUrl": "https://aws.amazon.com/msk",

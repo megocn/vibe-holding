@@ -58,7 +58,10 @@
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 gpt-5.6-sol-xhigh",
-      "asOf": "2026-08-03"
+      "asOf": "2026-08-03",
+      "previousRank": 15,
+      "previousScore": 1483,
+      "previousAsOf": "2026-08-03"
     },
     {
       "systemId": "lmarena-agent",
@@ -66,7 +69,9 @@
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/agent",
       "note": "模型 GPT 5.6 Sol (xHigh)",
-      "asOf": "2026-07-29"
+      "asOf": "2026-07-29",
+      "previousRank": 4,
+      "previousAsOf": "2026-07-29"
     },
     {
       "systemId": "lmarena-webdev",
@@ -76,7 +81,10 @@
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 gpt-5.6-sol-xhigh (codex-harness)",
-      "asOf": "2026-07-29"
+      "asOf": "2026-07-29",
+      "previousRank": 5,
+      "previousScore": 1623,
+      "previousAsOf": "2026-07-29"
     },
     {
       "systemId": "lmarena-vision",
@@ -86,7 +94,10 @@
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 gpt-5.5",
-      "asOf": "2026-08-03"
+      "asOf": "2026-08-03",
+      "previousRank": 11,
+      "previousScore": 1287,
+      "previousAsOf": "2026-08-03"
     },
     {
       "systemId": "lmarena-document",
@@ -96,7 +107,10 @@
       "asOf": "2026-07-24",
       "rank": 6,
       "score": 1487,
-      "scoreLabel": "1487 Elo"
+      "scoreLabel": "1487 Elo",
+      "previousRank": 6,
+      "previousScore": 1487,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "lmarena-search",
@@ -106,7 +120,10 @@
       "asOf": "2026-07-24",
       "rank": 2,
       "score": 1240,
-      "scoreLabel": "1240 Elo"
+      "scoreLabel": "1240 Elo",
+      "previousRank": 2,
+      "previousScore": 1240,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -116,7 +133,10 @@
       "asOf": "2026-07-24",
       "rank": 2,
       "score": 59,
-      "scoreLabel": "AAII 59"
+      "scoreLabel": "AAII 59",
+      "previousRank": 2,
+      "previousScore": 59,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "swe-bench-pro",
@@ -125,7 +145,9 @@
       "sourceUrl": "https://www.swebench.com/",
       "asOf": "2026-07-24",
       "score": 64.6,
-      "scoreLabel": "64.6%"
+      "scoreLabel": "64.6%",
+      "previousScore": 64.6,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "openrouter-popularity",
@@ -134,7 +156,10 @@
       "share": 0.8,
       "period": "2026-08",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-08-02"
+      "asOf": "2026-08-02",
+      "previousRank": 25,
+      "previousShare": 0.8,
+      "previousAsOf": "2026-08-02"
     }
   ],
   "subcategory": "line",

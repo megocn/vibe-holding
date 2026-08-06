@@ -38,7 +38,8 @@
       "tier": "Niche meta-FW",
       "period": "2025 Survey",
       "note": "并入 React Router 生态后定位变化中",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     }
   ]
 }

@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "subscription"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "unified-api",
+    "ipaas",
+    "integrations",
+    "embed"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "平台锁定与连接器路线图取决于供应商；极深定制仍可能回到自研同步。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.useparagon.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "id": "paragon",
+  "name": "Paragon",
+  "category": "cicd-unified-api",
+  "subcategory": "unified-api",
+  "oneLiner": "嵌入式 iPaaS · 可视化集成工作流 · 给产品加连接器",
+  "officialUrl": "https://www.useparagon.com",
+  "descriptionMd": "Paragon 面向产品内嵌集成：托管 OAuth、可视化工作流与连接器目录，让终端用户在你的产品里点选集成。\n\n要在 App 内提供「连接 Slack/Salesforce」体验、工程带宽有限时与 Nango/Merge 同轴比较。\n\n平台锁定与连接器路线图取决于供应商；极深定制仍可能回到自研同步。选型前请以官网能力与定价页为准。\n",
+  "vendorId": "paragon-inc"
+}

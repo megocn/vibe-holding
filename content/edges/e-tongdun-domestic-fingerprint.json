@@ -1,0 +1,11 @@
+{
+  "id": "e-tongdun-domestic-fingerprint",
+  "from": "tongdun",
+  "to": "fingerprint",
+  "type": "domestic_equivalent_of",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "国内设备/反欺诈能力 vs 全球设备指纹"
+}

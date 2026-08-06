@@ -12,7 +12,8 @@
   },
   "tags": [
     "cdp",
-    "analytics"
+    "analytics",
+    "events"
   ],
   "maturity": "stable",
   "pitfalls": [
@@ -23,11 +24,11 @@
   "sources": [
     "https://segment.com"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-07",
   "region": "overseas",
   "id": "segment",
   "name": "Segment",
-  "category": "growth-web",
+  "category": "growth-cdp",
   "subcategory": "cdp",
   "oneLiner": "一次采集多下游路由 · CDP 减重复埋点 · 接 Mixpanel/GA/BQ",
   "officialUrl": "https://segment.com",

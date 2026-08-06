@@ -1,0 +1,48 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "jobs",
+    "queue",
+    "redis",
+    "node"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "可靠性边界取决于 Redis 与 worker 运维；跨语言协调与强一致长事务应看 Temporal 一类。"
+  ],
+  "updates": [
+    {
+      "date": "2026-08-06",
+      "type": "release",
+      "summary": "发布 0.1: vphp2.0.1",
+      "version": "0.1",
+      "source": "https://github.com/taskforcesh/bullmq/releases/tag/vphp2.0.1"
+    }
+  ],
+  "rankings": [],
+  "sources": [
+    "https://docs.bullmq.io"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "bullmq",
+  "name": "BullMQ",
+  "category": "cloud-jobs",
+  "subcategory": "queue-worker",
+  "oneLiner": "Redis 队列 Job · Node 生态默认 · 可观测/优先级/延迟任务",
+  "officialUrl": "https://docs.bullmq.io",
+  "descriptionMd": "BullMQ 是基于 Redis 的 Node.js 任务队列：重试、延迟、优先级、流速与可观测组件生态成熟，是 Node 侧默认 worker 方案之一。\n\n已有 Redis，要跑邮件、转码、webhook 重试、批处理消费等进程内 worker，又不想引入完整 durable 平台时选用。\n\n可靠性边界取决于 Redis 与 worker 运维；跨语言协调与强一致长事务应看 Temporal 一类。\n",
+  "vendorId": "taskforce-sh",
+  "githubUrl": "https://github.com/taskforcesh/bullmq",
+  "currentVersion": "0.1"
+}

@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "tunnel",
+    "cloudflare",
+    "zero-trust",
+    "edge"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "深度依赖 Cloudflare 控制面；非 HTTP 与复杂四层流量要核对协议支持与定价。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "id": "cloudflare-tunnel",
+  "name": "Cloudflare Tunnel",
+  "category": "net-tunnel",
+  "subcategory": "public-tunnel",
+  "oneLiner": "出向连接入 CF 边缘 · 免开入站端口 · 接 Access 零信任",
+  "officialUrl": "https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/",
+  "descriptionMd": "Cloudflare Tunnel（cloudflared）从内网主动连到 Cloudflare 边缘，无需公网 IP 或开入站端口，并可挂 Access 做身份访问控制。\n\n已有 Cloudflare 域名，要把家宽、机房或 K8s 服务安全挂到公网又不直接暴露源站时选用。\n\n深度依赖 Cloudflare 控制面；非 HTTP 与复杂四层流量要核对协议支持与定价。\n",
+  "vendorId": "cloudflare-inc"
+}

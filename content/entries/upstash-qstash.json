@@ -12,7 +12,9 @@
   },
   "tags": [
     "queue",
-    "serverless"
+    "serverless",
+    "jobs",
+    "http"
   ],
   "maturity": "stable",
   "pitfalls": [
@@ -23,12 +25,12 @@
   "sources": [
     "https://upstash.com/qstash"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-07",
   "region": "overseas",
   "id": "upstash-qstash",
   "name": "Upstash QStash",
-  "category": "db-nosql",
-  "subcategory": "queue",
+  "category": "cloud-jobs",
+  "subcategory": "http-jobs",
   "oneLiner": "HTTP 投递延迟重试 · Serverless 无常驻 worker · 触发下游 URL",
   "officialUrl": "https://upstash.com/qstash",
   "descriptionMd": "QStash 提供 HTTP 投递、延迟与重试的消息队列，无需常驻 worker 连接，适合 Serverless 与边缘函数触发下游 URL。\n\nVercel/Cloudflare Workers 架构需要可靠异步回调、又不想维护 Redis/RabbitMQ 时采用；与 Upstash Redis 同账号。\n\n消息体积与速率有限制；严格 ordering 场景需自行设计 partition key。\n",

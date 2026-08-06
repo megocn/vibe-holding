@@ -1,0 +1,11 @@
+{
+  "id": "e-tailscale-alt-ngrok",
+  "from": "tailscale",
+  "to": "ngrok",
+  "type": "alternative_to",
+  "weight": 0.45,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "私网 mesh 身份接入 vs 公网临时暴露；场景常不同"
+}

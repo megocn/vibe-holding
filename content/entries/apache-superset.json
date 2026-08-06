@@ -1,0 +1,47 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "bi",
+    "dashboard",
+    "open-source",
+    "apache"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "部署与权限模型比 Metabase 更重；非技术业务自助体验因配置差异大。"
+  ],
+  "updates": [
+    {
+      "date": "2026-07-27",
+      "type": "release",
+      "summary": "发布 0.22.4: superset-helm-chart-0.22.4",
+      "version": "0.22.4",
+      "source": "https://github.com/apache/superset/releases/tag/superset-helm-chart-0.22.4"
+    }
+  ],
+  "rankings": [],
+  "sources": [
+    "https://superset.apache.org"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "apache-superset",
+  "name": "Apache Superset",
+  "category": "db-bi",
+  "subcategory": "bi-dashboard",
+  "oneLiner": "Airbnb 开源 BI · 图表/探索强 · 云与自建常见",
+  "officialUrl": "https://superset.apache.org",
+  "descriptionMd": "Apache Superset 是开源数据探索与仪表盘平台，图表类型丰富、SQL Lab 与多数据源连接成熟，常见于数据团队自建。\n\n已有数仓/查询层，需要比 Metabase 更重探索与可视化、可接受运维成本时列入短名单。\n\n部署与权限模型比 Metabase 更重；非技术业务自助体验因配置差异大。选型前请以官网与当前定价页为准。\n",
+  "vendorId": "apache-software-foundation",
+  "githubUrl": "https://github.com/apache/superset"
+}

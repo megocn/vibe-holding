@@ -47,7 +47,8 @@
       "tier": "Enterprise CN",
       "period": "2026-H1",
       "note": "国内中后台默认组件库之一",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     }
   ]
 }

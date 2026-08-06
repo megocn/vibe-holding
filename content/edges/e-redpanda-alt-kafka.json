@@ -1,0 +1,11 @@
+{
+  "id": "e-redpanda-alt-kafka",
+  "from": "redpanda",
+  "to": "kafka",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "Kafka API 兼容运行时"
+}

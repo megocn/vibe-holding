@@ -39,7 +39,10 @@
       "period": "2026-07",
       "note": "seedream-5.0-pro",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
-      "asOf": "2026-07-24"
+      "asOf": "2026-07-24",
+      "previousRank": 11,
+      "previousScore": 1231,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "lmarena-image-edit",
@@ -49,7 +52,10 @@
       "asOf": "2026-07-24",
       "rank": 4,
       "score": 1393,
-      "scoreLabel": "1393 Elo"
+      "scoreLabel": "1393 Elo",
+      "previousRank": 4,
+      "previousScore": 1393,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "aa-image-arena",
@@ -59,7 +65,10 @@
       "period": "2026-07",
       "note": "Seedream 5.0 Pro",
       "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "asOf": "2026-07-24"
+      "asOf": "2026-07-24",
+      "previousRank": 8,
+      "previousScore": 1229,
+      "previousAsOf": "2026-07-24"
     }
   ],
   "sources": [

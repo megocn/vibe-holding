@@ -1,0 +1,11 @@
+{
+  "id": "e-fxiaoke-dom-hubspot",
+  "from": "fxiaoke",
+  "to": "hubspot",
+  "type": "domestic_equivalent_of",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "国产连接型 CRM 套件默认 vs HubSpot 增长套件默认"
+}

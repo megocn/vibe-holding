@@ -1,0 +1,11 @@
+{
+  "id": "e-newrank-dom-buffer",
+  "from": "newrank",
+  "to": "buffer",
+  "type": "domestic_equivalent_of",
+  "weight": 0.45,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "微信等内容数据/运营决策（非一键排期）vs Buffer 多平台日历；轴不同需读 note"
+}

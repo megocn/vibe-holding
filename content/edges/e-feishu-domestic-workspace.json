@@ -1,0 +1,11 @@
+{
+  "id": "e-feishu-domestic-workspace",
+  "from": "feishu",
+  "to": "google-workspace",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "国内一站式套件 vs Google Workspace"
+}

@@ -29,7 +29,10 @@
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 ernie-5.1（Preliminary）",
       "asOf": "2026-07-21",
-      "period": "2026-07"
+      "period": "2026-07",
+      "previousRank": 32,
+      "previousScore": 1468,
+      "previousAsOf": "2026-07-21"
     },
     {
       "systemId": "lmarena-search",
@@ -39,7 +42,10 @@
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/search",
       "note": "模型 ernie-5.1",
-      "asOf": "2026-08-02"
+      "asOf": "2026-08-02",
+      "previousRank": 5,
+      "previousScore": 1226,
+      "previousAsOf": "2026-08-02"
     }
   ],
   "sources": [

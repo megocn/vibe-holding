@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "forms",
+    "survey",
+    "domestic",
+    "saas"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "企业 API 与品牌自定义多在付费档。",
+    "出海多币种收款与合规模板需另评估。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.jinshuju.net"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "domestic",
+  "id": "jinshuju",
+  "name": "金数据",
+  "category": "growth-forms",
+  "subcategory": "form-builder",
+  "oneLiner": "国内业务表单默认 · 报名收款预约 · 企微钉钉飞书集成",
+  "officialUrl": "https://www.jinshuju.net",
+  "descriptionMd": "金数据面向国内团队做在线表单与业务数据收集：报名、问卷、预约、收款与对外查询页，并深度对接微信/企微/钉钉/飞书，定位业务表单而非纯学术考试系统。\n\n国内运营要可收款的报名与办公套件联动、对照 Tally/Typeform 时优先；海量考试测评与科研问卷可看问卷星。\n\n高级 API 与去品牌在更高档；跨境多语言与海外支付链路弱于国际产品。\n",
+  "vendorId": "jinshuju-inc"
+}

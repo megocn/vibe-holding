@@ -39,7 +39,8 @@
       "tier": "Open scaffold",
       "period": "2025 Survey",
       "note": "开源续写/Agent 插件，可自选模型",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     }
   ]
 }

@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "subscription"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "on-call",
+    "incident",
+    "atlassian",
+    "alerting"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "Atlassian 产品线打包与单独采购路径复杂；非 Atlassian 栈粘性弱于 PagerDuty 中立性。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.atlassian.com/software/opsgenie"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "id": "opsgenie",
+  "name": "Opsgenie",
+  "category": "obs-incident",
+  "subcategory": "on-call",
+  "oneLiner": "Atlassian 值班与告警 · 与 Jira/Statuspage 同栈",
+  "officialUrl": "https://www.atlassian.com/software/opsgenie",
+  "descriptionMd": "Opsgenie 提供值班排班、告警路由与升级，深度嵌 Atlassian 工具链，事故可回流 Jira、对外经 Statuspage 同步。\n\n团队已在 Jira/Confluence/Statuspage，需要 On-call 与工单体系统一时纳入对比。\n\nAtlassian 产品线打包与单独采购路径复杂；非 Atlassian 栈粘性弱于 PagerDuty 中立性。\n",
+  "vendorId": "atlassian"
+}

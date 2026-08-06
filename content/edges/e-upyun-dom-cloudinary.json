@@ -1,0 +1,11 @@
+{
+  "id": "e-upyun-dom-cloudinary",
+  "from": "upyun",
+  "to": "cloudinary",
+  "type": "domestic_equivalent_of",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "国内存储+图处理性价比一体 vs Cloudinary 全球能力"
+}

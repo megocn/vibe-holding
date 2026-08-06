@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "subscription"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "bi",
+    "dashboard",
+    "domestic",
+    "enterprise"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "采购与实施成本高；云原生轻团队往往更偏向 Metabase 自托管。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.finebi.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "domestic",
+  "id": "finebi",
+  "name": "FineBI",
+  "category": "db-bi",
+  "subcategory": "bi-dashboard",
+  "oneLiner": "帆软自助 BI · 国内企业看板事实选项 · 实施重",
+  "officialUrl": "https://www.finebi.com",
+  "descriptionMd": "FineBI 是帆软自助式 BI 产品，面向业务人员拖拽分析与门户看板，在国内政企与中大型数据项目中渗透高。\n\n国内企业要中文文档、本地化实施与信创叙述、与报表/大屏体系打通时，国内 BI 主选之一。\n\n采购与实施成本高；云原生轻团队往往更偏向 Metabase 自托管。选型前请以官网与当前定价页为准。选型前请以官网与当前定价页为准。\n",
+  "vendorId": "fanruan-inc"
+}

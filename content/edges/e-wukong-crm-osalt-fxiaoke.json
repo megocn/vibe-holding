@@ -1,0 +1,11 @@
+{
+  "id": "e-wukong-crm-osalt-fxiaoke",
+  "from": "wukong-crm",
+  "to": "fxiaoke",
+  "type": "open_source_alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "开源私有化成本敏感 vs 商业连接型 CRM"
+}

@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "automation",
+    "ipaas",
+    "tencent",
+    "domestic"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "非腾讯栈连接深度可能不足。",
+    "勿当作全功能企业 ESB/iPaaS。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://hiflow.tencent.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "domestic",
+  "id": "tencent-hiflow",
+  "name": "腾讯轻联 HiFlow",
+  "category": "cicd-automation",
+  "subcategory": "ipaas",
+  "oneLiner": "腾讯系场景连接器 · 与腾讯云/微信生态近 · 轻量自动化",
+  "officialUrl": "https://hiflow.tencent.com",
+  "descriptionMd": "腾讯轻联（HiFlow）提供场景化连接与自动化，把腾讯系与常见应用事件串成流程，适合已在腾讯云/微信生态的团队做轻量集成，而不是全球连接器目录最长的 iPaaS。\n\n事件在腾讯系产品与国内 SaaS 之间流转、想少运维时评估；连接器广度优先仍可看集简云与 Zapier。\n\n生态偏向腾讯栈；复杂企业总线与私有协议要另上集成平台。\n",
+  "vendorId": "tencent"
+}

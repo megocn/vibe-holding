@@ -36,7 +36,10 @@
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 recraft-v4.1-utility-pro",
-      "asOf": "2026-08-06"
+      "asOf": "2026-08-06",
+      "previousRank": 19,
+      "previousScore": 1169,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "aa-image-arena",
@@ -46,7 +49,10 @@
       "period": "2026-07",
       "note": "Recraft V4.1 Utility Pro",
       "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "asOf": "2026-07-24"
+      "asOf": "2026-07-24",
+      "previousRank": 11,
+      "previousScore": 1207,
+      "previousAsOf": "2026-07-24"
     }
   ],
   "sources": [

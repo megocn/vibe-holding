@@ -55,14 +55,17 @@
       "period": "2025 Survey",
       "note": "数据库品类调查中约 6%（BaaS 心智强）",
       "sourceUrl": "https://survey.stackoverflow.co/2025/technology/",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousShare": 6,
+      "previousAsOf": "2026-07-20"
     },
     {
       "systemId": "gartner-mq-access-mgmt",
       "tier": "BaaS+Auth",
       "period": "2025–2026",
       "note": "偏开发者 BaaS；企业 AM 象限以 Auth0/Okta 等为主",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     }
   ]
 }

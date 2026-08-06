@@ -15,12 +15,20 @@
   "pitfalls": [
     "强交互 SPA 场景不如 Next.js；动态 API 需配 server adapter 或外置 backend。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-06",
+      "type": "release",
+      "summary": "发布 7.0.2: @astrojs/vue@7.0.2",
+      "version": "7.0.2",
+      "source": "https://github.com/withastro/astro/releases/tag/%40astrojs%2Fvue%407.0.2"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://astro.build"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-06",
   "region": "overseas",
   "id": "astro",
   "name": "Astro",

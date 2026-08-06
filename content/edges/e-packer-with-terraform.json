@@ -1,0 +1,11 @@
+{
+  "id": "e-packer-with-terraform",
+  "from": "packer",
+  "to": "terraform",
+  "type": "commonly_used_with",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "镜像构建后由 Terraform 起算力"
+}

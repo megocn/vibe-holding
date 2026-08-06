@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "free"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "bi",
+    "dashboard",
+    "google",
+    "marketing"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "复杂权限、语义层与企业嵌入远弱于 Looker/Metabase 自建；依赖 Google 账号与配额。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://lookerstudio.google.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "id": "looker-studio",
+  "name": "Looker Studio",
+  "category": "db-bi",
+  "subcategory": "bi-dashboard",
+  "oneLiner": "原 Data Studio · 免费连 GA/Sheet · 营销看板快",
+  "officialUrl": "https://lookerstudio.google.com",
+  "descriptionMd": "Looker Studio（原 Google Data Studio）免费连接 GA4、Sheets、BigQuery 等，拖拽作营销与运营看板成本极低。\n\n增长/市场团队要快速看板、数据主要在 Google 系且预算近零时使用；与企业 Looker 语义层不是同一档。\n\n复杂权限、语义层与企业嵌入远弱于 Looker/Metabase 自建；依赖 Google 账号与配额。\n",
+  "vendorId": "google"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-svix-with-stripe",
+  "from": "svix",
+  "to": "stripe",
+  "type": "commonly_used_with",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "支付成功后再向你的客户扇出 Webhook 的常见架构"
+}

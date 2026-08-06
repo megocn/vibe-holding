@@ -18,12 +18,19 @@
   ],
   "maturity": "stable",
   "pitfalls": [],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-06",
+      "type": "feature",
+      "summary": "Are agents really killing UI?",
+      "source": "https://posthog.com/blog/agents-killing-ui"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://posthog.com"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-06",
   "region": "overseas",
   "id": "posthog",
   "name": "PostHog",

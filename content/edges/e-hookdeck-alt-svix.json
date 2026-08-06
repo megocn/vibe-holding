@@ -1,0 +1,11 @@
+{
+  "id": "e-hookdeck-alt-svix",
+  "from": "hookdeck",
+  "to": "svix",
+  "type": "alternative_to",
+  "weight": 0.45,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "入站接收/重放 vs 出站投递门户——层可互补"
+}

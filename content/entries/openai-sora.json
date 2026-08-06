@@ -30,7 +30,10 @@
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 sora",
-      "asOf": "2026-08-02"
+      "asOf": "2026-08-02",
+      "previousRank": 39,
+      "previousScore": 1068,
+      "previousAsOf": "2026-08-02"
     }
   ],
   "sources": [

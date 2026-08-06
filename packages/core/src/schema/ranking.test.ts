@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest';
 import {
   EntryRanking,
   RankingSystem,
+  formatRankingChangePhrase,
   formatRankingPrimary,
   formatRankingScore,
   primaryRankingSystem,
@@ -47,6 +48,46 @@ describe('RankingSystem / EntryRanking', () => {
       '#1 · 1512 Elo',
     );
     expect(formatRankingScore(r, { metricUnit: 'Elo' })).toBe('1512 Elo');
+  });
+
+  it('升降文案：名次越小越好，无 previous 不编造', () => {
+    expect(
+      formatRankingChangePhrase({
+        systemId: 'x',
+        rank: 8,
+        previousRank: 10,
+        period: 'p',
+        asOf: '2026-08-06',
+      }),
+    ).toBe('升 2 名');
+    expect(
+      formatRankingChangePhrase({
+        systemId: 'x',
+        rank: 12,
+        previousRank: 10,
+        period: 'p',
+        asOf: '2026-08-06',
+      }),
+    ).toBe('跌 2 名');
+    expect(
+      formatRankingChangePhrase({
+        systemId: 'x',
+        rank: 10,
+        previousRank: 10,
+        score: 1510,
+        previousScore: 1500,
+        period: 'p',
+        asOf: '2026-08-06',
+      }),
+    ).toBe('名次持平，得分 +10');
+    expect(
+      formatRankingChangePhrase({
+        systemId: 'x',
+        rank: 5,
+        period: 'p',
+        asOf: '2026-08-06',
+      }),
+    ).toBeUndefined();
   });
 
   it('主榜排序：名次优先，无快照沉底', () => {

@@ -37,7 +37,8 @@
       "systemId": "cncf-survey",
       "tier": "JAMstack PaaS",
       "period": "2025 Survey",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     }
   ]
 }

@@ -1,0 +1,47 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "iac",
+    "terraform",
+    "open-source",
+    "hcl"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "云厂商最新资源 provider 节奏可能滞后商业 Terraform；企业协作功能要对齐。"
+  ],
+  "updates": [
+    {
+      "date": "2026-07-21",
+      "type": "release",
+      "summary": "发布 1.12.5: 新版本",
+      "version": "1.12.5",
+      "source": "https://github.com/opentofu/opentofu/releases/tag/v1.12.5"
+    }
+  ],
+  "rankings": [],
+  "sources": [
+    "https://opentofu.org"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "opentofu",
+  "name": "OpenTofu",
+  "category": "cicd-iac",
+  "subcategory": "iac",
+  "oneLiner": "Terraform 开源分叉 · HCL 兼容 · Linux 基金会",
+  "officialUrl": "https://opentofu.org",
+  "descriptionMd": "OpenTofu 是 Terraform 的开源分叉，兼容 HCL 与大量现有模块，社区治理在 Linux 基金会下，规避 BUSL 许可顾虑。\n\n团队已有 Terraform 模块资产、需要明确开源许可与供应商中立时，与 Terraform 同轴对比。\n\n云厂商最新资源 provider 节奏可能滞后商业 Terraform；企业协作功能要对齐。\n",
+  "vendorId": "opentofu-linux-foundation",
+  "githubUrl": "https://github.com/opentofu/opentofu"
+}

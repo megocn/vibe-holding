@@ -39,13 +39,15 @@
       "tier": "Edge platform",
       "period": "2025 Survey",
       "note": "Workers/Pages 边缘部署采用持续上升",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     },
     {
       "systemId": "gartner-mq-cloud",
       "tier": "Edge / CDN hybrid",
       "period": "2025–2026",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     }
   ]
 }

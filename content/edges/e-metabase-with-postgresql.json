@@ -1,0 +1,11 @@
+{
+  "id": "e-metabase-with-postgresql",
+  "from": "metabase",
+  "to": "postgresql",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "常直连业务/仓 Postgres 做看板"
+}

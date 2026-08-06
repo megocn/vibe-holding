@@ -12,7 +12,9 @@
   },
   "tags": [
     "queue",
-    "amqp"
+    "amqp",
+    "messaging",
+    "broker"
   ],
   "maturity": "mature",
   "pitfalls": [
@@ -23,11 +25,11 @@
   "sources": [
     "https://www.rabbitmq.com"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-07",
   "region": "overseas",
   "id": "rabbitmq",
   "name": "RabbitMQ",
-  "category": "db-nosql",
+  "category": "msg-broker",
   "subcategory": "queue",
   "oneLiner": "AMQP 多 exchange 路由 · 延迟队列/federation · 传统企业消息",
   "officialUrl": "https://www.rabbitmq.com",

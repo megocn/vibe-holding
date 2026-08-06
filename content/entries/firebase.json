@@ -40,7 +40,9 @@
       "share": 5.7,
       "period": "2025 Survey",
       "note": "Cloud Firestore 采用口径",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousShare": 5.7,
+      "previousAsOf": "2026-07-20"
     }
   ]
 }

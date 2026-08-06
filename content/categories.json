@@ -158,811 +158,1055 @@
     "name": "IDE / 本机 Agent",
     "kind": "leaf",
     "parent": "coding-agent",
-    "order": 1
+    "order": 1,
+    "usageMd": "编辑器已经定了，想让 AI 在你电脑上直接改项目、跑命令时。\n\n希望它看懂整个仓库，改多个文件，而不只是网页里出几段代码。\n\n装上后先绑好仓库和规则；密钥别贴进对话，仍放本机密钥管理。补全插件可以一起用，各管一截。"
   },
   {
     "id": "coding-cloud-builder",
     "name": "云端 App Builder",
     "kind": "leaf",
     "parent": "coding-agent",
-    "order": 2
+    "order": 2,
+    "usageMd": "脑子里只有个想法，想尽快点开一个能跑的网页/应用原型时。\n\n希望在浏览器里一问一出界面，最好带着部署，不想先搭大工程。\n\n边界和大致样子说清楚再生成；代码要拿走维护前，想好是否迁进自己的仓库和流水线。"
   },
   {
     "id": "coding-cli-agent",
     "name": "终端 Agent",
     "kind": "leaf",
     "parent": "coding-agent",
-    "order": 3
+    "order": 3,
+    "usageMd": "你更习惯终端和 git，希望 Agent 跟着目录干活时。\n\n用命令行改文件、跑测试、提 PR，并留下可复现的操作痕迹。\n\n在项目根配好权限和模型；长任务去云端异步 Agent，不要和当前终端会话混着开。"
   },
   {
     "id": "gateway-router",
     "name": "云端网关 / 路由",
     "kind": "leaf",
     "parent": "model-gateway",
-    "order": 1
+    "order": 1,
+    "usageMd": "已经接了多家云模型，或想统一密钥、限流和日志时。\n\n中间加一层路由，业务别直接绑死某一家 API。\n\n后端只打网关；密钥和配额放网关。本机离线推理是另一条路，别混成默认。"
   },
   {
     "id": "gateway-local",
     "name": "本地推理",
     "kind": "leaf",
     "parent": "model-gateway",
-    "order": 2
+    "order": 2,
+    "usageMd": "数据不能上公网、或要离线/内网跑模型时。\n\n在本机或私有机器上起模型服务，对外提供兼容接口。\n\n硬件和 runtime 选好后暴露本地 API；公有云模型可以做备份，但默认路径要说清楚。"
   },
   {
     "id": "lang-language",
     "name": "编程语言",
     "kind": "leaf",
     "parent": "language-runtime",
-    "order": 1
+    "order": 1,
+    "usageMd": "新项目或大重写，要定主编程语言时。\n\n按团队熟悉度、生态、性能和上线方式来选语言。\n\n和框架、运行时、CI 一起定；换语言很贵，先做小模块试点再铺开。"
   },
   {
     "id": "lang-runtime",
     "name": "运行时",
     "kind": "leaf",
     "parent": "language-runtime",
-    "order": 2
+    "order": 2,
+    "usageMd": "语言定了，要统一运行环境版本时。\n\n本地、镜像和生产都用同一套 Node/JVM/Python 等约定。\n\n写进脚手架和 Docker 基础镜像；「用什么语言」另说，这是「用哪个版本跑」。"
   },
   {
     "id": "fw-fullstack",
     "name": "全栈 / 元框架",
     "kind": "leaf",
     "parent": "framework",
-    "order": 1
+    "order": 1,
+    "usageMd": "从零做网站/全栈应用，希望路由和部署成套省心时。\n\n选一套元框架，前后端心智在一个项目里，尽快能上线。\n\n脚手架开仓后再接登录、数据和部署；组件库可后加，别同时再换框架。"
   },
   {
     "id": "fw-ui-lib",
     "name": "UI 框架核心",
     "kind": "leaf",
     "parent": "framework",
-    "order": 2
+    "order": 2,
+    "usageMd": "要定前端用 React/Vue 这类视图底座时。\n\n后面组件库、状态库大都围着它转。\n\n和构建工具、TypeScript、团队经验对齐；做 App 商店壳是另一题。"
   },
   {
     "id": "ui-kits",
     "name": "完整组件库",
     "kind": "leaf",
     "parent": "ui-library",
-    "order": 1
+    "order": 1,
+    "usageMd": "产品要快出一套整齐的中后台或营销页界面时。\n\n要能直接拼的组件（表格、表单、导航等），少从零画交互。\n\n主题配好全站统一用；若要极深定制皮肤，另看无样式原语，别硬改整套。"
   },
   {
     "id": "ui-composable",
     "name": "可组合 / 拷贝式",
     "kind": "leaf",
     "parent": "ui-library",
-    "order": 2
+    "order": 2,
+    "usageMd": "设计已定或很吃定制，想把模块拷进自己仓库时。\n\n要可自己改源码的 UI 片段，而不是整库锁死。\n\n按需拷入并接你的样式；后面自己维护，不太适合「装完即全站规范」的极速后台。"
   },
   {
     "id": "ui-primitives",
     "name": "无样式原语",
     "kind": "leaf",
     "parent": "ui-library",
-    "order": 3
+    "order": 3,
+    "usageMd": "要自建设计系统，先解决无障碍和基础行为时。\n\n要几乎无样式、行为可靠的控件底座。\n\n在上面包品牌样式；只想开箱好看的控件，直接看完整组件库更省。"
   },
   {
     "id": "ui-icons",
     "name": "图标库",
     "kind": "leaf",
     "parent": "ui-library",
-    "order": 4
+    "order": 4,
+    "usageMd": "界面骨架差不多了，要全站统一图标风格时。\n\n要一套查得到、风格一致的图标，盖按钮和导航。\n\n定一种图标系统写进规范再引用；别和整套 UI 库或动效文件搅在一起选。"
   },
   {
     "id": "cloud-paas",
     "name": "PaaS / 边缘托管",
     "kind": "leaf",
     "parent": "cloud-deploy",
-    "order": 1
+    "order": 1,
+    "usageMd": "应用能容器化/无服务器，想少管机器、推代码就上时。\n\n要托管构建、域名、证书和伸缩的 PaaS。\n\n接 Git 和环境变量；数据库可旁挂。要精细控网再考虑公有云或自托管。"
   },
   {
     "id": "db-relational",
     "name": "关系型 / Serverless SQL",
     "kind": "leaf",
     "parent": "database-storage",
-    "order": 1
+    "order": 1,
+    "usageMd": "账号、订单这类要结构清晰、要事务时。\n\n用关系库（含 Serverless SQL）做主库。\n\n先建模再写连接串密钥；搜索、缓存、大文件各找各的地方，别全塞一张表。"
   },
   {
     "id": "db-nosql",
     "name": "文档 / NoSQL",
     "kind": "leaf",
     "parent": "database-storage",
-    "order": 2
+    "order": 2,
+    "usageMd": "结构经常变，或访问模式更适合文档库时。\n\n用文档/宽表库存灵活 JSON。\n\n先想清主键和怎么查；钱账类强事务还是关系库更踏实。"
   },
   {
     "id": "db-cache",
     "name": "缓存 / KV",
     "kind": "leaf",
     "parent": "database-storage",
-    "order": 3
+    "order": 3,
+    "usageMd": "热点读、会话或限流已经顶到主库时。\n\n加一层缓存/键值加速。\n\n设好过期和失效；缓存只是加速，真数据仍在主库。"
   },
   {
     "id": "db-object",
     "name": "对象存储",
     "kind": "leaf",
     "parent": "database-storage",
-    "order": 4
+    "order": 4,
+    "usageMd": "要存用户上传、视频原片、构建包等大文件时。\n\n用对象存储 + 直传/签名链接，别把大文件塞进数据库行。\n\n库里只记元数据；要裁图/转码再叠媒体处理。"
   },
   {
     "id": "db-sqlite-edge",
     "name": "边缘 SQLite",
     "kind": "leaf",
     "parent": "database-storage",
-    "order": 5
+    "order": 5,
+    "usageMd": "桌面端、边缘节点或小体量本机库时。\n\nSQLite 一类嵌入式/就近库，少打中心库。\n\n写清同步和冲突怎么办；全局强一致主数据仍多放中心库。"
   },
   {
     "id": "baas-platform",
     "name": "BaaS 平台",
     "kind": "leaf",
     "parent": "baas-auth",
-    "order": 1
+    "order": 1,
+    "usageMd": "团队偏前端，想尽快有用户、库、文件这些后端能力时。\n\n用 BaaS 一站式托管，少自己先搭后端。\n\n控制台建表和规则，客户端访问；逻辑变复杂再慢慢拆服务。"
   },
   {
     "id": "baas-auth-only",
     "name": "纯鉴权",
     "kind": "leaf",
     "parent": "baas-auth",
-    "order": 2
+    "order": 2,
+    "usageMd": "后端方案有了，就差登录注册和企业账号对接时。\n\n纯鉴权：社交登录、企业 IdP、多因素。\n\n接入 SDK 即可；用户真相在鉴权服务，别和「整包 BaaS」绑死成一道题。"
   },
   {
     "id": "ai-agent-fw",
     "name": "Agent 编排框架",
     "kind": "leaf",
     "parent": "ai-infra",
-    "order": 1
+    "order": 1,
+    "usageMd": "要做多步骤、会调工具的 Agent，而不是单次补全时。\n\n用编排框架管规划、工具和运行轨迹。\n\n工具权限先划清再接线；评测与安全护栏另补。"
   },
   {
     "id": "ai-rag",
     "name": "RAG / 文档索引",
     "kind": "leaf",
     "parent": "ai-infra",
-    "order": 2
+    "order": 2,
+    "usageMd": "希望模型按你们自己的文档答，而不靠它瞎记时。\n\n做文档切分、索引和检索增强。\n\n先把资料源和更新节奏搞定，再选切分与向量；联网搜索是另一条能力。"
   },
   {
     "id": "ai-vector",
     "name": "向量库",
     "kind": "leaf",
     "parent": "ai-infra",
-    "order": 3
+    "order": 3,
+    "usageMd": "已经会做 embedding，需要存向量、做近邻搜索时。\n\n上向量库。\n\n管道写入元数据与向量；别当普通业务事务库用。"
   },
   {
     "id": "ai-llm-obs",
     "name": "LLM 可观测",
     "kind": "leaf",
     "parent": "ai-infra",
-    "order": 4
+    "order": 4,
+    "usageMd": "线上已经在调大模型，想看慢、贵、失败在哪时。\n\n要专门看模型调用、提示和成本的追踪。\n\n挂在网关或 SDK 上；普通 APM 可并存，但 token 级细节通常要专用层。"
   },
   {
     "id": "ai-speech",
     "name": "语音合成 / 识别",
     "kind": "leaf",
     "parent": "ai-infra",
-    "order": 5
+    "order": 5,
+    "usageMd": "产品要听写、配音、字幕或语音指令时。\n\n用语音识别/合成接口。\n\n音频上传处理，文本回业务；电话式实时对话另选实时方案。"
   },
   {
     "id": "ai-realtime",
     "name": "实时语音对话",
     "kind": "leaf",
     "parent": "ai-infra",
-    "order": 6
+    "order": 6,
+    "usageMd": "要做能打断、低延迟的语音多轮助手时。\n\n实时语音管线，而不是剪好再合成。\n\n处理好静音检测和会话状态；纯文字聊天加批语音是另一种产品。"
   },
   {
     "id": "ai-ocr",
     "name": "OCR / 文档智能",
     "kind": "leaf",
     "parent": "ai-infra",
-    "order": 7
+    "order": 7,
+    "usageMd": "流程里有证照、发票、扫描 PDF 要抽字段时。\n\n用 OCR/文档智能认版面和表格。\n\n异步识别 + 关键字段人工复核；通用大模型识图能帮一把，稳定合规仍常靠专用服务。"
   },
   {
     "id": "pay-processor",
     "name": "支付处理商",
     "kind": "leaf",
     "parent": "payment",
-    "order": 1
+    "order": 1,
+    "usageMd": "产品要开始收钱：卡、本地支付方式、退款时。\n\n接支付通道和收银台。\n\n后端下单、前端确认，Webhook 对账；算税、订订阅可以叠加，但先把「怎么收到钱」搞定。"
   },
   {
     "id": "pay-mor",
     "name": "Merchant of Record",
     "kind": "leaf",
     "parent": "payment",
-    "order": 2
+    "order": 2,
+    "usageMd": "卖数字商品/全球订阅，想让平台代你处理销售税一类麻烦时。\n\n找 Merchant of Record，对方当卖方主体结算。\n\n商品在平台配，你的应用只负责开权益；若已自持牌自报税，不必强行换。"
   },
   {
     "id": "dist-ios",
     "name": "Apple 生态",
     "kind": "leaf",
     "parent": "app-distribution",
-    "order": 1
+    "order": 1,
+    "usageMd": "产品要上 iPhone/iPad 商店或依赖 Apple 能力时。\n\n走苹果开发者账号、证书、审核和 TestFlight。\n\n打包签名再提审；网页可并行先上，商店不必挡死首发。"
   },
   {
     "id": "dist-android",
     "name": "Android 商店",
     "kind": "leaf",
     "parent": "app-distribution",
-    "order": 2
+    "order": 2,
+    "usageMd": "要上 Google Play 或国内安卓市场时。\n\n签名、上架材料和更新策略。\n\n各市场的隐私表和渠道包分别准备，并接崩溃监控。"
   },
   {
     "id": "dist-extension",
     "name": "浏览器扩展",
     "kind": "leaf",
     "parent": "app-distribution",
-    "order": 3
+    "order": 3,
+    "usageMd": "核心体验发生在浏览器里，要做扩展时。\n\n扩展打包、权限和商店上架。\n\n权限能少则少；重逻辑仍可回到你自己的网站后台。"
   },
   {
     "id": "dist-desktop",
     "name": "桌面 / 直接分发",
     "kind": "leaf",
     "parent": "app-distribution",
-    "order": 4
+    "order": 4,
+    "usageMd": "需要托盘、本地文件深度访问或离线桌面客户端时。\n\n打安装包、自动更新和代码签名。\n\n网页够用就别先上桌面。"
   },
   {
     "id": "oss-toolchain",
     "name": "构建与工具链",
     "kind": "leaf",
     "parent": "oss-ecosystem",
-    "order": 1
+    "order": 1,
+    "usageMd": "仓库立了，要统一构建、检查与发包时。\n\n打包器、编译、monorepo 任务一类工具链。\n\n写进模板和 CI 并钉版本；测试框架另选。"
   },
   {
     "id": "obs-errors",
     "name": "错误与 APM",
     "kind": "leaf",
     "parent": "observability",
-    "order": 1
+    "order": 1,
+    "usageMd": "上线后想知道崩在哪、哪慢、依赖挂了没时。\n\n错误追踪与性能监控。\n\nSDK 进应用，告警接到值班群；用户行为分析是另一类问题。"
   },
   {
     "id": "obs-product",
     "name": "产品分析（观测向）",
     "kind": "leaf",
     "parent": "observability",
-    "order": 2
+    "order": 2,
+    "usageMd": "想知道用户怎么用功能、哪里流失时。\n\n产品分析/埋点，帮你排优先级。\n\n先设计事件名再埋；拨测「挂没挂」回答不了「好不好用」。"
   },
   {
     "id": "obs-platform",
     "name": "可观测平台 / 标准",
     "kind": "leaf",
     "parent": "observability",
-    "order": 3
+    "order": 3,
+    "usageMd": "指标、日志、链路要收成一套、按标准接入时。\n\n可观测平台或自建统一后端。\n\n服务按标准上报，看板和告警做在平台上。"
   },
   {
     "id": "cicd-pipeline",
     "name": "CI/CD 与容器",
     "kind": "leaf",
     "parent": "cicd-devops",
-    "order": 1
+    "order": 1,
+    "usageMd": "代码要自动构建、测试再部署时。\n\nCI/CD 流水线与容器镜像。\n\n流水线写进仓库，密钥走密钥库；云资源声明、业务自动化是旁边别的题。"
   },
   {
     "id": "cicd-automation",
     "name": "业务工作流自动化",
     "kind": "leaf",
     "parent": "cicd-devops",
-    "order": 2
+    "order": 2,
+    "usageMd": "运营要把表单、表、通知等多个 SaaS 串起来时。\n\nZapier 一类业务自动化，人点触发串应用。\n\n用连接器搭流程；若要在你们自己的产品里替客户接上百家 SaaS，那是「统一 API」另一路。"
+  },
+  {
+    "id": "cicd-iac",
+    "name": "基础设施即代码",
+    "kind": "leaf",
+    "parent": "cicd-devops",
+    "order": 3,
+    "usageMd": "云资源要能复现、能评审、别人手点控制台时。\n\n基础设施代码：网络、库、权限声明。\n\nPR 看完再 apply；应用发版流水线负责镜像，IaC 负责云配置。"
+  },
+  {
+    "id": "cicd-gitops",
+    "name": "GitOps / 持续交付",
+    "kind": "leaf",
+    "parent": "cicd-devops",
+    "order": 4,
+    "usageMd": "集群期望状态要以 Git 为准自动对齐时。\n\nGitOps：清单变了就同步，漂移就修。\n\n清单仓和镜像标签约定清；人手工改生产要成例外。"
+  },
+  {
+    "id": "cicd-unified-api",
+    "name": "统一 API / SaaS 集成平台",
+    "kind": "leaf",
+    "parent": "cicd-devops",
+    "order": 5,
+    "usageMd": "你们的 SaaS 要在产品里让客户连接自家的 CRM/财务等系统时。\n\n嵌入式集成/统一 API：授权、标准对象、同步。\n\n在产品里嵌集成界面；这不是运营自己用的点选自动化，也不是 CI。"
   },
   {
     "id": "msg-email",
     "name": "邮件",
     "kind": "leaf",
     "parent": "messaging",
-    "order": 1
+    "order": 1,
+    "usageMd": "要发注册信、账单、通知邮件时。\n\n邮件投递与模板，顺带弄好域名验证和退信。\n\n事务邮件走可靠通道；营销群发可以另接生命周期工具。"
   },
   {
     "id": "msg-sms",
     "name": "短信 / 语音",
     "kind": "leaf",
     "parent": "messaging",
-    "order": 2
+    "order": 2,
+    "usageMd": "验证码、紧急提醒等，邮件不够快时。\n\n短信/语音通道（国内还有模板审核）。\n\n服务端触发 + 频控；营销短信和事务短信通道最好分开。"
   },
   {
     "id": "msg-push",
     "name": "推送",
     "kind": "leaf",
     "parent": "messaging",
-    "order": 3
+    "order": 3,
+    "usageMd": "App 或网页要系统推送时。\n\n推送服务：设备 token 与厂商通道。\n\n客户端注册 token，服务端按偏好发；应用内聊天不是系统推送。"
   },
   {
     "id": "msg-im",
     "name": "IM / 机器人",
     "kind": "leaf",
     "parent": "messaging",
-    "order": 4
+    "order": 4,
+    "usageMd": "产品里要做客服会话，或对接企业微信/钉钉机器人时。\n\n即时消息/机器人 API。\n\n建好应用凭证；多人实时协同编辑另看实时通道。"
   },
   {
     "id": "growth-web",
     "name": "网站分析",
     "kind": "leaf",
     "parent": "analytics-growth",
-    "order": 1
+    "order": 1,
+    "usageMd": "站点上线了，要看来源和基础转化时。\n\n网站分析。\n\n埋基础代码，配转化目标；更复杂的多端事件管道以后再上 CDP。"
   },
   {
     "id": "net-cdn-dns",
     "name": "CDN / DNS / 边缘",
     "kind": "leaf",
     "parent": "domain-dns-cdn",
-    "order": 1
+    "order": 1,
+    "usageMd": "站点与静态资源要加速、HTTPS、域名解析托管时。\n\nCDN/DNS/边缘。\n\n域名指过去，源站保持健康；视频/图片深度处理另看媒体类。"
   },
   {
     "id": "net-domain",
     "name": "域名注册",
     "kind": "leaf",
     "parent": "domain-dns-cdn",
-    "order": 2
+    "order": 2,
+    "usageMd": "新产品要域名，或要管一批域名时。\n\n域名注册与续费。\n\n注册后立刻配解析和所有权验证。"
   },
   {
     "id": "net-media",
     "name": "媒体处理 / 图像视频 CDN",
     "kind": "leaf",
     "parent": "domain-dns-cdn",
-    "order": 3
+    "order": 3,
+    "usageMd": "图片视频要上传、变换、转码、点播时。\n\n媒体处理与专用分发。\n\n直传后拿处理结果 URL；普通静态 CDN 未必带完整转码。"
+  },
+  {
+    "id": "net-tunnel",
+    "name": "隧道 / 零信任接入",
+    "kind": "leaf",
+    "parent": "domain-dns-cdn",
+    "order": 4,
+    "usageMd": "本机或内网服务要安全给同事/Webhook 访问时。\n\n隧道/零信任接入。\n\n装客户端，端口能少则少；公网 CDN 替代不了开发联调场景。"
   },
   {
     "id": "sec-secrets",
     "name": "Secrets / 密钥管理",
     "kind": "leaf",
     "parent": "security-compliance",
-    "order": 1
+    "order": 1,
+    "usageMd": "密钥、Token 开始散落在代码和聊天里之前。\n\n密钥管理与注入运行时。\n\nCI 和线上只读密钥服务，别写死在仓库。"
   },
   {
     "id": "design-tools",
     "name": "设计工具",
     "kind": "leaf",
     "parent": "design-assets",
-    "order": 1
+    "order": 1,
+    "usageMd": "要做界面和品牌设计协作，从线框到标注时。\n\n设计工具：文件、组件库、评审。\n\n设计和工程组件对齐；出图/视频生成是另一条生产线。"
   },
   {
     "id": "design-ai-image",
     "name": "AI 图像生成",
     "kind": "leaf",
     "parent": "design-assets",
-    "order": 2
+    "order": 2,
+    "usageMd": "要快速出插画、物料、概念图时。\n\nAI 生图与修图。\n\n沉淀提示词模板；界面组件本身仍用设计工具和组件库。"
   },
   {
     "id": "design-ai-3d",
     "name": "AI 三维生成",
     "kind": "leaf",
     "parent": "design-assets",
-    "order": 3
+    "order": 3,
+    "usageMd": "需要快速出 3D 资产或场景草稿时。\n\nAI 三维生成与导出。\n\n导出后再进专业软件精修。"
   },
   {
     "id": "design-ai-video",
     "name": "AI 视频生成",
     "kind": "leaf",
     "parent": "design-assets",
-    "order": 4
+    "order": 4,
+    "usageMd": "短视频、广告粗剪、概念片要生成式视频时。\n\nAI 视频生成。\n\n成片再进剪辑上字幕；固定形象口播可看数字人。"
   },
   {
     "id": "design-digital-human",
     "name": "数字人 / 口播形象",
     "kind": "leaf",
     "parent": "design-assets",
-    "order": 5
+    "order": 5,
+    "usageMd": "要批量口播、虚拟主播或课程形象时。\n\n数字人驱动与对口型。\n\n脚本和音色固定人设；随便文生视频未必保同一性。"
   },
   {
     "id": "design-ai-music",
     "name": "AI 音乐生成",
     "kind": "leaf",
     "parent": "design-assets",
-    "order": 6
+    "order": 6,
+    "usageMd": "片子或产品里要背景乐草稿时。\n\nAI 音乐生成。\n\n导出进时间线，商用前看许可。"
   },
   {
     "id": "design-character-rig",
     "name": "角色绑定 / 立绘骨骼",
     "kind": "leaf",
     "parent": "design-assets",
-    "order": 7
+    "order": 7,
+    "usageMd": "角色要绑骨、口型、表情驱动时。\n\n角色绑定/立绘骨骼。\n\n从设定图到可驱动模型；UI 图标不走这条。"
   },
   {
     "id": "design-motion",
     "name": "UI 动效素材",
     "kind": "leaf",
     "parent": "design-assets",
-    "order": 8
+    "order": 8,
+    "usageMd": "界面微交互、落地页动效要交付物时。\n\nLottie 等动效素材。\n\n设计导出，工程按平台播；图标库不管复杂时间轴。"
   },
   {
     "id": "design-game-assets",
     "name": "游戏 / 三维素材",
     "kind": "leaf",
     "parent": "design-assets",
-    "order": 9
+    "order": 9,
+    "usageMd": "游戏或强 3D 展示需要素材包时。\n\n游戏/三维素材库。\n\n统一单位和授权再进引擎。"
   },
   {
     "id": "design-stock",
     "name": "图库 / 平面素材",
     "kind": "leaf",
     "parent": "design-assets",
-    "order": 10
+    "order": 10,
+    "usageMd": "版式有了，只差正版照片/插画时。\n\n图库素材。\n\n按授权下载并记来源；品牌主视觉长期仍建议专设。"
   },
   {
     "id": "design-inspiration",
     "name": "灵感板 / 作品集",
     "kind": "leaf",
     "parent": "design-assets",
-    "order": 11
+    "order": 11,
+    "usageMd": "还在找方向、做情绪板时。\n\n灵感板/作品集社区。\n\n收藏参考再进正式设计，别当可商用成品。"
   },
   {
     "id": "design-fonts",
     "name": "字体",
     "kind": "leaf",
     "parent": "design-assets",
-    "order": 12
+    "order": 12,
+    "usageMd": "品牌和多语言排版要定字体和授权时。\n\n字体授权与嵌入。\n\n工程只加载已购/开源子集；图标别和字体混成一题。"
   },
   {
     "id": "collab-pm",
     "name": "项目管理",
     "kind": "leaf",
     "parent": "collaboration",
-    "order": 1
+    "order": 1,
+    "usageMd": "团队要管需求、迭代和排期可见时。\n\n项目管理看板/迭代。\n\n任务和 PR 挂钩；长文规格放文档，别全堆任务描述。"
   },
   {
     "id": "collab-docs",
     "name": "文档 / Wiki",
     "kind": "leaf",
     "parent": "collaboration",
-    "order": 2
+    "order": 2,
+    "usageMd": "要沉淀规格、纪要、可搜知识时。\n\n文档/Wiki。\n\n关键规范固定空间；瞬时讨论用聊天，长文回文档。"
   },
   {
     "id": "collab-suite",
     "name": "协作套件",
     "kind": "leaf",
     "parent": "collaboration",
-    "order": 3
+    "order": 3,
+    "usageMd": "组织需要统一聊天、会议、日历和基础在线文档时。\n\n协作套件当日常入口。\n\n身份同步后迁聊天与会议；重型 CRM/专业项目管理可仍旁挂。"
   },
   {
     "id": "global-fx",
     "name": "跨境收款 / 换汇",
     "kind": "leaf",
     "parent": "globalization",
-    "order": 1
+    "order": 1,
+    "usageMd": "跨境收款、多币种结算成业务时。\n\n跨境收款/换汇与商户账户。\n\n主体和材料先备好；产品内收银台仍接支付通道。"
   },
   {
     "id": "global-entity",
     "name": "主体 / 公司路径",
     "kind": "leaf",
     "parent": "globalization",
-    "order": 2
+    "order": 2,
+    "usageMd": "要选注册地、银行和公司结构以支撑收钱/雇人/签约时。\n\n主体与公司设立路径。\n\n和法律财税顾问一起，软件订阅代替不了公司法决策。"
   },
   {
     "id": "global-i18n",
     "name": "国际化库",
     "kind": "leaf",
     "parent": "globalization",
-    "order": 3
+    "order": 3,
+    "usageMd": "产品要多语言、本地化日期货币时。\n\n国际化库与翻译流程。\n\n代码用文案 key，翻译进 CI；各国支付合规另线处理。"
   },
   {
     "id": "llm-family",
     "name": "产品族 / 品牌",
     "kind": "leaf",
     "parent": "llm",
-    "order": 1
+    "order": 1,
+    "usageMd": "还在纠结「默认跟哪家模型厂商走」时。\n\n在几家之间比能力侧重、合规、能不能稳定访问、账单怎么记。\n\n先定主备品牌和付费主体，再挑具体型号；这一步别死磕某个版本号的榜分。"
   },
   {
     "id": "llm-line",
     "name": "选型档位",
     "kind": "leaf",
     "parent": "llm",
-    "order": 2
+    "order": 2,
+    "usageMd": "品牌方向有了，要为聊天、写码、推理等场景定默认档位时。\n\n同一家里比旗舰、性价比和专用档，并看清价格与限速。\n\n在网关或代码里写好 model 名；小版本升级写在发布说明就行，不必次次重选。"
   },
   {
     "id": "coding-completion",
     "name": "补全插件 / 代码助手",
     "kind": "leaf",
     "parent": "coding-agent",
-    "order": 4
+    "order": 4,
+    "usageMd": "主编辑器已固定，只想写得快一点、少记一点 API 时。\n\n要编辑器里的行内建议，不是整仓自改的大 Agent。\n\n装插件登录即可；补全管「写这一下」，大 Agent 管「改这一块」，可以并存。"
   },
   {
     "id": "coding-review",
     "name": "代码审查 / PR Agent",
     "kind": "leaf",
     "parent": "coding-agent",
-    "order": 5
+    "order": 5,
+    "usageMd": "团队已经有 PR 流程，合入前想多一层自动检查时。\n\n在改动 diff 上标风险、风格问题和明显坑，而不是替作者写功能。\n\n接到代码平台权限后设好「只评论」或「必过」；业务对不对仍要人看。"
   },
   {
     "id": "coding-async-agent",
     "name": "异步云端 Agent",
     "kind": "leaf",
     "parent": "coding-agent",
-    "order": 6
+    "order": 6,
+    "usageMd": "任务可以丢云上跑很久，仓库也允许机器人提 PR 时。\n\n要后台自动实现、多步试错，不想一直盯着本机对话。\n\n把需求写清投给服务，回来验收 PR 或结果；生产密钥单独最小授权。"
   },
   {
     "id": "fw-backend",
     "name": "后端框架 / API",
     "kind": "leaf",
     "parent": "framework",
-    "order": 3
+    "order": 3,
+    "usageMd": "要独立提供 API 或后台入口时。\n\n选后端框架管路由、校验和常见插件，别只堆脚本。\n\n先把请求路径和错误约定想清楚，再挂数据库和队列；全栈框架够用就别硬拆两套。"
   },
   {
     "id": "fw-cross-platform",
     "name": "跨端 / 移动 / 桌面",
     "kind": "leaf",
     "parent": "framework",
-    "order": 4
+    "order": 4,
+    "usageMd": "一套代码要上手机/桌面/多端，或必须进应用商店时。\n\n选跨端框架，并接受原生模块边界。\n\n先列必须的系统能力再选；纯网页能搞定就先走 Web。"
   },
   {
     "id": "fw-docs-site",
     "name": "文档站 / 静态站生成",
     "kind": "leaf",
     "parent": "framework",
-    "order": 5
+    "order": 5,
+    "usageMd": "要做文档站、博客或偏内容的营销站时。\n\n用文档/静态站框架写 Markdown，带侧栏和搜索。\n\n内容进仓库，构建走 CI；复杂业务系统别塞进文档站。"
   },
   {
     "id": "cloud-iaas",
     "name": "公有云 / IaaS",
     "kind": "leaf",
     "parent": "cloud-deploy",
-    "order": 2
+    "order": 2,
+    "usageMd": "对网络、合规或机型要细控，能接受自管更多设施时。\n\n在云厂商账号里拼计算、网络、数据库等积木。\n\n先定账号区域和网络，再放应用；团队小、没运维时先上 PaaS 更轻松。"
   },
   {
     "id": "cloud-self-host",
     "name": "自托管面板 / 私有 PaaS",
     "kind": "leaf",
     "parent": "cloud-deploy",
-    "order": 3
+    "order": 3,
+    "usageMd": "数据必须放自己机器，又想要面板式部署体验时。\n\n自建面板：装应用、反代、证书。\n\n先备好服务器和域名再装；公有托管到不了内网时再走这条。"
+  },
+  {
+    "id": "cloud-jobs",
+    "name": "后台任务 / 可靠执行",
+    "kind": "leaf",
+    "parent": "cloud-deploy",
+    "order": 4,
+    "usageMd": "接口已经有了，但出现要重试的长任务、定时或工作流时。\n\n用任务队列/工作流保证「至少做完且可失败重来」，别在一次 HTTP 里傻等。\n\n业务里拆出任务和幂等键交给执行器；部署可以和应用同一朵云，但别绑死在单次请求上。"
   },
   {
     "id": "db-search",
     "name": "搜索引擎 / 检索服务",
     "kind": "leaf",
     "parent": "database-storage",
-    "order": 6
+    "order": 6,
+    "usageMd": "产品内要搜内容、日志，或要相关排序时。\n\n上搜索服务建索引。\n\n从业务库同步可搜文档；别把搜索引擎当记账主库。"
   },
   {
     "id": "db-analytics",
     "name": "分析型 / OLAP 数仓",
     "kind": "leaf",
     "parent": "database-storage",
-    "order": 7
+    "order": 7,
+    "usageMd": "分析查询拖慢线上库，或要跨天大报表时。\n\n用分析型数仓扛聚合。\n\n数据管道入仓，看板读仓不读生产库；不是用来替代交易库。"
   },
   {
     "id": "db-timeseries",
     "name": "时序 / 指标存储",
     "kind": "leaf",
     "parent": "database-storage",
-    "order": 8
+    "order": 8,
+    "usageMd": "指标、监控点、行情这类按时间狂写狂查时。\n\n用时序库，支持降采样和保留期。\n\n写入接 Exporter，查询给告警与面板；业务对象仍在普通库。"
   },
   {
     "id": "db-graph",
     "name": "图数据库",
     "kind": "leaf",
     "parent": "database-storage",
-    "order": 9
+    "order": 9,
+    "usageMd": "要做多层关系跳转、知识图谱或社交网络结构时。\n\n用图数据库查节点边与路径。\n\n图该管什么边界先画清；普通报表用关系库更省事。"
   },
   {
     "id": "db-pipeline",
     "name": "数据管道 / ETL",
     "kind": "leaf",
     "parent": "database-storage",
-    "order": 10
+    "order": 10,
+    "usageMd": "好几个系统之间要搬数、清洗、进仓时。\n\n用数据管道/ETL，别堆一堆难维护的定时脚本。\n\n画清从哪来→怎么变→到哪去，以及失败怎么重试。"
+  },
+  {
+    "id": "db-bi",
+    "name": "BI / 指标看板",
+    "kind": "leaf",
+    "parent": "database-storage",
+    "order": 11,
+    "usageMd": "业务要自己看指标、做报表，不想每次找工程导出时。\n\n上 BI 看板：连数、画图、分享权限。\n\n接数仓或只读库；别把 BI 当业务写入库。"
   },
   {
     "id": "ai-eval",
     "name": "评测 / Prompt 实验",
     "kind": "leaf",
     "parent": "ai-infra",
-    "order": 8
+    "order": 8,
+    "usageMd": "要改 Prompt/Agent，不想只靠线上感觉试时。\n\n用评测集、打分和版本对比平台。\n\n在生产外建一套评测环境，别只上线试运气。"
   },
   {
     "id": "ai-guardrail",
     "name": "护栏 / 内容安全",
     "kind": "leaf",
     "parent": "ai-infra",
-    "order": 9
+    "order": 9,
+    "usageMd": "模型输出会给用户看或会触发动作，怕违规和越权时。\n\n加内容安全/护栏：敏感、注入、工具调用边界。\n\n放在模型前后；网站防火墙拦的是流量，管不了生成语义。"
   },
   {
     "id": "ai-memory",
     "name": "Agent 记忆",
     "kind": "leaf",
     "parent": "ai-infra",
-    "order": 10
+    "order": 10,
+    "usageMd": "助手需要跨很多天记住用户偏好或项目事实时。\n\n做长期记忆存储与召回。\n\n写清何时写入、何时遗忘，并绑登录用户；一两次会话内的上下文仍可用消息历史。"
   },
   {
     "id": "ai-browser",
     "name": "浏览器自动化 / Computer Use",
     "kind": "leaf",
     "parent": "ai-infra",
-    "order": 11
+    "order": 11,
+    "usageMd": "Agent 必须真的去网页点、填、看登录后页面时。\n\n浏览器自动化/电脑操控环境。\n\n限制可访问网站与账号注入；普通抓取 API 搞不定复杂页面时再上。"
   },
   {
     "id": "ai-search-api",
     "name": "联网检索 / 抓取 API",
     "kind": "leaf",
     "parent": "ai-infra",
-    "order": 12
+    "order": 12,
+    "usageMd": "回答需要网上最新信息或批量扫公开网页时。\n\n用搜索/抓取 API 给模型喂结果。\n\n查询进检索，结果进提示词；你们自家知识库仍走 RAG。"
   },
   {
     "id": "ai-sandbox",
     "name": "代码沙箱 / Agent 运行时",
     "kind": "leaf",
     "parent": "ai-infra",
-    "order": 13
+    "order": 13,
+    "usageMd": "要让模型跑不可信代码，还不能碰生产时。\n\n代码沙箱：限时、限网、限资源。\n\n只注入必要文件和密钥；主业务进程里别直接 eval 用户代码。"
   },
   {
     "id": "ai-finetune",
     "name": "微调 / 训练框架",
     "kind": "leaf",
     "parent": "ai-infra",
-    "order": 14
+    "order": 14,
+    "usageMd": "通用模型在格式或行业话术上怎么调都差一口气，又有数据时。\n\n做微调和训练任务。\n\n先证明 Prompt/RAG 不够，再投钱训；产出模型挂到推理服务。"
   },
   {
     "id": "ai-gpu-cloud",
     "name": "GPU 算力 / 训练平台",
     "kind": "leaf",
     "parent": "ai-infra",
-    "order": 15
+    "order": 15,
+    "usageMd": "训练或大批推理需要 GPU，自购机器不划算时。\n\n租 GPU 云/训练平台。\n\n设好任务和预算告警；日常聊天接口多数走现成模型 API 即可。"
   },
   {
     "id": "pay-billing",
     "name": "订阅与用量计费",
     "kind": "leaf",
     "parent": "payment",
-    "order": 3
+    "order": 3,
+    "usageMd": "收费是订阅、席位、用量/Token 或套餐组合时。\n\n用计费引擎管套餐、权益和账单。\n\n用量事件进计费，该收多少算清后交给支付去扣；和「接哪家支付」是两层事。"
   },
   {
     "id": "dist-miniapp",
     "name": "小程序 / 快应用",
     "kind": "leaf",
     "parent": "app-distribution",
-    "order": 5
+    "order": 5,
+    "usageMd": "流量在微信/支付宝等超级 App，或要做快应用时。\n\n小程序工程、审核和开放平台能力。\n\n按平台类目准备资质；账号支付往往绑生态，和独立 App 商店不是一路。"
   },
   {
     "id": "oss-testing",
     "name": "测试与质量",
     "kind": "leaf",
     "parent": "oss-ecosystem",
-    "order": 2
+    "order": 2,
+    "usageMd": "功能越堆越多，怕改一处炸一片时。\n\n用单测/E2E 等测试工具拴住回归。\n\n本地和 CI 同一条命令；关键路径写测，纯样式不必全堆端到端。"
   },
   {
     "id": "oss-state",
     "name": "状态管理 / 数据请求",
     "kind": "leaf",
     "parent": "oss-ecosystem",
-    "order": 3
+    "order": 3,
+    "usageMd": "前端请求缓存、全局状态开始乱时。\n\n状态管理与数据请求库。\n\n服务器状态和界面状态分开；框架自带数据层够用可先用官方的。"
+  },
+  {
+    "id": "oss-api-dev",
+    "name": "API 调试 / 接口协作",
+    "kind": "leaf",
+    "parent": "oss-ecosystem",
+    "order": 4,
+    "usageMd": "前后端或对接外部 API 时，需要调试与接口文档协作时。\n\nAPI 客户端：集合、环境变量、Mock。\n\n集合进团队空间；线上消息队列和 Webhook 是另一套基建。"
   },
   {
     "id": "obs-logs",
     "name": "日志管道 / 检索",
     "kind": "leaf",
     "parent": "observability",
-    "order": 4
+    "order": 4,
+    "usageMd": "日志暴涨，需要集中搜、留多久要想清楚时。\n\n日志采集与检索。\n\n结构化日志 + 采样，敏感字段脱敏；指标时序和日志别混一类。"
   },
   {
     "id": "obs-uptime",
     "name": "可用性监控 / 状态页",
     "kind": "leaf",
     "parent": "observability",
-    "order": 5
+    "order": 5,
+    "usageMd": "要对内或对外说清楚「挂没挂」时。\n\n外网拨测和状态页。\n\n从外网打关键路径；叫人值班是事故响应，不是状态页本身。"
+  },
+  {
+    "id": "obs-incident",
+    "name": "事故响应 / On-call",
+    "kind": "leaf",
+    "parent": "observability",
+    "order": 6,
+    "usageMd": "线上出事要值班、叫人、升级和复盘时。\n\nOn-call：排班、寻呼、战情与事后复盘。\n\n监控告警接到规则上，严重就叫人；对外公告可用状态页，两件事配合用。"
   },
   {
     "id": "msg-realtime",
     "name": "实时通信 / 协同",
     "kind": "leaf",
     "parent": "messaging",
-    "order": 5
+    "order": 5,
+    "usageMd": "多端要在线同步：一起改、房间状态、低延迟事件时。\n\nWebSocket 或实时协同后端。\n\n鉴权后进房间；短信邮件解决不了「此刻同步」。"
   },
   {
     "id": "msg-orchestration",
     "name": "通知编排 / 多渠道",
     "kind": "leaf",
     "parent": "messaging",
-    "order": 6
+    "order": 6,
+    "usageMd": "同一事件有时要邮件、有时短信、有时推送，还得管打扰时。\n\n通知中台：偏好、降级、多渠道模板。\n\n业务只抛事件，编排层决定怎么触达；只发邮件时不必先上一整套中台。"
+  },
+  {
+    "id": "msg-broker",
+    "name": "消息队列 / 事件流",
+    "kind": "leaf",
+    "parent": "messaging",
+    "order": 7,
+    "usageMd": "服务之间要异步解耦、削峰或事件驱动时。\n\n消息队列/事件流。\n\n生产者别直连消费者；对客户的 Webhook 可靠性是另一类产品。"
+  },
+  {
+    "id": "msg-webhook",
+    "name": "Webhook 基建 / 投递",
+    "kind": "leaf",
+    "parent": "messaging",
+    "order": 8,
+    "usageMd": "你们要对客或对接方发 Webhook，并关心签名、重试、有没有送到时。\n\nWebhook 投递基建：端点、日志、自动重试。\n\n业务只产生事件，投递层保证到达；系统内部队列 ≠ 对外 HTTP 回调。"
   },
   {
     "id": "growth-seo",
     "name": "SEO / 关键词",
     "kind": "leaf",
     "parent": "analytics-growth",
-    "order": 2
+    "order": 2,
+    "usageMd": "主要靠搜索来流量，要盯关键词和收录时。\n\nSEO/关键词与站点诊断。\n\n结论落到内容和页面改造；付费投放监测不是同一套。"
   },
   {
     "id": "growth-experiment",
     "name": "Feature Flag / 实验",
     "kind": "leaf",
     "parent": "analytics-growth",
-    "order": 3
+    "order": 3,
+    "usageMd": "功能要灰度或 A/B，不敢一次全量时。\n\n功能开关/实验平台。\n\n代码读开关，用结果做决策；别拿配置中心硬扛实验统计。"
   },
   {
     "id": "growth-lifecycle",
     "name": "邮件营销 / 生命周期",
     "kind": "leaf",
     "parent": "analytics-growth",
-    "order": 4
+    "order": 4,
+    "usageMd": "有用户池，想用邮件等方式做激活和召回时。\n\n生命周期营销与分群自动化。\n\n事件进受众再触发剧本；注册验证码邮件仍要可靠事务通道。"
   },
   {
     "id": "growth-social",
     "name": "社媒排期 / 多平台发布",
     "kind": "leaf",
     "parent": "analytics-growth",
-    "order": 5
+    "order": 5,
+    "usageMd": "要在多个社媒稳定发内容、排期时。\n\n社媒排期与多平台发布。\n\n绑账号做内容日历；社群/论坛产品是另一回事。"
   },
   {
     "id": "growth-forms",
     "name": "表单 / 问卷 / 名单",
     "kind": "leaf",
     "parent": "analytics-growth",
-    "order": 6
+    "order": 6,
+    "usageMd": "要收线索、报名、问卷，又希望快上线时。\n\n表单/问卷工具。\n\n嵌网站或独立链接，结果进表格/CRM。"
   },
   {
     "id": "growth-feedback",
     "name": "反馈 / 路线图 / Changelog",
     "kind": "leaf",
     "parent": "analytics-growth",
-    "order": 7
+    "order": 7,
+    "usageMd": "要收集功能投票、公开路线图或更新说明时。\n\n反馈与路线图产品。\n\n嵌小部件，状态同步到研发；个案客服仍用工单。"
   },
   {
     "id": "growth-affiliate",
     "name": "联盟 / 推荐 / 短链",
     "kind": "leaf",
     "parent": "analytics-growth",
-    "order": 8
+    "order": 8,
+    "usageMd": "要做分销、推荐奖励或活动短链归因时。\n\n联盟/推荐/短链与佣金。\n\n规则和归因窗口先定清；普通网站分析不算佣金。"
+  },
+  {
+    "id": "growth-landing",
+    "name": "营销站 / 无代码建站",
+    "kind": "leaf",
+    "parent": "analytics-growth",
+    "order": 9,
+    "usageMd": "活动页或官网要快改，又不想跟主工程一发布时。\n\n无代码/营销建站。\n\n文案在建站器迭代，线索回 CRM；主应用界面仍用工程前端。"
+  },
+  {
+    "id": "growth-cdp",
+    "name": "CDP / 事件管道",
+    "kind": "leaf",
+    "parent": "analytics-growth",
+    "order": 10,
+    "usageMd": "多端事件要合成用户档案，再分给广告、邮件等时。\n\nCDP/事件管道。\n\n埋点进管道，下游只订阅；一个工具内分析未必需要完整 CDP。"
   },
   {
     "id": "sec-appsec",
     "name": "应用安全扫描",
     "kind": "leaf",
     "parent": "security-compliance",
-    "order": 2
+    "order": 2,
+    "usageMd": "发版前要扫依赖漏洞和常见代码问题时。\n\n应用安全扫描进 CI。\n\n失败怎么办、谁能跳过团队说清；运行时防羊毛是另一层。"
   },
   {
     "id": "sec-compliance",
     "name": "合规认证 / 隐私",
     "kind": "leaf",
     "parent": "security-compliance",
-    "order": 3
+    "order": 3,
+    "usageMd": "要应对客户安全问卷或 SOC2/等保一类持续控制时。\n\n合规自动化：证据与控制映射。\n\n接云与账号只读权限；终端用户的隐私弹窗是另一层文案。"
   },
   {
     "id": "sec-bot-captcha",
     "name": "验证码 / Bot 防护",
     "kind": "leaf",
     "parent": "security-compliance",
-    "order": 4
+    "order": 4,
+    "usageMd": "注册登录或接口被脚本刷时。\n\n验证码与 Bot 防护。\n\n挂在公开表单和敏感写接口前；风控设备指纹解决的是「像真人的异常」。"
   },
   {
     "id": "sec-privacy-legal",
     "name": "隐私政策 / 同意 / 法律模板",
     "kind": "leaf",
     "parent": "security-compliance",
-    "order": 5
+    "order": 5,
+    "usageMd": "站点/App 收个人信息，需要政策和同意记录时。\n\n隐私政策、Cookie 条、同意存档。\n\n生成后务必法务过一眼；等保清单替代不了用户侧同意体验。"
+  },
+  {
+    "id": "sec-esign",
+    "name": "电子签 / 合同",
+    "kind": "leaf",
+    "parent": "security-compliance",
+    "order": 6,
+    "usageMd": "合同、授权、入职等需要电子签和存证时。\n\n电子签：实名、流程、归档 API。\n\n业务系统发起签署，文件回写；普通上传文件不算合法签署。"
+  },
+  {
+    "id": "sec-fraud",
+    "name": "风控 / 设备指纹 / 反欺诈",
+    "kind": "leaf",
+    "parent": "security-compliance",
+    "order": 7,
+    "usageMd": "注册、支付或活动被羊毛、假设备、群控骚扰时。\n\n设备指纹与反欺诈决策。\n\n关键节点采集信号做放行/挑战/拒绝；验证码拦机器，风控拦「像人的异常行为」。"
   },
   {
     "id": "collab-cms",
     "name": "内容管理 / CMS",
     "kind": "leaf",
     "parent": "collaboration",
-    "order": 4
+    "order": 4,
+    "usageMd": "运营要经常改内容站，又不想跟代码发版绑死时。\n\nCMS：模型、预览、发布权限。\n\n前端口内容；复杂业务数据别硬塞 CMS。"
   },
   {
     "id": "collab-support",
     "name": "客服 / 工单",
     "kind": "leaf",
     "parent": "collaboration",
-    "order": 5
+    "order": 5,
+    "usageMd": "用户问题要可分配、可跟 SLA 的支持流程时。\n\n客服/工单。\n\n反馈社区可以引流，正式排障仍工单。"
   },
   {
     "id": "collab-scheduling",
     "name": "预约 / 会议排程",
     "kind": "leaf",
     "parent": "collaboration",
-    "order": 6
+    "order": 6,
+    "usageMd": "对外预约时段，少来回邮件时。\n\n预约页与日历忙闲同步。\n\n绑日历自动进会议邀请；内部排期不是对外预约。"
   },
   {
     "id": "collab-crm",
     "name": "CRM / 销售管道",
     "kind": "leaf",
     "parent": "collaboration",
-    "order": 7
+    "order": 7,
+    "usageMd": "线索到成交要管道和跟进时。\n\nCRM：客户、商机、活动。\n\n表单线索进 CRM，成交后开权益走业务系统。"
   },
   {
     "id": "collab-community",
     "name": "社区 / 论坛",
     "kind": "leaf",
     "parent": "collaboration",
-    "order": 8
+    "order": 8,
+    "usageMd": "要做会员社区、论坛或付费圈子时。\n\n社区/论坛产品。\n\n身份一致，内容规则先定；企业 IM 替不了主题社区。"
   },
   {
     "id": "collab-async-capture",
     "name": "异步录屏 / 页面标注",
     "kind": "leaf",
     "parent": "collaboration",
-    "order": 9
+    "order": 9,
+    "usageMd": "少开会，需要录屏讲解或页面圈选反馈时。\n\n异步录屏/标注与分享链接。\n\n链接贴进任务或 PR；正式事故仍要会议+工单。"
+  },
+  {
+    "id": "ops-internal",
+    "name": "内部系统 / Admin 搭建",
+    "kind": "leaf",
+    "parent": "collaboration",
+    "order": 10,
+    "usageMd": "内部运营要快速做后台 CRUD、审批屏，不想次次新开前端项目时。\n\n内部系统/Admin 搭建，连库或 API 出管理界面。\n\n权限接公司账号，仅内网；对外产品页别用这套硬造。"
+  },
+  {
+    "id": "collab-help",
+    "name": "帮助中心 / 知识库产品",
+    "kind": "leaf",
+    "parent": "collaboration",
+    "order": 11,
+    "usageMd": "要对用户提供可搜索的帮助中心时。\n\n帮助中心/知识库产品。\n\n作者写文，子域发布，应用内嵌搜索；内部 Wiki 给员工，帮助中心给用户。"
   },
   {
     "id": "global-hire",
     "name": "远程雇佣 / EOR",
     "kind": "leaf",
     "parent": "globalization",
-    "order": 4
+    "order": 4,
+    "usageMd": "要在没设实体的国家合规雇人或发薪时。\n\nEOR/远程雇佣服务。\n\nHR 法务选型；工程侧多是同步人事状态。"
   }
 ]

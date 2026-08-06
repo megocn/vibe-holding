@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "internal-tools",
+    "low-code",
+    "admin",
+    "saas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "按席位与资源定价随团队扩大变陡；交互特别深时仍会回到正式工程栈；中国大陆网络与采购路径需单独评估。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://retool.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "id": "retool",
+  "name": "Retool",
+  "category": "ops-internal",
+  "subcategory": "internal-admin",
+  "oneLiner": "拖拽+JS 搭内部后台 · 连库/API 快 · 企服 admin 事实标准",
+  "officialUrl": "https://retool.com",
+  "descriptionMd": "Retool 用可视化组件加少量 JS，快速搭建连接数据库与内部 API 的运营后台、审批与内部工具；权限、审计与资源权限对 B2B 企服内部系统友好。\n\n上线后要运营台、客服改数、财务导出、客户成功工具等「不可给公网的界面」，又不想从零写 React admin 时，它是事实标准短名单。\n\n按席位与资源定价随团队扩大变陡；交互特别深时仍会回到正式工程栈；中国大陆网络与采购路径需单独评估。\n",
+  "vendorId": "retool-inc"
+}

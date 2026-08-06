@@ -12,7 +12,9 @@
   },
   "tags": [
     "design",
-    "website"
+    "website",
+    "marketing",
+    "no-code"
   ],
   "maturity": "stable",
   "pitfalls": [
@@ -23,12 +25,12 @@
   "sources": [
     "https://www.framer.com"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-07",
   "region": "overseas",
   "id": "framer",
   "name": "Framer",
-  "category": "design-tools",
-  "subcategory": "prototype",
+  "category": "growth-landing",
+  "subcategory": "marketing-site",
   "oneLiner": "设计即发布站点 · 动画/响应强 · marketing 页快上线",
   "officialUrl": "https://www.framer.com",
   "descriptionMd": "Framer 从原型工具演进为可直接发布站点的设计平台，动画与 responsive 强，marketing 页快速上线。\n\n营销页/landing 需要设计师主导、少写代码即可 publish 时选用 Framer。\n\n复杂 app logic 仍要 dev 接手；SEO 与 CMS 能力视 plan 而定。\n",

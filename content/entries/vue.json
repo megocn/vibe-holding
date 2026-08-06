@@ -45,7 +45,8 @@
       "period": "2025 Survey",
       "note": "留存与满意度长期稳健",
       "sourceUrl": "https://stateofjs.com/",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     }
   ]
 }

@@ -12,7 +12,9 @@
   },
   "tags": [
     "streaming",
-    "events"
+    "events",
+    "messaging",
+    "broker"
   ],
   "maturity": "mature",
   "pitfalls": [
@@ -23,11 +25,11 @@
   "sources": [
     "https://kafka.apache.org"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-07",
   "region": "overseas",
   "id": "kafka",
   "name": "Apache Kafka",
-  "category": "db-nosql",
+  "category": "msg-broker",
   "subcategory": "streaming",
   "oneLiner": "高吞吐 commit log · 事件流/CDC 解耦 · 连接器生态广",
   "officialUrl": "https://kafka.apache.org",

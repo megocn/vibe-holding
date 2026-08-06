@@ -1,0 +1,11 @@
+{
+  "id": "e-apifox-domestic-postman",
+  "from": "apifox",
+  "to": "postman",
+  "type": "domestic_equivalent_of",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "国内一体化 API 协作 vs Postman"
+}

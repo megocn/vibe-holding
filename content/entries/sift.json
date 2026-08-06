@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "fraud",
+    "payments",
+    "risk",
+    "ml"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "接入与标注成本不低；指纹类工具互补而非替代。中国大陆数据出境与合规需评估。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://sift.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "id": "sift",
+  "name": "Sift",
+  "category": "sec-fraud",
+  "subcategory": "fraud-platform",
+  "oneLiner": "数字信任与反欺诈 · 支付/账号风险评分 · 机器学习",
+  "officialUrl": "https://sift.com",
+  "descriptionMd": "Sift 提供账号与支付链路的风险评分与工作流，覆盖虚假账号、盗卡与滥用行为，偏交易与增长防损。\n\n支付漏斗或双边市场已出现规模化欺诈，需要可运营的规则+模型决策时对标。\n\n接入与标注成本不低；指纹类工具互补而非替代。中国大陆数据出境与合规需评估。选型前请以官网能力与定价页为准。选型前请以官网能力与定价页为准。选型前请以官网能力与定价页为准。\n",
+  "vendorId": "sift-inc"
+}

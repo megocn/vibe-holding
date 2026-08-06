@@ -1,0 +1,11 @@
+{
+  "id": "e-rudderstack-oss-segment",
+  "from": "rudderstack",
+  "to": "segment",
+  "type": "open_source_alternative_to",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "可自托管事件 CDP 管道 vs Segment"
+}

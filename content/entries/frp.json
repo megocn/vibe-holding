@@ -1,0 +1,47 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "tunnel",
+    "open-source",
+    "self-host",
+    "domestic"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "安全加固、带宽与证书全靠自运维；没有商业 SaaS 的身份托管与 SLA，生产必须自己做监控。"
+  ],
+  "updates": [
+    {
+      "date": "2026-07-23",
+      "type": "release",
+      "summary": "发布 0.70.1: 新版本",
+      "version": "0.70.1",
+      "source": "https://github.com/fatedier/frp/releases/tag/v0.70.1"
+    }
+  ],
+  "rankings": [],
+  "sources": [
+    "https://github.com/fatedier/frp"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "domestic",
+  "id": "frp",
+  "name": "frp",
+  "category": "net-tunnel",
+  "subcategory": "public-tunnel",
+  "oneLiner": "开源自建内网穿透 · 国内工程常驻方案 · 要自备公网 VPS",
+  "officialUrl": "https://github.com/fatedier/frp",
+  "descriptionMd": "frp 是客户端-服务端架构的开源内网穿透：HTTP/TCP/UDP 透出，你自备带公网 IP 的中继机即可运营，社区在国内很常用。\n\n国内工程要可控、低现金成本把内网服务暴露公网，并愿意自己运维中继与证书时，它是常见开源默认。\n\n安全加固、带宽与证书全靠自运维；没有商业 SaaS 的身份托管与 SLA，生产必须自己做监控。\n",
+  "githubUrl": "https://github.com/fatedier/frp",
+  "vendorId": "fatedier-frp"
+}

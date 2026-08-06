@@ -1,0 +1,11 @@
+{
+  "id": "e-finebi-domestic-metabase",
+  "from": "finebi",
+  "to": "metabase",
+  "type": "domestic_equivalent_of",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "国内企业自助 BI vs 开源/全球 Metabase"
+}

@@ -38,7 +38,10 @@
       "period": "2026-07",
       "note": "qwen-image-2.0-pro",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
-      "asOf": "2026-07-24"
+      "asOf": "2026-07-24",
+      "previousRank": 14,
+      "previousScore": 1193,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "aa-image-arena",
@@ -48,7 +51,10 @@
       "period": "2026-07",
       "note": "Qwen Image 2.0 Pro",
       "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "asOf": "2026-07-24"
+      "asOf": "2026-07-24",
+      "previousRank": 26,
+      "previousScore": 1171,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "lmarena-i2v",
@@ -58,7 +64,10 @@
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
       "note": "模型 wan-v2.2-a14b",
-      "asOf": "2026-07-26"
+      "asOf": "2026-07-26",
+      "previousRank": 37,
+      "previousScore": 1169,
+      "previousAsOf": "2026-07-26"
     },
     {
       "systemId": "lmarena-t2v",
@@ -68,7 +77,10 @@
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 wan-v2.2-a14b",
-      "asOf": "2026-08-02"
+      "asOf": "2026-08-02",
+      "previousRank": 36,
+      "previousScore": 1131,
+      "previousAsOf": "2026-08-02"
     }
   ],
   "sources": [

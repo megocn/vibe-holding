@@ -44,7 +44,10 @@
       "period": "2026-07",
       "note": "muse-image · Preliminary",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
-      "asOf": "2026-07-24"
+      "asOf": "2026-07-24",
+      "previousRank": 3,
+      "previousScore": 1280,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "lmarena-image-edit",
@@ -54,7 +57,10 @@
       "asOf": "2026-07-24",
       "rank": 2,
       "score": 1402,
-      "scoreLabel": "1402 Elo"
+      "scoreLabel": "1402 Elo",
+      "previousRank": 2,
+      "previousScore": 1402,
+      "previousAsOf": "2026-07-24"
     }
   ],
   "sources": [

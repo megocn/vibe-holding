@@ -28,7 +28,9 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "note": "Solar Pro 3",
       "asOf": "2026-07-26",
-      "period": "2026-07"
+      "period": "2026-07",
+      "previousScore": 14,
+      "previousAsOf": "2026-07-26"
     }
   ],
   "sources": [

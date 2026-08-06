@@ -28,6 +28,11 @@ export const Category = z
     parent: Id.optional(),
     kind: CategoryKind.default('section'),
     order: z.number().int(),
+    /**
+     * 仅 leaf：用户选型视角的用法说明（何时用 / 做什么 / 一般怎么用）。
+     * 纯段落，用 \\n\\n 分段；非站内可比轴或读榜指南。
+     */
+    usageMd: z.string().optional(),
   })
   .superRefine((c, ctx) => {
     if (c.kind === 'section') {
@@ -36,6 +41,13 @@ export const Category = z
       }
       if (c.parent) {
         ctx.addIssue({ code: 'custom', message: 'section 不应有 parent', path: ['parent'] });
+      }
+      if (c.usageMd) {
+        ctx.addIssue({
+          code: 'custom',
+          message: 'section 不应有 usageMd（仅 leaf 可写用法说明）',
+          path: ['usageMd'],
+        });
       }
     } else if (!c.parent) {
       ctx.addIssue({ code: 'custom', message: 'leaf 必须有 parent（指向 section）', path: ['parent'] });

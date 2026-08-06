@@ -35,7 +35,9 @@
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/agent",
       "note": "模型 Claude Sonnet 5 (High)",
-      "asOf": "2026-08-04"
+      "asOf": "2026-08-04",
+      "previousRank": 7,
+      "previousAsOf": "2026-07-29"
     },
     {
       "systemId": "lmarena-webdev",
@@ -45,7 +47,10 @@
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 claude-sonnet-5-high",
-      "asOf": "2026-08-03"
+      "asOf": "2026-08-03",
+      "previousRank": 14,
+      "previousScore": 1542,
+      "previousAsOf": "2026-08-03"
     },
     {
       "systemId": "lmarena-document",
@@ -55,7 +60,10 @@
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 claude-sonnet-4-6",
-      "asOf": "2026-07-25"
+      "asOf": "2026-07-25",
+      "previousRank": 8,
+      "previousScore": 1483,
+      "previousAsOf": "2026-07-25"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -65,7 +73,10 @@
       "asOf": "2026-07-24",
       "rank": 10,
       "score": 53,
-      "scoreLabel": "AAII 53"
+      "scoreLabel": "AAII 53",
+      "previousRank": 10,
+      "previousScore": 53,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "lmarena-vision",
@@ -75,7 +86,10 @@
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 claude-sonnet-5-high",
-      "asOf": "2026-08-04"
+      "asOf": "2026-08-04",
+      "previousRank": 24,
+      "previousScore": 1275,
+      "previousAsOf": "2026-07-31"
     },
     {
       "systemId": "lmarena-search",
@@ -85,7 +99,10 @@
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/search",
       "note": "模型 claude-sonnet-4-6-search",
-      "asOf": "2026-07-25"
+      "asOf": "2026-07-25",
+      "previousRank": 6,
+      "previousScore": 1221,
+      "previousAsOf": "2026-07-25"
     },
     {
       "systemId": "openrouter-popularity",
@@ -94,7 +111,10 @@
       "share": 1.9,
       "period": "2026-08",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-08-04"
+      "asOf": "2026-08-04",
+      "previousRank": 12,
+      "previousShare": 2,
+      "previousAsOf": "2026-07-26"
     }
   ],
   "sources": [

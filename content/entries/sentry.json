@@ -17,12 +17,19 @@
   ],
   "maturity": "mature",
   "pitfalls": [],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-06",
+      "type": "feature",
+      "summary": "How we built an automated debugging workflow at Sentry",
+      "source": "https://blog.sentry.io/automated-debugging-workflow-sentry/"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://sentry.io"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-06",
   "region": "overseas",
   "id": "sentry",
   "name": "Sentry",

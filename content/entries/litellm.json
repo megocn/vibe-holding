@@ -38,13 +38,15 @@
       "tier": "Self-host proxy",
       "period": "2026-07",
       "note": "自建统一接口；与 OpenRouter 互补",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     },
     {
       "systemId": "artificial-analysis-index",
       "tier": "Router",
       "period": "2026-07",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     }
   ]
 }

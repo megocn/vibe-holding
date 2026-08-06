@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "help-center",
+    "docs",
+    "support",
+    "saas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "工程向 API 文档与 Git 工作流体验弱于 Mintlify/Docusaurus；席位与流量档位要算成本。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://document360.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "id": "document360",
+  "name": "Document360",
+  "category": "collab-help",
+  "subcategory": "help-center",
+  "oneLiner": "产品帮助中心 SaaS · 版本/多语言 · 客服知识库向",
+  "officialUrl": "https://document360.com",
+  "descriptionMd": "Document360 专做客户向知识库与帮助中心：版本、多语言、分类检索与分析，面向支持与产品文档团队。\n\nSaaS 产品需要独立 Help Center、降低重复工单，又不想用纯静态文档站时对标。\n\n工程向 API 文档与 Git 工作流体验弱于 Mintlify/Docusaurus；席位与流量档位要算成本。选型前请以官网与当前定价页为准。\n",
+  "vendorId": "document360-inc"
+}

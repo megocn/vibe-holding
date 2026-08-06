@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "marketing",
+    "no-code",
+    "cms",
+    "website"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "复杂产品逻辑与国内备案合规仍要工程补齐；席位与托管档位费用不低，协作与表单席位要算清楚。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://webflow.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "id": "webflow",
+  "name": "Webflow",
+  "category": "growth-landing",
+  "subcategory": "marketing-site",
+  "oneLiner": "可视化设计+CMS+托管 · 营销站专业级 · 无代码上限高",
+  "officialUrl": "https://webflow.com",
+  "descriptionMd": "Webflow 把版式设计、响应式、CMS 与托管合为一体，可到设计稿级精度发布营销与内容站，显著减少营销站前端开发工期。\n\n品牌官网、定价页、内容站需要设计师主导上线、又不想自建 Next 营销站时，它是专业级短名单头部首选。\n\n复杂产品逻辑与国内备案合规仍要工程补齐；席位与托管档位费用不低，协作与表单席位要算清楚。\n",
+  "vendorId": "webflow-inc"
+}

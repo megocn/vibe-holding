@@ -1,0 +1,48 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "bi",
+    "dashboard",
+    "open-source",
+    "sql"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "复杂语义层与百万行以上性能需调优；企业治理与嵌入能力要对照商业版。"
+  ],
+  "updates": [
+    {
+      "date": "2026-08-01",
+      "type": "release",
+      "summary": "发布 0.63.2.7: 新版本",
+      "version": "0.63.2.7",
+      "source": "https://github.com/metabase/metabase/releases/tag/v0.63.2.7"
+    }
+  ],
+  "rankings": [],
+  "sources": [
+    "https://www.metabase.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "metabase",
+  "name": "Metabase",
+  "category": "db-bi",
+  "subcategory": "bi-dashboard",
+  "oneLiner": "开源 BI 入门默认 · SQL/GUI 问数 · 自托管或云",
+  "officialUrl": "https://www.metabase.com",
+  "descriptionMd": "Metabase 提供 GUI 问数、SQL 编辑器、仪表盘与权限，开源可自托管，也有托管云，是团队级 BI 事实入门选项。\n\n仓库或 Postgres/ClickHouse 已就绪，业务要自助看转化与经营指标、工程不愿上重型 BI 套件时优先对标。\n\n复杂语义层与百万行以上性能需调优；企业治理与嵌入能力要对照商业版。\n",
+  "vendorId": "metabase-inc",
+  "githubUrl": "https://github.com/metabase/metabase",
+  "currentVersion": "0.63.2.7"
+}

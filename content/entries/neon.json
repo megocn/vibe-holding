@@ -40,14 +40,16 @@
       "tier": "Managed Postgres",
       "period": "2026-07",
       "note": "继承 PostgreSQL 生态位；Serverless PG 赛道",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     },
     {
       "systemId": "so-survey-language",
       "tier": "PG cloud",
       "period": "2025 Survey",
       "note": "SO 调查中 Supabase/Neon 等云 PG 分列展示",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     }
   ]
 }

@@ -44,7 +44,10 @@
       "period": "2026-07",
       "note": "Text-to-Image · reve-2.1",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
-      "asOf": "2026-07-24"
+      "asOf": "2026-07-24",
+      "previousRank": 2,
+      "previousScore": 1302,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "lmarena-image-edit",
@@ -54,7 +57,10 @@
       "asOf": "2026-07-24",
       "rank": 10,
       "score": 1383,
-      "scoreLabel": "1383 Elo"
+      "scoreLabel": "1383 Elo",
+      "previousRank": 10,
+      "previousScore": 1383,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "aa-image-arena",
@@ -64,7 +70,10 @@
       "period": "2026-07",
       "note": "Reve 2.1",
       "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "asOf": "2026-07-24"
+      "asOf": "2026-07-24",
+      "previousRank": 2,
+      "previousScore": 1306,
+      "previousAsOf": "2026-07-24"
     }
   ],
   "sources": [

@@ -1,0 +1,11 @@
+{
+  "id": "e-confluent-with-kafka",
+  "from": "confluent-cloud",
+  "to": "kafka",
+  "type": "commonly_used_with",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "托管发行与连接器基于 Kafka 协议"
+}

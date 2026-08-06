@@ -23,7 +23,15 @@
     "强项在产品内触发，不适合作为完整对外营销表单站。",
     "自托管需维护版本与用户隐私合规配置。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-06",
+      "type": "release",
+      "summary": "发布 5.3.2: 新版本",
+      "version": "5.3.2",
+      "source": "https://github.com/formbricks/formbricks/releases/tag/5.3.2"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://formbricks.com"

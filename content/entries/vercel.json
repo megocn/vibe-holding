@@ -60,14 +60,16 @@
       "tier": "PaaS / Front-end cloud",
       "period": "2025–2026",
       "note": "偏前端/边缘 PaaS；完整 IaaS 象限以 AWS/Azure/GCP 为主",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     },
     {
       "systemId": "cncf-survey",
       "tier": "App platform",
       "period": "2025 Survey",
       "note": "独立开发者部署心智份额高",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     }
   ],
   "currentVersion": "3.8"

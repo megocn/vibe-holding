@@ -52,7 +52,8 @@
       "systemId": "state-of-js",
       "tier": "Vue meta-FW",
       "period": "2025 Survey",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     }
   ]
 }

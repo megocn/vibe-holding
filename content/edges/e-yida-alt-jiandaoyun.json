@@ -1,0 +1,11 @@
+{
+  "id": "e-yida-alt-jiandaoyun",
+  "from": "aliyun-yida",
+  "to": "jiandaoyun",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "国内低代码内部系统同轴"
+}

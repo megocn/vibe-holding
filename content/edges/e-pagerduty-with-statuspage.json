@@ -1,0 +1,11 @@
+{
+  "id": "e-pagerduty-with-statuspage",
+  "from": "pagerduty",
+  "to": "statuspage",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "内部响应与对外状态页联动"
+}

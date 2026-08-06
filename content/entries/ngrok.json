@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "tunnel",
+    "webhook",
+    "devtool",
+    "https"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "免费层域名与带宽限制明显；生产长期暴露应换稳定入口或 Cloudflare Tunnel 等可控方案。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://ngrok.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "id": "ngrok",
+  "name": "ngrok",
+  "category": "net-tunnel",
+  "subcategory": "public-tunnel",
+  "oneLiner": "本地端口公网隧道 · webhook 调试 · 临时 HTTPS 演示利器",
+  "officialUrl": "https://ngrok.com",
+  "descriptionMd": "ngrok 把本地端口暴露成公网 HTTPS 或 TCP 隧道，自带域名/鉴权与流量观测，是 webhook 调试与临时演示的事实工具。\n\n本地开发接第三方回调、真机访问、给客户短时演示内网服务时用；长期生产入口要另做架构。\n\n免费层域名与带宽限制明显；生产长期暴露应换稳定入口或 Cloudflare Tunnel 等可控方案。\n",
+  "vendorId": "ngrok-inc"
+}

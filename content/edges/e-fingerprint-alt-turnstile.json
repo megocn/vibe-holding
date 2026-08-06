@@ -1,0 +1,11 @@
+{
+  "id": "e-fingerprint-alt-turnstile",
+  "from": "fingerprint",
+  "to": "cloudflare-turnstile",
+  "type": "alternative_to",
+  "weight": 0.35,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "持续设备识别 vs 人机验证——问题不同"
+}

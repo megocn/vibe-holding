@@ -29,7 +29,10 @@
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 seed-2.1-pro-preview",
-      "asOf": "2026-08-03"
+      "asOf": "2026-08-03",
+      "previousRank": 19,
+      "previousScore": 1527,
+      "previousAsOf": "2026-08-03"
     },
     {
       "systemId": "lmarena-image",
@@ -39,7 +42,10 @@
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 seedream-5.0-pro",
-      "asOf": "2026-08-02"
+      "asOf": "2026-08-02",
+      "previousRank": 6,
+      "previousScore": 1257,
+      "previousAsOf": "2026-08-02"
     },
     {
       "systemId": "lmarena-image-edit",
@@ -49,7 +55,10 @@
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 seedream-5.0-pro",
-      "asOf": "2026-08-02"
+      "asOf": "2026-08-02",
+      "previousRank": 8,
+      "previousScore": 1385,
+      "previousAsOf": "2026-08-02"
     },
     {
       "systemId": "lmarena-vision",

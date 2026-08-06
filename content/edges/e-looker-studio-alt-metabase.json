@@ -1,0 +1,11 @@
+{
+  "id": "e-looker-studio-alt-metabase",
+  "from": "looker-studio",
+  "to": "metabase",
+  "type": "alternative_to",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "Google 免费营销看板 vs 自托管/产品化 BI"
+}

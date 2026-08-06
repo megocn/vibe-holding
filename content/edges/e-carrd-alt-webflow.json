@@ -1,0 +1,11 @@
+{
+  "id": "e-carrd-alt-webflow",
+  "from": "carrd",
+  "to": "webflow",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "极简单页 vs 专业营销站平台"
+}

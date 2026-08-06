@@ -1,0 +1,11 @@
+{
+  "id": "e-document360-with-intercom",
+  "from": "document360",
+  "to": "intercom",
+  "type": "commonly_used_with",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "帮助中心与会话支持互补"
+}

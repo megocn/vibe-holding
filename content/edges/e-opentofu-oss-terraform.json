@@ -1,0 +1,11 @@
+{
+  "id": "e-opentofu-oss-terraform",
+  "from": "opentofu",
+  "to": "terraform",
+  "type": "open_source_alternative_to",
+  "weight": 0.9,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "HCL 兼容开源分叉 vs 商业许可 Terraform"
+}

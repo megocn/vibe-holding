@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "esign",
+    "api",
+    "contract",
+    "saas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "超大企业复杂多方法务流程、高级合规套件广度通常不及 DocuSign 全家桶。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://sign.dropbox.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "id": "dropbox-sign",
+  "name": "Dropbox Sign",
+  "category": "sec-esign",
+  "subcategory": "e-signature",
+  "oneLiner": "原 HelloSign · 简洁签署流 · 开发者 API 友好",
+  "officialUrl": "https://sign.dropbox.com",
+  "descriptionMd": "Dropbox Sign（原 HelloSign）强调简洁的签署体验与嵌入式签约，API/SDK 对「产品内点签」集成友好，文档清晰。\n\n要在 App 内完成协议勾选签署、团队已用 Dropbox 生态、预算低于 DocuSign 企业套件时考虑。\n\n超大企业复杂多方法务流程、高级合规套件广度通常不及 DocuSign 全家桶。\n",
+  "vendorId": "dropbox-inc"
+}

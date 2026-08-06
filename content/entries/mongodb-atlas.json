@@ -51,13 +51,18 @@
       "period": "2026-07",
       "note": "MongoDB 总体人气；Atlas 为托管形态",
       "sourceUrl": "https://db-engines.com/en/ranking",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousRank": 5,
+      "previousScore": 386.62,
+      "previousAsOf": "2026-07-20"
     },
     {
       "systemId": "so-survey-language",
       "share": 24,
       "period": "2025 Survey",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousShare": 24,
+      "previousAsOf": "2026-07-20"
     }
   ]
 }

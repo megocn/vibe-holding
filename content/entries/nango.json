@@ -1,0 +1,47 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "unified-api",
+    "integrations",
+    "open-source",
+    "oauth"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "这与 Zapier 给最终用户搭自动化不是同一题；连接器覆盖要以目录为准。"
+  ],
+  "updates": [
+    {
+      "date": "2026-08-03",
+      "type": "release",
+      "summary": "发布 0.71.3: 新版本",
+      "version": "0.71.3",
+      "source": "https://github.com/NangoHQ/nango/releases/tag/v0.71.3"
+    }
+  ],
+  "rankings": [],
+  "sources": [
+    "https://www.nango.dev"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "nango",
+  "name": "Nango",
+  "category": "cicd-unified-api",
+  "subcategory": "unified-api",
+  "oneLiner": "开源嵌入式集成 · OAuth/同步 · 给你的 SaaS 装集成",
+  "officialUrl": "https://www.nango.dev",
+  "descriptionMd": "Nango 帮产品团队在自有 SaaS 内嵌「连接客户 CRM/工单等」的集成：OAuth、字段同步与可自托管管道，开源优先。\n\n你的产品要向客户提供 Salesforce/HubSpot 类双向集成，又不想把集成当成巨型内部项目时选。\n\n这与 Zapier 给最终用户搭自动化不是同一题；连接器覆盖要以目录为准。选型前请以官网能力与定价页为准。\n",
+  "vendorId": "nango-inc",
+  "githubUrl": "https://github.com/NangoHQ/nango"
+}

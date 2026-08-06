@@ -30,7 +30,10 @@
       "asOf": "2026-07-24",
       "rank": 6,
       "score": 1364,
-      "scoreLabel": "1364 Elo"
+      "scoreLabel": "1364 Elo",
+      "previousRank": 6,
+      "previousScore": 1364,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "lmarena-i2v",
@@ -40,7 +43,10 @@
       "asOf": "2026-07-24",
       "rank": 7,
       "score": 1398,
-      "scoreLabel": "1398 Elo"
+      "scoreLabel": "1398 Elo",
+      "previousRank": 7,
+      "previousScore": 1398,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "aa-video-arena",
@@ -50,7 +56,10 @@
       "asOf": "2026-07-24",
       "rank": 11,
       "score": 1095,
-      "scoreLabel": "1095 Elo"
+      "scoreLabel": "1095 Elo",
+      "previousRank": 11,
+      "previousScore": 1095,
+      "previousAsOf": "2026-07-24"
     }
   ],
   "sources": [

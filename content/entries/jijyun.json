@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "automation",
+    "ipaas",
+    "nocode",
+    "domestic"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "企业级吞吐与治理能力弱于重型 iPaaS。",
+    "海外长尾 SaaS 连接器可能不如 Zapier 目录全。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.jijyun.cn"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "domestic",
+  "id": "jijyun",
+  "name": "集简云",
+  "category": "cicd-automation",
+  "subcategory": "ipaas",
+  "oneLiner": "国内零代码 iPaaS · 钉钉飞书企微连接厚 · Zapier 对位",
+  "officialUrl": "https://www.jijyun.cn",
+  "descriptionMd": "集简云是面向国内企业的零代码集成与自动化平台，连接钉钉、飞书、企微与大量本土 SaaS，用可视化流程做同步与触发，定位接近 Zapier 的国内业务自动化入口。\n\n流程在国内 SaaS 之间跑、对接人要求低、对照 Zapier/Make 时优先；开发者代码步骤可看 Pipedream，自托管 fair-code 看 n8n。\n\n复杂高并发与深度 API 治理弱于企业 iPaaS；连接器以本土应用为主。\n",
+  "vendorId": "jijyun-inc"
+}

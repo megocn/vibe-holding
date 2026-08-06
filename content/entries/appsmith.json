@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "internal-tools",
+    "open-source",
+    "admin",
+    "self-host"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "复杂交互与精致视觉成本仍高；运维与版本升级需自担；云版与自托管功能差要对着文档核对。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.appsmith.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "id": "appsmith",
+  "name": "Appsmith",
+  "category": "ops-internal",
+  "subcategory": "internal-admin",
+  "oneLiner": "开源 Retool 感内部应用 · 自托管许可友好 · 连任意 API",
+  "officialUrl": "https://www.appsmith.com",
+  "descriptionMd": "Appsmith 是偏开源/可自托管的内部应用平台：拖拽 UI、绑定 SQL 与 REST/GraphQL，许可与数据驻留对不愿纯 SaaS 后台的团队友好。\n\n要自建运营后台、对接自有库表与内部 API，且预算或合规不愿上商业 Retool 时，与其同轴对标。\n\n复杂交互与精致视觉成本仍高；运维与版本升级需自担；云版与自托管功能差要对着文档核对。\n",
+  "vendorId": "appsmith-inc",
+  "githubUrl": "https://github.com/appsmithorg/appsmith"
+}

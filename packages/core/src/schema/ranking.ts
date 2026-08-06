@@ -38,6 +38,9 @@ export type RankingSystem = z.infer<typeof RankingSystem>;
 /**
  * 条目在某套排行体系中的快照。
  * rank / score / tier / share 至少填一项；asOf 为快照日期。
+ *
+ * previous*：上一期可比字段（活水 upsert 时写入），供首页动态展示升/跌；
+ * 无历史时不填，不编造变动。
  */
 export const EntryRanking = z
   .object({
@@ -52,6 +55,14 @@ export const EntryRanking = z
     tier: z.string().max(40).optional(),
     /** 采用率/份额（0–100） */
     share: z.number().min(0).max(100).optional(),
+    /** 上一期名次（1 最优）；与 rank 对照得升降 */
+    previousRank: z.number().int().positive().optional(),
+    /** 上一期分值 */
+    previousScore: z.number().optional(),
+    /** 上一期份额 */
+    previousShare: z.number().min(0).max(100).optional(),
+    /** 上一期快照日 */
+    previousAsOf: IsoDate.optional(),
     /** 榜单期次，如 2026-07、2025 Survey */
     period: z.string().min(1).max(40),
     sourceUrl: z.string().url().optional(),
@@ -68,6 +79,53 @@ export const EntryRanking = z
     { message: 'rankings 项须至少提供 rank / score / scoreLabel / tier / share 之一' },
   );
 export type EntryRanking = z.infer<typeof EntryRanking>;
+
+function trimNum(n: number): string {
+  if (Number.isInteger(n)) return String(n);
+  const s = n.toFixed(2).replace(/\.?0+$/, '');
+  return s === '-0' ? '0' : s;
+}
+
+/**
+ * 相对上一期的通俗升降文案。无 previous* 或不可比时返回 undefined（勿编造）。
+ * 名次数值越小越好：previousRank 10 → rank 8 为「升 2 名」。
+ */
+export function formatRankingChangePhrase(ranking: EntryRanking): string | undefined {
+  if (ranking.rank != null && ranking.previousRank != null) {
+    const d = ranking.previousRank - ranking.rank;
+    if (d > 0) return `升 ${d} 名`;
+    if (d < 0) return `跌 ${-d} 名`;
+    if (ranking.score != null && ranking.previousScore != null) {
+      const sd = ranking.score - ranking.previousScore;
+      if (sd > 0) return `名次持平，得分 +${trimNum(sd)}`;
+      if (sd < 0) return `名次持平，得分 ${trimNum(sd)}`;
+    }
+    if (ranking.share != null && ranking.previousShare != null) {
+      const sd = ranking.share - ranking.previousShare;
+      if (Math.abs(sd) >= 0.05) {
+        return sd > 0
+          ? `名次持平，份额 +${trimNum(sd)} 点`
+          : `名次持平，份额 ${trimNum(sd)} 点`;
+      }
+    }
+    return '较上次持平';
+  }
+
+  if (ranking.score != null && ranking.previousScore != null) {
+    const d = ranking.score - ranking.previousScore;
+    if (d > 0) return `升 ${trimNum(d)} 分`;
+    if (d < 0) return `跌 ${trimNum(-d)} 分`;
+    return '较上次持平';
+  }
+
+  if (ranking.share != null && ranking.previousShare != null) {
+    const d = ranking.share - ranking.previousShare;
+    if (Math.abs(d) < 0.05) return '份额较上次持平';
+    return d > 0 ? `份额升 ${trimNum(d)} 点` : `份额跌 ${trimNum(-d)} 点`;
+  }
+
+  return undefined;
+}
 
 /** 将分值格式化为展示串。 */
 export function formatRankingScore(

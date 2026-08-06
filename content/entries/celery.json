@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "jobs",
+    "python",
+    "queue",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "运维 worker 与 broker 是成本中心；Serverless 无常驻场景更看 Inngest/QStash；严格 durable 长事务看 Temporal。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://docs.celeryq.dev"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "id": "celery",
+  "name": "Celery",
+  "category": "cloud-jobs",
+  "subcategory": "queue-worker",
+  "oneLiner": "Python 异步任务事实标准 · 多 broker · Django/Flask 默配",
+  "officialUrl": "https://docs.celeryq.dev",
+  "descriptionMd": "Celery 是 Python 生态的分布式任务队列：异步任务、定时 beat、重试与多 broker（Redis/RabbitMQ 等），Django 项目长期默认选项。\n\nPython/Django 服务要发邮件、报表、AI 批处理等后台任务，且团队熟悉 worker 进程模型时选它。\n\n运维 worker 与 broker 是成本中心；Serverless 无常驻场景更看 Inngest/QStash；严格 durable 长事务看 Temporal。\n",
+  "githubUrl": "https://github.com/celery/celery",
+  "vendorId": "celery-project"
+}

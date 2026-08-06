@@ -39,7 +39,8 @@
       "tier": "CN IDE",
       "period": "2025–2026",
       "note": "国内可及 AI IDE；对照 Cursor 心智份额",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     }
   ]
 }

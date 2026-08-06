@@ -1,0 +1,11 @@
+{
+  "id": "e-hoppscotch-oss-postman",
+  "from": "hoppscotch",
+  "to": "postman",
+  "type": "open_source_alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "开源轻量客户端 vs Postman"
+}

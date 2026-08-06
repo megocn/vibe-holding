@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "image",
+    "cdn",
+    "storage",
+    "domestic"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "全球节点与企业定制深度通常弱于云巨头。",
+    "视频长流业务能力需与点播产品对照。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.upyun.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "domestic",
+  "id": "upyun",
+  "name": "又拍云",
+  "category": "net-media",
+  "subcategory": "image-cdn",
+  "oneLiner": "存储+CDN+图片处理一体 · 中小站性价比 · 上手快",
+  "officialUrl": "https://www.upyun.com",
+  "descriptionMd": "又拍云面向国内中小站与内容业务，把云存储、CDN 与图片处理放到同一控制台，强调易用与阶梯计价性价比，常见于图床、静态资源与轻量媒体交付而不是全球 DAM 套件。\n\n团队以国内流量为主、希望少组件拼装、对照七牛做价格与面板体验时评估；重度长视频流水线另看云厂商点播产品。\n\n大客户节点与定制能力因套餐而异；海外边缘与全球品牌体验弱于国际媒体 CDN。\n",
+  "vendorId": "upyun-inc"
+}

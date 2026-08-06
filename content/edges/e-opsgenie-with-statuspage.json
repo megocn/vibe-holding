@@ -1,0 +1,11 @@
+{
+  "id": "e-opsgenie-with-statuspage",
+  "from": "opsgenie",
+  "to": "statuspage",
+  "type": "commonly_used_with",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "值班告警与对外状态沟通同栈"
+}

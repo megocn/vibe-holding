@@ -1,0 +1,48 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "gitops",
+    "kubernetes",
+    "rancher",
+    "multi-cluster"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "非 Rancher 栈粘性弱；单集群纯 GitOps 往往 Argo CD/Flux 更轻。"
+  ],
+  "updates": [
+    {
+      "date": "2026-07-29",
+      "type": "release",
+      "summary": "发布 0.16.0: 新版本",
+      "version": "0.16.0",
+      "source": "https://github.com/rancher/fleet/releases/tag/v0.16.0"
+    }
+  ],
+  "rankings": [],
+  "sources": [
+    "https://fleet.rancher.io"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "rancher-fleet",
+  "name": "Rancher Fleet",
+  "category": "cicd-gitops",
+  "subcategory": "gitops",
+  "oneLiner": "多集群 GitOps · Rancher 生态 · Bundle 规模交付",
+  "officialUrl": "https://fleet.rancher.io",
+  "descriptionMd": "Fleet 是 Rancher 的 GitOps 引擎，面向多集群、大规模 Bundle 部署，与 Rancher 管理面深度集成。\n\n已在 Rancher/RKE 体系、需要把多集群应用配置以 Git 为源同步时列入对 Argo/Flux 的补充短名单。\n\n非 Rancher 栈粘性弱；单集群纯 GitOps 往往 Argo CD/Flux 更轻。\n",
+  "vendorId": "suse-rancher",
+  "githubUrl": "https://github.com/rancher/fleet",
+  "currentVersion": "0.16.0"
+}

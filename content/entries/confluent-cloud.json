@@ -12,7 +12,9 @@
   },
   "tags": [
     "kafka",
-    "managed"
+    "managed",
+    "messaging",
+    "broker"
   ],
   "maturity": "stable",
   "pitfalls": [
@@ -23,11 +25,11 @@
   "sources": [
     "https://www.confluent.io/confluent-cloud"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-07",
   "region": "overseas",
   "id": "confluent-cloud",
   "name": "Confluent Cloud",
-  "category": "db-nosql",
+  "category": "msg-broker",
   "subcategory": "managed",
   "oneLiner": "Kafka+ksql+Flink 托管 · Schema/Connector 生态 · Confluent SLA",
   "officialUrl": "https://www.confluent.io/confluent-cloud",

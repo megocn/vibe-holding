@@ -15,7 +15,8 @@
     "docs",
     "hosted",
     "collaboration",
-    "saas"
+    "saas",
+    "help-center"
   ],
   "maturity": "mature",
   "pitfalls": [
@@ -27,12 +28,12 @@
   "sources": [
     "https://www.gitbook.com"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-07",
   "region": "overseas",
   "id": "gitbook",
   "name": "GitBook",
-  "category": "fw-docs-site",
-  "subcategory": "hosted-docs",
+  "category": "collab-help",
+  "subcategory": "help-center",
   "oneLiner": "在线协作写作平台 · 可视化编辑 · Git 双向同步 · 非技术同事友好",
   "officialUrl": "https://www.gitbook.com",
   "descriptionMd": "GitBook 是托管的文档协作平台，提供可视化编辑器、评论审阅与空间权限，同时支持与 Git 仓库双向同步，让产品、运营与研发在同一处维护内容。\n\n文档作者中有较多非技术同事、需要审阅流程与细粒度权限时优先；纯工程文档用生成器更自由。\n\n站点结构与样式的定制自由度低于自建生成器；按成员与空间计费，内容迁出与导出格式建议提前验证。\n",

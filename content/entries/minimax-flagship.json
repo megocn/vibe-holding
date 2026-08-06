@@ -29,7 +29,10 @@
       "asOf": "2026-07-24",
       "rank": 25,
       "score": 44,
-      "scoreLabel": "AAII 44"
+      "scoreLabel": "AAII 44",
+      "previousRank": 25,
+      "previousScore": 44,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "openrouter-popularity",
@@ -38,7 +41,9 @@
       "share": 3.6,
       "period": "2026-08",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-08-04"
+      "asOf": "2026-08-04",
+      "previousRank": 7,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "lmarena-vision",
@@ -48,7 +53,10 @@
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 minimax-m3",
-      "asOf": "2026-07-25"
+      "asOf": "2026-07-25",
+      "previousRank": 38,
+      "previousScore": 1240,
+      "previousAsOf": "2026-07-25"
     },
     {
       "systemId": "lmarena-document",
@@ -58,17 +66,23 @@
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 minimax-m3",
-      "asOf": "2026-07-31"
+      "asOf": "2026-07-31",
+      "previousRank": 26,
+      "previousScore": 1435,
+      "previousAsOf": "2026-07-31"
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 29,
+      "rank": 31,
       "score": 1491,
       "scoreLabel": "1491 Elo",
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 minimax-m3",
-      "asOf": "2026-08-02"
+      "asOf": "2026-08-06",
+      "previousRank": 29,
+      "previousScore": 1491,
+      "previousAsOf": "2026-08-02"
     },
     {
       "systemId": "lmarena-t2v",

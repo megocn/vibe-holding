@@ -45,7 +45,8 @@
       "tier": "High retention",
       "period": "2025 Survey",
       "note": "兴趣/留存常年靠前，用量低于 React/Vue",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     }
   ],
   "currentVersion": "3.0.0-next.4"

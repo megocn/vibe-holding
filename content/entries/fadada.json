@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "esign",
+    "contract",
+    "domestic",
+    "compliance"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "跨境多司法体系覆盖弱于 DocuSign；接入与认证链路套餐差大，采购前要跑通样例并看法务模板。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.fadada.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "domestic",
+  "id": "fadada",
+  "name": "法大大",
+  "category": "sec-esign",
+  "subcategory": "e-signature",
+  "oneLiner": "国内电子签与合同 · 实名/司法 · B2B 签约主选之一",
+  "officialUrl": "https://www.fadada.com",
+  "descriptionMd": "法大大提供实名认证、电子签章、合同生命周期管理与开放平台，服务国内商事主体电子签约，开放能力适合嵌入业务与销售流程。\n\n面向中国大陆客户签销售合同、劳务授权与隐私同意书，需要可核验实名与司法存证时列入国内核心短名单内。\n\n跨境多司法体系覆盖弱于 DocuSign；接入与认证链路套餐差大，采购前要跑通样例并看法务模板。\n",
+  "vendorId": "fadada-inc"
+}

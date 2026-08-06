@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "subscription"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "fraud",
+    "domestic",
+    "risk",
+    "anti-abuse"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "产品线宽，选型时要钉准「设备/交易」还是内容审核边界，避免买错套餐。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.ishumei.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "domestic",
+  "id": "shumei",
+  "name": "数美",
+  "category": "sec-fraud",
+  "subcategory": "fraud-platform",
+  "oneLiner": "国内内容+设备风控 · 反作弊/反欺诈 · 互金与社交",
+  "officialUrl": "https://www.ishumei.com",
+  "descriptionMd": "数美覆盖设备指纹、账号与营销反作弊、部分内容安全能力，服务国内互金、社交与电商的风险识别。\n\n国内业务要设备与营销反作弊、并希望与内容审核能力同供应商评估时，与同盾同轴比选。\n\n产品线宽，选型时要钉准「设备/交易」还是内容审核边界，避免买错套餐。选型前请以官网能力与定价页为准。选型前请以官网能力与定价页为准。选型前请以官网能力与定价页为准。\n",
+  "vendorId": "shumei-inc"
+}

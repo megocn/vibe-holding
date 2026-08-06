@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "subscription"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "marketing",
+    "landing",
+    "no-code",
+    "mvp"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "多页 CMS、协作与复杂动效远弱于 Webflow/Framer；品牌级官网很快顶到天花板，届时需迁移。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://carrd.co"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "id": "carrd",
+  "name": "Carrd",
+  "category": "growth-landing",
+  "subcategory": "marketing-site",
+  "oneLiner": "极简单页落地 · 定价低 · Solo/验证想法最快",
+  "officialUrl": "https://carrd.co",
+  "descriptionMd": "Carrd 专注用极低学习成本搭单页或少页落地与简单表单，特别适合个人 Maker 与极早期产品快速验证上线。\n\nMVP 需要当天上线 waitlist、预告页或极简定价页、预算接近零时，它是最低摩擦选项之一。\n\n多页 CMS、协作与复杂动效远弱于 Webflow/Framer；品牌级官网很快顶到天花板，届时需迁移。\n",
+  "vendorId": "carrd-inc"
+}

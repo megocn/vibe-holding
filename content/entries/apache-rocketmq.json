@@ -1,0 +1,39 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "queue",
+    "messaging",
+    "apache",
+    "domestic"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "全球云厂商生态密度低于 Kafka；跨语言客户端与运维知识要按版本核对。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://rocketmq.apache.org"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "domestic",
+  "id": "apache-rocketmq",
+  "name": "Apache RocketMQ",
+  "category": "msg-broker",
+  "subcategory": "queue",
+  "oneLiner": "阿里开源消息中间件 · 事务/顺序/延时 · 国内默认之一",
+  "officialUrl": "https://rocketmq.apache.org",
+  "descriptionMd": "Apache RocketMQ 源自阿里，强调事务消息、顺序与延时等业务消息语义，国内互联网与金融系统广泛使用。\n\n国内业务消息、电商订单与交易链路需要强顺序/事务消息语义时优先对标 Kafka 的应用消息轴。\n\n全球云厂商生态密度低于 Kafka；跨语言客户端与运维知识要按版本核对。选型前请以官网与当前定价页为准。\n",
+  "vendorId": "apache-software-foundation",
+  "githubUrl": "https://github.com/apache/rocketmq"
+}

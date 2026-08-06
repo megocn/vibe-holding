@@ -39,7 +39,8 @@
       "tier": "Indie Auth",
       "period": "2025 Survey",
       "note": "面向 Next/React 的开发者鉴权",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     }
   ]
 }

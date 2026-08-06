@@ -44,7 +44,10 @@
       "period": "2026-07",
       "note": "uni-1.1-max",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
-      "asOf": "2026-07-24"
+      "asOf": "2026-07-24",
+      "previousRank": 15,
+      "previousScore": 1188,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "aa-image-arena",
@@ -54,7 +57,10 @@
       "period": "2026-07",
       "note": "Luma UNI 1 Max",
       "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "asOf": "2026-07-24"
+      "asOf": "2026-07-24",
+      "previousRank": 27,
+      "previousScore": 1170,
+      "previousAsOf": "2026-07-24"
     }
   ],
   "sources": [

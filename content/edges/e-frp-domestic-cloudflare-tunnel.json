@@ -1,0 +1,11 @@
+{
+  "id": "e-frp-domestic-cloudflare-tunnel",
+  "from": "frp",
+  "to": "cloudflare-tunnel",
+  "type": "domestic_equivalent_of",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "自建中继穿透 vs CF Tunnel（非合规等价，工程路径相近）"
+}

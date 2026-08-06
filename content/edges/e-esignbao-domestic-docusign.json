@@ -1,0 +1,11 @@
+{
+  "id": "e-esignbao-domestic-docusign",
+  "from": "esignbao",
+  "to": "docusign",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "国内电子签主选之一"
+}

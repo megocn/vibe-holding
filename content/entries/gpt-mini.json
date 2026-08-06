@@ -28,7 +28,10 @@
       "asOf": "2026-07-24",
       "rank": 12,
       "score": 51,
-      "scoreLabel": "AAII 51"
+      "scoreLabel": "AAII 51",
+      "previousRank": 12,
+      "previousScore": 51,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "openrouter-popularity",
@@ -37,7 +40,10 @@
       "share": 6.3,
       "period": "2026-08",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-08-06"
+      "asOf": "2026-08-06",
+      "previousRank": 8,
+      "previousShare": 3.7,
+      "previousAsOf": "2026-08-03"
     }
   ],
   "sources": [

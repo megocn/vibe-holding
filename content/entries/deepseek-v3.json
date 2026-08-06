@@ -54,7 +54,8 @@
       "tier": "Open-weight frontier",
       "period": "2026-07",
       "note": "V4-Pro 开源权重阵营前列",
-      "asOf": "2026-07-23"
+      "asOf": "2026-07-23",
+      "previousAsOf": "2026-07-23"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -64,7 +65,10 @@
       "asOf": "2026-07-24",
       "rank": 26,
       "score": 44,
-      "scoreLabel": "AAII 44"
+      "scoreLabel": "AAII 44",
+      "previousRank": 26,
+      "previousScore": 44,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "openrouter-popularity",
@@ -73,7 +77,9 @@
       "sourceUrl": "https://openrouter.ai/rankings",
       "asOf": "2026-07-24",
       "rank": 2,
-      "tier": "Top usage"
+      "tier": "Top usage",
+      "previousRank": 2,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "lmarena-webdev",
@@ -83,7 +89,10 @@
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 deepseek-v4-flash-high",
-      "asOf": "2026-08-02"
+      "asOf": "2026-08-02",
+      "previousRank": 7,
+      "previousScore": 1577,
+      "previousAsOf": "2026-08-02"
     }
   ],
   "subcategory": "line",

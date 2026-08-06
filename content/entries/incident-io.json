@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "subscription"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "incident",
+    "slack",
+    "ops",
+    "sre"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "On-call 分页能力需与既有 pager/监控核对；非 Slack 团队收益下降。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://incident.io"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "id": "incident-io",
+  "name": "incident.io",
+  "category": "obs-incident",
+  "subcategory": "incident-mgmt",
+  "oneLiner": "现代化事故管理 · Slack 原生 · 声明/角色/复盘流",
+  "officialUrl": "https://incident.io",
+  "descriptionMd": "incident.io 围绕 Slack 做事故声明、角色分工、时间线与复盘，偏「事故流程产品化」，与传统纯分页器互补或叠加。\n\n团队沟通主场在 Slack，希望把事故角色、沟通节奏和事后 review 流程做硬时选用。\n\nOn-call 分页能力需与既有 pager/监控核对；非 Slack 团队收益下降。选型前请以官网能力与定价页为准。\n",
+  "vendorId": "incident-io-inc"
+}

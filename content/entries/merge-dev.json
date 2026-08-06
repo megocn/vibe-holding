@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "subscription"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "unified-api",
+    "integrations",
+    "b2b",
+    "saas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "按联动账户与类别计费；深度字段与边缘系统仍可能需定制。国内 SaaS 目录弱于欧美。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.merge.dev"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "id": "merge-dev",
+  "name": "Merge",
+  "category": "cicd-unified-api",
+  "subcategory": "unified-api",
+  "oneLiner": "统一 API 接 HR/ATS/CRM · 一次接入多 SaaS",
+  "officialUrl": "https://www.merge.dev",
+  "descriptionMd": "Merge 提供分类统一 API（HRIS、ATS、CRM 等），让你的应用一次对接即可覆盖多家客户侧 SaaS，减少逐家 OAuth。\n\nB2B 产品要读/写客户侧人力资源或 CRM 数据、希望集成覆盖面上市卖点时对标。\n\n按联动账户与类别计费；深度字段与边缘系统仍可能需定制。国内 SaaS 目录弱于欧美。选型前请以官网能力与定价页为准。\n",
+  "vendorId": "merge-dev-inc"
+}

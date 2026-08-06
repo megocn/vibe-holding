@@ -1,0 +1,11 @@
+{
+  "id": "e-hook0-alt-hookdeck",
+  "from": "hook0",
+  "to": "hookdeck",
+  "type": "alternative_to",
+  "weight": 0.4,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "出站自建 vs 入站网关——问题常不同"
+}

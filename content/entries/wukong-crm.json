@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "currency": "CNY",
+    "notes": "开源版与商业版并存，以官网为准"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "crm",
+    "open-source",
+    "self-hosted",
+    "domestic"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "开源与商业版边界、升级路径要进官网核实。",
+    "企业集成与 polish 不及头部 SaaS。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.5kcrm.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "domestic",
+  "id": "wukong-crm",
+  "name": "悟空 CRM",
+  "category": "collab-crm",
+  "subcategory": "open-source-crm",
+  "oneLiner": "国产开源 CRM · 可私有化 · 中小团队成本敏感向",
+  "officialUrl": "https://www.5kcrm.com",
+  "descriptionMd": "悟空 CRM 提供开源/可私有化的客户与销售管理能力，面向预算敏感与要数据驻留的中小团队，是国内开源 CRM 常见入口之一，对照 Twenty 的「开源 CRM」轴。\n\n要私有化、许可成本可控、功能以管道与客户档案为主时评估；企业级连接与行业方案仍看纷享/销售易。\n\npolish 与连接器广度弱于商业 SaaS；版本与社区/商业授权路径需分清。\n",
+  "vendorId": "wukong-crm-inc",
+  "githubUrl": "https://github.com/WuKongOpenSource/Wukong_OpenSource_CRM"
+}

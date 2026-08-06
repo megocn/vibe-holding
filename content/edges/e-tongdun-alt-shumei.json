@@ -1,0 +1,11 @@
+{
+  "id": "e-tongdun-alt-shumei",
+  "from": "tongdun",
+  "to": "shumei",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "国内风控供应商同轴"
+}

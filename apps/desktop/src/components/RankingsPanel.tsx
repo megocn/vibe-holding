@@ -1,5 +1,10 @@
 import type { EntryRanking, Id, RankingSystem } from '@vh/core';
-import { formatRankingPrimary, formatRankingScore, primaryRankingSystem } from '@vh/core';
+import {
+  formatRankingChangePhrase,
+  formatRankingPrimary,
+  formatRankingScore,
+  primaryRankingSystem,
+} from '@vh/core';
 import { useCallback, useEffect, useId, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import { useContent } from '../lib/content.tsx';
@@ -98,6 +103,7 @@ function RankingRow({
   compact?: boolean;
 }) {
   const score = formatRankingScore(ranking, system);
+  const change = formatRankingChangePhrase(ranking);
   const isFirst = ranking.rank === 1;
   const isTop3 = ranking.rank != null && ranking.rank <= 3;
 
@@ -109,20 +115,22 @@ function RankingRow({
   if (ranking.rank != null) {
     rankKind = 'rank';
     rankText = String(ranking.rank);
-    secondary = [ranking.tier, score].filter(Boolean).join(' · ') || null;
+    secondary = [ranking.tier, score, change].filter(Boolean).join(' · ') || null;
   } else if (ranking.share != null) {
     rankKind = 'share';
     rankText = String(ranking.share);
-    secondary = ranking.tier || score || null;
+    secondary = [ranking.tier, score, change].filter(Boolean).join(' · ') || null;
   } else if (ranking.tier) {
     rankKind = 'tier';
     primary = ranking.tier;
-    secondary = score || null;
+    secondary = [score, change].filter(Boolean).join(' · ') || null;
   } else if (score) {
     rankKind = 'score';
     primary = score;
+    secondary = change || null;
   } else {
     primary = rankText;
+    secondary = change || null;
   }
 
   /** 仅短数字/占比适合左侧大字；档位与长分值放正文，避免挤爆卡片。 */

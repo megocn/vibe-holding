@@ -46,14 +46,17 @@
       "tier": "Leader",
       "period": "2024–2025",
       "note": "Merchant Payment / Billing 多次 Leader",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     },
     {
       "systemId": "builtwith-payments",
       "share": 22.3,
       "period": "2026",
       "note": "支付处理软件份额约 22%（口径因研究而异）",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousShare": 22.3,
+      "previousAsOf": "2026-07-20"
     }
   ]
 }

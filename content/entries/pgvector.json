@@ -23,7 +23,8 @@
       "systemId": "db-engines-vector",
       "tier": "Extension",
       "period": "2026",
-      "asOf": "2026-07-23"
+      "asOf": "2026-07-23",
+      "previousAsOf": "2026-07-23"
     }
   ],
   "sources": [

@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "social",
+    "wechat",
+    "analytics",
+    "domestic"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "不是多平台排期发帖工具，轴不同勿硬替 Buffer。",
+    "第三方数据与平台官方后台口径可能不一致。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.newrank.cn"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "domestic",
+  "id": "newrank",
+  "name": "新榜",
+  "category": "growth-social",
+  "subcategory": "content-ops",
+  "oneLiner": "微信等内容数据与榜单 · 运营决策向 · 非多平台一键排期",
+  "officialUrl": "https://www.newrank.cn",
+  "descriptionMd": "新榜提供微信公众号等内容渠道的数据、榜单与运营分析，帮助团队做选题与账号诊断，主轴是「内容数据与行业对照」，而不是 Buffer 式多平台可视化排期日历。\n\n国内公号/内容团队要看账号数据与行业位置、找欧美排期工具的国内决策侧输入时评估；多平台一键发帖仍看 Postiz 等或各平台原生后台。\n\n勿与欧美社媒排期工具直接等价；数据源与指标口径受平台限制。\n",
+  "vendorId": "newrank-inc"
+}

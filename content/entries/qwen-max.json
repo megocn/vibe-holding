@@ -32,7 +32,10 @@
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 qwen3.8-max",
-      "asOf": "2026-08-03"
+      "asOf": "2026-08-03",
+      "previousRank": 5,
+      "previousScore": 1496,
+      "previousAsOf": "2026-08-03"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -42,7 +45,10 @@
       "asOf": "2026-07-24",
       "rank": 22,
       "score": 46,
-      "scoreLabel": "AAII 46"
+      "scoreLabel": "AAII 46",
+      "previousRank": 22,
+      "previousScore": 46,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "lmarena-webdev",
@@ -52,7 +58,10 @@
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 qwen3.8-max",
-      "asOf": "2026-08-03"
+      "asOf": "2026-08-03",
+      "previousRank": 4,
+      "previousScore": 1668,
+      "previousAsOf": "2026-08-03"
     },
     {
       "systemId": "lmarena-image",
@@ -62,7 +71,10 @@
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 qwen-image-3.0-pro",
-      "asOf": "2026-08-06"
+      "asOf": "2026-08-06",
+      "previousRank": 14,
+      "previousScore": 1193,
+      "previousAsOf": "2026-07-26"
     },
     {
       "systemId": "lmarena-image-edit",
@@ -72,7 +84,10 @@
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 qwen-image-2.0-pro-2026-06-22",
-      "asOf": "2026-07-26"
+      "asOf": "2026-07-26",
+      "previousRank": 16,
+      "previousScore": 1315,
+      "previousAsOf": "2026-07-26"
     },
     {
       "systemId": "openrouter-popularity",
@@ -81,7 +96,10 @@
       "share": 0.3,
       "period": "2026-07",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-07-26"
+      "asOf": "2026-07-26",
+      "previousRank": 48,
+      "previousShare": 0.3,
+      "previousAsOf": "2026-07-26"
     },
     {
       "systemId": "lmarena-vision",
@@ -91,7 +109,10 @@
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 qwen3.8-max",
-      "asOf": "2026-08-03"
+      "asOf": "2026-08-03",
+      "previousRank": 2,
+      "previousScore": 1305,
+      "previousAsOf": "2026-08-03"
     }
   ],
   "sources": [

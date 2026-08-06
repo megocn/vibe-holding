@@ -37,13 +37,15 @@
       "tier": "Headless base",
       "period": "2026-H1",
       "note": "shadcn 等上层的无障碍 primitives",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     },
     {
       "systemId": "state-of-js",
       "tier": "Headless",
       "period": "2025 Survey",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     }
   ]
 }

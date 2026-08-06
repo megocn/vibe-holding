@@ -1,0 +1,11 @@
+{
+  "id": "e-jinshuju-dom-typeform",
+  "from": "jinshuju",
+  "to": "typeform",
+  "type": "domestic_equivalent_of",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "业务报名收款向 vs 对话式品牌问卷"
+}

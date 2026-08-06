@@ -49,7 +49,10 @@
       "asOf": "2026-07-24",
       "rank": 1,
       "score": 1527,
-      "scoreLabel": "1527 Elo"
+      "scoreLabel": "1527 Elo",
+      "previousRank": 1,
+      "previousScore": 1527,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "lmarena-i2v",
@@ -59,7 +62,10 @@
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
       "note": "模型 gemini-omni-flash",
-      "asOf": "2026-08-04"
+      "asOf": "2026-08-04",
+      "previousRank": 2,
+      "previousScore": 1469,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "lmarena-video-edit",
@@ -69,7 +75,10 @@
       "asOf": "2026-07-24",
       "rank": 2,
       "score": 1347,
-      "scoreLabel": "1347 Elo"
+      "scoreLabel": "1347 Elo",
+      "previousRank": 2,
+      "previousScore": 1347,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "aa-video-arena",
@@ -79,7 +88,10 @@
       "asOf": "2026-07-24",
       "rank": 1,
       "score": 1245,
-      "scoreLabel": "1245 Elo"
+      "scoreLabel": "1245 Elo",
+      "previousRank": 1,
+      "previousScore": 1245,
+      "previousAsOf": "2026-07-24"
     }
   ],
   "sources": [

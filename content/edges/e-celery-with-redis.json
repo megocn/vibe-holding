@@ -1,0 +1,11 @@
+{
+  "id": "e-celery-with-redis",
+  "from": "celery",
+  "to": "redis",
+  "type": "commonly_used_with",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "broker/backend 常见 Redis"
+}

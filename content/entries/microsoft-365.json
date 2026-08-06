@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "subscription"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "suite",
+    "office",
+    "teams",
+    "enterprise"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "协议与 SKU 复杂；轻团队可能被席位成本压住，可看 Google Workspace 或飞书。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.microsoft.com/microsoft-365"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "id": "microsoft-365",
+  "name": "Microsoft 365",
+  "category": "collab-suite",
+  "subcategory": "suite",
+  "oneLiner": "Office+Teams+OneDrive 企业默认 · 身份/合规与 Azure 同栈",
+  "officialUrl": "https://www.microsoft.com/microsoft-365",
+  "descriptionMd": "Microsoft 365 以 Word/Excel/Teams/OneDrive/SharePoint 构成企业协作与办公默认包，权限、合规与 Azure AD 深度绑定。\n\n组织已购 Microsoft 身份/设备管理或强依赖 Office 桌面兼容，需要统一套件而非多 SaaS 拼凑时选。\n\n协议与 SKU 复杂；轻团队可能被席位成本压住，可看 Google Workspace 或飞书。\n",
+  "vendorId": "microsoft"
+}

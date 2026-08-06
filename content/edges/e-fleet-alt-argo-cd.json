@@ -1,0 +1,11 @@
+{
+  "id": "e-fleet-alt-argo-cd",
+  "from": "rancher-fleet",
+  "to": "argo-cd",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "多集群 Fleet vs Argo CD GitOps"
+}

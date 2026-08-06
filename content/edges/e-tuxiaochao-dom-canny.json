@@ -1,0 +1,11 @@
+{
+  "id": "e-tuxiaochao-dom-canny",
+  "from": "tuxiaochao",
+  "to": "canny",
+  "type": "domestic_equivalent_of",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "腾讯轻量反馈社区 vs Canny 投票/路线图产品"
+}

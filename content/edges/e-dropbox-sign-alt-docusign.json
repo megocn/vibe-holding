@@ -1,0 +1,11 @@
+{
+  "id": "e-dropbox-sign-alt-docusign",
+  "from": "dropbox-sign",
+  "to": "docusign",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "轻量签署 API vs 企业合同套件"
+}

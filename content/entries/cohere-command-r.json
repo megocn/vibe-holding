@@ -29,7 +29,10 @@
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 command-a-03-2025（A+ 未单独上榜时的同系最近快照）",
       "asOf": "2026-07-21",
-      "period": "2026-07"
+      "period": "2026-07",
+      "previousRank": 178,
+      "previousScore": 1354,
+      "previousAsOf": "2026-07-21"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -38,7 +41,9 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "note": "Command A+",
       "asOf": "2026-07-26",
-      "period": "2026-07"
+      "period": "2026-07",
+      "previousScore": 23,
+      "previousAsOf": "2026-07-26"
     }
   ],
   "sources": [

@@ -54,7 +54,10 @@
       "asOf": "2026-07-24",
       "rank": 1,
       "score": 1507,
-      "scoreLabel": "1507 Elo"
+      "scoreLabel": "1507 Elo",
+      "previousRank": 1,
+      "previousScore": 1507,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "lmarena-agent",
@@ -64,7 +67,10 @@
       "asOf": "2026-07-24",
       "rank": 1,
       "share": 12.72,
-      "scoreLabel": "12.72% win"
+      "scoreLabel": "12.72% win",
+      "previousRank": 1,
+      "previousShare": 12.72,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "lmarena-webdev",
@@ -74,7 +80,10 @@
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 claude-fable-5",
-      "asOf": "2026-07-29"
+      "asOf": "2026-07-29",
+      "previousRank": 4,
+      "previousScore": 1628,
+      "previousAsOf": "2026-07-29"
     },
     {
       "systemId": "lmarena-vision",
@@ -84,7 +93,10 @@
       "asOf": "2026-07-24",
       "rank": 1,
       "score": 1318,
-      "scoreLabel": "1318 Elo"
+      "scoreLabel": "1318 Elo",
+      "previousRank": 1,
+      "previousScore": 1318,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "lmarena-document",
@@ -94,7 +106,10 @@
       "asOf": "2026-07-24",
       "rank": 3,
       "score": 1505,
-      "scoreLabel": "1505 Elo"
+      "scoreLabel": "1505 Elo",
+      "previousRank": 3,
+      "previousScore": 1505,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "lmarena-search",
@@ -104,7 +119,10 @@
       "asOf": "2026-07-24",
       "rank": 3,
       "score": 1237,
-      "scoreLabel": "1237 Elo"
+      "scoreLabel": "1237 Elo",
+      "previousRank": 3,
+      "previousScore": 1237,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -114,7 +132,10 @@
       "asOf": "2026-07-24",
       "rank": 1,
       "score": 60,
-      "scoreLabel": "AAII 60"
+      "scoreLabel": "AAII 60",
+      "previousRank": 1,
+      "previousScore": 60,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "swe-bench-pro",
@@ -124,7 +145,10 @@
       "asOf": "2026-07-24",
       "rank": 1,
       "score": 80.3,
-      "scoreLabel": "80.3%"
+      "scoreLabel": "80.3%",
+      "previousRank": 1,
+      "previousScore": 80.3,
+      "previousAsOf": "2026-07-24"
     }
   ],
   "sources": [

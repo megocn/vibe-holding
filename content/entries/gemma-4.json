@@ -31,7 +31,10 @@
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 gemma-4-31b",
-      "asOf": "2026-08-04"
+      "asOf": "2026-08-04",
+      "previousRank": 26,
+      "previousScore": 1256,
+      "previousAsOf": "2026-07-25"
     },
     {
       "systemId": "lmarena-document",
@@ -41,7 +44,10 @@
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 gemma-4-31b",
-      "asOf": "2026-07-31"
+      "asOf": "2026-07-31",
+      "previousRank": 29,
+      "previousScore": 1424,
+      "previousAsOf": "2026-07-31"
     },
     {
       "systemId": "lmarena-text",
@@ -51,7 +57,10 @@
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 gemma-4-31b",
       "asOf": "2026-07-21",
-      "period": "2026-07"
+      "period": "2026-07",
+      "previousRank": 52,
+      "previousScore": 1451,
+      "previousAsOf": "2026-07-21"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -60,7 +69,9 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "note": "Gemma 4 31B",
       "asOf": "2026-07-26",
-      "period": "2026-07"
+      "period": "2026-07",
+      "previousScore": 29,
+      "previousAsOf": "2026-07-26"
     },
     {
       "systemId": "openrouter-popularity",
@@ -69,7 +80,10 @@
       "share": 0.7,
       "period": "2026-08",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-08-06"
+      "asOf": "2026-08-06",
+      "previousRank": 26,
+      "previousShare": 0.7,
+      "previousAsOf": "2026-07-26"
     }
   ],
   "sources": [

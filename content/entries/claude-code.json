@@ -46,7 +46,10 @@
       "asOf": "2026-07-24",
       "rank": 3,
       "score": 77,
-      "scoreLabel": "AA Coding 77"
+      "scoreLabel": "AA Coding 77",
+      "previousRank": 3,
+      "previousScore": 77,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "swe-bench-verified",
@@ -54,13 +57,15 @@
       "period": "2026",
       "note": "Anthropic agentic 编码工具；与 Opus 系同生态",
       "sourceUrl": "https://www.swebench.com/",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     },
     {
       "systemId": "jetbrains-ai-tools",
       "tier": "Rising CLI",
       "period": "2025 Survey",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     }
   ],
   "currentVersion": "Claude Code"

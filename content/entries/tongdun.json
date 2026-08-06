@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "subscription"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "fraud",
+    "domestic",
+    "risk",
+    "fingerprint"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "与海外 Fingerprint/Sift 能力重叠但数据与模型域不同；采购与接口对接偏项目制。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.tongdun.cn"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "domestic",
+  "id": "tongdun",
+  "name": "同盾",
+  "category": "sec-fraud",
+  "subcategory": "fraud-platform",
+  "oneLiner": "国内智能风控 · 设备/交易/反欺诈 · 金融互金常用",
+  "officialUrl": "https://www.tongdun.cn",
+  "descriptionMd": "同盾提供设备指纹、反欺诈与信贷/交易风控能力，服务国内互联网与金融类业务的风险管理场景。\n\n面向中国用户、支付与营销防刷，需要本地化合规叙述与供应商时列入国内短名单。\n\n与海外 Fingerprint/Sift 能力重叠但数据与模型域不同；采购与接口对接偏项目制。选型前请以官网能力与定价页为准。选型前请以官网能力与定价页为准。\n",
+  "vendorId": "tongdun-inc"
+}

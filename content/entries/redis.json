@@ -49,14 +49,19 @@
       "scoreLabel": "153.81 pts",
       "period": "2026-07",
       "sourceUrl": "https://db-engines.com/en/ranking",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousRank": 8,
+      "previousScore": 153.81,
+      "previousAsOf": "2026-07-20"
     },
     {
       "systemId": "so-survey-language",
       "share": 28,
       "period": "2025 Survey",
       "note": "缓存/KV 品类默认选择",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousShare": 28,
+      "previousAsOf": "2026-07-20"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "id": "e-wenjuanxing-alt-jinshuju",
+  "from": "wenjuanxing",
+  "to": "jinshuju",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "调研考试分析强 vs 业务表单收款预约强"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-inngest-alt-temporal",
+  "from": "inngest",
+  "to": "temporal",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "事件 step 函数 vs 完整 durable workflow 引擎"
+}

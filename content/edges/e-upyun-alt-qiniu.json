@@ -1,0 +1,11 @@
+{
+  "id": "e-upyun-alt-qiniu",
+  "from": "upyun",
+  "to": "qiniu",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "面板与性价比向 vs 开发者媒体管道向"
+}

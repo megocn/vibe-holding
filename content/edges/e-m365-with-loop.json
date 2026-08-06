@@ -1,0 +1,11 @@
+{
+  "id": "e-m365-with-loop",
+  "from": "microsoft-365",
+  "to": "microsoft-loop",
+  "type": "commonly_used_with",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "Loop 组件常嵌在 M365/Teams 表面"
+}

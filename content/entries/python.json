@@ -38,7 +38,9 @@
       "systemId": "tiobe-index",
       "rank": 1,
       "period": "2026",
-      "asOf": "2026-07-23"
+      "asOf": "2026-07-23",
+      "previousRank": 1,
+      "previousAsOf": "2026-07-23"
     }
   ],
   "sources": [

@@ -304,6 +304,21 @@
                 "minimum": 0,
                 "maximum": 100
               },
+              "previousRank": {
+                "type": "integer",
+                "exclusiveMinimum": 0
+              },
+              "previousScore": {
+                "type": "number"
+              },
+              "previousShare": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 100
+              },
+              "previousAsOf": {
+                "$ref": "#/definitions/Entry/properties/updates/items/properties/date"
+              },
               "period": {
                 "type": "string",
                 "minLength": 1,

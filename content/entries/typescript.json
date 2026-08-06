@@ -24,7 +24,8 @@
       "tier": "Top tier",
       "period": "2026",
       "asOf": "2026-07-23",
-      "note": "长期高人气"
+      "note": "长期高人气",
+      "previousAsOf": "2026-07-23"
     }
   ],
   "sources": [

@@ -29,7 +29,10 @@
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 mistral-large-3",
       "asOf": "2026-07-21",
-      "period": "2026-07"
+      "period": "2026-07",
+      "previousRank": 110,
+      "previousScore": 1415,
+      "previousAsOf": "2026-07-21"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -38,7 +41,9 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "note": "Mistral Large 3",
       "asOf": "2026-07-26",
-      "period": "2026-07"
+      "period": "2026-07",
+      "previousScore": 16,
+      "previousAsOf": "2026-07-26"
     }
   ],
   "sources": [

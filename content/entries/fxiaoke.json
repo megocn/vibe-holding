@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "crm",
+    "enterprise",
+    "domestic",
+    "saas"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "实施与模块组合使总拥有成本难一次看清。",
+    "Indie 小团队通常过重，勿当轻量起盘默认。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.fxiaoke.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "domestic",
+  "id": "fxiaoke",
+  "name": "纷享销客",
+  "category": "collab-crm",
+  "subcategory": "suite-crm",
+  "oneLiner": "连接型国产 CRM 头部 · 渠道/协同强 · 中大盘默认",
+  "officialUrl": "https://www.fxiaoke.com",
+  "descriptionMd": "纷享销客是国产 CRM 第一梯队产品，强调连接型架构：销售、渠道、服务与协同，支持 SaaS 与私有化，服务网络覆盖国内多地，面向中大型组织复杂客户经营。\n\n国内中大型团队要本地化交付、渠道与上下游连接、对照 HubSpot「套件默认」轴时评估；轻量灵活对象可看海外 Attio 或悟空。\n\n采购与实施偏项目制，小团队易过重；价格随模块与私有化走。\n",
+  "vendorId": "fxiaoke-inc"
+}

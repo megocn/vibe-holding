@@ -1,0 +1,11 @@
+{
+  "id": "e-tuxiaochao-dom-fider",
+  "from": "tuxiaochao",
+  "to": "fider",
+  "type": "domestic_equivalent_of",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "托管轻量反馈入口 vs Fider 开源投票板"
+}

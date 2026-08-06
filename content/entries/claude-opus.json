@@ -81,7 +81,10 @@
       "asOf": "2026-07-24",
       "rank": 2,
       "score": 1505,
-      "scoreLabel": "1505 Elo"
+      "scoreLabel": "1505 Elo",
+      "previousRank": 2,
+      "previousScore": 1505,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "lmarena-agent",
@@ -89,7 +92,9 @@
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/agent",
       "note": "模型 Claude Opus 5 (Max)",
-      "asOf": "2026-07-29"
+      "asOf": "2026-07-29",
+      "previousRank": 2,
+      "previousAsOf": "2026-07-29"
     },
     {
       "systemId": "lmarena-webdev",
@@ -99,7 +104,10 @@
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 claude-opus-5-max",
-      "asOf": "2026-07-29"
+      "asOf": "2026-07-29",
+      "previousRank": 1,
+      "previousScore": 1712,
+      "previousAsOf": "2026-07-29"
     },
     {
       "systemId": "lmarena-vision",
@@ -109,7 +117,10 @@
       "asOf": "2026-07-24",
       "rank": 2,
       "score": 1306,
-      "scoreLabel": "1306 Elo"
+      "scoreLabel": "1306 Elo",
+      "previousRank": 2,
+      "previousScore": 1306,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "lmarena-document",
@@ -119,7 +130,10 @@
       "asOf": "2026-07-24",
       "rank": 1,
       "score": 1510,
-      "scoreLabel": "1510 Elo"
+      "scoreLabel": "1510 Elo",
+      "previousRank": 1,
+      "previousScore": 1510,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "lmarena-search",
@@ -129,7 +143,10 @@
       "asOf": "2026-07-24",
       "rank": 1,
       "score": 1253,
-      "scoreLabel": "1253 Elo"
+      "scoreLabel": "1253 Elo",
+      "previousRank": 1,
+      "previousScore": 1253,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -139,7 +156,10 @@
       "asOf": "2026-07-24",
       "rank": 6,
       "score": 56,
-      "scoreLabel": "AAII 56"
+      "scoreLabel": "AAII 56",
+      "previousRank": 6,
+      "previousScore": 56,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "openrouter-popularity",
@@ -148,7 +168,10 @@
       "share": 1.8,
       "period": "2026-08",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-08-02"
+      "asOf": "2026-08-02",
+      "previousRank": 15,
+      "previousShare": 1.8,
+      "previousAsOf": "2026-08-02"
     },
     {
       "systemId": "swe-bench-pro",
@@ -157,7 +180,9 @@
       "sourceUrl": "https://www.swebench.com/",
       "asOf": "2026-07-24",
       "score": 69.2,
-      "scoreLabel": "69.2%"
+      "scoreLabel": "69.2%",
+      "previousScore": 69.2,
+      "previousAsOf": "2026-07-24"
     }
   ],
   "subcategory": "line"

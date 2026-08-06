@@ -11,7 +11,9 @@
     ]
   },
   "tags": [
-    "streaming"
+    "streaming",
+    "messaging",
+    "broker"
   ],
   "maturity": "stable",
   "pitfalls": [
@@ -22,11 +24,11 @@
   "sources": [
     "https://pulsar.apache.org"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-07",
   "region": "overseas",
   "id": "apache-pulsar",
   "name": "Apache Pulsar",
-  "category": "db-nosql",
+  "category": "msg-broker",
   "subcategory": "streaming",
   "oneLiner": "多租户/跨区复制 · Messaging+Streaming · BookKeeper 存算分离",
   "officialUrl": "https://pulsar.apache.org",

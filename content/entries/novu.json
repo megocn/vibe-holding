@@ -23,7 +23,15 @@
     "编排层不替代优质发信域名与短信签名资质。",
     "渠道一多，模板与变量约定需要严格规范。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "summary": "发布 3.18.2: @novu/react-native@v3.18.2",
+      "version": "3.18.2",
+      "source": "https://github.com/novuhq/novu/releases/tag/%40novu%2Freact-native%40v3.18.2"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://novu.co"

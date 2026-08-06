@@ -1,0 +1,11 @@
+{
+  "id": "e-tooljet-oss-retool",
+  "from": "tooljet",
+  "to": "retool",
+  "type": "open_source_alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "另一开源内部工具短名单"
+}

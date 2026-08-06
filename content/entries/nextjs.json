@@ -73,14 +73,17 @@
       "period": "2025 Survey",
       "note": "元框架使用率高；正负情绪接近（+21% / −17%）",
       "sourceUrl": "https://stateofjs.com/",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousShare": 59,
+      "previousAsOf": "2026-07-20"
     },
     {
       "systemId": "so-survey-language",
       "tier": "Top meta-FW",
       "period": "2025 Survey",
       "note": "State of React 2025：React 开发者中约 80% 使用",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     }
   ]
 }

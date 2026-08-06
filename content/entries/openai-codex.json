@@ -44,7 +44,10 @@
       "asOf": "2026-07-24",
       "rank": 1,
       "score": 80,
-      "scoreLabel": "AA Coding 80"
+      "scoreLabel": "AA Coding 80",
+      "previousRank": 1,
+      "previousScore": 80,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "swe-bench-verified",
@@ -52,7 +55,8 @@
       "note": "与 Sol 旗舰组合在 AA Coding Agent Index 居首",
       "sourceUrl": "https://www.swebench.com/",
       "asOf": "2026-07-24",
-      "tier": "Top scaffold"
+      "tier": "Top scaffold",
+      "previousAsOf": "2026-07-24"
     }
   ],
   "sources": [

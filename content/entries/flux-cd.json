@@ -11,7 +11,9 @@
     ]
   },
   "tags": [
-    "gitops"
+    "gitops",
+    "kubernetes",
+    "cd"
   ],
   "maturity": "stable",
   "pitfalls": [
@@ -22,12 +24,12 @@
   "sources": [
     "https://fluxcd.io"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-07",
   "region": "overseas",
   "id": "flux-cd",
   "name": "Flux CD",
-  "category": "cicd-pipeline",
-  "subcategory": "cd",
+  "category": "cicd-gitops",
+  "subcategory": "gitops",
   "oneLiner": "GitOps Toolkit 模块化 · Helm/Kustomize reconcile · 偏 Git 驱动",
   "officialUrl": "https://fluxcd.io",
   "descriptionMd": "Flux CD 持续 reconcile 集群与 Git 源，支持 Helm/Kustomize，与 Argo CD 同为 GitOps 主流，更偏 GitOps Toolkit 模块化。\n\n偏好 CNCF 项目、或需要多 tenant GitOps 控制器时评估 Flux vs Argo。\n\nArgo UI 更成熟；团队需选型统一以免双轨运维。\n"

@@ -1,0 +1,11 @@
+{
+  "id": "e-wukong-crm-dom-twenty",
+  "from": "wukong-crm",
+  "to": "twenty",
+  "type": "domestic_equivalent_of",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "国产开源/可私有化 CRM vs Twenty 开源现代 CRM"
+}

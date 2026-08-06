@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "subscription"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "help-center",
+    "docs",
+    "api-docs",
+    "saas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "写作体验与编辑器深度因团队习惯差异大；纯客服 FAQ 向可看 Document360。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.archbee.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "id": "archbee",
+  "name": "Archbee",
+  "category": "collab-help",
+  "subcategory": "help-center",
+  "oneLiner": "产品/API 文档一体 · 嵌入与版本 · 面向开发者帮助中心",
+  "officialUrl": "https://www.archbee.com",
+  "descriptionMd": "Archbee 把产品说明、API 参考与内部知识组织在同一文档产品里，适合开发者向帮助中心与公开文档站。\n\nSaaS 需要面向集成方的帮助与 API 文档一体托管、并希望比纯静态 SSG 少运维时与 GitBook 同轴对比。\n\n写作体验与编辑器深度因团队习惯差异大；纯客服 FAQ 向可看 Document360。\n",
+  "vendorId": "archbee-inc"
+}

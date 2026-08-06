@@ -46,14 +46,16 @@
       "period": "2026-07",
       "note": "统一 API 网关请求热度标杆；自带模型热度榜",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     },
     {
       "systemId": "artificial-analysis-index",
       "tier": "Routing layer",
       "period": "2026-07",
       "note": "按 AA 指数做故障转移与成本路由时的常用入口",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     }
   ]
 }

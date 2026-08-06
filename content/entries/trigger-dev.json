@@ -23,12 +23,12 @@
   "sources": [
     "https://trigger.dev"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-07",
   "region": "overseas",
   "id": "trigger-dev",
   "name": "Trigger.dev",
-  "category": "cloud-paas",
-  "subcategory": "workflow",
+  "category": "cloud-jobs",
+  "subcategory": "durable-jobs",
   "oneLiner": "TS 后台 Job · 可观测/重试/调度 · 长时运行 · 接 Vercel/Remix",
   "officialUrl": "https://trigger.dev",
   "descriptionMd": "Trigger.dev 为 TypeScript 后台任务提供可观测、重试与调度，支持长时运行 Job 与 Vercel/Remix 集成，DX 面向全栈团队。\n\n需要跑分钟级 AI 批处理、视频转码等等待 Vercel 函数超时场景时选用；开源可自托管。\n\nCloud 版成本与并发限制需监控；自托管要维护 Redis/Postgres 依赖。\n"

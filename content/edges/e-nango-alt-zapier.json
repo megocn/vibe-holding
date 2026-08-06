@@ -1,0 +1,11 @@
+{
+  "id": "e-nango-alt-zapier",
+  "from": "nango",
+  "to": "zapier",
+  "type": "alternative_to",
+  "weight": 0.4,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "给产品装集成 vs 给终端用户搭自动化——题不同"
+}

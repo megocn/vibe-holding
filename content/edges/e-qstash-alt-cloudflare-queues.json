@@ -1,0 +1,11 @@
+{
+  "id": "e-qstash-alt-cloudflare-queues",
+  "from": "upstash-qstash",
+  "to": "cloudflare-queues",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "多运行时 HTTP 回调 vs CF Workers 原生队列"
+}

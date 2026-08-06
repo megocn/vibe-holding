@@ -1,0 +1,11 @@
+{
+  "id": "e-fadada-alt-esignbao",
+  "from": "fadada",
+  "to": "esignbao",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "国内电子签同轴短名单"
+}

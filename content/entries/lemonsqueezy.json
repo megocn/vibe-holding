@@ -57,7 +57,8 @@
       "tier": "Indie MoR",
       "period": "2026",
       "note": "已被 Stripe 收购；历史独立开发者 MoR",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     }
   ]
 }

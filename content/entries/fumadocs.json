@@ -21,12 +21,20 @@
     "版本迭代快，约定仍在演进",
     "中文资料与生产案例较少"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-06",
+      "type": "release",
+      "summary": "发布 16.14.1: fumadocs@16.14.1",
+      "version": "16.14.1",
+      "source": "https://github.com/fuma-nama/fumadocs/releases/tag/fumadocs%4016.14.1"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://fumadocs.dev"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-06",
   "region": "overseas",
   "id": "fumadocs",
   "name": "Fumadocs",

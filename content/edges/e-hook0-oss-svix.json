@@ -1,0 +1,11 @@
+{
+  "id": "e-hook0-oss-svix",
+  "from": "hook0",
+  "to": "svix",
+  "type": "open_source_alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "开源自托管 Webhook 服务 vs Svix"
+}

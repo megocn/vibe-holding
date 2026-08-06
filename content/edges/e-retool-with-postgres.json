@@ -1,0 +1,11 @@
+{
+  "id": "e-retool-with-postgres",
+  "from": "retool",
+  "to": "postgresql",
+  "type": "commonly_used_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "常直连业务 Postgres 做运营台"
+}

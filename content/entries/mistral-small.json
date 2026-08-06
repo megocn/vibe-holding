@@ -27,7 +27,9 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "note": "Mistral Small 4",
       "asOf": "2026-07-26",
-      "period": "2026-07"
+      "period": "2026-07",
+      "previousScore": 20,
+      "previousAsOf": "2026-07-26"
     }
   ],
   "sources": [

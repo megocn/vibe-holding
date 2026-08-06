@@ -39,7 +39,8 @@
       "tier": "CN inference",
       "period": "2026-07",
       "note": "国内 GPU 云推理聚合",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     }
   ]
 }

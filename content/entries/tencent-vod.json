@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "video",
+    "streaming",
+    "cloud",
+    "domestic"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "需腾讯云账号与国内合规流程（备案等场景相关）。",
+    "不是图像 URL 变换主产品，图仍要 ImageX/七牛等。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://cloud.tencent.com/product/vod"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "domestic",
+  "id": "tencent-vod",
+  "name": "腾讯云点播",
+  "category": "net-media",
+  "subcategory": "video-api",
+  "oneLiner": "视频上传转码播放 · 腾讯云同栈 · 国内点播默认候选",
+  "officialUrl": "https://cloud.tencent.com/product/vod",
+  "descriptionMd": "腾讯云点播（VOD）提供媒资上传、转码、自适应播放与分发，深度嵌入腾讯云账号体系与 CDN，定位国内「视频即服务」流水线，而不是全能图像 DAM 或通用对象存储。\n\n小程序/App 回放、课程与短视频要国内合规与节点、对照 Mux 开发者视频基建时评估；图变换请并行看 ImageX/七牛。\n\n与账号体系、备案与按量计费模型绑定；纯海外观众节点策略与账单结构要另评估。\n",
+  "vendorId": "tencent"
+}

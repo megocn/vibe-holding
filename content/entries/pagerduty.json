@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "subscription"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "on-call",
+    "incident",
+    "alerting",
+    "ops"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "席位与事件量计费陡；过度告警会烧坏旋转机制，需先治理噪音再上平台。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.pagerduty.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "id": "pagerduty",
+  "name": "PagerDuty",
+  "category": "obs-incident",
+  "subcategory": "on-call",
+  "oneLiner": "On-call 排班告警枢纽 · 事件路由/升级 · 事故响应事实标准",
+  "officialUrl": "https://www.pagerduty.com",
+  "descriptionMd": "PagerDuty 把监控告警收成事件，做排班、升级策略、响应协作与事后复盘入口，是 On-call 与事故管理事实短名单头部。\n\n生产已有 metrics/日志告警，需要可靠叫醒值班、升级链与跨工具协同时优先对标；常与 Datadog/Prometheus 并用。\n\n席位与事件量计费陡；过度告警会烧坏旋转机制，需先治理噪音再上平台。\n",
+  "vendorId": "pagerduty-inc"
+}

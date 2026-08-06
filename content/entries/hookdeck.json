@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "webhook",
+    "inbound",
+    "queue",
+    "devtools"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "做出站「给你的客户发 Webhook」主能力看 Svix；两边问题不同勿混选。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://hookdeck.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "id": "hookdeck",
+  "name": "Hookdeck",
+  "category": "msg-webhook",
+  "subcategory": "inbound-webhook",
+  "oneLiner": "入站 Webhook 网关 · 排队/重放/观测 · 本地开发友好",
+  "officialUrl": "https://hookdeck.com",
+  "descriptionMd": "Hookdeck 聚焦入站 Webhook 可靠接收：队列、限流、重放、可观测与本地隧道式开发体验，适合对接 Stripe 等多源回调。\n\n大量第三方回调涌入、需要重放调试与缓冲削峰、或不想让源站直接扛尖峰时选用。\n\n做出站「给你的客户发 Webhook」主能力看 Svix；两边问题不同勿混选。选型前请以官网能力与定价页为准。\n",
+  "vendorId": "hookdeck-inc"
+}

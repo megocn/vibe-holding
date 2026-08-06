@@ -1,0 +1,11 @@
+{
+  "id": "e-cloudflare-tunnel-with-cdn",
+  "from": "cloudflare-tunnel",
+  "to": "cloudflare-cdn",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "Tunnel 源站常挂同一 CF zone"
+}

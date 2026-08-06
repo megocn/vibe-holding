@@ -1,0 +1,11 @@
+{
+  "id": "e-qiniu-dom-cloudinary",
+  "from": "qiniu",
+  "to": "cloudinary",
+  "type": "domestic_equivalent_of",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "国内开发者媒体存储处理底座 vs 全球 Cloudinary 全栈媒体/DAM"
+}

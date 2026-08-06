@@ -23,7 +23,15 @@
     "AGPL 许可对嵌入闭源产品有约束，商用分发前先看法务。",
     "各社交平台 API 政策与配额会变，连接器健康度要持续关注。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "summary": "发布 2.23.0: Streamed media uploads, duplicate-post protection & MCP fixes",
+      "version": "2.23.0",
+      "source": "https://github.com/gitroomhq/postiz-app/releases/tag/v2.23.0"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://postiz.com"
@@ -38,5 +46,6 @@
   "officialUrl": "https://postiz.com",
   "descriptionMd": "Postiz 是当前开源社媒排期里动量最大的一档（AGPL）：可云可自托管，覆盖主流与新兴网络，提供日历、Public API、MCP/CLI 与 n8n 节点，方便用 Agent 或工作流起草后定时多发。\n\n要开源/自托管且跟 AI Agent 自动化同栈、或对照 Buffer/Hootsuite 找可自控替代时优先；若更想要经典 Buffer UI 与 Laravel 栈买断，对照 Mixpost。\n\nAGPL 与平台 OAuth 政策需团队评估；自托管要管账号绑定、密钥与升级，云套餐按团队规模计价。\n",
   "vendorId": "gitroom-inc",
-  "githubUrl": "https://github.com/gitroomhq/postiz-app"
+  "githubUrl": "https://github.com/gitroomhq/postiz-app",
+  "currentVersion": "2.23.0"
 }

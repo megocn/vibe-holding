@@ -1,0 +1,11 @@
+{
+  "id": "e-superset-oss-metabase",
+  "from": "apache-superset",
+  "to": "metabase",
+  "type": "open_source_alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "更重探索可视化的开源 BI vs Metabase 入门向"
+}

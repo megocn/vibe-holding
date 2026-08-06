@@ -1,0 +1,11 @@
+{
+  "id": "e-shumei-domestic-sift",
+  "from": "shumei",
+  "to": "sift",
+  "type": "domestic_equivalent_of",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "国内反作弊/风控 vs 全球数字信任平台"
+}

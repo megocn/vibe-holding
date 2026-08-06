@@ -57,7 +57,10 @@
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 kimi-k3-max",
-      "asOf": "2026-08-02"
+      "asOf": "2026-08-02",
+      "previousRank": 12,
+      "previousScore": 1485,
+      "previousAsOf": "2026-08-02"
     },
     {
       "systemId": "lmarena-agent",
@@ -67,7 +70,10 @@
       "asOf": "2026-07-24",
       "rank": 4,
       "share": 9.71,
-      "scoreLabel": "9.71% win"
+      "scoreLabel": "9.71% win",
+      "previousRank": 4,
+      "previousShare": 9.71,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "lmarena-webdev",
@@ -77,7 +83,10 @@
       "asOf": "2026-07-24",
       "rank": 1,
       "score": 1678,
-      "scoreLabel": "1678 Elo"
+      "scoreLabel": "1678 Elo",
+      "previousRank": 1,
+      "previousScore": 1678,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -87,7 +96,10 @@
       "asOf": "2026-07-24",
       "rank": 3,
       "score": 57,
-      "scoreLabel": "AAII 57"
+      "scoreLabel": "AAII 57",
+      "previousRank": 3,
+      "previousScore": 57,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "openrouter-popularity",
@@ -96,7 +108,10 @@
       "share": 2.7,
       "period": "2026-08",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-08-04"
+      "asOf": "2026-08-04",
+      "previousRank": 9,
+      "previousShare": 2.7,
+      "previousAsOf": "2026-08-02"
     },
     {
       "systemId": "lmarena-vision",
@@ -106,7 +121,10 @@
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 kimi-k2.6",
-      "asOf": "2026-08-04"
+      "asOf": "2026-08-04",
+      "previousRank": 28,
+      "previousScore": 1264,
+      "previousAsOf": "2026-07-31"
     },
     {
       "systemId": "lmarena-document",
@@ -116,7 +134,10 @@
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 kimi-k2.6",
-      "asOf": "2026-07-31"
+      "asOf": "2026-07-31",
+      "previousRank": 21,
+      "previousScore": 1451,
+      "previousAsOf": "2026-07-31"
     }
   ],
   "sources": [

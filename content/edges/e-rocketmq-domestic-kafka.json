@@ -1,0 +1,11 @@
+{
+  "id": "e-rocketmq-domestic-kafka",
+  "from": "apache-rocketmq",
+  "to": "kafka",
+  "type": "domestic_equivalent_of",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "国内业务消息语义强 vs 全球事件流标杆"
+}

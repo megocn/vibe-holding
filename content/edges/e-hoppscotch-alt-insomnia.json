@@ -1,0 +1,11 @@
+{
+  "id": "e-hoppscotch-alt-insomnia",
+  "from": "hoppscotch",
+  "to": "insomnia",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "开源 API 客户端同轴"
+}

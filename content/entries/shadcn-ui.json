@@ -52,7 +52,8 @@
       "tier": "Rising UI kit",
       "period": "2025 Survey",
       "note": "AI 编码默认栈常配；State of React 人气前列",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     },
     {
       "systemId": "npm-downloads",
@@ -60,7 +61,8 @@
       "period": "2026-H1",
       "note": "Rising Stars 2025 前列（年度星标增长）",
       "sourceUrl": "https://risingstars.js.org/",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     }
   ],
   "currentVersion": "0.3.0"

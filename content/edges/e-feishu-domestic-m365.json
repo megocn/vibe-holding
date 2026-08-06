@@ -1,0 +1,11 @@
+{
+  "id": "e-feishu-domestic-m365",
+  "from": "feishu",
+  "to": "microsoft-365",
+  "type": "domestic_equivalent_of",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "国内套件 vs Microsoft 365"
+}

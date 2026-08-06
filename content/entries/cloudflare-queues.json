@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "jobs",
+    "queue",
+    "cloudflare",
+    "serverless"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "绑定 Cloudflare 生态；复杂路由与多云消费弱于 Kafka；与 QStash 同轴比「HTTP 回调」心智不同。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://developers.cloudflare.com/queues/"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "id": "cloudflare-queues",
+  "name": "Cloudflare Queues",
+  "category": "cloud-jobs",
+  "subcategory": "queue-worker",
+  "oneLiner": "Workers 原生队列 · 批处理消费 · 边缘异步解耦",
+  "officialUrl": "https://developers.cloudflare.com/queues/",
+  "descriptionMd": "Cloudflare Queues 为 Workers 提供托管消息队列：生产者投递、消费者批处理、重试与延迟，把边缘计算与异步解耦。\n\n业务已在 Cloudflare Workers/Pages，需要可靠异步 fan-out 或削峰，而不想另开 Redis 队列时用。\n\n绑定 Cloudflare 生态；复杂路由与多云消费弱于 Kafka；与 QStash 同轴比「HTTP 回调」心智不同。\n",
+  "vendorId": "cloudflare-inc"
+}

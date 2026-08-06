@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY",
+    "notes": "平台服务费+通道费模式，以官网为准"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "community",
+    "membership",
+    "creators",
+    "domestic"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "课销与直播交付弱，做大课需另接系统。",
+    "平台抽成与规则变化会影响利润测算。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.zsxq.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "domestic",
+  "id": "zsxq",
+  "name": "知识星球",
+  "category": "collab-community",
+  "subcategory": "membership-community",
+  "oneLiner": "付费星友社群 · 低启动验证 · 内容沉淀强于课销",
+  "officialUrl": "https://www.zsxq.com",
+  "descriptionMd": "知识星球主打付费会员社群：星主更新内容、问答互动、资料沉淀与续费关系，启动成本通常低于完整课程 SaaS，适合先用社群验证知识服务再扩课销体系。\n\n专家/创作者要轻量付费社群、对照小鹅通重课销与 Circle 会员空间时评估；要 SEO 友好的公开论坛请用 Discourse。\n\n以订单服务费/抽成为主；标准化课程直播与店铺经营能力明显弱于小鹅通。\n",
+  "vendorId": "zsxq-inc"
+}

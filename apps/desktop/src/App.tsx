@@ -1,7 +1,7 @@
 import type { Id } from '@vh/core';
 import { sectionIdOf } from '@vh/core';
 import { CATEGORY_ICONS, CATEGORY_LAYERS, layerCategorySet, layerOfCategory } from '@vh/ui';
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { startTransition, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { BottomNav } from './components/BottomNav.tsx';
 import { BrandSeal } from './components/BrandSeal.tsx';
 import { type Command, CommandPalette } from './components/CommandPalette.tsx';
@@ -126,8 +126,31 @@ function AppShell() {
 
   /** 固定侧栏模式（窄屏强制抽屉） */
   const sidebarDocked = !isMobile && layout.sidebarPinned;
-  /** 窄屏知识库：列表与详情二选一 */
-  const mobileShowDetail = isMobile && selectedId != null;
+  /** 窄屏：进过叶说明或条目后可回列表；桌面始终可看叶 usage */
+  const [mobileLeafGuide, setMobileLeafGuide] = useState(false);
+  /** 叶说明时：中栏 ↔ 图落点 hover 同步 */
+  const [hoverEntryId, setHoverEntryId] = useState<Id | null>(null);
+  /** 窄屏知识库：列表与详情二选一（条目或叶说明） */
+  const mobileShowDetail = isMobile && (selectedId != null || mobileLeafGuide);
+
+  /** 右侧为叶说明（无条目）：不展示条目态的「详情/关系图」tabs */
+  const isLeafGuideView = useMemo(() => {
+    if (selectedId) return false;
+    if (kbNav.kind !== 'category') return false;
+    const hit = categories.find((c) => c.id === kbNav.categoryId);
+    if (!hit) return false;
+    if (hit.kind === 'leaf' && hit.usageMd) return true;
+    if (hit.kind === 'section') {
+      return categories.some(
+        (c) => c.kind === 'leaf' && c.parent === hit.id && Boolean(c.usageMd),
+      );
+    }
+    return false;
+  }, [selectedId, kbNav, categories]);
+
+  useEffect(() => {
+    if (!isLeafGuideView) setHoverEntryId(null);
+  }, [isLeafGuideView]);
 
   const toggleCompare = useCallback((id: Id) => {
     setCompareIds((prev) => {
@@ -137,14 +160,33 @@ function AppShell() {
     });
   }, []);
 
+  /** 导航变更时清条目选中；窄屏点到有 usage 的叶则进入叶说明 */
+  const handleKbNav = useCallback(
+    (nav: KbNav) => {
+      setKbNav(nav);
+      setSelectedId(null);
+      setEditingId(null);
+      setEdgeEdit(null);
+      setDetailMode('detail');
+      if (nav.kind === 'category') {
+        const cat = categories.find((c) => c.id === nav.categoryId);
+        setMobileLeafGuide(Boolean(cat?.kind === 'leaf' && cat.usageMd));
+      } else {
+        setMobileLeafGuide(false);
+      }
+    },
+    [categories],
+  );
+
   /** 跨页打开条目：切知识库 + 同步左侧分类选中 */
   const openEntry = useCallback(
     (id: Id) => {
       const nav = kbNavForEntry(bundle, id);
       if (nav) setKbNav(nav);
       setSelectedId(id);
+      setMobileLeafGuide(false);
       setDetailMode('detail');
-      setView('knowledge');
+      startTransition(() => setView('knowledge'));
     },
     [bundle],
   );
@@ -407,7 +449,7 @@ function AppShell() {
         keywords: 'reset clear 清除',
         run: () => {
           setQuery('');
-          setKbNav({ kind: 'all' });
+          handleKbNav({ kind: 'all' });
           setFilters({});
           setFavoritesOnly(false);
         },
@@ -531,6 +573,7 @@ function AppShell() {
     sidebarDocked,
     toggleCategoryDrawer,
     openEntry,
+    handleKbNav,
     includeCredentials,
     isMobile,
   ]);
@@ -653,8 +696,11 @@ function AppShell() {
             active={view === 'kitchen' ? 'settings' : view}
             includeCredentials={includeCredentials}
             onSelect={(id) => {
-              setView(id);
-              if (id === 'recipes') setRecipesMode('templates');
+              // 知识库等重视图用 transition，避免点击后主线程长帧卡住导航反馈
+              startTransition(() => {
+                setView(id);
+                if (id === 'recipes') setRecipesMode('templates');
+              });
             }}
           />
         )}
@@ -672,8 +718,8 @@ function AppShell() {
                   setRecipesMode('mystacks');
                   setView('recipes');
                 }}
-                onOpenKnowledge={() => setView('knowledge')}
-                onOpenGraph={() => setView('graph')}
+                onOpenKnowledge={() => startTransition(() => setView('knowledge'))}
+                onOpenGraph={() => startTransition(() => setView('graph'))}
                 onOpenSettings={() => setView('settings')}
                 onOpenCredentials={
                   includeCredentials ? () => setView('credentials') : undefined
@@ -687,9 +733,10 @@ function AppShell() {
                 <>
                   <Sidebar
                     nav={kbNav}
-                    onNav={setKbNav}
+                    onNav={handleKbNav}
                     onOpenEntry={(id) => {
                       setSelectedId(id);
+                      setMobileLeafGuide(false);
                       pushRecent(id);
                     }}
                     width={layout.sidebarWidth}
@@ -727,9 +774,10 @@ function AppShell() {
               {!sidebarDocked && (
                 <Sidebar
                   nav={kbNav}
-                  onNav={setKbNav}
+                  onNav={handleKbNav}
                   onOpenEntry={(id) => {
                     setSelectedId(id);
+                    setMobileLeafGuide(false);
                     pushRecent(id);
                   }}
                   width={
@@ -751,6 +799,7 @@ function AppShell() {
                 <>
                   <div
                     className="vh-column vh-kb-list-col flex flex-col"
+                    data-leaf-guide={isLeafGuideView ? 'true' : undefined}
                     style={{
                       width: isMobile ? undefined : layout.listWidth,
                       flex: isMobile ? 1 : undefined,
@@ -762,7 +811,7 @@ function AppShell() {
                     <div className="vh-kb-list-head">
                       <KbScopeHeader
                         nav={kbNav}
-                        onNav={setKbNav}
+                        onNav={handleKbNav}
                         countLabel={kbContext.subtitle}
                         drawerOpen={drawerOpen}
                         pinned={sidebarDocked}
@@ -770,6 +819,12 @@ function AppShell() {
                         onPinChange={isMobile ? undefined : setCategoryPinned}
                       />
                     </div>
+                    {isLeafGuideView && (
+                      <div className="vh-kb-list-leaf-cue" role="status">
+                        <Icon name="HandPointing" size={14} weight="duotone" />
+                        <span>在中间点产品名，就能打开详情</span>
+                      </div>
+                    )}
                     <FilterBar
                       filters={filters}
                       onChange={setFilters}
@@ -780,10 +835,16 @@ function AppShell() {
                     <EntryList
                       ids={results}
                       selectedId={selectedId}
-                      onSelect={setSelectedId}
+                      onSelect={(id) => {
+                        setSelectedId(id);
+                        setMobileLeafGuide(false);
+                        setHoverEntryId(null);
+                      }}
                       compareIds={compareIds}
                       onToggleCompare={toggleCompare}
                       nav={kbNav}
+                      hoverId={isLeafGuideView ? hoverEntryId : null}
+                      onHover={isLeafGuideView ? setHoverEntryId : undefined}
                     />
                   </div>
                   {!isMobile && (
@@ -810,45 +871,67 @@ function AppShell() {
               )}
               {(!isMobile || mobileShowDetail) && (
                 <main className="vh-kb-detail-col" style={{ flex: 1, minWidth: 0 }}>
-                  <div className="vh-kb-detail-modebar" role="tablist" aria-label="详情视图">
-                    {isMobile && (
-                      <button
-                        type="button"
-                        className="vh-kb-detail-back vh-btn"
-                        onClick={() => {
-                          setSelectedId(null);
-                          setDetailMode('detail');
-                          setEditingId(null);
-                          setEdgeEdit(null);
-                        }}
-                      >
-                        <Icon name="ArrowLeft" size={16} />
-                        返回
-                      </button>
-                    )}
-                    <button
-                      type="button"
-                      role="tab"
-                      aria-selected={detailMode === 'detail'}
-                      className="vh-kb-detail-mode"
-                      data-active={detailMode === 'detail'}
-                      onClick={() => setDetailMode('detail')}
-                    >
-                      <Icon name="Article" size={14} />
-                      详情
-                    </button>
-                    <button
-                      type="button"
-                      role="tab"
-                      aria-selected={detailMode === 'graph'}
-                      className="vh-kb-detail-mode"
-                      data-active={detailMode === 'graph'}
-                      onClick={() => setDetailMode('graph')}
-                    >
-                      <Icon name="Graph" size={14} />
-                      {isMobile ? '关联' : '关系图'}
-                    </button>
-                  </div>
+                  {(isMobile || !isLeafGuideView) && (
+                    <div className="vh-kb-detail-modebar" role="tablist" aria-label="详情视图">
+                      {isMobile && (
+                        <button
+                          type="button"
+                          className="vh-kb-detail-back vh-btn"
+                          onClick={() => {
+                            if (selectedId != null) {
+                              setSelectedId(null);
+                              /* 有叶说明时回到叶页，否则回列表 */
+                              if (
+                                kbNav.kind === 'category' &&
+                                categories.some(
+                                  (c) =>
+                                    c.id === kbNav.categoryId &&
+                                    c.kind === 'leaf' &&
+                                    c.usageMd,
+                                )
+                              ) {
+                                setMobileLeafGuide(true);
+                              }
+                            } else {
+                              setMobileLeafGuide(false);
+                            }
+                            setDetailMode('detail');
+                            setEditingId(null);
+                            setEdgeEdit(null);
+                          }}
+                        >
+                          <Icon name="ArrowLeft" size={16} />
+                          返回
+                        </button>
+                      )}
+                      {!isLeafGuideView && (
+                        <>
+                          <button
+                            type="button"
+                            role="tab"
+                            aria-selected={detailMode === 'detail'}
+                            className="vh-kb-detail-mode"
+                            data-active={detailMode === 'detail'}
+                            onClick={() => setDetailMode('detail')}
+                          >
+                            <Icon name="Article" size={14} />
+                            详情
+                          </button>
+                          <button
+                            type="button"
+                            role="tab"
+                            aria-selected={detailMode === 'graph'}
+                            className="vh-kb-detail-mode"
+                            data-active={detailMode === 'graph'}
+                            onClick={() => setDetailMode('graph')}
+                          >
+                            <Icon name="Graph" size={14} />
+                            {isMobile ? '关联' : '关系图'}
+                          </button>
+                        </>
+                      )}
+                    </div>
+                  )}
                   <div className="vh-kb-detail-mode-body">
                     {edgeEdit && canWriteContent ? (
                       <EdgeEditor
@@ -866,7 +949,7 @@ function AppShell() {
                           setSelectedId(id);
                         }}
                       />
-                    ) : detailMode === 'graph' ? (
+                    ) : detailMode === 'graph' && !isLeafGuideView ? (
                       isMobile ? (
                         selectedId ? (
                           <div className="vh-mobile-detail-relations">
@@ -896,7 +979,16 @@ function AppShell() {
                     ) : (
                       <Detail
                         id={selectedId}
-                        onSelect={setSelectedId}
+                        scopeNav={kbNav}
+                        onScopeNav={handleKbNav}
+                        onSelect={(id) => {
+                          setSelectedId(id);
+                          setMobileLeafGuide(false);
+                          setDetailMode('detail');
+                          setHoverEntryId(null);
+                        }}
+                        hoverEntryId={isLeafGuideView ? hoverEntryId : null}
+                        onHoverEntry={isLeafGuideView ? setHoverEntryId : undefined}
                         onEdit={
                           canWriteContent
                             ? (id) => {
@@ -1016,8 +1108,10 @@ function AppShell() {
           active={view === 'kitchen' ? 'settings' : view}
           includeCredentials={includeCredentials}
           onSelect={(id) => {
-            setView(id);
-            if (id === 'recipes') setRecipesMode('templates');
+            startTransition(() => {
+              setView(id);
+              if (id === 'recipes') setRecipesMode('templates');
+            });
           }}
         />
       )}

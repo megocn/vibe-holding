@@ -1,0 +1,11 @@
+{
+  "id": "e-pagerduty-with-datadog",
+  "from": "pagerduty",
+  "to": "datadog",
+  "type": "commonly_used_with",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "监控告警常路由到 PagerDuty"
+}

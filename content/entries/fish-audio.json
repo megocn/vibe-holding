@@ -29,7 +29,10 @@
       "asOf": "2026-07-24",
       "rank": 17,
       "score": 1138,
-      "scoreLabel": "1138 Elo"
+      "scoreLabel": "1138 Elo",
+      "previousRank": 17,
+      "previousScore": 1138,
+      "previousAsOf": "2026-07-24"
     }
   ],
   "sources": [

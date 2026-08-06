@@ -1,0 +1,11 @@
+{
+  "id": "e-feishu-with-cal-com",
+  "from": "feishu",
+  "to": "cal-com",
+  "type": "alternative_to",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "套件内预约 vs 开源可自托管独立预约基建"
+}

@@ -38,7 +38,8 @@
       "tier": "CN duopoly",
       "period": "2026",
       "note": "国内移动支付双寡头之一",
-      "asOf": "2026-07-20"
+      "asOf": "2026-07-20",
+      "previousAsOf": "2026-07-20"
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "id": "e-framer-alt-webflow",
+  "from": "framer",
+  "to": "webflow",
+  "type": "alternative_to",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "设计动画向营销站 vs CMS/设计系统向上限"
+}

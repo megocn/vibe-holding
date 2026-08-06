@@ -28,7 +28,10 @@
       "period": "2026-07",
       "note": "lucid-origin",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
-      "asOf": "2026-07-24"
+      "asOf": "2026-07-24",
+      "previousRank": 66,
+      "previousScore": 1013,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "aa-image-arena",
@@ -38,7 +41,10 @@
       "period": "2026-07",
       "note": "Lucid Origin Ultra",
       "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "asOf": "2026-07-24"
+      "asOf": "2026-07-24",
+      "previousRank": 59,
+      "previousScore": 1118,
+      "previousAsOf": "2026-07-24"
     }
   ],
   "sources": [

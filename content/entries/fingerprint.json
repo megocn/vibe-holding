@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "fingerprint",
+    "fraud",
+    "device",
+    "security"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "隐私合规（告知/同意）与误伤真人需产品策略；不是完整反欺诈决策引擎。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://fingerprint.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "id": "fingerprint",
+  "name": "Fingerprint",
+  "category": "sec-fraud",
+  "subcategory": "device-fingerprint",
+  "oneLiner": "浏览器/设备指纹 · 识别回头访客 · 反滥用与登录风控",
+  "officialUrl": "https://fingerprint.com",
+  "descriptionMd": "Fingerprint（原 FingerprintJS）提供高精度浏览器与设备识别，用于识别回头设备、对抗垃圾注册与共享账号滥用。\n\n增长与安全要在无登录场景识别设备、反羊毛或风控登录时的短名单头部。\n\n隐私合规（告知/同意）与误伤真人需产品策略；不是完整反欺诈决策引擎。选型前请以官网能力与定价页为准。选型前请以官网能力与定价页为准。\n",
+  "vendorId": "fingerprint-inc"
+}

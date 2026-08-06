@@ -1,0 +1,11 @@
+{
+  "id": "e-bullmq-alt-inngest",
+  "from": "bullmq",
+  "to": "inngest",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "自管 Redis 队列 vs 托管 durable 函数"
+}

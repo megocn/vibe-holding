@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "forms",
+    "survey",
+    "exam",
+    "domestic"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "业务收款/预约闭环不如金数据顺。",
+    "样本与企业合规条款需按行业自查。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.wjx.cn"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "domestic",
+  "id": "wenjuanxing",
+  "name": "问卷星",
+  "category": "growth-forms",
+  "subcategory": "form-builder",
+  "oneLiner": "问卷考试研究向头部 · 题型与样本生态 · 高校企业广覆盖",
+  "officialUrl": "https://www.wjx.cn",
+  "descriptionMd": "问卷星以问卷调查、在线考试与测评见长，题型库与结果分析能力强，覆盖国内大多数高校与大量企业调研场景，也可承载报名表，但产品心智更偏「调研/考试」而非收款预约一体的业务表单。\n\n学术调研、培训结业考试、大规模问卷回收与需要题库能力时评估；偏业务收款、预约与对外查询闭环更常见选金数据。\n\n企业隐私、样本服务与数据出境相关条款要细读；复杂系统 webhook/API 集成弱于开发者向表单产品。\n",
+  "vendorId": "ranxing-inc"
+}

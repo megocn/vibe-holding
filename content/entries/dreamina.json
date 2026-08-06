@@ -39,7 +39,10 @@
       "asOf": "2026-07-24",
       "rank": 2,
       "score": 1482,
-      "scoreLabel": "1482 Elo"
+      "scoreLabel": "1482 Elo",
+      "previousRank": 2,
+      "previousScore": 1482,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "lmarena-i2v",
@@ -49,7 +52,10 @@
       "asOf": "2026-07-24",
       "rank": 1,
       "score": 1474,
-      "scoreLabel": "1474 Elo"
+      "scoreLabel": "1474 Elo",
+      "previousRank": 1,
+      "previousScore": 1474,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "lmarena-video-edit",
@@ -59,7 +65,10 @@
       "asOf": "2026-07-24",
       "rank": 1,
       "score": 1377,
-      "scoreLabel": "1377 Elo"
+      "scoreLabel": "1377 Elo",
+      "previousRank": 1,
+      "previousScore": 1377,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "aa-video-arena",
@@ -69,7 +78,10 @@
       "asOf": "2026-07-24",
       "rank": 2,
       "score": 1227,
-      "scoreLabel": "1227 Elo"
+      "scoreLabel": "1227 Elo",
+      "previousRank": 2,
+      "previousScore": 1227,
+      "previousAsOf": "2026-07-24"
     }
   ],
   "sources": [

@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "webhook",
+    "events",
+    "saas",
+    "delivery"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "入站聚合调试场景更偏 Hookdeck；自建若仅少数端点可能过重。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.svix.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "id": "svix",
+  "name": "Svix",
+  "category": "msg-webhook",
+  "subcategory": "outbound-webhook",
+  "oneLiner": "出站 Webhook 基建 · 签名/重试/门户 · 给 SaaS 发事件",
+  "officialUrl": "https://www.svix.com",
+  "descriptionMd": "Svix 做出站 Webhook 基础设施：签名验证、自动重试、终端用户门户与多协议投递，让你的 SaaS 能可靠地把事件推给客户。\n\n产品要把「事件订阅/Webhook」当一等能力卖给集成方，又不想自建投递与签名体系时选用。\n\n入站聚合调试场景更偏 Hookdeck；自建若仅少数端点可能过重。选型前请以官网能力与定价页为准。\n",
+  "vendorId": "svix-inc"
+}

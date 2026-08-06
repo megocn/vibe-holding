@@ -1,0 +1,11 @@
+{
+  "id": "e-celery-with-rabbitmq",
+  "from": "celery",
+  "to": "rabbitmq",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "传统企业 broker 常见 RabbitMQ"
+}

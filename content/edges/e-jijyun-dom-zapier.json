@@ -1,0 +1,11 @@
+{
+  "id": "e-jijyun-dom-zapier",
+  "from": "jijyun",
+  "to": "zapier",
+  "type": "domestic_equivalent_of",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "国内零代码连接钉飞书企微等 vs Zapier 全球 iPaaS"
+}

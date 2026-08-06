@@ -1,0 +1,11 @@
+{
+  "id": "e-google-workspace-alt-m365",
+  "from": "google-workspace",
+  "to": "microsoft-365",
+  "type": "alternative_to",
+  "weight": 0.85,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "全球化协作套件同轴"
+}

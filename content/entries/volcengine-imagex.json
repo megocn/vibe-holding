@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "image",
+    "cdn",
+    "transform",
+    "domestic"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "计费项与配置面较多，小流量场景可能过重。",
+    "与非字节栈集成文档路径要预留联调。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.volcengine.com/product/ImageX"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "domestic",
+  "id": "volcengine-imagex",
+  "name": "火山引擎 ImageX",
+  "category": "net-media",
+  "subcategory": "image-cdn",
+  "oneLiner": "字节系图片处理与分发 · 大流量图站向 · 与点播拆分",
+  "officialUrl": "https://www.volcengine.com/product/ImageX",
+  "descriptionMd": "火山引擎 ImageX 面向海量图片的处理、存储与分发，强调处理能力与高并发投递，常与字节云数据分析等产品同栈，是国内「图 CDN + 实时处理」轴上的头部候选之一。\n\n图片量级大、已在火山/字节系技术栈或要与 DataTester 等同栈时评估；通用小站可先评估七牛或又拍。\n\n产品线学习曲线与计费项偏多；非字节生态集成与迁移成本要实测。\n",
+  "vendorId": "bytedance"
+}

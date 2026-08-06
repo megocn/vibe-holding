@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "freemium"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "api",
+    "domestic",
+    "mock",
+    "collaboration"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "出海协作与英文生态密度弱于 Postman；高级企业网关场景仍看配套治理。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://apifox.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "domestic",
+  "id": "apifox",
+  "name": "Apifox",
+  "category": "oss-api-dev",
+  "subcategory": "api-client",
+  "oneLiner": "国内 API 一体化 · 设计/调试/Mock · Postman+文档感",
+  "officialUrl": "https://apifox.com",
+  "descriptionMd": "Apifox 把接口设计、调试、Mock 与文档一体化，中文体验与国内协作习惯友好，常作 Postman 国内替代。\n\n国内团队要统一接口文档与联调、减少多工具跳转时，国内 API 协作主选之一。\n\n出海协作与英文生态密度弱于 Postman；高级企业网关场景仍看配套治理。选型前请以官网与当前定价页为准。选型前请以官网与当前定价页为准。\n",
+  "vendorId": "apifox-inc"
+}

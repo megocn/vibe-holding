@@ -12,7 +12,9 @@
   },
   "tags": [
     "config",
-    "automation"
+    "automation",
+    "iac",
+    "devops"
   ],
   "maturity": "mature",
   "pitfalls": [
@@ -30,11 +32,11 @@
   "sources": [
     "https://www.ansible.com"
   ],
-  "lastReviewed": "2026-08-04",
+  "lastReviewed": "2026-08-07",
   "region": "overseas",
   "id": "ansible",
   "name": "Ansible",
-  "category": "cicd-pipeline",
+  "category": "cicd-iac",
   "subcategory": "config",
   "oneLiner": "SSH 推送 playbook · 无 agent 配置 · VM/混合环境编排",
   "officialUrl": "https://www.ansible.com",

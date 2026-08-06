@@ -1,0 +1,11 @@
+{
+  "id": "e-jitsu-alt-rudderstack",
+  "from": "jitsu",
+  "to": "rudderstack",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "开源 CDP/事件管道同轴"
+}

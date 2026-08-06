@@ -13,7 +13,8 @@
   },
   "tags": [
     "iac",
-    "cloud"
+    "cloud",
+    "devops"
   ],
   "maturity": "stable",
   "pitfalls": [],
@@ -22,13 +23,13 @@
   "sources": [
     "https://www.pulumi.com"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-07",
   "region": "overseas",
   "id": "pulumi",
   "name": "Pulumi",
-  "category": "cicd-pipeline",
+  "category": "cicd-iac",
   "subcategory": "iac",
   "oneLiner": "TS/Python 写 IaC · 相对 HCL 更友好 · 全栈同语言",
-  "descriptionMd": "Pulumi 用 TypeScript/Python 等通用语言写基础设施，相对 HCL 对前端/全栈更友好。\n\n适合想把 IaC 留在同一语言工具链的团队；状态后端与权限设计仍关键。小项目用平台 UI 可能更简单。\n\n与应用同语言复用类型与 CI；状态锁与 Secret 加密配置是上线前必查项。\n",
+  "descriptionMd": "Pulumi 用 TypeScript/Python 等通用语言写基础设施，相对 HCL 对前端/全栈更友好。\n\n适合想把 IaC 留在同一语言工具链的团队；状态后端与权限设计仍关键。小项目用平台 UI 可能更简单。\n\n与应用同语言复用类型与 CI；状态锁与 Secret 加密配置是上线前必查项。\n\n选型前请以官网文档与当前许可策略为准。\n",
   "officialUrl": "https://www.pulumi.com"
 }

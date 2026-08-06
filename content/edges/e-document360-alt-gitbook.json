@@ -1,0 +1,11 @@
+{
+  "id": "e-document360-alt-gitbook",
+  "from": "document360",
+  "to": "gitbook",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "客服向帮助中心 vs 产品/协作文档站"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-feishu-dom-calendly",
+  "from": "feishu",
+  "to": "calendly",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "飞书日历一对一/轮流预约（套件能力）vs Calendly 独立预约页"
+}

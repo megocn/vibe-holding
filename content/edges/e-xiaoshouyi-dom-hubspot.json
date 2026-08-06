@@ -1,0 +1,11 @@
+{
+  "id": "e-xiaoshouyi-dom-hubspot",
+  "from": "xiaoshouyi",
+  "to": "hubspot",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "B2B 流程+PaaS 国产 CRM vs HubSpot 营销销售套件"
+}

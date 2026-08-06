@@ -45,7 +45,10 @@
       "period": "2026-07",
       "note": "gemini-3.1-flash-image · nano-banana-2",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
-      "asOf": "2026-07-24"
+      "asOf": "2026-07-24",
+      "previousRank": 5,
+      "previousScore": 1261,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "lmarena-image-edit",
@@ -55,7 +58,10 @@
       "asOf": "2026-07-24",
       "rank": 7,
       "score": 1388,
-      "scoreLabel": "1388 Elo"
+      "scoreLabel": "1388 Elo",
+      "previousRank": 7,
+      "previousScore": 1388,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "aa-image-arena",
@@ -65,7 +71,10 @@
       "period": "2026-07",
       "note": "Nano Banana 2 (Gemini 3.1 Flash Image)",
       "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "asOf": "2026-07-24"
+      "asOf": "2026-07-24",
+      "previousRank": 7,
+      "previousScore": 1253,
+      "previousAsOf": "2026-07-24"
     }
   ],
   "sources": [

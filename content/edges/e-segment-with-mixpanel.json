@@ -1,0 +1,11 @@
+{
+  "id": "e-segment-with-mixpanel",
+  "from": "segment",
+  "to": "mixpanel",
+  "type": "commonly_used_with",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "采集一次路由到 Mixpanel 等"
+}

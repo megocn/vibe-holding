@@ -1,0 +1,11 @@
+{
+  "id": "e-incident-io-alt-pagerduty",
+  "from": "incident-io",
+  "to": "pagerduty",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "事故流程/Slack 原生 vs 经典分页与升级"
+}

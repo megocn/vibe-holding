@@ -1,0 +1,47 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "webhook",
+    "open-source",
+    "events",
+    "self-host"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "托管体验与门户完善度通常弱于 Svix；生产加固与多租户需自担。"
+  ],
+  "updates": [
+    {
+      "date": "2026-08-06",
+      "type": "release",
+      "summary": "发布 1.0.7: output-worker/v1.0.7",
+      "version": "1.0.7",
+      "source": "https://github.com/hook0/hook0/releases/tag/output-worker%2Fv1.0.7"
+    }
+  ],
+  "rankings": [],
+  "sources": [
+    "https://www.hook0.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "hook0",
+  "name": "Hook0",
+  "category": "msg-webhook",
+  "subcategory": "outbound-webhook",
+  "oneLiner": "开源 Webhook 服务器 · 事件订阅 API · 可自托管",
+  "officialUrl": "https://www.hook0.com",
+  "descriptionMd": "Hook0 开源提供事件订阅与 Webhook 投递服务，可自托管，面向要自建「给客户/内部系统推事件」能力的团队。\n\n需要出站 Webhook 能力且倾向开源自托管、而非上 Svix 类商业投递时对比。\n\n托管体验与门户完善度通常弱于 Svix；生产加固与多租户需自担。选型前请以官网能力与当前定价为准。选型前请以官网能力与当前定价为准。\n",
+  "vendorId": "hook0-inc",
+  "githubUrl": "https://github.com/hook0/hook0"
+}

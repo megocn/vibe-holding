@@ -40,7 +40,9 @@
       "period": "2026-07",
       "sourceUrl": "https://artificialanalysis.ai/models/qwen3-7-plus",
       "note": "Qwen3.7 Plus",
-      "asOf": "2026-07-30"
+      "asOf": "2026-07-30",
+      "previousScore": 39,
+      "previousAsOf": "2026-07-30"
     },
     {
       "systemId": "lmarena-vision",
@@ -50,7 +52,10 @@
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 qwen3.7-plus",
-      "asOf": "2026-08-04"
+      "asOf": "2026-08-04",
+      "previousRank": 29,
+      "previousScore": 1262,
+      "previousAsOf": "2026-07-31"
     },
     {
       "systemId": "lmarena-document",
@@ -60,17 +65,23 @@
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 qwen3.7-plus",
-      "asOf": "2026-07-31"
+      "asOf": "2026-07-31",
+      "previousRank": 25,
+      "previousScore": 1440,
+      "previousAsOf": "2026-07-31"
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 37,
+      "rank": 40,
       "score": 1458,
       "scoreLabel": "1458 Elo",
-      "period": "2026-07",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 qwen3.6-plus",
-      "asOf": "2026-07-31"
+      "asOf": "2026-08-06",
+      "previousRank": 37,
+      "previousScore": 1458,
+      "previousAsOf": "2026-07-31"
     }
   ],
   "sources": [

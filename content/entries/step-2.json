@@ -27,7 +27,9 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "asOf": "2026-07-24",
       "score": 30,
-      "scoreLabel": "AAII 30"
+      "scoreLabel": "AAII 30",
+      "previousScore": 30,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "openrouter-popularity",
@@ -36,7 +38,10 @@
       "share": 3.1,
       "period": "2026-08",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-08-04"
+      "asOf": "2026-08-04",
+      "previousRank": 8,
+      "previousShare": 3.2,
+      "previousAsOf": "2026-08-02"
     }
   ],
   "sources": [

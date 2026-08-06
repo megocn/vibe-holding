@@ -1,0 +1,48 @@
+{
+  "pricing": {
+    "model": "open-source"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "jobs",
+    "workflow",
+    "durable",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "运维与概念门槛高于 Inngest/Trigger 类「几行函数」；纯短任务 cron 场景会过重。"
+  ],
+  "updates": [
+    {
+      "date": "2026-08-04",
+      "type": "release",
+      "summary": "发布 1.32.0-160.2: 新版本",
+      "version": "1.32.0-160.2",
+      "source": "https://github.com/temporalio/temporal/releases/tag/v1.32.0-160.2"
+    }
+  ],
+  "rankings": [],
+  "sources": [
+    "https://temporal.io"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "temporal",
+  "name": "Temporal",
+  "category": "cloud-jobs",
+  "subcategory": "durable-execution",
+  "oneLiner": "工作流 durable 执行 · 强一致重试/补偿 · 微服务长事务标杆",
+  "officialUrl": "https://temporal.io",
+  "descriptionMd": "Temporal 以 durable execution 保证跨服务、长时间运行的工作流状态、重试与补偿语义，多语言 SDK 成熟，支持云与自托管。\n\n支付结算、多步审批、多微服务长事务，或需要严格可达性的 AI 多步编排时，它是应用侧 durable 底座的标杆。\n\n运维与概念门槛高于 Inngest/Trigger 类「几行函数」；纯短任务 cron 场景会过重。\n",
+  "vendorId": "temporal-technologies",
+  "githubUrl": "https://github.com/temporalio/temporal",
+  "currentVersion": "1.32.0-160.2"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-jiandaoyun-domestic-retool",
+  "from": "jiandaoyun",
+  "to": "retool",
+  "type": "domestic_equivalent_of",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "表单零代码业务台 vs 开发者后台构建器"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-trigger-dev-alt-inngest",
+  "from": "trigger-dev",
+  "to": "inngest",
+  "type": "alternative_to",
+  "weight": 0.8,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "TS 后台 Job 平台同轴"
+}

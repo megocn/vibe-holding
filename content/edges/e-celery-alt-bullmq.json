@@ -1,0 +1,11 @@
+{
+  "id": "e-celery-alt-bullmq",
+  "from": "celery",
+  "to": "bullmq",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "Python worker 队列 vs Node/Redis BullMQ"
+}

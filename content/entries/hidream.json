@@ -46,7 +46,10 @@
       "period": "2026-07",
       "note": "hidream-o1-image",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
-      "asOf": "2026-07-24"
+      "asOf": "2026-07-24",
+      "previousRank": 37,
+      "previousScore": 1118,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "aa-image-arena",
@@ -56,7 +59,10 @@
       "period": "2026-07",
       "note": "HiDream-O1-Image-1.5",
       "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "asOf": "2026-07-24"
+      "asOf": "2026-07-24",
+      "previousRank": 4,
+      "previousScore": 1262,
+      "previousAsOf": "2026-07-24"
     }
   ],
   "sources": [

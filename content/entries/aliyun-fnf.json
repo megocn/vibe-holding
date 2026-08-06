@@ -1,0 +1,38 @@
+{
+  "pricing": {
+    "model": "usage"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": true,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "jobs",
+    "serverless",
+    "workflow",
+    "domestic"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "深度绑定阿里云账号与计费；跨云与复杂补偿建模表达力通常不如 Temporal。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.aliyun.com/product/fnf"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "domestic",
+  "id": "aliyun-fnf",
+  "name": "阿里云 Serverless 工作流",
+  "category": "cloud-jobs",
+  "subcategory": "durable-execution",
+  "oneLiner": "云上编排函数/任务 · 长流程状态 · 国内云原生后台任务",
+  "officialUrl": "https://www.aliyun.com/product/fnf",
+  "descriptionMd": "阿里云 Serverless 工作流（FnF）编排函数计算、消息与外部 HTTP 的有状态长流程，内置重试、可视化与云原生集成。\n\n业务已在阿里云，希望少管 Worker 完成支付后处理、媒体链路或多系统串联时，对标 Temporal/Inngest 的国内云选项。\n\n深度绑定阿里云账号与计费；跨云与复杂补偿建模表达力通常不如 Temporal。\n",
+  "vendorId": "alibaba-cloud"
+}

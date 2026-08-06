@@ -28,7 +28,9 @@
       "sourceUrl": "https://artificialanalysis.ai/leaderboards/models",
       "asOf": "2026-07-24",
       "score": 41,
-      "scoreLabel": "AAII 41"
+      "scoreLabel": "AAII 41",
+      "previousScore": 41,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "openrouter-popularity",
@@ -37,17 +39,22 @@
       "sourceUrl": "https://openrouter.ai/rankings",
       "asOf": "2026-07-24",
       "rank": 3,
-      "tier": "Top usage"
+      "tier": "Top usage",
+      "previousRank": 3,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 22,
+      "rank": 24,
       "score": 1517,
       "scoreLabel": "1517 Elo",
-      "period": "2026-07",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 hy3",
-      "asOf": "2026-07-31"
+      "asOf": "2026-08-06",
+      "previousRank": 22,
+      "previousScore": 1517,
+      "previousAsOf": "2026-07-31"
     },
     {
       "systemId": "lmarena-i2v",
@@ -57,7 +64,10 @@
       "period": "2026-07",
       "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
       "note": "模型 hunyuan-video-1.5",
-      "asOf": "2026-07-26"
+      "asOf": "2026-07-26",
+      "previousRank": 34,
+      "previousScore": 1196,
+      "previousAsOf": "2026-07-26"
     },
     {
       "systemId": "lmarena-t2v",
@@ -67,7 +77,10 @@
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 hunyuan-video-1.5",
-      "asOf": "2026-08-02"
+      "asOf": "2026-08-02",
+      "previousRank": 32,
+      "previousScore": 1169,
+      "previousAsOf": "2026-08-02"
     }
   ],
   "sources": [

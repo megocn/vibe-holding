@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "CNY",
+    "notes": "曾长期免费，现已收费，以官网为准"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "feedback",
+    "community",
+    "domestic",
+    "wechat"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "已商业化收费，免费心智不能再当默认。",
+    "不是 Productboard 级洞察与路线图工作台。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://txc.qq.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "domestic",
+  "id": "tuxiaochao",
+  "name": "腾讯兔小巢",
+  "category": "growth-feedback",
+  "subcategory": "feature-voting",
+  "oneLiner": "腾讯出品轻量反馈社区 · 嵌入快 · 微信回复触达",
+  "officialUrl": "https://txc.qq.com",
+  "descriptionMd": "兔小巢是腾讯推出的用户意见反馈社区，可嵌入 App/H5/小程序/公众号，支持分类、回复与微信触达，定位轻量「用户声音墙」，非完整 PM 路线图套件。\n\n国产应用要快速挂反馈入口、微信侧触达用户、对照 Canny/Fider 轻量反馈轴时评估；完整投票路线图与 Changelog 一体仍看 Canny/Featurebase。\n\n已结束纯免费策略，需按套餐评估；企业级产品组合管理弱。\n",
+  "vendorId": "tencent"
+}

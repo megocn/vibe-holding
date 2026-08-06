@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "image",
+    "video",
+    "cdn",
+    "storage",
+    "domestic"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "海外访问与全球 DAM 能力不及 Cloudinary。",
+    "流量+处理叠加计费，要按峰值预估。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.qiniu.com"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "domestic",
+  "id": "qiniu",
+  "name": "七牛云",
+  "category": "net-media",
+  "subcategory": "media-platform",
+  "oneLiner": "对象存储+图片视频处理 · 开发者向 · 国内媒体管道常用",
+  "officialUrl": "https://www.qiniu.com",
+  "descriptionMd": "七牛云提供对象存储、CDN 与图片/音视频处理能力，API/SDK 面向开发者，常作为国内把上传、变换与投递串成一条媒体管道的默认底座之一。\n\n用户图片/短视频要落在国内节点、需要处理工作流与对象存储一体、对标 Cloudinary「开发者媒体底座」时评估。\n\n海外节点与全球品牌 DAM 深度弱于 Cloudinary；计费含存储、流量与处理，需拆账单对照。\n",
+  "vendorId": "qiniu-inc"
+}

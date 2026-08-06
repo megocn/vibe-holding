@@ -1,0 +1,11 @@
+{
+  "id": "e-document360-with-zendesk",
+  "from": "document360",
+  "to": "zendesk",
+  "type": "commonly_used_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "知识库降低 Zendesk 重复工单"
+}

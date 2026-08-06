@@ -38,7 +38,10 @@
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 imagen-ultra-4.0-generate-001",
-      "asOf": "2026-08-06"
+      "asOf": "2026-08-06",
+      "previousRank": 27,
+      "previousScore": 1148,
+      "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "aa-image-arena",
@@ -48,7 +51,10 @@
       "period": "2026-07",
       "note": "Imagen 4 Ultra",
       "sourceUrl": "https://artificialanalysis.ai/image/leaderboard/text-to-image",
-      "asOf": "2026-07-24"
+      "asOf": "2026-07-24",
+      "previousRank": 28,
+      "previousScore": 1169,
+      "previousAsOf": "2026-07-24"
     }
   ],
   "sources": [
