@@ -56,13 +56,13 @@
     },
     {
       "systemId": "lmarena-image",
-      "rank": 14,
-      "score": 1193,
-      "scoreLabel": "1193 Elo",
-      "period": "2026-07",
+      "rank": 5,
+      "score": 1263,
+      "scoreLabel": "1263 Elo",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
-      "note": "模型 qwen-image-2.0-pro-2026-06-22",
-      "asOf": "2026-07-26"
+      "note": "模型 qwen-image-3.0-pro",
+      "asOf": "2026-08-06"
     },
     {
       "systemId": "lmarena-image-edit",

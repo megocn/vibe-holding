@@ -64,12 +64,12 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "period": "2026-07",
-      "note": "GLM-5.2 · OpenRouter 周用量顶尖",
+      "rank": 6,
+      "scoreLabel": "5.3%",
+      "share": 5.3,
+      "period": "2026-08",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-07-24",
-      "rank": 4,
-      "tier": "Top usage"
+      "asOf": "2026-08-06"
     },
     {
       "systemId": "lmarena-document",

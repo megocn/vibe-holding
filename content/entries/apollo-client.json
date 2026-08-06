@@ -20,12 +20,20 @@
   "pitfalls": [
     "包体积与配置复杂度明显高于轻量客户端；规范化缓存的 key 与更新策略配错时，排查缓存不一致相当耗时。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "summary": "发布 4.2.10: @apollo/client@4.2.10",
+      "version": "4.2.10",
+      "source": "https://github.com/apollographql/apollo-client/releases/tag/%40apollo%2Fclient%404.2.10"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://www.apollographql.com"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-06",
   "region": "overseas",
   "id": "apollo-client",
   "name": "Apollo Client",

@@ -30,13 +30,13 @@
   "rankings": [
     {
       "systemId": "lmarena-image",
-      "rank": 20,
+      "rank": 22,
       "score": 1162,
       "scoreLabel": "1162 Elo",
-      "period": "2026-07",
-      "note": "flux-2-max",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
-      "asOf": "2026-07-24"
+      "note": "模型 flux-2-max",
+      "asOf": "2026-08-06"
     },
     {
       "systemId": "aa-image-arena",

@@ -2403,12 +2403,20 @@
       "pitfalls": [
         "包体积与配置复杂度明显高于轻量客户端；规范化缓存的 key 与更新策略配错时，排查缓存不一致相当耗时。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-05",
+          "type": "release",
+          "summary": "发布 4.2.10: @apollo/client@4.2.10",
+          "version": "4.2.10",
+          "source": "https://github.com/apollographql/apollo-client/releases/tag/%40apollo%2Fclient%404.2.10"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://www.apollographql.com"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-06",
       "region": "overseas",
       "id": "apollo-client",
       "name": "Apollo Client",
@@ -7881,8 +7889,7 @@
       "region": "overseas",
       "id": "codex-web",
       "name": "Codex Web",
-      "category": "coding-ide-agent",
-      "subcategory": "async-cloud-agent",
+      "category": "coding-async-agent",
       "vendorId": "openai",
       "oneLiner": "ChatGPT 侧 Codex 云端异步编码 Agent",
       "descriptionMd": "**Codex Web**（chatgpt.com/codex）是 OpenAI Codex 产品线的云端异步面：任务在云端沙箱跑，适合过夜并行、跨设备查看进度；与本机 **Codex CLI** 互补而非互替。\n\n当你需要「丢任务后离开本机」、或要在浏览器里管多路 Agent 时选 Web；日常结对改仓仍以 Codex CLI / Cursor 更顺手。\n\n云端仓库权限与密钥注入策略要按最小权限；与 Jules/Devin 同属异步 PR 叙事，对比时看 GitHub 集成深度与账号生态。\n",
@@ -8001,8 +8008,7 @@
       "region": "overseas",
       "id": "cognition-devin",
       "name": "Devin",
-      "category": "coding-ide-agent",
-      "subcategory": "async-cloud-agent",
+      "category": "coding-async-agent",
       "vendorId": "cognition-inc",
       "oneLiner": "Cognition 自主软件工程 Agent",
       "descriptionMd": "**Devin**（Cognition）是早期出圈的自主软件工程 Agent：云端环境里规划、编码、调试并交付，面向「把任务交给 Agent 工程师」而非补全插件。\n\n适合预算充足、愿意接受云端代理工作区与较高单价、要跑多步工程任务的团队；Indie 日常结对通常仍优先 Cursor / Claude Code / Codex CLI。\n\n价格与准入门槛高于大众 CLI；效果随任务清晰度与仓库质量波动大，务必人工审 PR 与权限边界。\n",
@@ -8234,12 +8240,20 @@
         "iOS/Web 目标成熟度落后于 Android 与桌面",
         "自绘 UI 的无障碍与系统控件融合需逐项验证"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-05",
+          "type": "release",
+          "summary": "发布 1.12.10-alpha01: +dev4604: Details",
+          "version": "1.12.10-alpha01",
+          "source": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.10-alpha01%2Bdev4604"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://github.com/JetBrains/compose-multiplatform"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-06",
       "region": "overseas",
       "id": "compose-multiplatform",
       "name": "Compose Multiplatform",
@@ -8249,7 +8263,8 @@
       "officialUrl": "https://github.com/JetBrains/compose-multiplatform",
       "descriptionMd": "Compose Multiplatform 由 JetBrains 把 Android 的 Jetpack Compose 延伸到 iOS、桌面与 Web，在 Kotlin Multiplatform 的共享逻辑之上再共享一层声明式界面。\n\n已选 KMP、团队熟悉 Compose 且希望界面也复用时评估；只想共享逻辑、界面保留原生的项目留在 KMP 即可。\n\niOS 与 Web 目标的成熟度落后于 Android 与桌面；自绘 UI 与系统控件、无障碍能力的融合需逐项验证。\n",
       "vendorId": "jetbrains",
-      "githubUrl": "https://github.com/JetBrains/compose-multiplatform"
+      "githubUrl": "https://github.com/JetBrains/compose-multiplatform",
+      "currentVersion": "1.12.10-alpha01"
     },
     {
       "pricing": {
@@ -13525,12 +13540,20 @@
         "复杂解析与富化能力弱于 Logstash / Vector",
         "多环境配置容易漂移，需纳入统一配置管理"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-05",
+          "type": "release",
+          "summary": "发布 5.1.0: tests: integration: verify split protocol detection",
+          "version": "5.1.0",
+          "source": "https://github.com/fluent/fluent-bit/releases/tag/v5.1.0"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://fluentbit.io"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-06",
       "region": "overseas",
       "id": "fluent-bit",
       "name": "Fluent Bit",
@@ -13539,7 +13562,8 @@
       "oneLiner": "轻量 C 语言采集器 · K8s DaemonSet 事实标准 · 内存占用极低",
       "officialUrl": "https://fluentbit.io",
       "descriptionMd": "Fluent Bit 是 CNCF 旗下的轻量日志与指标采集器，用 C 实现，内存占用只有几十 MB，插件覆盖主流输入与输出，几乎是 Kubernetes 集群里日志边车与 DaemonSet 的默认选择。\n\n在容器与边缘节点上要一个足够省资源的采集端时首选；它负责收与转，落地存储与检索交给 Loki、Elasticsearch、对象存储或各家云日志服务。\n\n复杂的解析与富化能力弱于 Logstash 与 Vector；配置以文件段落为主，多环境差异容易漂移，建议纳入配置管理统一下发。\n",
-      "githubUrl": "https://github.com/fluent/fluent-bit"
+      "githubUrl": "https://github.com/fluent/fluent-bit",
+      "currentVersion": "5.1.0"
     },
     {
       "pricing": {
@@ -13606,13 +13630,13 @@
       "rankings": [
         {
           "systemId": "lmarena-image",
-          "rank": 20,
+          "rank": 22,
           "score": 1162,
           "scoreLabel": "1162 Elo",
-          "period": "2026-07",
-          "note": "flux-2-max",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
-          "asOf": "2026-07-24"
+          "note": "模型 flux-2-max",
+          "asOf": "2026-08-06"
         },
         {
           "systemId": "aa-image-arena",
@@ -14347,12 +14371,20 @@
       "pitfalls": [
         "终端 Agent 权限过大时可能执行破坏性命令；建议沙箱环境试用并限制 API key 权限范围。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-06",
+          "type": "release",
+          "summary": "发布 0.54.0: Release v0.54.0",
+          "version": "0.54.0",
+          "source": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.54.0"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://github.com/google-gemini/gemini-cli"
       ],
-      "lastReviewed": "2026-07-23",
+      "lastReviewed": "2026-08-06",
       "region": "overseas",
       "id": "gemini-cli",
       "name": "Gemini CLI",
@@ -14361,7 +14393,8 @@
       "oneLiner": "Google 终端编码 · Gemini 读写文件+shell · 深度绑模型",
       "officialUrl": "https://github.com/google-gemini/gemini-cli",
       "descriptionMd": "Gemini CLI 是 Google 推出的终端 AI 编码工具，可在命令行中对话、读写项目文件并执行 shell，深度集成 Gemini 模型能力。\n\n偏好终端工作流、已使用 Google Cloud/Gemini API 的开发者；适合脚本化与 CI Adjacent 的编码任务。\n\n终端 Agent 权限过大时可能执行破坏性命令；建议沙箱环境试用并限制 API key 权限范围。\n",
-      "vendorId": "google-deepmind"
+      "vendorId": "google-deepmind",
+      "currentVersion": "0.54.0"
     },
     {
       "pricing": {
@@ -14427,13 +14460,13 @@
         },
         {
           "systemId": "lmarena-image",
-          "rank": 7,
-          "score": 1250,
-          "scoreLabel": "1250 Elo",
-          "period": "2026-07",
+          "rank": 9,
+          "score": 1251,
+          "scoreLabel": "1251 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
           "note": "模型 gemini-3.1-flash-lite-image (nano-banana-2-lite)",
-          "asOf": "2026-07-31"
+          "asOf": "2026-08-06"
         },
         {
           "systemId": "lmarena-image-edit",
@@ -14447,12 +14480,12 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 18,
-          "scoreLabel": "1.3%",
-          "share": 1.3,
+          "rank": 20,
+          "scoreLabel": "1.1%",
+          "share": 1.1,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-03"
+          "asOf": "2026-08-06"
         }
       ],
       "sources": [
@@ -14564,12 +14597,12 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 17,
-          "scoreLabel": "1.9%",
-          "share": 1.9,
+          "rank": 14,
+          "scoreLabel": "2.1%",
+          "share": 2.1,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-04"
+          "asOf": "2026-08-06"
         },
         {
           "systemId": "lmarena-document",
@@ -14844,13 +14877,13 @@
         },
         {
           "systemId": "lmarena-image",
-          "rank": 8,
+          "rank": 10,
           "score": 1245,
           "scoreLabel": "1245 Elo",
-          "period": "2026-07",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
           "note": "模型 gemini-3-pro-image-2k (nano-banana-pro)",
-          "asOf": "2026-07-26"
+          "asOf": "2026-08-06"
         },
         {
           "systemId": "lmarena-image-edit",
@@ -14864,12 +14897,12 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 42,
-          "scoreLabel": "0.3%",
-          "share": 0.3,
+          "rank": 45,
+          "scoreLabel": "0.2%",
+          "share": 0.2,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-02"
+          "asOf": "2026-08-06"
         }
       ],
       "subcategory": "line",
@@ -15020,12 +15053,12 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 26,
+          "rank": 28,
           "scoreLabel": "0.7%",
           "share": 0.7,
-          "period": "2026-07",
+          "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-07-26"
+          "asOf": "2026-08-06"
         }
       ],
       "sources": [
@@ -15544,12 +15577,12 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "period": "2026-07",
-          "note": "GLM-5.2 · OpenRouter 周用量顶尖",
+          "rank": 6,
+          "scoreLabel": "5.3%",
+          "share": 5.3,
+          "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-07-24",
-          "rank": 4,
-          "tier": "Top usage"
+          "asOf": "2026-08-06"
         },
         {
           "systemId": "lmarena-document",
@@ -16151,13 +16184,13 @@
       "rankings": [
         {
           "systemId": "lmarena-image",
-          "rank": 27,
+          "rank": 30,
           "score": 1148,
           "scoreLabel": "1148 Elo",
-          "period": "2026-07",
-          "note": "imagen-ultra-4.0",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
-          "asOf": "2026-07-24"
+          "note": "模型 imagen-ultra-4.0-generate-001",
+          "asOf": "2026-08-06"
         },
         {
           "systemId": "aa-image-arena",
@@ -16222,8 +16255,7 @@
       "region": "overseas",
       "id": "google-jules",
       "name": "Jules",
-      "category": "coding-ide-agent",
-      "subcategory": "async-cloud-agent",
+      "category": "coding-async-agent",
       "vendorId": "google",
       "oneLiner": "Google 异步编码 Agent · GitHub Issue→PR",
       "descriptionMd": "**Jules** 是 Google Labs 的异步编码 Agent：绑定 GitHub 仓库，在云端 VM 克隆代码、做计划、改多文件并开 PR，还可接 CI 失败回流修复，偏「后台同事」而非 IDE 结对。\n\n适合 GitHub 工作流成熟、想把修 bug/补测试/小功能丢给异步 Agent 的团队；与 Codex Web、Devin 同属异步象限，和 Cursor/Claude Code 的交互式结对不同。\n\n强绑 GitHub；复杂架构决策仍需人审 PR。额度按 Free/Pro/Ultra 任务数计，注意并发上限。\n",
@@ -16704,12 +16736,12 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 6,
-          "scoreLabel": "4.7%",
-          "share": 4.7,
+          "rank": 5,
+          "scoreLabel": "6.3%",
+          "share": 6.3,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-04"
+          "asOf": "2026-08-06"
         }
       ],
       "sources": [
@@ -17003,12 +17035,20 @@
         "存储层（ES/OpenSearch）的扩容与调优成本仍在自己身上",
         "开源版与企业版的归档、审计、安全模块边界需逐项核对"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-05",
+          "type": "release",
+          "summary": "发布 7.1.7: 新版本",
+          "version": "7.1.7",
+          "source": "https://github.com/Graylog2/graylog2-server/releases/tag/7.1.7"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://graylog.org"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-06",
       "region": "overseas",
       "id": "graylog",
       "name": "Graylog",
@@ -19310,13 +19350,13 @@
       "rankings": [
         {
           "systemId": "lmarena-image",
-          "rank": 26,
+          "rank": 28,
           "score": 1151,
           "scoreLabel": "1151 Elo",
-          "period": "2026-07",
-          "note": "hunyuan-image-3.0",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
-          "asOf": "2026-07-24"
+          "note": "模型 hunyuan-image-3.0",
+          "asOf": "2026-08-06"
         },
         {
           "systemId": "aa-image-arena",
@@ -20286,12 +20326,20 @@
         "WebView 渲染，复杂交互与长列表性能有天花板",
         "企业级构建与部分配套工具需付费"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-05",
+          "type": "release",
+          "summary": "发布 8.8.17: 新版本",
+          "version": "8.8.17",
+          "source": "https://github.com/ionic-team/ionic-framework/releases/tag/v8.8.17"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://ionicframework.com"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-06",
       "region": "overseas",
       "id": "ionic",
       "name": "Ionic",
@@ -22202,12 +22250,20 @@
       "pitfalls": [
         "过度抽象导致 debug 困难；生产应精简 dependency 并用 LangSmith 观测。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-05",
+          "type": "release",
+          "summary": "发布 1.5.4: langchain-anthropic==1.5.4",
+          "version": "1.5.4",
+          "source": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.4"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://www.langchain.com"
       ],
-      "lastReviewed": "2026-07-23",
+      "lastReviewed": "2026-08-06",
       "region": "overseas",
       "id": "langchain",
       "name": "LangChain",
@@ -24294,13 +24350,13 @@
       "rankings": [
         {
           "systemId": "lmarena-image",
-          "rank": 6,
-          "score": 1257,
-          "scoreLabel": "1257 Elo",
-          "period": "2026-07",
-          "note": "mai-image-2.5",
+          "rank": 8,
+          "score": 1255,
+          "scoreLabel": "1255 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
-          "asOf": "2026-07-24"
+          "note": "模型 mai-image-2.5",
+          "asOf": "2026-08-06"
         },
         {
           "systemId": "lmarena-image-edit",
@@ -25571,13 +25627,21 @@
       "pitfalls": [
         "多模态模型调用带来额外费用与延迟；安卓侧对环境依赖较多，接入前先跑通设备链路。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-05",
+          "type": "release",
+          "summary": "发布 1.10.9: 新版本",
+          "version": "1.10.9",
+          "source": "https://github.com/web-infra-dev/midscene/releases/tag/v1.10.9"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://midscenejs.com",
         "https://github.com/web-infra-dev/midscene"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-06",
       "region": "both",
       "id": "midscene",
       "name": "Midscene.js",
@@ -25709,12 +25773,12 @@
       "rankings": [
         {
           "systemId": "openrouter-popularity",
-          "period": "2026-07",
-          "note": "MiMo-V2.5 · OpenRouter 周用量常居前列（快照波动）",
+          "rank": 3,
+          "scoreLabel": "9.3%",
+          "share": 9.3,
+          "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-07-24",
-          "rank": 1,
-          "tier": "Top usage"
+          "asOf": "2026-08-06"
         },
         {
           "systemId": "artificial-analysis-index",
@@ -27033,12 +27097,20 @@
       "pitfalls": [
         "默认 Material 视觉同质化；重度定制需投入 theme override。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-05",
+          "type": "release",
+          "summary": "发布 9.3.0: 新版本",
+          "version": "9.3.0",
+          "source": "https://github.com/mui/material-ui/releases/tag/v9.3.0"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://mui.com"
       ],
-      "lastReviewed": "2026-07-23",
+      "lastReviewed": "2026-08-06",
       "region": "overseas",
       "id": "mui",
       "name": "MUI",
@@ -27047,7 +27119,8 @@
       "oneLiner": "Material 最流行实现 · 主题系统 · Data Grid 等 Pro 模块",
       "officialUrl": "https://mui.com",
       "descriptionMd": "MUI（Material UI）是 React 最流行的 Material Design 实现，提供完整组件、主题系统与 Data Grid 等 Pro 模块。\n\n企业 admin dashboard、B2B SaaS 需要成熟表格/表单/主题且团队熟悉 Material 时。\n\n默认 Material 视觉同质化；重度定制需投入 theme override。\n",
-      "vendorId": "mui-inc"
+      "vendorId": "mui-inc",
+      "currentVersion": "9.3.0"
     },
     {
       "pricing": {
@@ -28177,6 +28250,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-05",
+          "type": "release",
+          "summary": "发布 4.5.2: 新版本",
+          "version": "4.5.2",
+          "source": "https://github.com/nuxt/nuxt/releases/tag/v4.5.2"
+        },
+        {
           "date": "2026-07-31",
           "type": "deprecation",
           "summary": "nuxt 3 将于 2026-07-31 结束安全支持",
@@ -28187,7 +28267,7 @@
       "sources": [
         "https://nuxt.com"
       ],
-      "lastReviewed": "2026-07-25",
+      "lastReviewed": "2026-08-06",
       "region": "overseas",
       "id": "nuxt",
       "name": "Nuxt",
@@ -28977,12 +29057,20 @@
         "项目较年轻，高基数与大规模查询表现需自行压测",
         "开源版与云版在多租户与权限上的差异需提前确认"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-05",
+          "type": "release",
+          "summary": "发布 0.92.0-rc3: Release v0.92.0-rc3",
+          "version": "0.92.0-rc3",
+          "source": "https://github.com/openobserve/openobserve/releases/tag/v0.92.0-rc3"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://openobserve.ai"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-06",
       "region": "overseas",
       "id": "openobserve",
       "name": "OpenObserve",
@@ -28992,7 +29080,8 @@
       "officialUrl": "https://openobserve.ai",
       "descriptionMd": "OpenObserve 用 Rust 实现，把日志、指标与链路收在同一后端，数据以列式格式直接落在 S3 等对象存储上，自带查询界面与告警，部署形态比 Elasticsearch 一类集群轻得多。\n\n想自托管一套统一的可观测后端、又不愿养搜索引擎集群时评估；它可以接在 Fluent Bit、Vector 或 OpenTelemetry Collector 后面，替代 Loki 加 Elasticsearch 的组合。\n\n项目相对年轻，大规模高基数场景下的查询表现需自行压测；开源版与云版在多租户、权限上的差异要提前确认。\n",
       "vendorId": "openobserve-inc",
-      "githubUrl": "https://github.com/openobserve/openobserve"
+      "githubUrl": "https://github.com/openobserve/openobserve",
+      "currentVersion": "0.92.0-rc3"
     },
     {
       "pricing": {
@@ -29262,12 +29351,20 @@
         "评测与追踪兼顾，单项深度不及专精工具",
         "自托管需自担运维与升级"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-05",
+          "type": "release",
+          "summary": "发布 2.2.20-6272: build(deps): bump actions/checkout from 4 to 7 (#7742)",
+          "version": "2.2.20-6272",
+          "source": "https://github.com/comet-ml/opik/releases/tag/2.2.20-6272"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://github.com/comet-ml/opik"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-06",
       "region": "overseas",
       "id": "opik",
       "name": "Opik",
@@ -29275,7 +29372,8 @@
       "subcategory": "eval-tracing",
       "oneLiner": "评测与追踪一体 · Comet 开源；可自托管",
       "officialUrl": "https://github.com/comet-ml/opik",
-      "descriptionMd": "Opik 是 Comet 开源的 LLM 评测与追踪工具，既能记录线上调用轨迹，也能对数据集批量跑评测指标，支持自托管部署。\n\n希望「线上追踪」和「离线评测」共用一套数据与界面、又要能私有化部署时评估；与 Langfuse 属同层可直接横比。\n\n两头都做意味着两头都不如专精工具深；自托管版本的运维与升级成本要计入，托管版则要评估数据出境。\n"
+      "descriptionMd": "Opik 是 Comet 开源的 LLM 评测与追踪工具，既能记录线上调用轨迹，也能对数据集批量跑评测指标，支持自托管部署。\n\n希望「线上追踪」和「离线评测」共用一套数据与界面、又要能私有化部署时评估；与 Langfuse 属同层可直接横比。\n\n两头都做意味着两头都不如专精工具深；自托管版本的运维与升级成本要计入，托管版则要评估数据出境。\n",
+      "currentVersion": "2.2.20-6272"
     },
     {
       "pricing": {
@@ -32762,13 +32860,13 @@
         },
         {
           "systemId": "lmarena-image",
-          "rank": 14,
-          "score": 1193,
-          "scoreLabel": "1193 Elo",
-          "period": "2026-07",
+          "rank": 5,
+          "score": 1263,
+          "scoreLabel": "1263 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
-          "note": "模型 qwen-image-2.0-pro-2026-06-22",
-          "asOf": "2026-07-26"
+          "note": "模型 qwen-image-3.0-pro",
+          "asOf": "2026-08-06"
         },
         {
           "systemId": "lmarena-image-edit",
@@ -33591,13 +33689,13 @@
       "rankings": [
         {
           "systemId": "lmarena-image",
-          "rank": 19,
+          "rank": 21,
           "score": 1169,
           "scoreLabel": "1169 Elo",
-          "period": "2026-07",
-          "note": "recraft-v4.1-utility-pro",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
-          "asOf": "2026-07-24"
+          "note": "模型 recraft-v4.1-utility-pro",
+          "asOf": "2026-08-06"
         },
         {
           "systemId": "aa-image-arena",
@@ -35828,6 +35926,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-05",
+          "type": "release",
+          "summary": "发布 0.3.0: @shadcn/react@0.3.0",
+          "version": "0.3.0",
+          "source": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Freact%400.3.0"
+        },
+        {
           "date": "2026-05-30",
           "type": "feature",
           "summary": "新增表单与图表组件块",
@@ -35837,7 +35942,7 @@
       "sources": [
         "https://ui.shadcn.com"
       ],
-      "lastReviewed": "2026-07-23",
+      "lastReviewed": "2026-08-06",
       "region": "overseas",
       "id": "shadcn-ui",
       "name": "shadcn/ui",
@@ -35861,7 +35966,8 @@
           "sourceUrl": "https://risingstars.js.org/",
           "asOf": "2026-07-20"
         }
-      ]
+      ],
+      "currentVersion": "0.3.0"
     },
     {
       "pricing": {
@@ -40840,7 +40946,18 @@
         "复杂原生能力需自写原生插件"
       ],
       "updates": [],
-      "rankings": [],
+      "rankings": [
+        {
+          "systemId": "lmarena-image",
+          "rank": 16,
+          "score": 1188,
+          "scoreLabel": "1188 Elo",
+          "period": "2026-08",
+          "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
+          "note": "模型 uni-1.1-max",
+          "asOf": "2026-08-06"
+        }
+      ],
       "sources": [
         "https://uniapp.dcloud.net.cn"
       ],
@@ -40917,13 +41034,21 @@
       "pitfalls": [
         "深度优化意味着对模型架构适配有先后，新模型支持需等上游跟进；多卡与集群能力弱于通用训练框架。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-06",
+          "type": "release",
+          "summary": "发布 0.1.522-beta: Faster downloading + DeepSeek-V4 Flash 0731",
+          "version": "0.1.522-beta",
+          "source": "https://github.com/unslothai/unsloth/releases/tag/v0.1.522-beta"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://unsloth.ai",
         "https://github.com/unslothai/unsloth"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-06",
       "region": "overseas",
       "id": "unsloth",
       "name": "Unsloth",
@@ -40933,7 +41058,8 @@
       "officialUrl": "https://unsloth.ai",
       "descriptionMd": "Unsloth 通过手写内核与重写反向传播，把常见开源模型的 LoRA/QLoRA 微调做得更省显存、更快，配套的 Colab 笔记本让单卡起步的门槛很低。\n\n手头只有一两张消费卡、想先把微调链路跑通时首选；多机多卡的大规模训练仍应回到分布式框架。\n\n深度优化意味着对模型架构适配有先后，新模型支持需等上游跟进；多卡与集群能力弱于通用训练框架。\n",
       "vendorId": "unsloth-ai",
-      "githubUrl": "https://github.com/unslothai/unsloth"
+      "githubUrl": "https://github.com/unslothai/unsloth",
+      "currentVersion": "0.1.522-beta"
     },
     {
       "pricing": {
@@ -68673,6 +68799,13 @@
       "order": 5
     },
     {
+      "id": "coding-async-agent",
+      "name": "异步云端 Agent",
+      "kind": "leaf",
+      "parent": "coding-agent",
+      "order": 6
+    },
+    {
       "id": "fw-backend",
       "name": "后端框架 / API",
       "kind": "leaf",
@@ -68919,7 +69052,8 @@
       "brief": "修缺陷",
       "categories": [
         "coding-ide-agent",
-        "coding-cli-agent"
+        "coding-cli-agent",
+        "coding-async-agent"
       ],
       "metric": "score",
       "metricUnit": "%",
@@ -68936,7 +69070,8 @@
       "brief": "采用率",
       "categories": [
         "coding-ide-agent",
-        "coding-cli-agent"
+        "coding-cli-agent",
+        "coding-async-agent"
       ],
       "metric": "share",
       "metricUnit": "%",
@@ -69887,7 +70022,8 @@
       "brief": "编码代理",
       "categories": [
         "coding-cli-agent",
-        "coding-ide-agent"
+        "coding-ide-agent",
+        "coding-async-agent"
       ],
       "metric": "score",
       "url": "https://artificialanalysis.ai/",
@@ -76627,7 +76763,7 @@
       "haystackName": "codex web codex-web",
       "haystackMid": "chatgpt 侧 codex 云端异步编码 agent codex codex-web async openai agent",
       "haystackLow": "**codex web**（chatgpt.com/codex）是 openai codex 产品线的云端异步面：任务在云端沙箱跑，适合过夜并行、跨设备查看进度；与本机 **codex cli** 互补而非互替。\n\n当你需要「丢任务后离开本机」、或要在浏览器里管多路 agent 时选 web；日常结对改仓仍以 codex cli / cursor 更顺手。\n\n云端仓库权限与密钥注入策略要按最小权限；与 jules/devin 同属异步 pr 叙事，对比时看 github 集成深度与账号生态。\n",
-      "category": "coding-ide-agent",
+      "category": "coding-async-agent",
       "region": "overseas",
       "tags": [
         "codex",
@@ -76682,7 +76818,7 @@
       "haystackName": "devin cognition-devin",
       "haystackMid": "cognition 自主软件工程 agent devin cognition async agent",
       "haystackLow": "**devin**（cognition）是早期出圈的自主软件工程 agent：云端环境里规划、编码、调试并交付，面向「把任务交给 agent 工程师」而非补全插件。\n\n适合预算充足、愿意接受云端代理工作区与较高单价、要跑多步工程任务的团队；indie 日常结对通常仍优先 cursor / claude code / codex cli。\n\n价格与准入门槛高于大众 cli；效果随任务清晰度与仓库质量波动大，务必人工审 pr 与权限边界。\n",
-      "category": "coding-ide-agent",
+      "category": "coding-async-agent",
       "region": "overseas",
       "tags": [
         "devin",
@@ -79958,7 +80094,7 @@
       "haystackName": "jules google-jules",
       "haystackMid": "google 异步编码 agent · github issue→pr jules google async github agent",
       "haystackLow": "**jules** 是 google labs 的异步编码 agent：绑定 github 仓库，在云端 vm 克隆代码、做计划、改多文件并开 pr，还可接 ci 失败回流修复，偏「后台同事」而非 ide 结对。\n\n适合 github 工作流成熟、想把修 bug/补测试/小功能丢给异步 agent 的团队；与 codex web、devin 同属异步象限，和 cursor/claude code 的交互式结对不同。\n\n强绑 github；复杂架构决策仍需人审 pr。额度按 free/pro/ultra 任务数计，注意并发上限。\n",
-      "category": "coding-ide-agent",
+      "category": "coding-async-agent",
       "region": "overseas",
       "tags": [
         "jules",

@@ -15,12 +15,20 @@
   "pitfalls": [
     "过度抽象导致 debug 困难；生产应精简 dependency 并用 LangSmith 观测。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "summary": "发布 1.5.4: langchain-anthropic==1.5.4",
+      "version": "1.5.4",
+      "source": "https://github.com/langchain-ai/langchain/releases/tag/langchain-anthropic%3D%3D1.5.4"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://www.langchain.com"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-06",
   "region": "overseas",
   "id": "langchain",
   "name": "LangChain",

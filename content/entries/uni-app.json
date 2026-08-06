@@ -23,7 +23,18 @@
     "复杂原生能力需自写原生插件"
   ],
   "updates": [],
-  "rankings": [],
+  "rankings": [
+    {
+      "systemId": "lmarena-image",
+      "rank": 16,
+      "score": 1188,
+      "scoreLabel": "1188 Elo",
+      "period": "2026-08",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
+      "note": "模型 uni-1.1-max",
+      "asOf": "2026-08-06"
+    }
+  ],
   "sources": [
     "https://uniapp.dcloud.net.cn"
   ],

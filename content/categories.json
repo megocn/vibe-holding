@@ -637,6 +637,13 @@
     "order": 5
   },
   {
+    "id": "coding-async-agent",
+    "name": "异步云端 Agent",
+    "kind": "leaf",
+    "parent": "coding-agent",
+    "order": 6
+  },
+  {
     "id": "fw-backend",
     "name": "后端框架 / API",
     "kind": "leaf",

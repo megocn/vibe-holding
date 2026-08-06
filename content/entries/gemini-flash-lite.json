@@ -62,13 +62,13 @@
     },
     {
       "systemId": "lmarena-image",
-      "rank": 7,
-      "score": 1250,
-      "scoreLabel": "1250 Elo",
-      "period": "2026-07",
+      "rank": 9,
+      "score": 1251,
+      "scoreLabel": "1251 Elo",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 gemini-3.1-flash-lite-image (nano-banana-2-lite)",
-      "asOf": "2026-07-31"
+      "asOf": "2026-08-06"
     },
     {
       "systemId": "lmarena-image-edit",
@@ -82,12 +82,12 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 18,
-      "scoreLabel": "1.3%",
-      "share": 1.3,
+      "rank": 20,
+      "scoreLabel": "1.1%",
+      "share": 1.1,
       "period": "2026-08",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-08-03"
+      "asOf": "2026-08-06"
     }
   ],
   "sources": [

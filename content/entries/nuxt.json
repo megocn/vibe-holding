@@ -21,6 +21,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-05",
+      "type": "release",
+      "summary": "发布 4.5.2: 新版本",
+      "version": "4.5.2",
+      "source": "https://github.com/nuxt/nuxt/releases/tag/v4.5.2"
+    },
+    {
       "date": "2026-07-31",
       "type": "deprecation",
       "summary": "nuxt 3 将于 2026-07-31 结束安全支持",
@@ -31,7 +38,7 @@
   "sources": [
     "https://nuxt.com"
   ],
-  "lastReviewed": "2026-07-25",
+  "lastReviewed": "2026-08-06",
   "region": "overseas",
   "id": "nuxt",
   "name": "Nuxt",

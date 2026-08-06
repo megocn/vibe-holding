@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-05",
+      "type": "release",
+      "summary": "发布 0.3.0: @shadcn/react@0.3.0",
+      "version": "0.3.0",
+      "source": "https://github.com/shadcn-ui/ui/releases/tag/%40shadcn%2Freact%400.3.0"
+    },
+    {
       "date": "2026-05-30",
       "type": "feature",
       "summary": "新增表单与图表组件块",
@@ -31,7 +38,7 @@
   "sources": [
     "https://ui.shadcn.com"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-06",
   "region": "overseas",
   "id": "shadcn-ui",
   "name": "shadcn/ui",
@@ -55,5 +62,6 @@
       "sourceUrl": "https://risingstars.js.org/",
       "asOf": "2026-07-20"
     }
-  ]
+  ],
+  "currentVersion": "0.3.0"
 }

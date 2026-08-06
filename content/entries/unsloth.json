@@ -20,13 +20,21 @@
   "pitfalls": [
     "深度优化意味着对模型架构适配有先后，新模型支持需等上游跟进；多卡与集群能力弱于通用训练框架。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-06",
+      "type": "release",
+      "summary": "发布 0.1.522-beta: Faster downloading + DeepSeek-V4 Flash 0731",
+      "version": "0.1.522-beta",
+      "source": "https://github.com/unslothai/unsloth/releases/tag/v0.1.522-beta"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://unsloth.ai",
     "https://github.com/unslothai/unsloth"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-06",
   "region": "overseas",
   "id": "unsloth",
   "name": "Unsloth",
@@ -36,5 +44,6 @@
   "officialUrl": "https://unsloth.ai",
   "descriptionMd": "Unsloth 通过手写内核与重写反向传播，把常见开源模型的 LoRA/QLoRA 微调做得更省显存、更快，配套的 Colab 笔记本让单卡起步的门槛很低。\n\n手头只有一两张消费卡、想先把微调链路跑通时首选；多机多卡的大规模训练仍应回到分布式框架。\n\n深度优化意味着对模型架构适配有先后，新模型支持需等上游跟进；多卡与集群能力弱于通用训练框架。\n",
   "vendorId": "unsloth-ai",
-  "githubUrl": "https://github.com/unslothai/unsloth"
+  "githubUrl": "https://github.com/unslothai/unsloth",
+  "currentVersion": "0.1.522-beta"
 }

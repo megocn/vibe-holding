@@ -15,12 +15,20 @@
   "pitfalls": [
     "默认 Material 视觉同质化；重度定制需投入 theme override。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "summary": "发布 9.3.0: 新版本",
+      "version": "9.3.0",
+      "source": "https://github.com/mui/material-ui/releases/tag/v9.3.0"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://mui.com"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-06",
   "region": "overseas",
   "id": "mui",
   "name": "MUI",
@@ -29,5 +37,6 @@
   "oneLiner": "Material 最流行实现 · 主题系统 · Data Grid 等 Pro 模块",
   "officialUrl": "https://mui.com",
   "descriptionMd": "MUI（Material UI）是 React 最流行的 Material Design 实现，提供完整组件、主题系统与 Data Grid 等 Pro 模块。\n\n企业 admin dashboard、B2B SaaS 需要成熟表格/表单/主题且团队熟悉 Material 时。\n\n默认 Material 视觉同质化；重度定制需投入 theme override。\n",
-  "vendorId": "mui-inc"
+  "vendorId": "mui-inc",
+  "currentVersion": "9.3.0"
 }

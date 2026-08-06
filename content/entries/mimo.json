@@ -44,12 +44,12 @@
   "rankings": [
     {
       "systemId": "openrouter-popularity",
-      "period": "2026-07",
-      "note": "MiMo-V2.5 · OpenRouter 周用量常居前列（快照波动）",
+      "rank": 3,
+      "scoreLabel": "9.3%",
+      "share": 9.3,
+      "period": "2026-08",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-07-24",
-      "rank": 1,
-      "tier": "Top usage"
+      "asOf": "2026-08-06"
     },
     {
       "systemId": "artificial-analysis-index",

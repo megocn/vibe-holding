@@ -21,12 +21,20 @@
     "WebView 渲染，复杂交互与长列表性能有天花板",
     "企业级构建与部分配套工具需付费"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "summary": "发布 8.8.17: 新版本",
+      "version": "8.8.17",
+      "source": "https://github.com/ionic-team/ionic-framework/releases/tag/v8.8.17"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://ionicframework.com"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-06",
   "region": "overseas",
   "id": "ionic",
   "name": "Ionic",

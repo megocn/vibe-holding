@@ -22,12 +22,20 @@
     "存储层（ES/OpenSearch）的扩容与调优成本仍在自己身上",
     "开源版与企业版的归档、审计、安全模块边界需逐项核对"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-05",
+      "type": "release",
+      "summary": "发布 7.1.7: 新版本",
+      "version": "7.1.7",
+      "source": "https://github.com/Graylog2/graylog2-server/releases/tag/7.1.7"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://graylog.org"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-06",
   "region": "overseas",
   "id": "graylog",
   "name": "Graylog",

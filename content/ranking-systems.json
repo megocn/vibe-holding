@@ -6,7 +6,8 @@
     "brief": "修缺陷",
     "categories": [
       "coding-ide-agent",
-      "coding-cli-agent"
+      "coding-cli-agent",
+      "coding-async-agent"
     ],
     "metric": "score",
     "metricUnit": "%",
@@ -23,7 +24,8 @@
     "brief": "采用率",
     "categories": [
       "coding-ide-agent",
-      "coding-cli-agent"
+      "coding-cli-agent",
+      "coding-async-agent"
     ],
     "metric": "share",
     "metricUnit": "%",
@@ -974,7 +976,8 @@
     "brief": "编码代理",
     "categories": [
       "coding-cli-agent",
-      "coding-ide-agent"
+      "coding-ide-agent",
+      "coding-async-agent"
     ],
     "metric": "score",
     "url": "https://artificialanalysis.ai/",
