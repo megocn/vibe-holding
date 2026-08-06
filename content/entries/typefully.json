@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "social",
+    "twitter",
+    "writing",
+    "scheduling"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "主打少数文字渠道，视觉向平台深度弱。",
+    "团队席位与高级分析随订阅档位限制。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://typefully.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "typefully",
+  "name": "Typefully",
+  "category": "growth-social",
+  "subcategory": "social-scheduler",
+  "oneLiner": "偏 X/LinkedIn 的写作台 · 线程排期强 · 创作者节奏向",
+  "officialUrl": "https://typefully.com",
+  "descriptionMd": "Typefully 把长文线程写作、协作编辑与定时发布做在同一编辑器里，尤其擅长 X（Twitter）串文与 LinkedIn 节奏运营，带草稿协作与发布后表现回顾。\n\n以 X / LinkedIn 个人品牌或内容账号为主战场、写长线程多过管全网矩阵时优先；要 Instagram 视觉日历或 20+ 平台矩阵请看 Later / Postiz。\n\n渠道覆盖面窄于全能排期工具；高级协作与分析随档位放开。\n",
+  "vendorId": "typefully-inc"
+}

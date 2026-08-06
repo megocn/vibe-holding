@@ -427,6 +427,13 @@
     "order": 1
   },
   {
+    "id": "cicd-automation",
+    "name": "业务工作流自动化",
+    "kind": "leaf",
+    "parent": "cicd-devops",
+    "order": 2
+  },
+  {
     "id": "msg-email",
     "name": "邮件",
     "kind": "leaf",
@@ -474,6 +481,13 @@
     "kind": "leaf",
     "parent": "domain-dns-cdn",
     "order": 2
+  },
+  {
+    "id": "net-media",
+    "name": "媒体处理 / 图像视频 CDN",
+    "kind": "leaf",
+    "parent": "domain-dns-cdn",
+    "order": 3
   },
   {
     "id": "sec-secrets",
@@ -819,6 +833,13 @@
     "order": 5
   },
   {
+    "id": "msg-orchestration",
+    "name": "通知编排 / 多渠道",
+    "kind": "leaf",
+    "parent": "messaging",
+    "order": 6
+  },
+  {
     "id": "growth-seo",
     "name": "SEO / 关键词",
     "kind": "leaf",
@@ -838,6 +859,34 @@
     "kind": "leaf",
     "parent": "analytics-growth",
     "order": 4
+  },
+  {
+    "id": "growth-social",
+    "name": "社媒排期 / 多平台发布",
+    "kind": "leaf",
+    "parent": "analytics-growth",
+    "order": 5
+  },
+  {
+    "id": "growth-forms",
+    "name": "表单 / 问卷 / 名单",
+    "kind": "leaf",
+    "parent": "analytics-growth",
+    "order": 6
+  },
+  {
+    "id": "growth-feedback",
+    "name": "反馈 / 路线图 / Changelog",
+    "kind": "leaf",
+    "parent": "analytics-growth",
+    "order": 7
+  },
+  {
+    "id": "growth-affiliate",
+    "name": "联盟 / 推荐 / 短链",
+    "kind": "leaf",
+    "parent": "analytics-growth",
+    "order": 8
   },
   {
     "id": "sec-appsec",
@@ -861,6 +910,13 @@
     "order": 4
   },
   {
+    "id": "sec-privacy-legal",
+    "name": "隐私政策 / 同意 / 法律模板",
+    "kind": "leaf",
+    "parent": "security-compliance",
+    "order": 5
+  },
+  {
     "id": "collab-cms",
     "name": "内容管理 / CMS",
     "kind": "leaf",
@@ -873,6 +929,34 @@
     "kind": "leaf",
     "parent": "collaboration",
     "order": 5
+  },
+  {
+    "id": "collab-scheduling",
+    "name": "预约 / 会议排程",
+    "kind": "leaf",
+    "parent": "collaboration",
+    "order": 6
+  },
+  {
+    "id": "collab-crm",
+    "name": "CRM / 销售管道",
+    "kind": "leaf",
+    "parent": "collaboration",
+    "order": 7
+  },
+  {
+    "id": "collab-community",
+    "name": "社区 / 论坛",
+    "kind": "leaf",
+    "parent": "collaboration",
+    "order": 8
+  },
+  {
+    "id": "collab-async-capture",
+    "name": "异步录屏 / 页面标注",
+    "kind": "leaf",
+    "parent": "collaboration",
+    "order": 9
   },
   {
     "id": "global-hire",

@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "automation",
+    "ipaas",
+    "nocode",
+    "integration"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "画布自由度高，场景容易搭成难维护的蜘蛛网。",
+    "计费与操作包规则要按峰值流量测算。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.make.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "make-com",
+  "name": "Make",
+  "category": "cicd-automation",
+  "subcategory": "ipaas",
+  "oneLiner": "可视化场景编排强 · 性价比常见平替 · 原 Integromat",
+  "officialUrl": "https://www.make.com",
+  "descriptionMd": "Make（原 Integromat）用可视化场景画布编排多步自动化，路由器、聚合器与错误处理粒度细，同样是 Zapier 常见对照项，适合中等复杂度的 SaaS 间数据流。\n\n流程步骤多、需更细的分支与数据整形、又不想立即上代码时评估；连接器数量整体仍略逊 Zapier 头部目录。\n\n学习曲线高于「线性 Zap」；操作与数据量计费规则要细看。\n",
+  "vendorId": "make-inc"
+}

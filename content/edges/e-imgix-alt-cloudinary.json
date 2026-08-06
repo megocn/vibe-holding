@@ -1,0 +1,11 @@
+{
+  "id": "e-imgix-alt-cloudinary",
+  "from": "imgix",
+  "to": "cloudinary",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "源站旁路 URL 变换、图品质向 vs 上传+DAM+AI 一体"
+}

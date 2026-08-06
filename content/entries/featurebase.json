@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "feedback",
+    "roadmap",
+    "changelog",
+    "help-center"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "大组织复杂权限与审批链不如专用产品管理平台。",
+    "「三合一」容易堆功能，要克制范围避免半吊子。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.featurebase.app"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "featurebase",
+  "name": "Featurebase",
+  "category": "growth-feedback",
+  "subcategory": "feature-voting",
+  "oneLiner": "Canny 平替向 · 反馈/帮助中心/更新一体 · 价位亲民",
+  "officialUrl": "https://www.featurebase.app",
+  "descriptionMd": "Featurebase 把功能投票、帮助中心与产品更新发布收敛到一套产品，常被当作 Canny 的轻量替代，覆盖从收集反馈、公示状态到教育用户「本周上了什么」的前半段旅程。\n\n中小团队要同时有反馈板、简易知识库与更新日志，又不想把 Canny + 帮助中心 + Changelog 三家拼在一起时评估。\n\n大型企业的工作流与分析深度仍有差距；若三块都浅用，不如拆回专用工具做深。\n",
+  "vendorId": "featurebase-inc"
+}

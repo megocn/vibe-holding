@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "async-video",
+    "screen-recording",
+    "collaboration",
+    "saas"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "不是产品分析用的访客会话回放。",
+    "企业数据驻留与权限策略要单独配置。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.loom.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "loom",
+  "name": "Loom",
+  "category": "collab-async-capture",
+  "subcategory": "async-video",
+  "oneLiner": "异步录屏沟通默认 · 链接即播 · 非 session 回放产品分析",
+  "officialUrl": "https://www.loom.com",
+  "descriptionMd": "Loom 让人快速录制屏幕与摄像头说明，生成可分享链接，定位是团队异步沟通与支持讲解，而不是网站访客行为回放或缺陷批注工具。\n\n跨时区讲解需求、产品演示与支持话术需要可暂停回看的短视频时优先；访客 session 回放看 LogRocket/Hotjar 叶，页面上钉缺陷看 Marker。\n\n席位与观看/AI 功能按档；敏感屏幕需流程规范，避免泄密录屏外发。\n",
+  "vendorId": "loom-inc"
+}

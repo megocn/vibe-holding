@@ -1,0 +1,11 @@
+{
+  "id": "e-loom-alt-logrocket",
+  "from": "loom",
+  "to": "logrocket",
+  "type": "alternative_to",
+  "weight": 0.4,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "人对人异步讲解 vs 访客会话工程回放（勿混选型）"
+}

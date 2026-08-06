@@ -1,0 +1,11 @@
+{
+  "id": "e-novu-osalt-knock",
+  "from": "novu",
+  "to": "knock",
+  "type": "open_source_alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "开源可自托管通知编排 vs 托管开发者通知平台"
+}

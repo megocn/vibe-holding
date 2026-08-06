@@ -1,0 +1,11 @@
+{
+  "id": "e-formbricks-osalt-typeform",
+  "from": "formbricks",
+  "to": "typeform",
+  "type": "open_source_alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "开源产品内触发调研 vs 外向对话式表单 SaaS"
+}

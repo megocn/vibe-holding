@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "links",
+    "affiliate",
+    "analytics",
+    "open-source"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "短链分析解决不了广告平台的跨设备归因。",
+    "自托管要管域名、重定向可用性与反滥用。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://dub.co"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "dub",
+  "name": "Dub",
+  "category": "growth-affiliate",
+  "subcategory": "link-management",
+  "oneLiner": "短链/归因/二维码 · 可自托管 · 联盟能力可选",
+  "officialUrl": "https://dub.co",
+  "descriptionMd": "Dub 是面向增长团队的链接基础设施：自定义短链、点击分析、二维码与基础联盟/转化追踪，提供云版与开源自托管，常作为营销活动与多触点归因的链接层。\n\n需要品牌短链、活动 UTM 统一管理或自托管链接服务时评估；只做 Stripe 推荐佣金后台用 Rewardful 更垂直。\n\n链接层不替代完整广告归因；高级团队协作与 SSO 多在高档位。\n",
+  "vendorId": "dub-inc",
+  "githubUrl": "https://github.com/dubinc/dub"
+}

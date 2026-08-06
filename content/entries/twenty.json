@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "currency": "USD",
+    "notes": "云订阅；自托管开源"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "crm",
+    "open-source",
+    "self-hosted",
+    "developer"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "连接器广度与 polish 弱于商业头部。",
+    "自托管需运维身份、邮件同步与备份。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://twenty.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "twenty",
+  "name": "Twenty",
+  "category": "collab-crm",
+  "subcategory": "open-source-crm",
+  "oneLiner": "开源现代 CRM · 可自托管 · GraphQL/React 栈",
+  "officialUrl": "https://twenty.com",
+  "descriptionMd": "Twenty 是开源的现代 CRM：React + GraphQL，支持云托管与自托管，界面与数据模型朝现代 B2B 工作台演进，适合要数据驻留或可二次开发的团队。\n\n必须自托管/开源、或要在 CRM 上二次开发、且能承受运维时评估；要开箱营销套件仍是 HubSpot，要托管 AI 灵活对象可先 Attio。\n\n生态集成与 polish 仍追商业 SaaS；生产自托管要管权限、备份与升级。\n",
+  "vendorId": "twenty-inc",
+  "githubUrl": "https://github.com/twentyhq/twenty"
+}

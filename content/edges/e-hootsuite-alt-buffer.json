@@ -1,0 +1,11 @@
+{
+  "id": "e-hootsuite-alt-buffer",
+  "from": "hootsuite",
+  "to": "buffer",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "企业收件箱/审批/报表 vs 小团队轻量排期"
+}

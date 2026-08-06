@@ -1,0 +1,11 @@
+{
+  "id": "e-typefully-alt-buffer",
+  "from": "typefully",
+  "to": "buffer",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "X/LinkedIn 写作台 vs 多渠道轻量日历"
+}

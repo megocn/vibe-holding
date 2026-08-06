@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "EUR"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "social",
+    "analytics",
+    "scheduling",
+    "saas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "跨平台指标口径依赖各家官方数据，竞品估算别当精确 KPI。",
+    "大型组织权限与审批能力仍弱于企业套件。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://metricool.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "metricool",
+  "name": "Metricool",
+  "category": "growth-social",
+  "subcategory": "social-analytics",
+  "oneLiner": "分析+排期一体 · 多网络面板 · 中小品牌性价比向",
+  "officialUrl": "https://metricool.com",
+  "descriptionMd": "Metricool 把多社交网络的表现分析与发布排期放在同一面板，并覆盖 Ads / 竞品粗看等运营视角，常见于中小品牌与代理用一套工具兼顾「发」与「看」。\n\n账号数量中等、既要发帖又要周报级复盘、预算有限时评估；只要极简排期用 Buffer，只要 API 灌内容用 Ayrshare。\n\n企业级治理与深社群客服弱；数据与 Ads 口径以各平台导出为准，跨工具对比需注意归因。\n",
+  "vendorId": "metricool-inc"
+}

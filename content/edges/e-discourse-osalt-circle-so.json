@@ -1,0 +1,11 @@
+{
+  "id": "e-discourse-osalt-circle-so",
+  "from": "discourse",
+  "to": "circle-so",
+  "type": "open_source_alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "开源长帖论坛/SEO vs 托管会员课程社区"
+}

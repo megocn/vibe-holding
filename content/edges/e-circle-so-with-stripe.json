@@ -1,0 +1,11 @@
+{
+  "id": "e-circle-so-with-stripe",
+  "from": "circle-so",
+  "to": "stripe",
+  "type": "commonly_used_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "会员订阅与付费空间常接 Stripe 收款"
+}

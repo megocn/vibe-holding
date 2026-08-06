@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "feedback",
+    "roadmap",
+    "changelog",
+    "saas"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "投票会被活跃少数用户带偏，需人工二次判断优先级。",
+    "企业级产品组合分析能力有限。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://canny.io"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "canny",
+  "name": "Canny",
+  "category": "growth-feedback",
+  "subcategory": "feature-voting",
+  "oneLiner": "功能投票与路线图经典位 · 客户声音汇入 · 公开板",
+  "officialUrl": "https://canny.io",
+  "descriptionMd": "Canny 把用户提交的功能请求做成可投票看板，并关联更新状态与 changelog，帮助产品团队把「客户声音 → 优先级 → 已上线公告」串在同一处。\n\nSaaS 需要公开/半公开路线图与投票、让客户参与优先级时评估；纯内部需求池也可以用，但会弱化社群感。\n\n深度产品管理（机会评分、目标树）不如 Productboard；进阶席位与多板块按订阅收费。\n",
+  "vendorId": "canny-inc"
+}

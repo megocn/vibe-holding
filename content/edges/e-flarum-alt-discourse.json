@@ -1,0 +1,11 @@
+{
+  "id": "e-flarum-alt-discourse",
+  "from": "flarum",
+  "to": "discourse",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "更轻部署与 UI vs 信任等级与托管生态更成熟"
+}

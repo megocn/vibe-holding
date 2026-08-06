@@ -1,0 +1,11 @@
+{
+  "id": "e-activepieces-osalt-zapier",
+  "from": "activepieces",
+  "to": "zapier",
+  "type": "open_source_alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "可自托管/扩展 pieces vs 托管 iPaaS 目录"
+}

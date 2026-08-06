@@ -1,0 +1,11 @@
+{
+  "id": "e-discourse-alt-discord",
+  "from": "discourse",
+  "to": "discord",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "可索引长帖知识社区 vs 实时频道/语音 IM 社区"
+}

@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "affiliate",
+    "stripe",
+    "saas",
+    "referral"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "基本假设是 Stripe 订阅，其他支付栈要自研桥接。",
+    "复杂多级分销与税务合规仍需商务侧补齐。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.getrewardful.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "rewardful",
+  "name": "Rewardful",
+  "category": "growth-affiliate",
+  "subcategory": "affiliate",
+  "oneLiner": "Stripe 订阅联盟即装 · SaaS 推荐返佣 · 启用快",
+  "officialUrl": "https://www.getrewardful.com",
+  "descriptionMd": "Rewardful 面向 Stripe 订阅型 SaaS：提供联盟链接、佣金规则与推荐人后台，把「推荐注册并付费 → 自动计佣」接到现有结账流，适合快速上线 affiliate。\n\n已用 Stripe Billing、想做推荐返佣且不想自建归因时优先；多支付通道或复杂 MLM 级规则请看更完整联盟平台。\n\n强绑定 Stripe 生态；非订阅/一次性商品与多 PSP 场景能力有限。\n",
+  "vendorId": "rewardful-inc"
+}

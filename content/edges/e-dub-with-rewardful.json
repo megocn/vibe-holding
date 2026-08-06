@@ -1,0 +1,11 @@
+{
+  "id": "e-dub-with-rewardful",
+  "from": "dub",
+  "to": "rewardful",
+  "type": "commonly_used_with",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "短链/活动链接层 + 订阅联盟计佣层，按职责拆分"
+}

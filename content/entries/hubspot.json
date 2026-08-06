@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "crm",
+    "marketing",
+    "suite",
+    "saas"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "进阶自动化与报告往往要跨 Hub 付费，总账易失控。",
+    "数据与流程深度绑套件后迁移贵。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.hubspot.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "hubspot",
+  "name": "HubSpot",
+  "category": "collab-crm",
+  "subcategory": "suite-crm",
+  "oneLiner": "营销销售客服套件锚点 · 免费 CRM 起盘 · 席位升级账单高",
+  "officialUrl": "https://www.hubspot.com",
+  "descriptionMd": "HubSpot 以免费 CRM 起盘，向上打包 Marketing/Sales/Service Hub，把线索、管道、邮件、落地页与客服放在同一套件——是增长团队的套件默认项，而不是「极简轻 CRM」新锐。\n\n同时要 inbound 内容、营销自动化与销售管道、可接受套件绑定与席位单价时评估；只想灵活对象模型优先 Attio，只要看板管道优先 Pipedrive。\n\n报告、自动化与多 Hub 功能升级后费用跳升快；套件锁定迁移成本高。\n",
+  "vendorId": "hubspot-inc"
+}

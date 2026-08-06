@@ -1,0 +1,11 @@
+{
+  "id": "e-termly-alt-cookiebot",
+  "from": "termly",
+  "to": "cookiebot",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "政策生成器主战场 vs 欧盟 CMP/扫描老牌"
+}

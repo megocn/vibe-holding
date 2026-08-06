@@ -1,0 +1,11 @@
+{
+  "id": "e-tolt-with-stripe",
+  "from": "tolt",
+  "to": "stripe",
+  "type": "integrates_with",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "深绑 Stripe 结账与订阅状态做归因"
+}

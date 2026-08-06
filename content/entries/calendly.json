@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "scheduling",
+    "calendar",
+    "sales",
+    "saas"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "团队路由与分析能力主要在付费档。",
+    "品牌自定义与数据驻留选项有限。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://calendly.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "calendly",
+  "name": "Calendly",
+  "category": "collab-scheduling",
+  "subcategory": "scheduling",
+  "oneLiner": "预约链接事实标准 · 零运维 · 销售/成功团队普及",
+  "officialUrl": "https://calendly.com",
+  "descriptionMd": "Calendly 让个人与团队共享可预约时段链接，自动避开冲突并写入日历、可挂视频会议与提醒，是销售演示、成功回访与候选人面试排程的常见默认。\n\n个人或小团队要最快上线「约 30 分钟」页、不关心自托管时优先；要深度白标与源码控制评 Cal.com。\n\n高级路由、集体可用性与 CRM 深集成在高价档；表单字段复杂时体验一般。\n",
+  "vendorId": "calendly-inc"
+}

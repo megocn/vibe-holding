@@ -1,0 +1,11 @@
+{
+  "id": "e-publer-alt-buffer",
+  "from": "publer",
+  "to": "buffer",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "批量/内容库与多账号矩阵 vs 极简队列"
+}

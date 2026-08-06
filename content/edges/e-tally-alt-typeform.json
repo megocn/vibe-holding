@@ -1,0 +1,11 @@
+{
+  "id": "e-tally-alt-typeform",
+  "from": "tally",
+  "to": "typeform",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "慷慨免费、文档感搭建 vs 对话式完成率与品牌感"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-cloudinary-alt-bunny-cdn",
+  "from": "cloudinary",
+  "to": "bunny-cdn",
+  "type": "alternative_to",
+  "weight": 0.45,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "媒体变换/DAM 层 vs 通用低价 CDN（层不同，勿等同比较）"
+}

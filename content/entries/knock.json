@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "notifications",
+    "orchestration",
+    "developer",
+    "inbox"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "事件量大后费用需用采样与合并策略控制。",
+    "不替代生命周期营销平台的分群旅程能力。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://knock.app"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "knock",
+  "name": "Knock",
+  "category": "msg-orchestration",
+  "subcategory": "notification-platform",
+  "oneLiner": "开发者向通知平台 · 批次与偏好 · 产品 inbox",
+  "officialUrl": "https://knock.app",
+  "descriptionMd": "Knock 面向产品工程团队：用工作流定义通知、跨渠道发送、管理用户偏好与站内收件箱，强调类型安全集成与可观测，把「何时通知谁」从业务代码中抽离。\n\nB2B SaaS 通知规则复杂、需要统一偏好与 inbox 体验时评估；纯营销旅程编排请看 Customer.io / Braze。\n\n价格随事件量走；重度营销自动化不是定位。\n",
+  "vendorId": "knock-inc"
+}

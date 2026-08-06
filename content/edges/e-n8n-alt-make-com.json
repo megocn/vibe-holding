@@ -1,0 +1,11 @@
+{
+  "id": "e-n8n-alt-make-com",
+  "from": "n8n",
+  "to": "make-com",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "可自托管与代码节点 vs 托管可视化场景"
+}

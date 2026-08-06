@@ -1,0 +1,11 @@
+{
+  "id": "e-marker-io-alt-jam-dev",
+  "from": "marker-io",
+  "to": "jam-dev",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "业务方页面圈注验收 vs 工程元数据缺陷捕获"
+}

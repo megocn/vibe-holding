@@ -1,0 +1,11 @@
+{
+  "id": "e-marker-io-with-linear",
+  "from": "marker-io",
+  "to": "linear",
+  "type": "commonly_used_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "圈注反馈一键落 Linear issue"
+}

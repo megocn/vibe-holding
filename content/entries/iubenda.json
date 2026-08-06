@@ -28,11 +28,11 @@
   "sources": [
     "https://www.iubenda.com"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-06",
   "region": "overseas",
   "id": "iubenda",
   "name": "iubenda",
-  "category": "sec-compliance",
+  "category": "sec-privacy-legal",
   "subcategory": "privacy-consent",
   "oneLiner": "隐私政策生成 + 同意管理 · 多语种欧盟条款 · 嵌一段脚本即可",
   "officialUrl": "https://www.iubenda.com",

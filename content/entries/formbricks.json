@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "currency": "USD",
+    "notes": "云托管订阅；自托管开源"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "forms",
+    "survey",
+    "open-source",
+    "product"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "强项在产品内触发，不适合作为完整对外营销表单站。",
+    "自托管需维护版本与用户隐私合规配置。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://formbricks.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "formbricks",
+  "name": "Formbricks",
+  "category": "growth-forms",
+  "subcategory": "in-app-survey",
+  "oneLiner": "开源产品内调研 · 触发式问卷 · 可自托管隐私友好",
+  "officialUrl": "https://formbricks.com",
+  "descriptionMd": "Formbricks 是开源的产品内调研与体验收集工具，可按事件/页面触发问卷，支持云托管与自托管，强调把反馈嵌进产品路径而不是外链问卷页。\n\n需要 NPS/PMF/功能反馈贴在产品会话里、并在意数据驻留时评估；对外营销落地页表单用 Tally/Typeform 更合适。\n\n外向品牌调研与视觉模板不如 Typeform；自托管仍要做更新与存储运维。\n",
+  "vendorId": "formbricks-inc",
+  "githubUrl": "https://github.com/formbricks/formbricks"
+}

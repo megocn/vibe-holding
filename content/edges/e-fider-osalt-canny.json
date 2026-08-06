@@ -1,0 +1,11 @@
+{
+  "id": "e-fider-osalt-canny",
+  "from": "fider",
+  "to": "canny",
+  "type": "open_source_alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "开源可自托管投票板 vs 商业成熟反馈/路线图产品"
+}

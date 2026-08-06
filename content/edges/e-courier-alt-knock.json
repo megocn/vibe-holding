@@ -1,0 +1,11 @@
+{
+  "id": "e-courier-alt-knock",
+  "from": "courier",
+  "to": "knock",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "模板设计器+API 共管 vs 工作流/偏好开发者向"
+}

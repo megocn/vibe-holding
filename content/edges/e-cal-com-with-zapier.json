@@ -1,0 +1,11 @@
+{
+  "id": "e-cal-com-with-zapier",
+  "from": "cal-com",
+  "to": "zapier",
+  "type": "commonly_used_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "预约成功事件推进 CRM / 邮件 / Slack"
+}

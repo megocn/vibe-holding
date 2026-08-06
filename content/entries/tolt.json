@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "affiliate",
+    "stripe",
+    "referral",
+    "saas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "相对新，复杂企业场景案例少于 FirstPromoter 一类。",
+    "仍受底层支付与税务合规约束，别当财务系统。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://tolt.io"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "tolt",
+  "name": "Tolt",
+  "category": "growth-affiliate",
+  "subcategory": "affiliate",
+  "oneLiner": "新一代 Stripe 联盟 · 现代化 UI · SaaS 返佣向",
+  "officialUrl": "https://tolt.io",
+  "descriptionMd": "Tolt 提供面向现代 SaaS 的联盟/推荐软件，深绑 Stripe 等收单，强调简洁设置、推广者体验与自动结佣，定位接近 Rewardful 一代工具的焕新替代。\n\n想用更新的界面与工作流做 Stripe 系推荐计划时对比 Rewardful；大型多货币多实体分佣要验证 payout 细节。\n\n生态年龄短于老牌，边缘集成与案例密度需自行 POC。\n",
+  "vendorId": "tolt-inc"
+}

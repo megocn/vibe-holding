@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "currency": "USD",
+    "notes": "Lite 开源；Pro/Enterprise 一次买断（以官网为准）"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "social",
+    "scheduling",
+    "open-source",
+    "self-hosted"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "Lite 渠道较少，Instagram/TikTok 等常需 Pro。",
+    "自托管运维与密钥轮换由团队自担。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://mixpost.app"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "mixpost",
+  "name": "Mixpost",
+  "category": "growth-social",
+  "subcategory": "social-scheduler",
+  "oneLiner": "自托管 Buffer 体验 · Laravel 栈 · Lite 开源 / Pro 买断",
+  "officialUrl": "https://mixpost.app",
+  "githubUrl": "https://github.com/inovector/mixpost",
+  "descriptionMd": "Mixpost 是自托管向的社媒排期控制台，界面与工作流接近经典 Buffer：队列、日历、多账号发布。Lite 开源可自用，Pro/Enterprise 一次买断高级渠道与能力，栈为 Laravel，适合要「自己的 Buffer」又不愿订阅云的团队。\n\n运维能接受 PHP/Laravel 自托管、想要成熟 Buffer 感而不是 Agent 向产品时与 Postiz 对照；要 AI Agent/MCP 与更广新平台优先 Postiz。\n\nPro 渠道与功能在商业许可；自托管需管升级、存储与各平台 OAuth，Lite 渠道覆盖窄于 Pro。\n",
+  "vendorId": "inovector-inc"
+}

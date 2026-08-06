@@ -1,0 +1,11 @@
+{
+  "id": "e-twenty-alt-attio",
+  "from": "twenty",
+  "to": "attio",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "开源自托管 vs 托管 AI 现代 CRM"
+}

@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "forms",
+    "workflow",
+    "payments",
+    "saas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "功能多，复杂表单会变成难维护的半成品应用。",
+    "支付与高级集成多在付费档。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.fillout.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "fillout",
+  "name": "Fillout",
+  "category": "growth-forms",
+  "subcategory": "form-builder",
+  "oneLiner": "现代产品向表单 · 计算/支付/调度块强 · 嵌入友好",
+  "officialUrl": "https://www.fillout.com",
+  "descriptionMd": "Fillout 定位为产品与运营可快速组装的现代表单：计算字段、支付、预约、PDF 映射与嵌入组件较齐全，适合把表单当成轻量「小应用」而不是静态问卷。\n\n表单里要收付款、预约或生成 PDF/报价这类多步流程时评估；只要简单 waitlist 用 Tally 更轻。\n\n功能面宽，模板与权限要自己克制，否则维护成本接近半个 internal app。\n",
+  "vendorId": "fillout-inc"
+}

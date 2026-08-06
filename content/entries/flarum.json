@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "community",
+    "forum",
+    "open-source",
+    "self-hosted"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "企业级支持与托管 SLA 弱。",
+    "扩展升级兼容要回归测试。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://flarum.org"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "flarum",
+  "name": "Flarum",
+  "category": "collab-community",
+  "subcategory": "forum",
+  "oneLiner": "轻量开源论坛 · 扩展生态 · 部署与心智比 Discourse 轻",
+  "officialUrl": "https://flarum.org",
+  "descriptionMd": "Flarum 是轻量 PHP 开源论坛：现代化 UI、扩展市场，部署与默认心智比 Discourse 更轻，适合中小站「先跑起来」的社区，而不是企业级信任体系论坛。\n\n要可自托管的简洁论坛、团队运维预算有限时评估；大规模信任等级、官方托管 SLA 与重度 SEO 运维更常见选 Discourse。\n\n企业支持与托管选项弱于 Discourse；扩展质量参差，升级需测兼容。\n",
+  "vendorId": "flarum-inc",
+  "githubUrl": "https://github.com/flarum/flarum"
+}

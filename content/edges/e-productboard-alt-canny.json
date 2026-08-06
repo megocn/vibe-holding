@@ -1,0 +1,11 @@
+{
+  "id": "e-productboard-alt-canny",
+  "from": "productboard",
+  "to": "canny",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "PM 洞察—机会—路线图工作台 vs 客户投票墙"
+}

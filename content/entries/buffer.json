@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "social",
+    "scheduling",
+    "saas",
+    "creators"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "大型团队权限与审批能力弱于企业套件。",
+    "进阶分析与部分渠道在更高付费档。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://buffer.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "buffer",
+  "name": "Buffer",
+  "category": "growth-social",
+  "subcategory": "social-scheduler",
+  "oneLiner": "经典轻量社媒排期默认 · 小团队零学习 · 不做重型套件",
+  "officialUrl": "https://buffer.com",
+  "descriptionMd": "Buffer 是经典的社媒内容日历：把草稿排进队列、多账号定时发布，并附带基础互动与表现分析，界面克制，适合小团队建立固定发帖节奏。\n\n独立开发者或小运营组需要「够用、别太重」的排期工具时；企业级审批流、社群客服收件箱请看 Hootsuite 或专用社媒套件。\n\n深度社群互动与大型团队权限管理偏弱；高级分析与更多渠道在付费档。\n",
+  "vendorId": "buffer-inc"
+}

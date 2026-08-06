@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-07-25",
-  "entryCount": 749,
-  "edgeCount": 921,
+  "generatedAt": "2026-08-06",
+  "entryCount": 1135,
+  "edgeCount": 1604,
   "conceptCount": 459,
-  "avgDescriptionLen": 170.7,
-  "avgOneLinerLen": 36.9,
+  "avgDescriptionLen": 177.3,
+  "avgOneLinerLen": 35.5,
   "entriesWithoutSources": 0,
   "emptyLeaves": []
 }

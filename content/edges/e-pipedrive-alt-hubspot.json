@@ -1,0 +1,11 @@
+{
+  "id": "e-pipedrive-alt-hubspot",
+  "from": "pipedrive",
+  "to": "hubspot",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "纯交易管道极简 vs 套件化增长 CRM"
+}

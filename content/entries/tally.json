@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "forms",
+    "survey",
+    "indie",
+    "saas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "企业级权限、审计与专属支持弱。",
+    "极复杂评分/配额逻辑不如专用调研平台。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://tally.so"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "tally",
+  "name": "Tally",
+  "category": "growth-forms",
+  "subcategory": "form-builder",
+  "oneLiner": "Notion 感免费表单 · 逻辑块够用 · Indie 默认候选",
+  "officialUrl": "https://tally.so",
+  "descriptionMd": "Tally 提供接近文档编辑的表单搭建体验，免费档对个人与小团队相当慷慨，支持条件逻辑、文件上传与常见通知集成，是 indie 收集 waitlist、反馈与报名表的常见默认项。\n\n需要快速上线名单表、不付费也能扛一定提交量时优先；要极致对话体验与企业品牌管控再评 Typeform。\n\n超大型合规审计与复杂工作流编排弱于企业表单套件；重度计算字段要实测。\n",
+  "vendorId": "tally-inc"
+}

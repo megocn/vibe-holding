@@ -1,0 +1,11 @@
+{
+  "id": "e-jam-dev-alt-loom",
+  "from": "jam-dev",
+  "to": "loom",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "带控制台/网络的缺陷包 vs 人声异步讲解录屏"
+}

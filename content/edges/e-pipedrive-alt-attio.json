@@ -1,0 +1,11 @@
+{
+  "id": "e-pipedrive-alt-attio",
+  "from": "pipedrive",
+  "to": "attio",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "线性看板销售 vs 可塑对象与关系图谱"
+}

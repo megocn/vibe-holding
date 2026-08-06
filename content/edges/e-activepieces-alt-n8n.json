@@ -1,0 +1,11 @@
+{
+  "id": "e-activepieces-alt-n8n",
+  "from": "activepieces",
+  "to": "n8n",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "更偏业务自动化 UI 的开源 iPaaS vs 运维/AI 混合流"
+}

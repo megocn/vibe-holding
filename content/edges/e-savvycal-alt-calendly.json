@@ -1,0 +1,11 @@
+{
+  "id": "e-savvycal-alt-calendly",
+  "from": "savvycal",
+  "to": "calendly",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "被约方日历叠加的高质感一对一 vs 销售机队默认预约"
+}

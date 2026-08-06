@@ -1,0 +1,11 @@
+{
+  "id": "e-attio-alt-hubspot",
+  "from": "attio",
+  "to": "hubspot",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "灵活对象+AI 现代 CRM vs 营销销售套件起盘默认"
+}

@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "image",
+    "video",
+    "cdn",
+    "dam",
+    "transform"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "credit/用量模型下带宽与变换叠加会账单陡升。",
+    "能力过多，团队缺规范时易把交付做成重 DAM。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://cloudinary.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "cloudinary",
+  "name": "Cloudinary",
+  "category": "net-media",
+  "subcategory": "media-platform",
+  "oneLiner": "图像+视频变换/DAM 一体 · AI 变换深 · 全栈默认但账单陡",
+  "officialUrl": "https://cloudinary.com",
+  "descriptionMd": "Cloudinary 是全栈媒体平台：上传、存储、URL/API 实时变换、优化投递与 DAM，覆盖图与视频，并提供生成式裁切、去背等 AI 能力，常被当作媒体管道的默认采购位。\n\n产品需要智能裁切、叠加层、多格式自适应与统一资产库，愿意接受 credit/用量型计价时评估；只要视频流水线看 Mux，只要廉价图优化看 ImageKit/imgix。\n\n变换与带宽 credit 模型易在流量上来后跳涨；功能面宽，误用会把简单交付做成重平台。\n",
+  "vendorId": "cloudinary-inc"
+}

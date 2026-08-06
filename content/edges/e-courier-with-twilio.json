@@ -1,0 +1,11 @@
+{
+  "id": "e-courier-with-twilio",
+  "from": "courier",
+  "to": "twilio",
+  "type": "commonly_used_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "短信/语音渠道常见走 Twilio 等 CPaaS"
+}

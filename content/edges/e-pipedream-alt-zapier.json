@@ -1,0 +1,11 @@
+{
+  "id": "e-pipedream-alt-zapier",
+  "from": "pipedream",
+  "to": "zapier",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "开发者代码步骤与 webhook 优先 vs 运营向无代码"
+}

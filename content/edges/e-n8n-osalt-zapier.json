@@ -1,0 +1,11 @@
+{
+  "id": "e-n8n-osalt-zapier",
+  "from": "n8n",
+  "to": "zapier",
+  "type": "open_source_alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "fair-code 自托管节点流 vs 无代码 SaaS 自动化"
+}

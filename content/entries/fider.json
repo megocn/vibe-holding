@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "currency": "USD",
+    "notes": "自托管免费；官方云订阅"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "feedback",
+    "roadmap",
+    "open-source",
+    "self-hosted"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "功能面聚焦投票板，缺少完整 PM 工作台。",
+    "自托管需自管升级、邮件通知与反垃圾。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://fider.io"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "fider",
+  "name": "Fider",
+  "category": "growth-feedback",
+  "subcategory": "feature-voting",
+  "oneLiner": "开源功能投票板 · 可自托管 · 简链路反馈→状态",
+  "officialUrl": "https://fider.io",
+  "githubUrl": "https://github.com/getfider/fider",
+  "descriptionMd": "Fider 是开源的功能请求与投票板：用户提交想法、投票排序，团队更新状态，数据可完全自托管。云托管与自建都支持，定位是干净的「客户声音墙」而不是完整 PM 套件。\n\n要开源/数据自持的公开路线图与投票、又不想上 Canny 级商业订阅时优先；要 Changelog+帮助中心一体化看 Featurebase，要 PM 洞察体看 Productboard。\n\n没有企业级产品组合与机会评分；高级品牌与 SSO 等多在商业托管档或需自研。\n",
+  "vendorId": "fider-inc"
+}

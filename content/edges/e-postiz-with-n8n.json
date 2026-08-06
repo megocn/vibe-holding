@@ -1,0 +1,11 @@
+{
+  "id": "e-postiz-with-n8n",
+  "from": "postiz",
+  "to": "n8n",
+  "type": "commonly_used_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "官方/社区常见：工作流生成内容后调用 Postiz API/节点发帖"
+}

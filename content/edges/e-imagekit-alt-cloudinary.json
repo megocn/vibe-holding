@@ -1,0 +1,11 @@
+{
+  "id": "e-imagekit-alt-cloudinary",
+  "from": "imagekit",
+  "to": "cloudinary",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "带宽向计价、中档变换 vs 全栈 AI/DAM 默认但 credit 更重"
+}

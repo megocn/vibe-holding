@@ -1,0 +1,11 @@
+{
+  "id": "e-tolt-alt-rewardful",
+  "from": "tolt",
+  "to": "rewardful",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "新一代 Stripe 联盟体验 vs 成熟即装联盟"
+}

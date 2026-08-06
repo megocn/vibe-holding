@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "social",
+    "enterprise",
+    "suite",
+    "scheduling"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "席位与模块打包报价，中小团队性价比通常不理想。",
+    "配置与培训成本显著高于轻量排期工具。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.hootsuite.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "hootsuite",
+  "name": "Hootsuite",
+  "category": "growth-social",
+  "subcategory": "social-suite",
+  "oneLiner": "企业级社媒套件 · 收件箱/审批/报表重 · 采购周期长",
+  "officialUrl": "https://www.hootsuite.com",
+  "descriptionMd": "Hootsuite 是面向中大型团队的社媒运营套件：统一收件箱、发布审批、权限分级与跨渠道报表，往往以组织采购与落地实施方式引入，而不是个人作者工具。\n\n多部门共管品牌账号、需要审批留痕、合规与培训支持时评估；Indie 个人号用它过重，优先 Buffer / Typefully / Postiz。\n\n价格与席位体系偏企业；上手与配置成本高于简洁排期工具。\n",
+  "vendorId": "hootsuite-inc"
+}

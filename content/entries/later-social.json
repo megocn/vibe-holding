@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "social",
+    "instagram",
+    "tiktok",
+    "scheduling"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "文字向平台（如深度线程写作）体验不及专用工具。",
+    "链接库与分析增强功能常在更高档位。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://later.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "later-social",
+  "name": "Later",
+  "category": "growth-social",
+  "subcategory": "social-scheduler",
+  "oneLiner": "视觉优先 IG/TikTok 日历 · 网红连结带货向",
+  "officialUrl": "https://later.com",
+  "descriptionMd": "Later 以视觉内容日历著称，深度覆盖 Instagram、TikTok 等图像/短视频渠道，并延展到链路、创作者协作与基础电商导流，适合视觉营销团队按网格规划上线节奏。\n\n品牌或创作者以 IG / TikTok 视觉为主、需要「排版感」日历时评估；以 X 长线程或开发者 API 发布为主请换 Typefully / Ayrshare。\n\n偏视觉渠道，文字向平台深度一般；高档位功能与链接工具常需加购。\n",
+  "vendorId": "later-inc"
+}

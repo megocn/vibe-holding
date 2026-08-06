@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "currency": "USD",
+    "notes": "云版订阅；自托管开源"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "automation",
+    "open-source",
+    "ipaas",
+    "self-hosted"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "连接器覆盖不及 Zapier，冷门 SaaS 要自己写 piece。",
+    "自托管需运维队列、密钥与升级。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.activepieces.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "activepieces",
+  "name": "Activepieces",
+  "category": "cicd-automation",
+  "subcategory": "ipaas",
+  "oneLiner": "开源 Zapier 替代 · 片段可扩展 · 可自托管",
+  "officialUrl": "https://www.activepieces.com",
+  "descriptionMd": "Activepieces 是开源的业务自动化平台，提供流动画布与可扩展 pieces（连接器），可云可自托管，定位为 Zapier/Make 的可自掌控替代，方便团队按需写自定义片段。\n\n要数据驻留或二次开发连接器、又希望界面仍面向运营同学时评估；纯最广 SaaS 目录先 Zapier。\n\n连接器广度仍追头部；生产自托管要自己做高可用与密钥治理。\n",
+  "vendorId": "activepieces-inc",
+  "githubUrl": "https://github.com/activepieces/activepieces"
+}

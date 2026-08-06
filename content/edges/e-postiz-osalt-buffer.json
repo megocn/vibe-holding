@@ -1,0 +1,11 @@
+{
+  "id": "e-postiz-osalt-buffer",
+  "from": "postiz",
+  "to": "buffer",
+  "type": "open_source_alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "开源可自托管 + API/Agent 向 vs 经典托管排期 SaaS"
+}

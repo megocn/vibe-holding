@@ -28,11 +28,11 @@
   "sources": [
     "https://www.cookiebot.com"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-06",
   "region": "overseas",
   "id": "cookiebot",
   "name": "Cookiebot",
-  "category": "sec-compliance",
+  "category": "sec-privacy-legal",
   "subcategory": "privacy-consent",
   "oneLiner": "Cookie 自动扫描分类 · 同意日志可留痕 · 欧盟 CMP 老牌",
   "officialUrl": "https://www.cookiebot.com",

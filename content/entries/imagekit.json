@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "image",
+    "video",
+    "cdn",
+    "transform"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "复杂 AI 变换与企业 DAM 深度弱于 Cloudinary。",
+    "视频长流媒体仍建议专用视频栈对照 Mux。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://imagekit.io"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "imagekit",
+  "name": "ImageKit",
+  "category": "net-media",
+  "subcategory": "image-cdn",
+  "oneLiner": "开发者图视频 CDN · 性价比 Cloudinary 对照 · DAM 可选",
+  "officialUrl": "https://imagekit.io",
+  "descriptionMd": "ImageKit 提供实时变换、优化投递与可选 DAM，API 面接近 imgix/Cloudinary 路径，计价往往以带宽为主，常被当作 Cloudinary 的中档对照与 imgix 风格 drop-in。\n\n需要 URL 变换与中等流量账单可预期、又想可选资产库时评估；极端 AI 生成式变换与企业 DAM 流程仍是 Cloudinary 强项。\n\nAI/生成式能力与生态插件深度不及头部；选型前按真实变换矩阵压测。\n",
+  "vendorId": "imagekit-inc"
+}

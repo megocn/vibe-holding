@@ -1,0 +1,11 @@
+{
+  "id": "e-featurebase-alt-canny",
+  "from": "featurebase",
+  "to": "canny",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "反馈+帮助中心+更新一体、价位更贴中小 vs 经典投票板"
+}

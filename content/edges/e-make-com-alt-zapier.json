@@ -1,0 +1,11 @@
+{
+  "id": "e-make-com-alt-zapier",
+  "from": "make-com",
+  "to": "zapier",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "细粒度场景画布 vs 最广连接器与心智默认"
+}

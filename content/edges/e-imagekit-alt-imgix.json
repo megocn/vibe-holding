@@ -1,0 +1,11 @@
+{
+  "id": "e-imagekit-alt-imgix",
+  "from": "imagekit",
+  "to": "imgix",
+  "type": "alternative_to",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "性价比图 CDN + 可选 DAM vs 高端渲染/媒体站图 CDN"
+}

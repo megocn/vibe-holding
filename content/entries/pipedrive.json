@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "crm",
+    "sales",
+    "pipeline",
+    "saas"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "复杂多产品线与非交易型关系建模吃力。",
+    "高级自动化与报告常在更高席位档。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.pipedrive.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "pipedrive",
+  "name": "Pipedrive",
+  "category": "collab-crm",
+  "subcategory": "pipeline-crm",
+  "oneLiner": "视觉交易管道极简 · 销售自管向 · 少对象建模",
+  "officialUrl": "https://www.pipedrive.com",
+  "descriptionMd": "Pipedrive 围绕「交易从左到右过管道」设计：可视化看板、活动提醒与销售报告，配置面刻意窄，适合流程线性的销售个人或小团队。\n\noutbound 为主、只要清晰交易阶段与活动节奏、不要复杂自定义对象时采用；要关系图谱与对象自由用 Attio，要营销漏斗一体用 HubSpot。\n\n无慷慨长期免费档；自定义对象与跨团队工作流弱于现代灵活 CRM。\n",
+  "vendorId": "pipedrive-inc"
+}

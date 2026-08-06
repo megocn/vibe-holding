@@ -27,11 +27,11 @@
   "sources": [
     "https://termly.io"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-06",
   "region": "overseas",
   "id": "termly",
   "name": "Termly",
-  "category": "sec-compliance",
+  "category": "sec-privacy-legal",
   "subcategory": "privacy-consent",
   "oneLiner": "政策生成器 + Cookie 扫描 · 偏美国州级隐私法口径 · 有免费档",
   "officialUrl": "https://termly.io",

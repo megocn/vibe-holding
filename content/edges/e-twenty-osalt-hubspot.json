@@ -1,0 +1,11 @@
+{
+  "id": "e-twenty-osalt-hubspot",
+  "from": "twenty",
+  "to": "hubspot",
+  "type": "open_source_alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "开源可自托管现代 CRM vs 托管增长套件"
+}

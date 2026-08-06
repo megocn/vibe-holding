@@ -1,0 +1,11 @@
+{
+  "id": "e-cal-com-osalt-calendly",
+  "from": "cal-com",
+  "to": "calendly",
+  "type": "open_source_alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "开源可自托管/白标 vs 托管预约默认项"
+}

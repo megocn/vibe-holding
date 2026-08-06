@@ -17,7 +17,7 @@ pnpm gen:content       # 同步 apps/desktop/src/generated/content.json
 pnpm --filter @vh/desktop dev
 ```
 
-更细的内容规范见 [`content/README.md`](content/README.md)。
+更细的内容规范与**扩种准入原则（质量优先）**见 [`content/README.md`](content/README.md)。
 
 ## 贡献类型
 
@@ -33,11 +33,12 @@ pnpm --filter @vh/desktop dev
 
 ## 审核原则（维护者）
 
-1. **可追溯**：条目 `sources` / 边 `sources` 尽量有官方或可复核链接。
-2. **克制建边**：优先 `verified` / `community`；`inferred` 需说明推导，避免图膨胀。
-3. **命名**：ID 小写 kebab-case（见 SPEC 附录 A）。
-4. **安全**：拒绝任何 API Key、密码、保险库备份、个人笔记混入 PR。
-5. **时效**：更新 `lastReviewed`；过期警告（`E_CONTENT_STALE`）不阻断合并，但新条目应尽量新鲜。
+1. **质量优先**：是否满足 `content/README.md`「扩种准入原则」——短名单级、最新可复核、写法优质；低质凑数 PR 直接要求删或拆。
+2. **可追溯**：条目 `sources` / 边 `sources` 尽量有官方或可复核链接。
+3. **克制建边**：优先 `verified` / `community`；`inferred` 需说明推导，避免图膨胀。
+4. **命名**：ID 小写 kebab-case（见 SPEC 附录 A）。
+5. **安全**：拒绝任何 API Key、密码、保险库备份、个人笔记混入 PR。
+6. **时效**：更新 `lastReviewed`；过期警告（`E_CONTENT_STALE`）不阻断合并，但新条目应尽量新鲜。
 
 ## 分支与提交
 

@@ -121,6 +121,48 @@
     },
     {
       "pricing": {
+        "model": "open-source",
+        "currency": "USD",
+        "notes": "云版订阅；自托管开源"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "automation",
+        "open-source",
+        "ipaas",
+        "self-hosted"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "连接器覆盖不及 Zapier，冷门 SaaS 要自己写 piece。",
+        "自托管需运维队列、密钥与升级。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.activepieces.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "activepieces",
+      "name": "Activepieces",
+      "category": "cicd-automation",
+      "subcategory": "ipaas",
+      "oneLiner": "开源 Zapier 替代 · 片段可扩展 · 可自托管",
+      "officialUrl": "https://www.activepieces.com",
+      "descriptionMd": "Activepieces 是开源的业务自动化平台，提供流动画布与可扩展 pieces（连接器），可云可自托管，定位为 Zapier/Make 的可自掌控替代，方便团队按需写自定义片段。\n\n要数据驻留或二次开发连接器、又希望界面仍面向运营同学时评估；纯最广 SaaS 目录先 Zapier。\n\n连接器广度仍追头部；生产自托管要自己做高可用与密钥治理。\n",
+      "vendorId": "activepieces-inc",
+      "githubUrl": "https://github.com/activepieces/activepieces"
+    },
+    {
+      "pricing": {
         "model": "open-source"
       },
       "availability": {
@@ -2839,6 +2881,46 @@
     },
     {
       "pricing": {
+        "model": "freemium",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "crm",
+        "b2b",
+        "ai",
+        "saas"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "高级序列与通话智能能力随档位解锁，报价要按席位+功能核。",
+        "超大企业采购与行业合规模板不如老牌全栈。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://attio.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "attio",
+      "name": "Attio",
+      "category": "collab-crm",
+      "subcategory": "modern-crm",
+      "oneLiner": "灵活对象模型 + AI · 202x B2B 现代 CRM · 三席免费档",
+      "officialUrl": "https://attio.com",
+      "descriptionMd": "Attio 是面向现代 B2B 团队的 CRM：自定义对象与关系、邮件日历同步、enrichment 与 AI 问询，强调用你的数据模型运转，而不是塞进固定销售漏斗模板。\n\n种子到成长期 SaaS 要可塑对象、关系洞察与 AI 辅助跟进、又不想一上来上营销套件时优先；纯视觉管道可看 Pipedrive，要营销+销售一体看 HubSpot。\n\n高阶自动化与呼叫智能多在付费档；超大销售机队与强合规采购仍可能走 Salesforce 路线。\n",
+      "vendorId": "attio-inc"
+    },
+    {
+      "pricing": {
         "model": "subscription"
       },
       "availability": {
@@ -3743,6 +3825,46 @@
       "officialUrl": "https://github.com/tokio-rs/axum",
       "descriptionMd": "Axum 是基于 Tokio/Hyper 的 Rust async Web 框架，类型安全 extractor，与 Tower middleware 深度集成。\n\nRust 后端 microservice、需要 memory safety 与极致性能的 API 层。\n\n编译时间长；ORM 与 DX 不如 TS/Python 成熟。\n",
       "vendorId": "tokio-axum"
+    },
+    {
+      "pricing": {
+        "model": "subscription",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "social",
+        "api",
+        "developer",
+        "scheduling"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "计费跟消息量与连接账号走，流量上来后要盯账单。",
+        "不是给运营同学的日历产品，缺可视化内容库体验。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.ayrshare.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "ayrshare",
+      "name": "Ayrshare",
+      "category": "growth-social",
+      "subcategory": "social-api",
+      "oneLiner": "开发者向社媒发帖 API · 多平台一套接口 · 嵌产品内",
+      "officialUrl": "https://www.ayrshare.com",
+      "descriptionMd": "Ayrshare 提供统一 REST API，让应用替用户绑定并发布到多个社交网络，覆盖排期、媒体上传与基础历史查询，定位是「嵌入你自己的产品」，不是运营人员用的日历 UI。\n\nSaaS / 白标要给客户「连接账号 → 发帖」能力、又不想逐家对接 OAuth 时采用；自用内容日历请用 Buffer / Postiz 一类产品。\n\n按消息与账号档位计费，峰值成本会随活跃客户上涨；各平台政策变更会影响可用能力。\n",
+      "vendorId": "ayrshare-inc"
     },
     {
       "pricing": {
@@ -5337,6 +5459,46 @@
     },
     {
       "pricing": {
+        "model": "freemium",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "social",
+        "scheduling",
+        "saas",
+        "creators"
+      ],
+      "maturity": "mature",
+      "pitfalls": [
+        "大型团队权限与审批能力弱于企业套件。",
+        "进阶分析与部分渠道在更高付费档。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://buffer.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "buffer",
+      "name": "Buffer",
+      "category": "growth-social",
+      "subcategory": "social-scheduler",
+      "oneLiner": "经典轻量社媒排期默认 · 小团队零学习 · 不做重型套件",
+      "officialUrl": "https://buffer.com",
+      "descriptionMd": "Buffer 是经典的社媒内容日历：把草稿排进队列、多账号定时发布，并附带基础互动与表现分析，界面克制，适合小团队建立固定发帖节奏。\n\n独立开发者或小运营组需要「够用、别太重」的排期工具时；企业级审批流、社群客服收件箱请看 Hootsuite 或专用社媒套件。\n\n深度社群互动与大型团队权限管理偏弱；高级分析与更多渠道在付费档。\n",
+      "vendorId": "buffer-inc"
+    },
+    {
+      "pricing": {
         "model": "freemium"
       },
       "availability": {
@@ -5561,6 +5723,128 @@
       "officialUrl": "https://buttondown.com",
       "descriptionMd": "Buttondown 是由小团队维护的极简新闻通讯工具，用 Markdown 写作、界面克制，提供完整 API 与导入导出能力，刻意不堆砌营销功能。\n\n个人或小团队只想稳定地把文章发给订阅者，重视写作体验与数据可迁出，且不需要复杂自动化时评估。\n\n自动化、分群与团队协作能力有限；由小团队维护，选型时要接受相应的支持响应节奏与功能演进速度。\n",
       "vendorId": "buttondown-inc"
+    },
+    {
+      "pricing": {
+        "model": "open-source",
+        "currency": "USD",
+        "notes": "云版订阅；自托管开源"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "scheduling",
+        "calendar",
+        "open-source",
+        "self-hosted"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "各日历服务商同步延迟与权限范围需实测。",
+        "自托管要管邮件通知与反滥用。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://cal.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "cal-com",
+      "name": "Cal.com",
+      "category": "collab-scheduling",
+      "subcategory": "scheduling",
+      "oneLiner": "开源 Calendly 替代 · 可自托管 · 开发者可白标",
+      "officialUrl": "https://cal.com",
+      "descriptionMd": "Cal.com 是开源的会议预约基础设施：链接选时、多日历冲突检测、团队活动类型与 webhook/API，可云可自托管，适合把预约嵌进产品或品牌域名。\n\n需要自托管/白标、或要把「约 demo」事件送进自己的 CRM/自动化时优先；只要个人约咨询且零运维用 Calendly 更快。\n\n日历提供商边界情况与时区规则要实测；自托管要维护邮件投递与可用时段同步。\n",
+      "vendorId": "cal-com-inc",
+      "githubUrl": "https://github.com/calcom/cal.com"
+    },
+    {
+      "pricing": {
+        "model": "freemium",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "scheduling",
+        "calendar",
+        "sales",
+        "saas"
+      ],
+      "maturity": "mature",
+      "pitfalls": [
+        "团队路由与分析能力主要在付费档。",
+        "品牌自定义与数据驻留选项有限。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://calendly.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "calendly",
+      "name": "Calendly",
+      "category": "collab-scheduling",
+      "subcategory": "scheduling",
+      "oneLiner": "预约链接事实标准 · 零运维 · 销售/成功团队普及",
+      "officialUrl": "https://calendly.com",
+      "descriptionMd": "Calendly 让个人与团队共享可预约时段链接，自动避开冲突并写入日历、可挂视频会议与提醒，是销售演示、成功回访与候选人面试排程的常见默认。\n\n个人或小团队要最快上线「约 30 分钟」页、不关心自托管时优先；要深度白标与源码控制评 Cal.com。\n\n高级路由、集体可用性与 CRM 深集成在高价档；表单字段复杂时体验一般。\n",
+      "vendorId": "calendly-inc"
+    },
+    {
+      "pricing": {
+        "model": "subscription",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "feedback",
+        "roadmap",
+        "changelog",
+        "saas"
+      ],
+      "maturity": "mature",
+      "pitfalls": [
+        "投票会被活跃少数用户带偏，需人工二次判断优先级。",
+        "企业级产品组合分析能力有限。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://canny.io"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "canny",
+      "name": "Canny",
+      "category": "growth-feedback",
+      "subcategory": "feature-voting",
+      "oneLiner": "功能投票与路线图经典位 · 客户声音汇入 · 公开板",
+      "officialUrl": "https://canny.io",
+      "descriptionMd": "Canny 把用户提交的功能请求做成可投票看板，并关联更新状态与 changelog，帮助产品团队把「客户声音 → 优先级 → 已上线公告」串在同一处。\n\nSaaS 需要公开/半公开路线图与投票、让客户参与优先级时评估；纯内部需求池也可以用，但会弱化社群感。\n\n深度产品管理（机会评分、目标树）不如 Productboard；进阶席位与多板块按订阅收费。\n",
+      "vendorId": "canny-inc"
     },
     {
       "pricing": {
@@ -6205,6 +6489,46 @@
       "oneLiner": "Chromium 扩展主渠道 · MV3/权限最小化 · 审核硬约束",
       "descriptionMd": "Chrome Web Store 是 Chromium 扩展的主分发渠道；Manifest V3、权限最小化与审核策略是硬约束。\n\n扩展产品常与官网/桌面端并列分发。国内访问与企业策略可能影响安装转化；若只服务自家站点，也可评估不经过商店的加载方式（受限）。\n\n权限申请文案影响通过率；MV3 service worker 生命周期要按扩展模式重写假设。\n",
       "officialUrl": "https://chrome.google.com/webstore"
+    },
+    {
+      "pricing": {
+        "model": "subscription",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "community",
+        "membership",
+        "courses",
+        "saas"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "成员规模上来后按档计费，功能包要克制开通。",
+        "数据驻留与白标能力不如自托管论坛。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://circle.so"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "circle-so",
+      "name": "Circle",
+      "category": "collab-community",
+      "subcategory": "membership-community",
+      "oneLiner": "托管会员社区 · 课程/空间/活动一体 · 创作者变现向",
+      "officialUrl": "https://circle.so",
+      "descriptionMd": "Circle 是托管社区 SaaS：空间、课程、活动、直播与会员订阅放在同一产品，强调运营与变现工具，而不是开源论坛源码。\n\n课程/付费会员/创作者要一站式空间与支付、零运维时评估；要 SEO 长尾知识库与自托管用 Discourse，工程/游戏实时社区常见配 Discord。\n\n成员与功能档位订阅；数据与定制深度受 SaaS 约束，迁出成本存在。\n",
+      "vendorId": "circle-so-inc"
     },
     {
       "pricing": {
@@ -7406,6 +7730,47 @@
     },
     {
       "pricing": {
+        "model": "freemium",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "image",
+        "video",
+        "cdn",
+        "dam",
+        "transform"
+      ],
+      "maturity": "mature",
+      "pitfalls": [
+        "credit/用量模型下带宽与变换叠加会账单陡升。",
+        "能力过多，团队缺规范时易把交付做成重 DAM。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://cloudinary.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "cloudinary",
+      "name": "Cloudinary",
+      "category": "net-media",
+      "subcategory": "media-platform",
+      "oneLiner": "图像+视频变换/DAM 一体 · AI 变换深 · 全栈默认但账单陡",
+      "officialUrl": "https://cloudinary.com",
+      "descriptionMd": "Cloudinary 是全栈媒体平台：上传、存储、URL/API 实时变换、优化投递与 DAM，覆盖图与视频，并提供生成式裁切、去背等 AI 能力，常被当作媒体管道的默认采购位。\n\n产品需要智能裁切、叠加层、多格式自适应与统一资产库，愿意接受 credit/用量型计价时评估；只要视频流水线看 Mux，只要廉价图优化看 ImageKit/imgix。\n\n变换与带宽 credit 模型易在流量上来后跳涨；功能面宽，误用会把简单交付做成重平台。\n",
+      "vendorId": "cloudinary-inc"
+    },
+    {
+      "pricing": {
         "model": "subscription",
         "currency": "USD"
       },
@@ -8531,11 +8896,11 @@
       "sources": [
         "https://www.cookiebot.com"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-06",
       "region": "overseas",
       "id": "cookiebot",
       "name": "Cookiebot",
-      "category": "sec-compliance",
+      "category": "sec-privacy-legal",
       "subcategory": "privacy-consent",
       "oneLiner": "Cookie 自动扫描分类 · 同意日志可留痕 · 欧盟 CMP 老牌",
       "officialUrl": "https://www.cookiebot.com",
@@ -8690,6 +9055,46 @@
       "oneLiner": "JSON+N1QL · 内存优先 · Mobile Sync/Capella",
       "officialUrl": "https://www.couchbase.com",
       "descriptionMd": "Couchbase 结合 JSON 文档、N1QL SQL++ 查询与内存优先架构，支持 mobile sync（Capella），适合会话与配置存储。\n\n移动离线同步、或需要 sub-millisecond KV 加 SQL 查询的 enterprise 场景评估；gaming 行业常见。\n\n运维与 sizing 复杂；开发者体验不如 MongoDB Atlas 普及，国内社区较小。\n"
+    },
+    {
+      "pricing": {
+        "model": "freemium",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "notifications",
+        "orchestration",
+        "templates",
+        "multichannel"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "模板环境与权限治理不善会直接造成错发。",
+        "底层渠道费用与限额仍要各供应商侧管理。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.courier.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "courier",
+      "name": "Courier",
+      "category": "msg-orchestration",
+      "subcategory": "notification-platform",
+      "oneLiner": "设计器+API 通知平台 · 多渠道 · 模板中心向",
+      "officialUrl": "https://www.courier.com",
+      "descriptionMd": "Courier 提供可视化模板与开发者 API 并行的通知平台，连接邮件、推送、聊天等多渠道，便于产品与运营共管模板内容，同时保留代码触发。\n\n需要非工程师也能改通知文案、又要统一投递与日志时评估；只要极简事务邮件或只要开源自托管分别看 Resend / Novu。\n\n模板治理与环境（dev/prod）流程要设计好，否则内容事故会放大。\n",
+      "vendorId": "courier-inc"
     },
     {
       "pricing": {
@@ -10711,6 +11116,48 @@
     },
     {
       "pricing": {
+        "model": "open-source",
+        "currency": "USD",
+        "notes": "托管订阅；自托管开源"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "community",
+        "forum",
+        "open-source",
+        "self-hosted"
+      ],
+      "maturity": "mature",
+      "pitfalls": [
+        "自托管主题、邮件与反垃圾需持续投入。",
+        "实时语音与轻社交节奏弱于 Discord 类。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.discourse.org"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "discourse",
+      "name": "Discourse",
+      "category": "collab-community",
+      "subcategory": "forum",
+      "oneLiner": "开源论坛标杆 · SEO 友好长帖 · 可自托管可托管",
+      "officialUrl": "https://www.discourse.org",
+      "descriptionMd": "Discourse 是开源论坛平台：主题式讨论、信任等级、搜索与 SEO 友好的永久链接，可官方托管也可自托管，是「可被搜索的社区知识库」常见选型。\n\n要公开/半公开问答、文档站并行、可自持数据与主题定制时优先；会员付费圈与课程社群可看 Circle，实时语音聊天看 Discord。\n\n运维与主题定制成本高于闭源 SaaS；实时语音与轻聊不是强项。\n",
+      "vendorId": "discourse-inc",
+      "githubUrl": "https://github.com/discourse/discourse"
+    },
+    {
+      "pricing": {
         "model": "open-source"
       },
       "availability": {
@@ -11520,6 +11967,47 @@
       "oneLiner": "贴近 SQL · 轻量类型安全 · Neon/Turso/PG 搭配多",
       "descriptionMd": "Drizzle 是贴近 SQL 的 TypeScript ORM：类型安全、轻量，与 Neon/Turso/Postgres 搭配极多。\n\n适合希望「看见 SQL」又要类型推导的团队；相对 Prisma 更少魔法、迁移与关系表达风格不同。与 Zod 常一起出现在现代 TS 后端。\n\n迁移与 SQL 可见性好；复杂查询可退回原生 SQL 而不失去类型边界。\n",
       "officialUrl": "https://orm.drizzle.team"
+    },
+    {
+      "pricing": {
+        "model": "freemium",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "links",
+        "affiliate",
+        "analytics",
+        "open-source"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "短链分析解决不了广告平台的跨设备归因。",
+        "自托管要管域名、重定向可用性与反滥用。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://dub.co"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "dub",
+      "name": "Dub",
+      "category": "growth-affiliate",
+      "subcategory": "link-management",
+      "oneLiner": "短链/归因/二维码 · 可自托管 · 联盟能力可选",
+      "officialUrl": "https://dub.co",
+      "descriptionMd": "Dub 是面向增长团队的链接基础设施：自定义短链、点击分析、二维码与基础联盟/转化追踪，提供云版与开源自托管，常作为营销活动与多触点归因的链接层。\n\n需要品牌短链、活动 UTM 统一管理或自托管链接服务时评估；只做 Stripe 推荐佣金后台用 Rewardful 更垂直。\n\n链接层不替代完整广告归因；高级团队协作与 SSO 多在高档位。\n",
+      "vendorId": "dub-inc",
+      "githubUrl": "https://github.com/dubinc/dub"
     },
     {
       "pricing": {
@@ -12807,6 +13295,46 @@
     },
     {
       "pricing": {
+        "model": "freemium",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "feedback",
+        "roadmap",
+        "changelog",
+        "help-center"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "大组织复杂权限与审批链不如专用产品管理平台。",
+        "「三合一」容易堆功能，要克制范围避免半吊子。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.featurebase.app"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "featurebase",
+      "name": "Featurebase",
+      "category": "growth-feedback",
+      "subcategory": "feature-voting",
+      "oneLiner": "Canny 平替向 · 反馈/帮助中心/更新一体 · 价位亲民",
+      "officialUrl": "https://www.featurebase.app",
+      "descriptionMd": "Featurebase 把功能投票、帮助中心与产品更新发布收敛到一套产品，常被当作 Canny 的轻量替代，覆盖从收集反馈、公示状态到教育用户「本周上了什么」的前半段旅程。\n\n中小团队要同时有反馈板、简易知识库与更新日志，又不想把 Canny + 帮助中心 + Changelog 三家拼在一起时评估。\n\n大型企业的工作流与分析深度仍有差距；若三块都浅用，不如拆回专用工具做深。\n",
+      "vendorId": "featurebase-inc"
+    },
+    {
+      "pricing": {
         "model": "freemium"
       },
       "availability": {
@@ -12913,6 +13441,48 @@
     },
     {
       "pricing": {
+        "model": "open-source",
+        "currency": "USD",
+        "notes": "自托管免费；官方云订阅"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "feedback",
+        "roadmap",
+        "open-source",
+        "self-hosted"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "功能面聚焦投票板，缺少完整 PM 工作台。",
+        "自托管需自管升级、邮件通知与反垃圾。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://fider.io"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "fider",
+      "name": "Fider",
+      "category": "growth-feedback",
+      "subcategory": "feature-voting",
+      "oneLiner": "开源功能投票板 · 可自托管 · 简链路反馈→状态",
+      "officialUrl": "https://fider.io",
+      "githubUrl": "https://github.com/getfider/fider",
+      "descriptionMd": "Fider 是开源的功能请求与投票板：用户提交想法、投票排序，团队更新状态，数据可完全自托管。云托管与自建都支持，定位是干净的「客户声音墙」而不是完整 PM 套件。\n\n要开源/数据自持的公开路线图与投票、又不想上 Canny 级商业订阅时优先；要 Changelog+帮助中心一体化看 Featurebase，要 PM 洞察体看 Productboard。\n\n没有企业级产品组合与机会评分；高级品牌与 SSO 等多在商业托管档或需自研。\n",
+      "vendorId": "fider-inc"
+    },
+    {
+      "pricing": {
         "model": "freemium",
         "currency": "USD"
       },
@@ -12944,6 +13514,46 @@
       "oneLiner": "协作 UI/原型事实标准 · Dev Mode/变量 · 设计系统交接",
       "descriptionMd": "Figma 是协作式界面设计与原型的事实标准，Dev Mode、变量与组件库支撑设计到工程的交接。\n\nAI/工程工作流里常作为设计源；与代码生成工具（v0 等）可衔接，但设计系统治理仍靠人工约定。注意席位费用与文件权限。\n\n组件命名与 token 约定越早统一，工程落地越少返工；评审用评论而非截图群传。\n",
       "officialUrl": "https://www.figma.com"
+    },
+    {
+      "pricing": {
+        "model": "freemium",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "forms",
+        "workflow",
+        "payments",
+        "saas"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "功能多，复杂表单会变成难维护的半成品应用。",
+        "支付与高级集成多在付费档。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.fillout.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "fillout",
+      "name": "Fillout",
+      "category": "growth-forms",
+      "subcategory": "form-builder",
+      "oneLiner": "现代产品向表单 · 计算/支付/调度块强 · 嵌入友好",
+      "officialUrl": "https://www.fillout.com",
+      "descriptionMd": "Fillout 定位为产品与运营可快速组装的现代表单：计算字段、支付、预约、PDF 映射与嵌入组件较齐全，适合把表单当成轻量「小应用」而不是静态问卷。\n\n表单里要收付款、预约或生成 PDF/报价这类多步流程时评估；只要简单 waitlist 用 Tally 更轻。\n\n功能面宽，模板与权限要自己克制，否则维护成本接近半个 internal app。\n",
+      "vendorId": "fillout-inc"
     },
     {
       "pricing": {
@@ -13163,6 +13773,46 @@
     },
     {
       "pricing": {
+        "model": "subscription",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "affiliate",
+        "referral",
+        "saas",
+        "marketing"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "规则复杂时容易配错佣金，上线前用沙箱订单验收。",
+        "与计费系统重复统计会打架，要钉死主数据源。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://firstpromoter.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "firstpromoter",
+      "name": "FirstPromoter",
+      "category": "growth-affiliate",
+      "subcategory": "affiliate",
+      "oneLiner": "SaaS 联盟全功能 · 多集成 · 自动化营销触达",
+      "officialUrl": "https://firstpromoter.com",
+      "descriptionMd": "FirstPromoter 是面向 SaaS 的联盟与推荐平台：跟踪链接/优惠码、佣金与 payout、推广者门户，并集成常见计费与营销工具，覆盖从线索到结佣的运营动作。\n\n需要比 Rewardful 更完整的联盟后台、多集成与 outbound 触达时评估；只要 Stripe 极速上线可先 Rewardful。\n\n配置面宽，规则设错会造成错佣；与支付/CRM 双重统计时要统一订单真相源。\n",
+      "vendorId": "firstpromoter-inc"
+    },
+    {
+      "pricing": {
         "model": "freemium"
       },
       "availability": {
@@ -13331,6 +13981,47 @@
       "descriptionMd": "Flagsmith 提供开源的功能开关与远程配置服务，支持自托管与官方托管两种形态；除布尔开关外也常被用来下发多变体配置，前端与移动端 SDK 覆盖较全。\n\n既要功能开关也要远程配置、并希望保留「先用托管、后转自建」退路的团队适合评估。\n\n实验统计能力有限，A/B 结论仍需外部分析；自托管版本的规模化与高可用要自己压测和运维。\n",
       "vendorId": "flagsmith-inc",
       "githubUrl": "https://github.com/Flagsmith/flagsmith"
+    },
+    {
+      "pricing": {
+        "model": "open-source",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "community",
+        "forum",
+        "open-source",
+        "self-hosted"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "企业级支持与托管 SLA 弱。",
+        "扩展升级兼容要回归测试。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://flarum.org"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "flarum",
+      "name": "Flarum",
+      "category": "collab-community",
+      "subcategory": "forum",
+      "oneLiner": "轻量开源论坛 · 扩展生态 · 部署与心智比 Discourse 轻",
+      "officialUrl": "https://flarum.org",
+      "descriptionMd": "Flarum 是轻量 PHP 开源论坛：现代化 UI、扩展市场，部署与默认心智比 Discourse 更轻，适合中小站「先跑起来」的社区，而不是企业级信任体系论坛。\n\n要可自托管的简洁论坛、团队运维预算有限时评估；大规模信任等级、官方托管 SLA 与重度 SEO 运维更常见选 Discourse。\n\n企业支持与托管选项弱于 Discourse；扩展质量参差，升级需测兼容。\n",
+      "vendorId": "flarum-inc",
+      "githubUrl": "https://github.com/flarum/flarum"
     },
     {
       "pricing": {
@@ -13859,6 +14550,48 @@
       "oneLiner": "ICU MessageFormat · 对齐浏览器 Intl · react-intl 底层",
       "officialUrl": "https://formatjs.io",
       "descriptionMd": "FormatJS 实现 ICU MessageFormat  polyfill 与 react-intl，与浏览器 Intl API 对齐，Facebook 生态广泛使用。\n\n需要 standards-based i18n、或 polyfill 老浏览器 Intl 时采用；react-intl 是 React 官方推荐路径之一。\n\nAPI 较底层；extract CLI 与 translator workflow 需自建或配 Crowdin。\n"
+    },
+    {
+      "pricing": {
+        "model": "open-source",
+        "currency": "USD",
+        "notes": "云托管订阅；自托管开源"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "forms",
+        "survey",
+        "open-source",
+        "product"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "强项在产品内触发，不适合作为完整对外营销表单站。",
+        "自托管需维护版本与用户隐私合规配置。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://formbricks.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "formbricks",
+      "name": "Formbricks",
+      "category": "growth-forms",
+      "subcategory": "in-app-survey",
+      "oneLiner": "开源产品内调研 · 触发式问卷 · 可自托管隐私友好",
+      "officialUrl": "https://formbricks.com",
+      "descriptionMd": "Formbricks 是开源的产品内调研与体验收集工具，可按事件/页面触发问卷，支持云托管与自托管，强调把反馈嵌进产品路径而不是外链问卷页。\n\n需要 NPS/PMF/功能反馈贴在产品会话里、并在意数据驻留时评估；对外营销落地页表单用 Tally/Typeform 更合适。\n\n外向品牌调研与视觉模板不如 Typeform；自托管仍要做更新与存储运维。\n",
+      "vendorId": "formbricks-inc",
+      "githubUrl": "https://github.com/formbricks/formbricks"
     },
     {
       "pricing": {
@@ -18908,6 +19641,46 @@
     },
     {
       "pricing": {
+        "model": "subscription",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "social",
+        "enterprise",
+        "suite",
+        "scheduling"
+      ],
+      "maturity": "mature",
+      "pitfalls": [
+        "席位与模块打包报价，中小团队性价比通常不理想。",
+        "配置与培训成本显著高于轻量排期工具。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.hootsuite.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "hootsuite",
+      "name": "Hootsuite",
+      "category": "growth-social",
+      "subcategory": "social-suite",
+      "oneLiner": "企业级社媒套件 · 收件箱/审批/报表重 · 采购周期长",
+      "officialUrl": "https://www.hootsuite.com",
+      "descriptionMd": "Hootsuite 是面向中大型团队的社媒运营套件：统一收件箱、发布审批、权限分级与跨渠道报表，往往以组织采购与落地实施方式引入，而不是个人作者工具。\n\n多部门共管品牌账号、需要审批留痕、合规与培训支持时评估；Indie 个人号用它过重，优先 Buffer / Typefully / Postiz。\n\n价格与席位体系偏企业；上手与配置成本高于简洁排期工具。\n",
+      "vendorId": "hootsuite-inc"
+    },
+    {
+      "pricing": {
         "model": "freemium"
       },
       "availability": {
@@ -19128,6 +19901,46 @@
       "officialUrl": "https://www.huaweicloud.com/product/ocr.html",
       "descriptionMd": "华为云 OCR 提供通用文字与卡证票据等识别能力，面向国内政企与行业云客户，强调合规落地与行业方案包装。\n\n已在华为云、招投标要求国产云栈或行业云时评估；效果用业务样张与阿里/腾讯对照。\n\n开发者社区与 indie 文档热度通常弱于阿里/腾讯；效果需用业务样张实测。\n",
       "vendorId": "huawei"
+    },
+    {
+      "pricing": {
+        "model": "freemium",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "crm",
+        "marketing",
+        "suite",
+        "saas"
+      ],
+      "maturity": "mature",
+      "pitfalls": [
+        "进阶自动化与报告往往要跨 Hub 付费，总账易失控。",
+        "数据与流程深度绑套件后迁移贵。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.hubspot.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "hubspot",
+      "name": "HubSpot",
+      "category": "collab-crm",
+      "subcategory": "suite-crm",
+      "oneLiner": "营销销售客服套件锚点 · 免费 CRM 起盘 · 席位升级账单高",
+      "officialUrl": "https://www.hubspot.com",
+      "descriptionMd": "HubSpot 以免费 CRM 起盘，向上打包 Marketing/Sales/Service Hub，把线索、管道、邮件、落地页与客服放在同一套件——是增长团队的套件默认项，而不是「极简轻 CRM」新锐。\n\n同时要 inbound 内容、营销自动化与销售管道、可接受套件绑定与席位单价时评估；只想灵活对象模型优先 Attio，只要看板管道优先 Pipedrive。\n\n报告、自动化与多 Hub 功能升级后费用跳升快；套件锁定迁移成本高。\n",
+      "vendorId": "hubspot-inc"
     },
     {
       "pricing": {
@@ -19968,6 +20781,86 @@
     },
     {
       "pricing": {
+        "model": "freemium",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "image",
+        "video",
+        "cdn",
+        "transform"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "复杂 AI 变换与企业 DAM 深度弱于 Cloudinary。",
+        "视频长流媒体仍建议专用视频栈对照 Mux。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://imagekit.io"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "imagekit",
+      "name": "ImageKit",
+      "category": "net-media",
+      "subcategory": "image-cdn",
+      "oneLiner": "开发者图视频 CDN · 性价比 Cloudinary 对照 · DAM 可选",
+      "officialUrl": "https://imagekit.io",
+      "descriptionMd": "ImageKit 提供实时变换、优化投递与可选 DAM，API 面接近 imgix/Cloudinary 路径，计价往往以带宽为主，常被当作 Cloudinary 的中档对照与 imgix 风格 drop-in。\n\n需要 URL 变换与中等流量账单可预期、又想可选资产库时评估；极端 AI 生成式变换与企业 DAM 流程仍是 Cloudinary 强项。\n\nAI/生成式能力与生态插件深度不及头部；选型前按真实变换矩阵压测。\n",
+      "vendorId": "imagekit-inc"
+    },
+    {
+      "pricing": {
+        "model": "usage",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "image",
+        "cdn",
+        "transform",
+        "performance"
+      ],
+      "maturity": "mature",
+      "pitfalls": [
+        "带宽起价与最低消费对小站不友好。",
+        "视频与 DAM 深度不及 Cloudinary / Mux。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.imgix.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "imgix",
+      "name": "imgix",
+      "category": "net-media",
+      "subcategory": "image-cdn",
+      "oneLiner": "URL 实时图像变换标杆 · 接已有对象存储 · 媒体站向",
+      "officialUrl": "https://www.imgix.com",
+      "descriptionMd": "imgix 以 URL 参数驱动的实时图像渲染与全球投递见长，可挂在自有 S3/GCS 等源站之上，强调色彩与渲染品质，常见于内容与电商图站而非全能 DAM。\n\n已有对象存储、只要高质量点选裁切与格式协商、且流量规模值得专业图 CDN 时评估；要一体化上传+AI 工作流看 Cloudinary。\n\n入门带宽档偏贵；长视频不是主场，完整视频流水线另看 Mux。\n",
+      "vendorId": "imgix-inc"
+    },
+    {
+      "pricing": {
         "model": "open-source"
       },
       "availability": {
@@ -20416,11 +21309,11 @@
       "sources": [
         "https://www.iubenda.com"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-06",
       "region": "overseas",
       "id": "iubenda",
       "name": "iubenda",
-      "category": "sec-compliance",
+      "category": "sec-privacy-legal",
       "subcategory": "privacy-consent",
       "oneLiner": "隐私政策生成 + 同意管理 · 多语种欧盟条款 · 嵌一段脚本即可",
       "officialUrl": "https://www.iubenda.com",
@@ -20461,6 +21354,46 @@
       "oneLiner": "CNCF tracing · OTel 兼容 · 跨服务调用链可视化",
       "officialUrl": "https://www.jaegertracing.io",
       "descriptionMd": "Jaeger 是 CNCF 分布式 tracing 项目，支持 OpenTelemetry，适合可视化跨服务调用链与延迟瓶颈。\n\n自建 K8s 可观测、或已标准化 OpenTelemetry 导出时需要 trace backend。\n\n生产级存储需 Elasticsearch/Cassandra 等；UI 功能不如商业 APM 丰富。\n"
+    },
+    {
+      "pricing": {
+        "model": "freemium",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "bug-reporting",
+        "devtools",
+        "screen-recording",
+        "developer"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "会捕获网络与控制台，密钥出现在请求里时有泄露风险。",
+        "不替代系统化 APM 与错误聚合。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://jam.dev"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "jam-dev",
+      "name": "Jam",
+      "category": "collab-async-capture",
+      "subcategory": "dev-bug-capture",
+      "oneLiner": "录屏+控制台/网络元数据 · 开发者缺陷包 · 对标 Marker",
+      "officialUrl": "https://jam.dev",
+      "descriptionMd": "Jam 把屏幕录制与浏览器控制台、网络请求等开发者上下文打成一条缺陷报告，方便前端复现，介于「给人看的 Loom」与「圈 UI 的 Marker」之间的工程向捕获。\n\n工程团队要减少「本地复现不了」来回、把技术上下文塞进 ticket 时评估；纯设计批注用 Marker，纯产品讲解用 Loom。\n\n隐私与网络日志要规范；重度分析向会话回放仍看 LogRocket 一类。\n",
+      "vendorId": "jam-dev-inc"
     },
     {
       "pricing": {
@@ -21603,6 +22536,46 @@
     },
     {
       "pricing": {
+        "model": "usage",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "notifications",
+        "orchestration",
+        "developer",
+        "inbox"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "事件量大后费用需用采样与合并策略控制。",
+        "不替代生命周期营销平台的分群旅程能力。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://knock.app"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "knock",
+      "name": "Knock",
+      "category": "msg-orchestration",
+      "subcategory": "notification-platform",
+      "oneLiner": "开发者向通知平台 · 批次与偏好 · 产品 inbox",
+      "officialUrl": "https://knock.app",
+      "descriptionMd": "Knock 面向产品工程团队：用工作流定义通知、跨渠道发送、管理用户偏好与站内收件箱，强调类型安全集成与可观测，把「何时通知谁」从业务代码中抽离。\n\nB2B SaaS 通知规则复杂、需要统一偏好与 inbox 体验时评估；纯营销旅程编排请看 Customer.io / Braze。\n\n价格随事件量走；重度营销自动化不是定位。\n",
+      "vendorId": "knock-inc"
+    },
+    {
+      "pricing": {
         "model": "open-source"
       },
       "availability": {
@@ -22488,6 +23461,46 @@
       "descriptionMd": "Laravel 提供 elegant ORM（Eloquent）、queue、auth 与 Livewire/Inertia 前端集成，是 modern PHP 旗舰框架。\n\nPHP 团队构建 SaaS、需要快速迭代与丰富 package 生态时。\n\n超高并发需 Octane/Horizon 调优；与 Node/Go 比 CPU 密集任务弱。\n",
       "vendorId": "laravel-inc",
       "currentVersion": "13"
+    },
+    {
+      "pricing": {
+        "model": "freemium",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "social",
+        "instagram",
+        "tiktok",
+        "scheduling"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "文字向平台（如深度线程写作）体验不及专用工具。",
+        "链接库与分析增强功能常在更高档位。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://later.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "later-social",
+      "name": "Later",
+      "category": "growth-social",
+      "subcategory": "social-scheduler",
+      "oneLiner": "视觉优先 IG/TikTok 日历 · 网红连结带货向",
+      "officialUrl": "https://later.com",
+      "descriptionMd": "Later 以视觉内容日历著称，深度覆盖 Instagram、TikTok 等图像/短视频渠道，并延展到链路、创作者协作与基础电商导流，适合视觉营销团队按网格规划上线节奏。\n\n品牌或创作者以 IG / TikTok 视觉为主、需要「排版感」日历时评估；以 X 长线程或开发者 API 发布为主请换 Typefully / Ayrshare。\n\n偏视觉渠道，文字向平台深度一般；高档位功能与链接工具常需加购。\n",
+      "vendorId": "later-inc"
     },
     {
       "pricing": {
@@ -23853,6 +24866,46 @@
         ]
       },
       "tags": [
+        "async-video",
+        "screen-recording",
+        "collaboration",
+        "saas"
+      ],
+      "maturity": "mature",
+      "pitfalls": [
+        "不是产品分析用的访客会话回放。",
+        "企业数据驻留与权限策略要单独配置。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.loom.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "loom",
+      "name": "Loom",
+      "category": "collab-async-capture",
+      "subcategory": "async-video",
+      "oneLiner": "异步录屏沟通默认 · 链接即播 · 非 session 回放产品分析",
+      "officialUrl": "https://www.loom.com",
+      "descriptionMd": "Loom 让人快速录制屏幕与摄像头说明，生成可分享链接，定位是团队异步沟通与支持讲解，而不是网站访客行为回放或缺陷批注工具。\n\n跨时区讲解需求、产品演示与支持话术需要可暂停回看的短视频时优先；访客 session 回放看 LogRocket/Hotjar 叶，页面上钉缺陷看 Marker。\n\n席位与观看/AI 功能按档；敏感屏幕需流程规范，避免泄密录屏外发。\n",
+      "vendorId": "loom-inc"
+    },
+    {
+      "pricing": {
+        "model": "freemium",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
         "email",
         "saas",
         "lifecycle",
@@ -24468,6 +25521,46 @@
     },
     {
       "pricing": {
+        "model": "freemium",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "automation",
+        "ipaas",
+        "nocode",
+        "integration"
+      ],
+      "maturity": "mature",
+      "pitfalls": [
+        "画布自由度高，场景容易搭成难维护的蜘蛛网。",
+        "计费与操作包规则要按峰值流量测算。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.make.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "make-com",
+      "name": "Make",
+      "category": "cicd-automation",
+      "subcategory": "ipaas",
+      "oneLiner": "可视化场景编排强 · 性价比常见平替 · 原 Integromat",
+      "officialUrl": "https://www.make.com",
+      "descriptionMd": "Make（原 Integromat）用可视化场景画布编排多步自动化，路由器、聚合器与错误处理粒度细，同样是 Zapier 常见对照项，适合中等复杂度的 SaaS 间数据流。\n\n流程步骤多、需更细的分支与数据整形、又不想立即上代码时评估；连接器数量整体仍略逊 Zapier 头部目录。\n\n学习曲线高于「线性 Zap」；操作与数据量计费规则要细看。\n",
+      "vendorId": "make-inc"
+    },
+    {
+      "pricing": {
         "model": "open-source"
       },
       "availability": {
@@ -24623,6 +25716,46 @@
       "oneLiner": "MySQL 原作者分支 · 协议兼容+引擎扩展 · 发行版常见默认",
       "officialUrl": "https://mariadb.org",
       "descriptionMd": "MariaDB 由 MySQL 原作者维护的分支，保持协议兼容并增加存储引擎与优化，被多家 Linux 发行版作为默认 MySQL 替代。\n\n希望开源协议更友好、或从 MySQL 平滑迁移且不需 Oracle 商业支持时选用；托管版广泛。\n\n与 MySQL 8 新特性存在差异；Galera 集群配置需专门 DBA 经验。\n"
+    },
+    {
+      "pricing": {
+        "model": "subscription",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "bug-reporting",
+        "qa",
+        "feedback",
+        "annotation"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "环境白名单与 PII 遮罩未配好会录到敏感信息。",
+        "不能替代正式测试用例与自动化。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://marker.io"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "marker-io",
+      "name": "Marker",
+      "category": "collab-async-capture",
+      "subcategory": "visual-bug-feedback",
+      "oneLiner": "页面可视缺陷标注 · 一键进工单 · 设计/QA 反馈向",
+      "officialUrl": "https://marker.io",
+      "descriptionMd": "Marker 让干系人在真实页面上圈注问题并附截图/录制元数据，把反馈一键送进 issue 工具，定位是视觉验收与缺陷沟通，而非异步人声讲解或访客分析。\n\n设计/产品/客户要在预发环境「指哪里改哪里」、且进 Linear/Jira 时评估；工程复现会话用 Jam 或 session replay，只讲概念用 Loom。\n\n按席位/项目计费；落地页 SDK 与权限要配白名单，避免扫到生产敏感数据。\n",
+      "vendorId": "marker-io-inc"
     },
     {
       "pricing": {
@@ -25371,6 +26504,46 @@
       ],
       "descriptionMd": "Muse Video 是 Meta 2026-07 推出的 agentic 视频生成能力，经 Meta AI 等消费入口提供，与 Muse Image 同族；Arena Text-to-Video 约第 3。\n\n已在 Meta 生态做社交/创作者视频，或观察 agentic 视频工作流时纳入短名单。\n\n企业 API 与商用条款、产品入口变化快；国内不可用。\n",
       "lastReviewed": "2026-07-24"
+    },
+    {
+      "pricing": {
+        "model": "freemium",
+        "currency": "EUR"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "social",
+        "analytics",
+        "scheduling",
+        "saas"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "跨平台指标口径依赖各家官方数据，竞品估算别当精确 KPI。",
+        "大型组织权限与审批能力仍弱于企业套件。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://metricool.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "metricool",
+      "name": "Metricool",
+      "category": "growth-social",
+      "subcategory": "social-analytics",
+      "oneLiner": "分析+排期一体 · 多网络面板 · 中小品牌性价比向",
+      "officialUrl": "https://metricool.com",
+      "descriptionMd": "Metricool 把多社交网络的表现分析与发布排期放在同一面板，并覆盖 Ads / 竞品粗看等运营视角，常见于中小品牌与代理用一套工具兼顾「发」与「看」。\n\n账号数量中等、既要发帖又要周报级复盘、预算有限时评估；只要极简排期用 Buffer，只要 API 灌内容用 Ayrshare。\n\n企业级治理与深社群客服弱；数据与 Ads 口径以各平台导出为准，跨工具对比需注意归因。\n",
+      "vendorId": "metricool-inc"
     },
     {
       "pricing": {
@@ -26422,6 +27595,48 @@
     },
     {
       "pricing": {
+        "model": "open-source",
+        "currency": "USD",
+        "notes": "Lite 开源；Pro/Enterprise 一次买断（以官网为准）"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "social",
+        "scheduling",
+        "open-source",
+        "self-hosted"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "Lite 渠道较少，Instagram/TikTok 等常需 Pro。",
+        "自托管运维与密钥轮换由团队自担。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://mixpost.app"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "mixpost",
+      "name": "Mixpost",
+      "category": "growth-social",
+      "subcategory": "social-scheduler",
+      "oneLiner": "自托管 Buffer 体验 · Laravel 栈 · Lite 开源 / Pro 买断",
+      "officialUrl": "https://mixpost.app",
+      "githubUrl": "https://github.com/inovector/mixpost",
+      "descriptionMd": "Mixpost 是自托管向的社媒排期控制台，界面与工作流接近经典 Buffer：队列、日历、多账号发布。Lite 开源可自用，Pro/Enterprise 一次买断高级渠道与能力，栈为 Laravel，适合要「自己的 Buffer」又不愿订阅云的团队。\n\n运维能接受 PHP/Laravel 自托管、想要成熟 Buffer 感而不是 Agent 向产品时与 Postiz 对照；要 AI Agent/MCP 与更广新平台优先 Postiz。\n\nPro 渠道与功能在商业许可；自托管需管升级、存储与各平台 OAuth，Lite 渠道覆盖窄于 Pro。\n",
+      "vendorId": "inovector-inc"
+    },
+    {
+      "pricing": {
         "model": "open-source"
       },
       "availability": {
@@ -27165,6 +28380,46 @@
     },
     {
       "pricing": {
+        "model": "usage",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "video",
+        "streaming",
+        "api",
+        "developer"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "按编码分钟与观众分钟计费，爆款时要控清晰度与缓存。",
+        "不是图像 CDN，图与 DAM 仍要另选。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.mux.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "mux",
+      "name": "Mux",
+      "category": "net-media",
+      "subcategory": "video-api",
+      "oneLiner": "开发者视频基础设施 · 上传转码播放 API · 不兼 DAM",
+      "officialUrl": "https://www.mux.com",
+      "descriptionMd": "Mux 面向开发者提供视频上传、转码、自适应播放与数据分析 API/SDK，定位是「把视频当基础设施接入」，而不是通用图像变换或营销 DAM。\n\n用户生成视频、课程回放、产品内嵌播放器需要可靠转码与播放数据时优先；图站与多格式静态资源请用 Cloudinary/imgix/ImageKit。\n\n视频分钟与 CDN 出站按量计费，热门内容要预算；不覆盖图库/DAM 全流程。\n",
+      "vendorId": "mux-inc"
+    },
+    {
+      "pricing": {
         "model": "open-source"
       },
       "availability": {
@@ -27219,7 +28474,12 @@
           "global"
         ]
       },
-      "tags": [],
+      "tags": [
+        "automation",
+        "ipaas",
+        "open-source",
+        "self-hosted"
+      ],
       "maturity": "stable",
       "pitfalls": [
         "复杂 Agent reasoning 非其强项；应用层逻辑应用专用 Agent 框架。"
@@ -27229,12 +28489,12 @@
       "sources": [
         "https://n8n.io"
       ],
-      "lastReviewed": "2026-07-23",
+      "lastReviewed": "2026-08-06",
       "region": "overseas",
       "id": "n8n",
       "name": "n8n",
-      "category": "ai-rag",
-      "subcategory": "workflow-automation",
+      "category": "cicd-automation",
+      "subcategory": "ipaas",
       "oneLiner": "fair-code 节点工作流 · API/DB/LLM 串联 · AI+ops 混合自动化",
       "officialUrl": "https://n8n.io",
       "descriptionMd": "n8n 是 fair-code workflow 工具，节点连接 API/DB/LLM，可 self-host，适合 AI+ops 混合 automation。\n\n需要连接 Slack/GitHub/Postgres 与 OpenAI 做 internal automation、且重视 data residency 时。\n\n复杂 Agent reasoning 非其强项；应用层逻辑应用专用 Agent 框架。\n",
@@ -28195,6 +29455,48 @@
     },
     {
       "pricing": {
+        "model": "open-source",
+        "currency": "USD",
+        "notes": "云版按量/订阅；自托管开源"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "notifications",
+        "orchestration",
+        "open-source",
+        "multichannel"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "编排层不替代优质发信域名与短信签名资质。",
+        "渠道一多，模板与变量约定需要严格规范。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://novu.co"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "novu",
+      "name": "Novu",
+      "category": "msg-orchestration",
+      "subcategory": "notification-platform",
+      "oneLiner": "开源通知编排 · 多渠道模板 · 可自托管",
+      "officialUrl": "https://novu.co",
+      "descriptionMd": "Novu 是开源通知基础设施：统一管理邮件/短信/推送/站内信等渠道模板与工作流，提供偏好管理与投递日志，可云可自托管，避免在业务代码里散落各家 SDK。\n\n产品通知类型变多、要可观测的多渠道编排与用户偏好中心时评估；只要事务邮件 API 用 Resend 即可。\n\n各供应商送达率仍取决于底层 ESP/SMS；自托管要管队列与密钥。\n",
+      "vendorId": "novu-inc",
+      "githubUrl": "https://github.com/novuhq/novu"
+    },
+    {
+      "pricing": {
         "model": "free"
       },
       "availability": {
@@ -28495,11 +29797,11 @@
       "sources": [
         "https://www.onetrust.com"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-06",
       "region": "overseas",
       "id": "onetrust",
       "name": "OneTrust",
-      "category": "sec-compliance",
+      "category": "sec-privacy-legal",
       "subcategory": "privacy-consent",
       "oneLiner": "企业级隐私治理 · 同意管理/数据地图/数据主体请求全覆盖",
       "officialUrl": "https://www.onetrust.com",
@@ -31008,6 +32310,86 @@
     },
     {
       "pricing": {
+        "model": "freemium",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "automation",
+        "developer",
+        "webhook",
+        "ipaas"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "执行时长与并发有平台上限，重任务要拆分。",
+        "业务关键路径不宜长期停在胶水脚本层。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://pipedream.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "pipedream",
+      "name": "Pipedream",
+      "category": "cicd-automation",
+      "subcategory": "ipaas",
+      "oneLiner": "代码步骤优先 · 事件/ webhook 自动 · 开发者向",
+      "officialUrl": "https://pipedream.com",
+      "descriptionMd": "Pipedream 面向开发者：用代码或低代码步骤处理 webhook、定时与 SaaS 事件，内置密钥管理与日志，适合「连接器 + 几行 JS/Python」而不是纯拖拽运营流。\n\n工程师要快速落地事件处理、原型集成或胶水逻辑、又不想自管服务器时采用；纯运营自助请用 Zapier/Make。\n\n平台运行额度与超时限制需设计幂等与重试；关键链路最终仍建议产品内服务化。\n",
+      "vendorId": "pipedream-inc"
+    },
+    {
+      "pricing": {
+        "model": "subscription",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "crm",
+        "sales",
+        "pipeline",
+        "saas"
+      ],
+      "maturity": "mature",
+      "pitfalls": [
+        "复杂多产品线与非交易型关系建模吃力。",
+        "高级自动化与报告常在更高席位档。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.pipedrive.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "pipedrive",
+      "name": "Pipedrive",
+      "category": "collab-crm",
+      "subcategory": "pipeline-crm",
+      "oneLiner": "视觉交易管道极简 · 销售自管向 · 少对象建模",
+      "officialUrl": "https://www.pipedrive.com",
+      "descriptionMd": "Pipedrive 围绕「交易从左到右过管道」设计：可视化看板、活动提醒与销售报告，配置面刻意窄，适合流程线性的销售个人或小团队。\n\noutbound 为主、只要清晰交易阶段与活动节奏、不要复杂自定义对象时采用；要关系图谱与对象自由用 Attio，要营销漏斗一体用 HubSpot。\n\n无慷慨长期免费档；自定义对象与跨团队工作流弱于现代灵活 CRM。\n",
+      "vendorId": "pipedrive-inc"
+    },
+    {
+      "pricing": {
         "model": "free"
       },
       "availability": {
@@ -31787,6 +33169,48 @@
     },
     {
       "pricing": {
+        "model": "open-source",
+        "currency": "USD",
+        "notes": "云版订阅；自托管免费但需运维"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "social",
+        "scheduling",
+        "open-source",
+        "self-hosted"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "AGPL 许可对嵌入闭源产品有约束，商用分发前先看法务。",
+        "各社交平台 API 政策与配额会变，连接器健康度要持续关注。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://postiz.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "postiz",
+      "name": "Postiz",
+      "category": "growth-social",
+      "subcategory": "social-scheduler",
+      "oneLiner": "202x 开源社媒排期首选动量 · 30+ 平台 · Agent/API/n8n",
+      "officialUrl": "https://postiz.com",
+      "descriptionMd": "Postiz 是当前开源社媒排期里动量最大的一档（AGPL）：可云可自托管，覆盖主流与新兴网络，提供日历、Public API、MCP/CLI 与 n8n 节点，方便用 Agent 或工作流起草后定时多发。\n\n要开源/自托管且跟 AI Agent 自动化同栈、或对照 Buffer/Hootsuite 找可自控替代时优先；若更想要经典 Buffer UI 与 Laravel 栈买断，对照 Mixpost。\n\nAGPL 与平台 OAuth 政策需团队评估；自托管要管账号绑定、密钥与升级，云套餐按团队规模计价。\n",
+      "vendorId": "gitroom-inc",
+      "githubUrl": "https://github.com/gitroomhq/postiz-app"
+    },
+    {
+      "pricing": {
         "model": "freemium"
       },
       "availability": {
@@ -32013,6 +33437,46 @@
     },
     {
       "pricing": {
+        "model": "subscription",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "feedback",
+        "roadmap",
+        "product-management",
+        "enterprise"
+      ],
+      "maturity": "mature",
+      "pitfalls": [
+        "学习与配置成本高，一人团队不划算。",
+        "订阅价格面向团队规模，扩张后账单跳升快。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.productboard.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "productboard",
+      "name": "Productboard",
+      "category": "growth-feedback",
+      "subcategory": "product-management",
+      "oneLiner": "产品管理重镇 · 洞察到路线图 · 面向 PM 组织",
+      "officialUrl": "https://www.productboard.com",
+      "descriptionMd": "Productboard 面向产品管理组织：沉淀客户洞察、机会与功能优先级，再落到路线图与发布沟通，常与工单、CRM、分析工具打通，属于 PM 工作台而非简单投票墙。\n\n有专职 PM、要「洞察—机会—交付」闭环与多产品线规划时评估；Indie 一人项目通常过重，用 Canny/Frill 即可。\n\n价格与实施成本显著；学习曲线陡，中小团队容易买而不用。\n",
+      "vendorId": "productboard-inc"
+    },
+    {
+      "pricing": {
         "model": "open-source"
       },
       "availability": {
@@ -32151,6 +33615,46 @@
       "oneLiner": "B2B 多租户专精 · hosted login+org/roles · Slack 式 invite",
       "officialUrl": "https://www.propelauth.com",
       "descriptionMd": "PropelAuth 提供 hosted login、org 管理、roles 与 Slack 式 invite flow，专为 B2B multi-tenant SaaS 设计。\n\n早期 B2B 需要 org 切换、RBAC 与 audit 而不想自建 UI 时选 PropelAuth；比 WorkOS 更偏 end-user auth。\n\nEnterprise SAML 深度不如 WorkOS；mobile SDK 与 social login 对照需求清单。\n"
+    },
+    {
+      "pricing": {
+        "model": "freemium",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "social",
+        "scheduling",
+        "bulk",
+        "saas"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "企业级审批与社群收件箱能力有限。",
+        "免费额度的账号数与历史数据偏紧。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://publer.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "publer",
+      "name": "Publer",
+      "category": "growth-social",
+      "subcategory": "social-scheduler",
+      "oneLiner": "批量与内容库向 · 多账号日历 · 中小矩阵常用",
+      "officialUrl": "https://publer.com",
+      "descriptionMd": "Publer 面向多账号矩阵运营：提供内容库、批量上传、可视化日历与基础回收分析，适合一个运营人同时管多品牌或多市场账号。\n\n小微团队账号数上来、需要批量重排与素材库复用时评估；开发者想用 API 灌内容可看 Ayrshare，开源自托管看 Postiz。\n\n企业级工作流与深度聆听弱于 Hootsuite 级套件；免费档渠道与席位紧。\n",
+      "vendorId": "publer-inc"
     },
     {
       "pricing": {
@@ -34423,6 +35927,46 @@
     {
       "pricing": {
         "model": "subscription",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "affiliate",
+        "stripe",
+        "saas",
+        "referral"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "基本假设是 Stripe 订阅，其他支付栈要自研桥接。",
+        "复杂多级分销与税务合规仍需商务侧补齐。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.getrewardful.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "rewardful",
+      "name": "Rewardful",
+      "category": "growth-affiliate",
+      "subcategory": "affiliate",
+      "oneLiner": "Stripe 订阅联盟即装 · SaaS 推荐返佣 · 启用快",
+      "officialUrl": "https://www.getrewardful.com",
+      "descriptionMd": "Rewardful 面向 Stripe 订阅型 SaaS：提供联盟链接、佣金规则与推荐人后台，把「推荐注册并付费 → 自动计佣」接到现有结账流，适合快速上线 affiliate。\n\n已用 Stripe Billing、想做推荐返佣且不想自建归因时优先；多支付通道或复杂 MLM 级规则请看更完整联盟平台。\n\n强绑定 Stripe 生态；非订阅/一次性商品与多 PSP 场景能力有限。\n",
+      "vendorId": "rewardful-inc"
+    },
+    {
+      "pricing": {
+        "model": "subscription",
         "currency": "USD",
         "notes": "按模块与人数组合计费，以官网报价为准"
       },
@@ -35165,6 +36709,46 @@
       "descriptionMd": "Sanity 把内容存为托管的结构化文档，用 GROQ 查询取数；编辑后台 Studio 是可自行编码与部署的 React 应用，支持实时协作与自定义输入控件。\n\n内容模型复杂、需要把编辑器改造成业务专用工作台，或看重实时协作与富文本可移植性时评估；常与 Next.js、Vercel 同栈。\n\nGROQ 与可移植富文本是自有口径，前端需要适配层；Studio 定制能力强也意味着要自己维护这份代码。\n",
       "vendorId": "sanity-inc",
       "docsUrl": "https://www.sanity.io/docs"
+    },
+    {
+      "pricing": {
+        "model": "subscription",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "scheduling",
+        "calendar",
+        "ux",
+        "saas"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "缺少可长期使用的免费档，个人成本需接受订阅。",
+        "销售团队复杂路由与 CRM 深度不如 Calendly。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://savvycal.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "savvycal",
+      "name": "SavvyCal",
+      "category": "collab-scheduling",
+      "subcategory": "scheduling",
+      "oneLiner": "预约页 UX 标杆 · 对方日历叠加 · 顾问/招聘高质感",
+      "officialUrl": "https://savvycal.com",
+      "descriptionMd": "SavvyCal 把预约体验做得很克制：邀请对象可在选时段时叠加查看自己的日历，减少来回改期；适合顾问、创始人与招聘等「对方时间很贵」的一对一约见。\n\n在意被约方体验、品牌调性，且团队不大时与 Calendly 对打；要销售路由/企业 CRM 深集成用 Calendly，要自托管/白标用 Cal.com。\n\n无慷慨免费档；企业级路由与 CRM 集成弱于 Calendly，大规模销售机队不是定位。\n",
+      "vendorId": "savvycal-inc"
     },
     {
       "pricing": {
@@ -38810,6 +40394,46 @@
     },
     {
       "pricing": {
+        "model": "freemium",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "forms",
+        "survey",
+        "indie",
+        "saas"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "企业级权限、审计与专属支持弱。",
+        "极复杂评分/配额逻辑不如专用调研平台。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://tally.so"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "tally",
+      "name": "Tally",
+      "category": "growth-forms",
+      "subcategory": "form-builder",
+      "oneLiner": "Notion 感免费表单 · 逻辑块够用 · Indie 默认候选",
+      "officialUrl": "https://tally.so",
+      "descriptionMd": "Tally 提供接近文档编辑的表单搭建体验，免费档对个人与小团队相当慷慨，支持条件逻辑、文件上传与常见通知集成，是 indie 收集 waitlist、反馈与报名表的常见默认项。\n\n需要快速上线名单表、不付费也能扛一定提交量时优先；要极致对话体验与企业品牌管控再评 Typeform。\n\n超大型合规审计与复杂工作流编排弱于企业表单套件；重度计算字段要实测。\n",
+      "vendorId": "tally-inc"
+    },
+    {
+      "pricing": {
         "model": "open-source"
       },
       "availability": {
@@ -39722,11 +41346,11 @@
       "sources": [
         "https://termly.io"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-06",
       "region": "overseas",
       "id": "termly",
       "name": "Termly",
-      "category": "sec-compliance",
+      "category": "sec-privacy-legal",
       "subcategory": "privacy-consent",
       "oneLiner": "政策生成器 + Cookie 扫描 · 偏美国州级隐私法口径 · 有免费档",
       "officialUrl": "https://termly.io",
@@ -40090,6 +41714,46 @@
       "oneLiner": "页面内点选翻译 · screenshot context · 可 self-host",
       "officialUrl": "https://tolgee.io",
       "descriptionMd": "Tolgee 提供 in-context 点击翻译、screenshot context 与 self-host，降低开发者与译员来回传文件成本。\n\n小团队希望 Crowdin 功能但预算有限、或需 EU self-host 时评估 Tolgee；Chrome 插件 in-context 体验好。\n\nEnterprise SSO 与 workflow 不如 Crowdin 深；极大型 locale 数量要测性能。\n"
+    },
+    {
+      "pricing": {
+        "model": "subscription",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "affiliate",
+        "stripe",
+        "referral",
+        "saas"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "相对新，复杂企业场景案例少于 FirstPromoter 一类。",
+        "仍受底层支付与税务合规约束，别当财务系统。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://tolt.io"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "tolt",
+      "name": "Tolt",
+      "category": "growth-affiliate",
+      "subcategory": "affiliate",
+      "oneLiner": "新一代 Stripe 联盟 · 现代化 UI · SaaS 返佣向",
+      "officialUrl": "https://tolt.io",
+      "descriptionMd": "Tolt 提供面向现代 SaaS 的联盟/推荐软件，深绑 Stripe 等收单，强调简洁设置、推广者体验与自动结佣，定位接近 Rewardful 一代工具的焕新替代。\n\n想用更新的界面与工作流做 Stripe 系推荐计划时对比 Rewardful；大型多货币多实体分佣要验证 payout 细节。\n\n生态年龄短于老牌，边缘集成与案例密度需自行 POC。\n",
+      "vendorId": "tolt-inc"
     },
     {
       "pricing": {
@@ -40610,6 +42274,48 @@
     },
     {
       "pricing": {
+        "model": "open-source",
+        "currency": "USD",
+        "notes": "云订阅；自托管开源"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "crm",
+        "open-source",
+        "self-hosted",
+        "developer"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "连接器广度与 polish 弱于商业头部。",
+        "自托管需运维身份、邮件同步与备份。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://twenty.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "twenty",
+      "name": "Twenty",
+      "category": "collab-crm",
+      "subcategory": "open-source-crm",
+      "oneLiner": "开源现代 CRM · 可自托管 · GraphQL/React 栈",
+      "officialUrl": "https://twenty.com",
+      "descriptionMd": "Twenty 是开源的现代 CRM：React + GraphQL，支持云托管与自托管，界面与数据模型朝现代 B2B 工作台演进，适合要数据驻留或可二次开发的团队。\n\n必须自托管/开源、或要在 CRM 上二次开发、且能承受运维时评估；要开箱营销套件仍是 HubSpot，要托管 AI 灵活对象可先 Attio。\n\n生态集成与 polish 仍追商业 SaaS；生产自托管要管权限、备份与升级。\n",
+      "vendorId": "twenty-inc",
+      "githubUrl": "https://github.com/twentyhq/twenty"
+    },
+    {
+      "pricing": {
         "model": "usage",
         "currency": "USD"
       },
@@ -40643,6 +42349,86 @@
       "oneLiner": "全球 SMS/语音/Verify API · 出海通知与二次验证主力",
       "descriptionMd": "Twilio 提供全球短信、语音与 Verify 等 API，出海通知与二次验证常用。\n\n按量计费；国内短信到达通常还需国内服务商。注意合规（退订、发送者身份）与成本控制。\n\nVerify 产品可降低自建验证码成本；价格按国家/通道差异大，上线前用目标市场测算。\n",
       "officialUrl": "https://www.twilio.com"
+    },
+    {
+      "pricing": {
+        "model": "freemium",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "forms",
+        "survey",
+        "lead-gen",
+        "saas"
+      ],
+      "maturity": "mature",
+      "pitfalls": [
+        "回复额度紧，活动高峰容易撞墙。",
+        "复杂分支与导出能力随档位解锁。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.typeform.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "typeform",
+      "name": "Typeform",
+      "category": "growth-forms",
+      "subcategory": "form-builder",
+      "oneLiner": "对话式表单体验强 · 品牌感好 · 转化页问卷向",
+      "officialUrl": "https://www.typeform.com",
+      "descriptionMd": "Typeform 以一题一屏的对话式表单闻名，强调完成率与品牌呈现，适合调研、线索收集与轻量 quiz，生态连接 Zapier/CRM 成熟。\n\n对外品牌问卷、强调完成体验与分享传播的表单时采用；内部工具表单或要无限免费提交看 Tally，产品内嵌入调研也可评 Formbricks。\n\n免费/低档回复量有限；复杂条件逻辑与数据处理成本随规模上升。\n",
+      "vendorId": "typeform-inc"
+    },
+    {
+      "pricing": {
+        "model": "freemium",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "social",
+        "twitter",
+        "writing",
+        "scheduling"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "主打少数文字渠道，视觉向平台深度弱。",
+        "团队席位与高级分析随订阅档位限制。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://typefully.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "typefully",
+      "name": "Typefully",
+      "category": "growth-social",
+      "subcategory": "social-scheduler",
+      "oneLiner": "偏 X/LinkedIn 的写作台 · 线程排期强 · 创作者节奏向",
+      "officialUrl": "https://typefully.com",
+      "descriptionMd": "Typefully 把长文线程写作、协作编辑与定时发布做在同一编辑器里，尤其擅长 X（Twitter）串文与 LinkedIn 节奏运营，带草稿协作与发布后表现回顾。\n\n以 X / LinkedIn 个人品牌或内容账号为主战场、写长线程多过管全网矩阵时优先；要 Instagram 视觉日历或 20+ 平台矩阵请看 Later / Postiz。\n\n渠道覆盖面窄于全能排期工具；高级协作与分析随档位放开。\n",
+      "vendorId": "typefully-inc"
     },
     {
       "pricing": {
@@ -43833,6 +45619,46 @@
     },
     {
       "pricing": {
+        "model": "freemium",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "automation",
+        "ipaas",
+        "nocode",
+        "integration"
+      ],
+      "maturity": "mature",
+      "pitfalls": [
+        "按任务计费，高频同步会迅速烧额度。",
+        "复杂数据转换与错误重试不如代码工作流灵活。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://zapier.com"
+      ],
+      "lastReviewed": "2026-08-06",
+      "region": "overseas",
+      "id": "zapier",
+      "name": "Zapier",
+      "category": "cicd-automation",
+      "subcategory": "ipaas",
+      "oneLiner": "集成目录最广 · 无代码自动化标杆 · 按任务计费",
+      "officialUrl": "https://zapier.com",
+      "descriptionMd": "Zapier 是业务自动化 iPaaS 的事实标准之一：海量 SaaS 连接器、无代码 Zaps，把表单、CRM、表格与通知串成事件驱动流程，适合运营与非工程角色自助集成。\n\n要在既有云端 SaaS 之间快速搭「如果 A 则 B」、连接器覆盖优先时采用；要自托管与代码级控制看 n8n / Activepieces，开发者 webhook/代码步骤看 Pipedream。\n\n任务量上来后账单陡增；复杂分支与数据转换能力弱于代码工作流。\n",
+      "vendorId": "zapier-inc"
+    },
+    {
+      "pricing": {
         "model": "subscription",
         "currency": "CNY"
       },
@@ -45298,6 +47124,28 @@
       "note": "前端订阅频道、服务端路由发布事件，是 Next.js 里加实时能力的常见做法"
     },
     {
+      "id": "e-activepieces-alt-n8n",
+      "from": "activepieces",
+      "to": "n8n",
+      "type": "alternative_to",
+      "weight": 0.6,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "更偏业务自动化 UI 的开源 iPaaS vs 运维/AI 混合流"
+    },
+    {
+      "id": "e-activepieces-osalt-zapier",
+      "from": "activepieces",
+      "to": "zapier",
+      "type": "open_source_alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "可自托管/扩展 pieces vs 托管 iPaaS 目录"
+    },
+    {
       "id": "e-agora-alt-livekit",
       "from": "agora",
       "to": "livekit",
@@ -46015,6 +47863,17 @@
       "createdAt": "2026-07-23"
     },
     {
+      "id": "e-attio-alt-hubspot",
+      "from": "attio",
+      "to": "hubspot",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "灵活对象+AI 现代 CRM vs 营销销售套件起盘默认"
+    },
+    {
       "id": "e-aurora-mysql-part-of-aws",
       "from": "aurora-mysql",
       "to": "aws",
@@ -46244,6 +48103,17 @@
       "sources": [],
       "createdAt": "2026-08-05",
       "note": "并行策略在配置里声明即可启用，全参训练时常搭配使用"
+    },
+    {
+      "id": "e-ayrshare-alt-buffer",
+      "from": "ayrshare",
+      "to": "buffer",
+      "type": "alternative_to",
+      "weight": 0.55,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "嵌入产品的发帖 API vs 运营用日历 UI"
     },
     {
       "id": "e-azure-access-gpt",
@@ -46569,6 +48439,50 @@
       "note": "极简写作与数据可迁出 vs 媒体化增长与变现工具箱"
     },
     {
+      "id": "e-cal-com-osalt-calendly",
+      "from": "cal-com",
+      "to": "calendly",
+      "type": "open_source_alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "开源可自托管/白标 vs 托管预约默认项"
+    },
+    {
+      "id": "e-cal-com-with-zapier",
+      "from": "cal-com",
+      "to": "zapier",
+      "type": "commonly_used_with",
+      "weight": 0.55,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "预约成功事件推进 CRM / 邮件 / Slack"
+    },
+    {
+      "id": "e-calendly-with-zapier",
+      "from": "calendly",
+      "to": "zapier",
+      "type": "commonly_used_with",
+      "weight": 0.55,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "预约成功后同步到 CRM、Slack 或邮件触达"
+    },
+    {
+      "id": "e-canny-with-intercom",
+      "from": "canny",
+      "to": "intercom",
+      "type": "commonly_used_with",
+      "weight": 0.5,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "客服会话里的需求回流到投票与路线图"
+    },
+    {
       "id": "e-centrifugo-dep-redis",
       "from": "centrifugo",
       "to": "redis",
@@ -46765,6 +48679,28 @@
       "note": "PR 上以待确认状态回写检查项，差异需人工判定通过"
     },
     {
+      "id": "e-circle-so-alt-discord",
+      "from": "circle-so",
+      "to": "discord",
+      "type": "alternative_to",
+      "weight": 0.55,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "付费会员空间与课程 vs 免费实时聊天室枢纽"
+    },
+    {
+      "id": "e-circle-so-with-stripe",
+      "from": "circle-so",
+      "to": "stripe",
+      "type": "commonly_used_with",
+      "weight": 0.55,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "会员订阅与付费空间常接 Stripe 收款"
+    },
+    {
       "id": "e-claude-alt-gemini",
       "from": "claude-opus",
       "to": "gemini-pro",
@@ -46911,6 +48847,28 @@
       "sources": [],
       "createdAt": "2026-08-05",
       "note": "Turnstile 属 Cloudflare 应用安全产品线，但可独立于 CDN 单独接入站点"
+    },
+    {
+      "id": "e-cloudinary-alt-bunny-cdn",
+      "from": "cloudinary",
+      "to": "bunny-cdn",
+      "type": "alternative_to",
+      "weight": 0.45,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "媒体变换/DAM 层 vs 通用低价 CDN（层不同，勿等同比较）"
+    },
+    {
+      "id": "e-cloudinary-with-nextjs",
+      "from": "cloudinary",
+      "to": "nextjs",
+      "type": "commonly_used_with",
+      "weight": 0.55,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "next/image loader 或官方 SDK 做响应式投递"
     },
     {
       "id": "e-cloudron-alt-yunohost",
@@ -47281,6 +49239,28 @@
       "confidence": "community",
       "sources": [],
       "createdAt": "2026-07-23"
+    },
+    {
+      "id": "e-courier-alt-knock",
+      "from": "courier",
+      "to": "knock",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "模板设计器+API 共管 vs 工作流/偏好开发者向"
+    },
+    {
+      "id": "e-courier-with-twilio",
+      "from": "courier",
+      "to": "twilio",
+      "type": "commonly_used_with",
+      "weight": 0.55,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "短信/语音渠道常见走 Twilio 等 CPaaS"
     },
     {
       "id": "e-crawl4ai-igw-llamaindex",
@@ -48378,6 +50358,28 @@
       "note": "Directus 直接包裹既有数据库表，Payload 由代码定义模型再生成存储"
     },
     {
+      "id": "e-discourse-alt-discord",
+      "from": "discourse",
+      "to": "discord",
+      "type": "alternative_to",
+      "weight": 0.6,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "可索引长帖知识社区 vs 实时频道/语音 IM 社区"
+    },
+    {
+      "id": "e-discourse-osalt-circle-so",
+      "from": "discourse",
+      "to": "circle-so",
+      "type": "open_source_alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "开源长帖论坛/SEO vs 托管会员课程社区"
+    },
+    {
       "id": "e-docusaurus-bo-react",
       "from": "docusaurus",
       "to": "react",
@@ -48558,6 +50560,17 @@
       "confidence": "verified",
       "sources": [],
       "createdAt": "2026-07-23"
+    },
+    {
+      "id": "e-dub-with-rewardful",
+      "from": "dub",
+      "to": "rewardful",
+      "type": "commonly_used_with",
+      "weight": 0.5,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "短链/活动链接层 + 订阅联盟计佣层，按职责拆分"
     },
     {
       "id": "e-duckdb-alt-clickhouse",
@@ -48754,6 +50767,17 @@
       "createdAt": "2026-07-24"
     },
     {
+      "id": "e-featurebase-alt-canny",
+      "from": "featurebase",
+      "to": "canny",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "反馈+帮助中心+更新一体、价位更贴中小 vs 经典投票板"
+    },
+    {
       "id": "e-feishu-bot-part-feishu",
       "from": "feishu-bot",
       "to": "feishu",
@@ -48806,6 +50830,39 @@
       "createdAt": "2026-08-05"
     },
     {
+      "id": "e-fider-osalt-canny",
+      "from": "fider",
+      "to": "canny",
+      "type": "open_source_alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "开源可自托管投票板 vs 商业成熟反馈/路线图产品"
+    },
+    {
+      "id": "e-fillout-alt-typeform",
+      "from": "fillout",
+      "to": "typeform",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "计算/支付/预约多块表单 vs 对话式调研体验"
+    },
+    {
+      "id": "e-firstpromoter-alt-rewardful",
+      "from": "firstpromoter",
+      "to": "rewardful",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "更完整联盟运营后台 vs Stripe 极速上线"
+    },
+    {
       "id": "e-fitten-code-domeq-github-copilot",
       "from": "fitten-code",
       "to": "github-copilot",
@@ -48837,6 +50894,17 @@
       "sources": [],
       "createdAt": "2026-08-05",
       "note": "开源开关+远程配置，可托管可自建；实验统计能力弱于商业方案"
+    },
+    {
+      "id": "e-flarum-alt-discourse",
+      "from": "flarum",
+      "to": "discourse",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "更轻部署与 UI vs 信任等级与托管生态更成熟"
     },
     {
       "id": "e-flask-alt-django",
@@ -48912,6 +50980,17 @@
       "sources": [],
       "createdAt": "2026-08-05",
       "note": "Fluent Bit 支持 OTLP 收发，常与 OTel Collector 混编在同一采集链路"
+    },
+    {
+      "id": "e-formbricks-osalt-typeform",
+      "from": "formbricks",
+      "to": "typeform",
+      "type": "open_source_alternative_to",
+      "weight": 0.6,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "开源产品内触发调研 vs 外向对话式表单 SaaS"
     },
     {
       "id": "e-freshdesk-alt-zendesk",
@@ -49531,6 +51610,17 @@
       "note": "同一生态的两层：TRL 决定用什么后训练算法，PEFT 决定改模型的哪部分参数"
     },
     {
+      "id": "e-hootsuite-alt-buffer",
+      "from": "hootsuite",
+      "to": "buffer",
+      "type": "alternative_to",
+      "weight": 0.6,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "企业收件箱/审批/报表 vs 小团队轻量排期"
+    },
+    {
       "id": "e-huawei-agc-part-of-huawei-cloud",
       "from": "huawei-agc",
       "to": "huawei-cloud",
@@ -49637,6 +51727,50 @@
       "createdAt": "2026-07-24"
     },
     {
+      "id": "e-imagekit-alt-cloudinary",
+      "from": "imagekit",
+      "to": "cloudinary",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "带宽向计价、中档变换 vs 全栈 AI/DAM 默认但 credit 更重"
+    },
+    {
+      "id": "e-imagekit-alt-imgix",
+      "from": "imagekit",
+      "to": "imgix",
+      "type": "alternative_to",
+      "weight": 0.65,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "性价比图 CDN + 可选 DAM vs 高端渲染/媒体站图 CDN"
+    },
+    {
+      "id": "e-imgix-alt-cloudinary",
+      "from": "imgix",
+      "to": "cloudinary",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "源站旁路 URL 变换、图品质向 vs 上传+DAM+AI 一体"
+    },
+    {
+      "id": "e-imgix-with-aws-s3",
+      "from": "imgix",
+      "to": "aws-s3",
+      "type": "commonly_used_with",
+      "weight": 0.65,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "S3/源站出图 + imgix 边缘渲染，不强制迁库到媒体云"
+    },
+    {
       "id": "e-infisical-alt-vault",
       "from": "infisical",
       "to": "hashicorp-vault",
@@ -49721,6 +51855,28 @@
       "sources": [],
       "createdAt": "2026-08-05",
       "note": "iubenda 偏欧盟 GDPR 与多语种条款；Termly 偏美国州级隐私法口径"
+    },
+    {
+      "id": "e-jam-dev-alt-loom",
+      "from": "jam-dev",
+      "to": "loom",
+      "type": "alternative_to",
+      "weight": 0.6,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "带控制台/网络的缺陷包 vs 人声异步讲解录屏"
+    },
+    {
+      "id": "e-jam-dev-with-linear",
+      "from": "jam-dev",
+      "to": "linear",
+      "type": "commonly_used_with",
+      "weight": 0.6,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "缺陷包连同复现上下文进 Linear"
     },
     {
       "id": "e-janusgraph-alt-nebulagraph",
@@ -49969,6 +52125,17 @@
       "note": "电商深绑订单与购物车数据 vs 通用营销名单工具"
     },
     {
+      "id": "e-knock-with-resend",
+      "from": "knock",
+      "to": "resend",
+      "type": "commonly_used_with",
+      "weight": 0.6,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "通知工作流把邮件渠道指到 Resend 等 ESP"
+    },
+    {
       "id": "e-koa-alt-fastify",
       "from": "koa",
       "to": "fastify",
@@ -50117,6 +52284,17 @@
       "sources": [],
       "createdAt": "2026-08-05",
       "note": "Laravel 的 HTTP、路由与控制台等底层大量取自 Symfony 组件"
+    },
+    {
+      "id": "e-later-social-alt-buffer",
+      "from": "later-social",
+      "to": "buffer",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "视觉向 IG/TikTok 日历 vs 通用轻量排期"
     },
     {
       "id": "e-linear-alt-gh-projects",
@@ -50290,6 +52468,17 @@
       "note": "ELK 经典组合：Logstash 解析富化，Elasticsearch 承担索引与检索"
     },
     {
+      "id": "e-loom-alt-logrocket",
+      "from": "loom",
+      "to": "logrocket",
+      "type": "alternative_to",
+      "weight": 0.4,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "人对人异步讲解 vs 访客会话工程回放（勿混选型）"
+    },
+    {
       "id": "e-loops-so-alt-mailchimp",
       "from": "loops-so",
       "to": "mailchimp",
@@ -50450,6 +52639,17 @@
       "note": "营销邮件（名单、模板、自动化） vs 事务邮件 API（验证码、账单）；同属发信但选型口径不同"
     },
     {
+      "id": "e-make-com-alt-zapier",
+      "from": "make-com",
+      "to": "zapier",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "细粒度场景画布 vs 最广连接器与心智默认"
+    },
+    {
       "id": "e-manticore-search-alt-elasticsearch",
       "from": "manticore-search",
       "to": "elasticsearch",
@@ -50491,6 +52691,39 @@
       "sources": [],
       "createdAt": "2026-07-23",
       "note": "同产品线条目，选型时合并看待"
+    },
+    {
+      "id": "e-marker-io-alt-jam-dev",
+      "from": "marker-io",
+      "to": "jam-dev",
+      "type": "alternative_to",
+      "weight": 0.65,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "业务方页面圈注验收 vs 工程元数据缺陷捕获"
+    },
+    {
+      "id": "e-marker-io-with-jira",
+      "from": "marker-io",
+      "to": "jira",
+      "type": "commonly_used_with",
+      "weight": 0.6,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "企业工单流常见回写 Jira"
+    },
+    {
+      "id": "e-marker-io-with-linear",
+      "from": "marker-io",
+      "to": "linear",
+      "type": "commonly_used_with",
+      "weight": 0.65,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "圈注反馈一键落 Linear issue"
     },
     {
       "id": "e-mastra-built-ai-sdk",
@@ -50602,6 +52835,17 @@
       "note": "结构化用户画像 vs 通用记忆条目"
     },
     {
+      "id": "e-metricool-alt-buffer",
+      "from": "metricool",
+      "to": "buffer",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "分析+排期一体 vs 主打简洁发布"
+    },
+    {
       "id": "e-midscene-alt-browser-use",
       "from": "midscene",
       "to": "browser-use",
@@ -50686,6 +52930,17 @@
       "sources": [],
       "createdAt": "2026-07-24",
       "note": "旗舰档随产品迭代，以控制台为准"
+    },
+    {
+      "id": "e-mixpost-osalt-buffer",
+      "from": "mixpost",
+      "to": "buffer",
+      "type": "open_source_alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "自托管 Buffer 感控制台 vs 云端经典排期 SaaS"
     },
     {
       "id": "e-mkdocs-alt-docusaurus",
@@ -50859,6 +53114,39 @@
       "confidence": "community",
       "sources": [],
       "createdAt": "2026-07-24"
+    },
+    {
+      "id": "e-mux-alt-cloudinary",
+      "from": "mux",
+      "to": "cloudinary",
+      "type": "alternative_to",
+      "weight": 0.6,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "开发者视频流水线 vs 图视频全能媒体平台（视频维对打）"
+    },
+    {
+      "id": "e-n8n-alt-make-com",
+      "from": "n8n",
+      "to": "make-com",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "可自托管与代码节点 vs 托管可视化场景"
+    },
+    {
+      "id": "e-n8n-osalt-zapier",
+      "from": "n8n",
+      "to": "zapier",
+      "type": "open_source_alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "fair-code 自托管节点流 vs 无代码 SaaS 自动化"
     },
     {
       "id": "e-nativescript-alt-react-native",
@@ -51059,6 +53347,28 @@
       "sources": [],
       "createdAt": "2026-08-05",
       "note": "Next.js 系文档站在 Vercel 上部署最顺路，也可导出静态托管别处"
+    },
+    {
+      "id": "e-novu-osalt-knock",
+      "from": "novu",
+      "to": "knock",
+      "type": "open_source_alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "开源可自托管通知编排 vs 托管开发者通知平台"
+    },
+    {
+      "id": "e-novu-with-resend",
+      "from": "novu",
+      "to": "resend",
+      "type": "commonly_used_with",
+      "weight": 0.65,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "编排层选渠道与模板，Resend 负责邮件投递"
     },
     {
       "id": "e-nuxt-depends-vue",
@@ -51641,6 +53951,39 @@
       "note": "Vue 官方推荐状态库，心智与组合式 API 一致"
     },
     {
+      "id": "e-pipedream-alt-zapier",
+      "from": "pipedream",
+      "to": "zapier",
+      "type": "alternative_to",
+      "weight": 0.6,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "开发者代码步骤与 webhook 优先 vs 运营向无代码"
+    },
+    {
+      "id": "e-pipedrive-alt-attio",
+      "from": "pipedrive",
+      "to": "attio",
+      "type": "alternative_to",
+      "weight": 0.65,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "线性看板销售 vs 可塑对象与关系图谱"
+    },
+    {
+      "id": "e-pipedrive-alt-hubspot",
+      "from": "pipedrive",
+      "to": "hubspot",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "纯交易管道极简 vs 套件化增长 CRM"
+    },
+    {
       "id": "e-plain-com-alt-intercom",
       "from": "plain-com",
       "to": "intercom",
@@ -51768,6 +54111,50 @@
       "createdAt": "2026-07-23"
     },
     {
+      "id": "e-postiz-alt-mixpost",
+      "from": "postiz",
+      "to": "mixpost",
+      "type": "alternative_to",
+      "weight": 0.75,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "Agent/API/多平台动量 vs Laravel 栈 Buffer 感与买断 Pro"
+    },
+    {
+      "id": "e-postiz-osalt-buffer",
+      "from": "postiz",
+      "to": "buffer",
+      "type": "open_source_alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "开源可自托管 + API/Agent 向 vs 经典托管排期 SaaS"
+    },
+    {
+      "id": "e-postiz-osalt-hootsuite",
+      "from": "postiz",
+      "to": "hootsuite",
+      "type": "open_source_alternative_to",
+      "weight": 0.6,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "自托管/开源排期 vs 企业社媒套件"
+    },
+    {
+      "id": "e-postiz-with-n8n",
+      "from": "postiz",
+      "to": "n8n",
+      "type": "commonly_used_with",
+      "weight": 0.65,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "官方/社区常见：工作流生成内容后调用 Postiz API/节点发帖"
+    },
+    {
       "id": "e-prefect-alt-apache-airflow",
       "from": "prefect",
       "to": "apache-airflow",
@@ -51788,6 +54175,17 @@
       "sources": [],
       "createdAt": "2026-08-05",
       "note": "PII 脱敏与安全扫描常串在同一入口层"
+    },
+    {
+      "id": "e-productboard-alt-canny",
+      "from": "productboard",
+      "to": "canny",
+      "type": "alternative_to",
+      "weight": 0.6,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "PM 洞察—机会—路线图工作台 vs 客户投票墙"
     },
     {
       "id": "e-promptfoo-alt-braintrust",
@@ -51821,6 +54219,17 @@
       "sources": [],
       "createdAt": "2026-08-05",
       "note": "离线评测 vs 线上观测，是互补的两层而非二选一"
+    },
+    {
+      "id": "e-publer-alt-buffer",
+      "from": "publer",
+      "to": "buffer",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "批量/内容库与多账号矩阵 vs 极简队列"
     },
     {
       "id": "e-puppeteer-alt-playwright",
@@ -52220,6 +54629,17 @@
       "note": "移动内购走 RevenueCat、Web 订阅走 Stripe 的双轨常态"
     },
     {
+      "id": "e-rewardful-with-stripe",
+      "from": "rewardful",
+      "to": "stripe",
+      "type": "integrates_with",
+      "weight": 0.75,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "订阅与发票事件作为佣金触发源"
+    },
+    {
       "id": "e-rippling-alt-deel",
       "from": "rippling",
       "to": "deel",
@@ -52317,6 +54737,17 @@
       "sources": [],
       "createdAt": "2026-08-05",
       "note": "内容更新触发部署或按需再生成，Studio 亦常托管在同一平台"
+    },
+    {
+      "id": "e-savvycal-alt-calendly",
+      "from": "savvycal",
+      "to": "calendly",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "被约方日历叠加的高质感一对一 vs 销售机队默认预约"
     },
     {
       "id": "e-scaleway-alt-hetzner",
@@ -52963,6 +55394,28 @@
       "note": "自托管补全服务，代码不出内网；手感换算力预算"
     },
     {
+      "id": "e-tally-alt-typeform",
+      "from": "tally",
+      "to": "typeform",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "慷慨免费、文档感搭建 vs 对话式完成率与品牌感"
+    },
+    {
+      "id": "e-tally-with-zapier",
+      "from": "tally",
+      "to": "zapier",
+      "type": "commonly_used_with",
+      "weight": 0.6,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "表单提交事件驱动下游 CRM/通知自动化"
+    },
+    {
       "id": "e-tanstack-start-alt-next",
       "from": "tanstack-start",
       "to": "nextjs",
@@ -53224,6 +55677,17 @@
       "note": "该云厂商旗下产品"
     },
     {
+      "id": "e-termly-alt-cookiebot",
+      "from": "termly",
+      "to": "cookiebot",
+      "type": "alternative_to",
+      "weight": 0.6,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "政策生成器主战场 vs 欧盟 CMP/扫描老牌"
+    },
+    {
       "id": "e-terra-part-gpt",
       "from": "gpt-terra",
       "to": "gpt",
@@ -53312,6 +55776,28 @@
       "note": "可视化编辑的开源方向：内容留在 Git，换掉托管服务与按席位计费"
     },
     {
+      "id": "e-tolt-alt-rewardful",
+      "from": "tolt",
+      "to": "rewardful",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "新一代 Stripe 联盟体验 vs 成熟即装联盟"
+    },
+    {
+      "id": "e-tolt-with-stripe",
+      "from": "tolt",
+      "to": "stripe",
+      "type": "integrates_with",
+      "weight": 0.75,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "深绑 Stripe 结账与订阅状态做归因"
+    },
+    {
       "id": "e-tq-with-react",
       "from": "tanstack-query",
       "to": "react",
@@ -53370,6 +55856,50 @@
       "confidence": "community",
       "sources": [],
       "createdAt": "2026-07-23"
+    },
+    {
+      "id": "e-twenty-alt-attio",
+      "from": "twenty",
+      "to": "attio",
+      "type": "alternative_to",
+      "weight": 0.65,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "开源自托管 vs 托管 AI 现代 CRM"
+    },
+    {
+      "id": "e-twenty-osalt-hubspot",
+      "from": "twenty",
+      "to": "hubspot",
+      "type": "open_source_alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "开源可自托管现代 CRM vs 托管增长套件"
+    },
+    {
+      "id": "e-typeform-with-zapier",
+      "from": "typeform",
+      "to": "zapier",
+      "type": "commonly_used_with",
+      "weight": 0.6,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "完成问卷后进 CRM、表格或 Slack"
+    },
+    {
+      "id": "e-typefully-alt-buffer",
+      "from": "typefully",
+      "to": "buffer",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-06",
+      "note": "X/LinkedIn 写作台 vs 多渠道轻量日历"
     },
     {
       "id": "e-typesense-osalt-algolia",
@@ -60423,6 +62953,12 @@
       "url": "https://www.activecampaign.com"
     },
     {
+      "id": "activepieces-inc",
+      "name": "Activepieces",
+      "region": "overseas",
+      "url": "https://www.activepieces.com"
+    },
+    {
       "id": "actix-team",
       "name": "Actix",
       "region": "overseas",
@@ -60663,6 +63199,12 @@
       "url": "https://www.atlassian.com"
     },
     {
+      "id": "attio-inc",
+      "name": "Attio",
+      "region": "overseas",
+      "url": "https://attio.com"
+    },
+    {
       "id": "augment-code-inc",
       "name": "Augment Code",
       "region": "overseas",
@@ -60709,6 +63251,12 @@
       "name": "Axolotl AI",
       "region": "overseas",
       "url": "https://axolotl.ai"
+    },
+    {
+      "id": "ayrshare-inc",
+      "name": "Ayrshare",
+      "region": "overseas",
+      "url": "https://www.ayrshare.com"
     },
     {
       "id": "baichuan-inc",
@@ -60849,6 +63397,12 @@
       "url": "https://www.browserbase.com"
     },
     {
+      "id": "buffer-inc",
+      "name": "Buffer",
+      "region": "overseas",
+      "url": "https://buffer.com"
+    },
+    {
       "id": "bugsnag-inc",
       "name": "Bugsnag",
       "region": "overseas",
@@ -60883,6 +63437,24 @@
       "name": "字节跳动",
       "region": "domestic",
       "url": "https://www.bytedance.com"
+    },
+    {
+      "id": "cal-com-inc",
+      "name": "Cal.com",
+      "region": "overseas",
+      "url": "https://cal.com"
+    },
+    {
+      "id": "calendly-inc",
+      "name": "Calendly",
+      "region": "overseas",
+      "url": "https://calendly.com"
+    },
+    {
+      "id": "canny-inc",
+      "name": "Canny",
+      "region": "overseas",
+      "url": "https://canny.io"
     },
     {
       "id": "canva-inc",
@@ -60951,6 +63523,12 @@
       "url": "https://www.chromatic.com"
     },
     {
+      "id": "circle-so-inc",
+      "name": "Circle",
+      "region": "overseas",
+      "url": "https://circle.so"
+    },
+    {
       "id": "circleci-inc",
       "name": "CircleCI",
       "region": "overseas",
@@ -60997,6 +63575,12 @@
       "name": "Cloudflare",
       "region": "overseas",
       "url": "https://cloudflare.com"
+    },
+    {
+      "id": "cloudinary-inc",
+      "name": "Cloudinary",
+      "region": "overseas",
+      "url": "https://cloudinary.com"
     },
     {
       "id": "cncf-foundation",
@@ -61105,6 +63689,12 @@
       "name": "CoreWeave",
       "region": "overseas",
       "url": "https://www.coreweave.com"
+    },
+    {
+      "id": "courier-inc",
+      "name": "Courier",
+      "region": "overseas",
+      "url": "https://www.courier.com"
     },
     {
       "id": "coverr-inc",
@@ -61299,6 +63889,12 @@
       "url": "https://discord.com"
     },
     {
+      "id": "discourse-inc",
+      "name": "Discourse",
+      "region": "overseas",
+      "url": "https://www.discourse.org"
+    },
+    {
       "id": "django-software",
       "name": "Django Software Foundation",
       "region": "overseas",
@@ -61327,6 +63923,12 @@
       "name": "Dribbble",
       "region": "overseas",
       "url": "https://dribbble.com"
+    },
+    {
+      "id": "dub-inc",
+      "name": "Dub",
+      "region": "overseas",
+      "url": "https://dub.co"
     },
     {
       "id": "duckdb-labs",
@@ -61467,10 +64069,28 @@
       "url": "https://usefathom.com"
     },
     {
+      "id": "featurebase-inc",
+      "name": "Featurebase",
+      "region": "overseas",
+      "url": "https://www.featurebase.app"
+    },
+    {
+      "id": "fider-inc",
+      "name": "Fider",
+      "region": "overseas",
+      "url": "https://fider.io"
+    },
+    {
       "id": "figma-inc",
       "name": "Figma",
       "region": "overseas",
       "url": "https://www.figma.com"
+    },
+    {
+      "id": "fillout-inc",
+      "name": "Fillout",
+      "region": "overseas",
+      "url": "https://www.fillout.com"
     },
     {
       "id": "firebase-inc",
@@ -61489,6 +64109,12 @@
       "name": "Fireworks AI",
       "region": "overseas",
       "url": "https://fireworks.ai"
+    },
+    {
+      "id": "firstpromoter-inc",
+      "name": "FirstPromoter",
+      "region": "overseas",
+      "url": "https://firstpromoter.com"
     },
     {
       "id": "fish-audio-inc",
@@ -61521,6 +64147,12 @@
       "url": "https://www.flagsmith.com"
     },
     {
+      "id": "flarum-inc",
+      "name": "Flarum",
+      "region": "overseas",
+      "url": "https://flarum.org"
+    },
+    {
       "id": "flet-dev",
       "name": "Flet",
       "region": "overseas",
@@ -61549,6 +64181,12 @@
       "name": "Font Awesome",
       "region": "overseas",
       "url": "https://fontawesome.com"
+    },
+    {
+      "id": "formbricks-inc",
+      "name": "Formbricks",
+      "region": "overseas",
+      "url": "https://formbricks.com"
     },
     {
       "id": "framer-inc-v",
@@ -61645,6 +64283,12 @@
       "name": "GitLab",
       "region": "overseas",
       "url": "https://about.gitlab.com"
+    },
+    {
+      "id": "gitroom-inc",
+      "name": "Gitroom",
+      "region": "overseas",
+      "url": "https://postiz.com"
     },
     {
       "id": "gladia-inc",
@@ -61851,6 +64495,12 @@
       "url": "https://hono.dev"
     },
     {
+      "id": "hootsuite-inc",
+      "name": "Hootsuite",
+      "region": "overseas",
+      "url": "https://www.hootsuite.com"
+    },
+    {
       "id": "hotjar-inc",
       "name": "Hotjar",
       "region": "overseas",
@@ -61867,6 +64517,12 @@
       "name": "华为",
       "region": "domestic",
       "url": "https://www.huawei.com"
+    },
+    {
+      "id": "hubspot-inc",
+      "name": "HubSpot",
+      "region": "overseas",
+      "url": "https://www.hubspot.com"
     },
     {
       "id": "huggingface",
@@ -61935,6 +64591,18 @@
       "url": "https://www.xfyun.cn"
     },
     {
+      "id": "imagekit-inc",
+      "name": "ImageKit",
+      "region": "overseas",
+      "url": "https://imagekit.io"
+    },
+    {
+      "id": "imgix-inc",
+      "name": "imgix",
+      "region": "overseas",
+      "url": "https://www.imgix.com"
+    },
+    {
       "id": "infisical-inc",
       "name": "Infisical",
       "region": "overseas",
@@ -61945,6 +64613,12 @@
       "name": "InfluxData",
       "region": "overseas",
       "url": "https://www.influxdata.com"
+    },
+    {
+      "id": "inovector-inc",
+      "name": "Inovector",
+      "region": "overseas",
+      "url": "https://mixpost.app"
     },
     {
       "id": "instatus-inc",
@@ -62001,6 +64675,12 @@
       "url": "https://www.jaided.ai"
     },
     {
+      "id": "jam-dev-inc",
+      "name": "Jam",
+      "region": "overseas",
+      "url": "https://jam.dev"
+    },
+    {
       "id": "jd-nervjs",
       "name": "京东凹凸实验室",
       "region": "domestic",
@@ -62047,6 +64727,12 @@
       "name": "Klaviyo",
       "region": "overseas",
       "url": "https://www.klaviyo.com"
+    },
+    {
+      "id": "knock-inc",
+      "name": "Knock",
+      "region": "overseas",
+      "url": "https://knock.app"
     },
     {
       "id": "koajs",
@@ -62113,6 +64799,12 @@
       "name": "Laravel",
       "region": "overseas",
       "url": "https://laravel.com"
+    },
+    {
+      "id": "later-inc",
+      "name": "Later",
+      "region": "overseas",
+      "url": "https://later.com"
     },
     {
       "id": "launchdarkly-inc",
@@ -62217,6 +64909,12 @@
       "url": "https://lokalise.com"
     },
     {
+      "id": "loom-inc",
+      "name": "Loom",
+      "region": "overseas",
+      "url": "https://www.loom.com"
+    },
+    {
       "id": "loops-inc",
       "name": "Loops",
       "region": "overseas",
@@ -62235,10 +64933,22 @@
       "url": "https://lumalabs.ai"
     },
     {
+      "id": "make-inc",
+      "name": "Make",
+      "region": "overseas",
+      "url": "https://www.make.com"
+    },
+    {
       "id": "manticore-software",
       "name": "Manticore Software",
       "region": "overseas",
       "url": "https://manticoresearch.com"
+    },
+    {
+      "id": "marker-io-inc",
+      "name": "Marker",
+      "region": "overseas",
+      "url": "https://marker.io"
     },
     {
       "id": "mastra-inc",
@@ -62299,6 +65009,12 @@
       "name": "Meta",
       "region": "overseas",
       "url": "https://meta.com"
+    },
+    {
+      "id": "metricool-inc",
+      "name": "Metricool",
+      "region": "overseas",
+      "url": "https://metricool.com"
     },
     {
       "id": "metronome-inc",
@@ -62457,6 +65173,12 @@
       "url": "https://www.usemultiplier.com"
     },
     {
+      "id": "mux-inc",
+      "name": "Mux",
+      "region": "overseas",
+      "url": "https://www.mux.com"
+    },
+    {
       "id": "n8n-io",
       "name": "n8n",
       "region": "overseas",
@@ -62557,6 +65279,12 @@
       "name": "Novita AI",
       "region": "overseas",
       "url": "https://novita.ai"
+    },
+    {
+      "id": "novu-inc",
+      "name": "Novu",
+      "region": "overseas",
+      "url": "https://novu.co"
     },
     {
       "id": "onesignal-inc",
@@ -62769,6 +65497,18 @@
       "url": "https://www.pinterest.com"
     },
     {
+      "id": "pipedream-inc",
+      "name": "Pipedream",
+      "region": "overseas",
+      "url": "https://pipedream.com"
+    },
+    {
+      "id": "pipedrive-inc",
+      "name": "Pipedrive",
+      "region": "overseas",
+      "url": "https://www.pipedrive.com"
+    },
+    {
       "id": "pixverse-inc",
       "name": "PixVerse",
       "region": "overseas",
@@ -62841,10 +65581,22 @@
       "url": "https://www.primefaces.org"
     },
     {
+      "id": "productboard-inc",
+      "name": "Productboard",
+      "region": "overseas",
+      "url": "https://www.productboard.com"
+    },
+    {
       "id": "promptlayer-inc",
       "name": "PromptLayer",
       "region": "overseas",
       "url": "https://promptlayer.com"
+    },
+    {
+      "id": "publer-inc",
+      "name": "Publer",
+      "region": "overseas",
+      "url": "https://publer.com"
     },
     {
       "id": "pusher-inc",
@@ -62991,6 +65743,12 @@
       "url": "https://revenuecat.com"
     },
     {
+      "id": "rewardful-inc",
+      "name": "Rewardful",
+      "region": "overseas",
+      "url": "https://www.getrewardful.com"
+    },
+    {
       "id": "rippling-inc",
       "name": "Rippling",
       "region": "overseas",
@@ -63061,6 +65819,12 @@
       "name": "Sanity",
       "region": "overseas",
       "url": "https://www.sanity.io"
+    },
+    {
+      "id": "savvycal-inc",
+      "name": "SavvyCal",
+      "region": "overseas",
+      "url": "https://savvycal.com"
     },
     {
       "id": "scala-lang",
@@ -63423,6 +66187,12 @@
       "url": "https://tailwindcss.com"
     },
     {
+      "id": "tally-inc",
+      "name": "Tally",
+      "region": "overseas",
+      "url": "https://tally.so"
+    },
+    {
       "id": "tamagui-inc",
       "name": "Tamagui",
       "region": "overseas",
@@ -63519,6 +66289,12 @@
       "url": "https://github.com/tokio-rs/axum"
     },
     {
+      "id": "tolt-inc",
+      "name": "Tolt",
+      "region": "overseas",
+      "url": "https://tolt.io"
+    },
+    {
       "id": "tongyi",
       "name": "通义",
       "region": "domestic",
@@ -63549,10 +66325,28 @@
       "url": "https://turso.tech"
     },
     {
+      "id": "twenty-inc",
+      "name": "Twenty",
+      "region": "overseas",
+      "url": "https://twenty.com"
+    },
+    {
       "id": "twilio-inc",
       "name": "Twilio",
       "region": "overseas",
       "url": "https://www.twilio.com"
+    },
+    {
+      "id": "typeform-inc",
+      "name": "Typeform",
+      "region": "overseas",
+      "url": "https://www.typeform.com"
+    },
+    {
+      "id": "typefully-inc",
+      "name": "Typefully",
+      "region": "overseas",
+      "url": "https://typefully.com"
     },
     {
       "id": "typesense-inc",
@@ -63781,6 +66575,12 @@
       "name": "小米",
       "region": "domestic",
       "url": "https://mi.com"
+    },
+    {
+      "id": "zapier-inc",
+      "name": "Zapier",
+      "region": "overseas",
+      "url": "https://zapier.com"
     },
     {
       "id": "zcool-inc",
@@ -68589,6 +71389,13 @@
       "order": 1
     },
     {
+      "id": "cicd-automation",
+      "name": "业务工作流自动化",
+      "kind": "leaf",
+      "parent": "cicd-devops",
+      "order": 2
+    },
+    {
       "id": "msg-email",
       "name": "邮件",
       "kind": "leaf",
@@ -68636,6 +71443,13 @@
       "kind": "leaf",
       "parent": "domain-dns-cdn",
       "order": 2
+    },
+    {
+      "id": "net-media",
+      "name": "媒体处理 / 图像视频 CDN",
+      "kind": "leaf",
+      "parent": "domain-dns-cdn",
+      "order": 3
     },
     {
       "id": "sec-secrets",
@@ -68981,6 +71795,13 @@
       "order": 5
     },
     {
+      "id": "msg-orchestration",
+      "name": "通知编排 / 多渠道",
+      "kind": "leaf",
+      "parent": "messaging",
+      "order": 6
+    },
+    {
       "id": "growth-seo",
       "name": "SEO / 关键词",
       "kind": "leaf",
@@ -69000,6 +71821,34 @@
       "kind": "leaf",
       "parent": "analytics-growth",
       "order": 4
+    },
+    {
+      "id": "growth-social",
+      "name": "社媒排期 / 多平台发布",
+      "kind": "leaf",
+      "parent": "analytics-growth",
+      "order": 5
+    },
+    {
+      "id": "growth-forms",
+      "name": "表单 / 问卷 / 名单",
+      "kind": "leaf",
+      "parent": "analytics-growth",
+      "order": 6
+    },
+    {
+      "id": "growth-feedback",
+      "name": "反馈 / 路线图 / Changelog",
+      "kind": "leaf",
+      "parent": "analytics-growth",
+      "order": 7
+    },
+    {
+      "id": "growth-affiliate",
+      "name": "联盟 / 推荐 / 短链",
+      "kind": "leaf",
+      "parent": "analytics-growth",
+      "order": 8
     },
     {
       "id": "sec-appsec",
@@ -69023,6 +71872,13 @@
       "order": 4
     },
     {
+      "id": "sec-privacy-legal",
+      "name": "隐私政策 / 同意 / 法律模板",
+      "kind": "leaf",
+      "parent": "security-compliance",
+      "order": 5
+    },
+    {
       "id": "collab-cms",
       "name": "内容管理 / CMS",
       "kind": "leaf",
@@ -69035,6 +71891,34 @@
       "kind": "leaf",
       "parent": "collaboration",
       "order": 5
+    },
+    {
+      "id": "collab-scheduling",
+      "name": "预约 / 会议排程",
+      "kind": "leaf",
+      "parent": "collaboration",
+      "order": 6
+    },
+    {
+      "id": "collab-crm",
+      "name": "CRM / 销售管道",
+      "kind": "leaf",
+      "parent": "collaboration",
+      "order": 7
+    },
+    {
+      "id": "collab-community",
+      "name": "社区 / 论坛",
+      "kind": "leaf",
+      "parent": "collaboration",
+      "order": 8
+    },
+    {
+      "id": "collab-async-capture",
+      "name": "异步录屏 / 页面标注",
+      "kind": "leaf",
+      "parent": "collaboration",
+      "order": 9
     },
     {
       "id": "global-hire",
@@ -73557,6 +76441,24 @@
       "chinaAccessible": true
     },
     {
+      "id": "activepieces",
+      "name": "Activepieces",
+      "haystackName": "activepieces activepieces",
+      "haystackMid": "开源 zapier 替代 · 片段可扩展 · 可自托管 automation open-source ipaas self-hosted",
+      "haystackLow": "activepieces 是开源的业务自动化平台，提供流动画布与可扩展 pieces（连接器），可云可自托管，定位为 zapier/make 的可自掌控替代，方便团队按需写自定义片段。\n\n要数据驻留或二次开发连接器、又希望界面仍面向运营同学时评估；纯最广 saas 目录先 zapier。\n\n连接器广度仍追头部；生产自托管要自己做高可用与密钥治理。\n",
+      "category": "cicd-automation",
+      "region": "overseas",
+      "tags": [
+        "automation",
+        "open-source",
+        "ipaas",
+        "self-hosted"
+      ],
+      "pricing": "open-source",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
       "id": "actix-web",
       "name": "Actix Web",
       "haystackName": "actix web actix-web",
@@ -74730,6 +77632,24 @@
       "chinaAccessible": true
     },
     {
+      "id": "attio",
+      "name": "Attio",
+      "haystackName": "attio attio",
+      "haystackMid": "灵活对象模型 + ai · 202x b2b 现代 crm · 三席免费档 crm b2b ai saas",
+      "haystackLow": "attio 是面向现代 b2b 团队的 crm：自定义对象与关系、邮件日历同步、enrichment 与 ai 问询，强调用你的数据模型运转，而不是塞进固定销售漏斗模板。\n\n种子到成长期 saas 要可塑对象、关系洞察与 ai 辅助跟进、又不想一上来上营销套件时优先；纯视觉管道可看 pipedrive，要营销+销售一体看 hubspot。\n\n高阶自动化与呼叫智能多在付费档；超大销售机队与强合规采购仍可能走 salesforce 路线。\n",
+      "category": "collab-crm",
+      "region": "overseas",
+      "tags": [
+        "crm",
+        "b2b",
+        "ai",
+        "saas"
+      ],
+      "pricing": "freemium",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
       "id": "augment-code",
       "name": "Augment Code",
       "haystackName": "augment code augment-code",
@@ -75123,6 +78043,24 @@
       "region": "overseas",
       "tags": [],
       "pricing": "open-source",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
+      "id": "ayrshare",
+      "name": "Ayrshare",
+      "haystackName": "ayrshare ayrshare",
+      "haystackMid": "开发者向社媒发帖 api · 多平台一套接口 · 嵌产品内 social api developer scheduling",
+      "haystackLow": "ayrshare 提供统一 rest api，让应用替用户绑定并发布到多个社交网络，覆盖排期、媒体上传与基础历史查询，定位是「嵌入你自己的产品」，不是运营人员用的日历 ui。\n\nsaas / 白标要给客户「连接账号 → 发帖」能力、又不想逐家对接 oauth 时采用；自用内容日历请用 buffer / postiz 一类产品。\n\n按消息与账号档位计费，峰值成本会随活跃客户上涨；各平台政策变更会影响可用能力。\n",
+      "category": "growth-social",
+      "region": "overseas",
+      "tags": [
+        "social",
+        "api",
+        "developer",
+        "scheduling"
+      ],
+      "pricing": "subscription",
       "maturity": "stable",
       "chinaAccessible": true
     },
@@ -75831,6 +78769,24 @@
       "chinaAccessible": false
     },
     {
+      "id": "buffer",
+      "name": "Buffer",
+      "haystackName": "buffer buffer",
+      "haystackMid": "经典轻量社媒排期默认 · 小团队零学习 · 不做重型套件 social scheduling saas creators",
+      "haystackLow": "buffer 是经典的社媒内容日历：把草稿排进队列、多账号定时发布，并附带基础互动与表现分析，界面克制，适合小团队建立固定发帖节奏。\n\n独立开发者或小运营组需要「够用、别太重」的排期工具时；企业级审批流、社群客服收件箱请看 hootsuite 或专用社媒套件。\n\n深度社群互动与大型团队权限管理偏弱；高级分析与更多渠道在付费档。\n",
+      "category": "growth-social",
+      "region": "overseas",
+      "tags": [
+        "social",
+        "scheduling",
+        "saas",
+        "creators"
+      ],
+      "pricing": "freemium",
+      "maturity": "mature",
+      "chinaAccessible": true
+    },
+    {
       "id": "bugsnag",
       "name": "Bugsnag",
       "haystackName": "bugsnag bugsnag",
@@ -75926,6 +78882,60 @@
       ],
       "pricing": "freemium",
       "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
+      "id": "cal-com",
+      "name": "Cal.com",
+      "haystackName": "cal.com cal-com",
+      "haystackMid": "开源 calendly 替代 · 可自托管 · 开发者可白标 scheduling calendar open-source self-hosted",
+      "haystackLow": "cal.com 是开源的会议预约基础设施：链接选时、多日历冲突检测、团队活动类型与 webhook/api，可云可自托管，适合把预约嵌进产品或品牌域名。\n\n需要自托管/白标、或要把「约 demo」事件送进自己的 crm/自动化时优先；只要个人约咨询且零运维用 calendly 更快。\n\n日历提供商边界情况与时区规则要实测；自托管要维护邮件投递与可用时段同步。\n",
+      "category": "collab-scheduling",
+      "region": "overseas",
+      "tags": [
+        "scheduling",
+        "calendar",
+        "open-source",
+        "self-hosted"
+      ],
+      "pricing": "open-source",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
+      "id": "calendly",
+      "name": "Calendly",
+      "haystackName": "calendly calendly",
+      "haystackMid": "预约链接事实标准 · 零运维 · 销售/成功团队普及 scheduling calendar sales saas",
+      "haystackLow": "calendly 让个人与团队共享可预约时段链接，自动避开冲突并写入日历、可挂视频会议与提醒，是销售演示、成功回访与候选人面试排程的常见默认。\n\n个人或小团队要最快上线「约 30 分钟」页、不关心自托管时优先；要深度白标与源码控制评 cal.com。\n\n高级路由、集体可用性与 crm 深集成在高价档；表单字段复杂时体验一般。\n",
+      "category": "collab-scheduling",
+      "region": "overseas",
+      "tags": [
+        "scheduling",
+        "calendar",
+        "sales",
+        "saas"
+      ],
+      "pricing": "freemium",
+      "maturity": "mature",
+      "chinaAccessible": true
+    },
+    {
+      "id": "canny",
+      "name": "Canny",
+      "haystackName": "canny canny",
+      "haystackMid": "功能投票与路线图经典位 · 客户声音汇入 · 公开板 feedback roadmap changelog saas",
+      "haystackLow": "canny 把用户提交的功能请求做成可投票看板，并关联更新状态与 changelog，帮助产品团队把「客户声音 → 优先级 → 已上线公告」串在同一处。\n\nsaas 需要公开/半公开路线图与投票、让客户参与优先级时评估；纯内部需求池也可以用，但会弱化社群感。\n\n深度产品管理（机会评分、目标树）不如 productboard；进阶席位与多板块按订阅收费。\n",
+      "category": "growth-feedback",
+      "region": "overseas",
+      "tags": [
+        "feedback",
+        "roadmap",
+        "changelog",
+        "saas"
+      ],
+      "pricing": "subscription",
+      "maturity": "mature",
       "chinaAccessible": true
     },
     {
@@ -76198,6 +79208,24 @@
       ],
       "pricing": "freemium",
       "maturity": "mature",
+      "chinaAccessible": true
+    },
+    {
+      "id": "circle-so",
+      "name": "Circle",
+      "haystackName": "circle circle-so",
+      "haystackMid": "托管会员社区 · 课程/空间/活动一体 · 创作者变现向 community membership courses saas",
+      "haystackLow": "circle 是托管社区 saas：空间、课程、活动、直播与会员订阅放在同一产品，强调运营与变现工具，而不是开源论坛源码。\n\n课程/付费会员/创作者要一站式空间与支付、零运维时评估；要 seo 长尾知识库与自托管用 discourse，工程/游戏实时社区常见配 discord。\n\n成员与功能档位订阅；数据与定制深度受 saas 约束，迁出成本存在。\n",
+      "category": "collab-community",
+      "region": "overseas",
+      "tags": [
+        "community",
+        "membership",
+        "courses",
+        "saas"
+      ],
+      "pricing": "subscription",
+      "maturity": "stable",
       "chinaAccessible": true
     },
     {
@@ -76555,6 +79583,25 @@
       ],
       "pricing": "freemium",
       "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
+      "id": "cloudinary",
+      "name": "Cloudinary",
+      "haystackName": "cloudinary cloudinary",
+      "haystackMid": "图像+视频变换/dam 一体 · ai 变换深 · 全栈默认但账单陡 image video cdn dam transform",
+      "haystackLow": "cloudinary 是全栈媒体平台：上传、存储、url/api 实时变换、优化投递与 dam，覆盖图与视频，并提供生成式裁切、去背等 ai 能力，常被当作媒体管道的默认采购位。\n\n产品需要智能裁切、叠加层、多格式自适应与统一资产库，愿意接受 credit/用量型计价时评估；只要视频流水线看 mux，只要廉价图优化看 imagekit/imgix。\n\n变换与带宽 credit 模型易在流量上来后跳涨；功能面宽，误用会把简单交付做成重平台。\n",
+      "category": "net-media",
+      "region": "overseas",
+      "tags": [
+        "image",
+        "video",
+        "cdn",
+        "dam",
+        "transform"
+      ],
+      "pricing": "freemium",
+      "maturity": "mature",
       "chinaAccessible": true
     },
     {
@@ -77035,7 +80082,7 @@
       "haystackName": "cookiebot cookiebot",
       "haystackMid": "cookie 自动扫描分类 · 同意日志可留痕 · 欧盟 cmp 老牌 privacy gdpr consent cookies",
       "haystackLow": "cookiebot 专注 cookie 与追踪脚本的自动扫描、分类与同意管理，生成可审计的同意日志，并支持与 google consent mode 等标签体系联动，现属 usercentrics。\n\n站点埋点复杂、需要定期扫描清点第三方脚本并留存同意证据时选它；只要一份静态政策文本、没有追踪脚本的站点则不必上 cmp。\n\n工具只是流程助手，合规结论仍取决于真实数据处理与审计机构判断；阻断式加载会让统计口径明显变化，上线前要和数据团队对齐。\n",
-      "category": "sec-compliance",
+      "category": "sec-privacy-legal",
       "region": "overseas",
       "tags": [
         "privacy",
@@ -77110,6 +80157,24 @@
       "tags": [
         "document",
         "nosql"
+      ],
+      "pricing": "freemium",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
+      "id": "courier",
+      "name": "Courier",
+      "haystackName": "courier courier",
+      "haystackMid": "设计器+api 通知平台 · 多渠道 · 模板中心向 notifications orchestration templates multichannel",
+      "haystackLow": "courier 提供可视化模板与开发者 api 并行的通知平台，连接邮件、推送、聊天等多渠道，便于产品与运营共管模板内容，同时保留代码触发。\n\n需要非工程师也能改通知文案、又要统一投递与日志时评估；只要极简事务邮件或只要开源自托管分别看 resend / novu。\n\n模板治理与环境（dev/prod）流程要设计好，否则内容事故会放大。\n",
+      "category": "msg-orchestration",
+      "region": "overseas",
+      "tags": [
+        "notifications",
+        "orchestration",
+        "templates",
+        "multichannel"
       ],
       "pricing": "freemium",
       "maturity": "stable",
@@ -77970,6 +81035,24 @@
       "chinaAccessible": true
     },
     {
+      "id": "discourse",
+      "name": "Discourse",
+      "haystackName": "discourse discourse",
+      "haystackMid": "开源论坛标杆 · seo 友好长帖 · 可自托管可托管 community forum open-source self-hosted",
+      "haystackLow": "discourse 是开源论坛平台：主题式讨论、信任等级、搜索与 seo 友好的永久链接，可官方托管也可自托管，是「可被搜索的社区知识库」常见选型。\n\n要公开/半公开问答、文档站并行、可自持数据与主题定制时优先；会员付费圈与课程社群可看 circle，实时语音聊天看 discord。\n\n运维与主题定制成本高于闭源 saas；实时语音与轻聊不是强项。\n",
+      "category": "collab-community",
+      "region": "overseas",
+      "tags": [
+        "community",
+        "forum",
+        "open-source",
+        "self-hosted"
+      ],
+      "pricing": "open-source",
+      "maturity": "mature",
+      "chinaAccessible": true
+    },
+    {
       "id": "django",
       "name": "Django",
       "haystackName": "django django",
@@ -78271,6 +81354,24 @@
         "sql"
       ],
       "pricing": "open-source",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
+      "id": "dub",
+      "name": "Dub",
+      "haystackName": "dub dub",
+      "haystackMid": "短链/归因/二维码 · 可自托管 · 联盟能力可选 links affiliate analytics open-source",
+      "haystackLow": "dub 是面向增长团队的链接基础设施：自定义短链、点击分析、二维码与基础联盟/转化追踪，提供云版与开源自托管，常作为营销活动与多触点归因的链接层。\n\n需要品牌短链、活动 utm 统一管理或自托管链接服务时评估；只做 stripe 推荐佣金后台用 rewardful 更垂直。\n\n链接层不替代完整广告归因；高级团队协作与 sso 多在高档位。\n",
+      "category": "growth-affiliate",
+      "region": "overseas",
+      "tags": [
+        "links",
+        "affiliate",
+        "analytics",
+        "open-source"
+      ],
+      "pricing": "freemium",
       "maturity": "stable",
       "chinaAccessible": true
     },
@@ -78829,6 +81930,24 @@
       "chinaAccessible": true
     },
     {
+      "id": "featurebase",
+      "name": "Featurebase",
+      "haystackName": "featurebase featurebase",
+      "haystackMid": "canny 平替向 · 反馈/帮助中心/更新一体 · 价位亲民 feedback roadmap changelog help-center",
+      "haystackLow": "featurebase 把功能投票、帮助中心与产品更新发布收敛到一套产品，常被当作 canny 的轻量替代，覆盖从收集反馈、公示状态到教育用户「本周上了什么」的前半段旅程。\n\n中小团队要同时有反馈板、简易知识库与更新日志，又不想把 canny + 帮助中心 + changelog 三家拼在一起时评估。\n\n大型企业的工作流与分析深度仍有差距；若三块都浅用，不如拆回专用工具做深。\n",
+      "category": "growth-feedback",
+      "region": "overseas",
+      "tags": [
+        "feedback",
+        "roadmap",
+        "changelog",
+        "help-center"
+      ],
+      "pricing": "freemium",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
       "id": "feishu-bot",
       "name": "飞书机器人",
       "haystackName": "飞书机器人 feishu-bot",
@@ -78879,6 +81998,24 @@
       "chinaAccessible": true
     },
     {
+      "id": "fider",
+      "name": "Fider",
+      "haystackName": "fider fider",
+      "haystackMid": "开源功能投票板 · 可自托管 · 简链路反馈→状态 feedback roadmap open-source self-hosted",
+      "haystackLow": "fider 是开源的功能请求与投票板：用户提交想法、投票排序，团队更新状态，数据可完全自托管。云托管与自建都支持，定位是干净的「客户声音墙」而不是完整 pm 套件。\n\n要开源/数据自持的公开路线图与投票、又不想上 canny 级商业订阅时优先；要 changelog+帮助中心一体化看 featurebase，要 pm 洞察体看 productboard。\n\n没有企业级产品组合与机会评分；高级品牌与 sso 等多在商业托管档或需自研。\n",
+      "category": "growth-feedback",
+      "region": "overseas",
+      "tags": [
+        "feedback",
+        "roadmap",
+        "open-source",
+        "self-hosted"
+      ],
+      "pricing": "open-source",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
       "id": "figma",
       "name": "Figma",
       "haystackName": "figma figma",
@@ -78892,6 +82029,24 @@
       ],
       "pricing": "freemium",
       "maturity": "mature",
+      "chinaAccessible": true
+    },
+    {
+      "id": "fillout",
+      "name": "Fillout",
+      "haystackName": "fillout fillout",
+      "haystackMid": "现代产品向表单 · 计算/支付/调度块强 · 嵌入友好 forms workflow payments saas",
+      "haystackLow": "fillout 定位为产品与运营可快速组装的现代表单：计算字段、支付、预约、pdf 映射与嵌入组件较齐全，适合把表单当成轻量「小应用」而不是静态问卷。\n\n表单里要收付款、预约或生成 pdf/报价这类多步流程时评估；只要简单 waitlist 用 tally 更轻。\n\n功能面宽，模板与权限要自己克制，否则维护成本接近半个 internal app。\n",
+      "category": "growth-forms",
+      "region": "overseas",
+      "tags": [
+        "forms",
+        "workflow",
+        "payments",
+        "saas"
+      ],
+      "pricing": "freemium",
+      "maturity": "stable",
       "chinaAccessible": true
     },
     {
@@ -78986,6 +82141,24 @@
       "chinaAccessible": true
     },
     {
+      "id": "firstpromoter",
+      "name": "FirstPromoter",
+      "haystackName": "firstpromoter firstpromoter",
+      "haystackMid": "saas 联盟全功能 · 多集成 · 自动化营销触达 affiliate referral saas marketing",
+      "haystackLow": "firstpromoter 是面向 saas 的联盟与推荐平台：跟踪链接/优惠码、佣金与 payout、推广者门户，并集成常见计费与营销工具，覆盖从线索到结佣的运营动作。\n\n需要比 rewardful 更完整的联盟后台、多集成与 outbound 触达时评估；只要 stripe 极速上线可先 rewardful。\n\n配置面宽，规则设错会造成错佣；与支付/crm 双重统计时要统一订单真相源。\n",
+      "category": "growth-affiliate",
+      "region": "overseas",
+      "tags": [
+        "affiliate",
+        "referral",
+        "saas",
+        "marketing"
+      ],
+      "pricing": "subscription",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
       "id": "fish-audio",
       "name": "Fish Audio",
       "haystackName": "fish audio fish-audio",
@@ -79051,6 +82224,24 @@
         "open-source",
         "remote-config",
         "self-host"
+      ],
+      "pricing": "open-source",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
+      "id": "flarum",
+      "name": "Flarum",
+      "haystackName": "flarum flarum",
+      "haystackMid": "轻量开源论坛 · 扩展生态 · 部署与心智比 discourse 轻 community forum open-source self-hosted",
+      "haystackLow": "flarum 是轻量 php 开源论坛：现代化 ui、扩展市场，部署与默认心智比 discourse 更轻，适合中小站「先跑起来」的社区，而不是企业级信任体系论坛。\n\n要可自托管的简洁论坛、团队运维预算有限时评估；大规模信任等级、官方托管 sla 与重度 seo 运维更常见选 discourse。\n\n企业支持与托管选项弱于 discourse；扩展质量参差，升级需测兼容。\n",
+      "category": "collab-community",
+      "region": "overseas",
+      "tags": [
+        "community",
+        "forum",
+        "open-source",
+        "self-hosted"
       ],
       "pricing": "open-source",
       "maturity": "stable",
@@ -79261,6 +82452,24 @@
       ],
       "pricing": "open-source",
       "maturity": "mature",
+      "chinaAccessible": true
+    },
+    {
+      "id": "formbricks",
+      "name": "Formbricks",
+      "haystackName": "formbricks formbricks",
+      "haystackMid": "开源产品内调研 · 触发式问卷 · 可自托管隐私友好 forms survey open-source product",
+      "haystackLow": "formbricks 是开源的产品内调研与体验收集工具，可按事件/页面触发问卷，支持云托管与自托管，强调把反馈嵌进产品路径而不是外链问卷页。\n\n需要 nps/pmf/功能反馈贴在产品会话里、并在意数据驻留时评估；对外营销落地页表单用 tally/typeform 更合适。\n\n外向品牌调研与视觉模板不如 typeform；自托管仍要做更新与存储运维。\n",
+      "category": "growth-forms",
+      "region": "overseas",
+      "tags": [
+        "forms",
+        "survey",
+        "open-source",
+        "product"
+      ],
+      "pricing": "open-source",
+      "maturity": "stable",
       "chinaAccessible": true
     },
     {
@@ -81045,6 +84254,24 @@
       "chinaAccessible": true
     },
     {
+      "id": "hootsuite",
+      "name": "Hootsuite",
+      "haystackName": "hootsuite hootsuite",
+      "haystackMid": "企业级社媒套件 · 收件箱/审批/报表重 · 采购周期长 social enterprise suite scheduling",
+      "haystackLow": "hootsuite 是面向中大型团队的社媒运营套件：统一收件箱、发布审批、权限分级与跨渠道报表，往往以组织采购与落地实施方式引入，而不是个人作者工具。\n\n多部门共管品牌账号、需要审批留痕、合规与培训支持时评估；indie 个人号用它过重，优先 buffer / typefully / postiz。\n\n价格与席位体系偏企业；上手与配置成本高于简洁排期工具。\n",
+      "category": "growth-social",
+      "region": "overseas",
+      "tags": [
+        "social",
+        "enterprise",
+        "suite",
+        "scheduling"
+      ],
+      "pricing": "subscription",
+      "maturity": "mature",
+      "chinaAccessible": true
+    },
+    {
       "id": "hotjar",
       "name": "Hotjar",
       "haystackName": "hotjar hotjar",
@@ -81143,6 +84370,24 @@
       ],
       "pricing": "usage",
       "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
+      "id": "hubspot",
+      "name": "HubSpot",
+      "haystackName": "hubspot hubspot",
+      "haystackMid": "营销销售客服套件锚点 · 免费 crm 起盘 · 席位升级账单高 crm marketing suite saas",
+      "haystackLow": "hubspot 以免费 crm 起盘，向上打包 marketing/sales/service hub，把线索、管道、邮件、落地页与客服放在同一套件——是增长团队的套件默认项，而不是「极简轻 crm」新锐。\n\n同时要 inbound 内容、营销自动化与销售管道、可接受套件绑定与席位单价时评估；只想灵活对象模型优先 attio，只要看板管道优先 pipedrive。\n\n报告、自动化与多 hub 功能升级后费用跳升快；套件锁定迁移成本高。\n",
+      "category": "collab-crm",
+      "region": "overseas",
+      "tags": [
+        "crm",
+        "marketing",
+        "suite",
+        "saas"
+      ],
+      "pricing": "freemium",
+      "maturity": "mature",
       "chinaAccessible": true
     },
     {
@@ -81464,6 +84709,42 @@
       "chinaAccessible": true
     },
     {
+      "id": "imagekit",
+      "name": "ImageKit",
+      "haystackName": "imagekit imagekit",
+      "haystackMid": "开发者图视频 cdn · 性价比 cloudinary 对照 · dam 可选 image video cdn transform",
+      "haystackLow": "imagekit 提供实时变换、优化投递与可选 dam，api 面接近 imgix/cloudinary 路径，计价往往以带宽为主，常被当作 cloudinary 的中档对照与 imgix 风格 drop-in。\n\n需要 url 变换与中等流量账单可预期、又想可选资产库时评估；极端 ai 生成式变换与企业 dam 流程仍是 cloudinary 强项。\n\nai/生成式能力与生态插件深度不及头部；选型前按真实变换矩阵压测。\n",
+      "category": "net-media",
+      "region": "overseas",
+      "tags": [
+        "image",
+        "video",
+        "cdn",
+        "transform"
+      ],
+      "pricing": "freemium",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
+      "id": "imgix",
+      "name": "imgix",
+      "haystackName": "imgix imgix",
+      "haystackMid": "url 实时图像变换标杆 · 接已有对象存储 · 媒体站向 image cdn transform performance",
+      "haystackLow": "imgix 以 url 参数驱动的实时图像渲染与全球投递见长，可挂在自有 s3/gcs 等源站之上，强调色彩与渲染品质，常见于内容与电商图站而非全能 dam。\n\n已有对象存储、只要高质量点选裁切与格式协商、且流量规模值得专业图 cdn 时评估；要一体化上传+ai 工作流看 cloudinary。\n\n入门带宽档偏贵；长视频不是主场，完整视频流水线另看 mux。\n",
+      "category": "net-media",
+      "region": "overseas",
+      "tags": [
+        "image",
+        "cdn",
+        "transform",
+        "performance"
+      ],
+      "pricing": "usage",
+      "maturity": "mature",
+      "chinaAccessible": true
+    },
+    {
       "id": "infisical",
       "name": "Infisical",
       "haystackName": "infisical infisical",
@@ -81653,7 +84934,7 @@
       "haystackName": "iubenda iubenda",
       "haystackMid": "隐私政策生成 + 同意管理 · 多语种欧盟条款 · 嵌一段脚本即可 privacy gdpr consent legal",
       "haystackLow": "iubenda 提供隐私政策与 cookie 政策生成、同意管理和内部合规记录，条款模板由法务团队维护并随法规更新，站点嵌一段脚本即可挂上横幅与政策页。\n\n面向欧盟用户的独立开发者或中小出海站点，需要一份能自动跟进法规、且支持多语种的政策与 gdpr 同意横幅时优先。\n\n工具只是流程助手，模板不等于法律意见，敏感业务仍应请律师复核；按站点与语言分档计费，多站点多语场景成本会明显叠加。\n",
-      "category": "sec-compliance",
+      "category": "sec-privacy-legal",
       "region": "overseas",
       "tags": [
         "privacy",
@@ -81678,6 +84959,24 @@
         "opentelemetry"
       ],
       "pricing": "open-source",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
+      "id": "jam-dev",
+      "name": "Jam",
+      "haystackName": "jam jam-dev",
+      "haystackMid": "录屏+控制台/网络元数据 · 开发者缺陷包 · 对标 marker bug-reporting devtools screen-recording developer",
+      "haystackLow": "jam 把屏幕录制与浏览器控制台、网络请求等开发者上下文打成一条缺陷报告，方便前端复现，介于「给人看的 loom」与「圈 ui 的 marker」之间的工程向捕获。\n\n工程团队要减少「本地复现不了」来回、把技术上下文塞进 ticket 时评估；纯设计批注用 marker，纯产品讲解用 loom。\n\n隐私与网络日志要规范；重度分析向会话回放仍看 logrocket 一类。\n",
+      "category": "collab-async-capture",
+      "region": "overseas",
+      "tags": [
+        "bug-reporting",
+        "devtools",
+        "screen-recording",
+        "developer"
+      ],
+      "pricing": "freemium",
       "maturity": "stable",
       "chinaAccessible": true
     },
@@ -82117,6 +85416,24 @@
       "chinaAccessible": true
     },
     {
+      "id": "knock",
+      "name": "Knock",
+      "haystackName": "knock knock",
+      "haystackMid": "开发者向通知平台 · 批次与偏好 · 产品 inbox notifications orchestration developer inbox",
+      "haystackLow": "knock 面向产品工程团队：用工作流定义通知、跨渠道发送、管理用户偏好与站内收件箱，强调类型安全集成与可观测，把「何时通知谁」从业务代码中抽离。\n\nb2b saas 通知规则复杂、需要统一偏好与 inbox 体验时评估；纯营销旅程编排请看 customer.io / braze。\n\n价格随事件量走；重度营销自动化不是定位。\n",
+      "category": "msg-orchestration",
+      "region": "overseas",
+      "tags": [
+        "notifications",
+        "orchestration",
+        "developer",
+        "inbox"
+      ],
+      "pricing": "usage",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
       "id": "koa",
       "name": "Koa",
       "haystackName": "koa koa",
@@ -82471,6 +85788,24 @@
       "region": "overseas",
       "tags": [],
       "pricing": "open-source",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
+      "id": "later-social",
+      "name": "Later",
+      "haystackName": "later later-social",
+      "haystackMid": "视觉优先 ig/tiktok 日历 · 网红连结带货向 social instagram tiktok scheduling",
+      "haystackLow": "later 以视觉内容日历著称，深度覆盖 instagram、tiktok 等图像/短视频渠道，并延展到链路、创作者协作与基础电商导流，适合视觉营销团队按网格规划上线节奏。\n\n品牌或创作者以 ig / tiktok 视觉为主、需要「排版感」日历时评估；以 x 长线程或开发者 api 发布为主请换 typefully / ayrshare。\n\n偏视觉渠道，文字向平台深度一般；高档位功能与链接工具常需加购。\n",
+      "category": "growth-social",
+      "region": "overseas",
+      "tags": [
+        "social",
+        "instagram",
+        "tiktok",
+        "scheduling"
+      ],
+      "pricing": "freemium",
       "maturity": "stable",
       "chinaAccessible": true
     },
@@ -83044,6 +86379,24 @@
       "chinaAccessible": true
     },
     {
+      "id": "loom",
+      "name": "Loom",
+      "haystackName": "loom loom",
+      "haystackMid": "异步录屏沟通默认 · 链接即播 · 非 session 回放产品分析 async-video screen-recording collaboration saas",
+      "haystackLow": "loom 让人快速录制屏幕与摄像头说明，生成可分享链接，定位是团队异步沟通与支持讲解，而不是网站访客行为回放或缺陷批注工具。\n\n跨时区讲解需求、产品演示与支持话术需要可暂停回看的短视频时优先；访客 session 回放看 logrocket/hotjar 叶，页面上钉缺陷看 marker。\n\n席位与观看/ai 功能按档；敏感屏幕需流程规范，避免泄密录屏外发。\n",
+      "category": "collab-async-capture",
+      "region": "overseas",
+      "tags": [
+        "async-video",
+        "screen-recording",
+        "collaboration",
+        "saas"
+      ],
+      "pricing": "freemium",
+      "maturity": "mature",
+      "chinaAccessible": true
+    },
+    {
       "id": "loops-so",
       "name": "Loops",
       "haystackName": "loops loops-so",
@@ -83275,6 +86628,24 @@
       "chinaAccessible": true
     },
     {
+      "id": "make-com",
+      "name": "Make",
+      "haystackName": "make make-com",
+      "haystackMid": "可视化场景编排强 · 性价比常见平替 · 原 integromat automation ipaas nocode integration",
+      "haystackLow": "make（原 integromat）用可视化场景画布编排多步自动化，路由器、聚合器与错误处理粒度细，同样是 zapier 常见对照项，适合中等复杂度的 saas 间数据流。\n\n流程步骤多、需更细的分支与数据整形、又不想立即上代码时评估；连接器数量整体仍略逊 zapier 头部目录。\n\n学习曲线高于「线性 zap」；操作与数据量计费规则要细看。\n",
+      "category": "cicd-automation",
+      "region": "overseas",
+      "tags": [
+        "automation",
+        "ipaas",
+        "nocode",
+        "integration"
+      ],
+      "pricing": "freemium",
+      "maturity": "mature",
+      "chinaAccessible": true
+    },
+    {
       "id": "manticore-search",
       "name": "Manticore Search",
       "haystackName": "manticore search manticore-search",
@@ -83337,6 +86708,24 @@
       ],
       "pricing": "open-source",
       "maturity": "mature",
+      "chinaAccessible": true
+    },
+    {
+      "id": "marker-io",
+      "name": "Marker",
+      "haystackName": "marker marker-io",
+      "haystackMid": "页面可视缺陷标注 · 一键进工单 · 设计/qa 反馈向 bug-reporting qa feedback annotation",
+      "haystackLow": "marker 让干系人在真实页面上圈注问题并附截图/录制元数据，把反馈一键送进 issue 工具，定位是视觉验收与缺陷沟通，而非异步人声讲解或访客分析。\n\n设计/产品/客户要在预发环境「指哪里改哪里」、且进 linear/jira 时评估；工程复现会话用 jam 或 session replay，只讲概念用 loom。\n\n按席位/项目计费；落地页 sdk 与权限要配白名单，避免扫到生产敏感数据。\n",
+      "category": "collab-async-capture",
+      "region": "overseas",
+      "tags": [
+        "bug-reporting",
+        "qa",
+        "feedback",
+        "annotation"
+      ],
+      "pricing": "subscription",
+      "maturity": "stable",
       "chinaAccessible": true
     },
     {
@@ -83619,6 +87008,24 @@
       "pricing": "freemium",
       "maturity": "beta",
       "chinaAccessible": false
+    },
+    {
+      "id": "metricool",
+      "name": "Metricool",
+      "haystackName": "metricool metricool",
+      "haystackMid": "分析+排期一体 · 多网络面板 · 中小品牌性价比向 social analytics scheduling saas",
+      "haystackLow": "metricool 把多社交网络的表现分析与发布排期放在同一面板，并覆盖 ads / 竞品粗看等运营视角，常见于中小品牌与代理用一套工具兼顾「发」与「看」。\n\n账号数量中等、既要发帖又要周报级复盘、预算有限时评估；只要极简排期用 buffer，只要 api 灌内容用 ayrshare。\n\n企业级治理与深社群客服弱；数据与 ads 口径以各平台导出为准，跨工具对比需注意归因。\n",
+      "category": "growth-social",
+      "region": "overseas",
+      "tags": [
+        "social",
+        "analytics",
+        "scheduling",
+        "saas"
+      ],
+      "pricing": "freemium",
+      "maturity": "stable",
+      "chinaAccessible": true
     },
     {
       "id": "metronome",
@@ -84007,6 +87414,24 @@
       "chinaAccessible": true
     },
     {
+      "id": "mixpost",
+      "name": "Mixpost",
+      "haystackName": "mixpost mixpost",
+      "haystackMid": "自托管 buffer 体验 · laravel 栈 · lite 开源 / pro 买断 social scheduling open-source self-hosted",
+      "haystackLow": "mixpost 是自托管向的社媒排期控制台，界面与工作流接近经典 buffer：队列、日历、多账号发布。lite 开源可自用，pro/enterprise 一次买断高级渠道与能力，栈为 laravel，适合要「自己的 buffer」又不愿订阅云的团队。\n\n运维能接受 php/laravel 自托管、想要成熟 buffer 感而不是 agent 向产品时与 postiz 对照；要 ai agent/mcp 与更广新平台优先 postiz。\n\npro 渠道与功能在商业许可；自托管需管升级、存储与各平台 oauth，lite 渠道覆盖窄于 pro。\n",
+      "category": "growth-social",
+      "region": "overseas",
+      "tags": [
+        "social",
+        "scheduling",
+        "open-source",
+        "self-hosted"
+      ],
+      "pricing": "open-source",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
       "id": "mkdocs",
       "name": "MkDocs",
       "haystackName": "mkdocs mkdocs",
@@ -84324,6 +87749,24 @@
       "chinaAccessible": true
     },
     {
+      "id": "mux",
+      "name": "Mux",
+      "haystackName": "mux mux",
+      "haystackMid": "开发者视频基础设施 · 上传转码播放 api · 不兼 dam video streaming api developer",
+      "haystackLow": "mux 面向开发者提供视频上传、转码、自适应播放与数据分析 api/sdk，定位是「把视频当基础设施接入」，而不是通用图像变换或营销 dam。\n\n用户生成视频、课程回放、产品内嵌播放器需要可靠转码与播放数据时优先；图站与多格式静态资源请用 cloudinary/imgix/imagekit。\n\n视频分钟与 cdn 出站按量计费，热门内容要预算；不覆盖图库/dam 全流程。\n",
+      "category": "net-media",
+      "region": "overseas",
+      "tags": [
+        "video",
+        "streaming",
+        "api",
+        "developer"
+      ],
+      "pricing": "usage",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
       "id": "mysql",
       "name": "MySQL",
       "haystackName": "mysql mysql",
@@ -84343,11 +87786,16 @@
       "id": "n8n",
       "name": "n8n",
       "haystackName": "n8n n8n",
-      "haystackMid": "fair-code 节点工作流 · api/db/llm 串联 · ai+ops 混合自动化 ",
+      "haystackMid": "fair-code 节点工作流 · api/db/llm 串联 · ai+ops 混合自动化 automation ipaas open-source self-hosted",
       "haystackLow": "n8n 是 fair-code workflow 工具，节点连接 api/db/llm，可 self-host，适合 ai+ops 混合 automation。\n\n需要连接 slack/github/postgres 与 openai 做 internal automation、且重视 data residency 时。\n\n复杂 agent reasoning 非其强项；应用层逻辑应用专用 agent 框架。\n",
-      "category": "ai-rag",
+      "category": "cicd-automation",
       "region": "overseas",
-      "tags": [],
+      "tags": [
+        "automation",
+        "ipaas",
+        "open-source",
+        "self-hosted"
+      ],
       "pricing": "freemium",
       "maturity": "stable",
       "chinaAccessible": true
@@ -84742,6 +88190,24 @@
       "chinaAccessible": true
     },
     {
+      "id": "novu",
+      "name": "Novu",
+      "haystackName": "novu novu",
+      "haystackMid": "开源通知编排 · 多渠道模板 · 可自托管 notifications orchestration open-source multichannel",
+      "haystackLow": "novu 是开源通知基础设施：统一管理邮件/短信/推送/站内信等渠道模板与工作流，提供偏好管理与投递日志，可云可自托管，避免在业务代码里散落各家 sdk。\n\n产品通知类型变多、要可观测的多渠道编排与用户偏好中心时评估；只要事务邮件 api 用 resend 即可。\n\n各供应商送达率仍取决于底层 esp/sms；自托管要管队列与密钥。\n",
+      "category": "msg-orchestration",
+      "region": "overseas",
+      "tags": [
+        "notifications",
+        "orchestration",
+        "open-source",
+        "multichannel"
+      ],
+      "pricing": "open-source",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
       "id": "npm",
       "name": "npm",
       "haystackName": "npm npm",
@@ -84860,7 +88326,7 @@
       "haystackName": "onetrust onetrust",
       "haystackMid": "企业级隐私治理 · 同意管理/数据地图/数据主体请求全覆盖 privacy gdpr consent compliance",
       "haystackLow": "onetrust 是企业级隐私与治理平台，覆盖 cookie 同意管理、数据地图、数据主体请求处理、第三方风险与合规评估，是大型组织落地 gdpr、ccpa 等法规的常见底座。\n\n组织已有法务与隐私岗、要统一治理多品牌多站点的同意与数据流时选它；只想生成一份隐私政策与 cookie 横幅的小团队，用 iubenda、termly 更划算。\n\n工具只是流程助手，合规责任与审计结论仍在组织与审计机构一侧；模块多、实施与培训成本高，同意脚本体积对首屏性能有实际影响。\n",
-      "category": "sec-compliance",
+      "category": "sec-privacy-legal",
       "region": "overseas",
       "tags": [
         "privacy",
@@ -85890,6 +89356,42 @@
       "chinaAccessible": true
     },
     {
+      "id": "pipedream",
+      "name": "Pipedream",
+      "haystackName": "pipedream pipedream",
+      "haystackMid": "代码步骤优先 · 事件/ webhook 自动 · 开发者向 automation developer webhook ipaas",
+      "haystackLow": "pipedream 面向开发者：用代码或低代码步骤处理 webhook、定时与 saas 事件，内置密钥管理与日志，适合「连接器 + 几行 js/python」而不是纯拖拽运营流。\n\n工程师要快速落地事件处理、原型集成或胶水逻辑、又不想自管服务器时采用；纯运营自助请用 zapier/make。\n\n平台运行额度与超时限制需设计幂等与重试；关键链路最终仍建议产品内服务化。\n",
+      "category": "cicd-automation",
+      "region": "overseas",
+      "tags": [
+        "automation",
+        "developer",
+        "webhook",
+        "ipaas"
+      ],
+      "pricing": "freemium",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
+      "id": "pipedrive",
+      "name": "Pipedrive",
+      "haystackName": "pipedrive pipedrive",
+      "haystackMid": "视觉交易管道极简 · 销售自管向 · 少对象建模 crm sales pipeline saas",
+      "haystackLow": "pipedrive 围绕「交易从左到右过管道」设计：可视化看板、活动提醒与销售报告，配置面刻意窄，适合流程线性的销售个人或小团队。\n\noutbound 为主、只要清晰交易阶段与活动节奏、不要复杂自定义对象时采用；要关系图谱与对象自由用 attio，要营销漏斗一体用 hubspot。\n\n无慷慨长期免费档；自定义对象与跨团队工作流弱于现代灵活 crm。\n",
+      "category": "collab-crm",
+      "region": "overseas",
+      "tags": [
+        "crm",
+        "sales",
+        "pipeline",
+        "saas"
+      ],
+      "pricing": "subscription",
+      "maturity": "mature",
+      "chinaAccessible": true
+    },
+    {
       "id": "pixabay",
       "name": "Pixabay",
       "haystackName": "pixabay pixabay",
@@ -86218,6 +89720,24 @@
       "chinaAccessible": true
     },
     {
+      "id": "postiz",
+      "name": "Postiz",
+      "haystackName": "postiz postiz",
+      "haystackMid": "202x 开源社媒排期首选动量 · 30+ 平台 · agent/api/n8n social scheduling open-source self-hosted",
+      "haystackLow": "postiz 是当前开源社媒排期里动量最大的一档（agpl）：可云可自托管，覆盖主流与新兴网络，提供日历、public api、mcp/cli 与 n8n 节点，方便用 agent 或工作流起草后定时多发。\n\n要开源/自托管且跟 ai agent 自动化同栈、或对照 buffer/hootsuite 找可自控替代时优先；若更想要经典 buffer ui 与 laravel 栈买断，对照 mixpost。\n\nagpl 与平台 oauth 政策需团队评估；自托管要管账号绑定、密钥与升级，云套餐按团队规模计价。\n",
+      "category": "growth-social",
+      "region": "overseas",
+      "tags": [
+        "social",
+        "scheduling",
+        "open-source",
+        "self-hosted"
+      ],
+      "pricing": "open-source",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
       "id": "postmark",
       "name": "Postmark",
       "haystackName": "postmark postmark",
@@ -86314,6 +89834,24 @@
       "chinaAccessible": true
     },
     {
+      "id": "productboard",
+      "name": "Productboard",
+      "haystackName": "productboard productboard",
+      "haystackMid": "产品管理重镇 · 洞察到路线图 · 面向 pm 组织 feedback roadmap product-management enterprise",
+      "haystackLow": "productboard 面向产品管理组织：沉淀客户洞察、机会与功能优先级，再落到路线图与发布沟通，常与工单、crm、分析工具打通，属于 pm 工作台而非简单投票墙。\n\n有专职 pm、要「洞察—机会—交付」闭环与多产品线规划时评估；indie 一人项目通常过重，用 canny/frill 即可。\n\n价格与实施成本显著；学习曲线陡，中小团队容易买而不用。\n",
+      "category": "growth-feedback",
+      "region": "overseas",
+      "tags": [
+        "feedback",
+        "roadmap",
+        "product-management",
+        "enterprise"
+      ],
+      "pricing": "subscription",
+      "maturity": "mature",
+      "chinaAccessible": true
+    },
+    {
       "id": "prometheus",
       "name": "Prometheus",
       "haystackName": "prometheus prometheus",
@@ -86371,6 +89909,24 @@
       "tags": [
         "auth",
         "b2b"
+      ],
+      "pricing": "freemium",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
+      "id": "publer",
+      "name": "Publer",
+      "haystackName": "publer publer",
+      "haystackMid": "批量与内容库向 · 多账号日历 · 中小矩阵常用 social scheduling bulk saas",
+      "haystackLow": "publer 面向多账号矩阵运营：提供内容库、批量上传、可视化日历与基础回收分析，适合一个运营人同时管多品牌或多市场账号。\n\n小微团队账号数上来、需要批量重排与素材库复用时评估；开发者想用 api 灌内容可看 ayrshare，开源自托管看 postiz。\n\n企业级工作流与深度聆听弱于 hootsuite 级套件；免费档渠道与席位紧。\n",
+      "category": "growth-social",
+      "region": "overseas",
+      "tags": [
+        "social",
+        "scheduling",
+        "bulk",
+        "saas"
       ],
       "pricing": "freemium",
       "maturity": "stable",
@@ -87235,6 +90791,24 @@
       "chinaAccessible": true
     },
     {
+      "id": "rewardful",
+      "name": "Rewardful",
+      "haystackName": "rewardful rewardful",
+      "haystackMid": "stripe 订阅联盟即装 · saas 推荐返佣 · 启用快 affiliate stripe saas referral",
+      "haystackLow": "rewardful 面向 stripe 订阅型 saas：提供联盟链接、佣金规则与推荐人后台，把「推荐注册并付费 → 自动计佣」接到现有结账流，适合快速上线 affiliate。\n\n已用 stripe billing、想做推荐返佣且不想自建归因时优先；多支付通道或复杂 mlm 级规则请看更完整联盟平台。\n\n强绑定 stripe 生态；非订阅/一次性商品与多 psp 场景能力有限。\n",
+      "category": "growth-affiliate",
+      "region": "overseas",
+      "tags": [
+        "affiliate",
+        "stripe",
+        "saas",
+        "referral"
+      ],
+      "pricing": "subscription",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
       "id": "rippling",
       "name": "Rippling",
       "haystackName": "rippling rippling",
@@ -87545,6 +91119,24 @@
         "graphql"
       ],
       "pricing": "freemium",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
+      "id": "savvycal",
+      "name": "SavvyCal",
+      "haystackName": "savvycal savvycal",
+      "haystackMid": "预约页 ux 标杆 · 对方日历叠加 · 顾问/招聘高质感 scheduling calendar ux saas",
+      "haystackLow": "savvycal 把预约体验做得很克制：邀请对象可在选时段时叠加查看自己的日历，减少来回改期；适合顾问、创始人与招聘等「对方时间很贵」的一对一约见。\n\n在意被约方体验、品牌调性，且团队不大时与 calendly 对打；要销售路由/企业 crm 深集成用 calendly，要自托管/白标用 cal.com。\n\n无慷慨免费档；企业级路由与 crm 集成弱于 calendly，大规模销售机队不是定位。\n",
+      "category": "collab-scheduling",
+      "region": "overseas",
+      "tags": [
+        "scheduling",
+        "calendar",
+        "ux",
+        "saas"
+      ],
+      "pricing": "subscription",
       "maturity": "stable",
       "chinaAccessible": true
     },
@@ -89093,6 +92685,24 @@
       "chinaAccessible": true
     },
     {
+      "id": "tally",
+      "name": "Tally",
+      "haystackName": "tally tally",
+      "haystackMid": "notion 感免费表单 · 逻辑块够用 · indie 默认候选 forms survey indie saas",
+      "haystackLow": "tally 提供接近文档编辑的表单搭建体验，免费档对个人与小团队相当慷慨，支持条件逻辑、文件上传与常见通知集成，是 indie 收集 waitlist、反馈与报名表的常见默认项。\n\n需要快速上线名单表、不付费也能扛一定提交量时优先；要极致对话体验与企业品牌管控再评 typeform。\n\n超大型合规审计与复杂工作流编排弱于企业表单套件；重度计算字段要实测。\n",
+      "category": "growth-forms",
+      "region": "overseas",
+      "tags": [
+        "forms",
+        "survey",
+        "indie",
+        "saas"
+      ],
+      "pricing": "freemium",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
       "id": "tamagui",
       "name": "Tamagui",
       "haystackName": "tamagui tamagui",
@@ -89489,7 +93099,7 @@
       "haystackName": "termly termly",
       "haystackMid": "政策生成器 + cookie 扫描 · 偏美国州级隐私法口径 · 有免费档 privacy consent ccpa legal",
       "haystackLow": "termly 提供隐私政策、服务条款与 cookie 政策生成器，配套 cookie 扫描与同意横幅，法规口径侧重 ccpa/cpra 等美国州级隐私法，同时兼顾 gdpr。\n\n主要面向美国用户的小型站点，想低成本挂上合规政策与同意条时评估；欧盟精细化同意与多语场景可对照 iubenda、cookiebot。\n\n工具只是流程助手，生成文本必须按真实数据流改写；免费档在横幅样式与扫描频次上有限制，政策更新是否随法规同步要定期自查。\n",
-      "category": "sec-compliance",
+      "category": "sec-privacy-legal",
       "region": "overseas",
       "tags": [
         "privacy",
@@ -89659,6 +93269,24 @@
         "localization"
       ],
       "pricing": "open-source",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
+      "id": "tolt",
+      "name": "Tolt",
+      "haystackName": "tolt tolt",
+      "haystackMid": "新一代 stripe 联盟 · 现代化 ui · saas 返佣向 affiliate stripe referral saas",
+      "haystackLow": "tolt 提供面向现代 saas 的联盟/推荐软件，深绑 stripe 等收单，强调简洁设置、推广者体验与自动结佣，定位接近 rewardful 一代工具的焕新替代。\n\n想用更新的界面与工作流做 stripe 系推荐计划时对比 rewardful；大型多货币多实体分佣要验证 payout 细节。\n\n生态年龄短于老牌，边缘集成与案例密度需自行 poc。\n",
+      "category": "growth-affiliate",
+      "region": "overseas",
+      "tags": [
+        "affiliate",
+        "stripe",
+        "referral",
+        "saas"
+      ],
+      "pricing": "subscription",
       "maturity": "stable",
       "chinaAccessible": true
     },
@@ -89866,6 +93494,24 @@
       "chinaAccessible": true
     },
     {
+      "id": "twenty",
+      "name": "Twenty",
+      "haystackName": "twenty twenty",
+      "haystackMid": "开源现代 crm · 可自托管 · graphql/react 栈 crm open-source self-hosted developer",
+      "haystackLow": "twenty 是开源的现代 crm：react + graphql，支持云托管与自托管，界面与数据模型朝现代 b2b 工作台演进，适合要数据驻留或可二次开发的团队。\n\n必须自托管/开源、或要在 crm 上二次开发、且能承受运维时评估；要开箱营销套件仍是 hubspot，要托管 ai 灵活对象可先 attio。\n\n生态集成与 polish 仍追商业 saas；生产自托管要管权限、备份与升级。\n",
+      "category": "collab-crm",
+      "region": "overseas",
+      "tags": [
+        "crm",
+        "open-source",
+        "self-hosted",
+        "developer"
+      ],
+      "pricing": "open-source",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
       "id": "twilio",
       "name": "Twilio",
       "haystackName": "twilio twilio",
@@ -89879,6 +93525,42 @@
       ],
       "pricing": "usage",
       "maturity": "mature",
+      "chinaAccessible": true
+    },
+    {
+      "id": "typeform",
+      "name": "Typeform",
+      "haystackName": "typeform typeform",
+      "haystackMid": "对话式表单体验强 · 品牌感好 · 转化页问卷向 forms survey lead-gen saas",
+      "haystackLow": "typeform 以一题一屏的对话式表单闻名，强调完成率与品牌呈现，适合调研、线索收集与轻量 quiz，生态连接 zapier/crm 成熟。\n\n对外品牌问卷、强调完成体验与分享传播的表单时采用；内部工具表单或要无限免费提交看 tally，产品内嵌入调研也可评 formbricks。\n\n免费/低档回复量有限；复杂条件逻辑与数据处理成本随规模上升。\n",
+      "category": "growth-forms",
+      "region": "overseas",
+      "tags": [
+        "forms",
+        "survey",
+        "lead-gen",
+        "saas"
+      ],
+      "pricing": "freemium",
+      "maturity": "mature",
+      "chinaAccessible": true
+    },
+    {
+      "id": "typefully",
+      "name": "Typefully",
+      "haystackName": "typefully typefully",
+      "haystackMid": "偏 x/linkedin 的写作台 · 线程排期强 · 创作者节奏向 social twitter writing scheduling",
+      "haystackLow": "typefully 把长文线程写作、协作编辑与定时发布做在同一编辑器里，尤其擅长 x（twitter）串文与 linkedin 节奏运营，带草稿协作与发布后表现回顾。\n\n以 x / linkedin 个人品牌或内容账号为主战场、写长线程多过管全网矩阵时优先；要 instagram 视觉日历或 20+ 平台矩阵请看 later / postiz。\n\n渠道覆盖面窄于全能排期工具；高级协作与分析随档位放开。\n",
+      "category": "growth-social",
+      "region": "overseas",
+      "tags": [
+        "social",
+        "twitter",
+        "writing",
+        "scheduling"
+      ],
+      "pricing": "freemium",
+      "maturity": "stable",
       "chinaAccessible": true
     },
     {
@@ -91210,6 +94892,24 @@
       ],
       "pricing": "freemium",
       "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
+      "id": "zapier",
+      "name": "Zapier",
+      "haystackName": "zapier zapier",
+      "haystackMid": "集成目录最广 · 无代码自动化标杆 · 按任务计费 automation ipaas nocode integration",
+      "haystackLow": "zapier 是业务自动化 ipaas 的事实标准之一：海量 saas 连接器、无代码 zaps，把表单、crm、表格与通知串成事件驱动流程，适合运营与非工程角色自助集成。\n\n要在既有云端 saas 之间快速搭「如果 a 则 b」、连接器覆盖优先时采用；要自托管与代码级控制看 n8n / activepieces，开发者 webhook/代码步骤看 pipedream。\n\n任务量上来后账单陡增；复杂分支与数据转换能力弱于代码工作流。\n",
+      "category": "cicd-automation",
+      "region": "overseas",
+      "tags": [
+        "automation",
+        "ipaas",
+        "nocode",
+        "integration"
+      ],
+      "pricing": "freemium",
+      "maturity": "mature",
       "chinaAccessible": true
     },
     {

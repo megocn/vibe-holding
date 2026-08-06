@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "image",
+    "cdn",
+    "transform",
+    "performance"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "带宽起价与最低消费对小站不友好。",
+    "视频与 DAM 深度不及 Cloudinary / Mux。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.imgix.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "imgix",
+  "name": "imgix",
+  "category": "net-media",
+  "subcategory": "image-cdn",
+  "oneLiner": "URL 实时图像变换标杆 · 接已有对象存储 · 媒体站向",
+  "officialUrl": "https://www.imgix.com",
+  "descriptionMd": "imgix 以 URL 参数驱动的实时图像渲染与全球投递见长，可挂在自有 S3/GCS 等源站之上，强调色彩与渲染品质，常见于内容与电商图站而非全能 DAM。\n\n已有对象存储、只要高质量点选裁切与格式协商、且流量规模值得专业图 CDN 时评估；要一体化上传+AI 工作流看 Cloudinary。\n\n入门带宽档偏贵；长视频不是主场，完整视频流水线另看 Mux。\n",
+  "vendorId": "imgix-inc"
+}

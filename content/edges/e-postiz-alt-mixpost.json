@@ -1,0 +1,11 @@
+{
+  "id": "e-postiz-alt-mixpost",
+  "from": "postiz",
+  "to": "mixpost",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "Agent/API/多平台动量 vs Laravel 栈 Buffer 感与买断 Pro"
+}

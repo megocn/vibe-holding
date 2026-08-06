@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "currency": "USD",
+    "notes": "托管订阅；自托管开源"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "community",
+    "forum",
+    "open-source",
+    "self-hosted"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "自托管主题、邮件与反垃圾需持续投入。",
+    "实时语音与轻社交节奏弱于 Discord 类。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.discourse.org"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "discourse",
+  "name": "Discourse",
+  "category": "collab-community",
+  "subcategory": "forum",
+  "oneLiner": "开源论坛标杆 · SEO 友好长帖 · 可自托管可托管",
+  "officialUrl": "https://www.discourse.org",
+  "descriptionMd": "Discourse 是开源论坛平台：主题式讨论、信任等级、搜索与 SEO 友好的永久链接，可官方托管也可自托管，是「可被搜索的社区知识库」常见选型。\n\n要公开/半公开问答、文档站并行、可自持数据与主题定制时优先；会员付费圈与课程社群可看 Circle，实时语音聊天看 Discord。\n\n运维与主题定制成本高于闭源 SaaS；实时语音与轻聊不是强项。\n",
+  "vendorId": "discourse-inc",
+  "githubUrl": "https://github.com/discourse/discourse"
+}

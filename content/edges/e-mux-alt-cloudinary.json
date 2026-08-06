@@ -1,0 +1,11 @@
+{
+  "id": "e-mux-alt-cloudinary",
+  "from": "mux",
+  "to": "cloudinary",
+  "type": "alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "开发者视频流水线 vs 图视频全能媒体平台（视频维对打）"
+}

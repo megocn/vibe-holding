@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "social",
+    "api",
+    "developer",
+    "scheduling"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "计费跟消息量与连接账号走，流量上来后要盯账单。",
+    "不是给运营同学的日历产品，缺可视化内容库体验。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.ayrshare.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "ayrshare",
+  "name": "Ayrshare",
+  "category": "growth-social",
+  "subcategory": "social-api",
+  "oneLiner": "开发者向社媒发帖 API · 多平台一套接口 · 嵌产品内",
+  "officialUrl": "https://www.ayrshare.com",
+  "descriptionMd": "Ayrshare 提供统一 REST API，让应用替用户绑定并发布到多个社交网络，覆盖排期、媒体上传与基础历史查询，定位是「嵌入你自己的产品」，不是运营人员用的日历 UI。\n\nSaaS / 白标要给客户「连接账号 → 发帖」能力、又不想逐家对接 OAuth 时采用；自用内容日历请用 Buffer / Postiz 一类产品。\n\n按消息与账号档位计费，峰值成本会随活跃客户上涨；各平台政策变更会影响可用能力。\n",
+  "vendorId": "ayrshare-inc"
+}

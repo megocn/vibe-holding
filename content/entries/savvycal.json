@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "scheduling",
+    "calendar",
+    "ux",
+    "saas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "缺少可长期使用的免费档，个人成本需接受订阅。",
+    "销售团队复杂路由与 CRM 深度不如 Calendly。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://savvycal.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "savvycal",
+  "name": "SavvyCal",
+  "category": "collab-scheduling",
+  "subcategory": "scheduling",
+  "oneLiner": "预约页 UX 标杆 · 对方日历叠加 · 顾问/招聘高质感",
+  "officialUrl": "https://savvycal.com",
+  "descriptionMd": "SavvyCal 把预约体验做得很克制：邀请对象可在选时段时叠加查看自己的日历，减少来回改期；适合顾问、创始人与招聘等「对方时间很贵」的一对一约见。\n\n在意被约方体验、品牌调性，且团队不大时与 Calendly 对打；要销售路由/企业 CRM 深集成用 Calendly，要自托管/白标用 Cal.com。\n\n无慷慨免费档；企业级路由与 CRM 集成弱于 Calendly，大规模销售机队不是定位。\n",
+  "vendorId": "savvycal-inc"
+}

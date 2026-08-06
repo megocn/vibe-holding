@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "feedback",
+    "roadmap",
+    "product-management",
+    "enterprise"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "学习与配置成本高，一人团队不划算。",
+    "订阅价格面向团队规模，扩张后账单跳升快。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.productboard.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "productboard",
+  "name": "Productboard",
+  "category": "growth-feedback",
+  "subcategory": "product-management",
+  "oneLiner": "产品管理重镇 · 洞察到路线图 · 面向 PM 组织",
+  "officialUrl": "https://www.productboard.com",
+  "descriptionMd": "Productboard 面向产品管理组织：沉淀客户洞察、机会与功能优先级，再落到路线图与发布沟通，常与工单、CRM、分析工具打通，属于 PM 工作台而非简单投票墙。\n\n有专职 PM、要「洞察—机会—交付」闭环与多产品线规划时评估；Indie 一人项目通常过重，用 Canny/Frill 即可。\n\n价格与实施成本显著；学习曲线陡，中小团队容易买而不用。\n",
+  "vendorId": "productboard-inc"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-marker-io-with-jira",
+  "from": "marker-io",
+  "to": "jira",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "企业工单流常见回写 Jira"
+}

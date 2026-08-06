@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "affiliate",
+    "referral",
+    "saas",
+    "marketing"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "规则复杂时容易配错佣金，上线前用沙箱订单验收。",
+    "与计费系统重复统计会打架，要钉死主数据源。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://firstpromoter.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "firstpromoter",
+  "name": "FirstPromoter",
+  "category": "growth-affiliate",
+  "subcategory": "affiliate",
+  "oneLiner": "SaaS 联盟全功能 · 多集成 · 自动化营销触达",
+  "officialUrl": "https://firstpromoter.com",
+  "descriptionMd": "FirstPromoter 是面向 SaaS 的联盟与推荐平台：跟踪链接/优惠码、佣金与 payout、推广者门户，并集成常见计费与营销工具，覆盖从线索到结佣的运营动作。\n\n需要比 Rewardful 更完整的联盟后台、多集成与 outbound 触达时评估；只要 Stripe 极速上线可先 Rewardful。\n\n配置面宽，规则设错会造成错佣；与支付/CRM 双重统计时要统一订单真相源。\n",
+  "vendorId": "firstpromoter-inc"
+}

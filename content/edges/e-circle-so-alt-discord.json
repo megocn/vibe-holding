@@ -1,0 +1,11 @@
+{
+  "id": "e-circle-so-alt-discord",
+  "from": "circle-so",
+  "to": "discord",
+  "type": "alternative_to",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "付费会员空间与课程 vs 免费实时聊天室枢纽"
+}

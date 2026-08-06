@@ -1,0 +1,11 @@
+{
+  "id": "e-postiz-osalt-hootsuite",
+  "from": "postiz",
+  "to": "hootsuite",
+  "type": "open_source_alternative_to",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "自托管/开源排期 vs 企业社媒套件"
+}

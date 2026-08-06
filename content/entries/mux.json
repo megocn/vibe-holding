@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "usage",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "video",
+    "streaming",
+    "api",
+    "developer"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "按编码分钟与观众分钟计费，爆款时要控清晰度与缓存。",
+    "不是图像 CDN，图与 DAM 仍要另选。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.mux.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "mux",
+  "name": "Mux",
+  "category": "net-media",
+  "subcategory": "video-api",
+  "oneLiner": "开发者视频基础设施 · 上传转码播放 API · 不兼 DAM",
+  "officialUrl": "https://www.mux.com",
+  "descriptionMd": "Mux 面向开发者提供视频上传、转码、自适应播放与数据分析 API/SDK，定位是「把视频当基础设施接入」，而不是通用图像变换或营销 DAM。\n\n用户生成视频、课程回放、产品内嵌播放器需要可靠转码与播放数据时优先；图站与多格式静态资源请用 Cloudinary/imgix/ImageKit。\n\n视频分钟与 CDN 出站按量计费，热门内容要预算；不覆盖图库/DAM 全流程。\n",
+  "vendorId": "mux-inc"
+}

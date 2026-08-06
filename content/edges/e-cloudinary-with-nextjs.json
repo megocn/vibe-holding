@@ -1,0 +1,11 @@
+{
+  "id": "e-cloudinary-with-nextjs",
+  "from": "cloudinary",
+  "to": "nextjs",
+  "type": "commonly_used_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "next/image loader 或官方 SDK 做响应式投递"
+}

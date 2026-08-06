@@ -1,0 +1,11 @@
+{
+  "id": "e-rewardful-with-stripe",
+  "from": "rewardful",
+  "to": "stripe",
+  "type": "integrates_with",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "订阅与发票事件作为佣金触发源"
+}

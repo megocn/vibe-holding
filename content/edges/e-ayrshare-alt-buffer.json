@@ -1,0 +1,11 @@
+{
+  "id": "e-ayrshare-alt-buffer",
+  "from": "ayrshare",
+  "to": "buffer",
+  "type": "alternative_to",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "嵌入产品的发帖 API vs 运营用日历 UI"
+}

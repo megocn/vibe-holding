@@ -1,0 +1,11 @@
+{
+  "id": "e-novu-with-resend",
+  "from": "novu",
+  "to": "resend",
+  "type": "commonly_used_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "编排层选渠道与模板，Resend 负责邮件投递"
+}

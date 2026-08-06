@@ -1,0 +1,11 @@
+{
+  "id": "e-later-social-alt-buffer",
+  "from": "later-social",
+  "to": "buffer",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "视觉向 IG/TikTok 日历 vs 通用轻量排期"
+}

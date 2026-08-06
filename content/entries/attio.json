@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "crm",
+    "b2b",
+    "ai",
+    "saas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "高级序列与通话智能能力随档位解锁，报价要按席位+功能核。",
+    "超大企业采购与行业合规模板不如老牌全栈。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://attio.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "attio",
+  "name": "Attio",
+  "category": "collab-crm",
+  "subcategory": "modern-crm",
+  "oneLiner": "灵活对象模型 + AI · 202x B2B 现代 CRM · 三席免费档",
+  "officialUrl": "https://attio.com",
+  "descriptionMd": "Attio 是面向现代 B2B 团队的 CRM：自定义对象与关系、邮件日历同步、enrichment 与 AI 问询，强调用你的数据模型运转，而不是塞进固定销售漏斗模板。\n\n种子到成长期 SaaS 要可塑对象、关系洞察与 AI 辅助跟进、又不想一上来上营销套件时优先；纯视觉管道可看 Pipedrive，要营销+销售一体看 HubSpot。\n\n高阶自动化与呼叫智能多在付费档；超大销售机队与强合规采购仍可能走 Salesforce 路线。\n",
+  "vendorId": "attio-inc"
+}

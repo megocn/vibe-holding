@@ -1,0 +1,11 @@
+{
+  "id": "e-typeform-with-zapier",
+  "from": "typeform",
+  "to": "zapier",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "完成问卷后进 CRM、表格或 Slack"
+}

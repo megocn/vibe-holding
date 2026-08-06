@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "automation",
+    "developer",
+    "webhook",
+    "ipaas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "执行时长与并发有平台上限，重任务要拆分。",
+    "业务关键路径不宜长期停在胶水脚本层。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://pipedream.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "pipedream",
+  "name": "Pipedream",
+  "category": "cicd-automation",
+  "subcategory": "ipaas",
+  "oneLiner": "代码步骤优先 · 事件/ webhook 自动 · 开发者向",
+  "officialUrl": "https://pipedream.com",
+  "descriptionMd": "Pipedream 面向开发者：用代码或低代码步骤处理 webhook、定时与 SaaS 事件，内置密钥管理与日志，适合「连接器 + 几行 JS/Python」而不是纯拖拽运营流。\n\n工程师要快速落地事件处理、原型集成或胶水逻辑、又不想自管服务器时采用；纯运营自助请用 Zapier/Make。\n\n平台运行额度与超时限制需设计幂等与重试；关键链路最终仍建议产品内服务化。\n",
+  "vendorId": "pipedream-inc"
+}

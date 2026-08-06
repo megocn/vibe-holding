@@ -1,0 +1,11 @@
+{
+  "id": "e-firstpromoter-alt-rewardful",
+  "from": "firstpromoter",
+  "to": "rewardful",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "更完整联盟运营后台 vs Stripe 极速上线"
+}

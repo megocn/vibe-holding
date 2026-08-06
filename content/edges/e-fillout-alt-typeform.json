@@ -1,0 +1,11 @@
+{
+  "id": "e-fillout-alt-typeform",
+  "from": "fillout",
+  "to": "typeform",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "计算/支付/预约多块表单 vs 对话式调研体验"
+}

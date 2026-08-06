@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "forms",
+    "survey",
+    "lead-gen",
+    "saas"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "回复额度紧，活动高峰容易撞墙。",
+    "复杂分支与导出能力随档位解锁。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.typeform.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "typeform",
+  "name": "Typeform",
+  "category": "growth-forms",
+  "subcategory": "form-builder",
+  "oneLiner": "对话式表单体验强 · 品牌感好 · 转化页问卷向",
+  "officialUrl": "https://www.typeform.com",
+  "descriptionMd": "Typeform 以一题一屏的对话式表单闻名，强调完成率与品牌呈现，适合调研、线索收集与轻量 quiz，生态连接 Zapier/CRM 成熟。\n\n对外品牌问卷、强调完成体验与分享传播的表单时采用；内部工具表单或要无限免费提交看 Tally，产品内嵌入调研也可评 Formbricks。\n\n免费/低档回复量有限；复杂条件逻辑与数据处理成本随规模上升。\n",
+  "vendorId": "typeform-inc"
+}

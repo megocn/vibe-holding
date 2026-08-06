@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "currency": "USD",
+    "notes": "云版订阅；自托管开源"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "scheduling",
+    "calendar",
+    "open-source",
+    "self-hosted"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "各日历服务商同步延迟与权限范围需实测。",
+    "自托管要管邮件通知与反滥用。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://cal.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "cal-com",
+  "name": "Cal.com",
+  "category": "collab-scheduling",
+  "subcategory": "scheduling",
+  "oneLiner": "开源 Calendly 替代 · 可自托管 · 开发者可白标",
+  "officialUrl": "https://cal.com",
+  "descriptionMd": "Cal.com 是开源的会议预约基础设施：链接选时、多日历冲突检测、团队活动类型与 webhook/API，可云可自托管，适合把预约嵌进产品或品牌域名。\n\n需要自托管/白标、或要把「约 demo」事件送进自己的 CRM/自动化时优先；只要个人约咨询且零运维用 Calendly 更快。\n\n日历提供商边界情况与时区规则要实测；自托管要维护邮件投递与可用时段同步。\n",
+  "vendorId": "cal-com-inc",
+  "githubUrl": "https://github.com/calcom/cal.com"
+}

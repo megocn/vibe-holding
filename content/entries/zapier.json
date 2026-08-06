@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "automation",
+    "ipaas",
+    "nocode",
+    "integration"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "按任务计费，高频同步会迅速烧额度。",
+    "复杂数据转换与错误重试不如代码工作流灵活。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://zapier.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "zapier",
+  "name": "Zapier",
+  "category": "cicd-automation",
+  "subcategory": "ipaas",
+  "oneLiner": "集成目录最广 · 无代码自动化标杆 · 按任务计费",
+  "officialUrl": "https://zapier.com",
+  "descriptionMd": "Zapier 是业务自动化 iPaaS 的事实标准之一：海量 SaaS 连接器、无代码 Zaps，把表单、CRM、表格与通知串成事件驱动流程，适合运营与非工程角色自助集成。\n\n要在既有云端 SaaS 之间快速搭「如果 A 则 B」、连接器覆盖优先时采用；要自托管与代码级控制看 n8n / Activepieces，开发者 webhook/代码步骤看 Pipedream。\n\n任务量上来后账单陡增；复杂分支与数据转换能力弱于代码工作流。\n",
+  "vendorId": "zapier-inc"
+}

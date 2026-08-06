@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "bug-reporting",
+    "devtools",
+    "screen-recording",
+    "developer"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "会捕获网络与控制台，密钥出现在请求里时有泄露风险。",
+    "不替代系统化 APM 与错误聚合。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://jam.dev"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "jam-dev",
+  "name": "Jam",
+  "category": "collab-async-capture",
+  "subcategory": "dev-bug-capture",
+  "oneLiner": "录屏+控制台/网络元数据 · 开发者缺陷包 · 对标 Marker",
+  "officialUrl": "https://jam.dev",
+  "descriptionMd": "Jam 把屏幕录制与浏览器控制台、网络请求等开发者上下文打成一条缺陷报告，方便前端复现，介于「给人看的 Loom」与「圈 UI 的 Marker」之间的工程向捕获。\n\n工程团队要减少「本地复现不了」来回、把技术上下文塞进 ticket 时评估；纯设计批注用 Marker，纯产品讲解用 Loom。\n\n隐私与网络日志要规范；重度分析向会话回放仍看 LogRocket 一类。\n",
+  "vendorId": "jam-dev-inc"
+}

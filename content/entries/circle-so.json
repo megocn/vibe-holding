@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "community",
+    "membership",
+    "courses",
+    "saas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "成员规模上来后按档计费，功能包要克制开通。",
+    "数据驻留与白标能力不如自托管论坛。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://circle.so"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "circle-so",
+  "name": "Circle",
+  "category": "collab-community",
+  "subcategory": "membership-community",
+  "oneLiner": "托管会员社区 · 课程/空间/活动一体 · 创作者变现向",
+  "officialUrl": "https://circle.so",
+  "descriptionMd": "Circle 是托管社区 SaaS：空间、课程、活动、直播与会员订阅放在同一产品，强调运营与变现工具，而不是开源论坛源码。\n\n课程/付费会员/创作者要一站式空间与支付、零运维时评估；要 SEO 长尾知识库与自托管用 Discourse，工程/游戏实时社区常见配 Discord。\n\n成员与功能档位订阅；数据与定制深度受 SaaS 约束，迁出成本存在。\n",
+  "vendorId": "circle-so-inc"
+}

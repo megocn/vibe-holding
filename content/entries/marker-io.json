@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "subscription",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "bug-reporting",
+    "qa",
+    "feedback",
+    "annotation"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "环境白名单与 PII 遮罩未配好会录到敏感信息。",
+    "不能替代正式测试用例与自动化。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://marker.io"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "marker-io",
+  "name": "Marker",
+  "category": "collab-async-capture",
+  "subcategory": "visual-bug-feedback",
+  "oneLiner": "页面可视缺陷标注 · 一键进工单 · 设计/QA 反馈向",
+  "officialUrl": "https://marker.io",
+  "descriptionMd": "Marker 让干系人在真实页面上圈注问题并附截图/录制元数据，把反馈一键送进 issue 工具，定位是视觉验收与缺陷沟通，而非异步人声讲解或访客分析。\n\n设计/产品/客户要在预发环境「指哪里改哪里」、且进 Linear/Jira 时评估；工程复现会话用 Jam 或 session replay，只讲概念用 Loom。\n\n按席位/项目计费；落地页 SDK 与权限要配白名单，避免扫到生产敏感数据。\n",
+  "vendorId": "marker-io-inc"
+}

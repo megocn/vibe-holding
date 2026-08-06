@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "notifications",
+    "orchestration",
+    "templates",
+    "multichannel"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "模板环境与权限治理不善会直接造成错发。",
+    "底层渠道费用与限额仍要各供应商侧管理。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.courier.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "courier",
+  "name": "Courier",
+  "category": "msg-orchestration",
+  "subcategory": "notification-platform",
+  "oneLiner": "设计器+API 通知平台 · 多渠道 · 模板中心向",
+  "officialUrl": "https://www.courier.com",
+  "descriptionMd": "Courier 提供可视化模板与开发者 API 并行的通知平台，连接邮件、推送、聊天等多渠道，便于产品与运营共管模板内容，同时保留代码触发。\n\n需要非工程师也能改通知文案、又要统一投递与日志时评估；只要极简事务邮件或只要开源自托管分别看 Resend / Novu。\n\n模板治理与环境（dev/prod）流程要设计好，否则内容事故会放大。\n",
+  "vendorId": "courier-inc"
+}

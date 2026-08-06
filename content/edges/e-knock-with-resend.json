@@ -1,0 +1,11 @@
+{
+  "id": "e-knock-with-resend",
+  "from": "knock",
+  "to": "resend",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "通知工作流把邮件渠道指到 Resend 等 ESP"
+}

@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "currency": "USD",
+    "notes": "云版按量/订阅；自托管开源"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "notifications",
+    "orchestration",
+    "open-source",
+    "multichannel"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "编排层不替代优质发信域名与短信签名资质。",
+    "渠道一多，模板与变量约定需要严格规范。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://novu.co"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "novu",
+  "name": "Novu",
+  "category": "msg-orchestration",
+  "subcategory": "notification-platform",
+  "oneLiner": "开源通知编排 · 多渠道模板 · 可自托管",
+  "officialUrl": "https://novu.co",
+  "descriptionMd": "Novu 是开源通知基础设施：统一管理邮件/短信/推送/站内信等渠道模板与工作流，提供偏好管理与投递日志，可云可自托管，避免在业务代码里散落各家 SDK。\n\n产品通知类型变多、要可观测的多渠道编排与用户偏好中心时评估；只要事务邮件 API 用 Resend 即可。\n\n各供应商送达率仍取决于底层 ESP/SMS；自托管要管队列与密钥。\n",
+  "vendorId": "novu-inc",
+  "githubUrl": "https://github.com/novuhq/novu"
+}

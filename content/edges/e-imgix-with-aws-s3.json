@@ -1,0 +1,11 @@
+{
+  "id": "e-imgix-with-aws-s3",
+  "from": "imgix",
+  "to": "aws-s3",
+  "type": "commonly_used_with",
+  "weight": 0.65,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "S3/源站出图 + imgix 边缘渲染，不强制迁库到媒体云"
+}

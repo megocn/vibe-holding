@@ -1,0 +1,11 @@
+{
+  "id": "e-mixpost-osalt-buffer",
+  "from": "mixpost",
+  "to": "buffer",
+  "type": "open_source_alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "自托管 Buffer 感控制台 vs 云端经典排期 SaaS"
+}

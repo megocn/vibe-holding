@@ -1,0 +1,40 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "social",
+    "scheduling",
+    "bulk",
+    "saas"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "企业级审批与社群收件箱能力有限。",
+    "免费额度的账号数与历史数据偏紧。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://publer.com"
+  ],
+  "lastReviewed": "2026-08-06",
+  "region": "overseas",
+  "id": "publer",
+  "name": "Publer",
+  "category": "growth-social",
+  "subcategory": "social-scheduler",
+  "oneLiner": "批量与内容库向 · 多账号日历 · 中小矩阵常用",
+  "officialUrl": "https://publer.com",
+  "descriptionMd": "Publer 面向多账号矩阵运营：提供内容库、批量上传、可视化日历与基础回收分析，适合一个运营人同时管多品牌或多市场账号。\n\n小微团队账号数上来、需要批量重排与素材库复用时评估；开发者想用 API 灌内容可看 Ayrshare，开源自托管看 Postiz。\n\n企业级工作流与深度聆听弱于 Hootsuite 级套件；免费档渠道与席位紧。\n",
+  "vendorId": "publer-inc"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "e-canny-with-intercom",
+  "from": "canny",
+  "to": "intercom",
+  "type": "commonly_used_with",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "客服会话里的需求回流到投票与路线图"
+}

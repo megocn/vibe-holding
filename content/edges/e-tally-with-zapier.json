@@ -1,0 +1,11 @@
+{
+  "id": "e-tally-with-zapier",
+  "from": "tally",
+  "to": "zapier",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "表单提交事件驱动下游 CRM/通知自动化"
+}

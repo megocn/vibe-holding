@@ -1,0 +1,11 @@
+{
+  "id": "e-jam-dev-with-linear",
+  "from": "jam-dev",
+  "to": "linear",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-06",
+  "note": "缺陷包连同复现上下文进 Linear"
+}
