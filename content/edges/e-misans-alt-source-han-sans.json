@@ -1,0 +1,10 @@
+{
+  "id": "e-misans-alt-source-han-sans",
+  "from": "misans",
+  "to": "source-han-sans",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07"
+}

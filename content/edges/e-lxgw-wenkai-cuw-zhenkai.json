@@ -1,0 +1,10 @@
+{
+  "id": "e-lxgw-wenkai-cuw-zhenkai",
+  "from": "lxgw-wenkai",
+  "to": "lxgw-zhenkai",
+  "type": "commonly_used_with",
+  "weight": 0.9,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07"
+}

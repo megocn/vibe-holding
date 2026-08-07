@@ -1,0 +1,43 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "notes": "SIL OFL 1.1；保留名「Smiley / 得意黑」"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "fonts",
+    "cjk",
+    "open-source",
+    "display",
+    "title"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "偏标题/海报气质，长文正文与密集 UI 可读性通常不如中性 UI 黑体。",
+    "字重/变体少于思源黑体等完整 UI 家族；覆盖以常用简体与拉丁为主。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/atelier-anchor/smiley-sans",
+    "https://atelier-anchor.com/typefaces/smiley-sans/"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "both",
+  "category": "design-fonts",
+  "subcategory": "cjk-fonts",
+  "id": "smiley-sans",
+  "name": "得意黑",
+  "vendorId": "atelier-anchor",
+  "oneLiner": "OFL 人文几何标题黑 · 海报/品牌短文案出彩",
+  "officialUrl": "https://atelier-anchor.com/typefaces/smiley-sans/",
+  "githubUrl": "https://github.com/atelier-anchor/smiley-sans",
+  "descriptionMd": "得意黑（Smiley Sans）由 atelierAnchor 发布，在人文手绘感与几何黑体之间找平衡，窄斜字身、适合标题与短文案的视觉冲击。SIL OFL 1.1，可商用、可改二次发行（须遵守保留名规则）。\n\n需要一张「有设计感」的中文标题字、又不愿走方正/汉仪付费库时优先；与普惠体/思源黑体分工：前者作展示标题，后者作界面与长读。\n\n不宜当作系统级全站 UI 黑体；小字号下细节可能糊，务必在目标端实测。\n"
+}

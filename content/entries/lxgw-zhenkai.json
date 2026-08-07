@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "notes": "SIL OFL 1.1；衍生自霞鹜文楷"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "fonts",
+    "cjk",
+    "open-source",
+    "kai",
+    "display"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "字数与维护节奏不及文楷主线；新字/西文以 GB / Slab 通道为准，使用前核当前 Release 说明。",
+    "展示用宜大字号；作正文易显「过粗」且字重选择少于文楷家族。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/lxgw/LxgwZhenKai"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "both",
+  "category": "design-fonts",
+  "subcategory": "cjk-fonts",
+  "id": "lxgw-zhenkai",
+  "name": "霞鹜臻楷",
+  "vendorId": "lxgw",
+  "oneLiner": "文楷加粗屏显优化 · 展示/Hero 用 · 墨台标题",
+  "officialUrl": "https://github.com/lxgw/LxgwZhenKai",
+  "githubUrl": "https://github.com/lxgw/LxgwZhenKai",
+  "descriptionMd": "霞鹜臻楷（LXGW ZhenKai）是基于霞鹜文楷的加粗屏显优化开源楷体，手工与 AI 辅助补字，目标让标题与 Hero 在屏幕上更挺拔、笔画不糊。SIL OFL 1.1，可商用与随包分发。与文楷同属 LXGW 生态但独立仓库与版本线。\n\n需要「楷体展示标题 + 文楷正文」成套气质、又不想买商用书法体时评估；墨台规范以臻楷作 `--font-display`。工程上常与文楷子集一并内置。\n\n字符覆盖与更新策略以作者 GitHub Release 为准（GB/Slab 等通道分化）；勿当文楷的简单 Bold 变量替换而不做渲染测试。\n"
+}

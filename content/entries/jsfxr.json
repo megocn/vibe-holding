@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "notes": "核心 Unlicense；sfxr.me Pro 另售打包功能"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "sfx",
+    "procedural",
+    "game",
+    "ui",
+    "open-source"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "气质固定 8-bit/retro，品牌写实产品 UI 可能违和。",
+    "Pro 云存档/zip 打包为增值；免费层已够导出 wav 做原型。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://sfxr.me",
+    "https://github.com/chr15m/jsfxr"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "category": "design-sfx",
+  "subcategory": "sfx",
+  "id": "jsfxr",
+  "name": "jsfxr",
+  "oneLiner": "浏览器/库内 8-bit 合成 · Unlicense · 游戏 UI 反馈",
+  "officialUrl": "https://sfxr.me",
+  "githubUrl": "https://github.com/chr15m/jsfxr",
+  "descriptionMd": "jsfxr 是经典 sfxr 的 Web/JavaScript 移植：在浏览器里调合成器参数，或用 npm 库在游戏运行时生成 pickup/laser/click 等短音效，许可极宽松（Unlicense）。可即时出 wav，无需依赖外链 CDN。\n\nGame Jam、产品微交互占位音、离线可复现的程序化 SFX 时优先；电影感 foley 与自然语言描述音走图库或 ElevenLabs/AudioGen。\n\n上线前统一响度与采样率；避免每个环境现场随机合成导致音画不一致。\n"
+}

@@ -1,0 +1,43 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "notes": "Basic 免费 MP3+限速+署名；Gold 解锁 WAV/去署名",
+    "currency": "GBP"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "sfx",
+    "stock",
+    "freemium",
+    "foley"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "免费 Basic：商用可做但须按协议署名，且 MP3/下载速率有限制。",
+    "实物商品/发声玩具等可能需单独 merchandising 许可。",
+    "非稳定直链开放平台；自动化爬取下载易踩 ToS。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.zapsplat.com",
+    "https://www.zapsplat.com/license-type/standard-license/"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "category": "design-sfx",
+  "subcategory": "sfx",
+  "id": "zapsplat",
+  "name": "ZapSplat",
+  "vendorId": "zapsplat-inc",
+  "oneLiner": "大体量免费 SFX · 注册下载 · 免费层需署名",
+  "officialUrl": "https://www.zapsplat.com",
+  "descriptionMd": "ZapSplat 提供大体量专业向音效（及部分配乐）在线库，每日更新。Standard License 下 Basic 账号可在影视/游戏/App/社媒等嵌入使用（含 monetize），条件包括署名与格式/速率限制；Gold 去掉署名并放 WAV。\n\n需要「比 Mixkit 更深的专业 foley 库」、可接受账号与署名层时评估；Agent 流水线更看 Freesound API 或统一许可图库。\n\n商用前读当期 Standard License；禁用「拆出 SFX 再当素材库转售」。\n"
+}

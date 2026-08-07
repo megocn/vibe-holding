@@ -1,6 +1,7 @@
 {
   "pricing": {
-    "model": "free"
+    "model": "free",
+    "notes": "Sound Effects Free License 等分品类；勿整站转售"
   },
   "availability": {
     "chinaAccessible": true,
@@ -11,28 +12,34 @@
     ]
   },
   "tags": [
+    "sfx",
+    "stock",
     "video",
     "music",
-    "stock",
-    "free"
+    "free",
+    "cdn"
   ],
-  "maturity": "stable",
+  "maturity": "mature",
   "pitfalls": [
-    "高端定制与稀缺镜头仍不足；音乐与画面授权条目要分别阅读，避免混用过期许可。"
+    "视频/音乐/音效分属不同 Mixkit License 文本，混用素材时要分别核对版本。",
+    "禁止把素材文件再做成可下载的竞品库存库；嵌入最终作品是正道。",
+    "库深不及专业 foley 站；高端定制仍走 Envato Elements 或生成式。"
   ],
   "updates": [],
   "rankings": [],
   "sources": [
-    "https://mixkit.co"
+    "https://mixkit.co/free-sound-effects/",
+    "https://mixkit.co/license/",
+    "https://mixkit.co/llm-info/"
   ],
-  "lastReviewed": "2026-07-24",
+  "lastReviewed": "2026-08-07",
   "region": "overseas",
+  "category": "design-sfx",
+  "subcategory": "sfx",
   "id": "mixkit",
   "name": "Mixkit",
-  "category": "design-stock",
-  "subcategory": "video-stock",
-  "oneLiner": "免费视频/音乐素材 · Envato 旗下",
-  "officialUrl": "https://mixkit.co",
-  "descriptionMd": "Mixkit（Envato）提供免费视频片段与音乐等，许可相对清晰，适合内容创作、教程与社媒短视频快速配素材。\n\n需要免费可商用视频/音乐、与 Envato 生态邻近时评估。\n\n高端定制与稀缺镜头仍不足；音乐与画面授权条目要分别阅读，避免混用过期许可。\n",
-  "vendorId": "envato"
+  "vendorId": "envato",
+  "oneLiner": "免登录可商用 SFX/视频/配乐 · 统一站方许可",
+  "officialUrl": "https://mixkit.co/free-sound-effects/",
+  "descriptionMd": "Mixkit（Envato）提供 **免费音效、库存视频、配乐与模板**，音效页明确可商用、免署名可选、无需注册即可下载，适合剪辑流水线与产品内容快速配音效。素材托管在站方 CDN，许可相对统一，比「逐条 CC 社区库」更省法务心智。\n\n需要可直接下载的免登录 SFX、或与 Envato 订阅高级库成对选型时优先；Agent 管线若要可编程检索与相似音，再叠 Freesound API。\n\n生产建议下载后自托管，勿长期热链第三方 URL；许可以 mixkit.co/license 当期页为准。\n"
 }

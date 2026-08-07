@@ -145,6 +145,7 @@ export const CATEGORY_ICONS: Record<string, string> = {
   'design-stock': 'Images',
   'design-inspiration': 'Lightbulb',
   'design-fonts': 'TextT',
+  'design-sfx': 'Waveform',
   collaboration: 'Kanban',
   'collab-pm': 'Kanban',
   'collab-docs': 'Notebook',

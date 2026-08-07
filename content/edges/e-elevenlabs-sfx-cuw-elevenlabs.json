@@ -1,0 +1,11 @@
+{
+  "id": "e-elevenlabs-sfx-cuw-elevenlabs",
+  "from": "elevenlabs-sfx",
+  "to": "elevenlabs",
+  "type": "commonly_used_with",
+  "weight": 0.85,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "同账号语音 + 音效层"
+}

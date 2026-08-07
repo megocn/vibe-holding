@@ -1,0 +1,46 @@
+{
+  "pricing": {
+    "model": "usage",
+    "notes": "API 按生成分钟计费（约 $0.12/min 量级，以官价为准）；免费档商用受限",
+    "currency": "USD"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "sfx",
+    "ai",
+    "text-to-audio",
+    "api",
+    "elevenlabs"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "免费用户通常仅非商用；商用需付费订阅并遵守 ToS（禁止卖竞品服务等）。",
+    "长场景/对白仍弱于专用配乐与 TTS——SFX 与音乐/语音要分轨选型。",
+    "国内直连与支付可能受限；成本随生成秒数线性涨。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://elevenlabs.io/sound-effects",
+    "https://elevenlabs.io/docs/api-reference/text-to-sound-effects/convert"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "category": "design-sfx",
+  "subcategory": "sfx",
+  "id": "elevenlabs-sfx",
+  "name": "ElevenLabs Sound Effects",
+  "vendorId": "elevenlabs-inc",
+  "oneLiner": "文本生音效 API · 按分钟 · 付费档方可商用",
+  "officialUrl": "https://elevenlabs.io/sound-effects",
+  "docsUrl": "https://elevenlabs.io/docs/api-reference/text-to-sound-effects/convert",
+  "pricingUrl": "https://elevenlabs.io/pricing/api",
+  "descriptionMd": "ElevenLabs Sound Effects 提供 **text → SFX** 生成（API `/v1/sound-generation`），用自然语言描述谁什、材质与场景即可出环境/打击/过渡等片段，面向视频、游戏与 Agent 内容管线。与同厂 TTS/克隆分列计费与产品面，但账号体系统一。\n\n库存图库搜不到的「一次性定制音」、或流水线内按脚本动态配音效时优先；固定 UI 点击声与可复用 foley 仍常先查 Mixkit/Freesound。\n\n生成结果要本地固化版本与许可快照；勿把瞬时 URL 当永久热链。\n"
+}

@@ -1,0 +1,42 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "notes": "SIL OFL 1.1"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "fonts",
+    "cjk",
+    "open-source",
+    "serif",
+    "ofl"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "完整多语言字库极大，Web 与客户端须按语言/子集裁切，否则包体失控。",
+    "宋体屏上正文可读性格局不同于黑体；小字与 UI 控件仍常见思源/系统黑体。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/adobe-fonts/source-han-serif"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "both",
+  "category": "design-fonts",
+  "subcategory": "cjk-fonts",
+  "id": "source-han-serif",
+  "name": "思源宋体",
+  "vendorId": "adobe",
+  "oneLiner": "Adobe+Google 开源 CJK 宋体 · Noto Serif CJK",
+  "officialUrl": "https://github.com/adobe-fonts/source-han-serif",
+  "githubUrl": "https://github.com/adobe-fonts/source-han-serif",
+  "descriptionMd": "思源宋体（Source Han Serif / Noto Serif CJK）是 Adobe 与 Google 联合开源的跨中日韩宋体家族，与思源黑体同属 Source Han / Noto CJK 体系，SIL OFL 1.1。多字重、区域字形（简/繁/日/韩）齐全，出版与文档排版默认开源宋体。\n\n需要印刷感标题/正文、电子书/文档 PDF 正文字、或与 Noto 西文 serif 对齐的多语产品时优先；与黑体二选一或分角色配对。\n\n体积极大，必须子集化与按区加载；嵌入 App 同样要裁字重与字符集。\n"
+}

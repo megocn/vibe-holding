@@ -1,0 +1,11 @@
+{
+  "id": "e-aigei-dom-mixkit",
+  "from": "aigei",
+  "to": "mixkit",
+  "type": "domestic_equivalent_of",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "国内音效素材站 vs 国外统一免费许可图库"
+}

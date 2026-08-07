@@ -1,0 +1,11 @@
+{
+  "id": "e-elevenlabs-sfx-alt-mixkit",
+  "from": "elevenlabs-sfx",
+  "to": "mixkit",
+  "type": "alternative_to",
+  "weight": 0.7,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "文本生成 vs 库存下载"
+}

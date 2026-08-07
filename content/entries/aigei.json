@@ -1,0 +1,44 @@
+{
+  "pricing": {
+    "model": "freemium",
+    "notes": "CC0/CC 可免费商用（按条目）；另售版权音效/配乐",
+    "currency": "CNY"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "sfx",
+    "domestic",
+    "cc",
+    "stock",
+    "ui"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "站内免费与付费、CC 与「版权音效」并存，必须按条目协议下载，禁止整站默认可商用。",
+    "部分素材镜像/转载来源杂，二次上架产品要留存授权截图与来源。",
+    "无稳定、文档化的公开全球 API；不适合直接当生产直链源。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://www.aigei.com/sound/",
+    "https://www.aigei.com/sound/cc/"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "domestic",
+  "category": "design-sfx",
+  "subcategory": "sfx",
+  "id": "aigei",
+  "name": "爱给网",
+  "vendorId": "aigei-inc",
+  "oneLiner": "国内音效素材站 · CC 免费区 + 版权单购 · UI/游戏向",
+  "officialUrl": "https://www.aigei.com/sound/",
+  "descriptionMd": "爱给网是国内常用的音效/配乐/部分 3D 与视频素材站，UI 提示、游戏与短视频向类目齐全，并设 **CC 协议免费商用专区**；另有低价版权音效与配乐单购、以及 AI 配音等周边能力。\n\n国内团队要中文界面可检索 SFX、对接本地内容生产链路时评估；与 Mixkit/ZapSplat 构成国内外「下载型图库」对照轴。\n\nAgent 或批量入库应先筛 CC0/明确 BY 条目；企业项目关键成片优先版权单购路径。\n"
+}

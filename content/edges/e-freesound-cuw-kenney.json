@@ -1,0 +1,11 @@
+{
+  "id": "e-freesound-cuw-kenney",
+  "from": "freesound",
+  "to": "kenney",
+  "type": "commonly_used_with",
+  "weight": 0.55,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "游戏原型：社区 foley + CC0 包"
+}

@@ -1,0 +1,43 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "notes": "SIL OFL 1.1"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "fonts",
+    "mono",
+    "open-source",
+    "coding",
+    "ofl"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "变体与构建选项多（NF/ligature/hint 等），团队应固定一种构建以免环境不一致。",
+    "CJK 等宽打包体积随字形范围增大；非代码区仍应用文楷/黑体，避免整站等宽。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/subframe7536/maple-font",
+    "https://font.subf.dev"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "both",
+  "category": "design-fonts",
+  "subcategory": "mono-fonts",
+  "id": "maple-mono",
+  "name": "Maple Mono",
+  "vendorId": "subframe7536",
+  "oneLiner": "OFL 编程等宽 · Nerd Font/连字 · 中英 2:1 · 墨台 mono",
+  "officialUrl": "https://font.subf.dev",
+  "githubUrl": "https://github.com/subframe7536/maple-font",
+  "descriptionMd": "Maple Mono 是面向代码与终端的开源等宽字体（SIL OFL 1.1），提供手写感斜体、细粒度 OpenType 配置、可选 Nerd Font 图标与中英 2:1 等宽思路，社区下载与二次构建活跃。气质偏温暖，和 LXGW 系人文 UI 同搭自然。\n\n需要密钥/数值对齐、终端+编辑器一致等宽、且想开源可内置时优先；墨台规范以 Maple Mono 为 `--font-mono`（回退 JetBrains Mono 等）。\n\n选构建通道（variable / NF / Normal 预设）时文档先行；勿把连字默认强加给密钥展示场景。\n"
+}

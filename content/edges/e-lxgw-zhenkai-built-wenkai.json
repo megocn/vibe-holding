@@ -1,0 +1,10 @@
+{
+  "id": "e-lxgw-zhenkai-built-wenkai",
+  "from": "lxgw-zhenkai",
+  "to": "lxgw-wenkai",
+  "type": "built_on",
+  "weight": 0.9,
+  "confidence": "verified",
+  "sources": [],
+  "createdAt": "2026-08-07"
+}

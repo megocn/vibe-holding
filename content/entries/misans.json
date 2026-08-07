@@ -1,0 +1,43 @@
+{
+  "pricing": {
+    "model": "free",
+    "notes": "官方 IP 协议免费商用；非 OFL，禁改编分发字体本身"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN",
+      "global"
+    ]
+  },
+  "tags": [
+    "fonts",
+    "cjk",
+    "free",
+    "ui",
+    "xiaomi"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "协议非 OFL：嵌入软件须注明使用 MiSans；不得对字库做外观改编/二次开发后发布。",
+    "不得单独再分发/售卖字体文件；须从官方渠道获取最新包与协议全文。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://hyperos.mi.com/font/zh/",
+    "https://hyperos.mi.com/font/zh/download"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "domestic",
+  "category": "design-fonts",
+  "subcategory": "cjk-fonts",
+  "id": "misans",
+  "name": "MiSans",
+  "vendorId": "xiaomi",
+  "oneLiner": "小米免费商用 UI 黑体 · 多语言/可变字重",
+  "officialUrl": "https://hyperos.mi.com/font/zh/",
+  "descriptionMd": "MiSans 是小米 HyperOS 体系的屏显中文字体家族，可自官网免费下载并声明面向全社会免费商用。覆盖多字重、可变字体与 MiSans Global 多书写系统，偏清晰中性 UI 气质，补齐开源思源体系之外「大厂商用白名单黑体」需求。\n\n国内 App/运营物料要正版可商用黑体、且倾向手机屏可读规格时评估；与普惠体同属大厂免费轴，但协议与语言覆盖面不同。\n\n使用前务必通读当期《MiSans 字体知识产权许可协议》；嵌入分发与二次改字规则明显严于 OFL 字体。\n"
+}

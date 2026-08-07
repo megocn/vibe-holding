@@ -623,7 +623,7 @@
     "kind": "leaf",
     "parent": "design-assets",
     "order": 6,
-    "usageMd": "片子或产品里要背景乐草稿时。\n\nAI 音乐生成。\n\n导出进时间线，商用前看许可。"
+    "usageMd": "片子或产品里要背景乐草稿时。\n\nAI 音乐生成。\n\n导出进时间线，商用前看许可；打击/UI 反馈音去「音效 / SFX」叶。"
   },
   {
     "id": "design-character-rig",
@@ -671,7 +671,15 @@
     "kind": "leaf",
     "parent": "design-assets",
     "order": 12,
-    "usageMd": "品牌和多语言排版要定字体和授权时。\n\n字体授权与嵌入。\n\n工程只加载已购/开源子集；图标别和字体混成一题。"
+    "usageMd": "品牌和多语言排版要定字体和授权时。\n\nCJK 看开源楷/宋/黑与大厂免费可商用（如文楷/思源/MiSans）；西文看 GF/Fontshare；代码等宽另选 mono。\n\n工程只加载已购或开源/白名单子集；图标与字体别搅成一题。"
+  },
+  {
+    "id": "design-sfx",
+    "name": "音效 / SFX",
+    "kind": "leaf",
+    "parent": "design-assets",
+    "order": 13,
+    "usageMd": "片子、产品 UI、Agent 演示要打击/环境/反馈音时。\n\n音效库（可直链/API）与文本生 SFX；配乐走 AI 音乐叶，人声走语音叶。\n\n先冻结许可与格式，进时间线前自托管 CDN；别热链第三方不稳定地址。"
   },
   {
     "id": "collab-pm",

@@ -1,0 +1,46 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "notes": "代码 MIT 居多；权重/商用务必核 Hugging Face 模型卡与使用政策"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "sfx",
+    "ai",
+    "text-to-audio",
+    "open-source",
+    "self-host"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "预训练权重常带研究/非商业限制，上线产品前必须读模型卡与责任政策，不可默认 OFL 级自由商用。",
+    "需 GPU 推理；延迟与运维成本显著高于直链图库。",
+    "环境音/场景描述强，与精修 UI 点击声、高制作 foley 库不是同一体验层。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/facebookresearch/audiocraft",
+    "https://facebookresearch.github.io/audiocraft/docs/AUDIOGEN.html",
+    "https://ai.meta.com/blog/audiocraft-musicgen-audiogen-encodec-generative-ai-audio/"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "category": "design-sfx",
+  "subcategory": "sfx",
+  "id": "meta-audiogen",
+  "name": "Meta AudioGen",
+  "vendorId": "meta",
+  "oneLiner": "开源文本生环境音 · AudioCraft · 可自托管",
+  "officialUrl": "https://ai.meta.com/resources/models-and-libraries/audiocraft/",
+  "githubUrl": "https://github.com/facebookresearch/audiocraft",
+  "docsUrl": "https://facebookresearch.github.io/audiocraft/docs/AUDIOGEN.html",
+  "descriptionMd": "AudioGen 是 Meta AudioCraft 中的 **text-to-sound** 模型，面向环境音与效果音描述生成，与 MusicGen（配乐）分工。开源代码与训练/推理脚本便于研究与自托管实验，是「生成式 SFX 基建」开源参照系。\n\n需要本地生成、可再训练/可控采样、或作为 ElevenLabs 等 SaaS 的开源对照时评估；不急深度自建则优先托管 API。\n\n生产商用路径要单独做法务与安全评估；输出需听感 QC 与响度标准化。\n"
+}

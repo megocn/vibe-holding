@@ -1,0 +1,11 @@
+{
+  "id": "e-mixkit-alt-freesound",
+  "from": "mixkit",
+  "to": "freesound",
+  "type": "alternative_to",
+  "weight": 0.75,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "统一许可下载站 vs 社区 API 库"
+}

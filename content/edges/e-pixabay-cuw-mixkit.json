@@ -1,0 +1,11 @@
+{
+  "id": "e-pixabay-cuw-mixkit",
+  "from": "pixabay",
+  "to": "mixkit",
+  "type": "commonly_used_with",
+  "weight": 0.6,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "同属免费多媒体；Pixabay 亦含音效/音乐"
+}

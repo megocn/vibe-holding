@@ -1,0 +1,41 @@
+{
+  "pricing": {
+    "model": "free",
+    "notes": "永久免费商用（钉钉指定官方渠道）；禁修改与单独转售"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "CN"
+    ]
+  },
+  "tags": [
+    "fonts",
+    "cjk",
+    "free",
+    "title",
+    "alibaba"
+  ],
+  "maturity": "stable",
+  "pitfalls": [
+    "须从钉钉指定官方渠道下载；未经授权不得上传/转载字体文件本身。",
+    "禁修改、反编译与单独定价出售；偏标题/美术字场景，不适合整站 UI 长文。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://page.dingtalk.com/wow/dingtalk/default/dingtalk/y-W5aF3_ZJwzulU0nceIl"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "domestic",
+  "category": "design-fonts",
+  "subcategory": "cjk-fonts",
+  "id": "dingtalk-jinbuti",
+  "name": "钉钉进步体",
+  "vendorId": "alibaba",
+  "oneLiner": "钉钉免费商用标题体 · 科技人文 · 官方渠道分发",
+  "officialUrl": "https://page.dingtalk.com/wow/dingtalk/default/dingtalk/y-W5aF3_ZJwzulU0nceIl",
+  "descriptionMd": "钉钉进步体是钉钉联合字体团队推出的中英标题/美术字型，宣称个人与组织永久免费商用。气质偏科技活力又带书写温度，字符集覆盖常用场景约七千余字，定位运营标题、海报与品牌短句。\n\n国内中小团队要「可商用的出彩标题字」且不想买库时评估；与得意黑同属展示轴——前者大厂协议免费，后者 OFL 开源可改二次发行。\n\n商用前以钉钉当期法律声明为准；禁止再分发字体包给非授权渠道。\n"
+}

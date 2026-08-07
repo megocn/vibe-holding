@@ -1,0 +1,44 @@
+{
+  "pricing": {
+    "model": "open-source",
+    "notes": "SIL OFL 1.1；禁止单独出售字体文件"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "fonts",
+    "cjk",
+    "open-source",
+    "kai",
+    "ofl"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "全量 woff2 体积大，Web 须子集化或动态切分，否则首屏成本高。",
+    "楷体小字识别弱于黑体；界面建议 ≥13px 并配更宽行距。",
+    "衍生字体不可使用保留名称「霞鹜 / LXGW」。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://github.com/lxgw/LxgwWenKai",
+    "https://fonts.google.com/specimen/LXGW+WenKai"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "both",
+  "category": "design-fonts",
+  "subcategory": "cjk-fonts",
+  "id": "lxgw-wenkai",
+  "name": "霞鹜文楷",
+  "vendorId": "lxgw",
+  "oneLiner": "OFL 人文楷体 · 屏显长文 · 墨台正文用字",
+  "officialUrl": "https://github.com/lxgw/LxgwWenKai",
+  "githubUrl": "https://github.com/lxgw/LxgwWenKai",
+  "descriptionMd": "霞鹜文楷（LXGW WenKai）基于 Fontworks Klee One 补全的开源中文楷体，SIL OFL 1.1 可个人与企业自由商用、随应用分发。字形温润偏人文，适合阅读向正文与「书卷」气质产品，为社区下载量最高的开源汉字楷体之一。\n\n需要免费可内置的 CJK 楷体正文、或追求纸墨 humanist 气质时优先；墨台（VibeHolding）设计规范以文楷作 `--font-body`。可与臻楷配展示标题，与 Maple Mono 配代码列。\n\n全量字库偏重，Web 必须子集/按需加载；楷体不适合过小 UI 字号。Google Fonts 亦有托管但国内可达与隐私仍可能需自托管。\n"
+}

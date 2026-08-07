@@ -1,0 +1,44 @@
+{
+  "pricing": {
+    "model": "free",
+    "notes": "站点与 API 免费；单条多为 CC0/CC-BY/CC-BY-NC 等"
+  },
+  "availability": {
+    "chinaAccessible": true,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": [
+      "global"
+    ]
+  },
+  "tags": [
+    "sfx",
+    "api",
+    "open-data",
+    "cc",
+    "foley"
+  ],
+  "maturity": "mature",
+  "pitfalls": [
+    "许可按**单条**文件而定（含 BY-NC），Agent 下载前必须读 license 字段，禁止假定整库可商用。",
+    "原格式全量下载需 OAuth2；仅 token 常只能拿预览/受限质量链路。",
+    "内容质量与标签噪声大，语义检索要做后过滤与人工试听。"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://freesound.org",
+    "https://freesound.org/docs/api/overview.html"
+  ],
+  "lastReviewed": "2026-08-07",
+  "region": "overseas",
+  "category": "design-sfx",
+  "subcategory": "sfx",
+  "id": "freesound",
+  "name": "Freesound",
+  "vendorId": "freesound-project",
+  "oneLiner": "社区音效库 · APIv2 检索/预览 · 单条 CC 许可",
+  "officialUrl": "https://freesound.org",
+  "docsUrl": "https://freesound.org/docs/api/",
+  "descriptionMd": "Freesound 是最大的社区贡献音效库之一，覆盖 foley、环境、实验音色，提供 **APIv2** 检索、相似音、分析特征与预览 URL，适合工具链与 AI Agent 程序化挑音。\n\n需要「可搜 + API + 开放许可样本」、或科研/内容分析与草稿 foley 时优先；与 Mixkit 等「站方统一免费许可」库对照：API 与长尾更强，授权一致性更弱。\n\n产品发布管线应只入库 CC0/明确允许商用条目；预览链勿当生产 CDN 长期热链。\n"
+}

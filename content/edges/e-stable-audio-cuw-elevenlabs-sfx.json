@@ -1,0 +1,11 @@
+{
+  "id": "e-stable-audio-cuw-elevenlabs-sfx",
+  "from": "stable-audio",
+  "to": "elevenlabs-sfx",
+  "type": "commonly_used_with",
+  "weight": 0.5,
+  "confidence": "community",
+  "sources": [],
+  "createdAt": "2026-08-07",
+  "note": "生成式音频管线：配乐 + SFX 分轨"
+}

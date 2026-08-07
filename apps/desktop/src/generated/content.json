@@ -582,6 +582,50 @@
     },
     {
       "pricing": {
+        "model": "freemium",
+        "notes": "CC0/CC 可免费商用（按条目）；另售版权音效/配乐",
+        "currency": "CNY"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "CN"
+        ]
+      },
+      "tags": [
+        "sfx",
+        "domestic",
+        "cc",
+        "stock",
+        "ui"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "站内免费与付费、CC 与「版权音效」并存，必须按条目协议下载，禁止整站默认可商用。",
+        "部分素材镜像/转载来源杂，二次上架产品要留存授权截图与来源。",
+        "无稳定、文档化的公开全球 API；不适合直接当生产直链源。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.aigei.com/sound/",
+        "https://www.aigei.com/sound/cc/"
+      ],
+      "lastReviewed": "2026-08-07",
+      "region": "domestic",
+      "category": "design-sfx",
+      "subcategory": "sfx",
+      "id": "aigei",
+      "name": "爱给网",
+      "vendorId": "aigei-inc",
+      "oneLiner": "国内音效素材站 · CC 免费区 + 版权单购 · UI/游戏向",
+      "officialUrl": "https://www.aigei.com/sound/",
+      "descriptionMd": "爱给网是国内常用的音效/配乐/部分 3D 与视频素材站，UI 提示、游戏与短视频向类目齐全，并设 **CC 协议免费商用专区**；另有低价版权音效与配乐单购、以及 AI 配音等周边能力。\n\n国内团队要中文界面可检索 SFX、对接本地内容生产链路时评估；与 Mixkit/ZapSplat 构成国内外「下载型图库」对照轴。\n\nAgent 或批量入库应先筛 CC0/明确 BY 条目；企业项目关键成片优先版权单购路径。\n"
+    },
+    {
+      "pricing": {
         "model": "open-source",
         "currency": "USD"
       },
@@ -11627,6 +11671,47 @@
     },
     {
       "pricing": {
+        "model": "free",
+        "notes": "永久免费商用（钉钉指定官方渠道）；禁修改与单独转售"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "CN"
+        ]
+      },
+      "tags": [
+        "fonts",
+        "cjk",
+        "free",
+        "title",
+        "alibaba"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "须从钉钉指定官方渠道下载；未经授权不得上传/转载字体文件本身。",
+        "禁修改、反编译与单独定价出售；偏标题/美术字场景，不适合整站 UI 长文。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://page.dingtalk.com/wow/dingtalk/default/dingtalk/y-W5aF3_ZJwzulU0nceIl"
+      ],
+      "lastReviewed": "2026-08-07",
+      "region": "domestic",
+      "category": "design-fonts",
+      "subcategory": "cjk-fonts",
+      "id": "dingtalk-jinbuti",
+      "name": "钉钉进步体",
+      "vendorId": "alibaba",
+      "oneLiner": "钉钉免费商用标题体 · 科技人文 · 官方渠道分发",
+      "officialUrl": "https://page.dingtalk.com/wow/dingtalk/default/dingtalk/y-W5aF3_ZJwzulU0nceIl",
+      "descriptionMd": "钉钉进步体是钉钉联合字体团队推出的中英标题/美术字型，宣称个人与组织永久免费商用。气质偏科技活力又带书写温度，字符集覆盖常用场景约七千余字，定位运营标题、海报与品牌短句。\n\n国内中小团队要「可商用的出彩标题字」且不想买库时评估；与得意黑同属展示轴——前者大厂协议免费，后者 OFL 开源可改二次发行。\n\n商用前以钉钉当期法律声明为准；禁止再分发字体包给非授权渠道。\n"
+    },
+    {
+      "pricing": {
         "model": "freemium"
       },
       "availability": {
@@ -13288,6 +13373,52 @@
       "officialUrl": "https://element-plus.org",
       "descriptionMd": "Element Plus 是 Element UI 的 Vue 3 继任，提供完整 enterprise 组件，在国内 Vue admin 生态占主导。\n\n国内 Vue 后台、Element 存量升级 Vue 3、或需要成熟 table/form 中文文档时。\n\n视觉偏传统 enterprise；高度定制 marketing 页不如 Tailwind 自由。\n",
       "vendorId": "element-plus-inc"
+    },
+    {
+      "pricing": {
+        "model": "usage",
+        "notes": "API 按生成分钟计费（约 $0.12/min 量级，以官价为准）；免费档商用受限",
+        "currency": "USD"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "sfx",
+        "ai",
+        "text-to-audio",
+        "api",
+        "elevenlabs"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "免费用户通常仅非商用；商用需付费订阅并遵守 ToS（禁止卖竞品服务等）。",
+        "长场景/对白仍弱于专用配乐与 TTS——SFX 与音乐/语音要分轨选型。",
+        "国内直连与支付可能受限；成本随生成秒数线性涨。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://elevenlabs.io/sound-effects",
+        "https://elevenlabs.io/docs/api-reference/text-to-sound-effects/convert"
+      ],
+      "lastReviewed": "2026-08-07",
+      "region": "overseas",
+      "category": "design-sfx",
+      "subcategory": "sfx",
+      "id": "elevenlabs-sfx",
+      "name": "ElevenLabs Sound Effects",
+      "vendorId": "elevenlabs-inc",
+      "oneLiner": "文本生音效 API · 按分钟 · 付费档方可商用",
+      "officialUrl": "https://elevenlabs.io/sound-effects",
+      "docsUrl": "https://elevenlabs.io/docs/api-reference/text-to-sound-effects/convert",
+      "pricingUrl": "https://elevenlabs.io/pricing/api",
+      "descriptionMd": "ElevenLabs Sound Effects 提供 **text → SFX** 生成（API `/v1/sound-generation`），用自然语言描述谁什、材质与场景即可出环境/打击/过渡等片段，面向视频、游戏与 Agent 内容管线。与同厂 TTS/克隆分列计费与产品面，但账号体系统一。\n\n库存图库搜不到的「一次性定制音」、或流水线内按脚本动态配音效时优先；固定 UI 点击声与可复用 foley 仍常先查 Mixkit/Freesound。\n\n生成结果要本地固化版本与许可快照；勿把瞬时 URL 当永久热链。\n"
     },
     {
       "pricing": {
@@ -15642,6 +15773,50 @@
       "officialUrl": "https://www.freepik.com",
       "descriptionMd": "Freepik（现亦以 Magnific 叙事扩展 AI 创作）提供照片、矢量、图标、模板、Mockup 等超大库存，是营销与演示设计常用的付费/免费分层素材市场。\n\n需要海报、演示、社媒模板与矢量包、可接受订阅换无归因时评估；与 Envato/Adobe Stock 同层。\n\n免费层常需署名；品牌项目注意素材「模板感」与授权范围；站点品牌更名期间入口以官网为准。\n",
       "vendorId": "freepik-inc"
+    },
+    {
+      "pricing": {
+        "model": "free",
+        "notes": "站点与 API 免费；单条多为 CC0/CC-BY/CC-BY-NC 等"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "sfx",
+        "api",
+        "open-data",
+        "cc",
+        "foley"
+      ],
+      "maturity": "mature",
+      "pitfalls": [
+        "许可按**单条**文件而定（含 BY-NC），Agent 下载前必须读 license 字段，禁止假定整库可商用。",
+        "原格式全量下载需 OAuth2；仅 token 常只能拿预览/受限质量链路。",
+        "内容质量与标签噪声大，语义检索要做后过滤与人工试听。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://freesound.org",
+        "https://freesound.org/docs/api/overview.html"
+      ],
+      "lastReviewed": "2026-08-07",
+      "region": "overseas",
+      "category": "design-sfx",
+      "subcategory": "sfx",
+      "id": "freesound",
+      "name": "Freesound",
+      "vendorId": "freesound-project",
+      "oneLiner": "社区音效库 · APIv2 检索/预览 · 单条 CC 许可",
+      "officialUrl": "https://freesound.org",
+      "docsUrl": "https://freesound.org/docs/api/",
+      "descriptionMd": "Freesound 是最大的社区贡献音效库之一，覆盖 foley、环境、实验音色，提供 **APIv2** 检索、相似音、分析特征与预览 URL，适合工具链与 AI Agent 程序化挑音。\n\n需要「可搜 + API + 开放许可样本」、或科研/内容分析与草稿 foley 时优先；与 Mixkit 等「站方统一免费许可」库对照：API 与长尾更强，授权一致性更弱。\n\n产品发布管线应只入库 CC0/明确允许商用条目；预览链勿当生产 CDN 长期热链。\n"
     },
     {
       "pricing": {
@@ -23523,6 +23698,48 @@
     },
     {
       "pricing": {
+        "model": "open-source",
+        "notes": "核心 Unlicense；sfxr.me Pro 另售打包功能"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "sfx",
+        "procedural",
+        "game",
+        "ui",
+        "open-source"
+      ],
+      "maturity": "mature",
+      "pitfalls": [
+        "气质固定 8-bit/retro，品牌写实产品 UI 可能违和。",
+        "Pro 云存档/zip 打包为增值；免费层已够导出 wav 做原型。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://sfxr.me",
+        "https://github.com/chr15m/jsfxr"
+      ],
+      "lastReviewed": "2026-08-07",
+      "region": "overseas",
+      "category": "design-sfx",
+      "subcategory": "sfx",
+      "id": "jsfxr",
+      "name": "jsfxr",
+      "oneLiner": "浏览器/库内 8-bit 合成 · Unlicense · 游戏 UI 反馈",
+      "officialUrl": "https://sfxr.me",
+      "githubUrl": "https://github.com/chr15m/jsfxr",
+      "descriptionMd": "jsfxr 是经典 sfxr 的 Web/JavaScript 移植：在浏览器里调合成器参数，或用 npm 库在游戏运行时生成 pickup/laser/click 等短音效，许可极宽松（Unlicense）。可即时出 wav，无需依赖外链 CDN。\n\nGame Jam、产品微交互占位音、离线可复现的程序化 SFX 时优先；电影感 foley 与自然语言描述音走图库或 ElevenLabs/AudioGen。\n\n上线前统一响度与采样率；避免每个环境现场随机合成导致音画不一致。\n"
+    },
+    {
+      "pricing": {
         "model": "freemium",
         "currency": "USD"
       },
@@ -27088,6 +27305,92 @@
     },
     {
       "pricing": {
+        "model": "open-source",
+        "notes": "SIL OFL 1.1；禁止单独出售字体文件"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "fonts",
+        "cjk",
+        "open-source",
+        "kai",
+        "ofl"
+      ],
+      "maturity": "mature",
+      "pitfalls": [
+        "全量 woff2 体积大，Web 须子集化或动态切分，否则首屏成本高。",
+        "楷体小字识别弱于黑体；界面建议 ≥13px 并配更宽行距。",
+        "衍生字体不可使用保留名称「霞鹜 / LXGW」。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://github.com/lxgw/LxgwWenKai",
+        "https://fonts.google.com/specimen/LXGW+WenKai"
+      ],
+      "lastReviewed": "2026-08-07",
+      "region": "both",
+      "category": "design-fonts",
+      "subcategory": "cjk-fonts",
+      "id": "lxgw-wenkai",
+      "name": "霞鹜文楷",
+      "vendorId": "lxgw",
+      "oneLiner": "OFL 人文楷体 · 屏显长文 · 墨台正文用字",
+      "officialUrl": "https://github.com/lxgw/LxgwWenKai",
+      "githubUrl": "https://github.com/lxgw/LxgwWenKai",
+      "descriptionMd": "霞鹜文楷（LXGW WenKai）基于 Fontworks Klee One 补全的开源中文楷体，SIL OFL 1.1 可个人与企业自由商用、随应用分发。字形温润偏人文，适合阅读向正文与「书卷」气质产品，为社区下载量最高的开源汉字楷体之一。\n\n需要免费可内置的 CJK 楷体正文、或追求纸墨 humanist 气质时优先；墨台（VibeHolding）设计规范以文楷作 `--font-body`。可与臻楷配展示标题，与 Maple Mono 配代码列。\n\n全量字库偏重，Web 必须子集/按需加载；楷体不适合过小 UI 字号。Google Fonts 亦有托管但国内可达与隐私仍可能需自托管。\n"
+    },
+    {
+      "pricing": {
+        "model": "open-source",
+        "notes": "SIL OFL 1.1；衍生自霞鹜文楷"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "fonts",
+        "cjk",
+        "open-source",
+        "kai",
+        "display"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "字数与维护节奏不及文楷主线；新字/西文以 GB / Slab 通道为准，使用前核当前 Release 说明。",
+        "展示用宜大字号；作正文易显「过粗」且字重选择少于文楷家族。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://github.com/lxgw/LxgwZhenKai"
+      ],
+      "lastReviewed": "2026-08-07",
+      "region": "both",
+      "category": "design-fonts",
+      "subcategory": "cjk-fonts",
+      "id": "lxgw-zhenkai",
+      "name": "霞鹜臻楷",
+      "vendorId": "lxgw",
+      "oneLiner": "文楷加粗屏显优化 · 展示/Hero 用 · 墨台标题",
+      "officialUrl": "https://github.com/lxgw/LxgwZhenKai",
+      "githubUrl": "https://github.com/lxgw/LxgwZhenKai",
+      "descriptionMd": "霞鹜臻楷（LXGW ZhenKai）是基于霞鹜文楷的加粗屏显优化开源楷体，手工与 AI 辅助补字，目标让标题与 Hero 在屏幕上更挺拔、笔画不糊。SIL OFL 1.1，可商用与随包分发。与文楷同属 LXGW 生态但独立仓库与版本线。\n\n需要「楷体展示标题 + 文楷正文」成套气质、又不想买商用书法体时评估；墨台规范以臻楷作 `--font-display`。工程上常与文楷子集一并内置。\n\n字符覆盖与更新策略以作者 GitHub Release 为准（GB/Slab 等通道分化）；勿当文楷的简单 Bold 变量替换而不做渲染测试。\n"
+    },
+    {
+      "pricing": {
         "model": "open-source"
       },
       "availability": {
@@ -27530,6 +27833,49 @@
           "previousAsOf": "2026-07-20"
         }
       ]
+    },
+    {
+      "pricing": {
+        "model": "open-source",
+        "notes": "SIL OFL 1.1"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "fonts",
+        "mono",
+        "open-source",
+        "coding",
+        "ofl"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "变体与构建选项多（NF/ligature/hint 等），团队应固定一种构建以免环境不一致。",
+        "CJK 等宽打包体积随字形范围增大；非代码区仍应用文楷/黑体，避免整站等宽。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://github.com/subframe7536/maple-font",
+        "https://font.subf.dev"
+      ],
+      "lastReviewed": "2026-08-07",
+      "region": "both",
+      "category": "design-fonts",
+      "subcategory": "mono-fonts",
+      "id": "maple-mono",
+      "name": "Maple Mono",
+      "vendorId": "subframe7536",
+      "oneLiner": "OFL 编程等宽 · Nerd Font/连字 · 中英 2:1 · 墨台 mono",
+      "officialUrl": "https://font.subf.dev",
+      "githubUrl": "https://github.com/subframe7536/maple-font",
+      "descriptionMd": "Maple Mono 是面向代码与终端的开源等宽字体（SIL OFL 1.1），提供手写感斜体、细粒度 OpenType 配置、可选 Nerd Font 图标与中英 2:1 等宽思路，社区下载与二次构建活跃。气质偏温暖，和 LXGW 系人文 UI 同搭自然。\n\n需要密钥/数值对齐、终端+编辑器一致等宽、且想开源可内置时优先；墨台规范以 Maple Mono 为 `--font-mono`（回退 JetBrains Mono 等）。\n\n选构建通道（variable / NF / Normal 预设）时文档先行；勿把连字默认强加给密钥展示场景。\n"
     },
     {
       "pricing": {
@@ -28161,6 +28507,52 @@
       "officialUrl": "https://www.meshy.ai",
       "descriptionMd": "Meshy 提供文本/图像生成 3D 网格，并支持重拓扑、贴图、绑骨与基础动画导出（如 GLB），面向游戏原型、角色样板与营销 3D 资产快速试错。\n\n需要从概念图快速落到可预览/可挂动画的 3D 角色或道具、且接受 AI 拓扑质量时评估；可与 Tripo、Rodin 同层对比。\n\n商用授权与积分套餐变化快；高模体积大，上线前需压面/换装自研骨骼或公告板。\n",
       "vendorId": "meshy-ai"
+    },
+    {
+      "pricing": {
+        "model": "open-source",
+        "notes": "代码 MIT 居多；权重/商用务必核 Hugging Face 模型卡与使用政策"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "sfx",
+        "ai",
+        "text-to-audio",
+        "open-source",
+        "self-host"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "预训练权重常带研究/非商业限制，上线产品前必须读模型卡与责任政策，不可默认 OFL 级自由商用。",
+        "需 GPU 推理；延迟与运维成本显著高于直链图库。",
+        "环境音/场景描述强，与精修 UI 点击声、高制作 foley 库不是同一体验层。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://github.com/facebookresearch/audiocraft",
+        "https://facebookresearch.github.io/audiocraft/docs/AUDIOGEN.html",
+        "https://ai.meta.com/blog/audiocraft-musicgen-audiogen-encodec-generative-ai-audio/"
+      ],
+      "lastReviewed": "2026-08-07",
+      "region": "overseas",
+      "category": "design-sfx",
+      "subcategory": "sfx",
+      "id": "meta-audiogen",
+      "name": "Meta AudioGen",
+      "vendorId": "meta",
+      "oneLiner": "开源文本生环境音 · AudioCraft · 可自托管",
+      "officialUrl": "https://ai.meta.com/resources/models-and-libraries/audiocraft/",
+      "githubUrl": "https://github.com/facebookresearch/audiocraft",
+      "docsUrl": "https://facebookresearch.github.io/audiocraft/docs/AUDIOGEN.html",
+      "descriptionMd": "AudioGen 是 Meta AudioCraft 中的 **text-to-sound** 模型，面向环境音与效果音描述生成，与 MusicGen（配乐）分工。开源代码与训练/推理脚本便于研究与自托管实验，是「生成式 SFX 基建」开源参照系。\n\n需要本地生成、可再训练/可控采样、或作为 ElevenLabs 等 SaaS 的开源对照时评估；不急深度自建则优先托管 API。\n\n生产商用路径要单独做法务与安全评估；输出需听感 QC 与响度标准化。\n"
     },
     {
       "id": "meta-muse-image",
@@ -29322,6 +29714,49 @@
     },
     {
       "pricing": {
+        "model": "free",
+        "notes": "官方 IP 协议免费商用；非 OFL，禁改编分发字体本身"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "CN",
+          "global"
+        ]
+      },
+      "tags": [
+        "fonts",
+        "cjk",
+        "free",
+        "ui",
+        "xiaomi"
+      ],
+      "maturity": "mature",
+      "pitfalls": [
+        "协议非 OFL：嵌入软件须注明使用 MiSans；不得对字库做外观改编/二次开发后发布。",
+        "不得单独再分发/售卖字体文件；须从官方渠道获取最新包与协议全文。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://hyperos.mi.com/font/zh/",
+        "https://hyperos.mi.com/font/zh/download"
+      ],
+      "lastReviewed": "2026-08-07",
+      "region": "domestic",
+      "category": "design-fonts",
+      "subcategory": "cjk-fonts",
+      "id": "misans",
+      "name": "MiSans",
+      "vendorId": "xiaomi",
+      "oneLiner": "小米免费商用 UI 黑体 · 多语言/可变字重",
+      "officialUrl": "https://hyperos.mi.com/font/zh/",
+      "descriptionMd": "MiSans 是小米 HyperOS 体系的屏显中文字体家族，可自官网免费下载并声明面向全社会免费商用。覆盖多字重、可变字体与 MiSans Global 多书写系统，偏清晰中性 UI 气质，补齐开源思源体系之外「大厂商用白名单黑体」需求。\n\n国内 App/运营物料要正版可商用黑体、且倾向手机屏可读规格时评估；与普惠体同属大厂免费轴，但协议与语言覆盖面不同。\n\n使用前务必通读当期《MiSans 字体知识产权许可协议》；嵌入分发与二次改字规则明显严于 OFL 字体。\n"
+    },
+    {
+      "pricing": {
         "model": "usage"
       },
       "availability": {
@@ -29553,7 +29988,8 @@
     },
     {
       "pricing": {
-        "model": "free"
+        "model": "free",
+        "notes": "Sound Effects Free License 等分品类；勿整站转售"
       },
       "availability": {
         "chinaAccessible": true,
@@ -29564,30 +30000,36 @@
         ]
       },
       "tags": [
+        "sfx",
+        "stock",
         "video",
         "music",
-        "stock",
-        "free"
+        "free",
+        "cdn"
       ],
-      "maturity": "stable",
+      "maturity": "mature",
       "pitfalls": [
-        "高端定制与稀缺镜头仍不足；音乐与画面授权条目要分别阅读，避免混用过期许可。"
+        "视频/音乐/音效分属不同 Mixkit License 文本，混用素材时要分别核对版本。",
+        "禁止把素材文件再做成可下载的竞品库存库；嵌入最终作品是正道。",
+        "库深不及专业 foley 站；高端定制仍走 Envato Elements 或生成式。"
       ],
       "updates": [],
       "rankings": [],
       "sources": [
-        "https://mixkit.co"
+        "https://mixkit.co/free-sound-effects/",
+        "https://mixkit.co/license/",
+        "https://mixkit.co/llm-info/"
       ],
-      "lastReviewed": "2026-07-24",
+      "lastReviewed": "2026-08-07",
       "region": "overseas",
+      "category": "design-sfx",
+      "subcategory": "sfx",
       "id": "mixkit",
       "name": "Mixkit",
-      "category": "design-stock",
-      "subcategory": "video-stock",
-      "oneLiner": "免费视频/音乐素材 · Envato 旗下",
-      "officialUrl": "https://mixkit.co",
-      "descriptionMd": "Mixkit（Envato）提供免费视频片段与音乐等，许可相对清晰，适合内容创作、教程与社媒短视频快速配素材。\n\n需要免费可商用视频/音乐、与 Envato 生态邻近时评估。\n\n高端定制与稀缺镜头仍不足；音乐与画面授权条目要分别阅读，避免混用过期许可。\n",
-      "vendorId": "envato"
+      "vendorId": "envato",
+      "oneLiner": "免登录可商用 SFX/视频/配乐 · 统一站方许可",
+      "officialUrl": "https://mixkit.co/free-sound-effects/",
+      "descriptionMd": "Mixkit（Envato）提供 **免费音效、库存视频、配乐与模板**，音效页明确可商用、免署名可选、无需注册即可下载，适合剪辑流水线与产品内容快速配音效。素材托管在站方 CDN，许可相对统一，比「逐条 CC 社区库」更省法务心智。\n\n需要可直接下载的免登录 SFX、或与 Envato 订阅高级库成对选型时优先；Agent 管线若要可编程检索与相似音，再叠 Freesound API。\n\n生产建议下载后自托管，勿长期热链第三方 URL；许可以 mixkit.co/license 当期页为准。\n"
     },
     {
       "pricing": {
@@ -40788,6 +41230,49 @@
     },
     {
       "pricing": {
+        "model": "open-source",
+        "notes": "SIL OFL 1.1；保留名「Smiley / 得意黑」"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "fonts",
+        "cjk",
+        "open-source",
+        "display",
+        "title"
+      ],
+      "maturity": "stable",
+      "pitfalls": [
+        "偏标题/海报气质，长文正文与密集 UI 可读性通常不如中性 UI 黑体。",
+        "字重/变体少于思源黑体等完整 UI 家族；覆盖以常用简体与拉丁为主。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://github.com/atelier-anchor/smiley-sans",
+        "https://atelier-anchor.com/typefaces/smiley-sans/"
+      ],
+      "lastReviewed": "2026-08-07",
+      "region": "both",
+      "category": "design-fonts",
+      "subcategory": "cjk-fonts",
+      "id": "smiley-sans",
+      "name": "得意黑",
+      "vendorId": "atelier-anchor",
+      "oneLiner": "OFL 人文几何标题黑 · 海报/品牌短文案出彩",
+      "officialUrl": "https://atelier-anchor.com/typefaces/smiley-sans/",
+      "githubUrl": "https://github.com/atelier-anchor/smiley-sans",
+      "descriptionMd": "得意黑（Smiley Sans）由 atelierAnchor 发布，在人文手绘感与几何黑体之间找平衡，窄斜字身、适合标题与短文案的视觉冲击。SIL OFL 1.1，可商用、可改二次发行（须遵守保留名规则）。\n\n需要一张「有设计感」的中文标题字、又不愿走方正/汉仪付费库时优先；与普惠体/思源黑体分工：前者作展示标题，后者作界面与长读。\n\n不宜当作系统级全站 UI 黑体；小字号下细节可能糊，务必在目标端实测。\n"
+    },
+    {
+      "pricing": {
         "model": "freemium"
       },
       "availability": {
@@ -41198,6 +41683,48 @@
       "descriptionMd": "思源黑体（Source Han Sans / Noto Sans CJK）是覆盖中日韩的开源字体家族，桌面与 Web 自托管常见，许可友好。\n\n需要开源中文字体、多语言 CJK 产品或与 Noto 西文统一时优先。\n\n完整字库体积大，Web 必须子集化/按需加载，否则首屏很重。\n",
       "vendorId": "adobe",
       "githubUrl": "https://github.com/adobe-fonts/source-han-sans"
+    },
+    {
+      "pricing": {
+        "model": "open-source",
+        "notes": "SIL OFL 1.1"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "fonts",
+        "cjk",
+        "open-source",
+        "serif",
+        "ofl"
+      ],
+      "maturity": "mature",
+      "pitfalls": [
+        "完整多语言字库极大，Web 与客户端须按语言/子集裁切，否则包体失控。",
+        "宋体屏上正文可读性格局不同于黑体；小字与 UI 控件仍常见思源/系统黑体。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://github.com/adobe-fonts/source-han-serif"
+      ],
+      "lastReviewed": "2026-08-07",
+      "region": "both",
+      "category": "design-fonts",
+      "subcategory": "cjk-fonts",
+      "id": "source-han-serif",
+      "name": "思源宋体",
+      "vendorId": "adobe",
+      "oneLiner": "Adobe+Google 开源 CJK 宋体 · Noto Serif CJK",
+      "officialUrl": "https://github.com/adobe-fonts/source-han-serif",
+      "githubUrl": "https://github.com/adobe-fonts/source-han-serif",
+      "descriptionMd": "思源宋体（Source Han Serif / Noto Serif CJK）是 Adobe 与 Google 联合开源的跨中日韩宋体家族，与思源黑体同属 Source Han / Noto CJK 体系，SIL OFL 1.1。多字重、区域字形（简/繁/日/韩）齐全，出版与文档排版默认开源宋体。\n\n需要印刷感标题/正文、电子书/文档 PDF 正文字、或与 Noto 西文 serif 对齐的多语产品时优先；与黑体二选一或分角色配对。\n\n体积极大，必须子集化与按区加载；嵌入 App 同样要裁字重与字符集。\n"
     },
     {
       "pricing": {
@@ -49165,6 +49692,49 @@
     },
     {
       "pricing": {
+        "model": "freemium",
+        "notes": "Basic 免费 MP3+限速+署名；Gold 解锁 WAV/去署名",
+        "currency": "GBP"
+      },
+      "availability": {
+        "chinaAccessible": true,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": [
+          "global"
+        ]
+      },
+      "tags": [
+        "sfx",
+        "stock",
+        "freemium",
+        "foley"
+      ],
+      "maturity": "mature",
+      "pitfalls": [
+        "免费 Basic：商用可做但须按协议署名，且 MP3/下载速率有限制。",
+        "实物商品/发声玩具等可能需单独 merchandising 许可。",
+        "非稳定直链开放平台；自动化爬取下载易踩 ToS。"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://www.zapsplat.com",
+        "https://www.zapsplat.com/license-type/standard-license/"
+      ],
+      "lastReviewed": "2026-08-07",
+      "region": "overseas",
+      "category": "design-sfx",
+      "subcategory": "sfx",
+      "id": "zapsplat",
+      "name": "ZapSplat",
+      "vendorId": "zapsplat-inc",
+      "oneLiner": "大体量免费 SFX · 注册下载 · 免费层需署名",
+      "officialUrl": "https://www.zapsplat.com",
+      "descriptionMd": "ZapSplat 提供大体量专业向音效（及部分配乐）在线库，每日更新。Standard License 下 Basic 账号可在影视/游戏/App/社媒等嵌入使用（含 monetize），条件包括署名与格式/速率限制；Gold 去掉署名并放 WAV。\n\n需要「比 Mixkit 更深的专业 foley 库」、可接受账号与署名层时评估；Agent 流水线更看 Freesound API 或统一许可图库。\n\n商用前读当期 Standard License；禁用「拆出 SFX 再当素材库转售」。\n"
+    },
+    {
+      "pricing": {
         "model": "subscription",
         "currency": "CNY"
       },
@@ -50733,6 +51303,27 @@
       "confidence": "verified",
       "sources": [],
       "createdAt": "2026-07-23"
+    },
+    {
+      "id": "e-aigei-alt-zapsplat",
+      "from": "aigei",
+      "to": "zapsplat",
+      "type": "alternative_to",
+      "weight": 0.65,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-07"
+    },
+    {
+      "id": "e-aigei-dom-mixkit",
+      "from": "aigei",
+      "to": "mixkit",
+      "type": "domestic_equivalent_of",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-07",
+      "note": "国内音效素材站 vs 国外统一免费许可图库"
     },
     {
       "id": "e-airbyte-int-postgresql",
@@ -54070,6 +54661,16 @@
       "note": "该云厂商旗下产品"
     },
     {
+      "id": "e-dingtalk-jinbuti-alt-smiley-sans",
+      "from": "dingtalk-jinbuti",
+      "to": "smiley-sans",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-07"
+    },
+    {
       "id": "e-directus-alt-payload-cms",
       "from": "directus",
       "to": "payload-cms",
@@ -54446,6 +55047,28 @@
       "sources": [],
       "createdAt": "2026-08-05",
       "note": "该云厂商旗下产品"
+    },
+    {
+      "id": "e-elevenlabs-sfx-alt-mixkit",
+      "from": "elevenlabs-sfx",
+      "to": "mixkit",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-07",
+      "note": "文本生成 vs 库存下载"
+    },
+    {
+      "id": "e-elevenlabs-sfx-cuw-elevenlabs",
+      "from": "elevenlabs-sfx",
+      "to": "elevenlabs",
+      "type": "commonly_used_with",
+      "weight": 0.85,
+      "confidence": "verified",
+      "sources": [],
+      "createdAt": "2026-08-07",
+      "note": "同账号语音 + 音效层"
     },
     {
       "id": "e-ellipsis-alt-coderabbit",
@@ -54912,6 +55535,17 @@
       "sources": [],
       "createdAt": "2026-08-07",
       "note": "设计动画向营销站 vs CMS/设计系统向上限"
+    },
+    {
+      "id": "e-freesound-cuw-kenney",
+      "from": "freesound",
+      "to": "kenney",
+      "type": "commonly_used_with",
+      "weight": 0.55,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-07",
+      "note": "游戏原型：社区 foley + CC0 包"
     },
     {
       "id": "e-freshdesk-alt-zendesk",
@@ -56074,6 +56708,17 @@
       "note": "极光推送通道 vs Novu 开源编排；通道≠编排中台"
     },
     {
+      "id": "e-jsfxr-alt-mixkit",
+      "from": "jsfxr",
+      "to": "mixkit",
+      "type": "alternative_to",
+      "weight": 0.55,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-07",
+      "note": "程序化 8-bit vs 实录/库音"
+    },
+    {
       "id": "e-judge0-alt-riza",
       "from": "judge0",
       "to": "riza",
@@ -56736,6 +57381,46 @@
       "createdAt": "2026-07-23"
     },
     {
+      "id": "e-lxgw-wenkai-cuw-google-fonts",
+      "from": "lxgw-wenkai",
+      "to": "google-fonts",
+      "type": "commonly_used_with",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-07"
+    },
+    {
+      "id": "e-lxgw-wenkai-cuw-maple-mono",
+      "from": "lxgw-wenkai",
+      "to": "maple-mono",
+      "type": "commonly_used_with",
+      "weight": 0.85,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-07"
+    },
+    {
+      "id": "e-lxgw-wenkai-cuw-zhenkai",
+      "from": "lxgw-wenkai",
+      "to": "lxgw-zhenkai",
+      "type": "commonly_used_with",
+      "weight": 0.9,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-07"
+    },
+    {
+      "id": "e-lxgw-zhenkai-built-wenkai",
+      "from": "lxgw-zhenkai",
+      "to": "lxgw-wenkai",
+      "type": "built_on",
+      "weight": 0.9,
+      "confidence": "verified",
+      "sources": [],
+      "createdAt": "2026-08-07"
+    },
+    {
       "id": "e-lynx-alt-react-native",
       "from": "lynx",
       "to": "react-native",
@@ -57020,6 +57705,16 @@
       "note": "统一 CRM 类别常映射到 HubSpot 等"
     },
     {
+      "id": "e-meta-audiogen-oss-elevenlabs-sfx",
+      "from": "meta-audiogen",
+      "to": "elevenlabs-sfx",
+      "type": "open_source_alternative_to",
+      "weight": 0.75,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-07"
+    },
+    {
       "id": "e-metabase-with-clickhouse",
       "from": "metabase",
       "to": "clickhouse",
@@ -57118,6 +57813,26 @@
       "note": "托管文档两类：Mintlify 偏开发者与 API 文档，GitBook 偏协作写作与权限"
     },
     {
+      "id": "e-misans-alt-alibaba-puhuiti",
+      "from": "misans",
+      "to": "alibaba-puhuiti",
+      "type": "alternative_to",
+      "weight": 0.8,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-07"
+    },
+    {
+      "id": "e-misans-alt-source-han-sans",
+      "from": "misans",
+      "to": "source-han-sans",
+      "type": "alternative_to",
+      "weight": 0.75,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-07"
+    },
+    {
       "id": "e-mistral-vibe-alt-claude",
       "from": "mistral-vibe",
       "to": "claude-code",
@@ -57137,6 +57852,27 @@
       "sources": [],
       "createdAt": "2026-07-24",
       "note": "旗舰档随产品迭代，以控制台为准"
+    },
+    {
+      "id": "e-mixkit-alt-freesound",
+      "from": "mixkit",
+      "to": "freesound",
+      "type": "alternative_to",
+      "weight": 0.75,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-07",
+      "note": "统一许可下载站 vs 社区 API 库"
+    },
+    {
+      "id": "e-mixkit-alt-zapsplat",
+      "from": "mixkit",
+      "to": "zapsplat",
+      "type": "alternative_to",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-07"
     },
     {
       "id": "e-mixpost-osalt-buffer",
@@ -58334,6 +59070,17 @@
       "note": "纯交易管道极简 vs 套件化增长 CRM"
     },
     {
+      "id": "e-pixabay-cuw-mixkit",
+      "from": "pixabay",
+      "to": "mixkit",
+      "type": "commonly_used_with",
+      "weight": 0.6,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-07",
+      "note": "同属免费多媒体；Pixabay 亦含音效/音乐"
+    },
+    {
       "id": "e-plain-com-alt-intercom",
       "from": "plain-com",
       "to": "intercom",
@@ -59433,6 +60180,26 @@
       "createdAt": "2026-07-23"
     },
     {
+      "id": "e-smiley-sans-alt-alibaba-puhuiti",
+      "from": "smiley-sans",
+      "to": "alibaba-puhuiti",
+      "type": "alternative_to",
+      "weight": 0.6,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-07"
+    },
+    {
+      "id": "e-smiley-sans-alt-source-han-sans",
+      "from": "smiley-sans",
+      "to": "source-han-sans",
+      "type": "alternative_to",
+      "weight": 0.65,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-07"
+    },
+    {
       "id": "e-socket-io-alt-centrifugo",
       "from": "socket-io",
       "to": "centrifugo",
@@ -59476,6 +60243,26 @@
       "createdAt": "2026-07-24"
     },
     {
+      "id": "e-source-han-serif-alt-source-han-sans",
+      "from": "source-han-serif",
+      "to": "source-han-sans",
+      "type": "alternative_to",
+      "weight": 0.8,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-07"
+    },
+    {
+      "id": "e-source-han-serif-cuw-google-fonts",
+      "from": "source-han-serif",
+      "to": "google-fonts",
+      "type": "commonly_used_with",
+      "weight": 0.7,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-07"
+    },
+    {
       "id": "e-sourcegraph-amp-succ-cody",
       "from": "sourcegraph-amp",
       "to": "cody",
@@ -59507,6 +60294,17 @@
       "sources": [],
       "createdAt": "2026-08-05",
       "note": "Sprinto 实施节奏轻、亚太时区响应好；Drata 更适合多框架并行与企业级留痕"
+    },
+    {
+      "id": "e-stable-audio-cuw-elevenlabs-sfx",
+      "from": "stable-audio",
+      "to": "elevenlabs-sfx",
+      "type": "commonly_used_with",
+      "weight": 0.5,
+      "confidence": "community",
+      "sources": [],
+      "createdAt": "2026-08-07",
+      "note": "生成式音频管线：配乐 + SFX 分轨"
     },
     {
       "id": "e-stagehand-built-playwright",
@@ -67797,6 +68595,12 @@
       "url": "https://ahrefs.com"
     },
     {
+      "id": "aigei-inc",
+      "name": "爱给网",
+      "region": "domestic",
+      "url": "https://www.aigei.com"
+    },
+    {
       "id": "airbyte-inc",
       "name": "Airbyte",
       "region": "overseas",
@@ -67999,6 +68803,12 @@
       "name": "Astro",
       "region": "overseas",
       "url": "https://astro.build"
+    },
+    {
+      "id": "atelier-anchor",
+      "name": "atelierAnchor",
+      "region": "domestic",
+      "url": "https://atelier-anchor.com"
     },
     {
       "id": "atlassian",
@@ -69081,6 +69891,12 @@
       "url": "https://www.freepik.com"
     },
     {
+      "id": "freesound-project",
+      "name": "Freesound",
+      "region": "overseas",
+      "url": "https://freesound.org"
+    },
+    {
       "id": "freshworks",
       "name": "Freshworks",
       "region": "overseas",
@@ -69859,6 +70675,12 @@
       "name": "Luma AI",
       "region": "overseas",
       "url": "https://lumalabs.ai"
+    },
+    {
+      "id": "lxgw",
+      "name": "落霞孤鹜 LXGW",
+      "region": "domestic",
+      "url": "https://github.com/lxgw"
     },
     {
       "id": "make-inc",
@@ -71121,6 +71943,12 @@
       "url": "https://stripe.com"
     },
     {
+      "id": "subframe7536",
+      "name": "subframe7536",
+      "region": "domestic",
+      "url": "https://github.com/subframe7536"
+    },
+    {
       "id": "substack-inc",
       "name": "Substack",
       "region": "overseas",
@@ -71677,6 +72505,12 @@
       "name": "Zapier",
       "region": "overseas",
       "url": "https://zapier.com"
+    },
+    {
+      "id": "zapsplat-inc",
+      "name": "ZapSplat",
+      "region": "overseas",
+      "url": "https://www.zapsplat.com"
     },
     {
       "id": "zcool-inc",
@@ -76687,7 +77521,7 @@
       "kind": "leaf",
       "parent": "design-assets",
       "order": 6,
-      "usageMd": "片子或产品里要背景乐草稿时。\n\nAI 音乐生成。\n\n导出进时间线，商用前看许可。"
+      "usageMd": "片子或产品里要背景乐草稿时。\n\nAI 音乐生成。\n\n导出进时间线，商用前看许可；打击/UI 反馈音去「音效 / SFX」叶。"
     },
     {
       "id": "design-character-rig",
@@ -76735,7 +77569,15 @@
       "kind": "leaf",
       "parent": "design-assets",
       "order": 12,
-      "usageMd": "品牌和多语言排版要定字体和授权时。\n\n字体授权与嵌入。\n\n工程只加载已购/开源子集；图标别和字体混成一题。"
+      "usageMd": "品牌和多语言排版要定字体和授权时。\n\nCJK 看开源楷/宋/黑与大厂免费可商用（如文楷/思源/MiSans）；西文看 GF/Fontshare；代码等宽另选 mono。\n\n工程只加载已购或开源/白名单子集；图标与字体别搅成一题。"
+    },
+    {
+      "id": "design-sfx",
+      "name": "音效 / SFX",
+      "kind": "leaf",
+      "parent": "design-assets",
+      "order": 13,
+      "usageMd": "片子、产品 UI、Agent 演示要打击/环境/反馈音时。\n\n音效库（可直链/API）与文本生 SFX；配乐走 AI 音乐叶，人声走语音叶。\n\n先冻结许可与格式，进时间线前自托管 CDN；别热链第三方不稳定地址。"
     },
     {
       "id": "collab-pm",
@@ -81977,6 +82819,25 @@
       "chinaAccessible": true
     },
     {
+      "id": "aigei",
+      "name": "爱给网",
+      "haystackName": "爱给网 aigei",
+      "haystackMid": "国内音效素材站 · cc 免费区 + 版权单购 · ui/游戏向 sfx domestic cc stock ui",
+      "haystackLow": "爱给网是国内常用的音效/配乐/部分 3d 与视频素材站，ui 提示、游戏与短视频向类目齐全，并设 **cc 协议免费商用专区**；另有低价版权音效与配乐单购、以及 ai 配音等周边能力。\n\n国内团队要中文界面可检索 sfx、对接本地内容生产链路时评估；与 mixkit/zapsplat 构成国内外「下载型图库」对照轴。\n\nagent 或批量入库应先筛 cc0/明确 by 条目；企业项目关键成片优先版权单购路径。\n",
+      "category": "design-sfx",
+      "region": "domestic",
+      "tags": [
+        "sfx",
+        "domestic",
+        "cc",
+        "stock",
+        "ui"
+      ],
+      "pricing": "freemium",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
       "id": "airbyte",
       "name": "Airbyte",
       "haystackName": "airbyte airbyte",
@@ -86558,6 +87419,25 @@
       "chinaAccessible": true
     },
     {
+      "id": "dingtalk-jinbuti",
+      "name": "钉钉进步体",
+      "haystackName": "钉钉进步体 dingtalk-jinbuti",
+      "haystackMid": "钉钉免费商用标题体 · 科技人文 · 官方渠道分发 fonts cjk free title alibaba",
+      "haystackLow": "钉钉进步体是钉钉联合字体团队推出的中英标题/美术字型，宣称个人与组织永久免费商用。气质偏科技活力又带书写温度，字符集覆盖常用场景约七千余字，定位运营标题、海报与品牌短句。\n\n国内中小团队要「可商用的出彩标题字」且不想买库时评估；与得意黑同属展示轴——前者大厂协议免费，后者 ofl 开源可改二次发行。\n\n商用前以钉钉当期法律声明为准；禁止再分发字体包给非授权渠道。\n",
+      "category": "design-fonts",
+      "region": "domestic",
+      "tags": [
+        "fonts",
+        "cjk",
+        "free",
+        "title",
+        "alibaba"
+      ],
+      "pricing": "free",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
       "id": "dingtalk",
       "name": "钉钉",
       "haystackName": "钉钉 dingtalk",
@@ -87225,6 +88105,25 @@
       "region": "both",
       "tags": [],
       "pricing": "open-source",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
+      "id": "elevenlabs-sfx",
+      "name": "ElevenLabs Sound Effects",
+      "haystackName": "elevenlabs sound effects elevenlabs-sfx",
+      "haystackMid": "文本生音效 api · 按分钟 · 付费档方可商用 sfx ai text-to-audio api elevenlabs",
+      "haystackLow": "elevenlabs sound effects 提供 **text → sfx** 生成（api `/v1/sound-generation`），用自然语言描述谁什、材质与场景即可出环境/打击/过渡等片段，面向视频、游戏与 agent 内容管线。与同厂 tts/克隆分列计费与产品面，但账号体系统一。\n\n库存图库搜不到的「一次性定制音」、或流水线内按脚本动态配音效时优先；固定 ui 点击声与可复用 foley 仍常先查 mixkit/freesound。\n\n生成结果要本地固化版本与许可快照；勿把瞬时 url 当永久热链。\n",
+      "category": "design-sfx",
+      "region": "overseas",
+      "tags": [
+        "sfx",
+        "ai",
+        "text-to-audio",
+        "api",
+        "elevenlabs"
+      ],
+      "pricing": "usage",
       "maturity": "stable",
       "chinaAccessible": true
     },
@@ -88217,6 +89116,25 @@
         "subscription"
       ],
       "pricing": "subscription",
+      "maturity": "mature",
+      "chinaAccessible": true
+    },
+    {
+      "id": "freesound",
+      "name": "Freesound",
+      "haystackName": "freesound freesound",
+      "haystackMid": "社区音效库 · apiv2 检索/预览 · 单条 cc 许可 sfx api open-data cc foley",
+      "haystackLow": "freesound 是最大的社区贡献音效库之一，覆盖 foley、环境、实验音色，提供 **apiv2** 检索、相似音、分析特征与预览 url，适合工具链与 ai agent 程序化挑音。\n\n需要「可搜 + api + 开放许可样本」、或科研/内容分析与草稿 foley 时优先；与 mixkit 等「站方统一免费许可」库对照：api 与长尾更强，授权一致性更弱。\n\n产品发布管线应只入库 cc0/明确允许商用条目；预览链勿当生产 cdn 长期热链。\n",
+      "category": "design-sfx",
+      "region": "overseas",
+      "tags": [
+        "sfx",
+        "api",
+        "open-data",
+        "cc",
+        "foley"
+      ],
+      "pricing": "free",
       "maturity": "mature",
       "chinaAccessible": true
     },
@@ -91055,6 +91973,25 @@
       "chinaAccessible": true
     },
     {
+      "id": "jsfxr",
+      "name": "jsfxr",
+      "haystackName": "jsfxr jsfxr",
+      "haystackMid": "浏览器/库内 8-bit 合成 · unlicense · 游戏 ui 反馈 sfx procedural game ui open-source",
+      "haystackLow": "jsfxr 是经典 sfxr 的 web/javascript 移植：在浏览器里调合成器参数，或用 npm 库在游戏运行时生成 pickup/laser/click 等短音效，许可极宽松（unlicense）。可即时出 wav，无需依赖外链 cdn。\n\ngame jam、产品微交互占位音、离线可复现的程序化 sfx 时优先；电影感 foley 与自然语言描述音走图库或 elevenlabs/audiogen。\n\n上线前统一响度与采样率；避免每个环境现场随机合成导致音画不一致。\n",
+      "category": "design-sfx",
+      "region": "overseas",
+      "tags": [
+        "sfx",
+        "procedural",
+        "game",
+        "ui",
+        "open-source"
+      ],
+      "pricing": "open-source",
+      "maturity": "mature",
+      "chinaAccessible": true
+    },
+    {
       "id": "judge0",
       "name": "Judge0",
       "haystackName": "judge0 judge0",
@@ -92464,6 +93401,44 @@
       "chinaAccessible": false
     },
     {
+      "id": "lxgw-wenkai",
+      "name": "霞鹜文楷",
+      "haystackName": "霞鹜文楷 lxgw-wenkai",
+      "haystackMid": "ofl 人文楷体 · 屏显长文 · 墨台正文用字 fonts cjk open-source kai ofl",
+      "haystackLow": "霞鹜文楷（lxgw wenkai）基于 fontworks klee one 补全的开源中文楷体，sil ofl 1.1 可个人与企业自由商用、随应用分发。字形温润偏人文，适合阅读向正文与「书卷」气质产品，为社区下载量最高的开源汉字楷体之一。\n\n需要免费可内置的 cjk 楷体正文、或追求纸墨 humanist 气质时优先；墨台（vibeholding）设计规范以文楷作 `--font-body`。可与臻楷配展示标题，与 maple mono 配代码列。\n\n全量字库偏重，web 必须子集/按需加载；楷体不适合过小 ui 字号。google fonts 亦有托管但国内可达与隐私仍可能需自托管。\n",
+      "category": "design-fonts",
+      "region": "both",
+      "tags": [
+        "fonts",
+        "cjk",
+        "open-source",
+        "kai",
+        "ofl"
+      ],
+      "pricing": "open-source",
+      "maturity": "mature",
+      "chinaAccessible": true
+    },
+    {
+      "id": "lxgw-zhenkai",
+      "name": "霞鹜臻楷",
+      "haystackName": "霞鹜臻楷 lxgw-zhenkai",
+      "haystackMid": "文楷加粗屏显优化 · 展示/hero 用 · 墨台标题 fonts cjk open-source kai display",
+      "haystackLow": "霞鹜臻楷（lxgw zhenkai）是基于霞鹜文楷的加粗屏显优化开源楷体，手工与 ai 辅助补字，目标让标题与 hero 在屏幕上更挺拔、笔画不糊。sil ofl 1.1，可商用与随包分发。与文楷同属 lxgw 生态但独立仓库与版本线。\n\n需要「楷体展示标题 + 文楷正文」成套气质、又不想买商用书法体时评估；墨台规范以臻楷作 `--font-display`。工程上常与文楷子集一并内置。\n\n字符覆盖与更新策略以作者 github release 为准（gb/slab 等通道分化）；勿当文楷的简单 bold 变量替换而不做渲染测试。\n",
+      "category": "design-fonts",
+      "region": "both",
+      "tags": [
+        "fonts",
+        "cjk",
+        "open-source",
+        "kai",
+        "display"
+      ],
+      "pricing": "open-source",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
       "id": "lynx",
       "name": "Lynx",
       "haystackName": "lynx lynx",
@@ -92628,6 +93603,25 @@
         "ui",
         "react",
         "hooks"
+      ],
+      "pricing": "open-source",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
+      "id": "maple-mono",
+      "name": "Maple Mono",
+      "haystackName": "maple mono maple-mono",
+      "haystackMid": "ofl 编程等宽 · nerd font/连字 · 中英 2:1 · 墨台 mono fonts mono open-source coding ofl",
+      "haystackLow": "maple mono 是面向代码与终端的开源等宽字体（sil ofl 1.1），提供手写感斜体、细粒度 opentype 配置、可选 nerd font 图标与中英 2:1 等宽思路，社区下载与二次构建活跃。气质偏温暖，和 lxgw 系人文 ui 同搭自然。\n\n需要密钥/数值对齐、终端+编辑器一致等宽、且想开源可内置时优先；墨台规范以 maple mono 为 `--font-mono`（回退 jetbrains mono 等）。\n\n选构建通道（variable / nf / normal 预设）时文档先行；勿把连字默认强加给密钥展示场景。\n",
+      "category": "design-fonts",
+      "region": "both",
+      "tags": [
+        "fonts",
+        "mono",
+        "open-source",
+        "coding",
+        "ofl"
       ],
       "pricing": "open-source",
       "maturity": "stable",
@@ -92910,6 +93904,25 @@
         "game-art"
       ],
       "pricing": "subscription",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
+      "id": "meta-audiogen",
+      "name": "Meta AudioGen",
+      "haystackName": "meta audiogen meta-audiogen",
+      "haystackMid": "开源文本生环境音 · audiocraft · 可自托管 sfx ai text-to-audio open-source self-host",
+      "haystackLow": "audiogen 是 meta audiocraft 中的 **text-to-sound** 模型，面向环境音与效果音描述生成，与 musicgen（配乐）分工。开源代码与训练/推理脚本便于研究与自托管实验，是「生成式 sfx 基建」开源参照系。\n\n需要本地生成、可再训练/可控采样、或作为 elevenlabs 等 saas 的开源对照时评估；不急深度自建则优先托管 api。\n\n生产商用路径要单独做法务与安全评估；输出需听感 qc 与响度标准化。\n",
+      "category": "design-sfx",
+      "region": "overseas",
+      "tags": [
+        "sfx",
+        "ai",
+        "text-to-audio",
+        "open-source",
+        "self-host"
+      ],
+      "pricing": "open-source",
       "maturity": "stable",
       "chinaAccessible": true
     },
@@ -93289,6 +94302,25 @@
       "chinaAccessible": true
     },
     {
+      "id": "misans",
+      "name": "MiSans",
+      "haystackName": "misans misans",
+      "haystackMid": "小米免费商用 ui 黑体 · 多语言/可变字重 fonts cjk free ui xiaomi",
+      "haystackLow": "misans 是小米 hyperos 体系的屏显中文字体家族，可自官网免费下载并声明面向全社会免费商用。覆盖多字重、可变字体与 misans global 多书写系统，偏清晰中性 ui 气质，补齐开源思源体系之外「大厂商用白名单黑体」需求。\n\n国内 app/运营物料要正版可商用黑体、且倾向手机屏可读规格时评估；与普惠体同属大厂免费轴，但协议与语言覆盖面不同。\n\n使用前务必通读当期《misans 字体知识产权许可协议》；嵌入分发与二次改字规则明显严于 ofl 字体。\n",
+      "category": "design-fonts",
+      "region": "domestic",
+      "tags": [
+        "fonts",
+        "cjk",
+        "free",
+        "ui",
+        "xiaomi"
+      ],
+      "pricing": "free",
+      "maturity": "mature",
+      "chinaAccessible": true
+    },
+    {
       "id": "mistral-large",
       "name": "Mistral Large 3",
       "haystackName": "mistral large 3 mistral-large",
@@ -93377,18 +94409,20 @@
       "id": "mixkit",
       "name": "Mixkit",
       "haystackName": "mixkit mixkit",
-      "haystackMid": "免费视频/音乐素材 · envato 旗下 video music stock free",
-      "haystackLow": "mixkit（envato）提供免费视频片段与音乐等，许可相对清晰，适合内容创作、教程与社媒短视频快速配素材。\n\n需要免费可商用视频/音乐、与 envato 生态邻近时评估。\n\n高端定制与稀缺镜头仍不足；音乐与画面授权条目要分别阅读，避免混用过期许可。\n",
-      "category": "design-stock",
+      "haystackMid": "免登录可商用 sfx/视频/配乐 · 统一站方许可 sfx stock video music free cdn",
+      "haystackLow": "mixkit（envato）提供 **免费音效、库存视频、配乐与模板**，音效页明确可商用、免署名可选、无需注册即可下载，适合剪辑流水线与产品内容快速配音效。素材托管在站方 cdn，许可相对统一，比「逐条 cc 社区库」更省法务心智。\n\n需要可直接下载的免登录 sfx、或与 envato 订阅高级库成对选型时优先；agent 管线若要可编程检索与相似音，再叠 freesound api。\n\n生产建议下载后自托管，勿长期热链第三方 url；许可以 mixkit.co/license 当期页为准。\n",
+      "category": "design-sfx",
       "region": "overseas",
       "tags": [
+        "sfx",
+        "stock",
         "video",
         "music",
-        "stock",
-        "free"
+        "free",
+        "cdn"
       ],
       "pricing": "free",
-      "maturity": "stable",
+      "maturity": "mature",
       "chinaAccessible": true
     },
     {
@@ -97942,6 +98976,25 @@
       "chinaAccessible": true
     },
     {
+      "id": "smiley-sans",
+      "name": "得意黑",
+      "haystackName": "得意黑 smiley-sans",
+      "haystackMid": "ofl 人文几何标题黑 · 海报/品牌短文案出彩 fonts cjk open-source display title",
+      "haystackLow": "得意黑（smiley sans）由 atelieranchor 发布，在人文手绘感与几何黑体之间找平衡，窄斜字身、适合标题与短文案的视觉冲击。sil ofl 1.1，可商用、可改二次发行（须遵守保留名规则）。\n\n需要一张「有设计感」的中文标题字、又不愿走方正/汉仪付费库时优先；与普惠体/思源黑体分工：前者作展示标题，后者作界面与长读。\n\n不宜当作系统级全站 ui 黑体；小字号下细节可能糊，务必在目标端实测。\n",
+      "category": "design-fonts",
+      "region": "both",
+      "tags": [
+        "fonts",
+        "cjk",
+        "open-source",
+        "display",
+        "title"
+      ],
+      "pricing": "open-source",
+      "maturity": "stable",
+      "chinaAccessible": true
+    },
+    {
       "id": "snap-store",
       "name": "Snap Store",
       "haystackName": "snap store snap-store",
@@ -98113,6 +99166,25 @@
         "chinese",
         "open-source",
         "cjk"
+      ],
+      "pricing": "open-source",
+      "maturity": "mature",
+      "chinaAccessible": true
+    },
+    {
+      "id": "source-han-serif",
+      "name": "思源宋体",
+      "haystackName": "思源宋体 source-han-serif",
+      "haystackMid": "adobe+google 开源 cjk 宋体 · noto serif cjk fonts cjk open-source serif ofl",
+      "haystackLow": "思源宋体（source han serif / noto serif cjk）是 adobe 与 google 联合开源的跨中日韩宋体家族，与思源黑体同属 source han / noto cjk 体系，sil ofl 1.1。多字重、区域字形（简/繁/日/韩）齐全，出版与文档排版默认开源宋体。\n\n需要印刷感标题/正文、电子书/文档 pdf 正文字、或与 noto 西文 serif 对齐的多语产品时优先；与黑体二选一或分角色配对。\n\n体积极大，必须子集化与按区加载；嵌入 app 同样要裁字重与字符集。\n",
+      "category": "design-fonts",
+      "region": "both",
+      "tags": [
+        "fonts",
+        "cjk",
+        "open-source",
+        "serif",
+        "ofl"
       ],
       "pricing": "open-source",
       "maturity": "mature",
@@ -101450,6 +102522,24 @@
         "ipaas",
         "nocode",
         "integration"
+      ],
+      "pricing": "freemium",
+      "maturity": "mature",
+      "chinaAccessible": true
+    },
+    {
+      "id": "zapsplat",
+      "name": "ZapSplat",
+      "haystackName": "zapsplat zapsplat",
+      "haystackMid": "大体量免费 sfx · 注册下载 · 免费层需署名 sfx stock freemium foley",
+      "haystackLow": "zapsplat 提供大体量专业向音效（及部分配乐）在线库，每日更新。standard license 下 basic 账号可在影视/游戏/app/社媒等嵌入使用（含 monetize），条件包括署名与格式/速率限制；gold 去掉署名并放 wav。\n\n需要「比 mixkit 更深的专业 foley 库」、可接受账号与署名层时评估；agent 流水线更看 freesound api 或统一许可图库。\n\n商用前读当期 standard license；禁用「拆出 sfx 再当素材库转售」。\n",
+      "category": "design-sfx",
+      "region": "overseas",
+      "tags": [
+        "sfx",
+        "stock",
+        "freemium",
+        "foley"
       ],
       "pricing": "freemium",
       "maturity": "mature",
