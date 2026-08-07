@@ -1,0 +1,61 @@
+name: Recipe 需求
+description: 请求或提议一套可落地的方案模板（StackRecipe）
+title: '[recipe] '
+labels: [content]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Recipe 落在 `content/recipes/<id>.json`，层字段须引用**已有** entry id。  
+        现有模板：`oversea-saas-fast` · `domestic-wechat-dual` · `domestic-miniapp-fast` · `ai-rag-app` · `cf-zero-cost-oversea`。  
+        贡献路径：`pnpm validate` · `pnpm gen:content` · PR（见 [CONTRIBUTING](../../CONTRIBUTING.md)）。
+  - type: input
+    id: recipe_name
+    attributes:
+      label: 方案名称（中文）
+      placeholder: 国内纯 Web SaaS 极速版
+    validations:
+      required: true
+  - type: textarea
+    id: target
+    attributes:
+      label: 目标场景
+      description: 谁、要上什么、约束（预算 / 地区 / 合规）
+      placeholder: 国内团队、Web 优先、需微信登录与短信、月预算有限……
+    validations:
+      required: true
+  - type: textarea
+    id: layers
+    attributes:
+      label: 建议分层（entry id 或「待补条目」）
+      description: 对照现有 recipe 的 layers 键；缺条目请同时开「补条目或边」Issue
+      placeholder: |
+        coding-agent: cursor
+        framework: nextjs
+        baas: supabase 或 国内？
+        deploy: …
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: 与现有 5 套模板的差异
+      description: 避免只换一个工具名的重复 recipe
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 依据（可选）
+      description: 官方架构文、自己踩坑复盘链接等
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 自检
+      options:
+        - label: 层引用的 entry 已存在，或已另开补条目 Issue
+          required: true
+        - label: 不包含密钥、真实账单数字中的敏感账号
+          required: true
+        - label: 若本人实现：`pnpm validate` + `pnpm gen:content` 会跑通
+          required: false

@@ -1,1 +1,14 @@
 blank_issues_enabled: true
+contact_links:
+  - name: 贡献最小路径
+    url: https://github.com/megocn/vibe-holding/blob/main/CONTRIBUTING.md
+    about: 只改 content → pnpm validate → PR（三步）
+  - name: 内容写作规范
+    url: https://github.com/megocn/vibe-holding/blob/main/content/README.md
+    about: 条目 / 边 / 扩种准入与字段约定
+  - name: Good First Issues 草稿
+    url: https://github.com/megocn/vibe-holding/blob/main/docs/GOOD_FIRST_ISSUES.md
+    about: 可直接粘贴成 Issue 的入门任务清单
+  - name: 在线体验
+    url: https://vibeholding.pages.dev
+    about: 免注册只读预览墨台

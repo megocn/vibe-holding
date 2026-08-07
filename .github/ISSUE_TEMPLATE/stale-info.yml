@@ -1,0 +1,59 @@
+name: 信息过期
+description: 条目定价、可用性、链接、版本或说明已过时
+title: '[stale] '
+labels: [content]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        指出**可核对**的过时点即可；修完请 `pnpm validate`，必要时 `pnpm gen:content`。  
+        见 [CONTRIBUTING 最小路径](../../CONTRIBUTING.md#贡献最小路径-只改-content)。
+  - type: input
+    id: entry_id
+    attributes:
+      label: 条目 id
+      description: content/entries/<id>.json 的文件名（不含 .json）
+      placeholder: twilio
+    validations:
+      required: true
+  - type: dropdown
+    id: field
+    attributes:
+      label: 过期字段（可多选）
+      multiple: true
+      options:
+        - pricing / 定价说明
+        - availability / 国内可达
+        - officialUrl 或外链失效
+        - currentVersion / updates
+        - oneLiner / descriptionMd 表述过时
+        - rankings 快照过旧
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 现状证据
+      description: 官网上**当前**可见的事实 + 链接；写清「库里写的是啥 → 实际是啥」
+      placeholder: |
+        库内 pricing.notes：…
+        官网 2026-xx：…（URL）
+    validations:
+      required: true
+  - type: textarea
+    id: suggested
+    attributes:
+      label: 建议改动（可选）
+      placeholder: 改 content/entries/….json 的哪些字段；lastReviewed 更新为今天
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 自检
+      options:
+        - label: 来源可公开访问，非口头传闻
+          required: true
+        - label: 不含任何密钥或内网截图敏感信息
+          required: true
+        - label: 若本人 PR：会跑 `pnpm validate`（及 `pnpm gen:content`）
+          required: false

@@ -21,11 +21,11 @@
   ·
   <a href="#上线路程--av-图廓">A–V 图廓</a>
   ·
-  <a href="#墨台是什么">30 秒看懂</a>
+  <a href="#30-秒决策区">30 秒决策</a>
   ·
   <a href="#使用教程">使用教程</a>
   ·
-  <a href="#为什么是墨台">产品理念</a>
+  <a href="#墨台是什么">产品理念</a>
   ·
   <a href="#选型擂台--群英论剑">选型擂台</a>
   ·
@@ -57,6 +57,24 @@
 <p align="center">
   <sub>一键部署 Web 只读壳（不含凭据）。构建：<code>pnpm build:web</code> → <code>apps/desktop/dist</code> · 详见 <a href="docs/部署.md">docs/部署.md</a></sub>
 </p>
+
+---
+
+## 30 秒决策区
+
+| | |
+| --- | --- |
+| **是什么** | 开源 AI 全链路基建选型知识库（图廓 · 边 · 客户端）。 |
+| **怎么开** | 主入口 → **[在线体验 vibeholding.pages.dev](https://vibeholding.pages.dev)**（免注册只读） |
+| **本地预览** | `pnpm install && pnpm --filter @vh/desktop dev` |
+| **怎么贡献** | 补条目 / 边到 `content/` → [CONTRIBUTING · 最小路径](CONTRIBUTING.md#贡献最小路径-只改-content)（三步：改 JSON → `pnpm validate` → PR） |
+
+<p align="center">
+  <img src="docs/screenshots/desktop/02-knowledge.webp" width="100%" alt="墨台 · 知识库与图廓" /><br/>
+  <em>知识库 · 左栏 A–V 图廓 · 中间条目 · 右侧详情与关联</em>
+</p>
+
+更完整的理念、三端截图与擂台说明见下方折叠区 / 正文。需要「从写到上线变现该选哪一层」时，直接进 [A–V 图廓](#上线路程--av-图廓)。
 
 ---
 
@@ -122,14 +140,8 @@ V 出海与本地化            跨境收款 · 主体路径 · i18n · EOR
 
 三种打开方式，都不用注册、不用后端：在线只读 [vibeholding.pages.dev](https://vibeholding.pages.dev) · 本地浏览器 `pnpm --filter @vh/desktop dev` · 桌面应用 `pnpm --filter @vh/desktop tauri:dev`（需 Rust，含凭据管家）。
 
-<p align="center">
-  <img src="docs/screenshots/desktop/02-knowledge.webp" width="100%" alt="墨台 · 知识库与图廓" /><br/>
-  <em>知识库 · 左栏即 A–V 图廓，中间条目，右侧详情与关联</em>
-</p>
-
----
-
-## 为什么是墨台
+<details>
+<summary><strong>为什么是墨台 · 核心理念</strong>（展开）</summary>
 
 **墨台**（读音 *mò tái*）的名字，说的就是它想成为的东西：
 
@@ -137,10 +149,6 @@ V 出海与本地化            跨境收款 · 主体路径 · i18n · EOR
 > 上墨台选栈、对照平替、追踪变局、管好自己的钥。
 
 目标不止是「把碎片查清楚」，而是逐步长成「选型 + 情报 + 本地凭据」一体的个人基建驾驶舱：你在 A–V 哪一层拿不准，就在那一层沿着边走下去。设计气质走「墨图 · Ink Atlas」—— 宣纸为底、墨为字、朱砂点睛；温润其表，精确其里。
-
----
-
-## 核心理念
 
 | 原则 | 含义 |
 | --- | --- |
@@ -150,6 +158,8 @@ V 出海与本地化            跨境收款 · 主体路径 · i18n · EOR
 | **本地优先** | 公共内容走 Git；个人笔记 / 收藏 / 凭据本地加密，凭据默认不上 Web |
 | **键盘优先** | ⌘K 命令面板贯穿浏览、跳转、对比与设置 |
 | **可追溯** | 条目与边尽量带来源；情报可复核；过期有复核提醒 |
+
+</details>
 
 ---
 
@@ -188,6 +198,11 @@ V 出海与本地化            跨境收款 · 主体路径 · i18n · EOR
 
 把知识库里该卷的**权威榜名次、token 单价、流行度**折算成角色属性，让选型档位在水墨像素战场上打一架 —— 打完得到的是一份**每次伤害都能点回榜单出处**的选型战报。
 
+**开源边界。** 擂台的玩法代码、数值表与美术资产**不在本仓库**（`private/`，闭源）；它消费的知识内容 —— 榜单、条目、关系边 —— 全部来自本仓 Apache-2.0 的 `content/`。公开仓里只保留首页入口与 `package.json` 里的几条脚本别名（`arena` / `arena:dev` / `deploy:arena`），克隆本仓不会得到游戏代码，也不影响其余功能。
+
+<details>
+<summary><strong>擂台规则、映射与截图</strong>（展开）</summary>
+
 <p align="center">
   <img src="docs/screenshots/arena/arena-lobby.webp" width="100%" alt="选型擂台 · 大厅" /><br/>
   <em>先选擂，再点将 —— 13 张擂台卡、37 位侠客，卡面直接摊开八维属性</em>
@@ -195,11 +210,11 @@ V 出海与本地化            跨境收款 · 主体路径 · i18n · EOR
 
 **为什么值得做成一场架。** 你看排行榜时大概会想：「WebDev 榜权重 0.20 凭什么？」「贵的是不是就一定好？」这些问题在一张静态榜单上无法回答。擂台把排序公式变成可交互的解释器：
 
-- **规则即权重。** 每个擂台就是一组伤害权重向量 —— 换擂台就是换「哪些榜说了算」。大厅里还能拉 10 条权重滑块**自己造一个擂台**，实时预览「若按此规则，当前排序会变成什么样」，然后把它编成分享码发给别人 —— 把文本榜从 20 拉到 93，Qwen-Max 就越过 Kimi 上了第 3。这一步本身就是产品价值：它让人看见排行榜的权重是可以辩论的选择，而不是天启。
-- **价格是内力上限。** 性价比擂给每人 $20 预算，按该档位真实 token 单价扣内力 —— 贵档位放两招就脱力，「贵的是不是更好」自己会有答案。
-- **数据缺失会走火入魔。** 榜单覆盖不足的档位在战斗中看得见地虚，把「coverage 惩罚系数」这种抽象概念演出来。
+- **规则即权重。** 每个擂台就是一组伤害权重向量 —— 换擂台就是换「哪些榜说了算」。大厅里还能拉 10 条权重滑块**自己造一个擂台**，实时预览「若按此规则，当前排序会变成什么样」，然后把它编成分享码发给别人。
+- **价格是内力上限。** 性价比擂给每人 $20 预算，按该档位真实 token 单价扣内力。
+- **数据缺失会走火入魔。** 榜单覆盖不足的档位在战斗中看得见地虚。
 
-**它怎么映射现实。** 厂商是**宗门**，产品族（Claude / Gemini）是**门派**，选型档位（Opus / Sonnet / K3）才是上场的**侠客**，当前版本是他手里的**兵器**。角色的八维属性全部取自该档位**自己的**榜单快照，不做跨档位聚合 —— 所以战报里每一次伤害都能点回对应的榜单 ID、名次、分数与采集日期。同一个 `seed` 在任何设备重跑，事件序列逐帧一致。
+**它怎么映射现实。** 厂商是**宗门**，产品族（Claude / Gemini）是**门派**，选型档位才是上场的**侠客**。角色的八维属性全部取自该档位**自己的**榜单快照，不做跨档位聚合 —— 战报里每一次伤害都能点回榜单 ID、名次、分数与采集日期。
 
 <table>
   <tr>
@@ -213,26 +228,21 @@ V 出海与本地化            跨境收款 · 主体路径 · i18n · EOR
   <em>战报：名场面、数据对照、选型结论，以及每一条「可查证出手」背后的榜单与日期</em>
 </p>
 
-**能打什么、怎么打。**
-
 | 维度 | 内容 |
 | --- | --- |
-| 擂台（13 张 + 自造） | 纯能力擂 · 性价比擂 · **同门内战**（Opus / Sonnet / Fable 同场打预算局，回答「我该用哪个档」）· 造物擂 · 工巧擂 · 门派战 · 楚河阵营战 · 疾风擂 · 万象擂 · 中原擂 · 义军擂 · 越级擂 · 守擂车轮战 · **UGC 造擂台** |
-| 战斗模式 | **论势**（ATB 站桩，行动条决定出手先后）· **乱斗**（实时走位，射程决定能否打中）· **手势指挥**（摄像头识别挥砍出招，画面只在本机处理、不上传） |
-| 产出 | 一份带出处的战报 + 名场面切片；固定声明「换权重即换结论 —— 这不是官方排名」 |
+| 擂台（13 张 + 自造） | 纯能力擂 · 性价比擂 · 同门内战 · 造物 / 工巧 / 门派 / 阵营 / UGC 等 |
+| 战斗模式 | **论势** · **乱斗** · **手势指挥**（画面只在本机处理、不上传） |
+| 产出 | 带出处的战报；固定声明「换权重即换结论 —— 这不是官方排名」 |
 
-**开源边界。** 擂台的玩法代码、数值表与美术资产**不在本仓库**（`private/`，闭源）；它消费的知识内容 —— 榜单、条目、关系边 —— 全部来自本仓 Apache-2.0 的 `content/`。公开仓里只保留首页入口与 `package.json` 里的几条脚本别名（`arena` / `arena:dev` / `deploy:arena`），克隆本仓不会得到游戏代码，也不影响其余功能。
+</details>
 
----
-
-## 三端掠影
+<details>
+<summary><strong>三端掠影 · 深色 / 浅色截图墙</strong>（展开）</summary>
 
 同一套共享核心（`@vh/core`）驱动多端：桌面全功能主端、Web 只读浏览、窄屏 / 移动只读速查。  
 下列截图以**深色主题**为主（默认气质：暖墨夜色）；浅色为宣纸日间模式，顶栏一键切换。
 
 ### 双主题 · 深色 / 浅色
-
-墨图设计令牌一套两貌：深色偏暖墨、浅色偏宣纸 —— 信息密度与语义色一致，只换底与墨。
 
 <table>
   <tr>
@@ -283,11 +293,6 @@ V 出海与本地化            跨境收款 · 主体路径 · i18n · EOR
   <em>首页 · 续读航线与最近更新</em>
 </p>
 
-<p align="center">
-  <img src="docs/screenshots/desktop/02-knowledge.webp" width="100%" alt="桌面 · 知识库详情" /><br/>
-  <em>知识库 · 三栏浏览与条目详情</em>
-</p>
-
 <table>
   <tr>
     <td width="50%"><img src="docs/screenshots/desktop/03-graph.webp" alt="桌面 · 知识图谱" /><br/><em>图谱 · 焦点邻域与关系透镜</em></td>
@@ -301,12 +306,11 @@ V 出海与本地化            跨境收款 · 主体路径 · i18n · EOR
 
 ### Web · 浏览器（只读 · 深色）
 
-自托管静态壳，适合随时查阅与分享；默认不含凭据，安全边界清晰。  
-在线预览：[vibeholding.pages.dev](https://vibeholding.pages.dev)
+自托管静态壳；在线预览：[vibeholding.pages.dev](https://vibeholding.pages.dev)
 
 <p align="center">
   <img src="docs/screenshots/web/01-home.webp" width="100%" alt="Web · 首页" /><br/>
-  <em>Web · 同款驾驶舱，随时打开</em>
+  <em>Web · 同款驾驶舱</em>
 </p>
 
 <table>
@@ -322,8 +326,6 @@ V 出海与本地化            跨境收款 · 主体路径 · i18n · EOR
 
 ### 移动 · Mobile（只读速查 · 深色）
 
-窄屏栈式布局 + 底部 Tab：通勤路上查条目、扫更新、看关联。
-
 <p align="center">
   <img src="docs/screenshots/mobile/01-home.webp" width="280" alt="移动 · 首页" />
   &nbsp;
@@ -337,6 +339,8 @@ V 出海与本地化            跨境收款 · 主体路径 · i18n · EOR
   &nbsp;
   <img src="docs/screenshots/mobile/05-intel.webp" width="280" alt="移动 · 情报" />
 </p>
+
+</details>
 
 ---
 
@@ -504,10 +508,14 @@ docs-internal/ 对内设计（PRD·SPEC·UI·模块·调研；已 gitignore，�
 
 ### 怎么参与
 
-1. 阅读 [`CONTRIBUTING.md`](CONTRIBUTING.md) 与 [`content/README.md`](content/README.md)  
-2. Fork → 短分支（`content/…` · `feat/…` · `fix/…`）→ 打开 PR  
-3. 内容变更请跑通：`pnpm validate` + `pnpm gen:content`  
-4. CI 会检查 lint / typecheck / test / 内容校验 / `content.json` 同步  
+**只改知识内容（最快路径）** —— 见 [`CONTRIBUTING.md` 顶部三步](CONTRIBUTING.md#贡献最小路径-只改-content)：
+
+1. 在 `content/entries/` 或 `content/edges/` 增改一条 JSON  
+2. `pnpm validate` → `pnpm gen:content`（生成物一并提交）  
+3. 开 PR；可先用 [Issue 模板](.github/ISSUE_TEMPLATE/) 报缺口  
+
+新手可直接粘贴的任务清单：[`docs/GOOD_FIRST_ISSUES.md`](docs/GOOD_FIRST_ISSUES.md)。  
+GitHub About / Topics 建议与「需维护者网页上点一下」清单：[`docs/开源元数据.md`](docs/开源元数据.md)。
 
 **我们更看重**：可追溯来源、克制建边、命名规范、以及**绝不把密钥 / 保险库备份带进仓库**。
 

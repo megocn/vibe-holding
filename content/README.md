@@ -3,6 +3,16 @@
 知识条目、关系边、厂商、概念、方案配方与订阅源。与凭据**物理隔离**——此处只放可公开的选型知识。  
 本目录与应用代码一并采用 [Apache License 2.0](../LICENSE) 开源。
 
+## 贡献最小路径（三步）
+
+| 步 | 做啥 |
+| --- | --- |
+| **1. 改 content** | 一条一文件：`entries/<id>.json` · `edges/<edge-id>.json` · 可选 `recipes/`、`vendors/` 等（见下表） |
+| **2. 校验** | 在仓库根：`pnpm validate`（必过）→ `pnpm gen:content`（改 content 后同步生成物并提交） |
+| **3. 开 PR** | 说明来源与选型理由；勾 [PR 模板](../.github/pull_request_template.md) 自检。细节见 [CONTRIBUTING](../CONTRIBUTING.md) |
+
+不要把 API Key、主密码、保险库备份写进任何 JSON。扩种前先读下方**扩种准入原则**；新手可领 [`docs/GOOD_FIRST_ISSUES.md`](../docs/GOOD_FIRST_ISSUES.md)。
+
 ## 目录
 
 | 路径 | 说明 |

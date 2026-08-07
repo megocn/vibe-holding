@@ -1,0 +1,68 @@
+name: 补条目或边
+description: 新增 / 修正 Entry 或 Edge（知识库主贡献路径）
+title: '[content] '
+labels: [content, good first issue]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        最小路径见 [CONTRIBUTING](../../CONTRIBUTING.md#贡献最小路径-只改-content) 与 [content/README](../../content/README.md)。  
+        PR 前在仓库根运行：`pnpm validate` · 改 content 后 `pnpm gen:content` 并提交生成物。
+  - type: dropdown
+    id: change_kind
+    attributes:
+      label: 你打算改什么
+      options:
+        - 新条目（content/entries/<id>.json）
+        - 更新已有条目
+        - 新边（content/edges/<edge-id>.json）
+        - 改已有边
+        - 条目 + 边一起
+    validations:
+      required: true
+  - type: input
+    id: leaf
+    attributes:
+      label: 所属 leaf（可比较类）id
+      description: 条目必须挂在 leaf 上，例如 msg-sms、design-motion
+      placeholder: msg-sms
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: 要补什么 / 为什么缺
+      description: 工具名、对比轴（开源 vs SaaS、国内 vs 海外等）、与现有条目的差异
+      placeholder: 例如：msg-sms 目前仅有 Twilio + 两阿里云友商，缺 Submail 等国内短名单轴
+    validations:
+      required: true
+  - type: textarea
+    id: paths
+    attributes:
+      label: 预计改动路径
+      placeholder: |
+        content/entries/submail.json
+        content/edges/e-submail-domestic-twilio.json
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: 来源（可复核链接）
+      description: 官网 / 定价页 / 文档；每行一条。禁止编造排行与 Star 数。
+      placeholder: https://…
+    validations:
+      required: true
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: 自检（提 Issue 时也请确认）
+      options:
+        - label: 已读 content/README 扩种准入（宁缺毋滥 / 短名单）
+          required: true
+        - label: 知晓提交 PR 前需 `pnpm validate` 通过
+          required: true
+        - label: 边尽量有 sources；inferred 会说明推导
+          required: false
+        - label: 不会把 API Key / 保险库 / 个人笔记写进仓库
+          required: true
