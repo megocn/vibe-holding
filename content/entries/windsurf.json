@@ -30,8 +30,8 @@
   "category": "coding-ide-agent",
   "subcategory": "ide-agent",
   "vendorId": "codeium",
-  "oneLiner": "Codeium 系 Agent IDE · 级联编辑/上下文流 · Flavor A",
-  "descriptionMd": "Windsurf（Codeium）是面向 Agent 工作流的 IDE，强调级联编辑与上下文感知，属 Flavor A。\n\n与 Cursor/Copilot 同层比 Agent 完成度、定价与隐私模式。国内网络与账号策略需实测。\n\n级联编辑适合大范围重构预览；仍需人工审查与测试兜底，勿盲信一键应用。\n",
+  "oneLiner": "Codeium 系 Agent IDE · 级联编辑 · 上下文流",
+  "descriptionMd": "Windsurf（Codeium）是面向 Agent 工作流的 IDE，强调级联编辑与上下文感知。\n\n与 Cursor/Copilot 同层比 Agent 完成度、定价与隐私模式。国内网络与账号策略需实测。\n\n级联编辑适合大范围重构预览；仍需人工审查与测试兜底，勿盲信一键应用。\n",
   "officialUrl": "https://codeium.com/windsurf",
   "rankings": [
     {

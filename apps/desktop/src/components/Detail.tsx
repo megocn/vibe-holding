@@ -1,9 +1,13 @@
 import type { Category, Entry, Id } from '@vh/core';
 import {
   buildConceptTermRules,
+  computeProminence,
+  entryRankingForSystem,
   linkifyConcepts,
+  primaryRankingSystem,
   resolveExternalLinks,
   resolveTutorialLinks,
+  sortIdsByPrimaryRanking,
 } from '@vh/core';
 import { CATEGORY_ICONS, layerOfCategory } from '@vh/ui';
 import { AnimatePresence, motion } from 'motion/react';
@@ -117,7 +121,7 @@ function resolveLeafGuide(
   return undefined;
 }
 
-/** 选中叶、未选条目：位置图 + 用法；条目为图上落点，完整扫阅仍在中栏 */
+/** 选中叶、未选条目：舆图注记 + 用法 + 位置轨；落点快跳，完整扫阅仍在中栏 */
 function LeafUsagePanel({
   category,
   categories,
@@ -136,59 +140,113 @@ function LeafUsagePanel({
   const { bundle, categoryCount } = useContent();
   const icon = CATEGORY_ICONS[category.id] ?? 'CirclesFour';
   const parentId = category.parent;
-  const parentName = parentId ? categories.find((c) => c.id === parentId)?.name : undefined;
+  const parent = parentId ? categories.find((c) => c.id === parentId) : undefined;
   const layer = layerOfCategory(category.id, categories);
   const entryCount = categoryCount[category.id] ?? 0;
-  const crumb = [layer?.label, parentName].filter(Boolean).join(' · ');
 
+  const rankingSystems = useMemo(
+    () => [...bundle.rankingSystems.values()],
+    [bundle.rankingSystems],
+  );
+  const prominence = useMemo(
+    () => computeProminence(bundle.entries.values(), bundle.popularity),
+    [bundle.entries, bundle.popularity],
+  );
+
+  /** 与中栏 EntryList 同源：主榜名次 → 流行度 → 成熟度 → 名称 */
   const entries = useMemo(() => {
-    const list = [...bundle.entries.values()].filter((e) => e.category === category.id);
-    return list.sort((a, b) => a.name.localeCompare(b.name, 'zh'));
-  }, [bundle.entries, category.id]);
+    const inLeaf = [...bundle.entries.values()].filter((e) => e.category === category.id);
+    const ordered = sortIdsByPrimaryRanking(
+      inLeaf.map((e) => e.id),
+      (id) => {
+        const e = bundle.entries.get(id);
+        if (!e) return undefined;
+        return {
+          category: e.category,
+          name: e.name,
+          rankings: e.rankings,
+          maturity: e.maturity,
+        };
+      },
+      rankingSystems,
+      { prominenceOf: (id) => prominence.get(id) },
+    );
+    return ordered
+      .map((id) => bundle.entries.get(id))
+      .filter((e): e is Entry => e != null);
+  }, [bundle.entries, category.id, rankingSystems, prominence]);
+
+  const rankSortHint = useMemo(() => {
+    const sys = primaryRankingSystem(rankingSystems, category.id);
+    const hasSnap =
+      !!sys &&
+      entries.some((e) => entryRankingForSystem(e.rankings, sys.id) != null);
+    if (hasSnap && sys) return `按 ${sys.shortName} 排序`;
+    return '按流行度排序';
+  }, [rankingSystems, category.id, entries]);
 
   return (
     <div className="vh-kb-detail vh-kb-leaf-usage" data-scroll-mode="unified">
-      <header className="vh-kb-leaf-usage-head">
-        <div className="vh-kb-leaf-usage-badge-row">
-          <span className="vh-kb-leaf-usage-badge">
-            <Icon name="TreeStructure" size={12} weight="bold" />
-            这一类
-          </span>
+      <header className="vh-kb-leaf-plate">
+        <div className="vh-kb-leaf-plate-spine" aria-hidden>
+          <span className="vh-kb-leaf-plate-seal">廓</span>
         </div>
-
-        <div className="vh-kb-leaf-usage-title-row">
-          <div className="vh-kb-detail-icon vh-kb-leaf-usage-icon" aria-hidden>
-            <Icon name={icon} size={28} weight="duotone" />
-          </div>
-          <div className="vh-kb-leaf-usage-copy">
-            {crumb && (
-              <div className="vh-kb-crumb vh-text-xs" style={{ color: 'var(--ink-3)' }}>
-                {crumb}
-              </div>
+        <div className="vh-kb-leaf-plate-main">
+          <nav className="vh-kb-leaf-plate-path vh-text-xs" aria-label="图廓路径">
+            {layer?.label && <span className="vh-kb-leaf-plate-path-seg">{layer.label}</span>}
+            {parent && (
+              <>
+                <span className="vh-kb-leaf-plate-path-slash" aria-hidden>
+                  /
+                </span>
+                {parent.code && (
+                  <span className="vh-kb-leaf-plate-path-code vh-mono">{parent.code}</span>
+                )}
+                <span className="vh-kb-leaf-plate-path-seg">{parent.name}</span>
+              </>
             )}
-            <h1 className="vh-text-h1 vh-kb-leaf-usage-title">{category.name}</h1>
-            <p className="vh-kb-leaf-usage-sub">
-              什么时候用、干什么用
-              {entryCount > 0 ? (
-                <>
-                  {' '}
-                  · 中栏 / 图共 <strong>{entryCount}</strong> 个落点
-                </>
-              ) : null}
-            </p>
+            <span className="vh-kb-leaf-plate-path-slash" aria-hidden>
+              /
+            </span>
+            <span className="vh-kb-leaf-plate-path-here">本叶</span>
+          </nav>
+
+          <div className="vh-kb-leaf-plate-title-row">
+            <span className="vh-kb-leaf-plate-icon" aria-hidden>
+              <Icon name={icon} size={28} weight="duotone" />
+            </span>
+            <h1 className="vh-kb-leaf-plate-title">{category.name}</h1>
           </div>
+
+          <p className="vh-kb-leaf-plate-lede">
+            何时用 · 做什么 · 一般怎么用
+            {entryCount > 0 ? (
+              <span className="vh-kb-leaf-plate-stat">
+                <strong className="vh-mono">{entryCount}</strong>
+                个基建落点
+              </span>
+            ) : (
+              <span className="vh-kb-leaf-plate-stat vh-kb-leaf-plate-stat-empty">暂无落点</span>
+            )}
+          </p>
         </div>
       </header>
 
-      <div className="vh-kb-leaf-usage-body">
-        <div className="vh-kb-leaf-usage-section-label">这类怎么用</div>
-        <Prose text={category.usageMd ?? ''} />
-      </div>
+      <section className="vh-kb-section" data-level="1">
+        <h2 className="vh-kb-section-title">
+          <span className="vh-kb-section-index">一</span>
+          <span>这类怎么用</span>
+        </h2>
+        <div className="vh-kb-section-body vh-kb-leaf-usage-prose">
+          <Prose text={category.usageMd ?? ''} />
+        </div>
+      </section>
 
       <LeafJourneyStrip
         leaf={category}
         categories={categories}
         entries={entries}
+        rankSortHint={rankSortHint}
         onNav={onScopeNav}
         onSelectEntry={onSelect}
         hoverId={hoverEntryId}

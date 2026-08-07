@@ -30,8 +30,8 @@
   "category": "coding-ide-agent",
   "subcategory": "ide-agent",
   "vendorId": "bytedance",
-  "oneLiner": "字节系 AI IDE · 国内可达对标 Cursor · Flavor A 本机",
-  "descriptionMd": "Trae 是字节跳动推出的 AI IDE，面向中文开发者，强调国内可访问与协作体验，常作 Cursor 的国内对标。\n\n属 Flavor A；能力与模型策略随版本变化，需按实际工作流评测。企业数据策略与隐私模式同样关键。\n\n中文场景与国内网络是主要动机；安全策略（代码上传范围）按公司规范配置。\n",
+  "oneLiner": "字节系 AI IDE · 国内可达 · 常作 Cursor 对标",
+  "descriptionMd": "Trae 是字节跳动推出的 AI IDE，面向中文开发者，强调国内可访问与协作体验，常作 Cursor 的国内对标。\n\n能力与模型策略随版本变化，需按实际工作流评测。企业数据策略与隐私模式同样关键。\n\n中文场景与国内网络是主要动机；安全策略（代码上传范围）按公司规范配置。\n",
   "officialUrl": "https://www.trae.ai",
   "rankings": [
     {

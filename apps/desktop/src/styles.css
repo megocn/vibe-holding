@@ -3050,514 +3050,711 @@ span.vh-mono,
   flex-direction: column;
   overflow: hidden;
 }
+/* —— 叶信息页 · 舆图注记 —— */
 .vh-kb-leaf-usage {
   height: 100%;
+  width: 100%;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
-  padding: 24px 28px 40px;
+  padding: 22px 28px 48px;
   box-sizing: border-box;
-  /* 与条目详情区分：无大图 hero，轻网格底暗示「地图/分类」 */
+  /* 占满详情栏；正文可读宽度另在 prose 约束 */
   background:
     linear-gradient(
       180deg,
       color-mix(in oklch, var(--paper-1) 70%, transparent) 0%,
-      transparent 140px
+      transparent 120px
     ),
     var(--paper-0, transparent);
 }
-.vh-kb-leaf-usage-head {
+/* 页首题签：竖印 + 左齐标题，对别产品 hero 的图形象 */
+.vh-kb-leaf-plate {
+  display: flex;
+  gap: 16px;
+  align-items: stretch;
+  margin: 0 0 4px;
+  padding-bottom: 18px;
+  border-bottom: 1px solid color-mix(in oklch, var(--line) 85%, transparent);
+}
+.vh-kb-leaf-plate-spine {
+  flex-shrink: 0;
   display: flex;
   flex-direction: column;
-  gap: 14px;
-  margin-bottom: 16px;
-  max-width: 44rem;
-}
-.vh-kb-leaf-usage-badge-row {
-  display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  gap: 8px 12px;
+  justify-content: flex-start;
+  padding-top: 2px;
+  width: 2.25rem;
+  position: relative;
 }
-.vh-kb-leaf-usage-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  padding: 3px 9px 3px 7px;
+.vh-kb-leaf-plate-spine::after {
+  content: '';
+  flex: 1;
+  width: 1px;
+  min-height: 1.5rem;
+  margin-top: 8px;
+  background: linear-gradient(
+    180deg,
+    color-mix(in oklch, var(--pigment-seal) 55%, var(--line)) 0%,
+    color-mix(in oklch, var(--line) 40%, transparent) 100%
+  );
+}
+.vh-kb-leaf-plate-seal {
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  border: 1.5px solid color-mix(in oklch, var(--pigment-seal) 72%, var(--ink-2));
   border-radius: 2px;
-  border: 1px solid color-mix(in oklch, var(--pigment-seal) 35%, var(--line));
-  background: color-mix(in oklch, var(--pigment-seal) 9%, var(--paper-0));
-  color: color-mix(in oklch, var(--ink-1) 82%, var(--pigment-seal));
+  color: color-mix(in oklch, var(--pigment-seal) 88%, var(--ink-1));
   font-family: var(--font-display);
-  font-size: 11px;
-  letter-spacing: 0.06em;
-  line-height: 1.3;
+  font-size: 15px;
+  letter-spacing: 0.04em;
+  line-height: 1;
+  background: color-mix(in oklch, var(--pigment-seal) 7%, var(--paper-0));
+  box-shadow: inset 0 0 0 1px color-mix(in oklch, var(--pigment-seal) 12%, transparent);
 }
-.vh-kb-leaf-usage-badge-hint {
-  font-size: 12px;
-  color: var(--ink-3);
-}
-.vh-kb-leaf-usage-title-row {
-  display: flex;
-  gap: 14px;
-  align-items: flex-start;
-}
-.vh-kb-leaf-usage-icon {
-  flex-shrink: 0;
-  border: 1px dashed color-mix(in oklch, var(--ink-3) 35%, var(--line));
-  background: color-mix(in oklch, var(--paper-1) 60%, transparent);
-}
-.vh-kb-leaf-usage-copy {
+.vh-kb-leaf-plate-main {
   min-width: 0;
   flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
-.vh-kb-leaf-usage-title {
-  margin: 4px 0 0;
-}
-.vh-kb-leaf-usage-sub {
-  margin: 6px 0 0;
-  font-size: 13px;
+.vh-kb-leaf-plate-path {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 4px 6px;
+  margin: 0;
   color: var(--ink-3);
-  line-height: 1.4;
+  letter-spacing: 0.02em;
 }
-.vh-kb-leaf-usage-sub strong {
+.vh-kb-leaf-plate-path-seg {
+  color: var(--ink-3);
+}
+.vh-kb-leaf-plate-path-code {
+  font-size: 0.92em;
+  letter-spacing: 0.08em;
+  color: color-mix(in oklch, var(--ink-2) 80%, var(--pigment-seal));
+  opacity: 0.9;
+}
+.vh-kb-leaf-plate-path-slash {
+  opacity: 0.35;
+  user-select: none;
+}
+.vh-kb-leaf-plate-path-here {
   color: var(--ink-2);
-  font-weight: 600;
+  font-family: var(--font-display);
+  letter-spacing: 0.06em;
 }
-.vh-kb-leaf-usage-cta {
+.vh-kb-leaf-plate-title-row {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 12px 14px;
-  border-radius: 2px;
-  border: 1px solid color-mix(in oklch, var(--ink-2) 18%, var(--line));
-  background: color-mix(in oklch, var(--paper-0) 88%, var(--ink-1));
-  box-shadow: 0 1px 0 color-mix(in oklch, var(--ink-1) 4%, transparent);
-}
-.vh-kb-leaf-usage-cta-icon {
-  flex-shrink: 0;
-  width: 36px;
-  height: 36px;
-  display: grid;
-  place-items: center;
-  border-radius: 2px;
-  color: var(--ink-2);
-  background: color-mix(in oklch, var(--paper-1) 80%, transparent);
-  border: 1px solid color-mix(in oklch, var(--line) 90%, transparent);
-}
-.vh-kb-leaf-usage-cta-copy {
   min-width: 0;
-  flex: 1;
 }
-.vh-kb-leaf-usage-cta-title {
-  font-family: var(--font-display);
-  font-size: 13.5px;
-  color: var(--ink-1);
-  letter-spacing: 0.01em;
-}
-.vh-kb-leaf-usage-cta-text {
-  margin: 4px 0 0;
-  font-size: 12.5px;
-  line-height: 1.45;
-  color: var(--ink-3);
-}
-.vh-kb-leaf-usage-cta-text strong {
-  color: var(--ink-2);
-  font-weight: 600;
-}
-.vh-kb-leaf-usage-cta[data-strong='true'] {
-  border-color: color-mix(in oklch, var(--pigment-seal) 42%, var(--line));
-  background:
-    linear-gradient(
-      105deg,
-      color-mix(in oklch, var(--pigment-seal) 12%, var(--paper-0)) 0%,
-      color-mix(in oklch, var(--paper-0) 92%, transparent) 55%
-    );
-  animation: vh-leaf-cta-glow 2.4s ease-in-out infinite;
-}
-@keyframes vh-leaf-cta-glow {
-  0%,
-  100% {
-    box-shadow: 0 0 0 0 color-mix(in oklch, var(--pigment-seal) 0%, transparent);
-  }
-  50% {
-    box-shadow: 0 0 0 3px color-mix(in oklch, var(--pigment-seal) 14%, transparent);
-  }
-}
-@media (prefers-reduced-motion: reduce) {
-  .vh-kb-leaf-usage-cta[data-strong='true'] {
-    animation: none;
-  }
-}
-.vh-kb-leaf-usage-cta-arrow {
+.vh-kb-leaf-plate-icon {
   flex-shrink: 0;
-  color: var(--ink-3);
-  opacity: 0.65;
   display: grid;
   place-items: center;
-}
-@media (min-width: 900px) {
-  .vh-kb-leaf-usage-cta-arrow {
-    display: grid;
-    place-items: center;
-  }
-}
-.vh-kb-leaf-usage-section-label {
-  font-family: var(--font-display);
-  font-size: 11px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: var(--ink-3);
-  margin: 0 0 10px;
-}
-.vh-kb-leaf-usage-body {
-  max-width: 40rem;
-  margin: 0 0 20px;
-}
-.vh-kb-leaf-usage-body .vh-prose p {
+  width: 40px;
+  height: 40px;
   color: var(--ink-2);
-  line-height: 1.65;
-}
-.vh-kb-leaf-usage-cta {
-  margin: 0 0 20px;
-  max-width: 44rem;
-}
-.vh-journey {
-  margin: 0 0 28px;
-  max-width: 44rem;
-  padding: 14px 16px 12px;
   border-radius: 2px;
-  border: 1px solid color-mix(in oklch, var(--line) 88%, transparent);
-  background:
-    linear-gradient(
-      180deg,
-      color-mix(in oklch, var(--paper-1) 55%, transparent) 0%,
-      color-mix(in oklch, var(--paper-0) 40%, transparent) 100%
-    );
+  border: 1px solid color-mix(in oklch, var(--ink-3) 28%, var(--line));
+  background: color-mix(in oklch, var(--paper-1) 65%, transparent);
 }
-.vh-journey-meta {
+.vh-kb-leaf-plate-title {
+  margin: 0;
+  min-width: 0;
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 2vw, 1.75rem);
+  line-height: 1.3;
+  letter-spacing: 0.06em;
+  font-weight: 600;
+  color: var(--ink-1);
+  text-wrap: balance;
+}
+.vh-kb-leaf-plate-lede {
+  margin: 2px 0 0;
   display: flex;
-  align-items: center;
-  gap: 6px;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px 14px;
+  font-size: 13px;
+  line-height: 1.5;
   color: var(--ink-3);
-  margin-bottom: 12px;
   letter-spacing: 0.02em;
 }
-.vh-journey-meta-label {
-  font-family: var(--font-display);
+.vh-kb-leaf-plate-stat {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  padding-left: 12px;
+  border-left: 1px solid color-mix(in oklch, var(--line) 90%, transparent);
   color: var(--ink-2);
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  font-size: 10px;
+  font-size: 12.5px;
 }
-.vh-journey-meta-sep {
-  opacity: 0.45;
+.vh-kb-leaf-plate-stat strong {
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: var(--ink-1);
 }
+.vh-kb-leaf-plate-stat-empty {
+  color: var(--ink-3);
+  font-style: normal;
+}
+.vh-kb-leaf-usage-prose .vh-prose p {
+  color: var(--ink-2);
+  line-height: 1.7;
+}
+.vh-kb-leaf-usage .vh-kb-section {
+  max-width: none;
+  width: 100%;
+}
+/* 旧选择器保活，避免外链样式残留 */
+.vh-kb-leaf-usage-head,
+.vh-kb-leaf-usage-masthead,
+.vh-kb-leaf-usage-badge,
+.vh-kb-leaf-usage-cta {
+  display: none;
+}
+
+/* —— 上线路程（叶页内，去卡片壳） —— */
+.vh-journey {
+  margin: 0;
+  width: 100%;
+  max-width: none;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+.vh-journey-entries-sort {
+  color: var(--ink-2);
+  font-family: var(--font-display);
+  letter-spacing: 0.02em;
+}
+.vh-journey-lede {
+  margin: 0 0 14px;
+  color: var(--ink-3);
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+.vh-journey-lede em {
+  font-style: normal;
+  font-family: var(--font-display);
+  color: var(--ink-1);
+  letter-spacing: 0.04em;
+}
+/* 全宽均分站点：码 → 轨线墨点 → 站名；线横贯不穿方块 */
 .vh-journey-track {
   display: flex;
-  align-items: center;
-  gap: 0;
-  overflow-x: auto;
-  padding-bottom: 2px;
-  scrollbar-width: thin;
-  flex: 1;
+  align-items: stretch;
+  width: 100%;
   min-width: 0;
+  gap: 0;
+  position: relative;
+  padding: 2px 0 0;
+  overflow: visible;
+}
+/* 连续墨轨：对齐 pin 中心行 */
+.vh-journey-track::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(1.05rem + 6px + 4px); /* code 行约 + gap + pin 半高 */
+  height: 1px;
+  background: color-mix(in oklch, var(--ink-3) 36%, var(--line));
+  pointer-events: none;
+  z-index: 0;
 }
 .vh-journey-step {
   display: flex;
-  align-items: center;
-  flex: 0 0 auto;
+  flex: 1 1 0;
+  min-width: 0;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
 }
 .vh-journey-link {
-  width: 18px;
-  height: 1px;
-  margin: 0 2px;
-  background: color-mix(in oklch, var(--ink-3) 45%, var(--line));
-  flex-shrink: 0;
-}
-.vh-journey-link[data-dim='near'] {
-  background: color-mix(in oklch, var(--pigment-seal) 35%, var(--line));
-  width: 22px;
-}
-.vh-journey-link[data-dim='focus'],
-.vh-journey-link[data-dim='far'] {
-  opacity: 0.55;
+  display: none;
 }
 .vh-journey-node {
-  display: inline-flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3px;
-  min-width: 4.5rem;
-  max-width: 7.5rem;
-  padding: 8px 10px 7px;
-  border-radius: 2px;
-  border: 1px solid var(--line);
-  background: color-mix(in oklch, var(--paper-0) 90%, transparent);
+  gap: 6px;
+  width: 100%;
+  min-width: 0;
+  max-width: none;
+  padding: 0 4px 2px;
+  border: none;
+  border-radius: 0;
+  background: transparent;
   color: var(--ink-2);
   cursor: pointer;
   transition:
     opacity var(--dur-fast, 0.15s) var(--ease-standard, ease),
-    border-color var(--dur-fast, 0.15s) var(--ease-standard, ease),
-    background var(--dur-fast, 0.15s) var(--ease-standard, ease);
+    color var(--dur-fast, 0.15s) var(--ease-standard, ease);
 }
 .vh-journey-node:disabled {
   cursor: default;
 }
 .vh-journey-node[data-dim='ghost'] {
-  opacity: 0.22;
-  filter: saturate(0.4);
+  opacity: 0.3;
 }
 .vh-journey-node[data-dim='far'] {
-  opacity: 0.38;
-  filter: saturate(0.55);
+  opacity: 0.5;
 }
 .vh-journey-node[data-dim='near'] {
-  opacity: 0.78;
-  border-color: color-mix(in oklch, var(--ink-3) 40%, var(--line));
+  opacity: 0.88;
 }
 .vh-journey-node[data-dim='focus'],
 .vh-journey-node[data-focus='true'] {
   opacity: 1;
-  border-color: color-mix(in oklch, var(--ink-1) 55%, var(--pigment-seal));
-  background: color-mix(in oklch, var(--ink-1) 90%, var(--pigment-seal));
-  color: var(--paper-0);
-  box-shadow: 0 1px 0 color-mix(in oklch, var(--ink-1) 12%, transparent);
+  color: var(--ink-1);
+  border: none;
+  background: transparent;
 }
 .vh-journey-node:not(:disabled):hover {
-  border-color: color-mix(in oklch, var(--pigment-seal) 50%, var(--line));
+  color: color-mix(in oklch, var(--ink-1) 70%, var(--pigment-seal));
+  border: none;
+  background: transparent;
 }
+.vh-journey-node:not(:disabled):hover .vh-journey-pin {
+  border-color: color-mix(in oklch, var(--pigment-seal) 70%, var(--ink-2));
+  background: color-mix(in oklch, var(--pigment-seal) 18%, var(--paper-0));
+}
+.vh-journey-node[data-focus='true']:not(:disabled):hover,
 .vh-journey-node[data-focus='true']:hover {
-  border-color: color-mix(in oklch, var(--ink-1) 55%, var(--pigment-seal));
+  color: var(--ink-1);
+  border: none;
+  background: transparent;
 }
 .vh-journey-code {
   font-family: var(--font-mono, ui-monospace, monospace);
-  font-size: 10px;
+  font-size: 11px;
   letter-spacing: 0.12em;
-  opacity: 0.75;
-  line-height: 1;
+  line-height: 1.05rem;
+  height: 1.05rem;
+  opacity: 0.7;
+  color: inherit;
 }
 .vh-journey-node[data-focus='true'] .vh-journey-code {
-  opacity: 0.88;
-  color: color-mix(in oklch, var(--paper-0) 88%, transparent);
+  opacity: 1;
+  color: color-mix(in oklch, var(--ink-1) 55%, var(--pigment-seal));
+  font-weight: 600;
+}
+/* 站台墨点：压在轨线上 */
+.vh-journey-pin {
+  width: 9px;
+  height: 9px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  box-sizing: border-box;
+  border: 1.5px solid color-mix(in oklch, var(--ink-3) 55%, var(--line));
+  background: var(--paper-0, #fff);
+  box-shadow: 0 0 0 3px color-mix(in oklch, var(--paper-0) 92%, transparent);
+  transition:
+    border-color var(--dur-fast, 0.15s) ease,
+    background var(--dur-fast, 0.15s) ease,
+    box-shadow var(--dur-fast, 0.15s) ease;
+}
+.vh-journey-node[data-dim='far'] .vh-journey-pin,
+.vh-journey-node[data-dim='ghost'] .vh-journey-pin {
+  border-color: color-mix(in oklch, var(--ink-3) 40%, var(--line));
+}
+.vh-journey-node[data-focus='true'] .vh-journey-pin {
+  width: 11px;
+  height: 11px;
+  margin: -1px 0;
+  border-color: color-mix(in oklch, var(--pigment-seal) 75%, var(--ink-1));
+  background: var(--pigment-seal);
+  box-shadow:
+    0 0 0 3px color-mix(in oklch, var(--paper-0) 95%, transparent),
+    0 0 0 5px color-mix(in oklch, var(--pigment-seal) 18%, transparent);
 }
 .vh-journey-name {
   font-family: var(--font-display);
-  font-size: 11.5px;
-  line-height: 1.25;
+  font-size: 12px;
+  line-height: 1.3;
   text-align: center;
-  max-width: 100%;
+  width: 100%;
+  max-width: none;
   overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
   text-overflow: ellipsis;
-  white-space: nowrap;
+  white-space: normal;
+  letter-spacing: 0.02em;
+  min-height: 2.6em;
+}
+.vh-journey-node[data-focus='true'] .vh-journey-name {
+  color: var(--ink-1);
+  font-weight: 600;
+  letter-spacing: 0.04em;
 }
 .vh-journey-ellipsis {
-  flex: 0 0 auto;
-  padding: 0 6px;
+  flex: 0 0 1.75rem;
+  align-self: flex-start;
+  display: grid;
+  place-items: center;
+  padding: 0;
+  margin-top: calc(1.05rem + 6px - 0.15em);
   font-size: 12px;
-  letter-spacing: 0.18em;
+  letter-spacing: 0.12em;
   color: var(--ink-3);
-  opacity: 0.35;
+  opacity: 0.45;
   user-select: none;
+  position: relative;
+  z-index: 1;
+  background: transparent;
 }
 .vh-journey-level {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  margin-top: 12px;
-  padding-top: 12px;
-  border-top: 1px solid color-mix(in oklch, var(--line) 80%, transparent);
+  margin-top: 14px;
 }
 .vh-journey-level:first-of-type {
-  margin-top: 4px;
-  padding-top: 0;
-  border-top: none;
+  margin-top: 0;
 }
 .vh-journey-level-tag {
   align-self: flex-start;
   font-family: var(--font-display);
-  font-size: 10px;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
+  font-size: 11px;
+  letter-spacing: 0.08em;
   color: var(--ink-3);
-  opacity: 0.85;
 }
-.vh-journey-level-tag[data-accent='true'] {
-  color: color-mix(in oklch, var(--ink-1) 70%, var(--pigment-seal));
-  opacity: 1;
+/* —— 基建落点 · 领读台 + 流水索引（三）—— 与中栏行卡 / 印谱均不同 —— */
+.vh-journey-section-entries .vh-kb-section-title {
+  align-items: baseline;
+}
+.vh-journey-spot-count {
+  margin-left: auto;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  color: var(--ink-3);
+  font-weight: 400;
 }
 .vh-journey-entries-head {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 8px 12px;
+  margin-bottom: 14px;
 }
 .vh-journey-entries-cue {
   display: inline-flex;
-  align-items: center;
-  gap: 5px;
-  font-size: 12px;
-  color: var(--ink-2);
-}
-.vh-journey-level-entries {
-  border-top-color: color-mix(in oklch, var(--pigment-seal) 28%, var(--line));
-  background: color-mix(in oklch, var(--pigment-seal) 4%, transparent);
-  margin-left: -8px;
-  margin-right: -8px;
-  padding: 12px 8px 10px;
-  border-radius: 2px;
-}
-.vh-journey-dots {
-  display: flex;
   flex-wrap: wrap;
-  gap: 6px;
+  align-items: baseline;
+  gap: 4px 6px;
+  font-size: 12.5px;
+  color: var(--ink-3);
+  line-height: 1.45;
 }
-.vh-journey-dot {
-  display: inline-flex;
+.vh-journey-entries-sort {
+  color: var(--ink-2);
+  font-family: var(--font-display);
+  letter-spacing: 0.03em;
+}
+.vh-journey-entries-sep {
+  opacity: 0.4;
+}
+.vh-journey-entries-empty {
+  margin: 0;
+  padding: 16px 0;
+  font-size: 13px;
+  color: var(--ink-3);
+  line-height: 1.5;
+}
+.vh-journey-spots {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+/* 领读台：视觉 2 · 1 · 3，底对齐像颁奖台 */
+.vh-journey-podium {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 1fr;
+  gap: 10px 12px;
+  align-items: end;
+  width: 100%;
+  padding: 4px 0 2px;
+  border-bottom: 1px solid color-mix(in oklch, var(--ink-3) 28%, var(--line));
+}
+.vh-journey-podium-spot {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 6px;
-  max-width: 100%;
-  padding: 5px 10px 5px 8px;
-  border-radius: 999px;
-  border: 1px solid color-mix(in oklch, var(--line) 88%, transparent);
-  background: color-mix(in oklch, var(--paper-0) 94%, transparent);
+  margin: 0;
+  padding: 14px 10px 12px;
+  border: none;
+  border-radius: 0;
+  border-top: 1px solid color-mix(in oklch, var(--line) 90%, transparent);
+  background:
+    linear-gradient(
+      180deg,
+      transparent 0%,
+      color-mix(in oklch, var(--paper-1) 40%, transparent) 100%
+    );
   color: var(--ink-1);
   cursor: pointer;
-  font-size: 12.5px;
-  line-height: 1.2;
+  text-align: center;
+  min-width: 0;
   transition:
-    border-color 0.12s ease,
-    background 0.12s ease,
-    transform 0.12s ease;
+    background var(--dur-fast, 0.15s) var(--ease-standard, ease),
+    border-color var(--dur-fast, 0.15s) var(--ease-standard, ease);
 }
-.vh-journey-dot:hover {
-  border-color: color-mix(in oklch, var(--pigment-seal) 50%, var(--line));
-  background: color-mix(in oklch, var(--pigment-seal) 8%, var(--paper-0));
-  transform: translateY(-1px);
+.vh-journey-podium-spot[data-place='1'] {
+  padding-top: 22px;
+  padding-bottom: 16px;
+  border-top-color: color-mix(in oklch, var(--pigment-seal) 55%, var(--line));
+  background:
+    linear-gradient(
+      180deg,
+      color-mix(in oklch, var(--pigment-seal) 6%, transparent) 0%,
+      color-mix(in oklch, var(--paper-1) 50%, transparent) 100%
+    );
 }
-.vh-journey-dot[data-hover-sync='true'] {
-  border-color: color-mix(in oklch, var(--pigment-seal) 55%, var(--line));
-  background: color-mix(in oklch, var(--pigment-seal) 14%, var(--paper-0));
-  box-shadow: 0 0 0 2px color-mix(in oklch, var(--pigment-seal) 22%, transparent);
-  transform: translateY(-1px);
+.vh-journey-podium-spot[data-place='2'] {
+  padding-top: 12px;
 }
-.vh-journey-dot:focus-visible {
+.vh-journey-podium-spot[data-place='3'] {
+  padding-top: 10px;
+}
+.vh-journey-podium-spot:hover {
+  background: color-mix(in oklch, var(--pigment-seal) 7%, var(--paper-0));
+}
+.vh-journey-podium-spot[data-hover-sync='true'] {
+  background: color-mix(in oklch, var(--pigment-seal) 11%, var(--paper-0));
+  box-shadow: inset 0 2px 0 var(--pigment-seal);
+}
+.vh-journey-podium-spot:focus-visible {
   outline: 2px solid color-mix(in oklch, var(--pigment-seal) 45%, transparent);
-  outline-offset: 1px;
+  outline-offset: 2px;
 }
-.vh-journey-dot-seal {
-  width: 6px;
-  height: 6px;
-  border-radius: 50%;
-  flex-shrink: 0;
-  background: var(--pigment-seal);
-}
-.vh-journey-dot-name {
+.vh-journey-podium-place {
+  font-size: 22px;
+  line-height: 1;
+  letter-spacing: 0.04em;
   font-family: var(--font-display);
+  color: color-mix(in oklch, var(--ink-3) 80%, var(--pigment-seal));
+}
+.vh-journey-podium-spot[data-place='1'] .vh-journey-podium-place {
+  font-size: 28px;
+  color: var(--pigment-seal);
+}
+.vh-journey-podium-name {
+  font-family: var(--font-display);
+  font-size: 14.5px;
+  line-height: 1.3;
+  letter-spacing: 0.04em;
+  color: var(--ink-1);
+  max-width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  max-width: 11rem;
 }
-.vh-journey-entries-empty {
-  margin: 4px 0 0;
-  font-size: 12px;
+.vh-journey-podium-spot[data-place='1'] .vh-journey-podium-name {
+  font-size: 16.5px;
+  letter-spacing: 0.06em;
+}
+.vh-journey-podium-rank {
+  font-size: 11px;
+  letter-spacing: 0.02em;
   color: var(--ink-3);
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+/* 流水：无框序名，像目录串读 */
+.vh-journey-flow {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 2px;
+  row-gap: 8px;
+  width: 100%;
+}
+.vh-journey-flow-item {
+  margin: 0;
+  display: inline-flex;
+  align-items: baseline;
+}
+.vh-journey-flow-item:not(:last-child)::after {
+  content: '·';
+  margin: 0 6px 0 4px;
+  color: color-mix(in oklch, var(--ink-3) 50%, transparent);
+  font-size: 12px;
+  user-select: none;
+  pointer-events: none;
+}
+.vh-journey-flow-spot {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 4px;
+  margin: 0;
+  padding: 2px 3px;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  color: var(--ink-2);
+  cursor: pointer;
+  font-size: 13.5px;
+  line-height: 1.35;
+  transition: color var(--dur-fast, 0.15s) ease;
+}
+.vh-journey-flow-spot:hover {
+  color: color-mix(in oklch, var(--ink-1) 70%, var(--pigment-seal));
+}
+.vh-journey-flow-spot[data-hover-sync='true'] {
+  color: var(--pigment-seal);
+  box-shadow: inset 0 -1px 0 color-mix(in oklch, var(--pigment-seal) 55%, transparent);
+}
+.vh-journey-flow-spot:focus-visible {
+  outline: 2px solid color-mix(in oklch, var(--pigment-seal) 45%, transparent);
+  outline-offset: 2px;
+}
+.vh-journey-flow-ord {
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: var(--ink-3);
+  font-variant-numeric: tabular-nums;
+}
+.vh-journey-flow-name {
+  font-family: var(--font-display);
+  letter-spacing: 0.02em;
+}
+.vh-journey-flow-spot[data-region='domestic'] .vh-journey-flow-ord {
+  color: color-mix(in oklch, var(--region-domestic, var(--pigment-seal)) 55%, var(--ink-3));
+}
+.vh-journey-flow-spot[data-region='overseas'] .vh-journey-flow-ord {
+  color: color-mix(in oklch, var(--region-overseas, #5a8a7a) 55%, var(--ink-3));
+}
+@media (max-width: 640px) {
+  .vh-journey-podium {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+  .vh-journey-podium-spot[data-place='1'],
+  .vh-journey-podium-spot[data-place='2'],
+  .vh-journey-podium-spot[data-place='3'] {
+    padding: 12px 10px;
+  }
+  .vh-journey-podium-spot[data-place='1'] {
+    order: -1;
+  }
+}
+/* 旧样式选择器保活 */
+.vh-journey-index,
+.vh-journey-seal,
+.vh-journey-ladder,
+.vh-journey-rung,
+.vh-journey-roster,
+.vh-journey-row,
+.vh-journey-dots,
+.vh-journey-dot {
+  display: none;
 }
 .vh-journey-leaves {
   display: flex;
   flex-wrap: wrap;
-  gap: 6px 8px;
-  margin-top: 0;
-  padding-top: 0;
-  border-top: none;
+  gap: 4px 2px;
 }
 .vh-journey-leaf {
   display: inline-flex;
   align-items: center;
   gap: 6px;
-  padding: 4px 9px 4px 7px;
-  border-radius: 999px;
-  border: 1px solid color-mix(in oklch, var(--line) 92%, transparent);
+  padding: 5px 10px 5px 8px;
+  border-radius: 2px;
+  border: 1px solid transparent;
   background: transparent;
   color: var(--ink-3);
-  font-size: 11.5px;
-  line-height: 1.2;
+  font-size: 12.5px;
+  line-height: 1.25;
   cursor: pointer;
-  opacity: 0.55;
   transition:
-    opacity var(--dur-fast, 0.15s) ease,
     color var(--dur-fast, 0.15s) ease,
-    border-color var(--dur-fast, 0.15s) ease;
+    border-color var(--dur-fast, 0.15s) ease,
+    background var(--dur-fast, 0.15s) ease;
 }
 .vh-journey-leaf:disabled {
   cursor: default;
 }
 .vh-journey-leaf:not(:disabled):hover {
-  opacity: 0.9;
   color: var(--ink-2);
-  border-color: color-mix(in oklch, var(--ink-3) 45%, var(--line));
+  border-color: color-mix(in oklch, var(--line) 95%, transparent);
+  background: color-mix(in oklch, var(--paper-1) 50%, transparent);
 }
 .vh-journey-leaf[data-on='true'] {
-  opacity: 1;
   color: var(--ink-1);
-  border-color: color-mix(in oklch, var(--pigment-seal) 45%, var(--line));
-  background: color-mix(in oklch, var(--pigment-seal) 8%, var(--paper-0));
+  border-color: color-mix(in oklch, var(--ink-2) 22%, var(--line));
+  background: color-mix(in oklch, var(--paper-1) 70%, transparent);
   font-weight: 500;
 }
 .vh-journey-leaf-dot {
-  width: 5px;
-  height: 5px;
+  width: 4px;
+  height: 4px;
   border-radius: 50%;
-  background: color-mix(in oklch, var(--ink-3) 55%, var(--line));
+  background: color-mix(in oklch, var(--ink-3) 50%, var(--line));
   flex-shrink: 0;
 }
 .vh-journey-leaf[data-on='true'] .vh-journey-leaf-dot {
   background: var(--pigment-seal);
-  box-shadow: 0 0 0 2px color-mix(in oklch, var(--pigment-seal) 22%, transparent);
+  box-shadow: 0 0 0 2px color-mix(in oklch, var(--pigment-seal) 18%, transparent);
 }
 .vh-journey-leaf-label {
-  max-width: 9.5rem;
+  max-width: 10rem;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
 }
-.vh-journey-bridge {
-  margin: 12px 0 0;
-  padding: 8px 10px;
-  font-size: 12.5px;
-  line-height: 1.45;
-  color: var(--ink-2);
-  border-radius: 2px;
-  border: 1px dashed color-mix(in oklch, var(--pigment-seal) 32%, var(--line));
-  background: color-mix(in oklch, var(--pigment-seal) 6%, transparent);
-}
-.vh-journey-bridge strong {
-  font-weight: 600;
-  color: var(--ink-1);
-}
 .vh-journey-spine {
   display: flex;
   gap: 3px;
-  margin-top: 12px;
-  height: 3px;
+  margin-top: 16px;
+  height: 2px;
 }
 .vh-journey-spine-seg {
   flex: 1;
   border-radius: 1px;
-  background: color-mix(in oklch, var(--ink-3) 18%, transparent);
+  background: color-mix(in oklch, var(--ink-3) 16%, transparent);
   min-width: 0;
+  transition: background var(--dur-fast, 0.15s) ease;
 }
 .vh-journey-spine-seg[data-active='true'] {
-  background: color-mix(in oklch, var(--pigment-seal) 70%, var(--ink-2));
+  background: color-mix(in oklch, var(--pigment-seal) 68%, var(--ink-2));
 }
 @media (max-width: 720px) {
+  .vh-kb-leaf-usage {
+    padding: 16px 16px 36px;
+  }
+  .vh-kb-leaf-plate {
+    gap: 12px;
+  }
+  .vh-kb-leaf-plate-spine {
+    width: 1.85rem;
+  }
+  .vh-kb-leaf-plate-seal {
+    width: 1.7rem;
+    height: 1.7rem;
+    font-size: 13px;
+  }
   .vh-journey-node {
-    min-width: 3.6rem;
-    max-width: 5.5rem;
-    padding: 6px 7px;
+    padding: 0 2px 2px;
   }
   .vh-journey-name {
-    font-size: 10.5px;
+    font-size: 11px;
+    min-height: 2.4em;
   }
 }
 .vh-kb-detail {

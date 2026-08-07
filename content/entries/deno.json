@@ -21,6 +21,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-06",
+      "type": "release",
+      "summary": "维护线 2.9 最新 2.9.5",
+      "version": "2.9.5",
+      "source": "https://github.com/denoland/deno/releases/tag/v2.9.5"
+    },
+    {
       "date": "2026-07-23",
       "type": "release",
       "summary": "维护线 2.9 最新 2.9.4",
@@ -32,7 +39,7 @@
   "sources": [
     "https://deno.com"
   ],
-  "lastReviewed": "2026-07-25",
+  "lastReviewed": "2026-08-07",
   "region": "overseas",
   "id": "deno",
   "name": "Deno",
@@ -40,5 +47,6 @@
   "subcategory": "runtime",
   "oneLiner": "权限沙箱 · TS-first 原生 · Deploy 等边缘部署叙事",
   "descriptionMd": "Deno 是安全优先、TS-first 的运行时：默认权限沙箱、原生 TypeScript，并有 Deno Deploy 等边缘部署叙事。\n\n适合新服务与边缘脚本；与 Node 生态互操作在改善但仍有摩擦。若团队重度依赖 npm 历史包，需评估兼容成本。\n\n权限旗标适合不信任脚本场景；npm 兼容改善中，关键依赖需提前验证。\n",
-  "officialUrl": "https://deno.com"
+  "officialUrl": "https://deno.com",
+  "currentVersion": "2.9"
 }

@@ -56,13 +56,13 @@
     },
     {
       "systemId": "lmarena-vision",
-      "rank": 9,
-      "score": 1290,
-      "scoreLabel": "1290 Elo",
+      "rank": 7,
+      "score": 1295,
+      "scoreLabel": "1295 Elo",
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 gemini-3.6-flash",
-      "asOf": "2026-08-03",
+      "asOf": "2026-08-07",
       "previousRank": 9,
       "previousScore": 1290,
       "previousAsOf": "2026-08-03"
@@ -108,15 +108,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 14,
-      "scoreLabel": "2.1%",
-      "share": 2.1,
+      "rank": 9,
+      "scoreLabel": "3.4%",
+      "share": 3.4,
       "period": "2026-08",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-08-06",
+      "asOf": "2026-08-07",
       "previousRank": 14,
-      "previousShare": 1.8,
-      "previousAsOf": "2026-07-26"
+      "previousShare": 2.1,
+      "previousAsOf": "2026-08-06"
     },
     {
       "systemId": "lmarena-document",

@@ -22,12 +22,20 @@
     "插件生态庞杂，安全补丁与版本兼容需持续跟进。",
     "国内服务器托管站点须完成 ICP 备案。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-06",
+      "type": "release",
+      "summary": "发布 7.0.3: Tag 7.0.3",
+      "version": "7.0.3",
+      "source": "https://github.com/WordPress/WordPress/releases/tag/7.0.3"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://wordpress.org"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-07",
   "region": "both",
   "id": "wordpress",
   "name": "WordPress",

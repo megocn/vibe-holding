@@ -62,13 +62,13 @@
     },
     {
       "systemId": "lmarena-vision",
-      "rank": 16,
-      "score": 1282,
-      "scoreLabel": "1282 Elo",
-      "period": "2026-07",
+      "rank": 13,
+      "score": 1285,
+      "scoreLabel": "1285 Elo",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 grok-4.5",
-      "asOf": "2026-07-29",
+      "asOf": "2026-08-07",
       "previousRank": 16,
       "previousScore": 1282,
       "previousAsOf": "2026-07-29"

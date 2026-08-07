@@ -22,12 +22,20 @@
     "内容模型改动需改代码并做迁移，运营侧无法自助扩字段。",
     "自托管意味着数据库、备份与升级全部自担。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-06",
+      "type": "release",
+      "summary": "发布 3.87.1: 新版本",
+      "version": "3.87.1",
+      "source": "https://github.com/payloadcms/payload/releases/tag/v3.87.1"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://payloadcms.com"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-07",
   "region": "overseas",
   "id": "payload-cms",
   "name": "Payload CMS",

@@ -99,12 +99,12 @@
     {
       "systemId": "lmarena-webdev",
       "rank": 1,
-      "score": 1712,
-      "scoreLabel": "1712 Elo",
-      "period": "2026-07",
+      "score": 1686,
+      "scoreLabel": "1686 Elo",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 claude-opus-5-max",
-      "asOf": "2026-07-29",
+      "asOf": "2026-08-07",
       "previousRank": 1,
       "previousScore": 1712,
       "previousAsOf": "2026-07-29"

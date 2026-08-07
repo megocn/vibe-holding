@@ -22,6 +22,12 @@
   ],
   "updates": [
     {
+      "date": "2026-08-06",
+      "type": "feature",
+      "summary": "How Redis brings persistent memory to Snowflake Cortex Agents",
+      "source": "https://redis.io/blog/how-redis-brings-persistent-memory-to-snowflake-cortex-agents/"
+    },
+    {
       "date": "2026-07-24",
       "type": "release",
       "summary": "维护线 7.4 最新 7.4.10",
@@ -32,7 +38,7 @@
   "sources": [
     "https://redis.io"
   ],
-  "lastReviewed": "2026-07-25",
+  "lastReviewed": "2026-08-07",
   "region": "overseas",
   "id": "redis",
   "name": "Redis",

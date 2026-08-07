@@ -24,6 +24,12 @@
   ],
   "updates": [
     {
+      "date": "2026-08-07",
+      "type": "feature",
+      "summary": "Supabase is now a connector on Perplexity Computer",
+      "source": "https://supabase.com/blog/supabase-is-now-a-connector-on-perplexity-computer"
+    },
+    {
       "date": "2026-07-23",
       "type": "feature",
       "summary": "Observability for every Supabase project with Grafana Cloud",
@@ -39,7 +45,7 @@
   "sources": [
     "https://supabase.com"
   ],
-  "lastReviewed": "2026-07-25",
+  "lastReviewed": "2026-08-07",
   "region": "overseas",
   "id": "supabase",
   "name": "Supabase",

@@ -7083,7 +7083,7 @@
       "subcategory": "cli",
       "vendorId": "anthropic",
       "oneLiner": "Anthropic 终端 Agent · AA Coding 前列 · 仓库编排",
-      "descriptionMd": "Claude Code 是 Anthropic 官方的**终端编程 Agent**：在仓库上下文中多文件改动、跑命令、理解项目结构。\n\n属 Flavor A（本机/终端）：可控、贴近真实 Git 工作流，但受本机额度、网络与并行能力限制。国内直连常不稳定，需企业通道或兼容网关。\n\n仓库级任务强；与 IDE 内联编辑可组合，按「终端编排 + 编辑器微调」分工。\n",
+      "descriptionMd": "Claude Code 是 Anthropic 官方的**终端编程 Agent**：在仓库上下文中多文件改动、跑命令、理解项目结构。\n\n在本机/终端跑仓库级任务：可控、贴近真实 Git 工作流，但受本机额度、网络与并行能力限制。国内直连常不稳定，需企业通道或兼容网关。\n\n仓库级任务强；与 IDE 内联编辑可组合，按「终端编排 + 编辑器微调」分工。\n",
       "officialUrl": "https://docs.anthropic.com/en/docs/claude-code",
       "rankings": [
         {
@@ -7458,12 +7458,12 @@
         {
           "systemId": "lmarena-webdev",
           "rank": 1,
-          "score": 1712,
-          "scoreLabel": "1712 Elo",
-          "period": "2026-07",
+          "score": 1686,
+          "scoreLabel": "1686 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 claude-opus-5-max",
-          "asOf": "2026-07-29",
+          "asOf": "2026-08-07",
           "previousRank": 1,
           "previousScore": 1712,
           "previousAsOf": "2026-07-29"
@@ -10301,8 +10301,8 @@
       "category": "coding-ide-agent",
       "subcategory": "ide-agent",
       "vendorId": "anysphere",
-      "oneLiner": "VS Code 系 · Agent/多文件/Rules·MCP；本机 IDE 主力",
-      "descriptionMd": "Cursor 是基于 VS Code 的 AI 原生编辑器：Agent、多文件编辑、规则与 MCP 是核心卖点，属于 Vibe Coding Flavor A（本机 IDE）。\n\n适合日常写码与中等规模重构；注意订阅额度、Privacy Mode 与「本机难过夜并行」的天花板。与 Claude Code / Copilot / Windsurf 等同层对比工作流，而非与 Lovable 等云端 Builder 混比。\n\nRules/MCP 是杠杆；把仓库约定写进规则，比每次口头提醒 Agent 更有效。\n",
+      "oneLiner": "VS Code 系 · Agent/多文件编辑 · Rules 与 MCP",
+      "descriptionMd": "Cursor 是基于 VS Code 的 AI 原生编辑器：Agent、多文件编辑、规则与 MCP 是核心卖点，在本地仓库上结对改码。\n\n适合日常写码与中等规模重构；注意订阅额度、Privacy Mode 与「难过夜并行」的天花板。与 Claude Code / Copilot / Windsurf 等同层对比工作流，而非与 Lovable 等云端 Builder 混比。\n\nRules/MCP 是杠杆；把仓库约定写进规则，比每次口头提醒 Agent 更有效。\n",
       "officialUrl": "https://cursor.com",
       "docsUrl": "https://docs.cursor.com",
       "pricingUrl": "https://cursor.com/pricing",
@@ -11424,6 +11424,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-06",
+          "type": "release",
+          "summary": "维护线 2.9 最新 2.9.5",
+          "version": "2.9.5",
+          "source": "https://github.com/denoland/deno/releases/tag/v2.9.5"
+        },
+        {
           "date": "2026-07-23",
           "type": "release",
           "summary": "维护线 2.9 最新 2.9.4",
@@ -11435,7 +11442,7 @@
       "sources": [
         "https://deno.com"
       ],
-      "lastReviewed": "2026-07-25",
+      "lastReviewed": "2026-08-07",
       "region": "overseas",
       "id": "deno",
       "name": "Deno",
@@ -11443,7 +11450,8 @@
       "subcategory": "runtime",
       "oneLiner": "权限沙箱 · TS-first 原生 · Deploy 等边缘部署叙事",
       "descriptionMd": "Deno 是安全优先、TS-first 的运行时：默认权限沙箱、原生 TypeScript，并有 Deno Deploy 等边缘部署叙事。\n\n适合新服务与边缘脚本；与 Node 生态互操作在改善但仍有摩擦。若团队重度依赖 npm 历史包，需评估兼容成本。\n\n权限旗标适合不信任脚本场景；npm 兼容改善中，关键依赖需提前验证。\n",
-      "officialUrl": "https://deno.com"
+      "officialUrl": "https://deno.com",
+      "currentVersion": "2.9"
     },
     {
       "pricing": {
@@ -12344,13 +12352,13 @@
       "rankings": [
         {
           "systemId": "lmarena-webdev",
-          "rank": 19,
-          "score": 1527,
-          "scoreLabel": "1527 Elo",
+          "rank": 21,
+          "score": 1524,
+          "scoreLabel": "1524 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 seed-2.1-pro-preview",
-          "asOf": "2026-08-03",
+          "asOf": "2026-08-07",
           "previousRank": 19,
           "previousScore": 1527,
           "previousAsOf": "2026-08-03"
@@ -16525,13 +16533,13 @@
         },
         {
           "systemId": "lmarena-vision",
-          "rank": 9,
-          "score": 1290,
-          "scoreLabel": "1290 Elo",
+          "rank": 7,
+          "score": 1295,
+          "scoreLabel": "1295 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
           "note": "模型 gemini-3.6-flash",
-          "asOf": "2026-08-03",
+          "asOf": "2026-08-07",
           "previousRank": 9,
           "previousScore": 1290,
           "previousAsOf": "2026-08-03"
@@ -16577,15 +16585,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 14,
-          "scoreLabel": "2.1%",
-          "share": 2.1,
+          "rank": 9,
+          "scoreLabel": "3.4%",
+          "share": 3.4,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-06",
+          "asOf": "2026-08-07",
           "previousRank": 14,
-          "previousShare": 1.8,
-          "previousAsOf": "2026-07-26"
+          "previousShare": 2.1,
+          "previousAsOf": "2026-08-06"
         },
         {
           "systemId": "lmarena-document",
@@ -17376,7 +17384,7 @@
       "category": "coding-ide-agent",
       "subcategory": "ide-agent",
       "oneLiner": "多 IDE 覆盖 · 企业采购/合规友好 · 结对补全叙事强",
-      "descriptionMd": "GitHub Copilot 覆盖多 IDE 的 AI 结对，企业可预测计费与合规叙事较强，属于 Flavor A。\n\n适合已在 GitHub 生态、需要采购友好的团队；Agent 能力随产品线演进，需与 Cursor 等「AI 原生 IDE」按工作流对比，而非只比补全。\n\n企业版叙事强；个人订阅则对比 Cursor 等按「补全 vs Agent」工作流试一周。\n",
+      "descriptionMd": "GitHub Copilot 覆盖多 IDE 的 AI 结对，企业可预测计费与合规叙事较强。\n\n适合已在 GitHub 生态、需要采购友好的团队；Agent 能力随产品线演进，需与 Cursor 等「AI 原生 IDE」按工作流对比，而非只比补全。\n\n企业版叙事强；个人订阅则对比 Cursor 等按「补全 vs Agent」工作流试一周。\n",
       "officialUrl": "https://github.com/features/copilot"
     },
     {
@@ -18835,12 +18843,12 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 25,
-          "scoreLabel": "0.8%",
-          "share": 0.8,
+          "rank": 22,
+          "scoreLabel": "0.9%",
+          "share": 0.9,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-02",
+          "asOf": "2026-08-07",
           "previousRank": 25,
           "previousShare": 0.8,
           "previousAsOf": "2026-08-02"
@@ -18984,16 +18992,16 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 22,
-          "score": 1522,
-          "scoreLabel": "1522 Elo",
+          "rank": 20,
+          "score": 1526,
+          "scoreLabel": "1526 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 gpt-5.6-terra-xhigh (codex-harness)",
-          "asOf": "2026-08-06",
-          "previousRank": 20,
+          "asOf": "2026-08-07",
+          "previousRank": 22,
           "previousScore": 1522,
-          "previousAsOf": "2026-07-31"
+          "previousAsOf": "2026-08-06"
         },
         {
           "systemId": "openrouter-popularity",
@@ -19372,13 +19380,13 @@
         },
         {
           "systemId": "lmarena-vision",
-          "rank": 16,
-          "score": 1282,
-          "scoreLabel": "1282 Elo",
-          "period": "2026-07",
+          "rank": 13,
+          "score": 1285,
+          "scoreLabel": "1285 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
           "note": "模型 grok-4.5",
-          "asOf": "2026-07-29",
+          "asOf": "2026-08-07",
           "previousRank": 16,
           "previousScore": 1282,
           "previousAsOf": "2026-07-29"
@@ -28700,13 +28708,13 @@
         },
         {
           "systemId": "lmarena-vision",
-          "rank": 6,
+          "rank": 8,
           "score": 1294,
           "scoreLabel": "1294 Elo",
-          "period": "2026-07",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
           "note": "模型 muse-spark",
-          "asOf": "2026-07-25",
+          "asOf": "2026-08-07",
           "previousRank": 6,
           "previousScore": 1294,
           "previousAsOf": "2026-07-25"
@@ -28726,13 +28734,13 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 17,
-          "score": 1536,
-          "scoreLabel": "1536 Elo",
+          "rank": 14,
+          "score": 1544,
+          "scoreLabel": "1544 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-          "note": "模型 muse-spark-1.1",
-          "asOf": "2026-08-03",
+          "note": "模型 muse-spark-1.2 (xHigh)",
+          "asOf": "2026-08-07",
           "previousRank": 17,
           "previousScore": 1536,
           "previousAsOf": "2026-08-03"
@@ -29459,14 +29467,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 9,
-          "scoreLabel": "3.6%",
-          "share": 3.6,
+          "rank": 11,
+          "scoreLabel": "3%",
+          "share": 3,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-04",
-          "previousRank": 7,
-          "previousAsOf": "2026-07-24"
+          "asOf": "2026-08-07",
+          "previousRank": 9,
+          "previousShare": 3.6,
+          "previousAsOf": "2026-08-04"
         },
         {
           "systemId": "lmarena-vision",
@@ -34277,12 +34286,20 @@
         "内容模型改动需改代码并做迁移，运营侧无法自助扩字段。",
         "自托管意味着数据库、备份与升级全部自担。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-06",
+          "type": "release",
+          "summary": "发布 3.87.1: 新版本",
+          "version": "3.87.1",
+          "source": "https://github.com/payloadcms/payload/releases/tag/v3.87.1"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://payloadcms.com"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-07",
       "region": "overseas",
       "id": "payload-cms",
       "name": "Payload CMS",
@@ -38315,6 +38332,12 @@
       ],
       "updates": [
         {
+          "date": "2026-08-06",
+          "type": "feature",
+          "summary": "How Redis brings persistent memory to Snowflake Cortex Agents",
+          "source": "https://redis.io/blog/how-redis-brings-persistent-memory-to-snowflake-cortex-agents/"
+        },
+        {
           "date": "2026-07-24",
           "type": "release",
           "summary": "维护线 7.4 最新 7.4.10",
@@ -38325,7 +38348,7 @@
       "sources": [
         "https://redis.io"
       ],
-      "lastReviewed": "2026-07-25",
+      "lastReviewed": "2026-08-07",
       "region": "overseas",
       "id": "redis",
       "name": "Redis",
@@ -42511,15 +42534,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 10,
-          "scoreLabel": "3.1%",
-          "share": 3.1,
+          "rank": 13,
+          "scoreLabel": "2.2%",
+          "share": 2.2,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-04",
-          "previousRank": 8,
-          "previousShare": 3.2,
-          "previousAsOf": "2026-08-02"
+          "asOf": "2026-08-07",
+          "previousRank": 10,
+          "previousShare": 3.1,
+          "previousAsOf": "2026-08-04"
         }
       ],
       "sources": [
@@ -43155,6 +43178,12 @@
       ],
       "updates": [
         {
+          "date": "2026-08-07",
+          "type": "feature",
+          "summary": "Supabase is now a connector on Perplexity Computer",
+          "source": "https://supabase.com/blog/supabase-is-now-a-connector-on-perplexity-computer"
+        },
+        {
           "date": "2026-07-23",
           "type": "feature",
           "summary": "Observability for every Supabase project with Grafana Cloud",
@@ -43170,7 +43199,7 @@
       "sources": [
         "https://supabase.com"
       ],
-      "lastReviewed": "2026-07-25",
+      "lastReviewed": "2026-08-07",
       "region": "overseas",
       "id": "supabase",
       "name": "Supabase",
@@ -45578,8 +45607,8 @@
       "category": "coding-ide-agent",
       "subcategory": "ide-agent",
       "vendorId": "bytedance",
-      "oneLiner": "字节系 AI IDE · 国内可达对标 Cursor · Flavor A 本机",
-      "descriptionMd": "Trae 是字节跳动推出的 AI IDE，面向中文开发者，强调国内可访问与协作体验，常作 Cursor 的国内对标。\n\n属 Flavor A；能力与模型策略随版本变化，需按实际工作流评测。企业数据策略与隐私模式同样关键。\n\n中文场景与国内网络是主要动机；安全策略（代码上传范围）按公司规范配置。\n",
+      "oneLiner": "字节系 AI IDE · 国内可达 · 常作 Cursor 对标",
+      "descriptionMd": "Trae 是字节跳动推出的 AI IDE，面向中文开发者，强调国内可访问与协作体验，常作 Cursor 的国内对标。\n\n能力与模型策略随版本变化，需按实际工作流评测。企业数据策略与隐私模式同样关键。\n\n中文场景与国内网络是主要动机；安全策略（代码上传范围）按公司规范配置。\n",
       "officialUrl": "https://www.trae.ai",
       "rankings": [
         {
@@ -48912,8 +48941,8 @@
       "category": "coding-ide-agent",
       "subcategory": "ide-agent",
       "vendorId": "codeium",
-      "oneLiner": "Codeium 系 Agent IDE · 级联编辑/上下文流 · Flavor A",
-      "descriptionMd": "Windsurf（Codeium）是面向 Agent 工作流的 IDE，强调级联编辑与上下文感知，属 Flavor A。\n\n与 Cursor/Copilot 同层比 Agent 完成度、定价与隐私模式。国内网络与账号策略需实测。\n\n级联编辑适合大范围重构预览；仍需人工审查与测试兜底，勿盲信一键应用。\n",
+      "oneLiner": "Codeium 系 Agent IDE · 级联编辑 · 上下文流",
+      "descriptionMd": "Windsurf（Codeium）是面向 Agent 工作流的 IDE，强调级联编辑与上下文感知。\n\n与 Cursor/Copilot 同层比 Agent 完成度、定价与隐私模式。国内网络与账号策略需实测。\n\n级联编辑适合大范围重构预览；仍需人工审查与测试兜底，勿盲信一键应用。\n",
       "officialUrl": "https://codeium.com/windsurf",
       "rankings": [
         {
@@ -49018,12 +49047,20 @@
         "插件生态庞杂，安全补丁与版本兼容需持续跟进。",
         "国内服务器托管站点须完成 ICP 备案。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-06",
+          "type": "release",
+          "summary": "发布 7.0.3: Tag 7.0.3",
+          "version": "7.0.3",
+          "source": "https://github.com/WordPress/WordPress/releases/tag/7.0.3"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://wordpress.org"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-07",
       "region": "both",
       "id": "wordpress",
       "name": "WordPress",
@@ -85642,7 +85679,7 @@
       "name": "Claude Code",
       "haystackName": "claude code claude-code",
       "haystackMid": "anthropic 终端 agent · aa coding 前列 · 仓库编排 cli agent anthropic",
-      "haystackLow": "claude code 是 anthropic 官方的**终端编程 agent**：在仓库上下文中多文件改动、跑命令、理解项目结构。\n\n属 flavor a（本机/终端）：可控、贴近真实 git 工作流，但受本机额度、网络与并行能力限制。国内直连常不稳定，需企业通道或兼容网关。\n\n仓库级任务强；与 ide 内联编辑可组合，按「终端编排 + 编辑器微调」分工。\n",
+      "haystackLow": "claude code 是 anthropic 官方的**终端编程 agent**：在仓库上下文中多文件改动、跑命令、理解项目结构。\n\n在本机/终端跑仓库级任务：可控、贴近真实 git 工作流，但受本机额度、网络与并行能力限制。国内直连常不稳定，需企业通道或兼容网关。\n\n仓库级任务强；与 ide 内联编辑可组合，按「终端编排 + 编辑器微调」分工。\n",
       "category": "coding-cli-agent",
       "region": "overseas",
       "tags": [
@@ -86840,8 +86877,8 @@
       "id": "cursor",
       "name": "Cursor",
       "haystackName": "cursor cursor",
-      "haystackMid": "vs code 系 · agent/多文件/rules·mcp；本机 ide 主力 ai ide mcp vibe-friendly",
-      "haystackLow": "cursor 是基于 vs code 的 ai 原生编辑器：agent、多文件编辑、规则与 mcp 是核心卖点，属于 vibe coding flavor a（本机 ide）。\n\n适合日常写码与中等规模重构；注意订阅额度、privacy mode 与「本机难过夜并行」的天花板。与 claude code / copilot / windsurf 等同层对比工作流，而非与 lovable 等云端 builder 混比。\n\nrules/mcp 是杠杆；把仓库约定写进规则，比每次口头提醒 agent 更有效。\n",
+      "haystackMid": "vs code 系 · agent/多文件编辑 · rules 与 mcp ai ide mcp vibe-friendly",
+      "haystackLow": "cursor 是基于 vs code 的 ai 原生编辑器：agent、多文件编辑、规则与 mcp 是核心卖点，在本地仓库上结对改码。\n\n适合日常写码与中等规模重构；注意订阅额度、privacy mode 与「难过夜并行」的天花板。与 claude code / copilot / windsurf 等同层对比工作流，而非与 lovable 等云端 builder 混比。\n\nrules/mcp 是杠杆；把仓库约定写进规则，比每次口头提醒 agent 更有效。\n",
       "category": "coding-ide-agent",
       "region": "overseas",
       "tags": [
@@ -89593,7 +89630,7 @@
       "name": "GitHub Copilot",
       "haystackName": "github copilot github-copilot",
       "haystackMid": "多 ide 覆盖 · 企业采购/合规友好 · 结对补全叙事强 ide enterprise ide-agent",
-      "haystackLow": "github copilot 覆盖多 ide 的 ai 结对，企业可预测计费与合规叙事较强，属于 flavor a。\n\n适合已在 github 生态、需要采购友好的团队；agent 能力随产品线演进，需与 cursor 等「ai 原生 ide」按工作流对比，而非只比补全。\n\n企业版叙事强；个人订阅则对比 cursor 等按「补全 vs agent」工作流试一周。\n",
+      "haystackLow": "github copilot 覆盖多 ide 的 ai 结对，企业可预测计费与合规叙事较强。\n\n适合已在 github 生态、需要采购友好的团队；agent 能力随产品线演进，需与 cursor 等「ai 原生 ide」按工作流对比，而非只比补全。\n\n企业版叙事强；个人订阅则对比 cursor 等按「补全 vs agent」工作流试一周。\n",
       "category": "coding-ide-agent",
       "region": "overseas",
       "tags": [
@@ -100793,8 +100830,8 @@
       "id": "trae",
       "name": "Trae",
       "haystackName": "trae trae",
-      "haystackMid": "字节系 ai ide · 国内可达对标 cursor · flavor a 本机 ai ide domestic",
-      "haystackLow": "trae 是字节跳动推出的 ai ide，面向中文开发者，强调国内可访问与协作体验，常作 cursor 的国内对标。\n\n属 flavor a；能力与模型策略随版本变化，需按实际工作流评测。企业数据策略与隐私模式同样关键。\n\n中文场景与国内网络是主要动机；安全策略（代码上传范围）按公司规范配置。\n",
+      "haystackMid": "字节系 ai ide · 国内可达 · 常作 cursor 对标 ai ide domestic",
+      "haystackLow": "trae 是字节跳动推出的 ai ide，面向中文开发者，强调国内可访问与协作体验，常作 cursor 的国内对标。\n\n能力与模型策略随版本变化，需按实际工作流评测。企业数据策略与隐私模式同样关键。\n\n中文场景与国内网络是主要动机；安全策略（代码上传范围）按公司规范配置。\n",
       "category": "coding-ide-agent",
       "region": "domestic",
       "tags": [
@@ -102176,8 +102213,8 @@
       "id": "windsurf",
       "name": "Windsurf",
       "haystackName": "windsurf windsurf",
-      "haystackMid": "codeium 系 agent ide · 级联编辑/上下文流 · flavor a ai ide agent",
-      "haystackLow": "windsurf（codeium）是面向 agent 工作流的 ide，强调级联编辑与上下文感知，属 flavor a。\n\n与 cursor/copilot 同层比 agent 完成度、定价与隐私模式。国内网络与账号策略需实测。\n\n级联编辑适合大范围重构预览；仍需人工审查与测试兜底，勿盲信一键应用。\n",
+      "haystackMid": "codeium 系 agent ide · 级联编辑 · 上下文流 ai ide agent",
+      "haystackLow": "windsurf（codeium）是面向 agent 工作流的 ide，强调级联编辑与上下文感知。\n\n与 cursor/copilot 同层比 agent 完成度、定价与隐私模式。国内网络与账号策略需实测。\n\n级联编辑适合大范围重构预览；仍需人工审查与测试兜底，勿盲信一键应用。\n",
       "category": "coding-ide-agent",
       "region": "overseas",
       "tags": [

@@ -32,6 +32,6 @@
   "category": "coding-ide-agent",
   "subcategory": "ide-agent",
   "oneLiner": "多 IDE 覆盖 · 企业采购/合规友好 · 结对补全叙事强",
-  "descriptionMd": "GitHub Copilot 覆盖多 IDE 的 AI 结对，企业可预测计费与合规叙事较强，属于 Flavor A。\n\n适合已在 GitHub 生态、需要采购友好的团队；Agent 能力随产品线演进，需与 Cursor 等「AI 原生 IDE」按工作流对比，而非只比补全。\n\n企业版叙事强；个人订阅则对比 Cursor 等按「补全 vs Agent」工作流试一周。\n",
+  "descriptionMd": "GitHub Copilot 覆盖多 IDE 的 AI 结对，企业可预测计费与合规叙事较强。\n\n适合已在 GitHub 生态、需要采购友好的团队；Agent 能力随产品线演进，需与 Cursor 等「AI 原生 IDE」按工作流对比，而非只比补全。\n\n企业版叙事强；个人订阅则对比 Cursor 等按「补全 vs Agent」工作流试一周。\n",
   "officialUrl": "https://github.com/features/copilot"
 }
