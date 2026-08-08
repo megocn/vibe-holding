@@ -20,12 +20,20 @@
   "pitfalls": [
     "Runner/Rule 写法需改写成 Extension，老仓迁移不是纯升级依赖；模块拆分较细，依赖配错会出现「用例不被发现」。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-07",
+      "type": "release",
+      "summary": "发布 6.1.3: JUnit 6.1.3",
+      "version": "6.1.3",
+      "source": "https://github.com/junit-team/junit-framework/releases/tag/r6.1.3"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://junit.org"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-08",
   "region": "overseas",
   "id": "junit5",
   "name": "JUnit 5",

@@ -2060,6 +2060,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-07",
+          "type": "release",
+          "summary": "维护线 22 最新 22.1.1",
+          "version": "22.1.1",
+          "source": "https://github.com/angular/angular/releases/tag/v22.1.1"
+        },
+        {
           "date": "2026-07-22",
           "type": "release",
           "summary": "维护线 22 最新 22.0.8",
@@ -2071,7 +2078,7 @@
       "sources": [
         "https://angular.dev"
       ],
-      "lastReviewed": "2026-07-25",
+      "lastReviewed": "2026-08-08",
       "region": "overseas",
       "id": "angular",
       "name": "Angular",
@@ -2080,7 +2087,8 @@
       "oneLiner": "Opinionated 全家桶 · routing/forms/RxJS · 大型 enterprise SPA",
       "officialUrl": "https://angular.dev",
       "descriptionMd": "Angular 是完整 opinionated 前端框架，内置 routing/forms/HTTP/RxJS，TypeScript-first，适合大型 enterprise SPA。\n\n大型企业前端、需要强规范与长期 LTS 支持、团队规模大的项目。\n\n学习曲线陡、bundle 偏大；marketing 轻页不如 Astro/Next。\n",
-      "vendorId": "angular-team"
+      "vendorId": "angular-team",
+      "currentVersion": "22"
     },
     {
       "pricing": {
@@ -17225,12 +17233,20 @@
         "无插件市场，复杂功能需改主题或自建前端。",
         "自托管需自理版本升级与邮件送达率。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-07",
+          "type": "release",
+          "summary": "发布 6.57.0: 新版本",
+          "version": "6.57.0",
+          "source": "https://github.com/TryGhost/Ghost/releases/tag/v6.57.0"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://ghost.org"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-08",
       "region": "overseas",
       "id": "ghost",
       "name": "Ghost",
@@ -17241,7 +17257,8 @@
       "descriptionMd": "Ghost 是面向出版与订阅的开源 Node 内容平台：写作后台克制，内置会员、付费墙与邮件通讯，也可关掉自带前台只作内容接口使用。\n\n个人或小团队做付费专栏、品牌博客与邮件通讯，希望内容与订阅收费在一套系统里闭环时评估。\n\n扩展性远不如插件生态型 CMS，复杂业务页面需自写主题或前端；自托管要自行处理升级与邮件送达。\n",
       "vendorId": "ghost-foundation",
       "githubUrl": "https://github.com/TryGhost/Ghost",
-      "docsUrl": "https://ghost.org/docs/"
+      "docsUrl": "https://ghost.org/docs/",
+      "currentVersion": "6.57.0"
     },
     {
       "pricing": {
@@ -18895,14 +18912,14 @@
         {
           "systemId": "openrouter-popularity",
           "rank": 5,
-          "scoreLabel": "6.3%",
-          "share": 6.3,
+          "scoreLabel": "7.3%",
+          "share": 7.3,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-06",
-          "previousRank": 8,
-          "previousShare": 3.7,
-          "previousAsOf": "2026-08-03"
+          "asOf": "2026-08-08",
+          "previousRank": 5,
+          "previousShare": 6.3,
+          "previousAsOf": "2026-08-06"
         }
       ],
       "sources": [
@@ -23807,12 +23824,20 @@
       "pitfalls": [
         "Runner/Rule 写法需改写成 Extension，老仓迁移不是纯升级依赖；模块拆分较细，依赖配错会出现「用例不被发现」。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-07",
+          "type": "release",
+          "summary": "发布 6.1.3: JUnit 6.1.3",
+          "version": "6.1.3",
+          "source": "https://github.com/junit-team/junit-framework/releases/tag/r6.1.3"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://junit.org"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-08",
       "region": "overseas",
       "id": "junit5",
       "name": "JUnit 5",
@@ -37341,12 +37366,12 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 48,
+          "rank": 43,
           "scoreLabel": "0.3%",
           "share": 0.3,
-          "period": "2026-07",
+          "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-07-26",
+          "asOf": "2026-08-08",
           "previousRank": 48,
           "previousShare": 0.3,
           "previousAsOf": "2026-07-26"
@@ -43623,12 +43648,20 @@
         "抽象层次多，上手曲线陡于 Laravel",
         "国内中文资料与招聘面较窄"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-07",
+          "type": "release",
+          "summary": "发布 8.1.4: 新版本",
+          "version": "8.1.4",
+          "source": "https://github.com/symfony/symfony/releases/tag/v8.1.4"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://symfony.com"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-08",
       "region": "overseas",
       "id": "symfony",
       "name": "Symfony",

@@ -17,6 +17,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-07",
+      "type": "release",
+      "summary": "维护线 22 最新 22.1.1",
+      "version": "22.1.1",
+      "source": "https://github.com/angular/angular/releases/tag/v22.1.1"
+    },
+    {
       "date": "2026-07-22",
       "type": "release",
       "summary": "维护线 22 最新 22.0.8",
@@ -28,7 +35,7 @@
   "sources": [
     "https://angular.dev"
   ],
-  "lastReviewed": "2026-07-25",
+  "lastReviewed": "2026-08-08",
   "region": "overseas",
   "id": "angular",
   "name": "Angular",
@@ -37,5 +44,6 @@
   "oneLiner": "Opinionated 全家桶 · routing/forms/RxJS · 大型 enterprise SPA",
   "officialUrl": "https://angular.dev",
   "descriptionMd": "Angular 是完整 opinionated 前端框架，内置 routing/forms/HTTP/RxJS，TypeScript-first，适合大型 enterprise SPA。\n\n大型企业前端、需要强规范与长期 LTS 支持、团队规模大的项目。\n\n学习曲线陡、bundle 偏大；marketing 轻页不如 Astro/Next。\n",
-  "vendorId": "angular-team"
+  "vendorId": "angular-team",
+  "currentVersion": "22"
 }
