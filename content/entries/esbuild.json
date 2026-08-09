@@ -18,12 +18,20 @@
   "pitfalls": [
     "高级 code-splitting、插件生态不如 Rollup/Webpack 完整；复杂 legacy 项目迁移需验证 loader 覆盖。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-08",
+      "type": "release",
+      "summary": "发布 0.28.2: 新版本",
+      "version": "0.28.2",
+      "source": "https://github.com/evanw/esbuild/releases/tag/v0.28.2"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://esbuild.github.io"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-09",
   "region": "overseas",
   "id": "esbuild",
   "name": "esbuild",

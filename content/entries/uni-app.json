@@ -33,6 +33,16 @@
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 uni-1.1-max",
       "asOf": "2026-08-06"
+    },
+    {
+      "systemId": "lmarena-image-edit",
+      "rank": 15,
+      "score": 1334,
+      "scoreLabel": "1334 Elo",
+      "period": "2026-08",
+      "sourceUrl": "https://arena.ai/leaderboard/image-edit",
+      "note": "模型 uni-1.1-max",
+      "asOf": "2026-08-09"
     }
   ],
   "sources": [
