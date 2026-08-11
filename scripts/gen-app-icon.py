@@ -1,18 +1,19 @@
 #!/usr/bin/env python3
-"""从满铺原稿生成 brand 图，并按 Apple macOS 图标网格套透明圆角。
+"""按 Apple macOS 图标网格导出，并给内部图案留出安全边距。
 
-macOS 规格（Apple Developer Forums 常用约定，与 HIG 配套）：
-  画布 1024×1024
-  本体 824×824 居中（约 80.5%）
-  圆角半径 185.4（相对 824 ≈ 22.5%）
+网格（画布 1024）：
+  本体 824×824 居中，圆角半径 185.4
+内部图案：
+  CONTENT 相对 824 的缩放比（默认 0.72），避免贴边
 
-dev 态 `tauri:dev` 是裸二进制，Dock 不会像 iOS 那样替你裁；
-须把圆角形状画进资源。正式 `.app` 打包同样用这份 icns。
+输入：apps/desktop/public/brand/logo-master.png（或满铺 RGB 原稿）
+输出：brand 各尺寸 + favicon；圆角透明蒙版已烤进 PNG。
 
-改完后务必清缓存再编，否则二进制仍嵌旧图：
+随后：
+  pnpm --filter @vh/desktop exec tauri icon public/brand/app-icon-1024.png -o src-tauri/icons
+  # 必须清 vibeholding 构建缓存，否则二进制仍嵌旧图
   rm -rf apps/desktop/src-tauri/target/debug/build/vibeholding-*
   rm -f apps/desktop/src-tauri/target/debug/vibeholding
-  pnpm --filter @vh/desktop exec tauri icon public/brand/app-icon-1024.png -o src-tauri/icons
   pnpm --filter @vh/desktop tauri:dev
 """
 from __future__ import annotations
@@ -26,9 +27,9 @@ OUT_BRAND = ROOT / "apps/desktop/public/brand"
 MASTER = OUT_BRAND / "logo-master.png"
 FAVICON = ROOT / "apps/desktop/public/favicon.png"
 
-# Apple macOS icon template proportions (1024 canvas)
 GLYPH = 824 / 1024
 RADIUS = 185.4 / 1024
+CONTENT = 0.72  # of glyph box
 FILL_RGB = (179, 11, 10)
 
 
@@ -45,28 +46,31 @@ def apple_mask(size: int) -> Image.Image:
 
 def flatten_rgb(im: Image.Image) -> Image.Image:
     if im.mode == "RGBA":
-        # Expand previous smaller mask to full-bleed by compositing on fill,
-        # then scale content so glyph artwork again fills the canvas before re-masking.
         bg = Image.new("RGB", im.size, FILL_RGB)
         bg.paste(im, mask=im.split()[3])
         return bg
     return im.convert("RGB")
 
 
-def apply_apple_shape(rgb: Image.Image, size: int) -> Image.Image:
-    base = rgb.resize((size, size), Image.Resampling.LANCZOS).convert("RGBA")
-    r, g, b, _ = base.split()
+def compose(size: int, art: Image.Image) -> Image.Image:
+    canvas = Image.new("RGB", (size, size), FILL_RGB)
+    content = max(1, int(size * GLYPH * CONTENT))
+    art_s = art.resize((content, content), Image.Resampling.LANCZOS)
+    ox = (size - content) // 2
+    oy = (size - content) // 2
+    canvas.paste(art_s, (ox, oy))
+    r, g, b, _ = canvas.convert("RGBA").split()
     return Image.merge("RGBA", (r, g, b, apple_mask(size)))
 
 
 def main() -> None:
     if not MASTER.exists():
         raise SystemExit(f"missing master: {MASTER}")
-    flat = flatten_rgb(Image.open(MASTER))
-    # If previous export already had inset margins (mostly fill around edges),
-    # trim transparent-looking margins by checking saturation — skip; use full flat.
+    art = flatten_rgb(Image.open(MASTER))
+    # If master already has outer transparent plate, flatten used fill — OK.
+    # Prefer treating entire image as full plate art.
     OUT_BRAND.mkdir(parents=True, exist_ok=True)
-    master = apply_apple_shape(flat, 2048)
+    master = compose(2048, art)
     master.save(OUT_BRAND / "logo-master.png", "PNG", optimize=True)
     for size, name in (
         (1024, "app-icon-1024.png"),
@@ -76,11 +80,11 @@ def main() -> None:
         (64, "logo-64.png"),
     ):
         path = OUT_BRAND / name
-        apply_apple_shape(flat, size).save(path, "PNG", optimize=True)
+        compose(size, art).save(path, "PNG", optimize=True)
         print(f"wrote {path}")
-    apply_apple_shape(flat, 64).save(FAVICON, "PNG", optimize=True)
+    compose(64, art).save(FAVICON, "PNG", optimize=True)
     print(f"wrote {FAVICON}")
-    print("Apple grid: glyph=824/1024 corner_r=185.4/1024")
+    print(f"Apple grid glyph={GLYPH:.4f} r={RADIUS:.4f}; content={CONTENT}")
 
 
 if __name__ == "__main__":
