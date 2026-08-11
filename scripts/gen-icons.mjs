@@ -1,16 +1,16 @@
 /**
- * 生成 Tauri 占位应用图标（纯色品牌方块）。
- * 正式图标已用「墨台」墨点落砚标记（apps/desktop/public/brand/logo-master.png）；
- * 可用 `pnpm --filter @vh/desktop tauri icon <logo.png>` 覆盖生成全套。
+ * 占位纯色图标（仅紧急兜底）。
+ * 正式图标：宣纸底 + 朱砂方印竖排「墨台」
+ *   python3 scripts/gen-app-icon.py
+ *   pnpm --filter @vh/desktop exec tauri icon public/brand/app-icon-1024.png -o src-tauri/icons
  * 用法：node scripts/gen-icons.mjs
  */
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
-import process from 'node:process';
 import { deflateSync } from 'node:zlib';
 
 const OUT_DIR = join(process.cwd(), 'apps/desktop/src-tauri/icons');
-const COLOR = [47, 111, 143]; // 近似 pigment-primary 的青蓝
+const COLOR = [176, 58, 42]; // 朱砂近似，与 gen-app-icon.py 一致
 
 const CRC_TABLE = (() => {
   const table = new Int32Array(256);
@@ -42,8 +42,8 @@ function png(size, [r, g, b]) {
   const ihdr = Buffer.alloc(13);
   ihdr.writeUInt32BE(size, 0);
   ihdr.writeUInt32BE(size, 4);
-  ihdr[8] = 8; // bit depth
-  ihdr[9] = 6; // color type RGBA
+  ihdr[8] = 8;
+  ihdr[9] = 6;
   const row = Buffer.alloc(1 + size * 4);
   for (let x = 0; x < size; x++) {
     const o = 1 + x * 4;
@@ -54,12 +54,7 @@ function png(size, [r, g, b]) {
   }
   const raw = Buffer.concat(Array.from({ length: size }, () => row));
   const idat = deflateSync(raw, { level: 9 });
-  return Buffer.concat([
-    sig,
-    chunk('IHDR', ihdr),
-    chunk('IDAT', idat),
-    chunk('IEND', Buffer.alloc(0)),
-  ]);
+  return Buffer.concat([sig, chunk('IHDR', ihdr), chunk('IDAT', idat), chunk('IEND', Buffer.alloc(0))]);
 }
 
 const sizes = {
@@ -73,4 +68,6 @@ mkdirSync(OUT_DIR, { recursive: true });
 for (const [size, name] of Object.entries(sizes)) {
   writeFileSync(join(OUT_DIR, name), png(Number(size), COLOR));
 }
-console.log(`已生成占位图标于 ${OUT_DIR}: ${Object.values(sizes).join(', ')}`);
+console.log(
+  `已生成占位图标于 ${OUT_DIR}（正式请用 scripts/gen-app-icon.py + tauri icon）: ${Object.values(sizes).join(', ')}`,
+);

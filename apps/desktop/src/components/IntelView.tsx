@@ -1,6 +1,14 @@
 import type { EntryUpdate, Id, UpdateType } from '@vh/core';
-import { useCallback, useMemo, useState } from 'react';
+import { useCallback, useMemo, useRef, useState } from 'react';
 import { useContent, useContentEditor } from '../lib/content.tsx';
+import {
+  buildExpandStubEntry,
+  fetchLocalAquaReview,
+  isExpandSeedDraft,
+  mergeAquaReviewIntoDrafts,
+  normalizeAquaImportPayload,
+  parseExpandCardMeta,
+} from '../lib/intel-aqua.ts';
 import {
   type IntelDraft,
   addIntelDraft,
@@ -40,6 +48,8 @@ const UPDATE_TYPES: UpdateType[] = [
   'other',
 ];
 
+const ID_RE = /^[a-z0-9][a-z0-9-]*$/;
+
 export function IntelView({ onOpenEntry }: IntelViewProps) {
   const { bundle } = useContent();
   const { saveEntry } = useContentEditor();
@@ -52,6 +62,13 @@ export function IntelView({ onOpenEntry }: IntelViewProps) {
   const [manualType, setManualType] = useState<UpdateType>('feature');
   const [manualSource, setManualSource] = useState('');
   const [scraping, setScraping] = useState(false);
+  const [syncingAqua, setSyncingAqua] = useState(false);
+  const [stubFor, setStubFor] = useState<string | null>(null);
+  const [stubId, setStubId] = useState('');
+  const [stubName, setStubName] = useState('');
+  const [stubCategory, setStubCategory] = useState('');
+  const [stubUrl, setStubUrl] = useState('');
+  const fileInputRef = useRef<HTMLInputElement>(null);
 
   const commitDrafts = useCallback((next: IntelDraft[]) => {
     setDrafts(next);
@@ -60,7 +77,7 @@ export function IntelView({ onOpenEntry }: IntelViewProps) {
 
   const showFlash = (msg: string) => {
     setFlash(msg);
-    window.setTimeout(() => setFlash(null), 2200);
+    window.setTimeout(() => setFlash(null), 2800);
   };
 
   const followSet = useMemo(() => new Set(data.follows), [data.follows]);
@@ -72,6 +89,14 @@ export function IntelView({ onOpenEntry }: IntelViewProps) {
         .sort((a, b) => a.name.localeCompare(b.name)),
     [allEntries],
   );
+  const categoryOptions = useMemo(
+    () =>
+      [...bundle.categories.values()]
+        .filter((c) => c.kind === 'leaf')
+        .map((c) => ({ id: c.id, name: c.name }))
+        .sort((a, b) => a.name.localeCompare(b.name)),
+    [bundle.categories],
+  );
 
   const feed = useMemo(
     () => collectUpdates(allEntries, { onlyIds: followSet, limit: 50 }),
@@ -80,6 +105,8 @@ export function IntelView({ onOpenEntry }: IntelViewProps) {
   const all = useMemo(() => collectUpdates(allEntries, { limit: 80 }), [allEntries]);
   const stale = useMemo(() => collectStaleEntries(allEntries), [allEntries]);
   const pending = useMemo(() => pendingDrafts(drafts), [drafts]);
+  const expandPending = useMemo(() => pending.filter(isExpandSeedDraft), [pending]);
+  const updatePending = useMemo(() => pending.filter((d) => !isExpandSeedDraft(d)), [pending]);
 
   const followedEntries = useMemo(
     () => data.follows.map((id) => bundle.entries.get(id)).filter((e) => e != null),
@@ -87,6 +114,11 @@ export function IntelView({ onOpenEntry }: IntelViewProps) {
   );
 
   function acceptDraft(draft: IntelDraft) {
+    if (isExpandSeedDraft(draft)) {
+      commitDrafts(setDraftStatus(drafts, draft.id, 'accepted', '标记已消化（未建条）'));
+      showFlash('已标记消化：扩种卡不自动建条');
+      return;
+    }
     const entry = bundle.entries.get(draft.entryId);
     if (!entry) {
       showFlash(`条目不存在：${draft.entryId}`);
@@ -105,7 +137,7 @@ export function IntelView({ onOpenEntry }: IntelViewProps) {
 
   function rejectDraft(draft: IntelDraft) {
     commitDrafts(setDraftStatus(drafts, draft.id, 'rejected'));
-    showFlash('已拒绝草稿');
+    showFlash(isExpandSeedDraft(draft) ? '已驳回扩种候选' : '已拒绝草稿');
   }
 
   function seedDemos() {
@@ -148,6 +180,111 @@ export function IntelView({ onOpenEntry }: IntelViewProps) {
     }
   }
 
+  async function syncAquaReview() {
+    if (syncingAqua) return;
+    setSyncingAqua(true);
+    try {
+      const { items, meta } = await fetchLocalAquaReview();
+      const { drafts: next, added, skipped } = mergeAquaReviewIntoDrafts(drafts, items);
+      commitDrafts(next);
+      showFlash(
+        added > 0
+          ? `活水同步 +${added}（跳过 ${skipped}）${meta.file ? ` · ${meta.file}` : ''}`
+          : `无新增（已在队列 ${skipped} 条）${meta.file ? ` · ${meta.file}` : ''}`,
+      );
+      setTab('drafts');
+    } catch (err) {
+      showFlash(
+        err instanceof Error
+          ? err.message
+          : '同步失败：请用本地 pnpm --filter @vh/desktop dev，或改用「导入 JSON」',
+      );
+    } finally {
+      setSyncingAqua(false);
+    }
+  }
+
+  function importAquaFile(file: File) {
+    const reader = new FileReader();
+    reader.onload = () => {
+      try {
+        const text = String(reader.result ?? '');
+        const parsed = JSON.parse(text) as unknown;
+        const items = normalizeAquaImportPayload(parsed);
+        if (items.length === 0) {
+          showFlash('文件无有效 review / candidates 条目');
+          return;
+        }
+        const { drafts: next, added, skipped } = mergeAquaReviewIntoDrafts(drafts, items);
+        commitDrafts(next);
+        showFlash(`导入 +${added}（跳过 ${skipped}）`);
+        setTab('drafts');
+      } catch (err) {
+        showFlash(err instanceof Error ? err.message : 'JSON 解析失败');
+      }
+    };
+    reader.readAsText(file);
+  }
+
+  function openStubForm(draft: IntelDraft) {
+    const meta = parseExpandCardMeta(draft);
+    setStubFor(draft.id);
+    setStubId(meta.suggestedId);
+    setStubName(meta.name);
+    setStubCategory(
+      meta.suggestedCategory && categoryOptions.some((c) => c.id === meta.suggestedCategory)
+        ? meta.suggestedCategory
+        : (categoryOptions[0]?.id ?? ''),
+    );
+    setStubUrl(meta.url ?? 'https://example.com');
+  }
+
+  function createStubFromDraft(draft: IntelDraft) {
+    if (!ID_RE.test(stubId)) {
+      showFlash('id 须为小写 kebab-case');
+      return;
+    }
+    if (bundle.entries.has(stubId)) {
+      showFlash(`库内已有条目：${stubId}`);
+      return;
+    }
+    if (!stubName.trim() || !stubCategory) {
+      showFlash('请填写名称并选择叶类');
+      return;
+    }
+    try {
+      new URL(stubUrl);
+    } catch {
+      showFlash('官网 URL 不合法');
+      return;
+    }
+    const meta = parseExpandCardMeta(draft);
+    const entry = buildExpandStubEntry({
+      id: stubId,
+      name: stubName.trim(),
+      category: stubCategory as Id,
+      officialUrl: stubUrl.trim(),
+      note: draft.reviewerNote,
+      sourceUrl: draft.update.source,
+      meta,
+    });
+    saveEntry(entry);
+    commitDrafts(setDraftStatus(drafts, draft.id, 'accepted', `已生成本机草稿条 ${stubId}`));
+    setStubFor(null);
+    showFlash(`已写入本机覆盖：${stubId}（请补全后导出/落仓）`);
+    onOpenEntry(stubId as Id);
+  }
+
+  async function copyNote(draft: IntelDraft) {
+    const text = draft.reviewerNote ?? draft.update.summary;
+    try {
+      await navigator.clipboard.writeText(text);
+      showFlash('已复制候选卡片');
+    } catch {
+      showFlash('复制失败');
+    }
+  }
+
   function addManual() {
     if (!manualEntryId || !manualSummary.trim()) {
       showFlash('请选择条目并填写摘要');
@@ -180,6 +317,234 @@ export function IntelView({ onOpenEntry }: IntelViewProps) {
     setTab('drafts');
   }
 
+  function originLabel(d: IntelDraft): string {
+    if (d.origin === 'aqua-review') return d.level ? `活水 ${d.level}` : '活水';
+    if (d.origin === 'feed-scrape') return '订阅抓取';
+    if (d.origin === 'simulated-scrape') return '模拟抓取';
+    return '手动';
+  }
+
+  function renderUpdateDraft(d: IntelDraft) {
+    const entry = bundle.entries.get(d.entryId);
+    const meta = UPDATE_TYPE_META[d.update.type];
+    return (
+      <div key={d.id} className="vh-card" style={{ padding: 14 }}>
+        <div className="flex items-start gap-2">
+          <Icon name={meta.icon} size={18} color={meta.color} />
+          <div style={{ flex: 1, minWidth: 0 }}>
+            <button
+              type="button"
+              className="vh-link"
+              style={{
+                border: 'none',
+                background: 'transparent',
+                cursor: 'pointer',
+                padding: 0,
+                fontWeight: 600,
+                fontFamily: 'var(--font-body)',
+                color: 'var(--ink-1)',
+              }}
+              onClick={() => onOpenEntry(d.entryId)}
+            >
+              {entry?.name ?? d.entryId}
+            </button>
+            <div className="vh-text-sm" style={{ color: 'var(--ink-2)', marginTop: 4 }}>
+              {d.update.summary}
+            </div>
+            {d.reviewerNote && (
+              <pre
+                className="vh-text-caption"
+                style={{
+                  marginTop: 8,
+                  marginBottom: 0,
+                  whiteSpace: 'pre-wrap',
+                  color: 'var(--ink-3)',
+                  fontFamily: 'var(--font-mono)',
+                  maxHeight: 160,
+                  overflow: 'auto',
+                }}
+              >
+                {d.reviewerNote}
+              </pre>
+            )}
+            <div
+              className="vh-mono vh-text-caption flex flex-wrap gap-2"
+              style={{ color: 'var(--ink-3)', marginTop: 6 }}
+            >
+              <span>{d.update.date}</span>
+              <span>{meta.label}</span>
+              <span>{originLabel(d)}</span>
+              {d.update.source && (
+                <a className="vh-link" href={d.update.source} target="_blank" rel="noreferrer">
+                  来源 ↗
+                </a>
+              )}
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-wrap gap-2" style={{ marginTop: 10 }}>
+          <button type="button" className="vh-btn vh-btn-primary" onClick={() => acceptDraft(d)}>
+            <Icon name="Check" size={14} /> 确认入库
+          </button>
+          <button type="button" className="vh-btn" onClick={() => rejectDraft(d)}>
+            拒绝
+          </button>
+          <button
+            type="button"
+            className="vh-btn"
+            onClick={() => {
+              commitDrafts(removeIntelDraft(drafts, d.id));
+              showFlash('已删除草稿');
+            }}
+            style={{ color: 'var(--pigment-danger)' }}
+          >
+            删除
+          </button>
+        </div>
+      </div>
+    );
+  }
+
+  function renderExpandDraft(d: IntelDraft) {
+    const meta = parseExpandCardMeta(d);
+    const editing = stubFor === d.id;
+    return (
+      <div key={d.id} className="vh-card" style={{ padding: 14 }}>
+        <div className="flex items-start gap-2">
+          <Icon name="Plant" size={18} color="var(--pigment-success)" />
+          <div style={{ flex: 1, minWidth: 0 }}>
+            <div className="flex flex-wrap items-center gap-2">
+              <span style={{ fontWeight: 600, color: 'var(--ink-1)' }}>{meta.name}</span>
+              <span className="vh-tag">扩种 L3</span>
+            </div>
+            <div className="vh-text-sm" style={{ color: 'var(--ink-2)', marginTop: 4 }}>
+              {d.update.summary}
+            </div>
+            {d.reviewerNote && (
+              <pre
+                className="vh-text-caption"
+                style={{
+                  marginTop: 8,
+                  marginBottom: 0,
+                  whiteSpace: 'pre-wrap',
+                  color: 'var(--ink-3)',
+                  fontFamily: 'var(--font-mono)',
+                  maxHeight: 200,
+                  overflow: 'auto',
+                }}
+              >
+                {d.reviewerNote}
+              </pre>
+            )}
+            <div
+              className="vh-mono vh-text-caption flex flex-wrap gap-2"
+              style={{ color: 'var(--ink-3)', marginTop: 6 }}
+            >
+              <span>{d.update.date}</span>
+              <span>{originLabel(d)}</span>
+              {meta.url && (
+                <a className="vh-link" href={meta.url} target="_blank" rel="noreferrer">
+                  证据 ↗
+                </a>
+              )}
+            </div>
+          </div>
+        </div>
+
+        {editing && (
+          <div
+            className="vh-panel"
+            style={{ marginTop: 12, padding: 12, display: 'flex', flexDirection: 'column', gap: 8 }}
+          >
+            <div className="vh-text-caption" style={{ color: 'var(--ink-3)' }}>
+              生成本机草稿条（写入 content overlay）。会用候选证据预填说明，不编造未核对能力；对照
+              content/README 扩种准入后再落公开仓。
+            </div>
+            {meta.versionLevelWarning && (
+              <div
+                className="vh-text-caption"
+                style={{ color: 'var(--pigment-warning)', lineHeight: 1.5 }}
+              >
+                外部标识像版本/路由级 slug。多数应归并到已有 LLM
+                档位，不必新建条；确认要独立建条再继续。
+              </div>
+            )}
+            <input
+              className="vh-input"
+              value={stubId}
+              onChange={(e) => setStubId(e.target.value.trim())}
+              placeholder="id（kebab-case）"
+            />
+            <input
+              className="vh-input"
+              value={stubName}
+              onChange={(e) => setStubName(e.target.value)}
+              placeholder="显示名"
+            />
+            <select
+              className="vh-input"
+              value={stubCategory}
+              onChange={(e) => setStubCategory(e.target.value)}
+            >
+              <option value="">选择叶类…</option>
+              {categoryOptions.map((c) => (
+                <option key={c.id} value={c.id}>
+                  {c.name}（{c.id}）
+                </option>
+              ))}
+            </select>
+            <input
+              className="vh-input"
+              value={stubUrl}
+              onChange={(e) => setStubUrl(e.target.value)}
+              placeholder="officialUrl"
+            />
+            <div className="flex flex-wrap gap-2">
+              <button
+                type="button"
+                className="vh-btn vh-btn-primary"
+                onClick={() => createStubFromDraft(d)}
+              >
+                <Icon name="Plus" size={14} /> 写入本机并打开
+              </button>
+              <button type="button" className="vh-btn" onClick={() => setStubFor(null)}>
+                取消
+              </button>
+            </div>
+          </div>
+        )}
+
+        <div className="flex flex-wrap gap-2" style={{ marginTop: 10 }}>
+          {!editing && (
+            <button type="button" className="vh-btn vh-btn-primary" onClick={() => openStubForm(d)}>
+              <Icon name="Plant" size={14} /> 生成本机草稿条
+            </button>
+          )}
+          <button type="button" className="vh-btn" onClick={() => void copyNote(d)}>
+            复制卡片
+          </button>
+          <button type="button" className="vh-btn" onClick={() => acceptDraft(d)}>
+            已消化
+          </button>
+          <button type="button" className="vh-btn" onClick={() => rejectDraft(d)}>
+            驳回
+          </button>
+          <button
+            type="button"
+            className="vh-btn"
+            onClick={() => {
+              commitDrafts(removeIntelDraft(drafts, d.id));
+              showFlash('已删除');
+            }}
+            style={{ color: 'var(--pigment-danger)' }}
+          >
+            删除
+          </button>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="flex flex-col" style={{ height: '100%', minHeight: 0 }}>
       <header className="vh-page-header">
@@ -187,10 +552,10 @@ export function IntelView({ onOpenEntry }: IntelViewProps) {
           <div className="vh-page-kicker">讯报 · 关注流</div>
           <h1>情报</h1>
           <div className="vh-text-caption" style={{ marginTop: 4 }}>
-            关注流 · 草稿确认 · 超期复核（{STALE_DAYS} 天）
+            关注流 · 草稿确认 · 扩种审核 · 超期复核（{STALE_DAYS} 天）
           </div>
         </div>
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 flex-wrap" style={{ justifyContent: 'flex-end' }}>
           {flash && (
             <span className="vh-text-caption" style={{ color: 'var(--pigment-success)' }}>
               {flash}
@@ -199,6 +564,34 @@ export function IntelView({ onOpenEntry }: IntelViewProps) {
           <button
             type="button"
             className="vh-btn vh-btn-primary"
+            onClick={() => void syncAquaReview()}
+            disabled={syncingAqua}
+            title="读取本地 private/aqua/reports/review-*.json（需桌面端 dev server）"
+          >
+            <Icon name="ArrowsClockwise" size={14} /> {syncingAqua ? '同步中…' : '同步活水'}
+          </button>
+          <button
+            type="button"
+            className="vh-btn"
+            onClick={() => fileInputRef.current?.click()}
+            title="导入 review-*.json 或 candidates-*.json"
+          >
+            <Icon name="UploadSimple" size={14} /> 导入 JSON
+          </button>
+          <input
+            ref={fileInputRef}
+            type="file"
+            accept="application/json,.json"
+            style={{ display: 'none' }}
+            onChange={(e) => {
+              const f = e.target.files?.[0];
+              if (f) importAquaFile(f);
+              e.target.value = '';
+            }}
+          />
+          <button
+            type="button"
+            className="vh-btn"
             onClick={() => void scrapeFeeds()}
             disabled={scraping}
             title={`抓取 ${INTEL_FEEDS.length} 个配置源（RSS/Atom）`}
@@ -227,7 +620,10 @@ export function IntelView({ onOpenEntry }: IntelViewProps) {
           [
             { id: 'feed' as const, label: `我的更新流 (${feed.length})` },
             { id: 'all' as const, label: `全部更新 (${all.length})` },
-            { id: 'drafts' as const, label: `待确认 (${pending.length})` },
+            {
+              id: 'drafts' as const,
+              label: `待确认 (${pending.length}${expandPending.length ? ` · 扩种 ${expandPending.length}` : ''})`,
+            },
             { id: 'follows' as const, label: `关注列表 (${followedEntries.length})` },
             { id: 'stale' as const, label: `待复核 (${stale.length})` },
           ] as const
@@ -265,6 +661,54 @@ export function IntelView({ onOpenEntry }: IntelViewProps) {
 
         {tab === 'drafts' && (
           <div className="flex flex-col gap-4">
+            <section className="vh-panel" style={{ padding: 14 }}>
+              <h2
+                className="vh-display"
+                style={{ fontSize: 15, margin: '0 0 8px', color: 'var(--ink-2)' }}
+              >
+                活水扩种审核
+              </h2>
+              <div className="vh-text-caption" style={{ color: 'var(--ink-3)', lineHeight: 1.55 }}>
+                日更只会自动改已有条目的名次/版本。扩种候选在{' '}
+                <code className="vh-mono">private/aqua/reports/review-*.json</code>（或{' '}
+                <code className="vh-mono">candidates-*.json</code>
+                ）。本地 dev 点「同步活水」；线上/其他机器用「导入
+                JSON」。达标才「生成本机草稿条」，否则驳回。
+              </div>
+            </section>
+
+            {expandPending.length > 0 && (
+              <section className="flex flex-col gap-2">
+                <h2
+                  className="vh-display"
+                  style={{ fontSize: 15, margin: 0, color: 'var(--ink-2)' }}
+                >
+                  扩种候选（{expandPending.length}）
+                </h2>
+                {expandPending.map(renderExpandDraft)}
+              </section>
+            )}
+
+            {updatePending.length > 0 && (
+              <section className="flex flex-col gap-2">
+                <h2
+                  className="vh-display"
+                  style={{ fontSize: 15, margin: 0, color: 'var(--ink-2)' }}
+                >
+                  更新待确认（{updatePending.length}）
+                </h2>
+                {updatePending.map(renderUpdateDraft)}
+              </section>
+            )}
+
+            {pending.length === 0 && (
+              <EmptyState
+                icon="Tray"
+                title="暂无待确认草稿"
+                hint="先跑 pnpm aqua run --tier=daily，再点「同步活水」；或导入 review / candidates JSON。"
+              />
+            )}
+
             <section className="vh-panel" style={{ padding: 14 }}>
               <h2
                 className="vh-display"
@@ -323,99 +767,6 @@ export function IntelView({ onOpenEntry }: IntelViewProps) {
                 {INTEL_FEEDS.length} 个）。
               </div>
             </section>
-
-            {pending.length === 0 ? (
-              <EmptyState
-                icon="Tray"
-                title="暂无待确认草稿"
-                hint="点「抓取订阅」拉取 RSS/Atom，或「演示草稿」/手动添加。"
-              />
-            ) : (
-              <div className="flex flex-col gap-2">
-                {pending.map((d) => {
-                  const entry = bundle.entries.get(d.entryId);
-                  const meta = UPDATE_TYPE_META[d.update.type];
-                  const originLabel =
-                    d.origin === 'feed-scrape'
-                      ? '订阅抓取'
-                      : d.origin === 'simulated-scrape'
-                        ? '模拟抓取'
-                        : '手动';
-                  return (
-                    <div key={d.id} className="vh-card" style={{ padding: 14 }}>
-                      <div className="flex items-start gap-2">
-                        <Icon name={meta.icon} size={18} color={meta.color} />
-                        <div style={{ flex: 1, minWidth: 0 }}>
-                          <button
-                            type="button"
-                            className="vh-link"
-                            style={{
-                              border: 'none',
-                              background: 'transparent',
-                              cursor: 'pointer',
-                              padding: 0,
-                              fontWeight: 600,
-                              fontFamily: 'var(--font-body)',
-                              color: 'var(--ink-1)',
-                            }}
-                            onClick={() => onOpenEntry(d.entryId)}
-                          >
-                            {entry?.name ?? d.entryId}
-                          </button>
-                          <div
-                            className="vh-text-sm"
-                            style={{ color: 'var(--ink-2)', marginTop: 4 }}
-                          >
-                            {d.update.summary}
-                          </div>
-                          <div
-                            className="vh-mono vh-text-caption flex flex-wrap gap-2"
-                            style={{ color: 'var(--ink-3)', marginTop: 6 }}
-                          >
-                            <span>{d.update.date}</span>
-                            <span>{meta.label}</span>
-                            <span>{originLabel}</span>
-                            {d.update.source && (
-                              <a
-                                className="vh-link"
-                                href={d.update.source}
-                                target="_blank"
-                                rel="noreferrer"
-                              >
-                                来源 ↗
-                              </a>
-                            )}
-                          </div>
-                        </div>
-                      </div>
-                      <div className="flex flex-wrap gap-2" style={{ marginTop: 10 }}>
-                        <button
-                          type="button"
-                          className="vh-btn vh-btn-primary"
-                          onClick={() => acceptDraft(d)}
-                        >
-                          <Icon name="Check" size={14} /> 确认入库
-                        </button>
-                        <button type="button" className="vh-btn" onClick={() => rejectDraft(d)}>
-                          拒绝
-                        </button>
-                        <button
-                          type="button"
-                          className="vh-btn"
-                          onClick={() => {
-                            commitDrafts(removeIntelDraft(drafts, d.id));
-                            showFlash('已删除草稿');
-                          }}
-                          style={{ color: 'var(--pigment-danger)' }}
-                        >
-                          删除
-                        </button>
-                      </div>
-                    </div>
-                  );
-                })}
-              </div>
-            )}
           </div>
         )}
 

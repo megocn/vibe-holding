@@ -16,12 +16,19 @@
   ],
   "maturity": "mature",
   "pitfalls": [],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-10",
+      "type": "feature",
+      "summary": "What's different in pnpm 12",
+      "source": "https://pnpm.io/blog/whats-different-in-pnpm-12"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://pnpm.io"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-10",
   "region": "overseas",
   "id": "pnpm",
   "name": "pnpm",

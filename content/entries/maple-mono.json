@@ -23,13 +23,20 @@
     "变体与构建选项多（NF/ligature/hint 等），团队应固定一种构建以免环境不一致。",
     "CJK 等宽打包体积随字形范围增大；非代码区仍应用文楷/黑体，避免整站等宽。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-10",
+      "type": "feature",
+      "summary": "CJK Base Fonts",
+      "source": "https://github.com/subframe7536/maple-font/releases/tag/cjk-base"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://github.com/subframe7536/maple-font",
     "https://font.subf.dev"
   ],
-  "lastReviewed": "2026-08-07",
+  "lastReviewed": "2026-08-10",
   "region": "both",
   "category": "design-fonts",
   "subcategory": "mono-fonts",

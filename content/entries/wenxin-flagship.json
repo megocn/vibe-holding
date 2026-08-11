@@ -23,13 +23,13 @@
   "rankings": [
     {
       "systemId": "lmarena-text",
-      "rank": 32,
-      "score": 1468,
-      "scoreLabel": "1468 Elo",
+      "rank": 37,
+      "score": 1467,
+      "scoreLabel": "1467 Elo",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "note": "模型 ernie-5.1（Preliminary）",
-      "asOf": "2026-07-21",
-      "period": "2026-07",
+      "note": "模型 ernie-5.1",
+      "asOf": "2026-08-10",
       "previousRank": 32,
       "previousScore": 1468,
       "previousAsOf": "2026-07-21"

@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-10",
+      "type": "release",
+      "summary": "发布 6.6.0: 新版本",
+      "version": "6.6.0",
+      "source": "https://github.com/ant-design/ant-design/releases/tag/6.6.0"
+    },
+    {
       "date": "2026-07-31",
       "type": "release",
       "summary": "发布 6.5.3: 新版本",
@@ -33,7 +40,7 @@
   "sources": [
     "https://ant.design"
   ],
-  "lastReviewed": "2026-08-02",
+  "lastReviewed": "2026-08-10",
   "region": "overseas",
   "id": "antd",
   "name": "Ant Design",
@@ -50,5 +57,6 @@
       "asOf": "2026-07-20",
       "previousAsOf": "2026-07-20"
     }
-  ]
+  ],
+  "currentVersion": "6.6.0"
 }

@@ -2160,6 +2160,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-10",
+          "type": "release",
+          "summary": "发布 6.6.0: 新版本",
+          "version": "6.6.0",
+          "source": "https://github.com/ant-design/ant-design/releases/tag/6.6.0"
+        },
+        {
           "date": "2026-07-31",
           "type": "release",
           "summary": "发布 6.5.3: 新版本",
@@ -2170,7 +2177,7 @@
       "sources": [
         "https://ant.design"
       ],
-      "lastReviewed": "2026-08-02",
+      "lastReviewed": "2026-08-10",
       "region": "overseas",
       "id": "antd",
       "name": "Ant Design",
@@ -2187,7 +2194,8 @@
           "asOf": "2026-07-20",
           "previousAsOf": "2026-07-20"
         }
-      ]
+      ],
+      "currentVersion": "6.6.0"
     },
     {
       "pricing": {
@@ -7530,12 +7538,12 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 15,
-          "scoreLabel": "1.8%",
-          "share": 1.8,
+          "rank": 13,
+          "scoreLabel": "2%",
+          "share": 2,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-02",
+          "asOf": "2026-08-10",
           "previousRank": 15,
           "previousShare": 1.8,
           "previousAsOf": "2026-08-02"
@@ -7671,6 +7679,16 @@
           "previousRank": 12,
           "previousShare": 2,
           "previousAsOf": "2026-07-26"
+        },
+        {
+          "systemId": "lmarena-text",
+          "rank": 30,
+          "score": 1472,
+          "scoreLabel": "1472 Elo",
+          "period": "2026-08",
+          "sourceUrl": "https://arena.ai/leaderboard/text",
+          "note": "模型 claude-sonnet-4-6",
+          "asOf": "2026-08-10"
         }
       ],
       "sources": [
@@ -11064,12 +11082,20 @@
         "开源库与托管平台功能边界需先确认",
         "指标依赖裁判模型，成本随用例数上涨"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-09",
+          "type": "release",
+          "summary": "发布 4.1.7: Flaky tests? Skip the failures!",
+          "version": "4.1.7",
+          "source": "https://github.com/confident-ai/deepeval/releases/tag/v4.1.7"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://github.com/confident-ai/deepeval"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-10",
       "region": "overseas",
       "id": "deepeval",
       "name": "DeepEval",
@@ -16946,15 +16972,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 45,
+          "rank": 47,
           "scoreLabel": "0.2%",
           "share": 0.2,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-06",
-          "previousRank": 42,
-          "previousShare": 0.3,
-          "previousAsOf": "2026-08-02"
+          "asOf": "2026-08-11",
+          "previousRank": 45,
+          "previousShare": 0.2,
+          "previousAsOf": "2026-08-06"
         }
       ],
       "subcategory": "line",
@@ -17616,11 +17642,13 @@
       "rankings": [
         {
           "systemId": "lmarena-text",
-          "tier": "CN frontier",
-          "period": "2026-07",
-          "note": "国产闭源旗舰；WebDev/Agent 榜更靠前",
+          "rank": 33,
+          "score": 1471,
+          "scoreLabel": "1471 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/text",
-          "asOf": "2026-07-24",
+          "note": "模型 glm-5.2-max",
+          "asOf": "2026-08-10",
           "previousAsOf": "2026-07-24"
         },
         {
@@ -18868,15 +18896,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 22,
-          "scoreLabel": "0.9%",
-          "share": 0.9,
+          "rank": 19,
+          "scoreLabel": "1%",
+          "share": 1,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-07",
-          "previousRank": 25,
-          "previousShare": 0.8,
-          "previousAsOf": "2026-08-02"
+          "asOf": "2026-08-11",
+          "previousRank": 22,
+          "previousShare": 0.9,
+          "previousAsOf": "2026-08-07"
         }
       ],
       "subcategory": "line",
@@ -19039,6 +19067,16 @@
           "previousRank": 24,
           "previousShare": 0.9,
           "previousAsOf": "2026-08-03"
+        },
+        {
+          "systemId": "lmarena-text",
+          "rank": 38,
+          "score": 1467,
+          "scoreLabel": "1467 Elo",
+          "period": "2026-08",
+          "sourceUrl": "https://arena.ai/leaderboard/text",
+          "note": "模型 gpt-5.6-terra-xhigh",
+          "asOf": "2026-08-10"
         }
       ],
       "sources": [
@@ -21080,6 +21118,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-10",
+          "type": "release",
+          "summary": "发布 6.0.16: 新版本",
+          "version": "6.0.16",
+          "source": "https://github.com/Homebrew/brew/releases/tag/6.0.16"
+        },
+        {
           "date": "2026-08-03",
           "type": "release",
           "summary": "发布 6.0.15: 新版本",
@@ -21091,7 +21136,7 @@
       "sources": [
         "https://brew.sh"
       ],
-      "lastReviewed": "2026-08-03",
+      "lastReviewed": "2026-08-10",
       "region": "overseas",
       "id": "homebrew",
       "name": "Homebrew",
@@ -23878,12 +23923,20 @@
       "pitfalls": [
         "不渲染页面，测不出前端渲染耗时；单机并发受限于压测机资源，大规模需分布式或云端方案。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-10",
+          "type": "release",
+          "summary": "发布 2.2.0: 新版本",
+          "version": "2.2.0",
+          "source": "https://github.com/grafana/k6/releases/tag/v2.2.0"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://k6.io"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-10",
       "region": "overseas",
       "id": "k6",
       "name": "Grafana k6",
@@ -23893,7 +23946,8 @@
       "officialUrl": "https://k6.io",
       "descriptionMd": "k6 用 JavaScript 写压测脚本、由 Go 引擎执行，脚本里声明的 threshold 可直接作为流水线通过与否的门禁，指标能推给 Grafana / Prometheus 做长期观测。\n\n接口与服务端性能回归、容量摸底时使用；已在用 Grafana 观测栈的团队衔接成本最低。\n\n不渲染页面，测不出前端渲染耗时；单机并发受限于压测机资源，大规模需分布式或云端方案。\n",
       "vendorId": "grafana-labs",
-      "githubUrl": "https://github.com/grafana/k6"
+      "githubUrl": "https://github.com/grafana/k6",
+      "currentVersion": "2.2.0"
     },
     {
       "pricing": {
@@ -27906,13 +27960,20 @@
         "变体与构建选项多（NF/ligature/hint 等），团队应固定一种构建以免环境不一致。",
         "CJK 等宽打包体积随字形范围增大；非代码区仍应用文楷/黑体，避免整站等宽。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-10",
+          "type": "feature",
+          "summary": "CJK Base Fonts",
+          "source": "https://github.com/subframe7536/maple-font/releases/tag/cjk-base"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://github.com/subframe7536/maple-font",
         "https://font.subf.dev"
       ],
-      "lastReviewed": "2026-08-07",
+      "lastReviewed": "2026-08-10",
       "region": "both",
       "category": "design-fonts",
       "subcategory": "mono-fonts",
@@ -29386,14 +29447,15 @@
       "rankings": [
         {
           "systemId": "openrouter-popularity",
-          "rank": 3,
-          "scoreLabel": "9.3%",
-          "share": 9.3,
+          "rank": 4,
+          "scoreLabel": "8%",
+          "share": 8,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-06",
-          "previousRank": 1,
-          "previousAsOf": "2026-07-24"
+          "asOf": "2026-08-11",
+          "previousRank": 3,
+          "previousShare": 9.3,
+          "previousAsOf": "2026-08-06"
         },
         {
           "systemId": "artificial-analysis-index",
@@ -29418,6 +29480,16 @@
           "previousRank": 32,
           "previousScore": 1474,
           "previousAsOf": "2026-07-31"
+        },
+        {
+          "systemId": "lmarena-text",
+          "rank": 39,
+          "score": 1467,
+          "scoreLabel": "1467 Elo",
+          "period": "2026-08",
+          "sourceUrl": "https://arena.ai/leaderboard/text",
+          "note": "模型 mimo-v2.5-pro",
+          "asOf": "2026-08-10"
         }
       ],
       "sources": [
@@ -35671,12 +35743,19 @@
       ],
       "maturity": "mature",
       "pitfalls": [],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-10",
+          "type": "feature",
+          "summary": "What's different in pnpm 12",
+          "source": "https://pnpm.io/blog/whats-different-in-pnpm-12"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://pnpm.io"
       ],
-      "lastReviewed": "2026-07-23",
+      "lastReviewed": "2026-08-10",
       "region": "overseas",
       "id": "pnpm",
       "name": "pnpm",
@@ -35813,7 +35892,17 @@
         "公开信息较少、采购周期长；中小团队不适合作为首选 Copilot。"
       ],
       "updates": [],
-      "rankings": [],
+      "rankings": [
+        {
+          "systemId": "openrouter-popularity",
+          "rank": 10,
+          "scoreLabel": "2.8%",
+          "share": 2.8,
+          "period": "2026-08",
+          "sourceUrl": "https://openrouter.ai/rankings",
+          "asOf": "2026-08-11"
+        }
+      ],
       "sources": [
         "https://poolside.ai"
       ],
@@ -37380,15 +37469,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 39,
-          "scoreLabel": "0.3%",
-          "share": 0.3,
+          "rank": 34,
+          "scoreLabel": "0.4%",
+          "share": 0.4,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-09",
-          "previousRank": 43,
+          "asOf": "2026-08-11",
+          "previousRank": 39,
           "previousShare": 0.3,
-          "previousAsOf": "2026-08-08"
+          "previousAsOf": "2026-08-09"
         },
         {
           "systemId": "lmarena-vision",
@@ -40344,12 +40433,20 @@
       "pitfalls": [
         "API 偏底层，显式等待与稳定性要自行打磨；Grid 运维成本高，调试体验落后于新一代工具。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-10",
+          "type": "release",
+          "summary": "发布 4.47.0: Selenium 4.47.0",
+          "version": "4.47.0",
+          "source": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.47.0"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://www.selenium.dev"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-10",
       "region": "overseas",
       "id": "selenium",
       "name": "Selenium",
@@ -40358,7 +40455,8 @@
       "oneLiner": "W3C WebDriver 老牌方案 · 多语言多浏览器 · Grid 分布式偏重",
       "officialUrl": "https://www.selenium.dev",
       "descriptionMd": "Selenium 是浏览器自动化的元老，其 WebDriver 已成为 W3C 标准，覆盖 Java、Python、C# 等多语言绑定，并通过 Grid 支持大规模分布式执行。\n\n企业里已有大量历史用例、或团队栈是 Java/C# 时继续沿用最划算；新项目从零起步可直接看更现代的驱动。\n\nAPI 偏底层，显式等待与稳定性要自行打磨；Grid 运维成本高，调试体验落后于新一代工具。\n",
-      "githubUrl": "https://github.com/SeleniumHQ/selenium"
+      "githubUrl": "https://github.com/SeleniumHQ/selenium",
+      "currentVersion": "4.47.0"
     },
     {
       "pricing": {
@@ -42321,12 +42419,19 @@
       "pitfalls": [
         "自然语言步骤的结果不稳定，需要缓存动作或补断言；TypeScript 生态最完整，其他语言支持相对滞后。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-10",
+          "type": "feature",
+          "summary": "官方动态更新",
+          "source": "https://github.com/browserbase/stagehand/releases/tag/v4-spike-final"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://github.com/browserbase/stagehand"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-10",
       "region": "overseas",
       "id": "stagehand",
       "name": "Stagehand",
@@ -43431,6 +43536,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-10",
+          "type": "release",
+          "summary": "发布 3.0.0-next.18: @sveltejs/kit@3.0.0-next.18",
+          "version": "3.0.0-next.18",
+          "source": "https://github.com/sveltejs/kit/releases/tag/%40sveltejs%2Fkit%403.0.0-next.18"
+        },
+        {
           "date": "2026-08-04",
           "type": "release",
           "summary": "发布 3.0.0-next.4: @sveltejs/package@3.0.0-next.4",
@@ -43441,7 +43553,7 @@
       "sources": [
         "https://kit.svelte.dev"
       ],
-      "lastReviewed": "2026-08-04",
+      "lastReviewed": "2026-08-11",
       "region": "overseas",
       "id": "sveltekit",
       "name": "SvelteKit",
@@ -43460,7 +43572,7 @@
           "previousAsOf": "2026-07-20"
         }
       ],
-      "currentVersion": "3.0.0-next.4"
+      "currentVersion": "3.0.0-next.18"
     },
     {
       "pricing": {
@@ -47269,12 +47381,20 @@
         "VRL 变换脚本是独立语法，需要单独学习与回归测试",
         "作聚合层时自身要做高可用与磁盘缓冲容量规划"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-10",
+          "type": "release",
+          "summary": "发布 0.3.13: vdev-v0.3.13",
+          "version": "0.3.13",
+          "source": "https://github.com/vectordotdev/vector/releases/tag/vdev-v0.3.13"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://vector.dev"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-11",
       "region": "overseas",
       "id": "vector-dev",
       "name": "Vector",
@@ -47381,6 +47501,13 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-08-10",
+          "type": "release",
+          "summary": "发布 2.0.229: @ai-sdk/vue@2.0.229",
+          "version": "2.0.229",
+          "source": "https://github.com/vercel/ai/releases/tag/%40ai-sdk%2Fvue%402.0.229"
+        },
+        {
           "date": "2026-08-01",
           "type": "release",
           "summary": "发布 1.0.54: @ai-sdk/workflow-harness@1.0.54",
@@ -47399,7 +47526,7 @@
       "sources": [
         "https://sdk.vercel.ai"
       ],
-      "lastReviewed": "2026-08-02",
+      "lastReviewed": "2026-08-10",
       "region": "overseas",
       "id": "vercel-ai-sdk",
       "name": "Vercel AI SDK",
@@ -47436,6 +47563,12 @@
       ],
       "updates": [
         {
+          "date": "2026-08-10",
+          "type": "feature",
+          "summary": "Vercel Sandbox now runs on Vercel Managed Images",
+          "source": "https://vercel.com/changelog/vercel-sandbox-managed-images"
+        },
+        {
           "date": "2026-08-02",
           "type": "release",
           "summary": "发布 3.8: Qwen 3.8 Max now available on Vercel AI Gateway",
@@ -47458,7 +47591,7 @@
       "sources": [
         "https://vercel.com"
       ],
-      "lastReviewed": "2026-08-03",
+      "lastReviewed": "2026-08-10",
       "region": "overseas",
       "id": "vercel",
       "name": "Vercel",
@@ -48282,12 +48415,20 @@
         "依赖系统 WebView，跨平台渲染差异需实测",
         "生态与文档规模小于 Tauri / Electron"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-10",
+          "type": "release",
+          "summary": "发布 2.14.0: Wails v2.14.0",
+          "version": "2.14.0",
+          "source": "https://github.com/wailsapp/wails/releases/tag/v2.14.0"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://wails.io"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-10",
       "region": "overseas",
       "id": "wails",
       "name": "Wails",
@@ -48297,7 +48438,8 @@
       "officialUrl": "https://wails.io",
       "descriptionMd": "Wails 用 Go 编写后端逻辑、系统 WebView 渲染前端界面，并把两者绑定编译为单个可执行文件，思路与 Tauri 相近，只是把语言换成了 Go。\n\n后端团队以 Go 为主、要给命令行工具或本地服务加一层桌面壳时最顺手；Rust 栈选 Tauri，需要统一 Chromium 行为选 Electron。\n\n依赖系统 WebView，各平台渲染差异需实测；移动端支持仍属实验阶段，文档与生态规模小于 Tauri。\n",
       "vendorId": "wails-io",
-      "githubUrl": "https://github.com/wailsapp/wails"
+      "githubUrl": "https://github.com/wailsapp/wails",
+      "currentVersion": "2.14.0"
     },
     {
       "id": "wan-video",
@@ -48854,13 +48996,13 @@
       "rankings": [
         {
           "systemId": "lmarena-text",
-          "rank": 32,
-          "score": 1468,
-          "scoreLabel": "1468 Elo",
+          "rank": 37,
+          "score": 1467,
+          "scoreLabel": "1467 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/text",
-          "note": "模型 ernie-5.1（Preliminary）",
-          "asOf": "2026-07-21",
-          "period": "2026-07",
+          "note": "模型 ernie-5.1",
+          "asOf": "2026-08-10",
           "previousRank": 32,
           "previousScore": 1468,
           "previousAsOf": "2026-07-21"
@@ -49457,12 +49599,20 @@
       "pitfalls": [
         "状态机概念有学习成本，简单开关状态用它属于杀鸡用牛刀；建模不当会把复杂度从组件搬进机器定义。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-10",
+          "type": "release",
+          "summary": "发布 4.2.3: @xstate/store@4.2.3",
+          "version": "4.2.3",
+          "source": "https://github.com/statelyai/xstate/releases/tag/%40xstate%2Fstore%404.2.3"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://xstate.js.org"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-11",
       "region": "overseas",
       "id": "xstate",
       "name": "XState",

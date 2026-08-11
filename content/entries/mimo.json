@@ -44,14 +44,15 @@
   "rankings": [
     {
       "systemId": "openrouter-popularity",
-      "rank": 3,
-      "scoreLabel": "9.3%",
-      "share": 9.3,
+      "rank": 4,
+      "scoreLabel": "8%",
+      "share": 8,
       "period": "2026-08",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-08-06",
-      "previousRank": 1,
-      "previousAsOf": "2026-07-24"
+      "asOf": "2026-08-11",
+      "previousRank": 3,
+      "previousShare": 9.3,
+      "previousAsOf": "2026-08-06"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -76,6 +77,16 @@
       "previousRank": 32,
       "previousScore": 1474,
       "previousAsOf": "2026-07-31"
+    },
+    {
+      "systemId": "lmarena-text",
+      "rank": 39,
+      "score": 1467,
+      "scoreLabel": "1467 Elo",
+      "period": "2026-08",
+      "sourceUrl": "https://arena.ai/leaderboard/text",
+      "note": "模型 mimo-v2.5-pro",
+      "asOf": "2026-08-10"
     }
   ],
   "sources": [

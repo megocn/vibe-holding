@@ -23,6 +23,12 @@
   ],
   "updates": [
     {
+      "date": "2026-08-10",
+      "type": "feature",
+      "summary": "Vercel Sandbox now runs on Vercel Managed Images",
+      "source": "https://vercel.com/changelog/vercel-sandbox-managed-images"
+    },
+    {
       "date": "2026-08-02",
       "type": "release",
       "summary": "发布 3.8: Qwen 3.8 Max now available on Vercel AI Gateway",
@@ -45,7 +51,7 @@
   "sources": [
     "https://vercel.com"
   ],
-  "lastReviewed": "2026-08-03",
+  "lastReviewed": "2026-08-10",
   "region": "overseas",
   "id": "vercel",
   "name": "Vercel",

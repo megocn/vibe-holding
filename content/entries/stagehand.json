@@ -20,12 +20,19 @@
   "pitfalls": [
     "自然语言步骤的结果不稳定，需要缓存动作或补断言；TypeScript 生态最完整，其他语言支持相对滞后。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-10",
+      "type": "feature",
+      "summary": "官方动态更新",
+      "source": "https://github.com/browserbase/stagehand/releases/tag/v4-spike-final"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://github.com/browserbase/stagehand"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-10",
   "region": "overseas",
   "id": "stagehand",
   "name": "Stagehand",

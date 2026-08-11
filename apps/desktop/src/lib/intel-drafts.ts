@@ -3,8 +3,9 @@ import { todayIso } from './intel.ts';
 
 const KEY = 'vh-intel-drafts';
 
-export type DraftOrigin = 'manual' | 'simulated-scrape' | 'feed-scrape';
+export type DraftOrigin = 'manual' | 'simulated-scrape' | 'feed-scrape' | 'aqua-review';
 export type DraftStatus = 'pending' | 'accepted' | 'rejected';
+export type DraftLevel = 'L0' | 'L1' | 'L2' | 'L3';
 
 export interface IntelDraft {
   id: string;
@@ -14,10 +15,20 @@ export interface IntelDraft {
   createdAt: string;
   origin: DraftOrigin;
   reviewerNote?: string;
+  /** 活水风险分级；扩种卡多为 L3 */
+  level?: DraftLevel;
 }
 
 function newDraftId(): string {
   return `draft-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`;
+}
+
+function isDraftOrigin(v: unknown): v is DraftOrigin {
+  return v === 'manual' || v === 'simulated-scrape' || v === 'feed-scrape' || v === 'aqua-review';
+}
+
+function isDraftLevel(v: unknown): v is DraftLevel {
+  return v === 'L0' || v === 'L1' || v === 'L2' || v === 'L3';
 }
 
 export function loadIntelDrafts(): IntelDraft[] {
@@ -26,15 +37,30 @@ export function loadIntelDrafts(): IntelDraft[] {
     if (!raw) return [];
     const parsed = JSON.parse(raw) as unknown;
     if (!Array.isArray(parsed)) return [];
-    return parsed.filter(
-      (d): d is IntelDraft =>
-        d &&
-        typeof d === 'object' &&
-        typeof d.id === 'string' &&
-        typeof d.entryId === 'string' &&
-        d.update &&
-        typeof d.update.summary === 'string',
-    );
+    const out: IntelDraft[] = [];
+    for (const d of parsed) {
+      if (!d || typeof d !== 'object') continue;
+      const o = d as Record<string, unknown>;
+      if (typeof o.id !== 'string' || typeof o.entryId !== 'string') continue;
+      const update = o.update;
+      if (!update || typeof update !== 'object') continue;
+      if (typeof (update as { summary?: unknown }).summary !== 'string') continue;
+      const status =
+        o.status === 'accepted' || o.status === 'rejected' || o.status === 'pending'
+          ? o.status
+          : 'pending';
+      out.push({
+        id: o.id,
+        entryId: o.entryId as Id,
+        update: update as EntryUpdate,
+        status,
+        createdAt: typeof o.createdAt === 'string' ? o.createdAt : todayIso(),
+        origin: isDraftOrigin(o.origin) ? o.origin : 'manual',
+        reviewerNote: typeof o.reviewerNote === 'string' ? o.reviewerNote : undefined,
+        level: isDraftLevel(o.level) ? o.level : undefined,
+      });
+    }
+    return out;
   } catch {
     return [];
   }

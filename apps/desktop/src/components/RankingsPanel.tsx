@@ -86,7 +86,8 @@ export function RankingsPanel({ categoryId, rankings, compact }: RankingsPanelPr
       {!compact && (
         <p className="vh-rankings-footnote vh-text-caption">
           名次来自第三方权威榜，非墨台
-          主观评分；期次与快照日见各行。选型请交叉多榜并自建评测。
+          主观评分；期次与快照日见各行。选型请交叉多榜并自建评测。外链在系统浏览器打开；若
+          arena.ai 仍被 Cloudflare 拦截，需换网络/节点，应用内快照可继续用不影响选型。
         </p>
       )}
     </div>

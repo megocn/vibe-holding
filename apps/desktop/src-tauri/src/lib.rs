@@ -13,6 +13,8 @@ fn content_load() -> Result<Value, String> {
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
 pub fn run() {
     tauri::Builder::default()
+        // 外链用系统浏览器打开，避免 WebView 内加载 Cloudflare 站点时被 Bot 防护直接拦（如 arena.ai）
+        .plugin(tauri_plugin_opener::init())
         .invoke_handler(tauri::generate_handler![content_load])
         .run(tauri::generate_context!())
         .expect("error while running tauri application");

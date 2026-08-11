@@ -20,12 +20,20 @@
   "pitfalls": [
     "不渲染页面，测不出前端渲染耗时；单机并发受限于压测机资源，大规模需分布式或云端方案。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-10",
+      "type": "release",
+      "summary": "发布 2.2.0: 新版本",
+      "version": "2.2.0",
+      "source": "https://github.com/grafana/k6/releases/tag/v2.2.0"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://k6.io"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-10",
   "region": "overseas",
   "id": "k6",
   "name": "Grafana k6",
@@ -35,5 +43,6 @@
   "officialUrl": "https://k6.io",
   "descriptionMd": "k6 用 JavaScript 写压测脚本、由 Go 引擎执行，脚本里声明的 threshold 可直接作为流水线通过与否的门禁，指标能推给 Grafana / Prometheus 做长期观测。\n\n接口与服务端性能回归、容量摸底时使用；已在用 Grafana 观测栈的团队衔接成本最低。\n\n不渲染页面，测不出前端渲染耗时；单机并发受限于压测机资源，大规模需分布式或云端方案。\n",
   "vendorId": "grafana-labs",
-  "githubUrl": "https://github.com/grafana/k6"
+  "githubUrl": "https://github.com/grafana/k6",
+  "currentVersion": "2.2.0"
 }

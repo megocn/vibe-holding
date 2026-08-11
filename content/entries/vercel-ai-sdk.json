@@ -19,6 +19,13 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-08-10",
+      "type": "release",
+      "summary": "发布 2.0.229: @ai-sdk/vue@2.0.229",
+      "version": "2.0.229",
+      "source": "https://github.com/vercel/ai/releases/tag/%40ai-sdk%2Fvue%402.0.229"
+    },
+    {
       "date": "2026-08-01",
       "type": "release",
       "summary": "发布 1.0.54: @ai-sdk/workflow-harness@1.0.54",
@@ -37,7 +44,7 @@
   "sources": [
     "https://sdk.vercel.ai"
   ],
-  "lastReviewed": "2026-08-02",
+  "lastReviewed": "2026-08-10",
   "region": "overseas",
   "id": "vercel-ai-sdk",
   "name": "Vercel AI SDK",

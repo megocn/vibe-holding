@@ -1,14 +1,67 @@
+import { readFileSync, readdirSync } from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
 import type { Plugin } from 'vite';
+
+const repoRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
+const aquaReportsDir = path.join(repoRoot, 'private/aqua/reports');
 
 /**
  * 开发态抓取代理：绕过浏览器 CORS，供情报 RSS 抓取使用。
  * GET /__vh_fetch?url=<encoded>
+ *
+ * 活水 review 同步（仅本地）：
+ * GET /__vh_aqua_review → 最新 private/aqua/reports/review-*.json
  */
 export function vhFetchProxy(): Plugin {
   return {
     name: 'vh-fetch-proxy',
     configureServer(server) {
       server.middlewares.use((req, res, next) => {
+        if (req.url?.startsWith('/__vh_aqua_review')) {
+          void (async () => {
+            try {
+              const files = readdirSync(aquaReportsDir)
+                .filter((f) => /^review-\d{4}-\d{2}-\d{2}\.json$/.test(f))
+                .sort();
+              const latest = files.at(-1);
+              if (!latest) {
+                res.statusCode = 404;
+                res.setHeader('Content-Type', 'application/json; charset=utf-8');
+                res.end(
+                  JSON.stringify({
+                    error: '未找到 review-*.json。先跑 pnpm aqua run --tier=daily',
+                  }),
+                );
+                return;
+              }
+              const full = path.join(aquaReportsDir, latest);
+              const drafts = JSON.parse(readFileSync(full, 'utf8')) as unknown;
+              const count = Array.isArray(drafts) ? drafts.length : 0;
+              res.statusCode = 200;
+              res.setHeader('Content-Type', 'application/json; charset=utf-8');
+              res.setHeader('Cache-Control', 'no-store');
+              res.end(
+                JSON.stringify({
+                  file: `private/aqua/reports/${latest}`,
+                  generatedAt: latest.slice('review-'.length, -'.json'.length),
+                  count,
+                  drafts,
+                }),
+              );
+            } catch (err) {
+              res.statusCode = 502;
+              res.setHeader('Content-Type', 'application/json; charset=utf-8');
+              res.end(
+                JSON.stringify({
+                  error: err instanceof Error ? err.message : String(err),
+                }),
+              );
+            }
+          })();
+          return;
+        }
+
         if (!req.url?.startsWith('/__vh_fetch')) {
           next();
           return;

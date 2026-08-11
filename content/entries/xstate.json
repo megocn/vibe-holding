@@ -20,12 +20,20 @@
   "pitfalls": [
     "状态机概念有学习成本，简单开关状态用它属于杀鸡用牛刀；建模不当会把复杂度从组件搬进机器定义。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-10",
+      "type": "release",
+      "summary": "发布 4.2.3: @xstate/store@4.2.3",
+      "version": "4.2.3",
+      "source": "https://github.com/statelyai/xstate/releases/tag/%40xstate%2Fstore%404.2.3"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://xstate.js.org"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-11",
   "region": "overseas",
   "id": "xstate",
   "name": "XState",

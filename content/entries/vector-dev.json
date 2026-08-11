@@ -21,12 +21,20 @@
     "VRL 变换脚本是独立语法，需要单独学习与回归测试",
     "作聚合层时自身要做高可用与磁盘缓冲容量规划"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-10",
+      "type": "release",
+      "summary": "发布 0.3.13: vdev-v0.3.13",
+      "version": "0.3.13",
+      "source": "https://github.com/vectordotdev/vector/releases/tag/vdev-v0.3.13"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://vector.dev"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-11",
   "region": "overseas",
   "id": "vector-dev",
   "name": "Vector",

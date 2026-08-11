@@ -26,11 +26,13 @@
   "rankings": [
     {
       "systemId": "lmarena-text",
-      "tier": "CN frontier",
-      "period": "2026-07",
-      "note": "国产闭源旗舰；WebDev/Agent 榜更靠前",
+      "rank": 33,
+      "score": 1471,
+      "scoreLabel": "1471 Elo",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "asOf": "2026-07-24",
+      "note": "模型 glm-5.2-max",
+      "asOf": "2026-08-10",
       "previousAsOf": "2026-07-24"
     },
     {

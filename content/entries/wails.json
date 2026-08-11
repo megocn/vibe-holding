@@ -21,12 +21,20 @@
     "依赖系统 WebView，跨平台渲染差异需实测",
     "生态与文档规模小于 Tauri / Electron"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-10",
+      "type": "release",
+      "summary": "发布 2.14.0: Wails v2.14.0",
+      "version": "2.14.0",
+      "source": "https://github.com/wailsapp/wails/releases/tag/v2.14.0"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://wails.io"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-10",
   "region": "overseas",
   "id": "wails",
   "name": "Wails",
@@ -36,5 +44,6 @@
   "officialUrl": "https://wails.io",
   "descriptionMd": "Wails 用 Go 编写后端逻辑、系统 WebView 渲染前端界面，并把两者绑定编译为单个可执行文件，思路与 Tauri 相近，只是把语言换成了 Go。\n\n后端团队以 Go 为主、要给命令行工具或本地服务加一层桌面壳时最顺手；Rust 栈选 Tauri，需要统一 Chromium 行为选 Electron。\n\n依赖系统 WebView，各平台渲染差异需实测；移动端支持仍属实验阶段，文档与生态规模小于 Tauri。\n",
   "vendorId": "wails-io",
-  "githubUrl": "https://github.com/wailsapp/wails"
+  "githubUrl": "https://github.com/wailsapp/wails",
+  "currentVersion": "2.14.0"
 }

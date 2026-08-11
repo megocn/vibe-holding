@@ -91,6 +91,16 @@
       "previousRank": 24,
       "previousShare": 0.9,
       "previousAsOf": "2026-08-03"
+    },
+    {
+      "systemId": "lmarena-text",
+      "rank": 38,
+      "score": 1467,
+      "scoreLabel": "1467 Elo",
+      "period": "2026-08",
+      "sourceUrl": "https://arena.ai/leaderboard/text",
+      "note": "模型 gpt-5.6-terra-xhigh",
+      "asOf": "2026-08-10"
     }
   ],
   "sources": [

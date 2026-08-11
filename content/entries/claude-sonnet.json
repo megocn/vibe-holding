@@ -115,6 +115,16 @@
       "previousRank": 12,
       "previousShare": 2,
       "previousAsOf": "2026-07-26"
+    },
+    {
+      "systemId": "lmarena-text",
+      "rank": 30,
+      "score": 1472,
+      "scoreLabel": "1472 Elo",
+      "period": "2026-08",
+      "sourceUrl": "https://arena.ai/leaderboard/text",
+      "note": "模型 claude-sonnet-4-6",
+      "asOf": "2026-08-10"
     }
   ],
   "sources": [

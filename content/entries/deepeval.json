@@ -22,12 +22,20 @@
     "开源库与托管平台功能边界需先确认",
     "指标依赖裁判模型，成本随用例数上涨"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-09",
+      "type": "release",
+      "summary": "发布 4.1.7: Flaky tests? Skip the failures!",
+      "version": "4.1.7",
+      "source": "https://github.com/confident-ai/deepeval/releases/tag/v4.1.7"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://github.com/confident-ai/deepeval"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-10",
   "region": "overseas",
   "id": "deepeval",
   "name": "DeepEval",

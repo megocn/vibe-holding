@@ -11,6 +11,9 @@ export default defineConfig({
   plugins: [react(), tailwindcss(), vhFetchProxy()],
   clearScreen: false,
   server: {
+    // 与 Orbitra(5173) / arena(5177) 错开；strictPort 避免 Vite 偷偷换端口而 Tauri 仍开旧地址导致白屏卡住
+    port: 5280,
+    strictPort: true,
     fs: { allow: [root] },
   },
 });
