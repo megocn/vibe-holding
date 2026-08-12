@@ -19,7 +19,17 @@
     "消费级 chat 体验不如 ChatGPT；定价面向企业，个人开发者成本偏高。"
   ],
   "updates": [],
-  "rankings": [],
+  "rankings": [
+    {
+      "systemId": "openrouter-popularity",
+      "rank": 37,
+      "scoreLabel": "0.3%",
+      "share": 0.3,
+      "period": "2026-08",
+      "sourceUrl": "https://openrouter.ai/rankings",
+      "asOf": "2026-08-12"
+    }
+  ],
   "sources": [
     "https://cohere.com"
   ],

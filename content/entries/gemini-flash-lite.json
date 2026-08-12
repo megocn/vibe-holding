@@ -70,16 +70,16 @@
     },
     {
       "systemId": "lmarena-image",
-      "rank": 9,
+      "rank": 11,
       "score": 1251,
       "scoreLabel": "1251 Elo",
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 gemini-3.1-flash-lite-image (nano-banana-2-lite)",
-      "asOf": "2026-08-06",
-      "previousRank": 7,
-      "previousScore": 1250,
-      "previousAsOf": "2026-07-31"
+      "asOf": "2026-08-12",
+      "previousRank": 9,
+      "previousScore": 1251,
+      "previousAsOf": "2026-08-06"
     },
     {
       "systemId": "lmarena-image-edit",

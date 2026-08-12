@@ -38,13 +38,13 @@
   "rankings": [
     {
       "systemId": "lmarena-image",
-      "rank": 3,
-      "score": 1280,
-      "scoreLabel": "1280 Elo",
-      "period": "2026-07",
-      "note": "muse-image · Preliminary",
+      "rank": 5,
+      "score": 1282,
+      "scoreLabel": "1282 Elo",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
-      "asOf": "2026-07-24",
+      "note": "模型 muse-image",
+      "asOf": "2026-08-12",
       "previousRank": 3,
       "previousScore": 1280,
       "previousAsOf": "2026-07-24"

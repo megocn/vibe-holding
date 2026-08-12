@@ -26,13 +26,16 @@
   "rankings": [
     {
       "systemId": "lmarena-image",
-      "rank": 16,
+      "rank": 18,
       "score": 1188,
       "scoreLabel": "1188 Elo",
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 uni-1.1-max",
-      "asOf": "2026-08-06"
+      "asOf": "2026-08-12",
+      "previousRank": 16,
+      "previousScore": 1188,
+      "previousAsOf": "2026-08-06"
     },
     {
       "systemId": "lmarena-image-edit",

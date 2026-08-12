@@ -21,12 +21,20 @@
     "基于 fasthttp，标准库 net/http 中间件不可直接复用",
     "HTTP/2 等标准能力支持受底层限制"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-12",
+      "type": "release",
+      "summary": "发布 2.52.15: 新版本",
+      "version": "2.52.15",
+      "source": "https://github.com/gofiber/fiber/releases/tag/v2.52.15"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://gofiber.io"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-12",
   "region": "overseas",
   "id": "fiber-go",
   "name": "Fiber",

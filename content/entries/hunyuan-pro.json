@@ -45,16 +45,16 @@
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 24,
-      "score": 1517,
-      "scoreLabel": "1517 Elo",
+      "rank": 20,
+      "score": 1524,
+      "scoreLabel": "1524 Elo",
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 hy3",
-      "asOf": "2026-08-06",
-      "previousRank": 22,
+      "asOf": "2026-08-12",
+      "previousRank": 24,
       "previousScore": 1517,
-      "previousAsOf": "2026-07-31"
+      "previousAsOf": "2026-08-06"
     },
     {
       "systemId": "lmarena-i2v",
@@ -71,13 +71,13 @@
     },
     {
       "systemId": "lmarena-t2v",
-      "rank": 32,
+      "rank": 34,
       "score": 1169,
       "scoreLabel": "1169 Elo",
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 hunyuan-video-1.5",
-      "asOf": "2026-08-02",
+      "asOf": "2026-08-12",
       "previousRank": 32,
       "previousScore": 1169,
       "previousAsOf": "2026-08-02"

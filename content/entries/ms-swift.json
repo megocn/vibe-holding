@@ -20,12 +20,20 @@
   "pitfalls": [
     "功能面铺得广，单点深度不一定优于专精工具；版本迭代快，训练脚本需固定版本以保证可复现。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-12",
+      "type": "release",
+      "summary": "发布 4.4.3: Patch release v4.4.3",
+      "version": "4.4.3",
+      "source": "https://github.com/modelscope/ms-swift/releases/tag/v4.4.3"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://github.com/modelscope/ms-swift"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-12",
   "region": "both",
   "id": "ms-swift",
   "name": "ms-swift",

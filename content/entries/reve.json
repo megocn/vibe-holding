@@ -38,13 +38,13 @@
   "rankings": [
     {
       "systemId": "lmarena-image",
-      "rank": 2,
+      "rank": 4,
       "score": 1302,
       "scoreLabel": "1302 Elo",
-      "period": "2026-07",
-      "note": "Text-to-Image · reve-2.1",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
-      "asOf": "2026-07-24",
+      "note": "模型 reve-2.1",
+      "asOf": "2026-08-12",
       "previousRank": 2,
       "previousScore": 1302,
       "previousAsOf": "2026-07-24"

@@ -30,16 +30,16 @@
   "rankings": [
     {
       "systemId": "lmarena-image",
-      "rank": 22,
+      "rank": 24,
       "score": 1162,
       "scoreLabel": "1162 Elo",
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 flux-2-max",
-      "asOf": "2026-08-06",
-      "previousRank": 20,
+      "asOf": "2026-08-12",
+      "previousRank": 22,
       "previousScore": 1162,
-      "previousAsOf": "2026-07-24"
+      "previousAsOf": "2026-08-06"
     },
     {
       "systemId": "aa-image-arena",
@@ -66,6 +66,16 @@
       "previousRank": 26,
       "previousScore": 1262,
       "previousAsOf": "2026-07-26"
+    },
+    {
+      "systemId": "lmarena-t2v",
+      "rank": 2,
+      "score": 1496,
+      "scoreLabel": "1496 Elo",
+      "period": "2026-08",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
+      "note": "模型 flux-3-video",
+      "asOf": "2026-08-12"
     }
   ],
   "sources": [

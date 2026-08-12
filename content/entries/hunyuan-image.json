@@ -32,16 +32,16 @@
   "rankings": [
     {
       "systemId": "lmarena-image",
-      "rank": 28,
+      "rank": 30,
       "score": 1151,
       "scoreLabel": "1151 Elo",
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 hunyuan-image-3.0",
-      "asOf": "2026-08-06",
-      "previousRank": 26,
+      "asOf": "2026-08-12",
+      "previousRank": 28,
       "previousScore": 1151,
-      "previousAsOf": "2026-07-24"
+      "previousAsOf": "2026-08-06"
     },
     {
       "systemId": "aa-image-arena",
