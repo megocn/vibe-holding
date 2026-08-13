@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-13",
+      "type": "release",
+      "summary": "发布 0.1.0: @fumari/image-size@0.1.0",
+      "version": "0.1.0",
+      "source": "https://github.com/fuma-nama/fumadocs/releases/tag/%40fumari%2Fimage-size%400.1.0"
+    },
+    {
       "date": "2026-08-06",
       "type": "release",
       "summary": "发布 16.14.1: fumadocs@16.14.1",
@@ -34,7 +41,7 @@
   "sources": [
     "https://fumadocs.dev"
   ],
-  "lastReviewed": "2026-08-06",
+  "lastReviewed": "2026-08-13",
   "region": "overseas",
   "id": "fumadocs",
   "name": "Fumadocs",
@@ -44,5 +51,6 @@
   "officialUrl": "https://fumadocs.dev",
   "descriptionMd": "Fumadocs 是 Next.js 生态中较新的文档框架，把内容源、界面组件与搜索拆成可替换的层，默认主题现代，也支持依据 OpenAPI 生成接口文档页。\n\n要在 Next.js 上做文档站、又嫌 Nextra 定制空间不足且愿意跟进较快迭代时评估。\n\n项目年轻，API 与目录约定仍在演进，升级需读迁移文档；中文资料与线上案例较少。\n",
   "vendorId": "fumadocs-team",
-  "githubUrl": "https://github.com/fuma-nama/fumadocs"
+  "githubUrl": "https://github.com/fuma-nama/fumadocs",
+  "currentVersion": "0.1.0"
 }

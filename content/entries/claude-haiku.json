@@ -53,6 +53,15 @@
       "previousRank": 30,
       "previousScore": 1423,
       "previousAsOf": "2026-07-31"
+    },
+    {
+      "systemId": "openrouter-popularity",
+      "rank": 36,
+      "scoreLabel": "0.3%",
+      "share": 0.3,
+      "period": "2026-08",
+      "sourceUrl": "https://openrouter.ai/rankings",
+      "asOf": "2026-08-13"
     }
   ],
   "sources": [

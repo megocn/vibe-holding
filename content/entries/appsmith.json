@@ -20,12 +20,20 @@
   "pitfalls": [
     "复杂交互与精致视觉成本仍高；运维与版本升级需自担；云版与自托管功能差要对着文档核对。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-13",
+      "type": "release",
+      "summary": "发布 2.3: Release v2.3 🌈",
+      "version": "2.3",
+      "source": "https://github.com/appsmithorg/appsmith/releases/tag/v2.3"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://www.appsmith.com"
   ],
-  "lastReviewed": "2026-08-07",
+  "lastReviewed": "2026-08-13",
   "region": "overseas",
   "id": "appsmith",
   "name": "Appsmith",
@@ -35,5 +43,6 @@
   "officialUrl": "https://www.appsmith.com",
   "descriptionMd": "Appsmith 是偏开源/可自托管的内部应用平台：拖拽 UI、绑定 SQL 与 REST/GraphQL，许可与数据驻留对不愿纯 SaaS 后台的团队友好。\n\n要自建运营后台、对接自有库表与内部 API，且预算或合规不愿上商业 Retool 时，与其同轴对标。\n\n复杂交互与精致视觉成本仍高；运维与版本升级需自担；云版与自托管功能差要对着文档核对。\n",
   "vendorId": "appsmith-inc",
-  "githubUrl": "https://github.com/appsmithorg/appsmith"
+  "githubUrl": "https://github.com/appsmithorg/appsmith",
+  "currentVersion": "2.3"
 }

@@ -17,12 +17,19 @@
   "pitfalls": [
     "价格偏高；仅适合 SEO 是核心渠道的团队。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-13",
+      "type": "feature",
+      "summary": "Proven Ways to Use AI in Marketing",
+      "source": "https://ahrefs.com/blog/how-to-use-ai-in-marketing/"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://ahrefs.com"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-13",
   "region": "overseas",
   "id": "ahrefs",
   "name": "Ahrefs",

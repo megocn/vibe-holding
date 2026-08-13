@@ -17,6 +17,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-13",
+      "type": "release",
+      "summary": "发布 1.5.0: langchain-openai==1.5.0",
+      "version": "1.5.0",
+      "source": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.5.0"
+    },
+    {
       "date": "2026-08-05",
       "type": "release",
       "summary": "发布 1.5.4: langchain-anthropic==1.5.4",
@@ -28,7 +35,7 @@
   "sources": [
     "https://www.langchain.com"
   ],
-  "lastReviewed": "2026-08-06",
+  "lastReviewed": "2026-08-13",
   "region": "overseas",
   "id": "langchain",
   "name": "LangChain",
@@ -37,5 +44,6 @@
   "oneLiner": "Chain/Agent/Tool 生态最广 · LangGraph 状态工作流 · 集成海量",
   "officialUrl": "https://www.langchain.com",
   "descriptionMd": "LangChain 是最流行的 LLM 应用框架，提供 chain、agent、tool 与大量 integration，LangGraph 扩展 stateful workflow。\n\n快速集成 vector DB/tools/API 构建 RAG 与 Agent prototype 的默认起点（注意抽象层厚度）。\n\n过度抽象导致 debug 困难；生产应精简 dependency 并用 LangSmith 观测。\n",
-  "vendorId": "langchain-inc"
+  "vendorId": "langchain-inc",
+  "currentVersion": "1.5.0"
 }

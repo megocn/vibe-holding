@@ -50,13 +50,13 @@
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 6,
-      "score": 1588,
-      "scoreLabel": "1588 Elo",
-      "period": "2026-07",
+      "rank": 8,
+      "score": 1587,
+      "scoreLabel": "1587 Elo",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 glm-5.2-max",
-      "asOf": "2026-07-29",
+      "asOf": "2026-08-13",
       "previousRank": 6,
       "previousScore": 1588,
       "previousAsOf": "2026-07-29"

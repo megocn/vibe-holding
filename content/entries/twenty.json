@@ -25,6 +25,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-12",
+      "type": "release",
+      "summary": "发布 2.31.1: twenty/v2.31.1",
+      "version": "2.31.1",
+      "source": "https://github.com/twentyhq/twenty/releases/tag/twenty%2Fv2.31.1"
+    },
+    {
       "date": "2026-08-06",
       "type": "release",
       "summary": "发布 2.28.0: twenty/v2.28.0: Revert AI chat chips to the [[kind:...:label]] syntax (#23852)",
@@ -36,7 +43,7 @@
   "sources": [
     "https://twenty.com"
   ],
-  "lastReviewed": "2026-08-06",
+  "lastReviewed": "2026-08-13",
   "region": "overseas",
   "id": "twenty",
   "name": "Twenty",

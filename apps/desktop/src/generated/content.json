@@ -146,6 +146,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-12",
+          "type": "release",
+          "summary": "发布 0.88.0: 新版本",
+          "version": "0.88.0",
+          "source": "https://github.com/activepieces/activepieces/releases/tag/0.88.0"
+        },
+        {
           "date": "2026-08-06",
           "type": "release",
           "summary": "发布 0.87.0: 新版本",
@@ -157,7 +164,7 @@
       "sources": [
         "https://www.activepieces.com"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-13",
       "region": "overseas",
       "id": "activepieces",
       "name": "Activepieces",
@@ -168,7 +175,7 @@
       "descriptionMd": "Activepieces 是开源的业务自动化平台，提供流动画布与可扩展 pieces（连接器），可云可自托管，定位为 Zapier/Make 的可自掌控替代，方便团队按需写自定义片段。\n\n要数据驻留或二次开发连接器、又希望界面仍面向运营同学时评估；纯最广 SaaS 目录先 Zapier。\n\n连接器广度仍追头部；生产自托管要自己做高可用与密钥治理。\n",
       "vendorId": "activepieces-inc",
       "githubUrl": "https://github.com/activepieces/activepieces",
-      "currentVersion": "0.87.0"
+      "currentVersion": "0.88.0"
     },
     {
       "pricing": {
@@ -518,12 +525,19 @@
       "pitfalls": [
         "价格偏高；仅适合 SEO 是核心渠道的团队。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-13",
+          "type": "feature",
+          "summary": "Proven Ways to Use AI in Marketing",
+          "source": "https://ahrefs.com/blog/how-to-use-ai-in-marketing/"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://ahrefs.com"
       ],
-      "lastReviewed": "2026-07-23",
+      "lastReviewed": "2026-08-13",
       "region": "overseas",
       "id": "ahrefs",
       "name": "Ahrefs",
@@ -2809,12 +2823,20 @@
       "pitfalls": [
         "复杂交互与精致视觉成本仍高；运维与版本升级需自担；云版与自托管功能差要对着文档核对。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-13",
+          "type": "release",
+          "summary": "发布 2.3: Release v2.3 🌈",
+          "version": "2.3",
+          "source": "https://github.com/appsmithorg/appsmith/releases/tag/v2.3"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://www.appsmith.com"
       ],
-      "lastReviewed": "2026-08-07",
+      "lastReviewed": "2026-08-13",
       "region": "overseas",
       "id": "appsmith",
       "name": "Appsmith",
@@ -2824,7 +2846,8 @@
       "officialUrl": "https://www.appsmith.com",
       "descriptionMd": "Appsmith 是偏开源/可自托管的内部应用平台：拖拽 UI、绑定 SQL 与 REST/GraphQL，许可与数据驻留对不愿纯 SaaS 后台的团队友好。\n\n要自建运营后台、对接自有库表与内部 API，且预算或合规不愿上商业 Retool 时，与其同轴对标。\n\n复杂交互与精致视觉成本仍高；运维与版本升级需自担；云版与自托管功能差要对着文档核对。\n",
       "vendorId": "appsmith-inc",
-      "githubUrl": "https://github.com/appsmithorg/appsmith"
+      "githubUrl": "https://github.com/appsmithorg/appsmith",
+      "currentVersion": "2.3"
     },
     {
       "pricing": {
@@ -5962,6 +5985,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-13",
+          "type": "release",
+          "summary": "发布 2.4: vrs1.2.4",
+          "version": "2.4",
+          "source": "https://github.com/taskforcesh/bullmq/releases/tag/vrs1.2.4"
+        },
+        {
           "date": "2026-08-06",
           "type": "release",
           "summary": "发布 0.1: vphp2.0.1",
@@ -5973,7 +6003,7 @@
       "sources": [
         "https://docs.bullmq.io"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-13",
       "region": "overseas",
       "id": "bullmq",
       "name": "BullMQ",
@@ -5984,7 +6014,7 @@
       "descriptionMd": "BullMQ 是基于 Redis 的 Node.js 任务队列：重试、延迟、优先级、流速与可观测组件生态成熟，是 Node 侧默认 worker 方案之一。\n\n已有 Redis，要跑邮件、转码、webhook 重试、批处理消费等进程内 worker，又不想引入完整 durable 平台时选用。\n\n可靠性边界取决于 Redis 与 worker 运维；跨语言协调与强一致长事务应看 Temporal 一类。\n",
       "vendorId": "taskforce-sh",
       "githubUrl": "https://github.com/taskforcesh/bullmq",
-      "currentVersion": "0.1"
+      "currentVersion": "2.4"
     },
     {
       "pricing": {
@@ -7354,6 +7384,15 @@
           "previousRank": 30,
           "previousScore": 1423,
           "previousAsOf": "2026-07-31"
+        },
+        {
+          "systemId": "openrouter-popularity",
+          "rank": 36,
+          "scoreLabel": "0.3%",
+          "share": 0.3,
+          "period": "2026-08",
+          "sourceUrl": "https://openrouter.ai/rankings",
+          "asOf": "2026-08-13"
         }
       ],
       "sources": [
@@ -11316,13 +11355,13 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 7,
-          "score": 1577,
-          "scoreLabel": "1577 Elo",
+          "rank": 9,
+          "score": 1582,
+          "scoreLabel": "1582 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 deepseek-v4-flash-high",
-          "asOf": "2026-08-02",
+          "asOf": "2026-08-13",
           "previousRank": 7,
           "previousScore": 1577,
           "previousAsOf": "2026-08-02"
@@ -11896,6 +11935,12 @@
       ],
       "updates": [
         {
+          "date": "2026-08-13",
+          "type": "feature",
+          "summary": "stable",
+          "source": "https://github.com/discourse/discourse/releases/tag/stable"
+        },
+        {
           "date": "2026-08-06",
           "type": "feature",
           "summary": "stable",
@@ -11906,7 +11951,7 @@
       "sources": [
         "https://www.discourse.org"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-13",
       "region": "overseas",
       "id": "discourse",
       "name": "Discourse",
@@ -11937,6 +11982,12 @@
       ],
       "updates": [
         {
+          "date": "2026-08-12",
+          "type": "feature",
+          "summary": "DSF Office Hours",
+          "source": "https://www.djangoproject.com/weblog/2026/aug/12/dsf-office-hours/"
+        },
+        {
           "date": "2026-08-04",
           "type": "release",
           "summary": "发布 6.0.8: Django security releases issued: 6.0.8 and 5.2.17",
@@ -11955,7 +12006,7 @@
       "sources": [
         "https://www.djangoproject.com"
       ],
-      "lastReviewed": "2026-08-04",
+      "lastReviewed": "2026-08-13",
       "region": "overseas",
       "id": "django",
       "name": "Django",
@@ -12019,6 +12070,12 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-08-12",
+          "type": "feature",
+          "summary": "A new security baseline for enterprise agentic adoption",
+          "source": "https://www.docker.com/blog/a-new-security-baseline-for-enterprise-agentic-adoption/"
+        },
+        {
           "date": "2026-08-04",
           "type": "feature",
           "summary": "The Software Supply Chain Is Under Siege. Devs Are Still the First Line of Defense",
@@ -12029,7 +12086,7 @@
       "sources": [
         "https://www.docker.com"
       ],
-      "lastReviewed": "2026-08-04",
+      "lastReviewed": "2026-08-13",
       "region": "overseas",
       "id": "docker",
       "name": "Docker",
@@ -16083,6 +16140,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-13",
+          "type": "release",
+          "summary": "发布 0.1.0: @fumari/image-size@0.1.0",
+          "version": "0.1.0",
+          "source": "https://github.com/fuma-nama/fumadocs/releases/tag/%40fumari%2Fimage-size%400.1.0"
+        },
+        {
           "date": "2026-08-06",
           "type": "release",
           "summary": "发布 16.14.1: fumadocs@16.14.1",
@@ -16094,7 +16158,7 @@
       "sources": [
         "https://fumadocs.dev"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-13",
       "region": "overseas",
       "id": "fumadocs",
       "name": "Fumadocs",
@@ -16104,7 +16168,8 @@
       "officialUrl": "https://fumadocs.dev",
       "descriptionMd": "Fumadocs 是 Next.js 生态中较新的文档框架，把内容源、界面组件与搜索拆成可替换的层，默认主题现代，也支持依据 OpenAPI 生成接口文档页。\n\n要在 Next.js 上做文档站、又嫌 Nextra 定制空间不足且愿意跟进较快迭代时评估。\n\n项目年轻，API 与目录约定仍在演进，升级需读迁移文档；中文资料与线上案例较少。\n",
       "vendorId": "fumadocs-team",
-      "githubUrl": "https://github.com/fuma-nama/fumadocs"
+      "githubUrl": "https://github.com/fuma-nama/fumadocs",
+      "currentVersion": "0.1.0"
     },
     {
       "pricing": {
@@ -17694,13 +17759,13 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 6,
-          "score": 1588,
-          "scoreLabel": "1588 Elo",
-          "period": "2026-07",
+          "rank": 8,
+          "score": 1587,
+          "scoreLabel": "1587 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 glm-5.2-max",
-          "asOf": "2026-07-29",
+          "asOf": "2026-08-13",
           "previousRank": 6,
           "previousScore": 1588,
           "previousAsOf": "2026-07-29"
@@ -19432,13 +19497,13 @@
       "rankings": [
         {
           "systemId": "lmarena-webdev",
-          "rank": 12,
-          "score": 1549,
-          "scoreLabel": "1549 Elo",
+          "rank": 7,
+          "score": 1618,
+          "scoreLabel": "1618 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-          "note": "模型 grok-4.5",
-          "asOf": "2026-08-03",
+          "note": "模型 grok-4.6-high",
+          "asOf": "2026-08-13",
           "previousRank": 12,
           "previousScore": 1549,
           "previousAsOf": "2026-08-03"
@@ -20993,12 +21058,20 @@
       "pitfalls": [
         "对齐训练对数据质量与超参极敏感，效果波动大；算法迭代快，示例代码常需跟随版本调整。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-13",
+          "type": "release",
+          "summary": "发布 1.10.0: 新版本",
+          "version": "1.10.0",
+          "source": "https://github.com/huggingface/trl/releases/tag/v1.10.0"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://github.com/huggingface/trl"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-13",
       "region": "overseas",
       "id": "hf-trl",
       "name": "TRL",
@@ -21008,7 +21081,8 @@
       "officialUrl": "https://github.com/huggingface/trl",
       "descriptionMd": "TRL 提供监督微调与偏好对齐的训练器，把 SFT、DPO、GRPO 等后训练方法封装成一致用法，是 Transformers 生态里做对齐与强化学习实验的常用起点。\n\n要在指令微调之外再做偏好对齐、或复现论文里的对齐方法时用它；只做单纯的领域适配，参数高效微调就够。\n\n对齐训练对数据质量与超参极敏感，效果波动大；算法迭代快，示例代码常需跟随版本调整。\n",
       "vendorId": "huggingface",
-      "githubUrl": "https://github.com/huggingface/trl"
+      "githubUrl": "https://github.com/huggingface/trl",
+      "currentVersion": "1.10.0"
     },
     {
       "id": "hidream",
@@ -22012,16 +22086,16 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 20,
-          "score": 1524,
-          "scoreLabel": "1524 Elo",
+          "rank": 22,
+          "score": 1523,
+          "scoreLabel": "1523 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 hy3",
-          "asOf": "2026-08-12",
-          "previousRank": 24,
-          "previousScore": 1517,
-          "previousAsOf": "2026-08-06"
+          "asOf": "2026-08-13",
+          "previousRank": 20,
+          "previousScore": 1524,
+          "previousAsOf": "2026-08-12"
         },
         {
           "systemId": "lmarena-i2v",
@@ -23071,6 +23145,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-12",
+          "type": "release",
+          "summary": "发布 8.8.18: 新版本",
+          "version": "8.8.18",
+          "source": "https://github.com/ionic-team/ionic-framework/releases/tag/v8.8.18"
+        },
+        {
           "date": "2026-08-05",
           "type": "release",
           "summary": "发布 8.8.17: 新版本",
@@ -23082,7 +23163,7 @@
       "sources": [
         "https://ionicframework.com"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-13",
       "region": "overseas",
       "id": "ionic",
       "name": "Ionic",
@@ -24316,15 +24397,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 11,
-          "scoreLabel": "2.7%",
-          "share": 2.7,
+          "rank": 13,
+          "scoreLabel": "2.1%",
+          "share": 2.1,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-04",
-          "previousRank": 9,
+          "asOf": "2026-08-13",
+          "previousRank": 11,
           "previousShare": 2.7,
-          "previousAsOf": "2026-08-02"
+          "previousAsOf": "2026-08-04"
         },
         {
           "systemId": "lmarena-vision",
@@ -25342,6 +25423,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-13",
+          "type": "release",
+          "summary": "发布 1.5.0: langchain-openai==1.5.0",
+          "version": "1.5.0",
+          "source": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.5.0"
+        },
+        {
           "date": "2026-08-05",
           "type": "release",
           "summary": "发布 1.5.4: langchain-anthropic==1.5.4",
@@ -25353,7 +25441,7 @@
       "sources": [
         "https://www.langchain.com"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-13",
       "region": "overseas",
       "id": "langchain",
       "name": "LangChain",
@@ -25362,7 +25450,8 @@
       "oneLiner": "Chain/Agent/Tool 生态最广 · LangGraph 状态工作流 · 集成海量",
       "officialUrl": "https://www.langchain.com",
       "descriptionMd": "LangChain 是最流行的 LLM 应用框架，提供 chain、agent、tool 与大量 integration，LangGraph 扩展 stateful workflow。\n\n快速集成 vector DB/tools/API 构建 RAG 与 Agent prototype 的默认起点（注意抽象层厚度）。\n\n过度抽象导致 debug 困难；生产应精简 dependency 并用 LangSmith 观测。\n",
-      "vendorId": "langchain-inc"
+      "vendorId": "langchain-inc",
+      "currentVersion": "1.5.0"
     },
     {
       "pricing": {
@@ -29340,6 +29429,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-13",
+          "type": "release",
+          "summary": "发布 1.10.12: 新版本",
+          "version": "1.10.12",
+          "source": "https://github.com/web-infra-dev/midscene/releases/tag/v1.10.12"
+        },
+        {
           "date": "2026-08-05",
           "type": "release",
           "summary": "发布 1.10.9: 新版本",
@@ -29352,7 +29448,7 @@
         "https://midscenejs.com",
         "https://github.com/web-infra-dev/midscene"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-13",
       "region": "both",
       "id": "midscene",
       "name": "Midscene.js",
@@ -29484,15 +29580,15 @@
       "rankings": [
         {
           "systemId": "openrouter-popularity",
-          "rank": 4,
-          "scoreLabel": "8%",
-          "share": 8,
+          "rank": 5,
+          "scoreLabel": "6.9%",
+          "share": 6.9,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-11",
-          "previousRank": 3,
-          "previousShare": 9.3,
-          "previousAsOf": "2026-08-06"
+          "asOf": "2026-08-13",
+          "previousRank": 4,
+          "previousShare": 8,
+          "previousAsOf": "2026-08-11"
         },
         {
           "systemId": "artificial-analysis-index",
@@ -29507,16 +29603,16 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 35,
+          "rank": 37,
           "score": 1474,
           "scoreLabel": "1474 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 mimo-v2.5-pro",
-          "asOf": "2026-08-06",
-          "previousRank": 32,
+          "asOf": "2026-08-13",
+          "previousRank": 35,
           "previousScore": 1474,
-          "previousAsOf": "2026-07-31"
+          "previousAsOf": "2026-08-06"
         },
         {
           "systemId": "lmarena-text",
@@ -29653,16 +29749,16 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 31,
+          "rank": 33,
           "score": 1491,
           "scoreLabel": "1491 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 minimax-m3",
-          "asOf": "2026-08-06",
-          "previousRank": 29,
+          "asOf": "2026-08-13",
+          "previousRank": 31,
           "previousScore": 1491,
-          "previousAsOf": "2026-08-02"
+          "previousAsOf": "2026-08-06"
         },
         {
           "systemId": "lmarena-t2v",
@@ -33508,6 +33604,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-13",
+          "type": "release",
+          "summary": "发布 2.2.29-7845: 新版本",
+          "version": "2.2.29-7845",
+          "source": "https://github.com/comet-ml/opik/releases/tag/2.2.29-7845-merge-2959"
+        },
+        {
           "date": "2026-08-05",
           "type": "release",
           "summary": "发布 2.2.20-6272: build(deps): bump actions/checkout from 4 to 7 (#7742)",
@@ -33519,7 +33622,7 @@
       "sources": [
         "https://github.com/comet-ml/opik"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-13",
       "region": "overseas",
       "id": "opik",
       "name": "Opik",
@@ -33528,7 +33631,7 @@
       "oneLiner": "评测与追踪一体 · Comet 开源；可自托管",
       "officialUrl": "https://github.com/comet-ml/opik",
       "descriptionMd": "Opik 是 Comet 开源的 LLM 评测与追踪工具，既能记录线上调用轨迹，也能对数据集批量跑评测指标，支持自托管部署。\n\n希望「线上追踪」和「离线评测」共用一套数据与界面、又要能私有化部署时评估；与 Langfuse 属同层可直接横比。\n\n两头都做意味着两头都不如专精工具深；自托管版本的运维与升级成本要计入，托管版则要评估数据出境。\n",
-      "currentVersion": "2.2.20-6272"
+      "currentVersion": "2.2.29-7845"
     },
     {
       "pricing": {
@@ -36167,6 +36270,12 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-08-13",
+          "type": "feature",
+          "summary": "I bribe customers to talk to me",
+          "source": "https://posthog.com/blog/bribing-customers-to-talk-to-me"
+        },
+        {
           "date": "2026-08-06",
           "type": "feature",
           "summary": "Are agents really killing UI?",
@@ -36177,7 +36286,7 @@
       "sources": [
         "https://posthog.com"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-13",
       "region": "overseas",
       "id": "posthog",
       "name": "PostHog",
@@ -36930,6 +37039,12 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-08-13",
+          "type": "feature",
+          "summary": "Announcing the Packaging Council Election Candidates for 2026!",
+          "source": "https://blog.python.org/2026/08/2026-packaging-council-nominees/"
+        },
+        {
           "date": "2026-08-04",
           "type": "release",
           "summary": "发布 3.15.0: Python 3.15.0 candidate 1 is here!",
@@ -36957,7 +37072,7 @@
       "sources": [
         "https://www.python.org"
       ],
-      "lastReviewed": "2026-08-04",
+      "lastReviewed": "2026-08-13",
       "region": "both",
       "id": "python",
       "name": "Python",
@@ -37926,6 +38041,12 @@
       ],
       "updates": [
         {
+          "date": "2026-08-13",
+          "type": "feature",
+          "summary": "Agents on Rails: The LLM Benchmark Project",
+          "source": "https://rubyonrails.org/2026/8/13/llm-benchmarking-project"
+        },
+        {
           "date": "2026-08-09",
           "type": "deprecation",
           "summary": "rails 7.2 将于 2026-08-09 结束安全支持",
@@ -37937,7 +38058,7 @@
       "sources": [
         "https://rubyonrails.org"
       ],
-      "lastReviewed": "2026-08-02",
+      "lastReviewed": "2026-08-13",
       "region": "overseas",
       "id": "rails",
       "name": "Ruby on Rails",
@@ -38577,6 +38698,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-13",
+          "type": "release",
+          "summary": "发布 25.3.16: 新版本",
+          "version": "25.3.16",
+          "source": "https://github.com/redpanda-data/redpanda/releases/tag/v25.3.16"
+        },
+        {
           "date": "2026-08-06",
           "type": "release",
           "summary": "发布 26.1.15-rc2: 新版本",
@@ -38588,7 +38716,7 @@
       "sources": [
         "https://www.redpanda.com"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-13",
       "region": "overseas",
       "id": "redpanda",
       "name": "Redpanda",
@@ -46242,6 +46370,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-12",
+          "type": "release",
+          "summary": "发布 2.31.1: twenty/v2.31.1",
+          "version": "2.31.1",
+          "source": "https://github.com/twentyhq/twenty/releases/tag/twenty%2Fv2.31.1"
+        },
+        {
           "date": "2026-08-06",
           "type": "release",
           "summary": "发布 2.28.0: twenty/v2.28.0: Revert AI chat chips to the [[kind:...:label]] syntax (#23852)",
@@ -46253,7 +46388,7 @@
       "sources": [
         "https://twenty.com"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-13",
       "region": "overseas",
       "id": "twenty",
       "name": "Twenty",
@@ -46788,6 +46923,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-13",
+          "type": "release",
+          "summary": "发布 0.1.701-beta: Introducing Unsloth Desktop 🦥",
+          "version": "0.1.701-beta",
+          "source": "https://github.com/unslothai/unsloth/releases/tag/v0.1.701-beta"
+        },
+        {
           "date": "2026-08-06",
           "type": "release",
           "summary": "发布 0.1.522-beta: Faster downloading + DeepSeek-V4 Flash 0731",
@@ -46800,7 +46942,7 @@
         "https://unsloth.ai",
         "https://github.com/unslothai/unsloth"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-13",
       "region": "overseas",
       "id": "unsloth",
       "name": "Unsloth",
@@ -46811,7 +46953,7 @@
       "descriptionMd": "Unsloth 通过手写内核与重写反向传播，把常见开源模型的 LoRA/QLoRA 微调做得更省显存、更快，配套的 Colab 笔记本让单卡起步的门槛很低。\n\n手头只有一两张消费卡、想先把微调链路跑通时首选；多机多卡的大规模训练仍应回到分布式框架。\n\n深度优化意味着对模型架构适配有先后，新模型支持需等上游跟进；多卡与集群能力弱于通用训练框架。\n",
       "vendorId": "unsloth-ai",
       "githubUrl": "https://github.com/unslothai/unsloth",
-      "currentVersion": "0.1.522-beta"
+      "currentVersion": "0.1.701-beta"
     },
     {
       "pricing": {
@@ -50531,12 +50673,20 @@
       "pitfalls": [
         "缺乏强制约定，团队大了容易演化出风格各异的 store；选择器写得太粗会带来不必要的重渲染。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-13",
+          "type": "release",
+          "summary": "发布 5.0.15: 新版本",
+          "version": "5.0.15",
+          "source": "https://github.com/pmndrs/zustand/releases/tag/v5.0.15"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://github.com/pmndrs/zustand"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-13",
       "region": "overseas",
       "id": "zustand",
       "name": "Zustand",

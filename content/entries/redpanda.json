@@ -21,6 +21,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-13",
+      "type": "release",
+      "summary": "发布 25.3.16: 新版本",
+      "version": "25.3.16",
+      "source": "https://github.com/redpanda-data/redpanda/releases/tag/v25.3.16"
+    },
+    {
       "date": "2026-08-06",
       "type": "release",
       "summary": "发布 26.1.15-rc2: 新版本",
@@ -32,7 +39,7 @@
   "sources": [
     "https://www.redpanda.com"
   ],
-  "lastReviewed": "2026-08-06",
+  "lastReviewed": "2026-08-13",
   "region": "overseas",
   "id": "redpanda",
   "name": "Redpanda",

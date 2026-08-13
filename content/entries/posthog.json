@@ -20,6 +20,12 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-08-13",
+      "type": "feature",
+      "summary": "I bribe customers to talk to me",
+      "source": "https://posthog.com/blog/bribing-customers-to-talk-to-me"
+    },
+    {
       "date": "2026-08-06",
       "type": "feature",
       "summary": "Are agents really killing UI?",
@@ -30,7 +36,7 @@
   "sources": [
     "https://posthog.com"
   ],
-  "lastReviewed": "2026-08-06",
+  "lastReviewed": "2026-08-13",
   "region": "overseas",
   "id": "posthog",
   "name": "PostHog",

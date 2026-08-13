@@ -17,6 +17,12 @@
   ],
   "updates": [
     {
+      "date": "2026-08-12",
+      "type": "feature",
+      "summary": "DSF Office Hours",
+      "source": "https://www.djangoproject.com/weblog/2026/aug/12/dsf-office-hours/"
+    },
+    {
       "date": "2026-08-04",
       "type": "release",
       "summary": "发布 6.0.8: Django security releases issued: 6.0.8 and 5.2.17",
@@ -35,7 +41,7 @@
   "sources": [
     "https://www.djangoproject.com"
   ],
-  "lastReviewed": "2026-08-04",
+  "lastReviewed": "2026-08-13",
   "region": "overseas",
   "id": "django",
   "name": "Django",

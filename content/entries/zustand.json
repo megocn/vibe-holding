@@ -20,12 +20,20 @@
   "pitfalls": [
     "缺乏强制约定，团队大了容易演化出风格各异的 store；选择器写得太粗会带来不必要的重渲染。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-13",
+      "type": "release",
+      "summary": "发布 5.0.15: 新版本",
+      "version": "5.0.15",
+      "source": "https://github.com/pmndrs/zustand/releases/tag/v5.0.15"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://github.com/pmndrs/zustand"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-13",
   "region": "overseas",
   "id": "zustand",
   "name": "Zustand",

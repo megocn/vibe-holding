@@ -17,6 +17,12 @@
   ],
   "updates": [
     {
+      "date": "2026-08-13",
+      "type": "feature",
+      "summary": "Agents on Rails: The LLM Benchmark Project",
+      "source": "https://rubyonrails.org/2026/8/13/llm-benchmarking-project"
+    },
+    {
       "date": "2026-08-09",
       "type": "deprecation",
       "summary": "rails 7.2 将于 2026-08-09 结束安全支持",
@@ -28,7 +34,7 @@
   "sources": [
     "https://rubyonrails.org"
   ],
-  "lastReviewed": "2026-08-02",
+  "lastReviewed": "2026-08-13",
   "region": "overseas",
   "id": "rails",
   "name": "Ruby on Rails",

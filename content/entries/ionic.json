@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-12",
+      "type": "release",
+      "summary": "发布 8.8.18: 新版本",
+      "version": "8.8.18",
+      "source": "https://github.com/ionic-team/ionic-framework/releases/tag/v8.8.18"
+    },
+    {
       "date": "2026-08-05",
       "type": "release",
       "summary": "发布 8.8.17: 新版本",
@@ -34,7 +41,7 @@
   "sources": [
     "https://ionicframework.com"
   ],
-  "lastReviewed": "2026-08-06",
+  "lastReviewed": "2026-08-13",
   "region": "overseas",
   "id": "ionic",
   "name": "Ionic",

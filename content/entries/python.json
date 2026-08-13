@@ -19,6 +19,12 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-08-13",
+      "type": "feature",
+      "summary": "Announcing the Packaging Council Election Candidates for 2026!",
+      "source": "https://blog.python.org/2026/08/2026-packaging-council-nominees/"
+    },
+    {
       "date": "2026-08-04",
       "type": "release",
       "summary": "发布 3.15.0: Python 3.15.0 candidate 1 is here!",
@@ -46,7 +52,7 @@
   "sources": [
     "https://www.python.org"
   ],
-  "lastReviewed": "2026-08-04",
+  "lastReviewed": "2026-08-13",
   "region": "both",
   "id": "python",
   "name": "Python",

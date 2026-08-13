@@ -17,6 +17,12 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-08-12",
+      "type": "feature",
+      "summary": "A new security baseline for enterprise agentic adoption",
+      "source": "https://www.docker.com/blog/a-new-security-baseline-for-enterprise-agentic-adoption/"
+    },
+    {
       "date": "2026-08-04",
       "type": "feature",
       "summary": "The Software Supply Chain Is Under Siege. Devs Are Still the First Line of Defense",
@@ -27,7 +33,7 @@
   "sources": [
     "https://www.docker.com"
   ],
-  "lastReviewed": "2026-08-04",
+  "lastReviewed": "2026-08-13",
   "region": "overseas",
   "id": "docker",
   "name": "Docker",
