@@ -17,6 +17,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-13",
+      "type": "release",
+      "summary": "发布 11.1.2: @astrojs/node@11.1.2",
+      "version": "11.1.2",
+      "source": "https://github.com/withastro/astro/releases/tag/%40astrojs%2Fnode%4011.1.2"
+    },
+    {
       "date": "2026-08-06",
       "type": "release",
       "summary": "发布 7.0.2: @astrojs/vue@7.0.2",
@@ -28,7 +35,7 @@
   "sources": [
     "https://astro.build"
   ],
-  "lastReviewed": "2026-08-06",
+  "lastReviewed": "2026-08-14",
   "region": "overseas",
   "id": "astro",
   "name": "Astro",

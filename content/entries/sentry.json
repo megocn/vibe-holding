@@ -19,6 +19,12 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-08-13",
+      "type": "feature",
+      "summary": "Automated agent triage with Agent Tracing and Claude Routines",
+      "source": "https://blog.sentry.io/claude-routines-agent-triage/"
+    },
+    {
       "date": "2026-08-06",
       "type": "feature",
       "summary": "How we built an automated debugging workflow at Sentry",
@@ -29,7 +35,7 @@
   "sources": [
     "https://sentry.io"
   ],
-  "lastReviewed": "2026-08-06",
+  "lastReviewed": "2026-08-14",
   "region": "overseas",
   "id": "sentry",
   "name": "Sentry",

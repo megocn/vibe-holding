@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-14",
+      "type": "release",
+      "summary": "发布 3.20.212-lts: 新版本",
+      "version": "3.20.212-lts",
+      "source": "https://github.com/ToolJet/ToolJet/releases/tag/v3.20.212-lts"
+    },
+    {
       "date": "2026-08-05",
       "type": "release",
       "summary": "发布 3.20.208-lts: 新版本",
@@ -33,7 +40,7 @@
   "sources": [
     "https://www.tooljet.com"
   ],
-  "lastReviewed": "2026-08-06",
+  "lastReviewed": "2026-08-14",
   "region": "overseas",
   "id": "tooljet",
   "name": "ToolJet",
@@ -44,5 +51,5 @@
   "descriptionMd": "ToolJet 面向工程与运营共建内部工具：可视化搭建、多数据源连接、简单审批流与 RBAC，社区版可自托管，商业版补协作与审计。\n\n需要比表格脚本更重、比自写完整 admin 更轻的中间层时，与 Appsmith/Retool 列入同一内部系统短名单。\n\n第三方集成与生态密度不及 Retool；超大团队对审计、SSO 与扩展的要求常把你推到企业版或自研。\n",
   "vendorId": "tooljet-inc",
   "githubUrl": "https://github.com/ToolJet/ToolJet",
-  "currentVersion": "3.20.208-lts"
+  "currentVersion": "3.20.212-lts"
 }

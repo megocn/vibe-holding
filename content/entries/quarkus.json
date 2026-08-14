@@ -21,12 +21,20 @@
     "原生镜像编译慢且对反射敏感，老库需配置适配",
     "扩展需官方 extension 支持，生态广度不及 Spring"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-13",
+      "type": "release",
+      "summary": "发布 3.38.2: 新版本",
+      "version": "3.38.2",
+      "source": "https://github.com/quarkusio/quarkus/releases/tag/3.38.2"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://quarkus.io"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-14",
   "region": "overseas",
   "id": "quarkus",
   "name": "Quarkus",

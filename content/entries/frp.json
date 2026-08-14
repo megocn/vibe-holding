@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-14",
+      "type": "release",
+      "summary": "发布 0.71.0: 新版本",
+      "version": "0.71.0",
+      "source": "https://github.com/fatedier/frp/releases/tag/v0.71.0"
+    },
+    {
       "date": "2026-07-23",
       "type": "release",
       "summary": "发布 0.70.1: 新版本",
@@ -33,7 +40,7 @@
   "sources": [
     "https://github.com/fatedier/frp"
   ],
-  "lastReviewed": "2026-08-06",
+  "lastReviewed": "2026-08-14",
   "region": "domestic",
   "id": "frp",
   "name": "frp",
@@ -43,5 +50,6 @@
   "officialUrl": "https://github.com/fatedier/frp",
   "descriptionMd": "frp 是客户端-服务端架构的开源内网穿透：HTTP/TCP/UDP 透出，你自备带公网 IP 的中继机即可运营，社区在国内很常用。\n\n国内工程要可控、低现金成本把内网服务暴露公网，并愿意自己运维中继与证书时，它是常见开源默认。\n\n安全加固、带宽与证书全靠自运维；没有商业 SaaS 的身份托管与 SLA，生产必须自己做监控。\n",
   "githubUrl": "https://github.com/fatedier/frp",
-  "vendorId": "fatedier-frp"
+  "vendorId": "fatedier-frp",
+  "currentVersion": "0.71.0"
 }

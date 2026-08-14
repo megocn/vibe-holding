@@ -2579,6 +2579,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-13",
+          "type": "release",
+          "summary": "发布 0.22.6: superset-helm-chart-0.22.6",
+          "version": "0.22.6",
+          "source": "https://github.com/apache/superset/releases/tag/superset-helm-chart-0.22.6"
+        },
+        {
           "date": "2026-07-27",
           "type": "release",
           "summary": "发布 0.22.4: superset-helm-chart-0.22.4",
@@ -2590,7 +2597,7 @@
       "sources": [
         "https://superset.apache.org"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-14",
       "region": "overseas",
       "id": "apache-superset",
       "name": "Apache Superset",
@@ -2739,6 +2746,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-13",
+          "type": "release",
+          "summary": "发布 4.2.12: @apollo/client@4.2.12",
+          "version": "4.2.12",
+          "source": "https://github.com/apollographql/apollo-client/releases/tag/%40apollo%2Fclient%404.2.12"
+        },
+        {
           "date": "2026-08-05",
           "type": "release",
           "summary": "发布 4.2.10: @apollo/client@4.2.10",
@@ -2750,7 +2764,7 @@
       "sources": [
         "https://www.apollographql.com"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-14",
       "region": "overseas",
       "id": "apollo-client",
       "name": "Apollo Client",
@@ -3245,6 +3259,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-13",
+          "type": "release",
+          "summary": "发布 11.1.2: @astrojs/node@11.1.2",
+          "version": "11.1.2",
+          "source": "https://github.com/withastro/astro/releases/tag/%40astrojs%2Fnode%4011.1.2"
+        },
+        {
           "date": "2026-08-06",
           "type": "release",
           "summary": "发布 7.0.2: @astrojs/vue@7.0.2",
@@ -3256,7 +3277,7 @@
       "sources": [
         "https://astro.build"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-14",
       "region": "overseas",
       "id": "astro",
       "name": "Astro",
@@ -7315,6 +7336,15 @@
           "previousRank": 1,
           "previousScore": 80.3,
           "previousAsOf": "2026-07-24"
+        },
+        {
+          "systemId": "openrouter-popularity",
+          "rank": 35,
+          "scoreLabel": "0.4%",
+          "share": 0.4,
+          "period": "2026-08",
+          "sourceUrl": "https://openrouter.ai/rankings",
+          "asOf": "2026-08-14"
         }
       ],
       "sources": [
@@ -7577,15 +7607,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 13,
-          "scoreLabel": "2%",
-          "share": 2,
+          "rank": 11,
+          "scoreLabel": "2.4%",
+          "share": 2.4,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-10",
-          "previousRank": 15,
-          "previousShare": 1.8,
-          "previousAsOf": "2026-08-02"
+          "asOf": "2026-08-14",
+          "previousRank": 13,
+          "previousShare": 2,
+          "previousAsOf": "2026-08-10"
         },
         {
           "systemId": "swe-bench-pro",
@@ -9327,6 +9357,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-14",
+          "type": "release",
+          "summary": "发布 1.12.0-rc02: +dev4645: Details",
+          "version": "1.12.0-rc02",
+          "source": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.0-rc02%2Bdev4645"
+        },
+        {
           "date": "2026-08-05",
           "type": "release",
           "summary": "发布 1.12.10-alpha01: +dev4604: Details",
@@ -9338,7 +9375,7 @@
       "sources": [
         "https://github.com/JetBrains/compose-multiplatform"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-14",
       "region": "overseas",
       "id": "compose-multiplatform",
       "name": "Compose Multiplatform",
@@ -9349,7 +9386,7 @@
       "descriptionMd": "Compose Multiplatform 由 JetBrains 把 Android 的 Jetpack Compose 延伸到 iOS、桌面与 Web，在 Kotlin Multiplatform 的共享逻辑之上再共享一层声明式界面。\n\n已选 KMP、团队熟悉 Compose 且希望界面也复用时评估；只想共享逻辑、界面保留原生的项目留在 KMP 即可。\n\niOS 与 Web 目标的成熟度落后于 Android 与桌面；自绘 UI 与系统控件、无障碍能力的融合需逐项验证。\n",
       "vendorId": "jetbrains",
       "githubUrl": "https://github.com/JetBrains/compose-multiplatform",
-      "currentVersion": "1.12.10-alpha01"
+      "currentVersion": "1.12.0-rc02"
     },
     {
       "pricing": {
@@ -12136,6 +12173,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-14",
+          "type": "release",
+          "summary": "发布 2.120.1: 新版本",
+          "version": "2.120.1",
+          "source": "https://github.com/docling-project/docling/releases/tag/v2.120.1"
+        },
+        {
           "date": "2026-08-03",
           "type": "release",
           "summary": "发布 2.118.0: 新版本",
@@ -12147,7 +12191,7 @@
       "sources": [
         "https://github.com/docling-project/docling"
       ],
-      "lastReviewed": "2026-08-04",
+      "lastReviewed": "2026-08-14",
       "region": "overseas",
       "id": "docling",
       "name": "Docling",
@@ -16059,6 +16103,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-14",
+          "type": "release",
+          "summary": "发布 0.71.0: 新版本",
+          "version": "0.71.0",
+          "source": "https://github.com/fatedier/frp/releases/tag/v0.71.0"
+        },
+        {
           "date": "2026-07-23",
           "type": "release",
           "summary": "发布 0.70.1: 新版本",
@@ -16070,7 +16121,7 @@
       "sources": [
         "https://github.com/fatedier/frp"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-14",
       "region": "domestic",
       "id": "frp",
       "name": "frp",
@@ -16080,7 +16131,8 @@
       "officialUrl": "https://github.com/fatedier/frp",
       "descriptionMd": "frp 是客户端-服务端架构的开源内网穿透：HTTP/TCP/UDP 透出，你自备带公网 IP 的中继机即可运营，社区在国内很常用。\n\n国内工程要可控、低现金成本把内网服务暴露公网，并愿意自己运维中继与证书时，它是常见开源默认。\n\n安全加固、带宽与证书全靠自运维；没有商业 SaaS 的身份托管与 SLA，生产必须自己做监控。\n",
       "githubUrl": "https://github.com/fatedier/frp",
-      "vendorId": "fatedier-frp"
+      "vendorId": "fatedier-frp",
+      "currentVersion": "0.71.0"
     },
     {
       "pricing": {
@@ -16195,6 +16247,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-14",
+          "type": "release",
+          "summary": "发布 1.4.2: FunASR 1.4.2",
+          "version": "1.4.2",
+          "source": "https://github.com/modelscope/FunASR/releases/tag/v1.4.2"
+        },
+        {
           "date": "2026-07-31",
           "type": "release",
           "summary": "发布 1.4.0: FunASR v1.4.0",
@@ -16206,7 +16265,7 @@
       "sources": [
         "https://github.com/modelscope/FunASR"
       ],
-      "lastReviewed": "2026-08-02",
+      "lastReviewed": "2026-08-14",
       "region": "domestic",
       "id": "funasr",
       "name": "FunASR",
@@ -17065,15 +17124,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 42,
+          "rank": 48,
           "scoreLabel": "0.2%",
           "share": 0.2,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-12",
-          "previousRank": 47,
+          "asOf": "2026-08-14",
+          "previousRank": 42,
           "previousShare": 0.2,
-          "previousAsOf": "2026-08-11"
+          "previousAsOf": "2026-08-12"
         }
       ],
       "subcategory": "line",
@@ -17236,15 +17295,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 25,
-          "scoreLabel": "0.7%",
-          "share": 0.7,
+          "rank": 23,
+          "scoreLabel": "0.8%",
+          "share": 0.8,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-12",
-          "previousRank": 28,
+          "asOf": "2026-08-14",
+          "previousRank": 25,
           "previousShare": 0.7,
-          "previousAsOf": "2026-08-06"
+          "previousAsOf": "2026-08-12"
         }
       ],
       "sources": [
@@ -17936,6 +17995,13 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-08-13",
+          "type": "release",
+          "summary": "维护线 1.26 最新 1.26.6",
+          "version": "1.26.6",
+          "source": "https://go.dev/doc/go1.26"
+        },
+        {
           "date": "2026-07-07",
           "type": "release",
           "summary": "维护线 1.26 最新 1.26.5",
@@ -17947,7 +18013,7 @@
       "sources": [
         "https://go.dev"
       ],
-      "lastReviewed": "2026-07-25",
+      "lastReviewed": "2026-08-14",
       "region": "both",
       "id": "go",
       "name": "Go",
@@ -17955,7 +18021,8 @@
       "subcategory": "language",
       "oneLiner": "简洁并发 · CLI/网关/云原生 · 单二进制部署",
       "descriptionMd": "Go 是简洁、高并发友好的语言，广泛用于 CLI、网关、基础设施与云原生服务。\n\n适合要单一二进制、部署简单、并发模型清晰的后端；相对 TS 全栈，生态更偏系统与平台工程。与 Rust 比：上手快、抽象少，极致性能与零成本抽象则让位于 Rust。\n\n单二进制与交叉编译友好；错误处理显式，适合平台型服务而非快速 CRUD 原型。\n",
-      "officialUrl": "https://go.dev"
+      "officialUrl": "https://go.dev",
+      "currentVersion": "1.26"
     },
     {
       "pricing": {
@@ -19040,15 +19107,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 5,
-          "scoreLabel": "7.3%",
-          "share": 7.3,
+          "rank": 3,
+          "scoreLabel": "7.7%",
+          "share": 7.7,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-08",
+          "asOf": "2026-08-14",
           "previousRank": 5,
-          "previousShare": 6.3,
-          "previousAsOf": "2026-08-06"
+          "previousShare": 7.3,
+          "previousAsOf": "2026-08-08"
         }
       ],
       "sources": [
@@ -29656,12 +29723,19 @@
       "pitfalls": [
         "资源占用与模型版本需锁定；扫描件质量差时仍依赖上游 OCR 能力。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-14",
+          "type": "feature",
+          "summary": "MinerU 4.0.0a6",
+          "source": "https://github.com/opendatalab/MinerU/releases/tag/v4.0.0a6"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://github.com/opendatalab/MinerU"
       ],
-      "lastReviewed": "2026-07-24",
+      "lastReviewed": "2026-08-14",
       "region": "both",
       "id": "mineru",
       "name": "MinerU",
@@ -31861,6 +31935,13 @@
       "currentVersion": "16.3.0",
       "updates": [
         {
+          "date": "2026-08-13",
+          "type": "release",
+          "summary": "发布 16.3.1: 新版本",
+          "version": "16.3.1",
+          "source": "https://github.com/vercel/next.js/releases/tag/v16.3.1"
+        },
+        {
           "date": "2026-08-03",
           "type": "release",
           "summary": "发布 16.3.0: 新版本",
@@ -31891,7 +31972,7 @@
       "sources": [
         "https://nextjs.org"
       ],
-      "lastReviewed": "2026-08-04",
+      "lastReviewed": "2026-08-14",
       "region": "overseas",
       "id": "nextjs",
       "name": "Next.js",
@@ -33261,6 +33342,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-14",
+          "type": "release",
+          "summary": "发布 0.92.1: Release v0.92.1",
+          "version": "0.92.1",
+          "source": "https://github.com/openobserve/openobserve/releases/tag/v0.92.1"
+        },
+        {
           "date": "2026-08-05",
           "type": "release",
           "summary": "发布 0.92.0-rc3: Release v0.92.0-rc3",
@@ -33272,7 +33360,7 @@
       "sources": [
         "https://openobserve.ai"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-14",
       "region": "overseas",
       "id": "openobserve",
       "name": "OpenObserve",
@@ -36889,12 +36977,20 @@
       "pitfalls": [
         "跨浏览器能力弱于后来者；等待与重试要自己写，页面异步复杂时容易出现偶发失败。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-13",
+          "type": "release",
+          "summary": "发布 25.7.0: puppeteer: v25.7.0",
+          "version": "25.7.0",
+          "source": "https://github.com/puppeteer/puppeteer/releases/tag/puppeteer-v25.7.0"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://pptr.dev"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-14",
       "region": "overseas",
       "id": "puppeteer",
       "name": "Puppeteer",
@@ -36904,7 +37000,8 @@
       "officialUrl": "https://pptr.dev",
       "descriptionMd": "Puppeteer 是 Chrome 团队维护的 Node 浏览器控制库，直连 DevTools 协议，在性能采集、PDF 打印、拦截请求等底层控制上顺手，是很多抓取与截图服务的底座。\n\n只面向 Chromium、且以 Node 为主的场景可以继续用；要跨三种引擎并跑测试断言，Playwright 的工具链更完整。\n\n跨浏览器能力弱于后来者；等待与重试要自己写，页面异步复杂时容易出现偶发失败。\n",
       "vendorId": "google",
-      "githubUrl": "https://github.com/puppeteer/puppeteer"
+      "githubUrl": "https://github.com/puppeteer/puppeteer",
+      "currentVersion": "25.7.0"
     },
     {
       "pricing": {
@@ -37269,12 +37366,20 @@
         "原生镜像编译慢且对反射敏感，老库需配置适配",
         "扩展需官方 extension 支持，生态广度不及 Spring"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-13",
+          "type": "release",
+          "summary": "发布 3.38.2: 新版本",
+          "version": "3.38.2",
+          "source": "https://github.com/quarkusio/quarkus/releases/tag/3.38.2"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://quarkus.io"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-14",
       "region": "overseas",
       "id": "quarkus",
       "name": "Quarkus",
@@ -38895,11 +39000,19 @@
       "pitfalls": [
         "与 Next 生态心智不同"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-14",
+          "type": "release",
+          "summary": "发布 0.1.0: ui-hmr v0.1.0",
+          "version": "0.1.0",
+          "source": "https://github.com/remix-run/remix/releases/tag/ui-hmr%400.1.0"
+        }
+      ],
       "sources": [
         "https://remix.run"
       ],
-      "lastReviewed": "2026-07-23",
+      "lastReviewed": "2026-08-14",
       "region": "overseas",
       "id": "remix",
       "name": "Remix",
@@ -38917,7 +39030,8 @@
           "asOf": "2026-07-20",
           "previousAsOf": "2026-07-20"
         }
-      ]
+      ],
+      "currentVersion": "0.1.0"
     },
     {
       "pricing": {
@@ -40867,6 +40981,12 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-08-13",
+          "type": "feature",
+          "summary": "Automated agent triage with Agent Tracing and Claude Routines",
+          "source": "https://blog.sentry.io/claude-routines-agent-triage/"
+        },
+        {
           "date": "2026-08-06",
           "type": "feature",
           "summary": "How we built an automated debugging workflow at Sentry",
@@ -40877,7 +40997,7 @@
       "sources": [
         "https://sentry.io"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-14",
       "region": "overseas",
       "id": "sentry",
       "name": "Sentry",
@@ -41024,6 +41144,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-13",
+          "type": "release",
+          "summary": "发布 4.18.0: shadcn@4.18.0",
+          "version": "4.18.0",
+          "source": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.18.0"
+        },
+        {
           "date": "2026-08-05",
           "type": "release",
           "summary": "发布 0.3.0: @shadcn/react@0.3.0",
@@ -41040,7 +41167,7 @@
       "sources": [
         "https://ui.shadcn.com"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-14",
       "region": "overseas",
       "id": "shadcn-ui",
       "name": "shadcn/ui",
@@ -41067,7 +41194,7 @@
           "previousAsOf": "2026-07-20"
         }
       ],
-      "currentVersion": "0.3.0"
+      "currentVersion": "4.18.0"
     },
     {
       "pricing": {
@@ -45883,6 +46010,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-14",
+          "type": "release",
+          "summary": "发布 3.20.212-lts: 新版本",
+          "version": "3.20.212-lts",
+          "source": "https://github.com/ToolJet/ToolJet/releases/tag/v3.20.212-lts"
+        },
+        {
           "date": "2026-08-05",
           "type": "release",
           "summary": "发布 3.20.208-lts: 新版本",
@@ -45894,7 +46028,7 @@
       "sources": [
         "https://www.tooljet.com"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-14",
       "region": "overseas",
       "id": "tooljet",
       "name": "ToolJet",
@@ -45905,7 +46039,7 @@
       "descriptionMd": "ToolJet 面向工程与运营共建内部工具：可视化搭建、多数据源连接、简单审批流与 RBAC，社区版可自托管，商业版补协作与审计。\n\n需要比表格脚本更重、比自写完整 admin 更轻的中间层时，与 Appsmith/Retool 列入同一内部系统短名单。\n\n第三方集成与生态密度不及 Retool；超大团队对审计、SSO 与扩展的要求常把你推到企业版或自研。\n",
       "vendorId": "tooljet-inc",
       "githubUrl": "https://github.com/ToolJet/ToolJet",
-      "currentVersion": "3.20.208-lts"
+      "currentVersion": "3.20.212-lts"
     },
     {
       "pricing": {
@@ -48564,12 +48698,20 @@
         "绑定 Django 技术栈，非 Python 团队维护成本高。",
         "页面模型改动需写迁移，运营侧无法自助调整结构。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-14",
+          "type": "release",
+          "summary": "发布 16479108: 新版本",
+          "version": "16479108",
+          "source": "https://github.com/wagtail/wagtail/releases/tag/v8.0rc1"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://wagtail.org"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-14",
       "region": "overseas",
       "id": "wagtail",
       "name": "Wagtail",
@@ -48580,7 +48722,8 @@
       "descriptionMd": "Wagtail 是构建在 Django 之上的开源 CMS，以页面树组织站点、模型用 Python 声明，内置版本、审校与工作流，天然与既有 Django 业务共用一套模型与权限。\n\n团队已是 Python/Django 栈、站点信息架构层级深、且对无障碍与审校流程有要求时评估。\n\n对非 Python 团队门槛高；改页面结构要写模型与迁移，运营无法自助扩字段。\n",
       "vendorId": "torchbox",
       "githubUrl": "https://github.com/wagtail/wagtail",
-      "docsUrl": "https://docs.wagtail.org"
+      "docsUrl": "https://docs.wagtail.org",
+      "currentVersion": "16479108"
     },
     {
       "pricing": {

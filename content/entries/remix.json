@@ -19,11 +19,19 @@
   "pitfalls": [
     "与 Next 生态心智不同"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-14",
+      "type": "release",
+      "summary": "发布 0.1.0: ui-hmr v0.1.0",
+      "version": "0.1.0",
+      "source": "https://github.com/remix-run/remix/releases/tag/ui-hmr%400.1.0"
+    }
+  ],
   "sources": [
     "https://remix.run"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-08-14",
   "region": "overseas",
   "id": "remix",
   "name": "Remix",
@@ -41,5 +49,6 @@
       "asOf": "2026-07-20",
       "previousAsOf": "2026-07-20"
     }
-  ]
+  ],
+  "currentVersion": "0.1.0"
 }

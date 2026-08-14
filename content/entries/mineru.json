@@ -21,12 +21,19 @@
   "pitfalls": [
     "资源占用与模型版本需锁定；扫描件质量差时仍依赖上游 OCR 能力。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-14",
+      "type": "feature",
+      "summary": "MinerU 4.0.0a6",
+      "source": "https://github.com/opendatalab/MinerU/releases/tag/v4.0.0a6"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://github.com/opendatalab/MinerU"
   ],
-  "lastReviewed": "2026-07-24",
+  "lastReviewed": "2026-08-14",
   "region": "both",
   "id": "mineru",
   "name": "MinerU",

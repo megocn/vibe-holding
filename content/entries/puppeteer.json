@@ -20,12 +20,20 @@
   "pitfalls": [
     "跨浏览器能力弱于后来者；等待与重试要自己写，页面异步复杂时容易出现偶发失败。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-13",
+      "type": "release",
+      "summary": "发布 25.7.0: puppeteer: v25.7.0",
+      "version": "25.7.0",
+      "source": "https://github.com/puppeteer/puppeteer/releases/tag/puppeteer-v25.7.0"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://pptr.dev"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-14",
   "region": "overseas",
   "id": "puppeteer",
   "name": "Puppeteer",
@@ -35,5 +43,6 @@
   "officialUrl": "https://pptr.dev",
   "descriptionMd": "Puppeteer 是 Chrome 团队维护的 Node 浏览器控制库，直连 DevTools 协议，在性能采集、PDF 打印、拦截请求等底层控制上顺手，是很多抓取与截图服务的底座。\n\n只面向 Chromium、且以 Node 为主的场景可以继续用；要跨三种引擎并跑测试断言，Playwright 的工具链更完整。\n\n跨浏览器能力弱于后来者；等待与重试要自己写，页面异步复杂时容易出现偶发失败。\n",
   "vendorId": "google",
-  "githubUrl": "https://github.com/puppeteer/puppeteer"
+  "githubUrl": "https://github.com/puppeteer/puppeteer",
+  "currentVersion": "25.7.0"
 }
