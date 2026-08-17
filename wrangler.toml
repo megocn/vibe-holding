@@ -1,4 +1,5 @@
 # Cloudflare Pages — 墨台（VibeHolding）Web 静态壳
+# 线上：https://vibeholding.megoclick.com （Pages 项目 vibeholding，生产分支 main）
 # 部署：pnpm build:web && pnpm deploy:pages
 name = "vibeholding"
 compatibility_date = "2026-07-24"

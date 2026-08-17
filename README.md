@@ -17,7 +17,7 @@
 </p>
 
 <p align="center">
-  <a href="https://vibeholding.pages.dev">在线体验</a>
+  <a href="https://vibeholding.megoclick.com">在线体验</a>
   ·
   <a href="#上线路程--av-图廓">A–V 图廓</a>
   ·
@@ -65,7 +65,7 @@
 | | |
 | --- | --- |
 | **是什么** | 开源 AI 全链路基建选型知识库（图廓 · 边 · 客户端）。 |
-| **怎么开** | 主入口 → **[在线体验 vibeholding.pages.dev](https://vibeholding.pages.dev)**（免注册只读） |
+| **怎么开** | 主入口 → **[在线体验 vibeholding.megoclick.com](https://vibeholding.megoclick.com)**（免注册只读） |
 | **本地预览** | `pnpm install && pnpm --filter @vh/desktop dev` |
 | **怎么贡献** | 补条目 / 边到 `content/` → [CONTRIBUTING · 最小路径](CONTRIBUTING.md#贡献最小路径-只改-content)（三步：改 JSON → `pnpm validate` → PR） |
 
@@ -138,7 +138,7 @@ V 出海与本地化            跨境收款 · 主体路径 · i18n · EOR
 | 管好一堆 API Key 与账号 | **凭据**（仅桌面，本机加密） |
 | 搞明白大模型排行「权重凭什么这么定」 | **[选型擂台](#选型擂台--群英论剑)** —— 挂在 **B 卷**上的可交互解释器 |
 
-三种打开方式，都不用注册、不用后端：在线只读 [vibeholding.pages.dev](https://vibeholding.pages.dev) · 本地浏览器 `pnpm --filter @vh/desktop dev` · 桌面应用 `pnpm --filter @vh/desktop tauri:dev`（需 Rust，含凭据管家）。
+三种打开方式，都不用注册、不用后端：在线只读 [vibeholding.megoclick.com](https://vibeholding.megoclick.com) · 本地浏览器 `pnpm --filter @vh/desktop dev` · 桌面应用 `pnpm --filter @vh/desktop tauri:dev`（需 Rust，含凭据管家）。
 
 <details>
 <summary><strong>为什么是墨台 · 核心理念</strong>（展开）</summary>
@@ -304,7 +304,7 @@ V 出海与本地化            跨境收款 · 主体路径 · i18n · EOR
 
 ### Web · 浏览器（只读 · 深色）
 
-自托管静态壳；在线预览：[vibeholding.pages.dev](https://vibeholding.pages.dev)
+自托管静态壳；在线预览：[vibeholding.megoclick.com](https://vibeholding.megoclick.com)
 
 <p align="center">
   <img src="docs/screenshots/web/01-home.webp" width="100%" alt="Web · 首页" /><br/>
@@ -348,7 +348,7 @@ V 出海与本地化            跨境收款 · 主体路径 · i18n · EOR
 
 | 方式 | 命令 / 地址 | 说明 |
 | --- | --- | --- |
-| **在线** | [vibeholding.pages.dev](https://vibeholding.pages.dev) | 只读浏览，免安装 |
+| **在线** | [vibeholding.megoclick.com](https://vibeholding.megoclick.com) | 只读浏览，免安装 |
 | **浏览器本地** | `pnpm --filter @vh/desktop dev` | 无需 Rust，开发与自用皆可 |
 | **桌面窗口** | `pnpm --filter @vh/desktop tauri:dev` | 需 [rustup](https://rustup.rs/)；含凭据管家 |
 

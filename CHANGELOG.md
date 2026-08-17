@@ -28,7 +28,7 @@
 - **对比**：最多四列并观，差异高亮
 - **情报**：更新时间线与关注；feeds 驱动的公共情报源
 - **凭据**：仅桌面 / CLI 本机路径（Web 默认不含）
-- **多端**：桌面（Tauri）完整能力；Web 静态只读（[vibeholding.pages.dev](https://vibeholding.pages.dev)）；窄屏适配
+- **多端**：桌面（Tauri）完整能力；Web 静态只读（[vibeholding.megoclick.com](https://vibeholding.megoclick.com)）；窄屏适配
 - **选型擂台**：挂 B 卷的可交互解释器——**玩法代码不在本仓**（`private/`）；消费本仓 `content/` 中的榜与条目。在线：[vibeholding-arena.pages.dev](https://vibeholding-arena.pages.dev/pixel.html)
 
 ### 贡献者相关
