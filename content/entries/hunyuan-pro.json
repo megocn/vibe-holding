@@ -58,13 +58,13 @@
     },
     {
       "systemId": "lmarena-i2v",
-      "rank": 34,
+      "rank": 36,
       "score": 1196,
       "scoreLabel": "1196 Elo",
-      "period": "2026-07",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
       "note": "模型 hunyuan-video-1.5",
-      "asOf": "2026-07-26",
+      "asOf": "2026-08-17",
       "previousRank": 34,
       "previousScore": 1196,
       "previousAsOf": "2026-07-26"

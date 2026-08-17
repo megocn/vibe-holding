@@ -104,6 +104,16 @@
       "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
       "note": "模型 minimax-h3",
       "asOf": "2026-08-04"
+    },
+    {
+      "systemId": "lmarena-video-edit",
+      "rank": 1,
+      "score": 1390,
+      "scoreLabel": "1390 Elo",
+      "period": "2026-08",
+      "sourceUrl": "https://arena.ai/leaderboard/video-edit",
+      "note": "模型 minimax-h3",
+      "asOf": "2026-08-17"
     }
   ],
   "sources": [

@@ -74,13 +74,13 @@
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 4,
-      "score": 1628,
-      "scoreLabel": "1628 Elo",
-      "period": "2026-07",
+      "rank": 6,
+      "score": 1627,
+      "scoreLabel": "1627 Elo",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 claude-fable-5",
-      "asOf": "2026-07-29",
+      "asOf": "2026-08-17",
       "previousRank": 4,
       "previousScore": 1628,
       "previousAsOf": "2026-07-29"

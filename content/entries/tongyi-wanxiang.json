@@ -58,13 +58,13 @@
     },
     {
       "systemId": "lmarena-i2v",
-      "rank": 37,
+      "rank": 39,
       "score": 1169,
       "scoreLabel": "1169 Elo",
-      "period": "2026-07",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
       "note": "模型 wan-v2.2-a14b",
-      "asOf": "2026-07-26",
+      "asOf": "2026-08-17",
       "previousRank": 37,
       "previousScore": 1169,
       "previousAsOf": "2026-07-26"

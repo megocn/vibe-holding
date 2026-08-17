@@ -41,13 +41,13 @@
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 14,
-      "score": 1542,
-      "scoreLabel": "1542 Elo",
+      "rank": 17,
+      "score": 1540,
+      "scoreLabel": "1540 Elo",
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 claude-sonnet-5-high",
-      "asOf": "2026-08-03",
+      "asOf": "2026-08-17",
       "previousRank": 14,
       "previousScore": 1542,
       "previousAsOf": "2026-08-03"

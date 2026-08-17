@@ -75,13 +75,13 @@
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 5,
-      "score": 1623,
-      "scoreLabel": "1623 Elo",
-      "period": "2026-07",
+      "rank": 7,
+      "score": 1622,
+      "scoreLabel": "1622 Elo",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 gpt-5.6-sol-xhigh (codex-harness)",
-      "asOf": "2026-07-29",
+      "asOf": "2026-08-17",
       "previousRank": 5,
       "previousScore": 1623,
       "previousAsOf": "2026-07-29"

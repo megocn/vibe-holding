@@ -37,13 +37,13 @@
     },
     {
       "systemId": "lmarena-i2v",
-      "rank": 23,
-      "score": 1260,
-      "scoreLabel": "1260 Elo",
-      "period": "2026-07",
+      "rank": 25,
+      "score": 1261,
+      "scoreLabel": "1261 Elo",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
       "note": "模型 hailuo-2.3",
-      "asOf": "2026-07-26",
+      "asOf": "2026-08-17",
       "previousRank": 23,
       "previousScore": 1260,
       "previousAsOf": "2026-07-26"

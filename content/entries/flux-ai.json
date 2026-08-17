@@ -76,6 +76,16 @@
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 flux-3-video",
       "asOf": "2026-08-12"
+    },
+    {
+      "systemId": "lmarena-i2v",
+      "rank": 5,
+      "score": 1453,
+      "scoreLabel": "1453 Elo",
+      "period": "2026-08",
+      "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
+      "note": "模型 flux-3-video-20260811",
+      "asOf": "2026-08-17"
     }
   ],
   "sources": [
