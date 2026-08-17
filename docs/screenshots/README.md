@@ -14,4 +14,4 @@
 
 重抓时可对 `http://localhost:5280` 用 Playwright：设置里切换「深色」「浅色」，按导航分区截图后压缩替换本目录文件。
 
-`arena/` 抓自线上 `https://vibeholding-arena.pages.dev/pixel.html`（擂台本体闭源，不在本仓构建）。用 Playwright + `--use-angle=swiftshader` 走「点将 → 踏入竹林 → 查看完整战报」流程连拍；战斗帧用 `.app-shell` 元素截图去掉上下留白，终结技分镜需在演出瞬间抓取（该帧渲染重，整页截图易超时）。
+`arena/` 抓自线上 `https://arena.megoclick.com/pixel.html`（擂台本体闭源，不在本仓构建）。用 Playwright + `--use-angle=swiftshader` 走「点将 → 踏入竹林 → 查看完整战报」流程连拍；战斗帧用 `.app-shell` 元素截图去掉上下留白，终结技分镜需在演出瞬间抓取（该帧渲染重，整页截图易超时）。
