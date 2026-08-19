@@ -6580,12 +6580,20 @@
         "连接层容量规划、灰度与故障演练需自行承担",
         "令牌鉴权需自行设计密钥轮换与过期策略"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-18",
+          "type": "release",
+          "summary": "发布 6.9.2: 新版本",
+          "version": "6.9.2",
+          "source": "https://github.com/centrifugal/centrifugo/releases/tag/v6.9.2"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://centrifugal.dev"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-19",
       "region": "overseas",
       "id": "centrifugo",
       "name": "Centrifugo",
@@ -12827,16 +12835,16 @@
         },
         {
           "systemId": "lmarena-video-edit",
-          "rank": 2,
-          "score": 1358,
-          "scoreLabel": "1358 Elo",
+          "rank": 1,
+          "score": 1411,
+          "scoreLabel": "1411 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/video-edit",
-          "note": "模型 dreamina-seedance-2.0-720p",
-          "asOf": "2026-08-17",
-          "previousRank": 1,
-          "previousScore": 1377,
-          "previousAsOf": "2026-07-24"
+          "note": "模型 dreamina-seedance-2.5-720p",
+          "asOf": "2026-08-19",
+          "previousRank": 2,
+          "previousScore": 1358,
+          "previousAsOf": "2026-08-17"
         },
         {
           "systemId": "aa-video-arena",
@@ -13484,6 +13492,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-25",
+          "type": "deprecation",
+          "summary": "electron 41 将于 2026-08-25 结束安全支持",
+          "version": "41",
+          "source": "https://endoflife.date/electron"
+        },
+        {
           "date": "2026-07-21",
           "type": "release",
           "summary": "维护线 43 最新 43.2.0",
@@ -13495,7 +13510,7 @@
       "sources": [
         "https://www.electronjs.org"
       ],
-      "lastReviewed": "2026-07-25",
+      "lastReviewed": "2026-08-19",
       "region": "overseas",
       "id": "electron",
       "name": "Electron",
@@ -16664,15 +16679,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 20,
-          "scoreLabel": "1.1%",
-          "share": 1.1,
+          "rank": 22,
+          "scoreLabel": "1%",
+          "share": 1,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-06",
-          "previousRank": 18,
-          "previousShare": 1.3,
-          "previousAsOf": "2026-08-03"
+          "asOf": "2026-08-19",
+          "previousRank": 20,
+          "previousShare": 1.1,
+          "previousAsOf": "2026-08-06"
         }
       ],
       "sources": [
@@ -16802,15 +16817,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 9,
-          "scoreLabel": "3.4%",
-          "share": 3.4,
+          "rank": 7,
+          "scoreLabel": "3.7%",
+          "share": 3.7,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-07",
-          "previousRank": 14,
-          "previousShare": 2.1,
-          "previousAsOf": "2026-08-06"
+          "asOf": "2026-08-19",
+          "previousRank": 9,
+          "previousShare": 3.4,
+          "previousAsOf": "2026-08-07"
         },
         {
           "systemId": "lmarena-document",
@@ -16966,13 +16981,13 @@
         },
         {
           "systemId": "lmarena-video-edit",
-          "period": "2026-07",
-          "note": "gemini-omni-flash",
+          "rank": 4,
+          "score": 1358,
+          "scoreLabel": "1358 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/video-edit",
-          "asOf": "2026-07-24",
-          "rank": 2,
-          "score": 1347,
-          "scoreLabel": "1347 Elo",
+          "note": "模型 gemini-omni-flash",
+          "asOf": "2026-08-19",
           "previousRank": 2,
           "previousScore": 1347,
           "previousAsOf": "2026-07-24"
@@ -17318,15 +17333,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 26,
-          "scoreLabel": "0.7%",
-          "share": 0.7,
+          "rank": 31,
+          "scoreLabel": "0.6%",
+          "share": 0.6,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-17",
-          "previousRank": 23,
-          "previousShare": 0.8,
-          "previousAsOf": "2026-08-14"
+          "asOf": "2026-08-19",
+          "previousRank": 26,
+          "previousShare": 0.7,
+          "previousAsOf": "2026-08-17"
         }
       ],
       "sources": [
@@ -17444,6 +17459,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-18",
+          "type": "release",
+          "summary": "发布 6.58.0: 新版本",
+          "version": "6.58.0",
+          "source": "https://github.com/TryGhost/Ghost/releases/tag/v6.58.0"
+        },
+        {
           "date": "2026-08-07",
           "type": "release",
           "summary": "发布 6.57.0: 新版本",
@@ -17455,7 +17477,7 @@
       "sources": [
         "https://ghost.org"
       ],
-      "lastReviewed": "2026-08-08",
+      "lastReviewed": "2026-08-19",
       "region": "overseas",
       "id": "ghost",
       "name": "Ghost",
@@ -17467,7 +17489,7 @@
       "vendorId": "ghost-foundation",
       "githubUrl": "https://github.com/TryGhost/Ghost",
       "docsUrl": "https://ghost.org/docs/",
-      "currentVersion": "6.57.0"
+      "currentVersion": "6.58.0"
     },
     {
       "pricing": {
@@ -18761,13 +18783,13 @@
       "rankings": [
         {
           "systemId": "lmarena-t2v",
-          "period": "2026-07",
-          "note": "veo-3.1-audio-1080p",
-          "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
-          "asOf": "2026-07-24",
-          "rank": 6,
+          "rank": 9,
           "score": 1364,
           "scoreLabel": "1364 Elo",
+          "period": "2026-08",
+          "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
+          "note": "模型 veo-3.1-audio",
+          "asOf": "2026-08-19",
           "previousRank": 6,
           "previousScore": 1364,
           "previousAsOf": "2026-07-24"
@@ -19241,15 +19263,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 17,
+          "rank": 15,
           "scoreLabel": "1.3%",
           "share": 1.3,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-12",
-          "previousRank": 19,
-          "previousShare": 1.1,
-          "previousAsOf": "2026-08-04"
+          "asOf": "2026-08-19",
+          "previousRank": 17,
+          "previousShare": 1.3,
+          "previousAsOf": "2026-08-12"
         },
         {
           "systemId": "lmarena-text",
@@ -19459,6 +19481,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-18",
+          "type": "release",
+          "summary": "发布 7.1.8: 新版本",
+          "version": "7.1.8",
+          "source": "https://github.com/Graylog2/graylog2-server/releases/tag/7.1.8"
+        },
+        {
           "date": "2026-08-05",
           "type": "release",
           "summary": "发布 7.1.7: 新版本",
@@ -19470,7 +19499,7 @@
       "sources": [
         "https://graylog.org"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-19",
       "region": "overseas",
       "id": "graylog",
       "name": "Graylog",
@@ -19665,15 +19694,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 38,
-          "scoreLabel": "0.4%",
-          "share": 0.4,
+          "rank": 32,
+          "scoreLabel": "0.6%",
+          "share": 0.6,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-17",
-          "previousRank": 31,
-          "previousShare": 0.7,
-          "previousAsOf": "2026-08-03"
+          "asOf": "2026-08-19",
+          "previousRank": 38,
+          "previousShare": 0.4,
+          "previousAsOf": "2026-08-17"
         }
       ],
       "sources": [
@@ -19758,13 +19787,13 @@
         },
         {
           "systemId": "lmarena-i2v",
-          "rank": 3,
-          "score": 1466,
-          "scoreLabel": "1466 Elo",
-          "period": "2026-07",
+          "rank": 5,
+          "score": 1460,
+          "scoreLabel": "1460 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
-          "note": "模型 grok-imagine-video-1.5-preview-720p",
-          "asOf": "2026-07-26",
+          "note": "模型 grok-imagine-video-1.5-720p",
+          "asOf": "2026-08-19",
           "previousRank": 3,
           "previousScore": 1466,
           "previousAsOf": "2026-07-26"
@@ -19784,13 +19813,13 @@
         },
         {
           "systemId": "lmarena-video-edit",
-          "rank": 4,
-          "score": 1264,
-          "scoreLabel": "1264 Elo",
+          "rank": 6,
+          "score": 1262,
+          "scoreLabel": "1262 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/video-edit",
           "note": "模型 grok-imagine-video",
-          "asOf": "2026-08-02",
+          "asOf": "2026-08-19",
           "previousRank": 4,
           "previousScore": 1264,
           "previousAsOf": "2026-08-02"
@@ -20257,13 +20286,13 @@
       "rankings": [
         {
           "systemId": "lmarena-t2v",
-          "period": "2026-07",
-          "note": "happyhorse-1.0",
+          "rank": 7,
+          "score": 1428,
+          "scoreLabel": "1428 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
-          "asOf": "2026-07-24",
-          "rank": 4,
-          "score": 1430,
-          "scoreLabel": "1430 Elo",
+          "note": "模型 happyhorse-1.0",
+          "asOf": "2026-08-19",
           "previousRank": 4,
           "previousScore": 1430,
           "previousAsOf": "2026-07-24"
@@ -20283,13 +20312,13 @@
         },
         {
           "systemId": "lmarena-video-edit",
-          "period": "2026-07",
-          "note": "happyhorse-1.0",
+          "rank": 5,
+          "score": 1307,
+          "scoreLabel": "1307 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/video-edit",
-          "asOf": "2026-07-24",
-          "rank": 3,
-          "score": 1308,
-          "scoreLabel": "1308 Elo",
+          "note": "模型 happyhorse-1.0",
+          "asOf": "2026-08-19",
           "previousRank": 3,
           "previousScore": 1308,
           "previousAsOf": "2026-07-24"
@@ -24333,12 +24362,20 @@
         "项目较新，生态与第三方字段类型少于老牌方案。",
         "面向中小内容量，重协作场景仍需托管型 CMS。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-18",
+          "type": "release",
+          "summary": "发布 5.0.5: @keystatic/next@5.0.5",
+          "version": "5.0.5",
+          "source": "https://github.com/Thinkmill/keystatic/releases/tag/%40keystatic%2Fnext%405.0.5"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://keystatic.com"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-19",
       "region": "overseas",
       "id": "keystatic",
       "name": "Keystatic",
@@ -26603,6 +26640,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-18",
+          "type": "release",
+          "summary": "发布 0.1.2: 新版本",
+          "version": "0.1.2",
+          "source": "https://github.com/ggml-org/llama.cpp/releases/tag/v0.1.2"
+        },
+        {
           "date": "2026-08-08",
           "type": "feature",
           "summary": "b10331",
@@ -26625,7 +26669,7 @@
       "sources": [
         "https://github.com/ggerganov/llama.cpp"
       ],
-      "lastReviewed": "2026-08-09",
+      "lastReviewed": "2026-08-19",
       "region": "overseas",
       "id": "llama-cpp",
       "name": "llama.cpp",
@@ -27469,6 +27513,13 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-08-18",
+          "type": "release",
+          "summary": "发布 1.32.0: Version 1.32.0",
+          "version": "1.32.0",
+          "source": "https://github.com/lucide-icons/lucide/releases/tag/1.32.0"
+        },
+        {
           "date": "2026-08-06",
           "type": "release",
           "summary": "发布 1.29.0: Version 1.29.0",
@@ -27503,7 +27554,7 @@
       "sources": [
         "https://lucide.dev"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-19",
       "region": "overseas",
       "id": "lucide",
       "name": "Lucide",
@@ -27512,7 +27563,7 @@
       "oneLiner": "Feather 演进 · 线条清晰 · shadcn 系常见默认",
       "descriptionMd": "Lucide 是基于 Feather 演进的开源图标集，线条清晰，React 等多框架封装齐全。\n\n适合产品 UI 图标层；与 Phosphor（多字重）按视觉体系二选一或分工。不可与 Ant Design 等完整组件库同榜硬比。\n\n图标语义保持一致比「多一个风格」重要；与文案、空状态插画统一视觉权重。\n",
       "officialUrl": "https://lucide.dev",
-      "currentVersion": "1.29.0"
+      "currentVersion": "1.32.0"
     },
     {
       "pricing": {
@@ -29119,13 +29170,13 @@
       "rankings": [
         {
           "systemId": "lmarena-t2v",
-          "period": "2026-07",
-          "note": "muse-video",
+          "rank": 5,
+          "score": 1457,
+          "scoreLabel": "1457 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
-          "asOf": "2026-07-24",
-          "rank": 3,
-          "score": 1459,
-          "scoreLabel": "1459 Elo",
+          "note": "模型 muse-video",
+          "asOf": "2026-08-19",
           "previousRank": 3,
           "previousScore": 1459,
           "previousAsOf": "2026-07-24"
@@ -29677,15 +29728,15 @@
       "rankings": [
         {
           "systemId": "openrouter-popularity",
-          "rank": 6,
-          "scoreLabel": "5.4%",
-          "share": 5.4,
+          "rank": 4,
+          "scoreLabel": "7.4%",
+          "share": 7.4,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-17",
-          "previousRank": 5,
-          "previousShare": 6.9,
-          "previousAsOf": "2026-08-13"
+          "asOf": "2026-08-19",
+          "previousRank": 6,
+          "previousShare": 5.4,
+          "previousAsOf": "2026-08-17"
         },
         {
           "systemId": "artificial-analysis-index",
@@ -29866,13 +29917,16 @@
         },
         {
           "systemId": "lmarena-t2v",
-          "rank": 4,
-          "score": 1455,
-          "scoreLabel": "1455 Elo",
+          "rank": 6,
+          "score": 1453,
+          "scoreLabel": "1453 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
           "note": "模型 minimax-h3",
-          "asOf": "2026-08-04"
+          "asOf": "2026-08-19",
+          "previousRank": 4,
+          "previousScore": 1455,
+          "previousAsOf": "2026-08-04"
         },
         {
           "systemId": "lmarena-i2v",
@@ -31651,12 +31705,20 @@
         "需额外学习 Colang，规则复杂后难维护",
         "护栏自身走模型调用，叠加时延"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-18",
+          "type": "release",
+          "summary": "发布 0.23.0: fern-docs-snapshot-v0.23.0",
+          "version": "0.23.0",
+          "source": "https://github.com/NVIDIA-NeMo/Guardrails/releases/tag/fern-docs-snapshot-v0.23.0"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://github.com/NVIDIA/NeMo-Guardrails"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-19",
       "region": "overseas",
       "id": "nemo-guardrails",
       "name": "NeMo Guardrails",
@@ -31664,7 +31726,8 @@
       "subcategory": "dialog-rails",
       "oneLiner": "对话流护栏 · Colang 描述可走路径；NVIDIA 生态",
       "officialUrl": "https://github.com/NVIDIA/NeMo-Guardrails",
-      "descriptionMd": "NeMo Guardrails 用 Colang 这门专用语言描述对话可以走与不可以走的路径，把话题边界、事实核查与越狱防护做成可编排的轨道。\n\n做客服、陪练这类多轮对话产品，需要明确写死「这个机器人不谈什么、越界了怎么接」时评估。\n\n要额外学一门 Colang，规则一复杂维护成本就上来了；护栏本身也走模型调用，会给每轮对话叠加时延。\n"
+      "descriptionMd": "NeMo Guardrails 用 Colang 这门专用语言描述对话可以走与不可以走的路径，把话题边界、事实核查与越狱防护做成可编排的轨道。\n\n做客服、陪练这类多轮对话产品，需要明确写死「这个机器人不谈什么、越界了怎么接」时评估。\n\n要额外学一门 Colang，规则一复杂维护成本就上来了；护栏本身也走模型调用，会给每轮对话叠加时延。\n",
+      "currentVersion": "0.23.0"
     },
     {
       "pricing": {
@@ -36171,12 +36234,15 @@
       "rankings": [
         {
           "systemId": "openrouter-popularity",
-          "rank": 10,
-          "scoreLabel": "2.8%",
-          "share": 2.8,
+          "rank": 12,
+          "scoreLabel": "2.3%",
+          "share": 2.3,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-11"
+          "asOf": "2026-08-19",
+          "previousRank": 10,
+          "previousShare": 2.8,
+          "previousAsOf": "2026-08-11"
         }
       ],
       "sources": [
@@ -37774,15 +37840,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 34,
+          "rank": 39,
           "scoreLabel": "0.4%",
           "share": 0.4,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-11",
-          "previousRank": 39,
-          "previousShare": 0.3,
-          "previousAsOf": "2026-08-09"
+          "asOf": "2026-08-19",
+          "previousRank": 34,
+          "previousShare": 0.4,
+          "previousAsOf": "2026-08-11"
         },
         {
           "systemId": "lmarena-vision",
@@ -39988,6 +40054,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-18",
+          "type": "release",
+          "summary": "发布 1.83.0: 新版本",
+          "version": "1.83.0",
+          "source": "https://github.com/rudderlabs/rudder-server/releases/tag/v1.83.0"
+        },
+        {
           "date": "2026-08-04",
           "type": "release",
           "summary": "发布 1.82.0: 新版本",
@@ -39999,7 +40072,7 @@
       "sources": [
         "https://www.rudderstack.com"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-19",
       "region": "overseas",
       "id": "rudderstack",
       "name": "RudderStack",
@@ -40010,7 +40083,7 @@
       "descriptionMd": "RudderStack 提供事件采集与多目的地路由，开源可自托管，强调把事件写入仓库再反哺工具的「仓库优先」路径。\n\n要削弱 Segment 锁定、自管管道、或把事件先落 BigQuery/Snowflake 再对接下游工具时选用。\n\n目的地覆盖与调试体验仍要核对版本；运维管道与 schema 治理需团队投入。选型前请以官网与当前定价页为准。\n",
       "vendorId": "rudderstack-inc",
       "githubUrl": "https://github.com/rudderlabs/rudder-server",
-      "currentVersion": "1.82.0"
+      "currentVersion": "1.83.0"
     },
     {
       "pricing": {
@@ -41638,13 +41711,21 @@
       "pitfalls": [
         "涉及登录态与凭据托管，权限边界要提前设计；复杂流程仍需人工复核结果，不宜直接对接资金操作。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-18",
+          "type": "release",
+          "summary": "发布 1.0.50: Release v1.0.50",
+          "version": "1.0.50",
+          "source": "https://github.com/Skyvern-AI/skyvern/releases/tag/v1.0.50"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://www.skyvern.com",
         "https://github.com/Skyvern-AI/skyvern"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-19",
       "region": "overseas",
       "id": "skyvern",
       "name": "Skyvern",
@@ -41990,12 +42071,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 36,
-          "scoreLabel": "0.4%",
-          "share": 0.4,
+          "rank": 29,
+          "scoreLabel": "0.6%",
+          "share": 0.6,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-17"
+          "asOf": "2026-08-19",
+          "previousRank": 36,
+          "previousShare": 0.4,
+          "previousAsOf": "2026-08-17"
         }
       ],
       "sources": [
@@ -43027,15 +43111,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 15,
-          "scoreLabel": "1.4%",
-          "share": 1.4,
+          "rank": 17,
+          "scoreLabel": "1.2%",
+          "share": 1.2,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-17",
-          "previousRank": 13,
-          "previousShare": 2.2,
-          "previousAsOf": "2026-08-07"
+          "asOf": "2026-08-19",
+          "previousRank": 15,
+          "previousShare": 1.4,
+          "previousAsOf": "2026-08-17"
         }
       ],
       "sources": [
@@ -47936,6 +48020,12 @@
       ],
       "updates": [
         {
+          "date": "2026-08-19",
+          "type": "feature",
+          "summary": "Chat SDK adds Instagram adapter",
+          "source": "https://vercel.com/changelog/chat-sdk-adds-instagram-adapter"
+        },
+        {
           "date": "2026-08-10",
           "type": "feature",
           "summary": "Vercel Sandbox now runs on Vercel Managed Images",
@@ -47964,7 +48054,7 @@
       "sources": [
         "https://vercel.com"
       ],
-      "lastReviewed": "2026-08-10",
+      "lastReviewed": "2026-08-19",
       "region": "overseas",
       "id": "vercel",
       "name": "Vercel",

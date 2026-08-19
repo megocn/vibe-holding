@@ -22,12 +22,20 @@
     "连接层容量规划、灰度与故障演练需自行承担",
     "令牌鉴权需自行设计密钥轮换与过期策略"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "summary": "发布 6.9.2: 新版本",
+      "version": "6.9.2",
+      "source": "https://github.com/centrifugal/centrifugo/releases/tag/v6.9.2"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://centrifugal.dev"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-19",
   "region": "overseas",
   "id": "centrifugo",
   "name": "Centrifugo",

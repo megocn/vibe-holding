@@ -17,6 +17,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-25",
+      "type": "deprecation",
+      "summary": "electron 41 将于 2026-08-25 结束安全支持",
+      "version": "41",
+      "source": "https://endoflife.date/electron"
+    },
+    {
       "date": "2026-07-21",
       "type": "release",
       "summary": "维护线 43 最新 43.2.0",
@@ -28,7 +35,7 @@
   "sources": [
     "https://www.electronjs.org"
   ],
-  "lastReviewed": "2026-07-25",
+  "lastReviewed": "2026-08-19",
   "region": "overseas",
   "id": "electron",
   "name": "Electron",

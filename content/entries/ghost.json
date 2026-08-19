@@ -24,6 +24,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-18",
+      "type": "release",
+      "summary": "发布 6.58.0: 新版本",
+      "version": "6.58.0",
+      "source": "https://github.com/TryGhost/Ghost/releases/tag/v6.58.0"
+    },
+    {
       "date": "2026-08-07",
       "type": "release",
       "summary": "发布 6.57.0: 新版本",
@@ -35,7 +42,7 @@
   "sources": [
     "https://ghost.org"
   ],
-  "lastReviewed": "2026-08-08",
+  "lastReviewed": "2026-08-19",
   "region": "overseas",
   "id": "ghost",
   "name": "Ghost",
@@ -47,5 +54,5 @@
   "vendorId": "ghost-foundation",
   "githubUrl": "https://github.com/TryGhost/Ghost",
   "docsUrl": "https://ghost.org/docs/",
-  "currentVersion": "6.57.0"
+  "currentVersion": "6.58.0"
 }

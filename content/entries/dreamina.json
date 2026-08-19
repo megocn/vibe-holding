@@ -59,16 +59,16 @@
     },
     {
       "systemId": "lmarena-video-edit",
-      "rank": 2,
-      "score": 1358,
-      "scoreLabel": "1358 Elo",
+      "rank": 1,
+      "score": 1411,
+      "scoreLabel": "1411 Elo",
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/video-edit",
-      "note": "模型 dreamina-seedance-2.0-720p",
-      "asOf": "2026-08-17",
-      "previousRank": 1,
-      "previousScore": 1377,
-      "previousAsOf": "2026-07-24"
+      "note": "模型 dreamina-seedance-2.5-720p",
+      "asOf": "2026-08-19",
+      "previousRank": 2,
+      "previousScore": 1358,
+      "previousAsOf": "2026-08-17"
     },
     {
       "systemId": "aa-video-arena",

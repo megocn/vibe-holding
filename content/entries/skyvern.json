@@ -21,13 +21,21 @@
   "pitfalls": [
     "涉及登录态与凭据托管，权限边界要提前设计；复杂流程仍需人工复核结果，不宜直接对接资金操作。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "summary": "发布 1.0.50: Release v1.0.50",
+      "version": "1.0.50",
+      "source": "https://github.com/Skyvern-AI/skyvern/releases/tag/v1.0.50"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://www.skyvern.com",
     "https://github.com/Skyvern-AI/skyvern"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-19",
   "region": "overseas",
   "id": "skyvern",
   "name": "Skyvern",

@@ -21,12 +21,20 @@
     "项目较新，生态与第三方字段类型少于老牌方案。",
     "面向中小内容量，重协作场景仍需托管型 CMS。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-18",
+      "type": "release",
+      "summary": "发布 5.0.5: @keystatic/next@5.0.5",
+      "version": "5.0.5",
+      "source": "https://github.com/Thinkmill/keystatic/releases/tag/%40keystatic%2Fnext%405.0.5"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://keystatic.com"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-19",
   "region": "overseas",
   "id": "keystatic",
   "name": "Keystatic",

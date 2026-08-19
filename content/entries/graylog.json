@@ -24,6 +24,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-18",
+      "type": "release",
+      "summary": "发布 7.1.8: 新版本",
+      "version": "7.1.8",
+      "source": "https://github.com/Graylog2/graylog2-server/releases/tag/7.1.8"
+    },
+    {
       "date": "2026-08-05",
       "type": "release",
       "summary": "发布 7.1.7: 新版本",
@@ -35,7 +42,7 @@
   "sources": [
     "https://graylog.org"
   ],
-  "lastReviewed": "2026-08-06",
+  "lastReviewed": "2026-08-19",
   "region": "overseas",
   "id": "graylog",
   "name": "Graylog",

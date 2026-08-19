@@ -87,13 +87,16 @@
     },
     {
       "systemId": "lmarena-t2v",
-      "rank": 4,
-      "score": 1455,
-      "scoreLabel": "1455 Elo",
+      "rank": 6,
+      "score": 1453,
+      "scoreLabel": "1453 Elo",
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 minimax-h3",
-      "asOf": "2026-08-04"
+      "asOf": "2026-08-19",
+      "previousRank": 4,
+      "previousScore": 1455,
+      "previousAsOf": "2026-08-04"
     },
     {
       "systemId": "lmarena-i2v",

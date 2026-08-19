@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-18",
+      "type": "release",
+      "summary": "发布 1.83.0: 新版本",
+      "version": "1.83.0",
+      "source": "https://github.com/rudderlabs/rudder-server/releases/tag/v1.83.0"
+    },
+    {
       "date": "2026-08-04",
       "type": "release",
       "summary": "发布 1.82.0: 新版本",
@@ -33,7 +40,7 @@
   "sources": [
     "https://www.rudderstack.com"
   ],
-  "lastReviewed": "2026-08-06",
+  "lastReviewed": "2026-08-19",
   "region": "overseas",
   "id": "rudderstack",
   "name": "RudderStack",
@@ -44,5 +51,5 @@
   "descriptionMd": "RudderStack 提供事件采集与多目的地路由，开源可自托管，强调把事件写入仓库再反哺工具的「仓库优先」路径。\n\n要削弱 Segment 锁定、自管管道、或把事件先落 BigQuery/Snowflake 再对接下游工具时选用。\n\n目的地覆盖与调试体验仍要核对版本；运维管道与 schema 治理需团队投入。选型前请以官网与当前定价页为准。\n",
   "vendorId": "rudderstack-inc",
   "githubUrl": "https://github.com/rudderlabs/rudder-server",
-  "currentVersion": "1.82.0"
+  "currentVersion": "1.83.0"
 }

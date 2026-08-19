@@ -23,6 +23,12 @@
   ],
   "updates": [
     {
+      "date": "2026-08-19",
+      "type": "feature",
+      "summary": "Chat SDK adds Instagram adapter",
+      "source": "https://vercel.com/changelog/chat-sdk-adds-instagram-adapter"
+    },
+    {
       "date": "2026-08-10",
       "type": "feature",
       "summary": "Vercel Sandbox now runs on Vercel Managed Images",
@@ -51,7 +57,7 @@
   "sources": [
     "https://vercel.com"
   ],
-  "lastReviewed": "2026-08-10",
+  "lastReviewed": "2026-08-19",
   "region": "overseas",
   "id": "vercel",
   "name": "Vercel",
