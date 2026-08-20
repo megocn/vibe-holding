@@ -22,12 +22,20 @@
     "自托管需自理升级、附件存储与各渠道凭据轮换。",
     "部分能力属商业版授权，社区版边界需提前核对。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "summary": "发布 4.17.0: 新版本",
+      "version": "4.17.0",
+      "source": "https://github.com/chatwoot/chatwoot/releases/tag/v4.17.0"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://www.chatwoot.com"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-20",
   "region": "overseas",
   "id": "chatwoot",
   "name": "Chatwoot",
@@ -38,5 +46,6 @@
   "descriptionMd": "Chatwoot 是开源的客户互动平台：网站聊天、邮件与主流社交渠道汇进共享收件箱，带团队分派、自动化与知识库，可自托管也可用官方云。\n\n对客服会话数据落地有要求、或想避开按席位长期付费的团队评估；愿意承担 Rails 与依赖服务的运维成本时收益最大。\n\n自托管要自理升级、存储与消息渠道凭据；部分高级能力属商业版授权，社区版能力边界需先核对。\n",
   "vendorId": "chatwoot-inc",
   "githubUrl": "https://github.com/chatwoot/chatwoot",
-  "docsUrl": "https://www.chatwoot.com/docs"
+  "docsUrl": "https://www.chatwoot.com/docs",
+  "currentVersion": "4.17.0"
 }

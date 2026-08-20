@@ -18,6 +18,13 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-08-20",
+      "type": "release",
+      "summary": "发布 8.2.2: 新版本",
+      "version": "8.2.2",
+      "source": "https://github.com/vitejs/vite/releases/tag/v8.2.2"
+    },
+    {
       "date": "2026-08-06",
       "type": "release",
       "summary": "发布 8.2.1: 新版本",
@@ -29,7 +36,7 @@
   "sources": [
     "https://vite.dev"
   ],
-  "lastReviewed": "2026-08-06",
+  "lastReviewed": "2026-08-20",
   "region": "overseas",
   "id": "vite",
   "name": "Vite",

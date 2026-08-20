@@ -146,6 +146,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-19",
+          "type": "release",
+          "summary": "发布 0.88.3: 新版本",
+          "version": "0.88.3",
+          "source": "https://github.com/activepieces/activepieces/releases/tag/0.88.3"
+        },
+        {
           "date": "2026-08-12",
           "type": "release",
           "summary": "发布 0.88.0: 新版本",
@@ -164,7 +171,7 @@
       "sources": [
         "https://www.activepieces.com"
       ],
-      "lastReviewed": "2026-08-13",
+      "lastReviewed": "2026-08-20",
       "region": "overseas",
       "id": "activepieces",
       "name": "Activepieces",
@@ -1667,13 +1674,21 @@
         "自托管后规则调优、监控与版本跟进全部由自己承担。",
         "工作量证明对有算力的攻击者威慑有限，高风险场景需叠加风控。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-19",
+          "type": "release",
+          "summary": "发布 3.2.2: 新版本",
+          "version": "3.2.2",
+          "source": "https://github.com/altcha-org/altcha/releases/tag/v3.2.2"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://altcha.org",
         "https://github.com/altcha-org/altcha"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-20",
       "region": "overseas",
       "id": "altcha",
       "name": "ALTCHA",
@@ -2465,12 +2480,20 @@
       "pitfalls": [
         "全球云厂商生态密度低于 Kafka；跨语言客户端与运维知识要按版本核对。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-20",
+          "type": "release",
+          "summary": "发布 5.5.1: rocketmq-all-5.5.1",
+          "version": "5.5.1",
+          "source": "https://github.com/apache/rocketmq/releases/tag/rocketmq-all-5.5.1"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://rocketmq.apache.org"
       ],
-      "lastReviewed": "2026-08-07",
+      "lastReviewed": "2026-08-20",
       "region": "domestic",
       "id": "apache-rocketmq",
       "name": "Apache RocketMQ",
@@ -6692,6 +6715,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-19",
+          "type": "release",
+          "summary": "发布 1.0.1: @changesets/write@1.0.1",
+          "version": "1.0.1",
+          "source": "https://github.com/changesets/changesets/releases/tag/%40changesets%2Fwrite%401.0.1"
+        },
+        {
           "date": "2026-08-03",
           "type": "release",
           "summary": "发布 1.0.0-next.9: @changesets/write@1.0.0-next.9",
@@ -6703,7 +6733,7 @@
       "sources": [
         "https://github.com/changesets/changesets"
       ],
-      "lastReviewed": "2026-08-04",
+      "lastReviewed": "2026-08-20",
       "region": "overseas",
       "id": "changesets",
       "name": "Changesets",
@@ -6816,12 +6846,20 @@
         "自托管需自理升级、附件存储与各渠道凭据轮换。",
         "部分能力属商业版授权，社区版边界需提前核对。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-20",
+          "type": "release",
+          "summary": "发布 4.17.0: 新版本",
+          "version": "4.17.0",
+          "source": "https://github.com/chatwoot/chatwoot/releases/tag/v4.17.0"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://www.chatwoot.com"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-20",
       "region": "overseas",
       "id": "chatwoot",
       "name": "Chatwoot",
@@ -6832,7 +6870,8 @@
       "descriptionMd": "Chatwoot 是开源的客户互动平台：网站聊天、邮件与主流社交渠道汇进共享收件箱，带团队分派、自动化与知识库，可自托管也可用官方云。\n\n对客服会话数据落地有要求、或想避开按席位长期付费的团队评估；愿意承担 Rails 与依赖服务的运维成本时收益最大。\n\n自托管要自理升级、存储与消息渠道凭据；部分高级能力属商业版授权，社区版能力边界需先核对。\n",
       "vendorId": "chatwoot-inc",
       "githubUrl": "https://github.com/chatwoot/chatwoot",
-      "docsUrl": "https://www.chatwoot.com/docs"
+      "docsUrl": "https://www.chatwoot.com/docs",
+      "currentVersion": "4.17.0"
     },
     {
       "pricing": {
@@ -7263,13 +7302,11 @@
         },
         {
           "systemId": "lmarena-agent",
-          "period": "2026-07",
-          "note": "Claude Fable 5 (High)",
+          "rank": 3,
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/agent",
-          "asOf": "2026-07-24",
-          "rank": 1,
-          "share": 12.72,
-          "scoreLabel": "12.72% win",
+          "note": "模型 Claude Fable 5 (High)",
+          "asOf": "2026-08-20",
           "previousRank": 1,
           "previousShare": 12.72,
           "previousAsOf": "2026-07-24"
@@ -11993,6 +12030,12 @@
       ],
       "updates": [
         {
+          "date": "2026-08-20",
+          "type": "feature",
+          "summary": "stable",
+          "source": "https://github.com/discourse/discourse/releases/tag/stable"
+        },
+        {
           "date": "2026-08-13",
           "type": "feature",
           "summary": "stable",
@@ -12009,7 +12052,7 @@
       "sources": [
         "https://www.discourse.org"
       ],
-      "lastReviewed": "2026-08-13",
+      "lastReviewed": "2026-08-20",
       "region": "overseas",
       "id": "discourse",
       "name": "Discourse",
@@ -15213,12 +15256,20 @@
         "实验统计能力有限，A/B 结论需借助外部分析。",
         "自托管的高可用与扩容需自行压测。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-19",
+          "type": "release",
+          "summary": "发布 2.264.0: 新版本",
+          "version": "2.264.0",
+          "source": "https://github.com/Flagsmith/flagsmith/releases/tag/v2.264.0"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://www.flagsmith.com"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-20",
       "region": "overseas",
       "id": "flagsmith",
       "name": "Flagsmith",
@@ -15228,7 +15279,8 @@
       "officialUrl": "https://www.flagsmith.com",
       "descriptionMd": "Flagsmith 提供开源的功能开关与远程配置服务，支持自托管与官方托管两种形态；除布尔开关外也常被用来下发多变体配置，前端与移动端 SDK 覆盖较全。\n\n既要功能开关也要远程配置、并希望保留「先用托管、后转自建」退路的团队适合评估。\n\n实验统计能力有限，A/B 结论仍需外部分析；自托管版本的规模化与高可用要自己压测和运维。\n",
       "vendorId": "flagsmith-inc",
-      "githubUrl": "https://github.com/Flagsmith/flagsmith"
+      "githubUrl": "https://github.com/Flagsmith/flagsmith",
+      "currentVersion": "2.264.0"
     },
     {
       "pricing": {
@@ -16230,6 +16282,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-19",
+          "type": "release",
+          "summary": "发布 15.3.0: fumadocs-mdx@15.3.0",
+          "version": "15.3.0",
+          "source": "https://github.com/fuma-nama/fumadocs/releases/tag/fumadocs-mdx%4015.3.0"
+        },
+        {
           "date": "2026-08-13",
           "type": "release",
           "summary": "发布 0.1.0: @fumari/image-size@0.1.0",
@@ -16248,7 +16307,7 @@
       "sources": [
         "https://fumadocs.dev"
       ],
-      "lastReviewed": "2026-08-13",
+      "lastReviewed": "2026-08-20",
       "region": "overseas",
       "id": "fumadocs",
       "name": "Fumadocs",
@@ -16259,7 +16318,7 @@
       "descriptionMd": "Fumadocs 是 Next.js 生态中较新的文档框架，把内容源、界面组件与搜索拆成可替换的层，默认主题现代，也支持依据 OpenAPI 生成接口文档页。\n\n要在 Next.js 上做文档站、又嫌 Nextra 定制空间不足且愿意跟进较快迭代时评估。\n\n项目年轻，API 与目录约定仍在演进，升级需读迁移文档；中文资料与线上案例较少。\n",
       "vendorId": "fumadocs-team",
       "githubUrl": "https://github.com/fuma-nama/fumadocs",
-      "currentVersion": "0.1.0"
+      "currentVersion": "15.3.0"
     },
     {
       "pricing": {
@@ -16558,6 +16617,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-19",
+          "type": "release",
+          "summary": "发布 0.56.0: Release v0.56.0",
+          "version": "0.56.0",
+          "source": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0"
+        },
+        {
           "date": "2026-08-06",
           "type": "release",
           "summary": "发布 0.54.0: Release v0.54.0",
@@ -16569,7 +16635,7 @@
       "sources": [
         "https://github.com/google-gemini/gemini-cli"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-20",
       "region": "overseas",
       "id": "gemini-cli",
       "name": "Gemini CLI",
@@ -16579,7 +16645,7 @@
       "officialUrl": "https://github.com/google-gemini/gemini-cli",
       "descriptionMd": "Gemini CLI 是 Google 推出的终端 AI 编码工具，可在命令行中对话、读写项目文件并执行 shell，深度集成 Gemini 模型能力。\n\n偏好终端工作流、已使用 Google Cloud/Gemini API 的开发者；适合脚本化与 CI Adjacent 的编码任务。\n\n终端 Agent 权限过大时可能执行破坏性命令；建议沙箱环境试用并限制 API key 权限范围。\n",
       "vendorId": "google-deepmind",
-      "currentVersion": "0.54.0"
+      "currentVersion": "0.56.0"
     },
     {
       "pricing": {
@@ -16817,15 +16883,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 7,
-          "scoreLabel": "3.7%",
-          "share": 3.7,
+          "rank": 9,
+          "scoreLabel": "3.2%",
+          "share": 3.2,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-19",
-          "previousRank": 9,
-          "previousShare": 3.4,
-          "previousAsOf": "2026-08-07"
+          "asOf": "2026-08-20",
+          "previousRank": 7,
+          "previousShare": 3.7,
+          "previousAsOf": "2026-08-19"
         },
         {
           "systemId": "lmarena-document",
@@ -17333,15 +17399,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 31,
-          "scoreLabel": "0.6%",
-          "share": 0.6,
+          "rank": 34,
+          "scoreLabel": "0.5%",
+          "share": 0.5,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-19",
-          "previousRank": 26,
-          "previousShare": 0.7,
-          "previousAsOf": "2026-08-17"
+          "asOf": "2026-08-20",
+          "previousRank": 31,
+          "previousShare": 0.6,
+          "previousAsOf": "2026-08-19"
         }
       ],
       "sources": [
@@ -17839,14 +17905,16 @@
       "rankings": [
         {
           "systemId": "lmarena-text",
-          "rank": 33,
-          "score": 1471,
-          "scoreLabel": "1471 Elo",
+          "rank": 15,
+          "score": 1484,
+          "scoreLabel": "1484 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/text",
-          "note": "模型 glm-5.2-max",
-          "asOf": "2026-08-10",
-          "previousAsOf": "2026-07-24"
+          "note": "模型 glm-5.3-max",
+          "asOf": "2026-08-20",
+          "previousRank": 33,
+          "previousScore": 1471,
+          "previousAsOf": "2026-08-10"
         },
         {
           "systemId": "lmarena-agent",
@@ -19101,15 +19169,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 19,
-          "scoreLabel": "1%",
-          "share": 1,
+          "rank": 17,
+          "scoreLabel": "1.3%",
+          "share": 1.3,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-11",
-          "previousRank": 22,
-          "previousShare": 0.9,
-          "previousAsOf": "2026-08-07"
+          "asOf": "2026-08-20",
+          "previousRank": 19,
+          "previousShare": 1,
+          "previousAsOf": "2026-08-11"
         }
       ],
       "subcategory": "line",
@@ -19694,15 +19762,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 32,
-          "scoreLabel": "0.6%",
-          "share": 0.6,
+          "rank": 28,
+          "scoreLabel": "0.7%",
+          "share": 0.7,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-19",
-          "previousRank": 38,
-          "previousShare": 0.4,
-          "previousAsOf": "2026-08-17"
+          "asOf": "2026-08-20",
+          "previousRank": 32,
+          "previousShare": 0.6,
+          "previousAsOf": "2026-08-19"
         }
       ],
       "sources": [
@@ -22212,16 +22280,16 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 22,
-          "score": 1523,
-          "scoreLabel": "1523 Elo",
+          "rank": 27,
+          "score": 1517,
+          "scoreLabel": "1517 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 hy3",
-          "asOf": "2026-08-13",
-          "previousRank": 20,
-          "previousScore": 1524,
-          "previousAsOf": "2026-08-12"
+          "asOf": "2026-08-20",
+          "previousRank": 22,
+          "previousScore": 1523,
+          "previousAsOf": "2026-08-13"
         },
         {
           "systemId": "lmarena-i2v",
@@ -24479,16 +24547,16 @@
       "rankings": [
         {
           "systemId": "lmarena-text",
-          "rank": 12,
-          "score": 1487,
-          "scoreLabel": "1487 Elo",
+          "rank": 10,
+          "score": 1490,
+          "scoreLabel": "1490 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/text",
           "note": "模型 kimi-k3-max",
-          "asOf": "2026-08-12",
-          "previousRank": 14,
-          "previousScore": 1485,
-          "previousAsOf": "2026-08-09"
+          "asOf": "2026-08-20",
+          "previousRank": 12,
+          "previousScore": 1487,
+          "previousAsOf": "2026-08-12"
         },
         {
           "systemId": "lmarena-agent",
@@ -27932,13 +28000,13 @@
         },
         {
           "systemId": "lmarena-image-edit",
-          "period": "2026-07",
-          "note": "mai-image-2.5",
-          "sourceUrl": "https://arena.ai/leaderboard/image-edit",
-          "asOf": "2026-07-24",
           "rank": 3,
-          "score": 1401,
-          "scoreLabel": "1401 Elo",
+          "score": 1420,
+          "scoreLabel": "1420 Elo",
+          "period": "2026-08",
+          "sourceUrl": "https://arena.ai/leaderboard/image-edit",
+          "note": "模型 mai-image-2.6-preview",
+          "asOf": "2026-08-20",
           "previousRank": 3,
           "previousScore": 1401,
           "previousAsOf": "2026-07-24"
@@ -28989,13 +29057,13 @@
         },
         {
           "systemId": "lmarena-image-edit",
-          "period": "2026-07",
-          "note": "muse-image",
+          "rank": 4,
+          "score": 1406,
+          "scoreLabel": "1406 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/image-edit",
-          "asOf": "2026-07-24",
-          "rank": 2,
-          "score": 1402,
-          "scoreLabel": "1402 Elo",
+          "note": "模型 muse-image",
+          "asOf": "2026-08-20",
           "previousRank": 2,
           "previousScore": 1402,
           "previousAsOf": "2026-07-24"
@@ -29751,16 +29819,16 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 37,
-          "score": 1474,
-          "scoreLabel": "1474 Elo",
+          "rank": 39,
+          "score": 1476,
+          "scoreLabel": "1476 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 mimo-v2.5-pro",
-          "asOf": "2026-08-13",
-          "previousRank": 35,
+          "asOf": "2026-08-20",
+          "previousRank": 37,
           "previousScore": 1474,
-          "previousAsOf": "2026-08-06"
+          "previousAsOf": "2026-08-13"
         },
         {
           "systemId": "lmarena-text",
@@ -29904,16 +29972,16 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 33,
-          "score": 1491,
-          "scoreLabel": "1491 Elo",
+          "rank": 36,
+          "score": 1489,
+          "scoreLabel": "1489 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 minimax-m3",
-          "asOf": "2026-08-13",
-          "previousRank": 31,
+          "asOf": "2026-08-20",
+          "previousRank": 33,
           "previousScore": 1491,
-          "previousAsOf": "2026-08-06"
+          "previousAsOf": "2026-08-13"
         },
         {
           "systemId": "lmarena-t2v",
@@ -33795,6 +33863,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-20",
+          "type": "release",
+          "summary": "发布 2.2.33: 新版本",
+          "version": "2.2.33",
+          "source": "https://github.com/comet-ml/opik/releases/tag/2.2.33"
+        },
+        {
           "date": "2026-08-13",
           "type": "release",
           "summary": "发布 2.2.29-7845: 新版本",
@@ -33813,7 +33888,7 @@
       "sources": [
         "https://github.com/comet-ml/opik"
       ],
-      "lastReviewed": "2026-08-13",
+      "lastReviewed": "2026-08-20",
       "region": "overseas",
       "id": "opik",
       "name": "Opik",
@@ -37775,16 +37850,16 @@
       "rankings": [
         {
           "systemId": "lmarena-text",
-          "rank": 9,
-          "score": 1490,
-          "scoreLabel": "1490 Elo",
+          "rank": 17,
+          "score": 1482,
+          "scoreLabel": "1482 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/text",
           "note": "模型 qwen3.8-max",
-          "asOf": "2026-08-12",
-          "previousRank": 5,
-          "previousScore": 1496,
-          "previousAsOf": "2026-08-03"
+          "asOf": "2026-08-20",
+          "previousRank": 9,
+          "previousScore": 1490,
+          "previousAsOf": "2026-08-12"
         },
         {
           "systemId": "artificial-analysis-index",
@@ -38909,6 +38984,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-20",
+          "type": "release",
+          "summary": "发布 26.1.17: 新版本",
+          "version": "26.1.17",
+          "source": "https://github.com/redpanda-data/redpanda/releases/tag/v26.1.17"
+        },
+        {
           "date": "2026-08-13",
           "type": "release",
           "summary": "发布 25.3.16: 新版本",
@@ -38927,7 +39009,7 @@
       "sources": [
         "https://www.redpanda.com"
       ],
-      "lastReviewed": "2026-08-13",
+      "lastReviewed": "2026-08-20",
       "region": "overseas",
       "id": "redpanda",
       "name": "Redpanda",
@@ -39482,13 +39564,13 @@
         },
         {
           "systemId": "lmarena-image-edit",
-          "period": "2026-07",
-          "note": "reve-2.1",
+          "rank": 12,
+          "score": 1375,
+          "scoreLabel": "1375 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/image-edit",
-          "asOf": "2026-07-24",
-          "rank": 10,
-          "score": 1383,
-          "scoreLabel": "1383 Elo",
+          "note": "模型 reve-2.1",
+          "asOf": "2026-08-20",
           "previousRank": 10,
           "previousScore": 1383,
           "previousAsOf": "2026-07-24"
@@ -40198,6 +40280,12 @@
       ],
       "updates": [
         {
+          "date": "2026-08-20",
+          "type": "feature",
+          "summary": "Supply chain attack on arrayref",
+          "source": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/"
+        },
+        {
           "date": "2026-07-16",
           "type": "release",
           "summary": "维护线 1.97 最新 1.97.1",
@@ -40209,7 +40297,7 @@
       "sources": [
         "https://www.rust-lang.org"
       ],
-      "lastReviewed": "2026-07-25",
+      "lastReviewed": "2026-08-20",
       "region": "both",
       "id": "rust",
       "name": "Rust",
@@ -42854,6 +42942,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-20",
+          "type": "release",
+          "summary": "发布 3.7.5: stagehand/server-v3 v3.7.5",
+          "version": "3.7.5",
+          "source": "https://github.com/browserbase/stagehand/releases/tag/stagehand-server-v3%2Fv3.7.5"
+        },
+        {
           "date": "2026-08-10",
           "type": "feature",
           "summary": "官方动态更新",
@@ -42864,7 +42959,7 @@
       "sources": [
         "https://github.com/browserbase/stagehand"
       ],
-      "lastReviewed": "2026-08-10",
+      "lastReviewed": "2026-08-20",
       "region": "overseas",
       "id": "stagehand",
       "name": "Stagehand",
@@ -43111,15 +43206,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 17,
-          "scoreLabel": "1.2%",
-          "share": 1.2,
+          "rank": 21,
+          "scoreLabel": "1.1%",
+          "share": 1.1,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-19",
-          "previousRank": 15,
-          "previousShare": 1.4,
-          "previousAsOf": "2026-08-17"
+          "asOf": "2026-08-20",
+          "previousRank": 17,
+          "previousShare": 1.2,
+          "previousAsOf": "2026-08-19"
         }
       ],
       "sources": [
@@ -43969,6 +44064,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-20",
+          "type": "release",
+          "summary": "发布 3.0.0-next.24: @sveltejs/kit@3.0.0-next.24",
+          "version": "3.0.0-next.24",
+          "source": "https://github.com/sveltejs/kit/releases/tag/%40sveltejs%2Fkit%403.0.0-next.24"
+        },
+        {
           "date": "2026-08-10",
           "type": "release",
           "summary": "发布 3.0.0-next.18: @sveltejs/kit@3.0.0-next.18",
@@ -43986,7 +44088,7 @@
       "sources": [
         "https://kit.svelte.dev"
       ],
-      "lastReviewed": "2026-08-11",
+      "lastReviewed": "2026-08-20",
       "region": "overseas",
       "id": "sveltekit",
       "name": "SvelteKit",
@@ -44005,7 +44107,7 @@
           "previousAsOf": "2026-07-20"
         }
       ],
-      "currentVersion": "3.0.0-next.18"
+      "currentVersion": "3.0.0-next.24"
     },
     {
       "pricing": {
@@ -48262,6 +48364,13 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-08-20",
+          "type": "release",
+          "summary": "发布 8.2.2: 新版本",
+          "version": "8.2.2",
+          "source": "https://github.com/vitejs/vite/releases/tag/v8.2.2"
+        },
+        {
           "date": "2026-08-06",
           "type": "release",
           "summary": "发布 8.2.1: 新版本",
@@ -48273,7 +48382,7 @@
       "sources": [
         "https://vite.dev"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-20",
       "region": "overseas",
       "id": "vite",
       "name": "Vite",

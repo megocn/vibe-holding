@@ -20,12 +20,20 @@
   "pitfalls": [
     "全球云厂商生态密度低于 Kafka；跨语言客户端与运维知识要按版本核对。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-20",
+      "type": "release",
+      "summary": "发布 5.5.1: rocketmq-all-5.5.1",
+      "version": "5.5.1",
+      "source": "https://github.com/apache/rocketmq/releases/tag/rocketmq-all-5.5.1"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://rocketmq.apache.org"
   ],
-  "lastReviewed": "2026-08-07",
+  "lastReviewed": "2026-08-20",
   "region": "domestic",
   "id": "apache-rocketmq",
   "name": "Apache RocketMQ",

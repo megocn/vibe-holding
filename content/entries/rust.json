@@ -20,6 +20,12 @@
   ],
   "updates": [
     {
+      "date": "2026-08-20",
+      "type": "feature",
+      "summary": "Supply chain attack on arrayref",
+      "source": "https://blog.rust-lang.org/2026/08/20/supply-chain-attack-on-arrayref/"
+    },
+    {
       "date": "2026-07-16",
       "type": "release",
       "summary": "维护线 1.97 最新 1.97.1",
@@ -31,7 +37,7 @@
   "sources": [
     "https://www.rust-lang.org"
   ],
-  "lastReviewed": "2026-07-25",
+  "lastReviewed": "2026-08-20",
   "region": "both",
   "id": "rust",
   "name": "Rust",

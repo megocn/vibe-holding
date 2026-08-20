@@ -26,14 +26,16 @@
   "rankings": [
     {
       "systemId": "lmarena-text",
-      "rank": 33,
-      "score": 1471,
-      "scoreLabel": "1471 Elo",
+      "rank": 15,
+      "score": 1484,
+      "scoreLabel": "1484 Elo",
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "note": "模型 glm-5.2-max",
-      "asOf": "2026-08-10",
-      "previousAsOf": "2026-07-24"
+      "note": "模型 glm-5.3-max",
+      "asOf": "2026-08-20",
+      "previousRank": 33,
+      "previousScore": 1471,
+      "previousAsOf": "2026-08-10"
     },
     {
       "systemId": "lmarena-agent",

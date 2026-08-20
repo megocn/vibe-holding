@@ -21,12 +21,20 @@
     "实验统计能力有限，A/B 结论需借助外部分析。",
     "自托管的高可用与扩容需自行压测。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-19",
+      "type": "release",
+      "summary": "发布 2.264.0: 新版本",
+      "version": "2.264.0",
+      "source": "https://github.com/Flagsmith/flagsmith/releases/tag/v2.264.0"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://www.flagsmith.com"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-20",
   "region": "overseas",
   "id": "flagsmith",
   "name": "Flagsmith",
@@ -36,5 +44,6 @@
   "officialUrl": "https://www.flagsmith.com",
   "descriptionMd": "Flagsmith 提供开源的功能开关与远程配置服务，支持自托管与官方托管两种形态；除布尔开关外也常被用来下发多变体配置，前端与移动端 SDK 覆盖较全。\n\n既要功能开关也要远程配置、并希望保留「先用托管、后转自建」退路的团队适合评估。\n\n实验统计能力有限，A/B 结论仍需外部分析；自托管版本的规模化与高可用要自己压测和运维。\n",
   "vendorId": "flagsmith-inc",
-  "githubUrl": "https://github.com/Flagsmith/flagsmith"
+  "githubUrl": "https://github.com/Flagsmith/flagsmith",
+  "currentVersion": "2.264.0"
 }

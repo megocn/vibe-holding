@@ -74,16 +74,16 @@
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 33,
-      "score": 1491,
-      "scoreLabel": "1491 Elo",
+      "rank": 36,
+      "score": 1489,
+      "scoreLabel": "1489 Elo",
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 minimax-m3",
-      "asOf": "2026-08-13",
-      "previousRank": 31,
+      "asOf": "2026-08-20",
+      "previousRank": 33,
       "previousScore": 1491,
-      "previousAsOf": "2026-08-06"
+      "previousAsOf": "2026-08-13"
     },
     {
       "systemId": "lmarena-t2v",

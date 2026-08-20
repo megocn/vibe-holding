@@ -51,16 +51,16 @@
   "rankings": [
     {
       "systemId": "lmarena-text",
-      "rank": 12,
-      "score": 1487,
-      "scoreLabel": "1487 Elo",
+      "rank": 10,
+      "score": 1490,
+      "scoreLabel": "1490 Elo",
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 kimi-k3-max",
-      "asOf": "2026-08-12",
-      "previousRank": 14,
-      "previousScore": 1485,
-      "previousAsOf": "2026-08-09"
+      "asOf": "2026-08-20",
+      "previousRank": 12,
+      "previousScore": 1487,
+      "previousAsOf": "2026-08-12"
     },
     {
       "systemId": "lmarena-agent",

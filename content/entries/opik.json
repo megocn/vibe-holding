@@ -24,6 +24,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-20",
+      "type": "release",
+      "summary": "发布 2.2.33: 新版本",
+      "version": "2.2.33",
+      "source": "https://github.com/comet-ml/opik/releases/tag/2.2.33"
+    },
+    {
       "date": "2026-08-13",
       "type": "release",
       "summary": "发布 2.2.29-7845: 新版本",
@@ -42,7 +49,7 @@
   "sources": [
     "https://github.com/comet-ml/opik"
   ],
-  "lastReviewed": "2026-08-13",
+  "lastReviewed": "2026-08-20",
   "region": "overseas",
   "id": "opik",
   "name": "Opik",

@@ -25,6 +25,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-19",
+      "type": "release",
+      "summary": "发布 0.88.3: 新版本",
+      "version": "0.88.3",
+      "source": "https://github.com/activepieces/activepieces/releases/tag/0.88.3"
+    },
+    {
       "date": "2026-08-12",
       "type": "release",
       "summary": "发布 0.88.0: 新版本",
@@ -43,7 +50,7 @@
   "sources": [
     "https://www.activepieces.com"
   ],
-  "lastReviewed": "2026-08-13",
+  "lastReviewed": "2026-08-20",
   "region": "overseas",
   "id": "activepieces",
   "name": "Activepieces",

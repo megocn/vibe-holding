@@ -17,6 +17,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-19",
+      "type": "release",
+      "summary": "发布 0.56.0: Release v0.56.0",
+      "version": "0.56.0",
+      "source": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.56.0"
+    },
+    {
       "date": "2026-08-06",
       "type": "release",
       "summary": "发布 0.54.0: Release v0.54.0",
@@ -28,7 +35,7 @@
   "sources": [
     "https://github.com/google-gemini/gemini-cli"
   ],
-  "lastReviewed": "2026-08-06",
+  "lastReviewed": "2026-08-20",
   "region": "overseas",
   "id": "gemini-cli",
   "name": "Gemini CLI",
@@ -38,5 +45,5 @@
   "officialUrl": "https://github.com/google-gemini/gemini-cli",
   "descriptionMd": "Gemini CLI 是 Google 推出的终端 AI 编码工具，可在命令行中对话、读写项目文件并执行 shell，深度集成 Gemini 模型能力。\n\n偏好终端工作流、已使用 Google Cloud/Gemini API 的开发者；适合脚本化与 CI Adjacent 的编码任务。\n\n终端 Agent 权限过大时可能执行破坏性命令；建议沙箱环境试用并限制 API key 权限范围。\n",
   "vendorId": "google-deepmind",
-  "currentVersion": "0.54.0"
+  "currentVersion": "0.56.0"
 }
