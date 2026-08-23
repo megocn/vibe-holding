@@ -19,6 +19,13 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-08-22",
+      "type": "release",
+      "summary": "发布 4.0.43: @ai-sdk/xai@4.0.43",
+      "version": "4.0.43",
+      "source": "https://github.com/vercel/ai/releases/tag/%40ai-sdk%2Fxai%404.0.43"
+    },
+    {
       "date": "2026-08-10",
       "type": "release",
       "summary": "发布 2.0.229: @ai-sdk/vue@2.0.229",
@@ -44,7 +51,7 @@
   "sources": [
     "https://sdk.vercel.ai"
   ],
-  "lastReviewed": "2026-08-10",
+  "lastReviewed": "2026-08-22",
   "region": "overseas",
   "id": "vercel-ai-sdk",
   "name": "Vercel AI SDK",

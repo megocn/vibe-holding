@@ -17,6 +17,12 @@
   ],
   "updates": [
     {
+      "date": "2026-08-21",
+      "type": "feature",
+      "summary": "Banner or no banner, that’s the question",
+      "source": "https://rubyonrails.org/2026/8/21/this-week-in-rails"
+    },
+    {
       "date": "2026-08-13",
       "type": "feature",
       "summary": "Agents on Rails: The LLM Benchmark Project",
@@ -34,7 +40,7 @@
   "sources": [
     "https://rubyonrails.org"
   ],
-  "lastReviewed": "2026-08-13",
+  "lastReviewed": "2026-08-22",
   "region": "overseas",
   "id": "rails",
   "name": "Ruby on Rails",

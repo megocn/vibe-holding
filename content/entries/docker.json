@@ -17,6 +17,12 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-08-21",
+      "type": "feature",
+      "summary": "Running AI agents in GitHub Actions with Docker Sandboxes",
+      "source": "https://www.docker.com/blog/running-ai-agents-in-github-actions-with-docker-sandboxes/"
+    },
+    {
       "date": "2026-08-12",
       "type": "feature",
       "summary": "A new security baseline for enterprise agentic adoption",
@@ -33,7 +39,7 @@
   "sources": [
     "https://www.docker.com"
   ],
-  "lastReviewed": "2026-08-13",
+  "lastReviewed": "2026-08-22",
   "region": "overseas",
   "id": "docker",
   "name": "Docker",

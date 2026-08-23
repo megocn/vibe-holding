@@ -17,6 +17,12 @@
   ],
   "updates": [
     {
+      "date": "2026-08-21",
+      "type": "feature",
+      "summary": "DSF Membership Open Space at DjangoCon US",
+      "source": "https://www.djangoproject.com/weblog/2026/aug/20/dsf-membership-open-space-at-djangocon-us/"
+    },
+    {
       "date": "2026-08-12",
       "type": "feature",
       "summary": "DSF Office Hours",
@@ -41,7 +47,7 @@
   "sources": [
     "https://www.djangoproject.com"
   ],
-  "lastReviewed": "2026-08-13",
+  "lastReviewed": "2026-08-22",
   "region": "overseas",
   "id": "django",
   "name": "Django",

@@ -19,6 +19,12 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-08-22",
+      "type": "feature",
+      "summary": "The Python documentation is now available in Russian!",
+      "source": "https://blog.python.org/2026/08/the-python-documentation-is-now-available-in-russian/"
+    },
+    {
       "date": "2026-08-13",
       "type": "feature",
       "summary": "Announcing the Packaging Council Election Candidates for 2026!",
@@ -52,7 +58,7 @@
   "sources": [
     "https://www.python.org"
   ],
-  "lastReviewed": "2026-08-13",
+  "lastReviewed": "2026-08-22",
   "region": "both",
   "id": "python",
   "name": "Python",

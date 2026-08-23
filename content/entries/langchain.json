@@ -17,6 +17,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-21",
+      "type": "release",
+      "summary": "发布 1.4.1: langchain-perplexity==1.4.1",
+      "version": "1.4.1",
+      "source": "https://github.com/langchain-ai/langchain/releases/tag/langchain-perplexity%3D%3D1.4.1"
+    },
+    {
       "date": "2026-08-13",
       "type": "release",
       "summary": "发布 1.5.0: langchain-openai==1.5.0",
@@ -35,7 +42,7 @@
   "sources": [
     "https://www.langchain.com"
   ],
-  "lastReviewed": "2026-08-13",
+  "lastReviewed": "2026-08-22",
   "region": "overseas",
   "id": "langchain",
   "name": "LangChain",

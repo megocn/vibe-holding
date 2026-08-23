@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-22",
+      "type": "release",
+      "summary": "发布 8.1.5: 新版本",
+      "version": "8.1.5",
+      "source": "https://github.com/symfony/symfony/releases/tag/v8.1.5"
+    },
+    {
       "date": "2026-08-07",
       "type": "release",
       "summary": "发布 8.1.4: 新版本",
@@ -34,7 +41,7 @@
   "sources": [
     "https://symfony.com"
   ],
-  "lastReviewed": "2026-08-08",
+  "lastReviewed": "2026-08-22",
   "region": "overseas",
   "id": "symfony",
   "name": "Symfony",

@@ -20,12 +20,20 @@
   "pitfalls": [
     "默认文档缓存粒度粗，跨查询更新不会自动同步；exchange 组合顺序理解不对会出现难以复现的缓存行为。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "summary": "发布 5.0.4: urql@5.0.4",
+      "version": "5.0.4",
+      "source": "https://github.com/urql-graphql/urql/releases/tag/urql%405.0.4"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://github.com/urql-graphql/urql"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-22",
   "region": "overseas",
   "id": "urql",
   "name": "urql",

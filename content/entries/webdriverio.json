@@ -20,12 +20,20 @@
   "pitfalls": [
     "配置文件与插件体系较重，调试链路比一体化框架长；跨协议行为差异需要在目标环境上实测确认。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-21",
+      "type": "release",
+      "summary": "发布 9.31.2: 新版本",
+      "version": "9.31.2",
+      "source": "https://github.com/webdriverio/webdriverio/releases/tag/v9.31.2"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://webdriver.io"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-22",
   "region": "overseas",
   "id": "webdriverio",
   "name": "WebdriverIO",

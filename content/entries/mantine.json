@@ -21,6 +21,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-22",
+      "type": "release",
+      "summary": "发布 9.5.2: 新版本",
+      "version": "9.5.2",
+      "source": "https://github.com/mantinedev/mantine/releases/tag/9.5.2"
+    },
+    {
       "date": "2026-08-02",
       "type": "release",
       "summary": "发布 9.5.1: 新版本",
@@ -31,7 +38,7 @@
   "sources": [
     "https://mantine.dev"
   ],
-  "lastReviewed": "2026-08-02",
+  "lastReviewed": "2026-08-22",
   "region": "overseas",
   "id": "mantine",
   "name": "Mantine",

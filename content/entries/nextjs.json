@@ -25,6 +25,13 @@
   "currentVersion": "16.3.0",
   "updates": [
     {
+      "date": "2026-08-21",
+      "type": "release",
+      "summary": "发布 16.3.2: 新版本",
+      "version": "16.3.2",
+      "source": "https://github.com/vercel/next.js/releases/tag/v16.3.2"
+    },
+    {
       "date": "2026-08-13",
       "type": "release",
       "summary": "发布 16.3.1: 新版本",
@@ -62,7 +69,7 @@
   "sources": [
     "https://nextjs.org"
   ],
-  "lastReviewed": "2026-08-14",
+  "lastReviewed": "2026-08-22",
   "region": "overseas",
   "id": "nextjs",
   "name": "Next.js",
