@@ -7359,13 +7359,13 @@
         },
         {
           "systemId": "lmarena-search",
-          "period": "2026-07",
-          "note": "claude-fable-5",
+          "rank": 5,
+          "score": 1230,
+          "scoreLabel": "1230 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/search",
-          "asOf": "2026-07-24",
-          "rank": 3,
-          "score": 1237,
-          "scoreLabel": "1237 Elo",
+          "note": "模型 claude-fable-5",
+          "asOf": "2026-08-25",
           "previousRank": 3,
           "previousScore": 1237,
           "previousAsOf": "2026-07-24"
@@ -7672,15 +7672,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 8,
-          "scoreLabel": "3.8%",
-          "share": 3.8,
+          "rank": 13,
+          "scoreLabel": "1.6%",
+          "share": 1.6,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-17",
-          "previousRank": 11,
-          "previousShare": 2.4,
-          "previousAsOf": "2026-08-14"
+          "asOf": "2026-08-25",
+          "previousRank": 8,
+          "previousShare": 3.8,
+          "previousAsOf": "2026-08-17"
         },
         {
           "systemId": "swe-bench-pro",
@@ -7729,26 +7729,26 @@
       "rankings": [
         {
           "systemId": "lmarena-agent",
-          "rank": 10,
+          "rank": 8,
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/agent",
           "note": "模型 Claude Sonnet 5 (High)",
-          "asOf": "2026-08-04",
-          "previousRank": 7,
-          "previousAsOf": "2026-07-29"
+          "asOf": "2026-08-25",
+          "previousRank": 10,
+          "previousAsOf": "2026-08-04"
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 17,
-          "score": 1540,
-          "scoreLabel": "1540 Elo",
+          "rank": 22,
+          "score": 1539,
+          "scoreLabel": "1539 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 claude-sonnet-5-high",
-          "asOf": "2026-08-17",
-          "previousRank": 14,
-          "previousScore": 1542,
-          "previousAsOf": "2026-08-03"
+          "asOf": "2026-08-25",
+          "previousRank": 17,
+          "previousScore": 1540,
+          "previousAsOf": "2026-08-17"
         },
         {
           "systemId": "lmarena-document",
@@ -7804,15 +7804,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 18,
-          "scoreLabel": "1.4%",
-          "share": 1.4,
+          "rank": 16,
+          "scoreLabel": "1.2%",
+          "share": 1.2,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-22",
-          "previousRank": 15,
-          "previousShare": 1.9,
-          "previousAsOf": "2026-08-04"
+          "asOf": "2026-08-25",
+          "previousRank": 18,
+          "previousShare": 1.4,
+          "previousAsOf": "2026-08-22"
         },
         {
           "systemId": "lmarena-text",
@@ -9425,6 +9425,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-25",
+          "type": "release",
+          "summary": "发布 1.12.0: Details",
+          "version": "1.12.0",
+          "source": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.0"
+        },
+        {
           "date": "2026-08-14",
           "type": "release",
           "summary": "发布 1.12.0-rc02: +dev4645: Details",
@@ -9443,7 +9450,7 @@
       "sources": [
         "https://github.com/JetBrains/compose-multiplatform"
       ],
-      "lastReviewed": "2026-08-14",
+      "lastReviewed": "2026-08-25",
       "region": "overseas",
       "id": "compose-multiplatform",
       "name": "Compose Multiplatform",
@@ -9454,7 +9461,7 @@
       "descriptionMd": "Compose Multiplatform 由 JetBrains 把 Android 的 Jetpack Compose 延伸到 iOS、桌面与 Web，在 Kotlin Multiplatform 的共享逻辑之上再共享一层声明式界面。\n\n已选 KMP、团队熟悉 Compose 且希望界面也复用时评估；只想共享逻辑、界面保留原生的项目留在 KMP 即可。\n\niOS 与 Web 目标的成熟度落后于 Android 与桌面；自绘 UI 与系统控件、无障碍能力的融合需逐项验证。\n",
       "vendorId": "jetbrains",
       "githubUrl": "https://github.com/JetBrains/compose-multiplatform",
-      "currentVersion": "1.12.0-rc02"
+      "currentVersion": "1.12.0"
     },
     {
       "pricing": {
@@ -11467,16 +11474,16 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 9,
+          "rank": 12,
           "score": 1582,
           "scoreLabel": "1582 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-          "note": "模型 deepseek-v4-flash-high",
-          "asOf": "2026-08-13",
-          "previousRank": 7,
-          "previousScore": 1577,
-          "previousAsOf": "2026-08-02"
+          "note": "模型 deepseek-v4-pro-high-20260813",
+          "asOf": "2026-08-25",
+          "previousRank": 9,
+          "previousScore": 1582,
+          "previousAsOf": "2026-08-13"
         }
       ],
       "subcategory": "line",
@@ -12266,6 +12273,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-25",
+          "type": "release",
+          "summary": "发布 2.122.0: 新版本",
+          "version": "2.122.0",
+          "source": "https://github.com/docling-project/docling/releases/tag/v2.122.0"
+        },
+        {
           "date": "2026-08-14",
           "type": "release",
           "summary": "发布 2.120.1: 新版本",
@@ -12284,7 +12298,7 @@
       "sources": [
         "https://github.com/docling-project/docling"
       ],
-      "lastReviewed": "2026-08-14",
+      "lastReviewed": "2026-08-25",
       "region": "overseas",
       "id": "docling",
       "name": "Docling",
@@ -12295,7 +12309,7 @@
       "descriptionMd": "Docling 是面向开发者的开源文档转换/理解工具，把 PDF 等转为结构化表示，便于 LLM 与 RAG 消费，社区增长快。\n\n需要本地可控的文档解析、与 Python AI 栈集成时评估；可与云 Document AI 做成本对照。\n\n企业预置发票/证件模型不如 Azure/AWS；极端扫描件需另配 OCR 引擎。\n",
       "vendorId": "ibm",
       "githubUrl": "https://github.com/docling-project/docling",
-      "currentVersion": "2.118.0"
+      "currentVersion": "2.122.0"
     },
     {
       "pricing": {
@@ -12629,13 +12643,16 @@
         },
         {
           "systemId": "lmarena-vision",
-          "rank": 33,
+          "rank": 35,
           "score": 1258,
           "scoreLabel": "1258 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
           "note": "模型 dola-seed-2.0-pro",
-          "asOf": "2026-08-04"
+          "asOf": "2026-08-25",
+          "previousRank": 33,
+          "previousScore": 1258,
+          "previousAsOf": "2026-08-04"
         }
       ],
       "sources": [
@@ -16729,16 +16746,16 @@
         },
         {
           "systemId": "lmarena-vision",
-          "rank": 32,
-          "score": 1260,
-          "scoreLabel": "1260 Elo",
+          "rank": 29,
+          "score": 1270,
+          "scoreLabel": "1270 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
           "note": "模型 gemini-3.5-flash-lite",
-          "asOf": "2026-08-17",
-          "previousRank": 35,
-          "previousScore": 1257,
-          "previousAsOf": "2026-08-04"
+          "asOf": "2026-08-25",
+          "previousRank": 32,
+          "previousScore": 1260,
+          "previousAsOf": "2026-08-17"
         },
         {
           "systemId": "lmarena-webdev",
@@ -16781,15 +16798,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 22,
-          "scoreLabel": "1%",
-          "share": 1,
+          "rank": 20,
+          "scoreLabel": "0.8%",
+          "share": 0.8,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-19",
-          "previousRank": 20,
-          "previousShare": 1.1,
-          "previousAsOf": "2026-08-06"
+          "asOf": "2026-08-25",
+          "previousRank": 22,
+          "previousShare": 1,
+          "previousAsOf": "2026-08-19"
         }
       ],
       "sources": [
@@ -16867,26 +16884,26 @@
         },
         {
           "systemId": "lmarena-vision",
-          "rank": 7,
-          "score": 1295,
-          "scoreLabel": "1295 Elo",
+          "rank": 11,
+          "score": 1286,
+          "scoreLabel": "1286 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
-          "note": "模型 gemini-3.6-flash",
-          "asOf": "2026-08-07",
-          "previousRank": 9,
-          "previousScore": 1290,
-          "previousAsOf": "2026-08-03"
+          "note": "模型 gemini-3.5-flash-high",
+          "asOf": "2026-08-25",
+          "previousRank": 7,
+          "previousScore": 1295,
+          "previousAsOf": "2026-08-07"
         },
         {
           "systemId": "lmarena-search",
-          "rank": 13,
-          "score": 1197,
-          "scoreLabel": "1197 Elo",
-          "period": "2026-07",
+          "rank": 15,
+          "score": 1198,
+          "scoreLabel": "1198 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/search",
           "note": "模型 gemini-3-flash-grounding",
-          "asOf": "2026-07-26",
+          "asOf": "2026-08-25",
           "previousRank": 13,
           "previousScore": 1197,
           "previousAsOf": "2026-07-26"
@@ -16919,15 +16936,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 13,
-          "scoreLabel": "2%",
-          "share": 2,
+          "rank": 9,
+          "scoreLabel": "2.2%",
+          "share": 2.2,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-22",
-          "previousRank": 9,
-          "previousShare": 3.2,
-          "previousAsOf": "2026-08-20"
+          "asOf": "2026-08-25",
+          "previousRank": 13,
+          "previousShare": 2,
+          "previousAsOf": "2026-08-22"
         },
         {
           "systemId": "lmarena-document",
@@ -16944,16 +16961,16 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 8,
+          "rank": 10,
           "score": 1587,
           "scoreLabel": "1587 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 gemini-3.7-flash-high",
-          "asOf": "2026-08-17",
-          "previousRank": 18,
-          "previousScore": 1533,
-          "previousAsOf": "2026-08-03"
+          "asOf": "2026-08-25",
+          "previousRank": 8,
+          "previousScore": 1587,
+          "previousAsOf": "2026-08-17"
         }
       ],
       "sources": [
@@ -17186,13 +17203,13 @@
         },
         {
           "systemId": "lmarena-search",
-          "period": "2026-07",
-          "note": "gemini-3.1-pro-grounding",
+          "rank": 9,
+          "score": 1210,
+          "scoreLabel": "1210 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/search",
-          "asOf": "2026-07-24",
-          "rank": 7,
-          "score": 1212,
-          "scoreLabel": "1212 Elo",
+          "note": "模型 gemini-3.1-pro-grounding",
+          "asOf": "2026-08-25",
           "previousRank": 7,
           "previousScore": 1212,
           "previousAsOf": "2026-07-24"
@@ -17435,15 +17452,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 34,
-          "scoreLabel": "0.5%",
-          "share": 0.5,
+          "rank": 36,
+          "scoreLabel": "0.4%",
+          "share": 0.4,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-20",
-          "previousRank": 31,
-          "previousShare": 0.6,
-          "previousAsOf": "2026-08-19"
+          "asOf": "2026-08-25",
+          "previousRank": 34,
+          "previousShare": 0.5,
+          "previousAsOf": "2026-08-20"
         }
       ],
       "sources": [
@@ -17941,16 +17958,16 @@
       "rankings": [
         {
           "systemId": "lmarena-text",
-          "rank": 15,
-          "score": 1484,
-          "scoreLabel": "1484 Elo",
+          "rank": 13,
+          "score": 1487,
+          "scoreLabel": "1487 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/text",
           "note": "模型 glm-5.3-max",
-          "asOf": "2026-08-20",
-          "previousRank": 33,
-          "previousScore": 1471,
-          "previousAsOf": "2026-08-10"
+          "asOf": "2026-08-25",
+          "previousRank": 15,
+          "previousScore": 1484,
+          "previousAsOf": "2026-08-20"
         },
         {
           "systemId": "lmarena-agent",
@@ -17993,14 +18010,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 6,
-          "scoreLabel": "5.3%",
-          "share": 5.3,
+          "rank": 8,
+          "scoreLabel": "3.5%",
+          "share": 3.5,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-06",
-          "previousRank": 4,
-          "previousAsOf": "2026-07-24"
+          "asOf": "2026-08-25",
+          "previousRank": 6,
+          "previousShare": 5.3,
+          "previousAsOf": "2026-08-06"
         },
         {
           "systemId": "lmarena-document",
@@ -19142,13 +19160,13 @@
         },
         {
           "systemId": "lmarena-vision",
-          "rank": 11,
-          "score": 1287,
-          "scoreLabel": "1287 Elo",
+          "rank": 14,
+          "score": 1285,
+          "scoreLabel": "1285 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
           "note": "模型 gpt-5.5",
-          "asOf": "2026-08-03",
+          "asOf": "2026-08-25",
           "previousRank": 11,
           "previousScore": 1287,
           "previousAsOf": "2026-08-03"
@@ -19168,13 +19186,13 @@
         },
         {
           "systemId": "lmarena-search",
-          "period": "2026-07",
-          "note": "gpt-5.5-search",
+          "rank": 1,
+          "score": 1257,
+          "scoreLabel": "1257 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/search",
-          "asOf": "2026-07-24",
-          "rank": 2,
-          "score": 1240,
-          "scoreLabel": "1240 Elo",
+          "note": "模型 gpt-5.6-sol-xhigh",
+          "asOf": "2026-08-25",
           "previousRank": 2,
           "previousScore": 1240,
           "previousAsOf": "2026-07-24"
@@ -19205,15 +19223,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 17,
-          "scoreLabel": "1.3%",
-          "share": 1.3,
+          "rank": 14,
+          "scoreLabel": "1.5%",
+          "share": 1.5,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-20",
-          "previousRank": 19,
-          "previousShare": 1,
-          "previousAsOf": "2026-08-11"
+          "asOf": "2026-08-25",
+          "previousRank": 17,
+          "previousShare": 1.3,
+          "previousAsOf": "2026-08-20"
         }
       ],
       "subcategory": "line",
@@ -19256,15 +19274,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 3,
-          "scoreLabel": "7.7%",
-          "share": 7.7,
+          "rank": 7,
+          "scoreLabel": "4.8%",
+          "share": 4.8,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-14",
-          "previousRank": 5,
-          "previousShare": 7.3,
-          "previousAsOf": "2026-08-08"
+          "asOf": "2026-08-25",
+          "previousRank": 3,
+          "previousShare": 7.7,
+          "previousAsOf": "2026-08-14"
         }
       ],
       "sources": [
@@ -19772,13 +19790,13 @@
         },
         {
           "systemId": "lmarena-search",
-          "rank": 10,
-          "score": 1205,
-          "scoreLabel": "1205 Elo",
-          "period": "2026-07",
+          "rank": 8,
+          "score": 1213,
+          "scoreLabel": "1213 Elo",
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/search",
-          "note": "模型 grok-4.20-multi-agent-beta-0309",
-          "asOf": "2026-07-25",
+          "note": "模型 grok-4.5",
+          "asOf": "2026-08-25",
           "previousRank": 10,
           "previousScore": 1205,
           "previousAsOf": "2026-07-25"
@@ -24596,13 +24614,11 @@
         },
         {
           "systemId": "lmarena-agent",
-          "period": "2026-07",
-          "note": "Kimi K3",
+          "rank": 6,
+          "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/agent",
-          "asOf": "2026-07-24",
-          "rank": 4,
-          "share": 9.71,
-          "scoreLabel": "9.71% win",
+          "note": "模型 Kimi K3 (Max)",
+          "asOf": "2026-08-25",
           "previousRank": 4,
           "previousShare": 9.71,
           "previousAsOf": "2026-07-24"
@@ -24647,16 +24663,16 @@
         },
         {
           "systemId": "lmarena-vision",
-          "rank": 30,
-          "score": 1264,
-          "scoreLabel": "1264 Elo",
+          "rank": 32,
+          "score": 1263,
+          "scoreLabel": "1263 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
           "note": "模型 kimi-k2.6",
-          "asOf": "2026-08-04",
-          "previousRank": 28,
+          "asOf": "2026-08-25",
+          "previousRank": 30,
           "previousScore": 1264,
-          "previousAsOf": "2026-07-31"
+          "previousAsOf": "2026-08-04"
         },
         {
           "systemId": "lmarena-document",
@@ -29209,16 +29225,16 @@
         },
         {
           "systemId": "lmarena-vision",
-          "rank": 8,
+          "rank": 6,
           "score": 1294,
           "scoreLabel": "1294 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
           "note": "模型 muse-spark",
-          "asOf": "2026-08-07",
-          "previousRank": 6,
+          "asOf": "2026-08-25",
+          "previousRank": 8,
           "previousScore": 1294,
-          "previousAsOf": "2026-07-25"
+          "previousAsOf": "2026-08-07"
         },
         {
           "systemId": "lmarena-document",
@@ -30001,14 +30017,14 @@
         {
           "systemId": "openrouter-popularity",
           "rank": 11,
-          "scoreLabel": "3%",
-          "share": 3,
+          "scoreLabel": "1.8%",
+          "share": 1.8,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-07",
-          "previousRank": 9,
-          "previousShare": 3.6,
-          "previousAsOf": "2026-08-04"
+          "asOf": "2026-08-25",
+          "previousRank": 11,
+          "previousShare": 3,
+          "previousAsOf": "2026-08-07"
         },
         {
           "systemId": "lmarena-vision",
@@ -37929,16 +37945,16 @@
       "rankings": [
         {
           "systemId": "lmarena-text",
-          "rank": 17,
-          "score": 1482,
-          "scoreLabel": "1482 Elo",
+          "rank": 19,
+          "score": 1481,
+          "scoreLabel": "1481 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/text",
           "note": "模型 qwen3.8-max",
-          "asOf": "2026-08-20",
-          "previousRank": 9,
-          "previousScore": 1490,
-          "previousAsOf": "2026-08-12"
+          "asOf": "2026-08-25",
+          "previousRank": 17,
+          "previousScore": 1482,
+          "previousAsOf": "2026-08-20"
         },
         {
           "systemId": "artificial-analysis-index",
@@ -43305,15 +43321,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 24,
-          "scoreLabel": "0.9%",
-          "share": 0.9,
+          "rank": 29,
+          "scoreLabel": "0.5%",
+          "share": 0.5,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-22",
-          "previousRank": 21,
-          "previousShare": 1.1,
-          "previousAsOf": "2026-08-20"
+          "asOf": "2026-08-25",
+          "previousRank": 24,
+          "previousShare": 0.9,
+          "previousAsOf": "2026-08-22"
         }
       ],
       "sources": [

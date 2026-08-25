@@ -68,16 +68,16 @@
     },
     {
       "systemId": "lmarena-vision",
-      "rank": 8,
+      "rank": 6,
       "score": 1294,
       "scoreLabel": "1294 Elo",
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 muse-spark",
-      "asOf": "2026-08-07",
-      "previousRank": 6,
+      "asOf": "2026-08-25",
+      "previousRank": 8,
       "previousScore": 1294,
-      "previousAsOf": "2026-07-25"
+      "previousAsOf": "2026-08-07"
     },
     {
       "systemId": "lmarena-document",

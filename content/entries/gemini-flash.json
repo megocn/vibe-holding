@@ -56,26 +56,26 @@
     },
     {
       "systemId": "lmarena-vision",
-      "rank": 7,
-      "score": 1295,
-      "scoreLabel": "1295 Elo",
+      "rank": 11,
+      "score": 1286,
+      "scoreLabel": "1286 Elo",
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
-      "note": "模型 gemini-3.6-flash",
-      "asOf": "2026-08-07",
-      "previousRank": 9,
-      "previousScore": 1290,
-      "previousAsOf": "2026-08-03"
+      "note": "模型 gemini-3.5-flash-high",
+      "asOf": "2026-08-25",
+      "previousRank": 7,
+      "previousScore": 1295,
+      "previousAsOf": "2026-08-07"
     },
     {
       "systemId": "lmarena-search",
-      "rank": 13,
-      "score": 1197,
-      "scoreLabel": "1197 Elo",
-      "period": "2026-07",
+      "rank": 15,
+      "score": 1198,
+      "scoreLabel": "1198 Elo",
+      "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/search",
       "note": "模型 gemini-3-flash-grounding",
-      "asOf": "2026-07-26",
+      "asOf": "2026-08-25",
       "previousRank": 13,
       "previousScore": 1197,
       "previousAsOf": "2026-07-26"
@@ -108,15 +108,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 13,
-      "scoreLabel": "2%",
-      "share": 2,
+      "rank": 9,
+      "scoreLabel": "2.2%",
+      "share": 2.2,
       "period": "2026-08",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-08-22",
-      "previousRank": 9,
-      "previousShare": 3.2,
-      "previousAsOf": "2026-08-20"
+      "asOf": "2026-08-25",
+      "previousRank": 13,
+      "previousShare": 2,
+      "previousAsOf": "2026-08-22"
     },
     {
       "systemId": "lmarena-document",
@@ -133,16 +133,16 @@
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 8,
+      "rank": 10,
       "score": 1587,
       "scoreLabel": "1587 Elo",
       "period": "2026-08",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 gemini-3.7-flash-high",
-      "asOf": "2026-08-17",
-      "previousRank": 18,
-      "previousScore": 1533,
-      "previousAsOf": "2026-08-03"
+      "asOf": "2026-08-25",
+      "previousRank": 8,
+      "previousScore": 1587,
+      "previousAsOf": "2026-08-17"
     }
   ],
   "sources": [
