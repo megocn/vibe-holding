@@ -534,6 +534,12 @@
       ],
       "updates": [
         {
+          "date": "2026-08-28",
+          "type": "feature",
+          "summary": "How We Use AI for Every Article Without Making AI Slop",
+          "source": "https://ahrefs.com/blog/how-we-use-ai-without-making-ai-slop/"
+        },
+        {
           "date": "2026-08-13",
           "type": "feature",
           "summary": "Proven Ways to Use AI in Marketing",
@@ -544,7 +550,7 @@
       "sources": [
         "https://ahrefs.com"
       ],
-      "lastReviewed": "2026-08-13",
+      "lastReviewed": "2026-08-28",
       "region": "overseas",
       "id": "ahrefs",
       "name": "Ahrefs",
@@ -2089,6 +2095,12 @@
       ],
       "updates": [
         {
+          "date": "2026-08-28",
+          "type": "feature",
+          "summary": "Styling Mastery and Declarative Form Submissions",
+          "source": "https://blog.angular.dev/styling-mastery-and-declarative-form-submissions-743bb9bd0b0e?source=rss----447683c3d9a3---4"
+        },
+        {
           "date": "2026-08-07",
           "type": "release",
           "summary": "维护线 22 最新 22.1.1",
@@ -2107,7 +2119,7 @@
       "sources": [
         "https://angular.dev"
       ],
-      "lastReviewed": "2026-08-08",
+      "lastReviewed": "2026-08-28",
       "region": "overseas",
       "id": "angular",
       "name": "Angular",
@@ -2189,6 +2201,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-28",
+          "type": "release",
+          "summary": "发布 6.6.2: 新版本",
+          "version": "6.6.2",
+          "source": "https://github.com/ant-design/ant-design/releases/tag/6.6.2"
+        },
+        {
           "date": "2026-08-17",
           "type": "release",
           "summary": "发布 6.6.1: 新版本",
@@ -2213,7 +2232,7 @@
       "sources": [
         "https://ant.design"
       ],
-      "lastReviewed": "2026-08-17",
+      "lastReviewed": "2026-08-28",
       "region": "overseas",
       "id": "antd",
       "name": "Ant Design",
@@ -3289,6 +3308,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-27",
+          "type": "release",
+          "summary": "发布 7.2.9: astro@7.2.9",
+          "version": "7.2.9",
+          "source": "https://github.com/withastro/astro/releases/tag/astro%407.2.9"
+        },
+        {
           "date": "2026-08-13",
           "type": "release",
           "summary": "发布 11.1.2: @astrojs/node@11.1.2",
@@ -3307,7 +3333,7 @@
       "sources": [
         "https://astro.build"
       ],
-      "lastReviewed": "2026-08-14",
+      "lastReviewed": "2026-08-28",
       "region": "overseas",
       "id": "astro",
       "name": "Astro",
@@ -6684,12 +6710,20 @@
       "pitfalls": [
         "Chakra v3 迁移变动大；大数据表格需另配 TanStack Table。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-28",
+          "type": "release",
+          "summary": "发布 3.37.0: @chakra-ui/react@3.37.0",
+          "version": "3.37.0",
+          "source": "https://github.com/chakra-ui/chakra-ui/releases/tag/%40chakra-ui%2Freact%403.37.0"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://chakra-ui.com"
       ],
-      "lastReviewed": "2026-07-23",
+      "lastReviewed": "2026-08-28",
       "region": "overseas",
       "id": "chakra-ui",
       "name": "Chakra UI",
@@ -6698,7 +6732,8 @@
       "oneLiner": "Composable + style props · WAI-ARIA · dark mode 开箱",
       "officialUrl": "https://chakra-ui.com",
       "descriptionMd": "Chakra UI 提供 composable、WAI-ARIA 友好的 React 组件，style props API 简洁，dark mode 开箱即用。\n\n需要快速搭建 accessible marketing/admin、且偏好 CSS-in-JS style props 的团队。\n\nChakra v3 迁移变动大；大数据表格需另配 TanStack Table。\n",
-      "vendorId": "chakra-ui-inc"
+      "vendorId": "chakra-ui-inc",
+      "currentVersion": "3.37.0"
     },
     {
       "pricing": {
@@ -6855,6 +6890,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-27",
+          "type": "release",
+          "summary": "发布 4.17.1: 新版本",
+          "version": "4.17.1",
+          "source": "https://github.com/chatwoot/chatwoot/releases/tag/v4.17.1"
+        },
+        {
           "date": "2026-08-20",
           "type": "release",
           "summary": "发布 4.17.0: 新版本",
@@ -6866,7 +6908,7 @@
       "sources": [
         "https://www.chatwoot.com"
       ],
-      "lastReviewed": "2026-08-20",
+      "lastReviewed": "2026-08-28",
       "region": "overseas",
       "id": "chatwoot",
       "name": "Chatwoot",
@@ -7672,15 +7714,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 13,
-          "scoreLabel": "1.6%",
-          "share": 1.6,
+          "rank": 15,
+          "scoreLabel": "1.4%",
+          "share": 1.4,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-25",
-          "previousRank": 8,
-          "previousShare": 3.8,
-          "previousAsOf": "2026-08-17"
+          "asOf": "2026-08-28",
+          "previousRank": 13,
+          "previousShare": 1.6,
+          "previousAsOf": "2026-08-25"
         },
         {
           "systemId": "swe-bench-pro",
@@ -7816,13 +7858,16 @@
         },
         {
           "systemId": "lmarena-text",
-          "rank": 30,
+          "rank": 32,
           "score": 1472,
           "scoreLabel": "1472 Elo",
           "period": "2026-08",
           "sourceUrl": "https://arena.ai/leaderboard/text",
           "note": "模型 claude-sonnet-4-6",
-          "asOf": "2026-08-10"
+          "asOf": "2026-08-28",
+          "previousRank": 30,
+          "previousScore": 1472,
+          "previousAsOf": "2026-08-10"
         }
       ],
       "sources": [
@@ -12054,6 +12099,12 @@
       ],
       "updates": [
         {
+          "date": "2026-08-28",
+          "type": "feature",
+          "summary": "release",
+          "source": "https://github.com/discourse/discourse/releases/tag/release"
+        },
+        {
           "date": "2026-08-20",
           "type": "feature",
           "summary": "stable",
@@ -12076,7 +12127,7 @@
       "sources": [
         "https://www.discourse.org"
       ],
-      "lastReviewed": "2026-08-20",
+      "lastReviewed": "2026-08-28",
       "region": "overseas",
       "id": "discourse",
       "name": "Discourse",
@@ -15304,6 +15355,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-27",
+          "type": "release",
+          "summary": "发布 2.268.0: 新版本",
+          "version": "2.268.0",
+          "source": "https://github.com/Flagsmith/flagsmith/releases/tag/v2.268.0"
+        },
+        {
           "date": "2026-08-19",
           "type": "release",
           "summary": "发布 2.264.0: 新版本",
@@ -15315,7 +15373,7 @@
       "sources": [
         "https://www.flagsmith.com"
       ],
-      "lastReviewed": "2026-08-20",
+      "lastReviewed": "2026-08-28",
       "region": "overseas",
       "id": "flagsmith",
       "name": "Flagsmith",
@@ -15326,7 +15384,7 @@
       "descriptionMd": "Flagsmith 提供开源的功能开关与远程配置服务，支持自托管与官方托管两种形态；除布尔开关外也常被用来下发多变体配置，前端与移动端 SDK 覆盖较全。\n\n既要功能开关也要远程配置、并希望保留「先用托管、后转自建」退路的团队适合评估。\n\n实验统计能力有限，A/B 结论仍需外部分析；自托管版本的规模化与高可用要自己压测和运维。\n",
       "vendorId": "flagsmith-inc",
       "githubUrl": "https://github.com/Flagsmith/flagsmith",
-      "currentVersion": "2.264.0"
+      "currentVersion": "2.268.0"
     },
     {
       "pricing": {
@@ -15956,6 +16014,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-28",
+          "type": "release",
+          "summary": "发布 5.4.0: 新版本",
+          "version": "5.4.0",
+          "source": "https://github.com/formbricks/formbricks/releases/tag/5.4.0"
+        },
+        {
           "date": "2026-08-06",
           "type": "release",
           "summary": "发布 5.3.2: 新版本",
@@ -15967,7 +16032,7 @@
       "sources": [
         "https://formbricks.com"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-28",
       "region": "overseas",
       "id": "formbricks",
       "name": "Formbricks",
@@ -15977,7 +16042,8 @@
       "officialUrl": "https://formbricks.com",
       "descriptionMd": "Formbricks 是开源的产品内调研与体验收集工具，可按事件/页面触发问卷，支持云托管与自托管，强调把反馈嵌进产品路径而不是外链问卷页。\n\n需要 NPS/PMF/功能反馈贴在产品会话里、并在意数据驻留时评估；对外营销落地页表单用 Tally/Typeform 更合适。\n\n外向品牌调研与视觉模板不如 Typeform；自托管仍要做更新与存储运维。\n",
       "vendorId": "formbricks-inc",
-      "githubUrl": "https://github.com/formbricks/formbricks"
+      "githubUrl": "https://github.com/formbricks/formbricks",
+      "currentVersion": "5.4.0"
     },
     {
       "pricing": {
@@ -16328,6 +16394,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-28",
+          "type": "release",
+          "summary": "发布 0.2.2: @fumadocs/sanity@0.2.2",
+          "version": "0.2.2",
+          "source": "https://github.com/fuma-nama/fumadocs/releases/tag/%40fumadocs%2Fsanity%400.2.2"
+        },
+        {
           "date": "2026-08-19",
           "type": "release",
           "summary": "发布 15.3.0: fumadocs-mdx@15.3.0",
@@ -16353,7 +16426,7 @@
       "sources": [
         "https://fumadocs.dev"
       ],
-      "lastReviewed": "2026-08-20",
+      "lastReviewed": "2026-08-28",
       "region": "overseas",
       "id": "fumadocs",
       "name": "Fumadocs",
@@ -16936,15 +17009,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 9,
-          "scoreLabel": "2.2%",
-          "share": 2.2,
+          "rank": 8,
+          "scoreLabel": "3.5%",
+          "share": 3.5,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-25",
-          "previousRank": 13,
-          "previousShare": 2,
-          "previousAsOf": "2026-08-22"
+          "asOf": "2026-08-28",
+          "previousRank": 9,
+          "previousShare": 2.2,
+          "previousAsOf": "2026-08-25"
         },
         {
           "systemId": "lmarena-document",
@@ -17452,15 +17525,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 36,
-          "scoreLabel": "0.4%",
-          "share": 0.4,
+          "rank": 39,
+          "scoreLabel": "0.3%",
+          "share": 0.3,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-25",
-          "previousRank": 34,
-          "previousShare": 0.5,
-          "previousAsOf": "2026-08-20"
+          "asOf": "2026-08-28",
+          "previousRank": 36,
+          "previousShare": 0.4,
+          "previousAsOf": "2026-08-25"
         }
       ],
       "sources": [
@@ -19223,15 +19296,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 14,
-          "scoreLabel": "1.5%",
-          "share": 1.5,
+          "rank": 12,
+          "scoreLabel": "1.6%",
+          "share": 1.6,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-25",
-          "previousRank": 17,
-          "previousShare": 1.3,
-          "previousAsOf": "2026-08-20"
+          "asOf": "2026-08-28",
+          "previousRank": 14,
+          "previousShare": 1.5,
+          "previousAsOf": "2026-08-25"
         }
       ],
       "subcategory": "line",
@@ -19385,15 +19458,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 21,
-          "scoreLabel": "1%",
-          "share": 1,
+          "rank": 24,
+          "scoreLabel": "0.6%",
+          "share": 0.6,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-22",
-          "previousRank": 15,
-          "previousShare": 1.3,
-          "previousAsOf": "2026-08-19"
+          "asOf": "2026-08-28",
+          "previousRank": 21,
+          "previousShare": 1,
+          "previousAsOf": "2026-08-22"
         },
         {
           "systemId": "lmarena-text",
@@ -21714,6 +21787,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-28",
+          "type": "release",
+          "summary": "发布 2026.8.0: 新版本",
+          "version": "2026.8.0",
+          "source": "https://github.com/hoppscotch/hoppscotch/releases/tag/2026.8.0"
+        },
+        {
           "date": "2026-07-30",
           "type": "release",
           "summary": "发布 2026.7.0: 新版本",
@@ -21725,7 +21805,7 @@
       "sources": [
         "https://hoppscotch.io"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-28",
       "region": "overseas",
       "id": "hoppscotch",
       "name": "Hoppscotch",
@@ -21736,7 +21816,7 @@
       "descriptionMd": "Hoppscotch（原 Postwoman）是开源 API 客户端，浏览器体验快，可自托管，适合轻量调试与团队分享。\n\n要摆脱 Postman 客户端体积/账号、偏好开源自托管时列入对比。\n\n企业治理、大型工作区与官方 Mock 生态弱于 Postman；高级场景要组合其他工具。选型前请以官网与当前定价页为准。选型前请以官网与当前定价页为准。\n",
       "vendorId": "hoppscotch-inc",
       "githubUrl": "https://github.com/hoppscotch/hoppscotch",
-      "currentVersion": "2026.7.0"
+      "currentVersion": "2026.8.0"
     },
     {
       "pricing": {
@@ -26776,6 +26856,12 @@
       ],
       "updates": [
         {
+          "date": "2026-08-28",
+          "type": "feature",
+          "summary": "b10673",
+          "source": "https://github.com/ggml-org/llama.cpp/releases/tag/b10673"
+        },
+        {
           "date": "2026-08-18",
           "type": "release",
           "summary": "发布 0.1.2: 新版本",
@@ -26805,7 +26891,7 @@
       "sources": [
         "https://github.com/ggerganov/llama.cpp"
       ],
-      "lastReviewed": "2026-08-19",
+      "lastReviewed": "2026-08-28",
       "region": "overseas",
       "id": "llama-cpp",
       "name": "llama.cpp",
@@ -27649,6 +27735,13 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-08-28",
+          "type": "release",
+          "summary": "发布 1.35.0: Version 1.35.0",
+          "version": "1.35.0",
+          "source": "https://github.com/lucide-icons/lucide/releases/tag/1.35.0"
+        },
+        {
           "date": "2026-08-18",
           "type": "release",
           "summary": "发布 1.32.0: Version 1.32.0",
@@ -27690,7 +27783,7 @@
       "sources": [
         "https://lucide.dev"
       ],
-      "lastReviewed": "2026-08-19",
+      "lastReviewed": "2026-08-28",
       "region": "overseas",
       "id": "lucide",
       "name": "Lucide",
@@ -27699,7 +27792,7 @@
       "oneLiner": "Feather 演进 · 线条清晰 · shadcn 系常见默认",
       "descriptionMd": "Lucide 是基于 Feather 演进的开源图标集，线条清晰，React 等多框架封装齐全。\n\n适合产品 UI 图标层；与 Phosphor（多字重）按视觉体系二选一或分工。不可与 Ant Design 等完整组件库同榜硬比。\n\n图标语义保持一致比「多一个风格」重要；与文案、空状态插画统一视觉权重。\n",
       "officialUrl": "https://lucide.dev",
-      "currentVersion": "1.32.0"
+      "currentVersion": "1.35.0"
     },
     {
       "pricing": {
@@ -29261,6 +29354,15 @@
           "previousRank": 16,
           "previousScore": 1537,
           "previousAsOf": "2026-08-12"
+        },
+        {
+          "systemId": "openrouter-popularity",
+          "rank": 46,
+          "scoreLabel": "0.2%",
+          "share": 0.2,
+          "period": "2026-08",
+          "sourceUrl": "https://openrouter.ai/rankings",
+          "asOf": "2026-08-28"
         }
       ],
       "sources": [
@@ -29727,6 +29829,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-28",
+          "type": "release",
+          "summary": "发布 1.12.2: 新版本",
+          "version": "1.12.2",
+          "source": "https://github.com/web-infra-dev/midscene/releases/tag/v1.12.2"
+        },
+        {
           "date": "2026-08-13",
           "type": "release",
           "summary": "发布 1.10.12: 新版本",
@@ -29746,7 +29855,7 @@
         "https://midscenejs.com",
         "https://github.com/web-infra-dev/midscene"
       ],
-      "lastReviewed": "2026-08-13",
+      "lastReviewed": "2026-08-28",
       "region": "both",
       "id": "midscene",
       "name": "Midscene.js",
@@ -30016,15 +30125,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 11,
-          "scoreLabel": "1.8%",
-          "share": 1.8,
+          "rank": 13,
+          "scoreLabel": "1.4%",
+          "share": 1.4,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-25",
+          "asOf": "2026-08-28",
           "previousRank": 11,
-          "previousShare": 3,
-          "previousAsOf": "2026-08-07"
+          "previousShare": 1.8,
+          "previousAsOf": "2026-08-25"
         },
         {
           "systemId": "lmarena-vision",
@@ -31372,6 +31481,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-28",
+          "type": "release",
+          "summary": "发布 9.4.0: 新版本",
+          "version": "9.4.0",
+          "source": "https://github.com/mui/material-ui/releases/tag/v9.4.0"
+        },
+        {
           "date": "2026-08-05",
           "type": "release",
           "summary": "发布 9.3.0: 新版本",
@@ -31383,7 +31499,7 @@
       "sources": [
         "https://mui.com"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-08-28",
       "region": "overseas",
       "id": "mui",
       "name": "MUI",
@@ -31393,7 +31509,7 @@
       "officialUrl": "https://mui.com",
       "descriptionMd": "MUI（Material UI）是 React 最流行的 Material Design 实现，提供完整组件、主题系统与 Data Grid 等 Pro 模块。\n\n企业 admin dashboard、B2B SaaS 需要成熟表格/表单/主题且团队熟悉 Material 时。\n\n默认 Material 视觉同质化；重度定制需投入 theme override。\n",
       "vendorId": "mui-inc",
-      "currentVersion": "9.3.0"
+      "currentVersion": "9.4.0"
     },
     {
       "pricing": {
@@ -33602,6 +33718,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-28",
+          "type": "release",
+          "summary": "发布 1.0.0-rc1: Release v1.0.0-rc1",
+          "version": "1.0.0-rc1",
+          "source": "https://github.com/openobserve/openobserve/releases/tag/v1.0.0-rc1"
+        },
+        {
           "date": "2026-08-14",
           "type": "release",
           "summary": "发布 0.92.1: Release v0.92.1",
@@ -33620,7 +33743,7 @@
       "sources": [
         "https://openobserve.ai"
       ],
-      "lastReviewed": "2026-08-14",
+      "lastReviewed": "2026-08-28",
       "region": "overseas",
       "id": "openobserve",
       "name": "OpenObserve",
@@ -33631,7 +33754,7 @@
       "descriptionMd": "OpenObserve 用 Rust 实现，把日志、指标与链路收在同一后端，数据以列式格式直接落在 S3 等对象存储上，自带查询界面与告警，部署形态比 Elasticsearch 一类集群轻得多。\n\n想自托管一套统一的可观测后端、又不愿养搜索引擎集群时评估；它可以接在 Fluent Bit、Vector 或 OpenTelemetry Collector 后面，替代 Loki 加 Elasticsearch 的组合。\n\n项目相对年轻，大规模高基数场景下的查询表现需自行压测；开源版与云版在多租户、权限上的差异要提前确认。\n",
       "vendorId": "openobserve-inc",
       "githubUrl": "https://github.com/openobserve/openobserve",
-      "currentVersion": "0.92.0-rc3"
+      "currentVersion": "1.0.0-rc1"
     },
     {
       "pricing": {
@@ -33952,6 +34075,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-28",
+          "type": "release",
+          "summary": "发布 2.2.45-6491: 新版本",
+          "version": "2.2.45-6491",
+          "source": "https://github.com/comet-ml/opik/releases/tag/2.2.45-6491"
+        },
+        {
           "date": "2026-08-20",
           "type": "release",
           "summary": "发布 2.2.33: 新版本",
@@ -33977,7 +34107,7 @@
       "sources": [
         "https://github.com/comet-ml/opik"
       ],
-      "lastReviewed": "2026-08-20",
+      "lastReviewed": "2026-08-28",
       "region": "overseas",
       "id": "opik",
       "name": "Opik",
@@ -33986,7 +34116,7 @@
       "oneLiner": "评测与追踪一体 · Comet 开源；可自托管",
       "officialUrl": "https://github.com/comet-ml/opik",
       "descriptionMd": "Opik 是 Comet 开源的 LLM 评测与追踪工具，既能记录线上调用轨迹，也能对数据集批量跑评测指标，支持自托管部署。\n\n希望「线上追踪」和「离线评测」共用一套数据与界面、又要能私有化部署时评估；与 Langfuse 属同层可直接横比。\n\n两头都做意味着两头都不如专精工具深；自托管版本的运维与升级成本要计入，托管版则要评估数据出境。\n",
-      "currentVersion": "2.2.29-7845"
+      "currentVersion": "2.2.45-6491"
     },
     {
       "pricing": {
@@ -36398,15 +36528,15 @@
       "rankings": [
         {
           "systemId": "openrouter-popularity",
-          "rank": 12,
-          "scoreLabel": "2.3%",
-          "share": 2.3,
+          "rank": 16,
+          "scoreLabel": "1.3%",
+          "share": 1.3,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-19",
-          "previousRank": 10,
-          "previousShare": 2.8,
-          "previousAsOf": "2026-08-11"
+          "asOf": "2026-08-28",
+          "previousRank": 12,
+          "previousShare": 2.3,
+          "previousAsOf": "2026-08-19"
         }
       ],
       "sources": [
@@ -43057,6 +43187,13 @@
       ],
       "updates": [
         {
+          "date": "2026-08-28",
+          "type": "release",
+          "summary": "发布 3.7.6: stagehand/server-v3 v3.7.6",
+          "version": "3.7.6",
+          "source": "https://github.com/browserbase/stagehand/releases/tag/stagehand-server-v3%2Fv3.7.6"
+        },
+        {
           "date": "2026-08-20",
           "type": "release",
           "summary": "发布 3.7.5: stagehand/server-v3 v3.7.5",
@@ -43074,7 +43211,7 @@
       "sources": [
         "https://github.com/browserbase/stagehand"
       ],
-      "lastReviewed": "2026-08-20",
+      "lastReviewed": "2026-08-28",
       "region": "overseas",
       "id": "stagehand",
       "name": "Stagehand",
@@ -43109,12 +43246,20 @@
         "插件生态规模小于 Docusaurus",
         "多版本文档需依赖社区方案"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-08-28",
+          "type": "release",
+          "summary": "发布 0.41.10: @astrojs/starlight@0.41.10",
+          "version": "0.41.10",
+          "source": "https://github.com/withastro/starlight/releases/tag/%40astrojs%2Fstarlight%400.41.10"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://starlight.astro.build"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-08-28",
       "region": "overseas",
       "id": "starlight",
       "name": "Starlight",
@@ -43321,15 +43466,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 29,
-          "scoreLabel": "0.5%",
-          "share": 0.5,
+          "rank": 35,
+          "scoreLabel": "0.4%",
+          "share": 0.4,
           "period": "2026-08",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-25",
-          "previousRank": 24,
-          "previousShare": 0.9,
-          "previousAsOf": "2026-08-22"
+          "asOf": "2026-08-28",
+          "previousRank": 29,
+          "previousShare": 0.5,
+          "previousAsOf": "2026-08-25"
         }
       ],
       "sources": [
@@ -48273,6 +48418,12 @@
       ],
       "updates": [
         {
+          "date": "2026-08-28",
+          "type": "feature",
+          "summary": "Run Claude Managed Agents with Chat SDK",
+          "source": "https://vercel.com/changelog/claude-managed-agents-with-chat-sdk"
+        },
+        {
           "date": "2026-08-19",
           "type": "feature",
           "summary": "Chat SDK adds Instagram adapter",
@@ -48307,7 +48458,7 @@
       "sources": [
         "https://vercel.com"
       ],
-      "lastReviewed": "2026-08-19",
+      "lastReviewed": "2026-08-28",
       "region": "overseas",
       "id": "vercel",
       "name": "Vercel",

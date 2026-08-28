@@ -17,6 +17,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-27",
+      "type": "release",
+      "summary": "发布 7.2.9: astro@7.2.9",
+      "version": "7.2.9",
+      "source": "https://github.com/withastro/astro/releases/tag/astro%407.2.9"
+    },
+    {
       "date": "2026-08-13",
       "type": "release",
       "summary": "发布 11.1.2: @astrojs/node@11.1.2",
@@ -35,7 +42,7 @@
   "sources": [
     "https://astro.build"
   ],
-  "lastReviewed": "2026-08-14",
+  "lastReviewed": "2026-08-28",
   "region": "overseas",
   "id": "astro",
   "name": "Astro",

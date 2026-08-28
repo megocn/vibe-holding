@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-28",
+      "type": "release",
+      "summary": "发布 2026.8.0: 新版本",
+      "version": "2026.8.0",
+      "source": "https://github.com/hoppscotch/hoppscotch/releases/tag/2026.8.0"
+    },
+    {
       "date": "2026-07-30",
       "type": "release",
       "summary": "发布 2026.7.0: 新版本",
@@ -33,7 +40,7 @@
   "sources": [
     "https://hoppscotch.io"
   ],
-  "lastReviewed": "2026-08-06",
+  "lastReviewed": "2026-08-28",
   "region": "overseas",
   "id": "hoppscotch",
   "name": "Hoppscotch",
@@ -44,5 +51,5 @@
   "descriptionMd": "Hoppscotch（原 Postwoman）是开源 API 客户端，浏览器体验快，可自托管，适合轻量调试与团队分享。\n\n要摆脱 Postman 客户端体积/账号、偏好开源自托管时列入对比。\n\n企业治理、大型工作区与官方 Mock 生态弱于 Postman；高级场景要组合其他工具。选型前请以官网与当前定价页为准。选型前请以官网与当前定价页为准。\n",
   "vendorId": "hoppscotch-inc",
   "githubUrl": "https://github.com/hoppscotch/hoppscotch",
-  "currentVersion": "2026.7.0"
+  "currentVersion": "2026.8.0"
 }

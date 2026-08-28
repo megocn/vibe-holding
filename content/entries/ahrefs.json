@@ -19,6 +19,12 @@
   ],
   "updates": [
     {
+      "date": "2026-08-28",
+      "type": "feature",
+      "summary": "How We Use AI for Every Article Without Making AI Slop",
+      "source": "https://ahrefs.com/blog/how-we-use-ai-without-making-ai-slop/"
+    },
+    {
       "date": "2026-08-13",
       "type": "feature",
       "summary": "Proven Ways to Use AI in Marketing",
@@ -29,7 +35,7 @@
   "sources": [
     "https://ahrefs.com"
   ],
-  "lastReviewed": "2026-08-13",
+  "lastReviewed": "2026-08-28",
   "region": "overseas",
   "id": "ahrefs",
   "name": "Ahrefs",

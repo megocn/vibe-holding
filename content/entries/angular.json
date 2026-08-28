@@ -17,6 +17,12 @@
   ],
   "updates": [
     {
+      "date": "2026-08-28",
+      "type": "feature",
+      "summary": "Styling Mastery and Declarative Form Submissions",
+      "source": "https://blog.angular.dev/styling-mastery-and-declarative-form-submissions-743bb9bd0b0e?source=rss----447683c3d9a3---4"
+    },
+    {
       "date": "2026-08-07",
       "type": "release",
       "summary": "维护线 22 最新 22.1.1",
@@ -35,7 +41,7 @@
   "sources": [
     "https://angular.dev"
   ],
-  "lastReviewed": "2026-08-08",
+  "lastReviewed": "2026-08-28",
   "region": "overseas",
   "id": "angular",
   "name": "Angular",

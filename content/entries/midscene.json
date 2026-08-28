@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-28",
+      "type": "release",
+      "summary": "发布 1.12.2: 新版本",
+      "version": "1.12.2",
+      "source": "https://github.com/web-infra-dev/midscene/releases/tag/v1.12.2"
+    },
+    {
       "date": "2026-08-13",
       "type": "release",
       "summary": "发布 1.10.12: 新版本",
@@ -41,7 +48,7 @@
     "https://midscenejs.com",
     "https://github.com/web-infra-dev/midscene"
   ],
-  "lastReviewed": "2026-08-13",
+  "lastReviewed": "2026-08-28",
   "region": "both",
   "id": "midscene",
   "name": "Midscene.js",

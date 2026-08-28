@@ -23,6 +23,12 @@
   ],
   "updates": [
     {
+      "date": "2026-08-28",
+      "type": "feature",
+      "summary": "Run Claude Managed Agents with Chat SDK",
+      "source": "https://vercel.com/changelog/claude-managed-agents-with-chat-sdk"
+    },
+    {
       "date": "2026-08-19",
       "type": "feature",
       "summary": "Chat SDK adds Instagram adapter",
@@ -57,7 +63,7 @@
   "sources": [
     "https://vercel.com"
   ],
-  "lastReviewed": "2026-08-19",
+  "lastReviewed": "2026-08-28",
   "region": "overseas",
   "id": "vercel",
   "name": "Vercel",

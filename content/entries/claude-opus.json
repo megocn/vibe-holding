@@ -163,15 +163,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 13,
-      "scoreLabel": "1.6%",
-      "share": 1.6,
+      "rank": 15,
+      "scoreLabel": "1.4%",
+      "share": 1.4,
       "period": "2026-08",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-08-25",
-      "previousRank": 8,
-      "previousShare": 3.8,
-      "previousAsOf": "2026-08-17"
+      "asOf": "2026-08-28",
+      "previousRank": 13,
+      "previousShare": 1.6,
+      "previousAsOf": "2026-08-25"
     },
     {
       "systemId": "swe-bench-pro",

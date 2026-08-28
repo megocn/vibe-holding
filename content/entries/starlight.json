@@ -21,12 +21,20 @@
     "插件生态规模小于 Docusaurus",
     "多版本文档需依赖社区方案"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-28",
+      "type": "release",
+      "summary": "发布 0.41.10: @astrojs/starlight@0.41.10",
+      "version": "0.41.10",
+      "source": "https://github.com/withastro/starlight/releases/tag/%40astrojs%2Fstarlight%400.41.10"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://starlight.astro.build"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-28",
   "region": "overseas",
   "id": "starlight",
   "name": "Starlight",
