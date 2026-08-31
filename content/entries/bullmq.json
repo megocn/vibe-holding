@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-31",
+      "type": "release",
+      "summary": "发布 2.0: vpy3.2.0",
+      "version": "2.0",
+      "source": "https://github.com/taskforcesh/bullmq/releases/tag/vpy3.2.0"
+    },
+    {
       "date": "2026-08-21",
       "type": "release",
       "summary": "发布 6.2.0: 新版本",
@@ -47,7 +54,7 @@
   "sources": [
     "https://docs.bullmq.io"
   ],
-  "lastReviewed": "2026-08-22",
+  "lastReviewed": "2026-08-31",
   "region": "overseas",
   "id": "bullmq",
   "name": "BullMQ",
@@ -58,5 +65,5 @@
   "descriptionMd": "BullMQ 是基于 Redis 的 Node.js 任务队列：重试、延迟、优先级、流速与可观测组件生态成熟，是 Node 侧默认 worker 方案之一。\n\n已有 Redis，要跑邮件、转码、webhook 重试、批处理消费等进程内 worker，又不想引入完整 durable 平台时选用。\n\n可靠性边界取决于 Redis 与 worker 运维；跨语言协调与强一致长事务应看 Temporal 一类。\n",
   "vendorId": "taskforce-sh",
   "githubUrl": "https://github.com/taskforcesh/bullmq",
-  "currentVersion": "6.2.0"
+  "currentVersion": "2.0"
 }

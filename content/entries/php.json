@@ -17,6 +17,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-27",
+      "type": "release",
+      "summary": "维护线 8.5 最新 8.5.10",
+      "version": "8.5.10",
+      "source": "https://www.php.net/ChangeLog-8.php#8.5.10"
+    },
+    {
       "date": "2026-07-30",
       "type": "release",
       "summary": "维护线 8.5 最新 8.5.9",
@@ -35,7 +42,7 @@
   "sources": [
     "https://www.php.net"
   ],
-  "lastReviewed": "2026-08-03",
+  "lastReviewed": "2026-08-31",
   "region": "overseas",
   "id": "php",
   "name": "PHP",

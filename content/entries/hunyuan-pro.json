@@ -34,12 +34,12 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "period": "2026-07",
-      "note": "Hy3 · OpenRouter 周用量顶尖（快照）",
+      "rank": 5,
+      "scoreLabel": "6.3%",
+      "share": 6.3,
+      "period": "2026-08",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-07-24",
-      "rank": 3,
-      "tier": "Top usage",
+      "asOf": "2026-08-31",
       "previousRank": 3,
       "previousAsOf": "2026-07-24"
     },

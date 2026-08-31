@@ -20,6 +20,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-26",
+      "type": "release",
+      "summary": "维护线 1.37 最新 1.37.0",
+      "version": "1.37.0",
+      "source": "https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.37.md"
+    },
+    {
       "date": "2026-07-22",
       "type": "release",
       "summary": "维护线 1.36 最新 1.36.3",
@@ -31,7 +38,7 @@
   "sources": [
     "https://kubernetes.io"
   ],
-  "lastReviewed": "2026-07-25",
+  "lastReviewed": "2026-08-31",
   "region": "overseas",
   "id": "kubernetes",
   "name": "Kubernetes",
@@ -39,5 +46,6 @@
   "subcategory": "orchestration",
   "oneLiner": "容器编排核心 · 声明式伸缩/滚动 · 云原生工作负载",
   "officialUrl": "https://kubernetes.io",
-  "descriptionMd": "Kubernetes 编排容器化工作负载，提供声明式部署、服务发现、自动伸缩与 rolling update，云原生基础设施核心。\n\n微服务上云、需要 portable 编排且团队有 SRE 能力时采用；与 Helm/Argo 生态丰富。\n\n学习曲线陡峭；小项目直接 PaaS（Railway/Fly）可能更省运维。\n"
+  "descriptionMd": "Kubernetes 编排容器化工作负载，提供声明式部署、服务发现、自动伸缩与 rolling update，云原生基础设施核心。\n\n微服务上云、需要 portable 编排且团队有 SRE 能力时采用；与 Helm/Argo 生态丰富。\n\n学习曲线陡峭；小项目直接 PaaS（Railway/Fly）可能更省运维。\n",
+  "currentVersion": "1.37"
 }

@@ -17,6 +17,12 @@
   ],
   "updates": [
     {
+      "date": "2026-08-28",
+      "type": "feature",
+      "summary": "This Week in Rails: August 28, 2026",
+      "source": "https://rubyonrails.org/2026/8/28/this-week-in-rails"
+    },
+    {
       "date": "2026-08-21",
       "type": "feature",
       "summary": "Banner or no banner, that’s the question",
@@ -40,7 +46,7 @@
   "sources": [
     "https://rubyonrails.org"
   ],
-  "lastReviewed": "2026-08-22",
+  "lastReviewed": "2026-08-31",
   "region": "overseas",
   "id": "rails",
   "name": "Ruby on Rails",

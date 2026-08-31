@@ -25,6 +25,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-28",
+      "type": "release",
+      "summary": "发布 2.37.3: twenty/v2.37.3",
+      "version": "2.37.3",
+      "source": "https://github.com/twentyhq/twenty/releases/tag/twenty%2Fv2.37.3"
+    },
+    {
       "date": "2026-08-22",
       "type": "release",
       "summary": "发布 2.33.0: twenty/v2.33.0: i18n - translations (#24606)",
@@ -50,7 +57,7 @@
   "sources": [
     "https://twenty.com"
   ],
-  "lastReviewed": "2026-08-22",
+  "lastReviewed": "2026-08-31",
   "region": "overseas",
   "id": "twenty",
   "name": "Twenty",

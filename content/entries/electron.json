@@ -17,6 +17,13 @@
   ],
   "updates": [
     {
+      "date": "2026-08-31",
+      "type": "release",
+      "summary": "维护线 43 最新 43.5.0",
+      "version": "43.5.0",
+      "source": "https://releases.electronjs.org/release/v43.5.0"
+    },
+    {
       "date": "2026-08-25",
       "type": "deprecation",
       "summary": "electron 41 将于 2026-08-25 结束安全支持",
@@ -35,7 +42,7 @@
   "sources": [
     "https://www.electronjs.org"
   ],
-  "lastReviewed": "2026-08-19",
+  "lastReviewed": "2026-08-31",
   "region": "overseas",
   "id": "electron",
   "name": "Electron",

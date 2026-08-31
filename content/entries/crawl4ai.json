@@ -20,12 +20,20 @@
   "pitfalls": [
     "反爬对抗、代理与失败重试全要自己维护；抓取吞吐受本机资源限制，规模化需自建队列与调度。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-08-31",
+      "type": "release",
+      "summary": "发布 0.9.3: Release v0.9.3",
+      "version": "0.9.3",
+      "source": "https://github.com/unclecode/crawl4ai/releases/tag/v0.9.3"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://github.com/unclecode/crawl4ai"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-08-31",
   "region": "overseas",
   "id": "crawl4ai",
   "name": "Crawl4AI",

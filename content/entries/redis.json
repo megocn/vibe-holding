@@ -22,6 +22,12 @@
   ],
   "updates": [
     {
+      "date": "2026-08-28",
+      "type": "feature",
+      "summary": "Security Advisory: CVE-2026-81934",
+      "source": "https://redis.io/blog/security-advisory-cve-2026-81934/"
+    },
+    {
       "date": "2026-08-06",
       "type": "feature",
       "summary": "How Redis brings persistent memory to Snowflake Cortex Agents",
@@ -38,7 +44,7 @@
   "sources": [
     "https://redis.io"
   ],
-  "lastReviewed": "2026-08-07",
+  "lastReviewed": "2026-08-31",
   "region": "overseas",
   "id": "redis",
   "name": "Redis",

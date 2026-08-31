@@ -19,6 +19,12 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-08-28",
+      "type": "feature",
+      "summary": "From one switch to a control panel: meet `dataCollection`",
+      "source": "https://blog.sentry.io/datacollection-control-panel/"
+    },
+    {
       "date": "2026-08-13",
       "type": "feature",
       "summary": "Automated agent triage with Agent Tracing and Claude Routines",
@@ -35,7 +41,7 @@
   "sources": [
     "https://sentry.io"
   ],
-  "lastReviewed": "2026-08-14",
+  "lastReviewed": "2026-08-31",
   "region": "overseas",
   "id": "sentry",
   "name": "Sentry",
