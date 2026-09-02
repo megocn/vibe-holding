@@ -36,13 +36,13 @@
     },
     {
       "systemId": "lmarena-search",
-      "rank": 5,
-      "score": 1226,
-      "scoreLabel": "1226 Elo",
-      "period": "2026-08",
+      "rank": 6,
+      "score": 1227,
+      "scoreLabel": "1227 Elo",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/search",
       "note": "模型 ernie-5.1",
-      "asOf": "2026-08-02",
+      "asOf": "2026-09-01",
       "previousRank": 5,
       "previousScore": 1226,
       "previousAsOf": "2026-08-02"

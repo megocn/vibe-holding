@@ -95,13 +95,13 @@
     },
     {
       "systemId": "lmarena-image-edit",
-      "rank": 9,
-      "score": 1385,
-      "scoreLabel": "1385 Elo",
-      "period": "2026-07",
+      "rank": 10,
+      "score": 1387,
+      "scoreLabel": "1387 Elo",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 gemini-3.1-flash-image (nano-banana-2) [web-search]",
-      "asOf": "2026-07-26",
+      "asOf": "2026-09-01",
       "previousRank": 9,
       "previousScore": 1385,
       "previousAsOf": "2026-07-26"
@@ -133,16 +133,16 @@
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 13,
+      "rank": 15,
       "score": 1587,
       "scoreLabel": "1587 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 gemini-3.7-flash-high",
       "asOf": "2026-09-02",
-      "previousRank": 10,
+      "previousRank": 13,
       "previousScore": 1587,
-      "previousAsOf": "2026-08-25"
+      "previousAsOf": "2026-09-02"
     },
     {
       "systemId": "lmarena-t2v",

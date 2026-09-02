@@ -83,28 +83,28 @@
     },
     {
       "systemId": "lmarena-image-edit",
-      "rank": 16,
+      "rank": 17,
       "score": 1314,
       "scoreLabel": "1314 Elo",
-      "period": "2026-07",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 gemini-3.1-flash-lite-image (nano-banana-2-lite)",
-      "asOf": "2026-07-31",
+      "asOf": "2026-09-01",
       "previousRank": 16,
       "previousScore": 1314,
       "previousAsOf": "2026-07-31"
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 20,
-      "scoreLabel": "0.8%",
-      "share": 0.8,
-      "period": "2026-08",
+      "rank": 22,
+      "scoreLabel": "0.9%",
+      "share": 0.9,
+      "period": "2026-09",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-08-25",
-      "previousRank": 22,
-      "previousShare": 1,
-      "previousAsOf": "2026-08-19"
+      "asOf": "2026-09-02",
+      "previousRank": 20,
+      "previousShare": 0.8,
+      "previousAsOf": "2026-08-25"
     }
   ],
   "sources": [

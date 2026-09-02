@@ -53,16 +53,16 @@
     },
     {
       "systemId": "lmarena-vision",
-      "rank": 11,
+      "rank": 10,
       "score": 1289,
       "scoreLabel": "1289 Elo",
-      "period": "2026-08",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 gemini-3-pro",
-      "asOf": "2026-08-04",
-      "previousRank": 9,
+      "asOf": "2026-09-01",
+      "previousRank": 11,
       "previousScore": 1289,
-      "previousAsOf": "2026-07-29"
+      "previousAsOf": "2026-08-04"
     },
     {
       "systemId": "lmarena-search",
@@ -92,13 +92,13 @@
     },
     {
       "systemId": "lmarena-document",
-      "rank": 23,
+      "rank": 24,
       "score": 1445,
       "scoreLabel": "1445 Elo",
-      "period": "2026-07",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 gemini-3.1-pro-preview",
-      "asOf": "2026-07-31",
+      "asOf": "2026-09-01",
       "previousRank": 23,
       "previousScore": 1445,
       "previousAsOf": "2026-07-31"
@@ -131,28 +131,28 @@
     },
     {
       "systemId": "lmarena-image-edit",
-      "rank": 8,
-      "score": 1389,
-      "scoreLabel": "1389 Elo",
-      "period": "2026-08",
+      "rank": 7,
+      "score": 1390,
+      "scoreLabel": "1390 Elo",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 gemini-3-pro-image-2k (nano-banana-pro)",
-      "asOf": "2026-08-09",
-      "previousRank": 5,
+      "asOf": "2026-09-01",
+      "previousRank": 8,
       "previousScore": 1389,
-      "previousAsOf": "2026-08-02"
+      "previousAsOf": "2026-08-09"
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 43,
-      "scoreLabel": "0.3%",
-      "share": 0.3,
-      "period": "2026-08",
+      "rank": 45,
+      "scoreLabel": "0.2%",
+      "share": 0.2,
+      "period": "2026-09",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-08-22",
-      "previousRank": 50,
-      "previousShare": 0.2,
-      "previousAsOf": "2026-08-17"
+      "asOf": "2026-09-02",
+      "previousRank": 43,
+      "previousShare": 0.3,
+      "previousAsOf": "2026-08-22"
     }
   ],
   "subcategory": "line",

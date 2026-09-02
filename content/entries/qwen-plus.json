@@ -59,13 +59,13 @@
     },
     {
       "systemId": "lmarena-document",
-      "rank": 25,
+      "rank": 26,
       "score": 1440,
       "scoreLabel": "1440 Elo",
-      "period": "2026-07",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 qwen3.7-plus",
-      "asOf": "2026-07-31",
+      "asOf": "2026-09-01",
       "previousRank": 25,
       "previousScore": 1440,
       "previousAsOf": "2026-07-31"

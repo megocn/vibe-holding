@@ -93,13 +93,13 @@
     },
     {
       "systemId": "lmarena-search",
-      "rank": 6,
+      "rank": 7,
       "score": 1221,
       "scoreLabel": "1221 Elo",
-      "period": "2026-07",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/search",
       "note": "模型 claude-sonnet-4-6-search",
-      "asOf": "2026-07-25",
+      "asOf": "2026-09-01",
       "previousRank": 6,
       "previousScore": 1221,
       "previousAsOf": "2026-07-25"

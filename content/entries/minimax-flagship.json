@@ -61,13 +61,13 @@
     },
     {
       "systemId": "lmarena-document",
-      "rank": 26,
+      "rank": 27,
       "score": 1435,
       "scoreLabel": "1435 Elo",
-      "period": "2026-07",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 minimax-m3",
-      "asOf": "2026-07-31",
+      "asOf": "2026-09-01",
       "previousRank": 26,
       "previousScore": 1435,
       "previousAsOf": "2026-07-31"

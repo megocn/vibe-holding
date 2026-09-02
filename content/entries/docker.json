@@ -17,6 +17,12 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-09-02",
+      "type": "feature",
+      "summary": "Building Reproducible AI Evaluation Workflows with Docker Sandboxes",
+      "source": "https://www.docker.com/blog/building-reproducible-ai-evaluation-workflows-with-docker-sandboxes/"
+    },
+    {
       "date": "2026-08-21",
       "type": "feature",
       "summary": "Running AI agents in GitHub Actions with Docker Sandboxes",
@@ -39,7 +45,7 @@
   "sources": [
     "https://www.docker.com"
   ],
-  "lastReviewed": "2026-08-22",
+  "lastReviewed": "2026-09-02",
   "region": "overseas",
   "id": "docker",
   "name": "Docker",

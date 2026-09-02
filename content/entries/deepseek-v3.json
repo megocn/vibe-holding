@@ -72,12 +72,12 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "period": "2026-07",
-      "note": "V4 Flash/Pro 合计常居 OpenRouter 用量顶部",
+      "rank": 1,
+      "scoreLabel": "12.1%",
+      "share": 12.1,
+      "period": "2026-09",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-07-24",
-      "rank": 2,
-      "tier": "Top usage",
+      "asOf": "2026-09-02",
       "previousRank": 2,
       "previousAsOf": "2026-07-24"
     },

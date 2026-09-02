@@ -146,6 +146,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-02",
+          "type": "release",
+          "summary": "发布 0.87.1-hotfix.4: fix(worker): close the health server when the socket disconnects",
+          "version": "0.87.1-hotfix.4",
+          "source": "https://github.com/activepieces/activepieces/releases/tag/0.87.1-hotfix.4"
+        },
+        {
           "date": "2026-08-19",
           "type": "release",
           "summary": "发布 0.88.3: 新版本",
@@ -171,7 +178,7 @@
       "sources": [
         "https://www.activepieces.com"
       ],
-      "lastReviewed": "2026-08-20",
+      "lastReviewed": "2026-09-02",
       "region": "overseas",
       "id": "activepieces",
       "name": "Activepieces",
@@ -182,7 +189,7 @@
       "descriptionMd": "Activepieces 是开源的业务自动化平台，提供流动画布与可扩展 pieces（连接器），可云可自托管，定位为 Zapier/Make 的可自掌控替代，方便团队按需写自定义片段。\n\n要数据驻留或二次开发连接器、又希望界面仍面向运营同学时评估；纯最广 SaaS 目录先 Zapier。\n\n连接器广度仍追头部；生产自托管要自己做高可用与密钥治理。\n",
       "vendorId": "activepieces-inc",
       "githubUrl": "https://github.com/activepieces/activepieces",
-      "currentVersion": "0.88.0"
+      "currentVersion": "0.87.1-hotfix.4"
     },
     {
       "pricing": {
@@ -7369,16 +7376,16 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 6,
-          "score": 1627,
-          "scoreLabel": "1627 Elo",
-          "period": "2026-08",
+          "rank": 1,
+          "score": 1765,
+          "scoreLabel": "1765 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-          "note": "模型 claude-fable-5",
-          "asOf": "2026-08-17",
-          "previousRank": 4,
-          "previousScore": 1628,
-          "previousAsOf": "2026-07-29"
+          "note": "模型 claude-fable-5.1-max",
+          "asOf": "2026-09-02",
+          "previousRank": 6,
+          "previousScore": 1627,
+          "previousAsOf": "2026-08-17"
         },
         {
           "systemId": "lmarena-vision",
@@ -7395,13 +7402,13 @@
         },
         {
           "systemId": "lmarena-document",
-          "period": "2026-07",
-          "note": "claude-fable-5",
+          "rank": 4,
+          "score": 1504,
+          "scoreLabel": "1504 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/document",
-          "asOf": "2026-07-24",
-          "rank": 3,
-          "score": 1505,
-          "scoreLabel": "1505 Elo",
+          "note": "模型 claude-fable-5",
+          "asOf": "2026-09-01",
           "previousRank": 3,
           "previousScore": 1505,
           "previousAsOf": "2026-07-24"
@@ -7515,13 +7522,13 @@
         },
         {
           "systemId": "lmarena-document",
-          "rank": 30,
+          "rank": 31,
           "score": 1423,
           "scoreLabel": "1423 Elo",
-          "period": "2026-07",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 claude-haiku-4-5-20251001",
-          "asOf": "2026-07-31",
+          "asOf": "2026-09-01",
           "previousRank": 30,
           "previousScore": 1423,
           "previousAsOf": "2026-07-31"
@@ -7646,26 +7653,26 @@
         },
         {
           "systemId": "lmarena-agent",
-          "rank": 2,
-          "period": "2026-07",
+          "rank": 1,
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/agent",
-          "note": "模型 Claude Opus 5 (Max)",
-          "asOf": "2026-07-29",
+          "note": "模型 Claude Opus 5 (High)",
+          "asOf": "2026-09-01",
           "previousRank": 2,
           "previousAsOf": "2026-07-29"
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 1,
-          "score": 1686,
-          "scoreLabel": "1686 Elo",
-          "period": "2026-08",
+          "rank": 3,
+          "score": 1687,
+          "scoreLabel": "1687 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 claude-opus-5-max",
-          "asOf": "2026-08-07",
+          "asOf": "2026-09-02",
           "previousRank": 1,
-          "previousScore": 1712,
-          "previousAsOf": "2026-07-29"
+          "previousScore": 1686,
+          "previousAsOf": "2026-08-07"
         },
         {
           "systemId": "lmarena-vision",
@@ -7695,13 +7702,13 @@
         },
         {
           "systemId": "lmarena-search",
-          "period": "2026-07",
-          "note": "claude-opus-4-6-search",
-          "sourceUrl": "https://arena.ai/leaderboard/search",
-          "asOf": "2026-07-24",
-          "rank": 1,
+          "rank": 2,
           "score": 1253,
           "scoreLabel": "1253 Elo",
+          "period": "2026-09",
+          "sourceUrl": "https://arena.ai/leaderboard/search",
+          "note": "模型 claude-opus-4-6-search",
+          "asOf": "2026-09-01",
           "previousRank": 1,
           "previousScore": 1253,
           "previousAsOf": "2026-07-24"
@@ -7840,13 +7847,13 @@
         },
         {
           "systemId": "lmarena-search",
-          "rank": 6,
+          "rank": 7,
           "score": 1221,
           "scoreLabel": "1221 Elo",
-          "period": "2026-07",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/search",
           "note": "模型 claude-sonnet-4-6-search",
-          "asOf": "2026-07-25",
+          "asOf": "2026-09-01",
           "previousRank": 6,
           "previousScore": 1221,
           "previousAsOf": "2026-07-25"
@@ -9477,6 +9484,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-02",
+          "type": "release",
+          "summary": "发布 1.13.0-alpha01: +dev4743: Details",
+          "version": "1.13.0-alpha01",
+          "source": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.13.0-alpha01%2Bdev4743"
+        },
+        {
           "date": "2026-08-25",
           "type": "release",
           "summary": "发布 1.12.0: Details",
@@ -9502,7 +9516,7 @@
       "sources": [
         "https://github.com/JetBrains/compose-multiplatform"
       ],
-      "lastReviewed": "2026-08-25",
+      "lastReviewed": "2026-09-02",
       "region": "overseas",
       "id": "compose-multiplatform",
       "name": "Compose Multiplatform",
@@ -9513,7 +9527,7 @@
       "descriptionMd": "Compose Multiplatform 由 JetBrains 把 Android 的 Jetpack Compose 延伸到 iOS、桌面与 Web，在 Kotlin Multiplatform 的共享逻辑之上再共享一层声明式界面。\n\n已选 KMP、团队熟悉 Compose 且希望界面也复用时评估；只想共享逻辑、界面保留原生的项目留在 KMP 即可。\n\niOS 与 Web 目标的成熟度落后于 Android 与桌面；自绘 UI 与系统控件、无障碍能力的融合需逐项验证。\n",
       "vendorId": "jetbrains",
       "githubUrl": "https://github.com/JetBrains/compose-multiplatform",
-      "currentVersion": "1.12.0"
+      "currentVersion": "1.13.0-alpha01"
     },
     {
       "pricing": {
@@ -11523,12 +11537,12 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "period": "2026-07",
-          "note": "V4 Flash/Pro 合计常居 OpenRouter 用量顶部",
+          "rank": 1,
+          "scoreLabel": "12.1%",
+          "share": 12.1,
+          "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-07-24",
-          "rank": 2,
-          "tier": "Top usage",
+          "asOf": "2026-09-02",
           "previousRank": 2,
           "previousAsOf": "2026-07-24"
         },
@@ -12267,6 +12281,12 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-09-02",
+          "type": "feature",
+          "summary": "Building Reproducible AI Evaluation Workflows with Docker Sandboxes",
+          "source": "https://www.docker.com/blog/building-reproducible-ai-evaluation-workflows-with-docker-sandboxes/"
+        },
+        {
           "date": "2026-08-21",
           "type": "feature",
           "summary": "Running AI agents in GitHub Actions with Docker Sandboxes",
@@ -12289,7 +12309,7 @@
       "sources": [
         "https://www.docker.com"
       ],
-      "lastReviewed": "2026-08-22",
+      "lastReviewed": "2026-09-02",
       "region": "overseas",
       "id": "docker",
       "name": "Docker",
@@ -12696,16 +12716,16 @@
         },
         {
           "systemId": "lmarena-image-edit",
-          "rank": 5,
-          "score": 1393,
-          "scoreLabel": "1393 Elo",
-          "period": "2026-08",
+          "rank": 6,
+          "score": 1395,
+          "scoreLabel": "1395 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/image-edit",
           "note": "模型 seedream-5.0-pro",
-          "asOf": "2026-08-09",
-          "previousRank": 8,
-          "previousScore": 1385,
-          "previousAsOf": "2026-08-02"
+          "asOf": "2026-09-01",
+          "previousRank": 5,
+          "previousScore": 1393,
+          "previousAsOf": "2026-08-09"
         },
         {
           "systemId": "lmarena-vision",
@@ -15747,16 +15767,16 @@
       "rankings": [
         {
           "systemId": "lmarena-image",
-          "rank": 24,
+          "rank": 23,
           "score": 1162,
           "scoreLabel": "1162 Elo",
-          "period": "2026-08",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
           "note": "模型 flux-2-max",
-          "asOf": "2026-08-12",
-          "previousRank": 22,
+          "asOf": "2026-09-01",
+          "previousRank": 24,
           "previousScore": 1162,
-          "previousAsOf": "2026-08-06"
+          "previousAsOf": "2026-08-12"
         },
         {
           "systemId": "aa-image-arena",
@@ -15773,26 +15793,29 @@
         },
         {
           "systemId": "lmarena-image-edit",
-          "rank": 26,
+          "rank": 27,
           "score": 1262,
           "scoreLabel": "1262 Elo",
-          "period": "2026-07",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/image-edit",
           "note": "模型 flux-2-max",
-          "asOf": "2026-07-26",
+          "asOf": "2026-09-01",
           "previousRank": 26,
           "previousScore": 1262,
           "previousAsOf": "2026-07-26"
         },
         {
           "systemId": "lmarena-t2v",
-          "rank": 2,
-          "score": 1496,
-          "scoreLabel": "1496 Elo",
-          "period": "2026-08",
+          "rank": 3,
+          "score": 1495,
+          "scoreLabel": "1495 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
           "note": "模型 flux-3-video",
-          "asOf": "2026-08-12"
+          "asOf": "2026-09-01",
+          "previousRank": 2,
+          "previousScore": 1496,
+          "previousAsOf": "2026-08-12"
         },
         {
           "systemId": "lmarena-i2v",
@@ -16890,28 +16913,28 @@
         },
         {
           "systemId": "lmarena-image-edit",
-          "rank": 16,
+          "rank": 17,
           "score": 1314,
           "scoreLabel": "1314 Elo",
-          "period": "2026-07",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/image-edit",
           "note": "模型 gemini-3.1-flash-lite-image (nano-banana-2-lite)",
-          "asOf": "2026-07-31",
+          "asOf": "2026-09-01",
           "previousRank": 16,
           "previousScore": 1314,
           "previousAsOf": "2026-07-31"
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 20,
-          "scoreLabel": "0.8%",
-          "share": 0.8,
-          "period": "2026-08",
+          "rank": 22,
+          "scoreLabel": "0.9%",
+          "share": 0.9,
+          "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-25",
-          "previousRank": 22,
-          "previousShare": 1,
-          "previousAsOf": "2026-08-19"
+          "asOf": "2026-09-02",
+          "previousRank": 20,
+          "previousShare": 0.8,
+          "previousAsOf": "2026-08-25"
         }
       ],
       "sources": [
@@ -17028,13 +17051,13 @@
         },
         {
           "systemId": "lmarena-image-edit",
-          "rank": 9,
-          "score": 1385,
-          "scoreLabel": "1385 Elo",
-          "period": "2026-07",
+          "rank": 10,
+          "score": 1387,
+          "scoreLabel": "1387 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/image-edit",
           "note": "模型 gemini-3.1-flash-image (nano-banana-2) [web-search]",
-          "asOf": "2026-07-26",
+          "asOf": "2026-09-01",
           "previousRank": 9,
           "previousScore": 1385,
           "previousAsOf": "2026-07-26"
@@ -17066,16 +17089,16 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 13,
+          "rank": 15,
           "score": 1587,
           "scoreLabel": "1587 Elo",
           "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 gemini-3.7-flash-high",
           "asOf": "2026-09-02",
-          "previousRank": 10,
+          "previousRank": 13,
           "previousScore": 1587,
-          "previousAsOf": "2026-08-25"
+          "previousAsOf": "2026-09-02"
         },
         {
           "systemId": "lmarena-t2v",
@@ -17199,13 +17222,13 @@
       "rankings": [
         {
           "systemId": "lmarena-t2v",
-          "period": "2026-07",
-          "note": "gemini-omni-flash",
+          "rank": 2,
+          "score": 1512,
+          "scoreLabel": "1512 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
-          "asOf": "2026-07-24",
-          "rank": 1,
-          "score": 1527,
-          "scoreLabel": "1527 Elo",
+          "note": "模型 gemini-omni-flash",
+          "asOf": "2026-09-01",
           "previousRank": 1,
           "previousScore": 1527,
           "previousAsOf": "2026-07-24"
@@ -17315,16 +17338,16 @@
         },
         {
           "systemId": "lmarena-vision",
-          "rank": 11,
+          "rank": 10,
           "score": 1289,
           "scoreLabel": "1289 Elo",
-          "period": "2026-08",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
           "note": "模型 gemini-3-pro",
-          "asOf": "2026-08-04",
-          "previousRank": 9,
+          "asOf": "2026-09-01",
+          "previousRank": 11,
           "previousScore": 1289,
-          "previousAsOf": "2026-07-29"
+          "previousAsOf": "2026-08-04"
         },
         {
           "systemId": "lmarena-search",
@@ -17354,13 +17377,13 @@
         },
         {
           "systemId": "lmarena-document",
-          "rank": 23,
+          "rank": 24,
           "score": 1445,
           "scoreLabel": "1445 Elo",
-          "period": "2026-07",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 gemini-3.1-pro-preview",
-          "asOf": "2026-07-31",
+          "asOf": "2026-09-01",
           "previousRank": 23,
           "previousScore": 1445,
           "previousAsOf": "2026-07-31"
@@ -17393,28 +17416,28 @@
         },
         {
           "systemId": "lmarena-image-edit",
-          "rank": 8,
-          "score": 1389,
-          "scoreLabel": "1389 Elo",
-          "period": "2026-08",
+          "rank": 7,
+          "score": 1390,
+          "scoreLabel": "1390 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/image-edit",
           "note": "模型 gemini-3-pro-image-2k (nano-banana-pro)",
-          "asOf": "2026-08-09",
-          "previousRank": 5,
+          "asOf": "2026-09-01",
+          "previousRank": 8,
           "previousScore": 1389,
-          "previousAsOf": "2026-08-02"
+          "previousAsOf": "2026-08-09"
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 43,
-          "scoreLabel": "0.3%",
-          "share": 0.3,
-          "period": "2026-08",
+          "rank": 45,
+          "scoreLabel": "0.2%",
+          "share": 0.2,
+          "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-22",
-          "previousRank": 50,
-          "previousShare": 0.2,
-          "previousAsOf": "2026-08-17"
+          "asOf": "2026-09-02",
+          "previousRank": 43,
+          "previousShare": 0.3,
+          "previousAsOf": "2026-08-22"
         }
       ],
       "subcategory": "line",
@@ -17540,13 +17563,13 @@
         },
         {
           "systemId": "lmarena-document",
-          "rank": 29,
+          "rank": 30,
           "score": 1424,
           "scoreLabel": "1424 Elo",
-          "period": "2026-07",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 gemma-4-31b",
-          "asOf": "2026-07-31",
+          "asOf": "2026-09-01",
           "previousRank": 29,
           "previousScore": 1424,
           "previousAsOf": "2026-07-31"
@@ -18109,16 +18132,16 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 10,
-          "score": 1608,
-          "scoreLabel": "1608 Elo",
+          "rank": 12,
+          "score": 1609,
+          "scoreLabel": "1609 Elo",
           "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 glm-5.3-max",
           "asOf": "2026-09-02",
-          "previousRank": 8,
-          "previousScore": 1587,
-          "previousAsOf": "2026-08-13"
+          "previousRank": 10,
+          "previousScore": 1608,
+          "previousAsOf": "2026-09-02"
         },
         {
           "systemId": "artificial-analysis-index",
@@ -18147,13 +18170,13 @@
         },
         {
           "systemId": "lmarena-document",
-          "rank": 32,
+          "rank": 33,
           "score": 1417,
           "scoreLabel": "1417 Elo",
-          "period": "2026-07",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 glm-5v-turbo",
-          "asOf": "2026-07-31",
+          "asOf": "2026-09-01",
           "previousRank": 32,
           "previousScore": 1417,
           "previousAsOf": "2026-07-31"
@@ -18757,16 +18780,16 @@
       "rankings": [
         {
           "systemId": "lmarena-image",
-          "rank": 32,
+          "rank": 31,
           "score": 1148,
           "scoreLabel": "1148 Elo",
-          "period": "2026-08",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
           "note": "模型 imagen-ultra-4.0-generate-001",
-          "asOf": "2026-08-12",
-          "previousRank": 30,
+          "asOf": "2026-09-01",
+          "previousRank": 32,
           "previousScore": 1148,
-          "previousAsOf": "2026-08-06"
+          "previousAsOf": "2026-08-12"
         },
         {
           "systemId": "aa-image-arena",
@@ -19272,16 +19295,16 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 9,
+          "rank": 11,
           "score": 1616,
           "scoreLabel": "1616 Elo",
           "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 gpt-5.6-sol-xhigh (codex-harness)",
           "asOf": "2026-09-02",
-          "previousRank": 7,
-          "previousScore": 1622,
-          "previousAsOf": "2026-08-17"
+          "previousRank": 9,
+          "previousScore": 1616,
+          "previousAsOf": "2026-09-02"
         },
         {
           "systemId": "lmarena-vision",
@@ -19298,13 +19321,13 @@
         },
         {
           "systemId": "lmarena-document",
-          "period": "2026-07",
-          "note": "gpt-5.5-high",
+          "rank": 7,
+          "score": 1485,
+          "scoreLabel": "1485 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/document",
-          "asOf": "2026-07-24",
-          "rank": 6,
-          "score": 1487,
-          "scoreLabel": "1487 Elo",
+          "note": "模型 gpt-5.5-high",
+          "asOf": "2026-09-01",
           "previousRank": 6,
           "previousScore": 1487,
           "previousAsOf": "2026-07-24"
@@ -19728,6 +19751,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-02",
+          "type": "release",
+          "summary": "发布 7.1.9: 新版本",
+          "version": "7.1.9",
+          "source": "https://github.com/Graylog2/graylog2-server/releases/tag/7.1.9"
+        },
+        {
           "date": "2026-08-18",
           "type": "release",
           "summary": "发布 7.1.8: 新版本",
@@ -19746,7 +19776,7 @@
       "sources": [
         "https://graylog.org"
       ],
-      "lastReviewed": "2026-08-19",
+      "lastReviewed": "2026-09-02",
       "region": "overseas",
       "id": "graylog",
       "name": "Graylog",
@@ -19863,16 +19893,16 @@
       "rankings": [
         {
           "systemId": "lmarena-webdev",
-          "rank": 5,
-          "score": 1631,
-          "scoreLabel": "1631 Elo",
-          "period": "2026-08",
+          "rank": 7,
+          "score": 1629,
+          "scoreLabel": "1629 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 grok-4.6-high",
-          "asOf": "2026-08-17",
-          "previousRank": 7,
-          "previousScore": 1618,
-          "previousAsOf": "2026-08-13"
+          "asOf": "2026-09-02",
+          "previousRank": 5,
+          "previousScore": 1631,
+          "previousAsOf": "2026-08-17"
         },
         {
           "systemId": "artificial-analysis-index",
@@ -19928,13 +19958,13 @@
         },
         {
           "systemId": "lmarena-document",
-          "rank": 20,
+          "rank": 21,
           "score": 1454,
           "scoreLabel": "1454 Elo",
-          "period": "2026-07",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 grok-4.5",
-          "asOf": "2026-07-31",
+          "asOf": "2026-09-01",
           "previousRank": 20,
           "previousScore": 1454,
           "previousAsOf": "2026-07-31"
@@ -19995,16 +20025,16 @@
       "rankings": [
         {
           "systemId": "lmarena-image",
-          "rank": 2,
-          "score": 1320,
-          "scoreLabel": "1320 Elo",
-          "period": "2026-08",
+          "rank": 3,
+          "score": 1316,
+          "scoreLabel": "1316 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
           "note": "模型 grok-imagine-image-2.0 (low)",
-          "asOf": "2026-08-09",
-          "previousRank": 12,
-          "previousScore": 1229,
-          "previousAsOf": "2026-07-24"
+          "asOf": "2026-09-01",
+          "previousRank": 2,
+          "previousScore": 1320,
+          "previousAsOf": "2026-08-09"
         },
         {
           "systemId": "lmarena-image-edit",
@@ -20533,16 +20563,16 @@
       "rankings": [
         {
           "systemId": "lmarena-t2v",
-          "rank": 7,
+          "rank": 8,
           "score": 1428,
           "scoreLabel": "1428 Elo",
-          "period": "2026-08",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
           "note": "模型 happyhorse-1.0",
-          "asOf": "2026-08-19",
-          "previousRank": 4,
-          "previousScore": 1430,
-          "previousAsOf": "2026-07-24"
+          "asOf": "2026-09-01",
+          "previousRank": 7,
+          "previousScore": 1428,
+          "previousAsOf": "2026-08-19"
         },
         {
           "systemId": "lmarena-i2v",
@@ -22380,16 +22410,16 @@
       "rankings": [
         {
           "systemId": "lmarena-image",
-          "rank": 30,
+          "rank": 29,
           "score": 1151,
           "scoreLabel": "1151 Elo",
-          "period": "2026-08",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
           "note": "模型 hunyuan-image-3.0",
-          "asOf": "2026-08-12",
-          "previousRank": 28,
+          "asOf": "2026-09-01",
+          "previousRank": 30,
           "previousScore": 1151,
-          "previousAsOf": "2026-08-06"
+          "previousAsOf": "2026-08-12"
         },
         {
           "systemId": "aa-image-arena",
@@ -22483,16 +22513,16 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 33,
-          "score": 1513,
-          "scoreLabel": "1513 Elo",
+          "rank": 9,
+          "score": 1626,
+          "scoreLabel": "1626 Elo",
           "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-          "note": "模型 hy3",
+          "note": "模型 hy4-preview",
           "asOf": "2026-09-02",
-          "previousRank": 27,
-          "previousScore": 1517,
-          "previousAsOf": "2026-08-20"
+          "previousRank": 33,
+          "previousScore": 1513,
+          "previousAsOf": "2026-09-02"
         },
         {
           "systemId": "lmarena-i2v",
@@ -24774,13 +24804,13 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "period": "2026-07",
-          "note": "kimi-k3",
+          "rank": 4,
+          "score": 1674,
+          "scoreLabel": "1674 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-          "asOf": "2026-07-24",
-          "rank": 1,
-          "score": 1678,
-          "scoreLabel": "1678 Elo",
+          "note": "模型 kimi-k3-max",
+          "asOf": "2026-09-02",
           "previousRank": 1,
           "previousScore": 1678,
           "previousAsOf": "2026-07-24"
@@ -24800,15 +24830,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 15,
-          "scoreLabel": "1.6%",
-          "share": 1.6,
-          "period": "2026-08",
+          "rank": 14,
+          "scoreLabel": "1.7%",
+          "share": 1.7,
+          "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-22",
-          "previousRank": 13,
-          "previousShare": 2.1,
-          "previousAsOf": "2026-08-13"
+          "asOf": "2026-09-02",
+          "previousRank": 15,
+          "previousShare": 1.6,
+          "previousAsOf": "2026-08-22"
         },
         {
           "systemId": "lmarena-vision",
@@ -24825,13 +24855,13 @@
         },
         {
           "systemId": "lmarena-document",
-          "rank": 21,
+          "rank": 22,
           "score": 1451,
           "scoreLabel": "1451 Elo",
-          "period": "2026-07",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 kimi-k2.6",
-          "asOf": "2026-07-31",
+          "asOf": "2026-09-01",
           "previousRank": 21,
           "previousScore": 1451,
           "previousAsOf": "2026-07-31"
@@ -26078,6 +26108,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-01",
+          "type": "release",
+          "summary": "维护线 13 最新 13.30.1",
+          "version": "13.30.1",
+          "source": "https://laravel.com/docs/13.x/releases"
+        },
+        {
           "date": "2026-07-24",
           "type": "release",
           "summary": "维护线 13 最新 13.22.0",
@@ -26089,7 +26126,7 @@
       "sources": [
         "https://laravel.com"
       ],
-      "lastReviewed": "2026-07-25",
+      "lastReviewed": "2026-09-02",
       "region": "overseas",
       "id": "laravel",
       "name": "Laravel",
@@ -30243,13 +30280,13 @@
         },
         {
           "systemId": "lmarena-document",
-          "rank": 26,
+          "rank": 27,
           "score": 1435,
           "scoreLabel": "1435 Elo",
-          "period": "2026-07",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 minimax-m3",
-          "asOf": "2026-07-31",
+          "asOf": "2026-09-01",
           "previousRank": 26,
           "previousScore": 1435,
           "previousAsOf": "2026-07-31"
@@ -31865,6 +31902,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-02",
+          "type": "release",
+          "summary": "发布 0.71.6: 新版本",
+          "version": "0.71.6",
+          "source": "https://github.com/NangoHQ/nango/releases/tag/v0.71.6"
+        },
+        {
           "date": "2026-08-03",
           "type": "release",
           "summary": "发布 0.71.3: 新版本",
@@ -31876,7 +31920,7 @@
       "sources": [
         "https://www.nango.dev"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-09-02",
       "region": "overseas",
       "id": "nango",
       "name": "Nango",
@@ -37880,6 +37924,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-02",
+          "type": "release",
+          "summary": "发布 3.39.2: 新版本",
+          "version": "3.39.2",
+          "source": "https://github.com/quarkusio/quarkus/releases/tag/3.39.2"
+        },
+        {
           "date": "2026-08-13",
           "type": "release",
           "summary": "发布 3.38.2: 新版本",
@@ -37891,7 +37942,7 @@
       "sources": [
         "https://quarkus.io"
       ],
-      "lastReviewed": "2026-08-14",
+      "lastReviewed": "2026-09-02",
       "region": "overseas",
       "id": "quarkus",
       "name": "Quarkus",
@@ -38207,13 +38258,13 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 4,
-          "score": 1668,
-          "scoreLabel": "1668 Elo",
-          "period": "2026-08",
+          "rank": 2,
+          "score": 1688,
+          "scoreLabel": "1688 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-          "note": "模型 qwen3.8-max",
-          "asOf": "2026-08-03",
+          "note": "模型 qwen3.8-max-0902",
+          "asOf": "2026-09-02",
           "previousRank": 4,
           "previousScore": 1668,
           "previousAsOf": "2026-08-03"
@@ -38258,13 +38309,13 @@
         },
         {
           "systemId": "lmarena-vision",
-          "rank": 2,
-          "score": 1305,
-          "scoreLabel": "1305 Elo",
-          "period": "2026-08",
+          "rank": 3,
+          "score": 1300,
+          "scoreLabel": "1300 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
           "note": "模型 qwen3.8-max",
-          "asOf": "2026-08-03",
+          "asOf": "2026-09-01",
           "previousRank": 2,
           "previousScore": 1305,
           "previousAsOf": "2026-08-03"
@@ -38388,13 +38439,13 @@
         },
         {
           "systemId": "lmarena-document",
-          "rank": 25,
+          "rank": 26,
           "score": 1440,
           "scoreLabel": "1440 Elo",
-          "period": "2026-07",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 qwen3.7-plus",
-          "asOf": "2026-07-31",
+          "asOf": "2026-09-01",
           "previousRank": 25,
           "previousScore": 1440,
           "previousAsOf": "2026-07-31"
@@ -39163,16 +39214,16 @@
       "rankings": [
         {
           "systemId": "lmarena-image",
-          "rank": 23,
+          "rank": 22,
           "score": 1169,
           "scoreLabel": "1169 Elo",
-          "period": "2026-08",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
           "note": "模型 recraft-v4.1-utility-pro",
-          "asOf": "2026-08-12",
-          "previousRank": 21,
+          "asOf": "2026-09-01",
+          "previousRank": 23,
           "previousScore": 1169,
-          "previousAsOf": "2026-08-06"
+          "previousAsOf": "2026-08-12"
         },
         {
           "systemId": "aa-image-arena",
@@ -42542,15 +42593,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 25,
-          "scoreLabel": "0.7%",
-          "share": 0.7,
-          "period": "2026-08",
+          "rank": 24,
+          "scoreLabel": "0.8%",
+          "share": 0.8,
+          "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-22",
-          "previousRank": 29,
-          "previousShare": 0.6,
-          "previousAsOf": "2026-08-19"
+          "asOf": "2026-09-02",
+          "previousRank": 25,
+          "previousShare": 0.7,
+          "previousAsOf": "2026-08-22"
         }
       ],
       "sources": [
@@ -46657,6 +46708,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-02",
+          "type": "release",
+          "summary": "发布 3.20.220-lts: 新版本",
+          "version": "3.20.220-lts",
+          "source": "https://github.com/ToolJet/ToolJet/releases/tag/v3.20.220-lts"
+        },
+        {
           "date": "2026-08-14",
           "type": "release",
           "summary": "发布 3.20.212-lts: 新版本",
@@ -46675,7 +46733,7 @@
       "sources": [
         "https://www.tooljet.com"
       ],
-      "lastReviewed": "2026-08-14",
+      "lastReviewed": "2026-09-02",
       "region": "overseas",
       "id": "tooljet",
       "name": "ToolJet",
@@ -46686,7 +46744,7 @@
       "descriptionMd": "ToolJet 面向工程与运营共建内部工具：可视化搭建、多数据源连接、简单审批流与 RBAC，社区版可自托管，商业版补协作与审计。\n\n需要比表格脚本更重、比自写完整 admin 更轻的中间层时，与 Appsmith/Retool 列入同一内部系统短名单。\n\n第三方集成与生态密度不及 Retool；超大团队对审计、SSO 与扩展的要求常把你推到企业版或自研。\n",
       "vendorId": "tooljet-inc",
       "githubUrl": "https://github.com/ToolJet/ToolJet",
-      "currentVersion": "3.20.212-lts"
+      "currentVersion": "3.20.220-lts"
     },
     {
       "pricing": {
@@ -47618,16 +47676,16 @@
       "rankings": [
         {
           "systemId": "lmarena-image",
-          "rank": 18,
+          "rank": 17,
           "score": 1188,
           "scoreLabel": "1188 Elo",
-          "period": "2026-08",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
           "note": "模型 uni-1.1-max",
-          "asOf": "2026-08-12",
-          "previousRank": 16,
+          "asOf": "2026-09-01",
+          "previousRank": 18,
           "previousScore": 1188,
-          "previousAsOf": "2026-08-06"
+          "previousAsOf": "2026-08-12"
         },
         {
           "systemId": "lmarena-image-edit",
@@ -50059,13 +50117,13 @@
         },
         {
           "systemId": "lmarena-search",
-          "rank": 5,
-          "score": 1226,
-          "scoreLabel": "1226 Elo",
-          "period": "2026-08",
+          "rank": 6,
+          "score": 1227,
+          "scoreLabel": "1227 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/search",
           "note": "模型 ernie-5.1",
-          "asOf": "2026-08-02",
+          "asOf": "2026-09-01",
           "previousRank": 5,
           "previousScore": 1226,
           "previousAsOf": "2026-08-02"

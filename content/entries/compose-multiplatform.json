@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-02",
+      "type": "release",
+      "summary": "发布 1.13.0-alpha01: +dev4743: Details",
+      "version": "1.13.0-alpha01",
+      "source": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.13.0-alpha01%2Bdev4743"
+    },
+    {
       "date": "2026-08-25",
       "type": "release",
       "summary": "发布 1.12.0: Details",
@@ -48,7 +55,7 @@
   "sources": [
     "https://github.com/JetBrains/compose-multiplatform"
   ],
-  "lastReviewed": "2026-08-25",
+  "lastReviewed": "2026-09-02",
   "region": "overseas",
   "id": "compose-multiplatform",
   "name": "Compose Multiplatform",
@@ -59,5 +66,5 @@
   "descriptionMd": "Compose Multiplatform 由 JetBrains 把 Android 的 Jetpack Compose 延伸到 iOS、桌面与 Web，在 Kotlin Multiplatform 的共享逻辑之上再共享一层声明式界面。\n\n已选 KMP、团队熟悉 Compose 且希望界面也复用时评估；只想共享逻辑、界面保留原生的项目留在 KMP 即可。\n\niOS 与 Web 目标的成熟度落后于 Android 与桌面；自绘 UI 与系统控件、无障碍能力的融合需逐项验证。\n",
   "vendorId": "jetbrains",
   "githubUrl": "https://github.com/JetBrains/compose-multiplatform",
-  "currentVersion": "1.12.0"
+  "currentVersion": "1.13.0-alpha01"
 }

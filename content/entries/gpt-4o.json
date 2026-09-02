@@ -75,16 +75,16 @@
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 9,
+      "rank": 11,
       "score": 1616,
       "scoreLabel": "1616 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 gpt-5.6-sol-xhigh (codex-harness)",
       "asOf": "2026-09-02",
-      "previousRank": 7,
-      "previousScore": 1622,
-      "previousAsOf": "2026-08-17"
+      "previousRank": 9,
+      "previousScore": 1616,
+      "previousAsOf": "2026-09-02"
     },
     {
       "systemId": "lmarena-vision",
@@ -101,13 +101,13 @@
     },
     {
       "systemId": "lmarena-document",
-      "period": "2026-07",
-      "note": "gpt-5.5-high",
+      "rank": 7,
+      "score": 1485,
+      "scoreLabel": "1485 Elo",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/document",
-      "asOf": "2026-07-24",
-      "rank": 6,
-      "score": 1487,
-      "scoreLabel": "1487 Elo",
+      "note": "模型 gpt-5.5-high",
+      "asOf": "2026-09-01",
       "previousRank": 6,
       "previousScore": 1487,
       "previousAsOf": "2026-07-24"

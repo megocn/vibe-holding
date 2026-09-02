@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-02",
+      "type": "release",
+      "summary": "发布 0.71.6: 新版本",
+      "version": "0.71.6",
+      "source": "https://github.com/NangoHQ/nango/releases/tag/v0.71.6"
+    },
+    {
       "date": "2026-08-03",
       "type": "release",
       "summary": "发布 0.71.3: 新版本",
@@ -33,7 +40,7 @@
   "sources": [
     "https://www.nango.dev"
   ],
-  "lastReviewed": "2026-08-06",
+  "lastReviewed": "2026-09-02",
   "region": "overseas",
   "id": "nango",
   "name": "Nango",
