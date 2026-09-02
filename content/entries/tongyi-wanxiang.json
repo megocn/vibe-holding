@@ -71,16 +71,16 @@
     },
     {
       "systemId": "lmarena-t2v",
-      "rank": 38,
-      "score": 1131,
-      "scoreLabel": "1131 Elo",
-      "period": "2026-08",
+      "rank": 40,
+      "score": 1132,
+      "scoreLabel": "1132 Elo",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 wan-v2.2-a14b",
-      "asOf": "2026-08-12",
-      "previousRank": 36,
+      "asOf": "2026-09-02",
+      "previousRank": 38,
       "previousScore": 1131,
-      "previousAsOf": "2026-08-02"
+      "previousAsOf": "2026-08-12"
     }
   ],
   "sources": [

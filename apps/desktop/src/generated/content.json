@@ -7788,16 +7788,16 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 22,
-          "score": 1539,
-          "scoreLabel": "1539 Elo",
-          "period": "2026-08",
+          "rank": 25,
+          "score": 1537,
+          "scoreLabel": "1537 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 claude-sonnet-5-high",
-          "asOf": "2026-08-25",
-          "previousRank": 17,
-          "previousScore": 1540,
-          "previousAsOf": "2026-08-17"
+          "asOf": "2026-09-02",
+          "previousRank": 22,
+          "previousScore": 1539,
+          "previousAsOf": "2026-08-25"
         },
         {
           "systemId": "lmarena-document",
@@ -11534,16 +11534,16 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 12,
-          "score": 1582,
-          "scoreLabel": "1582 Elo",
-          "period": "2026-08",
+          "rank": 15,
+          "score": 1583,
+          "scoreLabel": "1583 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 deepseek-v4-pro-high-20260813",
-          "asOf": "2026-08-25",
-          "previousRank": 9,
+          "asOf": "2026-09-02",
+          "previousRank": 12,
           "previousScore": 1582,
-          "previousAsOf": "2026-08-13"
+          "previousAsOf": "2026-08-25"
         }
       ],
       "subcategory": "line",
@@ -12670,16 +12670,16 @@
       "rankings": [
         {
           "systemId": "lmarena-webdev",
-          "rank": 25,
+          "rank": 28,
           "score": 1522,
           "scoreLabel": "1522 Elo",
-          "period": "2026-08",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 seed-2.1-pro-preview",
-          "asOf": "2026-08-17",
-          "previousRank": 23,
-          "previousScore": 1523,
-          "previousAsOf": "2026-08-12"
+          "asOf": "2026-09-02",
+          "previousRank": 25,
+          "previousScore": 1522,
+          "previousAsOf": "2026-08-17"
         },
         {
           "systemId": "lmarena-image",
@@ -12964,26 +12964,26 @@
       "rankings": [
         {
           "systemId": "lmarena-t2v",
-          "period": "2026-07",
-          "note": "dreamina-seedance-2.0-720p",
+          "rank": 4,
+          "score": 1479,
+          "scoreLabel": "1479 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
-          "asOf": "2026-07-24",
-          "rank": 2,
-          "score": 1482,
-          "scoreLabel": "1482 Elo",
+          "note": "模型 dreamina-seedance-2.0-720p",
+          "asOf": "2026-09-02",
           "previousRank": 2,
           "previousScore": 1482,
           "previousAsOf": "2026-07-24"
         },
         {
           "systemId": "lmarena-i2v",
-          "period": "2026-07",
-          "note": "dreamina-seedance-2.0-720p",
+          "rank": 3,
+          "score": 1483,
+          "scoreLabel": "1483 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
-          "asOf": "2026-07-24",
-          "rank": 1,
-          "score": 1474,
-          "scoreLabel": "1474 Elo",
+          "note": "模型 dreamina-seedance-2.5-720p",
+          "asOf": "2026-09-02",
           "previousRank": 1,
           "previousScore": 1474,
           "previousAsOf": "2026-07-24"
@@ -15796,13 +15796,16 @@
         },
         {
           "systemId": "lmarena-i2v",
-          "rank": 5,
-          "score": 1453,
-          "scoreLabel": "1453 Elo",
-          "period": "2026-08",
+          "rank": 7,
+          "score": 1447,
+          "scoreLabel": "1447 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
           "note": "模型 flux-3-video-20260811",
-          "asOf": "2026-08-17"
+          "asOf": "2026-09-02",
+          "previousRank": 5,
+          "previousScore": 1453,
+          "previousAsOf": "2026-08-17"
         }
       ],
       "sources": [
@@ -16986,16 +16989,16 @@
         },
         {
           "systemId": "lmarena-vision",
-          "rank": 11,
-          "score": 1286,
-          "scoreLabel": "1286 Elo",
-          "period": "2026-08",
+          "rank": 13,
+          "score": 1285,
+          "scoreLabel": "1285 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
-          "note": "模型 gemini-3.5-flash-high",
-          "asOf": "2026-08-25",
-          "previousRank": 7,
-          "previousScore": 1295,
-          "previousAsOf": "2026-08-07"
+          "note": "模型 gemini-3.6-flash-high",
+          "asOf": "2026-09-02",
+          "previousRank": 11,
+          "previousScore": 1286,
+          "previousAsOf": "2026-08-25"
         },
         {
           "systemId": "lmarena-search",
@@ -17063,16 +17066,36 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 10,
+          "rank": 13,
           "score": 1587,
           "scoreLabel": "1587 Elo",
-          "period": "2026-08",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 gemini-3.7-flash-high",
-          "asOf": "2026-08-25",
-          "previousRank": 8,
+          "asOf": "2026-09-02",
+          "previousRank": 10,
           "previousScore": 1587,
-          "previousAsOf": "2026-08-17"
+          "previousAsOf": "2026-08-25"
+        },
+        {
+          "systemId": "lmarena-t2v",
+          "rank": 1,
+          "score": 1515,
+          "scoreLabel": "1515 Elo",
+          "period": "2026-09",
+          "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
+          "note": "模型 gemini-omni-1.1-flash",
+          "asOf": "2026-09-02"
+        },
+        {
+          "systemId": "lmarena-i2v",
+          "rank": 2,
+          "score": 1488,
+          "scoreLabel": "1488 Elo",
+          "period": "2026-09",
+          "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
+          "note": "模型 gemini-omni-1.1-flash",
+          "asOf": "2026-09-02"
         }
       ],
       "sources": [
@@ -18086,16 +18109,16 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 8,
-          "score": 1587,
-          "scoreLabel": "1587 Elo",
-          "period": "2026-08",
+          "rank": 10,
+          "score": 1608,
+          "scoreLabel": "1608 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-          "note": "模型 glm-5.2-max",
-          "asOf": "2026-08-13",
-          "previousRank": 6,
-          "previousScore": 1588,
-          "previousAsOf": "2026-07-29"
+          "note": "模型 glm-5.3-max",
+          "asOf": "2026-09-02",
+          "previousRank": 8,
+          "previousScore": 1587,
+          "previousAsOf": "2026-08-13"
         },
         {
           "systemId": "artificial-analysis-index",
@@ -18112,15 +18135,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 6,
-          "scoreLabel": "5.8%",
-          "share": 5.8,
-          "period": "2026-08",
+          "rank": 2,
+          "scoreLabel": "10%",
+          "share": 10,
+          "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-31",
-          "previousRank": 8,
-          "previousShare": 3.5,
-          "previousAsOf": "2026-08-25"
+          "asOf": "2026-09-02",
+          "previousRank": 6,
+          "previousShare": 5.8,
+          "previousAsOf": "2026-08-31"
         },
         {
           "systemId": "lmarena-document",
@@ -19020,16 +19043,16 @@
         },
         {
           "systemId": "lmarena-i2v",
-          "rank": 9,
-          "score": 1397,
-          "scoreLabel": "1397 Elo",
-          "period": "2026-08",
+          "rank": 11,
+          "score": 1398,
+          "scoreLabel": "1398 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
           "note": "模型 veo-3.1-audio",
-          "asOf": "2026-08-17",
-          "previousRank": 7,
-          "previousScore": 1398,
-          "previousAsOf": "2026-07-24"
+          "asOf": "2026-09-02",
+          "previousRank": 9,
+          "previousScore": 1397,
+          "previousAsOf": "2026-08-17"
         },
         {
           "systemId": "aa-video-arena",
@@ -19249,29 +19272,29 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 7,
-          "score": 1622,
-          "scoreLabel": "1622 Elo",
-          "period": "2026-08",
+          "rank": 9,
+          "score": 1616,
+          "scoreLabel": "1616 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 gpt-5.6-sol-xhigh (codex-harness)",
-          "asOf": "2026-08-17",
-          "previousRank": 5,
-          "previousScore": 1623,
-          "previousAsOf": "2026-07-29"
+          "asOf": "2026-09-02",
+          "previousRank": 7,
+          "previousScore": 1622,
+          "previousAsOf": "2026-08-17"
         },
         {
           "systemId": "lmarena-vision",
-          "rank": 14,
-          "score": 1285,
-          "scoreLabel": "1285 Elo",
-          "period": "2026-08",
+          "rank": 11,
+          "score": 1286,
+          "scoreLabel": "1286 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
           "note": "模型 gpt-5.5",
-          "asOf": "2026-08-25",
-          "previousRank": 11,
-          "previousScore": 1287,
-          "previousAsOf": "2026-08-03"
+          "asOf": "2026-09-02",
+          "previousRank": 14,
+          "previousScore": 1285,
+          "previousAsOf": "2026-08-25"
         },
         {
           "systemId": "lmarena-document",
@@ -19474,16 +19497,16 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 26,
-          "score": 1521,
-          "scoreLabel": "1521 Elo",
-          "period": "2026-08",
+          "rank": 30,
+          "score": 1519,
+          "scoreLabel": "1519 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 gpt-5.6-terra-xhigh (codex-harness)",
-          "asOf": "2026-08-17",
-          "previousRank": 22,
-          "previousScore": 1524,
-          "previousAsOf": "2026-08-12"
+          "asOf": "2026-09-02",
+          "previousRank": 26,
+          "previousScore": 1521,
+          "previousAsOf": "2026-08-17"
         },
         {
           "systemId": "openrouter-popularity",
@@ -19879,16 +19902,16 @@
         },
         {
           "systemId": "lmarena-vision",
-          "rank": 13,
-          "score": 1285,
-          "scoreLabel": "1285 Elo",
-          "period": "2026-08",
+          "rank": 18,
+          "score": 1282,
+          "scoreLabel": "1282 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
           "note": "模型 grok-4.5",
-          "asOf": "2026-08-07",
-          "previousRank": 16,
-          "previousScore": 1282,
-          "previousAsOf": "2026-07-29"
+          "asOf": "2026-09-02",
+          "previousRank": 13,
+          "previousScore": 1285,
+          "previousAsOf": "2026-08-07"
         },
         {
           "systemId": "lmarena-search",
@@ -20024,16 +20047,16 @@
         },
         {
           "systemId": "lmarena-t2v",
-          "rank": 13,
-          "score": 1347,
-          "scoreLabel": "1347 Elo",
-          "period": "2026-08",
+          "rank": 16,
+          "score": 1344,
+          "scoreLabel": "1344 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
           "note": "模型 grok-imagine-video-720p",
-          "asOf": "2026-08-12",
-          "previousRank": 10,
-          "previousScore": 1352,
-          "previousAsOf": "2026-08-02"
+          "asOf": "2026-09-02",
+          "previousRank": 13,
+          "previousScore": 1347,
+          "previousAsOf": "2026-08-12"
         },
         {
           "systemId": "lmarena-video-edit",
@@ -20438,16 +20461,16 @@
         },
         {
           "systemId": "lmarena-i2v",
-          "rank": 25,
-          "score": 1261,
-          "scoreLabel": "1261 Elo",
-          "period": "2026-08",
+          "rank": 27,
+          "score": 1262,
+          "scoreLabel": "1262 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
           "note": "模型 hailuo-2.3",
-          "asOf": "2026-08-17",
-          "previousRank": 23,
-          "previousScore": 1260,
-          "previousAsOf": "2026-07-26"
+          "asOf": "2026-09-02",
+          "previousRank": 25,
+          "previousScore": 1261,
+          "previousAsOf": "2026-08-17"
         }
       ],
       "sources": [
@@ -20523,16 +20546,16 @@
         },
         {
           "systemId": "lmarena-i2v",
-          "rank": 6,
-          "score": 1441,
-          "scoreLabel": "1441 Elo",
-          "period": "2026-08",
+          "rank": 8,
+          "score": 1442,
+          "scoreLabel": "1442 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
           "note": "模型 happyhorse-1.0",
-          "asOf": "2026-08-17",
-          "previousRank": 4,
-          "previousScore": 1444,
-          "previousAsOf": "2026-07-24"
+          "asOf": "2026-09-02",
+          "previousRank": 6,
+          "previousScore": 1441,
+          "previousAsOf": "2026-08-17"
         },
         {
           "systemId": "lmarena-video-edit",
@@ -22460,42 +22483,42 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 27,
-          "score": 1517,
-          "scoreLabel": "1517 Elo",
-          "period": "2026-08",
+          "rank": 33,
+          "score": 1513,
+          "scoreLabel": "1513 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 hy3",
-          "asOf": "2026-08-20",
-          "previousRank": 22,
-          "previousScore": 1523,
-          "previousAsOf": "2026-08-13"
+          "asOf": "2026-09-02",
+          "previousRank": 27,
+          "previousScore": 1517,
+          "previousAsOf": "2026-08-20"
         },
         {
           "systemId": "lmarena-i2v",
-          "rank": 36,
-          "score": 1196,
-          "scoreLabel": "1196 Elo",
-          "period": "2026-08",
+          "rank": 38,
+          "score": 1197,
+          "scoreLabel": "1197 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
           "note": "模型 hunyuan-video-1.5",
-          "asOf": "2026-08-17",
-          "previousRank": 34,
+          "asOf": "2026-09-02",
+          "previousRank": 36,
           "previousScore": 1196,
-          "previousAsOf": "2026-07-26"
+          "previousAsOf": "2026-08-17"
         },
         {
           "systemId": "lmarena-t2v",
-          "rank": 34,
+          "rank": 36,
           "score": 1169,
           "scoreLabel": "1169 Elo",
-          "period": "2026-08",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
           "note": "模型 hunyuan-video-1.5",
-          "asOf": "2026-08-12",
-          "previousRank": 32,
+          "asOf": "2026-09-02",
+          "previousRank": 34,
           "previousScore": 1169,
-          "previousAsOf": "2026-08-02"
+          "previousAsOf": "2026-08-12"
         }
       ],
       "sources": [
@@ -25403,13 +25426,13 @@
       "rankings": [
         {
           "systemId": "lmarena-image",
-          "rank": 36,
-          "score": 1120,
-          "scoreLabel": "1120 Elo",
-          "period": "2026-07",
-          "note": "krea-2-medium",
+          "rank": 40,
+          "score": 1123,
+          "scoreLabel": "1123 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
-          "asOf": "2026-07-24",
+          "note": "模型 krea-2-medium",
+          "asOf": "2026-09-02",
           "previousRank": 36,
           "previousScore": 1120,
           "previousAsOf": "2026-07-24"
@@ -29404,16 +29427,16 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 19,
-          "score": 1538,
-          "scoreLabel": "1538 Elo",
-          "period": "2026-08",
+          "rank": 23,
+          "score": 1540,
+          "scoreLabel": "1540 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 muse-spark-1.1",
-          "asOf": "2026-08-17",
-          "previousRank": 16,
-          "previousScore": 1537,
-          "previousAsOf": "2026-08-12"
+          "asOf": "2026-09-02",
+          "previousRank": 19,
+          "previousScore": 1538,
+          "previousAsOf": "2026-08-17"
         },
         {
           "systemId": "openrouter-popularity",
@@ -29478,16 +29501,16 @@
       "rankings": [
         {
           "systemId": "lmarena-t2v",
-          "rank": 5,
+          "rank": 7,
           "score": 1457,
           "scoreLabel": "1457 Elo",
-          "period": "2026-08",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
           "note": "模型 muse-video",
-          "asOf": "2026-08-19",
-          "previousRank": 3,
-          "previousScore": 1459,
-          "previousAsOf": "2026-07-24"
+          "asOf": "2026-09-02",
+          "previousRank": 5,
+          "previousScore": 1457,
+          "previousAsOf": "2026-08-19"
         }
       ],
       "sources": [
@@ -30233,16 +30256,16 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 36,
-          "score": 1489,
-          "scoreLabel": "1489 Elo",
-          "period": "2026-08",
+          "rank": 40,
+          "score": 1487,
+          "scoreLabel": "1487 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 minimax-m3",
-          "asOf": "2026-08-20",
-          "previousRank": 33,
-          "previousScore": 1491,
-          "previousAsOf": "2026-08-13"
+          "asOf": "2026-09-02",
+          "previousRank": 36,
+          "previousScore": 1489,
+          "previousAsOf": "2026-08-20"
         },
         {
           "systemId": "lmarena-t2v",
@@ -30259,23 +30282,29 @@
         },
         {
           "systemId": "lmarena-i2v",
-          "rank": 2,
-          "score": 1476,
-          "scoreLabel": "1476 Elo",
-          "period": "2026-08",
+          "rank": 1,
+          "score": 1494,
+          "scoreLabel": "1494 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
           "note": "模型 minimax-h3",
-          "asOf": "2026-08-04"
+          "asOf": "2026-09-02",
+          "previousRank": 2,
+          "previousScore": 1476,
+          "previousAsOf": "2026-08-04"
         },
         {
           "systemId": "lmarena-video-edit",
-          "rank": 1,
-          "score": 1390,
-          "scoreLabel": "1390 Elo",
-          "period": "2026-08",
+          "rank": 3,
+          "score": 1392,
+          "scoreLabel": "1392 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/video-edit",
           "note": "模型 minimax-h3",
-          "asOf": "2026-08-17"
+          "asOf": "2026-09-02",
+          "previousRank": 1,
+          "previousScore": 1390,
+          "previousAsOf": "2026-08-17"
         }
       ],
       "sources": [
@@ -46575,16 +46604,16 @@
         },
         {
           "systemId": "lmarena-t2v",
-          "rank": 38,
-          "score": 1131,
-          "scoreLabel": "1131 Elo",
-          "period": "2026-08",
+          "rank": 40,
+          "score": 1132,
+          "scoreLabel": "1132 Elo",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
           "note": "模型 wan-v2.2-a14b",
-          "asOf": "2026-08-12",
-          "previousRank": 36,
+          "asOf": "2026-09-02",
+          "previousRank": 38,
           "previousScore": 1131,
-          "previousAsOf": "2026-08-02"
+          "previousAsOf": "2026-08-12"
         }
       ],
       "sources": [

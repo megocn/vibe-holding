@@ -41,16 +41,16 @@
   "rankings": [
     {
       "systemId": "lmarena-t2v",
-      "rank": 5,
+      "rank": 7,
       "score": 1457,
       "scoreLabel": "1457 Elo",
-      "period": "2026-08",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 muse-video",
-      "asOf": "2026-08-19",
-      "previousRank": 3,
-      "previousScore": 1459,
-      "previousAsOf": "2026-07-24"
+      "asOf": "2026-09-02",
+      "previousRank": 5,
+      "previousScore": 1457,
+      "previousAsOf": "2026-08-19"
     }
   ],
   "sources": [

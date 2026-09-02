@@ -45,42 +45,42 @@
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 27,
-      "score": 1517,
-      "scoreLabel": "1517 Elo",
-      "period": "2026-08",
+      "rank": 33,
+      "score": 1513,
+      "scoreLabel": "1513 Elo",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 hy3",
-      "asOf": "2026-08-20",
-      "previousRank": 22,
-      "previousScore": 1523,
-      "previousAsOf": "2026-08-13"
+      "asOf": "2026-09-02",
+      "previousRank": 27,
+      "previousScore": 1517,
+      "previousAsOf": "2026-08-20"
     },
     {
       "systemId": "lmarena-i2v",
-      "rank": 36,
-      "score": 1196,
-      "scoreLabel": "1196 Elo",
-      "period": "2026-08",
+      "rank": 38,
+      "score": 1197,
+      "scoreLabel": "1197 Elo",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
       "note": "模型 hunyuan-video-1.5",
-      "asOf": "2026-08-17",
-      "previousRank": 34,
+      "asOf": "2026-09-02",
+      "previousRank": 36,
       "previousScore": 1196,
-      "previousAsOf": "2026-07-26"
+      "previousAsOf": "2026-08-17"
     },
     {
       "systemId": "lmarena-t2v",
-      "rank": 34,
+      "rank": 36,
       "score": 1169,
       "scoreLabel": "1169 Elo",
-      "period": "2026-08",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 hunyuan-video-1.5",
-      "asOf": "2026-08-12",
-      "previousRank": 32,
+      "asOf": "2026-09-02",
+      "previousRank": 34,
       "previousScore": 1169,
-      "previousAsOf": "2026-08-02"
+      "previousAsOf": "2026-08-12"
     }
   ],
   "sources": [

@@ -56,16 +56,16 @@
     },
     {
       "systemId": "lmarena-vision",
-      "rank": 11,
-      "score": 1286,
-      "scoreLabel": "1286 Elo",
-      "period": "2026-08",
+      "rank": 13,
+      "score": 1285,
+      "scoreLabel": "1285 Elo",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
-      "note": "模型 gemini-3.5-flash-high",
-      "asOf": "2026-08-25",
-      "previousRank": 7,
-      "previousScore": 1295,
-      "previousAsOf": "2026-08-07"
+      "note": "模型 gemini-3.6-flash-high",
+      "asOf": "2026-09-02",
+      "previousRank": 11,
+      "previousScore": 1286,
+      "previousAsOf": "2026-08-25"
     },
     {
       "systemId": "lmarena-search",
@@ -133,16 +133,36 @@
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 10,
+      "rank": 13,
       "score": 1587,
       "scoreLabel": "1587 Elo",
-      "period": "2026-08",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 gemini-3.7-flash-high",
-      "asOf": "2026-08-25",
-      "previousRank": 8,
+      "asOf": "2026-09-02",
+      "previousRank": 10,
       "previousScore": 1587,
-      "previousAsOf": "2026-08-17"
+      "previousAsOf": "2026-08-25"
+    },
+    {
+      "systemId": "lmarena-t2v",
+      "rank": 1,
+      "score": 1515,
+      "scoreLabel": "1515 Elo",
+      "period": "2026-09",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
+      "note": "模型 gemini-omni-1.1-flash",
+      "asOf": "2026-09-02"
+    },
+    {
+      "systemId": "lmarena-i2v",
+      "rank": 2,
+      "score": 1488,
+      "scoreLabel": "1488 Elo",
+      "period": "2026-09",
+      "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
+      "note": "模型 gemini-omni-1.1-flash",
+      "asOf": "2026-09-02"
     }
   ],
   "sources": [

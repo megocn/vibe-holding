@@ -94,16 +94,16 @@
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 19,
-      "score": 1538,
-      "scoreLabel": "1538 Elo",
-      "period": "2026-08",
+      "rank": 23,
+      "score": 1540,
+      "scoreLabel": "1540 Elo",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 muse-spark-1.1",
-      "asOf": "2026-08-17",
-      "previousRank": 16,
-      "previousScore": 1537,
-      "previousAsOf": "2026-08-12"
+      "asOf": "2026-09-02",
+      "previousRank": 19,
+      "previousScore": 1538,
+      "previousAsOf": "2026-08-17"
     },
     {
       "systemId": "openrouter-popularity",

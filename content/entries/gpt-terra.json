@@ -69,16 +69,16 @@
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 26,
-      "score": 1521,
-      "scoreLabel": "1521 Elo",
-      "period": "2026-08",
+      "rank": 30,
+      "score": 1519,
+      "scoreLabel": "1519 Elo",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 gpt-5.6-terra-xhigh (codex-harness)",
-      "asOf": "2026-08-17",
-      "previousRank": 22,
-      "previousScore": 1524,
-      "previousAsOf": "2026-08-12"
+      "asOf": "2026-09-02",
+      "previousRank": 26,
+      "previousScore": 1521,
+      "previousAsOf": "2026-08-17"
     },
     {
       "systemId": "openrouter-popularity",

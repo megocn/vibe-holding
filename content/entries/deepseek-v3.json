@@ -83,16 +83,16 @@
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 12,
-      "score": 1582,
-      "scoreLabel": "1582 Elo",
-      "period": "2026-08",
+      "rank": 15,
+      "score": 1583,
+      "scoreLabel": "1583 Elo",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 deepseek-v4-pro-high-20260813",
-      "asOf": "2026-08-25",
-      "previousRank": 9,
+      "asOf": "2026-09-02",
+      "previousRank": 12,
       "previousScore": 1582,
-      "previousAsOf": "2026-08-13"
+      "previousAsOf": "2026-08-25"
     }
   ],
   "subcategory": "line",
