@@ -33,16 +33,16 @@
   "rankings": [
     {
       "systemId": "lmarena-t2v",
-      "rank": 4,
-      "score": 1479,
-      "scoreLabel": "1479 Elo",
+      "rank": 6,
+      "score": 1482,
+      "scoreLabel": "1482 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
-      "note": "模型 dreamina-seedance-2.0-720p",
-      "asOf": "2026-09-02",
-      "previousRank": 2,
-      "previousScore": 1482,
-      "previousAsOf": "2026-07-24"
+      "note": "模型 dreamina-seedance-2.5-720p",
+      "asOf": "2026-09-07",
+      "previousRank": 4,
+      "previousScore": 1479,
+      "previousAsOf": "2026-09-02"
     },
     {
       "systemId": "lmarena-i2v",

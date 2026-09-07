@@ -40,16 +40,16 @@
   "rankings": [
     {
       "systemId": "lmarena-text",
-      "rank": 14,
-      "score": 1486,
-      "scoreLabel": "1486 Elo",
-      "period": "2026-08",
+      "rank": 15,
+      "score": 1487,
+      "scoreLabel": "1487 Elo",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 gemini-3.1-pro-preview",
-      "asOf": "2026-08-17",
-      "previousRank": 12,
-      "previousScore": 1487,
-      "previousAsOf": "2026-08-09"
+      "asOf": "2026-09-07",
+      "previousRank": 14,
+      "previousScore": 1486,
+      "previousAsOf": "2026-08-17"
     },
     {
       "systemId": "lmarena-vision",
@@ -131,16 +131,16 @@
     },
     {
       "systemId": "lmarena-image-edit",
-      "rank": 7,
+      "rank": 9,
       "score": 1390,
       "scoreLabel": "1390 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 gemini-3-pro-image-2k (nano-banana-pro)",
-      "asOf": "2026-09-01",
-      "previousRank": 8,
-      "previousScore": 1389,
-      "previousAsOf": "2026-08-09"
+      "asOf": "2026-09-07",
+      "previousRank": 7,
+      "previousScore": 1390,
+      "previousAsOf": "2026-09-01"
     },
     {
       "systemId": "openrouter-popularity",

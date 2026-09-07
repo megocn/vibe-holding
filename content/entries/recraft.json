@@ -30,16 +30,16 @@
   "rankings": [
     {
       "systemId": "lmarena-image",
-      "rank": 22,
+      "rank": 21,
       "score": 1169,
       "scoreLabel": "1169 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 recraft-v4.1-utility-pro",
-      "asOf": "2026-09-01",
-      "previousRank": 23,
+      "asOf": "2026-09-07",
+      "previousRank": 22,
       "previousScore": 1169,
-      "previousAsOf": "2026-08-12"
+      "previousAsOf": "2026-09-01"
     },
     {
       "systemId": "aa-image-arena",

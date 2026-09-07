@@ -88,13 +88,13 @@
     },
     {
       "systemId": "lmarena-agent",
-      "rank": 1,
+      "rank": 2,
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/agent",
       "note": "模型 Claude Opus 5 (High)",
-      "asOf": "2026-09-01",
-      "previousRank": 2,
-      "previousAsOf": "2026-07-29"
+      "asOf": "2026-09-07",
+      "previousRank": 1,
+      "previousAsOf": "2026-09-01"
     },
     {
       "systemId": "lmarena-webdev",

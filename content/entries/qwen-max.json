@@ -52,16 +52,16 @@
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 2,
-      "score": 1688,
-      "scoreLabel": "1688 Elo",
+      "rank": 4,
+      "score": 1686,
+      "scoreLabel": "1686 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 qwen3.8-max-0902",
-      "asOf": "2026-09-02",
-      "previousRank": 4,
-      "previousScore": 1668,
-      "previousAsOf": "2026-08-03"
+      "asOf": "2026-09-07",
+      "previousRank": 2,
+      "previousScore": 1688,
+      "previousAsOf": "2026-09-02"
     },
     {
       "systemId": "lmarena-image",

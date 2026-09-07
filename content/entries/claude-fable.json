@@ -61,27 +61,26 @@
     },
     {
       "systemId": "lmarena-agent",
-      "rank": 3,
-      "period": "2026-08",
+      "rank": 1,
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/agent",
-      "note": "模型 Claude Fable 5 (High)",
-      "asOf": "2026-08-20",
-      "previousRank": 1,
-      "previousShare": 12.72,
-      "previousAsOf": "2026-07-24"
+      "note": "模型 Claude Fable 5.1 (Max)",
+      "asOf": "2026-09-07",
+      "previousRank": 3,
+      "previousAsOf": "2026-08-20"
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 1,
-      "score": 1765,
-      "scoreLabel": "1765 Elo",
+      "rank": 2,
+      "score": 1762,
+      "scoreLabel": "1762 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 claude-fable-5.1-max",
-      "asOf": "2026-09-02",
-      "previousRank": 6,
-      "previousScore": 1627,
-      "previousAsOf": "2026-08-17"
+      "asOf": "2026-09-07",
+      "previousRank": 1,
+      "previousScore": 1765,
+      "previousAsOf": "2026-09-02"
     },
     {
       "systemId": "lmarena-vision",

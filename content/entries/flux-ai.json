@@ -69,16 +69,16 @@
     },
     {
       "systemId": "lmarena-t2v",
-      "rank": 3,
-      "score": 1495,
-      "scoreLabel": "1495 Elo",
+      "rank": 4,
+      "score": 1494,
+      "scoreLabel": "1494 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 flux-3-video",
-      "asOf": "2026-09-01",
-      "previousRank": 2,
-      "previousScore": 1496,
-      "previousAsOf": "2026-08-12"
+      "asOf": "2026-09-07",
+      "previousRank": 3,
+      "previousScore": 1495,
+      "previousAsOf": "2026-09-01"
     },
     {
       "systemId": "lmarena-i2v",

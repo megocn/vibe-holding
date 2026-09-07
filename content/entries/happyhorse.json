@@ -44,16 +44,16 @@
   "rankings": [
     {
       "systemId": "lmarena-t2v",
-      "rank": 8,
-      "score": 1428,
-      "scoreLabel": "1428 Elo",
+      "rank": 10,
+      "score": 1427,
+      "scoreLabel": "1427 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 happyhorse-1.0",
-      "asOf": "2026-09-01",
-      "previousRank": 7,
+      "asOf": "2026-09-07",
+      "previousRank": 8,
       "previousScore": 1428,
-      "previousAsOf": "2026-08-19"
+      "previousAsOf": "2026-09-01"
     },
     {
       "systemId": "lmarena-i2v",

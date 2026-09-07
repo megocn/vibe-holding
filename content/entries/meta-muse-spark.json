@@ -55,16 +55,16 @@
     },
     {
       "systemId": "lmarena-text",
-      "rank": 4,
-      "score": 1498,
-      "scoreLabel": "1498 Elo",
-      "period": "2026-08",
+      "rank": 5,
+      "score": 1499,
+      "scoreLabel": "1499 Elo",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 muse-spark-1.2 (xHigh)",
-      "asOf": "2026-08-09",
-      "previousRank": 8,
-      "previousScore": 1491,
-      "previousAsOf": "2026-07-29"
+      "asOf": "2026-09-07",
+      "previousRank": 4,
+      "previousScore": 1498,
+      "previousAsOf": "2026-08-09"
     },
     {
       "systemId": "lmarena-vision",
@@ -94,16 +94,16 @@
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 23,
-      "score": 1540,
-      "scoreLabel": "1540 Elo",
+      "rank": 11,
+      "score": 1622,
+      "scoreLabel": "1622 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-      "note": "模型 muse-spark-1.1",
-      "asOf": "2026-09-02",
-      "previousRank": 19,
-      "previousScore": 1538,
-      "previousAsOf": "2026-08-17"
+      "note": "模型 muse-spark-1.3 (xHigh)",
+      "asOf": "2026-09-07",
+      "previousRank": 23,
+      "previousScore": 1540,
+      "previousAsOf": "2026-09-02"
     },
     {
       "systemId": "openrouter-popularity",
