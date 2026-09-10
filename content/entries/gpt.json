@@ -31,13 +31,13 @@
   "sources": [
     "https://openai.com"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-09-11",
   "region": "overseas",
   "id": "gpt",
   "name": "GPT",
   "category": "llm-family",
   "vendorId": "openai",
-  "oneLiner": "OpenAI 族 · 现至 GPT-5.6（Sol/Terra/Luna）· 工具调用与生态最广",
-  "descriptionMd": "GPT 是 OpenAI 大模型产品族。当前版本为 GPT-5.6：Sol 旗舰、Terra 均衡、Luna 成本档（2026-07 GA）。\n\n需要最广工具生态、多模态与企业集成时的默认海外选型族。\n\n国内访问受限；政策与额度变化频繁，生产需锁模型版本与区域。\n",
+  "oneLiner": "OpenAI 族 · 现至 GPT-6 Astra · 工具调用与生态最广",
+  "descriptionMd": "GPT 是 OpenAI 大模型产品族。当前旗舰为 GPT-6 Astra（2026-09）；同族仍有 GPT-5.6 Terra 均衡档与 Luna 成本档。\n\n需要最广工具生态、多模态与企业集成时的默认海外选型族。\n\n国内访问受限；政策与额度变化频繁，生产需锁模型版本与区域。\n",
   "officialUrl": "https://openai.com"
 }

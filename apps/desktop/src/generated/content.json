@@ -19298,7 +19298,8 @@
     {
       "pricing": {
         "model": "usage",
-        "currency": "USD"
+        "currency": "USD",
+        "notes": "API gpt-6-astra · 约 $10/M input · $50/M output（缓存读 $1 / 写 $12.5）"
       },
       "availability": {
         "chinaAccessible": false,
@@ -19318,9 +19319,17 @@
       "maturity": "mature",
       "pitfalls": [
         "国内访问受限",
-        "政策与额度变化频繁"
+        "政策与额度变化频繁",
+        "Cyber Critical 能力受 Daybreak 等门控，默认不可用全部高危能力"
       ],
       "updates": [
+        {
+          "date": "2026-09-03",
+          "type": "release",
+          "version": "GPT-6 Astra",
+          "summary": "OpenAI 发布 GPT-6 Astra 旗舰：计算机使用 / 编程 / 科学 SOTA；API `gpt-6-astra`",
+          "source": "https://openai.com/index/gpt-6-astra/"
+        },
         {
           "date": "2026-07-09",
           "type": "release",
@@ -19330,6 +19339,8 @@
         }
       ],
       "sources": [
+        "https://openai.com/index/gpt-6-astra/",
+        "https://developers.openai.com/api/docs/models/gpt-6-astra",
         "https://openai.com/index/gpt-5-6/",
         "https://arena.ai/leaderboard/agent",
         "https://arena.ai/leaderboard/code/webdev",
@@ -19337,15 +19348,16 @@
         "https://artificialanalysis.ai/leaderboards/models",
         "https://www.swebench.com/"
       ],
-      "lastReviewed": "2026-07-24",
+      "lastReviewed": "2026-09-11",
       "region": "overseas",
       "id": "gpt-4o",
       "name": "GPT 旗舰",
       "category": "llm-line",
       "vendorId": "openai",
-      "oneLiner": "OpenAI 旗舰 · GPT-5.6 Sol · Arena Agent/WebDev 前列",
-      "descriptionMd": "OpenAI GPT 产品族的**旗舰选型档**。当前版本为 GPT-5.6 Sol（2026-07-09 GA；同代还有 Terra 均衡档与 Luna 成本档）。\n\n与 Claude Opus、Gemini Pro 同层比能力、价与工具调用；「4o」等历史名是旧版本标签，不要当成与「GPT 产品族」同级的节点。\n\n旗舰档用于难任务；日常辅助用同族 Terra/Luna，建立「路由策略」比死磕一档重要。\n",
-      "officialUrl": "https://openai.com/index/gpt-5-6/",
+      "oneLiner": "OpenAI 旗舰 · GPT-6 Astra · 计算机使用与专业工作 SOTA",
+      "descriptionMd": "OpenAI GPT 产品族的**旗舰选型档**。当前版本为 GPT-6 Astra（2026-09-03 起分阶段放量；API `gpt-6-astra`）。上一代为 GPT-5.6 Sol，同族仍有 Terra 均衡档与 Luna 成本档。\n\n与 Claude Fable/Opus、Gemini Pro 同层比能力、价与工具调用；「4o」等历史名是旧版本标签，不要当成与「GPT 产品族」同级的节点。\n\n旗舰档用于难任务与端到端代理；日常辅助用同族 Terra/Luna，建立「路由策略」比死磕一档重要。Astra 达到 Cyber Critical 阈值，部分高危能力需额外门控。\n",
+      "officialUrl": "https://openai.com/index/gpt-6-astra/",
+      "docsUrl": "https://developers.openai.com/api/docs/models/gpt-6-astra",
       "rankings": [
         {
           "systemId": "lmarena-text",
@@ -19460,7 +19472,7 @@
         }
       ],
       "subcategory": "line",
-      "currentVersion": "GPT-5.6 Sol"
+      "currentVersion": "GPT-6 Astra"
     },
     {
       "pricing": {
@@ -19681,14 +19693,14 @@
       "sources": [
         "https://openai.com"
       ],
-      "lastReviewed": "2026-07-23",
+      "lastReviewed": "2026-09-11",
       "region": "overseas",
       "id": "gpt",
       "name": "GPT",
       "category": "llm-family",
       "vendorId": "openai",
-      "oneLiner": "OpenAI 族 · 现至 GPT-5.6（Sol/Terra/Luna）· 工具调用与生态最广",
-      "descriptionMd": "GPT 是 OpenAI 大模型产品族。当前版本为 GPT-5.6：Sol 旗舰、Terra 均衡、Luna 成本档（2026-07 GA）。\n\n需要最广工具生态、多模态与企业集成时的默认海外选型族。\n\n国内访问受限；政策与额度变化频繁，生产需锁模型版本与区域。\n",
+      "oneLiner": "OpenAI 族 · 现至 GPT-6 Astra · 工具调用与生态最广",
+      "descriptionMd": "GPT 是 OpenAI 大模型产品族。当前旗舰为 GPT-6 Astra（2026-09）；同族仍有 GPT-5.6 Terra 均衡档与 Luna 成本档。\n\n需要最广工具生态、多模态与企业集成时的默认海外选型族。\n\n国内访问受限；政策与额度变化频繁，生产需锁模型版本与区域。\n",
       "officialUrl": "https://openai.com"
     },
     {
@@ -91812,8 +91824,8 @@
       "id": "gpt-4o",
       "name": "GPT 旗舰",
       "haystackName": "gpt 旗舰 gpt-4o",
-      "haystackMid": "openai 旗舰 · gpt-5.6 sol · arena agent/webdev 前列 llm line multimodal openai flagship",
-      "haystackLow": "openai gpt 产品族的**旗舰选型档**。当前版本为 gpt-5.6 sol（2026-07-09 ga；同代还有 terra 均衡档与 luna 成本档）。\n\n与 claude opus、gemini pro 同层比能力、价与工具调用；「4o」等历史名是旧版本标签，不要当成与「gpt 产品族」同级的节点。\n\n旗舰档用于难任务；日常辅助用同族 terra/luna，建立「路由策略」比死磕一档重要。\n",
+      "haystackMid": "openai 旗舰 · gpt-6 astra · 计算机使用与专业工作 sota llm line multimodal openai flagship",
+      "haystackLow": "openai gpt 产品族的**旗舰选型档**。当前版本为 gpt-6 astra（2026-09-03 起分阶段放量；api `gpt-6-astra`）。上一代为 gpt-5.6 sol，同族仍有 terra 均衡档与 luna 成本档。\n\n与 claude fable/opus、gemini pro 同层比能力、价与工具调用；「4o」等历史名是旧版本标签，不要当成与「gpt 产品族」同级的节点。\n\n旗舰档用于难任务与端到端代理；日常辅助用同族 terra/luna，建立「路由策略」比死磕一档重要。astra 达到 cyber critical 阈值，部分高危能力需额外门控。\n",
       "category": "llm-line",
       "region": "overseas",
       "tags": [
@@ -91865,8 +91877,8 @@
       "id": "gpt",
       "name": "GPT",
       "haystackName": "gpt gpt",
-      "haystackMid": "openai 族 · 现至 gpt-5.6（sol/terra/luna）· 工具调用与生态最广 llm family openai",
-      "haystackLow": "gpt 是 openai 大模型产品族。当前版本为 gpt-5.6：sol 旗舰、terra 均衡、luna 成本档（2026-07 ga）。\n\n需要最广工具生态、多模态与企业集成时的默认海外选型族。\n\n国内访问受限；政策与额度变化频繁，生产需锁模型版本与区域。\n",
+      "haystackMid": "openai 族 · 现至 gpt-6 astra · 工具调用与生态最广 llm family openai",
+      "haystackLow": "gpt 是 openai 大模型产品族。当前旗舰为 gpt-6 astra（2026-09）；同族仍有 gpt-5.6 terra 均衡档与 luna 成本档。\n\n需要最广工具生态、多模态与企业集成时的默认海外选型族。\n\n国内访问受限；政策与额度变化频繁，生产需锁模型版本与区域。\n",
       "category": "llm-family",
       "region": "overseas",
       "tags": [
