@@ -17,6 +17,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-09",
+      "type": "release",
+      "summary": "发布 1.6.2: langchain-openai==1.6.2",
+      "version": "1.6.2",
+      "source": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.2"
+    },
+    {
       "date": "2026-08-28",
       "type": "feature",
       "summary": "langchain==1.4.0a2",
@@ -48,7 +55,7 @@
   "sources": [
     "https://www.langchain.com"
   ],
-  "lastReviewed": "2026-08-31",
+  "lastReviewed": "2026-09-10",
   "region": "overseas",
   "id": "langchain",
   "name": "LangChain",

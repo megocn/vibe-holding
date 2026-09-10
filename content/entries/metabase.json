@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-10",
+      "type": "release",
+      "summary": "发布 63.17: Metabase 63.17",
+      "version": "63.17",
+      "source": "https://github.com/metabase/metabase/releases/tag/v0.63.17"
+    },
+    {
       "date": "2026-08-29",
       "type": "release",
       "summary": "发布 0.63.15.5: 新版本",
@@ -47,7 +54,7 @@
   "sources": [
     "https://www.metabase.com"
   ],
-  "lastReviewed": "2026-08-31",
+  "lastReviewed": "2026-09-10",
   "region": "overseas",
   "id": "metabase",
   "name": "Metabase",
@@ -58,5 +65,5 @@
   "descriptionMd": "Metabase 提供 GUI 问数、SQL 编辑器、仪表盘与权限，开源可自托管，也有托管云，是团队级 BI 事实入门选项。\n\n仓库或 Postgres/ClickHouse 已就绪，业务要自助看转化与经营指标、工程不愿上重型 BI 套件时优先对标。\n\n复杂语义层与百万行以上性能需调优；企业治理与嵌入能力要对照商业版。\n",
   "vendorId": "metabase-inc",
   "githubUrl": "https://github.com/metabase/metabase",
-  "currentVersion": "0.63.15.5"
+  "currentVersion": "63.17"
 }

@@ -21,12 +21,20 @@
     "私有协议，客户端必须使用配套 SDK，与原生 WebSocket 不互通",
     "水平扩展需引入适配器与粘性会话，运维成本自担"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-09-08",
+      "type": "release",
+      "summary": "发布 0.1.1: @socket.io/cluster-engine@0.1.1",
+      "version": "0.1.1",
+      "source": "https://github.com/socketio/socket.io/releases/tag/%40socket.io%2Fcluster-engine%400.1.1"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://socket.io"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-09-10",
   "region": "overseas",
   "id": "socket-io",
   "name": "Socket.IO",

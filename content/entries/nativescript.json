@@ -21,12 +21,20 @@
     "社区与插件生态规模小，长期维护存在风险",
     "原生 API 类型定义与系统适配常需自行补齐"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-09-07",
+      "type": "release",
+      "summary": "发布 8.0.5: @nativescript/vite@8.0.5",
+      "version": "8.0.5",
+      "source": "https://github.com/NativeScript/NativeScript/releases/tag/8.0.5-vite"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://nativescript.org"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-09-10",
   "region": "overseas",
   "id": "nativescript",
   "name": "NativeScript",

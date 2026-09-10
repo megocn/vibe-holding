@@ -17,6 +17,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-09",
+      "type": "release",
+      "summary": "维护线 22 最新 22.1.6",
+      "version": "22.1.6",
+      "source": "https://github.com/angular/angular/releases/tag/v22.1.6"
+    },
+    {
       "date": "2026-08-28",
       "type": "feature",
       "summary": "Styling Mastery and Declarative Form Submissions",
@@ -41,7 +48,7 @@
   "sources": [
     "https://angular.dev"
   ],
-  "lastReviewed": "2026-08-28",
+  "lastReviewed": "2026-09-10",
   "region": "overseas",
   "id": "angular",
   "name": "Angular",

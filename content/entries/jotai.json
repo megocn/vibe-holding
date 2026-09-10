@@ -20,12 +20,20 @@
   "pitfalls": [
     "原子散落各文件后全局状态图不易概览；异步与 Suspense 组合的边界行为需要实测理解。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-09-08",
+      "type": "release",
+      "summary": "发布 3.0.0: 新版本",
+      "version": "3.0.0",
+      "source": "https://github.com/pmndrs/jotai/releases/tag/v3.0.0"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://jotai.org"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-09-10",
   "region": "overseas",
   "id": "jotai",
   "name": "Jotai",
@@ -34,5 +42,6 @@
   "oneLiner": "原子化状态 · 依赖自动派生 · 按原子粒度精确重渲染",
   "officialUrl": "https://jotai.org",
   "descriptionMd": "Jotai 把状态拆成一个个原子，派生原子按依赖自动重算，组件只订阅用到的原子，重渲染范围天然收敛到最小，心智接近 useState 的自然扩展。\n\n状态零散、组件树深、希望避免大 store 引发广播式重渲染时选用；集中式审计与中间件需求更适合 Redux Toolkit。\n\n原子散落各文件后全局状态图不易概览；异步与 Suspense 组合的边界行为需要实测理解。\n",
-  "githubUrl": "https://github.com/pmndrs/jotai"
+  "githubUrl": "https://github.com/pmndrs/jotai",
+  "currentVersion": "3.0.0"
 }

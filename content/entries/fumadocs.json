@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-10",
+      "type": "release",
+      "summary": "发布 11.4.2: fumadocs-openapi@11.4.2",
+      "version": "11.4.2",
+      "source": "https://github.com/fuma-nama/fumadocs/releases/tag/fumadocs-openapi%4011.4.2"
+    },
+    {
       "date": "2026-08-28",
       "type": "release",
       "summary": "发布 0.2.2: @fumadocs/sanity@0.2.2",
@@ -55,7 +62,7 @@
   "sources": [
     "https://fumadocs.dev"
   ],
-  "lastReviewed": "2026-08-28",
+  "lastReviewed": "2026-09-10",
   "region": "overseas",
   "id": "fumadocs",
   "name": "Fumadocs",

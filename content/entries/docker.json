@@ -17,6 +17,12 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-09-08",
+      "type": "feature",
+      "summary": "Benefits of Sandbox Environments (and How Docker Sandboxes Delivers Them)",
+      "source": "https://www.docker.com/blog/benefits-of-sandbox-environments/"
+    },
+    {
       "date": "2026-09-02",
       "type": "feature",
       "summary": "Building Reproducible AI Evaluation Workflows with Docker Sandboxes",
@@ -45,7 +51,7 @@
   "sources": [
     "https://www.docker.com"
   ],
-  "lastReviewed": "2026-09-02",
+  "lastReviewed": "2026-09-10",
   "region": "overseas",
   "id": "docker",
   "name": "Docker",

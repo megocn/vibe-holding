@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-09",
+      "type": "release",
+      "summary": "发布 9.0.3: 新版本",
+      "version": "9.0.3",
+      "source": "https://github.com/ionic-team/ionic-framework/releases/tag/v9.0.3"
+    },
+    {
       "date": "2026-08-12",
       "type": "release",
       "summary": "发布 8.8.18: 新版本",
@@ -41,7 +48,7 @@
   "sources": [
     "https://ionicframework.com"
   ],
-  "lastReviewed": "2026-08-13",
+  "lastReviewed": "2026-09-10",
   "region": "overseas",
   "id": "ionic",
   "name": "Ionic",

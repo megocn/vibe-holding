@@ -16,12 +16,19 @@
   ],
   "maturity": "mature",
   "pitfalls": [],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-09-10",
+      "type": "feature",
+      "summary": "Xcode 27 runner image now runs on macOS 27",
+      "source": "https://github.blog/changelog/2026-09-10-xcode-27-runner-image-now-runs-on-macos-27"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://github.com/features/actions"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-09-10",
   "region": "overseas",
   "id": "github-actions",
   "name": "GitHub Actions",

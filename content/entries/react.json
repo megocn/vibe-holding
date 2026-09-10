@@ -21,6 +21,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-09",
+      "type": "release",
+      "summary": "发布 19.3: React 19.3",
+      "version": "19.3",
+      "source": "https://react.dev/blog/2026/09/09/react-19-3"
+    },
+    {
       "date": "2026-07-21",
       "type": "release",
       "summary": "维护线 19 最新 19.2.8",
@@ -31,7 +38,7 @@
   "sources": [
     "https://react.dev"
   ],
-  "lastReviewed": "2026-07-25",
+  "lastReviewed": "2026-09-10",
   "region": "overseas",
   "id": "react",
   "name": "React",
@@ -76,5 +83,6 @@
       "previousShare": 40,
       "previousAsOf": "2026-07-20"
     }
-  ]
+  ],
+  "currentVersion": "19.3"
 }

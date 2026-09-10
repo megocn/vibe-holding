@@ -20,6 +20,12 @@
   ],
   "updates": [
     {
+      "date": "2026-09-09",
+      "type": "feature",
+      "summary": "Is Prisma 8 Ready for Long-Lived Production Apps?",
+      "source": "https://www.prisma.io/blog/is-prisma-8-ready-for-long-lived-production-apps"
+    },
+    {
       "date": "2026-08-04",
       "type": "release",
       "summary": "发布 0.17.0: 新版本",
@@ -31,7 +37,7 @@
   "sources": [
     "https://www.prisma.io"
   ],
-  "lastReviewed": "2026-08-04",
+  "lastReviewed": "2026-09-10",
   "region": "overseas",
   "id": "prisma",
   "name": "Prisma",

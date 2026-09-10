@@ -21,12 +21,20 @@
     "需自备并运维图数据库",
     "增量更新与冲突消解调参成本高"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-09-08",
+      "type": "release",
+      "summary": "发布 0.30.2: FalkorDB updates",
+      "version": "0.30.2",
+      "source": "https://github.com/getzep/graphiti/releases/tag/v0.30.2"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://github.com/getzep/graphiti"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-09-10",
   "region": "overseas",
   "id": "graphiti",
   "name": "Graphiti",

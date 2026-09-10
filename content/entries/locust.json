@@ -20,12 +20,20 @@
   "pitfalls": [
     "压测机本身可能先于被测服务成为瓶颈；默认 HTTP 客户端性能有限，高压场景需换用更快的客户端实现。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-09-07",
+      "type": "release",
+      "summary": "发布 2.46.5: 新版本",
+      "version": "2.46.5",
+      "source": "https://github.com/locustio/locust/releases/tag/2.46.5"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://locust.io"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-09-10",
   "region": "overseas",
   "id": "locust",
   "name": "Locust",

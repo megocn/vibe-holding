@@ -20,6 +20,12 @@
   ],
   "updates": [
     {
+      "date": "2026-09-09",
+      "type": "feature",
+      "summary": "Kubernetes v1.37: Introducing Node Lifecycle Conditions",
+      "source": "https://kubernetes.io/blog/2026/09/09/kubernetes-v1-37-node-lifecycle-conditions/"
+    },
+    {
       "date": "2026-08-26",
       "type": "release",
       "summary": "维护线 1.37 最新 1.37.0",
@@ -38,7 +44,7 @@
   "sources": [
     "https://kubernetes.io"
   ],
-  "lastReviewed": "2026-08-31",
+  "lastReviewed": "2026-09-10",
   "region": "overseas",
   "id": "kubernetes",
   "name": "Kubernetes",

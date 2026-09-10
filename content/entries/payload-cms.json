@@ -24,6 +24,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-10",
+      "type": "release",
+      "summary": "发布 3.89.0: 新版本",
+      "version": "3.89.0",
+      "source": "https://github.com/payloadcms/payload/releases/tag/v3.89.0"
+    },
+    {
       "date": "2026-08-06",
       "type": "release",
       "summary": "发布 3.87.1: 新版本",
@@ -35,7 +42,7 @@
   "sources": [
     "https://payloadcms.com"
   ],
-  "lastReviewed": "2026-08-07",
+  "lastReviewed": "2026-09-10",
   "region": "overseas",
   "id": "payload-cms",
   "name": "Payload CMS",
@@ -46,5 +53,6 @@
   "descriptionMd": "Payload 是 TypeScript 原生的开源 Headless CMS，内容模型用代码声明，后台与接口可直接跑在 Next.js 应用内部，数据落在自己的 Postgres 或 MongoDB。\n\n已用 Next.js、希望内容后台与业务代码同仓同部署、且要求数据自持时评估；与 Strapi、Directus 属同层的自托管选项。\n\n运维与升级由自己承担；模型改动走代码与迁移而非后台点选，非技术同事无法自助加字段。\n",
   "vendorId": "payload-inc",
   "githubUrl": "https://github.com/payloadcms/payload",
-  "docsUrl": "https://payloadcms.com/docs"
+  "docsUrl": "https://payloadcms.com/docs",
+  "currentVersion": "3.89.0"
 }

@@ -72,14 +72,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 1,
-      "scoreLabel": "12.1%",
-      "share": 12.1,
+      "rank": 4,
+      "scoreLabel": "10.8%",
+      "share": 10.8,
       "period": "2026-09",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-09-02",
-      "previousRank": 2,
-      "previousAsOf": "2026-07-24"
+      "asOf": "2026-09-10",
+      "previousRank": 1,
+      "previousShare": 12.1,
+      "previousAsOf": "2026-09-02"
     },
     {
       "systemId": "lmarena-webdev",

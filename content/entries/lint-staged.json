@@ -18,12 +18,20 @@
   "pitfalls": [
     "配置 glob 遗漏会导致部分文件绕过检查；与 Monorepo 路径别名要对齐。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-09-10",
+      "type": "release",
+      "summary": "发布 17.5.1: 新版本",
+      "version": "17.5.1",
+      "source": "https://github.com/lint-staged/lint-staged/releases/tag/v17.5.1"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://github.com/lint-staged/lint-staged"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-09-10",
   "region": "overseas",
   "id": "lint-staged",
   "name": "lint-staged",

@@ -21,6 +21,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-08",
+      "type": "release",
+      "summary": "发布 0.9.0: ui v0.9.0",
+      "version": "0.9.0",
+      "source": "https://github.com/remix-run/remix/releases/tag/ui%400.9.0"
+    },
+    {
       "date": "2026-08-14",
       "type": "release",
       "summary": "发布 0.1.0: ui-hmr v0.1.0",
@@ -31,7 +38,7 @@
   "sources": [
     "https://remix.run"
   ],
-  "lastReviewed": "2026-08-14",
+  "lastReviewed": "2026-09-10",
   "region": "overseas",
   "id": "remix",
   "name": "Remix",
@@ -50,5 +57,5 @@
       "previousAsOf": "2026-07-20"
     }
   ],
-  "currentVersion": "0.1.0"
+  "currentVersion": "0.9.0"
 }

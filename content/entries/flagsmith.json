@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-10",
+      "type": "release",
+      "summary": "发布 2.271.1: 新版本",
+      "version": "2.271.1",
+      "source": "https://github.com/Flagsmith/flagsmith/releases/tag/v2.271.1"
+    },
+    {
       "date": "2026-08-27",
       "type": "release",
       "summary": "发布 2.268.0: 新版本",
@@ -41,7 +48,7 @@
   "sources": [
     "https://www.flagsmith.com"
   ],
-  "lastReviewed": "2026-08-28",
+  "lastReviewed": "2026-09-10",
   "region": "overseas",
   "id": "flagsmith",
   "name": "Flagsmith",

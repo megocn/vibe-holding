@@ -24,6 +24,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-09",
+      "type": "release",
+      "summary": "发布 0.8.1: self-hosted/v0.8.1",
+      "version": "0.8.1",
+      "source": "https://github.com/supabase/supabase/releases/tag/self-hosted%2Fv0.8.1"
+    },
+    {
       "date": "2026-08-07",
       "type": "feature",
       "summary": "Supabase is now a connector on Perplexity Computer",
@@ -45,7 +52,7 @@
   "sources": [
     "https://supabase.com"
   ],
-  "lastReviewed": "2026-08-07",
+  "lastReviewed": "2026-09-10",
   "region": "overseas",
   "id": "supabase",
   "name": "Supabase",

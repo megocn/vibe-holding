@@ -17,6 +17,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-08",
+      "type": "release",
+      "summary": "维护线 13 最新 13.31.0",
+      "version": "13.31.0",
+      "source": "https://laravel.com/docs/13.x/releases"
+    },
+    {
       "date": "2026-09-01",
       "type": "release",
       "summary": "维护线 13 最新 13.30.1",
@@ -35,7 +42,7 @@
   "sources": [
     "https://laravel.com"
   ],
-  "lastReviewed": "2026-09-02",
+  "lastReviewed": "2026-09-10",
   "region": "overseas",
   "id": "laravel",
   "name": "Laravel",

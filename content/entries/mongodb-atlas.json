@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-08",
+      "type": "release",
+      "summary": "维护线 8.3 最新 8.3.9",
+      "version": "8.3.9",
+      "source": "https://www.mongodb.com/docs/manual/release-notes/8.3/"
+    },
+    {
       "date": "2026-07-31",
       "type": "deprecation",
       "summary": "mongodb 8.2 将于 2026-07-31 结束安全支持",
@@ -33,7 +40,7 @@
   "sources": [
     "https://www.mongodb.com/atlas"
   ],
-  "lastReviewed": "2026-07-25",
+  "lastReviewed": "2026-09-10",
   "region": "overseas",
   "id": "mongodb-atlas",
   "name": "MongoDB Atlas",
@@ -64,5 +71,6 @@
       "previousShare": 24,
       "previousAsOf": "2026-07-20"
     }
-  ]
+  ],
+  "currentVersion": "8.3"
 }

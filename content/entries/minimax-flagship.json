@@ -36,15 +36,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 12,
-      "scoreLabel": "2.4%",
-      "share": 2.4,
-      "period": "2026-08",
+      "rank": 9,
+      "scoreLabel": "3%",
+      "share": 3,
+      "period": "2026-09",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-08-31",
-      "previousRank": 13,
-      "previousShare": 1.4,
-      "previousAsOf": "2026-08-28"
+      "asOf": "2026-09-10",
+      "previousRank": 12,
+      "previousShare": 2.4,
+      "previousAsOf": "2026-08-31"
     },
     {
       "systemId": "lmarena-vision",

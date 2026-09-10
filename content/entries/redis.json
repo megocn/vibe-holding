@@ -22,6 +22,12 @@
   ],
   "updates": [
     {
+      "date": "2026-09-08",
+      "type": "feature",
+      "summary": "Delivering Real-Time Personalization with Databricks and Redis",
+      "source": "https://redis.io/blog/delivering-real-time-personalization-with-databricks-and-redis/"
+    },
+    {
       "date": "2026-08-28",
       "type": "feature",
       "summary": "Security Advisory: CVE-2026-81934",
@@ -44,7 +50,7 @@
   "sources": [
     "https://redis.io"
   ],
-  "lastReviewed": "2026-08-31",
+  "lastReviewed": "2026-09-10",
   "region": "overseas",
   "id": "redis",
   "name": "Redis",

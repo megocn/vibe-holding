@@ -17,6 +17,12 @@
   ],
   "updates": [
     {
+      "date": "2026-09-10",
+      "type": "feature",
+      "summary": "PyCharm &amp; Django Fundraiser Extended to September 14",
+      "source": "https://www.djangoproject.com/weblog/2026/sep/10/pycharm-django-fundraiser-extended/"
+    },
+    {
       "date": "2026-08-21",
       "type": "feature",
       "summary": "DSF Membership Open Space at DjangoCon US",
@@ -47,7 +53,7 @@
   "sources": [
     "https://www.djangoproject.com"
   ],
-  "lastReviewed": "2026-08-22",
+  "lastReviewed": "2026-09-10",
   "region": "overseas",
   "id": "django",
   "name": "Django",

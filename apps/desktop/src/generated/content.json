@@ -2102,6 +2102,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-09",
+          "type": "release",
+          "summary": "维护线 22 最新 22.1.6",
+          "version": "22.1.6",
+          "source": "https://github.com/angular/angular/releases/tag/v22.1.6"
+        },
+        {
           "date": "2026-08-28",
           "type": "feature",
           "summary": "Styling Mastery and Declarative Form Submissions",
@@ -2126,7 +2133,7 @@
       "sources": [
         "https://angular.dev"
       ],
-      "lastReviewed": "2026-08-28",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "angular",
       "name": "Angular",
@@ -7453,15 +7460,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 48,
-          "scoreLabel": "0.2%",
-          "share": 0.2,
-          "period": "2026-08",
+          "rank": 38,
+          "scoreLabel": "0.3%",
+          "share": 0.3,
+          "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-31",
-          "previousRank": 40,
-          "previousShare": 0.4,
-          "previousAsOf": "2026-08-22"
+          "asOf": "2026-09-10",
+          "previousRank": 48,
+          "previousShare": 0.2,
+          "previousAsOf": "2026-08-31"
         }
       ],
       "sources": [
@@ -7727,15 +7734,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 17,
-          "scoreLabel": "1.4%",
-          "share": 1.4,
-          "period": "2026-08",
+          "rank": 15,
+          "scoreLabel": "1.6%",
+          "share": 1.6,
+          "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-31",
-          "previousRank": 15,
+          "asOf": "2026-09-10",
+          "previousRank": 17,
           "previousShare": 1.4,
-          "previousAsOf": "2026-08-28"
+          "previousAsOf": "2026-08-31"
         },
         {
           "systemId": "swe-bench-pro",
@@ -7859,15 +7866,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 20,
-          "scoreLabel": "1.1%",
-          "share": 1.1,
-          "period": "2026-08",
+          "rank": 19,
+          "scoreLabel": "1.2%",
+          "share": 1.2,
+          "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-31",
-          "previousRank": 16,
-          "previousShare": 1.2,
-          "previousAsOf": "2026-08-25"
+          "asOf": "2026-09-10",
+          "previousRank": 20,
+          "previousShare": 1.1,
+          "previousAsOf": "2026-08-31"
         },
         {
           "systemId": "lmarena-text",
@@ -11536,14 +11543,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 1,
-          "scoreLabel": "12.1%",
-          "share": 12.1,
+          "rank": 4,
+          "scoreLabel": "10.8%",
+          "share": 10.8,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-02",
-          "previousRank": 2,
-          "previousAsOf": "2026-07-24"
+          "asOf": "2026-09-10",
+          "previousRank": 1,
+          "previousShare": 12.1,
+          "previousAsOf": "2026-09-02"
         },
         {
           "systemId": "lmarena-webdev",
@@ -12186,6 +12194,12 @@
       ],
       "updates": [
         {
+          "date": "2026-09-10",
+          "type": "feature",
+          "summary": "PyCharm &amp; Django Fundraiser Extended to September 14",
+          "source": "https://www.djangoproject.com/weblog/2026/sep/10/pycharm-django-fundraiser-extended/"
+        },
+        {
           "date": "2026-08-21",
           "type": "feature",
           "summary": "DSF Membership Open Space at DjangoCon US",
@@ -12216,7 +12230,7 @@
       "sources": [
         "https://www.djangoproject.com"
       ],
-      "lastReviewed": "2026-08-22",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "django",
       "name": "Django",
@@ -12280,6 +12294,12 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-09-08",
+          "type": "feature",
+          "summary": "Benefits of Sandbox Environments (and How Docker Sandboxes Delivers Them)",
+          "source": "https://www.docker.com/blog/benefits-of-sandbox-environments/"
+        },
+        {
           "date": "2026-09-02",
           "type": "feature",
           "summary": "Building Reproducible AI Evaluation Workflows with Docker Sandboxes",
@@ -12308,7 +12328,7 @@
       "sources": [
         "https://www.docker.com"
       ],
-      "lastReviewed": "2026-09-02",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "docker",
       "name": "Docker",
@@ -13666,6 +13686,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-08",
+          "type": "release",
+          "summary": "维护线 44 最新 44.3.0",
+          "version": "44.3.0",
+          "source": "https://releases.electronjs.org/release/v44.3.0"
+        },
+        {
           "date": "2026-08-31",
           "type": "release",
           "summary": "维护线 43 最新 43.5.0",
@@ -13691,7 +13718,7 @@
       "sources": [
         "https://www.electronjs.org"
       ],
-      "lastReviewed": "2026-08-31",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "electron",
       "name": "Electron",
@@ -13701,7 +13728,7 @@
       "officialUrl": "https://www.electronjs.org",
       "descriptionMd": "Electron 用 Chromium+Node 构建跨平台 desktop App，VS Code/Slack/Discord 等均采用，生态最成熟。\n\n需要快速复用 Web 技能做 desktop、或依赖大量 npm native 模块时。\n\n内存与包体积大；安全更新需跟踪 Chromium CVE。\n",
       "vendorId": "electronjs",
-      "currentVersion": "43"
+      "currentVersion": "44"
     },
     {
       "pricing": {
@@ -15396,6 +15423,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-10",
+          "type": "release",
+          "summary": "发布 2.271.1: 新版本",
+          "version": "2.271.1",
+          "source": "https://github.com/Flagsmith/flagsmith/releases/tag/v2.271.1"
+        },
+        {
           "date": "2026-08-27",
           "type": "release",
           "summary": "发布 2.268.0: 新版本",
@@ -15414,7 +15448,7 @@
       "sources": [
         "https://www.flagsmith.com"
       ],
-      "lastReviewed": "2026-08-28",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "flagsmith",
       "name": "Flagsmith",
@@ -15603,12 +15637,20 @@
         "控件与主题能力受封装层限制",
         "不适合大型消费级应用的性能与状态需求"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-09-10",
+          "type": "release",
+          "summary": "发布 1.0.0.dev2: 新版本",
+          "version": "1.0.0.dev2",
+          "source": "https://github.com/flet-dev/flet/releases/tag/v1.0.0.dev2"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://flet.dev"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "flet",
       "name": "Flet",
@@ -15618,7 +15660,8 @@
       "officialUrl": "https://flet.dev",
       "descriptionMd": "Flet 让 Python 开发者直接用 Python 代码构建由 Flutter 渲染的界面，无需接触 Dart 与前端工具链，可输出桌面、移动与 Web 应用。\n\n数据、算法或运维团队要给脚本加图形界面、做内部工具或演示原型时非常省事；面向用户的正式应用仍建议原生 Flutter。\n\n控件与主题受封装层限制，复杂交互不如直接写 Flutter；状态与性能模型偏简单，不适合大型消费级产品。\n",
       "vendorId": "flet-dev",
-      "githubUrl": "https://github.com/flet-dev/flet"
+      "githubUrl": "https://github.com/flet-dev/flet",
+      "currentVersion": "1.0.0.dev2"
     },
     {
       "pricing": {
@@ -16441,6 +16484,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-10",
+          "type": "release",
+          "summary": "发布 11.4.2: fumadocs-openapi@11.4.2",
+          "version": "11.4.2",
+          "source": "https://github.com/fuma-nama/fumadocs/releases/tag/fumadocs-openapi%4011.4.2"
+        },
+        {
           "date": "2026-08-28",
           "type": "release",
           "summary": "发布 0.2.2: @fumadocs/sanity@0.2.2",
@@ -16473,7 +16523,7 @@
       "sources": [
         "https://fumadocs.dev"
       ],
-      "lastReviewed": "2026-08-28",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "fumadocs",
       "name": "Fumadocs",
@@ -16510,6 +16560,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-10",
+          "type": "release",
+          "summary": "发布 1.4.15: 新版本",
+          "version": "1.4.15",
+          "source": "https://github.com/modelscope/FunASR/releases/tag/v1.4.15"
+        },
+        {
           "date": "2026-08-30",
           "type": "release",
           "summary": "发布 1.4.11: 新版本",
@@ -16542,7 +16599,7 @@
       "sources": [
         "https://github.com/modelscope/FunASR"
       ],
-      "lastReviewed": "2026-08-31",
+      "lastReviewed": "2026-09-10",
       "region": "domestic",
       "id": "funasr",
       "name": "FunASR",
@@ -16797,6 +16854,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-08",
+          "type": "release",
+          "summary": "发布 0.59.0: Release v0.59.0",
+          "version": "0.59.0",
+          "source": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.59.0"
+        },
+        {
           "date": "2026-08-19",
           "type": "release",
           "summary": "发布 0.56.0: Release v0.56.0",
@@ -16815,7 +16879,7 @@
       "sources": [
         "https://github.com/google-gemini/gemini-cli"
       ],
-      "lastReviewed": "2026-08-20",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "gemini-cli",
       "name": "Gemini CLI",
@@ -16825,7 +16889,7 @@
       "officialUrl": "https://github.com/google-gemini/gemini-cli",
       "descriptionMd": "Gemini CLI 是 Google 推出的终端 AI 编码工具，可在命令行中对话、读写项目文件并执行 shell，深度集成 Gemini 模型能力。\n\n偏好终端工作流、已使用 Google Cloud/Gemini API 的开发者；适合脚本化与 CI Adjacent 的编码任务。\n\n终端 Agent 权限过大时可能执行破坏性命令；建议沙箱环境试用并限制 API key 权限范围。\n",
       "vendorId": "google-deepmind",
-      "currentVersion": "0.56.0"
+      "currentVersion": "0.59.0"
     },
     {
       "pricing": {
@@ -16925,15 +16989,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 22,
-          "scoreLabel": "0.9%",
-          "share": 0.9,
+          "rank": 28,
+          "scoreLabel": "0.6%",
+          "share": 0.6,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-02",
-          "previousRank": 20,
-          "previousShare": 0.8,
-          "previousAsOf": "2026-08-25"
+          "asOf": "2026-09-10",
+          "previousRank": 22,
+          "previousShare": 0.9,
+          "previousAsOf": "2026-09-02"
         }
       ],
       "sources": [
@@ -17063,15 +17127,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 8,
-          "scoreLabel": "3.5%",
-          "share": 3.5,
-          "period": "2026-08",
+          "rank": 11,
+          "scoreLabel": "2.2%",
+          "share": 2.2,
+          "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-28",
-          "previousRank": 9,
-          "previousShare": 2.2,
-          "previousAsOf": "2026-08-25"
+          "asOf": "2026-09-10",
+          "previousRank": 8,
+          "previousShare": 3.5,
+          "previousAsOf": "2026-08-28"
         },
         {
           "systemId": "lmarena-document",
@@ -17599,15 +17663,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 39,
+          "rank": 40,
           "scoreLabel": "0.3%",
           "share": 0.3,
-          "period": "2026-08",
+          "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-28",
-          "previousRank": 36,
-          "previousShare": 0.4,
-          "previousAsOf": "2026-08-25"
+          "asOf": "2026-09-10",
+          "previousRank": 39,
+          "previousShare": 0.3,
+          "previousAsOf": "2026-08-28"
         }
       ],
       "sources": [
@@ -17725,6 +17789,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-08",
+          "type": "release",
+          "summary": "发布 6.63.0: 新版本",
+          "version": "6.63.0",
+          "source": "https://github.com/TryGhost/Ghost/releases/tag/v6.63.0"
+        },
+        {
           "date": "2026-08-18",
           "type": "release",
           "summary": "发布 6.58.0: 新版本",
@@ -17743,7 +17814,7 @@
       "sources": [
         "https://ghost.org"
       ],
-      "lastReviewed": "2026-08-19",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "ghost",
       "name": "Ghost",
@@ -17755,7 +17826,7 @@
       "vendorId": "ghost-foundation",
       "githubUrl": "https://github.com/TryGhost/Ghost",
       "docsUrl": "https://ghost.org/docs/",
-      "currentVersion": "6.58.0"
+      "currentVersion": "6.63.0"
     },
     {
       "pricing": {
@@ -17849,12 +17920,19 @@
       ],
       "maturity": "mature",
       "pitfalls": [],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-09-10",
+          "type": "feature",
+          "summary": "Xcode 27 runner image now runs on macOS 27",
+          "source": "https://github.blog/changelog/2026-09-10-xcode-27-runner-image-now-runs-on-macos-27"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://github.com/features/actions"
       ],
-      "lastReviewed": "2026-07-23",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "github-actions",
       "name": "GitHub Actions",
@@ -18157,15 +18235,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 2,
-          "scoreLabel": "10%",
-          "share": 10,
+          "rank": 3,
+          "scoreLabel": "10.8%",
+          "share": 10.8,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-02",
-          "previousRank": 6,
-          "previousShare": 5.8,
-          "previousAsOf": "2026-08-31"
+          "asOf": "2026-09-10",
+          "previousRank": 2,
+          "previousShare": 10,
+          "previousAsOf": "2026-09-02"
         },
         {
           "systemId": "lmarena-document",
@@ -19373,12 +19451,12 @@
           "rank": 14,
           "scoreLabel": "1.6%",
           "share": 1.6,
-          "period": "2026-08",
+          "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-31",
-          "previousRank": 12,
+          "asOf": "2026-09-10",
+          "previousRank": 14,
           "previousShare": 1.6,
-          "previousAsOf": "2026-08-28"
+          "previousAsOf": "2026-08-31"
         }
       ],
       "subcategory": "line",
@@ -19421,15 +19499,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 4,
-          "scoreLabel": "7.3%",
-          "share": 7.3,
-          "period": "2026-08",
+          "rank": 2,
+          "scoreLabel": "11.3%",
+          "share": 11.3,
+          "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-31",
-          "previousRank": 7,
-          "previousShare": 4.8,
-          "previousAsOf": "2026-08-25"
+          "asOf": "2026-09-10",
+          "previousRank": 4,
+          "previousShare": 7.3,
+          "previousAsOf": "2026-08-31"
         }
       ],
       "sources": [
@@ -19532,15 +19610,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 27,
+          "rank": 31,
           "scoreLabel": "0.5%",
           "share": 0.5,
-          "period": "2026-08",
+          "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-31",
-          "previousRank": 24,
-          "previousShare": 0.6,
-          "previousAsOf": "2026-08-28"
+          "asOf": "2026-09-10",
+          "previousRank": 27,
+          "previousShare": 0.5,
+          "previousAsOf": "2026-08-31"
         },
         {
           "systemId": "lmarena-text",
@@ -19709,12 +19787,20 @@
         "需自备并运维图数据库",
         "增量更新与冲突消解调参成本高"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-09-08",
+          "type": "release",
+          "summary": "发布 0.30.2: FalkorDB updates",
+          "version": "0.30.2",
+          "source": "https://github.com/getzep/graphiti/releases/tag/v0.30.2"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://github.com/getzep/graphiti"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "graphiti",
       "name": "Graphiti",
@@ -19970,15 +20056,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 32,
-          "scoreLabel": "0.4%",
-          "share": 0.4,
-          "period": "2026-08",
+          "rank": 42,
+          "scoreLabel": "0.3%",
+          "share": 0.3,
+          "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-31",
-          "previousRank": 28,
-          "previousShare": 0.7,
-          "previousAsOf": "2026-08-20"
+          "asOf": "2026-09-10",
+          "previousRank": 32,
+          "previousShare": 0.4,
+          "previousAsOf": "2026-08-31"
         }
       ],
       "sources": [
@@ -22237,6 +22323,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-10",
+          "type": "release",
+          "summary": "发布 0.166.0: 新版本",
+          "version": "0.166.0",
+          "source": "https://github.com/gohugoio/hugo/releases/tag/v0.166.0"
+        },
+        {
           "date": "2026-08-12",
           "type": "release",
           "summary": "发布 0.165.0: 新版本",
@@ -22248,7 +22341,7 @@
       "sources": [
         "https://gohugo.io"
       ],
-      "lastReviewed": "2026-08-12",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "hugo",
       "name": "Hugo",
@@ -22259,7 +22352,7 @@
       "descriptionMd": "Hugo 是用 Go 编写的静态站生成器，单二进制、无运行时依赖，万级页面也能在数秒内构建完成，内容与主题高度依赖它自有的模板语法与目录约定。\n\n内容量大的文档站、博客或站群，追求构建速度与部署简单时选；需要在页面里做复杂交互则考虑前端框架系方案。\n\nGo 模板语法与前端组件化心智差异大，交互需自行写脚本；主题质量参差，深度定制往往要通读主题源码。\n",
       "vendorId": "hugo-team",
       "githubUrl": "https://github.com/gohugoio/hugo",
-      "currentVersion": "0.165.0"
+      "currentVersion": "0.166.0"
     },
     {
       "pricing": {
@@ -22501,14 +22594,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 5,
-          "scoreLabel": "6.3%",
-          "share": 6.3,
-          "period": "2026-08",
+          "rank": 1,
+          "scoreLabel": "17.3%",
+          "share": 17.3,
+          "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-31",
-          "previousRank": 3,
-          "previousAsOf": "2026-07-24"
+          "asOf": "2026-09-10",
+          "previousRank": 5,
+          "previousShare": 6.3,
+          "previousAsOf": "2026-08-31"
         },
         {
           "systemId": "lmarena-webdev",
@@ -23571,6 +23665,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-09",
+          "type": "release",
+          "summary": "发布 9.0.3: 新版本",
+          "version": "9.0.3",
+          "source": "https://github.com/ionic-team/ionic-framework/releases/tag/v9.0.3"
+        },
+        {
           "date": "2026-08-12",
           "type": "release",
           "summary": "发布 8.8.18: 新版本",
@@ -23589,7 +23690,7 @@
       "sources": [
         "https://ionicframework.com"
       ],
-      "lastReviewed": "2026-08-13",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "ionic",
       "name": "Ionic",
@@ -24266,12 +24367,20 @@
       "pitfalls": [
         "原子散落各文件后全局状态图不易概览；异步与 Suspense 组合的边界行为需要实测理解。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-09-08",
+          "type": "release",
+          "summary": "发布 3.0.0: 新版本",
+          "version": "3.0.0",
+          "source": "https://github.com/pmndrs/jotai/releases/tag/v3.0.0"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://jotai.org"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "jotai",
       "name": "Jotai",
@@ -24280,7 +24389,8 @@
       "oneLiner": "原子化状态 · 依赖自动派生 · 按原子粒度精确重渲染",
       "officialUrl": "https://jotai.org",
       "descriptionMd": "Jotai 把状态拆成一个个原子，派生原子按依赖自动重算，组件只订阅用到的原子，重渲染范围天然收敛到最小，心智接近 useState 的自然扩展。\n\n状态零散、组件树深、希望避免大 store 引发广播式重渲染时选用；集中式审计与中间件需求更适合 Redux Toolkit。\n\n原子散落各文件后全局状态图不易概览；异步与 Suspense 组合的边界行为需要实测理解。\n",
-      "githubUrl": "https://github.com/pmndrs/jotai"
+      "githubUrl": "https://github.com/pmndrs/jotai",
+      "currentVersion": "3.0.0"
     },
     {
       "pricing": {
@@ -24828,15 +24938,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 14,
-          "scoreLabel": "1.7%",
-          "share": 1.7,
+          "rank": 13,
+          "scoreLabel": "1.6%",
+          "share": 1.6,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-02",
-          "previousRank": 15,
-          "previousShare": 1.6,
-          "previousAsOf": "2026-08-22"
+          "asOf": "2026-09-10",
+          "previousRank": 14,
+          "previousShare": 1.7,
+          "previousAsOf": "2026-09-02"
         },
         {
           "systemId": "lmarena-vision",
@@ -25593,6 +25703,12 @@
       ],
       "updates": [
         {
+          "date": "2026-09-09",
+          "type": "feature",
+          "summary": "Kubernetes v1.37: Introducing Node Lifecycle Conditions",
+          "source": "https://kubernetes.io/blog/2026/09/09/kubernetes-v1-37-node-lifecycle-conditions/"
+        },
+        {
           "date": "2026-08-26",
           "type": "release",
           "summary": "维护线 1.37 最新 1.37.0",
@@ -25611,7 +25727,7 @@
       "sources": [
         "https://kubernetes.io"
       ],
-      "lastReviewed": "2026-08-31",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "kubernetes",
       "name": "Kubernetes",
@@ -25871,6 +25987,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-09",
+          "type": "release",
+          "summary": "发布 1.6.2: langchain-openai==1.6.2",
+          "version": "1.6.2",
+          "source": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.6.2"
+        },
+        {
           "date": "2026-08-28",
           "type": "feature",
           "summary": "langchain==1.4.0a2",
@@ -25902,7 +26025,7 @@
       "sources": [
         "https://www.langchain.com"
       ],
-      "lastReviewed": "2026-08-31",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "langchain",
       "name": "LangChain",
@@ -26106,6 +26229,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-08",
+          "type": "release",
+          "summary": "维护线 13 最新 13.31.0",
+          "version": "13.31.0",
+          "source": "https://laravel.com/docs/13.x/releases"
+        },
+        {
           "date": "2026-09-01",
           "type": "release",
           "summary": "维护线 13 最新 13.30.1",
@@ -26124,7 +26254,7 @@
       "sources": [
         "https://laravel.com"
       ],
-      "lastReviewed": "2026-09-02",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "laravel",
       "name": "Laravel",
@@ -26618,12 +26748,20 @@
       "pitfalls": [
         "配置 glob 遗漏会导致部分文件绕过检查；与 Monorepo 路径别名要对齐。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-09-10",
+          "type": "release",
+          "summary": "发布 17.5.1: 新版本",
+          "version": "17.5.1",
+          "source": "https://github.com/lint-staged/lint-staged/releases/tag/v17.5.1"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://github.com/lint-staged/lint-staged"
       ],
-      "lastReviewed": "2026-07-23",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "lint-staged",
       "name": "lint-staged",
@@ -26974,6 +27112,12 @@
       ],
       "updates": [
         {
+          "date": "2026-09-10",
+          "type": "feature",
+          "summary": "b10896",
+          "source": "https://github.com/ggml-org/llama.cpp/releases/tag/b10896"
+        },
+        {
           "date": "2026-08-28",
           "type": "feature",
           "summary": "b10673",
@@ -27009,7 +27153,7 @@
       "sources": [
         "https://github.com/ggerganov/llama.cpp"
       ],
-      "lastReviewed": "2026-08-28",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "llama-cpp",
       "name": "llama.cpp",
@@ -27359,12 +27503,20 @@
       "pitfalls": [
         "压测机本身可能先于被测服务成为瓶颈；默认 HTTP 客户端性能有限，高压场景需换用更快的客户端实现。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-09-07",
+          "type": "release",
+          "summary": "发布 2.46.5: 新版本",
+          "version": "2.46.5",
+          "source": "https://github.com/locustio/locust/releases/tag/2.46.5"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://locust.io"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "locust",
       "name": "Locust",
@@ -27853,6 +28005,13 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-09-10",
+          "type": "release",
+          "summary": "发布 1.44.0: Version 1.44.0",
+          "version": "1.44.0",
+          "source": "https://github.com/lucide-icons/lucide/releases/tag/1.44.0"
+        },
+        {
           "date": "2026-08-28",
           "type": "release",
           "summary": "发布 1.35.0: Version 1.35.0",
@@ -27901,7 +28060,7 @@
       "sources": [
         "https://lucide.dev"
       ],
-      "lastReviewed": "2026-08-28",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "lucide",
       "name": "Lucide",
@@ -27910,7 +28069,7 @@
       "oneLiner": "Feather 演进 · 线条清晰 · shadcn 系常见默认",
       "descriptionMd": "Lucide 是基于 Feather 演进的开源图标集，线条清晰，React 等多框架封装齐全。\n\n适合产品 UI 图标层；与 Phosphor（多字重）按视觉体系二选一或分工。不可与 Ant Design 等完整组件库同榜硬比。\n\n图标语义保持一致比「多一个风格」重要；与文案、空状态插画统一视觉权重。\n",
       "officialUrl": "https://lucide.dev",
-      "currentVersion": "1.35.0"
+      "currentVersion": "1.44.0"
     },
     {
       "pricing": {
@@ -28134,13 +28293,21 @@
         "开源时间短，第三方库与文档积累有限",
         "工具链以字节内部实践为主，生产落地需兜底"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-09-07",
+          "type": "release",
+          "summary": "发布 4.1.0: 新版本",
+          "version": "4.1.0",
+          "source": "https://github.com/lynx-family/lynx/releases/tag/4.1.0"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://lynxjs.org",
         "https://github.com/lynx-family/lynx"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-09-10",
       "region": "both",
       "id": "lynx",
       "name": "Lynx",
@@ -28150,7 +28317,8 @@
       "officialUrl": "https://lynxjs.org",
       "descriptionMd": "Lynx 是字节跳动开源的跨端框架，用 Web 风格的语法与样式描述界面，经自研的双线程架构渲染为原生视图，已在其自家超级 App 的大流量页面中长期使用。\n\n关注首屏与滚动性能、愿意尝试新生态，或想在 React Native 之外多一个对照方案时评估。\n\n开源时间短，第三方库与中英文档积累有限；周边工具链以字节内部实践为准，生产落地需自建兜底方案。\n",
       "vendorId": "bytedance",
-      "githubUrl": "https://github.com/lynx-family/lynx"
+      "githubUrl": "https://github.com/lynx-family/lynx",
+      "currentVersion": "4.1.0"
     },
     {
       "pricing": {
@@ -29475,15 +29643,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 43,
-          "scoreLabel": "0.2%",
-          "share": 0.2,
-          "period": "2026-08",
+          "rank": 16,
+          "scoreLabel": "1.5%",
+          "share": 1.5,
+          "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-31",
-          "previousRank": 46,
+          "asOf": "2026-09-10",
+          "previousRank": 43,
           "previousShare": 0.2,
-          "previousAsOf": "2026-08-28"
+          "previousAsOf": "2026-08-31"
         }
       ],
       "sources": [
@@ -29579,6 +29747,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-10",
+          "type": "release",
+          "summary": "发布 63.17: Metabase 63.17",
+          "version": "63.17",
+          "source": "https://github.com/metabase/metabase/releases/tag/v0.63.17"
+        },
+        {
           "date": "2026-08-29",
           "type": "release",
           "summary": "发布 0.63.15.5: 新版本",
@@ -29604,7 +29779,7 @@
       "sources": [
         "https://www.metabase.com"
       ],
-      "lastReviewed": "2026-08-31",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "metabase",
       "name": "Metabase",
@@ -29615,7 +29790,7 @@
       "descriptionMd": "Metabase 提供 GUI 问数、SQL 编辑器、仪表盘与权限，开源可自托管，也有托管云，是团队级 BI 事实入门选项。\n\n仓库或 Postgres/ClickHouse 已就绪，业务要自助看转化与经营指标、工程不愿上重型 BI 套件时优先对标。\n\n复杂语义层与百万行以上性能需调优；企业治理与嵌入能力要对照商业版。\n",
       "vendorId": "metabase-inc",
       "githubUrl": "https://github.com/metabase/metabase",
-      "currentVersion": "0.63.15.5"
+      "currentVersion": "63.17"
     },
     {
       "pricing": {
@@ -29957,6 +30132,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-10",
+          "type": "release",
+          "summary": "发布 1.12.6: 新版本",
+          "version": "1.12.6",
+          "source": "https://github.com/web-infra-dev/midscene/releases/tag/v1.12.6"
+        },
+        {
           "date": "2026-08-28",
           "type": "release",
           "summary": "发布 1.12.2: 新版本",
@@ -29983,7 +30165,7 @@
         "https://midscenejs.com",
         "https://github.com/web-infra-dev/midscene"
       ],
-      "lastReviewed": "2026-08-28",
+      "lastReviewed": "2026-09-10",
       "region": "both",
       "id": "midscene",
       "name": "Midscene.js",
@@ -30115,15 +30297,15 @@
       "rankings": [
         {
           "systemId": "openrouter-popularity",
-          "rank": 3,
-          "scoreLabel": "8.6%",
-          "share": 8.6,
-          "period": "2026-08",
+          "rank": 6,
+          "scoreLabel": "3.7%",
+          "share": 3.7,
+          "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-31",
+          "asOf": "2026-09-10",
           "previousRank": 3,
-          "previousShare": 10.4,
-          "previousAsOf": "2026-08-22"
+          "previousShare": 8.6,
+          "previousAsOf": "2026-08-31"
         },
         {
           "systemId": "artificial-analysis-index",
@@ -30253,15 +30435,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 12,
-          "scoreLabel": "2.4%",
-          "share": 2.4,
-          "period": "2026-08",
+          "rank": 9,
+          "scoreLabel": "3%",
+          "share": 3,
+          "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-31",
-          "previousRank": 13,
-          "previousShare": 1.4,
-          "previousAsOf": "2026-08-28"
+          "asOf": "2026-09-10",
+          "previousRank": 12,
+          "previousShare": 2.4,
+          "previousAsOf": "2026-08-31"
         },
         {
           "systemId": "lmarena-vision",
@@ -31212,6 +31394,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-08",
+          "type": "release",
+          "summary": "维护线 8.3 最新 8.3.9",
+          "version": "8.3.9",
+          "source": "https://www.mongodb.com/docs/manual/release-notes/8.3/"
+        },
+        {
           "date": "2026-07-31",
           "type": "deprecation",
           "summary": "mongodb 8.2 将于 2026-07-31 结束安全支持",
@@ -31222,7 +31411,7 @@
       "sources": [
         "https://www.mongodb.com/atlas"
       ],
-      "lastReviewed": "2026-07-25",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "mongodb-atlas",
       "name": "MongoDB Atlas",
@@ -31253,7 +31442,8 @@
           "previousShare": 24,
           "previousAsOf": "2026-07-20"
         }
-      ]
+      ],
+      "currentVersion": "8.3"
     },
     {
       "pricing": {
@@ -31499,6 +31689,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-08",
+          "type": "release",
+          "summary": "发布 4.5.3: 新版本",
+          "version": "4.5.3",
+          "source": "https://github.com/modelscope/ms-swift/releases/tag/v4.5.3"
+        },
+        {
           "date": "2026-08-12",
           "type": "release",
           "summary": "发布 4.4.3: Patch release v4.4.3",
@@ -31510,7 +31707,7 @@
       "sources": [
         "https://github.com/modelscope/ms-swift"
       ],
-      "lastReviewed": "2026-08-12",
+      "lastReviewed": "2026-09-10",
       "region": "both",
       "id": "ms-swift",
       "name": "ms-swift",
@@ -31900,6 +32097,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-09",
+          "type": "release",
+          "summary": "发布 1.6.11-0.71.6: managed-1.6.11-0.71.6-3f636c8052ff5a4c672c4c96e6f5996ca89a9088",
+          "version": "1.6.11-0.71.6",
+          "source": "https://github.com/NangoHQ/nango/releases/tag/managed-1.6.11-0.71.6-3f636c8052ff5a4c672c4c96e6f5996ca89a9088"
+        },
+        {
           "date": "2026-09-02",
           "type": "release",
           "summary": "发布 0.71.6: 新版本",
@@ -31918,7 +32122,7 @@
       "sources": [
         "https://www.nango.dev"
       ],
-      "lastReviewed": "2026-09-02",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "nango",
       "name": "Nango",
@@ -31928,7 +32132,8 @@
       "officialUrl": "https://www.nango.dev",
       "descriptionMd": "Nango 帮产品团队在自有 SaaS 内嵌「连接客户 CRM/工单等」的集成：OAuth、字段同步与可自托管管道，开源优先。\n\n你的产品要向客户提供 Salesforce/HubSpot 类双向集成，又不想把集成当成巨型内部项目时选。\n\n这与 Zapier 给最终用户搭自动化不是同一题；连接器覆盖要以目录为准。选型前请以官网能力与定价页为准。\n",
       "vendorId": "nango-inc",
-      "githubUrl": "https://github.com/NangoHQ/nango"
+      "githubUrl": "https://github.com/NangoHQ/nango",
+      "currentVersion": "1.6.11-0.71.6"
     },
     {
       "pricing": {
@@ -31991,12 +32196,20 @@
         "社区与插件生态规模小，长期维护存在风险",
         "原生 API 类型定义与系统适配常需自行补齐"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-09-07",
+          "type": "release",
+          "summary": "发布 8.0.5: @nativescript/vite@8.0.5",
+          "version": "8.0.5",
+          "source": "https://github.com/NativeScript/NativeScript/releases/tag/8.0.5-vite"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://nativescript.org"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "nativescript",
       "name": "NativeScript",
@@ -32761,6 +32974,13 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-09-09",
+          "type": "release",
+          "summary": "维护线 26 最新 26.8.2",
+          "version": "26.8.2",
+          "source": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V26.md#26.8.2"
+        },
+        {
           "date": "2026-07-08",
           "type": "release",
           "summary": "维护线 26 最新 26.5.0",
@@ -32772,7 +32992,7 @@
       "sources": [
         "https://nodejs.org"
       ],
-      "lastReviewed": "2026-07-25",
+      "lastReviewed": "2026-09-10",
       "region": "both",
       "id": "nodejs",
       "name": "Node.js",
@@ -32949,6 +33169,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-07",
+          "type": "release",
+          "summary": "发布 3.19.2: @novu/react@v3.19.2",
+          "version": "3.19.2",
+          "source": "https://github.com/novuhq/novu/releases/tag/%40novu%2Freact%40v3.19.2"
+        },
+        {
           "date": "2026-08-04",
           "type": "release",
           "summary": "发布 3.18.2: @novu/react-native@v3.18.2",
@@ -32960,7 +33187,7 @@
       "sources": [
         "https://novu.co"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "novu",
       "name": "Novu",
@@ -34216,6 +34443,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-10",
+          "type": "release",
+          "summary": "发布 2.2.59-8262: 新版本",
+          "version": "2.2.59-8262",
+          "source": "https://github.com/comet-ml/opik/releases/tag/2.2.59-8262-merge-3236"
+        },
+        {
           "date": "2026-08-28",
           "type": "release",
           "summary": "发布 2.2.45-6491: 新版本",
@@ -34248,7 +34482,7 @@
       "sources": [
         "https://github.com/comet-ml/opik"
       ],
-      "lastReviewed": "2026-08-28",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "opik",
       "name": "Opik",
@@ -34257,7 +34491,7 @@
       "oneLiner": "评测与追踪一体 · Comet 开源；可自托管",
       "officialUrl": "https://github.com/comet-ml/opik",
       "descriptionMd": "Opik 是 Comet 开源的 LLM 评测与追踪工具，既能记录线上调用轨迹，也能对数据集批量跑评测指标，支持自托管部署。\n\n希望「线上追踪」和「离线评测」共用一套数据与界面、又要能私有化部署时评估；与 Langfuse 属同层可直接横比。\n\n两头都做意味着两头都不如专精工具深；自托管版本的运维与升级成本要计入，托管版则要评估数据出境。\n",
-      "currentVersion": "2.2.45-6491"
+      "currentVersion": "2.2.59-8262"
     },
     {
       "pricing": {
@@ -35173,6 +35407,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-10",
+          "type": "release",
+          "summary": "发布 3.89.0: 新版本",
+          "version": "3.89.0",
+          "source": "https://github.com/payloadcms/payload/releases/tag/v3.89.0"
+        },
+        {
           "date": "2026-08-06",
           "type": "release",
           "summary": "发布 3.87.1: 新版本",
@@ -35184,7 +35425,7 @@
       "sources": [
         "https://payloadcms.com"
       ],
-      "lastReviewed": "2026-08-07",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "payload-cms",
       "name": "Payload CMS",
@@ -35195,7 +35436,8 @@
       "descriptionMd": "Payload 是 TypeScript 原生的开源 Headless CMS，内容模型用代码声明，后台与接口可直接跑在 Next.js 应用内部，数据落在自己的 Postgres 或 MongoDB。\n\n已用 Next.js、希望内容后台与业务代码同仓同部署、且要求数据自持时评估；与 Strapi、Directus 属同层的自托管选项。\n\n运维与升级由自己承担；模型改动走代码与迁移而非后台点选，非技术同事无法自助加字段。\n",
       "vendorId": "payload-inc",
       "githubUrl": "https://github.com/payloadcms/payload",
-      "docsUrl": "https://payloadcms.com/docs"
+      "docsUrl": "https://payloadcms.com/docs",
+      "currentVersion": "3.89.0"
     },
     {
       "pricing": {
@@ -36676,15 +36918,15 @@
       "rankings": [
         {
           "systemId": "openrouter-popularity",
-          "rank": 18,
-          "scoreLabel": "1.3%",
-          "share": 1.3,
-          "period": "2026-08",
+          "rank": 22,
+          "scoreLabel": "1.1%",
+          "share": 1.1,
+          "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-31",
-          "previousRank": 16,
+          "asOf": "2026-09-10",
+          "previousRank": 18,
           "previousShare": 1.3,
-          "previousAsOf": "2026-08-28"
+          "previousAsOf": "2026-08-31"
         }
       ],
       "sources": [
@@ -37225,6 +37467,12 @@
       ],
       "updates": [
         {
+          "date": "2026-09-09",
+          "type": "feature",
+          "summary": "Is Prisma 8 Ready for Long-Lived Production Apps?",
+          "source": "https://www.prisma.io/blog/is-prisma-8-ready-for-long-lived-production-apps"
+        },
+        {
           "date": "2026-08-04",
           "type": "release",
           "summary": "发布 0.17.0: 新版本",
@@ -37236,7 +37484,7 @@
       "sources": [
         "https://www.prisma.io"
       ],
-      "lastReviewed": "2026-08-04",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "prisma",
       "name": "Prisma",
@@ -37922,6 +38170,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-10",
+          "type": "release",
+          "summary": "发布 3.39.3: 新版本",
+          "version": "3.39.3",
+          "source": "https://github.com/quarkusio/quarkus/releases/tag/3.39.3"
+        },
+        {
           "date": "2026-09-02",
           "type": "release",
           "summary": "发布 3.39.2: 新版本",
@@ -37940,7 +38195,7 @@
       "sources": [
         "https://quarkus.io"
       ],
-      "lastReviewed": "2026-09-02",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "quarkus",
       "name": "Quarkus",
@@ -38295,15 +38550,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 41,
-          "scoreLabel": "0.3%",
-          "share": 0.3,
-          "period": "2026-08",
+          "rank": 46,
+          "scoreLabel": "0.2%",
+          "share": 0.2,
+          "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-31",
-          "previousRank": 39,
-          "previousShare": 0.4,
-          "previousAsOf": "2026-08-19"
+          "asOf": "2026-09-10",
+          "previousRank": 41,
+          "previousShare": 0.3,
+          "previousAsOf": "2026-08-31"
         },
         {
           "systemId": "lmarena-vision",
@@ -39044,6 +39299,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-09",
+          "type": "release",
+          "summary": "发布 19.3: React 19.3",
+          "version": "19.3",
+          "source": "https://react.dev/blog/2026/09/09/react-19-3"
+        },
+        {
           "date": "2026-07-21",
           "type": "release",
           "summary": "维护线 19 最新 19.2.8",
@@ -39054,7 +39316,7 @@
       "sources": [
         "https://react.dev"
       ],
-      "lastReviewed": "2026-07-25",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "react",
       "name": "React",
@@ -39099,7 +39361,8 @@
           "previousShare": 40,
           "previousAsOf": "2026-07-20"
         }
-      ]
+      ],
+      "currentVersion": "19.3"
     },
     {
       "pricing": {
@@ -39318,6 +39581,12 @@
       ],
       "updates": [
         {
+          "date": "2026-09-08",
+          "type": "feature",
+          "summary": "Delivering Real-Time Personalization with Databricks and Redis",
+          "source": "https://redis.io/blog/delivering-real-time-personalization-with-databricks-and-redis/"
+        },
+        {
           "date": "2026-08-28",
           "type": "feature",
           "summary": "Security Advisory: CVE-2026-81934",
@@ -39340,7 +39609,7 @@
       "sources": [
         "https://redis.io"
       ],
-      "lastReviewed": "2026-08-31",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "redis",
       "name": "Redis",
@@ -39602,6 +39871,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-08",
+          "type": "release",
+          "summary": "发布 0.9.0: ui v0.9.0",
+          "version": "0.9.0",
+          "source": "https://github.com/remix-run/remix/releases/tag/ui%400.9.0"
+        },
+        {
           "date": "2026-08-14",
           "type": "release",
           "summary": "发布 0.1.0: ui-hmr v0.1.0",
@@ -39612,7 +39888,7 @@
       "sources": [
         "https://remix.run"
       ],
-      "lastReviewed": "2026-08-14",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "remix",
       "name": "Remix",
@@ -39631,7 +39907,7 @@
           "previousAsOf": "2026-07-20"
         }
       ],
-      "currentVersion": "0.1.0"
+      "currentVersion": "0.9.0"
     },
     {
       "pricing": {
@@ -40548,6 +40824,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-09",
+          "type": "release",
+          "summary": "发布 1.86.1: 新版本",
+          "version": "1.86.1",
+          "source": "https://github.com/rudderlabs/rudder-server/releases/tag/v1.86.1"
+        },
+        {
           "date": "2026-08-18",
           "type": "release",
           "summary": "发布 1.83.0: 新版本",
@@ -40566,7 +40849,7 @@
       "sources": [
         "https://www.rudderstack.com"
       ],
-      "lastReviewed": "2026-08-19",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "rudderstack",
       "name": "RudderStack",
@@ -41335,6 +41618,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-09",
+          "type": "release",
+          "summary": "发布 4.49.0: Selenium 4.49.0",
+          "version": "4.49.0",
+          "source": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.49.0"
+        },
+        {
           "date": "2026-08-10",
           "type": "release",
           "summary": "发布 4.47.0: Selenium 4.47.0",
@@ -41346,7 +41636,7 @@
       "sources": [
         "https://www.selenium.dev"
       ],
-      "lastReviewed": "2026-08-10",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "selenium",
       "name": "Selenium",
@@ -41356,7 +41646,7 @@
       "officialUrl": "https://www.selenium.dev",
       "descriptionMd": "Selenium 是浏览器自动化的元老，其 WebDriver 已成为 W3C 标准，覆盖 Java、Python、C# 等多语言绑定，并通过 Grid 支持大规模分布式执行。\n\n企业里已有大量历史用例、或团队栈是 Java/C# 时继续沿用最划算；新项目从零起步可直接看更现代的驱动。\n\nAPI 偏底层，显式等待与稳定性要自行打磨；Grid 运维成本高，调试体验落后于新一代工具。\n",
       "githubUrl": "https://github.com/SeleniumHQ/selenium",
-      "currentVersion": "4.47.0"
+      "currentVersion": "4.49.0"
     },
     {
       "pricing": {
@@ -42506,12 +42796,20 @@
         "私有协议，客户端必须使用配套 SDK，与原生 WebSocket 不互通",
         "水平扩展需引入适配器与粘性会话，运维成本自担"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-09-08",
+          "type": "release",
+          "summary": "发布 0.1.1: @socket.io/cluster-engine@0.1.1",
+          "version": "0.1.1",
+          "source": "https://github.com/socketio/socket.io/releases/tag/%40socket.io%2Fcluster-engine%400.1.1"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://socket.io"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "socket-io",
       "name": "Socket.IO",
@@ -42591,15 +42889,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 24,
-          "scoreLabel": "0.8%",
-          "share": 0.8,
+          "rank": 17,
+          "scoreLabel": "1.3%",
+          "share": 1.3,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-02",
-          "previousRank": 25,
-          "previousShare": 0.7,
-          "previousAsOf": "2026-08-22"
+          "asOf": "2026-09-10",
+          "previousRank": 24,
+          "previousShare": 0.8,
+          "previousAsOf": "2026-09-02"
         }
       ],
       "sources": [
@@ -43374,6 +43672,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-09",
+          "type": "release",
+          "summary": "发布 4.1.0: stagehand-python@4.1.0: Release Stagehand packages (#2798)",
+          "version": "4.1.0",
+          "source": "https://github.com/browserbase/stagehand/releases/tag/stagehand-python%404.1.0"
+        },
+        {
           "date": "2026-08-28",
           "type": "release",
           "summary": "发布 3.7.6: stagehand/server-v3 v3.7.6",
@@ -43398,7 +43703,7 @@
       "sources": [
         "https://github.com/browserbase/stagehand"
       ],
-      "lastReviewed": "2026-08-28",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "stagehand",
       "name": "Stagehand",
@@ -43408,7 +43713,8 @@
       "officialUrl": "https://github.com/browserbase/stagehand",
       "descriptionMd": "Stagehand 由 Browserbase 开源，不另起炉灶而是包在 Playwright 外层：确定的步骤照常写代码，不确定的一步用一句自然语言描述，两种写法可在同一脚本里交替。\n\n适合已有 Playwright 资产、只想让少数易变环节由模型兜底的团队；全流程都交给模型自由发挥可看 Browser Use。\n\n自然语言步骤的结果不稳定，需要缓存动作或补断言；TypeScript 生态最完整，其他语言支持相对滞后。\n",
       "vendorId": "browserbase-inc",
-      "githubUrl": "https://github.com/browserbase/stagehand"
+      "githubUrl": "https://github.com/browserbase/stagehand",
+      "currentVersion": "4.1.0"
     },
     {
       "pricing": {
@@ -43653,15 +43959,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 37,
-          "scoreLabel": "0.4%",
-          "share": 0.4,
-          "period": "2026-08",
+          "rank": 47,
+          "scoreLabel": "0.2%",
+          "share": 0.2,
+          "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-31",
-          "previousRank": 35,
+          "asOf": "2026-09-10",
+          "previousRank": 37,
           "previousShare": 0.4,
-          "previousAsOf": "2026-08-28"
+          "previousAsOf": "2026-08-31"
         }
       ],
       "sources": [
@@ -44297,6 +44603,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-09",
+          "type": "release",
+          "summary": "发布 0.8.1: self-hosted/v0.8.1",
+          "version": "0.8.1",
+          "source": "https://github.com/supabase/supabase/releases/tag/self-hosted%2Fv0.8.1"
+        },
+        {
           "date": "2026-08-07",
           "type": "feature",
           "summary": "Supabase is now a connector on Perplexity Computer",
@@ -44318,7 +44631,7 @@
       "sources": [
         "https://supabase.com"
       ],
-      "lastReviewed": "2026-08-07",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "supabase",
       "name": "Supabase",
@@ -44511,6 +44824,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-08",
+          "type": "release",
+          "summary": "发布 3.0.0-next.8: @sveltejs/package@3.0.0-next.8",
+          "version": "3.0.0-next.8",
+          "source": "https://github.com/sveltejs/kit/releases/tag/%40sveltejs%2Fpackage%403.0.0-next.8"
+        },
+        {
           "date": "2026-08-20",
           "type": "release",
           "summary": "发布 3.0.0-next.24: @sveltejs/kit@3.0.0-next.24",
@@ -44535,7 +44855,7 @@
       "sources": [
         "https://kit.svelte.dev"
       ],
-      "lastReviewed": "2026-08-20",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "sveltekit",
       "name": "SvelteKit",
@@ -44554,7 +44874,7 @@
           "previousAsOf": "2026-07-20"
         }
       ],
-      "currentVersion": "3.0.0-next.24"
+      "currentVersion": "3.0.0-next.8"
     },
     {
       "pricing": {
@@ -45543,6 +45863,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-09",
+          "type": "release",
+          "summary": "发布 1.32.0-163.1: 新版本",
+          "version": "1.32.0-163.1",
+          "source": "https://github.com/temporalio/temporal/releases/tag/v1.32.0-163.1"
+        },
+        {
           "date": "2026-08-21",
           "type": "release",
           "summary": "发布 1.32.0-162.0: 新版本",
@@ -45561,7 +45888,7 @@
       "sources": [
         "https://temporal.io"
       ],
-      "lastReviewed": "2026-08-22",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "temporal",
       "name": "Temporal",
@@ -45572,7 +45899,7 @@
       "descriptionMd": "Temporal 以 durable execution 保证跨服务、长时间运行的工作流状态、重试与补偿语义，多语言 SDK 成熟，支持云与自托管。\n\n支付结算、多步审批、多微服务长事务，或需要严格可达性的 AI 多步编排时，它是应用侧 durable 底座的标杆。\n\n运维与概念门槛高于 Inngest/Trigger 类「几行函数」；纯短任务 cron 场景会过重。\n",
       "vendorId": "temporal-technologies",
       "githubUrl": "https://github.com/temporalio/temporal",
-      "currentVersion": "1.32.0-162.0"
+      "currentVersion": "1.32.0-163.1"
     },
     {
       "pricing": {
@@ -46706,6 +47033,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-09",
+          "type": "release",
+          "summary": "发布 3.20.225-lts: 新版本",
+          "version": "3.20.225-lts",
+          "source": "https://github.com/ToolJet/ToolJet/releases/tag/v3.20.225-lts"
+        },
+        {
           "date": "2026-09-02",
           "type": "release",
           "summary": "发布 3.20.220-lts: 新版本",
@@ -46731,7 +47065,7 @@
       "sources": [
         "https://www.tooljet.com"
       ],
-      "lastReviewed": "2026-09-02",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "tooljet",
       "name": "ToolJet",
@@ -46742,7 +47076,7 @@
       "descriptionMd": "ToolJet 面向工程与运营共建内部工具：可视化搭建、多数据源连接、简单审批流与 RBAC，社区版可自托管，商业版补协作与审计。\n\n需要比表格脚本更重、比自写完整 admin 更轻的中间层时，与 Appsmith/Retool 列入同一内部系统短名单。\n\n第三方集成与生态密度不及 Retool；超大团队对审计、SSO 与扩展的要求常把你推到企业版或自研。\n",
       "vendorId": "tooljet-inc",
       "githubUrl": "https://github.com/ToolJet/ToolJet",
-      "currentVersion": "3.20.220-lts"
+      "currentVersion": "3.20.225-lts"
     },
     {
       "pricing": {
@@ -47207,6 +47541,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-10",
+          "type": "release",
+          "summary": "发布 2.39.5: twenty/v2.39.5",
+          "version": "2.39.5",
+          "source": "https://github.com/twentyhq/twenty/releases/tag/twenty%2Fv2.39.5"
+        },
+        {
           "date": "2026-08-28",
           "type": "release",
           "summary": "发布 2.37.3: twenty/v2.37.3",
@@ -47239,7 +47580,7 @@
       "sources": [
         "https://twenty.com"
       ],
-      "lastReviewed": "2026-08-31",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "twenty",
       "name": "Twenty",
@@ -47733,12 +48074,20 @@
         "不含实验统计能力，需另配分析体系。",
         "开源版与企业版功能分层明显，容易在采购时才发现缺特性。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-09-08",
+          "type": "release",
+          "summary": "发布 8.2.0: 新版本",
+          "version": "8.2.0",
+          "source": "https://github.com/Unleash/unleash/releases/tag/v8.2.0"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://www.getunleash.io"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "unleash",
       "name": "Unleash",
@@ -47748,7 +48097,8 @@
       "officialUrl": "https://www.getunleash.io",
       "descriptionMd": "Unleash 是开源的功能开关服务，提供服务端 API、多语言 SDK 与 Edge/Proxy 组件，强调标志求值发生在自己这一侧，企业版补充权限、审计与合规相关能力。\n\n把开关当基础设施来建、要求私有化部署或数据不出网，而实验分析另有体系时优先；要开箱即用的实验读数请看 GrowthBook 或 Statsig。\n\n实验与指标能力弱，需要自己拼接分析链路；开源版与企业版功能分层明显，选型前核对所需特性落在哪一档。\n",
       "vendorId": "unleash-inc",
-      "githubUrl": "https://github.com/Unleash/unleash"
+      "githubUrl": "https://github.com/Unleash/unleash",
+      "currentVersion": "8.2.0"
     },
     {
       "pricing": {
@@ -48550,6 +48900,13 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-09-09",
+          "type": "release",
+          "summary": "发布 3.0.9: @ai-sdk/zai@3.0.9",
+          "version": "3.0.9",
+          "source": "https://github.com/vercel/ai/releases/tag/%40ai-sdk%2Fzai%403.0.9"
+        },
+        {
           "date": "2026-08-30",
           "type": "release",
           "summary": "发布 3.0.3: @ai-sdk/zai@3.0.3",
@@ -48589,7 +48946,7 @@
       "sources": [
         "https://sdk.vercel.ai"
       ],
-      "lastReviewed": "2026-08-31",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "vercel-ai-sdk",
       "name": "Vercel AI SDK",
@@ -48874,6 +49231,13 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-09-10",
+          "type": "release",
+          "summary": "发布 8.3.0: 新版本",
+          "version": "8.3.0",
+          "source": "https://github.com/vitejs/vite/releases/tag/v8.3.0"
+        },
+        {
           "date": "2026-08-20",
           "type": "release",
           "summary": "发布 8.2.2: 新版本",
@@ -48892,7 +49256,7 @@
       "sources": [
         "https://vite.dev"
       ],
-      "lastReviewed": "2026-08-20",
+      "lastReviewed": "2026-09-10",
       "region": "overseas",
       "id": "vite",
       "name": "Vite",
@@ -48900,7 +49264,8 @@
       "subcategory": "bundler",
       "oneLiner": "原生 ESM 极速 HMR · 滚动打包 · Vue/React 默认 DX",
       "descriptionMd": "Vite 基于原生 ESM 提供极速开发服务器与滚动打包，是 Vue/React 等前端的默认开发体验之一。\n\n库模式、SSR 与 Monorepo 都有成熟实践；与框架内置打包（如 Next）分工：应用框架可能封装 Vite 或自有管道。\n\n库模式与应用模式配置不同；Monorepo 下注意预构建与工作区依赖解析。\n",
-      "officialUrl": "https://vite.dev"
+      "officialUrl": "https://vite.dev",
+      "currentVersion": "8.3.0"
     },
     {
       "pricing": {

@@ -19,6 +19,13 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-09-09",
+      "type": "release",
+      "summary": "发布 3.0.9: @ai-sdk/zai@3.0.9",
+      "version": "3.0.9",
+      "source": "https://github.com/vercel/ai/releases/tag/%40ai-sdk%2Fzai%403.0.9"
+    },
+    {
       "date": "2026-08-30",
       "type": "release",
       "summary": "发布 3.0.3: @ai-sdk/zai@3.0.3",
@@ -58,7 +65,7 @@
   "sources": [
     "https://sdk.vercel.ai"
   ],
-  "lastReviewed": "2026-08-31",
+  "lastReviewed": "2026-09-10",
   "region": "overseas",
   "id": "vercel-ai-sdk",
   "name": "Vercel AI SDK",

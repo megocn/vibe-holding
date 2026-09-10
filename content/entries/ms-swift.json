@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-08",
+      "type": "release",
+      "summary": "发布 4.5.3: 新版本",
+      "version": "4.5.3",
+      "source": "https://github.com/modelscope/ms-swift/releases/tag/v4.5.3"
+    },
+    {
       "date": "2026-08-12",
       "type": "release",
       "summary": "发布 4.4.3: Patch release v4.4.3",
@@ -33,7 +40,7 @@
   "sources": [
     "https://github.com/modelscope/ms-swift"
   ],
-  "lastReviewed": "2026-08-12",
+  "lastReviewed": "2026-09-10",
   "region": "both",
   "id": "ms-swift",
   "name": "ms-swift",
