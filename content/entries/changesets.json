@@ -20,6 +20,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-04",
+      "type": "release",
+      "summary": "发布 4.0.1: @changesets/git@4.0.1",
+      "version": "4.0.1",
+      "source": "https://github.com/changesets/changesets/releases/tag/%40changesets%2Fgit%404.0.1"
+    },
+    {
       "date": "2026-08-19",
       "type": "release",
       "summary": "发布 1.0.1: @changesets/write@1.0.1",
@@ -38,7 +45,7 @@
   "sources": [
     "https://github.com/changesets/changesets"
   ],
-  "lastReviewed": "2026-08-20",
+  "lastReviewed": "2026-09-13",
   "region": "overseas",
   "id": "changesets",
   "name": "Changesets",

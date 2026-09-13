@@ -20,12 +20,20 @@
   "pitfalls": [
     "配置项繁多，参数组合错误往往到训练中段才暴露；环境依赖较重，升级时容易出现版本冲突。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-09-10",
+      "type": "release",
+      "summary": "发布 0.19.0: 新版本",
+      "version": "0.19.0",
+      "source": "https://github.com/axolotl-ai-cloud/axolotl/releases/tag/v0.19.0"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://github.com/axolotl-ai-cloud/axolotl"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-09-13",
   "region": "overseas",
   "id": "axolotl",
   "name": "Axolotl",
@@ -35,5 +43,6 @@
   "officialUrl": "https://github.com/axolotl-ai-cloud/axolotl",
   "descriptionMd": "Axolotl 用一份 YAML 描述模型、数据集、训练策略与并行方式，把 Transformers 生态的训练细节收敛成可版本化的配置，社区里长期是复现实验的常用底座。\n\n需要把多组微调实验管起来、并在多卡环境反复跑时选它；只想在单卡上快速试一版，轻量方案上手更快。\n\n配置项繁多，参数组合错误往往到训练中段才暴露；环境依赖较重，升级时容易出现版本冲突。\n",
   "vendorId": "axolotl-ai",
-  "githubUrl": "https://github.com/axolotl-ai-cloud/axolotl"
+  "githubUrl": "https://github.com/axolotl-ai-cloud/axolotl",
+  "currentVersion": "0.19.0"
 }

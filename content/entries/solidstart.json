@@ -15,12 +15,20 @@
   "pitfalls": [
     "生态与招聘远小于 React；UI 库选择面窄。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-09-10",
+      "type": "release",
+      "summary": "发布 2.0.5: @solidjs/start@2.0.5",
+      "version": "2.0.5",
+      "source": "https://github.com/solidjs/solid-start/releases/tag/%40solidjs%2Fstart%402.0.5"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://start.solidjs.com"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-09-13",
   "region": "overseas",
   "id": "solidstart",
   "name": "SolidStart",

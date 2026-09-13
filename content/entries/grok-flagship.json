@@ -23,16 +23,16 @@
   "rankings": [
     {
       "systemId": "lmarena-webdev",
-      "rank": 10,
-      "score": 1625,
-      "scoreLabel": "1625 Elo",
+      "rank": 13,
+      "score": 1618,
+      "scoreLabel": "1618 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 grok-4.6-high",
-      "asOf": "2026-09-07",
-      "previousRank": 7,
-      "previousScore": 1629,
-      "previousAsOf": "2026-09-02"
+      "asOf": "2026-09-13",
+      "previousRank": 10,
+      "previousScore": 1625,
+      "previousAsOf": "2026-09-07"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -68,23 +68,23 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 grok-4.5",
-      "asOf": "2026-09-02",
-      "previousRank": 13,
-      "previousScore": 1285,
-      "previousAsOf": "2026-08-07"
+      "asOf": "2026-09-13",
+      "previousRank": 18,
+      "previousScore": 1282,
+      "previousAsOf": "2026-09-02"
     },
     {
       "systemId": "lmarena-search",
       "rank": 8,
       "score": 1213,
       "scoreLabel": "1213 Elo",
-      "period": "2026-08",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/search",
       "note": "模型 grok-4.5",
-      "asOf": "2026-08-25",
-      "previousRank": 10,
-      "previousScore": 1205,
-      "previousAsOf": "2026-07-25"
+      "asOf": "2026-09-13",
+      "previousRank": 8,
+      "previousScore": 1213,
+      "previousAsOf": "2026-08-25"
     },
     {
       "systemId": "lmarena-document",
@@ -94,10 +94,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 grok-4.5",
-      "asOf": "2026-09-01",
-      "previousRank": 20,
+      "asOf": "2026-09-13",
+      "previousRank": 21,
       "previousScore": 1454,
-      "previousAsOf": "2026-07-31"
+      "previousAsOf": "2026-09-01"
     },
     {
       "systemId": "openrouter-popularity",

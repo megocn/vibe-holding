@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-13",
+      "type": "release",
+      "summary": "发布 9.31.9: 新版本",
+      "version": "9.31.9",
+      "source": "https://github.com/webdriverio/webdriverio/releases/tag/v9.31.9"
+    },
+    {
       "date": "2026-08-29",
       "type": "release",
       "summary": "发布 9.31.5: 新版本",
@@ -40,7 +47,7 @@
   "sources": [
     "https://webdriver.io"
   ],
-  "lastReviewed": "2026-08-31",
+  "lastReviewed": "2026-09-13",
   "region": "overseas",
   "id": "webdriverio",
   "name": "WebdriverIO",

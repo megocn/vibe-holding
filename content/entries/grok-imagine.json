@@ -24,29 +24,29 @@
   "rankings": [
     {
       "systemId": "lmarena-image",
-      "rank": 3,
-      "score": 1316,
-      "scoreLabel": "1316 Elo",
+      "rank": 5,
+      "score": 1315,
+      "scoreLabel": "1315 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 grok-imagine-image-2.0 (low)",
-      "asOf": "2026-09-01",
-      "previousRank": 2,
-      "previousScore": 1320,
-      "previousAsOf": "2026-08-09"
+      "asOf": "2026-09-13",
+      "previousRank": 3,
+      "previousScore": 1316,
+      "previousAsOf": "2026-09-01"
     },
     {
       "systemId": "lmarena-image-edit",
-      "rank": 3,
+      "rank": 4,
       "score": 1439,
       "scoreLabel": "1439 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 grok-imagine-image-2.0 (low)",
-      "asOf": "2026-09-07",
-      "previousRank": 2,
+      "asOf": "2026-09-13",
+      "previousRank": 3,
       "previousScore": 1439,
-      "previousAsOf": "2026-08-09"
+      "previousAsOf": "2026-09-07"
     },
     {
       "systemId": "aa-image-arena",
@@ -63,16 +63,16 @@
     },
     {
       "systemId": "lmarena-i2v",
-      "rank": 5,
-      "score": 1460,
-      "scoreLabel": "1460 Elo",
-      "period": "2026-08",
+      "rank": 7,
+      "score": 1456,
+      "scoreLabel": "1456 Elo",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
       "note": "模型 grok-imagine-video-1.5-720p",
-      "asOf": "2026-08-19",
-      "previousRank": 3,
-      "previousScore": 1466,
-      "previousAsOf": "2026-07-26"
+      "asOf": "2026-09-13",
+      "previousRank": 5,
+      "previousScore": 1460,
+      "previousAsOf": "2026-08-19"
     },
     {
       "systemId": "lmarena-t2v",
@@ -89,16 +89,16 @@
     },
     {
       "systemId": "lmarena-video-edit",
-      "rank": 6,
-      "score": 1262,
-      "scoreLabel": "1262 Elo",
-      "period": "2026-08",
+      "rank": 7,
+      "score": 1258,
+      "scoreLabel": "1258 Elo",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/video-edit",
       "note": "模型 grok-imagine-video",
-      "asOf": "2026-08-19",
-      "previousRank": 4,
-      "previousScore": 1264,
-      "previousAsOf": "2026-08-02"
+      "asOf": "2026-09-13",
+      "previousRank": 6,
+      "previousScore": 1262,
+      "previousAsOf": "2026-08-19"
     }
   ],
   "sources": [

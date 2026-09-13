@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-08",
+      "type": "release",
+      "summary": "发布 2.21.4: 新版本",
+      "version": "2.21.4",
+      "source": "https://github.com/ansible/ansible/releases/tag/v2.21.4"
+    },
+    {
       "date": "2026-08-03",
       "type": "feature",
       "summary": "官方动态更新",
@@ -32,7 +39,7 @@
   "sources": [
     "https://www.ansible.com"
   ],
-  "lastReviewed": "2026-08-07",
+  "lastReviewed": "2026-09-13",
   "region": "overseas",
   "id": "ansible",
   "name": "Ansible",

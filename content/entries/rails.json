@@ -17,6 +17,12 @@
   ],
   "updates": [
     {
+      "date": "2026-09-11",
+      "type": "feature",
+      "summary": "Alternative text in attachments and more",
+      "source": "https://rubyonrails.org/2026/9/11/this-week-in-rails"
+    },
+    {
       "date": "2026-08-28",
       "type": "feature",
       "summary": "This Week in Rails: August 28, 2026",
@@ -46,7 +52,7 @@
   "sources": [
     "https://rubyonrails.org"
   ],
-  "lastReviewed": "2026-08-31",
+  "lastReviewed": "2026-09-13",
   "region": "overseas",
   "id": "rails",
   "name": "Ruby on Rails",

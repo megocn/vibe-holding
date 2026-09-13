@@ -23,6 +23,12 @@
   ],
   "updates": [
     {
+      "date": "2026-09-11",
+      "type": "feature",
+      "summary": "Vercel Sandbox now provides 64 GB of storage",
+      "source": "https://vercel.com/changelog/vercel-sandbox-64-gb-storage"
+    },
+    {
       "date": "2026-08-28",
       "type": "feature",
       "summary": "Run Claude Managed Agents with Chat SDK",
@@ -63,7 +69,7 @@
   "sources": [
     "https://vercel.com"
   ],
-  "lastReviewed": "2026-08-28",
+  "lastReviewed": "2026-09-13",
   "region": "overseas",
   "id": "vercel",
   "name": "Vercel",

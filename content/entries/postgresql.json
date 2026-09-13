@@ -21,6 +21,12 @@
   ],
   "updates": [
     {
+      "date": "2026-09-11",
+      "type": "feature",
+      "summary": "CERN PGDay 2027: Announcement and CfP",
+      "source": "https://www.postgresql.org/about/news/cern-pgday-2027-announcement-and-cfp-3375/"
+    },
+    {
       "date": "2026-08-04",
       "type": "release",
       "summary": "发布 5.0.0: Announcing E-Maj 5.0.0.",
@@ -38,7 +44,7 @@
   "sources": [
     "https://www.postgresql.org"
   ],
-  "lastReviewed": "2026-08-04",
+  "lastReviewed": "2026-09-13",
   "region": "overseas",
   "id": "postgresql",
   "name": "PostgreSQL",

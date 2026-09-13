@@ -26,16 +26,16 @@
   "rankings": [
     {
       "systemId": "lmarena-text",
-      "rank": 20,
-      "score": 1482,
-      "scoreLabel": "1482 Elo",
+      "rank": 15,
+      "score": 1486,
+      "scoreLabel": "1486 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 glm-5.3-max",
-      "asOf": "2026-09-07",
-      "previousRank": 13,
-      "previousScore": 1487,
-      "previousAsOf": "2026-08-25"
+      "asOf": "2026-09-13",
+      "previousRank": 20,
+      "previousScore": 1482,
+      "previousAsOf": "2026-09-07"
     },
     {
       "systemId": "lmarena-agent",
@@ -52,16 +52,16 @@
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 14,
-      "score": 1609,
-      "scoreLabel": "1609 Elo",
+      "rank": 15,
+      "score": 1614,
+      "scoreLabel": "1614 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 glm-5.3-max",
-      "asOf": "2026-09-07",
-      "previousRank": 12,
+      "asOf": "2026-09-13",
+      "previousRank": 14,
       "previousScore": 1609,
-      "previousAsOf": "2026-09-02"
+      "previousAsOf": "2026-09-07"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -96,10 +96,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 glm-5v-turbo",
-      "asOf": "2026-09-01",
-      "previousRank": 32,
+      "asOf": "2026-09-13",
+      "previousRank": 33,
       "previousScore": 1417,
-      "previousAsOf": "2026-07-31"
+      "previousAsOf": "2026-09-01"
     }
   ],
   "sources": [

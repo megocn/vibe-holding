@@ -44,10 +44,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 gemma-4-31b",
-      "asOf": "2026-09-01",
-      "previousRank": 29,
+      "asOf": "2026-09-13",
+      "previousRank": 30,
       "previousScore": 1424,
-      "previousAsOf": "2026-07-31"
+      "previousAsOf": "2026-09-01"
     },
     {
       "systemId": "lmarena-text",
@@ -75,15 +75,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 40,
+      "rank": 41,
       "scoreLabel": "0.3%",
       "share": 0.3,
       "period": "2026-09",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-09-10",
-      "previousRank": 39,
+      "asOf": "2026-09-13",
+      "previousRank": 40,
       "previousShare": 0.3,
-      "previousAsOf": "2026-08-28"
+      "previousAsOf": "2026-09-10"
     }
   ],
   "sources": [

@@ -49,10 +49,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 claude-haiku-4-5-20251001",
-      "asOf": "2026-09-01",
-      "previousRank": 30,
+      "asOf": "2026-09-13",
+      "previousRank": 31,
       "previousScore": 1423,
-      "previousAsOf": "2026-07-31"
+      "previousAsOf": "2026-09-01"
     },
     {
       "systemId": "openrouter-popularity",

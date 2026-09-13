@@ -20,13 +20,21 @@
   "pitfalls": [
     "每步都要喂截图与 DOM，token 成本高且延迟明显；长链路成功率不稳定，生产任务需自建重试与人工兜底。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-09-04",
+      "type": "release",
+      "summary": "发布 0.13.10: 新版本",
+      "version": "0.13.10",
+      "source": "https://github.com/browser-use/browser-use/releases/tag/0.13.10"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://browser-use.com",
     "https://github.com/browser-use/browser-use"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-09-13",
   "region": "overseas",
   "id": "browser-use",
   "name": "Browser Use",

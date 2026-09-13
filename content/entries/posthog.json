@@ -20,6 +20,12 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-09-09",
+      "type": "feature",
+      "summary": "From 1 to 100 IRL events in a year: The secret to getting engineers to demo",
+      "source": "https://posthog.com/blog/irl-events"
+    },
+    {
       "date": "2026-08-13",
       "type": "feature",
       "summary": "I bribe customers to talk to me",
@@ -36,7 +42,7 @@
   "sources": [
     "https://posthog.com"
   ],
-  "lastReviewed": "2026-08-13",
+  "lastReviewed": "2026-09-13",
   "region": "overseas",
   "id": "posthog",
   "name": "PostHog",

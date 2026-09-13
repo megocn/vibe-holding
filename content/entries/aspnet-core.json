@@ -21,12 +21,20 @@
     ".NET 大版本节奏快，LTS 与非 LTS 混用增加升级压力",
     "国内云与中间件官方 SDK 覆盖弱于 Java"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-09-08",
+      "type": "release",
+      "summary": "发布 8.0.31: .NET 8.0.31",
+      "version": "8.0.31",
+      "source": "https://github.com/dotnet/aspnetcore/releases/tag/v8.0.31"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://dotnet.microsoft.com"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-09-13",
   "region": "overseas",
   "id": "aspnet-core",
   "name": "ASP.NET Core",

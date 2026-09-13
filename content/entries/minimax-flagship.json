@@ -36,15 +36,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 9,
-      "scoreLabel": "3%",
-      "share": 3,
+      "rank": 17,
+      "scoreLabel": "1.3%",
+      "share": 1.3,
       "period": "2026-09",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-09-10",
-      "previousRank": 12,
-      "previousShare": 2.4,
-      "previousAsOf": "2026-08-31"
+      "asOf": "2026-09-13",
+      "previousRank": 9,
+      "previousShare": 3,
+      "previousAsOf": "2026-09-10"
     },
     {
       "systemId": "lmarena-vision",
@@ -67,10 +67,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 minimax-m3",
-      "asOf": "2026-09-01",
-      "previousRank": 26,
+      "asOf": "2026-09-13",
+      "previousRank": 27,
       "previousScore": 1435,
-      "previousAsOf": "2026-07-31"
+      "previousAsOf": "2026-09-01"
     },
     {
       "systemId": "lmarena-webdev",
@@ -119,10 +119,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/video-edit",
       "note": "模型 minimax-h3",
-      "asOf": "2026-09-02",
-      "previousRank": 1,
-      "previousScore": 1390,
-      "previousAsOf": "2026-08-17"
+      "asOf": "2026-09-13",
+      "previousRank": 3,
+      "previousScore": 1392,
+      "previousAsOf": "2026-09-02"
     }
   ],
   "sources": [

@@ -43,16 +43,16 @@
     },
     {
       "systemId": "lmarena-text",
-      "rank": 8,
-      "score": 1494,
-      "scoreLabel": "1494 Elo",
+      "rank": 10,
+      "score": 1493,
+      "scoreLabel": "1493 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 gemini-3.8-flash-high",
-      "asOf": "2026-09-07",
-      "previousRank": 9,
-      "previousScore": 1490,
-      "previousAsOf": "2026-08-17"
+      "asOf": "2026-09-13",
+      "previousRank": 8,
+      "previousScore": 1494,
+      "previousAsOf": "2026-09-07"
     },
     {
       "systemId": "lmarena-vision",
@@ -62,49 +62,49 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 gemini-3.6-flash-high",
-      "asOf": "2026-09-02",
-      "previousRank": 11,
-      "previousScore": 1286,
-      "previousAsOf": "2026-08-25"
+      "asOf": "2026-09-13",
+      "previousRank": 13,
+      "previousScore": 1285,
+      "previousAsOf": "2026-09-02"
     },
     {
       "systemId": "lmarena-search",
       "rank": 15,
       "score": 1198,
       "scoreLabel": "1198 Elo",
-      "period": "2026-08",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/search",
       "note": "模型 gemini-3-flash-grounding",
-      "asOf": "2026-08-25",
-      "previousRank": 13,
-      "previousScore": 1197,
-      "previousAsOf": "2026-07-26"
+      "asOf": "2026-09-13",
+      "previousRank": 15,
+      "previousScore": 1198,
+      "previousAsOf": "2026-08-25"
     },
     {
       "systemId": "lmarena-image",
-      "rank": 7,
-      "score": 1264,
-      "scoreLabel": "1264 Elo",
-      "period": "2026-08",
+      "rank": 9,
+      "score": 1261,
+      "scoreLabel": "1261 Elo",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 gemini-3.1-flash-image (nano-banana-2) [web-search]",
-      "asOf": "2026-08-12",
-      "previousRank": 5,
-      "previousScore": 1261,
-      "previousAsOf": "2026-07-26"
+      "asOf": "2026-09-13",
+      "previousRank": 7,
+      "previousScore": 1264,
+      "previousAsOf": "2026-08-12"
     },
     {
       "systemId": "lmarena-image-edit",
-      "rank": 10,
+      "rank": 12,
       "score": 1387,
       "scoreLabel": "1387 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 gemini-3.1-flash-image (nano-banana-2) [web-search]",
-      "asOf": "2026-09-01",
-      "previousRank": 9,
-      "previousScore": 1385,
-      "previousAsOf": "2026-07-26"
+      "asOf": "2026-09-13",
+      "previousRank": 10,
+      "previousScore": 1387,
+      "previousAsOf": "2026-09-01"
     },
     {
       "systemId": "openrouter-popularity",
@@ -123,26 +123,26 @@
       "rank": 17,
       "score": 1465,
       "scoreLabel": "1465 Elo",
-      "period": "2026-07",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/document",
-      "note": "模型 gemini-3.5-flash-medium",
-      "asOf": "2026-07-31",
+      "note": "模型 gemini-3.5-flash-high",
+      "asOf": "2026-09-13",
       "previousRank": 17,
       "previousScore": 1465,
       "previousAsOf": "2026-07-31"
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 17,
+      "rank": 20,
       "score": 1587,
       "scoreLabel": "1587 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 gemini-3.7-flash-high",
-      "asOf": "2026-09-07",
-      "previousRank": 15,
+      "asOf": "2026-09-13",
+      "previousRank": 17,
       "previousScore": 1587,
-      "previousAsOf": "2026-09-02"
+      "previousAsOf": "2026-09-07"
     },
     {
       "systemId": "lmarena-t2v",
@@ -152,7 +152,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 gemini-omni-1.1-flash",
-      "asOf": "2026-09-02"
+      "asOf": "2026-09-13",
+      "previousRank": 1,
+      "previousScore": 1515,
+      "previousAsOf": "2026-09-02"
     },
     {
       "systemId": "lmarena-i2v",
@@ -162,7 +165,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
       "note": "模型 gemini-omni-1.1-flash",
-      "asOf": "2026-09-02"
+      "asOf": "2026-09-13",
+      "previousRank": 2,
+      "previousScore": 1488,
+      "previousAsOf": "2026-09-02"
     }
   ],
   "sources": [

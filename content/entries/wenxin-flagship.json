@@ -42,10 +42,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/search",
       "note": "模型 ernie-5.1",
-      "asOf": "2026-09-01",
-      "previousRank": 5,
-      "previousScore": 1226,
-      "previousAsOf": "2026-08-02"
+      "asOf": "2026-09-13",
+      "previousRank": 6,
+      "previousScore": 1227,
+      "previousAsOf": "2026-09-01"
     }
   ],
   "sources": [

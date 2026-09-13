@@ -24,6 +24,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-13",
+      "type": "release",
+      "summary": "发布 6.9.5: 新版本",
+      "version": "6.9.5",
+      "source": "https://github.com/centrifugal/centrifugo/releases/tag/v6.9.5"
+    },
+    {
       "date": "2026-08-18",
       "type": "release",
       "summary": "发布 6.9.2: 新版本",
@@ -35,7 +42,7 @@
   "sources": [
     "https://centrifugal.dev"
   ],
-  "lastReviewed": "2026-08-19",
+  "lastReviewed": "2026-09-13",
   "region": "overseas",
   "id": "centrifugo",
   "name": "Centrifugo",

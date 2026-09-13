@@ -25,6 +25,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-11",
+      "type": "release",
+      "summary": "发布 0.87.2: chore: renumber the release to 0.87.2",
+      "version": "0.87.2",
+      "source": "https://github.com/activepieces/activepieces/releases/tag/0.87.2"
+    },
+    {
       "date": "2026-09-02",
       "type": "release",
       "summary": "发布 0.87.1-hotfix.4: fix(worker): close the health server when the socket disconnects",
@@ -57,7 +64,7 @@
   "sources": [
     "https://www.activepieces.com"
   ],
-  "lastReviewed": "2026-09-02",
+  "lastReviewed": "2026-09-13",
   "region": "overseas",
   "id": "activepieces",
   "name": "Activepieces",

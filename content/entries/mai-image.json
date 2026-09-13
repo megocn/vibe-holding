@@ -38,29 +38,29 @@
   "rankings": [
     {
       "systemId": "lmarena-image",
-      "rank": 2,
-      "score": 1336,
-      "scoreLabel": "1336 Elo",
-      "period": "2026-08",
+      "rank": 4,
+      "score": 1331,
+      "scoreLabel": "1331 Elo",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
-      "note": "模型 mai-image-2.6-preview",
-      "asOf": "2026-08-12",
-      "previousRank": 8,
-      "previousScore": 1255,
-      "previousAsOf": "2026-08-06"
+      "note": "模型 mai-image-2.6",
+      "asOf": "2026-09-13",
+      "previousRank": 2,
+      "previousScore": 1336,
+      "previousAsOf": "2026-08-12"
     },
     {
       "systemId": "lmarena-image-edit",
-      "rank": 2,
-      "score": 1439,
-      "scoreLabel": "1439 Elo",
+      "rank": 5,
+      "score": 1434,
+      "scoreLabel": "1434 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 mai-image-2.6",
-      "asOf": "2026-09-07",
-      "previousRank": 3,
-      "previousScore": 1420,
-      "previousAsOf": "2026-08-20"
+      "asOf": "2026-09-13",
+      "previousRank": 2,
+      "previousScore": 1439,
+      "previousAsOf": "2026-09-07"
     },
     {
       "systemId": "aa-image-arena",

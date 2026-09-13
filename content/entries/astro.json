@@ -17,6 +17,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-08",
+      "type": "release",
+      "summary": "发布 8.0.1: @astrojs/mdx@8.0.1",
+      "version": "8.0.1",
+      "source": "https://github.com/withastro/astro/releases/tag/%40astrojs%2Fmdx%408.0.1"
+    },
+    {
       "date": "2026-08-27",
       "type": "release",
       "summary": "发布 7.2.9: astro@7.2.9",
@@ -42,7 +49,7 @@
   "sources": [
     "https://astro.build"
   ],
-  "lastReviewed": "2026-08-28",
+  "lastReviewed": "2026-09-13",
   "region": "overseas",
   "id": "astro",
   "name": "Astro",

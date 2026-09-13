@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-12",
+      "type": "release",
+      "summary": "发布 5.33.0: xstate@5.33.0",
+      "version": "5.33.0",
+      "source": "https://github.com/statelyai/xstate/releases/tag/xstate%405.33.0"
+    },
+    {
       "date": "2026-08-10",
       "type": "release",
       "summary": "发布 4.2.3: @xstate/store@4.2.3",
@@ -33,7 +40,7 @@
   "sources": [
     "https://xstate.js.org"
   ],
-  "lastReviewed": "2026-08-11",
+  "lastReviewed": "2026-09-13",
   "region": "overseas",
   "id": "xstate",
   "name": "XState",
@@ -43,5 +50,6 @@
   "officialUrl": "https://xstate.js.org",
   "descriptionMd": "XState 用有限状态机与状态图描述状态和转移：合法路径写进机器定义，非法转移在结构上不可达；机器可视化查看，核心与框架无关，另有 React、Vue 等绑定。\n\n多步表单、审批流、播放器、连接管理等「状态爆炸」场景，用它替代层层布尔标志位最划算。\n\n状态机概念有学习成本，简单开关状态用它属于杀鸡用牛刀；建模不当会把复杂度从组件搬进机器定义。\n",
   "vendorId": "stately",
-  "githubUrl": "https://github.com/statelyai/xstate"
+  "githubUrl": "https://github.com/statelyai/xstate",
+  "currentVersion": "5.33.0"
 }

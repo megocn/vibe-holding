@@ -51,26 +51,26 @@
   "rankings": [
     {
       "systemId": "lmarena-text",
-      "rank": 12,
-      "score": 1489,
-      "scoreLabel": "1489 Elo",
+      "rank": 17,
+      "score": 1485,
+      "scoreLabel": "1485 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 kimi-k3-max",
-      "asOf": "2026-09-07",
-      "previousRank": 10,
-      "previousScore": 1490,
-      "previousAsOf": "2026-08-20"
+      "asOf": "2026-09-13",
+      "previousRank": 12,
+      "previousScore": 1489,
+      "previousAsOf": "2026-09-07"
     },
     {
       "systemId": "lmarena-agent",
-      "rank": 7,
+      "rank": 8,
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/agent",
       "note": "模型 Kimi K3 (Max)",
-      "asOf": "2026-09-07",
-      "previousRank": 6,
-      "previousAsOf": "2026-08-25"
+      "asOf": "2026-09-13",
+      "previousRank": 7,
+      "previousAsOf": "2026-09-07"
     },
     {
       "systemId": "lmarena-webdev",
@@ -100,15 +100,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 13,
-      "scoreLabel": "1.6%",
-      "share": 1.6,
+      "rank": 16,
+      "scoreLabel": "1.3%",
+      "share": 1.3,
       "period": "2026-09",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-09-10",
-      "previousRank": 14,
-      "previousShare": 1.7,
-      "previousAsOf": "2026-09-02"
+      "asOf": "2026-09-13",
+      "previousRank": 13,
+      "previousShare": 1.6,
+      "previousAsOf": "2026-09-10"
     },
     {
       "systemId": "lmarena-vision",
@@ -131,10 +131,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 kimi-k2.6",
-      "asOf": "2026-09-01",
-      "previousRank": 21,
+      "asOf": "2026-09-13",
+      "previousRank": 22,
       "previousScore": 1451,
-      "previousAsOf": "2026-07-31"
+      "previousAsOf": "2026-09-01"
     }
   ],
   "sources": [

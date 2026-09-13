@@ -24,6 +24,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-06",
+      "type": "release",
+      "summary": "发布 0.9.15: typescript-v0.9.15",
+      "version": "0.9.15",
+      "source": "https://github.com/confident-ai/deepeval/releases/tag/typescript-v0.9.15"
+    },
+    {
       "date": "2026-08-21",
       "type": "release",
       "summary": "发布 0.9.12: typescript-v0.9.12",
@@ -42,7 +49,7 @@
   "sources": [
     "https://github.com/confident-ai/deepeval"
   ],
-  "lastReviewed": "2026-08-22",
+  "lastReviewed": "2026-09-13",
   "region": "overseas",
   "id": "deepeval",
   "name": "DeepEval",

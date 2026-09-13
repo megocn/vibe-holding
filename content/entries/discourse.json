@@ -25,6 +25,12 @@
   ],
   "updates": [
     {
+      "date": "2026-09-11",
+      "type": "feature",
+      "summary": "stable",
+      "source": "https://github.com/discourse/discourse/releases/tag/stable"
+    },
+    {
       "date": "2026-08-28",
       "type": "feature",
       "summary": "release",
@@ -53,7 +59,7 @@
   "sources": [
     "https://www.discourse.org"
   ],
-  "lastReviewed": "2026-08-28",
+  "lastReviewed": "2026-09-13",
   "region": "overseas",
   "id": "discourse",
   "name": "Discourse",

@@ -75,26 +75,26 @@
   "rankings": [
     {
       "systemId": "lmarena-text",
-      "period": "2026-07",
-      "note": "claude-opus-4-6-thinking（Arena 尚未全面换 Opus 5；同族历史最高可见档）",
-      "sourceUrl": "https://arena.ai/leaderboard/text",
-      "asOf": "2026-07-24",
       "rank": 2,
       "score": 1505,
       "scoreLabel": "1505 Elo",
+      "period": "2026-09",
+      "sourceUrl": "https://arena.ai/leaderboard/text",
+      "note": "模型 claude-opus-4-6-high",
+      "asOf": "2026-09-13",
       "previousRank": 2,
       "previousScore": 1505,
       "previousAsOf": "2026-07-24"
     },
     {
       "systemId": "lmarena-agent",
-      "rank": 2,
+      "rank": 3,
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/agent",
       "note": "模型 Claude Opus 5 (High)",
-      "asOf": "2026-09-07",
-      "previousRank": 1,
-      "previousAsOf": "2026-09-01"
+      "asOf": "2026-09-13",
+      "previousRank": 2,
+      "previousAsOf": "2026-09-07"
     },
     {
       "systemId": "lmarena-webdev",
@@ -104,10 +104,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 claude-opus-5-max",
-      "asOf": "2026-09-02",
-      "previousRank": 1,
-      "previousScore": 1686,
-      "previousAsOf": "2026-08-07"
+      "asOf": "2026-09-13",
+      "previousRank": 3,
+      "previousScore": 1687,
+      "previousAsOf": "2026-09-02"
     },
     {
       "systemId": "lmarena-vision",
@@ -143,10 +143,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/search",
       "note": "模型 claude-opus-4-6-search",
-      "asOf": "2026-09-01",
-      "previousRank": 1,
+      "asOf": "2026-09-13",
+      "previousRank": 2,
       "previousScore": 1253,
-      "previousAsOf": "2026-07-24"
+      "previousAsOf": "2026-09-01"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -163,15 +163,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 15,
-      "scoreLabel": "1.6%",
-      "share": 1.6,
+      "rank": 18,
+      "scoreLabel": "1.2%",
+      "share": 1.2,
       "period": "2026-09",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-09-10",
-      "previousRank": 17,
-      "previousShare": 1.4,
-      "previousAsOf": "2026-08-31"
+      "asOf": "2026-09-13",
+      "previousRank": 15,
+      "previousShare": 1.6,
+      "previousAsOf": "2026-09-10"
     },
     {
       "systemId": "swe-bench-pro",

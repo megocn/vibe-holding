@@ -20,12 +20,20 @@
   "pitfalls": [
     "开箱能力少，需要自行搭断言与覆盖率；ESM 与 TypeScript 配置比现代运行器繁琐，新项目起步成本偏高。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-09-11",
+      "type": "release",
+      "summary": "发布 12.0.1: 新版本",
+      "version": "12.0.1",
+      "source": "https://github.com/mochajs/mocha/releases/tag/v12.0.1"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://mochajs.org"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-09-13",
   "region": "overseas",
   "id": "mocha",
   "name": "Mocha",
