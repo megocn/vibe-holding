@@ -75,23 +75,23 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 flux-3-video",
-      "asOf": "2026-09-07",
-      "previousRank": 3,
-      "previousScore": 1495,
-      "previousAsOf": "2026-09-01"
+      "asOf": "2026-09-19",
+      "previousRank": 4,
+      "previousScore": 1494,
+      "previousAsOf": "2026-09-07"
     },
     {
       "systemId": "lmarena-i2v",
-      "rank": 8,
-      "score": 1449,
-      "scoreLabel": "1449 Elo",
+      "rank": 9,
+      "score": 1450,
+      "scoreLabel": "1450 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
       "note": "模型 flux-3-video-20260811",
-      "asOf": "2026-09-13",
-      "previousRank": 7,
-      "previousScore": 1447,
-      "previousAsOf": "2026-09-02"
+      "asOf": "2026-09-19",
+      "previousRank": 8,
+      "previousScore": 1449,
+      "previousAsOf": "2026-09-13"
     }
   ],
   "sources": [

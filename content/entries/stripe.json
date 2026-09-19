@@ -22,6 +22,12 @@
   ],
   "updates": [
     {
+      "date": "2026-09-18",
+      "type": "feature",
+      "summary": "Analyzing rising fraud attempts among travel and leisure businesses on Stripe",
+      "source": "https://stripe.com/blog/analyzing-rising-fraud-attempts-among-travel-and-leisure-businesses-on-stripe"
+    },
+    {
       "date": "2026-07-05",
       "type": "policy",
       "summary": "部分地区 KYC 更新",
@@ -31,7 +37,7 @@
   "sources": [
     "https://stripe.com"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-09-19",
   "region": "overseas",
   "id": "stripe",
   "name": "Stripe",

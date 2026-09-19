@@ -91,28 +91,28 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 39,
-      "scoreLabel": "0.3%",
-      "share": 0.3,
+      "rank": 38,
+      "scoreLabel": "0.4%",
+      "share": 0.4,
       "period": "2026-09",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-09-13",
-      "previousRank": 46,
-      "previousShare": 0.2,
-      "previousAsOf": "2026-09-10"
+      "asOf": "2026-09-19",
+      "previousRank": 39,
+      "previousShare": 0.3,
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "lmarena-vision",
-      "rank": 3,
-      "score": 1300,
-      "scoreLabel": "1300 Elo",
+      "rank": 2,
+      "score": 1302,
+      "scoreLabel": "1302 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 qwen3.8-max",
-      "asOf": "2026-09-13",
+      "asOf": "2026-09-19",
       "previousRank": 3,
       "previousScore": 1300,
-      "previousAsOf": "2026-09-01"
+      "previousAsOf": "2026-09-13"
     }
   ],
   "sources": [

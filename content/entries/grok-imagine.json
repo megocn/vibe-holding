@@ -82,10 +82,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 grok-imagine-video-1.5-agent",
-      "asOf": "2026-09-07",
-      "previousRank": 16,
-      "previousScore": 1344,
-      "previousAsOf": "2026-09-02"
+      "asOf": "2026-09-19",
+      "previousRank": 5,
+      "previousScore": 1491,
+      "previousAsOf": "2026-09-07"
     },
     {
       "systemId": "lmarena-video-edit",

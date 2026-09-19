@@ -20,6 +20,12 @@
   ],
   "updates": [
     {
+      "date": "2026-09-17",
+      "type": "feature",
+      "summary": "Be alert: targeted attacks on prominent Rustaceans",
+      "source": "https://blog.rust-lang.org/2026/09/17/targeted-attacks/"
+    },
+    {
       "date": "2026-08-20",
       "type": "feature",
       "summary": "Supply chain attack on arrayref",
@@ -37,7 +43,7 @@
   "sources": [
     "https://www.rust-lang.org"
   ],
-  "lastReviewed": "2026-08-20",
+  "lastReviewed": "2026-09-19",
   "region": "both",
   "id": "rust",
   "name": "Rust",

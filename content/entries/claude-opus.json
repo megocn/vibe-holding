@@ -111,13 +111,13 @@
     },
     {
       "systemId": "lmarena-vision",
-      "period": "2026-07",
-      "note": "claude-opus-4-7-thinking（待 Opus 5 上榜）",
+      "rank": 3,
+      "score": 1301,
+      "scoreLabel": "1301 Elo",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
-      "asOf": "2026-07-24",
-      "rank": 2,
-      "score": 1306,
-      "scoreLabel": "1306 Elo",
+      "note": "模型 claude-opus-4-7-high",
+      "asOf": "2026-09-19",
       "previousRank": 2,
       "previousScore": 1306,
       "previousAsOf": "2026-07-24"
@@ -163,15 +163,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 18,
-      "scoreLabel": "1.2%",
-      "share": 1.2,
+      "rank": 22,
+      "scoreLabel": "0.9%",
+      "share": 0.9,
       "period": "2026-09",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-09-13",
-      "previousRank": 15,
-      "previousShare": 1.6,
-      "previousAsOf": "2026-09-10"
+      "asOf": "2026-09-19",
+      "previousRank": 18,
+      "previousShare": 1.2,
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "swe-bench-pro",

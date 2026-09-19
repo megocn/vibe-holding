@@ -18,6 +18,12 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-09-17",
+      "type": "feature",
+      "summary": "Ubuntu 26 generally available and latest migration",
+      "source": "https://github.blog/changelog/2026-09-17-ubuntu-26-generally-available-and-latest-migration"
+    },
+    {
       "date": "2026-09-10",
       "type": "feature",
       "summary": "Xcode 27 runner image now runs on macOS 27",
@@ -28,7 +34,7 @@
   "sources": [
     "https://github.com/features/actions"
   ],
-  "lastReviewed": "2026-09-10",
+  "lastReviewed": "2026-09-19",
   "region": "overseas",
   "id": "github-actions",
   "name": "GitHub Actions",

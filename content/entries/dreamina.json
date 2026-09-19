@@ -39,10 +39,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 dreamina-seedance-2.5-720p",
-      "asOf": "2026-09-07",
-      "previousRank": 4,
-      "previousScore": 1479,
-      "previousAsOf": "2026-09-02"
+      "asOf": "2026-09-19",
+      "previousRank": 6,
+      "previousScore": 1482,
+      "previousAsOf": "2026-09-07"
     },
     {
       "systemId": "lmarena-i2v",

@@ -25,6 +25,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-17",
+      "type": "release",
+      "summary": "发布 2.41.0: twenty/v2.41.0",
+      "version": "2.41.0",
+      "source": "https://github.com/twentyhq/twenty/releases/tag/twenty%2Fv2.41.0"
+    },
+    {
       "date": "2026-09-10",
       "type": "release",
       "summary": "发布 2.39.5: twenty/v2.39.5",
@@ -64,7 +71,7 @@
   "sources": [
     "https://twenty.com"
   ],
-  "lastReviewed": "2026-09-10",
+  "lastReviewed": "2026-09-19",
   "region": "overseas",
   "id": "twenty",
   "name": "Twenty",
@@ -75,5 +82,5 @@
   "descriptionMd": "Twenty 是开源的现代 CRM：React + GraphQL，支持云托管与自托管，界面与数据模型朝现代 B2B 工作台演进，适合要数据驻留或可二次开发的团队。\n\n必须自托管/开源、或要在 CRM 上二次开发、且能承受运维时评估；要开箱营销套件仍是 HubSpot，要托管 AI 灵活对象可先 Attio。\n\n生态集成与 polish 仍追商业 SaaS；生产自托管要管权限、备份与升级。\n",
   "vendorId": "twenty-inc",
   "githubUrl": "https://github.com/twentyhq/twenty",
-  "currentVersion": "2.33.0"
+  "currentVersion": "2.41.0"
 }

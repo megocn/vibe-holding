@@ -18,6 +18,12 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-09-16",
+      "type": "feature",
+      "summary": "Size-Specialized Memory Allocation",
+      "source": "https://go.dev/blog/size-specialized-allocations"
+    },
+    {
       "date": "2026-08-13",
       "type": "release",
       "summary": "维护线 1.26 最新 1.26.6",
@@ -36,7 +42,7 @@
   "sources": [
     "https://go.dev"
   ],
-  "lastReviewed": "2026-08-14",
+  "lastReviewed": "2026-09-19",
   "region": "both",
   "id": "go",
   "name": "Go",

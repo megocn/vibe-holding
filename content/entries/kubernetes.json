@@ -20,6 +20,12 @@
   ],
   "updates": [
     {
+      "date": "2026-09-16",
+      "type": "feature",
+      "summary": "Kubernetes v1.37: Hardening Container Storage with Bind Mount Options and EmptyDir Permissions",
+      "source": "https://kubernetes.io/blog/2026/09/16/kubernetes-v1-37-hardening-container-storage/"
+    },
+    {
       "date": "2026-09-09",
       "type": "feature",
       "summary": "Kubernetes v1.37: Introducing Node Lifecycle Conditions",
@@ -44,7 +50,7 @@
   "sources": [
     "https://kubernetes.io"
   ],
-  "lastReviewed": "2026-09-10",
+  "lastReviewed": "2026-09-19",
   "region": "overseas",
   "id": "kubernetes",
   "name": "Kubernetes",

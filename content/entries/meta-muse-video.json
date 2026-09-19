@@ -47,10 +47,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 muse-video",
-      "asOf": "2026-09-07",
-      "previousRank": 7,
-      "previousScore": 1457,
-      "previousAsOf": "2026-09-02"
+      "asOf": "2026-09-19",
+      "previousRank": 9,
+      "previousScore": 1456,
+      "previousAsOf": "2026-09-07"
     }
   ],
   "sources": [

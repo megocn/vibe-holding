@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-17",
+      "type": "release",
+      "summary": "发布 1.13.0-rc1: 新版本",
+      "version": "1.13.0-rc1",
+      "source": "https://github.com/opentofu/opentofu/releases/tag/v1.13.0-rc1"
+    },
+    {
       "date": "2026-07-21",
       "type": "release",
       "summary": "发布 1.12.5: 新版本",
@@ -33,7 +40,7 @@
   "sources": [
     "https://opentofu.org"
   ],
-  "lastReviewed": "2026-08-06",
+  "lastReviewed": "2026-09-19",
   "region": "overseas",
   "id": "opentofu",
   "name": "OpenTofu",
@@ -43,5 +50,6 @@
   "officialUrl": "https://opentofu.org",
   "descriptionMd": "OpenTofu 是 Terraform 的开源分叉，兼容 HCL 与大量现有模块，社区治理在 Linux 基金会下，规避 BUSL 许可顾虑。\n\n团队已有 Terraform 模块资产、需要明确开源许可与供应商中立时，与 Terraform 同轴对比。\n\n云厂商最新资源 provider 节奏可能滞后商业 Terraform；企业协作功能要对齐。\n",
   "vendorId": "opentofu-linux-foundation",
-  "githubUrl": "https://github.com/opentofu/opentofu"
+  "githubUrl": "https://github.com/opentofu/opentofu",
+  "currentVersion": "1.13.0-rc1"
 }

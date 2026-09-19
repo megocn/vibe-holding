@@ -38,16 +38,16 @@
     },
     {
       "systemId": "lmarena-document",
-      "rank": 30,
-      "score": 1424,
-      "scoreLabel": "1424 Elo",
+      "rank": 35,
+      "score": 1425,
+      "scoreLabel": "1425 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 gemma-4-31b",
-      "asOf": "2026-09-13",
+      "asOf": "2026-09-19",
       "previousRank": 30,
       "previousScore": 1424,
-      "previousAsOf": "2026-09-01"
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "lmarena-text",
@@ -75,15 +75,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 41,
+      "rank": 44,
       "scoreLabel": "0.3%",
       "share": 0.3,
       "period": "2026-09",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-09-13",
-      "previousRank": 40,
+      "asOf": "2026-09-19",
+      "previousRank": 41,
       "previousShare": 0.3,
-      "previousAsOf": "2026-09-10"
+      "previousAsOf": "2026-09-13"
     }
   ],
   "sources": [

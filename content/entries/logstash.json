@@ -22,12 +22,20 @@
     "JVM 内存与启动开销高于 C/Rust 系采集器",
     "版本与授权跟随 Elastic 主线，跨大版本升级需连同下游验证"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-09-15",
+      "type": "release",
+      "summary": "发布 9.5.4: Logstash 9.5.4",
+      "version": "9.5.4",
+      "source": "https://github.com/elastic/logstash/releases/tag/v9.5.4"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://www.elastic.co/logstash"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-09-19",
   "region": "overseas",
   "id": "logstash",
   "name": "Logstash",

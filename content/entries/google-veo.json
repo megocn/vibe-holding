@@ -30,23 +30,23 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 veo-3.1-audio",
-      "asOf": "2026-09-07",
-      "previousRank": 9,
+      "asOf": "2026-09-19",
+      "previousRank": 12,
       "previousScore": 1364,
-      "previousAsOf": "2026-08-19"
+      "previousAsOf": "2026-09-07"
     },
     {
       "systemId": "lmarena-i2v",
-      "rank": 12,
+      "rank": 13,
       "score": 1398,
       "scoreLabel": "1398 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
       "note": "模型 veo-3.1-audio",
-      "asOf": "2026-09-13",
-      "previousRank": 11,
+      "asOf": "2026-09-19",
+      "previousRank": 12,
       "previousScore": 1398,
-      "previousAsOf": "2026-09-02"
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "aa-video-arena",

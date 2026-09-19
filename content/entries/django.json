@@ -17,6 +17,12 @@
   ],
   "updates": [
     {
+      "date": "2026-09-18",
+      "type": "feature",
+      "summary": "Proposed change to DSF voting membership",
+      "source": "https://www.djangoproject.com/weblog/2026/sep/18/proposed-change-to-dsf-voting-membership/"
+    },
+    {
       "date": "2026-09-10",
       "type": "feature",
       "summary": "PyCharm &amp; Django Fundraiser Extended to September 14",
@@ -53,7 +59,7 @@
   "sources": [
     "https://www.djangoproject.com"
   ],
-  "lastReviewed": "2026-09-10",
+  "lastReviewed": "2026-09-19",
   "region": "overseas",
   "id": "django",
   "name": "Django",

@@ -21,12 +21,20 @@
     "企业级组件深度不及 Spring Boot，需自行拼装",
     "DSL 配置跨大版本改动较多"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-09-18",
+      "type": "release",
+      "summary": "发布 3.6.0: 新版本",
+      "version": "3.6.0",
+      "source": "https://github.com/ktorio/ktor/releases/tag/3.6.0"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://ktor.io"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-09-19",
   "region": "overseas",
   "id": "ktor",
   "name": "Ktor",
@@ -36,5 +44,6 @@
   "officialUrl": "https://ktor.io",
   "descriptionMd": "Ktor 是 JetBrains 出品的 Kotlin 服务端框架，全链路基于协程与挂起函数，能力以插件形式按需装配，并提供可跨平台复用的 HTTP 客户端。\n\n团队以 Kotlin 为主语言、想避开 Spring 的注解与反射心智，或要与 Kotlin Multiplatform 客户端共享代码时评估。\n\n事务、批处理、安全等企业级组件需自行拼装，深度不及 Spring Boot；DSL 式配置在跨大版本时改动较多。\n",
   "vendorId": "jetbrains",
-  "githubUrl": "https://github.com/ktorio/ktor"
+  "githubUrl": "https://github.com/ktorio/ktor",
+  "currentVersion": "3.6.0"
 }

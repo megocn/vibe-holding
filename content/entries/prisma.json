@@ -20,6 +20,12 @@
   ],
   "updates": [
     {
+      "date": "2026-09-16",
+      "type": "feature",
+      "summary": "Prisma vs Netlify for TypeScript apps: which platform?",
+      "source": "https://www.prisma.io/blog/prisma-vs-netlify"
+    },
+    {
       "date": "2026-09-09",
       "type": "feature",
       "summary": "Is Prisma 8 Ready for Long-Lived Production Apps?",
@@ -37,7 +43,7 @@
   "sources": [
     "https://www.prisma.io"
   ],
-  "lastReviewed": "2026-09-10",
+  "lastReviewed": "2026-09-19",
   "region": "overseas",
   "id": "prisma",
   "name": "Prisma",

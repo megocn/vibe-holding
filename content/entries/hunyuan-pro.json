@@ -34,15 +34,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 1,
-      "scoreLabel": "14.9%",
-      "share": 14.9,
+      "rank": 3,
+      "scoreLabel": "10.1%",
+      "share": 10.1,
       "period": "2026-09",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-09-13",
+      "asOf": "2026-09-19",
       "previousRank": 1,
-      "previousShare": 17.3,
-      "previousAsOf": "2026-09-10"
+      "previousShare": 14.9,
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "lmarena-webdev",
@@ -59,16 +59,16 @@
     },
     {
       "systemId": "lmarena-i2v",
-      "rank": 39,
-      "score": 1197,
-      "scoreLabel": "1197 Elo",
+      "rank": 40,
+      "score": 1198,
+      "scoreLabel": "1198 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
       "note": "模型 hunyuan-video-1.5",
-      "asOf": "2026-09-13",
-      "previousRank": 38,
+      "asOf": "2026-09-19",
+      "previousRank": 39,
       "previousScore": 1197,
-      "previousAsOf": "2026-09-02"
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "lmarena-t2v",

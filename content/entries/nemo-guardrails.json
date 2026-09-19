@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-16",
+      "type": "release",
+      "summary": "发布 0.24.1: 新版本",
+      "version": "0.24.1",
+      "source": "https://github.com/NVIDIA-NeMo/Guardrails/releases/tag/v0.24.1"
+    },
+    {
       "date": "2026-08-18",
       "type": "release",
       "summary": "发布 0.23.0: fern-docs-snapshot-v0.23.0",
@@ -34,7 +41,7 @@
   "sources": [
     "https://github.com/NVIDIA/NeMo-Guardrails"
   ],
-  "lastReviewed": "2026-08-19",
+  "lastReviewed": "2026-09-19",
   "region": "overseas",
   "id": "nemo-guardrails",
   "name": "NeMo Guardrails",

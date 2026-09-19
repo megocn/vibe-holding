@@ -50,23 +50,23 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 happyhorse-1.0",
-      "asOf": "2026-09-07",
-      "previousRank": 8,
-      "previousScore": 1428,
-      "previousAsOf": "2026-09-01"
+      "asOf": "2026-09-19",
+      "previousRank": 10,
+      "previousScore": 1427,
+      "previousAsOf": "2026-09-07"
     },
     {
       "systemId": "lmarena-i2v",
-      "rank": 9,
+      "rank": 10,
       "score": 1442,
       "scoreLabel": "1442 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
       "note": "模型 happyhorse-1.0",
-      "asOf": "2026-09-13",
-      "previousRank": 8,
+      "asOf": "2026-09-19",
+      "previousRank": 9,
       "previousScore": 1442,
-      "previousAsOf": "2026-09-02"
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "lmarena-video-edit",

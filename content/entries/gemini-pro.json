@@ -53,16 +53,16 @@
     },
     {
       "systemId": "lmarena-vision",
-      "rank": 10,
+      "rank": 12,
       "score": 1289,
       "scoreLabel": "1289 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 gemini-3-pro",
-      "asOf": "2026-09-13",
+      "asOf": "2026-09-19",
       "previousRank": 10,
       "previousScore": 1289,
-      "previousAsOf": "2026-09-01"
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "lmarena-search",
@@ -92,16 +92,16 @@
     },
     {
       "systemId": "lmarena-document",
-      "rank": 24,
-      "score": 1445,
-      "scoreLabel": "1445 Elo",
+      "rank": 31,
+      "score": 1444,
+      "scoreLabel": "1444 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 gemini-3.1-pro-preview",
-      "asOf": "2026-09-13",
+      "asOf": "2026-09-19",
       "previousRank": 24,
       "previousScore": 1445,
-      "previousAsOf": "2026-09-01"
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "lmarena-webdev",
@@ -137,10 +137,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 gemini-3-pro-image-2k (nano-banana-pro)",
-      "asOf": "2026-09-07",
-      "previousRank": 7,
+      "asOf": "2026-09-19",
+      "previousRank": 9,
       "previousScore": 1390,
-      "previousAsOf": "2026-09-01"
+      "previousAsOf": "2026-09-07"
     },
     {
       "systemId": "openrouter-popularity",

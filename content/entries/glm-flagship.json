@@ -78,28 +78,28 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 3,
-      "scoreLabel": "10.8%",
-      "share": 10.8,
+      "rank": 4,
+      "scoreLabel": "9.8%",
+      "share": 9.8,
       "period": "2026-09",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-09-10",
-      "previousRank": 2,
-      "previousShare": 10,
-      "previousAsOf": "2026-09-02"
+      "asOf": "2026-09-19",
+      "previousRank": 3,
+      "previousShare": 10.8,
+      "previousAsOf": "2026-09-10"
     },
     {
       "systemId": "lmarena-document",
-      "rank": 33,
-      "score": 1417,
-      "scoreLabel": "1417 Elo",
+      "rank": 39,
+      "score": 1416,
+      "scoreLabel": "1416 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 glm-5v-turbo",
-      "asOf": "2026-09-13",
+      "asOf": "2026-09-19",
       "previousRank": 33,
       "previousScore": 1417,
-      "previousAsOf": "2026-09-01"
+      "previousAsOf": "2026-09-13"
     }
   ],
   "sources": [

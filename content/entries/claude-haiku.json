@@ -43,16 +43,16 @@
     },
     {
       "systemId": "lmarena-document",
-      "rank": 31,
-      "score": 1423,
-      "scoreLabel": "1423 Elo",
+      "rank": 37,
+      "score": 1420,
+      "scoreLabel": "1420 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 claude-haiku-4-5-20251001",
-      "asOf": "2026-09-13",
+      "asOf": "2026-09-19",
       "previousRank": 31,
       "previousScore": 1423,
-      "previousAsOf": "2026-09-01"
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "openrouter-popularity",

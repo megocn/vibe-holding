@@ -17,6 +17,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-16",
+      "type": "release",
+      "summary": "维护线 22 最新 22.1.7",
+      "version": "22.1.7",
+      "source": "https://github.com/angular/angular/releases/tag/v22.1.7"
+    },
+    {
       "date": "2026-09-09",
       "type": "release",
       "summary": "维护线 22 最新 22.1.6",
@@ -48,7 +55,7 @@
   "sources": [
     "https://angular.dev"
   ],
-  "lastReviewed": "2026-09-10",
+  "lastReviewed": "2026-09-19",
   "region": "overseas",
   "id": "angular",
   "name": "Angular",

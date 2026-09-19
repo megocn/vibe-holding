@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-17",
+      "type": "release",
+      "summary": "维护线 8.10 最新 8.10.2",
+      "version": "8.10.2",
+      "source": "https://raw.githubusercontent.com/redis/redis/8.10/00-RELEASENOTES"
+    },
+    {
       "date": "2026-09-08",
       "type": "feature",
       "summary": "Delivering Real-Time Personalization with Databricks and Redis",
@@ -50,7 +57,7 @@
   "sources": [
     "https://redis.io"
   ],
-  "lastReviewed": "2026-09-10",
+  "lastReviewed": "2026-09-19",
   "region": "overseas",
   "id": "redis",
   "name": "Redis",
@@ -81,5 +88,6 @@
       "previousShare": 28,
       "previousAsOf": "2026-07-20"
     }
-  ]
+  ],
+  "currentVersion": "8.10"
 }

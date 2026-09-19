@@ -22,6 +22,12 @@
   ],
   "updates": [
     {
+      "date": "2026-09-18",
+      "type": "feature",
+      "summary": "stagehand-python@4.2.0a0.dev1524: [feat]: add WebMCP tools added/removed event hooks (#2916)",
+      "source": "https://github.com/browserbase/stagehand/releases/tag/stagehand-python%404.2.0a0.dev1524"
+    },
+    {
       "date": "2026-09-09",
       "type": "release",
       "summary": "发布 4.1.0: stagehand-python@4.1.0: Release Stagehand packages (#2798)",
@@ -53,7 +59,7 @@
   "sources": [
     "https://github.com/browserbase/stagehand"
   ],
-  "lastReviewed": "2026-09-10",
+  "lastReviewed": "2026-09-19",
   "region": "overseas",
   "id": "stagehand",
   "name": "Stagehand",

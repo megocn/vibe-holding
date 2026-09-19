@@ -100,29 +100,29 @@
     },
     {
       "systemId": "lmarena-vision",
-      "rank": 11,
-      "score": 1286,
-      "scoreLabel": "1286 Elo",
+      "rank": 13,
+      "score": 1287,
+      "scoreLabel": "1287 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 gpt-5.5",
-      "asOf": "2026-09-13",
+      "asOf": "2026-09-19",
       "previousRank": 11,
       "previousScore": 1286,
-      "previousAsOf": "2026-09-02"
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "lmarena-document",
-      "rank": 7,
-      "score": 1485,
-      "scoreLabel": "1485 Elo",
+      "rank": 8,
+      "score": 1486,
+      "scoreLabel": "1486 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/document",
-      "note": "模型 gpt-5.5-high",
-      "asOf": "2026-09-13",
+      "note": "模型 gpt-5.5",
+      "asOf": "2026-09-19",
       "previousRank": 7,
       "previousScore": 1485,
-      "previousAsOf": "2026-09-01"
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "lmarena-search",

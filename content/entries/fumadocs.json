@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-15",
+      "type": "release",
+      "summary": "发布 1.1.1: @fumari/stf@1.1.1",
+      "version": "1.1.1",
+      "source": "https://github.com/fuma-nama/fumadocs/releases/tag/%40fumari%2Fstf%401.1.1"
+    },
+    {
       "date": "2026-09-10",
       "type": "release",
       "summary": "发布 11.4.2: fumadocs-openapi@11.4.2",
@@ -62,7 +69,7 @@
   "sources": [
     "https://fumadocs.dev"
   ],
-  "lastReviewed": "2026-09-10",
+  "lastReviewed": "2026-09-19",
   "region": "overseas",
   "id": "fumadocs",
   "name": "Fumadocs",

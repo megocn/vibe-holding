@@ -24,6 +24,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-17",
+      "type": "release",
+      "summary": "发布 7.1.1: Tag 7.1.1",
+      "version": "7.1.1",
+      "source": "https://github.com/WordPress/WordPress/releases/tag/7.1.1"
+    },
+    {
       "date": "2026-08-06",
       "type": "release",
       "summary": "发布 7.0.3: Tag 7.0.3",
@@ -35,7 +42,7 @@
   "sources": [
     "https://wordpress.org"
   ],
-  "lastReviewed": "2026-08-07",
+  "lastReviewed": "2026-09-19",
   "region": "both",
   "id": "wordpress",
   "name": "WordPress",

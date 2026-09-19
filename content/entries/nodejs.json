@@ -18,6 +18,13 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-09-16",
+      "type": "release",
+      "summary": "维护线 26 最新 26.9.0",
+      "version": "26.9.0",
+      "source": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V26.md#26.9.0"
+    },
+    {
       "date": "2026-09-09",
       "type": "release",
       "summary": "维护线 26 最新 26.8.2",
@@ -36,7 +43,7 @@
   "sources": [
     "https://nodejs.org"
   ],
-  "lastReviewed": "2026-09-10",
+  "lastReviewed": "2026-09-19",
   "region": "both",
   "id": "nodejs",
   "name": "Node.js",

@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-18",
+      "type": "release",
+      "summary": "发布 1.4.16: FunASR 1.4.16",
+      "version": "1.4.16",
+      "source": "https://github.com/modelscope/FunASR/releases/tag/v1.4.16"
+    },
+    {
       "date": "2026-09-10",
       "type": "release",
       "summary": "发布 1.4.15: 新版本",
@@ -61,7 +68,7 @@
   "sources": [
     "https://github.com/modelscope/FunASR"
   ],
-  "lastReviewed": "2026-09-10",
+  "lastReviewed": "2026-09-19",
   "region": "domestic",
   "id": "funasr",
   "name": "FunASR",

@@ -21,6 +21,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-16",
+      "type": "release",
+      "summary": "维护线 2.9 最新 2.9.7",
+      "version": "2.9.7",
+      "source": "https://github.com/denoland/deno/releases/tag/v2.9.7"
+    },
+    {
       "date": "2026-08-06",
       "type": "release",
       "summary": "维护线 2.9 最新 2.9.5",
@@ -39,7 +46,7 @@
   "sources": [
     "https://deno.com"
   ],
-  "lastReviewed": "2026-08-07",
+  "lastReviewed": "2026-09-19",
   "region": "overseas",
   "id": "deno",
   "name": "Deno",

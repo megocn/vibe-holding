@@ -24,6 +24,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-18",
+      "type": "release",
+      "summary": "发布 4.18.0: 新版本",
+      "version": "4.18.0",
+      "source": "https://github.com/chatwoot/chatwoot/releases/tag/v4.18.0"
+    },
+    {
       "date": "2026-08-27",
       "type": "release",
       "summary": "发布 4.17.1: 新版本",
@@ -42,7 +49,7 @@
   "sources": [
     "https://www.chatwoot.com"
   ],
-  "lastReviewed": "2026-08-28",
+  "lastReviewed": "2026-09-19",
   "region": "overseas",
   "id": "chatwoot",
   "name": "Chatwoot",
@@ -54,5 +61,5 @@
   "vendorId": "chatwoot-inc",
   "githubUrl": "https://github.com/chatwoot/chatwoot",
   "docsUrl": "https://www.chatwoot.com/docs",
-  "currentVersion": "4.17.0"
+  "currentVersion": "4.18.0"
 }

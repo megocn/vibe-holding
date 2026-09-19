@@ -60,6 +60,16 @@
       "previousRank": 6,
       "previousScore": 1111,
       "previousAsOf": "2026-07-24"
+    },
+    {
+      "systemId": "lmarena-i2v",
+      "rank": 27,
+      "score": 1276,
+      "scoreLabel": "1276 Elo",
+      "period": "2026-09",
+      "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
+      "note": "模型 kling-2.5-turbo-1080p",
+      "asOf": "2026-09-19"
     }
   ],
   "sources": [

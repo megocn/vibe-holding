@@ -17,6 +17,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-18",
+      "type": "release",
+      "summary": "维护线 44 最新 44.4.3",
+      "version": "44.4.3",
+      "source": "https://releases.electronjs.org/release/v44.4.3"
+    },
+    {
       "date": "2026-09-08",
       "type": "release",
       "summary": "维护线 44 最新 44.3.0",
@@ -49,7 +56,7 @@
   "sources": [
     "https://www.electronjs.org"
   ],
-  "lastReviewed": "2026-09-10",
+  "lastReviewed": "2026-09-19",
   "region": "overseas",
   "id": "electron",
   "name": "Electron",
