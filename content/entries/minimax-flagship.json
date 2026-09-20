@@ -119,10 +119,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/video-edit",
       "note": "模型 minimax-h3",
-      "asOf": "2026-09-13",
+      "asOf": "2026-09-20",
       "previousRank": 3,
       "previousScore": 1392,
-      "previousAsOf": "2026-09-02"
+      "previousAsOf": "2026-09-13"
     }
   ],
   "sources": [

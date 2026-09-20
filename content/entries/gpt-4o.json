@@ -64,16 +64,16 @@
   "rankings": [
     {
       "systemId": "lmarena-text",
-      "rank": 19,
-      "score": 1482,
-      "scoreLabel": "1482 Elo",
+      "rank": 18,
+      "score": 1483,
+      "scoreLabel": "1483 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 gpt-5.6-sol-xhigh",
-      "asOf": "2026-09-13",
-      "previousRank": 17,
+      "asOf": "2026-09-20",
+      "previousRank": 19,
       "previousScore": 1482,
-      "previousAsOf": "2026-08-09"
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "lmarena-agent",
@@ -81,9 +81,9 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/agent",
       "note": "模型 GPT 6 Astra (Max)",
-      "asOf": "2026-09-13",
-      "previousRank": 5,
-      "previousAsOf": "2026-09-07"
+      "asOf": "2026-09-20",
+      "previousRank": 2,
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "lmarena-webdev",
@@ -93,10 +93,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 gpt-6-astra-max",
-      "asOf": "2026-09-13",
-      "previousRank": 13,
-      "previousScore": 1617,
-      "previousAsOf": "2026-09-07"
+      "asOf": "2026-09-20",
+      "previousRank": 1,
+      "previousScore": 1800,
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "lmarena-vision",
@@ -132,10 +132,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/search",
       "note": "模型 gpt-5.6-sol-xhigh",
-      "asOf": "2026-09-13",
+      "asOf": "2026-09-20",
       "previousRank": 1,
       "previousScore": 1257,
-      "previousAsOf": "2026-08-25"
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -163,15 +163,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 15,
-      "scoreLabel": "1.4%",
-      "share": 1.4,
+      "rank": 13,
+      "scoreLabel": "1.7%",
+      "share": 1.7,
       "period": "2026-09",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-09-13",
-      "previousRank": 14,
-      "previousShare": 1.6,
-      "previousAsOf": "2026-09-10"
+      "asOf": "2026-09-20",
+      "previousRank": 15,
+      "previousShare": 1.4,
+      "previousAsOf": "2026-09-13"
     }
   ],
   "subcategory": "line",

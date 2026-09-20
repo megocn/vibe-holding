@@ -38,10 +38,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 hunyuan-image-3.0",
-      "asOf": "2026-09-13",
-      "previousRank": 29,
+      "asOf": "2026-09-20",
+      "previousRank": 31,
       "previousScore": 1151,
-      "previousAsOf": "2026-09-01"
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "aa-image-arena",
@@ -64,10 +64,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 hunyuan-image-3.0-instruct",
-      "asOf": "2026-09-13",
-      "previousRank": 20,
+      "asOf": "2026-09-20",
+      "previousRank": 22,
       "previousScore": 1302,
-      "previousAsOf": "2026-07-26"
+      "previousAsOf": "2026-09-13"
     }
   ],
   "sources": [

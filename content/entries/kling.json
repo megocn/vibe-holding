@@ -30,10 +30,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 kling-2.5-turbo-1080p",
-      "asOf": "2026-09-13",
-      "previousRank": 22,
+      "asOf": "2026-09-20",
+      "previousRank": 28,
       "previousScore": 1219,
-      "previousAsOf": "2026-07-24"
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "lmarena-video-edit",

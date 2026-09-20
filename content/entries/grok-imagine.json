@@ -30,10 +30,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 grok-imagine-image-2.0 (low)",
-      "asOf": "2026-09-13",
-      "previousRank": 3,
-      "previousScore": 1316,
-      "previousAsOf": "2026-09-01"
+      "asOf": "2026-09-20",
+      "previousRank": 5,
+      "previousScore": 1315,
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "lmarena-image-edit",
@@ -43,10 +43,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 grok-imagine-image-2.0 (low)",
-      "asOf": "2026-09-13",
-      "previousRank": 3,
+      "asOf": "2026-09-20",
+      "previousRank": 4,
       "previousScore": 1439,
-      "previousAsOf": "2026-09-07"
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "aa-image-arena",
@@ -69,10 +69,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
       "note": "模型 grok-imagine-video-1.5-720p",
-      "asOf": "2026-09-13",
-      "previousRank": 5,
-      "previousScore": 1460,
-      "previousAsOf": "2026-08-19"
+      "asOf": "2026-09-20",
+      "previousRank": 7,
+      "previousScore": 1456,
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "lmarena-t2v",
@@ -95,10 +95,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/video-edit",
       "note": "模型 grok-imagine-video",
-      "asOf": "2026-09-13",
-      "previousRank": 6,
-      "previousScore": 1262,
-      "previousAsOf": "2026-08-19"
+      "asOf": "2026-09-20",
+      "previousRank": 7,
+      "previousScore": 1258,
+      "previousAsOf": "2026-09-13"
     }
   ],
   "sources": [

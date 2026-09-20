@@ -72,15 +72,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 2,
-      "scoreLabel": "10.9%",
-      "share": 10.9,
+      "rank": 1,
+      "scoreLabel": "12.2%",
+      "share": 12.2,
       "period": "2026-09",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-09-19",
-      "previousRank": 4,
-      "previousShare": 10.8,
-      "previousAsOf": "2026-09-10"
+      "asOf": "2026-09-20",
+      "previousRank": 2,
+      "previousShare": 10.9,
+      "previousAsOf": "2026-09-19"
     },
     {
       "systemId": "lmarena-webdev",
@@ -90,10 +90,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 deepseek-v4.1-flash-max",
-      "asOf": "2026-09-13",
-      "previousRank": 19,
-      "previousScore": 1582,
-      "previousAsOf": "2026-09-07"
+      "asOf": "2026-09-20",
+      "previousRank": 16,
+      "previousScore": 1614,
+      "previousAsOf": "2026-09-13"
     }
   ],
   "subcategory": "line",

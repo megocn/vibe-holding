@@ -57,10 +57,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 kimi-k3-max",
-      "asOf": "2026-09-13",
-      "previousRank": 12,
-      "previousScore": 1489,
-      "previousAsOf": "2026-09-07"
+      "asOf": "2026-09-20",
+      "previousRank": 17,
+      "previousScore": 1485,
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "lmarena-agent",
@@ -68,9 +68,9 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/agent",
       "note": "模型 Kimi K3 (Max)",
-      "asOf": "2026-09-13",
-      "previousRank": 7,
-      "previousAsOf": "2026-09-07"
+      "asOf": "2026-09-20",
+      "previousRank": 8,
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "lmarena-webdev",

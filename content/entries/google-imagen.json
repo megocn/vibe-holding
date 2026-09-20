@@ -38,10 +38,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 imagen-ultra-4.0-generate-001",
-      "asOf": "2026-09-13",
-      "previousRank": 31,
+      "asOf": "2026-09-20",
+      "previousRank": 33,
       "previousScore": 1148,
-      "previousAsOf": "2026-09-01"
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "aa-image-arena",

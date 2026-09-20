@@ -36,10 +36,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 flux-2-max",
-      "asOf": "2026-09-13",
-      "previousRank": 23,
+      "asOf": "2026-09-20",
+      "previousRank": 25,
       "previousScore": 1162,
-      "previousAsOf": "2026-09-01"
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "aa-image-arena",
@@ -62,10 +62,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 flux-2-max",
-      "asOf": "2026-09-13",
-      "previousRank": 27,
+      "asOf": "2026-09-20",
+      "previousRank": 29,
       "previousScore": 1262,
-      "previousAsOf": "2026-09-01"
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "lmarena-t2v",

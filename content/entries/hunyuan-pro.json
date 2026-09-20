@@ -34,15 +34,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 3,
-      "scoreLabel": "10.1%",
-      "share": 10.1,
+      "rank": 4,
+      "scoreLabel": "10%",
+      "share": 10,
       "period": "2026-09",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-09-19",
-      "previousRank": 1,
-      "previousShare": 14.9,
-      "previousAsOf": "2026-09-13"
+      "asOf": "2026-09-20",
+      "previousRank": 3,
+      "previousShare": 10.1,
+      "previousAsOf": "2026-09-19"
     },
     {
       "systemId": "lmarena-webdev",
@@ -52,10 +52,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 hy3",
-      "asOf": "2026-09-13",
-      "previousRank": 9,
-      "previousScore": 1626,
-      "previousAsOf": "2026-09-02"
+      "asOf": "2026-09-20",
+      "previousRank": 40,
+      "previousScore": 1513,
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "lmarena-i2v",
@@ -78,10 +78,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 hunyuan-video-1.5",
-      "asOf": "2026-09-13",
-      "previousRank": 36,
+      "asOf": "2026-09-20",
+      "previousRank": 38,
       "previousScore": 1169,
-      "previousAsOf": "2026-09-02"
+      "previousAsOf": "2026-09-13"
     }
   ],
   "sources": [

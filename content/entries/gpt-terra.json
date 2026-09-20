@@ -75,10 +75,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 gpt-5.6-terra-xhigh (codex-harness)",
-      "asOf": "2026-09-13",
-      "previousRank": 30,
-      "previousScore": 1519,
-      "previousAsOf": "2026-09-02"
+      "asOf": "2026-09-20",
+      "previousRank": 35,
+      "previousScore": 1521,
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "openrouter-popularity",

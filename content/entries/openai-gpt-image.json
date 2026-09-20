@@ -41,10 +41,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 gpt-image-2.5-sunburst",
-      "asOf": "2026-09-13",
+      "asOf": "2026-09-20",
       "previousRank": 1,
-      "previousScore": 1385,
-      "previousAsOf": "2026-07-24"
+      "previousScore": 1421,
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "lmarena-image-edit",
@@ -54,10 +54,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 gpt-image-2.5-sunburst",
-      "asOf": "2026-09-13",
+      "asOf": "2026-09-20",
       "previousRank": 1,
-      "previousScore": 1465,
-      "previousAsOf": "2026-07-24"
+      "previousScore": 1520,
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "aa-image-arena",

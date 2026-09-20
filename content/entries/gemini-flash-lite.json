@@ -76,10 +76,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 gemini-3.1-flash-lite-image (nano-banana-2-lite)",
-      "asOf": "2026-09-13",
-      "previousRank": 11,
-      "previousScore": 1251,
-      "previousAsOf": "2026-08-12"
+      "asOf": "2026-09-20",
+      "previousRank": 13,
+      "previousScore": 1250,
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "lmarena-image-edit",
@@ -89,22 +89,22 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 gemini-3.1-flash-lite-image (nano-banana-2-lite)",
-      "asOf": "2026-09-13",
-      "previousRank": 17,
+      "asOf": "2026-09-20",
+      "previousRank": 19,
       "previousScore": 1314,
-      "previousAsOf": "2026-09-01"
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 29,
+      "rank": 28,
       "scoreLabel": "0.6%",
       "share": 0.6,
       "period": "2026-09",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-09-13",
-      "previousRank": 28,
+      "asOf": "2026-09-20",
+      "previousRank": 29,
       "previousShare": 0.6,
-      "previousAsOf": "2026-09-10"
+      "previousAsOf": "2026-09-13"
     }
   ],
   "sources": [

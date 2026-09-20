@@ -36,10 +36,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 ideogram-4.0-quality",
-      "asOf": "2026-09-13",
-      "previousRank": 15,
-      "previousScore": 1206,
-      "previousAsOf": "2026-08-09"
+      "asOf": "2026-09-20",
+      "previousRank": 17,
+      "previousScore": 1204,
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "aa-image-arena",

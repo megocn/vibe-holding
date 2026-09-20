@@ -29,10 +29,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 grok-4.6-high",
-      "asOf": "2026-09-13",
-      "previousRank": 10,
-      "previousScore": 1625,
-      "previousAsOf": "2026-09-07"
+      "asOf": "2026-09-20",
+      "previousRank": 13,
+      "previousScore": 1618,
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -81,10 +81,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/search",
       "note": "模型 grok-4.5",
-      "asOf": "2026-09-13",
+      "asOf": "2026-09-20",
       "previousRank": 8,
       "previousScore": 1213,
-      "previousAsOf": "2026-08-25"
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "lmarena-document",

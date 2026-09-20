@@ -35,9 +35,9 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/agent",
       "note": "模型 Claude Sonnet 5 (High)",
-      "asOf": "2026-09-13",
-      "previousRank": 8,
-      "previousAsOf": "2026-08-25"
+      "asOf": "2026-09-20",
+      "previousRank": 9,
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "lmarena-webdev",
@@ -47,10 +47,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 claude-sonnet-5-high",
-      "asOf": "2026-09-13",
-      "previousRank": 25,
+      "asOf": "2026-09-20",
+      "previousRank": 33,
       "previousScore": 1537,
-      "previousAsOf": "2026-09-02"
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "lmarena-document",
@@ -99,10 +99,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/search",
       "note": "模型 claude-sonnet-4-6-search",
-      "asOf": "2026-09-13",
+      "asOf": "2026-09-20",
       "previousRank": 7,
       "previousScore": 1221,
-      "previousAsOf": "2026-09-01"
+      "previousAsOf": "2026-09-13"
     },
     {
       "systemId": "openrouter-popularity",
