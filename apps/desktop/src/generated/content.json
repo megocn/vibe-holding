@@ -1702,6 +1702,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-20",
+          "type": "release",
+          "summary": "发布 3.2.3: 新版本",
+          "version": "3.2.3",
+          "source": "https://github.com/altcha-org/altcha/releases/tag/v3.2.3"
+        },
+        {
           "date": "2026-08-19",
           "type": "release",
           "summary": "发布 3.2.2: 新版本",
@@ -1714,7 +1721,7 @@
         "https://altcha.org",
         "https://github.com/altcha-org/altcha"
       ],
-      "lastReviewed": "2026-08-20",
+      "lastReviewed": "2026-09-21",
       "region": "overseas",
       "id": "altcha",
       "name": "ALTCHA",
@@ -2242,6 +2249,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-20",
+          "type": "release",
+          "summary": "发布 6.6.5: 新版本",
+          "version": "6.6.5",
+          "source": "https://github.com/ant-design/ant-design/releases/tag/6.6.5"
+        },
+        {
           "date": "2026-09-07",
           "type": "release",
           "summary": "发布 6.6.3: 新版本",
@@ -2280,7 +2294,7 @@
       "sources": [
         "https://ant.design"
       ],
-      "lastReviewed": "2026-09-13",
+      "lastReviewed": "2026-09-21",
       "region": "overseas",
       "id": "antd",
       "name": "Ant Design",
@@ -7850,15 +7864,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 23,
-          "scoreLabel": "0.9%",
-          "share": 0.9,
+          "rank": 22,
+          "scoreLabel": "1%",
+          "share": 1,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-20",
-          "previousRank": 22,
+          "asOf": "2026-09-21",
+          "previousRank": 23,
           "previousShare": 0.9,
-          "previousAsOf": "2026-09-19"
+          "previousAsOf": "2026-09-20"
         },
         {
           "systemId": "swe-bench-pro",
@@ -19743,15 +19757,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 3,
-          "scoreLabel": "10.4%",
-          "share": 10.4,
+          "rank": 4,
+          "scoreLabel": "8.1%",
+          "share": 8.1,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-20",
-          "previousRank": 1,
-          "previousShare": 12.8,
-          "previousAsOf": "2026-09-19"
+          "asOf": "2026-09-21",
+          "previousRank": 3,
+          "previousShare": 10.4,
+          "previousAsOf": "2026-09-20"
         }
       ],
       "sources": [
@@ -19854,15 +19868,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 34,
+          "rank": 33,
           "scoreLabel": "0.5%",
           "share": 0.5,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-19",
-          "previousRank": 33,
-          "previousShare": 0.4,
-          "previousAsOf": "2026-09-13"
+          "asOf": "2026-09-21",
+          "previousRank": 34,
+          "previousShare": 0.5,
+          "previousAsOf": "2026-09-19"
         },
         {
           "systemId": "lmarena-text",
@@ -20300,15 +20314,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 47,
+          "rank": 48,
           "scoreLabel": "0.3%",
           "share": 0.3,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-19",
-          "previousRank": 42,
+          "asOf": "2026-09-21",
+          "previousRank": 47,
           "previousShare": 0.3,
-          "previousAsOf": "2026-09-10"
+          "previousAsOf": "2026-09-19"
         }
       ],
       "sources": [
@@ -22861,15 +22875,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 4,
-          "scoreLabel": "10%",
-          "share": 10,
+          "rank": 3,
+          "scoreLabel": "10.4%",
+          "share": 10.4,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-20",
-          "previousRank": 3,
-          "previousShare": 10.1,
-          "previousAsOf": "2026-09-19"
+          "asOf": "2026-09-21",
+          "previousRank": 4,
+          "previousShare": 10,
+          "previousAsOf": "2026-09-20"
         },
         {
           "systemId": "lmarena-webdev",
@@ -39039,15 +39053,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 39,
+          "rank": 40,
           "scoreLabel": "0.4%",
           "share": 0.4,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-20",
-          "previousRank": 38,
+          "asOf": "2026-09-21",
+          "previousRank": 39,
           "previousShare": 0.4,
-          "previousAsOf": "2026-09-19"
+          "previousAsOf": "2026-09-20"
         },
         {
           "systemId": "lmarena-vision",
@@ -43426,15 +43440,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 15,
+          "rank": 16,
           "scoreLabel": "1.4%",
           "share": 1.4,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-19",
-          "previousRank": 14,
-          "previousShare": 1.5,
-          "previousAsOf": "2026-09-13"
+          "asOf": "2026-09-21",
+          "previousRank": 15,
+          "previousShare": 1.4,
+          "previousAsOf": "2026-09-19"
         }
       ],
       "sources": [
@@ -50768,6 +50782,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-20",
+          "type": "release",
+          "summary": "发布 9.32.0: 新版本",
+          "version": "9.32.0",
+          "source": "https://github.com/webdriverio/webdriverio/releases/tag/v9.32.0"
+        },
+        {
           "date": "2026-09-13",
           "type": "release",
           "summary": "发布 9.31.9: 新版本",
@@ -50793,7 +50814,7 @@
       "sources": [
         "https://webdriver.io"
       ],
-      "lastReviewed": "2026-09-13",
+      "lastReviewed": "2026-09-21",
       "region": "overseas",
       "id": "webdriverio",
       "name": "WebdriverIO",
@@ -50802,7 +50823,8 @@
       "oneLiner": "WebDriver/DevTools 双协议 · Web 与移动端共用一套 · 服务插件多",
       "officialUrl": "https://webdriver.io",
       "descriptionMd": "WebdriverIO 同时支持 W3C WebDriver 与 DevTools 协议，一套 API 覆盖桌面浏览器与 Appium 驱动的移动端，测试服务、报告器与云端设备平台以插件形式接入。\n\n需要真机/云设备矩阵、或 Web 与原生 App 共用一套自动化技术栈时评估；纯 Web E2E 用 Playwright 上手更快。\n\n配置文件与插件体系较重，调试链路比一体化框架长；跨协议行为差异需要在目标环境上实测确认。\n",
-      "githubUrl": "https://github.com/webdriverio/webdriverio"
+      "githubUrl": "https://github.com/webdriverio/webdriverio",
+      "currentVersion": "9.32.0"
     },
     {
       "pricing": {
