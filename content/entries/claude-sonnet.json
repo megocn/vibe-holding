@@ -80,16 +80,16 @@
     },
     {
       "systemId": "lmarena-vision",
-      "rank": 26,
+      "rank": 29,
       "score": 1275,
       "scoreLabel": "1275 Elo",
-      "period": "2026-08",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
-      "note": "模型 claude-sonnet-5-high",
-      "asOf": "2026-08-04",
-      "previousRank": 24,
+      "note": "模型 claude-sonnet-4-6",
+      "asOf": "2026-09-22",
+      "previousRank": 26,
       "previousScore": 1275,
-      "previousAsOf": "2026-07-31"
+      "previousAsOf": "2026-08-04"
     },
     {
       "systemId": "lmarena-search",

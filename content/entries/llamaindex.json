@@ -16,12 +16,20 @@
   ],
   "maturity": "stable",
   "pitfalls": [],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-09-21",
+      "type": "release",
+      "summary": "发布 0.14.25: 新版本",
+      "version": "0.14.25",
+      "source": "https://github.com/run-llama/llama_index/releases/tag/v0.14.25"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://www.llamaindex.ai"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-09-22",
   "region": "overseas",
   "id": "llamaindex",
   "name": "LlamaIndex",

@@ -20,11 +20,19 @@
   "pitfalls": [
     "需自行维护渠道稳定性"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-09-21",
+      "type": "release",
+      "summary": "发布 0.2.1: relaykit/v0.2.1",
+      "version": "0.2.1",
+      "source": "https://github.com/QuantumNous/new-api/releases/tag/relaykit%2Fv0.2.1"
+    }
+  ],
   "sources": [
     "https://github.com/QuantumNous/new-api"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-09-22",
   "region": "domestic",
   "id": "one-api",
   "name": "New API / One API",

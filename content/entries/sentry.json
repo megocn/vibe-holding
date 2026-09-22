@@ -19,6 +19,12 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-09-21",
+      "type": "feature",
+      "summary": "Building Sentry's Laravel AI Integration",
+      "source": "https://blog.sentry.io/sentry-laravel-ai-integration/"
+    },
+    {
       "date": "2026-08-28",
       "type": "feature",
       "summary": "From one switch to a control panel: meet `dataCollection`",
@@ -41,7 +47,7 @@
   "sources": [
     "https://sentry.io"
   ],
-  "lastReviewed": "2026-08-31",
+  "lastReviewed": "2026-09-22",
   "region": "overseas",
   "id": "sentry",
   "name": "Sentry",

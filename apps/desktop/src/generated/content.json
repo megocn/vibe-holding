@@ -146,6 +146,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-21",
+          "type": "release",
+          "summary": "发布 0.91.1: 新版本",
+          "version": "0.91.1",
+          "source": "https://github.com/activepieces/activepieces/releases/tag/0.91.1"
+        },
+        {
           "date": "2026-09-11",
           "type": "release",
           "summary": "发布 0.87.2: chore: renumber the release to 0.87.2",
@@ -185,7 +192,7 @@
       "sources": [
         "https://www.activepieces.com"
       ],
-      "lastReviewed": "2026-09-13",
+      "lastReviewed": "2026-09-22",
       "region": "overseas",
       "id": "activepieces",
       "name": "Activepieces",
@@ -6178,6 +6185,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-21",
+          "type": "release",
+          "summary": "发布 2.6: vpy3.2.6",
+          "version": "2.6",
+          "source": "https://github.com/taskforcesh/bullmq/releases/tag/vpy3.2.6"
+        },
+        {
           "date": "2026-09-10",
           "type": "release",
           "summary": "发布 2.9: vrs1.2.9",
@@ -6217,7 +6231,7 @@
       "sources": [
         "https://docs.bullmq.io"
       ],
-      "lastReviewed": "2026-09-13",
+      "lastReviewed": "2026-09-22",
       "region": "overseas",
       "id": "bullmq",
       "name": "BullMQ",
@@ -6228,7 +6242,7 @@
       "descriptionMd": "BullMQ 是基于 Redis 的 Node.js 任务队列：重试、延迟、优先级、流速与可观测组件生态成熟，是 Node 侧默认 worker 方案之一。\n\n已有 Redis，要跑邮件、转码、webhook 重试、批处理消费等进程内 worker，又不想引入完整 durable 平台时选用。\n\n可靠性边界取决于 Redis 与 worker 运维；跨语言协调与强一致长事务应看 Temporal 一类。\n",
       "vendorId": "taskforce-sh",
       "githubUrl": "https://github.com/taskforcesh/bullmq",
-      "currentVersion": "2.9"
+      "currentVersion": "2.6"
     },
     {
       "pricing": {
@@ -7590,15 +7604,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 37,
+          "rank": 38,
           "scoreLabel": "0.4%",
           "share": 0.4,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-20",
-          "previousRank": 39,
+          "asOf": "2026-09-22",
+          "previousRank": 37,
           "previousShare": 0.4,
-          "previousAsOf": "2026-09-19"
+          "previousAsOf": "2026-09-20"
         }
       ],
       "sources": [
@@ -7970,16 +7984,16 @@
         },
         {
           "systemId": "lmarena-vision",
-          "rank": 26,
+          "rank": 29,
           "score": 1275,
           "scoreLabel": "1275 Elo",
-          "period": "2026-08",
+          "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
-          "note": "模型 claude-sonnet-5-high",
-          "asOf": "2026-08-04",
-          "previousRank": 24,
+          "note": "模型 claude-sonnet-4-6",
+          "asOf": "2026-09-22",
+          "previousRank": 26,
           "previousScore": 1275,
-          "previousAsOf": "2026-07-31"
+          "previousAsOf": "2026-08-04"
         },
         {
           "systemId": "lmarena-search",
@@ -9620,6 +9634,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-22",
+          "type": "release",
+          "summary": "发布 1.13.0-alpha02: +dev4853: Details",
+          "version": "1.13.0-alpha02",
+          "source": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.13.0-alpha02%2Bdev4853"
+        },
+        {
           "date": "2026-09-12",
           "type": "release",
           "summary": "发布 1.12.1: +dev4797: Details",
@@ -9659,7 +9680,7 @@
       "sources": [
         "https://github.com/JetBrains/compose-multiplatform"
       ],
-      "lastReviewed": "2026-09-13",
+      "lastReviewed": "2026-09-22",
       "region": "overseas",
       "id": "compose-multiplatform",
       "name": "Compose Multiplatform",
@@ -9670,7 +9691,7 @@
       "descriptionMd": "Compose Multiplatform 由 JetBrains 把 Android 的 Jetpack Compose 延伸到 iOS、桌面与 Web，在 Kotlin Multiplatform 的共享逻辑之上再共享一层声明式界面。\n\n已选 KMP、团队熟悉 Compose 且希望界面也复用时评估；只想共享逻辑、界面保留原生的项目留在 KMP 即可。\n\niOS 与 Web 目标的成熟度落后于 Android 与桌面；自绘 UI 与系统控件、无障碍能力的融合需逐项验证。\n",
       "vendorId": "jetbrains",
       "githubUrl": "https://github.com/JetBrains/compose-multiplatform",
-      "currentVersion": "1.13.0-alpha01"
+      "currentVersion": "1.13.0-alpha02"
     },
     {
       "pricing": {
@@ -11696,14 +11717,14 @@
         {
           "systemId": "openrouter-popularity",
           "rank": 1,
-          "scoreLabel": "12.2%",
-          "share": 12.2,
+          "scoreLabel": "13.8%",
+          "share": 13.8,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-20",
-          "previousRank": 2,
-          "previousShare": 10.9,
-          "previousAsOf": "2026-09-19"
+          "asOf": "2026-09-22",
+          "previousRank": 1,
+          "previousShare": 12.2,
+          "previousAsOf": "2026-09-20"
         },
         {
           "systemId": "lmarena-webdev",
@@ -12294,6 +12315,12 @@
       ],
       "updates": [
         {
+          "date": "2026-09-22",
+          "type": "feature",
+          "summary": "stable",
+          "source": "https://github.com/discourse/discourse/releases/tag/stable"
+        },
+        {
           "date": "2026-09-11",
           "type": "feature",
           "summary": "stable",
@@ -12328,7 +12355,7 @@
       "sources": [
         "https://www.discourse.org"
       ],
-      "lastReviewed": "2026-09-13",
+      "lastReviewed": "2026-09-22",
       "region": "overseas",
       "id": "discourse",
       "name": "Discourse",
@@ -13314,12 +13341,20 @@
       ],
       "maturity": "stable",
       "pitfalls": [],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-09-21",
+          "type": "release",
+          "summary": "发布 0.45.3: 新版本",
+          "version": "0.45.3",
+          "source": "https://github.com/drizzle-team/drizzle-orm/releases/tag/0.45.3"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://orm.drizzle.team"
       ],
-      "lastReviewed": "2026-07-23",
+      "lastReviewed": "2026-09-22",
       "region": "overseas",
       "id": "drizzle",
       "name": "Drizzle ORM",
@@ -18476,14 +18511,14 @@
         {
           "systemId": "openrouter-popularity",
           "rank": 2,
-          "scoreLabel": "10.8%",
-          "share": 10.8,
+          "scoreLabel": "13.7%",
+          "share": 13.7,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-20",
-          "previousRank": 4,
-          "previousShare": 9.8,
-          "previousAsOf": "2026-09-19"
+          "asOf": "2026-09-22",
+          "previousRank": 2,
+          "previousShare": 10.8,
+          "previousAsOf": "2026-09-20"
         },
         {
           "systemId": "lmarena-document",
@@ -18497,6 +18532,16 @@
           "previousRank": 33,
           "previousScore": 1417,
           "previousAsOf": "2026-09-13"
+        },
+        {
+          "systemId": "lmarena-vision",
+          "rank": 30,
+          "score": 1275,
+          "scoreLabel": "1275 Elo",
+          "period": "2026-09",
+          "sourceUrl": "https://arena.ai/leaderboard/vision",
+          "note": "模型 glm-5.3-flash",
+          "asOf": "2026-09-22"
         }
       ],
       "sources": [
@@ -19757,15 +19802,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 4,
-          "scoreLabel": "8.1%",
-          "share": 8.1,
+          "rank": 5,
+          "scoreLabel": "6.9%",
+          "share": 6.9,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-21",
-          "previousRank": 3,
-          "previousShare": 10.4,
-          "previousAsOf": "2026-09-20"
+          "asOf": "2026-09-22",
+          "previousRank": 4,
+          "previousShare": 8.1,
+          "previousAsOf": "2026-09-21"
         }
       ],
       "sources": [
@@ -20275,16 +20320,16 @@
         },
         {
           "systemId": "lmarena-vision",
-          "rank": 18,
-          "score": 1282,
-          "scoreLabel": "1282 Elo",
+          "rank": 24,
+          "score": 1279,
+          "scoreLabel": "1279 Elo",
           "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
           "note": "模型 grok-4.5",
-          "asOf": "2026-09-13",
+          "asOf": "2026-09-22",
           "previousRank": 18,
           "previousScore": 1282,
-          "previousAsOf": "2026-09-02"
+          "previousAsOf": "2026-09-13"
         },
         {
           "systemId": "lmarena-search",
@@ -20314,15 +20359,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 48,
-          "scoreLabel": "0.3%",
-          "share": 0.3,
+          "rank": 47,
+          "scoreLabel": "0.2%",
+          "share": 0.2,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-21",
-          "previousRank": 47,
+          "asOf": "2026-09-22",
+          "previousRank": 48,
           "previousShare": 0.3,
-          "previousAsOf": "2026-09-19"
+          "previousAsOf": "2026-09-21"
         }
       ],
       "sources": [
@@ -20591,12 +20636,20 @@
         "实验结论质量取决于自有数仓的数据口径与查询成本。",
         "自托管需自担升级与高可用运维。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-09-22",
+          "type": "release",
+          "summary": "发布 5.1.0: 新版本",
+          "version": "5.1.0",
+          "source": "https://github.com/growthbook/growthbook/releases/tag/v5.1.0"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://www.growthbook.io"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-09-22",
       "region": "overseas",
       "id": "growthbook",
       "name": "GrowthBook",
@@ -20606,7 +20659,8 @@
       "officialUrl": "https://www.growthbook.io",
       "descriptionMd": "GrowthBook 是开源的功能开关与 A/B 实验平台，特点是不要求把事件送进厂商云，而是直接连到你已有的数据仓库上执行实验查询，把标志下发与实验分析解耦。\n\n已有数仓与埋点体系、希望实验分析复用现成数据并规避事件外传，或因合规要求必须私有化部署时优先。\n\n实验结论的质量取决于自家数仓的数据质量与查询成本；自托管要自己承担升级、备份与可用性运维。\n",
       "vendorId": "growthbook-inc",
-      "githubUrl": "https://github.com/growthbook/growthbook"
+      "githubUrl": "https://github.com/growthbook/growthbook",
+      "currentVersion": "5.1.0"
     },
     {
       "id": "gsap",
@@ -21984,6 +22038,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-21",
+          "type": "release",
+          "summary": "发布 7.0.6: 新版本",
+          "version": "7.0.6",
+          "source": "https://github.com/Homebrew/brew/releases/tag/7.0.6"
+        },
+        {
           "date": "2026-09-13",
           "type": "release",
           "summary": "发布 7.0.1: 新版本",
@@ -22016,7 +22077,7 @@
       "sources": [
         "https://brew.sh"
       ],
-      "lastReviewed": "2026-09-13",
+      "lastReviewed": "2026-09-22",
       "region": "overseas",
       "id": "homebrew",
       "name": "Homebrew",
@@ -22119,6 +22180,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-21",
+          "type": "release",
+          "summary": "发布 1.2.1: frontend/v1.2.1",
+          "version": "1.2.1",
+          "source": "https://github.com/hook0/hook0/releases/tag/frontend%2Fv1.2.1"
+        },
+        {
           "date": "2026-08-30",
           "type": "release",
           "summary": "发布 1.1.0: frontend/v1.1.0",
@@ -22137,7 +22205,7 @@
       "sources": [
         "https://www.hook0.com"
       ],
-      "lastReviewed": "2026-08-31",
+      "lastReviewed": "2026-09-22",
       "region": "overseas",
       "id": "hook0",
       "name": "Hook0",
@@ -24867,6 +24935,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-21",
+          "type": "release",
+          "summary": "发布 2.3.0: 新版本",
+          "version": "2.3.0",
+          "source": "https://github.com/grafana/k6/releases/tag/v2.3.0"
+        },
+        {
           "date": "2026-08-10",
           "type": "release",
           "summary": "发布 2.2.0: 新版本",
@@ -24878,7 +24953,7 @@
       "sources": [
         "https://k6.io"
       ],
-      "lastReviewed": "2026-08-10",
+      "lastReviewed": "2026-09-22",
       "region": "overseas",
       "id": "k6",
       "name": "Grafana k6",
@@ -24889,7 +24964,7 @@
       "descriptionMd": "k6 用 JavaScript 写压测脚本、由 Go 引擎执行，脚本里声明的 threshold 可直接作为流水线通过与否的门禁，指标能推给 Grafana / Prometheus 做长期观测。\n\n接口与服务端性能回归、容量摸底时使用；已在用 Grafana 观测栈的团队衔接成本最低。\n\n不渲染页面，测不出前端渲染耗时；单机并发受限于压测机资源，大规模需分布式或云端方案。\n",
       "vendorId": "grafana-labs",
       "githubUrl": "https://github.com/grafana/k6",
-      "currentVersion": "2.2.0"
+      "currentVersion": "2.3.0"
     },
     {
       "pricing": {
@@ -27696,12 +27771,20 @@
       ],
       "maturity": "stable",
       "pitfalls": [],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-09-21",
+          "type": "release",
+          "summary": "发布 0.14.25: 新版本",
+          "version": "0.14.25",
+          "source": "https://github.com/run-llama/llama_index/releases/tag/v0.14.25"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://www.llamaindex.ai"
       ],
-      "lastReviewed": "2026-07-23",
+      "lastReviewed": "2026-09-22",
       "region": "overseas",
       "id": "llamaindex",
       "name": "LlamaIndex",
@@ -29058,6 +29141,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-21",
+          "type": "release",
+          "summary": "发布 9.6.2: 新版本",
+          "version": "9.6.2",
+          "source": "https://github.com/mantinedev/mantine/releases/tag/9.6.2"
+        },
+        {
           "date": "2026-09-09",
           "type": "release",
           "summary": "发布 9.6.1: 新版本",
@@ -29082,7 +29172,7 @@
       "sources": [
         "https://mantine.dev"
       ],
-      "lastReviewed": "2026-09-13",
+      "lastReviewed": "2026-09-22",
       "region": "overseas",
       "id": "mantine",
       "name": "Mantine",
@@ -33077,6 +33167,12 @@
       "currentVersion": "16.3.0",
       "updates": [
         {
+          "date": "2026-09-21",
+          "type": "feature",
+          "summary": "Upcoming Next.js Security Update for a Critical Upstream Issue",
+          "source": "https://nextjs.org/blog/upcoming-nextjs-security-release-september-22-2026"
+        },
+        {
           "date": "2026-09-11",
           "type": "release",
           "summary": "发布 16.3.5: 新版本",
@@ -33128,7 +33224,7 @@
       "sources": [
         "https://nextjs.org"
       ],
-      "lastReviewed": "2026-09-13",
+      "lastReviewed": "2026-09-22",
       "region": "overseas",
       "id": "nextjs",
       "name": "Next.js",
@@ -33814,11 +33910,19 @@
       "pitfalls": [
         "需自行维护渠道稳定性"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-09-21",
+          "type": "release",
+          "summary": "发布 0.2.1: relaykit/v0.2.1",
+          "version": "0.2.1",
+          "source": "https://github.com/QuantumNous/new-api/releases/tag/relaykit%2Fv0.2.1"
+        }
+      ],
       "sources": [
         "https://github.com/QuantumNous/new-api"
       ],
-      "lastReviewed": "2026-07-23",
+      "lastReviewed": "2026-09-22",
       "region": "domestic",
       "id": "one-api",
       "name": "New API / One API",
@@ -37549,6 +37653,12 @@
       ],
       "updates": [
         {
+          "date": "2026-09-22",
+          "type": "feature",
+          "summary": "pgsql-test: Real Postgres Testing for Faster Development Loops",
+          "source": "https://www.postgresql.org/about/news/pgsql-test-real-postgres-testing-for-faster-development-loops-3380/"
+        },
+        {
           "date": "2026-09-11",
           "type": "feature",
           "summary": "CERN PGDay 2027: Announcement and CfP",
@@ -37572,7 +37682,7 @@
       "sources": [
         "https://www.postgresql.org"
       ],
-      "lastReviewed": "2026-09-13",
+      "lastReviewed": "2026-09-22",
       "region": "overseas",
       "id": "postgresql",
       "name": "PostgreSQL",
@@ -42428,6 +42538,12 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-09-21",
+          "type": "feature",
+          "summary": "Building Sentry's Laravel AI Integration",
+          "source": "https://blog.sentry.io/sentry-laravel-ai-integration/"
+        },
+        {
           "date": "2026-08-28",
           "type": "feature",
           "summary": "From one switch to a control panel: meet `dataCollection`",
@@ -42450,7 +42566,7 @@
       "sources": [
         "https://sentry.io"
       ],
-      "lastReviewed": "2026-08-31",
+      "lastReviewed": "2026-09-22",
       "region": "overseas",
       "id": "sentry",
       "name": "Sentry",
@@ -49398,6 +49514,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-21",
+          "type": "release",
+          "summary": "发布 0.3.20: vdev-v0.3.20",
+          "version": "0.3.20",
+          "source": "https://github.com/vectordotdev/vector/releases/tag/vdev-v0.3.20"
+        },
+        {
           "date": "2026-09-10",
           "type": "release",
           "summary": "发布 0.3.19: vdev-v0.3.19",
@@ -49416,7 +49539,7 @@
       "sources": [
         "https://vector.dev"
       ],
-      "lastReviewed": "2026-09-13",
+      "lastReviewed": "2026-09-22",
       "region": "overseas",
       "id": "vector-dev",
       "name": "Vector",
@@ -49613,6 +49736,12 @@
       ],
       "updates": [
         {
+          "date": "2026-09-21",
+          "type": "feature",
+          "summary": "Vercel Connect now supports Microsoft Teams",
+          "source": "https://vercel.com/changelog/vercel-connect-microsoft-teams"
+        },
+        {
           "date": "2026-09-11",
           "type": "feature",
           "summary": "Vercel Sandbox now provides 64 GB of storage",
@@ -49659,7 +49788,7 @@
       "sources": [
         "https://vercel.com"
       ],
-      "lastReviewed": "2026-09-13",
+      "lastReviewed": "2026-09-22",
       "region": "overseas",
       "id": "vercel",
       "name": "Vercel",

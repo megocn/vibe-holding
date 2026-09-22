@@ -25,6 +25,12 @@
   "currentVersion": "16.3.0",
   "updates": [
     {
+      "date": "2026-09-21",
+      "type": "feature",
+      "summary": "Upcoming Next.js Security Update for a Critical Upstream Issue",
+      "source": "https://nextjs.org/blog/upcoming-nextjs-security-release-september-22-2026"
+    },
+    {
       "date": "2026-09-11",
       "type": "release",
       "summary": "发布 16.3.5: 新版本",
@@ -76,7 +82,7 @@
   "sources": [
     "https://nextjs.org"
   ],
-  "lastReviewed": "2026-09-13",
+  "lastReviewed": "2026-09-22",
   "region": "overseas",
   "id": "nextjs",
   "name": "Next.js",

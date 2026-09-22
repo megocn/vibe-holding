@@ -21,6 +21,12 @@
   ],
   "updates": [
     {
+      "date": "2026-09-22",
+      "type": "feature",
+      "summary": "pgsql-test: Real Postgres Testing for Faster Development Loops",
+      "source": "https://www.postgresql.org/about/news/pgsql-test-real-postgres-testing-for-faster-development-loops-3380/"
+    },
+    {
       "date": "2026-09-11",
       "type": "feature",
       "summary": "CERN PGDay 2027: Announcement and CfP",
@@ -44,7 +50,7 @@
   "sources": [
     "https://www.postgresql.org"
   ],
-  "lastReviewed": "2026-09-13",
+  "lastReviewed": "2026-09-22",
   "region": "overseas",
   "id": "postgresql",
   "name": "PostgreSQL",

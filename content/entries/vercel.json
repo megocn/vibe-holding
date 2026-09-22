@@ -23,6 +23,12 @@
   ],
   "updates": [
     {
+      "date": "2026-09-21",
+      "type": "feature",
+      "summary": "Vercel Connect now supports Microsoft Teams",
+      "source": "https://vercel.com/changelog/vercel-connect-microsoft-teams"
+    },
+    {
       "date": "2026-09-11",
       "type": "feature",
       "summary": "Vercel Sandbox now provides 64 GB of storage",
@@ -69,7 +75,7 @@
   "sources": [
     "https://vercel.com"
   ],
-  "lastReviewed": "2026-09-13",
+  "lastReviewed": "2026-09-22",
   "region": "overseas",
   "id": "vercel",
   "name": "Vercel",

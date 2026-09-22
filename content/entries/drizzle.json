@@ -16,12 +16,20 @@
   ],
   "maturity": "stable",
   "pitfalls": [],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-09-21",
+      "type": "release",
+      "summary": "发布 0.45.3: 新版本",
+      "version": "0.45.3",
+      "source": "https://github.com/drizzle-team/drizzle-orm/releases/tag/0.45.3"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://orm.drizzle.team"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-09-22",
   "region": "overseas",
   "id": "drizzle",
   "name": "Drizzle ORM",

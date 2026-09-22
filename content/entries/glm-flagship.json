@@ -79,14 +79,14 @@
     {
       "systemId": "openrouter-popularity",
       "rank": 2,
-      "scoreLabel": "10.8%",
-      "share": 10.8,
+      "scoreLabel": "13.7%",
+      "share": 13.7,
       "period": "2026-09",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-09-20",
-      "previousRank": 4,
-      "previousShare": 9.8,
-      "previousAsOf": "2026-09-19"
+      "asOf": "2026-09-22",
+      "previousRank": 2,
+      "previousShare": 10.8,
+      "previousAsOf": "2026-09-20"
     },
     {
       "systemId": "lmarena-document",
@@ -100,6 +100,16 @@
       "previousRank": 33,
       "previousScore": 1417,
       "previousAsOf": "2026-09-13"
+    },
+    {
+      "systemId": "lmarena-vision",
+      "rank": 30,
+      "score": 1275,
+      "scoreLabel": "1275 Elo",
+      "period": "2026-09",
+      "sourceUrl": "https://arena.ai/leaderboard/vision",
+      "note": "模型 glm-5.3-flash",
+      "asOf": "2026-09-22"
     }
   ],
   "sources": [

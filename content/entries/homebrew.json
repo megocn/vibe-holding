@@ -20,6 +20,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-21",
+      "type": "release",
+      "summary": "发布 7.0.6: 新版本",
+      "version": "7.0.6",
+      "source": "https://github.com/Homebrew/brew/releases/tag/7.0.6"
+    },
+    {
       "date": "2026-09-13",
       "type": "release",
       "summary": "发布 7.0.1: 新版本",
@@ -52,7 +59,7 @@
   "sources": [
     "https://brew.sh"
   ],
-  "lastReviewed": "2026-09-13",
+  "lastReviewed": "2026-09-22",
   "region": "overseas",
   "id": "homebrew",
   "name": "Homebrew",
