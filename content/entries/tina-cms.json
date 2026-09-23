@@ -22,12 +22,20 @@
     "内容规模变大后 Git 读写与构建时间明显变慢。",
     "多人同时编辑的冲突处理与权限粒度弱于托管型 CMS。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-09-23",
+      "type": "release",
+      "summary": "发布 3.14.1: tinacms@3.14.1",
+      "version": "3.14.1",
+      "source": "https://github.com/tinacms/tinacms/releases/tag/tinacms%403.14.1"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://tina.io"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-09-23",
   "region": "overseas",
   "id": "tina-cms",
   "name": "TinaCMS",

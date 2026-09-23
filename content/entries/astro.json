@@ -17,6 +17,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-22",
+      "type": "release",
+      "summary": "发布 11.0.11: @astrojs/vercel@11.0.11",
+      "version": "11.0.11",
+      "source": "https://github.com/withastro/astro/releases/tag/%40astrojs%2Fvercel%4011.0.11"
+    },
+    {
       "date": "2026-09-08",
       "type": "release",
       "summary": "发布 8.0.1: @astrojs/mdx@8.0.1",
@@ -49,7 +56,7 @@
   "sources": [
     "https://astro.build"
   ],
-  "lastReviewed": "2026-09-13",
+  "lastReviewed": "2026-09-23",
   "region": "overseas",
   "id": "astro",
   "name": "Astro",

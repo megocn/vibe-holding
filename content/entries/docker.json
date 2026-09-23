@@ -17,6 +17,12 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-09-22",
+      "type": "feature",
+      "summary": "Meet the Ecosystem: Partners and Customers at WeAreDevelopers with Docker",
+      "source": "https://www.docker.com/blog/wearedevelopers-partner-customer-sessions-2026/"
+    },
+    {
       "date": "2026-09-08",
       "type": "feature",
       "summary": "Benefits of Sandbox Environments (and How Docker Sandboxes Delivers Them)",
@@ -51,7 +57,7 @@
   "sources": [
     "https://www.docker.com"
   ],
-  "lastReviewed": "2026-09-10",
+  "lastReviewed": "2026-09-23",
   "region": "overseas",
   "id": "docker",
   "name": "Docker",

@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-22",
+      "type": "release",
+      "summary": "发布 3.11.3: decap-server@3.11.3",
+      "version": "3.11.3",
+      "source": "https://github.com/decaporg/decap-cms/releases/tag/decap-server%403.11.3"
+    },
+    {
       "date": "2026-09-10",
       "type": "release",
       "summary": "发布 3.11.2: decap-server@3.11.2",
@@ -34,7 +41,7 @@
   "sources": [
     "https://decapcms.org"
   ],
-  "lastReviewed": "2026-09-13",
+  "lastReviewed": "2026-09-23",
   "region": "overseas",
   "id": "decap-cms",
   "name": "Decap CMS",

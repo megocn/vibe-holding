@@ -17,6 +17,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-21",
+      "type": "release",
+      "summary": "发布 4.1: Agents on Rails: Maximum effort and DeepSeek 4.1 Flash",
+      "version": "4.1",
+      "source": "https://rubyonrails.org/2026/9/21/agents-on-rails-maximum-effort-and-deepseek-4-1-flash"
+    },
+    {
       "date": "2026-09-11",
       "type": "feature",
       "summary": "Alternative text in attachments and more",
@@ -52,7 +59,7 @@
   "sources": [
     "https://rubyonrails.org"
   ],
-  "lastReviewed": "2026-09-13",
+  "lastReviewed": "2026-09-23",
   "region": "overseas",
   "id": "rails",
   "name": "Ruby on Rails",
@@ -61,5 +68,6 @@
   "oneLiner": "Convention 优先 · scaffold 极快 · ActiveRecord 一体 MVP",
   "officialUrl": "https://rubyonrails.org",
   "descriptionMd": "Rails 以 convention over configuration 著称， scaffold 极快，ActiveRecord/ActionCable 一体，初创 MVP 经典选择。\n\n2–10 人团队快速构建 SaaS MVP、internal tool 或 content+commerce 站点。\n\n超大 monolith 性能需拆分；JavaScript 前端现代栈需配合 Hotwire/Stimulus。\n",
-  "vendorId": "rails-core"
+  "vendorId": "rails-core",
+  "currentVersion": "4.1"
 }

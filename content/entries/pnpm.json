@@ -18,6 +18,13 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-09-22",
+      "type": "release",
+      "summary": "发布 12.6: pnpm 12.6",
+      "version": "12.6",
+      "source": "https://pnpm.io/blog/releases/12.6"
+    },
+    {
       "date": "2026-09-10",
       "type": "release",
       "summary": "发布 12.4: pnpm 12.4",
@@ -35,7 +42,7 @@
   "sources": [
     "https://pnpm.io"
   ],
-  "lastReviewed": "2026-09-13",
+  "lastReviewed": "2026-09-23",
   "region": "overseas",
   "id": "pnpm",
   "name": "pnpm",
@@ -44,5 +51,5 @@
   "oneLiner": "内容寻址+严格依赖 · 磁盘省 · 现代 Monorepo 默认",
   "descriptionMd": "pnpm 用内容寻址存储与严格依赖提升磁盘效率，Monorepo 友好，是现代 JS 仓常见默认包管理器。\n\n与 npm/yarn 互操作需约定 lockfile；CI 缓存策略要按 pnpm store 配置。与 workspace 协议搭配效果最佳。\n\nshamefully-hoist 等兼容开关能救老项目，但新仓尽量保持严格依赖。\n",
   "officialUrl": "https://pnpm.io",
-  "currentVersion": "12.4"
+  "currentVersion": "12.6"
 }
