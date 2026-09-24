@@ -21,12 +21,20 @@
     "只解决数据合并，鉴权、持久化与版本历史需自建",
     "文档随编辑历史增长，需设计快照与垃圾回收策略"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-09-23",
+      "type": "release",
+      "summary": "发布 13.6.33: 新版本",
+      "version": "13.6.33",
+      "source": "https://github.com/yjs/yjs/releases/tag/v13.6.33"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://yjs.dev"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-09-24",
   "region": "overseas",
   "id": "yjs",
   "name": "Yjs",

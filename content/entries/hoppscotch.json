@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-23",
+      "type": "release",
+      "summary": "发布 2026.8.2: 新版本",
+      "version": "2026.8.2",
+      "source": "https://github.com/hoppscotch/hoppscotch/releases/tag/2026.8.2"
+    },
+    {
       "date": "2026-08-28",
       "type": "release",
       "summary": "发布 2026.8.0: 新版本",
@@ -40,7 +47,7 @@
   "sources": [
     "https://hoppscotch.io"
   ],
-  "lastReviewed": "2026-08-28",
+  "lastReviewed": "2026-09-24",
   "region": "overseas",
   "id": "hoppscotch",
   "name": "Hoppscotch",

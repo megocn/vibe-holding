@@ -24,6 +24,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-23",
+      "type": "release",
+      "summary": "发布 0.8.2: self-hosted/v0.8.2",
+      "version": "0.8.2",
+      "source": "https://github.com/supabase/supabase/releases/tag/self-hosted%2Fv0.8.2"
+    },
+    {
       "date": "2026-09-09",
       "type": "release",
       "summary": "发布 0.8.1: self-hosted/v0.8.1",
@@ -52,7 +59,7 @@
   "sources": [
     "https://supabase.com"
   ],
-  "lastReviewed": "2026-09-10",
+  "lastReviewed": "2026-09-24",
   "region": "overseas",
   "id": "supabase",
   "name": "Supabase",
