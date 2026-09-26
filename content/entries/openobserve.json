@@ -24,6 +24,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-24",
+      "type": "release",
+      "summary": "发布 1.0.4: Release v1.0.4",
+      "version": "1.0.4",
+      "source": "https://github.com/openobserve/openobserve/releases/tag/v1.0.4"
+    },
+    {
       "date": "2026-09-11",
       "type": "release",
       "summary": "发布 1.0.0: Release v1.0.0",
@@ -56,7 +63,7 @@
   "sources": [
     "https://openobserve.ai"
   ],
-  "lastReviewed": "2026-09-13",
+  "lastReviewed": "2026-09-26",
   "region": "overseas",
   "id": "openobserve",
   "name": "OpenObserve",

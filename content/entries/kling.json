@@ -69,7 +69,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
       "note": "模型 kling-2.5-turbo-1080p",
-      "asOf": "2026-09-19"
+      "asOf": "2026-09-26",
+      "previousRank": 27,
+      "previousScore": 1276,
+      "previousAsOf": "2026-09-19"
     }
   ],
   "sources": [

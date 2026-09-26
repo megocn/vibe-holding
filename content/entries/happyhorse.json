@@ -50,10 +50,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 happyhorse-1.0",
-      "asOf": "2026-09-19",
+      "asOf": "2026-09-26",
       "previousRank": 10,
       "previousScore": 1427,
-      "previousAsOf": "2026-09-07"
+      "previousAsOf": "2026-09-19"
     },
     {
       "systemId": "lmarena-i2v",
@@ -63,10 +63,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
       "note": "模型 happyhorse-1.0",
-      "asOf": "2026-09-19",
-      "previousRank": 9,
+      "asOf": "2026-09-26",
+      "previousRank": 10,
       "previousScore": 1442,
-      "previousAsOf": "2026-09-13"
+      "previousAsOf": "2026-09-19"
     },
     {
       "systemId": "lmarena-video-edit",

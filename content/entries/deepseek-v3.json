@@ -72,28 +72,28 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 2,
-      "scoreLabel": "14.3%",
-      "share": 14.3,
+      "rank": 1,
+      "scoreLabel": "14.9%",
+      "share": 14.9,
       "period": "2026-09",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-09-23",
-      "previousRank": 1,
-      "previousShare": 13.8,
-      "previousAsOf": "2026-09-22"
+      "asOf": "2026-09-26",
+      "previousRank": 2,
+      "previousShare": 14.3,
+      "previousAsOf": "2026-09-23"
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 16,
-      "score": 1614,
-      "scoreLabel": "1614 Elo",
+      "rank": 18,
+      "score": 1620,
+      "scoreLabel": "1620 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 deepseek-v4.1-flash-max",
-      "asOf": "2026-09-20",
+      "asOf": "2026-09-26",
       "previousRank": 16,
       "previousScore": 1614,
-      "previousAsOf": "2026-09-13"
+      "previousAsOf": "2026-09-20"
     }
   ],
   "subcategory": "line",

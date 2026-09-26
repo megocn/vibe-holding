@@ -17,6 +17,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-25",
+      "type": "release",
+      "summary": "发布 1.6.3: langchain-fireworks==1.6.3",
+      "version": "1.6.3",
+      "source": "https://github.com/langchain-ai/langchain/releases/tag/langchain-fireworks%3D%3D1.6.3"
+    },
+    {
       "date": "2026-09-18",
       "type": "release",
       "summary": "发布 1.4.2: langchain==1.4.2",
@@ -62,7 +69,7 @@
   "sources": [
     "https://www.langchain.com"
   ],
-  "lastReviewed": "2026-09-19",
+  "lastReviewed": "2026-09-26",
   "region": "overseas",
   "id": "langchain",
   "name": "LangChain",

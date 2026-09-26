@@ -18,6 +18,12 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-09-25",
+      "type": "feature",
+      "summary": "Changes to query results in the GitHub Actions API and UI",
+      "source": "https://github.blog/changelog/2026-09-25-changes-to-query-results-in-the-github-actions-api-and-ui"
+    },
+    {
       "date": "2026-09-17",
       "type": "feature",
       "summary": "Ubuntu 26 generally available and latest migration",
@@ -34,7 +40,7 @@
   "sources": [
     "https://github.com/features/actions"
   ],
-  "lastReviewed": "2026-09-19",
+  "lastReviewed": "2026-09-26",
   "region": "overseas",
   "id": "github-actions",
   "name": "GitHub Actions",

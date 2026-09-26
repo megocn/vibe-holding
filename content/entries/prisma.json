@@ -20,6 +20,12 @@
   ],
   "updates": [
     {
+      "date": "2026-09-24",
+      "type": "feature",
+      "summary": "How to use Prisma ORM 8 in NestJS: setup, queries, deploy",
+      "source": "https://www.prisma.io/blog/prisma-orm-8-nestjs"
+    },
+    {
       "date": "2026-09-16",
       "type": "feature",
       "summary": "Prisma vs Netlify for TypeScript apps: which platform?",
@@ -43,7 +49,7 @@
   "sources": [
     "https://www.prisma.io"
   ],
-  "lastReviewed": "2026-09-19",
+  "lastReviewed": "2026-09-26",
   "region": "overseas",
   "id": "prisma",
   "name": "Prisma",

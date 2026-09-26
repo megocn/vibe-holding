@@ -17,6 +17,12 @@
   ],
   "updates": [
     {
+      "date": "2026-09-24",
+      "type": "feature",
+      "summary": "DSF member of the month - Ken Whitesell",
+      "source": "https://www.djangoproject.com/weblog/2026/sep/24/dsf-member-of-the-month-ken-whitesell/"
+    },
+    {
       "date": "2026-09-18",
       "type": "feature",
       "summary": "Proposed change to DSF voting membership",
@@ -59,7 +65,7 @@
   "sources": [
     "https://www.djangoproject.com"
   ],
-  "lastReviewed": "2026-09-19",
+  "lastReviewed": "2026-09-26",
   "region": "overseas",
   "id": "django",
   "name": "Django",

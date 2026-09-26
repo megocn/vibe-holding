@@ -30,16 +30,16 @@
   "rankings": [
     {
       "systemId": "lmarena-image",
-      "rank": 17,
-      "score": 1204,
-      "scoreLabel": "1204 Elo",
+      "rank": 18,
+      "score": 1205,
+      "scoreLabel": "1205 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 ideogram-4.0-quality",
-      "asOf": "2026-09-20",
+      "asOf": "2026-09-26",
       "previousRank": 17,
       "previousScore": 1204,
-      "previousAsOf": "2026-09-13"
+      "previousAsOf": "2026-09-20"
     },
     {
       "systemId": "aa-image-arena",

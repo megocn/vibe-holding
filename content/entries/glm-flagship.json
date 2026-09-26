@@ -52,16 +52,16 @@
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 15,
-      "score": 1614,
-      "scoreLabel": "1614 Elo",
+      "rank": 17,
+      "score": 1622,
+      "scoreLabel": "1622 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 glm-5.3-max",
-      "asOf": "2026-09-20",
+      "asOf": "2026-09-26",
       "previousRank": 15,
       "previousScore": 1614,
-      "previousAsOf": "2026-09-13"
+      "previousAsOf": "2026-09-20"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -78,15 +78,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 1,
-      "scoreLabel": "14.8%",
-      "share": 14.8,
+      "rank": 2,
+      "scoreLabel": "14.9%",
+      "share": 14.9,
       "period": "2026-09",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-09-23",
-      "previousRank": 2,
-      "previousShare": 13.7,
-      "previousAsOf": "2026-09-22"
+      "asOf": "2026-09-26",
+      "previousRank": 1,
+      "previousShare": 14.8,
+      "previousAsOf": "2026-09-23"
     },
     {
       "systemId": "lmarena-document",
@@ -96,10 +96,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 glm-5v-turbo",
-      "asOf": "2026-09-19",
-      "previousRank": 33,
-      "previousScore": 1417,
-      "previousAsOf": "2026-09-13"
+      "asOf": "2026-09-26",
+      "previousRank": 39,
+      "previousScore": 1416,
+      "previousAsOf": "2026-09-19"
     },
     {
       "systemId": "lmarena-vision",

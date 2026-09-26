@@ -32,16 +32,16 @@
   "rankings": [
     {
       "systemId": "lmarena-image",
-      "rank": 31,
-      "score": 1151,
-      "scoreLabel": "1151 Elo",
+      "rank": 33,
+      "score": 1150,
+      "scoreLabel": "1150 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 hunyuan-image-3.0",
-      "asOf": "2026-09-20",
+      "asOf": "2026-09-26",
       "previousRank": 31,
       "previousScore": 1151,
-      "previousAsOf": "2026-09-13"
+      "previousAsOf": "2026-09-20"
     },
     {
       "systemId": "aa-image-arena",
@@ -58,16 +58,16 @@
     },
     {
       "systemId": "lmarena-image-edit",
-      "rank": 22,
+      "rank": 23,
       "score": 1302,
       "scoreLabel": "1302 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 hunyuan-image-3.0-instruct",
-      "asOf": "2026-09-20",
+      "asOf": "2026-09-26",
       "previousRank": 22,
       "previousScore": 1302,
-      "previousAsOf": "2026-09-13"
+      "previousAsOf": "2026-09-20"
     }
   ],
   "sources": [

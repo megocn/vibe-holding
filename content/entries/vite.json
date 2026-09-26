@@ -18,6 +18,13 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-09-24",
+      "type": "release",
+      "summary": "发布 8.3.1: 新版本",
+      "version": "8.3.1",
+      "source": "https://github.com/vitejs/vite/releases/tag/v8.3.1"
+    },
+    {
       "date": "2026-09-10",
       "type": "release",
       "summary": "发布 8.3.0: 新版本",
@@ -43,7 +50,7 @@
   "sources": [
     "https://vite.dev"
   ],
-  "lastReviewed": "2026-09-10",
+  "lastReviewed": "2026-09-26",
   "region": "overseas",
   "id": "vite",
   "name": "Vite",

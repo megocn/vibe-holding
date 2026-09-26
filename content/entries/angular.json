@@ -17,6 +17,12 @@
   ],
   "updates": [
     {
+      "date": "2026-09-25",
+      "type": "feature",
+      "summary": "Architecting the Modern Web: Debounce APIs, Rendering Strategies, and Automated AI Setup! ⚡",
+      "source": "https://blog.angular.dev/architecting-the-modern-web-debounce-apis-rendering-strategies-and-automated-ai-setup-826bc54ae3a9?source=rss----447683c3d9a3---4"
+    },
+    {
       "date": "2026-09-16",
       "type": "release",
       "summary": "维护线 22 最新 22.1.7",
@@ -55,7 +61,7 @@
   "sources": [
     "https://angular.dev"
   ],
-  "lastReviewed": "2026-09-19",
+  "lastReviewed": "2026-09-26",
   "region": "overseas",
   "id": "angular",
   "name": "Angular",

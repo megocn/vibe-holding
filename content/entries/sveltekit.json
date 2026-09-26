@@ -20,6 +20,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-25",
+      "type": "release",
+      "summary": "发布 3.0.0-next.29: @sveltejs/kit@3.0.0-next.29",
+      "version": "3.0.0-next.29",
+      "source": "https://github.com/sveltejs/kit/releases/tag/%40sveltejs%2Fkit%403.0.0-next.29"
+    },
+    {
       "date": "2026-09-08",
       "type": "release",
       "summary": "发布 3.0.0-next.8: @sveltejs/package@3.0.0-next.8",
@@ -51,7 +58,7 @@
   "sources": [
     "https://kit.svelte.dev"
   ],
-  "lastReviewed": "2026-09-10",
+  "lastReviewed": "2026-09-26",
   "region": "overseas",
   "id": "sveltekit",
   "name": "SvelteKit",
@@ -70,5 +77,5 @@
       "previousAsOf": "2026-07-20"
     }
   ],
-  "currentVersion": "3.0.0-next.8"
+  "currentVersion": "3.0.0-next.29"
 }

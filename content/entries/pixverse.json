@@ -34,6 +34,16 @@
       "previousRank": 16,
       "previousScore": 1073,
       "previousAsOf": "2026-07-24"
+    },
+    {
+      "systemId": "lmarena-t2v",
+      "rank": 26,
+      "score": 1240,
+      "scoreLabel": "1240 Elo",
+      "period": "2026-09",
+      "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
+      "note": "模型 pixverse-v5.6",
+      "asOf": "2026-09-26"
     }
   ],
   "sources": [

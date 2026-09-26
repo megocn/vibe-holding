@@ -19,6 +19,12 @@
   ],
   "updates": [
     {
+      "date": "2026-09-25",
+      "type": "feature",
+      "summary": "How to Optimize for AI Search: A Guide for You and Your AI Agent",
+      "source": "https://ahrefs.com/blog/how-to-optimize-for-ai-search/"
+    },
+    {
       "date": "2026-09-16",
       "type": "feature",
       "summary": "AI Overviews Cut CTR by 23.1% in France",
@@ -41,7 +47,7 @@
   "sources": [
     "https://ahrefs.com"
   ],
-  "lastReviewed": "2026-09-19",
+  "lastReviewed": "2026-09-26",
   "region": "overseas",
   "id": "ahrefs",
   "name": "Ahrefs",

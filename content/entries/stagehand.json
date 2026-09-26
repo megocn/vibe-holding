@@ -22,6 +22,12 @@
   ],
   "updates": [
     {
+      "date": "2026-09-25",
+      "type": "feature",
+      "summary": "stagehand-python@4.2.0a0.dev1539: [docs]: change intro copy (#3048)",
+      "source": "https://github.com/browserbase/stagehand/releases/tag/stagehand-python%404.2.0a0.dev1539"
+    },
+    {
       "date": "2026-09-18",
       "type": "feature",
       "summary": "stagehand-python@4.2.0a0.dev1524: [feat]: add WebMCP tools added/removed event hooks (#2916)",
@@ -59,7 +65,7 @@
   "sources": [
     "https://github.com/browserbase/stagehand"
   ],
-  "lastReviewed": "2026-09-19",
+  "lastReviewed": "2026-09-26",
   "region": "overseas",
   "id": "stagehand",
   "name": "Stagehand",

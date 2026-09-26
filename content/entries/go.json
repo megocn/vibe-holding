@@ -18,6 +18,12 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-09-24",
+      "type": "feature",
+      "summary": "Platform-independent SIMD in Go",
+      "source": "https://go.dev/blog/simd-experiment"
+    },
+    {
       "date": "2026-09-16",
       "type": "feature",
       "summary": "Size-Specialized Memory Allocation",
@@ -42,7 +48,7 @@
   "sources": [
     "https://go.dev"
   ],
-  "lastReviewed": "2026-09-19",
+  "lastReviewed": "2026-09-26",
   "region": "both",
   "id": "go",
   "name": "Go",

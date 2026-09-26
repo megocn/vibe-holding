@@ -22,6 +22,12 @@
   ],
   "updates": [
     {
+      "date": "2026-09-24",
+      "type": "feature",
+      "summary": "The official FastAPI Redis SDK is now available",
+      "source": "https://redis.io/blog/the-official-fastapi-redis-sdk-is-now-available/"
+    },
+    {
       "date": "2026-09-17",
       "type": "release",
       "summary": "维护线 8.10 最新 8.10.2",
@@ -57,7 +63,7 @@
   "sources": [
     "https://redis.io"
   ],
-  "lastReviewed": "2026-09-19",
+  "lastReviewed": "2026-09-26",
   "region": "overseas",
   "id": "redis",
   "name": "Redis",
