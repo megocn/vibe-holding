@@ -48,13 +48,13 @@
   "rankings": [
     {
       "systemId": "lmarena-text",
-      "period": "2026-07",
-      "note": "claude-fable-5 · Text Overall",
+      "rank": 3,
+      "score": 1504,
+      "scoreLabel": "1504 Elo",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "asOf": "2026-07-24",
-      "rank": 1,
-      "score": 1507,
-      "scoreLabel": "1507 Elo",
+      "note": "模型 claude-fable-5-high",
+      "asOf": "2026-09-27",
       "previousRank": 1,
       "previousScore": 1507,
       "previousAsOf": "2026-07-24"
@@ -116,10 +116,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/search",
       "note": "模型 claude-fable-5-high",
-      "asOf": "2026-09-20",
+      "asOf": "2026-09-27",
       "previousRank": 5,
       "previousScore": 1230,
-      "previousAsOf": "2026-09-13"
+      "previousAsOf": "2026-09-20"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -149,15 +149,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 35,
+      "rank": 34,
       "scoreLabel": "0.5%",
       "share": 0.5,
       "period": "2026-09",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-09-26",
-      "previousRank": 41,
-      "previousShare": 0.4,
-      "previousAsOf": "2026-09-24"
+      "asOf": "2026-09-27",
+      "previousRank": 35,
+      "previousShare": 0.5,
+      "previousAsOf": "2026-09-26"
     }
   ],
   "sources": [

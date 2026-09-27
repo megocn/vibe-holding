@@ -40,16 +40,16 @@
   "rankings": [
     {
       "systemId": "lmarena-text",
-      "rank": 15,
+      "rank": 17,
       "score": 1487,
       "scoreLabel": "1487 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 gemini-3.1-pro-preview",
-      "asOf": "2026-09-20",
-      "previousRank": 13,
+      "asOf": "2026-09-27",
+      "previousRank": 15,
       "previousScore": 1487,
-      "previousAsOf": "2026-09-13"
+      "previousAsOf": "2026-09-20"
     },
     {
       "systemId": "lmarena-vision",
@@ -72,10 +72,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/search",
       "note": "模型 gemini-3.1-pro-grounding",
-      "asOf": "2026-09-20",
+      "asOf": "2026-09-27",
       "previousRank": 9,
       "previousScore": 1210,
-      "previousAsOf": "2026-09-13"
+      "previousAsOf": "2026-09-20"
     },
     {
       "systemId": "artificial-analysis-index",

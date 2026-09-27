@@ -20,6 +20,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-26",
+      "type": "release",
+      "summary": "发布 17.6.0: 新版本",
+      "version": "17.6.0",
+      "source": "https://github.com/lint-staged/lint-staged/releases/tag/v17.6.0"
+    },
+    {
       "date": "2026-09-10",
       "type": "release",
       "summary": "发布 17.5.1: 新版本",
@@ -31,7 +38,7 @@
   "sources": [
     "https://github.com/lint-staged/lint-staged"
   ],
-  "lastReviewed": "2026-09-10",
+  "lastReviewed": "2026-09-27",
   "region": "overseas",
   "id": "lint-staged",
   "name": "lint-staged",
@@ -39,5 +46,6 @@
   "subcategory": "git-hooks",
   "oneLiner": "仅跑 staged 文件 · 提交前增量 lint/format",
   "officialUrl": "https://github.com/lint-staged/lint-staged",
-  "descriptionMd": "lint-staged 在 pre-commit 时只对 git staged 文件执行 ESLint/Prettier 等，避免全仓扫描拖慢提交。\n\nHusky + lint-staged 是前端团队标配组合；大仓库本地体验提升明显。\n\n配置 glob 遗漏会导致部分文件绕过检查；与 Monorepo 路径别名要对齐。\n"
+  "descriptionMd": "lint-staged 在 pre-commit 时只对 git staged 文件执行 ESLint/Prettier 等，避免全仓扫描拖慢提交。\n\nHusky + lint-staged 是前端团队标配组合；大仓库本地体验提升明显。\n\n配置 glob 遗漏会导致部分文件绕过检查；与 Monorepo 路径别名要对齐。\n",
+  "currentVersion": "17.6.0"
 }

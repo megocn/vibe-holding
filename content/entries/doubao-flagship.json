@@ -55,10 +55,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 seedream-5.0-pro",
-      "asOf": "2026-09-20",
+      "asOf": "2026-09-27",
       "previousRank": 8,
       "previousScore": 1394,
-      "previousAsOf": "2026-09-13"
+      "previousAsOf": "2026-09-20"
     },
     {
       "systemId": "lmarena-vision",

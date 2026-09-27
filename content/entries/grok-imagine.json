@@ -95,10 +95,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/video-edit",
       "note": "模型 grok-imagine-video",
-      "asOf": "2026-09-20",
+      "asOf": "2026-09-27",
       "previousRank": 7,
       "previousScore": 1258,
-      "previousAsOf": "2026-09-13"
+      "previousAsOf": "2026-09-20"
     }
   ],
   "sources": [

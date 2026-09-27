@@ -80,13 +80,16 @@
     },
     {
       "systemId": "lmarena-text",
-      "rank": 39,
-      "score": 1467,
-      "scoreLabel": "1467 Elo",
-      "period": "2026-08",
+      "rank": 23,
+      "score": 1480,
+      "scoreLabel": "1480 Elo",
+      "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "note": "模型 mimo-v2.5-pro",
-      "asOf": "2026-08-10"
+      "note": "模型 mimo-v2.6-pro",
+      "asOf": "2026-09-27",
+      "previousRank": 39,
+      "previousScore": 1467,
+      "previousAsOf": "2026-08-10"
     }
   ],
   "sources": [

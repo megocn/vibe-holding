@@ -23,16 +23,16 @@
   "rankings": [
     {
       "systemId": "lmarena-webdev",
-      "rank": 12,
-      "score": 1632,
-      "scoreLabel": "1632 Elo",
+      "rank": 13,
+      "score": 1629,
+      "scoreLabel": "1629 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 grok-4.7-xhigh",
-      "asOf": "2026-09-26",
-      "previousRank": 13,
-      "previousScore": 1618,
-      "previousAsOf": "2026-09-20"
+      "asOf": "2026-09-27",
+      "previousRank": 12,
+      "previousScore": 1632,
+      "previousAsOf": "2026-09-26"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -81,10 +81,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/search",
       "note": "模型 grok-4.5",
-      "asOf": "2026-09-20",
+      "asOf": "2026-09-27",
       "previousRank": 8,
       "previousScore": 1213,
-      "previousAsOf": "2026-09-13"
+      "previousAsOf": "2026-09-20"
     },
     {
       "systemId": "lmarena-document",

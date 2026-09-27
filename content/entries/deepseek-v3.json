@@ -51,10 +51,13 @@
   "rankings": [
     {
       "systemId": "lmarena-text",
-      "tier": "Open-weight frontier",
-      "period": "2026-07",
-      "note": "V4-Pro 开源权重阵营前列",
-      "asOf": "2026-07-23",
+      "rank": 29,
+      "score": 1477,
+      "scoreLabel": "1477 Elo",
+      "period": "2026-09",
+      "sourceUrl": "https://arena.ai/leaderboard/text",
+      "note": "模型 deepseek-v4.1-flash-max",
+      "asOf": "2026-09-27",
       "previousAsOf": "2026-07-23"
     },
     {
@@ -84,16 +87,16 @@
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 18,
-      "score": 1620,
-      "scoreLabel": "1620 Elo",
+      "rank": 16,
+      "score": 1621,
+      "scoreLabel": "1621 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 deepseek-v4.1-flash-max",
-      "asOf": "2026-09-26",
-      "previousRank": 16,
-      "previousScore": 1614,
-      "previousAsOf": "2026-09-20"
+      "asOf": "2026-09-27",
+      "previousRank": 18,
+      "previousScore": 1620,
+      "previousAsOf": "2026-09-26"
     }
   ],
   "subcategory": "line",

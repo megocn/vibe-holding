@@ -43,16 +43,16 @@
     },
     {
       "systemId": "lmarena-text",
-      "rank": 9,
-      "score": 1493,
-      "scoreLabel": "1493 Elo",
+      "rank": 10,
+      "score": 1492,
+      "scoreLabel": "1492 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 gemini-3.8-flash-high",
-      "asOf": "2026-09-26",
+      "asOf": "2026-09-27",
       "previousRank": 9,
       "previousScore": 1493,
-      "previousAsOf": "2026-09-19"
+      "previousAsOf": "2026-09-26"
     },
     {
       "systemId": "lmarena-vision",
@@ -75,10 +75,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/search",
       "note": "模型 gemini-3-flash-grounding",
-      "asOf": "2026-09-20",
+      "asOf": "2026-09-27",
       "previousRank": 15,
       "previousScore": 1198,
-      "previousAsOf": "2026-09-13"
+      "previousAsOf": "2026-09-20"
     },
     {
       "systemId": "lmarena-image",
@@ -88,10 +88,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 gemini-3.1-flash-image (nano-banana-2) [web-search]",
-      "asOf": "2026-09-20",
+      "asOf": "2026-09-27",
       "previousRank": 9,
       "previousScore": 1261,
-      "previousAsOf": "2026-09-13"
+      "previousAsOf": "2026-09-20"
     },
     {
       "systemId": "lmarena-image-edit",
@@ -108,15 +108,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 14,
+      "rank": 15,
       "scoreLabel": "1.7%",
       "share": 1.7,
       "period": "2026-09",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-09-26",
-      "previousRank": 11,
+      "asOf": "2026-09-27",
+      "previousRank": 14,
       "previousShare": 1.7,
-      "previousAsOf": "2026-09-24"
+      "previousAsOf": "2026-09-26"
     },
     {
       "systemId": "lmarena-document",
@@ -165,10 +165,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
       "note": "模型 gemini-omni-1.1-flash",
-      "asOf": "2026-09-20",
+      "asOf": "2026-09-27",
       "previousRank": 2,
       "previousScore": 1488,
-      "previousAsOf": "2026-09-13"
+      "previousAsOf": "2026-09-20"
     }
   ],
   "sources": [

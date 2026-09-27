@@ -76,10 +76,10 @@
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/video-edit",
       "note": "模型 happyhorse-1.0",
-      "asOf": "2026-09-20",
+      "asOf": "2026-09-27",
       "previousRank": 6,
       "previousScore": 1307,
-      "previousAsOf": "2026-09-13"
+      "previousAsOf": "2026-09-20"
     },
     {
       "systemId": "aa-video-arena",
