@@ -42,6 +42,16 @@
       "previousRank": 37,
       "previousShare": 0.4,
       "previousAsOf": "2026-08-31"
+    },
+    {
+      "systemId": "lmarena-webdev",
+      "rank": 29,
+      "score": 1565,
+      "scoreLabel": "1565 Elo",
+      "period": "2026-09",
+      "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+      "note": "模型 step-5-preview-high",
+      "asOf": "2026-09-28"
     }
   ],
   "sources": [

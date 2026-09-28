@@ -7911,15 +7911,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 27,
+          "rank": 26,
           "scoreLabel": "0.8%",
           "share": 0.8,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-27",
-          "previousRank": 26,
+          "asOf": "2026-09-28",
+          "previousRank": 27,
           "previousShare": 0.8,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-09-27"
         },
         {
           "systemId": "swe-bench-pro",
@@ -13811,12 +13811,20 @@
         "生态与中文资料规模不及 Gin",
         "跨大版本模块路径变更需批量改 import"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-09-27",
+          "type": "release",
+          "summary": "发布 5.4.0: 新版本",
+          "version": "5.4.0",
+          "source": "https://github.com/labstack/echo/releases/tag/v5.4.0"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://echo.labstack.com"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-09-28",
       "region": "overseas",
       "id": "echo-go",
       "name": "Echo",
@@ -13826,7 +13834,8 @@
       "officialUrl": "https://echo.labstack.com",
       "descriptionMd": "Echo 是 Go 的轻量高性能 Web 框架，路由分组、参数绑定与中间件一应俱全，另内建 JWT、限流与自动 TLS 等常用件，整体 API 风格与 Gin 高度相似。\n\nGo 服务想要比 Gin 更多开箱中间件、又不愿引入大型企业框架时评估；两者迁移成本相近，团队熟悉度往往是决定项。\n\n生态广度与招聘心智不及 Gin，中文教程较少；历史上换过模块导入路径，老代码跨大版本升级要批量改 import。\n",
       "vendorId": "labstack",
-      "githubUrl": "https://github.com/labstack/echo"
+      "githubUrl": "https://github.com/labstack/echo",
+      "currentVersion": "5.4.0"
     },
     {
       "pricing": {
@@ -17372,15 +17381,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 32,
+          "rank": 33,
           "scoreLabel": "0.5%",
           "share": 0.5,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-27",
-          "previousRank": 31,
+          "asOf": "2026-09-28",
+          "previousRank": 32,
           "previousShare": 0.5,
-          "previousAsOf": "2026-09-24"
+          "previousAsOf": "2026-09-27"
         }
       ],
       "sources": [
@@ -17535,16 +17544,16 @@
         },
         {
           "systemId": "lmarena-webdev",
-          "rank": 20,
-          "score": 1587,
-          "scoreLabel": "1587 Elo",
+          "rank": 23,
+          "score": 1593,
+          "scoreLabel": "1593 Elo",
           "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
           "note": "模型 gemini-3.7-flash-high",
-          "asOf": "2026-09-20",
+          "asOf": "2026-09-28",
           "previousRank": 20,
           "previousScore": 1587,
-          "previousAsOf": "2026-09-13"
+          "previousAsOf": "2026-09-20"
         },
         {
           "systemId": "lmarena-t2v",
@@ -18644,14 +18653,14 @@
         {
           "systemId": "openrouter-popularity",
           "rank": 2,
-          "scoreLabel": "13.6%",
-          "share": 13.6,
+          "scoreLabel": "12.1%",
+          "share": 12.1,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-27",
+          "asOf": "2026-09-28",
           "previousRank": 2,
-          "previousShare": 14.9,
-          "previousAsOf": "2026-09-26"
+          "previousShare": 13.6,
+          "previousAsOf": "2026-09-27"
         },
         {
           "systemId": "lmarena-document",
@@ -19890,15 +19899,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 14,
-          "scoreLabel": "1.7%",
-          "share": 1.7,
+          "rank": 10,
+          "scoreLabel": "2.1%",
+          "share": 2.1,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-27",
-          "previousRank": 18,
-          "previousShare": 1.3,
-          "previousAsOf": "2026-09-26"
+          "asOf": "2026-09-28",
+          "previousRank": 14,
+          "previousShare": 1.7,
+          "previousAsOf": "2026-09-27"
         }
       ],
       "subcategory": "line",
@@ -20052,15 +20061,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 39,
+          "rank": 40,
           "scoreLabel": "0.4%",
           "share": 0.4,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-27",
-          "previousRank": 36,
+          "asOf": "2026-09-28",
+          "previousRank": 39,
           "previousShare": 0.4,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-09-27"
         },
         {
           "systemId": "lmarena-text",
@@ -20498,15 +20507,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 50,
+          "rank": 47,
           "scoreLabel": "0.2%",
           "share": 0.2,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-23",
-          "previousRank": 47,
+          "asOf": "2026-09-28",
+          "previousRank": 50,
           "previousShare": 0.2,
-          "previousAsOf": "2026-09-22"
+          "previousAsOf": "2026-09-23"
         }
       ],
       "sources": [
@@ -23096,15 +23105,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 3,
-          "scoreLabel": "8.6%",
-          "share": 8.6,
+          "rank": 4,
+          "scoreLabel": "7.2%",
+          "share": 7.2,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-26",
+          "asOf": "2026-09-28",
           "previousRank": 3,
-          "previousShare": 10.4,
-          "previousAsOf": "2026-09-21"
+          "previousShare": 8.6,
+          "previousAsOf": "2026-09-26"
         },
         {
           "systemId": "lmarena-webdev",
@@ -25454,15 +25463,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 22,
-          "scoreLabel": "1.1%",
-          "share": 1.1,
+          "rank": 21,
+          "scoreLabel": "1%",
+          "share": 1,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-26",
-          "previousRank": 19,
-          "previousShare": 1.2,
-          "previousAsOf": "2026-09-19"
+          "asOf": "2026-09-28",
+          "previousRank": 22,
+          "previousShare": 1.1,
+          "previousAsOf": "2026-09-26"
         },
         {
           "systemId": "lmarena-vision",
@@ -30286,15 +30295,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 16,
-          "scoreLabel": "1.3%",
-          "share": 1.3,
+          "rank": 17,
+          "scoreLabel": "1.2%",
+          "share": 1.2,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-27",
-          "previousRank": 15,
-          "previousShare": 1.5,
-          "previousAsOf": "2026-09-26"
+          "asOf": "2026-09-28",
+          "previousRank": 16,
+          "previousShare": 1.3,
+          "previousAsOf": "2026-09-27"
         }
       ],
       "sources": [
@@ -30865,12 +30874,20 @@
         "中文社区为主，海外资料与第三方组件较少",
         "Serverless 形态与阿里云函数计算耦合较深"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-09-27",
+          "type": "release",
+          "summary": "发布 4.2.4: 新版本",
+          "version": "4.2.4",
+          "source": "https://github.com/midwayjs/midway/releases/tag/v4.2.4"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://midwayjs.org"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-09-28",
       "region": "domestic",
       "id": "midway",
       "name": "Midway",
@@ -31042,6 +31059,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-27",
+          "type": "release",
+          "summary": "发布 4.0.8: MinerU 4.0.8",
+          "version": "4.0.8",
+          "source": "https://github.com/opendatalab/MinerU/releases/tag/mineru-4.0.8-released"
+        },
+        {
           "date": "2026-09-18",
           "type": "release",
           "summary": "发布 4.0.3: MinerU 4.0.3",
@@ -31059,7 +31083,7 @@
       "sources": [
         "https://github.com/opendatalab/MinerU"
       ],
-      "lastReviewed": "2026-09-19",
+      "lastReviewed": "2026-09-28",
       "region": "both",
       "id": "mineru",
       "name": "MinerU",
@@ -31109,15 +31133,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 21,
-          "scoreLabel": "1.1%",
-          "share": 1.1,
+          "rank": 22,
+          "scoreLabel": "1%",
+          "share": 1,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-26",
-          "previousRank": 18,
-          "previousShare": 1.2,
-          "previousAsOf": "2026-09-19"
+          "asOf": "2026-09-28",
+          "previousRank": 21,
+          "previousShare": 1.1,
+          "previousAsOf": "2026-09-26"
         },
         {
           "systemId": "lmarena-vision",
@@ -43872,15 +43896,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 16,
-          "scoreLabel": "1.4%",
-          "share": 1.4,
+          "rank": 18,
+          "scoreLabel": "1.2%",
+          "share": 1.2,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-21",
-          "previousRank": 15,
+          "asOf": "2026-09-28",
+          "previousRank": 16,
           "previousShare": 1.4,
-          "previousAsOf": "2026-09-19"
+          "previousAsOf": "2026-09-21"
         }
       ],
       "sources": [
@@ -44985,6 +45009,16 @@
           "previousRank": 37,
           "previousShare": 0.4,
           "previousAsOf": "2026-08-31"
+        },
+        {
+          "systemId": "lmarena-webdev",
+          "rank": 29,
+          "score": 1565,
+          "scoreLabel": "1565 Elo",
+          "period": "2026-09",
+          "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
+          "note": "模型 step-5-preview-high",
+          "asOf": "2026-09-28"
         }
       ],
       "sources": [

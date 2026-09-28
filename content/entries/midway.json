@@ -22,12 +22,20 @@
     "中文社区为主，海外资料与第三方组件较少",
     "Serverless 形态与阿里云函数计算耦合较深"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-09-27",
+      "type": "release",
+      "summary": "发布 4.2.4: 新版本",
+      "version": "4.2.4",
+      "source": "https://github.com/midwayjs/midway/releases/tag/v4.2.4"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://midwayjs.org"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-09-28",
   "region": "domestic",
   "id": "midway",
   "name": "Midway",

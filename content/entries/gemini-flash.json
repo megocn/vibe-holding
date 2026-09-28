@@ -133,16 +133,16 @@
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 20,
-      "score": 1587,
-      "scoreLabel": "1587 Elo",
+      "rank": 23,
+      "score": 1593,
+      "scoreLabel": "1593 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 gemini-3.7-flash-high",
-      "asOf": "2026-09-20",
+      "asOf": "2026-09-28",
       "previousRank": 20,
       "previousScore": 1587,
-      "previousAsOf": "2026-09-13"
+      "previousAsOf": "2026-09-20"
     },
     {
       "systemId": "lmarena-t2v",
