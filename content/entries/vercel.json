@@ -23,6 +23,12 @@
   ],
   "updates": [
     {
+      "date": "2026-09-28",
+      "type": "feature",
+      "summary": "Search domains without authentication",
+      "source": "https://vercel.com/changelog/search-domains-without-authentication"
+    },
+    {
       "date": "2026-09-21",
       "type": "feature",
       "summary": "Vercel Connect now supports Microsoft Teams",
@@ -75,7 +81,7 @@
   "sources": [
     "https://vercel.com"
   ],
-  "lastReviewed": "2026-09-22",
+  "lastReviewed": "2026-09-29",
   "region": "overseas",
   "id": "vercel",
   "name": "Vercel",

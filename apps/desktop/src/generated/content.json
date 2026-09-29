@@ -6815,6 +6815,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-28",
+          "type": "release",
+          "summary": "发布 6.9.7: Generate swagger proto from api.proto (#1246)",
+          "version": "6.9.7",
+          "source": "https://github.com/centrifugal/centrifugo/releases/tag/v6.9.7"
+        },
+        {
           "date": "2026-09-13",
           "type": "release",
           "summary": "发布 6.9.5: 新版本",
@@ -6833,7 +6840,7 @@
       "sources": [
         "https://centrifugal.dev"
       ],
-      "lastReviewed": "2026-09-13",
+      "lastReviewed": "2026-09-29",
       "region": "overseas",
       "id": "centrifugo",
       "name": "Centrifugo",
@@ -7637,15 +7644,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 34,
-          "scoreLabel": "0.5%",
-          "share": 0.5,
+          "rank": 35,
+          "scoreLabel": "0.4%",
+          "share": 0.4,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-27",
-          "previousRank": 35,
+          "asOf": "2026-09-29",
+          "previousRank": 34,
           "previousShare": 0.5,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-09-27"
         }
       ],
       "sources": [
@@ -7836,13 +7843,13 @@
         },
         {
           "systemId": "lmarena-agent",
-          "rank": 3,
+          "rank": 2,
           "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/agent",
-          "note": "模型 Claude Opus 5 (High)",
-          "asOf": "2026-09-27",
+          "note": "模型 Claude Opus 5.5 (High)",
+          "asOf": "2026-09-29",
           "previousRank": 3,
-          "previousAsOf": "2026-09-20"
+          "previousAsOf": "2026-09-27"
         },
         {
           "systemId": "lmarena-webdev",
@@ -7911,15 +7918,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 26,
-          "scoreLabel": "0.8%",
-          "share": 0.8,
+          "rank": 22,
+          "scoreLabel": "1%",
+          "share": 1,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-28",
-          "previousRank": 27,
+          "asOf": "2026-09-29",
+          "previousRank": 26,
           "previousShare": 0.8,
-          "previousAsOf": "2026-09-27"
+          "previousAsOf": "2026-09-28"
         },
         {
           "systemId": "swe-bench-pro",
@@ -7968,13 +7975,13 @@
       "rankings": [
         {
           "systemId": "lmarena-agent",
-          "rank": 9,
+          "rank": 10,
           "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/agent",
           "note": "模型 Claude Sonnet 5 (High)",
-          "asOf": "2026-09-27",
+          "asOf": "2026-09-29",
           "previousRank": 9,
-          "previousAsOf": "2026-09-20"
+          "previousAsOf": "2026-09-27"
         },
         {
           "systemId": "lmarena-webdev",
@@ -8043,15 +8050,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 20,
+          "rank": 19,
           "scoreLabel": "1.1%",
           "share": 1.1,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-26",
-          "previousRank": 17,
-          "previousShare": 1.3,
-          "previousAsOf": "2026-09-19"
+          "asOf": "2026-09-29",
+          "previousRank": 20,
+          "previousShare": 1.1,
+          "previousAsOf": "2026-09-26"
         },
         {
           "systemId": "lmarena-text",
@@ -9667,6 +9674,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-28",
+          "type": "release",
+          "summary": "发布 1.12.2: +dev4886: Details",
+          "version": "1.12.2",
+          "source": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.2%2Bdev4886"
+        },
+        {
           "date": "2026-09-22",
           "type": "release",
           "summary": "发布 1.13.0-alpha02: +dev4853: Details",
@@ -9713,7 +9727,7 @@
       "sources": [
         "https://github.com/JetBrains/compose-multiplatform"
       ],
-      "lastReviewed": "2026-09-22",
+      "lastReviewed": "2026-09-29",
       "region": "overseas",
       "id": "compose-multiplatform",
       "name": "Compose Multiplatform",
@@ -17519,15 +17533,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 15,
-          "scoreLabel": "1.7%",
-          "share": 1.7,
+          "rank": 14,
+          "scoreLabel": "1.5%",
+          "share": 1.5,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-27",
-          "previousRank": 14,
+          "asOf": "2026-09-29",
+          "previousRank": 15,
           "previousShare": 1.7,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-09-27"
         },
         {
           "systemId": "lmarena-document",
@@ -18652,15 +18666,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 2,
-          "scoreLabel": "12.1%",
-          "share": 12.1,
+          "rank": 3,
+          "scoreLabel": "9.6%",
+          "share": 9.6,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-28",
+          "asOf": "2026-09-29",
           "previousRank": 2,
-          "previousShare": 13.6,
-          "previousAsOf": "2026-09-27"
+          "previousShare": 12.1,
+          "previousAsOf": "2026-09-28"
         },
         {
           "systemId": "lmarena-document",
@@ -19813,13 +19827,13 @@
         },
         {
           "systemId": "lmarena-agent",
-          "rank": 2,
+          "rank": 3,
           "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/agent",
           "note": "模型 GPT 6 Astra (Max)",
-          "asOf": "2026-09-27",
+          "asOf": "2026-09-29",
           "previousRank": 2,
-          "previousAsOf": "2026-09-20"
+          "previousAsOf": "2026-09-27"
         },
         {
           "systemId": "lmarena-webdev",
@@ -19899,15 +19913,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 10,
-          "scoreLabel": "2.1%",
-          "share": 2.1,
+          "rank": 9,
+          "scoreLabel": "2.7%",
+          "share": 2.7,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-28",
-          "previousRank": 14,
-          "previousShare": 1.7,
-          "previousAsOf": "2026-09-27"
+          "asOf": "2026-09-29",
+          "previousRank": 10,
+          "previousShare": 2.1,
+          "previousAsOf": "2026-09-28"
         }
       ],
       "subcategory": "line",
@@ -20061,15 +20075,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 40,
-          "scoreLabel": "0.4%",
-          "share": 0.4,
+          "rank": 43,
+          "scoreLabel": "0.3%",
+          "share": 0.3,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-28",
-          "previousRank": 39,
+          "asOf": "2026-09-29",
+          "previousRank": 40,
           "previousShare": 0.4,
-          "previousAsOf": "2026-09-27"
+          "previousAsOf": "2026-09-28"
         },
         {
           "systemId": "lmarena-text",
@@ -20507,15 +20521,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 47,
+          "rank": 46,
           "scoreLabel": "0.2%",
           "share": 0.2,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-28",
-          "previousRank": 50,
+          "asOf": "2026-09-29",
+          "previousRank": 47,
           "previousShare": 0.2,
-          "previousAsOf": "2026-09-23"
+          "previousAsOf": "2026-09-28"
         }
       ],
       "sources": [
@@ -22193,6 +22207,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-28",
+          "type": "release",
+          "summary": "发布 7.0.7: 新版本",
+          "version": "7.0.7",
+          "source": "https://github.com/Homebrew/brew/releases/tag/7.0.7"
+        },
+        {
           "date": "2026-09-21",
           "type": "release",
           "summary": "发布 7.0.6: 新版本",
@@ -22232,7 +22253,7 @@
       "sources": [
         "https://brew.sh"
       ],
-      "lastReviewed": "2026-09-22",
+      "lastReviewed": "2026-09-29",
       "region": "overseas",
       "id": "homebrew",
       "name": "Homebrew",
@@ -22834,6 +22855,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-28",
+          "type": "release",
+          "summary": "发布 0.167.0: 新版本",
+          "version": "0.167.0",
+          "source": "https://github.com/gohugoio/hugo/releases/tag/v0.167.0"
+        },
+        {
           "date": "2026-09-10",
           "type": "release",
           "summary": "发布 0.166.0: 新版本",
@@ -22852,7 +22880,7 @@
       "sources": [
         "https://gohugo.io"
       ],
-      "lastReviewed": "2026-09-10",
+      "lastReviewed": "2026-09-29",
       "region": "overseas",
       "id": "hugo",
       "name": "Hugo",
@@ -22863,7 +22891,7 @@
       "descriptionMd": "Hugo 是用 Go 编写的静态站生成器，单二进制、无运行时依赖，万级页面也能在数秒内构建完成，内容与主题高度依赖它自有的模板语法与目录约定。\n\n内容量大的文档站、博客或站群，追求构建速度与部署简单时选；需要在页面里做复杂交互则考虑前端框架系方案。\n\nGo 模板语法与前端组件化心智差异大，交互需自行写脚本；主题质量参差，深度定制往往要通读主题源码。\n",
       "vendorId": "hugo-team",
       "githubUrl": "https://github.com/gohugoio/hugo",
-      "currentVersion": "0.166.0"
+      "currentVersion": "0.167.0"
     },
     {
       "pricing": {
@@ -30978,15 +31006,15 @@
       "rankings": [
         {
           "systemId": "openrouter-popularity",
-          "rank": 8,
-          "scoreLabel": "3.2%",
-          "share": 3.2,
+          "rank": 7,
+          "scoreLabel": "5%",
+          "share": 5,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-26",
-          "previousRank": 6,
-          "previousShare": 4.5,
-          "previousAsOf": "2026-09-24"
+          "asOf": "2026-09-29",
+          "previousRank": 8,
+          "previousShare": 3.2,
+          "previousAsOf": "2026-09-26"
         },
         {
           "systemId": "artificial-analysis-index",
@@ -31133,15 +31161,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 22,
+          "rank": 23,
           "scoreLabel": "1%",
           "share": 1,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-28",
-          "previousRank": 21,
-          "previousShare": 1.1,
-          "previousAsOf": "2026-09-26"
+          "asOf": "2026-09-29",
+          "previousRank": 22,
+          "previousShare": 1,
+          "previousAsOf": "2026-09-28"
         },
         {
           "systemId": "lmarena-vision",
@@ -33938,6 +33966,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-28",
+          "type": "release",
+          "summary": "发布 2.14.0: @novu/framework@v2.14.0",
+          "version": "2.14.0",
+          "source": "https://github.com/novuhq/novu/releases/tag/%40novu%2Fframework%40v2.14.0"
+        },
+        {
           "date": "2026-09-07",
           "type": "release",
           "summary": "发布 3.19.2: @novu/react@v3.19.2",
@@ -33956,7 +33991,7 @@
       "sources": [
         "https://novu.co"
       ],
-      "lastReviewed": "2026-09-10",
+      "lastReviewed": "2026-09-29",
       "region": "overseas",
       "id": "novu",
       "name": "Novu",
@@ -33966,7 +34001,8 @@
       "officialUrl": "https://novu.co",
       "descriptionMd": "Novu 是开源通知基础设施：统一管理邮件/短信/推送/站内信等渠道模板与工作流，提供偏好管理与投递日志，可云可自托管，避免在业务代码里散落各家 SDK。\n\n产品通知类型变多、要可观测的多渠道编排与用户偏好中心时评估；只要事务邮件 API 用 Resend 即可。\n\n各供应商送达率仍取决于底层 ESP/SMS；自托管要管队列与密钥。\n",
       "vendorId": "novu-inc",
-      "githubUrl": "https://github.com/novuhq/novu"
+      "githubUrl": "https://github.com/novuhq/novu",
+      "currentVersion": "2.14.0"
     },
     {
       "pricing": {
@@ -36683,6 +36719,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-24",
+          "type": "release",
+          "summary": "维护线 8.5 最新 8.5.11",
+          "version": "8.5.11",
+          "source": "https://www.php.net/ChangeLog-8.php#8.5.11"
+        },
+        {
           "date": "2026-08-27",
           "type": "release",
           "summary": "维护线 8.5 最新 8.5.10",
@@ -36708,7 +36751,7 @@
       "sources": [
         "https://www.php.net"
       ],
-      "lastReviewed": "2026-08-31",
+      "lastReviewed": "2026-09-29",
       "region": "overseas",
       "id": "php",
       "name": "PHP",
@@ -37777,15 +37820,15 @@
       "rankings": [
         {
           "systemId": "openrouter-popularity",
-          "rank": 24,
-          "scoreLabel": "0.9%",
-          "share": 0.9,
+          "rank": 26,
+          "scoreLabel": "0.8%",
+          "share": 0.8,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-26",
-          "previousRank": 20,
-          "previousShare": 1,
-          "previousAsOf": "2026-09-20"
+          "asOf": "2026-09-29",
+          "previousRank": 24,
+          "previousShare": 0.9,
+          "previousAsOf": "2026-09-26"
         }
       ],
       "sources": [
@@ -37931,6 +37974,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-28",
+          "type": "release",
+          "summary": "发布 6.0: PL/Haskell v6.0 Released",
+          "version": "6.0",
+          "source": "https://www.postgresql.org/about/news/plhaskell-v60-released-3388/"
+        },
+        {
           "date": "2026-09-22",
           "type": "feature",
           "summary": "pgsql-test: Real Postgres Testing for Faster Development Loops",
@@ -37960,7 +38010,7 @@
       "sources": [
         "https://www.postgresql.org"
       ],
-      "lastReviewed": "2026-09-22",
+      "lastReviewed": "2026-09-29",
       "region": "overseas",
       "id": "postgresql",
       "name": "PostgreSQL",
@@ -37995,7 +38045,7 @@
           "previousAsOf": "2026-07-20"
         }
       ],
-      "currentVersion": "5.0.0"
+      "currentVersion": "6.0"
     },
     {
       "pricing": {
@@ -40823,6 +40873,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-28",
+          "type": "release",
+          "summary": "发布 0.1.1: ui-hmr v0.1.1",
+          "version": "0.1.1",
+          "source": "https://github.com/remix-run/remix/releases/tag/ui-hmr%400.1.1"
+        },
+        {
           "date": "2026-09-18",
           "type": "release",
           "summary": "发布 0.10.0: ui v0.10.0",
@@ -40847,7 +40904,7 @@
       "sources": [
         "https://remix.run"
       ],
-      "lastReviewed": "2026-09-19",
+      "lastReviewed": "2026-09-29",
       "region": "overseas",
       "id": "remix",
       "name": "Remix",
@@ -45366,6 +45423,12 @@
       ],
       "updates": [
         {
+          "date": "2026-09-28",
+          "type": "feature",
+          "summary": "Travel’s AI dilemma at Skift Global Forum",
+          "source": "https://stripe.com/blog/travels-ai-dilemma-at-skift-global-forum"
+        },
+        {
           "date": "2026-09-18",
           "type": "feature",
           "summary": "Analyzing rising fraud attempts among travel and leisure businesses on Stripe",
@@ -45381,7 +45444,7 @@
       "sources": [
         "https://stripe.com"
       ],
-      "lastReviewed": "2026-09-19",
+      "lastReviewed": "2026-09-29",
       "region": "overseas",
       "id": "stripe",
       "name": "Stripe",
@@ -46941,6 +47004,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-28",
+          "type": "release",
+          "summary": "发布 1.32.0-163.6: 新版本",
+          "version": "1.32.0-163.6",
+          "source": "https://github.com/temporalio/temporal/releases/tag/v1.32.0-163.6"
+        },
+        {
           "date": "2026-09-18",
           "type": "release",
           "summary": "发布 1.32.0-162.5: 新版本",
@@ -46973,7 +47043,7 @@
       "sources": [
         "https://temporal.io"
       ],
-      "lastReviewed": "2026-09-19",
+      "lastReviewed": "2026-09-29",
       "region": "overseas",
       "id": "temporal",
       "name": "Temporal",
@@ -46984,7 +47054,7 @@
       "descriptionMd": "Temporal 以 durable execution 保证跨服务、长时间运行的工作流状态、重试与补偿语义，多语言 SDK 成熟，支持云与自托管。\n\n支付结算、多步审批、多微服务长事务，或需要严格可达性的 AI 多步编排时，它是应用侧 durable 底座的标杆。\n\n运维与概念门槛高于 Inngest/Trigger 类「几行函数」；纯短任务 cron 场景会过重。\n",
       "vendorId": "temporal-technologies",
       "githubUrl": "https://github.com/temporalio/temporal",
-      "currentVersion": "1.32.0-162.5"
+      "currentVersion": "1.32.0-163.6"
     },
     {
       "pricing": {
@@ -50149,6 +50219,12 @@
       ],
       "updates": [
         {
+          "date": "2026-09-28",
+          "type": "feature",
+          "summary": "Search domains without authentication",
+          "source": "https://vercel.com/changelog/search-domains-without-authentication"
+        },
+        {
           "date": "2026-09-21",
           "type": "feature",
           "summary": "Vercel Connect now supports Microsoft Teams",
@@ -50201,7 +50277,7 @@
       "sources": [
         "https://vercel.com"
       ],
-      "lastReviewed": "2026-09-22",
+      "lastReviewed": "2026-09-29",
       "region": "overseas",
       "id": "vercel",
       "name": "Vercel",

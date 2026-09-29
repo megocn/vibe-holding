@@ -22,6 +22,12 @@
   ],
   "updates": [
     {
+      "date": "2026-09-28",
+      "type": "feature",
+      "summary": "Travel’s AI dilemma at Skift Global Forum",
+      "source": "https://stripe.com/blog/travels-ai-dilemma-at-skift-global-forum"
+    },
+    {
       "date": "2026-09-18",
       "type": "feature",
       "summary": "Analyzing rising fraud attempts among travel and leisure businesses on Stripe",
@@ -37,7 +43,7 @@
   "sources": [
     "https://stripe.com"
   ],
-  "lastReviewed": "2026-09-19",
+  "lastReviewed": "2026-09-29",
   "region": "overseas",
   "id": "stripe",
   "name": "Stripe",

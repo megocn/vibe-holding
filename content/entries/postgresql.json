@@ -21,6 +21,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-28",
+      "type": "release",
+      "summary": "发布 6.0: PL/Haskell v6.0 Released",
+      "version": "6.0",
+      "source": "https://www.postgresql.org/about/news/plhaskell-v60-released-3388/"
+    },
+    {
       "date": "2026-09-22",
       "type": "feature",
       "summary": "pgsql-test: Real Postgres Testing for Faster Development Loops",
@@ -50,7 +57,7 @@
   "sources": [
     "https://www.postgresql.org"
   ],
-  "lastReviewed": "2026-09-22",
+  "lastReviewed": "2026-09-29",
   "region": "overseas",
   "id": "postgresql",
   "name": "PostgreSQL",
@@ -85,5 +92,5 @@
       "previousAsOf": "2026-07-20"
     }
   ],
-  "currentVersion": "5.0.0"
+  "currentVersion": "6.0"
 }

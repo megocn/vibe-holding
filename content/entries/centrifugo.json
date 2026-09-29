@@ -24,6 +24,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-28",
+      "type": "release",
+      "summary": "发布 6.9.7: Generate swagger proto from api.proto (#1246)",
+      "version": "6.9.7",
+      "source": "https://github.com/centrifugal/centrifugo/releases/tag/v6.9.7"
+    },
+    {
       "date": "2026-09-13",
       "type": "release",
       "summary": "发布 6.9.5: 新版本",
@@ -42,7 +49,7 @@
   "sources": [
     "https://centrifugal.dev"
   ],
-  "lastReviewed": "2026-09-13",
+  "lastReviewed": "2026-09-29",
   "region": "overseas",
   "id": "centrifugo",
   "name": "Centrifugo",

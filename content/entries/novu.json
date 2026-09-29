@@ -25,6 +25,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-28",
+      "type": "release",
+      "summary": "发布 2.14.0: @novu/framework@v2.14.0",
+      "version": "2.14.0",
+      "source": "https://github.com/novuhq/novu/releases/tag/%40novu%2Fframework%40v2.14.0"
+    },
+    {
       "date": "2026-09-07",
       "type": "release",
       "summary": "发布 3.19.2: @novu/react@v3.19.2",
@@ -43,7 +50,7 @@
   "sources": [
     "https://novu.co"
   ],
-  "lastReviewed": "2026-09-10",
+  "lastReviewed": "2026-09-29",
   "region": "overseas",
   "id": "novu",
   "name": "Novu",
@@ -53,5 +60,6 @@
   "officialUrl": "https://novu.co",
   "descriptionMd": "Novu 是开源通知基础设施：统一管理邮件/短信/推送/站内信等渠道模板与工作流，提供偏好管理与投递日志，可云可自托管，避免在业务代码里散落各家 SDK。\n\n产品通知类型变多、要可观测的多渠道编排与用户偏好中心时评估；只要事务邮件 API 用 Resend 即可。\n\n各供应商送达率仍取决于底层 ESP/SMS；自托管要管队列与密钥。\n",
   "vendorId": "novu-inc",
-  "githubUrl": "https://github.com/novuhq/novu"
+  "githubUrl": "https://github.com/novuhq/novu",
+  "currentVersion": "2.14.0"
 }

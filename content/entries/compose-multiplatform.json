@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-28",
+      "type": "release",
+      "summary": "发布 1.12.2: +dev4886: Details",
+      "version": "1.12.2",
+      "source": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.12.2%2Bdev4886"
+    },
+    {
       "date": "2026-09-22",
       "type": "release",
       "summary": "发布 1.13.0-alpha02: +dev4853: Details",
@@ -69,7 +76,7 @@
   "sources": [
     "https://github.com/JetBrains/compose-multiplatform"
   ],
-  "lastReviewed": "2026-09-22",
+  "lastReviewed": "2026-09-29",
   "region": "overseas",
   "id": "compose-multiplatform",
   "name": "Compose Multiplatform",
