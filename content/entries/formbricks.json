@@ -25,6 +25,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-29",
+      "type": "release",
+      "summary": "发布 6.0.1: 新版本",
+      "version": "6.0.1",
+      "source": "https://github.com/formbricks/formbricks/releases/tag/6.0.1"
+    },
+    {
       "date": "2026-09-17",
       "type": "release",
       "summary": "发布 5.4.3: 新版本",
@@ -50,7 +57,7 @@
   "sources": [
     "https://formbricks.com"
   ],
-  "lastReviewed": "2026-09-19",
+  "lastReviewed": "2026-09-30",
   "region": "overseas",
   "id": "formbricks",
   "name": "Formbricks",

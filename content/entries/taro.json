@@ -22,12 +22,20 @@
     "各端小程序 API 差异仍需条件编译兜底",
     "跨大版本编译内核切换改造成本高"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-09-29",
+      "type": "release",
+      "summary": "发布 4.3.0: chore(release): publish 4.3.0",
+      "version": "4.3.0",
+      "source": "https://github.com/NervJS/taro/releases/tag/v4.3.0"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://github.com/NervJS/taro"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-09-30",
   "region": "domestic",
   "id": "taro",
   "name": "Taro",
@@ -37,5 +45,6 @@
   "officialUrl": "https://github.com/NervJS/taro",
   "descriptionMd": "Taro 是京东凹凸实验室开源的跨端框架，用 React（也支持 Vue）语法写一次，编译产出微信、支付宝、抖音等各家小程序，以及 H5 与 React Native 应用。\n\n国内业务要同时铺多家小程序、团队又以 React 技术栈为主时是主力选择；只做微信一端时原生开发反而更省事。\n\n各端 API 差异仍需条件编译兜底；跨大版本编译内核切换的改造成本高，第三方 UI 库对新版本跟进不一。\n",
   "vendorId": "jd-nervjs",
-  "githubUrl": "https://github.com/NervJS/taro"
+  "githubUrl": "https://github.com/NervJS/taro",
+  "currentVersion": "4.3.0"
 }

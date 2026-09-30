@@ -56,16 +56,16 @@
     },
     {
       "systemId": "lmarena-vision",
-      "rank": 17,
-      "score": 1284,
-      "scoreLabel": "1284 Elo",
+      "rank": 6,
+      "score": 1295,
+      "scoreLabel": "1295 Elo",
       "period": "2026-09",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
-      "note": "模型 gemini-3.5-flash-high",
-      "asOf": "2026-09-26",
+      "note": "模型 gemini-3.7-flash-high",
+      "asOf": "2026-09-30",
       "previousRank": 17,
       "previousScore": 1284,
-      "previousAsOf": "2026-09-19"
+      "previousAsOf": "2026-09-26"
     },
     {
       "systemId": "lmarena-search",

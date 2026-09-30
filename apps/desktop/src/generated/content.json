@@ -146,6 +146,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-29",
+          "type": "release",
+          "summary": "发布 0.91.4: 新版本",
+          "version": "0.91.4",
+          "source": "https://github.com/activepieces/activepieces/releases/tag/0.91.4"
+        },
+        {
           "date": "2026-09-21",
           "type": "release",
           "summary": "发布 0.91.1: 新版本",
@@ -192,7 +199,7 @@
       "sources": [
         "https://www.activepieces.com"
       ],
-      "lastReviewed": "2026-09-22",
+      "lastReviewed": "2026-09-30",
       "region": "overseas",
       "id": "activepieces",
       "name": "Activepieces",
@@ -2215,6 +2222,12 @@
       ],
       "updates": [
         {
+          "date": "2026-09-29",
+          "type": "feature",
+          "summary": "官方动态更新",
+          "source": "https://github.com/ansible/ansible/releases/tag/v2.22.0b2"
+        },
+        {
           "date": "2026-09-08",
           "type": "release",
           "summary": "发布 2.21.4: 新版本",
@@ -2232,7 +2245,7 @@
       "sources": [
         "https://www.ansible.com"
       ],
-      "lastReviewed": "2026-09-13",
+      "lastReviewed": "2026-09-30",
       "region": "overseas",
       "id": "ansible",
       "name": "Ansible",
@@ -6211,6 +6224,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-29",
+          "type": "release",
+          "summary": "发布 2.8: vpy3.2.8",
+          "version": "2.8",
+          "source": "https://github.com/taskforcesh/bullmq/releases/tag/vpy3.2.8"
+        },
+        {
           "date": "2026-09-21",
           "type": "release",
           "summary": "发布 2.6: vpy3.2.6",
@@ -6257,7 +6277,7 @@
       "sources": [
         "https://docs.bullmq.io"
       ],
-      "lastReviewed": "2026-09-22",
+      "lastReviewed": "2026-09-30",
       "region": "overseas",
       "id": "bullmq",
       "name": "BullMQ",
@@ -6268,7 +6288,7 @@
       "descriptionMd": "BullMQ 是基于 Redis 的 Node.js 任务队列：重试、延迟、优先级、流速与可观测组件生态成熟，是 Node 侧默认 worker 方案之一。\n\n已有 Redis，要跑邮件、转码、webhook 重试、批处理消费等进程内 worker，又不想引入完整 durable 平台时选用。\n\n可靠性边界取决于 Redis 与 worker 运维；跨语言协调与强一致长事务应看 Temporal 一类。\n",
       "vendorId": "taskforce-sh",
       "githubUrl": "https://github.com/taskforcesh/bullmq",
-      "currentVersion": "2.6"
+      "currentVersion": "2.8"
     },
     {
       "pricing": {
@@ -7918,15 +7938,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 22,
-          "scoreLabel": "1%",
-          "share": 1,
+          "rank": 15,
+          "scoreLabel": "1.2%",
+          "share": 1.2,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-29",
-          "previousRank": 26,
-          "previousShare": 0.8,
-          "previousAsOf": "2026-09-28"
+          "asOf": "2026-09-30",
+          "previousRank": 22,
+          "previousShare": 1,
+          "previousAsOf": "2026-09-29"
         },
         {
           "systemId": "swe-bench-pro",
@@ -8050,15 +8070,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 19,
-          "scoreLabel": "1.1%",
-          "share": 1.1,
+          "rank": 20,
+          "scoreLabel": "1%",
+          "share": 1,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-29",
-          "previousRank": 20,
+          "asOf": "2026-09-30",
+          "previousRank": 19,
           "previousShare": 1.1,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-09-29"
         },
         {
           "systemId": "lmarena-text",
@@ -11552,6 +11572,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-29",
+          "type": "release",
+          "summary": "发布 0.9.21: typescript-v0.9.21",
+          "version": "0.9.21",
+          "source": "https://github.com/confident-ai/deepeval/releases/tag/typescript-v0.9.21"
+        },
+        {
           "date": "2026-09-22",
           "type": "release",
           "summary": "发布 0.9.18: typescript-v0.9.18",
@@ -11584,7 +11611,7 @@
       "sources": [
         "https://github.com/confident-ai/deepeval"
       ],
-      "lastReviewed": "2026-09-23",
+      "lastReviewed": "2026-09-30",
       "region": "overseas",
       "id": "deepeval",
       "name": "DeepEval",
@@ -11787,15 +11814,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 1,
-          "scoreLabel": "14.9%",
-          "share": 14.9,
+          "rank": 2,
+          "scoreLabel": "15.5%",
+          "share": 15.5,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-26",
-          "previousRank": 2,
-          "previousShare": 14.3,
-          "previousAsOf": "2026-09-23"
+          "asOf": "2026-09-30",
+          "previousRank": 1,
+          "previousShare": 14.9,
+          "previousAsOf": "2026-09-26"
         },
         {
           "systemId": "lmarena-webdev",
@@ -12386,6 +12413,12 @@
       ],
       "updates": [
         {
+          "date": "2026-09-29",
+          "type": "feature",
+          "summary": "stable",
+          "source": "https://github.com/discourse/discourse/releases/tag/stable"
+        },
+        {
           "date": "2026-09-22",
           "type": "feature",
           "summary": "stable",
@@ -12426,7 +12459,7 @@
       "sources": [
         "https://www.discourse.org"
       ],
-      "lastReviewed": "2026-09-22",
+      "lastReviewed": "2026-09-30",
       "region": "overseas",
       "id": "discourse",
       "name": "Discourse",
@@ -12659,6 +12692,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-29",
+          "type": "release",
+          "summary": "发布 2.131.0: 新版本",
+          "version": "2.131.0",
+          "source": "https://github.com/docling-project/docling/releases/tag/v2.131.0"
+        },
+        {
           "date": "2026-09-22",
           "type": "release",
           "summary": "发布 2.130.0: 新版本",
@@ -12698,7 +12738,7 @@
       "sources": [
         "https://github.com/docling-project/docling"
       ],
-      "lastReviewed": "2026-09-23",
+      "lastReviewed": "2026-09-30",
       "region": "overseas",
       "id": "docling",
       "name": "Docling",
@@ -12709,7 +12749,7 @@
       "descriptionMd": "Docling 是面向开发者的开源文档转换/理解工具，把 PDF 等转为结构化表示，便于 LLM 与 RAG 消费，社区增长快。\n\n需要本地可控的文档解析、与 Python AI 栈集成时评估；可与云 Document AI 做成本对照。\n\n企业预置发票/证件模型不如 Azure/AWS；极端扫描件需另配 OCR 引擎。\n",
       "vendorId": "ibm",
       "githubUrl": "https://github.com/docling-project/docling",
-      "currentVersion": "2.130.0"
+      "currentVersion": "2.131.0"
     },
     {
       "pricing": {
@@ -16475,6 +16515,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-29",
+          "type": "release",
+          "summary": "发布 6.0.1: 新版本",
+          "version": "6.0.1",
+          "source": "https://github.com/formbricks/formbricks/releases/tag/6.0.1"
+        },
+        {
           "date": "2026-09-17",
           "type": "release",
           "summary": "发布 5.4.3: 新版本",
@@ -16500,7 +16547,7 @@
       "sources": [
         "https://formbricks.com"
       ],
-      "lastReviewed": "2026-09-19",
+      "lastReviewed": "2026-09-30",
       "region": "overseas",
       "id": "formbricks",
       "name": "Formbricks",
@@ -17481,16 +17528,16 @@
         },
         {
           "systemId": "lmarena-vision",
-          "rank": 17,
-          "score": 1284,
-          "scoreLabel": "1284 Elo",
+          "rank": 6,
+          "score": 1295,
+          "scoreLabel": "1295 Elo",
           "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
-          "note": "模型 gemini-3.5-flash-high",
-          "asOf": "2026-09-26",
+          "note": "模型 gemini-3.7-flash-high",
+          "asOf": "2026-09-30",
           "previousRank": 17,
           "previousScore": 1284,
-          "previousAsOf": "2026-09-19"
+          "previousAsOf": "2026-09-26"
         },
         {
           "systemId": "lmarena-search",
@@ -17813,16 +17860,16 @@
         },
         {
           "systemId": "lmarena-vision",
-          "rank": 12,
+          "rank": 11,
           "score": 1289,
           "scoreLabel": "1289 Elo",
           "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
           "note": "模型 gemini-3-pro",
-          "asOf": "2026-09-26",
+          "asOf": "2026-09-30",
           "previousRank": 12,
           "previousScore": 1289,
-          "previousAsOf": "2026-09-19"
+          "previousAsOf": "2026-09-26"
         },
         {
           "systemId": "lmarena-search",
@@ -18201,6 +18248,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-29",
+          "type": "release",
+          "summary": "发布 6.67.0: 新版本",
+          "version": "6.67.0",
+          "source": "https://github.com/TryGhost/Ghost/releases/tag/v6.67.0"
+        },
+        {
           "date": "2026-09-15",
           "type": "release",
           "summary": "发布 6.64.0: 新版本",
@@ -18233,7 +18287,7 @@
       "sources": [
         "https://ghost.org"
       ],
-      "lastReviewed": "2026-09-19",
+      "lastReviewed": "2026-09-30",
       "region": "overseas",
       "id": "ghost",
       "name": "Ghost",
@@ -18245,7 +18299,7 @@
       "vendorId": "ghost-foundation",
       "githubUrl": "https://github.com/TryGhost/Ghost",
       "docsUrl": "https://ghost.org/docs/",
-      "currentVersion": "6.64.0"
+      "currentVersion": "6.67.0"
     },
     {
       "pricing": {
@@ -18667,14 +18721,14 @@
         {
           "systemId": "openrouter-popularity",
           "rank": 3,
-          "scoreLabel": "9.6%",
-          "share": 9.6,
+          "scoreLabel": "8.2%",
+          "share": 8.2,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-29",
-          "previousRank": 2,
-          "previousShare": 12.1,
-          "previousAsOf": "2026-09-28"
+          "asOf": "2026-09-30",
+          "previousRank": 3,
+          "previousShare": 9.6,
+          "previousAsOf": "2026-09-29"
         },
         {
           "systemId": "lmarena-document",
@@ -19964,15 +20018,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 5,
-          "scoreLabel": "6.6%",
-          "share": 6.6,
+          "rank": 4,
+          "scoreLabel": "5.8%",
+          "share": 5.8,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-27",
-          "previousRank": 4,
-          "previousShare": 7,
-          "previousAsOf": "2026-09-23"
+          "asOf": "2026-09-30",
+          "previousRank": 5,
+          "previousShare": 6.6,
+          "previousAsOf": "2026-09-27"
         }
       ],
       "sources": [
@@ -20075,15 +20129,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 43,
+          "rank": 45,
           "scoreLabel": "0.3%",
           "share": 0.3,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-29",
-          "previousRank": 40,
-          "previousShare": 0.4,
-          "previousAsOf": "2026-09-28"
+          "asOf": "2026-09-30",
+          "previousRank": 43,
+          "previousShare": 0.3,
+          "previousAsOf": "2026-09-29"
         },
         {
           "systemId": "lmarena-text",
@@ -20521,15 +20575,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 46,
+          "rank": 49,
           "scoreLabel": "0.2%",
           "share": 0.2,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-29",
-          "previousRank": 47,
+          "asOf": "2026-09-30",
+          "previousRank": 46,
           "previousShare": 0.2,
-          "previousAsOf": "2026-09-28"
+          "previousAsOf": "2026-09-29"
         }
       ],
       "sources": [
@@ -21985,6 +22039,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-29",
+          "type": "release",
+          "summary": "发布 0.21.1: 新版本",
+          "version": "0.21.1",
+          "source": "https://github.com/huggingface/peft/releases/tag/v0.21.1"
+        },
+        {
           "date": "2026-09-15",
           "type": "release",
           "summary": "发布 0.21.0: 新版本",
@@ -21996,7 +22057,7 @@
       "sources": [
         "https://github.com/huggingface/peft"
       ],
-      "lastReviewed": "2026-09-19",
+      "lastReviewed": "2026-09-30",
       "region": "overseas",
       "id": "hf-peft",
       "name": "PEFT",
@@ -23133,15 +23194,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 4,
-          "scoreLabel": "7.2%",
-          "share": 7.2,
+          "rank": 6,
+          "scoreLabel": "5.7%",
+          "share": 5.7,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-28",
-          "previousRank": 3,
-          "previousShare": 8.6,
-          "previousAsOf": "2026-09-26"
+          "asOf": "2026-09-30",
+          "previousRank": 4,
+          "previousShare": 7.2,
+          "previousAsOf": "2026-09-28"
         },
         {
           "systemId": "lmarena-webdev",
@@ -24915,6 +24976,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-29",
+          "type": "release",
+          "summary": "发布 3.0.1: 新版本",
+          "version": "3.0.1",
+          "source": "https://github.com/pmndrs/jotai/releases/tag/v3.0.1"
+        },
+        {
           "date": "2026-09-08",
           "type": "release",
           "summary": "发布 3.0.0: 新版本",
@@ -24926,7 +24994,7 @@
       "sources": [
         "https://jotai.org"
       ],
-      "lastReviewed": "2026-09-10",
+      "lastReviewed": "2026-09-30",
       "region": "overseas",
       "id": "jotai",
       "name": "Jotai",
@@ -25491,15 +25559,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 21,
+          "rank": 18,
           "scoreLabel": "1%",
           "share": 1,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-28",
-          "previousRank": 22,
-          "previousShare": 1.1,
-          "previousAsOf": "2026-09-26"
+          "asOf": "2026-09-30",
+          "previousRank": 21,
+          "previousShare": 1,
+          "previousAsOf": "2026-09-28"
         },
         {
           "systemId": "lmarena-vision",
@@ -26831,6 +26899,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-29",
+          "type": "release",
+          "summary": "维护线 13 最新 13.34.0",
+          "version": "13.34.0",
+          "source": "https://laravel.com/framework/docs/13.x/releases"
+        },
+        {
           "date": "2026-09-15",
           "type": "release",
           "summary": "维护线 13 最新 13.32.0",
@@ -26863,7 +26938,7 @@
       "sources": [
         "https://laravel.com"
       ],
-      "lastReviewed": "2026-09-19",
+      "lastReviewed": "2026-09-30",
       "region": "overseas",
       "id": "laravel",
       "name": "Laravel",
@@ -29044,12 +29119,20 @@
       "pitfalls": [
         "YAML 表达力有限，复杂条件与数据构造不便；黑盒驱动拿不到应用内部状态，定位失败原因依赖录屏与日志。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-09-29",
+          "type": "release",
+          "summary": "发布 2.11.0: 新版本",
+          "version": "2.11.0",
+          "source": "https://github.com/mobile-dev-inc/Maestro/releases/tag/v2.11.0"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://github.com/mobile-dev-inc/Maestro"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-09-30",
       "region": "overseas",
       "id": "maestro",
       "name": "Maestro",
@@ -29058,7 +29141,8 @@
       "oneLiner": "YAML 描述移动端 UI 流 · 内建等待容错 · 跨原生与跨端框架",
       "officialUrl": "https://github.com/mobile-dev-inc/Maestro",
       "descriptionMd": "Maestro 用 YAML 声明移动端 UI 流程，内建对元素加载与动画的等待容错，不要求把探针编译进 App，iOS/Android 原生与 React Native、Flutter 等跨端产物都能驱动。\n\n移动端冒烟与关键路径回归、希望非开发同学也能读懂用例时使用；需要深入 App 内部状态的白盒断言则另选。\n\nYAML 表达力有限，复杂条件与数据构造不便；黑盒驱动拿不到应用内部状态，定位失败原因依赖录屏与日志。\n",
-      "vendorId": "mobile-dev-inc"
+      "vendorId": "mobile-dev-inc",
+      "currentVersion": "2.11.0"
     },
     {
       "id": "mai-image",
@@ -30284,16 +30368,16 @@
         },
         {
           "systemId": "lmarena-vision",
-          "rank": 6,
+          "rank": 8,
           "score": 1294,
           "scoreLabel": "1294 Elo",
           "period": "2026-09",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
-          "note": "模型 muse-spark-1.3-max",
-          "asOf": "2026-09-27",
+          "note": "模型 muse-spark",
+          "asOf": "2026-09-30",
           "previousRank": 6,
           "previousScore": 1294,
-          "previousAsOf": "2026-09-20"
+          "previousAsOf": "2026-09-27"
         },
         {
           "systemId": "lmarena-document",
@@ -30826,6 +30910,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-29",
+          "type": "release",
+          "summary": "发布 1.14.0: 新版本",
+          "version": "1.14.0",
+          "source": "https://github.com/web-infra-dev/midscene/releases/tag/v1.14.0"
+        },
+        {
           "date": "2026-09-17",
           "type": "release",
           "summary": "发布 1.12.9: 新版本",
@@ -30866,7 +30957,7 @@
         "https://midscenejs.com",
         "https://github.com/web-infra-dev/midscene"
       ],
-      "lastReviewed": "2026-09-19",
+      "lastReviewed": "2026-09-30",
       "region": "both",
       "id": "midscene",
       "name": "Midscene.js",
@@ -30876,7 +30967,8 @@
       "officialUrl": "https://midscenejs.com",
       "descriptionMd": "Midscene.js 出自字节跳动 Web Infra 团队，用自然语言描述界面操作与断言，除浏览器外还支持安卓设备，并把每一步的模型判断生成可回放的可视化报告。\n\n国内团队做 UI 自动化或跨端验证、且希望调试过程可追溯时值得试；纯服务端抓取用无头方案更省资源。\n\n多模态模型调用带来额外费用与延迟；安卓侧对环境依赖较多，接入前先跑通设备链路。\n",
       "vendorId": "bytedance",
-      "githubUrl": "https://github.com/web-infra-dev/midscene"
+      "githubUrl": "https://github.com/web-infra-dev/midscene",
+      "currentVersion": "1.14.0"
     },
     {
       "pricing": {
@@ -31006,15 +31098,15 @@
       "rankings": [
         {
           "systemId": "openrouter-popularity",
-          "rank": 7,
-          "scoreLabel": "5%",
-          "share": 5,
+          "rank": 5,
+          "scoreLabel": "5.8%",
+          "share": 5.8,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-29",
-          "previousRank": 8,
-          "previousShare": 3.2,
-          "previousAsOf": "2026-09-26"
+          "asOf": "2026-09-30",
+          "previousRank": 7,
+          "previousShare": 5,
+          "previousAsOf": "2026-09-29"
         },
         {
           "systemId": "artificial-analysis-index",
@@ -33435,6 +33527,13 @@
       "currentVersion": "16.3.0",
       "updates": [
         {
+          "date": "2026-09-29",
+          "type": "release",
+          "summary": "发布 16.3.7: 新版本",
+          "version": "16.3.7",
+          "source": "https://github.com/vercel/next.js/releases/tag/v16.3.7"
+        },
+        {
           "date": "2026-09-21",
           "type": "feature",
           "summary": "Upcoming Next.js Security Update for a Critical Upstream Issue",
@@ -33492,7 +33591,7 @@
       "sources": [
         "https://nextjs.org"
       ],
-      "lastReviewed": "2026-09-22",
+      "lastReviewed": "2026-09-30",
       "region": "overseas",
       "id": "nextjs",
       "name": "Next.js",
@@ -39129,6 +39228,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-29",
+          "type": "release",
+          "summary": "发布 3.40.1: 新版本",
+          "version": "3.40.1",
+          "source": "https://github.com/quarkusio/quarkus/releases/tag/3.40.1"
+        },
+        {
           "date": "2026-09-17",
           "type": "release",
           "summary": "发布 3.40.0.CR1: 新版本",
@@ -39161,7 +39267,7 @@
       "sources": [
         "https://quarkus.io"
       ],
-      "lastReviewed": "2026-09-19",
+      "lastReviewed": "2026-09-30",
       "region": "overseas",
       "id": "quarkus",
       "name": "Quarkus",
@@ -40727,12 +40833,20 @@
       "pitfalls": [
         "概念与文件层级仍比轻量 store 多；RTK Query 与 TanStack Query 职责重叠，同项目里不建议两套并存。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-09-29",
+          "type": "release",
+          "summary": "发布 2.13.0: 新版本",
+          "version": "2.13.0",
+          "source": "https://github.com/reduxjs/redux-toolkit/releases/tag/v2.13.0"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://redux-toolkit.js.org"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-09-30",
       "region": "overseas",
       "id": "redux-toolkit",
       "name": "Redux Toolkit",
@@ -40741,7 +40855,8 @@
       "oneLiner": "Redux 官方标准写法 · slice/immer 去样板 · DevTools 时间旅行",
       "officialUrl": "https://redux-toolkit.js.org",
       "descriptionMd": "Redux Toolkit 是 Redux 官方推荐的标准写法：createSlice 收敛 action 与 reducer，内建 Immer 支持「看似可变」的更新，附带 RTK Query 处理服务端数据请求。\n\n多人协作的大型应用、状态变更需要可审计与时间旅行调试时优先；小型应用用它往往显得偏重。\n\n概念与文件层级仍比轻量 store 多；RTK Query 与 TanStack Query 职责重叠，同项目里不建议两套并存。\n",
-      "githubUrl": "https://github.com/reduxjs/redux-toolkit"
+      "githubUrl": "https://github.com/reduxjs/redux-toolkit",
+      "currentVersion": "2.13.0"
     },
     {
       "pricing": {
@@ -41848,6 +41963,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-29",
+          "type": "release",
+          "summary": "发布 1.89.1: 新版本",
+          "version": "1.89.1",
+          "source": "https://github.com/rudderlabs/rudder-server/releases/tag/v1.89.1"
+        },
+        {
           "date": "2026-09-18",
           "type": "release",
           "summary": "发布 1.87.1: 新版本",
@@ -41880,7 +42002,7 @@
       "sources": [
         "https://www.rudderstack.com"
       ],
-      "lastReviewed": "2026-09-19",
+      "lastReviewed": "2026-09-30",
       "region": "overseas",
       "id": "rudderstack",
       "name": "RudderStack",
@@ -42921,6 +43043,12 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-09-29",
+          "type": "feature",
+          "summary": "Big improvements to Seer Agent",
+          "source": "https://blog.sentry.io/big-improvements-to-seer-agent/"
+        },
+        {
           "date": "2026-09-21",
           "type": "feature",
           "summary": "Building Sentry's Laravel AI Integration",
@@ -42949,7 +43077,7 @@
       "sources": [
         "https://sentry.io"
       ],
-      "lastReviewed": "2026-09-22",
+      "lastReviewed": "2026-09-30",
       "region": "overseas",
       "id": "sentry",
       "name": "Sentry",
@@ -43953,15 +44081,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 18,
-          "scoreLabel": "1.2%",
-          "share": 1.2,
+          "rank": 19,
+          "scoreLabel": "1%",
+          "share": 1,
           "period": "2026-09",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-28",
-          "previousRank": 16,
-          "previousShare": 1.4,
-          "previousAsOf": "2026-09-21"
+          "asOf": "2026-09-30",
+          "previousRank": 18,
+          "previousShare": 1.2,
+          "previousAsOf": "2026-09-28"
         }
       ],
       "sources": [
@@ -46212,6 +46340,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-29",
+          "type": "release",
+          "summary": "发布 8.1.8: 新版本",
+          "version": "8.1.8",
+          "source": "https://github.com/symfony/symfony/releases/tag/v8.1.8"
+        },
+        {
           "date": "2026-09-15",
           "type": "release",
           "summary": "发布 8.1.7: 新版本",
@@ -46237,7 +46372,7 @@
       "sources": [
         "https://symfony.com"
       ],
-      "lastReviewed": "2026-09-19",
+      "lastReviewed": "2026-09-30",
       "region": "overseas",
       "id": "symfony",
       "name": "Symfony",
@@ -46634,12 +46769,20 @@
         "各端小程序 API 差异仍需条件编译兜底",
         "跨大版本编译内核切换改造成本高"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-09-29",
+          "type": "release",
+          "summary": "发布 4.3.0: chore(release): publish 4.3.0",
+          "version": "4.3.0",
+          "source": "https://github.com/NervJS/taro/releases/tag/v4.3.0"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://github.com/NervJS/taro"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-09-30",
       "region": "domestic",
       "id": "taro",
       "name": "Taro",
@@ -46649,7 +46792,8 @@
       "officialUrl": "https://github.com/NervJS/taro",
       "descriptionMd": "Taro 是京东凹凸实验室开源的跨端框架，用 React（也支持 Vue）语法写一次，编译产出微信、支付宝、抖音等各家小程序，以及 H5 与 React Native 应用。\n\n国内业务要同时铺多家小程序、团队又以 React 技术栈为主时是主力选择；只做微信一端时原生开发反而更省事。\n\n各端 API 差异仍需条件编译兜底；跨大版本编译内核切换的改造成本高，第三方 UI 库对新版本跟进不一。\n",
       "vendorId": "jd-nervjs",
-      "githubUrl": "https://github.com/NervJS/taro"
+      "githubUrl": "https://github.com/NervJS/taro",
+      "currentVersion": "4.3.0"
     },
     {
       "pricing": {
@@ -49318,6 +49462,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-29",
+          "type": "release",
+          "summary": "发布 0.1.900-beta: Laya Decision Models + Library",
+          "version": "0.1.900-beta",
+          "source": "https://github.com/unslothai/unsloth/releases/tag/v0.1.900-beta"
+        },
+        {
           "date": "2026-09-22",
           "type": "release",
           "summary": "发布 2.1: Qwen-Image-2.1 + Skills",
@@ -49351,7 +49502,7 @@
         "https://unsloth.ai",
         "https://github.com/unslothai/unsloth"
       ],
-      "lastReviewed": "2026-09-23",
+      "lastReviewed": "2026-09-30",
       "region": "overseas",
       "id": "unsloth",
       "name": "Unsloth",
@@ -49362,7 +49513,7 @@
       "descriptionMd": "Unsloth 通过手写内核与重写反向传播，把常见开源模型的 LoRA/QLoRA 微调做得更省显存、更快，配套的 Colab 笔记本让单卡起步的门槛很低。\n\n手头只有一两张消费卡、想先把微调链路跑通时首选；多机多卡的大规模训练仍应回到分布式框架。\n\n深度优化意味着对模型架构适配有先后，新模型支持需等上游跟进；多卡与集群能力弱于通用训练框架。\n",
       "vendorId": "unsloth-ai",
       "githubUrl": "https://github.com/unslothai/unsloth",
-      "currentVersion": "2.1"
+      "currentVersion": "0.1.900-beta"
     },
     {
       "pricing": {
@@ -49990,6 +50141,13 @@
       ],
       "updates": [
         {
+          "date": "2026-09-29",
+          "type": "release",
+          "summary": "发布 0.3.25: vdev-v0.3.25",
+          "version": "0.3.25",
+          "source": "https://github.com/vectordotdev/vector/releases/tag/vdev-v0.3.25"
+        },
+        {
           "date": "2026-09-21",
           "type": "release",
           "summary": "发布 0.3.20: vdev-v0.3.20",
@@ -50015,7 +50173,7 @@
       "sources": [
         "https://vector.dev"
       ],
-      "lastReviewed": "2026-09-22",
+      "lastReviewed": "2026-09-30",
       "region": "overseas",
       "id": "vector-dev",
       "name": "Vector",

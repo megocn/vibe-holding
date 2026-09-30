@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-29",
+      "type": "release",
+      "summary": "发布 0.21.1: 新版本",
+      "version": "0.21.1",
+      "source": "https://github.com/huggingface/peft/releases/tag/v0.21.1"
+    },
+    {
       "date": "2026-09-15",
       "type": "release",
       "summary": "发布 0.21.0: 新版本",
@@ -33,7 +40,7 @@
   "sources": [
     "https://github.com/huggingface/peft"
   ],
-  "lastReviewed": "2026-09-19",
+  "lastReviewed": "2026-09-30",
   "region": "overseas",
   "id": "hf-peft",
   "name": "PEFT",

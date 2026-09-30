@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-29",
+      "type": "release",
+      "summary": "发布 1.14.0: 新版本",
+      "version": "1.14.0",
+      "source": "https://github.com/web-infra-dev/midscene/releases/tag/v1.14.0"
+    },
+    {
       "date": "2026-09-17",
       "type": "release",
       "summary": "发布 1.12.9: 新版本",
@@ -62,7 +69,7 @@
     "https://midscenejs.com",
     "https://github.com/web-infra-dev/midscene"
   ],
-  "lastReviewed": "2026-09-19",
+  "lastReviewed": "2026-09-30",
   "region": "both",
   "id": "midscene",
   "name": "Midscene.js",
@@ -72,5 +79,6 @@
   "officialUrl": "https://midscenejs.com",
   "descriptionMd": "Midscene.js 出自字节跳动 Web Infra 团队，用自然语言描述界面操作与断言，除浏览器外还支持安卓设备，并把每一步的模型判断生成可回放的可视化报告。\n\n国内团队做 UI 自动化或跨端验证、且希望调试过程可追溯时值得试；纯服务端抓取用无头方案更省资源。\n\n多模态模型调用带来额外费用与延迟；安卓侧对环境依赖较多，接入前先跑通设备链路。\n",
   "vendorId": "bytedance",
-  "githubUrl": "https://github.com/web-infra-dev/midscene"
+  "githubUrl": "https://github.com/web-infra-dev/midscene",
+  "currentVersion": "1.14.0"
 }

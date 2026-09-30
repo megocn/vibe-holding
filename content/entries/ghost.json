@@ -24,6 +24,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-29",
+      "type": "release",
+      "summary": "发布 6.67.0: 新版本",
+      "version": "6.67.0",
+      "source": "https://github.com/TryGhost/Ghost/releases/tag/v6.67.0"
+    },
+    {
       "date": "2026-09-15",
       "type": "release",
       "summary": "发布 6.64.0: 新版本",
@@ -56,7 +63,7 @@
   "sources": [
     "https://ghost.org"
   ],
-  "lastReviewed": "2026-09-19",
+  "lastReviewed": "2026-09-30",
   "region": "overseas",
   "id": "ghost",
   "name": "Ghost",
@@ -68,5 +75,5 @@
   "vendorId": "ghost-foundation",
   "githubUrl": "https://github.com/TryGhost/Ghost",
   "docsUrl": "https://ghost.org/docs/",
-  "currentVersion": "6.64.0"
+  "currentVersion": "6.67.0"
 }

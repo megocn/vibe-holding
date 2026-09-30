@@ -19,6 +19,12 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-09-29",
+      "type": "feature",
+      "summary": "Big improvements to Seer Agent",
+      "source": "https://blog.sentry.io/big-improvements-to-seer-agent/"
+    },
+    {
       "date": "2026-09-21",
       "type": "feature",
       "summary": "Building Sentry's Laravel AI Integration",
@@ -47,7 +53,7 @@
   "sources": [
     "https://sentry.io"
   ],
-  "lastReviewed": "2026-09-22",
+  "lastReviewed": "2026-09-30",
   "region": "overseas",
   "id": "sentry",
   "name": "Sentry",

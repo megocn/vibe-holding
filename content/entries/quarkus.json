@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-09-29",
+      "type": "release",
+      "summary": "发布 3.40.1: 新版本",
+      "version": "3.40.1",
+      "source": "https://github.com/quarkusio/quarkus/releases/tag/3.40.1"
+    },
+    {
       "date": "2026-09-17",
       "type": "release",
       "summary": "发布 3.40.0.CR1: 新版本",
@@ -55,7 +62,7 @@
   "sources": [
     "https://quarkus.io"
   ],
-  "lastReviewed": "2026-09-19",
+  "lastReviewed": "2026-09-30",
   "region": "overseas",
   "id": "quarkus",
   "name": "Quarkus",
