@@ -58,16 +58,16 @@
     },
     {
       "systemId": "lmarena-image-edit",
-      "rank": 23,
-      "score": 1302,
-      "scoreLabel": "1302 Elo",
-      "period": "2026-09",
+      "rank": 24,
+      "score": 1303,
+      "scoreLabel": "1303 Elo",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 hunyuan-image-3.0-instruct",
-      "asOf": "2026-09-26",
-      "previousRank": 22,
+      "asOf": "2026-10-01",
+      "previousRank": 23,
       "previousScore": 1302,
-      "previousAsOf": "2026-09-20"
+      "previousAsOf": "2026-09-26"
     }
   ],
   "sources": [

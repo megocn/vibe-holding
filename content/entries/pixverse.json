@@ -44,6 +44,16 @@
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 pixverse-v5.6",
       "asOf": "2026-09-26"
+    },
+    {
+      "systemId": "lmarena-i2v",
+      "rank": 25,
+      "score": 1299,
+      "scoreLabel": "1299 Elo",
+      "period": "2026-10",
+      "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
+      "note": "模型 pixverse-v5.6",
+      "asOf": "2026-10-01"
     }
   ],
   "sources": [

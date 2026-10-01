@@ -53,6 +53,16 @@
       "previousRank": 29,
       "previousScore": 1169,
       "previousAsOf": "2026-07-24"
+    },
+    {
+      "systemId": "lmarena-image-edit",
+      "rank": 18,
+      "score": 1351,
+      "scoreLabel": "1351 Elo",
+      "period": "2026-10",
+      "sourceUrl": "https://arena.ai/leaderboard/image-edit",
+      "note": "模型 ideogram-4.5",
+      "asOf": "2026-10-01"
     }
   ],
   "sources": [

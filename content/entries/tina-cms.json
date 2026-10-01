@@ -24,6 +24,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-01",
+      "type": "release",
+      "summary": "发布 3.14.2: tinacms@3.14.2",
+      "version": "3.14.2",
+      "source": "https://github.com/tinacms/tinacms/releases/tag/tinacms%403.14.2"
+    },
+    {
       "date": "2026-09-23",
       "type": "release",
       "summary": "发布 3.14.1: tinacms@3.14.1",
@@ -35,7 +42,7 @@
   "sources": [
     "https://tina.io"
   ],
-  "lastReviewed": "2026-09-23",
+  "lastReviewed": "2026-10-01",
   "region": "overseas",
   "id": "tina-cms",
   "name": "TinaCMS",

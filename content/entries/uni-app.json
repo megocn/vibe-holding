@@ -39,16 +39,16 @@
     },
     {
       "systemId": "lmarena-image-edit",
-      "rank": 18,
+      "rank": 19,
       "score": 1334,
       "scoreLabel": "1334 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 uni-1.1-max",
-      "asOf": "2026-09-26",
-      "previousRank": 17,
-      "previousScore": 1333,
-      "previousAsOf": "2026-09-20"
+      "asOf": "2026-10-01",
+      "previousRank": 18,
+      "previousScore": 1334,
+      "previousAsOf": "2026-09-26"
     }
   ],
   "sources": [

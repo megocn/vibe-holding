@@ -23,16 +23,16 @@
   "rankings": [
     {
       "systemId": "lmarena-webdev",
-      "rank": 13,
-      "score": 1629,
-      "scoreLabel": "1629 Elo",
-      "period": "2026-09",
+      "rank": 15,
+      "score": 1636,
+      "scoreLabel": "1636 Elo",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 grok-4.7-xhigh",
-      "asOf": "2026-09-27",
-      "previousRank": 12,
-      "previousScore": 1632,
-      "previousAsOf": "2026-09-26"
+      "asOf": "2026-10-01",
+      "previousRank": 13,
+      "previousScore": 1629,
+      "previousAsOf": "2026-09-27"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -101,15 +101,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 49,
+      "rank": 48,
       "scoreLabel": "0.2%",
       "share": 0.2,
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-09-30",
-      "previousRank": 46,
+      "asOf": "2026-10-01",
+      "previousRank": 49,
       "previousShare": 0.2,
-      "previousAsOf": "2026-09-29"
+      "previousAsOf": "2026-09-30"
     }
   ],
   "sources": [

@@ -64,16 +64,16 @@
   "rankings": [
     {
       "systemId": "lmarena-text",
-      "rank": 19,
-      "score": 1483,
-      "scoreLabel": "1483 Elo",
-      "period": "2026-09",
+      "rank": 20,
+      "score": 1484,
+      "scoreLabel": "1484 Elo",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 gpt-5.6-sol-xhigh",
-      "asOf": "2026-09-27",
-      "previousRank": 18,
+      "asOf": "2026-10-01",
+      "previousRank": 19,
       "previousScore": 1483,
-      "previousAsOf": "2026-09-20"
+      "previousAsOf": "2026-09-27"
     },
     {
       "systemId": "lmarena-agent",

@@ -19,6 +19,13 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-10-01",
+      "type": "release",
+      "summary": "发布 3.10.22: Python 3.10.22, 3.11.17, 3.12.15, 3.13.16 and 3.14.8 are now available!",
+      "version": "3.10.22",
+      "source": "https://blog.python.org/2026/10/python-31022-31117/"
+    },
+    {
       "date": "2026-09-23",
       "type": "feature",
       "summary": "The Python documentation is now available in Persian",
@@ -64,7 +71,7 @@
   "sources": [
     "https://www.python.org"
   ],
-  "lastReviewed": "2026-09-24",
+  "lastReviewed": "2026-10-01",
   "region": "both",
   "id": "python",
   "name": "Python",

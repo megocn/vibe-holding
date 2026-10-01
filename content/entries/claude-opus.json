@@ -75,16 +75,16 @@
   "rankings": [
     {
       "systemId": "lmarena-text",
-      "rank": 1,
-      "score": 1509,
-      "scoreLabel": "1509 Elo",
-      "period": "2026-09",
+      "rank": 2,
+      "score": 1505,
+      "scoreLabel": "1505 Elo",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text",
-      "note": "模型 claude-opus-5.5-high",
-      "asOf": "2026-09-27",
-      "previousRank": 2,
-      "previousScore": 1505,
-      "previousAsOf": "2026-09-20"
+      "note": "模型 claude-opus-4-6-high",
+      "asOf": "2026-10-01",
+      "previousRank": 1,
+      "previousScore": 1509,
+      "previousAsOf": "2026-09-27"
     },
     {
       "systemId": "lmarena-agent",

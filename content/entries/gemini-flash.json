@@ -43,16 +43,16 @@
     },
     {
       "systemId": "lmarena-text",
-      "rank": 10,
-      "score": 1492,
-      "scoreLabel": "1492 Elo",
-      "period": "2026-09",
+      "rank": 11,
+      "score": 1494,
+      "scoreLabel": "1494 Elo",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 gemini-3.8-flash-high",
-      "asOf": "2026-09-27",
-      "previousRank": 9,
-      "previousScore": 1493,
-      "previousAsOf": "2026-09-26"
+      "asOf": "2026-10-01",
+      "previousRank": 10,
+      "previousScore": 1492,
+      "previousAsOf": "2026-09-27"
     },
     {
       "systemId": "lmarena-vision",
@@ -98,13 +98,13 @@
       "rank": 12,
       "score": 1387,
       "scoreLabel": "1387 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 gemini-3.1-flash-image (nano-banana-2) [web-search]",
-      "asOf": "2026-09-20",
+      "asOf": "2026-10-01",
       "previousRank": 12,
       "previousScore": 1387,
-      "previousAsOf": "2026-09-13"
+      "previousAsOf": "2026-09-20"
     },
     {
       "systemId": "openrouter-popularity",
@@ -133,16 +133,16 @@
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 23,
-      "score": 1593,
-      "scoreLabel": "1593 Elo",
-      "period": "2026-09",
+      "rank": 26,
+      "score": 1592,
+      "scoreLabel": "1592 Elo",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 gemini-3.7-flash-high",
-      "asOf": "2026-09-28",
-      "previousRank": 20,
-      "previousScore": 1587,
-      "previousAsOf": "2026-09-20"
+      "asOf": "2026-10-01",
+      "previousRank": 23,
+      "previousScore": 1593,
+      "previousAsOf": "2026-09-28"
     },
     {
       "systemId": "lmarena-t2v",
