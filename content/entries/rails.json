@@ -17,6 +17,12 @@
   ],
   "updates": [
     {
+      "date": "2026-10-01",
+      "type": "feature",
+      "summary": "Rails World 2026 recap: All talks online",
+      "source": "https://rubyonrails.org/2026/10/1/rails-world-2026-recap"
+    },
+    {
       "date": "2026-09-21",
       "type": "release",
       "summary": "发布 4.1: Agents on Rails: Maximum effort and DeepSeek 4.1 Flash",
@@ -59,7 +65,7 @@
   "sources": [
     "https://rubyonrails.org"
   ],
-  "lastReviewed": "2026-09-23",
+  "lastReviewed": "2026-10-02",
   "region": "overseas",
   "id": "rails",
   "name": "Ruby on Rails",

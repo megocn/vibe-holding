@@ -17,7 +17,15 @@
   ],
   "maturity": "stable",
   "pitfalls": [],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-10-01",
+      "type": "release",
+      "summary": "发布 0.8.7: 新版本",
+      "version": "0.8.7",
+      "source": "https://github.com/pgvector/pgvector/releases/tag/v0.8.7"
+    }
+  ],
   "rankings": [
     {
       "systemId": "db-engines-vector",
@@ -30,7 +38,7 @@
   "sources": [
     "https://github.com/pgvector/pgvector"
   ],
-  "lastReviewed": "2026-07-23",
+  "lastReviewed": "2026-10-02",
   "region": "overseas",
   "id": "pgvector",
   "name": "pgvector",

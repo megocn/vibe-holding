@@ -12616,6 +12616,12 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-10-01",
+          "type": "feature",
+          "summary": "Trust Docker for the agents you don’t",
+          "source": "https://www.docker.com/blog/docker-cloud-sandboxes-wearedevelopers-recap/"
+        },
+        {
           "date": "2026-09-22",
           "type": "feature",
           "summary": "Meet the Ecosystem: Partners and Customers at WeAreDevelopers with Docker",
@@ -12656,7 +12662,7 @@
       "sources": [
         "https://www.docker.com"
       ],
-      "lastReviewed": "2026-09-23",
+      "lastReviewed": "2026-10-02",
       "region": "overseas",
       "id": "docker",
       "name": "Docker",
@@ -17477,15 +17483,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 31,
+          "rank": 30,
           "scoreLabel": "0.5%",
           "share": 0.5,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-01",
-          "previousRank": 33,
+          "asOf": "2026-10-02",
+          "previousRank": 31,
           "previousShare": 0.5,
-          "previousAsOf": "2026-09-28"
+          "previousAsOf": "2026-10-01"
         }
       ],
       "sources": [
@@ -18756,14 +18762,14 @@
         {
           "systemId": "openrouter-popularity",
           "rank": 3,
-          "scoreLabel": "8.2%",
-          "share": 8.2,
-          "period": "2026-09",
+          "scoreLabel": "6.8%",
+          "share": 6.8,
+          "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-30",
+          "asOf": "2026-10-02",
           "previousRank": 3,
-          "previousShare": 9.6,
-          "previousAsOf": "2026-09-29"
+          "previousShare": 8.2,
+          "previousAsOf": "2026-09-30"
         },
         {
           "systemId": "lmarena-document",
@@ -20003,14 +20009,14 @@
         {
           "systemId": "openrouter-popularity",
           "rank": 9,
-          "scoreLabel": "2.7%",
-          "share": 2.7,
-          "period": "2026-09",
+          "scoreLabel": "3.8%",
+          "share": 3.8,
+          "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-29",
-          "previousRank": 10,
-          "previousShare": 2.1,
-          "previousAsOf": "2026-09-28"
+          "asOf": "2026-10-02",
+          "previousRank": 9,
+          "previousShare": 2.7,
+          "previousAsOf": "2026-09-29"
         }
       ],
       "subcategory": "line",
@@ -20610,15 +20616,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 48,
+          "rank": 46,
           "scoreLabel": "0.2%",
           "share": 0.2,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-01",
-          "previousRank": 49,
+          "asOf": "2026-10-02",
+          "previousRank": 48,
           "previousShare": 0.2,
-          "previousAsOf": "2026-09-30"
+          "previousAsOf": "2026-10-01"
         }
       ],
       "sources": [
@@ -23236,15 +23242,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 6,
-          "scoreLabel": "5.7%",
-          "share": 5.7,
-          "period": "2026-09",
+          "rank": 7,
+          "scoreLabel": "4.6%",
+          "share": 4.6,
+          "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-30",
-          "previousRank": 4,
-          "previousShare": 7.2,
-          "previousAsOf": "2026-09-28"
+          "asOf": "2026-10-02",
+          "previousRank": 6,
+          "previousShare": 5.7,
+          "previousAsOf": "2026-09-30"
         },
         {
           "systemId": "lmarena-webdev",
@@ -25618,15 +25624,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 16,
+          "rank": 17,
           "scoreLabel": "1.1%",
           "share": 1.1,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-01",
-          "previousRank": 18,
-          "previousShare": 1,
-          "previousAsOf": "2026-09-30"
+          "asOf": "2026-10-02",
+          "previousRank": 16,
+          "previousShare": 1.1,
+          "previousAsOf": "2026-10-01"
         },
         {
           "systemId": "lmarena-vision",
@@ -25866,13 +25872,13 @@
         },
         {
           "systemId": "lmarena-video-edit",
-          "period": "2026-07",
-          "note": "kling-o3-pro",
+          "rank": 9,
+          "score": 1197,
+          "scoreLabel": "1197 Elo",
+          "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/video-edit",
-          "asOf": "2026-07-24",
-          "rank": 5,
-          "score": 1251,
-          "scoreLabel": "1251 Elo",
+          "note": "模型 kling-o1-pro",
+          "asOf": "2026-10-02",
           "previousRank": 5,
           "previousScore": 1251,
           "previousAsOf": "2026-07-24"
@@ -31312,15 +31318,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 22,
-          "scoreLabel": "0.9%",
-          "share": 0.9,
+          "rank": 21,
+          "scoreLabel": "0.8%",
+          "share": 0.8,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-01",
-          "previousRank": 23,
-          "previousShare": 1,
-          "previousAsOf": "2026-09-29"
+          "asOf": "2026-10-02",
+          "previousRank": 22,
+          "previousShare": 0.9,
+          "previousAsOf": "2026-10-01"
         },
         {
           "systemId": "lmarena-vision",
@@ -36642,7 +36648,15 @@
       ],
       "maturity": "stable",
       "pitfalls": [],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-10-01",
+          "type": "release",
+          "summary": "发布 0.8.7: 新版本",
+          "version": "0.8.7",
+          "source": "https://github.com/pgvector/pgvector/releases/tag/v0.8.7"
+        }
+      ],
       "rankings": [
         {
           "systemId": "db-engines-vector",
@@ -36655,7 +36669,7 @@
       "sources": [
         "https://github.com/pgvector/pgvector"
       ],
-      "lastReviewed": "2026-07-23",
+      "lastReviewed": "2026-10-02",
       "region": "overseas",
       "id": "pgvector",
       "name": "pgvector",
@@ -38023,15 +38037,15 @@
       "rankings": [
         {
           "systemId": "openrouter-popularity",
-          "rank": 26,
-          "scoreLabel": "0.8%",
-          "share": 0.8,
-          "period": "2026-09",
+          "rank": 27,
+          "scoreLabel": "0.7%",
+          "share": 0.7,
+          "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-29",
-          "previousRank": 24,
-          "previousShare": 0.9,
-          "previousAsOf": "2026-09-26"
+          "asOf": "2026-10-02",
+          "previousRank": 26,
+          "previousShare": 0.8,
+          "previousAsOf": "2026-09-29"
         }
       ],
       "sources": [
@@ -39734,15 +39748,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 38,
+          "rank": 36,
           "scoreLabel": "0.3%",
           "share": 0.3,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-01",
-          "previousRank": 42,
-          "previousShare": 0.4,
-          "previousAsOf": "2026-09-24"
+          "asOf": "2026-10-02",
+          "previousRank": 38,
+          "previousShare": 0.3,
+          "previousAsOf": "2026-10-01"
         },
         {
           "systemId": "lmarena-vision",
@@ -40146,6 +40160,12 @@
       ],
       "updates": [
         {
+          "date": "2026-10-01",
+          "type": "feature",
+          "summary": "Rails World 2026 recap: All talks online",
+          "source": "https://rubyonrails.org/2026/10/1/rails-world-2026-recap"
+        },
+        {
           "date": "2026-09-21",
           "type": "release",
           "summary": "发布 4.1: Agents on Rails: Maximum effort and DeepSeek 4.1 Flash",
@@ -40188,7 +40208,7 @@
       "sources": [
         "https://rubyonrails.org"
       ],
-      "lastReviewed": "2026-09-23",
+      "lastReviewed": "2026-10-02",
       "region": "overseas",
       "id": "rails",
       "name": "Ruby on Rails",
@@ -43827,6 +43847,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-01",
+          "type": "release",
+          "summary": "发布 1.0.55: Release v1.0.55",
+          "version": "1.0.55",
+          "source": "https://github.com/Skyvern-AI/skyvern/releases/tag/v1.0.55"
+        },
+        {
           "date": "2026-09-22",
           "type": "release",
           "summary": "发布 1.0.54: Release v1.0.54",
@@ -43853,7 +43880,7 @@
         "https://www.skyvern.com",
         "https://github.com/Skyvern-AI/skyvern"
       ],
-      "lastReviewed": "2026-09-23",
+      "lastReviewed": "2026-10-02",
       "region": "overseas",
       "id": "skyvern",
       "name": "Skyvern",
@@ -44214,15 +44241,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 19,
-          "scoreLabel": "1%",
-          "share": 1,
-          "period": "2026-09",
+          "rank": 26,
+          "scoreLabel": "0.8%",
+          "share": 0.8,
+          "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-30",
-          "previousRank": 18,
-          "previousShare": 1.2,
-          "previousAsOf": "2026-09-28"
+          "asOf": "2026-10-02",
+          "previousRank": 19,
+          "previousShare": 1,
+          "previousAsOf": "2026-09-30"
         }
       ],
       "sources": [
