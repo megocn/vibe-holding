@@ -18,6 +18,12 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-10-02",
+      "type": "feature",
+      "summary": "Arch-specific SIMD in Go",
+      "source": "https://go.dev/blog/archsimd"
+    },
+    {
       "date": "2026-09-24",
       "type": "feature",
       "summary": "Platform-independent SIMD in Go",
@@ -48,7 +54,7 @@
   "sources": [
     "https://go.dev"
   ],
-  "lastReviewed": "2026-09-26",
+  "lastReviewed": "2026-10-03",
   "region": "both",
   "id": "go",
   "name": "Go",

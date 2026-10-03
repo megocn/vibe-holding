@@ -25,6 +25,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-02",
+      "type": "release",
+      "summary": "发布 2.45.2: twenty/v2.45.2",
+      "version": "2.45.2",
+      "source": "https://github.com/twentyhq/twenty/releases/tag/twenty%2Fv2.45.2"
+    },
+    {
       "date": "2026-09-24",
       "type": "release",
       "summary": "发布 2.42.6: twenty/v2.42.6",
@@ -78,7 +85,7 @@
   "sources": [
     "https://twenty.com"
   ],
-  "lastReviewed": "2026-09-26",
+  "lastReviewed": "2026-10-03",
   "region": "overseas",
   "id": "twenty",
   "name": "Twenty",

@@ -46,13 +46,13 @@
       "rank": 37,
       "score": 1420,
       "scoreLabel": "1420 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 claude-haiku-4-5-20251001",
-      "asOf": "2026-09-26",
+      "asOf": "2026-10-03",
       "previousRank": 37,
       "previousScore": 1420,
-      "previousAsOf": "2026-09-19"
+      "previousAsOf": "2026-09-26"
     },
     {
       "systemId": "openrouter-popularity",

@@ -18,6 +18,12 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-10-02",
+      "type": "feature",
+      "summary": "Stateless GitHub App installation tokens rolled out",
+      "source": "https://github.blog/changelog/2026-10-02-stateless-github-app-installation-tokens-rolled-out"
+    },
+    {
       "date": "2026-09-25",
       "type": "feature",
       "summary": "Changes to query results in the GitHub Actions API and UI",
@@ -40,7 +46,7 @@
   "sources": [
     "https://github.com/features/actions"
   ],
-  "lastReviewed": "2026-09-26",
+  "lastReviewed": "2026-10-03",
   "region": "overseas",
   "id": "github-actions",
   "name": "GitHub Actions",

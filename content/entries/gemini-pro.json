@@ -95,13 +95,13 @@
       "rank": 31,
       "score": 1444,
       "scoreLabel": "1444 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 gemini-3.1-pro-preview",
-      "asOf": "2026-09-26",
+      "asOf": "2026-10-03",
       "previousRank": 31,
       "previousScore": 1444,
-      "previousAsOf": "2026-09-19"
+      "previousAsOf": "2026-09-26"
     },
     {
       "systemId": "lmarena-webdev",

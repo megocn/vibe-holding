@@ -17,6 +17,12 @@
   ],
   "updates": [
     {
+      "date": "2026-10-03",
+      "type": "feature",
+      "summary": "b11362",
+      "source": "https://github.com/ggml-org/llama.cpp/releases/tag/b11362"
+    },
+    {
       "date": "2026-09-26",
       "type": "feature",
       "summary": "b11192",
@@ -70,7 +76,7 @@
   "sources": [
     "https://github.com/ggerganov/llama.cpp"
   ],
-  "lastReviewed": "2026-09-26",
+  "lastReviewed": "2026-10-03",
   "region": "overseas",
   "id": "llama-cpp",
   "name": "llama.cpp",

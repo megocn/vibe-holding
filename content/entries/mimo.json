@@ -67,16 +67,16 @@
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 23,
-      "score": 1619,
-      "scoreLabel": "1619 Elo",
+      "rank": 24,
+      "score": 1618,
+      "scoreLabel": "1618 Elo",
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 mimo-v2.6-pro",
-      "asOf": "2026-10-01",
-      "previousRank": 19,
+      "asOf": "2026-10-03",
+      "previousRank": 23,
       "previousScore": 1619,
-      "previousAsOf": "2026-09-26"
+      "previousAsOf": "2026-10-01"
     },
     {
       "systemId": "lmarena-text",

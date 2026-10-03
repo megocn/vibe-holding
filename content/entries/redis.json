@@ -22,6 +22,12 @@
   ],
   "updates": [
     {
+      "date": "2026-09-30",
+      "type": "feature",
+      "summary": "Scale your workloads without paying all-RAM prices",
+      "source": "https://redis.io/blog/scale-your-workloads-without-paying-all-ram-prices/"
+    },
+    {
       "date": "2026-09-24",
       "type": "feature",
       "summary": "The official FastAPI Redis SDK is now available",
@@ -63,7 +69,7 @@
   "sources": [
     "https://redis.io"
   ],
-  "lastReviewed": "2026-09-26",
+  "lastReviewed": "2026-10-03",
   "region": "overseas",
   "id": "redis",
   "name": "Redis",

@@ -22,6 +22,12 @@
   ],
   "updates": [
     {
+      "date": "2026-10-02",
+      "type": "feature",
+      "summary": "stagehand-python@4.2.0a0.dev1565: docs: add Amel Bajramovic to README acknowledgements (#3095)",
+      "source": "https://github.com/browserbase/stagehand/releases/tag/stagehand-python%404.2.0a0.dev1565"
+    },
+    {
       "date": "2026-09-25",
       "type": "feature",
       "summary": "stagehand-python@4.2.0a0.dev1539: [docs]: change intro copy (#3048)",
@@ -65,7 +71,7 @@
   "sources": [
     "https://github.com/browserbase/stagehand"
   ],
-  "lastReviewed": "2026-09-26",
+  "lastReviewed": "2026-10-03",
   "region": "overseas",
   "id": "stagehand",
   "name": "Stagehand",

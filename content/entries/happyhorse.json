@@ -47,26 +47,26 @@
       "rank": 10,
       "score": 1427,
       "scoreLabel": "1427 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 happyhorse-1.0",
-      "asOf": "2026-09-26",
+      "asOf": "2026-10-03",
       "previousRank": 10,
       "previousScore": 1427,
-      "previousAsOf": "2026-09-19"
+      "previousAsOf": "2026-09-26"
     },
     {
       "systemId": "lmarena-i2v",
       "rank": 10,
       "score": 1442,
       "scoreLabel": "1442 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
       "note": "模型 happyhorse-1.0",
-      "asOf": "2026-09-26",
+      "asOf": "2026-10-03",
       "previousRank": 10,
       "previousScore": 1442,
-      "previousAsOf": "2026-09-19"
+      "previousAsOf": "2026-09-26"
     },
     {
       "systemId": "lmarena-video-edit",

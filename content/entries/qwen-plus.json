@@ -62,13 +62,13 @@
       "rank": 30,
       "score": 1444,
       "scoreLabel": "1444 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 qwen3.7-plus",
-      "asOf": "2026-09-26",
+      "asOf": "2026-10-03",
       "previousRank": 30,
       "previousScore": 1444,
-      "previousAsOf": "2026-09-19"
+      "previousAsOf": "2026-09-26"
     },
     {
       "systemId": "lmarena-webdev",

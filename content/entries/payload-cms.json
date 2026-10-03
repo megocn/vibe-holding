@@ -24,6 +24,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-02",
+      "type": "release",
+      "summary": "发布 3.90.0: 新版本",
+      "version": "3.90.0",
+      "source": "https://github.com/payloadcms/payload/releases/tag/v3.90.0"
+    },
+    {
       "date": "2026-09-18",
       "type": "release",
       "summary": "发布 3.90.1: 新版本",
@@ -49,7 +56,7 @@
   "sources": [
     "https://payloadcms.com"
   ],
-  "lastReviewed": "2026-09-19",
+  "lastReviewed": "2026-10-03",
   "region": "overseas",
   "id": "payload-cms",
   "name": "Payload CMS",
@@ -61,5 +68,5 @@
   "vendorId": "payload-inc",
   "githubUrl": "https://github.com/payloadcms/payload",
   "docsUrl": "https://payloadcms.com/docs",
-  "currentVersion": "3.89.0"
+  "currentVersion": "3.90.0"
 }

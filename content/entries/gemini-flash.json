@@ -108,41 +108,41 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 14,
-      "scoreLabel": "1.5%",
-      "share": 1.5,
-      "period": "2026-09",
+      "rank": 15,
+      "scoreLabel": "1.4%",
+      "share": 1.4,
+      "period": "2026-10",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-09-29",
-      "previousRank": 15,
-      "previousShare": 1.7,
-      "previousAsOf": "2026-09-27"
+      "asOf": "2026-10-03",
+      "previousRank": 14,
+      "previousShare": 1.5,
+      "previousAsOf": "2026-09-29"
     },
     {
       "systemId": "lmarena-document",
       "rank": 20,
       "score": 1463,
       "scoreLabel": "1463 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 gemini-3.5-flash-medium",
-      "asOf": "2026-09-26",
+      "asOf": "2026-10-03",
       "previousRank": 20,
       "previousScore": 1463,
-      "previousAsOf": "2026-09-19"
+      "previousAsOf": "2026-09-26"
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 26,
+      "rank": 27,
       "score": 1592,
       "scoreLabel": "1592 Elo",
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 gemini-3.7-flash-high",
-      "asOf": "2026-10-01",
-      "previousRank": 23,
-      "previousScore": 1593,
-      "previousAsOf": "2026-09-28"
+      "asOf": "2026-10-03",
+      "previousRank": 26,
+      "previousScore": 1592,
+      "previousAsOf": "2026-10-01"
     },
     {
       "systemId": "lmarena-t2v",

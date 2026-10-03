@@ -41,29 +41,29 @@
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 5,
-      "score": 1709,
-      "scoreLabel": "1709 Elo",
+      "rank": 3,
+      "score": 1786,
+      "scoreLabel": "1786 Elo",
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
-      "note": "模型 claude-sonnet-5.5-high",
-      "asOf": "2026-10-01",
-      "previousRank": 33,
-      "previousScore": 1537,
-      "previousAsOf": "2026-09-20"
+      "note": "模型 claude-sonnet-5.5-xhigh",
+      "asOf": "2026-10-03",
+      "previousRank": 5,
+      "previousScore": 1709,
+      "previousAsOf": "2026-10-01"
     },
     {
       "systemId": "lmarena-document",
       "rank": 11,
       "score": 1482,
       "scoreLabel": "1482 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 claude-sonnet-4-6",
-      "asOf": "2026-09-26",
+      "asOf": "2026-10-03",
       "previousRank": 11,
       "previousScore": 1482,
-      "previousAsOf": "2026-09-19"
+      "previousAsOf": "2026-09-26"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -106,15 +106,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 20,
-      "scoreLabel": "1%",
-      "share": 1,
-      "period": "2026-09",
+      "rank": 23,
+      "scoreLabel": "0.8%",
+      "share": 0.8,
+      "period": "2026-10",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-09-30",
-      "previousRank": 19,
-      "previousShare": 1.1,
-      "previousAsOf": "2026-09-29"
+      "asOf": "2026-10-03",
+      "previousRank": 20,
+      "previousShare": 1,
+      "previousAsOf": "2026-09-30"
     },
     {
       "systemId": "lmarena-text",

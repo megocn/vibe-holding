@@ -19,6 +19,12 @@
   ],
   "updates": [
     {
+      "date": "2026-10-02",
+      "type": "feature",
+      "summary": "AI Overviews Currently Appear for 83% of Branded Searches",
+      "source": "https://ahrefs.com/blog/ai-overviews-on-branded-searches/"
+    },
+    {
       "date": "2026-09-25",
       "type": "feature",
       "summary": "How to Optimize for AI Search: A Guide for You and Your AI Agent",
@@ -47,7 +53,7 @@
   "sources": [
     "https://ahrefs.com"
   ],
-  "lastReviewed": "2026-09-26",
+  "lastReviewed": "2026-10-03",
   "region": "overseas",
   "id": "ahrefs",
   "name": "Ahrefs",

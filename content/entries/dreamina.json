@@ -36,13 +36,13 @@
       "rank": 5,
       "score": 1479,
       "scoreLabel": "1479 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 dreamina-seedance-2.0-720p",
-      "asOf": "2026-09-26",
-      "previousRank": 6,
-      "previousScore": 1482,
-      "previousAsOf": "2026-09-19"
+      "asOf": "2026-10-03",
+      "previousRank": 5,
+      "previousScore": 1479,
+      "previousAsOf": "2026-09-26"
     },
     {
       "systemId": "lmarena-i2v",

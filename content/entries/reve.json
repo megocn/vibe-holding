@@ -41,13 +41,13 @@
       "rank": 5,
       "score": 1302,
       "scoreLabel": "1302 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 reve-2.1",
-      "asOf": "2026-09-26",
-      "previousRank": 6,
-      "previousScore": 1301,
-      "previousAsOf": "2026-09-20"
+      "asOf": "2026-10-03",
+      "previousRank": 5,
+      "previousScore": 1302,
+      "previousAsOf": "2026-09-26"
     },
     {
       "systemId": "lmarena-image-edit",

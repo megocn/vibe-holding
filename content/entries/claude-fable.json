@@ -62,25 +62,25 @@
     {
       "systemId": "lmarena-agent",
       "rank": 1,
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/agent",
       "note": "模型 Claude Fable 5.1 (Max)",
-      "asOf": "2026-09-26",
+      "asOf": "2026-10-03",
       "previousRank": 1,
-      "previousAsOf": "2026-09-19"
+      "previousAsOf": "2026-09-26"
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 4,
-      "score": 1751,
-      "scoreLabel": "1751 Elo",
+      "rank": 5,
+      "score": 1749,
+      "scoreLabel": "1749 Elo",
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 claude-fable-5.1-max",
-      "asOf": "2026-10-01",
-      "previousRank": 3,
-      "previousScore": 1755,
-      "previousAsOf": "2026-09-26"
+      "asOf": "2026-10-03",
+      "previousRank": 4,
+      "previousScore": 1751,
+      "previousAsOf": "2026-10-01"
     },
     {
       "systemId": "lmarena-vision",
@@ -100,13 +100,13 @@
       "rank": 2,
       "score": 1513,
       "scoreLabel": "1513 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 claude-fable-5.1-max",
-      "asOf": "2026-09-26",
+      "asOf": "2026-10-03",
       "previousRank": 2,
       "previousScore": 1513,
-      "previousAsOf": "2026-09-19"
+      "previousAsOf": "2026-09-26"
     },
     {
       "systemId": "lmarena-search",
@@ -149,15 +149,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 34,
-      "scoreLabel": "0.4%",
-      "share": 0.4,
+      "rank": 45,
+      "scoreLabel": "0.3%",
+      "share": 0.3,
       "period": "2026-10",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-10-01",
-      "previousRank": 35,
+      "asOf": "2026-10-03",
+      "previousRank": 34,
       "previousShare": 0.4,
-      "previousAsOf": "2026-09-29"
+      "previousAsOf": "2026-10-01"
     }
   ],
   "sources": [

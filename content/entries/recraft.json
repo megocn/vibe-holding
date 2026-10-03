@@ -33,13 +33,13 @@
       "rank": 24,
       "score": 1169,
       "scoreLabel": "1169 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 recraft-v4.1-utility-pro",
-      "asOf": "2026-09-26",
-      "previousRank": 23,
+      "asOf": "2026-10-03",
+      "previousRank": 24,
       "previousScore": 1169,
-      "previousAsOf": "2026-09-20"
+      "previousAsOf": "2026-09-26"
     },
     {
       "systemId": "aa-image-arena",

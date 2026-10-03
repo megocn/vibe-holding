@@ -27,13 +27,13 @@
       "rank": 6,
       "score": 1301,
       "scoreLabel": "1301 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 grok-imagine-image-2.0 (low)",
-      "asOf": "2026-09-26",
-      "previousRank": 5,
-      "previousScore": 1315,
-      "previousAsOf": "2026-09-20"
+      "asOf": "2026-10-03",
+      "previousRank": 6,
+      "previousScore": 1301,
+      "previousAsOf": "2026-09-26"
     },
     {
       "systemId": "lmarena-image-edit",
@@ -66,26 +66,26 @@
       "rank": 8,
       "score": 1456,
       "scoreLabel": "1456 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
       "note": "模型 grok-imagine-video-1.5-720p",
-      "asOf": "2026-09-26",
-      "previousRank": 7,
+      "asOf": "2026-10-03",
+      "previousRank": 8,
       "previousScore": 1456,
-      "previousAsOf": "2026-09-20"
+      "previousAsOf": "2026-09-26"
     },
     {
       "systemId": "lmarena-t2v",
       "rank": 4,
       "score": 1492,
       "scoreLabel": "1492 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 grok-imagine-video-1.5-agent",
-      "asOf": "2026-09-26",
-      "previousRank": 5,
-      "previousScore": 1491,
-      "previousAsOf": "2026-09-19"
+      "asOf": "2026-10-03",
+      "previousRank": 4,
+      "previousScore": 1492,
+      "previousAsOf": "2026-09-26"
     },
     {
       "systemId": "lmarena-video-edit",

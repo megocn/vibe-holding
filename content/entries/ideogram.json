@@ -33,13 +33,13 @@
       "rank": 18,
       "score": 1205,
       "scoreLabel": "1205 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 ideogram-4.0-quality",
-      "asOf": "2026-09-26",
-      "previousRank": 17,
-      "previousScore": 1204,
-      "previousAsOf": "2026-09-20"
+      "asOf": "2026-10-03",
+      "previousRank": 18,
+      "previousScore": 1205,
+      "previousAsOf": "2026-09-26"
     },
     {
       "systemId": "aa-image-arena",

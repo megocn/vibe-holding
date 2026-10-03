@@ -59,13 +59,13 @@
       "rank": 13,
       "score": 1472,
       "scoreLabel": "1472 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 gpt-5.6-terra-xhigh",
-      "asOf": "2026-09-26",
+      "asOf": "2026-10-03",
       "previousRank": 13,
       "previousScore": 1472,
-      "previousAsOf": "2026-09-19"
+      "previousAsOf": "2026-09-26"
     },
     {
       "systemId": "lmarena-webdev",

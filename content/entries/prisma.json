@@ -20,6 +20,12 @@
   ],
   "updates": [
     {
+      "date": "2026-10-02",
+      "type": "feature",
+      "summary": "Prisma ORM Manifesto 2026: Open, Extensible, Collaborative",
+      "source": "https://www.prisma.io/blog/prisma-orm-manifesto-2026"
+    },
+    {
       "date": "2026-09-24",
       "type": "feature",
       "summary": "How to use Prisma ORM 8 in NestJS: setup, queries, deploy",
@@ -49,7 +55,7 @@
   "sources": [
     "https://www.prisma.io"
   ],
-  "lastReviewed": "2026-09-26",
+  "lastReviewed": "2026-10-03",
   "region": "overseas",
   "id": "prisma",
   "name": "Prisma",

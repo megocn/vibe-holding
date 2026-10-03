@@ -91,25 +91,25 @@
       "rank": 25,
       "score": 1452,
       "scoreLabel": "1452 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 grok-4.6-high",
-      "asOf": "2026-09-26",
+      "asOf": "2026-10-03",
       "previousRank": 25,
       "previousScore": 1452,
-      "previousAsOf": "2026-09-19"
+      "previousAsOf": "2026-09-26"
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 46,
+      "rank": 49,
       "scoreLabel": "0.2%",
       "share": 0.2,
       "period": "2026-10",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-10-02",
-      "previousRank": 48,
+      "asOf": "2026-10-03",
+      "previousRank": 46,
       "previousShare": 0.2,
-      "previousAsOf": "2026-10-01"
+      "previousAsOf": "2026-10-02"
     }
   ],
   "sources": [

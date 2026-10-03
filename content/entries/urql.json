@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-02",
+      "type": "release",
+      "summary": "发布 9.0.2: @urql/exchange-graphcache@9.0.2",
+      "version": "9.0.2",
+      "source": "https://github.com/urql-graphql/urql/releases/tag/%40urql%2Fexchange-graphcache%409.0.2"
+    },
+    {
       "date": "2026-08-21",
       "type": "release",
       "summary": "发布 5.0.4: urql@5.0.4",
@@ -33,7 +40,7 @@
   "sources": [
     "https://github.com/urql-graphql/urql"
   ],
-  "lastReviewed": "2026-08-22",
+  "lastReviewed": "2026-10-03",
   "region": "overseas",
   "id": "urql",
   "name": "urql",

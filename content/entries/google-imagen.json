@@ -35,13 +35,13 @@
       "rank": 34,
       "score": 1148,
       "scoreLabel": "1148 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 imagen-ultra-4.0-generate-001",
-      "asOf": "2026-09-26",
-      "previousRank": 33,
+      "asOf": "2026-10-03",
+      "previousRank": 34,
       "previousScore": 1148,
-      "previousAsOf": "2026-09-20"
+      "previousAsOf": "2026-09-26"
     },
     {
       "systemId": "aa-image-arena",
