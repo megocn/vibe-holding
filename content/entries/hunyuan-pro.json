@@ -75,13 +75,13 @@
       "rank": 38,
       "score": 1169,
       "scoreLabel": "1169 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 hunyuan-video-1.5",
-      "asOf": "2026-09-27",
+      "asOf": "2026-10-06",
       "previousRank": 38,
       "previousScore": 1169,
-      "previousAsOf": "2026-09-20"
+      "previousAsOf": "2026-09-27"
     }
   ],
   "sources": [

@@ -36,15 +36,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 21,
-      "scoreLabel": "0.8%",
-      "share": 0.8,
+      "rank": 22,
+      "scoreLabel": "0.7%",
+      "share": 0.7,
       "period": "2026-10",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-10-02",
-      "previousRank": 22,
-      "previousShare": 0.9,
-      "previousAsOf": "2026-10-01"
+      "asOf": "2026-10-06",
+      "previousRank": 21,
+      "previousShare": 0.8,
+      "previousAsOf": "2026-10-02"
     },
     {
       "systemId": "lmarena-vision",
@@ -116,13 +116,13 @@
       "rank": 3,
       "score": 1392,
       "scoreLabel": "1392 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/video-edit",
       "note": "模型 minimax-h3",
-      "asOf": "2026-09-27",
+      "asOf": "2026-10-06",
       "previousRank": 3,
       "previousScore": 1392,
-      "previousAsOf": "2026-09-20"
+      "previousAsOf": "2026-09-27"
     }
   ],
   "sources": [

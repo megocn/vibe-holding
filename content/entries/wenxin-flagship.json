@@ -39,13 +39,13 @@
       "rank": 6,
       "score": 1227,
       "scoreLabel": "1227 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/search",
       "note": "模型 ernie-5.1",
-      "asOf": "2026-09-27",
+      "asOf": "2026-10-06",
       "previousRank": 6,
       "previousScore": 1227,
-      "previousAsOf": "2026-09-20"
+      "previousAsOf": "2026-09-27"
     }
   ],
   "sources": [

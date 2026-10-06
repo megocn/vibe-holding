@@ -51,16 +51,16 @@
     },
     {
       "systemId": "lmarena-image-edit",
-      "rank": 5,
-      "score": 1434,
-      "scoreLabel": "1434 Elo",
-      "period": "2026-09",
+      "rank": 6,
+      "score": 1427,
+      "scoreLabel": "1427 Elo",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 mai-image-2.6",
-      "asOf": "2026-09-20",
+      "asOf": "2026-10-06",
       "previousRank": 5,
       "previousScore": 1434,
-      "previousAsOf": "2026-09-13"
+      "previousAsOf": "2026-09-20"
     },
     {
       "systemId": "aa-image-arena",

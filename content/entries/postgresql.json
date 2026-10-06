@@ -21,6 +21,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-05",
+      "type": "release",
+      "summary": "发布 1.16: pg_ivm 1.16 released",
+      "version": "1.16",
+      "source": "https://www.postgresql.org/about/news/pg_ivm-116-released-3391/"
+    },
+    {
       "date": "2026-09-28",
       "type": "release",
       "summary": "发布 6.0: PL/Haskell v6.0 Released",
@@ -57,7 +64,7 @@
   "sources": [
     "https://www.postgresql.org"
   ],
-  "lastReviewed": "2026-09-29",
+  "lastReviewed": "2026-10-06",
   "region": "overseas",
   "id": "postgresql",
   "name": "PostgreSQL",
@@ -92,5 +99,5 @@
       "previousAsOf": "2026-07-20"
     }
   ],
-  "currentVersion": "6.0"
+  "currentVersion": "1.16"
 }

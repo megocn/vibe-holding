@@ -73,13 +73,13 @@
       "rank": 6,
       "score": 1307,
       "scoreLabel": "1307 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/video-edit",
       "note": "模型 happyhorse-1.0",
-      "asOf": "2026-09-27",
+      "asOf": "2026-10-06",
       "previousRank": 6,
       "previousScore": 1307,
-      "previousAsOf": "2026-09-20"
+      "previousAsOf": "2026-09-27"
     },
     {
       "systemId": "aa-video-arena",

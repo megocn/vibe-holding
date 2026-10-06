@@ -53,29 +53,29 @@
     },
     {
       "systemId": "lmarena-vision",
-      "rank": 11,
+      "rank": 13,
       "score": 1289,
       "scoreLabel": "1289 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 gemini-3-pro",
-      "asOf": "2026-09-30",
-      "previousRank": 12,
+      "asOf": "2026-10-06",
+      "previousRank": 11,
       "previousScore": 1289,
-      "previousAsOf": "2026-09-26"
+      "previousAsOf": "2026-09-30"
     },
     {
       "systemId": "lmarena-search",
       "rank": 9,
       "score": 1210,
       "scoreLabel": "1210 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/search",
       "note": "模型 gemini-3.1-pro-grounding",
-      "asOf": "2026-09-27",
+      "asOf": "2026-10-06",
       "previousRank": 9,
       "previousScore": 1210,
-      "previousAsOf": "2026-09-20"
+      "previousAsOf": "2026-09-27"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -118,29 +118,29 @@
     },
     {
       "systemId": "lmarena-image",
-      "rank": 14,
-      "score": 1246,
-      "scoreLabel": "1246 Elo",
-      "period": "2026-09",
+      "rank": 15,
+      "score": 1247,
+      "scoreLabel": "1247 Elo",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 gemini-3-pro-image-2k (nano-banana-pro)",
-      "asOf": "2026-09-20",
+      "asOf": "2026-10-06",
       "previousRank": 14,
       "previousScore": 1246,
-      "previousAsOf": "2026-09-13"
+      "previousAsOf": "2026-09-20"
     },
     {
       "systemId": "lmarena-image-edit",
-      "rank": 10,
+      "rank": 11,
       "score": 1390,
       "scoreLabel": "1390 Elo",
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 gemini-3-pro-image-2k (nano-banana-pro)",
-      "asOf": "2026-10-01",
-      "previousRank": 9,
+      "asOf": "2026-10-06",
+      "previousRank": 10,
       "previousScore": 1390,
-      "previousAsOf": "2026-09-26"
+      "previousAsOf": "2026-10-01"
     },
     {
       "systemId": "openrouter-popularity",

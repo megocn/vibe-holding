@@ -51,13 +51,13 @@
       "rank": 3,
       "score": 1504,
       "scoreLabel": "1504 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 claude-fable-5-high",
-      "asOf": "2026-09-27",
-      "previousRank": 1,
-      "previousScore": 1507,
-      "previousAsOf": "2026-07-24"
+      "asOf": "2026-10-06",
+      "previousRank": 3,
+      "previousScore": 1504,
+      "previousAsOf": "2026-09-27"
     },
     {
       "systemId": "lmarena-agent",
@@ -113,13 +113,13 @@
       "rank": 5,
       "score": 1230,
       "scoreLabel": "1230 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/search",
       "note": "模型 claude-fable-5-high",
-      "asOf": "2026-09-27",
+      "asOf": "2026-10-06",
       "previousRank": 5,
       "previousScore": 1230,
-      "previousAsOf": "2026-09-20"
+      "previousAsOf": "2026-09-27"
     },
     {
       "systemId": "artificial-analysis-index",

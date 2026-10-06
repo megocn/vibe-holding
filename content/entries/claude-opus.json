@@ -89,12 +89,12 @@
     {
       "systemId": "lmarena-agent",
       "rank": 2,
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/agent",
       "note": "模型 Claude Opus 5.5 (High)",
-      "asOf": "2026-09-29",
-      "previousRank": 3,
-      "previousAsOf": "2026-09-27"
+      "asOf": "2026-10-06",
+      "previousRank": 2,
+      "previousAsOf": "2026-09-29"
     },
     {
       "systemId": "lmarena-webdev",
@@ -140,13 +140,13 @@
       "rank": 2,
       "score": 1253,
       "scoreLabel": "1253 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/search",
       "note": "模型 claude-opus-4-6-search",
-      "asOf": "2026-09-27",
+      "asOf": "2026-10-06",
       "previousRank": 2,
       "previousScore": 1253,
-      "previousAsOf": "2026-09-20"
+      "previousAsOf": "2026-09-27"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -163,15 +163,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 14,
-      "scoreLabel": "1.4%",
-      "share": 1.4,
+      "rank": 13,
+      "scoreLabel": "1.7%",
+      "share": 1.7,
       "period": "2026-10",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-10-03",
-      "previousRank": 15,
-      "previousShare": 1.2,
-      "previousAsOf": "2026-09-30"
+      "asOf": "2026-10-06",
+      "previousRank": 14,
+      "previousShare": 1.4,
+      "previousAsOf": "2026-10-03"
     },
     {
       "systemId": "swe-bench-pro",

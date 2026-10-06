@@ -21,6 +21,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-05",
+      "type": "release",
+      "summary": "发布 4.6.0: 新版本",
+      "version": "4.6.0",
+      "source": "https://github.com/nuxt/nuxt/releases/tag/v4.6.0"
+    },
+    {
       "date": "2026-08-05",
       "type": "release",
       "summary": "发布 4.5.2: 新版本",
@@ -38,7 +45,7 @@
   "sources": [
     "https://nuxt.com"
   ],
-  "lastReviewed": "2026-08-06",
+  "lastReviewed": "2026-10-06",
   "region": "overseas",
   "id": "nuxt",
   "name": "Nuxt",
@@ -55,5 +62,6 @@
       "asOf": "2026-07-20",
       "previousAsOf": "2026-07-20"
     }
-  ]
+  ],
+  "currentVersion": "4.6.0"
 }

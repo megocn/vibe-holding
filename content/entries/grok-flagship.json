@@ -78,13 +78,13 @@
       "rank": 8,
       "score": 1213,
       "scoreLabel": "1213 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/search",
       "note": "模型 grok-4.5",
-      "asOf": "2026-09-27",
+      "asOf": "2026-10-06",
       "previousRank": 8,
       "previousScore": 1213,
-      "previousAsOf": "2026-09-20"
+      "previousAsOf": "2026-09-27"
     },
     {
       "systemId": "lmarena-document",
