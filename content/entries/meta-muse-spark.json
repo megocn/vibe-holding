@@ -71,13 +71,13 @@
       "rank": 8,
       "score": 1294,
       "scoreLabel": "1294 Elo",
-      "period": "2026-09",
+      "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 muse-spark",
-      "asOf": "2026-09-30",
-      "previousRank": 6,
+      "asOf": "2026-10-07",
+      "previousRank": 8,
       "previousScore": 1294,
-      "previousAsOf": "2026-09-27"
+      "previousAsOf": "2026-09-30"
     },
     {
       "systemId": "lmarena-document",
@@ -107,15 +107,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 17,
+      "rank": 18,
       "scoreLabel": "0.9%",
       "share": 0.9,
       "period": "2026-10",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-10-06",
-      "previousRank": 18,
-      "previousShare": 1,
-      "previousAsOf": "2026-10-01"
+      "asOf": "2026-10-07",
+      "previousRank": 17,
+      "previousShare": 0.9,
+      "previousAsOf": "2026-10-06"
     }
   ],
   "sources": [

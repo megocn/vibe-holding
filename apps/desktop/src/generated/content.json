@@ -3459,6 +3459,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-06",
+          "type": "release",
+          "summary": "发布 5.2.5: create-astro@5.2.5",
+          "version": "5.2.5",
+          "source": "https://github.com/withastro/astro/releases/tag/create-astro%405.2.5"
+        },
+        {
           "date": "2026-09-22",
           "type": "release",
           "summary": "发布 11.0.11: @astrojs/vercel@11.0.11",
@@ -3498,7 +3505,7 @@
       "sources": [
         "https://astro.build"
       ],
-      "lastReviewed": "2026-09-23",
+      "lastReviewed": "2026-10-07",
       "region": "overseas",
       "id": "astro",
       "name": "Astro",
@@ -6814,6 +6821,12 @@
       ],
       "updates": [
         {
+          "date": "2026-10-06",
+          "type": "feature",
+          "summary": "官方动态更新",
+          "source": "https://github.com/celery/celery/releases/tag/v5.7.0b1"
+        },
+        {
           "date": "2026-09-22",
           "type": "feature",
           "summary": "官方动态更新",
@@ -6824,7 +6837,7 @@
       "sources": [
         "https://docs.celeryq.dev"
       ],
-      "lastReviewed": "2026-09-23",
+      "lastReviewed": "2026-10-07",
       "region": "overseas",
       "id": "celery",
       "name": "Celery",
@@ -7965,15 +7978,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 13,
-          "scoreLabel": "1.7%",
-          "share": 1.7,
+          "rank": 12,
+          "scoreLabel": "1.9%",
+          "share": 1.9,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-06",
-          "previousRank": 14,
-          "previousShare": 1.4,
-          "previousAsOf": "2026-10-03"
+          "asOf": "2026-10-07",
+          "previousRank": 13,
+          "previousShare": 1.7,
+          "previousAsOf": "2026-10-06"
         },
         {
           "systemId": "swe-bench-pro",
@@ -8097,15 +8110,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 25,
-          "scoreLabel": "0.6%",
-          "share": 0.6,
+          "rank": 22,
+          "scoreLabel": "0.8%",
+          "share": 0.8,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-06",
-          "previousRank": 23,
-          "previousShare": 0.8,
-          "previousAsOf": "2026-10-03"
+          "asOf": "2026-10-07",
+          "previousRank": 25,
+          "previousShare": 0.6,
+          "previousAsOf": "2026-10-06"
         },
         {
           "systemId": "lmarena-text",
@@ -11842,14 +11855,14 @@
         {
           "systemId": "openrouter-popularity",
           "rank": 2,
-          "scoreLabel": "18.1%",
-          "share": 18.1,
+          "scoreLabel": "19.2%",
+          "share": 19.2,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-06",
+          "asOf": "2026-10-07",
           "previousRank": 2,
-          "previousShare": 15.5,
-          "previousAsOf": "2026-09-30"
+          "previousShare": 18.1,
+          "previousAsOf": "2026-10-06"
         },
         {
           "systemId": "lmarena-webdev",
@@ -12517,6 +12530,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-06",
+          "type": "release",
+          "summary": "发布 6.1.2: Django security releases issued: 6.1.2, 6.0.9, and 5.2.18",
+          "version": "6.1.2",
+          "source": "https://www.djangoproject.com/weblog/2026/oct/06/security-releases/"
+        },
+        {
           "date": "2026-09-24",
           "type": "feature",
           "summary": "DSF member of the month - Ken Whitesell",
@@ -12565,7 +12585,7 @@
       "sources": [
         "https://www.djangoproject.com"
       ],
-      "lastReviewed": "2026-09-26",
+      "lastReviewed": "2026-10-07",
       "region": "overseas",
       "id": "django",
       "name": "Django",
@@ -12725,6 +12745,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-06",
+          "type": "release",
+          "summary": "发布 2.134.0: 新版本",
+          "version": "2.134.0",
+          "source": "https://github.com/docling-project/docling/releases/tag/v2.134.0"
+        },
+        {
           "date": "2026-09-29",
           "type": "release",
           "summary": "发布 2.131.0: 新版本",
@@ -12771,7 +12798,7 @@
       "sources": [
         "https://github.com/docling-project/docling"
       ],
-      "lastReviewed": "2026-09-30",
+      "lastReviewed": "2026-10-07",
       "region": "overseas",
       "id": "docling",
       "name": "Docling",
@@ -12782,7 +12809,7 @@
       "descriptionMd": "Docling 是面向开发者的开源文档转换/理解工具，把 PDF 等转为结构化表示，便于 LLM 与 RAG 消费，社区增长快。\n\n需要本地可控的文档解析、与 Python AI 栈集成时评估；可与云 Document AI 做成本对照。\n\n企业预置发票/证件模型不如 Azure/AWS；极端扫描件需另配 OCR 引擎。\n",
       "vendorId": "ibm",
       "githubUrl": "https://github.com/docling-project/docling",
-      "currentVersion": "2.131.0"
+      "currentVersion": "2.134.0"
     },
     {
       "pricing": {
@@ -14086,6 +14113,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-06",
+          "type": "release",
+          "summary": "维护线 43 最新 43.7.8",
+          "version": "43.7.8",
+          "source": "https://releases.electronjs.org/release/v43.7.8"
+        },
+        {
           "date": "2026-09-18",
           "type": "release",
           "summary": "维护线 44 最新 44.4.3",
@@ -14132,7 +14166,7 @@
       "sources": [
         "https://www.electronjs.org"
       ],
-      "lastReviewed": "2026-09-27",
+      "lastReviewed": "2026-10-07",
       "region": "overseas",
       "id": "electron",
       "name": "Electron",
@@ -14142,7 +14176,7 @@
       "officialUrl": "https://www.electronjs.org",
       "descriptionMd": "Electron 用 Chromium+Node 构建跨平台 desktop App，VS Code/Slack/Discord 等均采用，生态最成熟。\n\n需要快速复用 Web 技能做 desktop、或依赖大量 npm native 模块时。\n\n内存与包体积大；安全更新需跟踪 Chromium CVE。\n",
       "vendorId": "electronjs",
-      "currentVersion": "44"
+      "currentVersion": "43"
     },
     {
       "pricing": {
@@ -17368,6 +17402,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-06",
+          "type": "release",
+          "summary": "发布 0.63.0: Release v0.63.0",
+          "version": "0.63.0",
+          "source": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.63.0"
+        },
+        {
           "date": "2026-09-23",
           "type": "release",
           "summary": "发布 0.61.0: Release v0.61.0",
@@ -17400,7 +17441,7 @@
       "sources": [
         "https://github.com/google-gemini/gemini-cli"
       ],
-      "lastReviewed": "2026-09-24",
+      "lastReviewed": "2026-10-07",
       "region": "overseas",
       "id": "gemini-cli",
       "name": "Gemini CLI",
@@ -17410,7 +17451,7 @@
       "officialUrl": "https://github.com/google-gemini/gemini-cli",
       "descriptionMd": "Gemini CLI 是 Google 推出的终端 AI 编码工具，可在命令行中对话、读写项目文件并执行 shell，深度集成 Gemini 模型能力。\n\n偏好终端工作流、已使用 Google Cloud/Gemini API 的开发者；适合脚本化与 CI Adjacent 的编码任务。\n\n终端 Agent 权限过大时可能执行破坏性命令；建议沙箱环境试用并限制 API key 权限范围。\n",
       "vendorId": "google-deepmind",
-      "currentVersion": "0.61.0"
+      "currentVersion": "0.63.0"
     },
     {
       "pricing": {
@@ -17510,15 +17551,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 33,
+          "rank": 35,
           "scoreLabel": "0.4%",
           "share": 0.4,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-06",
-          "previousRank": 30,
-          "previousShare": 0.5,
-          "previousAsOf": "2026-10-02"
+          "asOf": "2026-10-07",
+          "previousRank": 33,
+          "previousShare": 0.4,
+          "previousAsOf": "2026-10-06"
         }
       ],
       "sources": [
@@ -18190,15 +18231,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 42,
+          "rank": 44,
           "scoreLabel": "0.3%",
           "share": 0.3,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-01",
-          "previousRank": 45,
+          "asOf": "2026-10-07",
+          "previousRank": 42,
           "previousShare": 0.3,
-          "previousAsOf": "2026-09-27"
+          "previousAsOf": "2026-10-01"
         }
       ],
       "sources": [
@@ -18316,6 +18357,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-06",
+          "type": "release",
+          "summary": "发布 6.68.0: 新版本",
+          "version": "6.68.0",
+          "source": "https://github.com/TryGhost/Ghost/releases/tag/v6.68.0"
+        },
+        {
           "date": "2026-09-29",
           "type": "release",
           "summary": "发布 6.67.0: 新版本",
@@ -18355,7 +18403,7 @@
       "sources": [
         "https://ghost.org"
       ],
-      "lastReviewed": "2026-09-30",
+      "lastReviewed": "2026-10-07",
       "region": "overseas",
       "id": "ghost",
       "name": "Ghost",
@@ -18367,7 +18415,7 @@
       "vendorId": "ghost-foundation",
       "githubUrl": "https://github.com/TryGhost/Ghost",
       "docsUrl": "https://ghost.org/docs/",
-      "currentVersion": "6.67.0"
+      "currentVersion": "6.68.0"
     },
     {
       "pricing": {
@@ -19444,16 +19492,16 @@
       "rankings": [
         {
           "systemId": "lmarena-image",
-          "rank": 35,
+          "rank": 36,
           "score": 1148,
           "scoreLabel": "1148 Elo",
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
           "note": "模型 imagen-ultra-4.0-generate-001",
-          "asOf": "2026-10-06",
-          "previousRank": 34,
+          "asOf": "2026-10-07",
+          "previousRank": 35,
           "previousScore": 1148,
-          "previousAsOf": "2026-10-03"
+          "previousAsOf": "2026-10-06"
         },
         {
           "systemId": "aa-image-arena",
@@ -20047,15 +20095,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 6,
-          "scoreLabel": "4%",
-          "share": 4,
+          "rank": 5,
+          "scoreLabel": "4.2%",
+          "share": 4.2,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-06",
-          "previousRank": 9,
-          "previousShare": 3.8,
-          "previousAsOf": "2026-10-02"
+          "asOf": "2026-10-07",
+          "previousRank": 6,
+          "previousShare": 4,
+          "previousAsOf": "2026-10-06"
         }
       ],
       "subcategory": "line",
@@ -20098,15 +20146,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 9,
-          "scoreLabel": "2.2%",
-          "share": 2.2,
+          "rank": 13,
+          "scoreLabel": "1.5%",
+          "share": 1.5,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-06",
-          "previousRank": 7,
-          "previousShare": 4.1,
-          "previousAsOf": "2026-10-03"
+          "asOf": "2026-10-07",
+          "previousRank": 9,
+          "previousShare": 2.2,
+          "previousAsOf": "2026-10-06"
         }
       ],
       "sources": [
@@ -20709,16 +20757,16 @@
       "rankings": [
         {
           "systemId": "lmarena-image",
-          "rank": 5,
-          "score": 1335,
-          "scoreLabel": "1335 Elo",
+          "rank": 4,
+          "score": 1336,
+          "scoreLabel": "1336 Elo",
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
           "note": "模型 grok-imagine-image-2.0 (canvas)",
-          "asOf": "2026-10-06",
-          "previousRank": 6,
-          "previousScore": 1301,
-          "previousAsOf": "2026-10-03"
+          "asOf": "2026-10-07",
+          "previousRank": 5,
+          "previousScore": 1335,
+          "previousAsOf": "2026-10-06"
         },
         {
           "systemId": "lmarena-image-edit",
@@ -22174,6 +22222,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-06",
+          "type": "release",
+          "summary": "发布 1.14.2: 新版本",
+          "version": "1.14.2",
+          "source": "https://github.com/huggingface/trl/releases/tag/v1.14.2"
+        },
+        {
           "date": "2026-09-25",
           "type": "release",
           "summary": "发布 1.14.0: 新版本",
@@ -22199,7 +22254,7 @@
       "sources": [
         "https://github.com/huggingface/trl"
       ],
-      "lastReviewed": "2026-09-26",
+      "lastReviewed": "2026-10-07",
       "region": "overseas",
       "id": "hf-trl",
       "name": "TRL",
@@ -23288,15 +23343,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 5,
-          "scoreLabel": "4.4%",
-          "share": 4.4,
+          "rank": 6,
+          "scoreLabel": "4.2%",
+          "share": 4.2,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-03",
-          "previousRank": 7,
-          "previousShare": 4.6,
-          "previousAsOf": "2026-10-02"
+          "asOf": "2026-10-07",
+          "previousRank": 5,
+          "previousShare": 4.4,
+          "previousAsOf": "2026-10-03"
         },
         {
           "systemId": "lmarena-webdev",
@@ -27026,6 +27081,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-06",
+          "type": "release",
+          "summary": "维护线 13 最新 13.35.0",
+          "version": "13.35.0",
+          "source": "https://laravel.com/framework/docs/13.x/releases"
+        },
+        {
           "date": "2026-09-29",
           "type": "release",
           "summary": "维护线 13 最新 13.34.0",
@@ -27065,7 +27127,7 @@
       "sources": [
         "https://laravel.com"
       ],
-      "lastReviewed": "2026-09-30",
+      "lastReviewed": "2026-10-07",
       "region": "overseas",
       "id": "laravel",
       "name": "Laravel",
@@ -27819,12 +27881,20 @@
       "pitfalls": [
         "自托管需运维 SFU 与带宽；纯「一键电话 Agent」比 Vapi/Retell 更偏基础设施。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-10-06",
+          "type": "release",
+          "summary": "发布 1.13.8: 新版本",
+          "version": "1.13.8",
+          "source": "https://github.com/livekit/livekit/releases/tag/v1.13.8"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://livekit.io"
       ],
-      "lastReviewed": "2026-07-24",
+      "lastReviewed": "2026-10-07",
       "region": "overseas",
       "id": "livekit",
       "name": "LiveKit",
@@ -28448,6 +28518,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-06",
+          "type": "release",
+          "summary": "发布 9.5.5: Logstash 9.5.5",
+          "version": "9.5.5",
+          "source": "https://github.com/elastic/logstash/releases/tag/v9.5.5"
+        },
+        {
           "date": "2026-09-15",
           "type": "release",
           "summary": "发布 9.5.4: Logstash 9.5.4",
@@ -28459,7 +28536,7 @@
       "sources": [
         "https://www.elastic.co/logstash"
       ],
-      "lastReviewed": "2026-09-19",
+      "lastReviewed": "2026-10-07",
       "region": "overseas",
       "id": "logstash",
       "name": "Logstash",
@@ -29331,16 +29408,16 @@
       "rankings": [
         {
           "systemId": "lmarena-image",
-          "rank": 4,
-          "score": 1331,
-          "scoreLabel": "1331 Elo",
-          "period": "2026-09",
+          "rank": 5,
+          "score": 1333,
+          "scoreLabel": "1333 Elo",
+          "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
           "note": "模型 mai-image-2.6",
-          "asOf": "2026-09-20",
+          "asOf": "2026-10-07",
           "previousRank": 4,
           "previousScore": 1331,
-          "previousAsOf": "2026-09-13"
+          "previousAsOf": "2026-09-20"
         },
         {
           "systemId": "lmarena-image-edit",
@@ -30526,13 +30603,13 @@
           "rank": 8,
           "score": 1294,
           "scoreLabel": "1294 Elo",
-          "period": "2026-09",
+          "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
           "note": "模型 muse-spark",
-          "asOf": "2026-09-30",
-          "previousRank": 6,
+          "asOf": "2026-10-07",
+          "previousRank": 8,
           "previousScore": 1294,
-          "previousAsOf": "2026-09-27"
+          "previousAsOf": "2026-09-30"
         },
         {
           "systemId": "lmarena-document",
@@ -30562,15 +30639,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 17,
+          "rank": 18,
           "scoreLabel": "0.9%",
           "share": 0.9,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-06",
-          "previousRank": 18,
-          "previousShare": 1,
-          "previousAsOf": "2026-10-01"
+          "asOf": "2026-10-07",
+          "previousRank": 17,
+          "previousShare": 0.9,
+          "previousAsOf": "2026-10-06"
         }
       ],
       "sources": [
@@ -31158,6 +31235,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-06",
+          "type": "release",
+          "summary": "发布 4.2.5: 新版本",
+          "version": "4.2.5",
+          "source": "https://github.com/midwayjs/midway/releases/tag/v4.2.5"
+        },
+        {
           "date": "2026-09-27",
           "type": "release",
           "summary": "发布 4.2.4: 新版本",
@@ -31169,7 +31253,7 @@
       "sources": [
         "https://midwayjs.org"
       ],
-      "lastReviewed": "2026-09-28",
+      "lastReviewed": "2026-10-07",
       "region": "domestic",
       "id": "midway",
       "name": "Midway",
@@ -31415,15 +31499,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 22,
+          "rank": 24,
           "scoreLabel": "0.7%",
           "share": 0.7,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-06",
-          "previousRank": 21,
-          "previousShare": 0.8,
-          "previousAsOf": "2026-10-02"
+          "asOf": "2026-10-07",
+          "previousRank": 22,
+          "previousShare": 0.7,
+          "previousAsOf": "2026-10-06"
         },
         {
           "systemId": "lmarena-vision",
@@ -33721,8 +33805,15 @@
         "非 Vercel 部署需额外配置",
         "async params 等破坏性变更需 codemod"
       ],
-      "currentVersion": "16.3.0",
+      "currentVersion": "16.4.0",
       "updates": [
+        {
+          "date": "2026-10-06",
+          "type": "release",
+          "summary": "发布 16.4.0: 新版本",
+          "version": "16.4.0",
+          "source": "https://github.com/vercel/next.js/releases/tag/v16.4.0"
+        },
         {
           "date": "2026-09-29",
           "type": "release",
@@ -33788,7 +33879,7 @@
       "sources": [
         "https://nextjs.org"
       ],
-      "lastReviewed": "2026-09-30",
+      "lastReviewed": "2026-10-07",
       "region": "overseas",
       "id": "nextjs",
       "name": "Next.js",
@@ -38180,15 +38271,15 @@
       "rankings": [
         {
           "systemId": "openrouter-popularity",
-          "rank": 28,
+          "rank": 27,
           "scoreLabel": "0.6%",
           "share": 0.6,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-06",
-          "previousRank": 26,
+          "asOf": "2026-10-07",
+          "previousRank": 28,
           "previousShare": 0.6,
-          "previousAsOf": "2026-10-03"
+          "previousAsOf": "2026-10-06"
         }
       ],
       "sources": [
@@ -39904,15 +39995,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 37,
+          "rank": 38,
           "scoreLabel": "0.3%",
           "share": 0.3,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-06",
-          "previousRank": 36,
+          "asOf": "2026-10-07",
+          "previousRank": 37,
           "previousShare": 0.3,
-          "previousAsOf": "2026-10-02"
+          "previousAsOf": "2026-10-06"
         },
         {
           "systemId": "lmarena-vision",
@@ -43351,6 +43442,12 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-10-06",
+          "type": "feature",
+          "summary": "Unreal MCP now speaks Sentry",
+          "source": "https://blog.sentry.io/unreal-mcp-sentry/"
+        },
+        {
           "date": "2026-09-29",
           "type": "feature",
           "summary": "Big improvements to Seer Agent",
@@ -43385,7 +43482,7 @@
       "sources": [
         "https://sentry.io"
       ],
-      "lastReviewed": "2026-09-30",
+      "lastReviewed": "2026-10-07",
       "region": "overseas",
       "id": "sentry",
       "name": "Sentry",
@@ -44403,15 +44500,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 43,
+          "rank": 37,
           "scoreLabel": "0.3%",
           "share": 0.3,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-06",
-          "previousRank": 27,
-          "previousShare": 0.6,
-          "previousAsOf": "2026-10-03"
+          "asOf": "2026-10-07",
+          "previousRank": 43,
+          "previousShare": 0.3,
+          "previousAsOf": "2026-10-06"
         }
       ],
       "sources": [
@@ -46416,6 +46513,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-06",
+          "type": "release",
+          "summary": "发布 3.0.1: @sveltejs/kit@3.0.1",
+          "version": "3.0.1",
+          "source": "https://github.com/sveltejs/kit/releases/tag/%40sveltejs%2Fkit%403.0.1"
+        },
+        {
           "date": "2026-09-25",
           "type": "release",
           "summary": "发布 3.0.0-next.29: @sveltejs/kit@3.0.0-next.29",
@@ -46454,7 +46558,7 @@
       "sources": [
         "https://kit.svelte.dev"
       ],
-      "lastReviewed": "2026-09-26",
+      "lastReviewed": "2026-10-07",
       "region": "overseas",
       "id": "sveltekit",
       "name": "SvelteKit",
@@ -49820,6 +49924,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-06",
+          "type": "release",
+          "summary": "发布 0.1.903-beta: New Browser + Voice Cloning",
+          "version": "0.1.903-beta",
+          "source": "https://github.com/unslothai/unsloth/releases/tag/v0.1.903-beta"
+        },
+        {
           "date": "2026-09-29",
           "type": "release",
           "summary": "发布 0.1.900-beta: Laya Decision Models + Library",
@@ -49860,7 +49971,7 @@
         "https://unsloth.ai",
         "https://github.com/unslothai/unsloth"
       ],
-      "lastReviewed": "2026-09-30",
+      "lastReviewed": "2026-10-07",
       "region": "overseas",
       "id": "unsloth",
       "name": "Unsloth",
@@ -49871,7 +49982,7 @@
       "descriptionMd": "Unsloth 通过手写内核与重写反向传播，把常见开源模型的 LoRA/QLoRA 微调做得更省显存、更快，配套的 Colab 笔记本让单卡起步的门槛很低。\n\n手头只有一两张消费卡、想先把微调链路跑通时首选；多机多卡的大规模训练仍应回到分布式框架。\n\n深度优化意味着对模型架构适配有先后，新模型支持需等上游跟进；多卡与集群能力弱于通用训练框架。\n",
       "vendorId": "unsloth-ai",
       "githubUrl": "https://github.com/unslothai/unsloth",
-      "currentVersion": "0.1.900-beta"
+      "currentVersion": "0.1.903-beta"
     },
     {
       "pricing": {
@@ -50506,6 +50617,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-06",
+          "type": "release",
+          "summary": "发布 0.3.27: vdev-v0.3.27",
+          "version": "0.3.27",
+          "source": "https://github.com/vectordotdev/vector/releases/tag/vdev-v0.3.27"
+        },
+        {
           "date": "2026-09-29",
           "type": "release",
           "summary": "发布 0.3.25: vdev-v0.3.25",
@@ -50538,7 +50656,7 @@
       "sources": [
         "https://vector.dev"
       ],
-      "lastReviewed": "2026-09-30",
+      "lastReviewed": "2026-10-07",
       "region": "overseas",
       "id": "vector-dev",
       "name": "Vector",
@@ -50749,6 +50867,12 @@
       ],
       "updates": [
         {
+          "date": "2026-10-06",
+          "type": "feature",
+          "summary": "AI Gateway adds confidence-based decision fallbacks",
+          "source": "https://vercel.com/changelog/confidence-based-decision-fallbacks"
+        },
+        {
           "date": "2026-09-28",
           "type": "feature",
           "summary": "Search domains without authentication",
@@ -50807,7 +50931,7 @@
       "sources": [
         "https://vercel.com"
       ],
-      "lastReviewed": "2026-09-29",
+      "lastReviewed": "2026-10-07",
       "region": "overseas",
       "id": "vercel",
       "name": "Vercel",
@@ -51015,6 +51139,13 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-10-06",
+          "type": "release",
+          "summary": "发布 8.3.3: 新版本",
+          "version": "8.3.3",
+          "source": "https://github.com/vitejs/vite/releases/tag/v8.3.3"
+        },
+        {
           "date": "2026-09-24",
           "type": "release",
           "summary": "发布 8.3.1: 新版本",
@@ -51047,7 +51178,7 @@
       "sources": [
         "https://vite.dev"
       ],
-      "lastReviewed": "2026-09-26",
+      "lastReviewed": "2026-10-07",
       "region": "overseas",
       "id": "vite",
       "name": "Vite",
@@ -52540,6 +52671,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-06",
+          "type": "release",
+          "summary": "发布 7.1.3: Tag 7.1.3",
+          "version": "7.1.3",
+          "source": "https://github.com/WordPress/WordPress/releases/tag/7.1.3"
+        },
+        {
           "date": "2026-09-17",
           "type": "release",
           "summary": "发布 7.1.1: Tag 7.1.1",
@@ -52558,7 +52696,7 @@
       "sources": [
         "https://wordpress.org"
       ],
-      "lastReviewed": "2026-09-19",
+      "lastReviewed": "2026-10-07",
       "region": "both",
       "id": "wordpress",
       "name": "WordPress",

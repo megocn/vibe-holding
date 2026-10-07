@@ -24,16 +24,16 @@
   "rankings": [
     {
       "systemId": "lmarena-image",
-      "rank": 5,
-      "score": 1335,
-      "scoreLabel": "1335 Elo",
+      "rank": 4,
+      "score": 1336,
+      "scoreLabel": "1336 Elo",
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 grok-imagine-image-2.0 (canvas)",
-      "asOf": "2026-10-06",
-      "previousRank": 6,
-      "previousScore": 1301,
-      "previousAsOf": "2026-10-03"
+      "asOf": "2026-10-07",
+      "previousRank": 5,
+      "previousScore": 1335,
+      "previousAsOf": "2026-10-06"
     },
     {
       "systemId": "lmarena-image-edit",

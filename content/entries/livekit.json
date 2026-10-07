@@ -20,12 +20,20 @@
   "pitfalls": [
     "自托管需运维 SFU 与带宽；纯「一键电话 Agent」比 Vapi/Retell 更偏基础设施。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-10-06",
+      "type": "release",
+      "summary": "发布 1.13.8: 新版本",
+      "version": "1.13.8",
+      "source": "https://github.com/livekit/livekit/releases/tag/v1.13.8"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://livekit.io"
   ],
-  "lastReviewed": "2026-07-24",
+  "lastReviewed": "2026-10-07",
   "region": "overseas",
   "id": "livekit",
   "name": "LiveKit",

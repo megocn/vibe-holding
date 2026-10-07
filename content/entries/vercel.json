@@ -23,6 +23,12 @@
   ],
   "updates": [
     {
+      "date": "2026-10-06",
+      "type": "feature",
+      "summary": "AI Gateway adds confidence-based decision fallbacks",
+      "source": "https://vercel.com/changelog/confidence-based-decision-fallbacks"
+    },
+    {
       "date": "2026-09-28",
       "type": "feature",
       "summary": "Search domains without authentication",
@@ -81,7 +87,7 @@
   "sources": [
     "https://vercel.com"
   ],
-  "lastReviewed": "2026-09-29",
+  "lastReviewed": "2026-10-07",
   "region": "overseas",
   "id": "vercel",
   "name": "Vercel",

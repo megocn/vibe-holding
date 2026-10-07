@@ -17,6 +17,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-06",
+      "type": "release",
+      "summary": "维护线 43 最新 43.7.8",
+      "version": "43.7.8",
+      "source": "https://releases.electronjs.org/release/v43.7.8"
+    },
+    {
       "date": "2026-09-18",
       "type": "release",
       "summary": "维护线 44 最新 44.4.3",
@@ -63,7 +70,7 @@
   "sources": [
     "https://www.electronjs.org"
   ],
-  "lastReviewed": "2026-09-27",
+  "lastReviewed": "2026-10-07",
   "region": "overseas",
   "id": "electron",
   "name": "Electron",
@@ -73,5 +80,5 @@
   "officialUrl": "https://www.electronjs.org",
   "descriptionMd": "Electron 用 Chromium+Node 构建跨平台 desktop App，VS Code/Slack/Discord 等均采用，生态最成熟。\n\n需要快速复用 Web 技能做 desktop、或依赖大量 npm native 模块时。\n\n内存与包体积大；安全更新需跟踪 Chromium CVE。\n",
   "vendorId": "electronjs",
-  "currentVersion": "44"
+  "currentVersion": "43"
 }

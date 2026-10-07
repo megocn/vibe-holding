@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-06",
+      "type": "release",
+      "summary": "发布 1.14.2: 新版本",
+      "version": "1.14.2",
+      "source": "https://github.com/huggingface/trl/releases/tag/v1.14.2"
+    },
+    {
       "date": "2026-09-25",
       "type": "release",
       "summary": "发布 1.14.0: 新版本",
@@ -47,7 +54,7 @@
   "sources": [
     "https://github.com/huggingface/trl"
   ],
-  "lastReviewed": "2026-09-26",
+  "lastReviewed": "2026-10-07",
   "region": "overseas",
   "id": "hf-trl",
   "name": "TRL",
