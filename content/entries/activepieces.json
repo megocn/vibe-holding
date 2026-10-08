@@ -25,6 +25,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-07",
+      "type": "release",
+      "summary": "发布 0.92.2: 新版本",
+      "version": "0.92.2",
+      "source": "https://github.com/activepieces/activepieces/releases/tag/0.92.2"
+    },
+    {
       "date": "2026-09-29",
       "type": "release",
       "summary": "发布 0.91.4: 新版本",
@@ -78,7 +85,7 @@
   "sources": [
     "https://www.activepieces.com"
   ],
-  "lastReviewed": "2026-09-30",
+  "lastReviewed": "2026-10-08",
   "region": "overseas",
   "id": "activepieces",
   "name": "Activepieces",

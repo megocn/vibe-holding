@@ -56,16 +56,16 @@
     },
     {
       "systemId": "lmarena-image-edit",
-      "rank": 33,
+      "rank": 34,
       "score": 1262,
       "scoreLabel": "1262 Elo",
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 flux-2-max",
-      "asOf": "2026-10-06",
-      "previousRank": 32,
+      "asOf": "2026-10-08",
+      "previousRank": 33,
       "previousScore": 1262,
-      "previousAsOf": "2026-10-01"
+      "previousAsOf": "2026-10-06"
     },
     {
       "systemId": "lmarena-t2v",

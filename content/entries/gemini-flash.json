@@ -82,41 +82,41 @@
     },
     {
       "systemId": "lmarena-image",
-      "rank": 10,
+      "rank": 11,
       "score": 1261,
       "scoreLabel": "1261 Elo",
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 gemini-3.1-flash-image (nano-banana-2) [web-search]",
-      "asOf": "2026-10-06",
-      "previousRank": 9,
+      "asOf": "2026-10-08",
+      "previousRank": 10,
       "previousScore": 1261,
-      "previousAsOf": "2026-09-27"
+      "previousAsOf": "2026-10-06"
     },
     {
       "systemId": "lmarena-image-edit",
-      "rank": 13,
+      "rank": 14,
       "score": 1387,
       "scoreLabel": "1387 Elo",
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 gemini-3.1-flash-image (nano-banana-2) [web-search]",
-      "asOf": "2026-10-06",
-      "previousRank": 12,
+      "asOf": "2026-10-08",
+      "previousRank": 13,
       "previousScore": 1387,
-      "previousAsOf": "2026-10-01"
+      "previousAsOf": "2026-10-06"
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 15,
+      "rank": 13,
       "scoreLabel": "1.4%",
       "share": 1.4,
       "period": "2026-10",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-10-03",
-      "previousRank": 14,
-      "previousShare": 1.5,
-      "previousAsOf": "2026-09-29"
+      "asOf": "2026-10-08",
+      "previousRank": 15,
+      "previousShare": 1.4,
+      "previousAsOf": "2026-10-03"
     },
     {
       "systemId": "lmarena-document",

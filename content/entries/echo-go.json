@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-07",
+      "type": "release",
+      "summary": "发布 4.16.0: 新版本",
+      "version": "4.16.0",
+      "source": "https://github.com/labstack/echo/releases/tag/v4.16.0"
+    },
+    {
       "date": "2026-09-27",
       "type": "release",
       "summary": "发布 5.4.0: 新版本",
@@ -34,7 +41,7 @@
   "sources": [
     "https://echo.labstack.com"
   ],
-  "lastReviewed": "2026-09-28",
+  "lastReviewed": "2026-10-08",
   "region": "overseas",
   "id": "echo-go",
   "name": "Echo",
@@ -45,5 +52,5 @@
   "descriptionMd": "Echo 是 Go 的轻量高性能 Web 框架，路由分组、参数绑定与中间件一应俱全，另内建 JWT、限流与自动 TLS 等常用件，整体 API 风格与 Gin 高度相似。\n\nGo 服务想要比 Gin 更多开箱中间件、又不愿引入大型企业框架时评估；两者迁移成本相近，团队熟悉度往往是决定项。\n\n生态广度与招聘心智不及 Gin，中文教程较少；历史上换过模块导入路径，老代码跨大版本升级要批量改 import。\n",
   "vendorId": "labstack",
   "githubUrl": "https://github.com/labstack/echo",
-  "currentVersion": "5.4.0"
+  "currentVersion": "4.16.0"
 }

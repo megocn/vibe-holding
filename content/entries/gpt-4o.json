@@ -70,10 +70,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 gpt-5.6-sol-xhigh",
-      "asOf": "2026-10-01",
-      "previousRank": 19,
-      "previousScore": 1483,
-      "previousAsOf": "2026-09-27"
+      "asOf": "2026-10-08",
+      "previousRank": 20,
+      "previousScore": 1484,
+      "previousAsOf": "2026-10-01"
     },
     {
       "systemId": "lmarena-agent",
@@ -163,15 +163,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 5,
+      "rank": 6,
       "scoreLabel": "4.2%",
       "share": 4.2,
       "period": "2026-10",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-10-07",
-      "previousRank": 6,
-      "previousShare": 4,
-      "previousAsOf": "2026-10-06"
+      "asOf": "2026-10-08",
+      "previousRank": 5,
+      "previousShare": 4.2,
+      "previousAsOf": "2026-10-07"
     }
   ],
   "subcategory": "line",

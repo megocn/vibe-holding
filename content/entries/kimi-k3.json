@@ -74,16 +74,16 @@
     },
     {
       "systemId": "lmarena-webdev",
-      "rank": 13,
-      "score": 1658,
-      "scoreLabel": "1658 Elo",
+      "rank": 14,
+      "score": 1655,
+      "scoreLabel": "1655 Elo",
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 kimi-k3-max",
-      "asOf": "2026-10-03",
-      "previousRank": 12,
+      "asOf": "2026-10-08",
+      "previousRank": 13,
       "previousScore": 1658,
-      "previousAsOf": "2026-10-01"
+      "previousAsOf": "2026-10-03"
     },
     {
       "systemId": "artificial-analysis-index",

@@ -81,10 +81,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 claude-opus-4-6-high",
-      "asOf": "2026-10-01",
-      "previousRank": 1,
-      "previousScore": 1509,
-      "previousAsOf": "2026-09-27"
+      "asOf": "2026-10-08",
+      "previousRank": 2,
+      "previousScore": 1505,
+      "previousAsOf": "2026-10-01"
     },
     {
       "systemId": "lmarena-agent",
@@ -163,15 +163,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 12,
-      "scoreLabel": "1.9%",
-      "share": 1.9,
+      "rank": 9,
+      "scoreLabel": "2.2%",
+      "share": 2.2,
       "period": "2026-10",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-10-07",
-      "previousRank": 13,
-      "previousShare": 1.7,
-      "previousAsOf": "2026-10-06"
+      "asOf": "2026-10-08",
+      "previousRank": 12,
+      "previousShare": 1.9,
+      "previousAsOf": "2026-10-07"
     },
     {
       "systemId": "swe-bench-pro",
