@@ -22,12 +22,20 @@
     "企业级支持与托管 SLA 弱。",
     "扩展升级兼容要回归测试。"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-10-09",
+      "type": "release",
+      "summary": "发布 2.0.0: 新版本",
+      "version": "2.0.0",
+      "source": "https://github.com/flarum/flarum/releases/tag/v2.0.0"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://flarum.org"
   ],
-  "lastReviewed": "2026-08-06",
+  "lastReviewed": "2026-10-10",
   "region": "overseas",
   "id": "flarum",
   "name": "Flarum",
@@ -37,5 +45,6 @@
   "officialUrl": "https://flarum.org",
   "descriptionMd": "Flarum 是轻量 PHP 开源论坛：现代化 UI、扩展市场，部署与默认心智比 Discourse 更轻，适合中小站「先跑起来」的社区，而不是企业级信任体系论坛。\n\n要可自托管的简洁论坛、团队运维预算有限时评估；大规模信任等级、官方托管 SLA 与重度 SEO 运维更常见选 Discourse。\n\n企业支持与托管选项弱于 Discourse；扩展质量参差，升级需测兼容。\n",
   "vendorId": "flarum-inc",
-  "githubUrl": "https://github.com/flarum/flarum"
+  "githubUrl": "https://github.com/flarum/flarum",
+  "currentVersion": "2.0.0"
 }

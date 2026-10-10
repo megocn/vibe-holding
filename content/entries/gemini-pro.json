@@ -98,10 +98,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 gemini-3.1-pro-preview",
-      "asOf": "2026-10-03",
+      "asOf": "2026-10-10",
       "previousRank": 31,
       "previousScore": 1444,
-      "previousAsOf": "2026-09-26"
+      "previousAsOf": "2026-10-03"
     },
     {
       "systemId": "lmarena-webdev",

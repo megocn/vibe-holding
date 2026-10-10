@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-08",
+      "type": "release",
+      "summary": "发布 0.42.6: @astrojs/starlight@0.42.6",
+      "version": "0.42.6",
+      "source": "https://github.com/withastro/starlight/releases/tag/%40astrojs%2Fstarlight%400.42.6"
+    },
+    {
       "date": "2026-09-24",
       "type": "release",
       "summary": "发布 0.42.4: @astrojs/starlight@0.42.4",
@@ -48,7 +55,7 @@
   "sources": [
     "https://starlight.astro.build"
   ],
-  "lastReviewed": "2026-09-26",
+  "lastReviewed": "2026-10-10",
   "region": "overseas",
   "id": "starlight",
   "name": "Starlight",

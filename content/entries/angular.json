@@ -17,6 +17,12 @@
   ],
   "updates": [
     {
+      "date": "2026-10-09",
+      "type": "feature",
+      "summary": "Signal Value Transforms, Routing Essentials, and Video Extension with Veo! ⚡",
+      "source": "https://blog.angular.dev/signal-value-transforms-routing-essentials-and-video-extension-with-veo-3846cae9283a?source=rss----447683c3d9a3---4"
+    },
+    {
       "date": "2026-09-25",
       "type": "feature",
       "summary": "Architecting the Modern Web: Debounce APIs, Rendering Strategies, and Automated AI Setup! ⚡",
@@ -61,7 +67,7 @@
   "sources": [
     "https://angular.dev"
   ],
-  "lastReviewed": "2026-09-26",
+  "lastReviewed": "2026-10-10",
   "region": "overseas",
   "id": "angular",
   "name": "Angular",

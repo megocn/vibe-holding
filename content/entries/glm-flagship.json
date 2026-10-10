@@ -96,10 +96,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 glm-5v-turbo",
-      "asOf": "2026-10-03",
+      "asOf": "2026-10-10",
       "previousRank": 39,
       "previousScore": 1416,
-      "previousAsOf": "2026-09-26"
+      "previousAsOf": "2026-10-03"
     },
     {
       "systemId": "lmarena-vision",

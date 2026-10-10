@@ -94,22 +94,22 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 grok-4.6-high",
-      "asOf": "2026-10-03",
+      "asOf": "2026-10-10",
       "previousRank": 25,
       "previousScore": 1452,
-      "previousAsOf": "2026-09-26"
+      "previousAsOf": "2026-10-03"
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 47,
-      "scoreLabel": "0.3%",
-      "share": 0.3,
+      "rank": 41,
+      "scoreLabel": "0.4%",
+      "share": 0.4,
       "period": "2026-10",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-10-08",
-      "previousRank": 49,
-      "previousShare": 0.2,
-      "previousAsOf": "2026-10-03"
+      "asOf": "2026-10-10",
+      "previousRank": 47,
+      "previousShare": 0.3,
+      "previousAsOf": "2026-10-08"
     }
   ],
   "sources": [

@@ -18,6 +18,13 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-10-09",
+      "type": "release",
+      "summary": "发布 12.11.2: pnpm 12.11.2",
+      "version": "12.11.2",
+      "source": "https://pnpm.io/blog/releases/12.11.2"
+    },
+    {
       "date": "2026-09-28",
       "type": "release",
       "summary": "发布 12.8: pnpm 12.8",
@@ -49,7 +56,7 @@
   "sources": [
     "https://pnpm.io"
   ],
-  "lastReviewed": "2026-10-01",
+  "lastReviewed": "2026-10-10",
   "region": "overseas",
   "id": "pnpm",
   "name": "pnpm",

@@ -18,6 +18,13 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-10-08",
+      "type": "release",
+      "summary": "维护线 1.27 最新 1.27.2",
+      "version": "1.27.2",
+      "source": "https://go.dev/doc/go1.27"
+    },
+    {
       "date": "2026-10-02",
       "type": "feature",
       "summary": "Arch-specific SIMD in Go",
@@ -54,7 +61,7 @@
   "sources": [
     "https://go.dev"
   ],
-  "lastReviewed": "2026-10-03",
+  "lastReviewed": "2026-10-10",
   "region": "both",
   "id": "go",
   "name": "Go",
@@ -63,5 +70,5 @@
   "oneLiner": "简洁并发 · CLI/网关/云原生 · 单二进制部署",
   "descriptionMd": "Go 是简洁、高并发友好的语言，广泛用于 CLI、网关、基础设施与云原生服务。\n\n适合要单一二进制、部署简单、并发模型清晰的后端；相对 TS 全栈，生态更偏系统与平台工程。与 Rust 比：上手快、抽象少，极致性能与零成本抽象则让位于 Rust。\n\n单二进制与交叉编译友好；错误处理显式，适合平台型服务而非快速 CRUD 原型。\n",
   "officialUrl": "https://go.dev",
-  "currentVersion": "1.26"
+  "currentVersion": "1.27"
 }

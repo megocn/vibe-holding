@@ -43,10 +43,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 pixverse-v5.6",
-      "asOf": "2026-10-03",
+      "asOf": "2026-10-10",
       "previousRank": 26,
       "previousScore": 1240,
-      "previousAsOf": "2026-09-26"
+      "previousAsOf": "2026-10-03"
     },
     {
       "systemId": "lmarena-i2v",

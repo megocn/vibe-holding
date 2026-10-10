@@ -43,10 +43,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/video-edit",
       "note": "模型 kling-o1-pro",
-      "asOf": "2026-10-02",
-      "previousRank": 5,
-      "previousScore": 1251,
-      "previousAsOf": "2026-07-24"
+      "asOf": "2026-10-10",
+      "previousRank": 9,
+      "previousScore": 1197,
+      "previousAsOf": "2026-10-02"
     },
     {
       "systemId": "aa-video-arena",
@@ -69,10 +69,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
       "note": "模型 kling-2.5-turbo-1080p",
-      "asOf": "2026-10-03",
+      "asOf": "2026-10-10",
       "previousRank": 27,
       "previousScore": 1276,
-      "previousAsOf": "2026-09-26"
+      "previousAsOf": "2026-10-03"
     }
   ],
   "sources": [

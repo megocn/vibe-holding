@@ -17,6 +17,12 @@
   ],
   "updates": [
     {
+      "date": "2026-10-09",
+      "type": "feature",
+      "summary": "Better ACL S3 control and more",
+      "source": "https://rubyonrails.org/2026/10/9/this-week-in-rails"
+    },
+    {
       "date": "2026-10-01",
       "type": "feature",
       "summary": "Rails World 2026 recap: All talks online",
@@ -65,7 +71,7 @@
   "sources": [
     "https://rubyonrails.org"
   ],
-  "lastReviewed": "2026-10-02",
+  "lastReviewed": "2026-10-10",
   "region": "overseas",
   "id": "rails",
   "name": "Ruby on Rails",

@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-08",
+      "type": "release",
+      "summary": "发布 2.0.1: @xstate/store-solid@2.0.1",
+      "version": "2.0.1",
+      "source": "https://github.com/statelyai/xstate/releases/tag/%40xstate%2Fstore-solid%402.0.1"
+    },
+    {
       "date": "2026-09-12",
       "type": "release",
       "summary": "发布 5.33.0: xstate@5.33.0",
@@ -40,7 +47,7 @@
   "sources": [
     "https://xstate.js.org"
   ],
-  "lastReviewed": "2026-09-13",
+  "lastReviewed": "2026-10-10",
   "region": "overseas",
   "id": "xstate",
   "name": "XState",

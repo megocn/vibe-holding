@@ -2162,6 +2162,12 @@
       ],
       "updates": [
         {
+          "date": "2026-10-09",
+          "type": "feature",
+          "summary": "Signal Value Transforms, Routing Essentials, and Video Extension with Veo! ⚡",
+          "source": "https://blog.angular.dev/signal-value-transforms-routing-essentials-and-video-extension-with-veo-3846cae9283a?source=rss----447683c3d9a3---4"
+        },
+        {
           "date": "2026-09-25",
           "type": "feature",
           "summary": "Architecting the Modern Web: Debounce APIs, Rendering Strategies, and Automated AI Setup! ⚡",
@@ -2206,7 +2212,7 @@
       "sources": [
         "https://angular.dev"
       ],
-      "lastReviewed": "2026-09-26",
+      "lastReviewed": "2026-10-10",
       "region": "overseas",
       "id": "angular",
       "name": "Angular",
@@ -3024,6 +3030,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-09",
+          "type": "release",
+          "summary": "发布 2.5.0: Release v2.5.0 🌈",
+          "version": "2.5.0",
+          "source": "https://github.com/appsmithorg/appsmith/releases/tag/v2.5.0"
+        },
+        {
           "date": "2026-09-24",
           "type": "release",
           "summary": "发布 2.4.2: Release v2.4.2 🌈",
@@ -3049,7 +3062,7 @@
       "sources": [
         "https://www.appsmith.com"
       ],
-      "lastReviewed": "2026-09-26",
+      "lastReviewed": "2026-10-10",
       "region": "overseas",
       "id": "appsmith",
       "name": "Appsmith",
@@ -3060,7 +3073,7 @@
       "descriptionMd": "Appsmith 是偏开源/可自托管的内部应用平台：拖拽 UI、绑定 SQL 与 REST/GraphQL，许可与数据驻留对不愿纯 SaaS 后台的团队友好。\n\n要自建运营后台、对接自有库表与内部 API，且预算或合规不愿上商业 Retool 时，与其同轴对标。\n\n复杂交互与精致视觉成本仍高；运维与版本升级需自担；云版与自托管功能差要对着文档核对。\n",
       "vendorId": "appsmith-inc",
       "githubUrl": "https://github.com/appsmithorg/appsmith",
-      "currentVersion": "2.4"
+      "currentVersion": "2.5.0"
     },
     {
       "pricing": {
@@ -7641,9 +7654,9 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/agent",
           "note": "模型 Claude Fable 5.1 (Max)",
-          "asOf": "2026-10-03",
+          "asOf": "2026-10-10",
           "previousRank": 1,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-10-03"
         },
         {
           "systemId": "lmarena-webdev",
@@ -7679,10 +7692,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 claude-fable-5.1-max",
-          "asOf": "2026-10-03",
+          "asOf": "2026-10-10",
           "previousRank": 2,
           "previousScore": 1513,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-10-03"
         },
         {
           "systemId": "lmarena-search",
@@ -7799,10 +7812,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 claude-haiku-4-5-20251001",
-          "asOf": "2026-10-03",
+          "asOf": "2026-10-10",
           "previousRank": 37,
           "previousScore": 1420,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-10-03"
         },
         {
           "systemId": "openrouter-popularity",
@@ -8085,10 +8098,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 claude-sonnet-4-6",
-          "asOf": "2026-10-03",
+          "asOf": "2026-10-10",
           "previousRank": 11,
           "previousScore": 1482,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-10-03"
         },
         {
           "systemId": "artificial-analysis-index",
@@ -8131,15 +8144,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 21,
-          "scoreLabel": "0.9%",
-          "share": 0.9,
+          "rank": 20,
+          "scoreLabel": "1.1%",
+          "share": 1.1,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-08",
-          "previousRank": 22,
-          "previousShare": 0.8,
-          "previousAsOf": "2026-10-07"
+          "asOf": "2026-10-10",
+          "previousRank": 21,
+          "previousShare": 0.9,
+          "previousAsOf": "2026-10-08"
         },
         {
           "systemId": "lmarena-text",
@@ -11876,14 +11889,14 @@
         {
           "systemId": "openrouter-popularity",
           "rank": 1,
-          "scoreLabel": "21.8%",
-          "share": 21.8,
+          "scoreLabel": "24%",
+          "share": 24,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-08",
-          "previousRank": 2,
-          "previousShare": 19.2,
-          "previousAsOf": "2026-10-07"
+          "asOf": "2026-10-10",
+          "previousRank": 1,
+          "previousShare": 21.8,
+          "previousAsOf": "2026-10-08"
         },
         {
           "systemId": "lmarena-webdev",
@@ -13446,10 +13459,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
           "note": "模型 dreamina-seedance-2.0-720p",
-          "asOf": "2026-10-03",
+          "asOf": "2026-10-10",
           "previousRank": 5,
           "previousScore": 1479,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-10-03"
         },
         {
           "systemId": "lmarena-i2v",
@@ -13567,6 +13580,13 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-10-08",
+          "type": "release",
+          "summary": "发布 0.45.4: 新版本",
+          "version": "0.45.4",
+          "source": "https://github.com/drizzle-team/drizzle-orm/releases/tag/0.45.4"
+        },
+        {
           "date": "2026-09-21",
           "type": "release",
           "summary": "发布 0.45.3: 新版本",
@@ -13578,7 +13598,7 @@
       "sources": [
         "https://orm.drizzle.team"
       ],
-      "lastReviewed": "2026-09-22",
+      "lastReviewed": "2026-10-10",
       "region": "overseas",
       "id": "drizzle",
       "name": "Drizzle ORM",
@@ -16004,12 +16024,20 @@
         "企业级支持与托管 SLA 弱。",
         "扩展升级兼容要回归测试。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-10-09",
+          "type": "release",
+          "summary": "发布 2.0.0: 新版本",
+          "version": "2.0.0",
+          "source": "https://github.com/flarum/flarum/releases/tag/v2.0.0"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://flarum.org"
       ],
-      "lastReviewed": "2026-08-06",
+      "lastReviewed": "2026-10-10",
       "region": "overseas",
       "id": "flarum",
       "name": "Flarum",
@@ -16019,7 +16047,8 @@
       "officialUrl": "https://flarum.org",
       "descriptionMd": "Flarum 是轻量 PHP 开源论坛：现代化 UI、扩展市场，部署与默认心智比 Discourse 更轻，适合中小站「先跑起来」的社区，而不是企业级信任体系论坛。\n\n要可自托管的简洁论坛、团队运维预算有限时评估；大规模信任等级、官方托管 SLA 与重度 SEO 运维更常见选 Discourse。\n\n企业支持与托管选项弱于 Discourse；扩展质量参差，升级需测兼容。\n",
       "vendorId": "flarum-inc",
-      "githubUrl": "https://github.com/flarum/flarum"
+      "githubUrl": "https://github.com/flarum/flarum",
+      "currentVersion": "2.0.0"
     },
     {
       "pricing": {
@@ -16158,6 +16187,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-08",
+          "type": "release",
+          "summary": "发布 1.0.4: 新版本",
+          "version": "1.0.4",
+          "source": "https://github.com/flet-dev/flet/releases/tag/v1.0.4"
+        },
+        {
           "date": "2026-09-30",
           "type": "release",
           "summary": "发布 1.0.3: 新版本",
@@ -16183,7 +16219,7 @@
       "sources": [
         "https://flet.dev"
       ],
-      "lastReviewed": "2026-10-01",
+      "lastReviewed": "2026-10-10",
       "region": "overseas",
       "id": "flet",
       "name": "Flet",
@@ -16254,6 +16290,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-09",
+          "type": "release",
+          "summary": "发布 5.0.11: Fluent Bit 5.0.11",
+          "version": "5.0.11",
+          "source": "https://github.com/fluent/fluent-bit/releases/tag/v5.0.11"
+        },
+        {
           "date": "2026-10-01",
           "type": "release",
           "summary": "发布 5.1.3: Fluent Bit 5.1.3",
@@ -16272,7 +16315,7 @@
       "sources": [
         "https://fluentbit.io"
       ],
-      "lastReviewed": "2026-10-01",
+      "lastReviewed": "2026-10-10",
       "region": "overseas",
       "id": "fluent-bit",
       "name": "Fluent Bit",
@@ -16394,10 +16437,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
           "note": "模型 flux-3-video",
-          "asOf": "2026-10-03",
+          "asOf": "2026-10-10",
           "previousRank": 3,
           "previousScore": 1493,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-10-03"
         },
         {
           "systemId": "lmarena-i2v",
@@ -17038,6 +17081,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-09",
+          "type": "release",
+          "summary": "发布 5.5.1: fumadocs-typescript@5.5.1",
+          "version": "5.5.1",
+          "source": "https://github.com/fuma-nama/fumadocs/releases/tag/fumadocs-typescript%405.5.1"
+        },
+        {
           "date": "2026-10-02",
           "type": "release",
           "summary": "发布 12.1.1: fumadocs-openapi@12.1.1",
@@ -17098,7 +17148,7 @@
       "sources": [
         "https://fumadocs.dev"
       ],
-      "lastReviewed": "2026-10-03",
+      "lastReviewed": "2026-10-10",
       "region": "overseas",
       "id": "fumadocs",
       "name": "Fumadocs",
@@ -17585,15 +17635,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 36,
+          "rank": 38,
           "scoreLabel": "0.4%",
           "share": 0.4,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-08",
-          "previousRank": 35,
+          "asOf": "2026-10-10",
+          "previousRank": 36,
           "previousShare": 0.4,
-          "previousAsOf": "2026-10-07"
+          "previousAsOf": "2026-10-08"
         }
       ],
       "sources": [
@@ -17723,15 +17773,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 13,
-          "scoreLabel": "1.4%",
-          "share": 1.4,
+          "rank": 15,
+          "scoreLabel": "1.3%",
+          "share": 1.3,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-08",
-          "previousRank": 15,
+          "asOf": "2026-10-10",
+          "previousRank": 13,
           "previousShare": 1.4,
-          "previousAsOf": "2026-10-03"
+          "previousAsOf": "2026-10-08"
         },
         {
           "systemId": "lmarena-document",
@@ -17741,10 +17791,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 gemini-3.5-flash-medium",
-          "asOf": "2026-10-03",
+          "asOf": "2026-10-10",
           "previousRank": 20,
           "previousScore": 1463,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-10-03"
         },
         {
           "systemId": "lmarena-webdev",
@@ -18048,10 +18098,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 gemini-3.1-pro-preview",
-          "asOf": "2026-10-03",
+          "asOf": "2026-10-10",
           "previousRank": 31,
           "previousScore": 1444,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-10-03"
         },
         {
           "systemId": "lmarena-webdev",
@@ -18234,10 +18284,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 gemma-4-31b",
-          "asOf": "2026-10-03",
+          "asOf": "2026-10-10",
           "previousRank": 35,
           "previousScore": 1425,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-10-03"
         },
         {
           "systemId": "lmarena-text",
@@ -18265,15 +18315,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 45,
+          "rank": 46,
           "scoreLabel": "0.3%",
           "share": 0.3,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-08",
-          "previousRank": 44,
+          "asOf": "2026-10-10",
+          "previousRank": 45,
           "previousShare": 0.3,
-          "previousAsOf": "2026-10-07"
+          "previousAsOf": "2026-10-08"
         }
       ],
       "sources": [
@@ -18894,10 +18944,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 glm-5v-turbo",
-          "asOf": "2026-10-03",
+          "asOf": "2026-10-10",
           "previousRank": 39,
           "previousScore": 1416,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-10-03"
         },
         {
           "systemId": "lmarena-vision",
@@ -19038,6 +19088,13 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-10-08",
+          "type": "release",
+          "summary": "维护线 1.27 最新 1.27.2",
+          "version": "1.27.2",
+          "source": "https://go.dev/doc/go1.27"
+        },
+        {
           "date": "2026-10-02",
           "type": "feature",
           "summary": "Arch-specific SIMD in Go",
@@ -19074,7 +19131,7 @@
       "sources": [
         "https://go.dev"
       ],
-      "lastReviewed": "2026-10-03",
+      "lastReviewed": "2026-10-10",
       "region": "both",
       "id": "go",
       "name": "Go",
@@ -19083,7 +19140,7 @@
       "oneLiner": "简洁并发 · CLI/网关/云原生 · 单二进制部署",
       "descriptionMd": "Go 是简洁、高并发友好的语言，广泛用于 CLI、网关、基础设施与云原生服务。\n\n适合要单一二进制、部署简单、并发模型清晰的后端；相对 TS 全栈，生态更偏系统与平台工程。与 Rust 比：上手快、抽象少，极致性能与零成本抽象则让位于 Rust。\n\n单二进制与交叉编译友好；错误处理显式，适合平台型服务而非快速 CRUD 原型。\n",
       "officialUrl": "https://go.dev",
-      "currentVersion": "1.26"
+      "currentVersion": "1.27"
     },
     {
       "pricing": {
@@ -19805,10 +19862,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
           "note": "模型 veo-3.1-audio",
-          "asOf": "2026-10-03",
+          "asOf": "2026-10-10",
           "previousRank": 12,
           "previousScore": 1364,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-10-03"
         },
         {
           "systemId": "lmarena-i2v",
@@ -19818,10 +19875,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
           "note": "模型 veo-3.1-audio",
-          "asOf": "2026-10-03",
+          "asOf": "2026-10-10",
           "previousRank": 13,
           "previousScore": 1398,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-10-03"
         },
         {
           "systemId": "aa-video-arena",
@@ -20085,10 +20142,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 gpt-5.5",
-          "asOf": "2026-10-03",
+          "asOf": "2026-10-10",
           "previousRank": 8,
           "previousScore": 1486,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-10-03"
         },
         {
           "systemId": "lmarena-search",
@@ -20180,15 +20237,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 14,
-          "scoreLabel": "1.3%",
-          "share": 1.3,
+          "rank": 17,
+          "scoreLabel": "1.2%",
+          "share": 1.2,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-08",
-          "previousRank": 13,
-          "previousShare": 1.5,
-          "previousAsOf": "2026-10-07"
+          "asOf": "2026-10-10",
+          "previousRank": 14,
+          "previousShare": 1.3,
+          "previousAsOf": "2026-10-08"
         }
       ],
       "sources": [
@@ -20271,10 +20328,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 gpt-5.6-terra-xhigh",
-          "asOf": "2026-10-03",
+          "asOf": "2026-10-10",
           "previousRank": 13,
           "previousScore": 1472,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-10-03"
         },
         {
           "systemId": "lmarena-webdev",
@@ -20737,22 +20794,22 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 grok-4.6-high",
-          "asOf": "2026-10-03",
+          "asOf": "2026-10-10",
           "previousRank": 25,
           "previousScore": 1452,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-10-03"
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 47,
-          "scoreLabel": "0.3%",
-          "share": 0.3,
+          "rank": 41,
+          "scoreLabel": "0.4%",
+          "share": 0.4,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-08",
-          "previousRank": 49,
-          "previousShare": 0.2,
-          "previousAsOf": "2026-10-03"
+          "asOf": "2026-10-10",
+          "previousRank": 47,
+          "previousShare": 0.3,
+          "previousAsOf": "2026-10-08"
         }
       ],
       "sources": [
@@ -20843,10 +20900,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
           "note": "模型 grok-imagine-video-1.5-720p",
-          "asOf": "2026-10-03",
+          "asOf": "2026-10-10",
           "previousRank": 8,
           "previousScore": 1456,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-10-03"
         },
         {
           "systemId": "lmarena-t2v",
@@ -20856,10 +20913,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
           "note": "模型 grok-imagine-video-1.5-agent",
-          "asOf": "2026-10-03",
+          "asOf": "2026-10-10",
           "previousRank": 4,
           "previousScore": 1492,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-10-03"
         },
         {
           "systemId": "lmarena-video-edit",
@@ -21279,10 +21336,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
           "note": "模型 hailuo-2.3",
-          "asOf": "2026-10-03",
+          "asOf": "2026-10-10",
           "previousRank": 29,
           "previousScore": 1262,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-10-03"
         }
       ],
       "sources": [
@@ -21351,10 +21408,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
           "note": "模型 happyhorse-1.0",
-          "asOf": "2026-10-03",
+          "asOf": "2026-10-10",
           "previousRank": 10,
           "previousScore": 1427,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-10-03"
         },
         {
           "systemId": "lmarena-i2v",
@@ -21364,10 +21421,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
           "note": "模型 happyhorse-1.0",
-          "asOf": "2026-10-03",
+          "asOf": "2026-10-10",
           "previousRank": 10,
           "previousScore": 1442,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-10-03"
         },
         {
           "systemId": "lmarena-video-edit",
@@ -23384,15 +23441,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 6,
-          "scoreLabel": "4.2%",
-          "share": 4.2,
+          "rank": 5,
+          "scoreLabel": "5.1%",
+          "share": 5.1,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-07",
-          "previousRank": 5,
-          "previousShare": 4.4,
-          "previousAsOf": "2026-10-03"
+          "asOf": "2026-10-10",
+          "previousRank": 6,
+          "previousShare": 4.2,
+          "previousAsOf": "2026-10-07"
         },
         {
           "systemId": "lmarena-webdev",
@@ -23415,10 +23472,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
           "note": "模型 hunyuan-video-1.5",
-          "asOf": "2026-10-03",
+          "asOf": "2026-10-10",
           "previousRank": 40,
           "previousScore": 1198,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-10-03"
         },
         {
           "systemId": "lmarena-t2v",
@@ -25807,10 +25864,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 kimi-k2.6",
-          "asOf": "2026-10-03",
+          "asOf": "2026-10-10",
           "previousRank": 27,
           "previousScore": 1451,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-10-03"
         }
       ],
       "sources": [
@@ -26030,10 +26087,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/video-edit",
           "note": "模型 kling-o1-pro",
-          "asOf": "2026-10-02",
-          "previousRank": 5,
-          "previousScore": 1251,
-          "previousAsOf": "2026-07-24"
+          "asOf": "2026-10-10",
+          "previousRank": 9,
+          "previousScore": 1197,
+          "previousAsOf": "2026-10-02"
         },
         {
           "systemId": "aa-video-arena",
@@ -26056,10 +26113,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
           "note": "模型 kling-2.5-turbo-1080p",
-          "asOf": "2026-10-03",
+          "asOf": "2026-10-10",
           "previousRank": 27,
           "previousScore": 1276,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-10-03"
         }
       ],
       "sources": [
@@ -26276,6 +26333,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-09",
+          "type": "release",
+          "summary": "发布 2.5.20-ij263: build-2.5.20-ij263-4",
+          "version": "2.5.20-ij263",
+          "source": "https://github.com/JetBrains/kotlin/releases/tag/build-2.5.20-ij263-4"
+        },
+        {
           "date": "2026-09-12",
           "type": "release",
           "summary": "发布 2.5.0-Beta1: build-2.5.0-Beta1-25",
@@ -26294,7 +26358,7 @@
       "sources": [
         "https://kotlinlang.org"
       ],
-      "lastReviewed": "2026-09-13",
+      "lastReviewed": "2026-10-10",
       "region": "overseas",
       "id": "kotlin-multiplatform",
       "name": "Kotlin Multiplatform",
@@ -26305,7 +26369,7 @@
       "descriptionMd": "Kotlin Multiplatform 把网络、存储与领域逻辑写一次，编译到 Android、iOS、桌面与 Web，界面层则各端保留原生实现，走的是共享逻辑而非共享 UI 的路线。\n\n已有原生双端团队、想复用数据层与业务层又不愿牺牲原生体验时最合适；要连界面一起复用则看 Compose Multiplatform。\n\niOS 侧仍需 Swift 工程能力与互操作调试；构建配置复杂，第三方库必须专门支持多平台目标才能引入。\n",
       "vendorId": "jetbrains",
       "githubUrl": "https://github.com/JetBrains/kotlin",
-      "currentVersion": "2.5.0-Beta1"
+      "currentVersion": "2.5.20-ij263"
     },
     {
       "pricing": {
@@ -26326,6 +26390,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-08",
+          "type": "release",
+          "summary": "维护线 2.4 最新 2.4.21",
+          "version": "2.4.21",
+          "source": "https://github.com/JetBrains/kotlin/releases/tag/v2.4.21"
+        },
+        {
           "date": "2026-07-14",
           "type": "release",
           "summary": "维护线 2.4 最新 2.4.10",
@@ -26337,7 +26408,7 @@
       "sources": [
         "https://kotlinlang.org"
       ],
-      "lastReviewed": "2026-07-25",
+      "lastReviewed": "2026-10-10",
       "region": "overseas",
       "id": "kotlin",
       "name": "Kotlin",
@@ -26346,7 +26417,8 @@
       "oneLiner": "JVM 现代语法 · Android 官方首选 · Java 100% 互操作",
       "officialUrl": "https://kotlinlang.org",
       "descriptionMd": "Kotlin 是 JetBrains 推出的 JVM 语言，与 Java 100% 互操作，语法简洁，是 Android 官方首选与 Spring 现代栈常用语言。\n\nAndroid 新 feature、Java 存量项目渐进迁移、或需要 coroutine 并发模型的后端。\n\n纯 Kotlin 团队仍需理解 Java 生态；Native/JS 目标场景社区小于 JVM。\n",
-      "vendorId": "kotlin-foundation"
+      "vendorId": "kotlin-foundation",
+      "currentVersion": "2.4"
     },
     {
       "pricing": {
@@ -26866,6 +26938,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-08",
+          "type": "release",
+          "summary": "发布 1.7.0: langchain-openai==1.7.0",
+          "version": "1.7.0",
+          "source": "https://github.com/langchain-ai/langchain/releases/tag/langchain-openai%3D%3D1.7.0"
+        },
+        {
           "date": "2026-10-02",
           "type": "release",
           "summary": "发布 1.1.3: langchain-text-splitters==1.1.3",
@@ -26925,7 +27004,7 @@
       "sources": [
         "https://www.langchain.com"
       ],
-      "lastReviewed": "2026-10-03",
+      "lastReviewed": "2026-10-10",
       "region": "overseas",
       "id": "langchain",
       "name": "LangChain",
@@ -26935,7 +27014,7 @@
       "officialUrl": "https://www.langchain.com",
       "descriptionMd": "LangChain 是最流行的 LLM 应用框架，提供 chain、agent、tool 与大量 integration，LangGraph 扩展 stateful workflow。\n\n快速集成 vector DB/tools/API 构建 RAG 与 Agent prototype 的默认起点（注意抽象层厚度）。\n\n过度抽象导致 debug 困难；生产应精简 dependency 并用 LangSmith 观测。\n",
       "vendorId": "langchain-inc",
-      "currentVersion": "1.5.0"
+      "currentVersion": "1.7.0"
     },
     {
       "pricing": {
@@ -28049,6 +28128,12 @@
       ],
       "updates": [
         {
+          "date": "2026-10-09",
+          "type": "feature",
+          "summary": "b11539",
+          "source": "https://github.com/ggml-org/llama.cpp/releases/tag/b11539"
+        },
+        {
           "date": "2026-10-03",
           "type": "feature",
           "summary": "b11362",
@@ -28108,7 +28193,7 @@
       "sources": [
         "https://github.com/ggerganov/llama.cpp"
       ],
-      "lastReviewed": "2026-10-03",
+      "lastReviewed": "2026-10-10",
       "region": "overseas",
       "id": "llama-cpp",
       "name": "llama.cpp",
@@ -28997,6 +29082,13 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-10-09",
+          "type": "release",
+          "summary": "发布 1.54.0: Version 1.54.0",
+          "version": "1.54.0",
+          "source": "https://github.com/lucide-icons/lucide/releases/tag/1.54.0"
+        },
+        {
           "date": "2026-10-02",
           "type": "release",
           "summary": "发布 1.50.0: Version 1.50.0",
@@ -29073,7 +29165,7 @@
       "sources": [
         "https://lucide.dev"
       ],
-      "lastReviewed": "2026-10-03",
+      "lastReviewed": "2026-10-10",
       "region": "overseas",
       "id": "lucide",
       "name": "Lucide",
@@ -29082,7 +29174,7 @@
       "oneLiner": "Feather 演进 · 线条清晰 · shadcn 系常见默认",
       "descriptionMd": "Lucide 是基于 Feather 演进的开源图标集，线条清晰，React 等多框架封装齐全。\n\n适合产品 UI 图标层；与 Phosphor（多字重）按视觉体系二选一或分工。不可与 Ant Design 等完整组件库同榜硬比。\n\n图标语义保持一致比「多一个风格」重要；与文案、空状态插画统一视觉权重。\n",
       "officialUrl": "https://lucide.dev",
-      "currentVersion": "1.50.0"
+      "currentVersion": "1.54.0"
     },
     {
       "pricing": {
@@ -30667,10 +30759,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 muse-spark-1.3-max",
-          "asOf": "2026-10-03",
+          "asOf": "2026-10-10",
           "previousRank": 15,
           "previousScore": 1471,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-10-03"
         },
         {
           "systemId": "lmarena-webdev",
@@ -30754,10 +30846,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
           "note": "模型 muse-video",
-          "asOf": "2026-10-03",
+          "asOf": "2026-10-10",
           "previousRank": 9,
           "previousScore": 1456,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-10-03"
         }
       ],
       "sources": [
@@ -31473,6 +31565,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-08",
+          "type": "release",
+          "summary": "发布 4.0.11: MinerU 4.0.11",
+          "version": "4.0.11",
+          "source": "https://github.com/opendatalab/MinerU/releases/tag/mineru-4.0.11-released"
+        },
+        {
           "date": "2026-09-27",
           "type": "release",
           "summary": "发布 4.0.8: MinerU 4.0.8",
@@ -31497,7 +31596,7 @@
       "sources": [
         "https://github.com/opendatalab/MinerU"
       ],
-      "lastReviewed": "2026-09-28",
+      "lastReviewed": "2026-10-10",
       "region": "both",
       "id": "mineru",
       "name": "MinerU",
@@ -31578,10 +31677,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 minimax-m3",
-          "asOf": "2026-10-03",
+          "asOf": "2026-10-10",
           "previousRank": 32,
           "previousScore": 1435,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-10-03"
         },
         {
           "systemId": "lmarena-webdev",
@@ -32961,6 +33060,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-09",
+          "type": "release",
+          "summary": "发布 9.5.0: 新版本",
+          "version": "9.5.0",
+          "source": "https://github.com/mui/material-ui/releases/tag/v9.5.0"
+        },
+        {
           "date": "2026-08-28",
           "type": "release",
           "summary": "发布 9.4.0: 新版本",
@@ -32979,7 +33085,7 @@
       "sources": [
         "https://mui.com"
       ],
-      "lastReviewed": "2026-08-28",
+      "lastReviewed": "2026-10-10",
       "region": "overseas",
       "id": "mui",
       "name": "MUI",
@@ -32989,7 +33095,7 @@
       "officialUrl": "https://mui.com",
       "descriptionMd": "MUI（Material UI）是 React 最流行的 Material Design 实现，提供完整组件、主题系统与 Data Grid 等 Pro 模块。\n\n企业 admin dashboard、B2B SaaS 需要成熟表格/表单/主题且团队熟悉 Material 时。\n\n默认 Material 视觉同质化；重度定制需投入 theme override。\n",
       "vendorId": "mui-inc",
-      "currentVersion": "9.4.0"
+      "currentVersion": "9.5.0"
     },
     {
       "pricing": {
@@ -33246,6 +33352,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-09",
+          "type": "release",
+          "summary": "发布 1.6.25-0.71.12: managed-1.6.25-0.71.12-2d640b65492ee7738cd39fee3b5d7a332273ada3",
+          "version": "1.6.25-0.71.12",
+          "source": "https://github.com/NangoHQ/nango/releases/tag/managed-1.6.25-0.71.12-2d640b65492ee7738cd39fee3b5d7a332273ada3"
+        },
+        {
           "date": "2026-10-02",
           "type": "release",
           "summary": "发布 0.71.12: 新版本",
@@ -33292,7 +33405,7 @@
       "sources": [
         "https://www.nango.dev"
       ],
-      "lastReviewed": "2026-10-03",
+      "lastReviewed": "2026-10-10",
       "region": "overseas",
       "id": "nango",
       "name": "Nango",
@@ -33303,7 +33416,7 @@
       "descriptionMd": "Nango 帮产品团队在自有 SaaS 内嵌「连接客户 CRM/工单等」的集成：OAuth、字段同步与可自托管管道，开源优先。\n\n你的产品要向客户提供 Salesforce/HubSpot 类双向集成，又不想把集成当成巨型内部项目时选。\n\n这与 Zapier 给最终用户搭自动化不是同一题；连接器覆盖要以目录为准。选型前请以官网能力与定价页为准。\n",
       "vendorId": "nango-inc",
       "githubUrl": "https://github.com/NangoHQ/nango",
-      "currentVersion": "1.6.14-0.71.10"
+      "currentVersion": "1.6.25-0.71.12"
     },
     {
       "pricing": {
@@ -34638,6 +34751,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-09",
+          "type": "release",
+          "summary": "发布 0.3.0: relaykit/v0.3.0",
+          "version": "0.3.0",
+          "source": "https://github.com/QuantumNous/new-api/releases/tag/relaykit%2Fv0.3.0"
+        },
+        {
           "date": "2026-10-01",
           "type": "release",
           "summary": "发布 0.2.2: relaykit/v0.2.2",
@@ -34655,7 +34775,7 @@
       "sources": [
         "https://github.com/QuantumNous/new-api"
       ],
-      "lastReviewed": "2026-10-01",
+      "lastReviewed": "2026-10-10",
       "region": "domestic",
       "id": "one-api",
       "name": "New API / One API",
@@ -34672,7 +34792,8 @@
           "asOf": "2026-07-20",
           "previousAsOf": "2026-07-20"
         }
-      ]
+      ],
+      "currentVersion": "0.3.0"
     },
     {
       "pricing": {
@@ -35356,6 +35477,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-08",
+          "type": "release",
+          "summary": "发布 1.1.0-rc2: Release v1.1.0-rc2",
+          "version": "1.1.0-rc2",
+          "source": "https://github.com/openobserve/openobserve/releases/tag/v1.1.0-rc2"
+        },
+        {
           "date": "2026-09-24",
           "type": "release",
           "summary": "发布 1.0.4: Release v1.0.4",
@@ -35395,7 +35523,7 @@
       "sources": [
         "https://openobserve.ai"
       ],
-      "lastReviewed": "2026-09-26",
+      "lastReviewed": "2026-10-10",
       "region": "overseas",
       "id": "openobserve",
       "name": "OpenObserve",
@@ -35406,7 +35534,7 @@
       "descriptionMd": "OpenObserve 用 Rust 实现，把日志、指标与链路收在同一后端，数据以列式格式直接落在 S3 等对象存储上，自带查询界面与告警，部署形态比 Elasticsearch 一类集群轻得多。\n\n想自托管一套统一的可观测后端、又不愿养搜索引擎集群时评估；它可以接在 Fluent Bit、Vector 或 OpenTelemetry Collector 后面，替代 Loki 加 Elasticsearch 的组合。\n\n项目相对年轻，大规模高基数场景下的查询表现需自行压测；开源版与云版在多租户、权限上的差异要提前确认。\n",
       "vendorId": "openobserve-inc",
       "githubUrl": "https://github.com/openobserve/openobserve",
-      "currentVersion": "1.0.0"
+      "currentVersion": "1.1.0-rc2"
     },
     {
       "pricing": {
@@ -35742,6 +35870,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-09",
+          "type": "release",
+          "summary": "发布 2.2.97-avinahradau: [OPIK-8329] [FE] feat: send the widget's current rows with Edit in Ollie",
+          "version": "2.2.97-avinahradau",
+          "source": "https://github.com/comet-ml/opik/releases/tag/2.2.97-avinahradau-opik-832-6991"
+        },
+        {
           "date": "2026-10-02",
           "type": "release",
           "summary": "发布 2.2.89-8712: 新版本",
@@ -35802,7 +35937,7 @@
       "sources": [
         "https://github.com/comet-ml/opik"
       ],
-      "lastReviewed": "2026-10-03",
+      "lastReviewed": "2026-10-10",
       "region": "overseas",
       "id": "opik",
       "name": "Opik",
@@ -35811,7 +35946,7 @@
       "oneLiner": "评测与追踪一体 · Comet 开源；可自托管",
       "officialUrl": "https://github.com/comet-ml/opik",
       "descriptionMd": "Opik 是 Comet 开源的 LLM 评测与追踪工具，既能记录线上调用轨迹，也能对数据集批量跑评测指标，支持自托管部署。\n\n希望「线上追踪」和「离线评测」共用一套数据与界面、又要能私有化部署时评估；与 Langfuse 属同层可直接横比。\n\n两头都做意味着两头都不如专精工具深；自托管版本的运维与升级成本要计入，托管版则要评估数据出境。\n",
-      "currentVersion": "2.2.89-8712"
+      "currentVersion": "2.2.97-avinahradau"
     },
     {
       "pricing": {
@@ -37798,10 +37933,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
           "note": "模型 pixverse-v5.6",
-          "asOf": "2026-10-03",
+          "asOf": "2026-10-10",
           "previousRank": 26,
           "previousScore": 1240,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-10-03"
         },
         {
           "systemId": "lmarena-i2v",
@@ -38157,6 +38292,13 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-10-09",
+          "type": "release",
+          "summary": "发布 12.11.2: pnpm 12.11.2",
+          "version": "12.11.2",
+          "source": "https://pnpm.io/blog/releases/12.11.2"
+        },
+        {
           "date": "2026-09-28",
           "type": "release",
           "summary": "发布 12.8: pnpm 12.8",
@@ -38188,7 +38330,7 @@
       "sources": [
         "https://pnpm.io"
       ],
-      "lastReviewed": "2026-10-01",
+      "lastReviewed": "2026-10-10",
       "region": "overseas",
       "id": "pnpm",
       "name": "pnpm",
@@ -38585,6 +38727,12 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-10-08",
+          "type": "feature",
+          "summary": "We built our own cloud agents runtime. Here's what we learned",
+          "source": "https://posthog.com/blog/cloud-agents-runtime"
+        },
+        {
           "date": "2026-09-09",
           "type": "feature",
           "summary": "From 1 to 100 IRL events in a year: The secret to getting engineers to demo",
@@ -38607,7 +38755,7 @@
       "sources": [
         "https://posthog.com"
       ],
-      "lastReviewed": "2026-09-13",
+      "lastReviewed": "2026-10-10",
       "region": "overseas",
       "id": "posthog",
       "name": "PostHog",
@@ -38929,6 +39077,12 @@
           "source": "https://www.prisma.io/blog/prisma-orm-8-nestjs"
         },
         {
+          "date": "2026-09-24",
+          "type": "feature",
+          "summary": "Neon alternatives with app hosting and Postgres in one place (2026): Prisma, Railway, Render, Supabase",
+          "source": "https://www.prisma.io/blog/neon-vs-prisma-postgres-app-hosting-in-one-place"
+        },
+        {
           "date": "2026-09-16",
           "type": "feature",
           "summary": "Prisma vs Netlify for TypeScript apps: which platform?",
@@ -38952,7 +39106,7 @@
       "sources": [
         "https://www.prisma.io"
       ],
-      "lastReviewed": "2026-10-03",
+      "lastReviewed": "2026-10-10",
       "region": "overseas",
       "id": "prisma",
       "name": "Prisma",
@@ -39243,6 +39397,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-08",
+          "type": "release",
+          "summary": "发布 25.13.0: puppeteer: v25.13.0",
+          "version": "25.13.0",
+          "source": "https://github.com/puppeteer/puppeteer/releases/tag/puppeteer-v25.13.0"
+        },
+        {
           "date": "2026-09-23",
           "type": "release",
           "summary": "发布 25.12.0: puppeteer: v25.12.0",
@@ -39261,7 +39422,7 @@
       "sources": [
         "https://pptr.dev"
       ],
-      "lastReviewed": "2026-09-24",
+      "lastReviewed": "2026-10-10",
       "region": "overseas",
       "id": "puppeteer",
       "name": "Puppeteer",
@@ -39272,7 +39433,7 @@
       "descriptionMd": "Puppeteer 是 Chrome 团队维护的 Node 浏览器控制库，直连 DevTools 协议，在性能采集、PDF 打印、拦截请求等底层控制上顺手，是很多抓取与截图服务的底座。\n\n只面向 Chromium、且以 Node 为主的场景可以继续用；要跨三种引擎并跑测试断言，Playwright 的工具链更完整。\n\n跨浏览器能力弱于后来者；等待与重试要自己写，页面异步复杂时容易出现偶发失败。\n",
       "vendorId": "google",
       "githubUrl": "https://github.com/puppeteer/puppeteer",
-      "currentVersion": "25.12.0"
+      "currentVersion": "25.13.0"
     },
     {
       "pricing": {
@@ -40053,15 +40214,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 37,
+          "rank": 48,
           "scoreLabel": "0.3%",
           "share": 0.3,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-08",
-          "previousRank": 38,
+          "asOf": "2026-10-10",
+          "previousRank": 37,
           "previousShare": 0.3,
-          "previousAsOf": "2026-10-07"
+          "previousAsOf": "2026-10-08"
         },
         {
           "systemId": "lmarena-vision",
@@ -40201,10 +40362,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/document",
           "note": "模型 qwen3.7-plus",
-          "asOf": "2026-10-03",
+          "asOf": "2026-10-10",
           "previousRank": 30,
           "previousScore": 1444,
-          "previousAsOf": "2026-09-26"
+          "previousAsOf": "2026-10-03"
         },
         {
           "systemId": "lmarena-webdev",
@@ -40465,6 +40626,12 @@
       ],
       "updates": [
         {
+          "date": "2026-10-09",
+          "type": "feature",
+          "summary": "Better ACL S3 control and more",
+          "source": "https://rubyonrails.org/2026/10/9/this-week-in-rails"
+        },
+        {
           "date": "2026-10-01",
           "type": "feature",
           "summary": "Rails World 2026 recap: All talks online",
@@ -40513,7 +40680,7 @@
       "sources": [
         "https://rubyonrails.org"
       ],
-      "lastReviewed": "2026-10-02",
+      "lastReviewed": "2026-10-10",
       "region": "overseas",
       "id": "rails",
       "name": "Ruby on Rails",
@@ -41111,6 +41278,12 @@
       ],
       "updates": [
         {
+          "date": "2026-10-09",
+          "type": "feature",
+          "summary": "How we built the Redis Docs MCP for agents",
+          "source": "https://redis.io/blog/how-we-built-the-redis-docs-mcp-for-agents/"
+        },
+        {
           "date": "2026-09-30",
           "type": "feature",
           "summary": "Scale your workloads without paying all-RAM prices",
@@ -41158,7 +41331,7 @@
       "sources": [
         "https://redis.io"
       ],
-      "lastReviewed": "2026-10-03",
+      "lastReviewed": "2026-10-10",
       "region": "overseas",
       "id": "redis",
       "name": "Redis",
@@ -43234,6 +43407,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-09",
+          "type": "release",
+          "summary": "发布 4.51.0: Selenium 4.51.0",
+          "version": "4.51.0",
+          "source": "https://github.com/SeleniumHQ/selenium/releases/tag/selenium-4.51.0"
+        },
+        {
           "date": "2026-09-30",
           "type": "release",
           "summary": "发布 4.50.0: Selenium 4.50.0",
@@ -43259,7 +43439,7 @@
       "sources": [
         "https://www.selenium.dev"
       ],
-      "lastReviewed": "2026-10-01",
+      "lastReviewed": "2026-10-10",
       "region": "overseas",
       "id": "selenium",
       "name": "Selenium",
@@ -43269,7 +43449,7 @@
       "officialUrl": "https://www.selenium.dev",
       "descriptionMd": "Selenium 是浏览器自动化的元老，其 WebDriver 已成为 W3C 标准，覆盖 Java、Python、C# 等多语言绑定，并通过 Grid 支持大规模分布式执行。\n\n企业里已有大量历史用例、或团队栈是 Java/C# 时继续沿用最划算；新项目从零起步可直接看更现代的驱动。\n\nAPI 偏底层，显式等待与稳定性要自行打磨；Grid 运维成本高，调试体验落后于新一代工具。\n",
       "githubUrl": "https://github.com/SeleniumHQ/selenium",
-      "currentVersion": "4.50.0"
+      "currentVersion": "4.51.0"
     },
     {
       "pricing": {
@@ -44572,15 +44752,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 34,
-          "scoreLabel": "0.4%",
-          "share": 0.4,
+          "rank": 27,
+          "scoreLabel": "0.6%",
+          "share": 0.6,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-08",
-          "previousRank": 37,
-          "previousShare": 0.3,
-          "previousAsOf": "2026-10-07"
+          "asOf": "2026-10-10",
+          "previousRank": 34,
+          "previousShare": 0.4,
+          "previousAsOf": "2026-10-08"
         }
       ],
       "sources": [
@@ -44907,6 +45087,45 @@
       "officialUrl": "https://sourcery.ai",
       "descriptionMd": "Sourcery 以「给可读性与重构建议」为特色，早期在 Python 生态中最为人熟知，既能装进编辑器边写边提示，也能作为评审工具在 PR 上留意见。\n\n主力语言是 Python、在意惯用写法与可读性时性价比高；多语言大仓要统一门禁则看 Codacy 一类。\n\n语言覆盖不如通用平台均衡，非 Python 栈需先试；建议偏局部写法，架构层问题不在射程内。\n",
       "vendorId": "sourcery-ai"
+    },
+    {
+      "id": "space-bunny-alpha",
+      "name": "Space Bunny Alpha",
+      "category": "llm-line",
+      "region": "overseas",
+      "oneLiner": "OpenRouter排名第2的LLM档位，7天token量超1.69万亿，属stealth系列",
+      "descriptionMd": "space-bunny-alpha是OpenRouter平台排名第2的LLM档位，隶属于stealth系列，7天处理token量超1.69万亿，是当前主流的大模型选型之一。适合需要高token处理能力、追求稳定性能的场景，可通过OpenRouter统一调用多家模型的路由接口使用。注意该模型仅在OpenRouter平台提供，国内无法直接访问，需依赖海外节点调用，计费遵循OpenRouter的用量规则。",
+      "officialUrl": "https://openrouter.ai/stealth/space-bunny-alpha",
+      "pricing": {
+        "model": "usage",
+        "notes": "按OpenRouter平台的token用量计费"
+      },
+      "availability": {
+        "chinaAccessible": false,
+        "needsCompany": false,
+        "needsIcp": false,
+        "regions": []
+      },
+      "tags": [
+        "aqua-auto-expand",
+        "LLM",
+        "OpenRouter",
+        "stealth系列",
+        "高token量"
+      ],
+      "maturity": "stable",
+      "tutorialLinks": [],
+      "externalLinks": [],
+      "pitfalls": [
+        "仅通过OpenRouter提供，国内无法直接访问，需依赖海外节点"
+      ],
+      "updates": [],
+      "rankings": [],
+      "sources": [
+        "https://openrouter.ai/stealth/space-bunny-alpha",
+        "https://openrouter.ai/rankings"
+      ],
+      "lastReviewed": "2026-10-10"
     },
     {
       "pricing": {
@@ -45370,6 +45589,12 @@
       ],
       "updates": [
         {
+          "date": "2026-10-09",
+          "type": "feature",
+          "summary": "stagehand-python@4.2.1a0.dev1594: fix(extension): bind LLM/gateway fetch to a load-time reference (#3153)",
+          "source": "https://github.com/browserbase/stagehand/releases/tag/stagehand-python%404.2.1a0.dev1594"
+        },
+        {
           "date": "2026-10-02",
           "type": "feature",
           "summary": "stagehand-python@4.2.0a0.dev1565: docs: add Amel Bajramovic to README acknowledgements (#3095)",
@@ -45419,7 +45644,7 @@
       "sources": [
         "https://github.com/browserbase/stagehand"
       ],
-      "lastReviewed": "2026-10-03",
+      "lastReviewed": "2026-10-10",
       "region": "overseas",
       "id": "stagehand",
       "name": "Stagehand",
@@ -45457,6 +45682,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-08",
+          "type": "release",
+          "summary": "发布 0.42.6: @astrojs/starlight@0.42.6",
+          "version": "0.42.6",
+          "source": "https://github.com/withastro/starlight/releases/tag/%40astrojs%2Fstarlight%400.42.6"
+        },
+        {
           "date": "2026-09-24",
           "type": "release",
           "summary": "发布 0.42.4: @astrojs/starlight@0.42.4",
@@ -45482,7 +45714,7 @@
       "sources": [
         "https://starlight.astro.build"
       ],
-      "lastReviewed": "2026-09-26",
+      "lastReviewed": "2026-10-10",
       "region": "overseas",
       "id": "starlight",
       "name": "Starlight",
@@ -45689,15 +45921,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 47,
-          "scoreLabel": "0.2%",
-          "share": 0.2,
-          "period": "2026-09",
+          "rank": 12,
+          "scoreLabel": "2.1%",
+          "share": 2.1,
+          "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-10",
-          "previousRank": 37,
-          "previousShare": 0.4,
-          "previousAsOf": "2026-08-31"
+          "asOf": "2026-10-10",
+          "previousRank": 47,
+          "previousShare": 0.2,
+          "previousAsOf": "2026-09-10"
         },
         {
           "systemId": "lmarena-webdev",
@@ -47668,6 +47900,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-08",
+          "type": "release",
+          "summary": "发布 1.32.1: 新版本",
+          "version": "1.32.1",
+          "source": "https://github.com/temporalio/temporal/releases/tag/v1.32.1"
+        },
+        {
           "date": "2026-09-28",
           "type": "release",
           "summary": "发布 1.32.0-163.6: 新版本",
@@ -47707,7 +47946,7 @@
       "sources": [
         "https://temporal.io"
       ],
-      "lastReviewed": "2026-09-29",
+      "lastReviewed": "2026-10-10",
       "region": "overseas",
       "id": "temporal",
       "name": "Temporal",
@@ -48867,6 +49106,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-09",
+          "type": "release",
+          "summary": "发布 3.20.243-lts: 新版本",
+          "version": "3.20.243-lts",
+          "source": "https://github.com/ToolJet/ToolJet/releases/tag/v3.20.243-lts"
+        },
+        {
           "date": "2026-10-02",
           "type": "release",
           "summary": "发布 3.20.237-lts: 新版本",
@@ -48920,7 +49166,7 @@
       "sources": [
         "https://www.tooljet.com"
       ],
-      "lastReviewed": "2026-10-03",
+      "lastReviewed": "2026-10-10",
       "region": "overseas",
       "id": "tooljet",
       "name": "ToolJet",
@@ -48931,7 +49177,7 @@
       "descriptionMd": "ToolJet 面向工程与运营共建内部工具：可视化搭建、多数据源连接、简单审批流与 RBAC，社区版可自托管，商业版补协作与审计。\n\n需要比表格脚本更重、比自写完整 admin 更轻的中间层时，与 Appsmith/Retool 列入同一内部系统短名单。\n\n第三方集成与生态密度不及 Retool；超大团队对审计、SSO 与扩展的要求常把你推到企业版或自研。\n",
       "vendorId": "tooljet-inc",
       "githubUrl": "https://github.com/ToolJet/ToolJet",
-      "currentVersion": "3.20.237-lts"
+      "currentVersion": "3.20.243-lts"
     },
     {
       "pricing": {
@@ -49396,6 +49642,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-09",
+          "type": "release",
+          "summary": "发布 2.46.0: twenty/v2.46.0",
+          "version": "2.46.0",
+          "source": "https://github.com/twentyhq/twenty/releases/tag/twenty%2Fv2.46.0"
+        },
+        {
           "date": "2026-10-02",
           "type": "release",
           "summary": "发布 2.45.2: twenty/v2.45.2",
@@ -49456,7 +49709,7 @@
       "sources": [
         "https://twenty.com"
       ],
-      "lastReviewed": "2026-10-03",
+      "lastReviewed": "2026-10-10",
       "region": "overseas",
       "id": "twenty",
       "name": "Twenty",
@@ -49467,7 +49720,7 @@
       "descriptionMd": "Twenty 是开源的现代 CRM：React + GraphQL，支持云托管与自托管，界面与数据模型朝现代 B2B 工作台演进，适合要数据驻留或可二次开发的团队。\n\n必须自托管/开源、或要在 CRM 上二次开发、且能承受运维时评估；要开箱营销套件仍是 HubSpot，要托管 AI 灵活对象可先 Attio。\n\n生态集成与 polish 仍追商业 SaaS；生产自托管要管权限、备份与升级。\n",
       "vendorId": "twenty-inc",
       "githubUrl": "https://github.com/twentyhq/twenty",
-      "currentVersion": "2.41.0"
+      "currentVersion": "2.46.0"
     },
     {
       "pricing": {
@@ -53117,6 +53370,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-08",
+          "type": "release",
+          "summary": "发布 2.0.1: @xstate/store-solid@2.0.1",
+          "version": "2.0.1",
+          "source": "https://github.com/statelyai/xstate/releases/tag/%40xstate%2Fstore-solid%402.0.1"
+        },
+        {
           "date": "2026-09-12",
           "type": "release",
           "summary": "发布 5.33.0: xstate@5.33.0",
@@ -53135,7 +53395,7 @@
       "sources": [
         "https://xstate.js.org"
       ],
-      "lastReviewed": "2026-09-13",
+      "lastReviewed": "2026-10-10",
       "region": "overseas",
       "id": "xstate",
       "name": "XState",
@@ -103013,6 +103273,25 @@
       "pricing": "freemium",
       "maturity": "stable",
       "chinaAccessible": true
+    },
+    {
+      "id": "space-bunny-alpha",
+      "name": "Space Bunny Alpha",
+      "haystackName": "space bunny alpha space-bunny-alpha",
+      "haystackMid": "openrouter排名第2的llm档位，7天token量超1.69万亿，属stealth系列 aqua-auto-expand llm openrouter stealth系列 高token量",
+      "haystackLow": "space-bunny-alpha是openrouter平台排名第2的llm档位，隶属于stealth系列，7天处理token量超1.69万亿，是当前主流的大模型选型之一。适合需要高token处理能力、追求稳定性能的场景，可通过openrouter统一调用多家模型的路由接口使用。注意该模型仅在openrouter平台提供，国内无法直接访问，需依赖海外节点调用，计费遵循openrouter的用量规则。",
+      "category": "llm-line",
+      "region": "overseas",
+      "tags": [
+        "aqua-auto-expand",
+        "LLM",
+        "OpenRouter",
+        "stealth系列",
+        "高token量"
+      ],
+      "pricing": "usage",
+      "maturity": "stable",
+      "chinaAccessible": false
     },
     {
       "id": "speechmatics",

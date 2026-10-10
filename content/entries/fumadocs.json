@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-09",
+      "type": "release",
+      "summary": "发布 5.5.1: fumadocs-typescript@5.5.1",
+      "version": "5.5.1",
+      "source": "https://github.com/fuma-nama/fumadocs/releases/tag/fumadocs-typescript%405.5.1"
+    },
+    {
       "date": "2026-10-02",
       "type": "release",
       "summary": "发布 12.1.1: fumadocs-openapi@12.1.1",
@@ -83,7 +90,7 @@
   "sources": [
     "https://fumadocs.dev"
   ],
-  "lastReviewed": "2026-10-03",
+  "lastReviewed": "2026-10-10",
   "region": "overseas",
   "id": "fumadocs",
   "name": "Fumadocs",

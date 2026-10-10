@@ -18,6 +18,13 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-10-08",
+      "type": "release",
+      "summary": "发布 0.45.4: 新版本",
+      "version": "0.45.4",
+      "source": "https://github.com/drizzle-team/drizzle-orm/releases/tag/0.45.4"
+    },
+    {
       "date": "2026-09-21",
       "type": "release",
       "summary": "发布 0.45.3: 新版本",
@@ -29,7 +36,7 @@
   "sources": [
     "https://orm.drizzle.team"
   ],
-  "lastReviewed": "2026-09-22",
+  "lastReviewed": "2026-10-10",
   "region": "overseas",
   "id": "drizzle",
   "name": "Drizzle ORM",

@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-08",
+      "type": "release",
+      "summary": "发布 1.0.4: 新版本",
+      "version": "1.0.4",
+      "source": "https://github.com/flet-dev/flet/releases/tag/v1.0.4"
+    },
+    {
       "date": "2026-09-30",
       "type": "release",
       "summary": "发布 1.0.3: 新版本",
@@ -48,7 +55,7 @@
   "sources": [
     "https://flet.dev"
   ],
-  "lastReviewed": "2026-10-01",
+  "lastReviewed": "2026-10-10",
   "region": "overseas",
   "id": "flet",
   "name": "Flet",

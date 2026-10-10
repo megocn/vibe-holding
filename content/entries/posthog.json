@@ -20,6 +20,12 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-10-08",
+      "type": "feature",
+      "summary": "We built our own cloud agents runtime. Here's what we learned",
+      "source": "https://posthog.com/blog/cloud-agents-runtime"
+    },
+    {
       "date": "2026-09-09",
       "type": "feature",
       "summary": "From 1 to 100 IRL events in a year: The secret to getting engineers to demo",
@@ -42,7 +48,7 @@
   "sources": [
     "https://posthog.com"
   ],
-  "lastReviewed": "2026-09-13",
+  "lastReviewed": "2026-10-10",
   "region": "overseas",
   "id": "posthog",
   "name": "PostHog",

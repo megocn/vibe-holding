@@ -1,0 +1,39 @@
+{
+  "id": "space-bunny-alpha",
+  "name": "Space Bunny Alpha",
+  "category": "llm-line",
+  "region": "overseas",
+  "oneLiner": "OpenRouter排名第2的LLM档位，7天token量超1.69万亿，属stealth系列",
+  "descriptionMd": "space-bunny-alpha是OpenRouter平台排名第2的LLM档位，隶属于stealth系列，7天处理token量超1.69万亿，是当前主流的大模型选型之一。适合需要高token处理能力、追求稳定性能的场景，可通过OpenRouter统一调用多家模型的路由接口使用。注意该模型仅在OpenRouter平台提供，国内无法直接访问，需依赖海外节点调用，计费遵循OpenRouter的用量规则。",
+  "officialUrl": "https://openrouter.ai/stealth/space-bunny-alpha",
+  "pricing": {
+    "model": "usage",
+    "notes": "按OpenRouter平台的token用量计费"
+  },
+  "availability": {
+    "chinaAccessible": false,
+    "needsCompany": false,
+    "needsIcp": false,
+    "regions": []
+  },
+  "tags": [
+    "aqua-auto-expand",
+    "LLM",
+    "OpenRouter",
+    "stealth系列",
+    "高token量"
+  ],
+  "maturity": "stable",
+  "tutorialLinks": [],
+  "externalLinks": [],
+  "pitfalls": [
+    "仅通过OpenRouter提供，国内无法直接访问，需依赖海外节点"
+  ],
+  "updates": [],
+  "rankings": [],
+  "sources": [
+    "https://openrouter.ai/stealth/space-bunny-alpha",
+    "https://openrouter.ai/rankings"
+  ],
+  "lastReviewed": "2026-10-10"
+}

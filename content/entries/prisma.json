@@ -32,6 +32,12 @@
       "source": "https://www.prisma.io/blog/prisma-orm-8-nestjs"
     },
     {
+      "date": "2026-09-24",
+      "type": "feature",
+      "summary": "Neon alternatives with app hosting and Postgres in one place (2026): Prisma, Railway, Render, Supabase",
+      "source": "https://www.prisma.io/blog/neon-vs-prisma-postgres-app-hosting-in-one-place"
+    },
+    {
       "date": "2026-09-16",
       "type": "feature",
       "summary": "Prisma vs Netlify for TypeScript apps: which platform?",
@@ -55,7 +61,7 @@
   "sources": [
     "https://www.prisma.io"
   ],
-  "lastReviewed": "2026-10-03",
+  "lastReviewed": "2026-10-10",
   "region": "overseas",
   "id": "prisma",
   "name": "Prisma",

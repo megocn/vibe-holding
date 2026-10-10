@@ -67,10 +67,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 minimax-m3",
-      "asOf": "2026-10-03",
+      "asOf": "2026-10-10",
       "previousRank": 32,
       "previousScore": 1435,
-      "previousAsOf": "2026-09-26"
+      "previousAsOf": "2026-10-03"
     },
     {
       "systemId": "lmarena-webdev",

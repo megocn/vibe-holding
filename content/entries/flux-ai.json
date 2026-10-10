@@ -75,10 +75,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 flux-3-video",
-      "asOf": "2026-10-03",
+      "asOf": "2026-10-10",
       "previousRank": 3,
       "previousScore": 1493,
-      "previousAsOf": "2026-09-26"
+      "previousAsOf": "2026-10-03"
     },
     {
       "systemId": "lmarena-i2v",

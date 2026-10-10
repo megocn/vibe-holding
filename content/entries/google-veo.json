@@ -30,10 +30,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 veo-3.1-audio",
-      "asOf": "2026-10-03",
+      "asOf": "2026-10-10",
       "previousRank": 12,
       "previousScore": 1364,
-      "previousAsOf": "2026-09-26"
+      "previousAsOf": "2026-10-03"
     },
     {
       "systemId": "lmarena-i2v",
@@ -43,10 +43,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
       "note": "模型 veo-3.1-audio",
-      "asOf": "2026-10-03",
+      "asOf": "2026-10-10",
       "previousRank": 13,
       "previousScore": 1398,
-      "previousAsOf": "2026-09-26"
+      "previousAsOf": "2026-10-03"
     },
     {
       "systemId": "aa-video-arena",

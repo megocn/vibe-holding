@@ -17,6 +17,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-08",
+      "type": "release",
+      "summary": "维护线 2.4 最新 2.4.21",
+      "version": "2.4.21",
+      "source": "https://github.com/JetBrains/kotlin/releases/tag/v2.4.21"
+    },
+    {
       "date": "2026-07-14",
       "type": "release",
       "summary": "维护线 2.4 最新 2.4.10",
@@ -28,7 +35,7 @@
   "sources": [
     "https://kotlinlang.org"
   ],
-  "lastReviewed": "2026-07-25",
+  "lastReviewed": "2026-10-10",
   "region": "overseas",
   "id": "kotlin",
   "name": "Kotlin",
@@ -37,5 +44,6 @@
   "oneLiner": "JVM 现代语法 · Android 官方首选 · Java 100% 互操作",
   "officialUrl": "https://kotlinlang.org",
   "descriptionMd": "Kotlin 是 JetBrains 推出的 JVM 语言，与 Java 100% 互操作，语法简洁，是 Android 官方首选与 Spring 现代栈常用语言。\n\nAndroid 新 feature、Java 存量项目渐进迁移、或需要 coroutine 并发模型的后端。\n\n纯 Kotlin 团队仍需理解 Java 生态；Native/JS 目标场景社区小于 JVM。\n",
-  "vendorId": "kotlin-foundation"
+  "vendorId": "kotlin-foundation",
+  "currentVersion": "2.4"
 }

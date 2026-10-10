@@ -60,10 +60,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 claude-sonnet-4-6",
-      "asOf": "2026-10-03",
+      "asOf": "2026-10-10",
       "previousRank": 11,
       "previousScore": 1482,
-      "previousAsOf": "2026-09-26"
+      "previousAsOf": "2026-10-03"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -106,15 +106,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 21,
-      "scoreLabel": "0.9%",
-      "share": 0.9,
+      "rank": 20,
+      "scoreLabel": "1.1%",
+      "share": 1.1,
       "period": "2026-10",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-10-08",
-      "previousRank": 22,
-      "previousShare": 0.8,
-      "previousAsOf": "2026-10-07"
+      "asOf": "2026-10-10",
+      "previousRank": 21,
+      "previousShare": 0.9,
+      "previousAsOf": "2026-10-08"
     },
     {
       "systemId": "lmarena-text",

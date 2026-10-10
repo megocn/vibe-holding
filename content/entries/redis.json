@@ -22,6 +22,12 @@
   ],
   "updates": [
     {
+      "date": "2026-10-09",
+      "type": "feature",
+      "summary": "How we built the Redis Docs MCP for agents",
+      "source": "https://redis.io/blog/how-we-built-the-redis-docs-mcp-for-agents/"
+    },
+    {
       "date": "2026-09-30",
       "type": "feature",
       "summary": "Scale your workloads without paying all-RAM prices",
@@ -69,7 +75,7 @@
   "sources": [
     "https://redis.io"
   ],
-  "lastReviewed": "2026-10-03",
+  "lastReviewed": "2026-10-10",
   "region": "overseas",
   "id": "redis",
   "name": "Redis",

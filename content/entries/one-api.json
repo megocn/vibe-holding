@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-09",
+      "type": "release",
+      "summary": "发布 0.3.0: relaykit/v0.3.0",
+      "version": "0.3.0",
+      "source": "https://github.com/QuantumNous/new-api/releases/tag/relaykit%2Fv0.3.0"
+    },
+    {
       "date": "2026-10-01",
       "type": "release",
       "summary": "发布 0.2.2: relaykit/v0.2.2",
@@ -39,7 +46,7 @@
   "sources": [
     "https://github.com/QuantumNous/new-api"
   ],
-  "lastReviewed": "2026-10-01",
+  "lastReviewed": "2026-10-10",
   "region": "domestic",
   "id": "one-api",
   "name": "New API / One API",
@@ -56,5 +63,6 @@
       "asOf": "2026-07-20",
       "previousAsOf": "2026-07-20"
     }
-  ]
+  ],
+  "currentVersion": "0.3.0"
 }

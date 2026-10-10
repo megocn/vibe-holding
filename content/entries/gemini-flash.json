@@ -108,15 +108,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 13,
-      "scoreLabel": "1.4%",
-      "share": 1.4,
+      "rank": 15,
+      "scoreLabel": "1.3%",
+      "share": 1.3,
       "period": "2026-10",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-10-08",
-      "previousRank": 15,
+      "asOf": "2026-10-10",
+      "previousRank": 13,
       "previousShare": 1.4,
-      "previousAsOf": "2026-10-03"
+      "previousAsOf": "2026-10-08"
     },
     {
       "systemId": "lmarena-document",
@@ -126,10 +126,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/document",
       "note": "模型 gemini-3.5-flash-medium",
-      "asOf": "2026-10-03",
+      "asOf": "2026-10-10",
       "previousRank": 20,
       "previousScore": 1463,
-      "previousAsOf": "2026-09-26"
+      "previousAsOf": "2026-10-03"
     },
     {
       "systemId": "lmarena-webdev",

@@ -22,6 +22,12 @@
   ],
   "updates": [
     {
+      "date": "2026-10-09",
+      "type": "feature",
+      "summary": "stagehand-python@4.2.1a0.dev1594: fix(extension): bind LLM/gateway fetch to a load-time reference (#3153)",
+      "source": "https://github.com/browserbase/stagehand/releases/tag/stagehand-python%404.2.1a0.dev1594"
+    },
+    {
       "date": "2026-10-02",
       "type": "feature",
       "summary": "stagehand-python@4.2.0a0.dev1565: docs: add Amel Bajramovic to README acknowledgements (#3095)",
@@ -71,7 +77,7 @@
   "sources": [
     "https://github.com/browserbase/stagehand"
   ],
-  "lastReviewed": "2026-10-03",
+  "lastReviewed": "2026-10-10",
   "region": "overseas",
   "id": "stagehand",
   "name": "Stagehand",

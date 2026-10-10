@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-08",
+      "type": "release",
+      "summary": "发布 4.0.11: MinerU 4.0.11",
+      "version": "4.0.11",
+      "source": "https://github.com/opendatalab/MinerU/releases/tag/mineru-4.0.11-released"
+    },
+    {
       "date": "2026-09-27",
       "type": "release",
       "summary": "发布 4.0.8: MinerU 4.0.8",
@@ -47,7 +54,7 @@
   "sources": [
     "https://github.com/opendatalab/MinerU"
   ],
-  "lastReviewed": "2026-09-28",
+  "lastReviewed": "2026-10-10",
   "region": "both",
   "id": "mineru",
   "name": "MinerU",
