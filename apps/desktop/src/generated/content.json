@@ -6381,6 +6381,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-10",
+          "type": "release",
+          "summary": "发布 1.4.3: Bun v1.4.3",
+          "version": "1.4.3",
+          "source": "https://bun.com/blog/bun-v1.4.3"
+        },
+        {
           "date": "2026-05-12",
           "type": "release",
           "summary": "维护线 1 最新 1.3.14",
@@ -6392,7 +6399,7 @@
       "sources": [
         "https://bun.sh"
       ],
-      "lastReviewed": "2026-07-25",
+      "lastReviewed": "2026-10-11",
       "region": "overseas",
       "id": "bun",
       "name": "Bun",
@@ -8012,15 +8019,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 9,
-          "scoreLabel": "2.2%",
-          "share": 2.2,
+          "rank": 10,
+          "scoreLabel": "3%",
+          "share": 3,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-08",
-          "previousRank": 12,
-          "previousShare": 1.9,
-          "previousAsOf": "2026-10-07"
+          "asOf": "2026-10-11",
+          "previousRank": 9,
+          "previousShare": 2.2,
+          "previousAsOf": "2026-10-08"
         },
         {
           "systemId": "swe-bench-pro",
@@ -8144,15 +8151,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 20,
-          "scoreLabel": "1.1%",
-          "share": 1.1,
+          "rank": 18,
+          "scoreLabel": "1.3%",
+          "share": 1.3,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-10",
-          "previousRank": 21,
-          "previousShare": 0.9,
-          "previousAsOf": "2026-10-08"
+          "asOf": "2026-10-11",
+          "previousRank": 20,
+          "previousShare": 1.1,
+          "previousAsOf": "2026-10-10"
         },
         {
           "systemId": "lmarena-text",
@@ -17635,15 +17642,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 38,
+          "rank": 41,
           "scoreLabel": "0.4%",
           "share": 0.4,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-10",
-          "previousRank": 36,
+          "asOf": "2026-10-11",
+          "previousRank": 38,
           "previousShare": 0.4,
-          "previousAsOf": "2026-10-08"
+          "previousAsOf": "2026-10-10"
         }
       ],
       "sources": [
@@ -17773,15 +17780,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 15,
+          "rank": 16,
           "scoreLabel": "1.3%",
           "share": 1.3,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-10",
-          "previousRank": 13,
-          "previousShare": 1.4,
-          "previousAsOf": "2026-10-08"
+          "asOf": "2026-10-11",
+          "previousRank": 15,
+          "previousShare": 1.3,
+          "previousAsOf": "2026-10-10"
         },
         {
           "systemId": "lmarena-document",
@@ -18926,15 +18933,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 3,
-          "scoreLabel": "6.8%",
-          "share": 6.8,
+          "rank": 2,
+          "scoreLabel": "7.3%",
+          "share": 7.3,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-02",
+          "asOf": "2026-10-11",
           "previousRank": 3,
-          "previousShare": 8.2,
-          "previousAsOf": "2026-09-30"
+          "previousShare": 6.8,
+          "previousAsOf": "2026-10-02"
         },
         {
           "systemId": "lmarena-document",
@@ -20237,15 +20244,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 17,
+          "rank": 20,
           "scoreLabel": "1.2%",
           "share": 1.2,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-10",
-          "previousRank": 14,
-          "previousShare": 1.3,
-          "previousAsOf": "2026-10-08"
+          "asOf": "2026-10-11",
+          "previousRank": 17,
+          "previousShare": 1.2,
+          "previousAsOf": "2026-10-10"
         }
       ],
       "sources": [
@@ -20801,15 +20808,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 41,
+          "rank": 38,
           "scoreLabel": "0.4%",
           "share": 0.4,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-10",
-          "previousRank": 47,
-          "previousShare": 0.3,
-          "previousAsOf": "2026-10-08"
+          "asOf": "2026-10-11",
+          "previousRank": 41,
+          "previousShare": 0.4,
+          "previousAsOf": "2026-10-10"
         }
       ],
       "sources": [
@@ -25833,15 +25840,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 16,
-          "scoreLabel": "1%",
-          "share": 1,
+          "rank": 15,
+          "scoreLabel": "1.3%",
+          "share": 1.3,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-03",
-          "previousRank": 17,
-          "previousShare": 1.1,
-          "previousAsOf": "2026-10-02"
+          "asOf": "2026-10-11",
+          "previousRank": 16,
+          "previousShare": 1,
+          "previousAsOf": "2026-10-03"
         },
         {
           "systemId": "lmarena-vision",
@@ -30779,15 +30786,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 19,
-          "scoreLabel": "0.9%",
-          "share": 0.9,
+          "rank": 17,
+          "scoreLabel": "1.3%",
+          "share": 1.3,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-08",
-          "previousRank": 18,
+          "asOf": "2026-10-11",
+          "previousRank": 19,
           "previousShare": 0.9,
-          "previousAsOf": "2026-10-07"
+          "previousAsOf": "2026-10-08"
         }
       ],
       "sources": [
@@ -31289,6 +31296,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-10",
+          "type": "release",
+          "summary": "发布 1.15.0: 新版本",
+          "version": "1.15.0",
+          "source": "https://github.com/web-infra-dev/midscene/releases/tag/v1.15.0"
+        },
+        {
           "date": "2026-09-29",
           "type": "release",
           "summary": "发布 1.14.0: 新版本",
@@ -31336,7 +31350,7 @@
         "https://midscenejs.com",
         "https://github.com/web-infra-dev/midscene"
       ],
-      "lastReviewed": "2026-09-30",
+      "lastReviewed": "2026-10-11",
       "region": "both",
       "id": "midscene",
       "name": "Midscene.js",
@@ -31347,7 +31361,7 @@
       "descriptionMd": "Midscene.js 出自字节跳动 Web Infra 团队，用自然语言描述界面操作与断言，除浏览器外还支持安卓设备，并把每一步的模型判断生成可回放的可视化报告。\n\n国内团队做 UI 自动化或跨端验证、且希望调试过程可追溯时值得试；纯服务端抓取用无头方案更省资源。\n\n多模态模型调用带来额外费用与延迟；安卓侧对环境依赖较多，接入前先跑通设备链路。\n",
       "vendorId": "bytedance",
       "githubUrl": "https://github.com/web-infra-dev/midscene",
-      "currentVersion": "1.14.0"
+      "currentVersion": "1.15.0"
     },
     {
       "pricing": {
@@ -31484,15 +31498,15 @@
       "rankings": [
         {
           "systemId": "openrouter-popularity",
-          "rank": 4,
-          "scoreLabel": "6.2%",
-          "share": 6.2,
+          "rank": 3,
+          "scoreLabel": "7.2%",
+          "share": 7.2,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-01",
-          "previousRank": 5,
-          "previousShare": 5.8,
-          "previousAsOf": "2026-09-30"
+          "asOf": "2026-10-11",
+          "previousRank": 4,
+          "previousShare": 6.2,
+          "previousAsOf": "2026-10-01"
         },
         {
           "systemId": "artificial-analysis-index",
@@ -31646,15 +31660,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 24,
-          "scoreLabel": "0.7%",
-          "share": 0.7,
+          "rank": 23,
+          "scoreLabel": "0.8%",
+          "share": 0.8,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-07",
-          "previousRank": 22,
+          "asOf": "2026-10-11",
+          "previousRank": 24,
           "previousShare": 0.7,
-          "previousAsOf": "2026-10-06"
+          "previousAsOf": "2026-10-07"
         },
         {
           "systemId": "lmarena-vision",
@@ -40214,15 +40228,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 48,
-          "scoreLabel": "0.3%",
-          "share": 0.3,
+          "rank": 47,
+          "scoreLabel": "0.2%",
+          "share": 0.2,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-10",
-          "previousRank": 37,
+          "asOf": "2026-10-11",
+          "previousRank": 48,
           "previousShare": 0.3,
-          "previousAsOf": "2026-10-08"
+          "previousAsOf": "2026-10-10"
         },
         {
           "systemId": "lmarena-vision",
@@ -44752,15 +44766,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 27,
+          "rank": 28,
           "scoreLabel": "0.6%",
           "share": 0.6,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-10",
-          "previousRank": 34,
-          "previousShare": 0.4,
-          "previousAsOf": "2026-10-08"
+          "asOf": "2026-10-11",
+          "previousRank": 27,
+          "previousShare": 0.6,
+          "previousAsOf": "2026-10-10"
         }
       ],
       "sources": [
@@ -45921,15 +45935,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 12,
-          "scoreLabel": "2.1%",
-          "share": 2.1,
+          "rank": 8,
+          "scoreLabel": "4%",
+          "share": 4,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-10",
-          "previousRank": 47,
-          "previousShare": 0.2,
-          "previousAsOf": "2026-09-10"
+          "asOf": "2026-10-11",
+          "previousRank": 12,
+          "previousShare": 2.1,
+          "previousAsOf": "2026-10-10"
         },
         {
           "systemId": "lmarena-webdev",

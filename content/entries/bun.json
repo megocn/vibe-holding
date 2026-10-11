@@ -21,6 +21,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-10",
+      "type": "release",
+      "summary": "发布 1.4.3: Bun v1.4.3",
+      "version": "1.4.3",
+      "source": "https://bun.com/blog/bun-v1.4.3"
+    },
+    {
       "date": "2026-05-12",
       "type": "release",
       "summary": "维护线 1 最新 1.3.14",
@@ -32,7 +39,7 @@
   "sources": [
     "https://bun.sh"
   ],
-  "lastReviewed": "2026-07-25",
+  "lastReviewed": "2026-10-11",
   "region": "overseas",
   "id": "bun",
   "name": "Bun",
