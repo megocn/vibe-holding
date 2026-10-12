@@ -30,7 +30,17 @@
     "仅通过OpenRouter提供，国内无法直接访问，需依赖海外节点"
   ],
   "updates": [],
-  "rankings": [],
+  "rankings": [
+    {
+      "systemId": "openrouter-popularity",
+      "rank": 10,
+      "scoreLabel": "2.6%",
+      "share": 2.6,
+      "period": "2026-10",
+      "sourceUrl": "https://openrouter.ai/rankings",
+      "asOf": "2026-10-12"
+    }
+  ],
   "sources": [
     "https://openrouter.ai/stealth/space-bunny-alpha",
     "https://openrouter.ai/rankings"
