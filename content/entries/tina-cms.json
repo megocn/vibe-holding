@@ -24,6 +24,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-12",
+      "type": "release",
+      "summary": "发布 5.0.0: tinacms-gitprovider-github@5.0.0",
+      "version": "5.0.0",
+      "source": "https://github.com/tinacms/tinacms/releases/tag/tinacms-gitprovider-github%405.0.0"
+    },
+    {
       "date": "2026-10-01",
       "type": "release",
       "summary": "发布 3.14.2: tinacms@3.14.2",
@@ -42,7 +49,7 @@
   "sources": [
     "https://tina.io"
   ],
-  "lastReviewed": "2026-10-01",
+  "lastReviewed": "2026-10-13",
   "region": "overseas",
   "id": "tina-cms",
   "name": "TinaCMS",
@@ -53,5 +60,6 @@
   "descriptionMd": "TinaCMS 把 Markdown/MDX 等文件仍留在 Git 仓库，另提供可视化编辑界面与内容 Schema，编辑动作最终落成仓库提交，可选官方云做协作与索引。\n\n文档站、博客与营销站已用静态生成、希望非技术同事在页面上直接改文案又不引入数据库时评估。\n\n内容量大或需要复杂关联查询时 Git 方案会吃力；实时协作与权限粒度弱于托管型 CMS。\n",
   "vendorId": "tina-inc",
   "githubUrl": "https://github.com/tinacms/tinacms",
-  "docsUrl": "https://tina.io/docs"
+  "docsUrl": "https://tina.io/docs",
+  "currentVersion": "5.0.0"
 }

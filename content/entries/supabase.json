@@ -24,6 +24,12 @@
   ],
   "updates": [
     {
+      "date": "2026-10-26",
+      "type": "feature",
+      "summary": "Getting started with the Supabase .NET SDK",
+      "source": "https://supabase.com/blog/getting-started-with-the-supabase-dotnet-sdk"
+    },
+    {
       "date": "2026-10-02",
       "type": "feature",
       "summary": "Supabase Select 2026 Recap",
@@ -65,7 +71,7 @@
   "sources": [
     "https://supabase.com"
   ],
-  "lastReviewed": "2026-10-03",
+  "lastReviewed": "2026-10-13",
   "region": "overseas",
   "id": "supabase",
   "name": "Supabase",

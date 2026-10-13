@@ -17,6 +17,12 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-10-12",
+      "type": "feature",
+      "summary": "Docker Hub security advisory: personal access tokens transferred during account-to-organization conversions",
+      "source": "https://www.docker.com/blog/docker-hub-security-advisory-cve-2026-105445/"
+    },
+    {
       "date": "2026-10-01",
       "type": "feature",
       "summary": "Trust Docker for the agents you don’t",
@@ -63,7 +69,7 @@
   "sources": [
     "https://www.docker.com"
   ],
-  "lastReviewed": "2026-10-02",
+  "lastReviewed": "2026-10-13",
   "region": "overseas",
   "id": "docker",
   "name": "Docker",

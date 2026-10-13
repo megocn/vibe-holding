@@ -19,6 +19,12 @@
   ],
   "updates": [
     {
+      "date": "2026-10-12",
+      "type": "feature",
+      "summary": "How ChatGPT Does Query Fan-Out (15 Million Queries Studied)",
+      "source": "https://ahrefs.com/blog/query-fan-out-chatgpt/"
+    },
+    {
       "date": "2026-10-02",
       "type": "feature",
       "summary": "AI Overviews Currently Appear for 83% of Branded Searches",
@@ -53,7 +59,7 @@
   "sources": [
     "https://ahrefs.com"
   ],
-  "lastReviewed": "2026-10-03",
+  "lastReviewed": "2026-10-13",
   "region": "overseas",
   "id": "ahrefs",
   "name": "Ahrefs",

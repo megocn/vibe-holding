@@ -81,9 +81,9 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/agent",
       "note": "模型 GPT 6 Astra (Max)",
-      "asOf": "2026-10-06",
-      "previousRank": 3,
-      "previousAsOf": "2026-09-29"
+      "asOf": "2026-10-13",
+      "previousRank": 4,
+      "previousAsOf": "2026-10-06"
     },
     {
       "systemId": "lmarena-webdev",
@@ -106,10 +106,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 gpt-6.1-sol-max",
-      "asOf": "2026-10-06",
-      "previousRank": 13,
-      "previousScore": 1287,
-      "previousAsOf": "2026-10-03"
+      "asOf": "2026-10-13",
+      "previousRank": 10,
+      "previousScore": 1291,
+      "previousAsOf": "2026-10-06"
     },
     {
       "systemId": "lmarena-document",
@@ -132,10 +132,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/search",
       "note": "模型 gpt-5.6-sol-xhigh",
-      "asOf": "2026-10-06",
+      "asOf": "2026-10-13",
       "previousRank": 1,
       "previousScore": 1257,
-      "previousAsOf": "2026-09-27"
+      "previousAsOf": "2026-10-06"
     },
     {
       "systemId": "artificial-analysis-index",
@@ -163,15 +163,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 6,
-      "scoreLabel": "4.2%",
-      "share": 4.2,
+      "rank": 7,
+      "scoreLabel": "4.4%",
+      "share": 4.4,
       "period": "2026-10",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-10-08",
-      "previousRank": 5,
+      "asOf": "2026-10-13",
+      "previousRank": 6,
       "previousShare": 4.2,
-      "previousAsOf": "2026-10-07"
+      "previousAsOf": "2026-10-08"
     }
   ],
   "subcategory": "line",

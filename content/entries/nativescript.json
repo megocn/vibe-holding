@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-12",
+      "type": "release",
+      "summary": "发布 8.0.19: @nativescript/vite@8.0.19",
+      "version": "8.0.19",
+      "source": "https://github.com/NativeScript/NativeScript/releases/tag/8.0.19-vite"
+    },
+    {
       "date": "2026-10-05",
       "type": "release",
       "summary": "发布 8.0.18: @nativescript/vite@8.0.18",
@@ -55,7 +62,7 @@
   "sources": [
     "https://nativescript.org"
   ],
-  "lastReviewed": "2026-10-06",
+  "lastReviewed": "2026-10-13",
   "region": "overseas",
   "id": "nativescript",
   "name": "NativeScript",

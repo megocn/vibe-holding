@@ -569,6 +569,12 @@
       ],
       "updates": [
         {
+          "date": "2026-10-12",
+          "type": "feature",
+          "summary": "How ChatGPT Does Query Fan-Out (15 Million Queries Studied)",
+          "source": "https://ahrefs.com/blog/query-fan-out-chatgpt/"
+        },
+        {
           "date": "2026-10-02",
           "type": "feature",
           "summary": "AI Overviews Currently Appear for 83% of Branded Searches",
@@ -603,7 +609,7 @@
       "sources": [
         "https://ahrefs.com"
       ],
-      "lastReviewed": "2026-10-03",
+      "lastReviewed": "2026-10-13",
       "region": "overseas",
       "id": "ahrefs",
       "name": "Ahrefs",
@@ -2307,6 +2313,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-12",
+          "type": "release",
+          "summary": "发布 6.6.6: 新版本",
+          "version": "6.6.6",
+          "source": "https://github.com/ant-design/ant-design/releases/tag/6.6.6"
+        },
+        {
           "date": "2026-09-20",
           "type": "release",
           "summary": "发布 6.6.5: 新版本",
@@ -2352,7 +2365,7 @@
       "sources": [
         "https://ant.design"
       ],
-      "lastReviewed": "2026-09-21",
+      "lastReviewed": "2026-10-13",
       "region": "overseas",
       "id": "antd",
       "name": "Ant Design",
@@ -7650,10 +7663,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/text",
           "note": "模型 claude-fable-5-high",
-          "asOf": "2026-10-06",
+          "asOf": "2026-10-13",
           "previousRank": 3,
           "previousScore": 1504,
-          "previousAsOf": "2026-09-27"
+          "previousAsOf": "2026-10-06"
         },
         {
           "systemId": "lmarena-agent",
@@ -7712,10 +7725,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/search",
           "note": "模型 claude-fable-5-high",
-          "asOf": "2026-10-06",
+          "asOf": "2026-10-13",
           "previousRank": 5,
           "previousScore": 1230,
-          "previousAsOf": "2026-09-27"
+          "previousAsOf": "2026-10-06"
         },
         {
           "systemId": "artificial-analysis-index",
@@ -7826,15 +7839,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 44,
-          "scoreLabel": "0.2%",
-          "share": 0.2,
-          "period": "2026-08",
+          "rank": 24,
+          "scoreLabel": "0.8%",
+          "share": 0.8,
+          "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-08-31",
-          "previousRank": 41,
-          "previousShare": 0.3,
-          "previousAsOf": "2026-08-17"
+          "asOf": "2026-10-13",
+          "previousRank": 44,
+          "previousShare": 0.2,
+          "previousAsOf": "2026-08-31"
         }
       ],
       "sources": [
@@ -7948,9 +7961,9 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/agent",
           "note": "模型 Claude Opus 5.5 (High)",
-          "asOf": "2026-10-06",
+          "asOf": "2026-10-13",
           "previousRank": 2,
-          "previousAsOf": "2026-09-29"
+          "previousAsOf": "2026-10-06"
         },
         {
           "systemId": "lmarena-webdev",
@@ -7999,10 +8012,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/search",
           "note": "模型 claude-opus-4-6-search",
-          "asOf": "2026-10-06",
+          "asOf": "2026-10-13",
           "previousRank": 2,
           "previousScore": 1253,
-          "previousAsOf": "2026-09-27"
+          "previousAsOf": "2026-10-06"
         },
         {
           "systemId": "artificial-analysis-index",
@@ -8080,9 +8093,9 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/agent",
           "note": "模型 Claude Sonnet 5.5 (Max)",
-          "asOf": "2026-10-06",
-          "previousRank": 10,
-          "previousAsOf": "2026-09-29"
+          "asOf": "2026-10-13",
+          "previousRank": 3,
+          "previousAsOf": "2026-10-06"
         },
         {
           "systemId": "lmarena-webdev",
@@ -8144,22 +8157,22 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/search",
           "note": "模型 claude-sonnet-4-6-search",
-          "asOf": "2026-10-06",
+          "asOf": "2026-10-13",
           "previousRank": 7,
           "previousScore": 1221,
-          "previousAsOf": "2026-09-27"
+          "previousAsOf": "2026-10-06"
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 15,
-          "scoreLabel": "1.5%",
-          "share": 1.5,
+          "rank": 14,
+          "scoreLabel": "1.7%",
+          "share": 1.7,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-12",
-          "previousRank": 18,
-          "previousShare": 1.3,
-          "previousAsOf": "2026-10-11"
+          "asOf": "2026-10-13",
+          "previousRank": 15,
+          "previousShare": 1.5,
+          "previousAsOf": "2026-10-12"
         },
         {
           "systemId": "lmarena-text",
@@ -12696,6 +12709,12 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-10-12",
+          "type": "feature",
+          "summary": "Docker Hub security advisory: personal access tokens transferred during account-to-organization conversions",
+          "source": "https://www.docker.com/blog/docker-hub-security-advisory-cve-2026-105445/"
+        },
+        {
           "date": "2026-10-01",
           "type": "feature",
           "summary": "Trust Docker for the agents you don’t",
@@ -12742,7 +12761,7 @@
       "sources": [
         "https://www.docker.com"
       ],
-      "lastReviewed": "2026-10-02",
+      "lastReviewed": "2026-10-13",
       "region": "overseas",
       "id": "docker",
       "name": "Docker",
@@ -13492,10 +13511,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/video-edit",
           "note": "模型 dreamina-seedance-2.5-720p",
-          "asOf": "2026-10-06",
+          "asOf": "2026-10-13",
           "previousRank": 2,
           "previousScore": 1410,
-          "previousAsOf": "2026-09-27"
+          "previousAsOf": "2026-10-06"
         },
         {
           "systemId": "aa-video-arena",
@@ -15300,6 +15319,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-12",
+          "type": "release",
+          "summary": "发布 3.6.0: 新版本",
+          "version": "3.6.0",
+          "source": "https://github.com/gofiber/fiber/releases/tag/v3.6.0"
+        },
+        {
           "date": "2026-08-12",
           "type": "release",
           "summary": "发布 2.52.15: 新版本",
@@ -15311,7 +15337,7 @@
       "sources": [
         "https://gofiber.io"
       ],
-      "lastReviewed": "2026-08-12",
+      "lastReviewed": "2026-10-13",
       "region": "overseas",
       "id": "fiber-go",
       "name": "Fiber",
@@ -15321,7 +15347,8 @@
       "officialUrl": "https://gofiber.io",
       "descriptionMd": "Fiber 建立在 fasthttp 而非标准库 net/http 之上，用类 Express 的链式 API 换取更低的内存分配与更高吞吐，写法对 Node 背景的开发者相当友好。\n\n追求极致吞吐、团队来自 Node 背景、且依赖链不强绑标准库时评估；常规业务服务用 Gin 或 Echo 更稳妥。\n\nfasthttp 与 net/http 接口不兼容，大量标准库中间件与 HTTP/2 等能力无法直接复用，选它基本等于锁定生态。\n",
       "vendorId": "gofiber",
-      "githubUrl": "https://github.com/gofiber/fiber"
+      "githubUrl": "https://github.com/gofiber/fiber",
+      "currentVersion": "3.6.0"
     },
     {
       "pricing": {
@@ -15948,6 +15975,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-12",
+          "type": "release",
+          "summary": "发布 2.282.0: 新版本",
+          "version": "2.282.0",
+          "source": "https://github.com/Flagsmith/flagsmith/releases/tag/v2.282.0"
+        },
+        {
           "date": "2026-10-05",
           "type": "release",
           "summary": "发布 2.280.0: 新版本",
@@ -15994,7 +16028,7 @@
       "sources": [
         "https://www.flagsmith.com"
       ],
-      "lastReviewed": "2026-10-06",
+      "lastReviewed": "2026-10-13",
       "region": "overseas",
       "id": "flagsmith",
       "name": "Flagsmith",
@@ -16005,7 +16039,7 @@
       "descriptionMd": "Flagsmith 提供开源的功能开关与远程配置服务，支持自托管与官方托管两种形态；除布尔开关外也常被用来下发多变体配置，前端与移动端 SDK 覆盖较全。\n\n既要功能开关也要远程配置、并希望保留「先用托管、后转自建」退路的团队适合评估。\n\n实验统计能力有限，A/B 结论仍需外部分析；自托管版本的规模化与高可用要自己压测和运维。\n",
       "vendorId": "flagsmith-inc",
       "githubUrl": "https://github.com/Flagsmith/flagsmith",
-      "currentVersion": "2.280.0"
+      "currentVersion": "2.282.0"
     },
     {
       "pricing": {
@@ -17721,10 +17755,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/text",
           "note": "模型 gemini-3.8-flash-high",
-          "asOf": "2026-10-06",
-          "previousRank": 11,
-          "previousScore": 1494,
-          "previousAsOf": "2026-10-01"
+          "asOf": "2026-10-13",
+          "previousRank": 8,
+          "previousScore": 1495,
+          "previousAsOf": "2026-10-06"
         },
         {
           "systemId": "lmarena-vision",
@@ -17747,10 +17781,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/search",
           "note": "模型 gemini-3-flash-grounding",
-          "asOf": "2026-10-06",
+          "asOf": "2026-10-13",
           "previousRank": 15,
           "previousScore": 1198,
-          "previousAsOf": "2026-09-27"
+          "previousAsOf": "2026-10-06"
         },
         {
           "systemId": "lmarena-image",
@@ -17780,15 +17814,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 19,
+          "rank": 18,
           "scoreLabel": "1.3%",
           "share": 1.3,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-12",
-          "previousRank": 16,
+          "asOf": "2026-10-13",
+          "previousRank": 19,
           "previousShare": 1.3,
-          "previousAsOf": "2026-10-11"
+          "previousAsOf": "2026-10-12"
         },
         {
           "systemId": "lmarena-document",
@@ -17837,10 +17871,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/image-to-video",
           "note": "模型 gemini-omni-1.1-flash",
-          "asOf": "2026-10-06",
+          "asOf": "2026-10-13",
           "previousRank": 2,
           "previousScore": 1488,
-          "previousAsOf": "2026-09-27"
+          "previousAsOf": "2026-10-06"
         }
       ],
       "sources": [
@@ -18066,10 +18100,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
           "note": "模型 gemini-3-pro",
-          "asOf": "2026-10-06",
-          "previousRank": 11,
+          "asOf": "2026-10-13",
+          "previousRank": 13,
           "previousScore": 1289,
-          "previousAsOf": "2026-09-30"
+          "previousAsOf": "2026-10-06"
         },
         {
           "systemId": "lmarena-search",
@@ -18079,10 +18113,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/search",
           "note": "模型 gemini-3.1-pro-grounding",
-          "asOf": "2026-10-06",
+          "asOf": "2026-10-13",
           "previousRank": 9,
           "previousScore": 1210,
-          "previousAsOf": "2026-09-27"
+          "previousAsOf": "2026-10-06"
         },
         {
           "systemId": "artificial-analysis-index",
@@ -18322,15 +18356,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 46,
+          "rank": 43,
           "scoreLabel": "0.3%",
           "share": 0.3,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-10",
-          "previousRank": 45,
+          "asOf": "2026-10-13",
+          "previousRank": 46,
           "previousShare": 0.3,
-          "previousAsOf": "2026-10-08"
+          "previousAsOf": "2026-10-10"
         }
       ],
       "sources": [
@@ -20111,9 +20145,9 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/agent",
           "note": "模型 GPT 6 Astra (Max)",
-          "asOf": "2026-10-06",
-          "previousRank": 3,
-          "previousAsOf": "2026-09-29"
+          "asOf": "2026-10-13",
+          "previousRank": 4,
+          "previousAsOf": "2026-10-06"
         },
         {
           "systemId": "lmarena-webdev",
@@ -20136,10 +20170,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
           "note": "模型 gpt-6.1-sol-max",
-          "asOf": "2026-10-06",
-          "previousRank": 13,
-          "previousScore": 1287,
-          "previousAsOf": "2026-10-03"
+          "asOf": "2026-10-13",
+          "previousRank": 10,
+          "previousScore": 1291,
+          "previousAsOf": "2026-10-06"
         },
         {
           "systemId": "lmarena-document",
@@ -20162,10 +20196,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/search",
           "note": "模型 gpt-5.6-sol-xhigh",
-          "asOf": "2026-10-06",
+          "asOf": "2026-10-13",
           "previousRank": 1,
           "previousScore": 1257,
-          "previousAsOf": "2026-09-27"
+          "previousAsOf": "2026-10-06"
         },
         {
           "systemId": "artificial-analysis-index",
@@ -20193,15 +20227,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 6,
-          "scoreLabel": "4.2%",
-          "share": 4.2,
+          "rank": 7,
+          "scoreLabel": "4.4%",
+          "share": 4.4,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-08",
-          "previousRank": 5,
+          "asOf": "2026-10-13",
+          "previousRank": 6,
           "previousShare": 4.2,
-          "previousAsOf": "2026-10-07"
+          "previousAsOf": "2026-10-08"
         }
       ],
       "subcategory": "line",
@@ -20244,15 +20278,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 20,
-          "scoreLabel": "1.2%",
-          "share": 1.2,
+          "rank": 19,
+          "scoreLabel": "1.1%",
+          "share": 1.1,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-11",
-          "previousRank": 17,
+          "asOf": "2026-10-13",
+          "previousRank": 20,
           "previousShare": 1.2,
-          "previousAsOf": "2026-10-10"
+          "previousAsOf": "2026-10-11"
         }
       ],
       "sources": [
@@ -20788,10 +20822,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/search",
           "note": "模型 grok-4.5",
-          "asOf": "2026-10-06",
+          "asOf": "2026-10-13",
           "previousRank": 8,
           "previousScore": 1213,
-          "previousAsOf": "2026-09-27"
+          "previousAsOf": "2026-10-06"
         },
         {
           "systemId": "lmarena-document",
@@ -20808,15 +20842,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 40,
-          "scoreLabel": "0.4%",
-          "share": 0.4,
+          "rank": 41,
+          "scoreLabel": "0.3%",
+          "share": 0.3,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-12",
-          "previousRank": 38,
+          "asOf": "2026-10-13",
+          "previousRank": 40,
           "previousShare": 0.4,
-          "previousAsOf": "2026-10-11"
+          "previousAsOf": "2026-10-12"
         }
       ],
       "sources": [
@@ -20933,10 +20967,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/video-edit",
           "note": "模型 grok-imagine-video",
-          "asOf": "2026-10-06",
+          "asOf": "2026-10-13",
           "previousRank": 7,
           "previousScore": 1258,
-          "previousAsOf": "2026-09-27"
+          "previousAsOf": "2026-10-06"
         }
       ],
       "sources": [
@@ -21441,10 +21475,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/video-edit",
           "note": "模型 happyhorse-1.0",
-          "asOf": "2026-10-06",
+          "asOf": "2026-10-13",
           "previousRank": 6,
           "previousScore": 1307,
-          "previousAsOf": "2026-09-27"
+          "previousAsOf": "2026-10-06"
         },
         {
           "systemId": "aa-video-arena",
@@ -23492,10 +23526,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
           "note": "模型 hunyuan-video-1.5",
-          "asOf": "2026-10-06",
+          "asOf": "2026-10-13",
           "previousRank": 38,
           "previousScore": 1169,
-          "previousAsOf": "2026-09-27"
+          "previousAsOf": "2026-10-06"
         }
       ],
       "sources": [
@@ -25474,6 +25508,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-12",
+          "type": "release",
+          "summary": "发布 1.8.2: 新版本",
+          "version": "1.8.2",
+          "source": "https://github.com/grafana/k6/releases/tag/v1.8.2"
+        },
+        {
           "date": "2026-09-21",
           "type": "release",
           "summary": "发布 2.3.0: 新版本",
@@ -25492,7 +25533,7 @@
       "sources": [
         "https://k6.io"
       ],
-      "lastReviewed": "2026-09-22",
+      "lastReviewed": "2026-10-13",
       "region": "overseas",
       "id": "k6",
       "name": "Grafana k6",
@@ -25797,10 +25838,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/text",
           "note": "模型 kimi-k3-max",
-          "asOf": "2026-10-06",
-          "previousRank": 17,
+          "asOf": "2026-10-13",
+          "previousRank": 16,
           "previousScore": 1488,
-          "previousAsOf": "2026-10-01"
+          "previousAsOf": "2026-10-06"
         },
         {
           "systemId": "lmarena-agent",
@@ -25840,15 +25881,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 17,
+          "rank": 16,
           "scoreLabel": "1.4%",
           "share": 1.4,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-12",
-          "previousRank": 15,
-          "previousShare": 1.3,
-          "previousAsOf": "2026-10-11"
+          "asOf": "2026-10-13",
+          "previousRank": 17,
+          "previousShare": 1.4,
+          "previousAsOf": "2026-10-12"
         },
         {
           "systemId": "lmarena-vision",
@@ -29365,12 +29406,20 @@
         "字数与维护节奏不及文楷主线；新字/西文以 GB / Slab 通道为准，使用前核当前 Release 说明。",
         "展示用宜大字号；作正文易显「过粗」且字重选择少于文楷家族。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-10-12",
+          "type": "release",
+          "summary": "发布 0.826: 26/10/12",
+          "version": "0.826",
+          "source": "https://github.com/lxgw/LxgwZhenKai/releases/tag/v0.826"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://github.com/lxgw/LxgwZhenKai"
       ],
-      "lastReviewed": "2026-08-07",
+      "lastReviewed": "2026-10-13",
       "region": "both",
       "category": "design-fonts",
       "subcategory": "cjk-fonts",
@@ -29380,7 +29429,8 @@
       "oneLiner": "文楷加粗屏显优化 · 展示/Hero 用 · 墨台标题",
       "officialUrl": "https://github.com/lxgw/LxgwZhenKai",
       "githubUrl": "https://github.com/lxgw/LxgwZhenKai",
-      "descriptionMd": "霞鹜臻楷（LXGW ZhenKai）是基于霞鹜文楷的加粗屏显优化开源楷体，手工与 AI 辅助补字，目标让标题与 Hero 在屏幕上更挺拔、笔画不糊。SIL OFL 1.1，可商用与随包分发。与文楷同属 LXGW 生态但独立仓库与版本线。\n\n需要「楷体展示标题 + 文楷正文」成套气质、又不想买商用书法体时评估；墨台规范以臻楷作 `--font-display`。工程上常与文楷子集一并内置。\n\n字符覆盖与更新策略以作者 GitHub Release 为准（GB/Slab 等通道分化）；勿当文楷的简单 Bold 变量替换而不做渲染测试。\n"
+      "descriptionMd": "霞鹜臻楷（LXGW ZhenKai）是基于霞鹜文楷的加粗屏显优化开源楷体，手工与 AI 辅助补字，目标让标题与 Hero 在屏幕上更挺拔、笔画不糊。SIL OFL 1.1，可商用与随包分发。与文楷同属 LXGW 生态但独立仓库与版本线。\n\n需要「楷体展示标题 + 文楷正文」成套气质、又不想买商用书法体时评估；墨台规范以臻楷作 `--font-display`。工程上常与文楷子集一并内置。\n\n字符覆盖与更新策略以作者 GitHub Release 为准（GB/Slab 等通道分化）；勿当文楷的简单 Bold 变量替换而不做渲染测试。\n",
+      "currentVersion": "0.826"
     },
     {
       "pricing": {
@@ -30740,10 +30790,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/text",
           "note": "模型 muse-spark-1.3-max",
-          "asOf": "2026-10-06",
-          "previousRank": 8,
-          "previousScore": 1495,
-          "previousAsOf": "2026-10-01"
+          "asOf": "2026-10-13",
+          "previousRank": 9,
+          "previousScore": 1494,
+          "previousAsOf": "2026-10-06"
         },
         {
           "systemId": "lmarena-vision",
@@ -30786,15 +30836,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 16,
-          "scoreLabel": "1.4%",
-          "share": 1.4,
+          "rank": 15,
+          "scoreLabel": "1.6%",
+          "share": 1.6,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-12",
-          "previousRank": 17,
-          "previousShare": 1.3,
-          "previousAsOf": "2026-10-11"
+          "asOf": "2026-10-13",
+          "previousRank": 16,
+          "previousShare": 1.4,
+          "previousAsOf": "2026-10-12"
         }
       ],
       "sources": [
@@ -30890,6 +30940,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-12",
+          "type": "release",
+          "summary": "发布 0.65.0.x: 🤖 v65 backported \"Improve SQLite loading\" (#84210)",
+          "version": "0.65.0.x",
+          "source": "https://github.com/metabase/metabase/releases/tag/v0.65.0.x"
+        },
+        {
           "date": "2026-10-05",
           "type": "release",
           "summary": "发布 0.63.19.2: 新版本",
@@ -30943,7 +31000,7 @@
       "sources": [
         "https://www.metabase.com"
       ],
-      "lastReviewed": "2026-10-06",
+      "lastReviewed": "2026-10-13",
       "region": "overseas",
       "id": "metabase",
       "name": "Metabase",
@@ -30954,7 +31011,7 @@
       "descriptionMd": "Metabase 提供 GUI 问数、SQL 编辑器、仪表盘与权限，开源可自托管，也有托管云，是团队级 BI 事实入门选项。\n\n仓库或 Postgres/ClickHouse 已就绪，业务要自助看转化与经营指标、工程不愿上重型 BI 套件时优先对标。\n\n复杂语义层与百万行以上性能需调优；企业治理与嵌入能力要对照商业版。\n",
       "vendorId": "metabase-inc",
       "githubUrl": "https://github.com/metabase/metabase",
-      "currentVersion": "0.63.19.2"
+      "currentVersion": "0.65.0.x"
     },
     {
       "pricing": {
@@ -31498,15 +31555,15 @@
       "rankings": [
         {
           "systemId": "openrouter-popularity",
-          "rank": 3,
+          "rank": 4,
           "scoreLabel": "7.2%",
           "share": 7.2,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-11",
-          "previousRank": 4,
-          "previousShare": 6.2,
-          "previousAsOf": "2026-10-01"
+          "asOf": "2026-10-13",
+          "previousRank": 3,
+          "previousShare": 7.2,
+          "previousAsOf": "2026-10-11"
         },
         {
           "systemId": "artificial-analysis-index",
@@ -31743,10 +31800,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/video-edit",
           "note": "模型 minimax-h3",
-          "asOf": "2026-10-06",
+          "asOf": "2026-10-13",
           "previousRank": 3,
           "previousScore": 1392,
-          "previousAsOf": "2026-09-27"
+          "previousAsOf": "2026-10-06"
         }
       ],
       "sources": [
@@ -33495,6 +33552,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-12",
+          "type": "release",
+          "summary": "发布 8.0.19: @nativescript/vite@8.0.19",
+          "version": "8.0.19",
+          "source": "https://github.com/NativeScript/NativeScript/releases/tag/8.0.19-vite"
+        },
+        {
           "date": "2026-10-05",
           "type": "release",
           "summary": "发布 8.0.18: @nativescript/vite@8.0.18",
@@ -33527,7 +33591,7 @@
       "sources": [
         "https://nativescript.org"
       ],
-      "lastReviewed": "2026-10-06",
+      "lastReviewed": "2026-10-13",
       "region": "overseas",
       "id": "nativescript",
       "name": "NativeScript",
@@ -40235,15 +40299,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 46,
+          "rank": 45,
           "scoreLabel": "0.3%",
           "share": 0.3,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-12",
-          "previousRank": 47,
-          "previousShare": 0.2,
-          "previousAsOf": "2026-10-11"
+          "asOf": "2026-10-13",
+          "previousRank": 46,
+          "previousShare": 0.3,
+          "previousAsOf": "2026-10-12"
         },
         {
           "systemId": "lmarena-vision",
@@ -45952,15 +46016,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 4,
-          "scoreLabel": "5.6%",
-          "share": 5.6,
+          "rank": 3,
+          "scoreLabel": "7.5%",
+          "share": 7.5,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-12",
-          "previousRank": 8,
-          "previousShare": 4,
-          "previousAsOf": "2026-10-11"
+          "asOf": "2026-10-13",
+          "previousRank": 4,
+          "previousShare": 5.6,
+          "previousAsOf": "2026-10-12"
         },
         {
           "systemId": "lmarena-webdev",
@@ -46621,6 +46685,12 @@
       ],
       "updates": [
         {
+          "date": "2026-10-26",
+          "type": "feature",
+          "summary": "Getting started with the Supabase .NET SDK",
+          "source": "https://supabase.com/blog/getting-started-with-the-supabase-dotnet-sdk"
+        },
+        {
           "date": "2026-10-02",
           "type": "feature",
           "summary": "Supabase Select 2026 Recap",
@@ -46662,7 +46732,7 @@
       "sources": [
         "https://supabase.com"
       ],
-      "lastReviewed": "2026-10-03",
+      "lastReviewed": "2026-10-13",
       "region": "overseas",
       "id": "supabase",
       "name": "Supabase",
@@ -48802,6 +48872,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-12",
+          "type": "release",
+          "summary": "发布 5.0.0: tinacms-gitprovider-github@5.0.0",
+          "version": "5.0.0",
+          "source": "https://github.com/tinacms/tinacms/releases/tag/tinacms-gitprovider-github%405.0.0"
+        },
+        {
           "date": "2026-10-01",
           "type": "release",
           "summary": "发布 3.14.2: tinacms@3.14.2",
@@ -48820,7 +48897,7 @@
       "sources": [
         "https://tina.io"
       ],
-      "lastReviewed": "2026-10-01",
+      "lastReviewed": "2026-10-13",
       "region": "overseas",
       "id": "tina-cms",
       "name": "TinaCMS",
@@ -48831,7 +48908,8 @@
       "descriptionMd": "TinaCMS 把 Markdown/MDX 等文件仍留在 Git 仓库，另提供可视化编辑界面与内容 Schema，编辑动作最终落成仓库提交，可选官方云做协作与索引。\n\n文档站、博客与营销站已用静态生成、希望非技术同事在页面上直接改文案又不引入数据库时评估。\n\n内容量大或需要复杂关联查询时 Git 方案会吃力；实时协作与权限粒度弱于托管型 CMS。\n",
       "vendorId": "tina-inc",
       "githubUrl": "https://github.com/tinacms/tinacms",
-      "docsUrl": "https://tina.io/docs"
+      "docsUrl": "https://tina.io/docs",
+      "currentVersion": "5.0.0"
     },
     {
       "pricing": {
@@ -51126,6 +51204,13 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-10-12",
+          "type": "release",
+          "summary": "发布 3.0.30: @ai-sdk/zai@3.0.30",
+          "version": "3.0.30",
+          "source": "https://github.com/vercel/ai/releases/tag/%40ai-sdk%2Fzai%403.0.30"
+        },
+        {
           "date": "2026-10-05",
           "type": "release",
           "summary": "发布 3.0.25: @ai-sdk/zai@3.0.25",
@@ -51193,7 +51278,7 @@
       "sources": [
         "https://sdk.vercel.ai"
       ],
-      "lastReviewed": "2026-10-06",
+      "lastReviewed": "2026-10-13",
       "region": "overseas",
       "id": "vercel-ai-sdk",
       "name": "Vercel AI SDK",
@@ -52801,10 +52886,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/search",
           "note": "模型 ernie-5.1",
-          "asOf": "2026-10-06",
+          "asOf": "2026-10-13",
           "previousRank": 6,
           "previousScore": 1227,
-          "previousAsOf": "2026-09-27"
+          "previousAsOf": "2026-10-06"
         }
       ],
       "sources": [

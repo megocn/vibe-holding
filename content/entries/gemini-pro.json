@@ -59,10 +59,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 gemini-3-pro",
-      "asOf": "2026-10-06",
-      "previousRank": 11,
+      "asOf": "2026-10-13",
+      "previousRank": 13,
       "previousScore": 1289,
-      "previousAsOf": "2026-09-30"
+      "previousAsOf": "2026-10-06"
     },
     {
       "systemId": "lmarena-search",
@@ -72,10 +72,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/search",
       "note": "模型 gemini-3.1-pro-grounding",
-      "asOf": "2026-10-06",
+      "asOf": "2026-10-13",
       "previousRank": 9,
       "previousScore": 1210,
-      "previousAsOf": "2026-09-27"
+      "previousAsOf": "2026-10-06"
     },
     {
       "systemId": "artificial-analysis-index",

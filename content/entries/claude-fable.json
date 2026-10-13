@@ -54,10 +54,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 claude-fable-5-high",
-      "asOf": "2026-10-06",
+      "asOf": "2026-10-13",
       "previousRank": 3,
       "previousScore": 1504,
-      "previousAsOf": "2026-09-27"
+      "previousAsOf": "2026-10-06"
     },
     {
       "systemId": "lmarena-agent",
@@ -116,10 +116,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/search",
       "note": "模型 claude-fable-5-high",
-      "asOf": "2026-10-06",
+      "asOf": "2026-10-13",
       "previousRank": 5,
       "previousScore": 1230,
-      "previousAsOf": "2026-09-27"
+      "previousAsOf": "2026-10-06"
     },
     {
       "systemId": "artificial-analysis-index",

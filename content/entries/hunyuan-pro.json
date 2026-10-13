@@ -78,10 +78,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-video",
       "note": "模型 hunyuan-video-1.5",
-      "asOf": "2026-10-06",
+      "asOf": "2026-10-13",
       "previousRank": 38,
       "previousScore": 1169,
-      "previousAsOf": "2026-09-27"
+      "previousAsOf": "2026-10-06"
     }
   ],
   "sources": [

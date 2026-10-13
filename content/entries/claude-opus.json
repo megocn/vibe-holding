@@ -92,9 +92,9 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/agent",
       "note": "模型 Claude Opus 5.5 (High)",
-      "asOf": "2026-10-06",
+      "asOf": "2026-10-13",
       "previousRank": 2,
-      "previousAsOf": "2026-09-29"
+      "previousAsOf": "2026-10-06"
     },
     {
       "systemId": "lmarena-webdev",
@@ -143,10 +143,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/search",
       "note": "模型 claude-opus-4-6-search",
-      "asOf": "2026-10-06",
+      "asOf": "2026-10-13",
       "previousRank": 2,
       "previousScore": 1253,
-      "previousAsOf": "2026-09-27"
+      "previousAsOf": "2026-10-06"
     },
     {
       "systemId": "artificial-analysis-index",

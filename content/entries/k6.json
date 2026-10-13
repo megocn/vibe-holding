@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-12",
+      "type": "release",
+      "summary": "发布 1.8.2: 新版本",
+      "version": "1.8.2",
+      "source": "https://github.com/grafana/k6/releases/tag/v1.8.2"
+    },
+    {
       "date": "2026-09-21",
       "type": "release",
       "summary": "发布 2.3.0: 新版本",
@@ -40,7 +47,7 @@
   "sources": [
     "https://k6.io"
   ],
-  "lastReviewed": "2026-09-22",
+  "lastReviewed": "2026-10-13",
   "region": "overseas",
   "id": "k6",
   "name": "Grafana k6",
