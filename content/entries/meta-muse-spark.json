@@ -74,10 +74,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/vision",
       "note": "模型 muse-spark",
-      "asOf": "2026-10-07",
+      "asOf": "2026-10-14",
       "previousRank": 8,
       "previousScore": 1294,
-      "previousAsOf": "2026-09-30"
+      "previousAsOf": "2026-10-07"
     },
     {
       "systemId": "lmarena-document",
@@ -107,15 +107,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 15,
-      "scoreLabel": "1.6%",
-      "share": 1.6,
+      "rank": 14,
+      "scoreLabel": "1.7%",
+      "share": 1.7,
       "period": "2026-10",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-10-13",
-      "previousRank": 16,
-      "previousShare": 1.4,
-      "previousAsOf": "2026-10-12"
+      "asOf": "2026-10-14",
+      "previousRank": 15,
+      "previousShare": 1.6,
+      "previousAsOf": "2026-10-13"
     }
   ],
   "sources": [

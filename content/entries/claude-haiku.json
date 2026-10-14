@@ -56,15 +56,15 @@
     },
     {
       "systemId": "openrouter-popularity",
-      "rank": 24,
-      "scoreLabel": "0.8%",
-      "share": 0.8,
+      "rank": 20,
+      "scoreLabel": "1%",
+      "share": 1,
       "period": "2026-10",
       "sourceUrl": "https://openrouter.ai/rankings",
-      "asOf": "2026-10-13",
-      "previousRank": 44,
-      "previousShare": 0.2,
-      "previousAsOf": "2026-08-31"
+      "asOf": "2026-10-14",
+      "previousRank": 24,
+      "previousShare": 0.8,
+      "previousAsOf": "2026-10-13"
     }
   ],
   "sources": [

@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-13",
+      "type": "release",
+      "summary": "发布 9.0.21: .NET 9.0.21",
+      "version": "9.0.21",
+      "source": "https://github.com/dotnet/aspnetcore/releases/tag/v9.0.21"
+    },
+    {
       "date": "2026-09-08",
       "type": "release",
       "summary": "发布 8.0.31: .NET 8.0.31",
@@ -34,7 +41,7 @@
   "sources": [
     "https://dotnet.microsoft.com"
   ],
-  "lastReviewed": "2026-09-13",
+  "lastReviewed": "2026-10-14",
   "region": "overseas",
   "id": "aspnet-core",
   "name": "ASP.NET Core",

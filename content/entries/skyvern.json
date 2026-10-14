@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-14",
+      "type": "release",
+      "summary": "发布 1.0.56: Release v1.0.56",
+      "version": "1.0.56",
+      "source": "https://github.com/Skyvern-AI/skyvern/releases/tag/v1.0.56"
+    },
+    {
       "date": "2026-10-01",
       "type": "release",
       "summary": "发布 1.0.55: Release v1.0.55",
@@ -56,7 +63,7 @@
     "https://www.skyvern.com",
     "https://github.com/Skyvern-AI/skyvern"
   ],
-  "lastReviewed": "2026-10-02",
+  "lastReviewed": "2026-10-14",
   "region": "overseas",
   "id": "skyvern",
   "name": "Skyvern",

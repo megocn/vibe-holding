@@ -22,6 +22,12 @@
   ],
   "updates": [
     {
+      "date": "2026-10-13",
+      "type": "feature",
+      "summary": "The “alien” economics of AI monetization",
+      "source": "https://stripe.com/blog/economics-of-ai-monetization"
+    },
+    {
       "date": "2026-09-28",
       "type": "feature",
       "summary": "Travel’s AI dilemma at Skift Global Forum",
@@ -43,7 +49,7 @@
   "sources": [
     "https://stripe.com"
   ],
-  "lastReviewed": "2026-09-29",
+  "lastReviewed": "2026-10-14",
   "region": "overseas",
   "id": "stripe",
   "name": "Stripe",

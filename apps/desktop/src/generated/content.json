@@ -2254,6 +2254,12 @@
       ],
       "updates": [
         {
+          "date": "2026-10-13",
+          "type": "feature",
+          "summary": "官方动态更新",
+          "source": "https://github.com/ansible/ansible/releases/tag/v2.22.0rc1"
+        },
+        {
           "date": "2026-09-29",
           "type": "feature",
           "summary": "官方动态更新",
@@ -2277,7 +2283,7 @@
       "sources": [
         "https://www.ansible.com"
       ],
-      "lastReviewed": "2026-09-30",
+      "lastReviewed": "2026-10-14",
       "region": "overseas",
       "id": "ansible",
       "name": "Ansible",
@@ -3412,6 +3418,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-13",
+          "type": "release",
+          "summary": "发布 9.0.21: .NET 9.0.21",
+          "version": "9.0.21",
+          "source": "https://github.com/dotnet/aspnetcore/releases/tag/v9.0.21"
+        },
+        {
           "date": "2026-09-08",
           "type": "release",
           "summary": "发布 8.0.31: .NET 8.0.31",
@@ -3423,7 +3436,7 @@
       "sources": [
         "https://dotnet.microsoft.com"
       ],
-      "lastReviewed": "2026-09-13",
+      "lastReviewed": "2026-10-14",
       "region": "overseas",
       "id": "aspnet-core",
       "name": "ASP.NET Core",
@@ -7839,15 +7852,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 24,
-          "scoreLabel": "0.8%",
-          "share": 0.8,
+          "rank": 20,
+          "scoreLabel": "1%",
+          "share": 1,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-13",
-          "previousRank": 44,
-          "previousShare": 0.2,
-          "previousAsOf": "2026-08-31"
+          "asOf": "2026-10-14",
+          "previousRank": 24,
+          "previousShare": 0.8,
+          "previousAsOf": "2026-10-13"
         }
       ],
       "sources": [
@@ -8164,15 +8177,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 14,
-          "scoreLabel": "1.7%",
-          "share": 1.7,
+          "rank": 15,
+          "scoreLabel": "1.6%",
+          "share": 1.6,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-13",
-          "previousRank": 15,
-          "previousShare": 1.5,
-          "previousAsOf": "2026-10-12"
+          "asOf": "2026-10-14",
+          "previousRank": 14,
+          "previousShare": 1.7,
+          "previousAsOf": "2026-10-13"
         },
         {
           "systemId": "lmarena-text",
@@ -11909,14 +11922,14 @@
         {
           "systemId": "openrouter-popularity",
           "rank": 1,
-          "scoreLabel": "25.7%",
-          "share": 25.7,
+          "scoreLabel": "24.6%",
+          "share": 24.6,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-12",
+          "asOf": "2026-10-14",
           "previousRank": 1,
-          "previousShare": 24,
-          "previousAsOf": "2026-10-10"
+          "previousShare": 25.7,
+          "previousAsOf": "2026-10-12"
         },
         {
           "systemId": "lmarena-webdev",
@@ -17527,6 +17540,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-13",
+          "type": "release",
+          "summary": "发布 0.64.0: Release v0.64.0",
+          "version": "0.64.0",
+          "source": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.64.0"
+        },
+        {
           "date": "2026-10-06",
           "type": "release",
           "summary": "发布 0.63.0: Release v0.63.0",
@@ -17566,7 +17586,7 @@
       "sources": [
         "https://github.com/google-gemini/gemini-cli"
       ],
-      "lastReviewed": "2026-10-07",
+      "lastReviewed": "2026-10-14",
       "region": "overseas",
       "id": "gemini-cli",
       "name": "Gemini CLI",
@@ -17576,7 +17596,7 @@
       "officialUrl": "https://github.com/google-gemini/gemini-cli",
       "descriptionMd": "Gemini CLI 是 Google 推出的终端 AI 编码工具，可在命令行中对话、读写项目文件并执行 shell，深度集成 Gemini 模型能力。\n\n偏好终端工作流、已使用 Google Cloud/Gemini API 的开发者；适合脚本化与 CI Adjacent 的编码任务。\n\n终端 Agent 权限过大时可能执行破坏性命令；建议沙箱环境试用并限制 API key 权限范围。\n",
       "vendorId": "google-deepmind",
-      "currentVersion": "0.63.0"
+      "currentVersion": "0.64.0"
     },
     {
       "pricing": {
@@ -18482,6 +18502,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-13",
+          "type": "release",
+          "summary": "发布 6.70.0: 新版本",
+          "version": "6.70.0",
+          "source": "https://github.com/TryGhost/Ghost/releases/tag/v6.70.0"
+        },
+        {
           "date": "2026-10-06",
           "type": "release",
           "summary": "发布 6.68.0: 新版本",
@@ -18528,7 +18555,7 @@
       "sources": [
         "https://ghost.org"
       ],
-      "lastReviewed": "2026-10-07",
+      "lastReviewed": "2026-10-14",
       "region": "overseas",
       "id": "ghost",
       "name": "Ghost",
@@ -18540,7 +18567,7 @@
       "vendorId": "ghost-foundation",
       "githubUrl": "https://github.com/TryGhost/Ghost",
       "docsUrl": "https://ghost.org/docs/",
-      "currentVersion": "6.68.0"
+      "currentVersion": "6.70.0"
     },
     {
       "pricing": {
@@ -18967,15 +18994,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 2,
-          "scoreLabel": "7.3%",
-          "share": 7.3,
+          "rank": 3,
+          "scoreLabel": "7.8%",
+          "share": 7.8,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-11",
-          "previousRank": 3,
-          "previousShare": 6.8,
-          "previousAsOf": "2026-10-02"
+          "asOf": "2026-10-14",
+          "previousRank": 2,
+          "previousShare": 7.3,
+          "previousAsOf": "2026-10-11"
         },
         {
           "systemId": "lmarena-document",
@@ -20842,15 +20869,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 41,
+          "rank": 39,
           "scoreLabel": "0.3%",
           "share": 0.3,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-13",
-          "previousRank": 40,
-          "previousShare": 0.4,
-          "previousAsOf": "2026-10-12"
+          "asOf": "2026-10-14",
+          "previousRank": 41,
+          "previousShare": 0.3,
+          "previousAsOf": "2026-10-13"
         }
       ],
       "sources": [
@@ -23204,6 +23231,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-13",
+          "type": "release",
+          "summary": "发布 0.168.0: 新版本",
+          "version": "0.168.0",
+          "source": "https://github.com/gohugoio/hugo/releases/tag/v0.168.0"
+        },
+        {
           "date": "2026-09-28",
           "type": "release",
           "summary": "发布 0.167.0: 新版本",
@@ -23229,7 +23263,7 @@
       "sources": [
         "https://gohugo.io"
       ],
-      "lastReviewed": "2026-09-29",
+      "lastReviewed": "2026-10-14",
       "region": "overseas",
       "id": "hugo",
       "name": "Hugo",
@@ -23240,7 +23274,7 @@
       "descriptionMd": "Hugo 是用 Go 编写的静态站生成器，单二进制、无运行时依赖，万级页面也能在数秒内构建完成，内容与主题高度依赖它自有的模板语法与目录约定。\n\n内容量大的文档站、博客或站群，追求构建速度与部署简单时选；需要在页面里做复杂交互则考虑前端框架系方案。\n\nGo 模板语法与前端组件化心智差异大，交互需自行写脚本；主题质量参差，深度定制往往要通读主题源码。\n",
       "vendorId": "hugo-team",
       "githubUrl": "https://github.com/gohugoio/hugo",
-      "currentVersion": "0.167.0"
+      "currentVersion": "0.168.0"
     },
     {
       "pricing": {
@@ -27652,12 +27686,20 @@
       "pitfalls": [
         "生态仍围绕 Turso 为主；复杂 PG 特性不支持，迁移到 Postgres 需计划。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-10-13",
+          "type": "release",
+          "summary": "发布 0.10.0: libsql-0.10.0",
+          "version": "0.10.0",
+          "source": "https://github.com/tursodatabase/libsql/releases/tag/libsql-0.10.0"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://github.com/tursodatabase/libsql"
       ],
-      "lastReviewed": "2026-07-23",
+      "lastReviewed": "2026-10-14",
       "region": "overseas",
       "id": "libsql",
       "name": "libSQL",
@@ -27665,7 +27707,8 @@
       "subcategory": "sqlite-fork",
       "oneLiner": "SQLite fork · 异步复制/embedded replica/HTTP · Turso 底座",
       "officialUrl": "https://github.com/tursodatabase/libsql",
-      "descriptionMd": "libSQL 是 SQLite 的开源 fork，增加异步 replication、embedded replicas 与 HTTP API，为 edge 与 embedded 场景优化。\n\n需要 SQLite 语义又要 edge 复制、或使用 Turso 托管时底层技术；IoT 与 local-first 应用评估。\n\n生态仍围绕 Turso 为主；复杂 PG 特性不支持，迁移到 Postgres 需计划。\n"
+      "descriptionMd": "libSQL 是 SQLite 的开源 fork，增加异步 replication、embedded replicas 与 HTTP API，为 edge 与 embedded 场景优化。\n\n需要 SQLite 语义又要 edge 复制、或使用 Turso 托管时底层技术；IoT 与 local-first 应用评估。\n\n生态仍围绕 Turso 为主；复杂 PG 特性不支持，迁移到 Postgres 需计划。\n",
+      "currentVersion": "0.10.0"
     },
     {
       "pricing": {
@@ -30803,10 +30846,10 @@
           "period": "2026-10",
           "sourceUrl": "https://arena.ai/leaderboard/vision",
           "note": "模型 muse-spark",
-          "asOf": "2026-10-07",
+          "asOf": "2026-10-14",
           "previousRank": 8,
           "previousScore": 1294,
-          "previousAsOf": "2026-09-30"
+          "previousAsOf": "2026-10-07"
         },
         {
           "systemId": "lmarena-document",
@@ -30836,15 +30879,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 15,
-          "scoreLabel": "1.6%",
-          "share": 1.6,
+          "rank": 14,
+          "scoreLabel": "1.7%",
+          "share": 1.7,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-13",
-          "previousRank": 16,
-          "previousShare": 1.4,
-          "previousAsOf": "2026-10-12"
+          "asOf": "2026-10-14",
+          "previousRank": 15,
+          "previousShare": 1.6,
+          "previousAsOf": "2026-10-13"
         }
       ],
       "sources": [
@@ -33008,6 +33051,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-13",
+          "type": "release",
+          "summary": "发布 4.6.0: 新版本",
+          "version": "4.6.0",
+          "source": "https://github.com/modelscope/ms-swift/releases/tag/v4.6.0"
+        },
+        {
           "date": "2026-09-08",
           "type": "release",
           "summary": "发布 4.5.3: 新版本",
@@ -33026,7 +33076,7 @@
       "sources": [
         "https://github.com/modelscope/ms-swift"
       ],
-      "lastReviewed": "2026-09-10",
+      "lastReviewed": "2026-10-14",
       "region": "both",
       "id": "ms-swift",
       "name": "ms-swift",
@@ -33036,7 +33086,8 @@
       "officialUrl": "https://github.com/modelscope/ms-swift",
       "descriptionMd": "ms-swift 是魔搭社区的大模型训练与部署框架，覆盖微调、对齐、量化到推理部署的完整链路，对国内开源模型与多模态模型的适配跟进较快。\n\n主力使用国产开源模型、或已在魔搭生态里管理模型与数据集时最顺；纯英文社区模型的资料仍以海外框架更多。\n\n功能面铺得广，单点深度不一定优于专精工具；版本迭代快，训练脚本需固定版本以保证可复现。\n",
       "vendorId": "modelscope",
-      "githubUrl": "https://github.com/modelscope/ms-swift"
+      "githubUrl": "https://github.com/modelscope/ms-swift",
+      "currentVersion": "4.6.0"
     },
     {
       "pricing": {
@@ -38554,10 +38605,10 @@
           "share": 0.6,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-07",
-          "previousRank": 28,
+          "asOf": "2026-10-14",
+          "previousRank": 27,
           "previousShare": 0.6,
-          "previousAsOf": "2026-10-06"
+          "previousAsOf": "2026-10-07"
         }
       ],
       "sources": [
@@ -44443,6 +44494,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-14",
+          "type": "release",
+          "summary": "发布 1.0.56: Release v1.0.56",
+          "version": "1.0.56",
+          "source": "https://github.com/Skyvern-AI/skyvern/releases/tag/v1.0.56"
+        },
+        {
           "date": "2026-10-01",
           "type": "release",
           "summary": "发布 1.0.55: Release v1.0.55",
@@ -44476,7 +44534,7 @@
         "https://www.skyvern.com",
         "https://github.com/Skyvern-AI/skyvern"
       ],
-      "lastReviewed": "2026-10-02",
+      "lastReviewed": "2026-10-14",
       "region": "overseas",
       "id": "skyvern",
       "name": "Skyvern",
@@ -46016,15 +46074,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 3,
-          "scoreLabel": "7.5%",
-          "share": 7.5,
+          "rank": 2,
+          "scoreLabel": "9.2%",
+          "share": 9.2,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-13",
-          "previousRank": 4,
-          "previousShare": 5.6,
-          "previousAsOf": "2026-10-12"
+          "asOf": "2026-10-14",
+          "previousRank": 3,
+          "previousShare": 7.5,
+          "previousAsOf": "2026-10-13"
         },
         {
           "systemId": "lmarena-webdev",
@@ -46385,6 +46443,12 @@
       ],
       "updates": [
         {
+          "date": "2026-10-13",
+          "type": "feature",
+          "summary": "The “alien” economics of AI monetization",
+          "source": "https://stripe.com/blog/economics-of-ai-monetization"
+        },
+        {
           "date": "2026-09-28",
           "type": "feature",
           "summary": "Travel’s AI dilemma at Skift Global Forum",
@@ -46406,7 +46470,7 @@
       "sources": [
         "https://stripe.com"
       ],
-      "lastReviewed": "2026-09-29",
+      "lastReviewed": "2026-10-14",
       "region": "overseas",
       "id": "stripe",
       "name": "Stripe",
@@ -50365,6 +50429,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-13",
+          "type": "release",
+          "summary": "发布 0.1.907-beta: Large Performance Gains + More Browser Use",
+          "version": "0.1.907-beta",
+          "source": "https://github.com/unslothai/unsloth/releases/tag/v0.1.907-beta"
+        },
+        {
           "date": "2026-10-06",
           "type": "release",
           "summary": "发布 0.1.903-beta: New Browser + Voice Cloning",
@@ -50412,7 +50483,7 @@
         "https://unsloth.ai",
         "https://github.com/unslothai/unsloth"
       ],
-      "lastReviewed": "2026-10-07",
+      "lastReviewed": "2026-10-14",
       "region": "overseas",
       "id": "unsloth",
       "name": "Unsloth",
@@ -50423,7 +50494,7 @@
       "descriptionMd": "Unsloth 通过手写内核与重写反向传播，把常见开源模型的 LoRA/QLoRA 微调做得更省显存、更快，配套的 Colab 笔记本让单卡起步的门槛很低。\n\n手头只有一两张消费卡、想先把微调链路跑通时首选；多机多卡的大规模训练仍应回到分布式框架。\n\n深度优化意味着对模型架构适配有先后，新模型支持需等上游跟进；多卡与集群能力弱于通用训练框架。\n",
       "vendorId": "unsloth-ai",
       "githubUrl": "https://github.com/unslothai/unsloth",
-      "currentVersion": "0.1.903-beta"
+      "currentVersion": "0.1.907-beta"
     },
     {
       "pricing": {
@@ -51058,6 +51129,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-13",
+          "type": "release",
+          "summary": "发布 0.3.31: vdev-v0.3.31",
+          "version": "0.3.31",
+          "source": "https://github.com/vectordotdev/vector/releases/tag/vdev-v0.3.31"
+        },
+        {
           "date": "2026-10-06",
           "type": "release",
           "summary": "发布 0.3.27: vdev-v0.3.27",
@@ -51097,7 +51175,7 @@
       "sources": [
         "https://vector.dev"
       ],
-      "lastReviewed": "2026-10-07",
+      "lastReviewed": "2026-10-14",
       "region": "overseas",
       "id": "vector-dev",
       "name": "Vector",
@@ -51315,6 +51393,12 @@
       ],
       "updates": [
         {
+          "date": "2026-10-13",
+          "type": "feature",
+          "summary": "Drama 3 now available on AI Gateway",
+          "source": "https://vercel.com/changelog/drama-3-now-available-on-ai-gateway"
+        },
+        {
           "date": "2026-10-06",
           "type": "feature",
           "summary": "AI Gateway adds confidence-based decision fallbacks",
@@ -51379,7 +51463,7 @@
       "sources": [
         "https://vercel.com"
       ],
-      "lastReviewed": "2026-10-07",
+      "lastReviewed": "2026-10-14",
       "region": "overseas",
       "id": "vercel",
       "name": "Vercel",

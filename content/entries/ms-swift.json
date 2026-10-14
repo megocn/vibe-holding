@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-13",
+      "type": "release",
+      "summary": "发布 4.6.0: 新版本",
+      "version": "4.6.0",
+      "source": "https://github.com/modelscope/ms-swift/releases/tag/v4.6.0"
+    },
+    {
       "date": "2026-09-08",
       "type": "release",
       "summary": "发布 4.5.3: 新版本",
@@ -40,7 +47,7 @@
   "sources": [
     "https://github.com/modelscope/ms-swift"
   ],
-  "lastReviewed": "2026-09-10",
+  "lastReviewed": "2026-10-14",
   "region": "both",
   "id": "ms-swift",
   "name": "ms-swift",
@@ -50,5 +57,6 @@
   "officialUrl": "https://github.com/modelscope/ms-swift",
   "descriptionMd": "ms-swift 是魔搭社区的大模型训练与部署框架，覆盖微调、对齐、量化到推理部署的完整链路，对国内开源模型与多模态模型的适配跟进较快。\n\n主力使用国产开源模型、或已在魔搭生态里管理模型与数据集时最顺；纯英文社区模型的资料仍以海外框架更多。\n\n功能面铺得广，单点深度不一定优于专精工具；版本迭代快，训练脚本需固定版本以保证可复现。\n",
   "vendorId": "modelscope",
-  "githubUrl": "https://github.com/modelscope/ms-swift"
+  "githubUrl": "https://github.com/modelscope/ms-swift",
+  "currentVersion": "4.6.0"
 }

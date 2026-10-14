@@ -22,6 +22,12 @@
   ],
   "updates": [
     {
+      "date": "2026-10-13",
+      "type": "feature",
+      "summary": "官方动态更新",
+      "source": "https://github.com/ansible/ansible/releases/tag/v2.22.0rc1"
+    },
+    {
       "date": "2026-09-29",
       "type": "feature",
       "summary": "官方动态更新",
@@ -45,7 +51,7 @@
   "sources": [
     "https://www.ansible.com"
   ],
-  "lastReviewed": "2026-09-30",
+  "lastReviewed": "2026-10-14",
   "region": "overseas",
   "id": "ansible",
   "name": "Ansible",
