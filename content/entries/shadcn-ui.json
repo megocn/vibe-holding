@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-14",
+      "type": "release",
+      "summary": "发布 4.21.5: shadcn@4.21.5",
+      "version": "4.21.5",
+      "source": "https://github.com/shadcn-ui/ui/releases/tag/shadcn%404.21.5"
+    },
+    {
       "date": "2026-10-07",
       "type": "release",
       "summary": "发布 4.21.4: shadcn@4.21.4",
@@ -73,7 +80,7 @@
   "sources": [
     "https://ui.shadcn.com"
   ],
-  "lastReviewed": "2026-10-08",
+  "lastReviewed": "2026-10-15",
   "region": "overseas",
   "id": "shadcn-ui",
   "name": "shadcn/ui",

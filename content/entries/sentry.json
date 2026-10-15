@@ -19,6 +19,12 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-10-14",
+      "type": "feature",
+      "summary": "Sentry's Flutter SDK 10.0: Streaming Traces and More Accurate Crash-Free Rates",
+      "source": "https://blog.sentry.io/flutter-sdk-10/"
+    },
+    {
       "date": "2026-10-06",
       "type": "feature",
       "summary": "Unreal MCP now speaks Sentry",
@@ -59,7 +65,7 @@
   "sources": [
     "https://sentry.io"
   ],
-  "lastReviewed": "2026-10-07",
+  "lastReviewed": "2026-10-15",
   "region": "overseas",
   "id": "sentry",
   "name": "Sentry",

@@ -64,10 +64,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 hunyuan-image-3.0-instruct",
-      "asOf": "2026-10-08",
-      "previousRank": 25,
+      "asOf": "2026-10-15",
+      "previousRank": 26,
       "previousScore": 1303,
-      "previousAsOf": "2026-10-06"
+      "previousAsOf": "2026-10-08"
     }
   ],
   "sources": [

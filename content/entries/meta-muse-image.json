@@ -44,10 +44,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 muse-image",
-      "asOf": "2026-10-08",
-      "previousRank": 8,
-      "previousScore": 1276,
-      "previousAsOf": "2026-10-06"
+      "asOf": "2026-10-15",
+      "previousRank": 9,
+      "previousScore": 1274,
+      "previousAsOf": "2026-10-08"
     },
     {
       "systemId": "lmarena-image-edit",
@@ -57,10 +57,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 muse-image",
-      "asOf": "2026-10-08",
-      "previousRank": 7,
+      "asOf": "2026-10-15",
+      "previousRank": 8,
       "previousScore": 1403,
-      "previousAsOf": "2026-10-06"
+      "previousAsOf": "2026-10-08"
     }
   ],
   "sources": [

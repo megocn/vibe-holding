@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-14",
+      "type": "release",
+      "summary": "维护线 9.0 最新 9.0.4",
+      "version": "9.0.4",
+      "source": "https://www.mongodb.com/docs/v9.0/release-notes/9.0/"
+    },
+    {
       "date": "2026-09-28",
       "type": "release",
       "summary": "维护线 9.0 最新 9.0.2",
@@ -47,7 +54,7 @@
   "sources": [
     "https://www.mongodb.com/atlas"
   ],
-  "lastReviewed": "2026-10-01",
+  "lastReviewed": "2026-10-15",
   "region": "overseas",
   "id": "mongodb-atlas",
   "name": "MongoDB Atlas",

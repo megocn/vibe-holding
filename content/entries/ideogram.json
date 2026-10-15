@@ -36,10 +36,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 ideogram-4.0-quality",
-      "asOf": "2026-10-08",
-      "previousRank": 19,
+      "asOf": "2026-10-15",
+      "previousRank": 20,
       "previousScore": 1205,
-      "previousAsOf": "2026-10-06"
+      "previousAsOf": "2026-10-08"
     },
     {
       "systemId": "aa-image-arena",
@@ -62,10 +62,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 ideogram-4.5",
-      "asOf": "2026-10-08",
-      "previousRank": 19,
-      "previousScore": 1351,
-      "previousAsOf": "2026-10-06"
+      "asOf": "2026-10-15",
+      "previousRank": 20,
+      "previousScore": 1347,
+      "previousAsOf": "2026-10-08"
     }
   ],
   "sources": [

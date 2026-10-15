@@ -73,10 +73,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/code/webdev",
       "note": "模型 mimo-v2.6-flash",
-      "asOf": "2026-10-08",
-      "previousRank": 24,
-      "previousScore": 1618,
-      "previousAsOf": "2026-10-03"
+      "asOf": "2026-10-15",
+      "previousRank": 16,
+      "previousScore": 1636,
+      "previousAsOf": "2026-10-08"
     },
     {
       "systemId": "lmarena-text",

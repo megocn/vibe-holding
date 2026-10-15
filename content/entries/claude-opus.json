@@ -81,10 +81,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 claude-opus-4-6-high",
-      "asOf": "2026-10-08",
+      "asOf": "2026-10-15",
       "previousRank": 2,
       "previousScore": 1505,
-      "previousAsOf": "2026-10-01"
+      "previousAsOf": "2026-10-08"
     },
     {
       "systemId": "lmarena-agent",

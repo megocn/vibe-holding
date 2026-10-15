@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-14",
+      "type": "release",
+      "summary": "发布 4.3.0: @apollo/client@4.3.0",
+      "version": "4.3.0",
+      "source": "https://github.com/apollographql/apollo-client/releases/tag/%40apollo%2Fclient%404.3.0"
+    },
+    {
       "date": "2026-10-05",
       "type": "release",
       "summary": "发布 4.3.2: @apollo/client@4.3.2",
@@ -54,7 +61,7 @@
   "sources": [
     "https://www.apollographql.com"
   ],
-  "lastReviewed": "2026-10-06",
+  "lastReviewed": "2026-10-15",
   "region": "overseas",
   "id": "apollo-client",
   "name": "Apollo Client",
@@ -65,5 +72,5 @@
   "descriptionMd": "Apollo Client 是功能最完整的 GraphQL 客户端：把响应按实体归一化进规范化缓存，一处更新处处生效，并提供本地状态、订阅、开发者工具与代码生成等配套。\n\nGraphQL 查询密集、多视图共享同一批实体、需要成熟工具链与商业支持时选用。\n\n包体积与配置复杂度明显高于轻量客户端；规范化缓存的 key 与更新策略配错时，排查缓存不一致相当耗时。\n",
   "vendorId": "apollo-graphql",
   "githubUrl": "https://github.com/apollographql/apollo-client",
-  "currentVersion": "2.2.0"
+  "currentVersion": "4.3.0"
 }

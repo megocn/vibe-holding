@@ -20,6 +20,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-13",
+      "type": "release",
+      "summary": "维护线 3.5 最新 3.5.44",
+      "version": "3.5.44",
+      "source": "https://github.com/vuejs/core/releases/tag/v3.5.44"
+    },
+    {
       "date": "2026-09-17",
       "type": "release",
       "summary": "维护线 3.5 最新 3.5.43",
@@ -37,7 +44,7 @@
   "sources": [
     "https://vuejs.org"
   ],
-  "lastReviewed": "2026-09-19",
+  "lastReviewed": "2026-10-15",
   "region": "overseas",
   "id": "vue",
   "name": "Vue",

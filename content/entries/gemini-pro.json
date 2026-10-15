@@ -46,10 +46,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 gemini-3.1-pro-preview",
-      "asOf": "2026-10-08",
+      "asOf": "2026-10-15",
       "previousRank": 18,
       "previousScore": 1487,
-      "previousAsOf": "2026-10-01"
+      "previousAsOf": "2026-10-08"
     },
     {
       "systemId": "lmarena-vision",
@@ -124,10 +124,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 gemini-3-pro-image-2k (nano-banana-pro)",
-      "asOf": "2026-10-08",
-      "previousRank": 15,
-      "previousScore": 1247,
-      "previousAsOf": "2026-10-06"
+      "asOf": "2026-10-15",
+      "previousRank": 16,
+      "previousScore": 1248,
+      "previousAsOf": "2026-10-08"
     },
     {
       "systemId": "lmarena-image-edit",
@@ -137,10 +137,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 gemini-3-pro-image-2k (nano-banana-pro)",
-      "asOf": "2026-10-08",
-      "previousRank": 11,
+      "asOf": "2026-10-15",
+      "previousRank": 12,
       "previousScore": 1390,
-      "previousAsOf": "2026-10-06"
+      "previousAsOf": "2026-10-08"
     },
     {
       "systemId": "openrouter-popularity",

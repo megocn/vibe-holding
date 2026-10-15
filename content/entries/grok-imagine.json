@@ -30,10 +30,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text-to-image",
       "note": "模型 grok-imagine-image-2.0 (canvas)",
-      "asOf": "2026-10-08",
-      "previousRank": 4,
-      "previousScore": 1336,
-      "previousAsOf": "2026-10-07"
+      "asOf": "2026-10-15",
+      "previousRank": 6,
+      "previousScore": 1321,
+      "previousAsOf": "2026-10-08"
     },
     {
       "systemId": "lmarena-image-edit",
@@ -43,10 +43,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/image-edit",
       "note": "模型 grok-imagine-image-2.0 (canvas)",
-      "asOf": "2026-10-08",
+      "asOf": "2026-10-15",
       "previousRank": 4,
       "previousScore": 1439,
-      "previousAsOf": "2026-09-20"
+      "previousAsOf": "2026-10-08"
     },
     {
       "systemId": "aa-image-arena",

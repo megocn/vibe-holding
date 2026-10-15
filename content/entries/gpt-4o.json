@@ -70,10 +70,10 @@
       "period": "2026-10",
       "sourceUrl": "https://arena.ai/leaderboard/text",
       "note": "模型 gpt-5.6-sol-xhigh",
-      "asOf": "2026-10-08",
+      "asOf": "2026-10-15",
       "previousRank": 20,
       "previousScore": 1484,
-      "previousAsOf": "2026-10-01"
+      "previousAsOf": "2026-10-08"
     },
     {
       "systemId": "lmarena-agent",

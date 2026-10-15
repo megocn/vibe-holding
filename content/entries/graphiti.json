@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-14",
+      "type": "release",
+      "summary": "发布 0.31.0: gpt-6-luna as the default OpenAI model",
+      "version": "0.31.0",
+      "source": "https://github.com/getzep/graphiti/releases/tag/v0.31.0"
+    },
+    {
       "date": "2026-09-08",
       "type": "release",
       "summary": "发布 0.30.2: FalkorDB updates",
@@ -34,7 +41,7 @@
   "sources": [
     "https://github.com/getzep/graphiti"
   ],
-  "lastReviewed": "2026-09-10",
+  "lastReviewed": "2026-10-15",
   "region": "overseas",
   "id": "graphiti",
   "name": "Graphiti",
@@ -42,5 +49,6 @@
   "subcategory": "memory-framework",
   "oneLiner": "时序图谱记忆框架 · Zep 内核开源；需自备图库",
   "officialUrl": "https://github.com/getzep/graphiti",
-  "descriptionMd": "Graphiti 是 Zep 开源出来的时序知识图谱框架，把对话与事件增量写入图中并维护事实的有效期，可独立集成到自己的 Agent 里。\n\n想要 Zep 那套时序记忆但坚持全自托管、或要在自有图数据库上做二次开发时选它。\n\n需要自备并长期运维一套图数据库；增量更新与事实冲突消解的调参不轻松，小项目上很容易得不偿失。\n"
+  "descriptionMd": "Graphiti 是 Zep 开源出来的时序知识图谱框架，把对话与事件增量写入图中并维护事实的有效期，可独立集成到自己的 Agent 里。\n\n想要 Zep 那套时序记忆但坚持全自托管、或要在自有图数据库上做二次开发时选它。\n\n需要自备并长期运维一套图数据库；增量更新与事实冲突消解的调参不轻松，小项目上很容易得不偿失。\n",
+  "currentVersion": "0.31.0"
 }
