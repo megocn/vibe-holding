@@ -17,6 +17,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-15",
+      "type": "release",
+      "summary": "发布 1.4.0: @solidjs/start@1.4.0",
+      "version": "1.4.0",
+      "source": "https://github.com/solidjs/solid-start/releases/tag/%40solidjs%2Fstart%401.4.0"
+    },
+    {
       "date": "2026-10-07",
       "type": "release",
       "summary": "发布 2.0.6: @solidjs/start@2.0.6",
@@ -35,7 +42,7 @@
   "sources": [
     "https://start.solidjs.com"
   ],
-  "lastReviewed": "2026-10-08",
+  "lastReviewed": "2026-10-16",
   "region": "overseas",
   "id": "solidstart",
   "name": "SolidStart",
@@ -44,5 +51,6 @@
   "oneLiner": "Solid 细粒度响应式 · SSR/server functions · 近 vanilla 性能",
   "officialUrl": "https://start.solidjs.com",
   "descriptionMd": "SolidStart 基于 SolidJS 细粒度响应式，提供 SSR、路由与 server functions，性能接近 vanilla JS。\n\n追求极致运行时性能、团队熟悉 Solid 响应式模型的小型全栈 App。\n\n生态与招聘远小于 React；UI 库选择面窄。\n",
-  "vendorId": "solidjs"
+  "vendorId": "solidjs",
+  "currentVersion": "1.4.0"
 }

@@ -20,6 +20,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-15",
+      "type": "release",
+      "summary": "发布 1.99.1: Announcing Rust 1.99.1",
+      "version": "1.99.1",
+      "source": "https://blog.rust-lang.org/2026/10/15/Rust-1.99.1/"
+    },
+    {
       "date": "2026-10-01",
       "type": "release",
       "summary": "发布 1.99.0: Announcing Rust 1.99.0",
@@ -50,7 +57,7 @@
   "sources": [
     "https://www.rust-lang.org"
   ],
-  "lastReviewed": "2026-10-01",
+  "lastReviewed": "2026-10-16",
   "region": "both",
   "id": "rust",
   "name": "Rust",

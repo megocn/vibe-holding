@@ -1741,6 +1741,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-15",
+          "type": "release",
+          "summary": "发布 3.4.0: 新版本",
+          "version": "3.4.0",
+          "source": "https://github.com/altcha-org/altcha/releases/tag/v3.4.0"
+        },
+        {
           "date": "2026-09-30",
           "type": "release",
           "summary": "发布 3.2.4: 新版本",
@@ -1767,7 +1774,7 @@
         "https://altcha.org",
         "https://github.com/altcha-org/altcha"
       ],
-      "lastReviewed": "2026-10-01",
+      "lastReviewed": "2026-10-16",
       "region": "overseas",
       "id": "altcha",
       "name": "ALTCHA",
@@ -1776,7 +1783,8 @@
       "oneLiner": "开源工作量证明验证码 · 可自托管 · 无第三方请求与 Cookie",
       "officialUrl": "https://altcha.org",
       "descriptionMd": "ALTCHA 是开源的工作量证明人机验证组件，前端 widget 与服务端校验库都能自托管，默认不发起第三方请求、不写 Cookie，也提供可选的托管服务与插件。\n\n自建可控、不愿把用户请求交给第三方验证码厂商，或有数据本地化要求时选它；代价是防护调优与运维要自己承担。\n\n它只抬高脚本成本，挡不住有算力的定向刷量；开源项目的迭代与安全响应依赖社区，生产使用前要盯紧版本与依赖更新。\n",
-      "githubUrl": "https://github.com/altcha-org/altcha"
+      "githubUrl": "https://github.com/altcha-org/altcha",
+      "currentVersion": "3.4.0"
     },
     {
       "pricing": {
@@ -6112,6 +6120,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-15",
+          "type": "release",
+          "summary": "发布 0.13.13: OpenAI browser tools and Cloud fixes",
+          "version": "0.13.13",
+          "source": "https://github.com/browser-use/browser-use/releases/tag/0.13.13"
+        },
+        {
           "date": "2026-10-07",
           "type": "release",
           "summary": "发布 0.13.11: 新版本",
@@ -6131,7 +6146,7 @@
         "https://browser-use.com",
         "https://github.com/browser-use/browser-use"
       ],
-      "lastReviewed": "2026-10-08",
+      "lastReviewed": "2026-10-16",
       "region": "overseas",
       "id": "browser-use",
       "name": "Browser Use",
@@ -7859,15 +7874,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 19,
+          "rank": 18,
           "scoreLabel": "1.2%",
           "share": 1.2,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-15",
-          "previousRank": 20,
-          "previousShare": 1,
-          "previousAsOf": "2026-10-14"
+          "asOf": "2026-10-16",
+          "previousRank": 19,
+          "previousShare": 1.2,
+          "previousAsOf": "2026-10-15"
         }
       ],
       "sources": [
@@ -11700,6 +11715,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-15",
+          "type": "release",
+          "summary": "发布 4.3.0: python-v4.3.0: new release",
+          "version": "4.3.0",
+          "source": "https://github.com/confident-ai/deepeval/releases/tag/python-v4.3.0"
+        },
+        {
           "date": "2026-09-29",
           "type": "release",
           "summary": "发布 0.9.21: typescript-v0.9.21",
@@ -11739,7 +11761,7 @@
       "sources": [
         "https://github.com/confident-ai/deepeval"
       ],
-      "lastReviewed": "2026-09-30",
+      "lastReviewed": "2026-10-16",
       "region": "overseas",
       "id": "deepeval",
       "name": "DeepEval",
@@ -11747,7 +11769,8 @@
       "subcategory": "unit-test-eval",
       "oneLiner": "pytest 风格写 LLM 断言 · 单测心智；托管面在 Confident",
       "officialUrl": "https://github.com/confident-ai/deepeval",
-      "descriptionMd": "DeepEval 把 LLM 评测写成 pytest 用例：像断言函数一样断言幻觉率、相关性与自定义指标，配套 Confident AI 提供托管看板与数据集管理。\n\n团队已有 Python 测试习惯、希望评测和单测跑在同一条流水线上时优先。\n\n开源库与托管平台的能力边界要先分清，别在 POC 后才发现关键功能在云端；指标同样依赖裁判模型。\n"
+      "descriptionMd": "DeepEval 把 LLM 评测写成 pytest 用例：像断言函数一样断言幻觉率、相关性与自定义指标，配套 Confident AI 提供托管看板与数据集管理。\n\n团队已有 Python 测试习惯、希望评测和单测跑在同一条流水线上时优先。\n\n开源库与托管平台的能力边界要先分清，别在 POC 后才发现关键功能在云端；指标同样依赖裁判模型。\n",
+      "currentVersion": "4.3.0"
     },
     {
       "pricing": {
@@ -17882,15 +17905,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 18,
-          "scoreLabel": "1.3%",
-          "share": 1.3,
+          "rank": 19,
+          "scoreLabel": "1.2%",
+          "share": 1.2,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-13",
-          "previousRank": 19,
+          "asOf": "2026-10-16",
+          "previousRank": 18,
           "previousShare": 1.3,
-          "previousAsOf": "2026-10-12"
+          "previousAsOf": "2026-10-13"
         },
         {
           "systemId": "lmarena-document",
@@ -22444,6 +22467,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-15",
+          "type": "release",
+          "summary": "发布 1.16.0: 新版本",
+          "version": "1.16.0",
+          "source": "https://github.com/huggingface/trl/releases/tag/v1.16.0"
+        },
+        {
           "date": "2026-10-06",
           "type": "release",
           "summary": "发布 1.14.2: 新版本",
@@ -22476,7 +22506,7 @@
       "sources": [
         "https://github.com/huggingface/trl"
       ],
-      "lastReviewed": "2026-10-07",
+      "lastReviewed": "2026-10-16",
       "region": "overseas",
       "id": "hf-trl",
       "name": "TRL",
@@ -22487,7 +22517,7 @@
       "descriptionMd": "TRL 提供监督微调与偏好对齐的训练器，把 SFT、DPO、GRPO 等后训练方法封装成一致用法，是 Transformers 生态里做对齐与强化学习实验的常用起点。\n\n要在指令微调之外再做偏好对齐、或复现论文里的对齐方法时用它；只做单纯的领域适配，参数高效微调就够。\n\n对齐训练对数据质量与超参极敏感，效果波动大；算法迭代快，示例代码常需跟随版本调整。\n",
       "vendorId": "huggingface",
       "githubUrl": "https://github.com/huggingface/trl",
-      "currentVersion": "1.14.0"
+      "currentVersion": "1.16.0"
     },
     {
       "id": "hidream",
@@ -37102,6 +37132,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-15",
+          "type": "release",
+          "summary": "发布 3.91.0: 新版本",
+          "version": "3.91.0",
+          "source": "https://github.com/payloadcms/payload/releases/tag/v3.91.0"
+        },
+        {
           "date": "2026-10-02",
           "type": "release",
           "summary": "发布 3.90.0: 新版本",
@@ -37134,7 +37171,7 @@
       "sources": [
         "https://payloadcms.com"
       ],
-      "lastReviewed": "2026-10-03",
+      "lastReviewed": "2026-10-16",
       "region": "overseas",
       "id": "payload-cms",
       "name": "Payload CMS",
@@ -37146,7 +37183,7 @@
       "vendorId": "payload-inc",
       "githubUrl": "https://github.com/payloadcms/payload",
       "docsUrl": "https://payloadcms.com/docs",
-      "currentVersion": "3.90.0"
+      "currentVersion": "3.91.0"
     },
     {
       "pricing": {
@@ -42841,6 +42878,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-15",
+          "type": "release",
+          "summary": "发布 1.90.1: 新版本",
+          "version": "1.90.1",
+          "source": "https://github.com/rudderlabs/rudder-server/releases/tag/v1.90.1"
+        },
+        {
           "date": "2026-10-07",
           "type": "release",
           "summary": "发布 1.89.2: 新版本",
@@ -42887,7 +42931,7 @@
       "sources": [
         "https://www.rudderstack.com"
       ],
-      "lastReviewed": "2026-10-08",
+      "lastReviewed": "2026-10-16",
       "region": "overseas",
       "id": "rudderstack",
       "name": "RudderStack",
@@ -43013,6 +43057,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-15",
+          "type": "release",
+          "summary": "发布 1.99.1: Announcing Rust 1.99.1",
+          "version": "1.99.1",
+          "source": "https://blog.rust-lang.org/2026/10/15/Rust-1.99.1/"
+        },
+        {
           "date": "2026-10-01",
           "type": "release",
           "summary": "发布 1.99.0: Announcing Rust 1.99.0",
@@ -43043,7 +43094,7 @@
       "sources": [
         "https://www.rust-lang.org"
       ],
-      "lastReviewed": "2026-10-01",
+      "lastReviewed": "2026-10-16",
       "region": "both",
       "id": "rust",
       "name": "Rust",
@@ -45117,6 +45168,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-15",
+          "type": "release",
+          "summary": "发布 1.4.0: @solidjs/start@1.4.0",
+          "version": "1.4.0",
+          "source": "https://github.com/solidjs/solid-start/releases/tag/%40solidjs%2Fstart%401.4.0"
+        },
+        {
           "date": "2026-10-07",
           "type": "release",
           "summary": "发布 2.0.6: @solidjs/start@2.0.6",
@@ -45135,7 +45193,7 @@
       "sources": [
         "https://start.solidjs.com"
       ],
-      "lastReviewed": "2026-10-08",
+      "lastReviewed": "2026-10-16",
       "region": "overseas",
       "id": "solidstart",
       "name": "SolidStart",
@@ -45144,7 +45202,8 @@
       "oneLiner": "Solid 细粒度响应式 · SSR/server functions · 近 vanilla 性能",
       "officialUrl": "https://start.solidjs.com",
       "descriptionMd": "SolidStart 基于 SolidJS 细粒度响应式，提供 SSR、路由与 server functions，性能接近 vanilla JS。\n\n追求极致运行时性能、团队熟悉 Solid 响应式模型的小型全栈 App。\n\n生态与招聘远小于 React；UI 库选择面窄。\n",
-      "vendorId": "solidjs"
+      "vendorId": "solidjs",
+      "currentVersion": "1.4.0"
     },
     {
       "pricing": {
