@@ -22,6 +22,12 @@
   ],
   "updates": [
     {
+      "date": "2026-10-18",
+      "type": "feature",
+      "summary": "官方动态更新",
+      "source": "https://github.com/celery/celery/releases/tag/v5.7.0rc1"
+    },
+    {
       "date": "2026-10-06",
       "type": "feature",
       "summary": "官方动态更新",
@@ -38,7 +44,7 @@
   "sources": [
     "https://docs.celeryq.dev"
   ],
-  "lastReviewed": "2026-10-07",
+  "lastReviewed": "2026-10-19",
   "region": "overseas",
   "id": "celery",
   "name": "Celery",

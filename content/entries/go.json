@@ -18,6 +18,12 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-10-16",
+      "type": "feature",
+      "summary": "Interactive refactoring in gopls",
+      "source": "https://go.dev/blog/interactive-refactoring"
+    },
+    {
       "date": "2026-10-08",
       "type": "release",
       "summary": "维护线 1.27 最新 1.27.2",
@@ -61,7 +67,7 @@
   "sources": [
     "https://go.dev"
   ],
-  "lastReviewed": "2026-10-10",
+  "lastReviewed": "2026-10-19",
   "region": "both",
   "id": "go",
   "name": "Go",

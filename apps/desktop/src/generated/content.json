@@ -4479,6 +4479,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-16",
+          "type": "release",
+          "summary": "发布 0.21.0: 新版本",
+          "version": "0.21.0",
+          "source": "https://github.com/axolotl-ai-cloud/axolotl/releases/tag/v0.21.0"
+        },
+        {
           "date": "2026-09-30",
           "type": "release",
           "summary": "发布 0.20.0: 新版本",
@@ -4497,7 +4504,7 @@
       "sources": [
         "https://github.com/axolotl-ai-cloud/axolotl"
       ],
-      "lastReviewed": "2026-10-01",
+      "lastReviewed": "2026-10-19",
       "region": "overseas",
       "id": "axolotl",
       "name": "Axolotl",
@@ -4508,7 +4515,7 @@
       "descriptionMd": "Axolotl 用一份 YAML 描述模型、数据集、训练策略与并行方式，把 Transformers 生态的训练细节收敛成可版本化的配置，社区里长期是复现实验的常用底座。\n\n需要把多组微调实验管起来、并在多卡环境反复跑时选它；只想在单卡上快速试一版，轻量方案上手更快。\n\n配置项繁多，参数组合错误往往到训练中段才暴露；环境依赖较重，升级时容易出现版本冲突。\n",
       "vendorId": "axolotl-ai",
       "githubUrl": "https://github.com/axolotl-ai-cloud/axolotl",
-      "currentVersion": "0.20.0"
+      "currentVersion": "0.21.0"
     },
     {
       "pricing": {
@@ -6910,6 +6917,12 @@
       ],
       "updates": [
         {
+          "date": "2026-10-18",
+          "type": "feature",
+          "summary": "官方动态更新",
+          "source": "https://github.com/celery/celery/releases/tag/v5.7.0rc1"
+        },
+        {
           "date": "2026-10-06",
           "type": "feature",
           "summary": "官方动态更新",
@@ -6926,7 +6939,7 @@
       "sources": [
         "https://docs.celeryq.dev"
       ],
-      "lastReviewed": "2026-10-07",
+      "lastReviewed": "2026-10-19",
       "region": "overseas",
       "id": "celery",
       "name": "Celery",
@@ -8067,15 +8080,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 8,
-          "scoreLabel": "3.2%",
-          "share": 3.2,
+          "rank": 7,
+          "scoreLabel": "4.1%",
+          "share": 4.1,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-12",
-          "previousRank": 10,
-          "previousShare": 3,
-          "previousAsOf": "2026-10-11"
+          "asOf": "2026-10-19",
+          "previousRank": 8,
+          "previousShare": 3.2,
+          "previousAsOf": "2026-10-12"
         },
         {
           "systemId": "swe-bench-pro",
@@ -8199,15 +8212,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 15,
+          "rank": 16,
           "scoreLabel": "1.6%",
           "share": 1.6,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-14",
-          "previousRank": 14,
-          "previousShare": 1.7,
-          "previousAsOf": "2026-10-13"
+          "asOf": "2026-10-19",
+          "previousRank": 15,
+          "previousShare": 1.6,
+          "previousAsOf": "2026-10-14"
         },
         {
           "systemId": "lmarena-text",
@@ -16305,6 +16318,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-18",
+          "type": "release",
+          "summary": "发布 1.1.0.dev1: 新版本",
+          "version": "1.1.0.dev1",
+          "source": "https://github.com/flet-dev/flet/releases/tag/v1.1.0.dev1"
+        },
+        {
           "date": "2026-10-08",
           "type": "release",
           "summary": "发布 1.0.4: 新版本",
@@ -16337,7 +16357,7 @@
       "sources": [
         "https://flet.dev"
       ],
-      "lastReviewed": "2026-10-10",
+      "lastReviewed": "2026-10-19",
       "region": "overseas",
       "id": "flet",
       "name": "Flet",
@@ -16348,7 +16368,7 @@
       "descriptionMd": "Flet 让 Python 开发者直接用 Python 代码构建由 Flutter 渲染的界面，无需接触 Dart 与前端工具链，可输出桌面、移动与 Web 应用。\n\n数据、算法或运维团队要给脚本加图形界面、做内部工具或演示原型时非常省事；面向用户的正式应用仍建议原生 Flutter。\n\n控件与主题受封装层限制，复杂交互不如直接写 Flutter；状态与性能模型偏简单，不适合大型消费级产品。\n",
       "vendorId": "flet-dev",
       "githubUrl": "https://github.com/flet-dev/flet",
-      "currentVersion": "1.0.0.dev2"
+      "currentVersion": "1.1.0.dev1"
     },
     {
       "pricing": {
@@ -17905,15 +17925,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 19,
+          "rank": 20,
           "scoreLabel": "1.2%",
           "share": 1.2,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-16",
-          "previousRank": 18,
-          "previousShare": 1.3,
-          "previousAsOf": "2026-10-13"
+          "asOf": "2026-10-19",
+          "previousRank": 19,
+          "previousShare": 1.2,
+          "previousAsOf": "2026-10-16"
         },
         {
           "systemId": "lmarena-document",
@@ -18447,15 +18467,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 41,
-          "scoreLabel": "0.3%",
-          "share": 0.3,
+          "rank": 43,
+          "scoreLabel": "0.4%",
+          "share": 0.4,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-15",
-          "previousRank": 43,
+          "asOf": "2026-10-19",
+          "previousRank": 41,
           "previousShare": 0.3,
-          "previousAsOf": "2026-10-13"
+          "previousAsOf": "2026-10-15"
         }
       ],
       "sources": [
@@ -19065,15 +19085,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 3,
-          "scoreLabel": "7.8%",
-          "share": 7.8,
+          "rank": 2,
+          "scoreLabel": "8.1%",
+          "share": 8.1,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-14",
-          "previousRank": 2,
-          "previousShare": 7.3,
-          "previousAsOf": "2026-10-11"
+          "asOf": "2026-10-19",
+          "previousRank": 3,
+          "previousShare": 7.8,
+          "previousAsOf": "2026-10-14"
         },
         {
           "systemId": "lmarena-document",
@@ -19227,6 +19247,12 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-10-16",
+          "type": "feature",
+          "summary": "Interactive refactoring in gopls",
+          "source": "https://go.dev/blog/interactive-refactoring"
+        },
+        {
           "date": "2026-10-08",
           "type": "release",
           "summary": "维护线 1.27 最新 1.27.2",
@@ -19270,7 +19296,7 @@
       "sources": [
         "https://go.dev"
       ],
-      "lastReviewed": "2026-10-10",
+      "lastReviewed": "2026-10-19",
       "region": "both",
       "id": "go",
       "name": "Go",
@@ -20325,15 +20351,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 7,
-          "scoreLabel": "4.4%",
-          "share": 4.4,
+          "rank": 6,
+          "scoreLabel": "4.1%",
+          "share": 4.1,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-13",
-          "previousRank": 6,
-          "previousShare": 4.2,
-          "previousAsOf": "2026-10-08"
+          "asOf": "2026-10-19",
+          "previousRank": 7,
+          "previousShare": 4.4,
+          "previousAsOf": "2026-10-13"
         }
       ],
       "subcategory": "line",
@@ -20376,15 +20402,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 20,
+          "rank": 21,
           "scoreLabel": "1.1%",
           "share": 1.1,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-15",
-          "previousRank": 19,
+          "asOf": "2026-10-19",
+          "previousRank": 20,
           "previousShare": 1.1,
-          "previousAsOf": "2026-10-13"
+          "previousAsOf": "2026-10-15"
         }
       ],
       "sources": [
@@ -26008,15 +26034,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 16,
-          "scoreLabel": "1.4%",
-          "share": 1.4,
+          "rank": 17,
+          "scoreLabel": "1.5%",
+          "share": 1.5,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-13",
-          "previousRank": 17,
+          "asOf": "2026-10-19",
+          "previousRank": 16,
           "previousShare": 1.4,
-          "previousAsOf": "2026-10-12"
+          "previousAsOf": "2026-10-13"
         },
         {
           "systemId": "lmarena-vision",
@@ -28086,12 +28112,20 @@
         "社区与教程规模远小于 FastAPI",
         "跨大版本有破坏性变更，升级需读迁移说明"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-10-18",
+          "type": "release",
+          "summary": "发布 2.25.0: 新版本",
+          "version": "2.25.0",
+          "source": "https://github.com/litestar-org/litestar/releases/tag/v2.25.0"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://litestar.dev"
       ],
-      "lastReviewed": "2026-08-05",
+      "lastReviewed": "2026-10-19",
       "region": "overseas",
       "id": "litestar",
       "name": "Litestar",
@@ -28101,7 +28135,8 @@
       "officialUrl": "https://litestar.dev",
       "descriptionMd": "Litestar 是 Python 的 ASGI 框架，把依赖注入、数据传输对象、分层控制器与 SQLAlchemy 集成做进内核，走类型优先且电池齐备的路线。\n\n已用 FastAPI 但被中大型项目的目录分层与依赖拼装困扰、想要更成体系的框架约定时评估；小脚本级接口仍是 FastAPI 更轻。\n\n社区规模与教程量远小于 FastAPI，排障更依赖官方文档；项目早期改过名且有破坏性变更，升级需通读迁移说明。\n",
       "vendorId": "litestar-org",
-      "githubUrl": "https://github.com/litestar-org/litestar"
+      "githubUrl": "https://github.com/litestar-org/litestar",
+      "currentVersion": "2.25.0"
     },
     {
       "pricing": {
@@ -28332,6 +28367,12 @@
       ],
       "updates": [
         {
+          "date": "2026-10-19",
+          "type": "feature",
+          "summary": "b11723",
+          "source": "https://github.com/ggml-org/llama.cpp/releases/tag/b11723"
+        },
+        {
           "date": "2026-10-09",
           "type": "feature",
           "summary": "b11539",
@@ -28397,7 +28438,7 @@
       "sources": [
         "https://github.com/ggerganov/llama.cpp"
       ],
-      "lastReviewed": "2026-10-10",
+      "lastReviewed": "2026-10-19",
       "region": "overseas",
       "id": "llama-cpp",
       "name": "llama.cpp",
@@ -29286,6 +29327,13 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-10-17",
+          "type": "release",
+          "summary": "发布 1.59.0: Version 1.59.0",
+          "version": "1.59.0",
+          "source": "https://github.com/lucide-icons/lucide/releases/tag/1.59.0"
+        },
+        {
           "date": "2026-10-09",
           "type": "release",
           "summary": "发布 1.54.0: Version 1.54.0",
@@ -29369,7 +29417,7 @@
       "sources": [
         "https://lucide.dev"
       ],
-      "lastReviewed": "2026-10-10",
+      "lastReviewed": "2026-10-19",
       "region": "overseas",
       "id": "lucide",
       "name": "Lucide",
@@ -29378,7 +29426,7 @@
       "oneLiner": "Feather 演进 · 线条清晰 · shadcn 系常见默认",
       "descriptionMd": "Lucide 是基于 Feather 演进的开源图标集，线条清晰，React 等多框架封装齐全。\n\n适合产品 UI 图标层；与 Phosphor（多字重）按视觉体系二选一或分工。不可与 Ant Design 等完整组件库同榜硬比。\n\n图标语义保持一致比「多一个风格」重要；与文案、空状态插画统一视觉权重。\n",
       "officialUrl": "https://lucide.dev",
-      "currentVersion": "1.54.0"
+      "currentVersion": "1.59.0"
     },
     {
       "pricing": {
@@ -29519,13 +29567,21 @@
         "楷体小字识别弱于黑体；界面建议 ≥13px 并配更宽行距。",
         "衍生字体不可使用保留名称「霞鹜 / LXGW」。"
       ],
-      "updates": [],
+      "updates": [
+        {
+          "date": "2026-10-17",
+          "type": "release",
+          "summary": "发布 1.530: 26/10/18",
+          "version": "1.530",
+          "source": "https://github.com/lxgw/LxgwWenKai/releases/tag/v1.530"
+        }
+      ],
       "rankings": [],
       "sources": [
         "https://github.com/lxgw/LxgwWenKai",
         "https://fonts.google.com/specimen/LXGW+WenKai"
       ],
-      "lastReviewed": "2026-08-07",
+      "lastReviewed": "2026-10-19",
       "region": "both",
       "category": "design-fonts",
       "subcategory": "cjk-fonts",
@@ -29535,7 +29591,8 @@
       "oneLiner": "OFL 人文楷体 · 屏显长文 · 墨台正文用字",
       "officialUrl": "https://github.com/lxgw/LxgwWenKai",
       "githubUrl": "https://github.com/lxgw/LxgwWenKai",
-      "descriptionMd": "霞鹜文楷（LXGW WenKai）基于 Fontworks Klee One 补全的开源中文楷体，SIL OFL 1.1 可个人与企业自由商用、随应用分发。字形温润偏人文，适合阅读向正文与「书卷」气质产品，为社区下载量最高的开源汉字楷体之一。\n\n需要免费可内置的 CJK 楷体正文、或追求纸墨 humanist 气质时优先；墨台（VibeHolding）设计规范以文楷作 `--font-body`。可与臻楷配展示标题，与 Maple Mono 配代码列。\n\n全量字库偏重，Web 必须子集/按需加载；楷体不适合过小 UI 字号。Google Fonts 亦有托管但国内可达与隐私仍可能需自托管。\n"
+      "descriptionMd": "霞鹜文楷（LXGW WenKai）基于 Fontworks Klee One 补全的开源中文楷体，SIL OFL 1.1 可个人与企业自由商用、随应用分发。字形温润偏人文，适合阅读向正文与「书卷」气质产品，为社区下载量最高的开源汉字楷体之一。\n\n需要免费可内置的 CJK 楷体正文、或追求纸墨 humanist 气质时优先；墨台（VibeHolding）设计规范以文楷作 `--font-body`。可与臻楷配展示标题，与 Maple Mono 配代码列。\n\n全量字库偏重，Web 必须子集/按需加载；楷体不适合过小 UI 字号。Google Fonts 亦有托管但国内可达与隐私仍可能需自托管。\n",
+      "currentVersion": "1.530"
     },
     {
       "pricing": {
@@ -30023,6 +30080,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-17",
+          "type": "release",
+          "summary": "发布 9.7.3: 新版本",
+          "version": "9.7.3",
+          "source": "https://github.com/mantinedev/mantine/releases/tag/9.7.3"
+        },
+        {
           "date": "2026-10-05",
           "type": "release",
           "summary": "发布 9.7.0: 新版本",
@@ -30061,7 +30125,7 @@
       "sources": [
         "https://mantine.dev"
       ],
-      "lastReviewed": "2026-10-06",
+      "lastReviewed": "2026-10-19",
       "region": "overseas",
       "id": "mantine",
       "name": "Mantine",
@@ -30992,15 +31056,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 14,
-          "scoreLabel": "1.7%",
-          "share": 1.7,
+          "rank": 12,
+          "scoreLabel": "2.2%",
+          "share": 2.2,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-14",
-          "previousRank": 15,
-          "previousShare": 1.6,
-          "previousAsOf": "2026-10-13"
+          "asOf": "2026-10-19",
+          "previousRank": 14,
+          "previousShare": 1.7,
+          "previousAsOf": "2026-10-14"
         }
       ],
       "sources": [
@@ -31509,6 +31573,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-16",
+          "type": "release",
+          "summary": "发布 1.16.0: 新版本",
+          "version": "1.16.0",
+          "source": "https://github.com/web-infra-dev/midscene/releases/tag/v1.16.0"
+        },
+        {
           "date": "2026-10-10",
           "type": "release",
           "summary": "发布 1.15.0: 新版本",
@@ -31563,7 +31634,7 @@
         "https://midscenejs.com",
         "https://github.com/web-infra-dev/midscene"
       ],
-      "lastReviewed": "2026-10-11",
+      "lastReviewed": "2026-10-19",
       "region": "both",
       "id": "midscene",
       "name": "Midscene.js",
@@ -31574,7 +31645,7 @@
       "descriptionMd": "Midscene.js 出自字节跳动 Web Infra 团队，用自然语言描述界面操作与断言，除浏览器外还支持安卓设备，并把每一步的模型判断生成可回放的可视化报告。\n\n国内团队做 UI 自动化或跨端验证、且希望调试过程可追溯时值得试；纯服务端抓取用无头方案更省资源。\n\n多模态模型调用带来额外费用与延迟；安卓侧对环境依赖较多，接入前先跑通设备链路。\n",
       "vendorId": "bytedance",
       "githubUrl": "https://github.com/web-infra-dev/midscene",
-      "currentVersion": "1.15.0"
+      "currentVersion": "1.16.0"
     },
     {
       "pricing": {
@@ -31602,6 +31673,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-18",
+          "type": "release",
+          "summary": "发布 4.2.6: 新版本",
+          "version": "4.2.6",
+          "source": "https://github.com/midwayjs/midway/releases/tag/v4.2.6"
+        },
+        {
           "date": "2026-10-06",
           "type": "release",
           "summary": "发布 4.2.5: 新版本",
@@ -31620,7 +31698,7 @@
       "sources": [
         "https://midwayjs.org"
       ],
-      "lastReviewed": "2026-10-07",
+      "lastReviewed": "2026-10-19",
       "region": "domestic",
       "id": "midway",
       "name": "Midway",
@@ -31873,15 +31951,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 22,
-          "scoreLabel": "0.8%",
-          "share": 0.8,
+          "rank": 23,
+          "scoreLabel": "0.9%",
+          "share": 0.9,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-15",
-          "previousRank": 23,
+          "asOf": "2026-10-19",
+          "previousRank": 22,
           "previousShare": 0.8,
-          "previousAsOf": "2026-10-11"
+          "previousAsOf": "2026-10-15"
         },
         {
           "systemId": "lmarena-vision",
@@ -34879,6 +34957,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-16",
+          "type": "release",
+          "summary": "发布 4.6.2: 新版本",
+          "version": "4.6.2",
+          "source": "https://github.com/nuxt/nuxt/releases/tag/v4.6.2"
+        },
+        {
           "date": "2026-10-05",
           "type": "release",
           "summary": "发布 4.6.0: 新版本",
@@ -34903,7 +34988,7 @@
       "sources": [
         "https://nuxt.com"
       ],
-      "lastReviewed": "2026-10-06",
+      "lastReviewed": "2026-10-19",
       "region": "overseas",
       "id": "nuxt",
       "name": "Nuxt",
@@ -36140,6 +36225,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-18",
+          "type": "release",
+          "summary": "发布 2.2.104-9012: 新版本",
+          "version": "2.2.104-9012",
+          "source": "https://github.com/comet-ml/opik/releases/tag/2.2.104-9012-merge-3948"
+        },
+        {
           "date": "2026-10-09",
           "type": "release",
           "summary": "发布 2.2.97-avinahradau: [OPIK-8329] [FE] feat: send the widget's current rows with Edit in Ollie",
@@ -36207,7 +36299,7 @@
       "sources": [
         "https://github.com/comet-ml/opik"
       ],
-      "lastReviewed": "2026-10-10",
+      "lastReviewed": "2026-10-19",
       "region": "overseas",
       "id": "opik",
       "name": "Opik",
@@ -36216,7 +36308,7 @@
       "oneLiner": "评测与追踪一体 · Comet 开源；可自托管",
       "officialUrl": "https://github.com/comet-ml/opik",
       "descriptionMd": "Opik 是 Comet 开源的 LLM 评测与追踪工具，既能记录线上调用轨迹，也能对数据集批量跑评测指标，支持自托管部署。\n\n希望「线上追踪」和「离线评测」共用一套数据与界面、又要能私有化部署时评估；与 Langfuse 属同层可直接横比。\n\n两头都做意味着两头都不如专精工具深；自托管版本的运维与升级成本要计入，托管版则要评估数据出境。\n",
-      "currentVersion": "2.2.97-avinahradau"
+      "currentVersion": "2.2.104-9012"
     },
     {
       "pricing": {
@@ -39013,6 +39105,12 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-10-16",
+          "type": "feature",
+          "summary": "things I've learned in 6 years at PostHog",
+          "source": "https://posthog.com/blog/6-years-at-posthog"
+        },
+        {
           "date": "2026-10-08",
           "type": "feature",
           "summary": "We built our own cloud agents runtime. Here's what we learned",
@@ -39041,7 +39139,7 @@
       "sources": [
         "https://posthog.com"
       ],
-      "lastReviewed": "2026-10-10",
+      "lastReviewed": "2026-10-19",
       "region": "overseas",
       "id": "posthog",
       "name": "PostHog",
@@ -39358,6 +39456,12 @@
       ],
       "updates": [
         {
+          "date": "2026-10-15",
+          "type": "feature",
+          "summary": "How to host a test version of your app without replacing production (2026)",
+          "source": "https://www.prisma.io/blog/host-a-test-version-without-replacing-production"
+        },
+        {
           "date": "2026-10-02",
           "type": "feature",
           "summary": "Prisma ORM Manifesto 2026: Open, Extensible, Collaborative",
@@ -39399,7 +39503,7 @@
       "sources": [
         "https://www.prisma.io"
       ],
-      "lastReviewed": "2026-10-10",
+      "lastReviewed": "2026-10-19",
       "region": "overseas",
       "id": "prisma",
       "name": "Prisma",
@@ -40507,15 +40611,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 44,
-          "scoreLabel": "0.3%",
-          "share": 0.3,
+          "rank": 30,
+          "scoreLabel": "0.5%",
+          "share": 0.5,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-15",
-          "previousRank": 45,
+          "asOf": "2026-10-19",
+          "previousRank": 44,
           "previousShare": 0.3,
-          "previousAsOf": "2026-10-13"
+          "previousAsOf": "2026-10-15"
         },
         {
           "systemId": "lmarena-vision",
@@ -40919,6 +41023,12 @@
       ],
       "updates": [
         {
+          "date": "2026-10-16",
+          "type": "feature",
+          "summary": "Faster blank? checks, safer SQLite rollbacks, and more!",
+          "source": "https://rubyonrails.org/2026/10/16/this-week-in-rails"
+        },
+        {
           "date": "2026-10-09",
           "type": "feature",
           "summary": "Better ACL S3 control and more",
@@ -40973,7 +41083,7 @@
       "sources": [
         "https://rubyonrails.org"
       ],
-      "lastReviewed": "2026-10-10",
+      "lastReviewed": "2026-10-19",
       "region": "overseas",
       "id": "rails",
       "name": "Ruby on Rails",
@@ -45086,15 +45196,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 29,
-          "scoreLabel": "0.6%",
-          "share": 0.6,
+          "rank": 27,
+          "scoreLabel": "0.7%",
+          "share": 0.7,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-12",
-          "previousRank": 28,
+          "asOf": "2026-10-19",
+          "previousRank": 29,
           "previousShare": 0.6,
-          "previousAsOf": "2026-10-11"
+          "previousAsOf": "2026-10-12"
         }
       ],
       "sources": [
@@ -45941,6 +46051,12 @@
       ],
       "updates": [
         {
+          "date": "2026-10-18",
+          "type": "feature",
+          "summary": "stagehand-python@4.2.2a0.dev1615: [fix]: align bb transport behaviour across SDKs (#3229)",
+          "source": "https://github.com/browserbase/stagehand/releases/tag/stagehand-python%404.2.2a0.dev1615"
+        },
+        {
           "date": "2026-10-09",
           "type": "feature",
           "summary": "stagehand-python@4.2.1a0.dev1594: fix(extension): bind LLM/gateway fetch to a load-time reference (#3153)",
@@ -45996,7 +46112,7 @@
       "sources": [
         "https://github.com/browserbase/stagehand"
       ],
-      "lastReviewed": "2026-10-10",
+      "lastReviewed": "2026-10-19",
       "region": "overseas",
       "id": "stagehand",
       "name": "Stagehand",
@@ -46273,15 +46389,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 2,
-          "scoreLabel": "11.3%",
-          "share": 11.3,
+          "rank": 3,
+          "scoreLabel": "7.6%",
+          "share": 7.6,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-15",
+          "asOf": "2026-10-19",
           "previousRank": 2,
-          "previousShare": 9.2,
-          "previousAsOf": "2026-10-14"
+          "previousShare": 11.3,
+          "previousAsOf": "2026-10-15"
         },
         {
           "systemId": "lmarena-webdev",
@@ -48278,6 +48394,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-17",
+          "type": "release",
+          "summary": "发布 1.33.0-164.1: 新版本",
+          "version": "1.33.0-164.1",
+          "source": "https://github.com/temporalio/temporal/releases/tag/v1.33.0-164.1"
+        },
+        {
           "date": "2026-10-08",
           "type": "release",
           "summary": "发布 1.32.1: 新版本",
@@ -48324,7 +48447,7 @@
       "sources": [
         "https://temporal.io"
       ],
-      "lastReviewed": "2026-10-10",
+      "lastReviewed": "2026-10-19",
       "region": "overseas",
       "id": "temporal",
       "name": "Temporal",
@@ -48335,7 +48458,7 @@
       "descriptionMd": "Temporal 以 durable execution 保证跨服务、长时间运行的工作流状态、重试与补偿语义，多语言 SDK 成熟，支持云与自托管。\n\n支付结算、多步审批、多微服务长事务，或需要严格可达性的 AI 多步编排时，它是应用侧 durable 底座的标杆。\n\n运维与概念门槛高于 Inngest/Trigger 类「几行函数」；纯短任务 cron 场景会过重。\n",
       "vendorId": "temporal-technologies",
       "githubUrl": "https://github.com/temporalio/temporal",
-      "currentVersion": "1.32.0-163.6"
+      "currentVersion": "1.33.0-164.1"
     },
     {
       "pricing": {
@@ -50028,6 +50151,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-16",
+          "type": "release",
+          "summary": "发布 2.48.0: twenty/v2.48.0",
+          "version": "2.48.0",
+          "source": "https://github.com/twentyhq/twenty/releases/tag/twenty%2Fv2.48.0"
+        },
+        {
           "date": "2026-10-09",
           "type": "release",
           "summary": "发布 2.46.0: twenty/v2.46.0",
@@ -50095,7 +50225,7 @@
       "sources": [
         "https://twenty.com"
       ],
-      "lastReviewed": "2026-10-10",
+      "lastReviewed": "2026-10-19",
       "region": "overseas",
       "id": "twenty",
       "name": "Twenty",
@@ -50106,7 +50236,7 @@
       "descriptionMd": "Twenty 是开源的现代 CRM：React + GraphQL，支持云托管与自托管，界面与数据模型朝现代 B2B 工作台演进，适合要数据驻留或可二次开发的团队。\n\n必须自托管/开源、或要在 CRM 上二次开发、且能承受运维时评估；要开箱营销套件仍是 HubSpot，要托管 AI 灵活对象可先 Attio。\n\n生态集成与 polish 仍追商业 SaaS；生产自托管要管权限、备份与升级。\n",
       "vendorId": "twenty-inc",
       "githubUrl": "https://github.com/twentyhq/twenty",
-      "currentVersion": "2.46.0"
+      "currentVersion": "2.48.0"
     },
     {
       "pricing": {
@@ -52555,6 +52685,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-18",
+          "type": "release",
+          "summary": "发布 2.17.0: Wails v2.17.0",
+          "version": "2.17.0",
+          "source": "https://github.com/wailsapp/wails/releases/tag/v2.17.0"
+        },
+        {
           "date": "2026-08-10",
           "type": "release",
           "summary": "发布 2.14.0: Wails v2.14.0",
@@ -52566,7 +52703,7 @@
       "sources": [
         "https://wails.io"
       ],
-      "lastReviewed": "2026-08-10",
+      "lastReviewed": "2026-10-19",
       "region": "overseas",
       "id": "wails",
       "name": "Wails",
@@ -52577,7 +52714,7 @@
       "descriptionMd": "Wails 用 Go 编写后端逻辑、系统 WebView 渲染前端界面，并把两者绑定编译为单个可执行文件，思路与 Tauri 相近，只是把语言换成了 Go。\n\n后端团队以 Go 为主、要给命令行工具或本地服务加一层桌面壳时最顺手；Rust 栈选 Tauri，需要统一 Chromium 行为选 Electron。\n\n依赖系统 WebView，各平台渲染差异需实测；移动端支持仍属实验阶段，文档与生态规模小于 Tauri。\n",
       "vendorId": "wails-io",
       "githubUrl": "https://github.com/wailsapp/wails",
-      "currentVersion": "2.14.0"
+      "currentVersion": "2.17.0"
     },
     {
       "id": "wan-video",
@@ -52820,6 +52957,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-18",
+          "type": "release",
+          "summary": "发布 10.1.0: 新版本",
+          "version": "10.1.0",
+          "source": "https://github.com/webdriverio/webdriverio/releases/tag/v10.1.0"
+        },
+        {
           "date": "2026-10-05",
           "type": "release",
           "summary": "发布 10.0.0: 新版本",
@@ -52859,7 +53003,7 @@
       "sources": [
         "https://webdriver.io"
       ],
-      "lastReviewed": "2026-10-06",
+      "lastReviewed": "2026-10-19",
       "region": "overseas",
       "id": "webdriverio",
       "name": "WebdriverIO",
@@ -52869,7 +53013,7 @@
       "officialUrl": "https://webdriver.io",
       "descriptionMd": "WebdriverIO 同时支持 W3C WebDriver 与 DevTools 协议，一套 API 覆盖桌面浏览器与 Appium 驱动的移动端，测试服务、报告器与云端设备平台以插件形式接入。\n\n需要真机/云设备矩阵、或 Web 与原生 App 共用一套自动化技术栈时评估；纯 Web E2E 用 Playwright 上手更快。\n\n配置文件与插件体系较重，调试链路比一体化框架长；跨协议行为差异需要在目标环境上实测确认。\n",
       "githubUrl": "https://github.com/webdriverio/webdriverio",
-      "currentVersion": "10.0.0"
+      "currentVersion": "10.1.0"
     },
     {
       "pricing": {
@@ -53790,6 +53934,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-17",
+          "type": "release",
+          "summary": "发布 5.33.3: xstate@5.33.3",
+          "version": "5.33.3",
+          "source": "https://github.com/statelyai/xstate/releases/tag/xstate%405.33.3"
+        },
+        {
           "date": "2026-10-08",
           "type": "release",
           "summary": "发布 2.0.1: @xstate/store-solid@2.0.1",
@@ -53815,7 +53966,7 @@
       "sources": [
         "https://xstate.js.org"
       ],
-      "lastReviewed": "2026-10-10",
+      "lastReviewed": "2026-10-19",
       "region": "overseas",
       "id": "xstate",
       "name": "XState",

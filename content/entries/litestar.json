@@ -21,12 +21,20 @@
     "社区与教程规模远小于 FastAPI",
     "跨大版本有破坏性变更，升级需读迁移说明"
   ],
-  "updates": [],
+  "updates": [
+    {
+      "date": "2026-10-18",
+      "type": "release",
+      "summary": "发布 2.25.0: 新版本",
+      "version": "2.25.0",
+      "source": "https://github.com/litestar-org/litestar/releases/tag/v2.25.0"
+    }
+  ],
   "rankings": [],
   "sources": [
     "https://litestar.dev"
   ],
-  "lastReviewed": "2026-08-05",
+  "lastReviewed": "2026-10-19",
   "region": "overseas",
   "id": "litestar",
   "name": "Litestar",
@@ -36,5 +44,6 @@
   "officialUrl": "https://litestar.dev",
   "descriptionMd": "Litestar 是 Python 的 ASGI 框架，把依赖注入、数据传输对象、分层控制器与 SQLAlchemy 集成做进内核，走类型优先且电池齐备的路线。\n\n已用 FastAPI 但被中大型项目的目录分层与依赖拼装困扰、想要更成体系的框架约定时评估；小脚本级接口仍是 FastAPI 更轻。\n\n社区规模与教程量远小于 FastAPI，排障更依赖官方文档；项目早期改过名且有破坏性变更，升级需通读迁移说明。\n",
   "vendorId": "litestar-org",
-  "githubUrl": "https://github.com/litestar-org/litestar"
+  "githubUrl": "https://github.com/litestar-org/litestar",
+  "currentVersion": "2.25.0"
 }

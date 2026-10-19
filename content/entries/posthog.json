@@ -20,6 +20,12 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-10-16",
+      "type": "feature",
+      "summary": "things I've learned in 6 years at PostHog",
+      "source": "https://posthog.com/blog/6-years-at-posthog"
+    },
+    {
       "date": "2026-10-08",
       "type": "feature",
       "summary": "We built our own cloud agents runtime. Here's what we learned",
@@ -48,7 +54,7 @@
   "sources": [
     "https://posthog.com"
   ],
-  "lastReviewed": "2026-10-10",
+  "lastReviewed": "2026-10-19",
   "region": "overseas",
   "id": "posthog",
   "name": "PostHog",

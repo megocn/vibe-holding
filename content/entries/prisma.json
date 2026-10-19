@@ -20,6 +20,12 @@
   ],
   "updates": [
     {
+      "date": "2026-10-15",
+      "type": "feature",
+      "summary": "How to host a test version of your app without replacing production (2026)",
+      "source": "https://www.prisma.io/blog/host-a-test-version-without-replacing-production"
+    },
+    {
       "date": "2026-10-02",
       "type": "feature",
       "summary": "Prisma ORM Manifesto 2026: Open, Extensible, Collaborative",
@@ -61,7 +67,7 @@
   "sources": [
     "https://www.prisma.io"
   ],
-  "lastReviewed": "2026-10-10",
+  "lastReviewed": "2026-10-19",
   "region": "overseas",
   "id": "prisma",
   "name": "Prisma",

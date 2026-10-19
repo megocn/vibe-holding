@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-18",
+      "type": "release",
+      "summary": "发布 1.1.0.dev1: 新版本",
+      "version": "1.1.0.dev1",
+      "source": "https://github.com/flet-dev/flet/releases/tag/v1.1.0.dev1"
+    },
+    {
       "date": "2026-10-08",
       "type": "release",
       "summary": "发布 1.0.4: 新版本",
@@ -55,7 +62,7 @@
   "sources": [
     "https://flet.dev"
   ],
-  "lastReviewed": "2026-10-10",
+  "lastReviewed": "2026-10-19",
   "region": "overseas",
   "id": "flet",
   "name": "Flet",
@@ -66,5 +73,5 @@
   "descriptionMd": "Flet 让 Python 开发者直接用 Python 代码构建由 Flutter 渲染的界面，无需接触 Dart 与前端工具链，可输出桌面、移动与 Web 应用。\n\n数据、算法或运维团队要给脚本加图形界面、做内部工具或演示原型时非常省事；面向用户的正式应用仍建议原生 Flutter。\n\n控件与主题受封装层限制，复杂交互不如直接写 Flutter；状态与性能模型偏简单，不适合大型消费级产品。\n",
   "vendorId": "flet-dev",
   "githubUrl": "https://github.com/flet-dev/flet",
-  "currentVersion": "1.0.0.dev2"
+  "currentVersion": "1.1.0.dev1"
 }
