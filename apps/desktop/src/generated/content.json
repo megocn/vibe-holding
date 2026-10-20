@@ -2327,6 +2327,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-20",
+          "type": "release",
+          "summary": "发布 6.6.7: 新版本",
+          "version": "6.6.7",
+          "source": "https://github.com/ant-design/ant-design/releases/tag/6.6.7"
+        },
+        {
           "date": "2026-10-12",
           "type": "release",
           "summary": "发布 6.6.6: 新版本",
@@ -2379,7 +2386,7 @@
       "sources": [
         "https://ant.design"
       ],
-      "lastReviewed": "2026-10-13",
+      "lastReviewed": "2026-10-20",
       "region": "overseas",
       "id": "antd",
       "name": "Ant Design",
@@ -6977,6 +6984,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-19",
+          "type": "release",
+          "summary": "发布 6.10.0: 新版本",
+          "version": "6.10.0",
+          "source": "https://github.com/centrifugal/centrifugo/releases/tag/v6.10.0"
+        },
+        {
           "date": "2026-09-28",
           "type": "release",
           "summary": "发布 6.9.7: Generate swagger proto from api.proto (#1246)",
@@ -7002,7 +7016,7 @@
       "sources": [
         "https://centrifugal.dev"
       ],
-      "lastReviewed": "2026-09-29",
+      "lastReviewed": "2026-10-20",
       "region": "overseas",
       "id": "centrifugo",
       "name": "Centrifugo",
@@ -7011,7 +7025,8 @@
       "oneLiner": "自托管实时消息服务器 · 语言无关 · 靠 Redis 横向扩展",
       "officialUrl": "https://centrifugal.dev",
       "descriptionMd": "Centrifugo 是用 Go 写的独立实时消息服务器，与业务语言解耦：后端通过 HTTP 或 gRPC 发布，前端用其 SDK 订阅频道，支持在线状态、历史消息与频道权限，多节点靠 Redis 一类代理打通。\n\n后端不是 Node.js、又想自建长连接层省下托管费用时是常见选择；不愿运维连接层就用 Pusher 或 Ably，需要协同数据结构则叠 Yjs。\n\n连接层的容量规划、灰度与故障演练都要自己做；鉴权采用签名令牌模式，接入时要把密钥轮换与过期策略一并设计好。\n",
-      "githubUrl": "https://github.com/centrifugal/centrifugo"
+      "githubUrl": "https://github.com/centrifugal/centrifugo",
+      "currentVersion": "6.10.0"
     },
     {
       "pricing": {
@@ -7887,15 +7902,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 18,
-          "scoreLabel": "1.2%",
-          "share": 1.2,
+          "rank": 17,
+          "scoreLabel": "1.4%",
+          "share": 1.4,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-16",
-          "previousRank": 19,
+          "asOf": "2026-10-20",
+          "previousRank": 18,
           "previousShare": 1.2,
-          "previousAsOf": "2026-10-15"
+          "previousAsOf": "2026-10-16"
         }
       ],
       "sources": [
@@ -11979,14 +11994,14 @@
         {
           "systemId": "openrouter-popularity",
           "rank": 1,
-          "scoreLabel": "22.6%",
-          "share": 22.6,
+          "scoreLabel": "20%",
+          "share": 20,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-15",
+          "asOf": "2026-10-20",
           "previousRank": 1,
-          "previousShare": 24.6,
-          "previousAsOf": "2026-10-14"
+          "previousShare": 22.6,
+          "previousAsOf": "2026-10-15"
         },
         {
           "systemId": "lmarena-webdev",
@@ -12666,6 +12681,12 @@
       ],
       "updates": [
         {
+          "date": "2026-10-19",
+          "type": "feature",
+          "summary": "Quarterly contributor outreach",
+          "source": "https://www.djangoproject.com/weblog/2026/oct/19/quarterly-contributor-outreach/"
+        },
+        {
           "date": "2026-10-06",
           "type": "release",
           "summary": "发布 6.1.2: Django security releases issued: 6.1.2, 6.0.9, and 5.2.18",
@@ -12721,7 +12742,7 @@
       "sources": [
         "https://www.djangoproject.com"
       ],
-      "lastReviewed": "2026-10-07",
+      "lastReviewed": "2026-10-20",
       "region": "overseas",
       "id": "django",
       "name": "Django",
@@ -16825,6 +16846,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-19",
+          "type": "release",
+          "summary": "发布 6.1.0: 新版本",
+          "version": "6.1.0",
+          "source": "https://github.com/formbricks/formbricks/releases/tag/6.1.0"
+        },
+        {
           "date": "2026-09-29",
           "type": "release",
           "summary": "发布 6.0.1: 新版本",
@@ -16857,7 +16885,7 @@
       "sources": [
         "https://formbricks.com"
       ],
-      "lastReviewed": "2026-09-30",
+      "lastReviewed": "2026-10-20",
       "region": "overseas",
       "id": "formbricks",
       "name": "Formbricks",
@@ -16868,7 +16896,7 @@
       "descriptionMd": "Formbricks 是开源的产品内调研与体验收集工具，可按事件/页面触发问卷，支持云托管与自托管，强调把反馈嵌进产品路径而不是外链问卷页。\n\n需要 NPS/PMF/功能反馈贴在产品会话里、并在意数据驻留时评估；对外营销落地页表单用 Tally/Typeform 更合适。\n\n外向品牌调研与视觉模板不如 Typeform；自托管仍要做更新与存储运维。\n",
       "vendorId": "formbricks-inc",
       "githubUrl": "https://github.com/formbricks/formbricks",
-      "currentVersion": "5.4.0"
+      "currentVersion": "6.1.0"
     },
     {
       "pricing": {
@@ -17226,6 +17254,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-19",
+          "type": "release",
+          "summary": "发布 12.5.3: fumadocs-openapi@12.5.3",
+          "version": "12.5.3",
+          "source": "https://github.com/fuma-nama/fumadocs/releases/tag/fumadocs-openapi%4012.5.3"
+        },
+        {
           "date": "2026-10-09",
           "type": "release",
           "summary": "发布 5.5.1: fumadocs-typescript@5.5.1",
@@ -17293,7 +17328,7 @@
       "sources": [
         "https://fumadocs.dev"
       ],
-      "lastReviewed": "2026-10-10",
+      "lastReviewed": "2026-10-20",
       "region": "overseas",
       "id": "fumadocs",
       "name": "Fumadocs",
@@ -17787,15 +17822,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 37,
+          "rank": 40,
           "scoreLabel": "0.4%",
           "share": 0.4,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-15",
-          "previousRank": 41,
+          "asOf": "2026-10-20",
+          "previousRank": 37,
           "previousShare": 0.4,
-          "previousAsOf": "2026-10-11"
+          "previousAsOf": "2026-10-15"
         }
       ],
       "sources": [
@@ -17925,15 +17960,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 20,
-          "scoreLabel": "1.2%",
-          "share": 1.2,
+          "rank": 22,
+          "scoreLabel": "1.1%",
+          "share": 1.1,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-19",
-          "previousRank": 19,
+          "asOf": "2026-10-20",
+          "previousRank": 20,
           "previousShare": 1.2,
-          "previousAsOf": "2026-10-16"
+          "previousAsOf": "2026-10-19"
         },
         {
           "systemId": "lmarena-document",
@@ -18467,15 +18502,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 43,
+          "rank": 44,
           "scoreLabel": "0.4%",
           "share": 0.4,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-19",
-          "previousRank": 41,
-          "previousShare": 0.3,
-          "previousAsOf": "2026-10-15"
+          "asOf": "2026-10-20",
+          "previousRank": 43,
+          "previousShare": 0.4,
+          "previousAsOf": "2026-10-19"
         }
       ],
       "sources": [
@@ -18754,6 +18789,12 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-10-16",
+          "type": "feature",
+          "summary": "Xcode 27 runner image generally available",
+          "source": "https://github.blog/changelog/2026-10-15-xcode-27-runner-image-generally-available"
+        },
+        {
           "date": "2026-10-02",
           "type": "feature",
           "summary": "Stateless GitHub App installation tokens rolled out",
@@ -18782,7 +18823,7 @@
       "sources": [
         "https://github.com/features/actions"
       ],
-      "lastReviewed": "2026-10-03",
+      "lastReviewed": "2026-10-20",
       "region": "overseas",
       "id": "github-actions",
       "name": "GitHub Actions",
@@ -20351,15 +20392,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 6,
-          "scoreLabel": "4.1%",
-          "share": 4.1,
+          "rank": 8,
+          "scoreLabel": "4.2%",
+          "share": 4.2,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-19",
-          "previousRank": 7,
-          "previousShare": 4.4,
-          "previousAsOf": "2026-10-13"
+          "asOf": "2026-10-20",
+          "previousRank": 6,
+          "previousShare": 4.1,
+          "previousAsOf": "2026-10-19"
         }
       ],
       "subcategory": "line",
@@ -20747,6 +20788,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-19",
+          "type": "release",
+          "summary": "发布 7.2.1: 新版本",
+          "version": "7.2.1",
+          "source": "https://github.com/Graylog2/graylog2-server/releases/tag/7.2.1"
+        },
+        {
           "date": "2026-10-07",
           "type": "release",
           "summary": "发布 7.1.10: 新版本",
@@ -20779,7 +20827,7 @@
       "sources": [
         "https://graylog.org"
       ],
-      "lastReviewed": "2026-10-08",
+      "lastReviewed": "2026-10-20",
       "region": "overseas",
       "id": "graylog",
       "name": "Graylog",
@@ -21912,6 +21960,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-20",
+          "type": "release",
+          "summary": "发布 5.0: 新版本",
+          "version": "5.0",
+          "source": "https://github.com/healthchecks/healthchecks/releases/tag/v5.0"
+        },
+        {
           "date": "2026-08-31",
           "type": "release",
           "summary": "发布 4.4: 新版本",
@@ -21923,7 +21978,7 @@
       "sources": [
         "https://healthchecks.io"
       ],
-      "lastReviewed": "2026-08-31",
+      "lastReviewed": "2026-10-20",
       "region": "overseas",
       "id": "healthchecks-io",
       "name": "Healthchecks.io",
@@ -21934,7 +21989,7 @@
       "descriptionMd": "Healthchecks.io 是专注定时任务心跳的开源项目：给每个作业分配一个 URL，脚本跑完 curl 一下即可，逾期未报到就触发通知，托管版与自托管版功能基本一致。\n\n运维脚本、备份任务与数据管道需要「没跑就告警」的兜底时接入成本最低；要一并管理网站拨测与状态页，再叠 UptimeRobot 或 Cronitor。\n\n只覆盖心跳这一件事，不做浏览器流程与深层探测；自托管版本需要自己保证告警通道与数据库可用，否则监控系统自身成了盲区。\n",
       "vendorId": "healthchecks-io-inc",
       "githubUrl": "https://github.com/healthchecks/healthchecks",
-      "currentVersion": "4.4"
+      "currentVersion": "5.0"
     },
     {
       "pricing": {
@@ -22681,6 +22736,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-19",
+          "type": "release",
+          "summary": "发布 7.0.10: 新版本",
+          "version": "7.0.10",
+          "source": "https://github.com/Homebrew/brew/releases/tag/7.0.10"
+        },
+        {
           "date": "2026-10-05",
           "type": "release",
           "summary": "发布 7.0.8: 新版本",
@@ -22734,7 +22796,7 @@
       "sources": [
         "https://brew.sh"
       ],
-      "lastReviewed": "2026-10-06",
+      "lastReviewed": "2026-10-20",
       "region": "overseas",
       "id": "homebrew",
       "name": "Homebrew",
@@ -26034,15 +26096,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 17,
-          "scoreLabel": "1.5%",
-          "share": 1.5,
+          "rank": 18,
+          "scoreLabel": "1.4%",
+          "share": 1.4,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-19",
-          "previousRank": 16,
-          "previousShare": 1.4,
-          "previousAsOf": "2026-10-13"
+          "asOf": "2026-10-20",
+          "previousRank": 17,
+          "previousShare": 1.5,
+          "previousAsOf": "2026-10-19"
         },
         {
           "systemId": "lmarena-vision",
@@ -29670,6 +29732,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-19",
+          "type": "release",
+          "summary": "发布 4.1.1: [BugFix][Clay] Correct TTText placeholder middle alignment",
+          "version": "4.1.1",
+          "source": "https://github.com/lynx-family/lynx/releases/tag/4.1.1"
+        },
+        {
           "date": "2026-09-07",
           "type": "release",
           "summary": "发布 4.1.0: 新版本",
@@ -29682,7 +29751,7 @@
         "https://lynxjs.org",
         "https://github.com/lynx-family/lynx"
       ],
-      "lastReviewed": "2026-09-10",
+      "lastReviewed": "2026-10-20",
       "region": "both",
       "id": "lynx",
       "name": "Lynx",
@@ -31789,15 +31858,15 @@
       "rankings": [
         {
           "systemId": "openrouter-popularity",
-          "rank": 4,
-          "scoreLabel": "7.2%",
-          "share": 7.2,
+          "rank": 3,
+          "scoreLabel": "6.5%",
+          "share": 6.5,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-13",
-          "previousRank": 3,
+          "asOf": "2026-10-20",
+          "previousRank": 4,
           "previousShare": 7.2,
-          "previousAsOf": "2026-10-11"
+          "previousAsOf": "2026-10-13"
         },
         {
           "systemId": "artificial-analysis-index",
@@ -35825,6 +35894,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-20",
+          "type": "release",
+          "summary": "发布 1.1.2: Release v1.1.2",
+          "version": "1.1.2",
+          "source": "https://github.com/openobserve/openobserve/releases/tag/v1.1.2"
+        },
+        {
           "date": "2026-10-08",
           "type": "release",
           "summary": "发布 1.1.0-rc2: Release v1.1.0-rc2",
@@ -35871,7 +35947,7 @@
       "sources": [
         "https://openobserve.ai"
       ],
-      "lastReviewed": "2026-10-10",
+      "lastReviewed": "2026-10-20",
       "region": "overseas",
       "id": "openobserve",
       "name": "OpenObserve",
@@ -38110,6 +38186,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-19",
+          "type": "release",
+          "summary": "发布 1.13.0: 新版本",
+          "version": "1.13.0",
+          "source": "https://github.com/pipecat-ai/pipecat/releases/tag/v1.13.0"
+        },
+        {
           "date": "2026-09-26",
           "type": "release",
           "summary": "发布 1.12.0: 新版本",
@@ -38135,7 +38218,7 @@
       "sources": [
         "https://github.com/pipecat-ai/pipecat"
       ],
-      "lastReviewed": "2026-09-27",
+      "lastReviewed": "2026-10-20",
       "region": "overseas",
       "id": "pipecat",
       "name": "Pipecat",
@@ -38146,7 +38229,7 @@
       "descriptionMd": "Pipecat 是面向实时语音与多模态 Agent 的开源 Python 编排框架，用帧管道组合 STT/LLM/TTS 或原生 Realtime 模型，可由 Daily 提供 Pipecat Cloud；与 LiveKit Agents 同属「自建编排」选型层。\n\n要自选模型组合、多 Agent 交接、或把 OpenAI/Gemini/Cartesia 等拼成生产管线时优先；电话可用 SIP/PSTN 扩展。\n\n自托管需运维与可观测；只要「一键电话 Agent」可先看 Vapi/Retell/Bland。\n",
       "vendorId": "daily-co",
       "githubUrl": "https://github.com/pipecat-ai/pipecat",
-      "currentVersion": "1.12.0"
+      "currentVersion": "1.13.0"
     },
     {
       "pricing": {
@@ -40216,6 +40299,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-19",
+          "type": "release",
+          "summary": "发布 3.40.1.1: 新版本",
+          "version": "3.40.1.1",
+          "source": "https://github.com/quarkusio/quarkus/releases/tag/3.40.1.1"
+        },
+        {
           "date": "2026-09-29",
           "type": "release",
           "summary": "发布 3.40.1: 新版本",
@@ -40255,7 +40345,7 @@
       "sources": [
         "https://quarkus.io"
       ],
-      "lastReviewed": "2026-09-30",
+      "lastReviewed": "2026-10-20",
       "region": "overseas",
       "id": "quarkus",
       "name": "Quarkus",
@@ -40266,7 +40356,7 @@
       "descriptionMd": "Quarkus 是 Red Hat 主导的云原生 Java 框架，把大量工作前移到构建期并支持 GraalVM 原生镜像，显著压低启动时间与内存占用，同时保留 CDI、JAX-RS 等标准写法。\n\nJava 栈要上 Kubernetes、在意容器密度与冷启动，或想做函数计算时评估；常规单体与人才储备仍以 Spring Boot 为主。\n\n原生镜像编译耗时且对反射敏感，部分老库需额外配置；第三方能力需走官方 extension，生态广度不及 Spring。\n",
       "vendorId": "red-hat",
       "githubUrl": "https://github.com/quarkusio/quarkus",
-      "currentVersion": "3.40.0.CR1"
+      "currentVersion": "3.40.1.1"
     },
     {
       "pricing": {
@@ -40611,15 +40701,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 30,
-          "scoreLabel": "0.5%",
-          "share": 0.5,
+          "rank": 32,
+          "scoreLabel": "0.6%",
+          "share": 0.6,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-19",
-          "previousRank": 44,
-          "previousShare": 0.3,
-          "previousAsOf": "2026-10-15"
+          "asOf": "2026-10-20",
+          "previousRank": 30,
+          "previousShare": 0.5,
+          "previousAsOf": "2026-10-19"
         },
         {
           "systemId": "lmarena-vision",
@@ -41798,6 +41888,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-19",
+          "type": "release",
+          "summary": "发布 26.2.2: 新版本",
+          "version": "26.2.2",
+          "source": "https://github.com/redpanda-data/redpanda/releases/tag/v26.2.2"
+        },
+        {
           "date": "2026-08-20",
           "type": "release",
           "summary": "发布 26.1.17: 新版本",
@@ -41823,7 +41920,7 @@
       "sources": [
         "https://www.redpanda.com"
       ],
-      "lastReviewed": "2026-08-20",
+      "lastReviewed": "2026-10-20",
       "region": "overseas",
       "id": "redpanda",
       "name": "Redpanda",
@@ -45196,15 +45293,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 27,
+          "rank": 25,
           "scoreLabel": "0.7%",
           "share": 0.7,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-19",
-          "previousRank": 29,
-          "previousShare": 0.6,
-          "previousAsOf": "2026-10-12"
+          "asOf": "2026-10-20",
+          "previousRank": 27,
+          "previousShare": 0.7,
+          "previousAsOf": "2026-10-19"
         }
       ],
       "sources": [
@@ -46389,15 +46486,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 3,
-          "scoreLabel": "7.6%",
-          "share": 7.6,
+          "rank": 4,
+          "scoreLabel": "5.5%",
+          "share": 5.5,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-19",
-          "previousRank": 2,
-          "previousShare": 11.3,
-          "previousAsOf": "2026-10-15"
+          "asOf": "2026-10-20",
+          "previousRank": 3,
+          "previousShare": 7.6,
+          "previousAsOf": "2026-10-19"
         },
         {
           "systemId": "lmarena-webdev",
@@ -51625,6 +51722,13 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-10-20",
+          "type": "release",
+          "summary": "发布 3.0.36: @ai-sdk/zai@3.0.36",
+          "version": "3.0.36",
+          "source": "https://github.com/vercel/ai/releases/tag/%40ai-sdk%2Fzai%403.0.36"
+        },
+        {
           "date": "2026-10-12",
           "type": "release",
           "summary": "发布 3.0.30: @ai-sdk/zai@3.0.30",
@@ -51699,7 +51803,7 @@
       "sources": [
         "https://sdk.vercel.ai"
       ],
-      "lastReviewed": "2026-10-13",
+      "lastReviewed": "2026-10-20",
       "region": "overseas",
       "id": "vercel-ai-sdk",
       "name": "Vercel AI SDK",
@@ -52014,6 +52118,13 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-10-20",
+          "type": "release",
+          "summary": "发布 9.3.1: create-vite@9.3.1",
+          "version": "9.3.1",
+          "source": "https://github.com/vitejs/vite/releases/tag/create-vite%409.3.1"
+        },
+        {
           "date": "2026-10-06",
           "type": "release",
           "summary": "发布 8.3.3: 新版本",
@@ -52053,7 +52164,7 @@
       "sources": [
         "https://vite.dev"
       ],
-      "lastReviewed": "2026-10-07",
+      "lastReviewed": "2026-10-20",
       "region": "overseas",
       "id": "vite",
       "name": "Vite",

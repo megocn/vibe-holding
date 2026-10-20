@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-19",
+      "type": "release",
+      "summary": "发布 4.1.1: [BugFix][Clay] Correct TTText placeholder middle alignment",
+      "version": "4.1.1",
+      "source": "https://github.com/lynx-family/lynx/releases/tag/4.1.1"
+    },
+    {
       "date": "2026-09-07",
       "type": "release",
       "summary": "发布 4.1.0: 新版本",
@@ -35,7 +42,7 @@
     "https://lynxjs.org",
     "https://github.com/lynx-family/lynx"
   ],
-  "lastReviewed": "2026-09-10",
+  "lastReviewed": "2026-10-20",
   "region": "both",
   "id": "lynx",
   "name": "Lynx",

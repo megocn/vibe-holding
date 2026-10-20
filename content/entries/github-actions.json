@@ -18,6 +18,12 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-10-16",
+      "type": "feature",
+      "summary": "Xcode 27 runner image generally available",
+      "source": "https://github.blog/changelog/2026-10-15-xcode-27-runner-image-generally-available"
+    },
+    {
       "date": "2026-10-02",
       "type": "feature",
       "summary": "Stateless GitHub App installation tokens rolled out",
@@ -46,7 +52,7 @@
   "sources": [
     "https://github.com/features/actions"
   ],
-  "lastReviewed": "2026-10-03",
+  "lastReviewed": "2026-10-20",
   "region": "overseas",
   "id": "github-actions",
   "name": "GitHub Actions",
