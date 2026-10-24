@@ -17,6 +17,12 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-10-22",
+      "type": "feature",
+      "summary": "Security Update on PHP2Shell: Impact for Docker Customers",
+      "source": "https://www.docker.com/blog/security-update-on-php2shell-impact-for-docker-customers/"
+    },
+    {
       "date": "2026-10-12",
       "type": "feature",
       "summary": "Docker Hub security advisory: personal access tokens transferred during account-to-organization conversions",
@@ -69,7 +75,7 @@
   "sources": [
     "https://www.docker.com"
   ],
-  "lastReviewed": "2026-10-13",
+  "lastReviewed": "2026-10-24",
   "region": "overseas",
   "id": "docker",
   "name": "Docker",

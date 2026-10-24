@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-23",
+      "type": "release",
+      "summary": "发布 2.142.1: 新版本",
+      "version": "2.142.1",
+      "source": "https://github.com/docling-project/docling/releases/tag/v2.142.1"
+    },
+    {
       "date": "2026-10-14",
       "type": "release",
       "summary": "发布 2.139.0: 新版本",
@@ -82,7 +89,7 @@
   "sources": [
     "https://github.com/docling-project/docling"
   ],
-  "lastReviewed": "2026-10-15",
+  "lastReviewed": "2026-10-24",
   "region": "overseas",
   "id": "docling",
   "name": "Docling",

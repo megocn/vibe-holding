@@ -17,6 +17,12 @@
   ],
   "updates": [
     {
+      "date": "2026-10-23",
+      "type": "feature",
+      "summary": "From running edge-rendered Angular apps on Cloudflare Workers to crafting lifelike speech with…",
+      "source": "https://blog.angular.dev/from-running-edge-rendered-angular-apps-on-cloudflare-workers-to-crafting-lifelike-speech-with-67513b4b85e1?source=rss----447683c3d9a3---4"
+    },
+    {
       "date": "2026-10-09",
       "type": "feature",
       "summary": "Signal Value Transforms, Routing Essentials, and Video Extension with Veo! ⚡",
@@ -67,7 +73,7 @@
   "sources": [
     "https://angular.dev"
   ],
-  "lastReviewed": "2026-10-10",
+  "lastReviewed": "2026-10-24",
   "region": "overseas",
   "id": "angular",
   "name": "Angular",

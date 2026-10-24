@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-22",
+      "type": "release",
+      "summary": "发布 8.2.1: 新版本",
+      "version": "8.2.1",
+      "source": "https://github.com/Unleash/unleash/releases/tag/v8.2.1"
+    },
+    {
       "date": "2026-09-08",
       "type": "release",
       "summary": "发布 8.2.0: 新版本",
@@ -34,7 +41,7 @@
   "sources": [
     "https://www.getunleash.io"
   ],
-  "lastReviewed": "2026-09-10",
+  "lastReviewed": "2026-10-24",
   "region": "overseas",
   "id": "unleash",
   "name": "Unleash",

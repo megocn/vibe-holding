@@ -23,6 +23,12 @@
   ],
   "updates": [
     {
+      "date": "2026-10-23",
+      "type": "feature",
+      "summary": "Vercel CLI adds Spend Management",
+      "source": "https://vercel.com/changelog/vercel-cli-adds-spend-management"
+    },
+    {
       "date": "2026-10-13",
       "type": "feature",
       "summary": "Drama 3 now available on AI Gateway",
@@ -93,7 +99,7 @@
   "sources": [
     "https://vercel.com"
   ],
-  "lastReviewed": "2026-10-14",
+  "lastReviewed": "2026-10-24",
   "region": "overseas",
   "id": "vercel",
   "name": "Vercel",

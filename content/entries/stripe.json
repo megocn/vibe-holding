@@ -22,6 +22,12 @@
   ],
   "updates": [
     {
+      "date": "2026-10-22",
+      "type": "feature",
+      "summary": "Trends from Money20/20 2026: The rise of “hidden” financial services",
+      "source": "https://stripe.com/blog/trends-from-money20-20-2026-the-rise-of-hidden-financial-services"
+    },
+    {
       "date": "2026-10-13",
       "type": "feature",
       "summary": "The “alien” economics of AI monetization",
@@ -49,7 +55,7 @@
   "sources": [
     "https://stripe.com"
   ],
-  "lastReviewed": "2026-10-14",
+  "lastReviewed": "2026-10-24",
   "region": "overseas",
   "id": "stripe",
   "name": "Stripe",

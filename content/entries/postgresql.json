@@ -21,6 +21,12 @@
   ],
   "updates": [
     {
+      "date": "2026-10-22",
+      "type": "feature",
+      "summary": "pgrecon: open-source Oracle to PostgreSQL migration assessment and schema conversion",
+      "source": "https://www.postgresql.org/about/news/pgrecon-open-source-oracle-to-postgresql-migration-assessment-and-schema-conversion-3410/"
+    },
+    {
       "date": "2026-10-05",
       "type": "release",
       "summary": "发布 1.16: pg_ivm 1.16 released",
@@ -64,7 +70,7 @@
   "sources": [
     "https://www.postgresql.org"
   ],
-  "lastReviewed": "2026-10-06",
+  "lastReviewed": "2026-10-24",
   "region": "overseas",
   "id": "postgresql",
   "name": "PostgreSQL",

@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-22",
+      "type": "release",
+      "summary": "发布 0.3.35: vdev-v0.3.35",
+      "version": "0.3.35",
+      "source": "https://github.com/vectordotdev/vector/releases/tag/vdev-v0.3.35"
+    },
+    {
       "date": "2026-10-13",
       "type": "release",
       "summary": "发布 0.3.31: vdev-v0.3.31",
@@ -69,7 +76,7 @@
   "sources": [
     "https://vector.dev"
   ],
-  "lastReviewed": "2026-10-14",
+  "lastReviewed": "2026-10-24",
   "region": "overseas",
   "id": "vector-dev",
   "name": "Vector",

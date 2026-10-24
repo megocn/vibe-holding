@@ -146,6 +146,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-23",
+          "type": "release",
+          "summary": "发布 0.92.3-hotfix.1: 新版本",
+          "version": "0.92.3-hotfix.1",
+          "source": "https://github.com/activepieces/activepieces/releases/tag/0.92.3-hotfix.1"
+        },
+        {
           "date": "2026-10-07",
           "type": "release",
           "summary": "发布 0.92.2: 新版本",
@@ -206,7 +213,7 @@
       "sources": [
         "https://www.activepieces.com"
       ],
-      "lastReviewed": "2026-10-08",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "activepieces",
       "name": "Activepieces",
@@ -217,7 +224,7 @@
       "descriptionMd": "Activepieces 是开源的业务自动化平台，提供流动画布与可扩展 pieces（连接器），可云可自托管，定位为 Zapier/Make 的可自掌控替代，方便团队按需写自定义片段。\n\n要数据驻留或二次开发连接器、又希望界面仍面向运营同学时评估；纯最广 SaaS 目录先 Zapier。\n\n连接器广度仍追头部；生产自托管要自己做高可用与密钥治理。\n",
       "vendorId": "activepieces-inc",
       "githubUrl": "https://github.com/activepieces/activepieces",
-      "currentVersion": "0.87.1-hotfix.4"
+      "currentVersion": "0.92.3-hotfix.1"
     },
     {
       "pricing": {
@@ -569,6 +576,12 @@
       ],
       "updates": [
         {
+          "date": "2026-10-22",
+          "type": "feature",
+          "summary": "Affiliate Marketing: What It Is & How to Start in 2026",
+          "source": "https://ahrefs.com/blog/affiliate-marketing/"
+        },
+        {
           "date": "2026-10-12",
           "type": "feature",
           "summary": "How ChatGPT Does Query Fan-Out (15 Million Queries Studied)",
@@ -609,7 +622,7 @@
       "sources": [
         "https://ahrefs.com"
       ],
-      "lastReviewed": "2026-10-13",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "ahrefs",
       "name": "Ahrefs",
@@ -1741,6 +1754,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-22",
+          "type": "release",
+          "summary": "发布 3.5.0: 新版本",
+          "version": "3.5.0",
+          "source": "https://github.com/altcha-org/altcha/releases/tag/v3.5.0"
+        },
+        {
           "date": "2026-10-15",
           "type": "release",
           "summary": "发布 3.4.0: 新版本",
@@ -1774,7 +1794,7 @@
         "https://altcha.org",
         "https://github.com/altcha-org/altcha"
       ],
-      "lastReviewed": "2026-10-16",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "altcha",
       "name": "ALTCHA",
@@ -1784,7 +1804,7 @@
       "officialUrl": "https://altcha.org",
       "descriptionMd": "ALTCHA 是开源的工作量证明人机验证组件，前端 widget 与服务端校验库都能自托管，默认不发起第三方请求、不写 Cookie，也提供可选的托管服务与插件。\n\n自建可控、不愿把用户请求交给第三方验证码厂商，或有数据本地化要求时选它；代价是防护调优与运维要自己承担。\n\n它只抬高脚本成本，挡不住有算力的定向刷量；开源项目的迭代与安全响应依赖社区，生产使用前要盯紧版本与依赖更新。\n",
       "githubUrl": "https://github.com/altcha-org/altcha",
-      "currentVersion": "3.4.0"
+      "currentVersion": "3.5.0"
     },
     {
       "pricing": {
@@ -2176,6 +2196,12 @@
       ],
       "updates": [
         {
+          "date": "2026-10-23",
+          "type": "feature",
+          "summary": "From running edge-rendered Angular apps on Cloudflare Workers to crafting lifelike speech with…",
+          "source": "https://blog.angular.dev/from-running-edge-rendered-angular-apps-on-cloudflare-workers-to-crafting-lifelike-speech-with-67513b4b85e1?source=rss----447683c3d9a3---4"
+        },
+        {
           "date": "2026-10-09",
           "type": "feature",
           "summary": "Signal Value Transforms, Routing Essentials, and Video Extension with Veo! ⚡",
@@ -2226,7 +2252,7 @@
       "sources": [
         "https://angular.dev"
       ],
-      "lastReviewed": "2026-10-10",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "angular",
       "name": "Angular",
@@ -3071,6 +3097,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-21",
+          "type": "release",
+          "summary": "发布 2.5.1: Release v2.5.1 🌈",
+          "version": "2.5.1",
+          "source": "https://github.com/appsmithorg/appsmith/releases/tag/v2.5.1"
+        },
+        {
           "date": "2026-10-09",
           "type": "release",
           "summary": "发布 2.5.0: Release v2.5.0 🌈",
@@ -3103,7 +3136,7 @@
       "sources": [
         "https://www.appsmith.com"
       ],
-      "lastReviewed": "2026-10-10",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "appsmith",
       "name": "Appsmith",
@@ -6443,6 +6476,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-22",
+          "type": "release",
+          "summary": "发布 1.4.4: Bun v1.4.4",
+          "version": "1.4.4",
+          "source": "https://bun.com/blog/bun-v1.4.4"
+        },
+        {
           "date": "2026-10-10",
           "type": "release",
           "summary": "发布 1.4.3: Bun v1.4.3",
@@ -6461,7 +6501,7 @@
       "sources": [
         "https://bun.sh"
       ],
-      "lastReviewed": "2026-10-11",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "bun",
       "name": "Bun",
@@ -7902,15 +7942,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 17,
-          "scoreLabel": "1.4%",
-          "share": 1.4,
+          "rank": 16,
+          "scoreLabel": "1.6%",
+          "share": 1.6,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-20",
-          "previousRank": 18,
-          "previousShare": 1.2,
-          "previousAsOf": "2026-10-16"
+          "asOf": "2026-10-24",
+          "previousRank": 17,
+          "previousShare": 1.4,
+          "previousAsOf": "2026-10-20"
         }
       ],
       "sources": [
@@ -8095,15 +8135,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 7,
-          "scoreLabel": "4.1%",
-          "share": 4.1,
+          "rank": 6,
+          "scoreLabel": "4.8%",
+          "share": 4.8,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-19",
-          "previousRank": 8,
-          "previousShare": 3.2,
-          "previousAsOf": "2026-10-12"
+          "asOf": "2026-10-24",
+          "previousRank": 7,
+          "previousShare": 4.1,
+          "previousAsOf": "2026-10-19"
         },
         {
           "systemId": "swe-bench-pro",
@@ -8227,15 +8267,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 16,
+          "rank": 17,
           "scoreLabel": "1.6%",
           "share": 1.6,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-19",
-          "previousRank": 15,
+          "asOf": "2026-10-24",
+          "previousRank": 16,
           "previousShare": 1.6,
-          "previousAsOf": "2026-10-14"
+          "previousAsOf": "2026-10-19"
         },
         {
           "systemId": "lmarena-text",
@@ -9851,6 +9891,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-23",
+          "type": "release",
+          "summary": "发布 1.13.10-alpha01: +dev5041: Details",
+          "version": "1.13.10-alpha01",
+          "source": "https://github.com/JetBrains/compose-multiplatform/releases/tag/v1.13.10-alpha01%2Bdev5041"
+        },
+        {
           "date": "2026-09-28",
           "type": "release",
           "summary": "发布 1.12.2: +dev4886: Details",
@@ -9904,7 +9951,7 @@
       "sources": [
         "https://github.com/JetBrains/compose-multiplatform"
       ],
-      "lastReviewed": "2026-09-29",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "compose-multiplatform",
       "name": "Compose Multiplatform",
@@ -9915,7 +9962,7 @@
       "descriptionMd": "Compose Multiplatform 由 JetBrains 把 Android 的 Jetpack Compose 延伸到 iOS、桌面与 Web，在 Kotlin Multiplatform 的共享逻辑之上再共享一层声明式界面。\n\n已选 KMP、团队熟悉 Compose 且希望界面也复用时评估；只想共享逻辑、界面保留原生的项目留在 KMP 即可。\n\niOS 与 Web 目标的成熟度落后于 Android 与桌面；自绘 UI 与系统控件、无障碍能力的融合需逐项验证。\n",
       "vendorId": "jetbrains",
       "githubUrl": "https://github.com/JetBrains/compose-multiplatform",
-      "currentVersion": "1.13.0-alpha02"
+      "currentVersion": "1.13.10-alpha01"
     },
     {
       "pricing": {
@@ -11994,14 +12041,14 @@
         {
           "systemId": "openrouter-popularity",
           "rank": 1,
-          "scoreLabel": "20%",
-          "share": 20,
+          "scoreLabel": "16.1%",
+          "share": 16.1,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-20",
+          "asOf": "2026-10-24",
           "previousRank": 1,
-          "previousShare": 22.6,
-          "previousAsOf": "2026-10-15"
+          "previousShare": 20,
+          "previousAsOf": "2026-10-20"
         },
         {
           "systemId": "lmarena-webdev",
@@ -12592,6 +12639,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-23",
+          "type": "release",
+          "summary": "发布 2026.10.0-latest.1: 新版本",
+          "version": "2026.10.0-latest.1",
+          "source": "https://github.com/discourse/discourse/releases/tag/v2026.10.0-latest.1"
+        },
+        {
           "date": "2026-10-15",
           "type": "feature",
           "summary": "stable",
@@ -12650,7 +12704,7 @@
       "sources": [
         "https://www.discourse.org"
       ],
-      "lastReviewed": "2026-10-15",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "discourse",
       "name": "Discourse",
@@ -12660,7 +12714,8 @@
       "officialUrl": "https://www.discourse.org",
       "descriptionMd": "Discourse 是开源论坛平台：主题式讨论、信任等级、搜索与 SEO 友好的永久链接，可官方托管也可自托管，是「可被搜索的社区知识库」常见选型。\n\n要公开/半公开问答、文档站并行、可自持数据与主题定制时优先；会员付费圈与课程社群可看 Circle，实时语音聊天看 Discord。\n\n运维与主题定制成本高于闭源 SaaS；实时语音与轻聊不是强项。\n",
       "vendorId": "discourse-inc",
-      "githubUrl": "https://github.com/discourse/discourse"
+      "githubUrl": "https://github.com/discourse/discourse",
+      "currentVersion": "2026.10.0-latest.1"
     },
     {
       "pricing": {
@@ -12806,6 +12861,12 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-10-22",
+          "type": "feature",
+          "summary": "Security Update on PHP2Shell: Impact for Docker Customers",
+          "source": "https://www.docker.com/blog/security-update-on-php2shell-impact-for-docker-customers/"
+        },
+        {
           "date": "2026-10-12",
           "type": "feature",
           "summary": "Docker Hub security advisory: personal access tokens transferred during account-to-organization conversions",
@@ -12858,7 +12919,7 @@
       "sources": [
         "https://www.docker.com"
       ],
-      "lastReviewed": "2026-10-13",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "docker",
       "name": "Docker",
@@ -12907,6 +12968,13 @@
         "企业预置发票/证件模型不如 Azure/AWS；极端扫描件需另配 OCR 引擎。"
       ],
       "updates": [
+        {
+          "date": "2026-10-23",
+          "type": "release",
+          "summary": "发布 2.142.1: 新版本",
+          "version": "2.142.1",
+          "source": "https://github.com/docling-project/docling/releases/tag/v2.142.1"
+        },
         {
           "date": "2026-10-14",
           "type": "release",
@@ -12968,7 +13036,7 @@
       "sources": [
         "https://github.com/docling-project/docling"
       ],
-      "lastReviewed": "2026-10-15",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "docling",
       "name": "Docling",
@@ -13234,6 +13302,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-21",
+          "type": "release",
+          "summary": "发布 10.0.120: 新版本",
+          "version": "10.0.120",
+          "source": "https://github.com/dotnet/maui/releases/tag/10.0.120"
+        },
+        {
           "date": "2026-09-22",
           "type": "release",
           "summary": "发布 10.0.110: 新版本",
@@ -13252,7 +13327,7 @@
       "sources": [
         "https://github.com/dotnet/maui"
       ],
-      "lastReviewed": "2026-09-23",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "dotnet-maui",
       "name": ".NET MAUI",
@@ -14104,6 +14179,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-23",
+          "type": "release",
+          "summary": "发布 5.4.2: 新版本",
+          "version": "5.4.2",
+          "source": "https://github.com/labstack/echo/releases/tag/v5.4.2"
+        },
+        {
           "date": "2026-10-07",
           "type": "release",
           "summary": "发布 4.16.0: 新版本",
@@ -14122,7 +14204,7 @@
       "sources": [
         "https://echo.labstack.com"
       ],
-      "lastReviewed": "2026-10-08",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "echo-go",
       "name": "Echo",
@@ -14297,6 +14379,12 @@
       ],
       "updates": [
         {
+          "date": "2026-10-21",
+          "type": "feature",
+          "summary": "Electron 45",
+          "source": "https://electronjs.org/blog/electron-45-0"
+        },
+        {
           "date": "2026-10-14",
           "type": "release",
           "summary": "维护线 44 最新 44.7.2",
@@ -14357,7 +14445,7 @@
       "sources": [
         "https://www.electronjs.org"
       ],
-      "lastReviewed": "2026-10-15",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "electron",
       "name": "Electron",
@@ -15430,6 +15518,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-23",
+          "type": "release",
+          "summary": "发布 2.52.16: 新版本",
+          "version": "2.52.16",
+          "source": "https://github.com/gofiber/fiber/releases/tag/v2.52.16"
+        },
+        {
           "date": "2026-10-12",
           "type": "release",
           "summary": "发布 3.6.0: 新版本",
@@ -15448,7 +15543,7 @@
       "sources": [
         "https://gofiber.io"
       ],
-      "lastReviewed": "2026-10-13",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "fiber-go",
       "name": "Fiber",
@@ -16449,6 +16544,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-21",
+          "type": "release",
+          "summary": "发布 5.1.5: Fluent Bit 5.1.5",
+          "version": "5.1.5",
+          "source": "https://github.com/fluent/fluent-bit/releases/tag/v5.1.5"
+        },
+        {
           "date": "2026-10-09",
           "type": "release",
           "summary": "发布 5.0.11: Fluent Bit 5.0.11",
@@ -16474,7 +16576,7 @@
       "sources": [
         "https://fluentbit.io"
       ],
-      "lastReviewed": "2026-10-10",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "fluent-bit",
       "name": "Fluent Bit",
@@ -17960,15 +18062,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 22,
-          "scoreLabel": "1.1%",
-          "share": 1.1,
+          "rank": 23,
+          "scoreLabel": "0.9%",
+          "share": 0.9,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-20",
-          "previousRank": 20,
-          "previousShare": 1.2,
-          "previousAsOf": "2026-10-19"
+          "asOf": "2026-10-24",
+          "previousRank": 22,
+          "previousShare": 1.1,
+          "previousAsOf": "2026-10-20"
         },
         {
           "systemId": "lmarena-document",
@@ -18331,15 +18433,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 45,
-          "scoreLabel": "0.2%",
-          "share": 0.2,
-          "period": "2026-09",
+          "rank": 28,
+          "scoreLabel": "0.6%",
+          "share": 0.6,
+          "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-09-02",
-          "previousRank": 43,
-          "previousShare": 0.3,
-          "previousAsOf": "2026-08-22"
+          "asOf": "2026-10-24",
+          "previousRank": 45,
+          "previousShare": 0.2,
+          "previousAsOf": "2026-09-02"
         }
       ],
       "subcategory": "line",
@@ -18502,15 +18604,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 44,
-          "scoreLabel": "0.4%",
-          "share": 0.4,
+          "rank": 38,
+          "scoreLabel": "0.3%",
+          "share": 0.3,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-20",
-          "previousRank": 43,
+          "asOf": "2026-10-24",
+          "previousRank": 44,
           "previousShare": 0.4,
-          "previousAsOf": "2026-10-19"
+          "previousAsOf": "2026-10-20"
         }
       ],
       "sources": [
@@ -19126,15 +19228,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 2,
-          "scoreLabel": "8.1%",
-          "share": 8.1,
+          "rank": 4,
+          "scoreLabel": "7.2%",
+          "share": 7.2,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-19",
-          "previousRank": 3,
-          "previousShare": 7.8,
-          "previousAsOf": "2026-10-14"
+          "asOf": "2026-10-24",
+          "previousRank": 2,
+          "previousShare": 8.1,
+          "previousAsOf": "2026-10-19"
         },
         {
           "systemId": "lmarena-document",
@@ -21022,15 +21124,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 40,
-          "scoreLabel": "0.3%",
-          "share": 0.3,
+          "rank": 46,
+          "scoreLabel": "0.2%",
+          "share": 0.2,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-15",
-          "previousRank": 39,
+          "asOf": "2026-10-24",
+          "previousRank": 40,
           "previousShare": 0.3,
-          "previousAsOf": "2026-10-14"
+          "previousAsOf": "2026-10-15"
         }
       ],
       "sources": [
@@ -24774,6 +24876,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-21",
+          "type": "release",
+          "summary": "发布 9.0.9: 新版本",
+          "version": "9.0.9",
+          "source": "https://github.com/ionic-team/ionic-framework/releases/tag/v9.0.9"
+        },
+        {
           "date": "2026-10-14",
           "type": "release",
           "summary": "发布 9.0.8: 新版本",
@@ -24827,7 +24936,7 @@
       "sources": [
         "https://ionicframework.com"
       ],
-      "lastReviewed": "2026-10-15",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "ionic",
       "name": "Ionic",
@@ -26096,15 +26205,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 18,
-          "scoreLabel": "1.4%",
-          "share": 1.4,
+          "rank": 19,
+          "scoreLabel": "1.2%",
+          "share": 1.2,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-20",
-          "previousRank": 17,
-          "previousShare": 1.5,
-          "previousAsOf": "2026-10-19"
+          "asOf": "2026-10-24",
+          "previousRank": 18,
+          "previousShare": 1.4,
+          "previousAsOf": "2026-10-20"
         },
         {
           "systemId": "lmarena-vision",
@@ -27207,6 +27316,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-21",
+          "type": "release",
+          "summary": "发布 1.6.13: langchain-core==1.6.13",
+          "version": "1.6.13",
+          "source": "https://github.com/langchain-ai/langchain/releases/tag/langchain-core%3D%3D1.6.13"
+        },
+        {
           "date": "2026-10-08",
           "type": "release",
           "summary": "发布 1.7.0: langchain-openai==1.7.0",
@@ -27273,7 +27389,7 @@
       "sources": [
         "https://www.langchain.com"
       ],
-      "lastReviewed": "2026-10-10",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "langchain",
       "name": "LangChain",
@@ -28860,6 +28976,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-22",
+          "type": "release",
+          "summary": "发布 2.47.0: 新版本",
+          "version": "2.47.0",
+          "source": "https://github.com/locustio/locust/releases/tag/2.47.0"
+        },
+        {
           "date": "2026-10-04",
           "type": "release",
           "summary": "发布 2.46.7: 新版本",
@@ -28885,7 +29008,7 @@
       "sources": [
         "https://locust.io"
       ],
-      "lastReviewed": "2026-10-06",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "locust",
       "name": "Locust",
@@ -28894,7 +29017,8 @@
       "oneLiner": "Python 写压测行为 · 协程并发 · 自带实时 Web UI",
       "officialUrl": "https://locust.io",
       "descriptionMd": "Locust 用 Python 代码描述用户行为，基于协程驱动并发，自带实时 Web UI 观察并发数与响应分布，支持 master/worker 分布式扩展压力。\n\n团队以 Python 为主、压测逻辑需要复杂分支或复用业务 SDK 时优先；纯接口基准压测用 k6 更轻。\n\n压测机本身可能先于被测服务成为瓶颈；默认 HTTP 客户端性能有限，高压场景需换用更快的客户端实现。\n",
-      "githubUrl": "https://github.com/locustio/locust"
+      "githubUrl": "https://github.com/locustio/locust",
+      "currentVersion": "2.47.0"
     },
     {
       "pricing": {
@@ -31858,15 +31982,15 @@
       "rankings": [
         {
           "systemId": "openrouter-popularity",
-          "rank": 3,
-          "scoreLabel": "6.5%",
-          "share": 6.5,
+          "rank": 7,
+          "scoreLabel": "4.5%",
+          "share": 4.5,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-20",
-          "previousRank": 4,
-          "previousShare": 7.2,
-          "previousAsOf": "2026-10-13"
+          "asOf": "2026-10-24",
+          "previousRank": 3,
+          "previousShare": 6.5,
+          "previousAsOf": "2026-10-20"
         },
         {
           "systemId": "artificial-analysis-index",
@@ -32020,15 +32144,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 23,
-          "scoreLabel": "0.9%",
-          "share": 0.9,
+          "rank": 3,
+          "scoreLabel": "8.3%",
+          "share": 8.3,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-19",
-          "previousRank": 22,
-          "previousShare": 0.8,
-          "previousAsOf": "2026-10-15"
+          "asOf": "2026-10-24",
+          "previousRank": 23,
+          "previousShare": 0.9,
+          "previousAsOf": "2026-10-19"
         },
         {
           "systemId": "lmarena-vision",
@@ -33741,6 +33865,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-23",
+          "type": "release",
+          "summary": "发布 1.6.28-0.71.13: managed-1.6.28-0.71.13-5f6fa37a610b7ba88102f56b3b3a0ed277de299a",
+          "version": "1.6.28-0.71.13",
+          "source": "https://github.com/NangoHQ/nango/releases/tag/managed-1.6.28-0.71.13-5f6fa37a610b7ba88102f56b3b3a0ed277de299a"
+        },
+        {
           "date": "2026-10-09",
           "type": "release",
           "summary": "发布 1.6.25-0.71.12: managed-1.6.25-0.71.12-2d640b65492ee7738cd39fee3b5d7a332273ada3",
@@ -33794,7 +33925,7 @@
       "sources": [
         "https://www.nango.dev"
       ],
-      "lastReviewed": "2026-10-10",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "nango",
       "name": "Nango",
@@ -33805,7 +33936,7 @@
       "descriptionMd": "Nango 帮产品团队在自有 SaaS 内嵌「连接客户 CRM/工单等」的集成：OAuth、字段同步与可自托管管道，开源优先。\n\n你的产品要向客户提供 Salesforce/HubSpot 类双向集成，又不想把集成当成巨型内部项目时选。\n\n这与 Zapier 给最终用户搭自动化不是同一题；连接器覆盖要以目录为准。选型前请以官网能力与定价页为准。\n",
       "vendorId": "nango-inc",
       "githubUrl": "https://github.com/NangoHQ/nango",
-      "currentVersion": "1.6.25-0.71.12"
+      "currentVersion": "1.6.28-0.71.13"
     },
     {
       "pricing": {
@@ -33870,6 +34001,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-22",
+          "type": "release",
+          "summary": "发布 8.0.21: @nativescript/vite@8.0.21",
+          "version": "8.0.21",
+          "source": "https://github.com/NativeScript/NativeScript/releases/tag/8.0.21-vite"
+        },
+        {
           "date": "2026-10-12",
           "type": "release",
           "summary": "发布 8.0.19: @nativescript/vite@8.0.19",
@@ -33909,7 +34047,7 @@
       "sources": [
         "https://nativescript.org"
       ],
-      "lastReviewed": "2026-10-13",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "nativescript",
       "name": "NativeScript",
@@ -34365,6 +34503,13 @@
       "currentVersion": "16.4.0",
       "updates": [
         {
+          "date": "2026-10-23",
+          "type": "release",
+          "summary": "发布 16.4.3: 新版本",
+          "version": "16.4.3",
+          "source": "https://github.com/vercel/next.js/releases/tag/v16.4.3"
+        },
+        {
           "date": "2026-10-14",
           "type": "release",
           "summary": "发布 16.4.1: 新版本",
@@ -34443,7 +34588,7 @@
       "sources": [
         "https://nextjs.org"
       ],
-      "lastReviewed": "2026-10-15",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "nextjs",
       "name": "Next.js",
@@ -34715,6 +34860,13 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-10-21",
+          "type": "release",
+          "summary": "维护线 26 最新 26.12.1",
+          "version": "26.12.1",
+          "source": "https://github.com/nodejs/node/blob/main/doc/changelogs/CHANGELOG_V26.md#26.12.1"
+        },
+        {
           "date": "2026-10-14",
           "type": "release",
           "summary": "维护线 26 最新 26.12.0",
@@ -34754,7 +34906,7 @@
       "sources": [
         "https://nodejs.org"
       ],
-      "lastReviewed": "2026-10-15",
+      "lastReviewed": "2026-10-24",
       "region": "both",
       "id": "nodejs",
       "name": "Node.js",
@@ -35168,6 +35320,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-22",
+          "type": "release",
+          "summary": "发布 0.3.5: relaykit/v0.3.5: feat(web): copy model names from usage log details",
+          "version": "0.3.5",
+          "source": "https://github.com/QuantumNous/new-api/releases/tag/relaykit%2Fv0.3.5"
+        },
+        {
           "date": "2026-10-09",
           "type": "release",
           "summary": "发布 0.3.0: relaykit/v0.3.0",
@@ -35192,7 +35351,7 @@
       "sources": [
         "https://github.com/QuantumNous/new-api"
       ],
-      "lastReviewed": "2026-10-10",
+      "lastReviewed": "2026-10-24",
       "region": "domestic",
       "id": "one-api",
       "name": "New API / One API",
@@ -36230,6 +36389,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-21",
+          "type": "release",
+          "summary": "发布 1.13.2: 新版本",
+          "version": "1.13.2",
+          "source": "https://github.com/opentofu/opentofu/releases/tag/v1.13.2"
+        },
+        {
           "date": "2026-10-14",
           "type": "release",
           "summary": "发布 1.12.8: 新版本",
@@ -36262,7 +36428,7 @@
       "sources": [
         "https://opentofu.org"
       ],
-      "lastReviewed": "2026-10-15",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "opentofu",
       "name": "OpenTofu",
@@ -37300,6 +37466,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-22",
+          "type": "release",
+          "summary": "发布 3.92.0: 新版本",
+          "version": "3.92.0",
+          "source": "https://github.com/payloadcms/payload/releases/tag/v3.92.0"
+        },
+        {
           "date": "2026-10-15",
           "type": "release",
           "summary": "发布 3.91.0: 新版本",
@@ -37339,7 +37512,7 @@
       "sources": [
         "https://payloadcms.com"
       ],
-      "lastReviewed": "2026-10-16",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "payload-cms",
       "name": "Payload CMS",
@@ -37351,7 +37524,7 @@
       "vendorId": "payload-inc",
       "githubUrl": "https://github.com/payloadcms/payload",
       "docsUrl": "https://payloadcms.com/docs",
-      "currentVersion": "3.91.0"
+      "currentVersion": "3.92.0"
     },
     {
       "pricing": {
@@ -37785,6 +37958,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-21",
+          "type": "release",
+          "summary": "维护线 8.5 最新 8.5.12",
+          "version": "8.5.12",
+          "source": "https://www.php.net/ChangeLog-8.php#8.5.12"
+        },
+        {
           "date": "2026-09-24",
           "type": "release",
           "summary": "维护线 8.5 最新 8.5.11",
@@ -37817,7 +37997,7 @@
       "sources": [
         "https://www.php.net"
       ],
-      "lastReviewed": "2026-09-29",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "php",
       "name": "PHP",
@@ -38753,6 +38933,13 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-10-22",
+          "type": "release",
+          "summary": "发布 11.28.8: pnpm 11.28.8",
+          "version": "11.28.8",
+          "source": "https://pnpm.io/blog/releases/11.28.8"
+        },
+        {
           "date": "2026-10-09",
           "type": "release",
           "summary": "发布 12.11.2: pnpm 12.11.2",
@@ -38791,7 +38978,7 @@
       "sources": [
         "https://pnpm.io"
       ],
-      "lastReviewed": "2026-10-10",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "pnpm",
       "name": "pnpm",
@@ -38932,15 +39119,15 @@
       "rankings": [
         {
           "systemId": "openrouter-popularity",
-          "rank": 27,
+          "rank": 31,
           "scoreLabel": "0.6%",
           "share": 0.6,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-14",
+          "asOf": "2026-10-24",
           "previousRank": 27,
           "previousShare": 0.6,
-          "previousAsOf": "2026-10-07"
+          "previousAsOf": "2026-10-14"
         }
       ],
       "sources": [
@@ -39086,6 +39273,12 @@
       ],
       "updates": [
         {
+          "date": "2026-10-22",
+          "type": "feature",
+          "summary": "pgrecon: open-source Oracle to PostgreSQL migration assessment and schema conversion",
+          "source": "https://www.postgresql.org/about/news/pgrecon-open-source-oracle-to-postgresql-migration-assessment-and-schema-conversion-3410/"
+        },
+        {
           "date": "2026-10-05",
           "type": "release",
           "summary": "发布 1.16: pg_ivm 1.16 released",
@@ -39129,7 +39322,7 @@
       "sources": [
         "https://www.postgresql.org"
       ],
-      "lastReviewed": "2026-10-06",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "postgresql",
       "name": "PostgreSQL",
@@ -39259,6 +39452,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-23",
+          "type": "release",
+          "summary": "发布 2.25.2: 新版本",
+          "version": "2.25.2",
+          "source": "https://github.com/gitroomhq/postiz-app/releases/tag/v2.25.2"
+        },
+        {
           "date": "2026-10-11",
           "type": "release",
           "summary": "发布 2.25.1: 新版本",
@@ -39284,7 +39484,7 @@
       "sources": [
         "https://postiz.com"
       ],
-      "lastReviewed": "2026-10-12",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "postiz",
       "name": "Postiz",
@@ -39877,6 +40077,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-22",
+          "type": "release",
+          "summary": "发布 25.16.0: puppeteer: v25.16.0",
+          "version": "25.16.0",
+          "source": "https://github.com/puppeteer/puppeteer/releases/tag/puppeteer-v25.16.0"
+        },
+        {
           "date": "2026-10-08",
           "type": "release",
           "summary": "发布 25.13.0: puppeteer: v25.13.0",
@@ -39902,7 +40109,7 @@
       "sources": [
         "https://pptr.dev"
       ],
-      "lastReviewed": "2026-10-10",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "puppeteer",
       "name": "Puppeteer",
@@ -39913,7 +40120,7 @@
       "descriptionMd": "Puppeteer 是 Chrome 团队维护的 Node 浏览器控制库，直连 DevTools 协议，在性能采集、PDF 打印、拦截请求等底层控制上顺手，是很多抓取与截图服务的底座。\n\n只面向 Chromium、且以 Node 为主的场景可以继续用；要跨三种引擎并跑测试断言，Playwright 的工具链更完整。\n\n跨浏览器能力弱于后来者；等待与重试要自己写，页面异步复杂时容易出现偶发失败。\n",
       "vendorId": "google",
       "githubUrl": "https://github.com/puppeteer/puppeteer",
-      "currentVersion": "25.13.0"
+      "currentVersion": "25.16.0"
     },
     {
       "pricing": {
@@ -40048,6 +40255,13 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-10-21",
+          "type": "release",
+          "summary": "发布 3.15.1: Python 3.15.1, 3.14.9 and 3.13.17 are out",
+          "version": "3.15.1",
+          "source": "https://blog.python.org/2026/10/python-3151-3149-31317/"
+        },
+        {
           "date": "2026-10-01",
           "type": "release",
           "summary": "发布 3.10.22: Python 3.10.22, 3.11.17, 3.12.15, 3.13.16 and 3.14.8 are now available!",
@@ -40100,7 +40314,7 @@
       "sources": [
         "https://www.python.org"
       ],
-      "lastReviewed": "2026-10-01",
+      "lastReviewed": "2026-10-24",
       "region": "both",
       "id": "python",
       "name": "Python",
@@ -40701,15 +40915,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 32,
-          "scoreLabel": "0.6%",
-          "share": 0.6,
+          "rank": 35,
+          "scoreLabel": "0.4%",
+          "share": 0.4,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-20",
-          "previousRank": 30,
-          "previousShare": 0.5,
-          "previousAsOf": "2026-10-19"
+          "asOf": "2026-10-24",
+          "previousRank": 32,
+          "previousShare": 0.6,
+          "previousAsOf": "2026-10-20"
         },
         {
           "systemId": "lmarena-vision",
@@ -41254,6 +41468,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-23",
+          "type": "release",
+          "summary": "发布 0.16.3: 新版本",
+          "version": "0.16.3",
+          "source": "https://github.com/rancher/fleet/releases/tag/v0.16.3"
+        },
+        {
           "date": "2026-09-18",
           "type": "release",
           "summary": "发布 0.16.2: 新版本",
@@ -41286,7 +41507,7 @@
       "sources": [
         "https://fleet.rancher.io"
       ],
-      "lastReviewed": "2026-09-19",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "rancher-fleet",
       "name": "Rancher Fleet",
@@ -43031,6 +43252,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-23",
+          "type": "release",
+          "summary": "维护线 3.4 最新 3.4.12",
+          "version": "3.4.12",
+          "source": "https://github.com/ruby/ruby/releases/tag/v3_4_12"
+        },
+        {
           "date": "2026-09-23",
           "type": "release",
           "summary": "维护线 3.4 最新 3.4.11",
@@ -43049,7 +43277,7 @@
       "sources": [
         "https://www.ruby-lang.org"
       ],
-      "lastReviewed": "2026-09-24",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "ruby",
       "name": "Ruby",
@@ -43084,6 +43312,13 @@
         "目的地覆盖与调试体验仍要核对版本；运维管道与 schema 治理需团队投入。"
       ],
       "updates": [
+        {
+          "date": "2026-10-21",
+          "type": "release",
+          "summary": "发布 1.91.1: 新版本",
+          "version": "1.91.1",
+          "source": "https://github.com/rudderlabs/rudder-server/releases/tag/v1.91.1"
+        },
         {
           "date": "2026-10-15",
           "type": "release",
@@ -43138,7 +43373,7 @@
       "sources": [
         "https://www.rudderstack.com"
       ],
-      "lastReviewed": "2026-10-16",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "rudderstack",
       "name": "RudderStack",
@@ -44208,6 +44443,12 @@
       "pitfalls": [],
       "updates": [
         {
+          "date": "2026-10-22",
+          "type": "feature",
+          "summary": "Should you use a log or a metric?",
+          "source": "https://blog.sentry.io/when-you-need-a-metric/"
+        },
+        {
           "date": "2026-10-14",
           "type": "feature",
           "summary": "Sentry's Flutter SDK 10.0: Streaming Traces and More Accurate Crash-Free Rates",
@@ -44254,7 +44495,7 @@
       "sources": [
         "https://sentry.io"
       ],
-      "lastReviewed": "2026-10-15",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "sentry",
       "name": "Sentry",
@@ -45375,6 +45616,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-22",
+          "type": "release",
+          "summary": "发布 2.1.0: @solidjs/start@2.1.0",
+          "version": "2.1.0",
+          "source": "https://github.com/solidjs/solid-start/releases/tag/%40solidjs%2Fstart%402.1.0"
+        },
+        {
           "date": "2026-10-15",
           "type": "release",
           "summary": "发布 1.4.0: @solidjs/start@1.4.0",
@@ -45400,7 +45648,7 @@
       "sources": [
         "https://start.solidjs.com"
       ],
-      "lastReviewed": "2026-10-16",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "solidstart",
       "name": "SolidStart",
@@ -45410,7 +45658,7 @@
       "officialUrl": "https://start.solidjs.com",
       "descriptionMd": "SolidStart 基于 SolidJS 细粒度响应式，提供 SSR、路由与 server functions，性能接近 vanilla JS。\n\n追求极致运行时性能、团队熟悉 Solid 响应式模型的小型全栈 App。\n\n生态与招聘远小于 React；UI 库选择面窄。\n",
       "vendorId": "solidjs",
-      "currentVersion": "1.4.0"
+      "currentVersion": "2.1.0"
     },
     {
       "pricing": {
@@ -45817,6 +46065,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-22",
+          "type": "release",
+          "summary": "维护线 4.1 最新 4.1.2",
+          "version": "4.1.2",
+          "source": "https://github.com/spring-projects/spring-boot/releases/tag/v4.1.2"
+        },
+        {
           "date": "2026-06-30",
           "type": "deprecation",
           "summary": "spring-boot 3.5 已结束安全支持（EOL 2026-06-30）",
@@ -45828,7 +46083,7 @@
       "sources": [
         "https://spring.io/projects/spring-boot"
       ],
-      "lastReviewed": "2026-07-25",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "spring-boot",
       "name": "Spring Boot",
@@ -45837,7 +46092,8 @@
       "oneLiner": "Java 企业后端标配 · auto-config/actuator · 生态庞大",
       "officialUrl": "https://spring.io/projects/spring-boot",
       "descriptionMd": "Spring Boot 简化 Spring 配置，提供 auto-configuration、actuator 与庞大生态，是企业 Java 后端事实标准。\n\n银行/政企 Java 栈、需要成熟 security/transaction/messaging 集成的后端。\n\n启动慢、内存高；serverless 形态需 GraalVM native 等额外工作。\n",
-      "vendorId": "vmware-spring"
+      "vendorId": "vmware-spring",
+      "currentVersion": "4.1"
     },
     {
       "pricing": {
@@ -46247,6 +46503,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-23",
+          "type": "release",
+          "summary": "发布 0.42.7: @astrojs/starlight@0.42.7",
+          "version": "0.42.7",
+          "source": "https://github.com/withastro/starlight/releases/tag/%40astrojs%2Fstarlight%400.42.7"
+        },
+        {
           "date": "2026-10-08",
           "type": "release",
           "summary": "发布 0.42.6: @astrojs/starlight@0.42.6",
@@ -46279,7 +46542,7 @@
       "sources": [
         "https://starlight.astro.build"
       ],
-      "lastReviewed": "2026-10-10",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "starlight",
       "name": "Starlight",
@@ -46486,15 +46749,15 @@
         },
         {
           "systemId": "openrouter-popularity",
-          "rank": 4,
-          "scoreLabel": "5.5%",
-          "share": 5.5,
+          "rank": 20,
+          "scoreLabel": "1.2%",
+          "share": 1.2,
           "period": "2026-10",
           "sourceUrl": "https://openrouter.ai/rankings",
-          "asOf": "2026-10-20",
-          "previousRank": 3,
-          "previousShare": 7.6,
-          "previousAsOf": "2026-10-19"
+          "asOf": "2026-10-24",
+          "previousRank": 4,
+          "previousShare": 5.5,
+          "previousAsOf": "2026-10-20"
         },
         {
           "systemId": "lmarena-webdev",
@@ -46855,6 +47118,12 @@
       ],
       "updates": [
         {
+          "date": "2026-10-22",
+          "type": "feature",
+          "summary": "Trends from Money20/20 2026: The rise of “hidden” financial services",
+          "source": "https://stripe.com/blog/trends-from-money20-20-2026-the-rise-of-hidden-financial-services"
+        },
+        {
           "date": "2026-10-13",
           "type": "feature",
           "summary": "The “alien” economics of AI monetization",
@@ -46882,7 +47151,7 @@
       "sources": [
         "https://stripe.com"
       ],
-      "lastReviewed": "2026-10-14",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "stripe",
       "name": "Stripe",
@@ -47167,6 +47436,12 @@
           "source": "https://supabase.com/blog/getting-started-with-the-supabase-dotnet-sdk"
         },
         {
+          "date": "2026-10-22",
+          "type": "feature",
+          "summary": "Give your Supabase app its own MCP server",
+          "source": "https://supabase.com/blog/give-your-supabase-app-its-own-mcp-server"
+        },
+        {
           "date": "2026-10-02",
           "type": "feature",
           "summary": "Supabase Select 2026 Recap",
@@ -47208,7 +47483,7 @@
       "sources": [
         "https://supabase.com"
       ],
-      "lastReviewed": "2026-10-13",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "supabase",
       "name": "Supabase",
@@ -48114,6 +48389,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-23",
+          "type": "release",
+          "summary": "发布 4.3.1: chore(release): publish 4.3.1",
+          "version": "4.3.1",
+          "source": "https://github.com/NervJS/taro/releases/tag/v4.3.1"
+        },
+        {
           "date": "2026-09-29",
           "type": "release",
           "summary": "发布 4.3.0: chore(release): publish 4.3.0",
@@ -48125,7 +48407,7 @@
       "sources": [
         "https://github.com/NervJS/taro"
       ],
-      "lastReviewed": "2026-09-30",
+      "lastReviewed": "2026-10-24",
       "region": "domestic",
       "id": "taro",
       "name": "Taro",
@@ -50821,6 +51103,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-22",
+          "type": "release",
+          "summary": "发布 8.2.1: 新版本",
+          "version": "8.2.1",
+          "source": "https://github.com/Unleash/unleash/releases/tag/v8.2.1"
+        },
+        {
           "date": "2026-09-08",
           "type": "release",
           "summary": "发布 8.2.0: 新版本",
@@ -50832,7 +51121,7 @@
       "sources": [
         "https://www.getunleash.io"
       ],
-      "lastReviewed": "2026-09-10",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "unleash",
       "name": "Unleash",
@@ -50868,6 +51157,13 @@
         "深度优化意味着对模型架构适配有先后，新模型支持需等上游跟进；多卡与集群能力弱于通用训练框架。"
       ],
       "updates": [
+        {
+          "date": "2026-10-23",
+          "type": "release",
+          "summary": "发布 0.1.910-beta: MOSS-Image, Flint & NVIDIA Bolt E4B",
+          "version": "0.1.910-beta",
+          "source": "https://github.com/unslothai/unsloth/releases/tag/v0.1.910-beta"
+        },
         {
           "date": "2026-10-13",
           "type": "release",
@@ -50923,7 +51219,7 @@
         "https://unsloth.ai",
         "https://github.com/unslothai/unsloth"
       ],
-      "lastReviewed": "2026-10-14",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "unsloth",
       "name": "Unsloth",
@@ -50934,7 +51230,7 @@
       "descriptionMd": "Unsloth 通过手写内核与重写反向传播，把常见开源模型的 LoRA/QLoRA 微调做得更省显存、更快，配套的 Colab 笔记本让单卡起步的门槛很低。\n\n手头只有一两张消费卡、想先把微调链路跑通时首选；多机多卡的大规模训练仍应回到分布式框架。\n\n深度优化意味着对模型架构适配有先后，新模型支持需等上游跟进；多卡与集群能力弱于通用训练框架。\n",
       "vendorId": "unsloth-ai",
       "githubUrl": "https://github.com/unslothai/unsloth",
-      "currentVersion": "0.1.907-beta"
+      "currentVersion": "0.1.910-beta"
     },
     {
       "pricing": {
@@ -51569,6 +51865,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-22",
+          "type": "release",
+          "summary": "发布 0.3.35: vdev-v0.3.35",
+          "version": "0.3.35",
+          "source": "https://github.com/vectordotdev/vector/releases/tag/vdev-v0.3.35"
+        },
+        {
           "date": "2026-10-13",
           "type": "release",
           "summary": "发布 0.3.31: vdev-v0.3.31",
@@ -51615,7 +51918,7 @@
       "sources": [
         "https://vector.dev"
       ],
-      "lastReviewed": "2026-10-14",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "vector-dev",
       "name": "Vector",
@@ -51840,6 +52143,12 @@
       ],
       "updates": [
         {
+          "date": "2026-10-23",
+          "type": "feature",
+          "summary": "Vercel CLI adds Spend Management",
+          "source": "https://vercel.com/changelog/vercel-cli-adds-spend-management"
+        },
+        {
           "date": "2026-10-13",
           "type": "feature",
           "summary": "Drama 3 now available on AI Gateway",
@@ -51910,7 +52219,7 @@
       "sources": [
         "https://vercel.com"
       ],
-      "lastReviewed": "2026-10-14",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "vercel",
       "name": "Vercel",
@@ -54968,6 +55277,13 @@
       ],
       "updates": [
         {
+          "date": "2026-10-22",
+          "type": "release",
+          "summary": "发布 5.0.16: 新版本",
+          "version": "5.0.16",
+          "source": "https://github.com/pmndrs/zustand/releases/tag/v5.0.16"
+        },
+        {
           "date": "2026-08-13",
           "type": "release",
           "summary": "发布 5.0.15: 新版本",
@@ -54979,7 +55295,7 @@
       "sources": [
         "https://github.com/pmndrs/zustand"
       ],
-      "lastReviewed": "2026-08-13",
+      "lastReviewed": "2026-10-24",
       "region": "overseas",
       "id": "zustand",
       "name": "Zustand",

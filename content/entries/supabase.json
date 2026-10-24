@@ -30,6 +30,12 @@
       "source": "https://supabase.com/blog/getting-started-with-the-supabase-dotnet-sdk"
     },
     {
+      "date": "2026-10-22",
+      "type": "feature",
+      "summary": "Give your Supabase app its own MCP server",
+      "source": "https://supabase.com/blog/give-your-supabase-app-its-own-mcp-server"
+    },
+    {
       "date": "2026-10-02",
       "type": "feature",
       "summary": "Supabase Select 2026 Recap",
@@ -71,7 +77,7 @@
   "sources": [
     "https://supabase.com"
   ],
-  "lastReviewed": "2026-10-13",
+  "lastReviewed": "2026-10-24",
   "region": "overseas",
   "id": "supabase",
   "name": "Supabase",

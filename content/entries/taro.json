@@ -24,6 +24,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-23",
+      "type": "release",
+      "summary": "发布 4.3.1: chore(release): publish 4.3.1",
+      "version": "4.3.1",
+      "source": "https://github.com/NervJS/taro/releases/tag/v4.3.1"
+    },
+    {
       "date": "2026-09-29",
       "type": "release",
       "summary": "发布 4.3.0: chore(release): publish 4.3.0",
@@ -35,7 +42,7 @@
   "sources": [
     "https://github.com/NervJS/taro"
   ],
-  "lastReviewed": "2026-09-30",
+  "lastReviewed": "2026-10-24",
   "region": "domestic",
   "id": "taro",
   "name": "Taro",

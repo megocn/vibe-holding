@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-22",
+      "type": "release",
+      "summary": "发布 5.0.16: 新版本",
+      "version": "5.0.16",
+      "source": "https://github.com/pmndrs/zustand/releases/tag/v5.0.16"
+    },
+    {
       "date": "2026-08-13",
       "type": "release",
       "summary": "发布 5.0.15: 新版本",
@@ -33,7 +40,7 @@
   "sources": [
     "https://github.com/pmndrs/zustand"
   ],
-  "lastReviewed": "2026-08-13",
+  "lastReviewed": "2026-10-24",
   "region": "overseas",
   "id": "zustand",
   "name": "Zustand",

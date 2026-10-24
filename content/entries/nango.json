@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-23",
+      "type": "release",
+      "summary": "发布 1.6.28-0.71.13: managed-1.6.28-0.71.13-5f6fa37a610b7ba88102f56b3b3a0ed277de299a",
+      "version": "1.6.28-0.71.13",
+      "source": "https://github.com/NangoHQ/nango/releases/tag/managed-1.6.28-0.71.13-5f6fa37a610b7ba88102f56b3b3a0ed277de299a"
+    },
+    {
       "date": "2026-10-09",
       "type": "release",
       "summary": "发布 1.6.25-0.71.12: managed-1.6.25-0.71.12-2d640b65492ee7738cd39fee3b5d7a332273ada3",
@@ -75,7 +82,7 @@
   "sources": [
     "https://www.nango.dev"
   ],
-  "lastReviewed": "2026-10-10",
+  "lastReviewed": "2026-10-24",
   "region": "overseas",
   "id": "nango",
   "name": "Nango",
@@ -86,5 +93,5 @@
   "descriptionMd": "Nango 帮产品团队在自有 SaaS 内嵌「连接客户 CRM/工单等」的集成：OAuth、字段同步与可自托管管道，开源优先。\n\n你的产品要向客户提供 Salesforce/HubSpot 类双向集成，又不想把集成当成巨型内部项目时选。\n\n这与 Zapier 给最终用户搭自动化不是同一题；连接器覆盖要以目录为准。选型前请以官网能力与定价页为准。\n",
   "vendorId": "nango-inc",
   "githubUrl": "https://github.com/NangoHQ/nango",
-  "currentVersion": "1.6.25-0.71.12"
+  "currentVersion": "1.6.28-0.71.13"
 }

@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-23",
+      "type": "release",
+      "summary": "发布 2.52.16: 新版本",
+      "version": "2.52.16",
+      "source": "https://github.com/gofiber/fiber/releases/tag/v2.52.16"
+    },
+    {
       "date": "2026-10-12",
       "type": "release",
       "summary": "发布 3.6.0: 新版本",
@@ -41,7 +48,7 @@
   "sources": [
     "https://gofiber.io"
   ],
-  "lastReviewed": "2026-10-13",
+  "lastReviewed": "2026-10-24",
   "region": "overseas",
   "id": "fiber-go",
   "name": "Fiber",

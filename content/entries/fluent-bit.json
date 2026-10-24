@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-21",
+      "type": "release",
+      "summary": "发布 5.1.5: Fluent Bit 5.1.5",
+      "version": "5.1.5",
+      "source": "https://github.com/fluent/fluent-bit/releases/tag/v5.1.5"
+    },
+    {
       "date": "2026-10-09",
       "type": "release",
       "summary": "发布 5.0.11: Fluent Bit 5.0.11",
@@ -48,7 +55,7 @@
   "sources": [
     "https://fluentbit.io"
   ],
-  "lastReviewed": "2026-10-10",
+  "lastReviewed": "2026-10-24",
   "region": "overseas",
   "id": "fluent-bit",
   "name": "Fluent Bit",

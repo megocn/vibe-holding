@@ -19,6 +19,12 @@
   ],
   "updates": [
     {
+      "date": "2026-10-22",
+      "type": "feature",
+      "summary": "Affiliate Marketing: What It Is & How to Start in 2026",
+      "source": "https://ahrefs.com/blog/affiliate-marketing/"
+    },
+    {
       "date": "2026-10-12",
       "type": "feature",
       "summary": "How ChatGPT Does Query Fan-Out (15 Million Queries Studied)",
@@ -59,7 +65,7 @@
   "sources": [
     "https://ahrefs.com"
   ],
-  "lastReviewed": "2026-10-13",
+  "lastReviewed": "2026-10-24",
   "region": "overseas",
   "id": "ahrefs",
   "name": "Ahrefs",

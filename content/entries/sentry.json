@@ -19,6 +19,12 @@
   "pitfalls": [],
   "updates": [
     {
+      "date": "2026-10-22",
+      "type": "feature",
+      "summary": "Should you use a log or a metric?",
+      "source": "https://blog.sentry.io/when-you-need-a-metric/"
+    },
+    {
       "date": "2026-10-14",
       "type": "feature",
       "summary": "Sentry's Flutter SDK 10.0: Streaming Traces and More Accurate Crash-Free Rates",
@@ -65,7 +71,7 @@
   "sources": [
     "https://sentry.io"
   ],
-  "lastReviewed": "2026-10-15",
+  "lastReviewed": "2026-10-24",
   "region": "overseas",
   "id": "sentry",
   "name": "Sentry",

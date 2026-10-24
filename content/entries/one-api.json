@@ -22,6 +22,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-22",
+      "type": "release",
+      "summary": "发布 0.3.5: relaykit/v0.3.5: feat(web): copy model names from usage log details",
+      "version": "0.3.5",
+      "source": "https://github.com/QuantumNous/new-api/releases/tag/relaykit%2Fv0.3.5"
+    },
+    {
       "date": "2026-10-09",
       "type": "release",
       "summary": "发布 0.3.0: relaykit/v0.3.0",
@@ -46,7 +53,7 @@
   "sources": [
     "https://github.com/QuantumNous/new-api"
   ],
-  "lastReviewed": "2026-10-10",
+  "lastReviewed": "2026-10-24",
   "region": "domestic",
   "id": "one-api",
   "name": "New API / One API",

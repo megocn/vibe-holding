@@ -21,6 +21,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-22",
+      "type": "release",
+      "summary": "发布 1.4.4: Bun v1.4.4",
+      "version": "1.4.4",
+      "source": "https://bun.com/blog/bun-v1.4.4"
+    },
+    {
       "date": "2026-10-10",
       "type": "release",
       "summary": "发布 1.4.3: Bun v1.4.3",
@@ -39,7 +46,7 @@
   "sources": [
     "https://bun.sh"
   ],
-  "lastReviewed": "2026-10-11",
+  "lastReviewed": "2026-10-24",
   "region": "overseas",
   "id": "bun",
   "name": "Bun",

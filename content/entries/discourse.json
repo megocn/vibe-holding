@@ -25,6 +25,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-23",
+      "type": "release",
+      "summary": "发布 2026.10.0-latest.1: 新版本",
+      "version": "2026.10.0-latest.1",
+      "source": "https://github.com/discourse/discourse/releases/tag/v2026.10.0-latest.1"
+    },
+    {
       "date": "2026-10-15",
       "type": "feature",
       "summary": "stable",
@@ -83,7 +90,7 @@
   "sources": [
     "https://www.discourse.org"
   ],
-  "lastReviewed": "2026-10-15",
+  "lastReviewed": "2026-10-24",
   "region": "overseas",
   "id": "discourse",
   "name": "Discourse",
@@ -93,5 +100,6 @@
   "officialUrl": "https://www.discourse.org",
   "descriptionMd": "Discourse 是开源论坛平台：主题式讨论、信任等级、搜索与 SEO 友好的永久链接，可官方托管也可自托管，是「可被搜索的社区知识库」常见选型。\n\n要公开/半公开问答、文档站并行、可自持数据与主题定制时优先；会员付费圈与课程社群可看 Circle，实时语音聊天看 Discord。\n\n运维与主题定制成本高于闭源 SaaS；实时语音与轻聊不是强项。\n",
   "vendorId": "discourse-inc",
-  "githubUrl": "https://github.com/discourse/discourse"
+  "githubUrl": "https://github.com/discourse/discourse",
+  "currentVersion": "2026.10.0-latest.1"
 }

@@ -23,6 +23,13 @@
   ],
   "updates": [
     {
+      "date": "2026-10-22",
+      "type": "release",
+      "summary": "发布 3.5.0: 新版本",
+      "version": "3.5.0",
+      "source": "https://github.com/altcha-org/altcha/releases/tag/v3.5.0"
+    },
+    {
       "date": "2026-10-15",
       "type": "release",
       "summary": "发布 3.4.0: 新版本",
@@ -56,7 +63,7 @@
     "https://altcha.org",
     "https://github.com/altcha-org/altcha"
   ],
-  "lastReviewed": "2026-10-16",
+  "lastReviewed": "2026-10-24",
   "region": "overseas",
   "id": "altcha",
   "name": "ALTCHA",
@@ -66,5 +73,5 @@
   "officialUrl": "https://altcha.org",
   "descriptionMd": "ALTCHA 是开源的工作量证明人机验证组件，前端 widget 与服务端校验库都能自托管，默认不发起第三方请求、不写 Cookie，也提供可选的托管服务与插件。\n\n自建可控、不愿把用户请求交给第三方验证码厂商，或有数据本地化要求时选它；代价是防护调优与运维要自己承担。\n\n它只抬高脚本成本，挡不住有算力的定向刷量；开源项目的迭代与安全响应依赖社区，生产使用前要盯紧版本与依赖更新。\n",
   "githubUrl": "https://github.com/altcha-org/altcha",
-  "currentVersion": "3.4.0"
+  "currentVersion": "3.5.0"
 }
